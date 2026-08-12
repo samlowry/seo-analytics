@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Обёртка: ставит зависимости при первом запуске и гоняет замер.
+#   ./tools/geo LT
+set -e
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$DIR"
+if [ ! -d node_modules/playwright ]; then
+  echo "Первый запуск: ставлю playwright…"
+  npm install --silent --no-audit --no-fund
+  npx playwright install chromium 2>/dev/null || true
+fi
+cd "$DIR/.."
+exec node "$DIR/geo-probe.mjs" "$@"
