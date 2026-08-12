@@ -28,17 +28,15 @@ const line = (k, v) => console.log(`  ${String(k).padEnd(26)} ${v}`);
 const hr = t => console.log(`\n${'─'.repeat(64)}\n${t}\n${'─'.repeat(64)}`);
 
 // ───────────────────────── 1. где мы на самом деле ─────────────────────────
+// ВАЖНО: истина — это то, за какую страну нас принимает САМ Mostbet
+// (заголовок server-timing: country;desc="XX"). ipinfo — только справочно:
+// на VPN-диапазонах он регулярно врёт (проверено: BR→US, IN→SG, KZ→FR).
 hr(`ЗАМЕР ИЗ: ${CC}`);
 try { R.geo = JSON.parse(sh('curl -s -m 20 https://ipinfo.io/json') || '{}'); } catch { R.geo = {}; }
-R.actualCountry = R.geo.country || '??';
-R.labelMatches = R.actualCountry === CC;
-line('заявлено', CC);
-line('фактически', `${R.actualCountry}  ${R.geo.city || ''}  ${R.geo.org || ''}`);
+R.ipinfoCountry = R.geo.country || '??';
+line('заявлено (Proton)', CC);
+line('ipinfo (справочно)', `${R.ipinfoCountry}  ${R.geo.city || ''}  ${R.geo.org || ''}`);
 line('IP', R.geo.ip || '?');
-if (!R.labelMatches) {
-  console.log(`\n  ⚠️  ВНИМАНИЕ: VPN отдаёт ${R.actualCountry}, а не ${CC}.`);
-  console.log(`      Файл будет помечен как MISMATCH. Проверь локацию и перезапусти.\n`);
-}
 
 // ───────────────────────── 2. апекс: что за сборка ─────────────────────────
 const apexRaw = sh(`curl -s -m 30 -A ${q(UA_CHROME)} -D ${q(OUT + '/h.tmp')} https://mostbet.com/`);
@@ -59,10 +57,24 @@ R.build =
   has('spa-static') || (has('id="root"') && R.apexBytes < 20000) ? 'СТАРЫЙ SPA-ШЕЛЛ (редиректит)' :
   R.apexBytes === 0 ? 'ПУСТО' : 'НЕОПОЗНАННАЯ';
 
+// ── чем нас считает сам Mostbet: это и есть истина ──
+R.mostbetCountry = (R.serverTiming || '').match(/country;desc="?([A-Z]{2})"?/)?.[1] || null;
+R.labelMatches = R.mostbetCountry ? R.mostbetCountry === CC : null;
+
 hr('АПЕКС');
 line('статус / размер', `${R.apexStatus}  ${R.apexBytes.toLocaleString('ru')} Б`);
 line('СБОРКА', R.build);
-line('server-timing', R.serverTiming || '—');
+line('MOSTBET СЧИТАЕТ НАС', R.mostbetCountry || '— (заголовка нет; на 451 его не отдают)');
+if (R.labelMatches === false) {
+  console.log(`\n  ⚠️  РАСХОЖДЕНИЕ: ты выбрал ${CC}, а Mostbet определил ${R.mostbetCountry}.`);
+  console.log(`      Это ошибка ИХ геолокации — то есть реальный юзер из ${CC} получил бы`);
+  console.log(`      обслуживание страны ${R.mostbetCountry}. Находка, а не сбой замера.\n`);
+} else if (R.mostbetCountry === null && R.apexStatus !== '200') {
+  console.log(`\n  ℹ️  Заблокировано: server-timing не отдаётся, чем нас считает Mostbet — неизвестно.\n`);
+}
+if (R.ipinfoCountry !== R.mostbetCountry && R.mostbetCountry) {
+  line('(ipinfo при этом врал)', `${R.ipinfoCountry} ≠ ${R.mostbetCountry}`);
+}
 
 // метаданные
 const pick = re => (apexRaw.match(re) || [])[1]?.trim() || null;
@@ -173,15 +185,17 @@ try {
 }
 
 // ───────────────────────── сохранение ─────────────────────────
-const name = R.labelMatches ? `geo-${CC}` : `geo-${CC}-MISMATCH-${R.actualCountry}`;
+const name = R.labelMatches === false ? `geo-${CC}-THEY-SAW-${R.mostbetCountry}` : `geo-${CC}`;
 fs.writeFileSync(`${OUT}/${name}.json`, JSON.stringify(R, null, 1));
 try { fs.unlinkSync(OUT + '/h.tmp'); } catch {}
 
 hr('ИТОГ');
+line('выбрано / Mostbet видит', `${CC} / ${R.mostbetCountry || '—'}`);
 line('сборка', R.build);
-line('редирект', R.redirected ? `→ ${R.finalHost}` : 'нет');
+line('«We are sorry»?', R.build.startsWith('BLOCK') ? '⚠️  ДА, заблокировано' : 'нет');
+line('редирект', R.redirected ? `→ ${R.finalHost}` : (R.apiRedirect.includes('"redirect":false') ? 'НЕТ — SPA рисуется на апексе' : 'нет'));
 line('hreflang на апексе', R.hreflang.length);
 line('клоакинг', R.cloaking ? 'ДА' : 'нет');
 console.log(`\n  сохранено: results/${name}.json  +  .png  +  .html`);
-if (!R.labelMatches) console.log(`  ⚠️  ГЕО НЕ СОВПАЛО: заявлено ${CC}, получено ${R.actualCountry}\n`);
+if (R.labelMatches === false) console.log(`  ⚠️  ИХ ГЕОЛОКАЦИЯ ОШИБЛАСЬ: ${CC} → определили как ${R.mostbetCountry}\n`);
 else console.log('');
