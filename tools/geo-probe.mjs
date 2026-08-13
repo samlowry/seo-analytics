@@ -52,9 +52,9 @@ const has = s => apexRaw.includes(s);
 R.build =
   R.apexStatus === '204' ? 'BLOCK-204 (пусто, как США)' :
   has('stub__title') || has('not available in your country') ? 'BLOCK-451 (заглушка We are sorry)' :
-  has('__reactRouterContext') ? 'ЛИЦЕНЗИРОВАННАЯ (React Router SSR)' :
+  has('__reactRouterContext') ? 'НОВАЯ ВЕРСИЯ (React Router SSR, редиректа нет)' :
   has('_next/static') ? 'NEXT.JS' :
-  has('spa-static') || (has('id="root"') && R.apexBytes < 20000) ? 'СТАРЫЙ SPA-ШЕЛЛ (редиректит)' :
+  has('spa-static') || (has('id="root"') && R.apexBytes < 20000) ? 'СТАРАЯ ВЕРСИЯ (SPA-шелл)' :
   R.apexBytes === 0 ? 'ПУСТО' : 'НЕОПОЗНАННАЯ';
 
 // ── чем нас считает сам Mostbet: это и есть истина ──
@@ -113,7 +113,7 @@ line('robots.txt', R.robots);
 line('sitemap.xml', R.sitemap);
 line('локали /en /pl /pt /de', Object.entries(R.localePaths).map(([k, v]) => `${k}:${v.split('|')[0]}`).join('  '));
 
-// ───────────────────────── 4. клоакинг: Googlebot vs Chrome ─────────────────────────
+// ──────────────── 4. подмена по классу клиента: Googlebot vs Chrome ────────────────
 R.asGooglebot = code('https://mostbet.com/', UA_GBOT);
 R.asChrome = code('https://mostbet.com/', UA_CHROME);
 R.asNoUA = sh(`curl -s -o /dev/null -w "%{http_code}|%{size_download}" -m 25 -H "User-Agent:" https://mostbet.com/`) || '?|?';
