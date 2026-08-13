@@ -356,7 +356,7 @@ possible, generally at least 1 year».
 
 | альтернат | что не так |
 |---|---|
-| `x-default` → `mostbett.bet` | посторонний домен, в его sitemap ровно **6 URL**, вместо самого апекса |
+| `x-default` → `mostbett.bet` | фолбэком назначен не апекс, а отдельный домен, в sitemap которого ровно **6 URL** |
 | `cz-CZ` | `cz` — не код языка по ISO 639-1 (чешский — `cs`) |
 | `by-BY` | `by` — не код языка (белорусский — `be`) |
 | `az-AZ` → `mostbetaz.biz` | не страница: `301` → `http://mostbetazerbaycangiris.net/` |
