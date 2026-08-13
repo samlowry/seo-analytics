@@ -238,8 +238,10 @@ guidebook. Через заявку — по Search Console. И есть втор
 Когда карта есть, клеить 301 нужно поштучно, на релевантные страницы регионалок,
 и ни в коем случае не сваливать всё на один домен:
 
-> «Don't redirect many old URLs to one irrelevant single URL destination… might
-> be treated as a soft 404 error.»
+> «Don't redirect many old URLs to one irrelevant single URL destination, such as
+> the home page of the new site. This can confuse users and might be treated as a
+> `soft 404` error.»
+> — [site move with URL changes](https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes)
 
 Где релевантного соответствия нет — не клеить вовсе. Кандидаты в
 консолидирующий домен, если он всё же понадобится, все с изъяном: `mostbett.bet`
@@ -406,6 +408,10 @@ URL, что назван в аннотации, а он оказывается �
 ссылки на все версии плюс взаимный hreflang. Регионалки этому уже удовлетворяют,
 им не хватает только самой разметки.
 
+Классификация `JavaScript location` как **постоянного** редиректа перепроверена
+отдельно: он стоит в таблице Permanent redirects вместе с 301, 308 и мгновенным
+`meta refresh`, а не среди временных.
+
 **Про выбор кода 301/302 Google не говорит ничего** — гео-редиректы не увязаны ни
 с одним кодом. Есть только механика последствий:
 
@@ -430,9 +436,16 @@ URL, что назван в аннотации, а он оказывается �
 **Хватает ли hreflang на нередиректящей версии.** Это именно тот механизм,
 который Google называет решением проблемы locale-adaptive:
 
-> «We do **not** attempt to vary the crawler source used for a single site…
-> Therefore, make sure you explicitly tell Google about any locale or language
-> variation that your site exposes.»
+> «the default IP addresses of the Googlebot crawler appear to be based in the
+> USA» … «We recommend using separate locale URL configurations and annotating
+> them with `rel="alternate"` hreflang annotations».
+> — [locale-adaptive pages](https://developers.google.com/search/docs/specialty/international/locale-adaptive-pages)
+
+*(В прошлой версии здесь стояла цитата «We do not attempt to vary the crawler
+source used for a single site». При сверке она на странице не нашлась — вероятно,
+из старой редакции документа. Заменена на проверенную формулировку оттуда же,
+смысл тот же: краулер ходит с американских адресов и сам локали не перебирает,
+поэтому о них надо сообщать разметкой.)*
 
 Гарантий он не даёт («Google might not crawl, index, or rank all your content for
 different locales») и требует одновременно взаимности («If two pages don't both
