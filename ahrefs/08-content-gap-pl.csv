@@ -1,0 +1,37 @@
+// Пункт 8: Content Gap mostbet-pl.com против mostbet.net.pl, страна PL, 2026-08-13.
+// Отдельный отчёт не понадобился: у mostbet-pl.com ноль ключей и ноль трафика,
+// поэтому «разрыв» = весь список конкурента целиком. Это и есть ТЗ на контент для Польши.
+// Ни одного небрендового запроса у конкурента тоже нет — весь их польский трафик брендовый.
+// volume — месячный, cpc в центах USD, kd — keyword difficulty.
+keyword,competitor_position,volume,competitor_traffic,competitor_url,cpc_cents,kd,is_branded
+mostbet casino,2,27000,3893,https://mostbet.net.pl/,111,50,да
+mostbet kasyno,1,5800,2121,https://mostbet.net.pl/,120,48,да
+mostbet aplikacja,2,3300,491,https://mostbet.net.pl/,102,43,да
+мостбет пл,4,4000,378,https://mostbet.net.pl/link2/,98,1,да
+mostbet kod promocyjny,2,1400,275,https://mostbet.net.pl/promokody/,69,55,да
+mostbet bonus bez depozytu,2,1100,165,https://mostbet.net.pl/promo/30-free-spins/,79,58,да
+mostbet kod promocyjny bez depozytu,6,1500,148,https://mostbet.net.pl/promo/30-free-spins/,63,53,да
+mostbet opinie,2,800,123,https://mostbet.net.pl/,201,50,да
+mastbet,1,100,108,https://mostbet.net.pl/,72,35,да
+mostbet aviator,1,250,91,https://mostbet.net.pl/aviator/,71,34,да
+mostbet polska,4,900,85,https://mostbet.net.pl/link2/,118,3,да
+mostbet bonus,4,700,79,https://mostbet.net.pl/promo/30-free-spins/,65,48,да
+mostbet 30 free spins,1,100,48,https://mostbet.net.pl/promo/30-free-spins/,68,55,да
+mostbet com,1,100,44,https://mostbet.net.pl/,87,56,да
+мост бет,2,300,41,https://mostbet.net.pl/,97,58,да
+mostbet partners,2,250,40,https://mostbet.net.pl/program-partnerski/,296,58,да
+mostbet casino login,1,100,38,https://mostbet.net.pl/,102,53,да
+mostbet apk,7,700,35,https://mostbet.net.pl/,105,63,да
+mostbet casino opinie,3,150,20,https://mostbet.net.pl/,108,50,да
+mostbet online casino,1,50,19,https://mostbet.net.pl/,,36,да
+mostbet casino bonus,2,80,19,https://mostbet.net.pl/promo/30-free-spins/,83,58,да
+mostbet logowanie,1,50,16,https://mostbet.net.pl/,89,63,да
+mostbet casino no deposit bonus,3,70,8,https://mostbet.net.pl/promo/30-free-spins/,88,58,да
+mostbet kod promocyjny 2023,6,70,4,https://mostbet.net.pl/promokody/,,22,да
+mostbet online,5,40,3,https://mostbet.net.pl/link2/,96,0,да
+mostbet promo code,20,350,1,https://mostbet.net.pl/promokody/,63,60,да
+mostbet.com,2,10,1,https://mostbet.net.pl/,87,70,да
+mostbet kod promocyjny 2025,11,10,0,https://mostbet.net.pl/promokody/,88,35,да
+мостбет польша,2,0,0,https://mostbet.net.pl/,125,15,да
+mostbet-pl,3,0,0,https://mostbet.net.pl/link2/,60,36,да
+mostbet.com вход,1,0,0,https://mostbet.net.pl/,153,64,да

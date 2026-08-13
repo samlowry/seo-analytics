@@ -1,0 +1,36 @@
+// Site Explorer -> Batch Analysis, замер 2026-08-13, mode=subdomains (апекс — mode=domain).
+// Три редирект-домена сетки идут парами с целями редиректа, как и требовалось в 7-бис.
+// org_cost в центах USD. group: network=сетка pid=35818, redirect_target=цель редиректа сетки,
+// ours=наши сайты pid=414669, brand=домены бренда, third=третий партнёр pid=8708
+group,domain,domain_rating,url_rating,refdomains,refdomains_dofollow,backlinks,org_traffic,org_cost_cents,org_keywords,org_kw_top3,top_country,ahrefs_rank
+brand,guidebook.mostbet.com,73.0,11.0,3926,2602,46405,131805,9017954,1021,687,bd:67418,52769
+network,mostbet.net.in,38.0,18.0,1796,911,26841,50407,1387130,232,170,in:47110,1838498
+brand,m.mostbet.com,73.0,0.0,1996,1027,7199,22642,1538792,641,301,ru:3571,52769
+brand,mostbet.com (без поддоменов),73.0,8.0,8241,5769,42363,18208,1079112,688,400,cz:2775,52769
+network,mostbetbd.asia,22.0,7.0,1971,675,8820,14544,301839,246,166,bd:13305,7339999
+network,mostbet.net.pl,56.0,20.0,2724,1206,102161,10551,1048858,202,87,pl:8745,401574
+third,mostbet.bet,43.0,4.8,1504,188,5658,9701,550877,267,78,uz:3918,1149736
+network,mostbet.net.ua,31.0,6.0,782,234,2791,1289,94682,114,47,ua:905,3531743
+network,mostbet.com.pk,42.0,7.0,1118,637,30112,1259,26640,88,42,pk:662,1352699
+network,mostbet.co.cz,77.0,13.0,1371,777,63939,802,68100,29,11,cz:728,23327
+network,mostbetbrasil.lat,30.0,12.0,894,300,26538,335,48637,30,10,br:283,4032805
+network,mostbet1hu.bet,8.0,9.0,702,189,2141,133,7710,1,1,hu:133,21630414
+network,mostbetnp1.bet,7.0,4.6,433,12,468,47,234,3,3,np:47,23944587
+network,mostbetma1.bet,12.0,4.7,831,45,1325,37,786,13,1,ma:32,15075949
+redirect_target,mostbettr.asia,32.0,5.0,841,342,86932,12,164,1,1,tr:12,3283384
+network,mostbetkg.net,26.0,7.0,1033,203,5943,3,25,4,1,uz:3,5933825
+network,mostkupon.tr,43.0,15.0,823,377,194808,0,0,0,0,,1152390
+network,mostbetportugal.biz,13.0,6.0,674,136,7574,0,0,0,0,,13538101
+network,mostbetaz.biz,31.0,10.0,1425,615,161765,0,0,0,0,,3682491
+redirect_target,mostbetazerbaycangiris.net,30.0,10.0,2073,1226,158981,0,0,0,0,,3822164
+network,mostbet1-uz.bet,21.0,8.0,568,86,1857,0,0,0,0,,7919411
+network,mostbet.com.gr,6.0,4.8,318,10,994,0,0,0,0,,25954442
+network,mostbet1.it,10.0,4.5,445,8,812,0,0,0,0,,17942873
+network,mostbet.co.de,74.0,4.6,0,0,0,0,0,0,0,,46579
+network,mostbett.com.kz,15.0,5.0,503,160,1213,0,0,0,0,,12095897
+redirect_target,mostbetkazinokazakhstan.com,19.0,4.8,1216,551,2822,0,0,0,0,,8750143
+network,mostbetby.bet,0.0,5.0,585,8,1016,0,0,0,0,,169172367
+network,mostbett.bet (x-default),5.0,6.0,563,12,744,0,0,0,0,,27886106
+ours,mostbet-pl.com,17.0,4.8,997,525,1563,0,0,0,0,,10901531
+ours,mostbet-hu.com,15.0,4.5,619,158,898,0,0,0,0,,11923835
+ours,mostbet-cz.com,0.1,0.0,453,31,745,0,0,0,0,,83852671

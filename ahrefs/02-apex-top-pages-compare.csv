@@ -1,0 +1,63 @@
+// Site Explorer -> Organic search -> Top pages, mode=domain (без поддоменов)
+// date=2026-08-13, date_compared=2026-02-13, сортировка по трафику «сейчас», топ-60
+// value в центах USD. status: both = была и есть, left = появилась, right = потеряна
+url,sum_traffic,sum_traffic_prev,keywords,keywords_prev,top_keyword,top_keyword_country,top_keyword_best_position,status,value,value_prev
+https://mostbet.com/,17402,103682,572,482,mostbet casino,CZ,1,both,1077573,8750366
+https://mostbet.com/?login=1,206,745,113,73,mostbet online,AZ,6,both,15400,41436
+https://mostbet.com/casino,124,1739,143,139,мостбет узбекистан,UZ,10,both,12023,152611
+https://mostbet.com/app?platform=android,80,306,86,124,mostbet app,LK,4,both,6632,18221
+http://mostbet.com/?login=1,72,,5,,mostbet giriş yap,TR,3,left,862,
+https://mostbet.com/casino/provider/Gamebeat,57,,12,,mostbet casino,UZ,12,left,1040,
+https://mostbet.com/app,44,25,59,36,mostbet azerbaycan yukle,US,6,both,1360,638
+https://mostbet.com/?registration=1,35,250,19,7,mostbet registration,CZ,3,both,2610,37471
+http://mostbet.com/login=1,27,,1,,mostbet login india,IN,6,left,674,
+https://mostbet.com/casino/play/demo/161172,25,,11,,mostbet aviator demo,US,5,left,1873,
+https://mostbet.com/live-casino,22,283,49,57,mostbet live casino,US,1,both,1555,27295
+https://mostbet.com/live,16,257,39,53,most bet.com,IN,9,both,2952,32433
+https://mostbet.com/poker,15,,10,,mostbet aviator,CZ,5,left,2682,
+https://mostbet.com/promo/bonus,7,0,4,4,mostbet bonus,MA,3,both,558,1
+https://mostbet.com/casino/provider/Games%20global,7,0,3,2,mostbet online,AZ,17,both,243,0
+https://mostbet.com/casino/slots,7,12,7,18,мостбет слоты,RU,5,both,,362
+https://mostbet.com/?cwlt=btrws,7,,4,,mostbet официальный сайт,RU,14,left,,
+https://mostbet.com/?_locale=es,7,,7,,мостбет официальный сайт,UZ,10,left,420,
+https://mostbet.com/android,6,,1,,mostbet apk download,RU,6,left,,
+https://mostbet.com/fast-games,6,44,3,4,mostbet game,BD,9,both,96,886
+https://mostbet.com/live?_locale=es_AG,6,,5,,mostbet live casino,BD,8,left,144,
+https://mostbet.com/live-casino/35201,6,,5,,mostbet.com,AZ,1,left,202,
+https://mostbet.com/rules,3,0,1,1,mostbet rules,RU,1,both,,
+https://mostbet.com/contacts,3,21,20,19,mostbet contact,TR,1,both,16,13
+https://mostbet.com/promo/no_depozit_bonus,2,55,2,7,mostbet free spin,NL,9,both,96,2393
+https://mostbet.com/pregame,2,76,48,54,mostbet official website,RU,9,both,189,23351
+https://mostbet.com/sport,1,0,5,6,mostbet official site,RU,8,both,,3
+https://mostbet.com/sport?lc=3&from_left_menu=&ss=all,1,0,3,3,mostbet uz,AF,8,both,,0
+https://mostbet.com/bonus-progress,1,0,4,6,мостбет официальный сайт вход,UZ,8,both,15,5
+https://mostbet.com/promo/bonuses,1,136,5,9,mostbet бонусы,US,3,both,,438
+https://mostbet.com/aviator?registration=1,1,0,1,1,mostbet aviator,BR,10,both,96,0
+https://mostbet.com/promo,1,5,3,10,mostbet .com,RU,6,both,5,90
+https://mostbet.com/casino/lottery,1,0,1,7,mostbet jackpot,US,8,both,,2
+https://mostbet.com/about,1,13,2,13,bookmaker company mostbet,UA,2,both,,401
+https://mostbet.com/virtual-sport,0,0,1,2,www mostbet com,NL,1,both,,0
+https://mostbet.com/casino/roulette,0,2,1,6,mostbet european roulette,GB,10,both,,40
+https://mostbet.com/app?platform=ios&registration=1,0,,6,,mostbet app ios,TR,9,left,,
+https://mostbet.com/spa?rid=m3xelXpI&registration=1,0,,1,,mostbet sito ufficiale,NL,5,left,,
+https://mostbet.com/live?_locale=hi,0,2,5,4,mostbet com,NP,8,both,3,0
+https://mostbet.com/promo/casino-cashback,0,2,1,1,mostbet cashback,RU,1,both,,
+https://mostbet.com/promo/bet_insurance,0,2,1,1,what is insure in mostbet,RU,3,both,,
+https://mostbet.com/promo/game_of_the_day?_locale=pl,0,0,1,1,мостбет ком,NL,6,both,,
+https://mostbet.com/profile/refill,0,0,2,1,www.mostbet bd.com/profile /refill,BD,1,both,7,0
+https://mostbet.com/casino/provider/BGaming,0,,2,,mostbet,GH,10,left,0,
+https://mostbet.com/promocoes,0,0,1,2,mostbet com موقع رسمي,RU,10,both,,
+https://mostbet.com/sport?has_stream=,0,0,1,4,betting company mostbet.com,RU,9,both,,1
+https://mostbet.com/faq,0,0,6,3,mostbet com,NP,7,both,3,1
+https://mostbet.com/sport?login=1&ct=3&hlt=true&sp=1,0,,1,,mostbet com login,RU,9,left,,
+https://mostbet.com/promo/loyalty,0,,2,,mostbet coin nedir,TR,1,left,13,
+https://mostbet.com/live-casino/roulette,0,,1,,mostbet european roulette,GB,6,left,,
+https://mostbet.com/line/12144849/,0,0,1,1,mostbet zambia,ZM,1,both,,
+https://mostbet.com/casino?registration=1,0,0,1,4,мостбет ком,RU,10,both,,7
+https://mostbet.com/casino/play/real/178868,0,,1,,mostbet.com казино,KZ,4,left,,
+https://mostbet.com/live?_locale=uk,0,7,3,12,мостбет лайв,US,8,both,0,102
+https://mostbet.com/live-casino/poker,0,,1,,mostbet.com,LK,7,left,,
+https://mostbet.com/app?platform=ios,0,,7,,mostbet تحميل لنظام ios,NL,9,left,,
+https://mostbet.com/casino/new,0,8,5,15,мостбет ком,RU,9,both,,167
+https://mostbet.com/aviator,0,1787,3,30,aviator oyna mostbet,TR,8,both,0,85881
+https://mostbet.com/sport?sp=13&ch=88,0,,1,,betting company mostbet com,GB,2,left,,

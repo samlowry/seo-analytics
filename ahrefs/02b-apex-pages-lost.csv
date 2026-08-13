@@ -1,0 +1,47 @@
+// Тот же отчёт, отсортированный по трафику «6 месяцев назад» — карта для 301-переклейки.
+// status=right — страница выпала из выдачи между 2026-02-13 и 2026-08-13.
+url_prev,url_now,sum_traffic_prev,sum_traffic_now,keywords_prev,keywords_now,top_keyword_prev,top_keyword_country_prev,value_prev_cents,status
+https://mostbet.com/,https://mostbet.com/,103682,17402,482,572,mostbet,DE,8750366,both
+https://mostbet.com/aviator,https://mostbet.com/aviator,1787,0,30,3,mostbet aviator,IN,85881,both
+https://mostbet.com/casino,https://mostbet.com/casino,1739,124,139,143,mostbet casino,IN,152611,both
+https://mostbet.com/?login=1,https://mostbet.com/?login=1,745,206,73,113,mostbet login,PL,41436,both
+https://mostbet.com/app?platform=android,https://mostbet.com/app?platform=android,306,80,124,86,mostbet app,IN,18221,both
+https://mostbet.com/?registration=6,,285,,24,,mostbet register,BD,2246,right
+https://mostbet.com/live-casino,https://mostbet.com/live-casino,283,22,57,49,mostbet,US,27295,both
+https://mostbet.com/live,https://mostbet.com/live,257,16,53,39,mostbet,US,32433,both
+https://mostbet.com/?registration=1,https://mostbet.com/?registration=1,250,35,7,19,mostbet registration,DE,37471,both
+https://mostbet.com/promo/bonuses,https://mostbet.com/promo/bonuses,136,1,9,5,mostbet registration bonus,UA,438,both
+https://mostbet.com/pregame,https://mostbet.com/pregame,76,2,54,48,mostbet,US,23351,both
+https://mostbet.com/promo/no_depozit_bonus,https://mostbet.com/promo/no_depozit_bonus,55,2,7,2,mostbet casino no deposit bonus,UA,2393,both
+https://mostbet.com/fast-games,https://mostbet.com/fast-games,44,6,4,3,mostbet games,IN,886,both
+https://mostbet.com/app,https://mostbet.com/app,25,44,36,59,mostbet app download,LK,638,both
+https://mostbet.com/contacts,https://mostbet.com/contacts,21,3,19,20,mostbet office in india,IN,13,both
+https://mostbet.com/casino/pl,,18,,15,,mostbet pl,PL,1708,right
+http://mostbet.com/register/,,16,,1,,mostbet register,US,5873,right
+https://mostbet.com/about,https://mostbet.com/about,13,1,13,2,mostbet.com,AZ,401,both
+https://mostbet.com/casino/slots,https://mostbet.com/casino/slots,12,7,18,7,mostbet.com казино,UZ,362,both
+https://mostbet.com/esports/line/4191626,,11,,1,,mostbet.com,AZ,396,right
+https://mostbet.com/live-casino/11474,,11,,1,,mostbet.com,AZ,396,right
+https://mostbet.com/casino/new,https://mostbet.com/casino/new,8,0,15,5,mostbet.com казино,UZ,167,both
+https://mostbet.com/live?_locale=uk,https://mostbet.com/live?_locale=uk,7,0,12,3,mostbet.com,UZ,102,both
+https://mostbet.com/promo,https://mostbet.com/promo,5,1,10,3,mostbet.com,BD,90,both
+https://mostbet.com/sport?t=1&lc=45&lsc=4793&from_left_menu=&ss=all,,4,,2,,mostbet.com,UZ,87,right
+https://mostbet.com/live-casino/new,,3,,9,,mostbet live casino,US,1,right
+https://mostbet.com/casino/roulette,https://mostbet.com/casino/roulette,2,0,6,1,mostbet.com казино,UZ,40,both
+https://mostbet.com/live?_locale=hi,https://mostbet.com/live?_locale=hi,2,0,4,5,mostbet live,DE,0,both
+https://mostbet.com/promo/casino-cashback,https://mostbet.com/promo/casino-cashback,2,0,1,1,mostbet cashback,RU,,both
+https://mostbet.com/promo/bet_insurance,https://mostbet.com/promo/bet_insurance,2,0,1,1,what is insure in mostbet,RU,,both
+https://mostbet.com/casino/play/demo/32271,,2,,1,,mostbet demo,TR,16,right
+https://mostbet.com/promo/referral-program,,2,,3,,mostbet referral code,RU,0,right
+https://mostbet.com/promo/free-money,,2,,8,,mostbet.com вход,RU,43,right
+https://mostbet.com/casino/provider/PragmaticPlay,,2,,4,,mostbet.com казино,UZ,43,right
+https://mostbet.com/promo/casino-loyalty,,1,,3,,mostbet.com casino,BD,13,right
+https://mostbet.com/app/download,,1,,1,,mostbet.com indir,AZ,49,right
+https://mostbet.com/toto/45?_locale=az,,1,,2,,mostbet az 45,AZ,22,right
+https://mostbet.com/toto/334,,0,,1,,mostbetcom,UZ,,right
+https://mostbet.com/sport?t=1&ss=all,,0,,3,,mostbet com موقع رسمي,UA,0,right
+https://mostbet.com/esports,,0,,1,,mostbet dota 2,GB,,right
+https://mostbet.com/promo/bonuses?_locale=uk,,0,,1,,mostbet sito ufficiale,UA,,right
+https://mostbet.com/sport?lc=11&from_left_menu=&ss=all,,0,,2,,mostbet.com,RU,,right
+https://mostbet.com/line/12069513/,,0,,1,,mostbet.com,PL,0,right
+https://mostbet.com/toto/215?_locale=uz,,0,,2,,mostbet com,AZ,0,right
