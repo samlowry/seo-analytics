@@ -119,7 +119,7 @@ R.asChrome = code('https://mostbet.com/', UA_CHROME);
 R.asNoUA = sh(`curl -s -o /dev/null -w "%{http_code}|%{size_download}" -m 25 -H "User-Agent:" https://mostbet.com/`) || '?|?';
 R.cloaking = R.asGooglebot !== R.asChrome;
 
-hr('КЛОАКИНГ (одинаковый IP, разный User-Agent)');
+hr('ПОДМЕНА ПО USER-AGENT (одинаковый IP, разный клиент)');
 line('Chrome', R.asChrome);
 line('без UA', R.asNoUA);
 line('Googlebot', R.asGooglebot);
@@ -195,7 +195,7 @@ line('сборка', R.build);
 line('«We are sorry»?', R.build.startsWith('BLOCK') ? '⚠️  ДА, заблокировано' : 'нет');
 line('редирект', R.redirected ? `→ ${R.finalHost}` : (R.apiRedirect.includes('"redirect":false') ? 'НЕТ — SPA рисуется на апексе' : 'нет'));
 line('hreflang на апексе', R.hreflang.length);
-line('клоакинг', R.cloaking ? 'ДА' : 'нет');
+line('подмена по UA', R.cloaking ? 'ДА' : 'нет');
 console.log(`\n  сохранено: results/${name}.json  +  .png  +  .html`);
 if (R.labelMatches === false) console.log(`  ⚠️  ИХ ГЕОЛОКАЦИЯ ОШИБЛАСЬ: ${CC} → определили как ${R.mostbetCountry}\n`);
 else console.log('');
