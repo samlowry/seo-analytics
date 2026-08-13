@@ -508,8 +508,16 @@ source used for a single site». При сверке она на страниц�
 
 Гарантий он не даёт («Google might not crawl, index, or rank all your content for
 different locales») и требует одновременно взаимности («If two pages don't both
-point to each other, the tags will be ignored»), самоссылки, абсолютных URL и
-обрабатываемого ответа от каждого участника. Последнее у текущей конструкции и
+point to each other, the tags will be ignored»), самоссылки, полных URL и
+обрабатываемого ответа от каждого участника. Про URL дословно:
+
+> «Alternate URLs must be fully-qualified, including the transport method
+> (http/https), so: `https://example.com/foo`, **not** `//example.com/foo` or
+> `/foo`»
+> — [localized versions](https://developers.google.com/search/docs/specialty/international/localized-versions)
+
+(Этому требованию текущий блок на апексе, кстати, соответствует: все 21 адреса
+записаны полностью, с `https://`.) Последнее у текущей конструкции и
 ломается: аннотация на URL, отдающий `204` или `451`, бессмысленна — взаимность
 подтвердить некому.
 
