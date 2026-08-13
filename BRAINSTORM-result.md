@@ -249,12 +249,69 @@ VPN-датацентры. Не подтверждается: на одном и 
 
    Почему для нас удобнее карта: при 50 сайтах набор в `<head>` — это 50 строк на
    каждой странице каждого сайта, и любое изменение состава надо выкатывать
-   везде. В XML-карте то же самое лежит **в одном файле**, причём один файл может
-   описывать URL **разных доменов** — при условии, что владение всеми доменами
-   подтверждено в Search Console. Меняется состав рынков — правится один файл.
-4. **`x-default`** поставить на сильнейшую регионалку либо не ставить вовсе. На
-   апекс — нельзя: это языковой фолбэк («when no other language/region matches
-   the user's browser setting»), а не юрисдикционный.
+   везде. В XML-карте то же самое лежит **в одном файле**. Меняется состав
+   рынков — правится один файл.
+
+   **Как именно это выглядит и куда кладётся.** Файл — обычный `sitemap.xml`, но
+   с дополнительным пространством имён `xhtml`. У каждого `<url>` перечисляются
+   все его языковые версии, **включая его самого**:
+
+   ```xml
+   <?xml version="1.0" encoding="UTF-8"?>
+   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+           xmlns:xhtml="http://www.w3.org/1999/xhtml">
+     <url>
+       <loc>https://mostbet-pl.com/</loc>
+       <xhtml:link rel="alternate" hreflang="pl-PL" href="https://mostbet-pl.com/"/>
+       <xhtml:link rel="alternate" hreflang="cs-CZ" href="https://mostbet-cz.com/"/>
+       <xhtml:link rel="alternate" hreflang="hu-HU" href="https://mostbet-hu.com/"/>
+     </url>
+     <url>
+       <loc>https://mostbet-cz.com/</loc>
+       <xhtml:link rel="alternate" hreflang="pl-PL" href="https://mostbet-pl.com/"/>
+       <xhtml:link rel="alternate" hreflang="cs-CZ" href="https://mostbet-cz.com/"/>
+       <xhtml:link rel="alternate" hreflang="hu-HU" href="https://mostbet-hu.com/"/>
+     </url>
+   </urlset>
+   ```
+
+   Обрати внимание: **блок `<xhtml:link>` у каждого URL одинаковый и включает сам
+   этот URL.** Это и есть самоссылка, которой сейчас нет ни у кого в схеме.
+
+   Требование к пространству имён дословно: «Specify the xhtml namespace as
+   follows: `xmlns:xhtml="http://www.w3.org/1999/xhtml"`»
+   ([localized versions](https://developers.google.com/search/docs/specialty/international/localized-versions)),
+   там же лежит полный рабочий пример на трёх версиях (en / de / de-ch).
+
+   **Куда класть файл.** Правило Google: «Upload the sitemap to a directory on
+   your site that the sitemap is applicable to», и «a sitemap can only contain
+   descendant URLs of the directory where the sitemap is hosted from»
+   ([управление картами сайта](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap)).
+   То есть по умолчанию карта покрывает только тот домен и ту папку, где лежит.
+
+   Отсюда практическая схема для нас:
+
+   1. подтвердить владение **всеми** региональными доменами в Search Console;
+   2. положить `sitemap.xml` в корень каждого домена — карта каждого домена
+      описывает свои URL и перечисляет для них альтернаты на остальных доменах;
+   3. сослаться на карту из `robots.txt` каждого домена строкой
+      `Sitemap: https://<домен>/sitemap.xml` и отправить её в Search Console.
+
+   Один файл на всех технически возможен (альтернаты в разных доменах Google
+   разрешает прямо: «Alternate URLs do not need to be in the same domain»), но
+   тогда он должен лежать на подтверждённом домене и покрывать чужие URL —
+   схема более хрупкая. **Надёжнее одна карта на домен с одинаковым блоком
+   альтернатов**: правится всё равно генератором из одного конфига, а сломать
+   верификацию нечем.
+4. **`x-default`.** Напоминание, где он сейчас: в блоке на апексе `x-default`
+   указывает на **`https://mostbett.bet/`** — отдельный домен с шестью URL в
+   sitemap, принадлежность которого не установлена (владелец называет его нашим,
+   замер показывает тот же шаблон, что у сетки `pid=35818`). То есть фолбэком для
+   всего бренда сейчас назначен сайт из шести страниц неясного происхождения.
+
+   В нашем кластере `x-default` ставить на сильнейшую регионалку либо не ставить
+   вовсе. На апекс — нельзя: это языковой фолбэк («when no other language/region
+   matches the user's browser setting»), а не юрисдикционный.
 5. **Сделать нормальный вход для человека:** видимые переключатели языка и региона
    (Google прямо рекомендует их как компенсацию авторедиректа) плюс путь
    восстановления для пользователя, пришедшего по мёртвой закладке. Кнопку
