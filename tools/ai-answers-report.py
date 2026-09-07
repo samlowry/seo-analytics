@@ -287,6 +287,10 @@ def build_02(device='desktop'):
         a['brands'] = brands_in(a.get('answer') or '') if a.get('ai_present') else []
         a['cls'] = cls.get((a['cc'], a['query'].strip().lower()))
         a['geo'] = geo_code(a['cc'], a.get('answer') or '') if a.get('ai_present') else ''
+        c = a['cls']
+        if c and a.get('ai_present'):
+            if c['mostbet_mentioned']: c['bucket'] = 'negative' if c['mostbet_sentiment'] == 'negative' else ('ok' if c['mostbet_sentiment'] == 'positive' else 'neutral')
+            else: c['bucket'] = 'absent' if a['brands'] else 'n/a'
     L = []; A = L.append
     A(f'# AI-ответы Google по Mostbet: что отвечает Google в KZ, AZ, UZ\n')
     A(f'Снято {today} через XMLRiver (`ai=1`, гео страны, язык ru, {device}). Сырые XML — `results/ai/xmlriver/` (в git не хранятся), '
@@ -317,12 +321,19 @@ def build_02(device='desktop'):
     A('')
     if cls:
         A('### Корзины\n')
-        A('| страна | бренд отсутствует | бренд с негативом/рисками | бренд подан нормально | не про бренд |\n|---|---|---|---|---|')
+        A('Корзина назначается кодом: упомянут → по вердикту агента (негатив / нейтрально / позитив), проверенному вторым агентом-опровергателем; '
+          'не упомянут → «отсутствует», если в ответе названы другие БК, иначе «не про бренд» (определения, инструкции, закон без брендов).\n')
+        A('| страна | ответов | **отсутствует** (другие БК названы) | негатив | нейтрально | позитив | не про бренд | «только легальные» в рамке |\n|---|---|---|---|---|---|---|---|')
         for cc in CC:
             p = [a for a in ans if a['cc'] == cc and a.get('ai_present') and a.get('cls')]
             if not p: continue
-            cnt = Counter(a['cls']['bucket'] for a in p)
-            A(f"| {cc} | {cnt.get('absent', 0)} | {cnt.get('negative', 0)} | {cnt.get('ok', 0)} | {cnt.get('n/a', 0)} |")
+            cnt = Counter(a['cls']['bucket'] for a in p); lo = sum(1 for a in p if a['cls'].get('legal_only_framing'))
+            A(f"| {cc} | {len(p)} | **{cnt.get('absent', 0)}** | {cnt.get('negative', 0)} | {cnt.get('neutral', 0)} | {cnt.get('ok', 0)} | {cnt.get('n/a', 0)} | {lo} ({100 * lo // len(p)} %) |")
+        A('')
+        A('### Негатив и нейтральные упоминания — с цитатами\n')
+        A('| страна | запрос | вердикт | цитата | почему |\n|---|---|---|---|---|')
+        for a in sorted([a for a in ans if a.get('cls') and a['cls'].get('mostbet_mentioned')], key=lambda a: (a['cc'], {'negative': 0, 'neutral': 1, 'ok': 2}.get(a['cls']['bucket'], 3), a['query'])):
+            c = a['cls']; A(f"| {a['cc']} | {a['query']} | {c['bucket']} | {c['quote'].replace('|', '¦')[:300]} | {c['reason'].replace('|', '¦')} |")
         A('')
 
     A('## Вопросы владельца\n')
@@ -370,10 +381,10 @@ def build_02(device='desktop'):
         A('')
 
     A('## Все запросы с AI-блоком\n')
-    A('| страна | запрос | тег | режим | о какой стране | Mostbet | бренды | корзина | источники |\n|---|---|---|---|---|---|---|---|---|')
+    A('| страна | запрос | тег | о какой стране | Mostbet | бренды | корзина | в каком контексте названы бренды | источники |\n|---|---|---|---|---|---|---|---|---|')
     for a in sorted([a for a in ans if a.get('ai_present')], key=lambda a: (a['cc'], a['tag'], a['query'])):
         srcs = ', '.join(sorted({host(s['url']) for s in a.get('sources', []) if s.get('url')}))
-        A(f"| {a['cc']} | {a['query']} | {a['tag']} | {a.get('answer_mode', '')} | {a['geo']} | {a.get('mostbet_mentions', 0) or ''} | {', '.join(a['brands'])} | {a['cls']['bucket'] if a.get('cls') else ''} | {srcs} |")
+        A(f"| {a['cc']} | {a['query']} | {a['tag']} | {a['geo']} | {a.get('mostbet_mentions', 0) or ''} | {', '.join(a['brands'])} | {a['cls']['bucket'] if a.get('cls') else ''} | {a['cls']['brand_context'].replace('|', '¦') if a.get('cls') else ''} | {srcs} |")
     A('')
     A('## Запросы без AI-блока\n')
     A('| страна | тег | сколько | примеры |\n|---|---|---|---|')

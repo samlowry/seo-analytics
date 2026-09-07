@@ -22,11 +22,50 @@
 | AZ | 1 | 0 | 3 | **0** () |
 | UZ | 14 | 0 | 13 | **11** (RU 10, AZ+RU 1) |
 
+### Корзины
+
+Корзина назначается кодом: упомянут → по вердикту агента (негатив / нейтрально / позитив), проверенному вторым агентом-опровергателем; не упомянут → «отсутствует», если в ответе названы другие БК, иначе «не про бренд» (определения, инструкции, закон без брендов).
+
+| страна | ответов | **отсутствует** (другие БК названы) | негатив | нейтрально | позитив | не про бренд | «только легальные» в рамке |
+|---|---|---|---|---|---|---|---|
+| KZ | 247 | **194** | 11 | 0 | 1 | 41 | 143 (57 %) |
+| AZ | 4 | **3** | 0 | 0 | 1 | 0 | 2 (50 %) |
+| UZ | 38 | **24** | 6 | 0 | 1 | 7 | 17 (44 %) |
+
+### Негатив и нейтральные упоминания — с цитатами
+
+| страна | запрос | вердикт | цитата | почему |
+|---|---|---|---|---|
+| AZ | Какие букмекерские конторы рекомендуют в Азербайджане? | ok | Mostbet — международная платформа с адаптацией под местный рынок и широкой линией. | Mostbet назван в списке рекомендуемых с похвалой широкой линии и адаптации под рынок, без предупреждения; «единственным легальным» назван Misli, но к Mostbet это напрямую не привязано. |
+| KZ | бк где не нужна верификация | negative | Mostbet: Доступ к ставкам сразу после создания учетной записи. Риски: Офшорные конторы не имеют юридической защиты в вашей стране при возникновении споров с выплатами. | Mostbet перечислен среди офшорных БК без верификации как обход идентификации, с предупреждением об отсутствии правовой защиты и противопоставлением легальным БК. |
+| KZ | букмекерские конторы легальные | negative | В сети свободно доступны популярные зарубежные платформы (1xBet, Mostbet, Melbet, 1Win, Parimatch).
+Формально они не имеют местной лицензии, а доступ к их сайтам иногда ограничивается местными регуляторами. | Mostbet назван в разделе «Международные (офшорные) букмекеры» без местной лицензии, доступ к которым ограничивают регуляторы, в противовес единственному легальному Topaz. |
+| KZ | букмекеры где не нужен паспорт | negative | Офшорные и международные БК: Такие сайты, как 1xBet, Mostbet или 1Win, часто позволяют создать аккаунт «в один клик» или по телефону. Надежность: У таких букмекеров нет местной юридической защиты, поэтому в случае спорных ситуаций вернуть деньги сложно. | Mostbet назван как офшорный (нелегальный в ряде стран) сайт без паспорта, с предупреждением об отсутствии юридической защиты и сложности возврата денег. |
+| KZ | в каких бк не нужен паспорт | negative | Офшорные и международные онлайн-букмекеры (например, некоторые версии сайтов международных брендов вроде 1xBet, Mostbet, 1Win или Pinnacle) позволяют играть без паспорта на старте, однако требуют проверку при выводе. | Mostbet приведён как пример офшорного букмекера без паспорта, а выше указаны риски: использование нелегальных контор грозит блокировкой счета и потерей денег. |
+| KZ | где можно ставить ставки без верификации | negative | Популярные бренды: Без обязательной идентификации на старте работают такие платформы, как 1xBet, Mostbet и 1win. Риски: Такие конторы работают вне местных официальных регуляторов (например, без ЦУПИС в РФ), поэтому в случае споров у вас не будет правовой защиты в вашей стране. | Mostbet назван зарубежной платформой без идентификации на старте, к списку привязано предупреждение о работе вне регуляторов и отсутствии правовой защиты. |
+| KZ | где можно ставить ставки без паспорта | negative | Офшорные и международные онлайн-букмекеры (например, некоторые версии сайтов международных брендов вроде 1xBet, Mostbet, 1Win или Pinnacle) позволяют играть без паспорта на старте, однако требуют проверку при выводе. | Mostbet назван офшорной площадкой для игры без паспорта, рядом предупреждение о рисках нелегальных контор (блокировка счёта, потеря денег) и противопоставление легальным БК. |
+| KZ | зарубежные букмекерские конторы | negative | Mostbet: Международный букмекер, поддерживающий множество спортивных дисциплин и киберспорт. […] Минусы: Риск блокировки сайтов со стороны провайдеров, отсутствие правовой защиты со стороны местных судов при спорах с букмекером, возможные сложности с выводом средств. | Mostbet описан нейтрально-положительно, но входит в категорию зарубежных БК без лицензии ФНС, к которой привязано предупреждение о блокировках, отсутствии правовой защиты и проблемах с выводом — предупреждение перевешивает. |
+| KZ | лучшие бк без паспорта | negative | Mostbet — дает возможность делать ставки сразу после пополнения счета. Законность: Конторы без местной лицензии или ЦУПИС работают вне правового поля в большинстве стран, их сайты часто блокируются. | Mostbet назван среди офшорных/международных БК без проверки документов, а к списку приложены риски: блокировка счета, потеря средств, работа вне правового поля. |
+| KZ | лучшие оффшорные бк | negative | Mostbet — международный оператор, ориентированный на быстрые ставки и казино-дистанцию. Блокировки провайдеров: сайты таких контор часто блокируются национальными интернет-провайдерами, из-за чего приходится искать рабочие зеркала или использовать VPN. | Mostbet назван в списке оффшорных БК, а блок «Минусы и риски» привязывает к таким конторам отсутствие правовой защиты, блокировки провайдеров и риск блокировки счёта. |
+| KZ | реальные букмекерские конторы | negative | Mostbet — популярный онлайн-оператор со ставками на спорт и киберспорт. […] Легальность: В Азербайджане спортивные ставки разрешены законом, но большинство сайтов зарубежных букмекеров работают в правовом поле офшорных зон. | Mostbet назван «популярным», но помещён в группу международных офшорных БК (Кюрасао) в противовес единственному легальному Topaz, с оговорками про офшорное правовое поле и доступ через зеркала — предупреждение перевешивает. |
+| KZ | российский букмекерские конторы | negative | БК РФ (511 обзоров): легальные (Winline, PARI, Мелбет, Бетсити, Леон, Фонбет др.) и нелегальные (1win, Mostbet, Pari Match, 1xBe... | Mostbet перечислен в сниппете источника среди нелегальных БК России, в противовес легальным с лицензией ФНС. |
+| KZ | все букмекерские конторы | ok | Mostbet — популярная платформа с удобным мобильным приложением и большим выбором событий. | Назван популярным и похвален за приложение и выбор событий без предупреждения, хотя стоит в группе международных/зарубежных БК рядом с оговоркой, что единственный легальный оператор в Азербайджане — Topaz. |
+| UZ | Какие букмекерские конторы работают в Узбекистане? | negative | Mostbet — популярный международный букмекер с удобным мобильным приложением и бонусами. […] Примечание: Доступ к сайтам некоторых нелегальных контор может ограничиваться регулирующими органами (НАПП), поэтому игроки часто используют зеркала или мобильные приложения. | Mostbet хвалят в списке, но сразу под списком стоит предупреждение о нелегальных конторах и блокировках — предупреждение перевешивает. |
+| UZ | букмекерские конторы в ташкенте | negative | Mostbet — высокие коэффициенты и удобное мобильное приложение. […] Доступ к сайтам некоторых компаний может ограничиваться регуляторами, поэтому пользователи часто используют мобильные приложения или зеркала сайтов. | Похвала коэффициентам и приложению, но к списку привязано предупреждение о блокировках регуляторами — оно перевешивает. |
+| UZ | букмекерские конторы в узбекистане 2025 | negative | 1xBet
+Mostbet
+Melbet
+Parimatch […] Примечание: При выборе платформы рекомендуется проверять наличие официальной лицензии НАПП для обеспечения правовой защиты и безопасности финансовых операций. | Mostbet просто перечислен среди международных операторов, но к списку привязано предупреждение проверять лицензию НАПП ради правовой защиты. |
+| UZ | букмекерские конторы легальные | negative | Международные онлайн-букмекеры (такие как 1xBet, Mostbet, 1win) популярны среди местных игроков, но работают по офшорным лицензиям (Кюрасао и др.), поэтому их сайты периодически ограничиваются местными провайдерами, хотя прямой уголовной ответственности за игру в них для пользователей нет. | Mostbet назван офшорным букмекером, чьи сайты блокируют провайдеры, в противовес официальному оператору Topaz. |
+| UZ | какие букмекерские конторы работают в узбекистане | negative | Mostbet — популярный международный букмекер с удобным мобильным приложением и бонусами. […] Примечание: Доступ к сайтам некоторых нелегальных контор может ограничиваться регулирующими органами (НАПП), поэтому игроки часто используют зеркала или мобильные приложения. | Mostbet хвалят в списке, но сразу под списком стоит предупреждение о нелегальных конторах и блокировках — предупреждение перевешивает. |
+| UZ | легальные букмекерские конторы в узбекистане | negative | игроки из Узбекистана чаще всего пользуются международными платформами (такими как 1xBet, Mostbet, Melbet), которые работают по международным лицензиям (например, Кюрасао), хотя их деятельность в стране формально не имеет национального разрешения. | Mostbet отнесён к платформам с лицензией Кюрасао без национального разрешения — привязка к нелицензированному статусу. |
+| UZ | лучшие букмекерские конторы узбекистана | ok | Mostbet: Отличается удобным сайтом и мобильным приложением. Дает бонусы на первый депозит до 3 млн UZS и поддерживает быстрые переводы. | Mostbet назван в числе лучших БК Узбекистана и хвалится за сайт, приложение и бонусы без единого предупреждения. |
+
 ## Вопросы владельца
 
 ### KZ · Какие БК выбрать в Казахстане?
 
-Режим: ai_mode. Mostbet упомянут: 0 раз. Бренды в ответе: 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Tennisi, Ubet.
+Режим: ai_mode. Mostbet упомянут: 0 раз. Бренды в ответе: 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Tennisi, Ubet. **Корзина: absent** — 
 
 > В Казахстане нужно выбирать только легальные букмекерские конторы, которые имеют официальную лицензию. На рынке страны работают восемь проверенных онлайн-букмекеров.
 > Meta-ratings.kz +1
@@ -52,7 +91,7 @@ _AI-блока нет._
 
 ### KZ · Что делать при задержке Kaspi?
 
-Режим: ai_mode. Mostbet упомянут: 0 раз. Бренды в ответе: —.
+Режим: ai_mode. Mostbet упомянут: 0 раз. Бренды в ответе: —. **Корзина: n/a** — 
 
 > При задержке заказа в Магазине на Kaspi.kz откройте приложение, свяжитесь с продавцом через детали заказа или напишите в поддержку Kaspi Гид.
 > Что делать покупателю
@@ -69,7 +108,7 @@ _AI-блока нет._
 
 ### KZ · Как проходит верификация?
 
-Режим: ai_mode. Mostbet упомянут: 0 раз. Бренды в ответе: —.
+Режим: ai_mode. Mostbet упомянут: 0 раз. Бренды в ответе: —. **Корзина: n/a** — 
 
 > Верификация — это проверка подлинности данных и подтверждение личности пользователя.
 > АО Финтех
@@ -94,7 +133,7 @@ _AI-блока нет._
 
 ### AZ · Какие букмекерские конторы рекомендуют в Азербайджане?
 
-Режим: ai_mode. Mostbet упомянут: 1 раз. Бренды в ответе: Mostbet, 1xBet, Parimatch, Melbet, Misli.
+Режим: ai_mode. Mostbet упомянут: 1 раз. Бренды в ответе: Mostbet, 1xBet, Parimatch, Melbet, Misli. **Корзина: ok** — Mostbet назван в списке рекомендуемых с похвалой широкой линии и адаптации под рынок, без предупреждения; «единственным легальным» назван Misli, но к Mostbet это напрямую не привязано.
 
 > В Азербайджане популярны как легальный местный оператор Misli, так и крупные международные онлайн-букмекеры.
 > Яндекс +1
@@ -242,297 +281,297 @@ _AI-блока нет._
 
 ## Все запросы с AI-блоком
 
-| страна | запрос | тег | режим | о какой стране | Mostbet | бренды | корзина | источники |
+| страна | запрос | тег | о какой стране | Mostbet | бренды | корзина | в каком контексте названы бренды | источники |
 |---|---|---|---|---|---|---|---|---|
-| AZ | букмекерские конторы | corpus:выбор БК | ai_mode | без страны |  | Fonbet, Winline, BetBoom, Bettery |  | bettery.ru, bookmaker-ratings.ru, legalbet.ru, pribalt.info |
-| AZ | лучшие букмекерские конторы мира | corpus:выбор БК | ai_mode | без страны |  | Bet365, Unibet |  | 62.ua, bookmaker-ratings.ru, metaratings.ru, sports.ru, strategya.com |
-| AZ | букмекер это | corpus:что это | ai_mode | без страны |  | Fonbet |  | finance-group.az, fon.bet, legalbet.ru, ru.wikipedia.org, sl.ceur.ru, sravni.bet |
-| AZ | Какие букмекерские конторы рекомендуют в Азербайджане? | owner | ai_mode | своя | 1 | Mostbet, 1xBet, Parimatch, Melbet, Misli |  | fc-arsenal.com, nanoplusacm.com, yandex.ru |
-| KZ | бк где не нужна верификация | corpus:верификация | ai_mode | ЧУЖАЯ: RU | 1 | Mostbet, 1xBet, Melbet |  | bookmaker-ratings.kz, meta-ratings.kz |
-| KZ | бк где не нужна идентификация | corpus:верификация | ai_mode | своя |  | 1xBet, Melbet |  | pribalt.info, strategya.com |
-| KZ | букмекеры где не нужен паспорт | corpus:верификация | ai_mode | ЧУЖАЯ: RU | 1 | Mostbet, 1xBet, Fonbet |  | fon.bet, pribalt.info |
-| KZ | в каких бк не нужен паспорт | corpus:верификация | ai_mode | своя+RU | 2 | Mostbet, 1xBet, Fonbet |  | bookmaker-ratings.kz, die-buehne.tu-dresden.de, legalbet.kz, pribalt.info, strategya.com |
-| KZ | где можно делать ставки без паспорта | corpus:верификация | ai_mode | без страны |  |  |  | bookmaker-ratings.kz, legalbet.kz, strategya.com |
-| KZ | где можно ставить ставки без верификации | corpus:верификация | ai_mode | ЧУЖАЯ: RU | 1 | Mostbet, 1xBet |  | bookmaker-ratings.ru, stavkinasport.com, strategya.com |
-| KZ | где можно ставить ставки без паспорта | corpus:верификация | ai_mode | своя+RU | 2 | Mostbet, 1xBet, Fonbet |  | bookmaker-ratings.kz, die-buehne.tu-dresden.de, legalbet.kz, pribalt.info, strategya.com |
-| KZ | где ставить ставки без паспорта | corpus:верификация | ai_mode | без страны |  | 1xBet, Pin-Up, Melbet |  | astralist.info, legalbet.kz, pribalt.info, strategya.com |
-| KZ | как делать ставки без паспорта | corpus:верификация | ai_mode | без страны |  | Fonbet |  | bookmaker-ratings.kz, fon.bet, legalbet.kz, pribalt.info, strategya.com |
-| KZ | лучшие бк без паспорта | corpus:верификация | ai_mode | ЧУЖАЯ: RU | 1 | Mostbet, 1xBet, Fonbet, Melbet, GGBet |  | astralist.info, bookmaker-ratings.ru, fon.bet, pribalt.info |
-| KZ | лучшие букмекеры без паспорта | corpus:верификация | ai_mode | без страны |  | 1xBet, Fonbet, GGBet |  | astralist.info, fon.bet, pribalt.info, strategya.com |
-| KZ | ставки где не нужен паспорт | corpus:верификация | ai_mode | ЧУЖАЯ: RU |  | 1xBet, Fonbet |  | bookmaker-ratings.kz, fon.bet, pribalt.info, stavkinasport.com, strategya.com |
-| KZ | где можно ставить ставки с 18 лет | corpus:возраст | ai_mode | своя+AZ+RU |  | Fonbet |  | bookmaker-ratings.kz, fon.bet, fonbet.kz, vesti.az |
-| KZ | азиатские букмекерские конторы | corpus:выбор БК | ai_mode | без страны |  |  |  | betinasia.com, metaratings.ru |
-| KZ | акции букмекерские конторы | corpus:выбор БК | ai_mode | своя+RU |  |  |  | bookmaker-ratings.ru, legalbet.kz, meta-ratings.kz, sport.vbr.ru, sports.ru |
-| KZ | бк где дают бонусы | corpus:выбор БК | ai_mode | своя |  | 1xBet, Olimpbet, Fonbet, Marathon |  | bookmaker-ratings.ru, legalbet.kz |
-| KZ | бк лучшие | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Fonbet, Winline, BetBoom |  | bookmaker-ratings.ru, legalbet.kz, meta-ratings.kz, sport.vbr.ru, stavka.tv |
-| KZ | бк что это | corpus:выбор БК | ai_mode | своя+RU |  |  |  | bookmaker-ratings.kz, eurostavka.ru, legalbet.kz, mesqueunblog.kz, nmosktoday.ru, ru.wikipedia.org, sokrasheniya.academic.ru |
-| KZ | бк это | corpus:выбор БК | ai_mode | своя+RU |  |  |  | bookmaker-ratings.kz, eurostavka.ru, legalbet.kz, mesqueunblog.kz, nmosktoday.ru, ru.wikipedia.org, sokrasheniya.academic.ru |
-| KZ | бк(б)п деген не | corpus:выбор БК | ai_mode | своя |  |  |  | kk.wikipedia.org, ust.kz |
-| KZ | бк(б)п ок деген не | corpus:выбор БК | ai_mode | без страны |  |  |  | kk.wikipedia.org, ust.kz |
-| KZ | британские букмекерские конторы | corpus:выбор БК | ai_mode | без страны |  | Bet365, Betfair |  | sports.ru, strategya.com |
-| KZ | букмекерская контора какая лучше | corpus:выбор БК | ai_mode | своя |  | 1xBet, Olimpbet, Fonbet, Winline, BetBoom |  | bookmaker-ratings.ru, legalbet.kz, legalbet.ru, meta-ratings.kz, sport.vbr.ru |
-| KZ | букмекерская контора онлайн какая лучше | corpus:выбор БК | ai_mode | без страны |  | 1xBet, Olimpbet, Fonbet, Winline |  | legalbet.kz, meta-ratings.kz |
-| KZ | букмекерские конторы | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Ubet |  | 1xbet.kz, bookmaker-ratings.kz, fonbet.kz, legalbet.kz, meta-ratings.kz, parimatch.kz, ubet.kz, winline.kz |
-| KZ | букмекерские конторы 1хбет | corpus:выбор БК | ai_mode | своя |  | 1xBet |  | 1xbet.kz, meta-ratings.kz, ru.wikipedia.org, xn--80ae9b7b.xn--p1ai |
-| KZ | букмекерские конторы бонусы | corpus:выбор БК | ai_mode | своя |  | Olimpbet, Fonbet |  | bookmaker-ratings.ru, fonbet.kz, legalbet.kz, meta-ratings.kz, sports.ru |
-| KZ | букмекерские конторы в казахстане | corpus:выбор БК | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Tennisi, Ubet |  | legalbet.kz, meta-ratings.kz |
-| KZ | букмекерские конторы в казахстане закроют | corpus:выбор БК | ai_mode | своя |  |  |  | finratings.kz, instagram.com, kz.kursiv.media, legalbet.kz, tengrinews.kz, ustinka.kz |
-| KZ | букмекерские конторы в казахстане список | corpus:выбор БК | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Pin-Up, Tennisi, Ubet |  | legalbet.kz, meta-ratings.kz |
-| KZ | букмекерские конторы в узбекистане | corpus:выбор БК | ai_mode | ЧУЖАЯ: UZ |  | Parimatch, Melbet, Betwinner |  | bookmaker-ratings.ru, sport.ua, spot.uz, stanradar.com, stavkinasport.com, ua-football.com, uz.melbet.com |
-| KZ | букмекерские конторы все | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Melbet, BetBoom, Marathon, Leon, Tennisi, Ubet, Betcity |  |  |
-| KZ | букмекерские конторы казахстан | corpus:выбор БК | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Tennisi, Ubet |  |  |
-| KZ | букмекерские конторы казахстана | corpus:выбор БК | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Tennisi, Ubet, Betcity |  | bookmaker-ratings.kz, fonbet.kz, kpl.kz, legalbet.kz, meta-ratings.kz, winline.kz |
-| KZ | букмекерские конторы казахстана новости | corpus:выбор БК | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Winline, Ubet |  | kt.kz, legalbet.kz, tengrinews.kz |
-| KZ | букмекерские конторы казахстана список | corpus:выбор БК | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Pin-Up, Tennisi, Ubet |  | bookmaker-ratings.kz, bookmaker-ratings.ru, kpl.kz, legalbet.kz, meta-ratings.kz, sports24.kz |
-| KZ | букмекерские конторы кз | corpus:выбор БК | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Tennisi, Ubet |  | 1xbet.kz, bookmaker-ratings.kz, fonbet.kz, kpl.kz, sports24.kz, winline.kz |
-| KZ | букмекерские конторы киберспорт | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline |  |  |
-| KZ | букмекерские конторы мира | corpus:выбор БК | ai_mode | без страны |  | 1xBet, Bet365, Betfair, Unibet |  | 62.ua, bookmaker-ratings.ru, legalbet.ru, meta-ratings.kz, sports.ru, strategya.com |
-| KZ | букмекерские конторы новости | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Melbet, Marathon |  | bookmaker-ratings.ru, kapital.kz, kommersant.ru, rus.baq.kz, tengrinews.kz |
-| KZ | букмекерские конторы олимп | corpus:выбор БК | ai_mode | своя |  | Olimpbet |  | apps.apple.com, elen.kz, inform.kz, mobile.olimpbet.kz, olimpbet.kz, ru.wikipedia.org |
-| KZ | букмекерские конторы онлайн | corpus:выбор БК | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline |  | 1xbet.kz, bookmaker-ratings.kz, fon.bet, legalbet.kz, winline.kz |
-| KZ | букмекерские конторы рейтинг | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, BetBoom, Tennisi, Ubet |  | bookmaker-ratings.kz, legalbet.kz, meta-ratings.kz, sport.vbr.ru, stavka.tv |
-| KZ | букмекерские конторы рк | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Pin-Up, Tennisi, Ubet |  | 1xbet.kz, bookmaker-ratings.kz, fonbet.kz, kommersant.ru, kpl.kz, legalbet.kz, meta-ratings.kz, parimatch.kz, ubet.kz, winline.kz |
-| KZ | букмекерские конторы россии | corpus:выбор БК | ai_mode | ЧУЖАЯ: RU |  | Fonbet, Winline, BetBoom |  |  |
-| KZ | букмекерские конторы с 18 лет | corpus:выбор БК | ai_mode | своя |  | 1xBet, Olimpbet, Fonbet |  | 1xbet.kz, legalbet.kz, meta-ratings.kz, moy-gorod.kz |
-| KZ | букмекерские конторы с бонусами | corpus:выбор БК | ai_mode | своя |  | 1xBet, Fonbet, Pin Up |  | fonbet.kz, legalbet.kz, meta-ratings.kz |
-| KZ | букмекерские конторы с бонусом | corpus:выбор БК | ai_mode | своя+RU |  | Olimpbet, Fonbet, Winline, BetBoom, Leon, Betcity |  | bookmaker-ratings.ru, meta-ratings.kz, sport.vbr.ru, sports.ru, stavka.tv |
-| KZ | букмекерские конторы ставки на спорт | corpus:выбор БК | ai_mode | своя+RU |  | Fonbet, Winline, BetBoom, Marathon |  | betboom.ru, bookmaker-ratings.ru, fon.bet, sport.vbr.ru, stavka.tv, winline.kz |
-| KZ | букмекерские конторы узбекистан | corpus:выбор БК | ai_mode | ЧУЖАЯ: UZ |  | Parimatch, Melbet, Betwinner |  | bookmaker-ratings.ru, sport.ua, spot.uz, stanradar.com, stavkinasport.com, ua-football.com, uz.melbet.com |
-| KZ | букмекерские конторы узбекистана | corpus:выбор БК | ai_mode | ЧУЖАЯ: UZ |  | Parimatch, Melbet, Betwinner |  | bookmaker-ratings.ru, sport.ua, spot.uz, stanradar.com, stavkinasport.com, ua-football.com, uz.melbet.com |
-| KZ | букмекеры лучшие | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, BetBoom, Tennisi, Ubet |  | bookmaker-ratings.kz, bookmaker-ratings.ru, kpl.kz, legalbet.kz, legalbet.ru, meta-ratings.kz, sport.vbr.ru |
-| KZ | в какой бк лучше ставить | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Fonbet |  | bookmaker-ratings.ru, legalbet.kz, meta-ratings.kz |
-| KZ | в какой бк самые высокие коэффициенты | corpus:выбор БК | ai_mode | без страны |  | 1xBet, Olimpbet, Marathon, Ubet, Betcity |  |  |
-| KZ | все букмекерские конторы | corpus:выбор БК | ai_mode | ЧУЖАЯ: AZ | 1 | Mostbet, 1xBet, Pin-Up, Melbet, Topaz, Bet365 |  | elpalomitron.com, fc-arsenal.com |
-| KZ | все букмекерские конторы казахстана | corpus:выбор БК | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Pin-Up, Tennisi, Ubet |  | legalbet.kz, meta-ratings.kz |
-| KZ | где лучше всего ставить ставки | corpus:выбор БК | ai_mode | без страны |  | Fonbet, Winline, BetBoom |  | bookmaker-ratings.ru, sport.vbr.ru |
-| KZ | где лучше делать ставки | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Fonbet, Winline, Ubet |  | bookmaker-ratings.ru, legalbet.kz, meta-ratings.kz, winline.kz |
-| KZ | где лучше делать ставки на спорт? | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Fonbet, Winline, Ubet |  | 1xbet.kz, fonbet.kz, legalbet.kz, ua.tribuna.com, winline.kz |
-| KZ | где лучше ставить ставки | corpus:выбор БК | ai_mode | без страны |  | Fonbet, Winline, BetBoom |  | bookmaker-ratings.ru |
-| KZ | где лучше ставить ставки на ufc | corpus:выбор БК | ai_mode | без страны |  | 1xBet, Fonbet, Winline |  | fonbet.kz, legalbet.ru, mma.metaratings.ru, winline.ru |
-| KZ | где лучше ставить ставки на киберспорт | corpus:выбор БК | ai_mode | своя |  | Fonbet, Winline, BetBoom |  | bookmaker-ratings.ru, fonbet.kz, legalbet.kz, legalbet.ru, pekarstas.com, winline.ru |
-| KZ | где лучше ставить ставки на спорт | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Fonbet, Winline, Ubet |  | 1xbet.kz, fonbet.kz, legalbet.kz, ua.tribuna.com, winline.kz |
-| KZ | где лучше ставить ставки на спорт онлайн | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Ubet |  | 1xbet.kz, fonbet.kz, legalbet.kz, meta-ratings.kz, parimatch.kz, pribalt.info, winline.kz |
-| KZ | где лучше ставить ставки на футбол | corpus:выбор БК | ai_mode | без страны |  | 1xBet, Fonbet, Winline, BetBoom |  | bookmaker-ratings.ru, sport.vbr.ru, sports.ru |
-| KZ | где найти лучшие ставки | corpus:выбор БК | ai_mode | своя+RU |  | Fonbet, Winline, Melbet, BetBoom, Marathon, Leon, Bettery, Betcity |  | bookmaker-ratings.kz, bookmaker-ratings.ru, rating.sportrbc.ru, sravni.ru, stavka.tv |
-| KZ | зарубежные букмекерские конторы | corpus:выбор БК | ai_mode | ЧУЖАЯ: RU | 1 | Mostbet, 1xBet, Bet365 |  | bookmaker-ratings.ru, pribalt.info, stavkinasport.com |
-| KZ | зарубежные букмекерские конторы на русском языке | corpus:выбор БК | ai_mode | ЧУЖАЯ: RU |  | Bet365 |  | gipsyteam.ru, legalbet.ru, pribalt.info |
-| KZ | ирифрин бк как использовать | corpus:выбор БК | ai_mode | без страны |  |  |  | drugs.medelement.com, eapteka.ru, kz.apteka.com, megamarket.ru, vitaexpress.ru |
-| KZ | казахстанские букмекерские конторы | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Pin-Up, Tennisi, Ubet |  | 1xbet.kz, bookmaker-ratings.kz, fonbet.kz, kommersant.ru, kpl.kz, legalbet.kz, meta-ratings.kz, parimatch.kz, ubet.kz, winline.kz |
-| KZ | как букмекеры вычисляют договорные матчи | corpus:выбор БК | ai_mode | без страны |  | Fonbet |  | fon.bet, olamsport.com, sportclan.ru, stavka.tv |
-| KZ | как вернуть проигранные деньги с бк | corpus:выбор БК | ai_mode | своя |  |  |  | bankrotstvo.info, betteam.pro, bookmaker-ratings.ru, dknews.kz, fcbg.ru, fpa.ru, legalbet.kz, stavkinasport.com, zakon.kz |
-| KZ | какая бк лучше | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Fonbet |  | bookmaker-ratings.ru, legalbet.kz, meta-ratings.kz |
-| KZ | какая букмекерская компания лучше | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline |  | metaratings.ru |
-| KZ | какая букмекерская контора лучше | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, BetBoom |  | bookmaker-ratings.kz, bookmaker-ratings.ru, meta-ratings.kz, metaratings.ru, rgo-rb.ru, sport.vbr.ru |
-| KZ | какая букмекерская контора лучше в казахстане | corpus:выбор БК | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline |  | bookmaker-ratings.kz, bookmaker-ratings.ru, kpl.kz, legalbet.kz, meta-ratings.kz, rgo-rb.ru, sports24.kz |
-| KZ | какая букмекерская лучше | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Fonbet |  | bookmaker-ratings.ru, legalbet.kz, meta-ratings.kz |
-| KZ | какая самая лучшая букмекерская контора | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Fonbet, Winline, Marathon |  | bookmaker-ratings.ru, meta-ratings.kz, metaratings.ru, sport.vbr.ru |
-| KZ | какие бк работают в казахстане | corpus:выбор БК | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Tennisi, Ubet |  | fergana.agency, legalbet.kz, meta-ratings.kz, tengrinews.kz |
-| KZ | какие букмекерские конторы есть в казахстане | corpus:выбор БК | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Pin-Up, Tennisi, Ubet |  | bookmaker-ratings.ru, fonbet.kz, legalbet.kz, meta-ratings.kz, sports24.kz, winline.kz |
-| KZ | какие букмекерские конторы работают в казахстане | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Pin-Up, Tennisi, Ubet |  | 1xbet.kz, bookmaker-ratings.kz, fonbet.kz, kommersant.ru, kpl.kz, legalbet.kz, meta-ratings.kz, parimatch.kz, ubet.kz, winline.kz |
-| KZ | какие букмекеры дают фрибет на день рождения | corpus:выбор БК | ai_mode | своя |  | 1xBet, Olimpbet, Fonbet, Winline |  | legalbet.kz, meta-ratings.kz, stavka.tv |
-| KZ | какие букмекеры работают в казахстане | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Pin-Up, Tennisi, Ubet |  | 1xbet.kz, bookmaker-ratings.kz, fonbet.kz, kommersant.ru, kpl.kz, legalbet.kz, meta-ratings.kz, parimatch.kz, ubet.kz, winline.kz |
-| KZ | какие есть букмекерские конторы | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Pin-Up, Tennisi, Ubet |  | legalbet.kz, meta-ratings.kz, sports24.kz |
-| KZ | какой бк лучше | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Fonbet, Winline, BetBoom |  | bookmaker-ratings.kz, bookmaker-ratings.ru, legalbet.kz, meta-ratings.kz, rating.sportrbc.ru, sport.vbr.ru |
-| KZ | какой букмекер | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, BetBoom, Tennisi, Ubet |  | bookmaker-ratings.kz, bookmaker-ratings.ru, fonbet.kz, legalbet.kz, legalbet.ru, meta-ratings.kz, sport.vbr.ru, stavka.tv |
-| KZ | какой букмекер лучше | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Fonbet |  | bookmaker-ratings.ru, legalbet.kz, meta-ratings.kz |
-| KZ | какой букмекер лучше в казахстане | corpus:выбор БК | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Pin-Up, Tennisi, Ubet |  | bookmaker-ratings.kz, bookmaker-ratings.ru, meta-ratings.kz, rgo-rb.ru, sports24.kz |
-| KZ | какой букмекер работает в казахстане | corpus:выбор БК | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Pin-Up, Tennisi, Ubet |  | legalbet.kz, meta-ratings.kz |
-| KZ | какой лучший букмекер | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Fonbet, Winline, BetBoom |  | bookmaker-ratings.kz, bookmaker-ratings.ru, meta-ratings.kz, rating.sportrbc.ru, sport.vbr.ru |
-| KZ | кто такие букмекеры | corpus:выбор БК | ai_mode | своя |  |  |  | bookmaker-ratings.kz, eurostavka.ru, legalbet.kz, ru.wikipedia.org |
-| KZ | лучшие бк | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Melbet, BetBoom, Marathon, Leon, Tennisi, Bettery, Betcity |  | bookmaker-ratings.kz, bookmaker-ratings.ru, legalbet.kz, meta-ratings.kz, rating.sportrbc.ru, sport.vbr.ru |
-| KZ | лучшие бк в казахстане | corpus:выбор БК | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Pin-Up, Ubet |  | bookmaker-ratings.kz, legalbet.kz, meta-ratings.kz |
-| KZ | лучшие бк в мире | corpus:выбор БК | ai_mode | своя |  | 1xBet, Parimatch, Fonbet, Winline, Pin-Up, Bet365, Betfair |  | 62.ua, bookmaker-ratings.kz, meta-ratings.kz, sports.ru, strategya.com |
-| KZ | лучшие бк для киберспорта | corpus:выбор БК | ai_mode | без страны |  | Fonbet, Melbet, BetBoom |  | bookmaker-ratings.ru, fon.bet, sport.vbr.ru |
-| KZ | лучшие бк для мма | corpus:выбор БК | ai_mode | своя |  | 1xBet, Olimpbet, Fonbet, Winline |  | fonbet.kz, legalbet.kz, mma.metaratings.ru, pari.ru, tofight.ru |
-| KZ | лучшие бк для ставок | corpus:выбор БК | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Ubet |  | bookmaker-ratings.kz, fonbet.kz, legalbet.kz, parimatch.kz |
-| KZ | лучшие бк для ставок на киберспорт | corpus:выбор БК | ai_mode | без страны |  | Fonbet, Melbet, BetBoom |  | betting.team, bookmaker-ratings.ru, liga.net |
-| KZ | лучшие бк для ставок на спорт | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, BetBoom |  | bookmaker-ratings.ru, legalbet.kz, legalbet.ru |
-| KZ | лучшие бк казахстана | corpus:выбор БК | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Tennisi |  |  |
-| KZ | лучшие бк конторы | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Fonbet, Winline, BetBoom |  | bookmaker-ratings.ru, legalbet.kz, meta-ratings.kz, pribalt.info, rating.sportrbc.ru, sport.ua, sport.vbr.ru, strategya.com, ua.tribuna.com |
-| KZ | лучшие бк конторы в интернете | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, BetBoom |  | bookmaker-ratings.ru, sport.vbr.ru, sravni.bet |
-| KZ | лучшие бк мира | corpus:выбор БК | ai_mode | своя |  | 1xBet, Parimatch, Fonbet, Winline, Pin-Up, Bet365, Betfair |  | 62.ua, bookmaker-ratings.kz, meta-ratings.kz, sports.ru, strategya.com |
-| KZ | лучшие бк онлайн | corpus:выбор БК | ai_mode | своя+RU |  | Fonbet, Winline, BetBoom |  | bookmaker-ratings.ru, fonbet.kz, pribalt.info |
-| KZ | лучшие бк с бонусами для ставок на баскетбол | corpus:выбор БК | ai_mode | своя+RU |  | Fonbet, Winline, Marathon, Betcity |  | bookmaker-ratings.ru, legalbet.kz, meta-ratings.kz, stavka.tv |
-| KZ | лучшие бк с фрибетом | corpus:выбор БК | ai_mode | ЧУЖАЯ: RU |  | Fonbet, Winline, Melbet, BetBoom |  | bookmaker-ratings.ru, freebet.ru, meta-ratings.kz, metaratings.ru, sport.vbr.ru, stavka.tv |
-| KZ | лучшие бонусы бк | corpus:выбор БК | ai_mode | своя |  | Fonbet, Winline, BetBoom, Betcity |  |  |
-| KZ | лучшие бонусы в бк | corpus:выбор БК | ai_mode | своя+RU |  | Fonbet, Winline, Melbet, BetBoom |  | bookmaker-ratings.ru, sports.ru, stavka.tv, stavkinasport.com |
-| KZ | лучшие букмекерские конторы | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, BetBoom |  | bookmaker-ratings.ru, legalbet.ru, meta-ratings.kz, sport.vbr.ru |
-| KZ | лучшие букмекерские конторы мира | corpus:выбор БК | ai_mode | своя |  | 1xBet, Parimatch, Fonbet, Winline, Pin-Up, Bet365, Betfair |  | 62.ua, bookmaker-ratings.kz, meta-ratings.kz, sports.ru, strategya.com |
-| KZ | лучшие букмекеры | corpus:выбор БК | ai_mode | ЧУЖАЯ: RU |  | 1xBet, Parimatch, Fonbet, Winline, BetBoom, Bet365 |  | bookmaker-ratings.ru, legalbet.ru, sport.vbr.ru, sravni.bet |
-| KZ | лучшие букмекеры беларуси | corpus:выбор БК | ai_mode | без страны |  | Fonbet, Winline, Marathon, Betera |  | bookmaker-ratings.ru, fonbet.by, metaratings.by, myfin.by, vseprosport.by |
-| KZ | лучшие букмекеры беларусь | corpus:выбор БК | ai_mode | без страны |  | Fonbet, Winline, Marathon, Betera |  | metaratings.by, myfin.by, vseprosport.by |
-| KZ | лучшие букмекеры в беларуси | corpus:выбор БК | ai_mode | без страны |  | Fonbet, Winline, Marathon, Betera |  | betonmobile.by, metaratings.by, vseprosport.by |
-| KZ | лучшие букмекеры в казахстане | corpus:выбор БК | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Pin-Up, Tennisi, Ubet, Betcity |  | bookmaker-ratings.kz, kpl.kz, legalbet.kz, meta-ratings.kz, sports24.kz |
-| KZ | лучшие букмекеры в россии | corpus:выбор БК | ai_mode | ЧУЖАЯ: RU |  | Fonbet, Winline, Betcity |  | bookmaker-ratings.ru, legalbet.ru, metaratings.ru, rating.sportrbc.ru, stavka.tv |
-| KZ | лучшие букмекеры в рф | corpus:выбор БК | ai_mode | ЧУЖАЯ: RU |  | Fonbet, Winline, Melbet, BetBoom, Leon, Zenit, Betcity |  | bookmaker-ratings.ru, legalbet.ru, rating.sportrbc.ru, sravni.ru, stavka.tv |
-| KZ | лучшие букмекеры для ставок на мма | corpus:выбор БК | ai_mode | своя |  | 1xBet, Fonbet, Winline, Betcity |  | betcity.ru, fonbet.kz, legalbet.kz, pari.ru, parimatch.kz, winline.ru |
-| KZ | лучшие букмекеры казахстан | corpus:выбор БК | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Ubet |  | bookmaker-ratings.kz, kpl.kz, legalbet.kz, meta-ratings.kz |
-| KZ | лучшие букмекеры казахстана | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Tennisi |  | fonbet.kz, kpl.kz, legalbet.kz, meta-ratings.kz, sports24.kz |
-| KZ | лучшие букмекеры мира | corpus:выбор БК | ai_mode | своя |  | 1xBet, Parimatch, Fonbet, Winline, Pin-Up, Bet365, Betfair |  | 62.ua, bookmaker-ratings.kz, meta-ratings.kz, sports.ru, strategya.com |
-| KZ | лучшие букмекеры россии | corpus:выбор БК | ai_mode | ЧУЖАЯ: RU |  | Fonbet, Winline, BetBoom |  | bookmaker-ratings.ru, legalbet.ru, sport.vbr.ru, sravni.ru, stavka.tv |
-| KZ | лучшие букмекеры россия | corpus:выбор БК | ai_mode | ЧУЖАЯ: RU |  | Fonbet, Winline, BetBoom |  | bookmaker-ratings.ru, legalbet.ru, metaratings.ru, sport.vbr.ru, stavka.tv |
-| KZ | лучшие букмекеры рф | corpus:выбор БК | ai_mode | ЧУЖАЯ: RU |  | Fonbet, Winline, BetBoom, Betcity |  | bookmaker-ratings.ru, legalbet.ru, metaratings.ru, rating.sportrbc.ru, sport.vbr.ru |
-| KZ | лучшие букмекеры снг | corpus:выбор БК | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline |  | legalbet.ru, pribalt.info |
-| KZ | лучшие зарубежные бк | corpus:выбор БК | ai_mode | без страны |  | 1xBet, Bet365, Betfair |  | 62.ua, liga.net, meta-ratings.kz, pribalt.info, strategya.com |
-| KZ | лучшие мировые букмекерские конторы | corpus:выбор БК | ai_mode | своя |  | 1xBet, Parimatch, Fonbet, Winline, Pin-Up, Bet365, Betfair |  | 62.ua, bookmaker-ratings.kz, meta-ratings.kz, sports.ru, strategya.com |
-| KZ | лучшие онлайн букмекеры | corpus:выбор БК | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline |  | bookmaker-ratings.kz, bookmaker-ratings.ru, legalbet.kz, sport.vbr.ru, stavka.tv |
-| KZ | лучшие оффшорные бк | corpus:выбор БК | ai_mode | ЧУЖАЯ: RU | 1 | Mostbet, 1xBet, Pin-Up, Melbet |  | gipsyteam.ru, sportclan.ru |
-| KZ | международные букмекерские конторы | corpus:выбор БК | ai_mode | без страны |  | 1xBet, Bet365 |  |  |
-| KZ | мировые букмекерские конторы онлайн | corpus:выбор БК | ai_mode | без страны |  | 1xBet, Bet365, Betfair |  |  |
-| KZ | новые букмекерские конторы | corpus:выбор БК | ai_mode | своя+RU |  | Fonbet, Winline, Melbet, BetBoom, Bettery |  | bookmaker-ratings.kz, bookmaker-ratings.ru, legalbet.kz, metaratings.ru, pribalt.info |
-| KZ | почему букмекеры не работают | corpus:выбор БК | ai_mode | своя+RU |  |  |  | arena.olimpbet.kz, finratings.kz, kommersant.ru, legalbet.kz, legalbet.ru, tengrinews.kz |
-| KZ | почему не работают букмекерские конторы | corpus:выбор БК | ai_mode | без страны |  |  |  | legalbet.kz, shaiba.kz, sportilinet.kz, tengrinews.kz |
-| KZ | почему нельзя пополнить бк | corpus:выбор БК | ai_mode | своя |  |  |  | bookmaker-ratings.ru, els24.com, fon.bet, instagram.com, legalbet.kz, offside.kz |
-| KZ | реальные букмекерские конторы | corpus:выбор БК | ai_mode | ЧУЖАЯ: AZ+RU | 1 | Mostbet, 1xBet, Topaz |  | betpack.com, bookmakers.bet, fc-arsenal.com, lawrussia.ru |
-| KZ | российский букмекерские конторы | corpus:выбор БК | ai_mode | ЧУЖАЯ: RU | 1 | Mostbet, Fonbet, Winline, Melbet, BetBoom, Marathon, Leon, Tennisi, Bettery, Betcity |  | 1cupis.ru, bookmaker-ratings.ru, legalbet.ru, metaratings.ru, stavka.tv |
-| KZ | самые крупные букмекерские конторы мира | corpus:выбор БК | ai_mode | своя |  | Bet365, Betfair |  | ru.wikipedia.org |
-| KZ | самые лучшие бк | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Leon, Bettery |  | bookmaker-ratings.ru, legalbet.kz, meta-ratings.kz, sports24.kz, sravni.ru, stavka.tv |
-| KZ | самые лучшие коэффициенты бк | corpus:выбор БК | ai_mode | без страны |  | 1xBet, Olimp, Leon, Zenit, Betcity |  | legalbet.kz, meta-ratings.kz, vedomosti.ru |
-| KZ | ставки на спорт букмекерские конторы | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, BetBoom, Ubet |  | bookmaker-ratings.kz, ice-profy.ru |
-| KZ | ставки на спорт где лучше | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Fonbet, Winline, BetBoom |  |  |
-| KZ | ставки на спорт какой сайт лучше | corpus:выбор БК | ai_mode | своя |  |  |  | kushvsporte.ru, legalbet.kz, meta-ratings.kz, stavka.tv, vprognoze.kz |
-| KZ | ставки на спорт лучшие букмекеры | corpus:выбор БК | ai_mode | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, BetBoom |  | bookmaker-ratings.ru, legalbet.kz, legalbet.ru |
-| KZ | что бк | corpus:выбор БК | ai_mode | без страны |  |  |  | bookmaker-ratings.ru, eurostavka.ru |
-| KZ | что с бк в казахстане | corpus:выбор БК | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Tennisi |  | meta-ratings.kz, offside.kz, rus.baq.kz, tengrinews.kz |
-| KZ | что такое бк | corpus:выбор БК | ai_mode | своя+RU |  |  |  | bookmaker-ratings.kz, eurostavka.ru, legalbet.kz, mesqueunblog.kz, nmosktoday.ru, ru.wikipedia.org, sokrasheniya.academic.ru |
-| KZ | что такое двойной шанс в бк | corpus:выбор БК | ai_mode | своя+RU |  | Fonbet, Winline |  | 1cupis.ru, betteam.pro, bookmaker-ratings.kz, fon.bet, legalbet.kz, pari.ru, sports.ru, stavka.tv |
-| KZ | что такое фрибет в бк | corpus:выбор БК | ai_mode | ЧУЖАЯ: RU |  | Fonbet |  | bookmaker-ratings.ru, fon.bet, legalbet.kz, ligastavok.ru, meta-ratings.kz, sport.vbr.ru, sports.ru |
-| KZ | 1xbet как ставить ставки | corpus:как ставить | ai_mode | без страны |  | 1xBet |  | 1xbet.kz, legalbet.kz, vseprosport.kz |
-| KZ | 1хбет как ставить ставки | corpus:как ставить | ai_mode | без страны |  | 1xBet |  | 1xbet.kz, legalbet.kz, vseprosport.kz |
-| KZ | где можно ставить ставки | corpus:как ставить | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Ubet |  | 1xbet.kz, bookmaker-ratings.kz, legalbet.kz, parimatch.kz, ubet.kz, winline.kz |
-| KZ | где можно ставить ставки на спорт | corpus:как ставить | ai_mode | без страны |  | Olimpbet, Fonbet, Winline, BetBoom |  | betboom.ru, fonbet.kz, legalbet.kz, meta-ratings.kz, metaratings.ru, winline.kz |
-| KZ | где поставить ставки на футбол | corpus:как ставить | ai_mode | своя |  | Fonbet, Winline, BetBoom |  | fonbet.kz, winline.kz |
-| KZ | где ставить ставки | corpus:как ставить | ai_mode | своя |  | Olimpbet, Fonbet, Winline, BetBoom |  | betboom.ru, bookmaker-ratings.kz, bookmaker-ratings.ru, fon.bet, legalbet.kz, legalbet.ru, winline.kz |
-| KZ | где ставить ставки в казахстане | corpus:как ставить | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Pin-Up, Tennisi, Ubet |  | bet24.kz, bookmaker-ratings.kz, fonbet.kz, legalbet.kz, meta-ratings.kz, sports24.kz, winline.kz |
-| KZ | где ставить ставки на ufc | corpus:как ставить | ai_mode | своя |  | 1xBet, Fonbet, Winline |  | 1xbet.kz, fonbet.kz, legalbet.kz, legalbet.ru, mma.metaratings.ru, pari.ru, parimatch.kz, sports.ru, winline.kz |
-| KZ | где ставить ставки на бокс | corpus:как ставить | ai_mode | без страны |  | Fonbet, Winline, Melbet, BetBoom |  |  |
-| KZ | где ставить ставки на киберспорт | corpus:как ставить | ai_mode | своя |  | 1xBet, Fonbet, BetBoom |  | 1xbet.kz, betboom.ru, bookmaker-ratings.ru, fonbet.kz, reddit.com |
-| KZ | где ставить ставки на кс | corpus:как ставить | ai_mode | своя |  | Fonbet, Winline, BetBoom |  | betboom.ru, bookmaker-ratings.ru, fonbet.kz, legalbet.ru, pari.ru, parimatch.kz, winline.by, winline.ru |
-| KZ | где ставить ставки на спорт | corpus:как ставить | ai_mode | без страны |  | Olimpbet, Fonbet, Winline, BetBoom |  | betboom.ru, bookmaker-ratings.kz, fonbet.kz, legalbet.kz, legalbet.ru, sport.vbr.ru, winline.kz |
-| KZ | где ставить ставки на футбол | corpus:как ставить | ai_mode | без страны |  | 1xBet, Fonbet, Winline |  |  |
-| KZ | как делать беспроигрышные ставки на хоккей | corpus:как ставить | ai_mode | без страны |  |  |  |  |
-| KZ | как делать ставки | corpus:как ставить | ai_mode | своя |  |  |  | bookmaker-ratings.kz, kazfootball.kz, legalbet.kz, sports.ru |
-| KZ | как делать ставки в париматч | corpus:как ставить | ai_mode | без страны |  | Parimatch |  | bookmaker-ratings.kz, bookmaker-ratings.ru, metaratings.ru, pari.ru, parimatch.kz, sks-k.kz |
-| KZ | как делать ставки на олимпиаду 2024 | corpus:как ставить | ai_mode | без страны |  | Olimp |  | bookmaker-ratings.ru, legalbet.ru, metaratings.ru |
-| KZ | как делать ставки на олимпиаду 2026 | corpus:как ставить | ai_mode | без страны |  | Olimp, Ubet |  | 1cupis.ru, bookmaker-ratings.kz, cbssports.com, legalbet.by, legalbet.kz, pari.ru, stavka.tv, ubet.kz |
-| KZ | как делать ставки на спорт в кыргызстане | corpus:как ставить | ai_mode | без страны |  | Tennisi |  | kg.tennisi.com |
-| KZ | как делать ставки на спорт через телефон | corpus:как ставить | ai_mode | без страны |  | Fonbet |  | bcbarsy.kz, bet24.kz, betboom.ru, bookmaker-ratings.ru, fon.bet, fonbet.kz |
-| KZ | как делать ставки на футбол | corpus:как ставить | ai_mode | без страны |  | Fonbet |  | fon.bet, kazuhl.kz, sports.ru |
-| KZ | как делать ставки на футбол через телефон | corpus:как ставить | ai_mode | своя+RU |  | 1xBet, Fonbet |  | 1xbet.kz, bcbarsy.kz, bookmaker-ratings.ru, fon.bet, fonbet.kz, sports.ru |
-| KZ | как делать ставки на юфс | corpus:как ставить | ai_mode | своя |  | 1xBet, Parimatch, Fonbet, Winline |  | 1xbet.kz, fonbet.kz, parimatch.kz, winline.kz, winline.ru |
-| KZ | как ставить ставки | corpus:как ставить | ai_mode | своя |  |  |  | bookmaker-ratings.kz, kazfootball.kz, legalbet.kz, sports.ru |
-| KZ | как ставить ставки на 1xbet без проигрыша | corpus:как ставить | ai_mode | без страны |  | 1xBet |  | 1xbet.kz, eurostavka.ru, journal.sovcombank.ru, tribuna.1xbet.kz |
-| KZ | как ставить ставки на 1xbet и выигрывать | corpus:как ставить | ai_mode | без страны |  | 1xBet |  | 1xbet.kz, bookmaker-ratings.ru, boxing74.ru, legalbet.kz, sports.ru |
-| KZ | как ставить ставки на олимп бет | corpus:как ставить | ai_mode | без страны |  | Olimpbet |  | legalbet.kz, legalbet.ru, meta-ratings.kz, offside.kz, olimp.bet |
-| KZ | как ставить ставки на спорт 1xbet | corpus:как ставить | ai_mode | без страны |  | 1xBet |  | 1xbet.kz, legalbet.kz, vseprosport.kz |
-| KZ | как ставить ставки на спорт через телефон | corpus:как ставить | ai_mode | своя |  | Olimpbet, Fonbet, Winline |  | bcbarsy.kz, bet24.kz, bookmaker-ratings.kz, fonbet.kz, legalbet.kz, winline.kz |
-| KZ | как ставить ставки на футбол | corpus:как ставить | ai_mode | без страны |  | Fonbet |  | fon.bet, kazuhl.kz, sports.ru |
-| KZ | как ставить ставки на футбол и не проигрывать | corpus:как ставить | ai_mode | без страны |  | Fonbet, Ubet |  | fc-arsenal.com, fon.bet, legalbet.kz, ubet.kz |
-| KZ | букмекерские конторы казахстан закон | corpus:легальность | ai_mode | своя |  |  |  | bookmaker-ratings.kz, forbes.kz, orda.kz, prg.kz, rus.baq.kz, zakon.uchet.kz |
-| KZ | букмекерские конторы легальные | corpus:легальность | ai_mode | своя+AZ+RU | 1 | Mostbet, 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Melbet, Topaz, BetBoom, Marathon, Tennisi, Ubet, Betcity |  | 1news.az, bookmaker-ratings.ru, fc-arsenal.com, fcvorskla.com.ua, lawrussia.ru, legalbet.kz, meta-ratings.kz, metaratings.ru, stavka.tv |
-| KZ | букмекерские конторы с лицензией | corpus:легальность | ai_mode | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Melbet, Tennisi, Ubet, Betcity |  |  |
-| KZ | легальные букмекерские конторы | corpus:легальность | ai_mode | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, BetBoom |  | bookmaker-ratings.ru, legalbet.kz, meta-ratings.kz, metaratings.ru |
-| KZ | легальные букмекерские конторы в казахстане | corpus:легальность | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Tennisi, Ubet |  | bookmaker-ratings.ru, fonbet.kz, kpl.kz, legalbet.kz, meta-ratings.kz, sports24.kz, ubet.kz, winline.kz |
-| KZ | лицензионные букмекерские конторы | corpus:легальность | ai_mode | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Melbet, BetBoom, Marathon, Tennisi, Ubet, Betcity |  | meta-ratings.kz, metaratings.ru |
-| KZ | нелегальные букмекерские конторы | corpus:легальность | ai_mode | своя+RU |  |  |  | algmndannews.com, bookmaker-ratings.kz, bookmaker-ratings.ru, legalbet.kz, meta-ratings.kz, stavka.tv |
-| KZ | почему букмекеры блокируют успешных игроков | corpus:легальность | ai_mode | ЧУЖАЯ: RU |  |  |  | legalbet.kz, stavka.tv, vbr.ru |
-| KZ | разрешенные букмекерские конторы | corpus:легальность | ai_mode | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Tennisi, Ubet, Betcity |  | 1cupis.ru, bookmaker-ratings.kz, bookmaker-ratings.ru, legalbet.kz, metaratings.ru, stavka.tv |
-| KZ | какие букмекерские конторы самые надежные | corpus:надёжность | ai_mode | своя |  | 1xBet, Olimpbet, Fonbet, Tennisi |  | legalbet.kz, meta-ratings.kz |
-| KZ | какой букмекер самый надежный | corpus:надёжность | ai_mode | своя+RU |  | 1xBet, Olimpbet, Fonbet, Winline, Marathon |  | bookmaker-ratings.kz, legalbet.kz, meta-ratings.kz, stavka.tv |
-| KZ | надежные букмекерские конторы | corpus:надёжность | ai_mode | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, BetBoom, Bet365 |  | bookmaker-ratings.kz, meta-ratings.kz, sport.vbr.ru, stavka.tv, strategya.com |
-| KZ | надежные букмекерские конторы в казахстане | corpus:надёжность | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Tennisi, Ubet |  | bookmaker-ratings.kz, bookmaker-ratings.ru, kpl.kz, legalbet.kz, meta-ratings.kz, sports24.kz |
-| KZ | самые надежные букмекерские конторы | corpus:надёжность | ai_mode | своя |  | 1xBet, Olimpbet, Fonbet, Tennisi |  | legalbet.kz, meta-ratings.kz |
-| KZ | ставки на спорт надежные букмекерские конторы | corpus:надёжность | ai_mode | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, BetBoom |  | meta-ratings.kz, pribalt.info |
-| KZ | честные букмекерские конторы | corpus:надёжность | ai_mode | своя+RU |  | Fonbet, Winline, BetBoom |  | bookmaker-ratings.ru, fonbet.kz, legalbet.ru, sport.vbr.ru, stavka.tv |
-| KZ | букмекерские конторы отзывы | corpus:отзывы | ai_mode | своя |  | 1xBet, Betcity |  | legalbet.kz, m.vk.com, sport.ua, stavka.tv |
-| KZ | 1 5 ставки это сколько денег | corpus:прочее | ai_mode | своя |  |  |  | buh.mcfr.kz, prg.kz, v2b.ru |
-| KZ | где можно сделать ставки на спорт | corpus:прочее | ai_mode | своя+RU |  | 1xBet, Parimatch, Fonbet, Winline, Ubet |  | 1xbet.kz, fonbet.kz, parimatch.kz, ubet.kz, winline.kz |
-| KZ | как бросить ставки раз и навсегда | corpus:прочее | ai_mode | без страны |  |  |  | betteam.pro, legalbet.kz, reddit.com |
-| KZ | как правильно делать ставки | corpus:прочее | ai_mode | без страны |  | Fonbet |  | bookmaker-ratings.kz, fon.bet, footballufo.ru, legalbet.kz, sports.ru, yandex.ru |
-| KZ | как правильно ставить ставки | corpus:прочее | ai_mode | без страны |  | Fonbet |  | bookmaker-ratings.kz, fon.bet, footballufo.ru, laborpress.org, legalbet.kz |
-| KZ | хоккей ставки кто победит | corpus:прочее | ai_mode | без страны |  | Fonbet |  | stavka.tv, winline.ru |
-| KZ | что означает повышение базовой ставки | corpus:прочее | ai_mode | без страны |  |  |  | 4vlastinfo.kz, fingramota.kz, instagram.com, nationalbank.kz, orda.kz, uchet.kz, vtb.ru |
-| KZ | букмекер кто это | corpus:что это | ai_mode | своя |  |  |  | bookmaker-ratings.kz, eurostavka.ru, legalbet.kz, ru.wikipedia.org |
-| KZ | букмекер это | corpus:что это | ai_mode | своя |  |  |  | bookmaker-ratings.kz, eurostavka.ru, legalbet.kz, ru.wikipedia.org |
-| KZ | кто такой букмекер | corpus:что это | ai_mode | своя |  |  |  | bookmaker-ratings.kz, eurostavka.ru, legalbet.kz, ru.wikipedia.org |
-| KZ | кто такой букмекер простыми словами | corpus:что это | ai_mode | без страны |  | Fonbet |  | fon.bet, kedu.ru, rotor-volgograd.ru, ru.wikipedia.org, stavka.tv, stavkinasport.com |
-| KZ | ставки флетом что это | corpus:что это | ai_mode | ЧУЖАЯ: RU |  | Fonbet |  | betlay.ru, fon.bet, footballwhispers.com, goinvest.ru, legalbet.kz, ru.wikipedia.org, sportclan.ru, sports.ru |
-| KZ | что такое букмекер | corpus:что это | ai_mode | своя |  |  |  | bookmaker-ratings.kz, eurostavka.ru, legalbet.kz, ru.wikipedia.org |
-| KZ | что такое букмекерская контора | corpus:что это | ai_mode | своя |  |  |  | bookmaker-ratings.kz, eurostavka.ru, legalbet.kz, metaratings.ru, ru.wikipedia.org |
-| KZ | что такое система ставки | corpus:что это | ai_mode | без страны |  | Olimpbet, Parimatch, Fonbet |  | arena.olimpbet.kz, fon.bet, parimatch.kz, sportclan.ru |
-| KZ | что такое страховка ставки | corpus:что это | ai_mode | без страны |  |  |  | betteam.pro, legalbet.kz, sportclan.ru |
-| KZ | Как проходит верификация? | owner | ai_mode | без страны |  |  |  | fintech.ru, gsl.org, payoneer-ru.custhelp.com, unisender.com |
-| KZ | Какие БК выбрать в Казахстане? | owner | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Tennisi, Ubet |  | bookmaker-ratings.kz, fonbet.kz, kpl.kz, legalbet.kz, meta-ratings.kz, sports24.kz |
-| KZ | Что делать при задержке Kaspi? | owner | ai_mode | своя |  |  |  | guide.kaspi.kz |
-| KZ | Где ставить ставки в Казахстане? | paa | ai_mode | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Ubet |  | bookmaker-ratings.kz, fonbet.kz, legalbet.kz, meta-ratings.kz, parimatch.kz, ubet.kz, winline.kz |
-| KZ | Как грамотно ставить ставки? | paa | ai_mode | без страны |  | Fonbet |  | bookmaker-ratings.kz, fon.bet, kazfootball.kz, legalbet.kz |
-| KZ | Как делать ставки на футбольные матчи? | paa | ai_mode | без страны |  | Fonbet |  |  |
-| KZ | Как зарабатывать на ставках 1000 в день? | paa | ai_mode | ЧУЖАЯ: RU |  |  |  | bookmaker-ratings.kz, legalbet.ru, vedomosti.ru |
-| KZ | Как правильно делать ставки в футболе? | paa | ai_mode | без страны |  | Fonbet |  | fon.bet, kazuhl.kz, sports.ru |
-| KZ | Как розшифровывается БК? | paa | ai_mode | ЧУЖАЯ: RU |  |  |  | eurostavka.ru, ru.wikipedia.org, sokr.ru, sokrasheniya.academic.ru |
-| KZ | Какая букмекерская контора самая лучшая в Казахстане? | paa | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Tennisi |  | bookmaker-ratings.kz, legalbet.kz, rgo-rb.ru, sports24.kz |
-| KZ | Какая самая надежная букмекерская контора? | paa | ai_mode | ЧУЖАЯ: RU |  | Fonbet, Winline, BetBoom |  | bookmaker-ratings.ru, meta-ratings.kz |
-| KZ | Какие 10 букмекерских контор считаются лучшими? | paa | ai_mode | своя |  | 1xBet, Olimpbet, Fonbet, Winline, Melbet, BetBoom, Tennisi, Betcity |  | bookmaker-ratings.kz, bookmaker-ratings.ru, meta-ratings.kz, metaratings.ru, rating.sportrbc.ru, sport.vbr.ru, sravni.ru |
-| KZ | Какие букмекерские конторы есть в Казахстане? | paa | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Tennisi, Ubet |  | bookmaker-ratings.kz, bookmaker-ratings.ru, fonbet.kz, legalbet.kz, meta-ratings.kz, winline.kz |
-| KZ | Какие букмекеры считаются лучшими в Казахстане? | paa | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Pin-Up, Tennisi |  | legalbet.kz, meta-ratings.kz, rgo-rb.ru, sports24.kz |
-| KZ | Какие ставки заходят чаще всего? | paa | ai_mode | без страны |  |  |  | ligastavok.ru, stavka.tv |
-| KZ | Каким букмекерам можно доверять? | paa | ai_mode | своя+RU |  | 1xBet, Olimpbet, Fonbet, Winline, Tennisi, Betcity |  | bookmaker-ratings.kz, legalbet.kz, liga.net, meta-ratings.kz, sravni.bet, stavka.tv |
-| KZ | Какой БК сейчас работает в Казахстане? | paa | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Tennisi, Ubet |  | kpl.kz, legalbet.kz, sportilinet.kz, tengrinews.kz, ubet.kz, winline.kz |
-| KZ | Какой букмекер самый надежный? | paa | ai_mode | своя+RU |  | 1xBet, Olimpbet, Fonbet, Winline, Marathon |  | bookmaker-ratings.kz, legalbet.kz, meta-ratings.kz, stavka.tv |
-| KZ | Какой официальный букмекер в Казахстане? | paa | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Pin-Up, Tennisi, Ubet |  | bookmaker-ratings.kz, legalbet.kz, meta-ratings.kz |
-| KZ | Какой рейтинг букмекеров в Казахстане? | paa | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Tennisi, Ubet |  | bookmaker-ratings.kz, bookmaker-ratings.ru, kpl.kz, legalbet.kz, meta-ratings.kz |
-| KZ | Какой самый надёжный букмекер? | paa | ai_mode | ЧУЖАЯ: RU |  | Fonbet, Winline, BetBoom, Betcity |  | bookmaker-ratings.ru, meta-ratings.kz, metaratings.ru, rating.sportrbc.ru, sravni.bet, vedomosti.ru |
-| KZ | Кто лучший букмекер в Казахстане? | paa | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet |  | bookmaker-ratings.kz, kpl.kz, meta-ratings.kz |
-| KZ | Кто топ 1 в БК? | paa | ai_mode | своя+RU |  | 1xBet, Fonbet |  | bookmaker-ratings.kz, rating.sportrbc.ru, sport.vbr.ru |
-| KZ | Легален ли 1xBet в Казахстане? | paa | ai_mode | своя |  | 1xBet |  | 1xbet.kz, legalbet.kz, meta-ratings.kz, nur.kz |
-| KZ | Можно ли делать ставки в Казахстане? | paa | ai_mode | своя |  | Olimpbet, Fonbet, Winline |  | bookmaker-ratings.kz, fonbet.kz, gov.kz, legalbet.kz, winline.kz |
-| KZ | Можно ли делать ставки на спорт в Казахстане? | paa | ai_mode | своя |  | Olimpbet, Fonbet, Winline |  | bookmaker-ratings.kz, fonbet.kz, gov.kz, legalbet.kz, winline.kz |
-| KZ | Можно ли доверять Фонбету? | paa | ai_mode | без страны |  | Fonbet |  | legalbet.ru, sports.ru |
-| KZ | Можно ли реально заработать на ставках? | paa | ai_mode | без страны |  |  |  | 0312.ua, bookmaker-ratings.kz, journal.sovcombank.ru, legalbet.kz, sports.ru |
-| KZ | На каком букмекере лучше ставить? | paa | ai_mode | своя+RU |  | 1xBet, Olimpbet, Fonbet |  | bookmaker-ratings.ru, legalbet.kz, meta-ratings.kz |
-| KZ | На что ставить ставки, чтобы выигрывать? | paa | ai_mode | без страны |  | Fonbet |  | fon.bet, metaratings.ru, sports.ru |
-| KZ | Что значит в БК? | paa | ai_mode | без страны |  |  |  | eurostavka.ru, legalbet.ru, smart-tables.ru |
-| KZ | Что значит сокращение БК? | paa | ai_mode | ЧУЖАЯ: RU |  |  |  | bookmaker-ratings.kz, eurostavka.ru, math-solution.ru, ru.wikipedia.org, sokr.ru, sokrasheniya.academic.ru |
-| KZ | Что стало с букмекерами в Казахстане? | paa | ai_mode | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet |  | lada.kz, legalbet.kz, offside.kz, rus.baq.kz, shaiba.kz |
-| KZ | Что такое БК? | paa | ai_mode | своя+RU |  |  |  | bookmaker-ratings.kz, eurostavka.ru, legalbet.kz, mesqueunblog.kz, nmosktoday.ru, ru.wikipedia.org, sokrasheniya.academic.ru |
-| UZ | букмекерские конторы в интернете | corpus:выбор БК | ai_mode | без страны |  | Fonbet, Winline, BetBoom |  | bookmaker-ratings.ru, fon.bet, metaratings.ru, pari.ru, sport.ua, sport.vbr.ru, stavka.tv |
-| UZ | букмекерские конторы в ташкенте | corpus:выбор БК | ai_mode | своя | 1 | Mostbet, 1xBet, Parimatch, Melbet |  | futureby.info, stavkinasport.com, ua-football.com |
-| UZ | букмекерские конторы в узбекистане | corpus:выбор БК | ai_mode | своя |  | 1xBet, Parimatch, Melbet, Betandyou |  | futureby.info, spot.uz, stavkinasport.com, ua-football.com |
-| UZ | букмекерские конторы в узбекистане 2025 | corpus:выбор БК | ai_mode | своя | 1 | Mostbet, 1xBet, Parimatch, Melbet |  | gazeta.uz, stanradar.com, stavkinasport.com, uznews.uz |
-| UZ | букмекерские конторы в узбекистане 2026 | corpus:выбор БК | ai_mode | своя |  | Parimatch, Tennisi, Betcity |  | futureby.info, metaratings.ru, newslineuz.com, stanradar.com, stavkinasport.com, ua-football.com |
-| UZ | букмекерские конторы онлайн | corpus:выбор БК | ai_mode | ЧУЖАЯ: RU |  | Fonbet, Winline, Bettery, Zenit |  | bettery.ru, fon.bet, pari.ru, sport.ua, sravni.ru |
-| UZ | букмекерские конторы рейтинг | corpus:выбор БК | ai_mode | ЧУЖАЯ: RU |  | Fonbet, Winline, BetBoom |  | bookmaker-ratings.ru, rating.sportrbc.ru |
-| UZ | букмекерские конторы топ | corpus:выбор БК | ai_mode | ЧУЖАЯ: RU |  | Fonbet, Winline, BetBoom |  |  |
-| UZ | букмекерские конторы узбекистан | corpus:выбор БК | ai_mode | своя |  | 1xBet, Parimatch, Melbet, Betandyou |  | futureby.info, spot.uz, stavkinasport.com, ua-football.com |
-| UZ | букмекерские конторы узбекистана | corpus:выбор БК | ai_mode | своя |  | 1xBet, Parimatch, Melbet, Betandyou |  | futureby.info, spot.uz, stavkinasport.com, ua-football.com |
-| UZ | все букмекерские конторы | corpus:выбор БК | ai_mode | без страны |  | Fonbet, Winline, BetBoom, Marathon, Betcity |  |  |
-| UZ | какие букмекерские конторы работают в узбекистане | corpus:выбор БК | ai_mode | своя | 1 | Mostbet, 1xBet, Parimatch, Melbet, Betandyou |  | futureby.info, spot.uz, ua-football.com |
-| UZ | какие самые лучшие букмекерские конторы | corpus:выбор БК | ai_mode | ЧУЖАЯ: RU |  | Fonbet, Winline, BetBoom |  | bookmaker-ratings.ru, legalbet.ru, metaratings.ru, pribalt.info, rating.sportrbc.ru, sravni.bet, stavka.tv |
-| UZ | кто такие букмекеры | corpus:выбор БК | ai_mode | без страны |  | Fonbet |  | bookmaker-ratings.ru, eurostavka.ru, finance-group.az, fon.bet, legalbet.ru, ru.wikipedia.org |
-| UZ | лучшие бк | corpus:выбор БК | ai_mode | ЧУЖАЯ: RU |  | Fonbet, Winline, BetBoom, Marathon, Betcity |  | bookmaker-ratings.ru, metaratings.ru, pribalt.info, rating.sportrbc.ru, sport.vbr.ru, stavka.tv |
-| UZ | лучшие букмекерские конторы | corpus:выбор БК | ai_mode | без страны |  | Fonbet, Winline, BetBoom |  | bookmaker-ratings.ru, futureby.info, rating.sportrbc.ru, sport.vbr.ru, stavka.tv |
-| UZ | лучшие букмекерские конторы мира | corpus:выбор БК | ai_mode | без страны |  | 1xBet, Parimatch, Fonbet, Tennisi, Bet365, Betfair |  | 62.ua, legalbet.ru, meta-ratings.kz, metaratings.ru, sports.ru, strategya.com |
-| UZ | лучшие букмекерские конторы узбекистана | corpus:выбор БК | ai_mode | своя | 4 | Mostbet, 1xBet, Betwinner |  | futureby.info, sport.ua, stavkinasport.com, ua-football.com |
-| UZ | самые лучшие бк | corpus:выбор БК | ai_mode | без страны |  | Fonbet, Winline, BetBoom |  |  |
-| UZ | узбекистан букмекерские конторы | corpus:выбор БК | ai_mode | своя |  | 1xBet, Melbet, Betandyou |  |  |
-| UZ | что такое бк | corpus:выбор БК | ai_mode | без страны |  |  |  | bookmaker-ratings.ru, math-solution.ru, pari.ru, ru.wikipedia.org, sokrasheniya.academic.ru |
-| UZ | букмекерские конторы легальные | corpus:легальность | ai_mode | ЧУЖАЯ: AZ+RU | 1 | Mostbet, 1xBet, Fonbet, Winline, Topaz, BetBoom, Marathon |  | bookmaker-ratings.ru, fc-arsenal.com |
-| UZ | букмекерские конторы с лицензией | corpus:легальность | ai_mode | ЧУЖАЯ: RU |  | Fonbet, Winline, Melbet, BetBoom, Marathon, Leon, Bettery, Betcity |  | betonmobile.ru, bookmaker-ratings.ru, legalbet.ru, stavka.tv, vedomosti.ru |
-| UZ | легальные букмекерские конторы | corpus:легальность | ai_mode | ЧУЖАЯ: RU |  | Fonbet, Winline, Melbet, BetBoom, Marathon, Leon, Betcity, Baltbet |  | bookmaker-ratings.ru, legalbet.ru, sravni.ru, stavka.tv, vedomosti.ru |
-| UZ | легальные букмекерские конторы в узбекистане | corpus:легальность | ai_mode | своя | 1 | Mostbet, 1xBet, Melbet |  | gazeta.uz, spot.uz, stavkinasport.com, ua-football.com |
-| UZ | лучшие легальные букмекерские конторы | corpus:легальность | ai_mode | ЧУЖАЯ: RU |  | Fonbet, Winline, Melbet, BetBoom, Leon, Zenit, Betcity |  | bookmaker-ratings.ru, rating.sportrbc.ru, sport.vbr.ru, stavka.tv, vedomosti.ru |
-| UZ | самые надежные букмекерские конторы | corpus:надёжность | ai_mode | без страны |  | Fonbet, Winline, Marathon |  | bookmaker-ratings.ru, stavka.tv |
-| UZ | букмекер это | corpus:что это | ai_mode | без страны |  | Fonbet |  | bookmaker-ratings.ru, eurostavka.ru, finance-group.az, fon.bet, legalbet.ru, ru.wikipedia.org |
-| UZ | что такое букмекер | corpus:что это | ai_mode | без страны |  | Fonbet |  | bookmaker-ratings.ru, eurostavka.ru, finance-group.az, fon.bet, legalbet.ru, ru.wikipedia.org |
-| UZ | Какие букмекерские конторы работают в Узбекистане? | derived | ai_mode | своя | 1 | Mostbet, 1xBet, Parimatch, Melbet, Betandyou |  | futureby.info, spot.uz, ua-football.com |
-| UZ | В чем суть букмекеров? | paa | ai_mode | без страны |  |  |  | bookmaker-ratings.ru, eurostavka.ru, legalbet.ru, ru.wikipedia.org |
-| UZ | Какая самая надежная букмекерская контора? | paa | ai_mode | ЧУЖАЯ: RU |  | Fonbet, Winline, BetBoom |  | bookmaker-ratings.ru, legalbet.ru, metaratings.ru, pribalt.info, sport.vbr.ru, sravni.bet, stavka.tv |
-| UZ | Какие последние новости о букмекерах в Узбекистане? | paa | ai_mode | своя |  |  |  | anhor.uz, gazeta.uz |
-| UZ | Какие торговые платформы есть в Узбекистане? | paa | ai_mode | своя |  |  |  | billz.io, dxu.uz, info2b.kz, moysklad.uz, pc.uz, sprav.uz, uzdaily.uz |
-| UZ | Какой самый надежный букмекер? | paa | ai_mode | ЧУЖАЯ: RU |  | Fonbet, Winline, Marathon |  | bookmaker-ratings.ru, legalbet.kz, metaratings.ru, rating.sportrbc.ru, sravni.bet, stavka.tv |
-| UZ | Можно ли делать ставки в Узбекистане? | paa | ai_mode | своя |  |  |  | gazeta.uz |
-| UZ | На чём зарабатывают букмекеры? | paa | ai_mode | без страны |  |  |  | bookmaker-ratings.ru, elbib.ru, forbes.ru, legalbet.ru, sky.pro |
-| UZ | Что делают в букмекерских конторах? | paa | ai_mode | без страны |  |  |  | bookmaker-ratings.ru, eurostavka.ru, fc-arsenal.com, legalbet.ru, obrmos.ru, ru.wikipedia.org |
+| AZ | букмекерские конторы | corpus:выбор БК | без страны |  | Fonbet, Winline, BetBoom, Bettery | absent | популярные легальные и лицензированные БК российского рынка | bettery.ru, bookmaker-ratings.ru, legalbet.ru, pribalt.info |
+| AZ | лучшие букмекерские конторы мира | corpus:выбор БК | без страны |  | Bet365, Unibet | absent | лидеры мирового беттинга, международные гиганты | 62.ua, bookmaker-ratings.ru, metaratings.ru, sports.ru, strategya.com |
+| AZ | букмекер это | corpus:что это | без страны |  | Fonbet | absent | бренды не названы (Фонбет только как источник определения) | finance-group.az, fon.bet, legalbet.ru, ru.wikipedia.org, sl.ceur.ru, sravni.bet |
+| AZ | Какие букмекерские конторы рекомендуют в Азербайджане? | owner | своя | 1 | Mostbet, 1xBet, Parimatch, Melbet, Misli | ok | легальный местный Misli против международных онлайн-БК | fc-arsenal.com, nanoplusacm.com, yandex.ru |
+| KZ | бк где не нужна верификация | corpus:верификация | ЧУЖАЯ: RU | 1 | Mostbet, 1xBet, Melbet | negative | офшорные БК без проверки при регистрации (1xBet, Melbet, 1Win, Mostbet) | bookmaker-ratings.kz, meta-ratings.kz |
+| KZ | бк где не нужна идентификация | corpus:верификация | своя |  | 1xBet, Melbet | absent | международные (офшорные) БК без идентификации по лицензии Кюрасао (1xBet, 1Win, Melbet) | pribalt.info, strategya.com |
+| KZ | букмекеры где не нужен паспорт | corpus:верификация | ЧУЖАЯ: RU | 1 | Mostbet, 1xBet, Fonbet | negative | офшорные и международные БК без паспорта, крипто-букмекеры | fon.bet, pribalt.info |
+| KZ | в каких бк не нужен паспорт | corpus:верификация | своя+RU | 2 | Mostbet, 1xBet, Fonbet | negative | офшорные и международные БК без паспорта на старте | bookmaker-ratings.kz, die-buehne.tu-dresden.de, legalbet.kz, pribalt.info, strategya.com |
+| KZ | где можно делать ставки без паспорта | corpus:верификация | без страны |  |  | n/a | бренды не названы; легальные vs нелегальные/оффшорные БК | bookmaker-ratings.kz, legalbet.kz, strategya.com |
+| KZ | где можно ставить ставки без верификации | corpus:верификация | ЧУЖАЯ: RU | 1 | Mostbet, 1xBet | negative | зарубежные БК без верификации на старте (1xBet, Mostbet, 1win) | bookmaker-ratings.ru, stavkinasport.com, strategya.com |
+| KZ | где можно ставить ставки без паспорта | corpus:верификация | своя+RU | 2 | Mostbet, 1xBet, Fonbet | negative | офшорные/международные БК без паспорта на старте (1xBet, Mostbet, 1Win, Pinnacle) | bookmaker-ratings.kz, die-buehne.tu-dresden.de, legalbet.kz, pribalt.info, strategya.com |
+| KZ | где ставить ставки без паспорта | corpus:верификация | без страны |  | 1xBet, Pin-Up, Melbet | absent | оффшорные (нелегальные) международные БК без паспорта (1xBet, Melbet, Pin-up, 1Win) | astralist.info, legalbet.kz, pribalt.info, strategya.com |
+| KZ | как делать ставки без паспорта | corpus:верификация | без страны |  | Fonbet | absent | офшорные БК без паспорта vs легальные; бренды не названы | bookmaker-ratings.kz, fon.bet, legalbet.kz, pribalt.info, strategya.com |
+| KZ | лучшие бк без паспорта | corpus:верификация | ЧУЖАЯ: RU | 1 | Mostbet, 1xBet, Fonbet, Melbet, GGBet | negative | офшорные и международные БК без обязательной проверки документов | astralist.info, bookmaker-ratings.ru, fon.bet, pribalt.info |
+| KZ | лучшие букмекеры без паспорта | corpus:верификация | без страны |  | 1xBet, Fonbet, GGBet | absent | офшорные БК без паспорта при регистрации (Pinnacle, 1xBet офшорный, 1Win, GGBet) | astralist.info, fon.bet, pribalt.info, strategya.com |
+| KZ | ставки где не нужен паспорт | corpus:верификация | ЧУЖАЯ: RU |  | 1xBet, Fonbet | absent | офшорные (нелегальные в РФ) БК и крипто-платформы (1xBet, 1Win, Turbo, Bounty) | bookmaker-ratings.kz, fon.bet, pribalt.info, stavkinasport.com, strategya.com |
+| KZ | где можно ставить ставки с 18 лет | corpus:возраст | своя+AZ+RU |  | Fonbet | absent | бренды не названы; легальные операторы и возрастной порог по странам | bookmaker-ratings.kz, fon.bet, fonbet.kz, vesti.az |
+| KZ | азиатские букмекерские конторы | corpus:выбор БК | без страны |  |  | n/a | азиатские БК и брокеры (SBOBET, Pinnacle, IBCBET/MaxBet, BetInAsia) | betinasia.com, metaratings.ru |
+| KZ | акции букмекерские конторы | corpus:выбор БК | своя+RU |  |  | n/a | бренды не названы (только порталы-агрегаторы) | bookmaker-ratings.ru, legalbet.kz, meta-ratings.kz, sport.vbr.ru, sports.ru |
+| KZ | бк где дают бонусы | corpus:выбор БК | своя |  | 1xBet, Olimpbet, Fonbet, Marathon | absent | БК с бонусами (Olimpbet, Fonbet, 1xBet, Марафон) | bookmaker-ratings.ru, legalbet.kz |
+| KZ | бк лучшие | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Fonbet, Winline, BetBoom | absent | ведущие легальные БК России и популярные в Казахстане | bookmaker-ratings.ru, legalbet.kz, meta-ratings.kz, sport.vbr.ru, stavka.tv |
+| KZ | бк что это | corpus:выбор БК | своя+RU |  |  | n/a | бренды не названы | bookmaker-ratings.kz, eurostavka.ru, legalbet.kz, mesqueunblog.kz, nmosktoday.ru, ru.wikipedia.org, sokrasheniya.academic.ru |
+| KZ | бк это | corpus:выбор БК | своя+RU |  |  | n/a | бренды не названы | bookmaker-ratings.kz, eurostavka.ru, legalbet.kz, mesqueunblog.kz, nmosktoday.ru, ru.wikipedia.org, sokrasheniya.academic.ru |
+| KZ | бк(б)п деген не | corpus:выбор БК | своя |  |  | n/a | бренды не названы; ответ про ВКП(б), не про ставки | kk.wikipedia.org, ust.kz |
+| KZ | бк(б)п ок деген не | corpus:выбор БК | без страны |  |  | n/a | не о ставках (ВКП(б) ЦК, казахский) | kk.wikipedia.org, ust.kz |
+| KZ | британские букмекерские конторы | corpus:выбор БК | без страны |  | Bet365, Betfair | absent | главные британские букмекеры под лицензией UKGC | sports.ru, strategya.com |
+| KZ | букмекерская контора какая лучше | corpus:выбор БК | своя |  | 1xBet, Olimpbet, Fonbet, Winline, BetBoom | absent | популярные и надёжные БК (Winline, Fonbet, 1xBet, BetBoom, Olimpbet) | bookmaker-ratings.ru, legalbet.kz, legalbet.ru, meta-ratings.kz, sport.vbr.ru |
+| KZ | букмекерская контора онлайн какая лучше | corpus:выбор БК | без страны |  | 1xBet, Olimpbet, Fonbet, Winline | absent | популярные БК без привязки к стране | legalbet.kz, meta-ratings.kz |
+| KZ | букмекерские конторы | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Ubet | absent | популярные легальные БК Казахстана | 1xbet.kz, bookmaker-ratings.kz, fonbet.kz, legalbet.kz, meta-ratings.kz, parimatch.kz, ubet.kz, winline.kz |
+| KZ | букмекерские конторы 1хбет | corpus:выбор БК | своя |  | 1xBet | absent | обзор одного бренда — 1xBet KZ, легальный в Казахстане | 1xbet.kz, meta-ratings.kz, ru.wikipedia.org, xn--80ae9b7b.xn--p1ai |
+| KZ | букмекерские конторы бонусы | corpus:выбор БК | своя |  | Olimpbet, Fonbet | absent | популярные бонусные предложения БК в Казахстане | bookmaker-ratings.ru, fonbet.kz, legalbet.kz, meta-ratings.kz, sports.ru |
+| KZ | букмекерские конторы в казахстане | corpus:выбор БК | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Tennisi, Ubet | absent | популярные легальные букмекеры Казахстана с лицензией и ЦУС | legalbet.kz, meta-ratings.kz |
+| KZ | букмекерские конторы в казахстане закроют | corpus:выбор БК | своя |  |  | n/a | бренды не названы (регулирование, ЕСУ, блокировки платежей и нелегалов) | finratings.kz, instagram.com, kz.kursiv.media, legalbet.kz, tengrinews.kz, ustinka.kz |
+| KZ | букмекерские конторы в казахстане список | corpus:выбор БК | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Pin-Up, Tennisi, Ubet | absent | основные легальные БК Казахстана (9 брендов, вкл. Pin-Up, Oinabet) | legalbet.kz, meta-ratings.kz |
+| KZ | букмекерские конторы в узбекистане | corpus:выбор БК | ЧУЖАЯ: UZ |  | Parimatch, Melbet, Betwinner | absent | международные платформы, адаптированные под рынок Узбекистана | bookmaker-ratings.ru, sport.ua, spot.uz, stanradar.com, stavkinasport.com, ua-football.com, uz.melbet.com |
+| KZ | букмекерские конторы все | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Melbet, BetBoom, Marathon, Leon, Tennisi, Ubet, Betcity | absent | популярные легальные БК России и Казахстана |  |
+| KZ | букмекерские конторы казахстан | corpus:выбор БК | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Tennisi, Ubet | absent | легальные БК Казахстана, подключённые к ЦУС |  |
+| KZ | букмекерские конторы казахстана | corpus:выбор БК | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Tennisi, Ubet, Betcity | absent | легальные БК Казахстана с лицензией регулятора | bookmaker-ratings.kz, fonbet.kz, kpl.kz, legalbet.kz, meta-ratings.kz, winline.kz |
+| KZ | букмекерские конторы казахстана новости | corpus:выбор БК | своя |  | 1xBet, Olimpbet, Parimatch, Winline, Ubet | absent | новости регулирования; популярные легальные БК Казахстана | kt.kz, legalbet.kz, tengrinews.kz |
+| KZ | букмекерские конторы казахстана список | corpus:выбор БК | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Pin-Up, Tennisi, Ubet | absent | легальные БК Казахстана с лицензией министерства | bookmaker-ratings.kz, bookmaker-ratings.ru, kpl.kz, legalbet.kz, meta-ratings.kz, sports24.kz |
+| KZ | букмекерские конторы кз | corpus:выбор БК | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Tennisi, Ubet | absent | популярные легальные букмекеры КЗ | 1xbet.kz, bookmaker-ratings.kz, fonbet.kz, kpl.kz, sports24.kz, winline.kz |
+| KZ | букмекерские конторы киберспорт | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline | absent | легальные БК с линией на киберспорт (Казахстан и Россия) |  |
+| KZ | букмекерские конторы мира | corpus:выбор БК | без страны |  | 1xBet, Bet365, Betfair, Unibet | absent | крупнейшие букмекеры мира (лидеры и известные бренды) | 62.ua, bookmaker-ratings.ru, legalbet.ru, meta-ratings.kz, sports.ru, strategya.com |
+| KZ | букмекерские конторы новости | corpus:выбор БК | своя+RU |  | 1xBet, Melbet, Marathon | absent | новости регулирования КЗ и РФ; бренды почти не названы (Марафон) | bookmaker-ratings.ru, kapital.kz, kommersant.ru, rus.baq.kz, tengrinews.kz |
+| KZ | букмекерские конторы олимп | corpus:выбор БК | своя |  | Olimpbet | absent | карточка Olimpbet, легальный сайт в Казахстане, история дела «Олимпа» | apps.apple.com, elen.kz, inform.kz, mobile.olimpbet.kz, olimpbet.kz, ru.wikipedia.org |
+| KZ | букмекерские конторы онлайн | corpus:выбор БК | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline | absent | лицензированные БК онлайн, страна не названа | 1xbet.kz, bookmaker-ratings.kz, fon.bet, legalbet.kz, winline.kz |
+| KZ | букмекерские конторы рейтинг | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, BetBoom, Tennisi, Ubet | absent | лидирующие БК по региональным рынкам: Россия и Казахстан | bookmaker-ratings.kz, legalbet.kz, meta-ratings.kz, sport.vbr.ru, stavka.tv |
+| KZ | букмекерские конторы рк | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Pin-Up, Tennisi, Ubet | absent | легальные букмекеры Казахстана с национальной лицензией | 1xbet.kz, bookmaker-ratings.kz, fonbet.kz, kommersant.ru, kpl.kz, legalbet.kz, meta-ratings.kz, parimatch.kz, ubet.kz, winline.kz |
+| KZ | букмекерские конторы россии | corpus:выбор БК | ЧУЖАЯ: RU |  | Fonbet, Winline, BetBoom | absent | легальные букмекеры России с лицензией ФНС |  |
+| KZ | букмекерские конторы с 18 лет | corpus:выбор БК | своя |  | 1xBet, Olimpbet, Fonbet | absent | лицензированные БК Казахстана, проводящие верификацию (с 21 года) | 1xbet.kz, legalbet.kz, meta-ratings.kz, moy-gorod.kz |
+| KZ | букмекерские конторы с бонусами | corpus:выбор БК | своя |  | 1xBet, Fonbet, Pin Up | absent | легальные БК Казахстана с бонусами | fonbet.kz, legalbet.kz, meta-ratings.kz |
+| KZ | букмекерские конторы с бонусом | corpus:выбор БК | своя+RU |  | Olimpbet, Fonbet, Winline, BetBoom, Leon, Betcity | absent | популярные букмекеры с бонусами (российский рынок, суммы в рублях) | bookmaker-ratings.ru, meta-ratings.kz, sport.vbr.ru, sports.ru, stavka.tv |
+| KZ | букмекерские конторы ставки на спорт | corpus:выбор БК | своя+RU |  | Fonbet, Winline, BetBoom, Marathon | absent | популярные легальные БК (российский рынок) | betboom.ru, bookmaker-ratings.ru, fon.bet, sport.vbr.ru, stavka.tv, winline.kz |
+| KZ | букмекерские конторы узбекистан | corpus:выбор БК | ЧУЖАЯ: UZ |  | Parimatch, Melbet, Betwinner | absent | международные платформы, адаптированные под Узбекистан (Melbet, 1win, BetWinner, Parimatch) | bookmaker-ratings.ru, sport.ua, spot.uz, stanradar.com, stavkinasport.com, ua-football.com, uz.melbet.com |
+| KZ | букмекерские конторы узбекистана | corpus:выбор БК | ЧУЖАЯ: UZ |  | Parimatch, Melbet, Betwinner | absent | международные платформы, адаптированные под Узбекистан (Melbet, 1win, BetWinner, Parimatch) | bookmaker-ratings.ru, sport.ua, spot.uz, stanradar.com, stavkinasport.com, ua-football.com, uz.melbet.com |
+| KZ | букмекеры лучшие | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, BetBoom, Tennisi, Ubet | absent | лучшие БК России и Казахстана по рейтингам | bookmaker-ratings.kz, bookmaker-ratings.ru, kpl.kz, legalbet.kz, legalbet.ru, meta-ratings.kz, sport.vbr.ru |
+| KZ | в какой бк лучше ставить | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Fonbet | absent | лучшие легальные БК Казахстана | bookmaker-ratings.ru, legalbet.kz, meta-ratings.kz |
+| KZ | в какой бк самые высокие коэффициенты | corpus:выбор БК | без страны |  | 1xBet, Olimpbet, Marathon, Ubet, Betcity | absent | БК с низкой маржой (1xBet, Ubet, Olimpbet, БЕТСИТИ, Марафон) |  |
+| KZ | все букмекерские конторы | corpus:выбор БК | ЧУЖАЯ: AZ | 1 | Mostbet, 1xBet, Pin-Up, Melbet, Topaz, Bet365 | ok | международные и зарубежные БК для игроков из Азербайджана vs единственный легальный Topaz | elpalomitron.com, fc-arsenal.com |
+| KZ | все букмекерские конторы казахстана | corpus:выбор БК | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Pin-Up, Tennisi, Ubet | absent | легальные БК Казахстана с гослицензией (зона .kz) | legalbet.kz, meta-ratings.kz |
+| KZ | где лучше всего ставить ставки | corpus:выбор БК | без страны |  | Fonbet, Winline, BetBoom | absent | популярные легальные БК — российский набор (Фонбет, Winline, BetBoom, Лига Ставок, PARI) | bookmaker-ratings.ru, sport.vbr.ru |
+| KZ | где лучше делать ставки | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Fonbet, Winline, Ubet | absent | популярные легальные БК по странам: Россия и Казахстан | bookmaker-ratings.ru, legalbet.kz, meta-ratings.kz, winline.kz |
+| KZ | где лучше делать ставки на спорт? | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Fonbet, Winline, Ubet | absent | популярные и надёжные легальные БК (Winline, Fonbet, Olimpbet, 1xBet) | 1xbet.kz, fonbet.kz, legalbet.kz, ua.tribuna.com, winline.kz |
+| KZ | где лучше ставить ставки | corpus:выбор БК | без страны |  | Fonbet, Winline, BetBoom | absent | популярные легальные БК — российский набор (Фонбет, Winline, BetBoom, PARI) | bookmaker-ratings.ru |
+| KZ | где лучше ставить ставки на ufc | corpus:выбор БК | без страны |  | 1xBet, Fonbet, Winline | absent | проверенные БК для UFC (Winline, Fonbet, 1xBet), страна не названа | fonbet.kz, legalbet.ru, mma.metaratings.ru, winline.ru |
+| KZ | где лучше ставить ставки на киберспорт | corpus:выбор БК | своя |  | Fonbet, Winline, BetBoom | absent | легальные БК для киберспорта — российский набор (BetBoom, PARI, Фонбет, Winline) | bookmaker-ratings.ru, fonbet.kz, legalbet.kz, legalbet.ru, pekarstas.com, winline.ru |
+| KZ | где лучше ставить ставки на спорт | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Fonbet, Winline, Ubet | absent | популярные и надёжные легальные БК (Winline, Fonbet, Olimpbet, 1xBet) | 1xbet.kz, fonbet.kz, legalbet.kz, ua.tribuna.com, winline.kz |
+| KZ | где лучше ставить ставки на спорт онлайн | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Ubet | absent | официально лицензированные БК (РК/РФ): 1xBet, Olimpbet, Parimatch, Fonbet, Winline | 1xbet.kz, fonbet.kz, legalbet.kz, meta-ratings.kz, parimatch.kz, pribalt.info, winline.kz |
+| KZ | где лучше ставить ставки на футбол | corpus:выбор БК | без страны |  | 1xBet, Fonbet, Winline, BetBoom | absent | легальные БК рынка РФ (Фонбет, Winline, 1xBet, PARI, BetBoom) | bookmaker-ratings.ru, sport.vbr.ru, sports.ru |
+| KZ | где найти лучшие ставки | corpus:выбор БК | своя+RU |  | Fonbet, Winline, Melbet, BetBoom, Marathon, Leon, Bettery, Betcity | absent | рейтинги-агрегаторы РФ и Казахстана; ТОП-10 БК РФ в сниппете | bookmaker-ratings.kz, bookmaker-ratings.ru, rating.sportrbc.ru, sravni.ru, stavka.tv |
+| KZ | зарубежные букмекерские конторы | corpus:выбор БК | ЧУЖАЯ: RU | 1 | Mostbet, 1xBet, Bet365 | negative | популярные зарубежные БК без российской лицензии ФНС (офшорные) | bookmaker-ratings.ru, pribalt.info, stavkinasport.com |
+| KZ | зарубежные букмекерские конторы на русском языке | corpus:выбор БК | ЧУЖАЯ: RU |  | Bet365 | absent | зарубежные БК с русскоязычным интерфейсом (офшорные лицензии) | gipsyteam.ru, legalbet.ru, pribalt.info |
+| KZ | ирифрин бк как использовать | corpus:выбор БК | без страны |  |  | n/a | не о ставках (глазные капли Ирифрин БК) | drugs.medelement.com, eapteka.ru, kz.apteka.com, megamarket.ru, vitaexpress.ru |
+| KZ | казахстанские букмекерские конторы | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Pin-Up, Tennisi, Ubet | absent | легальные букмекеры Казахстана с национальной лицензией | 1xbet.kz, bookmaker-ratings.kz, fonbet.kz, kommersant.ru, kpl.kz, legalbet.kz, meta-ratings.kz, parimatch.kz, ubet.kz, winline.kz |
+| KZ | как букмекеры вычисляют договорные матчи | corpus:выбор БК | без страны |  | Fonbet | absent | бренды не названы; методы выявления договорных матчей | fon.bet, olamsport.com, sportclan.ru, stavka.tv |
+| KZ | как вернуть проигранные деньги с бк | corpus:выбор БК | своя |  |  | n/a | бренды не названы; возврат денег, реестр должников, лудомания | bankrotstvo.info, betteam.pro, bookmaker-ratings.ru, dknews.kz, fcbg.ru, fpa.ru, legalbet.kz, stavkinasport.com, zakon.kz |
+| KZ | какая бк лучше | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Fonbet | absent | лучшие легальные БК Казахстана | bookmaker-ratings.ru, legalbet.kz, meta-ratings.kz |
+| KZ | какая букмекерская компания лучше | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline | absent | легальные БК России и Казахстана, мировой бренд William Hill | metaratings.ru |
+| KZ | какая букмекерская контора лучше | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, BetBoom | absent | легальные БК России, Казахстана и мира | bookmaker-ratings.kz, bookmaker-ratings.ru, meta-ratings.kz, metaratings.ru, rgo-rb.ru, sport.vbr.ru |
+| KZ | какая букмекерская контора лучше в казахстане | corpus:выбор БК | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline | absent | лидеры рынка Казахстана с официальной лицензией (1xBet, Olimpbet, Parimatch, Fonbet, Winline) | bookmaker-ratings.kz, bookmaker-ratings.ru, kpl.kz, legalbet.kz, meta-ratings.kz, rgo-rb.ru, sports24.kz |
+| KZ | какая букмекерская лучше | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Fonbet | absent | лучшие легальные БК Казахстана | bookmaker-ratings.ru, legalbet.kz, meta-ratings.kz |
+| KZ | какая самая лучшая букмекерская контора | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Fonbet, Winline, Marathon | absent | лучшие по странам: Россия (легальные), Казахстан, мир | bookmaker-ratings.ru, meta-ratings.kz, metaratings.ru, sport.vbr.ru |
+| KZ | какие бк работают в казахстане | corpus:выбор БК | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Tennisi, Ubet | absent | легальные БК Казахстана, подключённые к ЕСУ | fergana.agency, legalbet.kz, meta-ratings.kz, tengrinews.kz |
+| KZ | какие букмекерские конторы есть в казахстане | corpus:выбор БК | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Pin-Up, Tennisi, Ubet | absent | популярные легальные букмекеры Казахстана с лицензией Минтуризма | bookmaker-ratings.ru, fonbet.kz, legalbet.kz, meta-ratings.kz, sports24.kz, winline.kz |
+| KZ | какие букмекерские конторы работают в казахстане | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Pin-Up, Tennisi, Ubet | absent | легальные букмекеры Казахстана с национальной лицензией | 1xbet.kz, bookmaker-ratings.kz, fonbet.kz, kommersant.ru, kpl.kz, legalbet.kz, meta-ratings.kz, parimatch.kz, ubet.kz, winline.kz |
+| KZ | какие букмекеры дают фрибет на день рождения | corpus:выбор БК | своя |  | 1xBet, Olimpbet, Fonbet, Winline | absent | БК Казахстана с бонусом на день рождения (1xBet KZ, Фонбет КЗ, Олимпбет КЗ, Винлайн) | legalbet.kz, meta-ratings.kz, stavka.tv |
+| KZ | какие букмекеры работают в казахстане | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Pin-Up, Tennisi, Ubet | absent | легальные букмекеры Казахстана с национальной лицензией | 1xbet.kz, bookmaker-ratings.kz, fonbet.kz, kommersant.ru, kpl.kz, legalbet.kz, meta-ratings.kz, parimatch.kz, ubet.kz, winline.kz |
+| KZ | какие есть букмекерские конторы | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Pin-Up, Tennisi, Ubet | absent | легальные БК с лицензией в Казахстане | legalbet.kz, meta-ratings.kz, sports24.kz |
+| KZ | какой бк лучше | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Fonbet, Winline, BetBoom | absent | легальные БК России и Казахстана | bookmaker-ratings.kz, bookmaker-ratings.ru, legalbet.kz, meta-ratings.kz, rating.sportrbc.ru, sport.vbr.ru |
+| KZ | какой букмекер | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, BetBoom, Tennisi, Ubet | absent | легальные БК России и Казахстана | bookmaker-ratings.kz, bookmaker-ratings.ru, fonbet.kz, legalbet.kz, legalbet.ru, meta-ratings.kz, sport.vbr.ru, stavka.tv |
+| KZ | какой букмекер лучше | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Fonbet | absent | лучшие легальные БК Казахстана | bookmaker-ratings.ru, legalbet.kz, meta-ratings.kz |
+| KZ | какой букмекер лучше в казахстане | corpus:выбор БК | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Pin-Up, Tennisi, Ubet | absent | топ легальных букмекеров Казахстана по рейтингам | bookmaker-ratings.kz, bookmaker-ratings.ru, meta-ratings.kz, rgo-rb.ru, sports24.kz |
+| KZ | какой букмекер работает в казахстане | corpus:выбор БК | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Pin-Up, Tennisi, Ubet | absent | легальные лицензированные БК Казахстана (9 брендов) | legalbet.kz, meta-ratings.kz |
+| KZ | какой лучший букмекер | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Fonbet, Winline, BetBoom | absent | надёжные легальные букмекеры по регионам (Россия, Казахстан) | bookmaker-ratings.kz, bookmaker-ratings.ru, meta-ratings.kz, rating.sportrbc.ru, sport.vbr.ru |
+| KZ | кто такие букмекеры | corpus:выбор БК | своя |  |  | n/a | бренды не названы; определение букмекера | bookmaker-ratings.kz, eurostavka.ru, legalbet.kz, ru.wikipedia.org |
+| KZ | лучшие бк | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Melbet, BetBoom, Marathon, Leon, Tennisi, Bettery, Betcity | absent | легальные БК России и популярные букмекеры Казахстана | bookmaker-ratings.kz, bookmaker-ratings.ru, legalbet.kz, meta-ratings.kz, rating.sportrbc.ru, sport.vbr.ru |
+| KZ | лучшие бк в казахстане | corpus:выбор БК | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Pin-Up, Ubet | absent | топ легальных БК Казахстана (1xBet KZ, Olimpbet KZ, Fonbet KZ, Parimatch KZ, Ubet, Pin-Up) | bookmaker-ratings.kz, legalbet.kz, meta-ratings.kz |
+| KZ | лучшие бк в мире | corpus:выбор БК | своя |  | 1xBet, Parimatch, Fonbet, Winline, Pin-Up, Bet365, Betfair | absent | топ надёжных букмекеров мира (Bet365, Pinnacle, William Hill, Betfair, 1xBet) | 62.ua, bookmaker-ratings.kz, meta-ratings.kz, sports.ru, strategya.com |
+| KZ | лучшие бк для киберспорта | corpus:выбор БК | без страны |  | Fonbet, Melbet, BetBoom | absent | топ БК для киберспорта | bookmaker-ratings.ru, fon.bet, sport.vbr.ru |
+| KZ | лучшие бк для мма | corpus:выбор БК | своя |  | 1xBet, Olimpbet, Fonbet, Winline | absent | топ БК для ставок на ММА (1xBet, Fonbet, Winline, PARI/Олимпбет) | fonbet.kz, legalbet.kz, mma.metaratings.ru, pari.ru, tofight.ru |
+| KZ | лучшие бк для ставок | corpus:выбор БК | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Ubet | absent | проверенные легальные платформы СНГ (FONBET, Winline, Olimpbet, Parimatch, 1xBet) | bookmaker-ratings.kz, fonbet.kz, legalbet.kz, parimatch.kz |
+| KZ | лучшие бк для ставок на киберспорт | corpus:выбор БК | без страны |  | Fonbet, Melbet, BetBoom | absent | топ БК для киберспорта, включая международные | betting.team, bookmaker-ratings.ru, liga.net |
+| KZ | лучшие бк для ставок на спорт | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, BetBoom | absent | крупнейшие легальные БК: топ России и топ Казахстана | bookmaker-ratings.ru, legalbet.kz, legalbet.ru |
+| KZ | лучшие бк казахстана | corpus:выбор БК | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Tennisi | absent | лучшие легальные БК Казахстана с официальными лицензиями |  |
+| KZ | лучшие бк конторы | corpus:выбор БК | своя+RU |  | 1xBet, Fonbet, Winline, BetBoom | absent | популярные БК в СНГ и России | bookmaker-ratings.ru, legalbet.kz, meta-ratings.kz, pribalt.info, rating.sportrbc.ru, sport.ua, sport.vbr.ru, strategya.com, ua.tribuna.com |
+| KZ | лучшие бк конторы в интернете | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, BetBoom | absent | популярные легальные БК Казахстана и России | bookmaker-ratings.ru, sport.vbr.ru, sravni.bet |
+| KZ | лучшие бк мира | corpus:выбор БК | своя |  | 1xBet, Parimatch, Fonbet, Winline, Pin-Up, Bet365, Betfair | absent | лучшие международные БК мира | 62.ua, bookmaker-ratings.kz, meta-ratings.kz, sports.ru, strategya.com |
+| KZ | лучшие бк онлайн | corpus:выбор БК | своя+RU |  | Fonbet, Winline, BetBoom | absent | популярные онлайн-БК СНГ (Winline, Фонбет, BetBoom, PARI) | bookmaker-ratings.ru, fonbet.kz, pribalt.info |
+| KZ | лучшие бк с бонусами для ставок на баскетбол | corpus:выбор БК | своя+RU |  | Fonbet, Winline, Marathon, Betcity | absent | БК с бонусами на баскетбол (рубли и тенге) | bookmaker-ratings.ru, legalbet.kz, meta-ratings.kz, stavka.tv |
+| KZ | лучшие бк с фрибетом | corpus:выбор БК | ЧУЖАЯ: RU |  | Fonbet, Winline, Melbet, BetBoom | absent | БК с фрибетами (суммы в рублях) | bookmaker-ratings.ru, freebet.ru, meta-ratings.kz, metaratings.ru, sport.vbr.ru, stavka.tv |
+| KZ | лучшие бонусы бк | corpus:выбор БК | своя |  | Fonbet, Winline, BetBoom, Betcity | absent | бонусы и фрибеты российских БК (в рублях) |  |
+| KZ | лучшие бонусы в бк | corpus:выбор БК | своя+RU |  | Fonbet, Winline, Melbet, BetBoom | absent | БК с бонусами за регистрацию (суммы в рублях) | bookmaker-ratings.ru, sports.ru, stavka.tv, stavkinasport.com |
+| KZ | лучшие букмекерские конторы | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, BetBoom | absent | лучшие легальные БК по рейтингам (российские бренды) | bookmaker-ratings.ru, legalbet.ru, meta-ratings.kz, sport.vbr.ru |
+| KZ | лучшие букмекерские конторы мира | corpus:выбор БК | своя |  | 1xBet, Parimatch, Fonbet, Winline, Pin-Up, Bet365, Betfair | absent | лучшие международные БК мира (Bet365, Pinnacle, William Hill, Betfair, 1xBet) | 62.ua, bookmaker-ratings.kz, meta-ratings.kz, sports.ru, strategya.com |
+| KZ | лучшие букмекеры | corpus:выбор БК | ЧУЖАЯ: RU |  | 1xBet, Parimatch, Fonbet, Winline, BetBoom, Bet365 | absent | топ БК России и мировые лидеры | bookmaker-ratings.ru, legalbet.ru, sport.vbr.ru, sravni.bet |
+| KZ | лучшие букмекеры беларуси | corpus:выбор БК | без страны |  | Fonbet, Winline, Marathon, Betera | absent | легальные БК Беларуси | bookmaker-ratings.ru, fonbet.by, metaratings.by, myfin.by, vseprosport.by |
+| KZ | лучшие букмекеры беларусь | corpus:выбор БК | без страны |  | Fonbet, Winline, Marathon, Betera | absent | легальные БК Беларуси | metaratings.by, myfin.by, vseprosport.by |
+| KZ | лучшие букмекеры в беларуси | corpus:выбор БК | без страны |  | Fonbet, Winline, Marathon, Betera | absent | легальные БК Беларуси | betonmobile.by, metaratings.by, vseprosport.by |
+| KZ | лучшие букмекеры в казахстане | corpus:выбор БК | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Pin-Up, Tennisi, Ubet, Betcity | absent | легальные БК Казахстана с лицензией (Olimpbet, 1xBet, Fonbet, Parimatch KZ и др.) | bookmaker-ratings.kz, kpl.kz, legalbet.kz, meta-ratings.kz, sports24.kz |
+| KZ | лучшие букмекеры в россии | corpus:выбор БК | ЧУЖАЯ: RU |  | Fonbet, Winline, Betcity | absent | легальные БК России | bookmaker-ratings.ru, legalbet.ru, metaratings.ru, rating.sportrbc.ru, stavka.tv |
+| KZ | лучшие букмекеры в рф | corpus:выбор БК | ЧУЖАЯ: RU |  | Fonbet, Winline, Melbet, BetBoom, Leon, Zenit, Betcity | absent | легальные БК России с лицензией ФНС и ЦУПИС (Фонбет, Винлайн, PARI, BetBoom, Мелбет) | bookmaker-ratings.ru, legalbet.ru, rating.sportrbc.ru, sravni.ru, stavka.tv |
+| KZ | лучшие букмекеры для ставок на мма | corpus:выбор БК | своя |  | 1xBet, Fonbet, Winline, Betcity | absent | топ БК для ставок на ММА/UFC (FONBET, Winline, PARI, Бетсити, 1xBet) | betcity.ru, fonbet.kz, legalbet.kz, pari.ru, parimatch.kz, winline.ru |
+| KZ | лучшие букмекеры казахстан | corpus:выбор БК | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Ubet | absent | легальные БК Казахстана (Olimpbet, 1xBet, Fonbet, Parimatch, Winline, Ubet) | bookmaker-ratings.kz, kpl.kz, legalbet.kz, meta-ratings.kz |
+| KZ | лучшие букмекеры казахстана | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Tennisi | absent | топ легальных букмекеров Казахстана с госл ицензией | fonbet.kz, kpl.kz, legalbet.kz, meta-ratings.kz, sports24.kz |
+| KZ | лучшие букмекеры мира | corpus:выбор БК | своя |  | 1xBet, Parimatch, Fonbet, Winline, Pin-Up, Bet365, Betfair | absent | надежные международные БК мира (Bet365, Pinnacle, William Hill, Betfair, 1xBet) | 62.ua, bookmaker-ratings.kz, meta-ratings.kz, sports.ru, strategya.com |
+| KZ | лучшие букмекеры россии | corpus:выбор БК | ЧУЖАЯ: RU |  | Fonbet, Winline, BetBoom | absent | легальные БК России | bookmaker-ratings.ru, legalbet.ru, sport.vbr.ru, sravni.ru, stavka.tv |
+| KZ | лучшие букмекеры россия | corpus:выбор БК | ЧУЖАЯ: RU |  | Fonbet, Winline, BetBoom | absent | легальные БК России | bookmaker-ratings.ru, legalbet.ru, metaratings.ru, sport.vbr.ru, stavka.tv |
+| KZ | лучшие букмекеры рф | corpus:выбор БК | ЧУЖАЯ: RU |  | Fonbet, Winline, BetBoom, Betcity | absent | легальные БК России | bookmaker-ratings.ru, legalbet.ru, metaratings.ru, rating.sportrbc.ru, sport.vbr.ru |
+| KZ | лучшие букмекеры снг | corpus:выбор БК | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline | absent | топ БК СНГ — российские лидеры, затем по странам: Казахстан, Беларусь | legalbet.ru, pribalt.info |
+| KZ | лучшие зарубежные бк | corpus:выбор БК | без страны |  | 1xBet, Bet365, Betfair | absent | топ международных (зарубежных) БК | 62.ua, liga.net, meta-ratings.kz, pribalt.info, strategya.com |
+| KZ | лучшие мировые букмекерские конторы | corpus:выбор БК | своя |  | 1xBet, Parimatch, Fonbet, Winline, Pin-Up, Bet365, Betfair | absent | топ надёжных букмекеров мира (Bet365, Pinnacle, William Hill, Betfair, 1xBet) | 62.ua, bookmaker-ratings.kz, meta-ratings.kz, sports.ru, strategya.com |
+| KZ | лучшие онлайн букмекеры | corpus:выбор БК | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline | absent | популярные БК (1xBet, Olimpbet, Fonbet, Winline, Parimatch), страна не названа | bookmaker-ratings.kz, bookmaker-ratings.ru, legalbet.kz, sport.vbr.ru, stavka.tv |
+| KZ | лучшие оффшорные бк | corpus:выбор БК | ЧУЖАЯ: RU | 1 | Mostbet, 1xBet, Pin-Up, Melbet | negative | популярные международные (оффшорные) бренды | gipsyteam.ru, sportclan.ru |
+| KZ | международные букмекерские конторы | corpus:выбор БК | без страны |  | 1xBet, Bet365 | absent | крупнейшие мировые бренды по лицензиям Кюрасао/Мальты/UK (Bet365, Pinnacle, William Hill, 1xBet) |  |
+| KZ | мировые букмекерские конторы онлайн | corpus:выбор БК | без страны |  | 1xBet, Bet365, Betfair | absent | известные международные бренды (Bet365, Pinnacle, William Hill, Betfair, 1xBet) |  |
+| KZ | новые букмекерские конторы | corpus:выбор БК | своя+RU |  | Fonbet, Winline, Melbet, BetBoom, Bettery | absent | новые БК рынка СНГ (российские бренды), совет проверять лицензию РФ/КЗ | bookmaker-ratings.kz, bookmaker-ratings.ru, legalbet.kz, metaratings.ru, pribalt.info |
+| KZ | почему букмекеры не работают | corpus:выбор БК | своя+RU |  |  | n/a | бренды не названы | arena.olimpbet.kz, finratings.kz, kommersant.ru, legalbet.kz, legalbet.ru, tengrinews.kz |
+| KZ | почему не работают букмекерские конторы | corpus:выбор БК | без страны |  |  | n/a | бренды не названы | legalbet.kz, shaiba.kz, sportilinet.kz, tengrinews.kz |
+| KZ | почему нельзя пополнить бк | corpus:выбор БК | своя |  |  | n/a | бренды не названы; платежи БК в Казахстане (ЕСУ, Nomapay) | bookmaker-ratings.ru, els24.com, fon.bet, instagram.com, legalbet.kz, offside.kz |
+| KZ | реальные букмекерские конторы | corpus:выбор БК | ЧУЖАЯ: AZ+RU | 1 | Mostbet, 1xBet, Topaz | negative | международные офшорные БК (Кюрасао) в Азербайджане против легального Topaz | betpack.com, bookmakers.bet, fc-arsenal.com, lawrussia.ru |
+| KZ | российский букмекерские конторы | corpus:выбор БК | ЧУЖАЯ: RU | 1 | Mostbet, Fonbet, Winline, Melbet, BetBoom, Marathon, Leon, Tennisi, Bettery, Betcity | negative | легальные БК России с лицензией ФНС; в сниппете — легальные vs нелегальные | 1cupis.ru, bookmaker-ratings.ru, legalbet.ru, metaratings.ru, stavka.tv |
+| KZ | самые крупные букмекерские конторы мира | corpus:выбор БК | своя |  | Bet365, Betfair | absent | крупнейшие мировые игорные корпорации (Flutter, Entain, MGM, Bet365, Caesars) | ru.wikipedia.org |
+| KZ | самые лучшие бк | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Leon, Bettery | absent | легальные БК по странам: Россия (ЦУПИС) и Казахстан (лицензия) | bookmaker-ratings.ru, legalbet.kz, meta-ratings.kz, sports24.kz, sravni.ru, stavka.tv |
+| KZ | самые лучшие коэффициенты бк | corpus:выбор БК | без страны |  | 1xBet, Olimp, Leon, Zenit, Betcity | absent | БК с минимальной маржой (1xBet, БЕТСИТИ, Zenit, Leon, Олимп) | legalbet.kz, meta-ratings.kz, vedomosti.ru |
+| KZ | ставки на спорт букмекерские конторы | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, BetBoom, Ubet | absent | легальные БК по странам: Россия и Казахстан | bookmaker-ratings.kz, ice-profy.ru |
+| KZ | ставки на спорт где лучше | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Fonbet, Winline, BetBoom | absent | лидеры рынка по странам: Россия (ЕЦУПИС) и Казахстан |  |
+| KZ | ставки на спорт какой сайт лучше | corpus:выбор БК | своя |  |  | n/a | сайты прогнозов (Legalbet.kz, Metaratings, Ставка ТВ); БК не названы | kushvsporte.ru, legalbet.kz, meta-ratings.kz, stavka.tv, vprognoze.kz |
+| KZ | ставки на спорт лучшие букмекеры | corpus:выбор БК | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, BetBoom | absent | топ БК России и топ БК Казахстана (легальные) | bookmaker-ratings.ru, legalbet.kz, legalbet.ru |
+| KZ | что бк | corpus:выбор БК | без страны |  |  | n/a | бренды не названы | bookmaker-ratings.ru, eurostavka.ru |
+| KZ | что с бк в казахстане | corpus:выбор БК | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Tennisi | absent | легальные БК Казахстана с местной лицензией (Olimpbet, 1xBet, Fonbet, Parimatch и др.) | meta-ratings.kz, offside.kz, rus.baq.kz, tengrinews.kz |
+| KZ | что такое бк | corpus:выбор БК | своя+RU |  |  | n/a | бренды не названы | bookmaker-ratings.kz, eurostavka.ru, legalbet.kz, mesqueunblog.kz, nmosktoday.ru, ru.wikipedia.org, sokrasheniya.academic.ru |
+| KZ | что такое двойной шанс в бк | corpus:выбор БК | своя+RU |  | Fonbet, Winline | absent | бренды не названы (только как источники) | 1cupis.ru, betteam.pro, bookmaker-ratings.kz, fon.bet, legalbet.kz, pari.ru, sports.ru, stavka.tv |
+| KZ | что такое фрибет в бк | corpus:выбор БК | ЧУЖАЯ: RU |  | Fonbet | absent | бренды не названы (только как источники) | bookmaker-ratings.ru, fon.bet, legalbet.kz, ligastavok.ru, meta-ratings.kz, sport.vbr.ru, sports.ru |
+| KZ | 1xbet как ставить ставки | corpus:как ставить | без страны |  | 1xBet | absent | инструкция по ставкам в 1xBet | 1xbet.kz, legalbet.kz, vseprosport.kz |
+| KZ | 1хбет как ставить ставки | corpus:как ставить | без страны |  | 1xBet | absent | инструкция по ставкам в 1xBet | 1xbet.kz, legalbet.kz, vseprosport.kz |
+| KZ | где можно ставить ставки | corpus:как ставить | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Ubet | absent | популярные и надёжные легальные БК (Olimpbet, Fonbet, Winline, 1xBet, Parimatch, Ubet) | 1xbet.kz, bookmaker-ratings.kz, legalbet.kz, parimatch.kz, ubet.kz, winline.kz |
+| KZ | где можно ставить ставки на спорт | corpus:как ставить | без страны |  | Olimpbet, Fonbet, Winline, BetBoom | absent | популярные легальные БК, смешанный набор RU/KZ (Fonbet, Winline, Olimpbet, BetBoom) | betboom.ru, fonbet.kz, legalbet.kz, meta-ratings.kz, metaratings.ru, winline.kz |
+| KZ | где поставить ставки на футбол | corpus:как ставить | своя |  | Fonbet, Winline, BetBoom | absent | легальные БК для ставок на футбол (Фонбет, Winline, PARI, Betboom, Лига Ставок) | fonbet.kz, winline.kz |
+| KZ | где ставить ставки | corpus:как ставить | своя |  | Olimpbet, Fonbet, Winline, BetBoom | absent | популярные и надёжные легальные БК (Winline, Fonbet, Olimpbet, BetBoom) | betboom.ru, bookmaker-ratings.kz, bookmaker-ratings.ru, fon.bet, legalbet.kz, legalbet.ru, winline.kz |
+| KZ | где ставить ставки в казахстане | corpus:как ставить | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Pin-Up, Tennisi, Ubet | absent | легальные лицензированные букмекеры Казахстана | bet24.kz, bookmaker-ratings.kz, fonbet.kz, legalbet.kz, meta-ratings.kz, sports24.kz, winline.kz |
+| KZ | где ставить ставки на ufc | corpus:как ставить | своя |  | 1xBet, Fonbet, Winline | absent | легальные БК для ставок на UFC | 1xbet.kz, fonbet.kz, legalbet.kz, legalbet.ru, mma.metaratings.ru, pari.ru, parimatch.kz, sports.ru, winline.kz |
+| KZ | где ставить ставки на бокс | corpus:как ставить | без страны |  | Fonbet, Winline, Melbet, BetBoom | absent | легальные БК для ставок на бокс (Winline, Fonbet, Мелбет, PARI, BetBoom) |  |
+| KZ | где ставить ставки на киберспорт | corpus:как ставить | своя |  | 1xBet, Fonbet, BetBoom | absent | легальные БК для киберспорта (Fonbet Казахстана, 1xBet, GG.BET, Pinnacle) | 1xbet.kz, betboom.ru, bookmaker-ratings.ru, fonbet.kz, reddit.com |
+| KZ | где ставить ставки на кс | corpus:как ставить | своя |  | Fonbet, Winline, BetBoom | absent | легальные БК для ставок на Counter-Strike (Winline, PARI, BetBoom, Fonbet) | betboom.ru, bookmaker-ratings.ru, fonbet.kz, legalbet.ru, pari.ru, parimatch.kz, winline.by, winline.ru |
+| KZ | где ставить ставки на спорт | corpus:как ставить | без страны |  | Olimpbet, Fonbet, Winline, BetBoom | absent | легальные проверенные БК с лицензией, страна не названа | betboom.ru, bookmaker-ratings.kz, fonbet.kz, legalbet.kz, legalbet.ru, sport.vbr.ru, winline.kz |
+| KZ | где ставить ставки на футбол | corpus:как ставить | без страны |  | 1xBet, Fonbet, Winline | absent | легальные БК для футбола (Winline, PARI, Fonbet, 1xBet), страна не названа |  |
+| KZ | как делать беспроигрышные ставки на хоккей | corpus:как ставить | без страны |  |  | n/a | стратегии на хоккей; бренды БК не названы |  |
+| KZ | как делать ставки | corpus:как ставить | своя |  |  | n/a | пошаговая инструкция; бренды не названы | bookmaker-ratings.kz, kazfootball.kz, legalbet.kz, sports.ru |
+| KZ | как делать ставки в париматч | corpus:как ставить | без страны |  | Parimatch | absent | инструкция по ставкам в Parimatch | bookmaker-ratings.kz, bookmaker-ratings.ru, metaratings.ru, pari.ru, parimatch.kz, sks-k.kz |
+| KZ | как делать ставки на олимпиаду 2024 | corpus:как ставить | без страны |  | Olimp | absent | инструкция по ставкам на ОИ-2024; легальная БК, бренды не названы | bookmaker-ratings.ru, legalbet.ru, metaratings.ru |
+| KZ | как делать ставки на олимпиаду 2026 | corpus:как ставить | без страны |  | Olimp, Ubet | absent | инструкция; легальные БК через порталы Legalbet, Рейтинг Букмекеров, Ubet.kz | 1cupis.ru, bookmaker-ratings.kz, cbssports.com, legalbet.by, legalbet.kz, pari.ru, stavka.tv, ubet.kz |
+| KZ | как делать ставки на спорт в кыргызстане | corpus:как ставить | без страны |  | Tennisi | absent | БК для Кыргызстана; легальные или международные платформы, Tennisi KG | kg.tennisi.com |
+| KZ | как делать ставки на спорт через телефон | corpus:как ставить | без страны |  | Fonbet | absent | бренды не названы; инструкция, только ссылки на источники (Фонбет, Рейтинг Букмекеров) | bcbarsy.kz, bet24.kz, betboom.ru, bookmaker-ratings.ru, fon.bet, fonbet.kz |
+| KZ | как делать ставки на футбол | corpus:как ставить | без страны |  | Fonbet | absent | бренды не названы (Фонбет как источник) | fon.bet, kazuhl.kz, sports.ru |
+| KZ | как делать ставки на футбол через телефон | corpus:как ставить | своя+RU |  | 1xBet, Fonbet | absent | инструкция по ставкам с телефона, пример легальной БК (Fonbet KZ) | 1xbet.kz, bcbarsy.kz, bookmaker-ratings.ru, fon.bet, fonbet.kz, sports.ru |
+| KZ | как делать ставки на юфс | corpus:как ставить | своя |  | 1xBet, Parimatch, Fonbet, Winline | absent | легальные БК Казахстана для UFC (1xBet KZ, Parimatch KZ, Fonbet, Winline) | 1xbet.kz, fonbet.kz, parimatch.kz, winline.kz, winline.ru |
+| KZ | как ставить ставки | corpus:как ставить | своя |  |  | n/a | бренды не названы | bookmaker-ratings.kz, kazfootball.kz, legalbet.kz, sports.ru |
+| KZ | как ставить ставки на 1xbet без проигрыша | corpus:как ставить | без страны |  | 1xBet | absent | 1xBet как предмет вопроса; советы по банкроллу, предупреждение о мошенниках | 1xbet.kz, eurostavka.ru, journal.sovcombank.ru, tribuna.1xbet.kz |
+| KZ | как ставить ставки на 1xbet и выигрывать | corpus:как ставить | без страны |  | 1xBet | absent | инструкция по ставкам в 1xBet | 1xbet.kz, bookmaker-ratings.ru, boxing74.ru, legalbet.kz, sports.ru |
+| KZ | как ставить ставки на олимп бет | corpus:как ставить | без страны |  | Olimpbet | absent | инструкция по ставкам в OLIMPBET | legalbet.kz, legalbet.ru, meta-ratings.kz, offside.kz, olimp.bet |
+| KZ | как ставить ставки на спорт 1xbet | corpus:как ставить | без страны |  | 1xBet | absent | инструкция по ставкам в 1xBet | 1xbet.kz, legalbet.kz, vseprosport.kz |
+| KZ | как ставить ставки на спорт через телефон | corpus:как ставить | своя |  | Olimpbet, Fonbet, Winline | absent | бренды не названы в инструкции; в сниппетах Олимпбет, Фонбет.кз, Winline | bcbarsy.kz, bet24.kz, bookmaker-ratings.kz, fonbet.kz, legalbet.kz, winline.kz |
+| KZ | как ставить ставки на футбол | corpus:как ставить | без страны |  | Fonbet | absent | бренды не названы; советы новичку, источники Фонбет, kazuhl.kz | fon.bet, kazuhl.kz, sports.ru |
+| KZ | как ставить ставки на футбол и не проигрывать | corpus:как ставить | без страны |  | Fonbet, Ubet | absent | бренды не названы; советы по банкроллу, только источники (Фонбет, Legalbet.kz) | fc-arsenal.com, fon.bet, legalbet.kz, ubet.kz |
+| KZ | букмекерские конторы казахстан закон | corpus:легальность | своя |  |  | n/a | бренды не названы (закон об игорном бизнесе, ЕСУ, ограничения) | bookmaker-ratings.kz, forbes.kz, orda.kz, prg.kz, rus.baq.kz, zakon.uchet.kz |
+| KZ | букмекерские конторы легальные | corpus:легальность | своя+AZ+RU | 1 | Mostbet, 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Melbet, Topaz, BetBoom, Marathon, Tennisi, Ubet, Betcity | negative | офшорные международные БК без местной лицензии (Азербайджан) против легальных | 1news.az, bookmaker-ratings.ru, fc-arsenal.com, fcvorskla.com.ua, lawrussia.ru, legalbet.kz, meta-ratings.kz, metaratings.ru, stavka.tv |
+| KZ | букмекерские конторы с лицензией | corpus:легальность | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Melbet, Tennisi, Ubet, Betcity | absent | лицензированные БК России (ФНС) и Казахстана |  |
+| KZ | легальные букмекерские конторы | corpus:легальность | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, BetBoom | absent | легальные БК России (ФНС) и Казахстана | bookmaker-ratings.ru, legalbet.kz, meta-ratings.kz, metaratings.ru |
+| KZ | легальные букмекерские конторы в казахстане | corpus:легальность | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Tennisi, Ubet | absent | список легальных букмекеров Казахстана с лицензией Минтуризма | bookmaker-ratings.ru, fonbet.kz, kpl.kz, legalbet.kz, meta-ratings.kz, sports24.kz, ubet.kz, winline.kz |
+| KZ | лицензионные букмекерские конторы | corpus:легальность | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Melbet, BetBoom, Marathon, Tennisi, Ubet, Betcity | absent | легальные БК по странам: Россия (ФНС) и Казахстан (МКС РК) | meta-ratings.kz, metaratings.ru |
+| KZ | нелегальные букмекерские конторы | corpus:легальность | своя+RU |  |  | n/a | бренды не названы (признаки и риски нелегальных БК, примеры РФ и КЗ) | algmndannews.com, bookmaker-ratings.kz, bookmaker-ratings.ru, legalbet.kz, meta-ratings.kz, stavka.tv |
+| KZ | почему букмекеры блокируют успешных игроков | corpus:легальность | ЧУЖАЯ: RU |  |  | n/a | бренды не названы | legalbet.kz, stavka.tv, vbr.ru |
+| KZ | разрешенные букмекерские конторы | corpus:легальность | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Tennisi, Ubet, Betcity | absent | разрешённые (легальные) БК России и Казахстана | 1cupis.ru, bookmaker-ratings.kz, bookmaker-ratings.ru, legalbet.kz, metaratings.ru, stavka.tv |
+| KZ | какие букмекерские конторы самые надежные | corpus:надёжность | своя |  | 1xBet, Olimpbet, Fonbet, Tennisi | absent | надёжные лицензированные БК Казахстана (Olimpbet, 1xBet, Fonbet, Tennisi) | legalbet.kz, meta-ratings.kz |
+| KZ | какой букмекер самый надежный | corpus:надёжность | своя+RU |  | 1xBet, Olimpbet, Fonbet, Winline, Marathon | absent | самые надёжные БК (РФ или Казахстан) | bookmaker-ratings.kz, legalbet.kz, meta-ratings.kz, stavka.tv |
+| KZ | надежные букмекерские конторы | corpus:надёжность | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, BetBoom, Bet365 | absent | надёжные легальные БК по регионам (Россия, Казахстан, мир) | bookmaker-ratings.kz, meta-ratings.kz, sport.vbr.ru, stavka.tv, strategya.com |
+| KZ | надежные букмекерские конторы в казахстане | corpus:надёжность | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Tennisi, Ubet | absent | легальные и надёжные БК Казахстана | bookmaker-ratings.kz, bookmaker-ratings.ru, kpl.kz, legalbet.kz, meta-ratings.kz, sports24.kz |
+| KZ | самые надежные букмекерские конторы | corpus:надёжность | своя |  | 1xBet, Olimpbet, Fonbet, Tennisi | absent | самые надёжные БК с лицензией в Казахстане | legalbet.kz, meta-ratings.kz |
+| KZ | ставки на спорт надежные букмекерские конторы | corpus:надёжность | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, BetBoom | absent | надёжные легальные БК по странам: Россия и Казахстан | meta-ratings.kz, pribalt.info |
+| KZ | честные букмекерские конторы | corpus:надёжность | своя+RU |  | Fonbet, Winline, BetBoom | absent | надёжные легальные БК России (через ЕЦУПИС) | bookmaker-ratings.ru, fonbet.kz, legalbet.ru, sport.vbr.ru, stavka.tv |
+| KZ | букмекерские конторы отзывы | corpus:отзывы | своя |  | 1xBet, Betcity | absent | бренды не названы (только в сниппетах источников) | legalbet.kz, m.vk.com, sport.ua, stavka.tv |
+| KZ | 1 5 ставки это сколько денег | corpus:прочее | своя |  |  | n/a | бренды не названы; ответ про оклад 1,5 ставки, не про беттинг | buh.mcfr.kz, prg.kz, v2b.ru |
+| KZ | где можно сделать ставки на спорт | corpus:прочее | своя+RU |  | 1xBet, Parimatch, Fonbet, Winline, Ubet | absent | легальные БК на сайтах .kz (Фонбет, Parimatch, Winline, Ubet, 1XBET) | 1xbet.kz, fonbet.kz, parimatch.kz, ubet.kz, winline.kz |
+| KZ | как бросить ставки раз и навсегда | corpus:прочее | без страны |  |  | n/a | игровая зависимость; бренды не названы | betteam.pro, legalbet.kz, reddit.com |
+| KZ | как правильно делать ставки | corpus:прочее | без страны |  | Fonbet | absent | инструкция; бренды не названы (Фонбет и Legalbet как источники советов) | bookmaker-ratings.kz, fon.bet, footballufo.ru, legalbet.kz, sports.ru, yandex.ru |
+| KZ | как правильно ставить ставки | corpus:прочее | без страны |  | Fonbet | absent | бренды не названы; правила управления банком | bookmaker-ratings.kz, fon.bet, footballufo.ru, laborpress.org, legalbet.kz |
+| KZ | хоккей ставки кто победит | corpus:прочее | без страны |  | Fonbet | absent | легальные БК как пример (Фонбет), Ставка ТВ | stavka.tv, winline.ru |
+| KZ | что означает повышение базовой ставки | corpus:прочее | без страны |  |  | n/a | не о беттинге: базовая ставка ЦБ; бренды не названы | 4vlastinfo.kz, fingramota.kz, instagram.com, nationalbank.kz, orda.kz, uchet.kz, vtb.ru |
+| KZ | букмекер кто это | corpus:что это | своя |  |  | n/a | бренды не названы | bookmaker-ratings.kz, eurostavka.ru, legalbet.kz, ru.wikipedia.org |
+| KZ | букмекер это | corpus:что это | своя |  |  | n/a | бренды не названы (определение букмекера) | bookmaker-ratings.kz, eurostavka.ru, legalbet.kz, ru.wikipedia.org |
+| KZ | кто такой букмекер | corpus:что это | своя |  |  | n/a | бренды не названы | bookmaker-ratings.kz, eurostavka.ru, legalbet.kz, ru.wikipedia.org |
+| KZ | кто такой букмекер простыми словами | corpus:что это | без страны |  | Fonbet | absent | бренды не названы (Фонбет только как источник) | fon.bet, kedu.ru, rotor-volgograd.ru, ru.wikipedia.org, stavka.tv, stavkinasport.com |
+| KZ | ставки флетом что это | corpus:что это | ЧУЖАЯ: RU |  | Fonbet | absent | определение стратегии флэт; бренды БК не названы | betlay.ru, fon.bet, footballwhispers.com, goinvest.ru, legalbet.kz, ru.wikipedia.org, sportclan.ru, sports.ru |
+| KZ | что такое букмекер | corpus:что это | своя |  |  | n/a | определение; бренды не названы | bookmaker-ratings.kz, eurostavka.ru, legalbet.kz, ru.wikipedia.org |
+| KZ | что такое букмекерская контора | corpus:что это | своя |  |  | n/a | бренды не названы | bookmaker-ratings.kz, eurostavka.ru, legalbet.kz, metaratings.ru, ru.wikipedia.org |
+| KZ | что такое система ставки | corpus:что это | без страны |  | Olimpbet, Parimatch, Fonbet | absent | определение системы; Фонбет, Olimpbet, Parimatch как источники | arena.olimpbet.kz, fon.bet, parimatch.kz, sportclan.ru |
+| KZ | что такое страховка ставки | corpus:что это | без страны |  |  | n/a | определение страховки ставки; бренды не названы | betteam.pro, legalbet.kz, sportclan.ru |
+| KZ | Как проходит верификация? | owner | без страны |  |  | n/a | бренды БК не названы (общая процедура KYC) | fintech.ru, gsl.org, payoneer-ru.custhelp.com, unisender.com |
+| KZ | Какие БК выбрать в Казахстане? | owner | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Tennisi, Ubet | absent | популярные легальные БК Казахстана с лицензией | bookmaker-ratings.kz, fonbet.kz, kpl.kz, legalbet.kz, meta-ratings.kz, sports24.kz |
+| KZ | Что делать при задержке Kaspi? | owner | своя |  |  | n/a | бренды БК не названы (заказы и доставка Kaspi.kz) | guide.kaspi.kz |
+| KZ | Где ставить ставки в Казахстане? | paa | своя+RU |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Ubet | absent | легальные БК Казахстана; только сайты зоны .kz с лицензией | bookmaker-ratings.kz, fonbet.kz, legalbet.kz, meta-ratings.kz, parimatch.kz, ubet.kz, winline.kz |
+| KZ | Как грамотно ставить ставки? | paa | без страны |  | Fonbet | absent | советы по банкроллу; бренды БК не названы | bookmaker-ratings.kz, fon.bet, kazfootball.kz, legalbet.kz |
+| KZ | Как делать ставки на футбольные матчи? | paa | без страны |  | Fonbet | absent | инструкция по футболу; легальная контора, бренды не названы |  |
+| KZ | Как зарабатывать на ставках 1000 в день? | paa | ЧУЖАЯ: RU |  |  | n/a | бренды не названы | bookmaker-ratings.kz, legalbet.ru, vedomosti.ru |
+| KZ | Как правильно делать ставки в футболе? | paa | без страны |  | Fonbet | absent | инструкция по футболу; легальная контора, бренды не названы | fon.bet, kazuhl.kz, sports.ru |
+| KZ | Как розшифровывается БК? | paa | ЧУЖАЯ: RU |  |  | n/a | расшифровка аббревиатуры БК; бренды не названы | eurostavka.ru, ru.wikipedia.org, sokr.ru, sokrasheniya.academic.ru |
+| KZ | Какая букмекерская контора самая лучшая в Казахстане? | paa | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Tennisi | absent | популярные легальные букмекеры Казахстана | bookmaker-ratings.kz, legalbet.kz, rgo-rb.ru, sports24.kz |
+| KZ | Какая самая надежная букмекерская контора? | paa | ЧУЖАЯ: RU |  | Fonbet, Winline, BetBoom | absent | надёжные легальные БК России (Fonbet, Winline, PARI, BetBoom) | bookmaker-ratings.ru, meta-ratings.kz |
+| KZ | Какие 10 букмекерских контор считаются лучшими? | paa | своя |  | 1xBet, Olimpbet, Fonbet, Winline, Melbet, BetBoom, Tennisi, Betcity | absent | топ-10 БК рынка СНГ по независимым рейтингам | bookmaker-ratings.kz, bookmaker-ratings.ru, meta-ratings.kz, metaratings.ru, rating.sportrbc.ru, sport.vbr.ru, sravni.ru |
+| KZ | Какие букмекерские конторы есть в Казахстане? | paa | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Tennisi, Ubet | absent | восемь легальных БК Казахстана по лицензии Минтуризма РК | bookmaker-ratings.kz, bookmaker-ratings.ru, fonbet.kz, legalbet.kz, meta-ratings.kz, winline.kz |
+| KZ | Какие букмекеры считаются лучшими в Казахстане? | paa | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Pin-Up, Tennisi | absent | популярные легальные букмекеры Казахстана с лицензиями | legalbet.kz, meta-ratings.kz, rgo-rb.ru, sports24.kz |
+| KZ | Какие ставки заходят чаще всего? | paa | без страны |  |  | n/a | проходимые исходы; бренды не названы | ligastavok.ru, stavka.tv |
+| KZ | Каким букмекерам можно доверять? | paa | своя+RU |  | 1xBet, Olimpbet, Fonbet, Winline, Tennisi, Betcity | absent | надёжные легальные БК СНГ (РФ, КЗ) и международные офшорные | bookmaker-ratings.kz, legalbet.kz, liga.net, meta-ratings.kz, sravni.bet, stavka.tv |
+| KZ | Какой БК сейчас работает в Казахстане? | paa | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Tennisi, Ubet | absent | восемь легальных БК Казахстана, подключённых к ЕСУ | kpl.kz, legalbet.kz, sportilinet.kz, tengrinews.kz, ubet.kz, winline.kz |
+| KZ | Какой букмекер самый надежный? | paa | своя+RU |  | 1xBet, Olimpbet, Fonbet, Winline, Marathon | absent | самые надёжные БК РФ и Казахстана (Fonbet, 1xBet, Olimpbet, Winline) | bookmaker-ratings.kz, legalbet.kz, meta-ratings.kz, stavka.tv |
+| KZ | Какой официальный букмекер в Казахстане? | paa | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Winline, Pin-Up, Tennisi, Ubet | absent | официальные лицензированные БК Казахстана, 9 брендов на доменах .kz | bookmaker-ratings.kz, legalbet.kz, meta-ratings.kz |
+| KZ | Какой рейтинг букмекеров в Казахстане? | paa | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet, Tennisi, Ubet | absent | легальные БК Казахстана (Olimpbet, 1xBet, Fonbet, Parimatch, Ubet, Tennisi) | bookmaker-ratings.kz, bookmaker-ratings.ru, kpl.kz, legalbet.kz, meta-ratings.kz |
+| KZ | Какой самый надёжный букмекер? | paa | ЧУЖАЯ: RU |  | Fonbet, Winline, BetBoom, Betcity | absent | надёжные легальные БК РФ (BetBoom, PARI, Фонбет, Винлайн, Бетсити) | bookmaker-ratings.ru, meta-ratings.kz, metaratings.ru, rating.sportrbc.ru, sravni.bet, vedomosti.ru |
+| KZ | Кто лучший букмекер в Казахстане? | paa | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet | absent | топ БК Казахстана (Olimpbet, 1xBet, Fonbet, Parimatch) | bookmaker-ratings.kz, kpl.kz, meta-ratings.kz |
+| KZ | Кто топ 1 в БК? | paa | своя+RU |  | 1xBet, Fonbet | absent | лидеры рейтингов: Фонбет в России, 1xBet и Fonbet KZ в Казахстане | bookmaker-ratings.kz, rating.sportrbc.ru, sport.vbr.ru |
+| KZ | Легален ли 1xBet в Казахстане? | paa | своя |  | 1xBet | absent | легальность 1xBet в Казахстане: лицензия, домен 1xbet.kz | 1xbet.kz, legalbet.kz, meta-ratings.kz, nur.kz |
+| KZ | Можно ли делать ставки в Казахстане? | paa | своя |  | Olimpbet, Fonbet, Winline | absent | официально лицензированные БК Казахстана (Fonbet, Winline, Olimpbet) | bookmaker-ratings.kz, fonbet.kz, gov.kz, legalbet.kz, winline.kz |
+| KZ | Можно ли делать ставки на спорт в Казахстане? | paa | своя |  | Olimpbet, Fonbet, Winline | absent | легальные платформы Казахстана (Fonbet, Winline, Olimpbet) | bookmaker-ratings.kz, fonbet.kz, gov.kz, legalbet.kz, winline.kz |
+| KZ | Можно ли доверять Фонбету? | paa | без страны |  | Fonbet | absent | оценка надёжности одного бренда (Фонбет) | legalbet.ru, sports.ru |
+| KZ | Можно ли реально заработать на ставках? | paa | без страны |  |  | n/a | заработок на ставках; бренды не названы | 0312.ua, bookmaker-ratings.kz, journal.sovcombank.ru, legalbet.kz, sports.ru |
+| KZ | На каком букмекере лучше ставить? | paa | своя+RU |  | 1xBet, Olimpbet, Fonbet | absent | лучшие легальные БК Казахстана (1xBet KZ, Olimpbet KZ, Fonbet KZ) | bookmaker-ratings.ru, legalbet.kz, meta-ratings.kz |
+| KZ | На что ставить ставки, чтобы выигрывать? | paa | без страны |  | Fonbet | absent | советы новичкам; бренды БК не названы | fon.bet, metaratings.ru, sports.ru |
+| KZ | Что значит в БК? | paa | без страны |  |  | n/a | термины БК; бренды не названы | eurostavka.ru, legalbet.ru, smart-tables.ru |
+| KZ | Что значит сокращение БК? | paa | ЧУЖАЯ: RU |  |  | n/a | расшифровка аббревиатуры БК; бренды не названы | bookmaker-ratings.kz, eurostavka.ru, math-solution.ru, ru.wikipedia.org, sokr.ru, sokrasheniya.academic.ru |
+| KZ | Что стало с букмекерами в Казахстане? | paa | своя |  | 1xBet, Olimpbet, Parimatch, Fonbet | absent | восемь лицензированных БК Казахстана (Olimpbet, 1xBet, Fonbet, Parimatch) | lada.kz, legalbet.kz, offside.kz, rus.baq.kz, shaiba.kz |
+| KZ | Что такое БК? | paa | своя+RU |  |  | n/a | расшифровка аббревиатуры БК; бренды не названы | bookmaker-ratings.kz, eurostavka.ru, legalbet.kz, mesqueunblog.kz, nmosktoday.ru, ru.wikipedia.org, sokrasheniya.academic.ru |
+| UZ | букмекерские конторы в интернете | corpus:выбор БК | без страны |  | Fonbet, Winline, BetBoom | absent | популярные легальные БК РФ | bookmaker-ratings.ru, fon.bet, metaratings.ru, pari.ru, sport.ua, sport.vbr.ru, stavka.tv |
+| UZ | букмекерские конторы в ташкенте | corpus:выбор БК | своя | 1 | Mostbet, 1xBet, Parimatch, Melbet | negative | онлайн-букмекеры, принимающие игроков из Ташкента | futureby.info, stavkinasport.com, ua-football.com |
+| UZ | букмекерские конторы в узбекистане | corpus:выбор БК | своя |  | 1xBet, Parimatch, Melbet, Betandyou | absent | популярные бренды международных платформ в Узбекистане | futureby.info, spot.uz, stavkinasport.com, ua-football.com |
+| UZ | букмекерские конторы в узбекистане 2025 | corpus:выбор БК | своя | 1 | Mostbet, 1xBet, Parimatch, Melbet | negative | международные онлайн-операторы на рынке Узбекистана | gazeta.uz, stanradar.com, stavkinasport.com, uznews.uz |
+| UZ | букмекерские конторы в узбекистане 2026 | corpus:выбор БК | своя |  | Parimatch, Tennisi, Betcity | absent | популярные БК Узбекистана: лицензированные и международные | futureby.info, metaratings.ru, newslineuz.com, stanradar.com, stavkinasport.com, ua-football.com |
+| UZ | букмекерские конторы онлайн | corpus:выбор БК | ЧУЖАЯ: RU |  | Fonbet, Winline, Bettery, Zenit | absent | популярные легальные БК в РФ | bettery.ru, fon.bet, pari.ru, sport.ua, sravni.ru |
+| UZ | букмекерские конторы рейтинг | corpus:выбор БК | ЧУЖАЯ: RU |  | Fonbet, Winline, BetBoom | absent | рейтинг легальных БК России | bookmaker-ratings.ru, rating.sportrbc.ru |
+| UZ | букмекерские конторы топ | corpus:выбор БК | ЧУЖАЯ: RU |  | Fonbet, Winline, BetBoom | absent | лидеры рынка, легальные БК РФ через ЕЦУПИС |  |
+| UZ | букмекерские конторы узбекистан | corpus:выбор БК | своя |  | 1xBet, Parimatch, Melbet, Betandyou | absent | популярные международные БК с зарубежными лицензиями в Узбекистане | futureby.info, spot.uz, stavkinasport.com, ua-football.com |
+| UZ | букмекерские конторы узбекистана | corpus:выбор БК | своя |  | 1xBet, Parimatch, Melbet, Betandyou | absent | популярные бренды международных платформ в Узбекистане | futureby.info, spot.uz, stavkinasport.com, ua-football.com |
+| UZ | все букмекерские конторы | corpus:выбор БК | без страны |  | Fonbet, Winline, BetBoom, Marathon, Betcity | absent | легальные и популярные БК РФ |  |
+| UZ | какие букмекерские конторы работают в узбекистане | corpus:выбор БК | своя | 1 | Mostbet, 1xBet, Parimatch, Melbet, Betandyou | negative | популярные международные БК, доступные в Узбекистане | futureby.info, spot.uz, ua-football.com |
+| UZ | какие самые лучшие букмекерские конторы | corpus:выбор БК | ЧУЖАЯ: RU |  | Fonbet, Winline, BetBoom | absent | лидеры рынка, популярные операторы РФ | bookmaker-ratings.ru, legalbet.ru, metaratings.ru, pribalt.info, rating.sportrbc.ru, sravni.bet, stavka.tv |
+| UZ | кто такие букмекеры | corpus:выбор БК | без страны |  | Fonbet | absent | бренды не названы (определение термина) | bookmaker-ratings.ru, eurostavka.ru, finance-group.az, fon.bet, legalbet.ru, ru.wikipedia.org |
+| UZ | лучшие бк | corpus:выбор БК | ЧУЖАЯ: RU |  | Fonbet, Winline, BetBoom, Marathon, Betcity | absent | топ легальных БК России | bookmaker-ratings.ru, metaratings.ru, pribalt.info, rating.sportrbc.ru, sport.vbr.ru, stavka.tv |
+| UZ | лучшие букмекерские конторы | corpus:выбор БК | без страны |  | Fonbet, Winline, BetBoom | absent | лучшие БК по оценкам экспертов, операторы РФ | bookmaker-ratings.ru, futureby.info, rating.sportrbc.ru, sport.vbr.ru, stavka.tv |
+| UZ | лучшие букмекерские конторы мира | corpus:выбор БК | без страны |  | 1xBet, Parimatch, Fonbet, Tennisi, Bet365, Betfair | absent | топ мировых БК по надёжности и охвату | 62.ua, legalbet.ru, meta-ratings.kz, metaratings.ru, sports.ru, strategya.com |
+| UZ | лучшие букмекерские конторы узбекистана | corpus:выбор БК | своя | 4 | Mostbet, 1xBet, Betwinner | ok | топ международных платформ, лучшие БК Узбекистана 2026 | futureby.info, sport.ua, stavkinasport.com, ua-football.com |
+| UZ | самые лучшие бк | corpus:выбор БК | без страны |  | Fonbet, Winline, BetBoom | absent | топ БК по национальным рейтингам, легальные РФ |  |
+| UZ | узбекистан букмекерские конторы | corpus:выбор БК | своя |  | 1xBet, Melbet, Betandyou | absent | международные платформы с поддержкой UZS в Узбекистане |  |
+| UZ | что такое бк | corpus:выбор БК | без страны |  |  | n/a | бренды не названы (расшифровка аббревиатуры) | bookmaker-ratings.ru, math-solution.ru, pari.ru, ru.wikipedia.org, sokrasheniya.academic.ru |
+| UZ | букмекерские конторы легальные | corpus:легальность | ЧУЖАЯ: AZ+RU | 1 | Mostbet, 1xBet, Fonbet, Winline, Topaz, BetBoom, Marathon | negative | легальные БК России; в Азербайджане Topaz против офшорных | bookmaker-ratings.ru, fc-arsenal.com |
+| UZ | букмекерские конторы с лицензией | corpus:легальность | ЧУЖАЯ: RU |  | Fonbet, Winline, Melbet, BetBoom, Marathon, Leon, Bettery, Betcity | absent | легальные БК России с лицензией ФНС | betonmobile.ru, bookmaker-ratings.ru, legalbet.ru, stavka.tv, vedomosti.ru |
+| UZ | легальные букмекерские конторы | corpus:легальность | ЧУЖАЯ: RU |  | Fonbet, Winline, Melbet, BetBoom, Marathon, Leon, Betcity, Baltbet | absent | легальные БК России с лицензией ФНС | bookmaker-ratings.ru, legalbet.ru, sravni.ru, stavka.tv, vedomosti.ru |
+| UZ | легальные букмекерские конторы в узбекистане | corpus:легальность | своя | 1 | Mostbet, 1xBet, Melbet | negative | международные платформы без национального разрешения в Узбекистане | gazeta.uz, spot.uz, stavkinasport.com, ua-football.com |
+| UZ | лучшие легальные букмекерские конторы | corpus:легальность | ЧУЖАЯ: RU |  | Fonbet, Winline, Melbet, BetBoom, Leon, Zenit, Betcity | absent | легальные БК России с лицензией ФНС | bookmaker-ratings.ru, rating.sportrbc.ru, sport.vbr.ru, stavka.tv, vedomosti.ru |
+| UZ | самые надежные букмекерские конторы | corpus:надёжность | без страны |  | Fonbet, Winline, Marathon | absent | лидеры надёжности, лицензированные операторы РФ | bookmaker-ratings.ru, stavka.tv |
+| UZ | букмекер это | corpus:что это | без страны |  | Fonbet | absent | бренды не названы (определение термина) | bookmaker-ratings.ru, eurostavka.ru, finance-group.az, fon.bet, legalbet.ru, ru.wikipedia.org |
+| UZ | что такое букмекер | corpus:что это | без страны |  | Fonbet | absent | бренды не названы (определение термина) | bookmaker-ratings.ru, eurostavka.ru, finance-group.az, fon.bet, legalbet.ru, ru.wikipedia.org |
+| UZ | Какие букмекерские конторы работают в Узбекистане? | derived | своя | 1 | Mostbet, 1xBet, Parimatch, Melbet, Betandyou | negative | популярные международные БК, доступные в Узбекистане | futureby.info, spot.uz, ua-football.com |
+| UZ | В чем суть букмекеров? | paa | без страны |  |  | n/a | бренды не названы (суть букмекерства) | bookmaker-ratings.ru, eurostavka.ru, legalbet.ru, ru.wikipedia.org |
+| UZ | Какая самая надежная букмекерская контора? | paa | ЧУЖАЯ: RU |  | Fonbet, Winline, BetBoom | absent | легальные операторы русскоязычного сегмента, РФ | bookmaker-ratings.ru, legalbet.ru, metaratings.ru, pribalt.info, sport.vbr.ru, sravni.bet, stavka.tv |
+| UZ | Какие последние новости о букмекерах в Узбекистане? | paa | своя |  |  | n/a | бренды не названы; новости регулирования | anhor.uz, gazeta.uz |
+| UZ | Какие торговые платформы есть в Узбекистане? | paa | своя |  |  | n/a | маркетплейсы Узбекистана, БК не названы | billz.io, dxu.uz, info2b.kz, moysklad.uz, pc.uz, sprav.uz, uzdaily.uz |
+| UZ | Какой самый надежный букмекер? | paa | ЧУЖАЯ: RU |  | Fonbet, Winline, Marathon | absent | надёжные легальные БК с гослицензией, РФ | bookmaker-ratings.ru, legalbet.kz, metaratings.ru, rating.sportrbc.ru, sravni.bet, stavka.tv |
+| UZ | Можно ли делать ставки в Узбекистане? | paa | своя |  |  | n/a | бренды не названы; легальные платформы с лицензией НАПП | gazeta.uz |
+| UZ | На чём зарабатывают букмекеры? | paa | без страны |  |  | n/a | бренды не названы (заработок БК) | bookmaker-ratings.ru, elbib.ru, forbes.ru, legalbet.ru, sky.pro |
+| UZ | Что делают в букмекерских конторах? | paa | без страны |  |  | n/a | бренды не названы (функции БК) | bookmaker-ratings.ru, eurostavka.ru, fc-arsenal.com, legalbet.ru, obrmos.ru, ru.wikipedia.org |
 
 ## Запросы без AI-блока
 
