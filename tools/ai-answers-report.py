@@ -244,3 +244,145 @@ A('4. AI Mode — решение по каналу за владельцем (XM
 
 open(f'{OUT_DIR}/01-corpus-and-sources.md', 'w').write('\n'.join(L))
 print(f'ok: rows={len(rows)} serps={len(serps)} (brand {len(br)}) cited_domains={len(dom_cited)} units corpus={units_corpus} serp={units_serp}')
+
+# ═══════════════════ 02: AI-ответы из XMLRiver ═══════════════════
+BRANDS = ['Mostbet', '1xBet', 'Olimpbet', 'Olimp', 'Parimatch', 'Fonbet', 'Winline', 'Pin-Up', 'Pin Up', 'Melbet', 'Betandyou',
+          'Misli', 'Topaz', 'BetBoom', 'Marathon', 'Leon', 'Tennisi', 'Bettery', 'Ubet', 'Zenit', 'Betcity', 'Baltbet', '888', 'Bet365',
+          '22Bet', 'Vulkan', 'Betwinner', 'Linebet', 'Megapari', 'Dbbet', 'Betera', 'Sportbet', 'Betfair', 'Unibet', 'GGBet', 'Sportingbet']
+BRX = {b: re.compile(r'(?<![a-zа-я])' + re.escape(b).replace(r'\ ', r'[\s-]?') + r'(?![a-zа-я])', re.I) for b in BRANDS}
+RUS = {'Mostbet': r'мостбет', '1xBet': r'1хбет|1 xbet|иксбет', 'Olimpbet': r'олимпбет', 'Olimp': r'олимп(?!бет)', 'Parimatch': r'париматч|пари-матч',
+       'Fonbet': r'фонбет', 'Winline': r'винлайн', 'Pin-Up': r'пин-?ап', 'Melbet': r'мелбет', 'Leon': r'леон', 'Tennisi': r'теннисси', 'Zenit': r'зенит', 'Betcity': r'бетсити', 'Marathon': r'марафон'}
+def brands_in(t):
+    found = []
+    for b in BRANDS:
+        if BRX[b].search(t) or (b in RUS and re.search(RUS[b], t, re.I)):
+            if b == 'Olimp' and 'Olimpbet' in found: continue
+            if b == 'Pin Up' and 'Pin-Up' in found: continue
+            found.append(b)
+    return found
+def mostbet_context(t, width=160):
+    out = []
+    for m in re.finditer(r'mostbet|мостбет', t, re.I):
+        a, b = max(0, m.start() - width), min(len(t), m.end() + width)
+        out.append(re.sub(r'\s+', ' ', t[a:b]).strip())
+    return out
+
+GEO_RX = {'KZ': r'казахстан|\bрк\b|\bкз\b|тенге|kaspi|каспи', 'AZ': r'азербайджан|баку|манат|misli|topaz', 'UZ': r'узбекистан|ташкент|\bсум\b|напп|uzcard|humo|payme', 'RU': r'росси|\bрф\b|фнс|цупис|\bрубл'}
+def geo_code(cc, t):
+    hits = {k for k, rx in GEO_RX.items() if re.search(rx, t, re.I)}
+    if not hits: return 'без страны'
+    if hits == {cc}: return 'своя'
+    if cc in hits: return 'своя+' + '+'.join(sorted(hits - {cc}))
+    return 'ЧУЖАЯ: ' + '+'.join(sorted(hits))
+
+def build_02(device='desktop'):
+    f = f'{ROOT}/results/ai/xmlriver/answers-{device}.jsonl'
+    if not os.path.exists(f): return None
+    ans = [json.loads(l) for l in open(f) if l.strip()]
+    cls = {}
+    cf = f'{ROOT}/results/ai/xmlriver/classification.json'
+    if os.path.exists(cf):
+        for c in json.load(open(cf)): cls[(c['cc'], c['query'].strip().lower())] = c
+    for a in ans:
+        a['brands'] = brands_in(a.get('answer') or '') if a.get('ai_present') else []
+        a['cls'] = cls.get((a['cc'], a['query'].strip().lower()))
+        a['geo'] = geo_code(a['cc'], a.get('answer') or '') if a.get('ai_present') else ''
+    L = []; A = L.append
+    A(f'# AI-ответы Google по Mostbet: что отвечает Google в KZ, AZ, UZ\n')
+    A(f'Снято {today} через XMLRiver (`ai=1`, гео страны, язык ru, {device}). Сырые XML — `results/ai/xmlriver/` (в git не хранятся), '
+      f'разбор — `tools/xmlriver-ai.py`, этот документ — `tools/ai-answers-report.py`. Корпус и источники из Ahrefs — [01-corpus-and-sources.md](01-corpus-and-sources.md).\n')
+    A('**Как читать.** «AI-блок» — то, что Google показал над выдачей. Почти всегда это блок с заголовком «Ответ в режиме ИИ» — то есть '
+      'AI Mode, встроенный в обычную выдачу, а не классический AI Overview; в таблицах это колонка «режим». «Нет блока» — на этой выдаче '
+      'Google текста не показал; отдельная вкладка AI Mode не проверялась, канала к ней нет.\n')
+    A('**Гео проверено контролем.** Один и тот же запрос из KZ и из RU даёт разную органику (`legalbet.kz` против `legalbet.ru`) и разный '
+      'AI-текст — параметр страны у XMLRiver работает. Но на запросах без слова «Казахстан» («лучшие бк») Google из KZ при казахстанской '
+      'органике всё равно отвечает «Топ букмекерских контор России» — это поведение Google, не артефакт. Колонка «о какой стране» ниже '
+      'считается по словам в тексте ответа.\n')
+
+    A('## Сводка\n')
+    A('| страна | запросов | AI-блок есть | из них Mostbet упомянут | ошибок |\n|---|---|---|---|---|')
+    for cc in CC:
+        rr = [a for a in ans if a['cc'] == cc]
+        if not rr: continue
+        p = [a for a in rr if a.get('ai_present')]
+        A(f"| {cc} | {len(rr)} | **{len(p)}** ({100 * len(p) // max(1, len(rr))} %) | {sum(1 for a in p if a.get('mostbet_mentions'))} | {sum(1 for a in rr if a.get('error'))} |")
+    A('')
+    A('О какой стране на самом деле говорит ответ (по словам в тексте):\n')
+    A('| страна запроса | своя | своя + ещё | без страны | чужая |\n|---|---|---|---|---|')
+    for cc in CC:
+        p = [a for a in ans if a['cc'] == cc and a.get('ai_present')]
+        if not p: continue
+        g = Counter(('чужая' if a['geo'].startswith('ЧУЖАЯ') else 'своя+' if a['geo'].startswith('своя+') else a['geo']) for a in p)
+        A(f"| {cc} | {g.get('своя', 0)} | {g.get('своя+', 0)} | {g.get('без страны', 0)} | **{g.get('чужая', 0)}** ({', '.join(f'{k[7:]} {v}' for k, v in Counter(a['geo'] for a in p if a['geo'].startswith('ЧУЖАЯ')).most_common())}) |")
+    A('')
+    if cls:
+        A('### Корзины\n')
+        A('| страна | бренд отсутствует | бренд с негативом/рисками | бренд подан нормально | не про бренд |\n|---|---|---|---|---|')
+        for cc in CC:
+            p = [a for a in ans if a['cc'] == cc and a.get('ai_present') and a.get('cls')]
+            if not p: continue
+            cnt = Counter(a['cls']['bucket'] for a in p)
+            A(f"| {cc} | {cnt.get('absent', 0)} | {cnt.get('negative', 0)} | {cnt.get('ok', 0)} | {cnt.get('n/a', 0)} |")
+        A('')
+
+    A('## Вопросы владельца\n')
+    for a in [a for a in ans if a['tag'] == 'owner']:
+        A(f"### {a['cc']} · {a['query']}\n")
+        if a.get('error'): A(f"_Ошибка: {a['error']}_\n"); continue
+        if not a.get('ai_present'): A('_AI-блока нет._\n'); continue
+        A(f"Режим: {a.get('answer_mode')}. Mostbet упомянут: {a.get('mostbet_mentions', 0)} раз. Бренды в ответе: {', '.join(a['brands']) or '—'}."
+          + (f" **Корзина: {a['cls']['bucket']}** — {a['cls'].get('reason', '')}" if a.get('cls') else '') + '\n')
+        A('> ' + (a.get('answer') or '').replace('\n', '\n> ') + '\n')
+        if a.get('sources'): A('Источники: ' + ', '.join(f"[{host(s['url'])}]({s['url']})" for s in a['sources'] if s.get('url')) + '\n')
+
+    A('## Где Mostbet упомянут — и как\n')
+    mb = [a for a in ans if a.get('mostbet_mentions')]
+    if not mb: A('_Ни в одном ответе._\n')
+    else:
+        A('| страна | запрос | тег | контекст упоминания |\n|---|---|---|---|')
+        for a in sorted(mb, key=lambda a: (a['cc'], a['query'])):
+            ctx = ' … '.join(mostbet_context(a['answer'])[:2]).replace('|', '¦')
+            A(f"| {a['cc']} | {a['query']} | {a['tag']} | {ctx} |")
+        A('')
+
+    A('## Ответы про выбор БК без Mostbet: кого называют вместо него\n')
+    sel = [a for a in ans if a.get('ai_present') and not a.get('mostbet_mentions') and a['brands']]
+    for cc in CC:
+        rr = [a for a in sel if a['cc'] == cc]
+        if not rr: continue
+        cnt = Counter(b for a in rr for b in a['brands'])
+        A(f"**{cc}** — {len(rr)} ответов с брендами: " + ', '.join(f'{b} ({n})' for b, n in cnt.most_common(12)) + '\n')
+    A('')
+
+    A('## Кто цитируется в AI-блоках\n')
+    for cc in CC:
+        rr = [a for a in ans if a['cc'] == cc and a.get('ai_present')]
+        if not rr: continue
+        dom = defaultdict(lambda: dict(n=0, urls=Counter()))
+        for a in rr:
+            for s in a.get('sources', []):
+                if s.get('url'): h = host(s['url']); dom[h]['n'] += 1; dom[h]['urls'][s['url']] += 1
+        A(f'### {CNAME[cc]} ({cc}) — {len(rr)} ответов\n')
+        A('| домен | в ответах | самая цитируемая страница |\n|---|---|---|')
+        for h, d in sorted(dom.items(), key=lambda kv: -kv[1]['n'])[:25]:
+            u, n = d['urls'].most_common(1)[0]
+            A(f"| `{h}` | {d['n']} | [{u[:70]}]({u}) ({n}) |")
+        A('')
+
+    A('## Все запросы с AI-блоком\n')
+    A('| страна | запрос | тег | режим | о какой стране | Mostbet | бренды | корзина | источники |\n|---|---|---|---|---|---|---|---|---|')
+    for a in sorted([a for a in ans if a.get('ai_present')], key=lambda a: (a['cc'], a['tag'], a['query'])):
+        srcs = ', '.join(sorted({host(s['url']) for s in a.get('sources', []) if s.get('url')}))
+        A(f"| {a['cc']} | {a['query']} | {a['tag']} | {a.get('answer_mode', '')} | {a['geo']} | {a.get('mostbet_mentions', 0) or ''} | {', '.join(a['brands'])} | {a['cls']['bucket'] if a.get('cls') else ''} | {srcs} |")
+    A('')
+    A('## Запросы без AI-блока\n')
+    A('| страна | тег | сколько | примеры |\n|---|---|---|---|')
+    for cc in CC:
+        for tag in ('owner', 'derived', 'paa') + tuple(sorted({a['tag'] for a in ans if a['tag'].startswith('corpus')})):
+            rr = [a for a in ans if a['cc'] == cc and a['tag'] == tag and not a.get('ai_present') and not a.get('error')]
+            if rr: A(f"| {cc} | {tag} | {len(rr)} | {'; '.join(a['query'] for a in rr[:6])} |")
+    open(f'{OUT_DIR}/02-ai-answers.md', 'w').write('\n'.join(L))
+    return len(ans)
+
+n2 = build_02()
+print('02-ai-answers.md:', n2 if n2 else 'нет данных XMLRiver')
