@@ -86,26 +86,30 @@ def host(u):
 
 serps = []
 units_serp = 0
-for cc in CC:
-    for f in sorted(glob.glob(f'{SERP}/{cc}/*.json')):
-        d = json.load(open(f)); units_serp += d.get('units', 0)
-        pos = d['positions']
-        srcs = [dict(url=unwrap(p['url']), title=p['title']) for p in pos if 'ai_overview_sitelink' in p['type']]
-        paa = [p['title'] for p in pos if 'question' in p['type'] and p.get('title')]
-        org = [p for p in pos if 'organic' in p['type']]
-        dates = sorted({(p.get('update_date') or '')[:10] for p in pos if p.get('update_date')})
-        alltext = json.dumps(pos, ensure_ascii=False).lower()
-        serps.append(dict(cc=cc, keyword=d['keyword'], sources=srcs, paa=paa, organic=org, date=dates[-1] if dates else '?',
-                          mostbet_anywhere=('mostbet' in alltext or 'мостбет' in alltext),
-                          vol=rows.get((cc, d['keyword']), {}).get('volume', 0)))
+MB = re.compile(r'mostbet|мостбет', re.I)
+for group, folder in (('generic', SERP), ('brand', f'{ROOT}/results/ai/serp-brand')):
+    for cc in CC:
+        for f in sorted(glob.glob(f'{folder}/{cc}/*.json')):
+            d = json.load(open(f)); units_serp += d.get('units', 0)
+            pos = d['positions']
+            srcs = [dict(url=unwrap(p['url']), title=p['title']) for p in pos if 'ai_overview_sitelink' in p['type']]
+            paa = [p['title'] for p in pos if 'question' in p['type'] and p.get('title')]
+            org = [p for p in pos if 'organic' in p['type']]
+            dates = sorted({(p.get('update_date') or '')[:10] for p in pos if p.get('update_date')})
+            has_aio = any('ai_overview' in p['type'] for p in pos)
+            mb_rows = [p for p in pos if MB.search((p.get('url') or '') + ' ' + (p.get('title') or ''))]
+            serps.append(dict(cc=cc, group=group, keyword=d['keyword'], sources=srcs, paa=paa, organic=org,
+                              date=dates[-1] if dates else '?', has_aio=has_aio, empty=(len(pos) == 0),
+                              mostbet_rows=mb_rows, mostbet_anywhere=bool(mb_rows),
+                              vol=rows.get((cc, d['keyword']), {}).get('volume', 0)))
 
-dom_cited = defaultdict(lambda: dict(queries=set(), urls=set(), dr=None, refd=None, traffic=None))
+dom_cited = defaultdict(lambda: dict(queries=set(), brand_queries=set(), urls=set(), dr=None))
 dom_top10 = defaultdict(set)
 for s in serps:
     for src in s['sources']:
         h = host(src['url']); 
         if not h: continue
-        dom_cited[h]['queries'].add((s['cc'], s['keyword'])); dom_cited[h]['urls'].add(src['url'])
+        dom_cited[h]['queries' if s['group'] == 'generic' else 'brand_queries'].add((s['cc'], s['keyword'])); dom_cited[h]['urls'].add(src['url'])
     for p in s['organic']:
         h = host(p['url'])
         if p['position'] <= 10: dom_top10[h].add((s['cc'], s['keyword']))
@@ -185,22 +189,46 @@ A('\nПро Kaspi и про то, *как пройти* верификацию, 
   'формулировки уровня AI Mode; проверять их надо живым AI-ответом, частотностью они не подтверждаются.\n')
 
 A('## Источники AI Overview: кто кормит ответы\n')
-mb = sum(1 for s in serps if s['mostbet_anywhere'])
-A(f'По {len(serps)} запросам с AI-блоком. **Mostbet (в любом написании) встречается в {mb} из {len(serps)} снимков** — '
-  'ни среди источников AI Overview, ни в органическом топ-20, ни в блоке «Люди также спрашивают».\n' if mb == 0 else
-  f'Mostbet встречается в {mb} из {len(serps)} снимков.\n')
+gen = [s for s in serps if s['group'] == 'generic']
+br = [s for s in serps if s['group'] == 'brand']
+A(f'Снимки выдачи Ahrefs двух групп: **{len(gen)} небрендовых** запросов, где Ahrefs зафиксировал AI-блок (это все такие в корпусе — '
+  'флаг стоит только на недавно переобойдённых выдачах, так что список неполный), и **{len(br)} брендовых** — отзывы, вывод денег, '
+  'легальность с словом Mostbet, снятые отдельно независимо от флага.\n')
+
+A('### Небрендовые запросы\n')
+mb = sum(1 for s in gen if s['mostbet_anywhere'])
+A(f'По запросам без слова Mostbet бренд в снимках {"не встречается" if mb == 0 else f"встречается в {mb} из {len(gen)}"} — '
+  'для запросов вида «букмекерские конторы казахстана» это ожидаемо. Важно другое: **кто** в этих ответах цитируется — это страницы, '
+  'через которые Google формирует список «каких букмекеров рекомендовать».\n')
+
+A('### Брендовые запросы\n')
+if not br:
+    A('_Ещё не сняты._\n')
+else:
+    A('| страна | запрос | объём | снимок | AI-блок в снимке | источники AI-блока | Mostbet в органике топ-20 |\n|---|---|---|---|---|---|---|')
+    for s in sorted(br, key=lambda s: (s['cc'], -s['vol'])):
+        if s['empty']:
+            A(f"| {s['cc']} | {s['keyword']} | {s['vol']} | — | **выдачи в базе нет** | — | — |"); continue
+        srcs = ', '.join(f"`{host(x['url'])}`" for x in s['sources']) or '—'
+        mbr = ', '.join(sorted({host(p['url']) for p in s['mostbet_rows'] if p.get('url')})) or 'нет'
+        A(f"| {s['cc']} | {s['keyword']} | {s['vol']} | {s['date']} | {'**да**' if s['has_aio'] else 'не зафиксирован'} | {srcs} | {mbr} |")
+    A('\n«Не зафиксирован» — в снимке Ahrefs блока нет; это не доказательство, что Google его не показывает. '
+      '«Выдачи в базе нет» — Ahrefs эту выдачу не снимал вообще.\n')
+
 A('### Домены-источники, сводно\n')
-A('| домен | цитируется в запросах | в органическом топ-10 | DR |\n|---|---|---|---|')
-for h, d in sorted(dom_cited.items(), key=lambda kv: (-len(kv[1]['queries']), kv[0])):
-    A(f"| `{h}` | {len(d['queries'])} | {len(dom_top10.get(h, ()))} | {d['dr'] if d['dr'] is not None else '—'} |")
+A('| домен | цитируется: небрендовые | брендовые | в органическом топ-10 | DR |\n|---|---|---|---|---|')
+for h, d in sorted(dom_cited.items(), key=lambda kv: (-(len(kv[1]['queries']) + len(kv[1]['brand_queries'])), kv[0])):
+    A(f"| `{h}` | {len(d['queries'])} | {len(d['brand_queries'])} | {len(dom_top10.get(h, ()))} | {d['dr'] if d['dr'] is not None else '—'} |")
 A('\nDR взят из органических строк того же снимка; «—» — домен в органике топ-20 не встретился, Ahrefs для строк AI-блока метрики не отдаёт.\n')
 
 A('### По запросам\n')
-for s in sorted(serps, key=lambda s: (s['cc'], -s['vol'])):
-    A(f"**{s['cc']} · {s['keyword']}** ({s['vol']}) — снимок {s['date']}\n")
+for s in sorted(serps, key=lambda s: (s['group'] != 'generic', s['cc'], -s['vol'])):
+    if s['empty']: continue
+    tag = 'бренд' if s['group'] == 'brand' else 'общий'
+    A(f"**{s['cc']} · {s['keyword']}** ({s['vol']}, {tag}) — снимок {s['date']}" + ('' if s['has_aio'] else ' — AI-блок не зафиксирован') + '\n')
     if s['sources']:
         for src in s['sources']: A(f"- источник: [{src['title'] or host(src['url'])}]({src['url']})")
-    else: A('- источников в снимке нет')
+    elif s['has_aio']: A('- источников в снимке нет')
     if s['paa']: A('- «Люди также спрашивают»: ' + ' · '.join(f'_{q}_' for q in s['paa']))
     top = [p for p in s['organic'] if p['position'] <= 5]
     if top: A('- органика 1–5: ' + ', '.join(f"`{host(p['url'])}` (DR {p['domain_rating'] if p['domain_rating'] is not None else '—'})" for p in top))
@@ -215,4 +243,4 @@ A('3. `serp-overview` по проблемным запросам (top-30) — т
 A('4. AI Mode — решение по каналу за владельцем (XMLRiver `udm=50`? отдельный провайдер?).\n')
 
 open(f'{OUT_DIR}/01-corpus-and-sources.md', 'w').write('\n'.join(L))
-print(f'ok: rows={len(rows)} serps={len(serps)} cited_domains={len(dom_cited)} mostbet_in_serps={mb} units corpus={units_corpus} serp={units_serp}')
+print(f'ok: rows={len(rows)} serps={len(serps)} (brand {len(br)}) cited_domains={len(dom_cited)} units corpus={units_corpus} serp={units_serp}')
