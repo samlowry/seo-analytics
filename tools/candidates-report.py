@@ -4,6 +4,7 @@ import json, os, re, glob, datetime, urllib.parse, xml.etree.ElementTree as ET
 from collections import Counter, defaultdict
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 R = f'{ROOT}/results/ai'; OUT = f'{ROOT}/ai-answers/04-candidates.md'
+CNAME = {'KZ': 'Казахстан', 'UZ': 'Узбекистан', 'AZ': 'Азербайджан'}
 host = lambda u: urllib.parse.urlsplit(u).netloc.lower().removeprefix('www.') if u else ''
 fmt = lambda n: '—' if n is None else f'{int(n):,}'.replace(',', ' ')
 load = lambda p, d: json.load(open(p)) if os.path.exists(p) else d
@@ -123,6 +124,38 @@ for cc in ('KZ', 'UZ', 'AZ'):
     if not rr: A(f'**{cc}** — данных нет.\n'); continue
     hc = Counter(host(r['url']) for r in rr)
     A(f"**{cc}** — {len({r['url'] for r in rr})} URL на {len(hc)} хостах. Топ хостов: " + ', '.join(f"`{h}` ({n})" for h, n in hc.most_common(15)) + '\n')
+A('')
+# ── F. позитивные статьи про бренд на сильных доменах ──
+A('## F. Позитивные статьи про бренд на сильных доменах — что качать\n')
+A('Отбор: статья про бренд — обзор или инструкция по Mostbet, либо страница с пригодным абзацем о нём; тон позитивный или нейтральный; не спам и не аффилиатный клон. **Сортировка — по силе домена** '
+  '(DR, затем доноры): страница может быть слабой, её и прокачиваем. Страна — по TLD и по тому, из какой выдачи страница пришла; '
+  '.ru/.com/.ua-площадки про рынок вынесены отдельно. Метрики самих страниц не снимались — намеренно.\n')
+SPAM2 = re.compile(r'спам|аффилиат|клон|мусор|дорвей|сателлит|вакансий|проверки доступности', re.I)
+good = []
+for u, t in tone.items():
+    h = host(u)
+    if t['tone'] == 'negative' or t['page_type'] in ('operator_site', 'other'): continue
+    if SPAM2.search(t.get('issues', '')) or re.search(r'mostbet|мостбет|mosbet', h): continue
+    # статья про бренд: либо пригодный абзац, либо страница целиком о Mostbet (обзор/инструкция)
+    if not (t['usable_paragraph'] or t['page_type'] in ('mostbet_review', 'mostbet_howto')): continue
+    m = dom.get(h, {}); d = pool.get(u, {}); p = pages.get(u, {}); q = {}
+    tld = h.rsplit('.', 1)[-1]
+    cc = {'kz': 'KZ', 'uz': 'UZ', 'az': 'AZ'}.get(tld) or (d.get('cc') or ['—'])[0]
+    good.append(dict(u=u, h=h, cc=cc, local=tld in ('kz', 'uz', 'az'), dr=m.get('domain_rating') or 0, rd=m.get('refdomains') or 0, tr=m.get('org_traffic') or 0,
+                     tc=', '.join(f'{c} {fmt(v)}' for c, v in (m.get('org_traffic_top_by_country') or [])[:2]), t=t, p=p, q=q, cited=len(d.get('cited', [])), top10=len(d.get('top10', []))))
+def row(g):
+    q = g['q']; t = g['t']; p = g['p']
+    return (f"| `{g['h']}` | {fmt(g['dr'])} | {fmt(g['rd'])} | {fmt(g['tr'])} | {g['tc']} | [{re.sub(r'^https?://(www\\.)?', '', g['u'])[:60]}]({g['u']}) | {t['page_type']} | {t['tone']}{' ✓' if t['usable_paragraph'] else ''} | "
+            f"{g['cited']}/{g['top10']} | {t['paragraph_quote'].replace('|', '¦')[:160]} |")
+HDR = '| домен | DR | доноров | трафик домена | откуда | страница | тип | тон | цит./топ-10 | цитата |\n|---|---|---|---|---|---|---|---|---|---|'
+for cc in ('KZ', 'UZ', 'AZ'):
+    loc = sorted([g for g in good if g['cc'] == cc and g['local']], key=lambda g: (-g['dr'], -g['rd']))
+    A(f'### {CNAME[cc]} — местные домены .{cc.lower()} ({len(loc)})\n'); A(HDR)
+    for g in loc: A(row(g))
+    A('')
+ext = sorted([g for g in good if not g['local']], key=lambda g: (-g['dr'], -g['rd']))
+A(f'### Не местные домены с материалами про эти рынки ({len(ext)})\n'); A(HDR)
+for g in ext[:60]: A(row(g))
 A('')
 A('## Выводы по странам\n')
 A('**Казахстан.** AI-ответы про выбор БК строятся на четырёх рейтингах легальных букмекеров (`legalbet.kz/rating/`, `meta-ratings.kz/bookmakersrating/`, '
