@@ -64,7 +64,9 @@ def fetch(url):
     if os.path.exists(f):
         raw = open(f, encoding='utf-8', errors='replace').read(); status = 'cached'
     else:
-        req = urllib.request.Request(url, headers={'User-Agent': UA, 'Accept-Language': 'ru,en;q=0.8', 'Accept': 'text/html,*/*'})
+        sp = urllib.parse.urlsplit(url)
+        safe = urllib.parse.urlunsplit((sp.scheme, sp.netloc.encode('idna').decode(), urllib.parse.quote(sp.path, safe='/%:@'), urllib.parse.quote(sp.query, safe='=&%+'), ''))
+        req = urllib.request.Request(safe, headers={'User-Agent': UA, 'Accept-Language': 'ru,en;q=0.8', 'Accept': 'text/html,*/*'})
         try:
             with urllib.request.urlopen(req, timeout=25, context=CTX) as r:
                 raw = r.read(3_000_000).decode(r.headers.get_content_charset() or 'utf-8', 'replace'); status = str(r.status)

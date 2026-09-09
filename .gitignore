@@ -1,3 +1,4 @@
 results/
 tools/node_modules/
 .env
+__pycache__/
