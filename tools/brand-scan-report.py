@@ -18,9 +18,16 @@ _spec.loader.exec_module(bs)
 
 
 def regroup_legacy(r: dict) -> dict:
-    """Browser records written before group 6 carry reason protection:cloudflare; map them the way
-    the scanner does now: an unsolved challenge -> 6_cf_check, the WAF block page -> 5_not_shown."""
+    """Apply rules added after a record was written, from what the record keeps.
+
+    Registrar and hosting placeholders matched by the current PARKED -> 5_dead parked. Browser
+    records written before group 6 carry reason protection:cloudflare; map them the way the scanner
+    does now: an unsolved challenge -> 6_cf_check, the WAF block page -> 5_not_shown.
+    """
     res, h = r["result"], r.get("home") or {}
+    if res.get("group") in ("2_no_ads", "5_not_shown") and \
+            bs.lb.PARKED.search(f'{h.get("title", "")} {h.get("text_sample", "")}'):
+        return {**r, "result": {**res, "group": "5_dead", "reason": "parked", "was": res.get("group")}}
     if res.get("reason") != "protection:cloudflare":
         return r
     if bs.CF_BLOCK.search(f'{h.get("title", "")} {h.get("text_sample", "")}'):
@@ -34,7 +41,7 @@ def load(d: Path):
     http = bs.read_last(d / "http-scan.jsonl.gz")
     browser = bs.read_last(d / "browser-scan.jsonl.gz")
     dcache = bs.load_dest_cache(d / "dest-browser.jsonl.gz")
-    recs = {k: bs.resolve_record(r, dcache) for k, r in http.items()}
+    recs = {k: regroup_legacy(bs.resolve_record(r, dcache)) for k, r in http.items()}
     recs.update({k: regroup_legacy(r) for k, r in browser.items()})
     return list(recs.values())
 
