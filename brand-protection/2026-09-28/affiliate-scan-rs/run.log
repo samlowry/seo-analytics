@@ -1,0 +1,112 @@
+всего 22131, уже снято 0, осталось 22131
+200/22131 22.1/с {'failed': 199, 'not_affiliate': 1}
+400/22131 17.5/с {'failed': 399, 'not_affiliate': 1}
+600/22131 16.2/с {'failed': 598, 'not_affiliate': 2}
+800/22131 15.5/с {'failed': 796, 'not_affiliate': 4}
+1000/22131 15.2/с {'failed': 995, 'not_affiliate': 5}
+1200/22131 15.3/с {'failed': 1194, 'not_affiliate': 6}
+1400/22131 13.8/с {'failed': 1393, 'not_affiliate': 7}
+1600/22131 13.6/с {'failed': 1592, 'not_affiliate': 8}
+1800/22131 13.7/с {'failed': 1790, 'not_affiliate': 10}
+2000/22131 13.2/с {'failed': 1990, 'not_affiliate': 10}
+2200/22131 13.0/с {'failed': 2190, 'not_affiliate': 10}
+2400/22131 12.9/с {'failed': 2389, 'not_affiliate': 11}
+2600/22131 12.9/с {'failed': 2586, 'not_affiliate': 14}
+2800/22131 12.7/с {'failed': 2785, 'not_affiliate': 15}
+3000/22131 12.5/с {'failed': 2985, 'not_affiliate': 15}
+3200/22131 12.6/с {'failed': 3185, 'not_affiliate': 15}
+3400/22131 12.7/с {'failed': 3385, 'not_affiliate': 15}
+3600/22131 12.7/с {'failed': 3583, 'not_affiliate': 17}
+3800/22131 12.1/с {'failed': 3781, 'not_affiliate': 19}
+4000/22131 12.0/с {'failed': 3980, 'not_affiliate': 19, 'affiliate': 1}
+4200/22131 12.0/с {'failed': 4180, 'not_affiliate': 19, 'affiliate': 1}
+4400/22131 12.3/с {'failed': 4380, 'not_affiliate': 19, 'affiliate': 1}
+4600/22131 12.6/с {'failed': 4580, 'not_affiliate': 19, 'affiliate': 1}
+4800/22131 12.9/с {'failed': 4780, 'not_affiliate': 19, 'affiliate': 1}
+5000/22131 13.1/с {'failed': 4980, 'not_affiliate': 19, 'affiliate': 1}
+5200/22131 13.2/с {'failed': 5180, 'not_affiliate': 19, 'affiliate': 1}
+5400/22131 13.1/с {'failed': 5378, 'not_affiliate': 19, 'affiliate': 3}
+5600/22131 12.7/с {'failed': 5578, 'not_affiliate': 19, 'affiliate': 3}
+5800/22131 12.5/с {'failed': 5778, 'not_affiliate': 19, 'affiliate': 3}
+6000/22131 12.5/с {'failed': 5978, 'not_affiliate': 19, 'affiliate': 3}
+6200/22131 12.7/с {'failed': 6178, 'not_affiliate': 19, 'affiliate': 3}
+6400/22131 12.9/с {'failed': 6378, 'not_affiliate': 19, 'affiliate': 3}
+6600/22131 13.0/с {'failed': 6578, 'not_affiliate': 19, 'affiliate': 3}
+6800/22131 13.1/с {'failed': 6778, 'not_affiliate': 19, 'affiliate': 3}
+7000/22131 13.2/с {'failed': 6978, 'not_affiliate': 19, 'affiliate': 3}
+7200/22131 13.3/с {'failed': 7178, 'not_affiliate': 19, 'affiliate': 3}
+7400/22131 13.4/с {'failed': 7377, 'not_affiliate': 19, 'affiliate': 4}
+7600/22131 13.7/с {'failed': 7576, 'not_affiliate': 19, 'affiliate': 5}
+7800/22131 13.9/с {'failed': 7775, 'not_affiliate': 19, 'affiliate': 6}
+8000/22131 13.9/с {'failed': 7974, 'not_affiliate': 19, 'affiliate': 7}
+8200/22131 14.0/с {'failed': 8173, 'not_affiliate': 19, 'affiliate': 8}
+8400/22131 14.1/с {'failed': 8372, 'not_affiliate': 19, 'affiliate': 9}
+8600/22131 14.2/с {'failed': 8570, 'not_affiliate': 19, 'affiliate': 11}
+8800/22131 14.4/с {'failed': 8770, 'not_affiliate': 19, 'affiliate': 11}
+9000/22131 14.5/с {'failed': 8970, 'not_affiliate': 19, 'affiliate': 11}
+9200/22131 14.5/с {'failed': 9170, 'not_affiliate': 19, 'affiliate': 11}
+9400/22131 14.4/с {'failed': 9370, 'not_affiliate': 19, 'affiliate': 11}
+9600/22131 14.3/с {'failed': 9570, 'not_affiliate': 19, 'affiliate': 11}
+9800/22131 14.1/с {'failed': 9770, 'not_affiliate': 19, 'affiliate': 11}
+10000/22131 14.3/с {'failed': 9970, 'not_affiliate': 19, 'affiliate': 11}
+10200/22131 14.3/с {'failed': 10170, 'not_affiliate': 19, 'affiliate': 11}
+10400/22131 14.4/с {'failed': 10370, 'not_affiliate': 19, 'affiliate': 11}
+10600/22131 14.4/с {'failed': 10570, 'not_affiliate': 19, 'affiliate': 11}
+10800/22131 14.4/с {'failed': 10770, 'not_affiliate': 19, 'affiliate': 11}
+11000/22131 14.5/с {'failed': 10970, 'not_affiliate': 19, 'affiliate': 11}
+11200/22131 14.5/с {'failed': 11170, 'not_affiliate': 19, 'affiliate': 11}
+11400/22131 14.5/с {'failed': 11370, 'not_affiliate': 19, 'affiliate': 11}
+11600/22131 14.4/с {'failed': 11570, 'not_affiliate': 19, 'affiliate': 11}
+11800/22131 14.4/с {'failed': 11770, 'not_affiliate': 19, 'affiliate': 11}
+12000/22131 14.4/с {'failed': 11970, 'not_affiliate': 19, 'affiliate': 11}
+12200/22131 14.4/с {'failed': 12170, 'not_affiliate': 19, 'affiliate': 11}
+12400/22131 14.4/с {'failed': 12370, 'not_affiliate': 19, 'affiliate': 11}
+12600/22131 14.5/с {'failed': 12570, 'not_affiliate': 19, 'affiliate': 11}
+12800/22131 14.7/с {'failed': 12770, 'not_affiliate': 19, 'affiliate': 11}
+13000/22131 14.8/с {'failed': 12970, 'not_affiliate': 19, 'affiliate': 11}
+13200/22131 14.9/с {'failed': 13170, 'not_affiliate': 19, 'affiliate': 11}
+13400/22131 15.0/с {'failed': 13370, 'not_affiliate': 19, 'affiliate': 11}
+13600/22131 15.1/с {'failed': 13570, 'not_affiliate': 19, 'affiliate': 11}
+13800/22131 15.2/с {'failed': 13770, 'not_affiliate': 19, 'affiliate': 11}
+14000/22131 15.3/с {'failed': 13970, 'not_affiliate': 19, 'affiliate': 11}
+14200/22131 15.4/с {'failed': 14170, 'not_affiliate': 19, 'affiliate': 11}
+14400/22131 15.5/с {'failed': 14370, 'not_affiliate': 19, 'affiliate': 11}
+14600/22131 15.6/с {'failed': 14570, 'not_affiliate': 19, 'affiliate': 11}
+14800/22131 15.8/с {'failed': 14770, 'not_affiliate': 19, 'affiliate': 11}
+15000/22131 15.9/с {'failed': 14970, 'not_affiliate': 19, 'affiliate': 11}
+15200/22131 16.0/с {'failed': 15170, 'not_affiliate': 19, 'affiliate': 11}
+15400/22131 16.2/с {'failed': 15370, 'not_affiliate': 19, 'affiliate': 11}
+15600/22131 16.1/с {'failed': 15570, 'not_affiliate': 19, 'affiliate': 11}
+15800/22131 15.8/с {'failed': 15770, 'not_affiliate': 19, 'affiliate': 11}
+16000/22131 15.7/с {'failed': 15969, 'not_affiliate': 19, 'affiliate': 12}
+16200/22131 15.7/с {'failed': 16169, 'not_affiliate': 19, 'affiliate': 12}
+16400/22131 15.7/с {'failed': 16369, 'not_affiliate': 19, 'affiliate': 12}
+16600/22131 15.6/с {'failed': 16569, 'not_affiliate': 19, 'affiliate': 12}
+16800/22131 15.4/с {'failed': 16769, 'not_affiliate': 19, 'affiliate': 12}
+17000/22131 15.1/с {'failed': 16968, 'not_affiliate': 20, 'affiliate': 12}
+17200/22131 14.9/с {'failed': 17167, 'not_affiliate': 21, 'affiliate': 12}
+17400/22131 14.9/с {'failed': 17367, 'not_affiliate': 21, 'affiliate': 12}
+17600/22131 14.9/с {'failed': 17567, 'not_affiliate': 21, 'affiliate': 12}
+17800/22131 14.6/с {'failed': 17767, 'not_affiliate': 21, 'affiliate': 12}
+18000/22131 14.2/с {'failed': 17967, 'not_affiliate': 21, 'affiliate': 12}
+18200/22131 14.0/с {'failed': 18167, 'not_affiliate': 21, 'affiliate': 12}
+18400/22131 13.8/с {'failed': 18367, 'not_affiliate': 21, 'affiliate': 12}
+18600/22131 13.6/с {'failed': 18565, 'not_affiliate': 23, 'affiliate': 12}
+18800/22131 13.5/с {'failed': 18765, 'not_affiliate': 23, 'affiliate': 12}
+19000/22131 13.5/с {'failed': 18965, 'not_affiliate': 23, 'affiliate': 12}
+19200/22131 13.3/с {'failed': 19165, 'not_affiliate': 23, 'affiliate': 12}
+19400/22131 12.9/с {'failed': 19365, 'not_affiliate': 23, 'affiliate': 12}
+19600/22131 12.7/с {'failed': 19563, 'not_affiliate': 24, 'affiliate': 13}
+19800/22131 12.5/с {'failed': 19763, 'not_affiliate': 24, 'affiliate': 13}
+20000/22131 12.5/с {'failed': 19959, 'not_affiliate': 28, 'affiliate': 13}
+20200/22131 12.4/с {'failed': 20159, 'not_affiliate': 28, 'affiliate': 13}
+20400/22131 12.3/с {'failed': 20358, 'not_affiliate': 29, 'affiliate': 13}
+20600/22131 12.3/с {'failed': 20557, 'not_affiliate': 30, 'affiliate': 13}
+20800/22131 12.2/с {'failed': 20756, 'not_affiliate': 31, 'affiliate': 13}
+21000/22131 12.2/с {'failed': 20955, 'not_affiliate': 32, 'affiliate': 13}
+21200/22131 12.2/с {'failed': 21154, 'not_affiliate': 33, 'affiliate': 13}
+21400/22131 12.1/с {'failed': 21351, 'not_affiliate': 36, 'affiliate': 13}
+21600/22131 12.1/с {'failed': 21551, 'not_affiliate': 36, 'affiliate': 13}
+21800/22131 12.2/с {'failed': 21751, 'not_affiliate': 36, 'affiliate': 13}
+22000/22131 12.2/с {'failed': 21951, 'not_affiliate': 36, 'affiliate': 13}
+готово {'failed': 22082, 'not_affiliate': 36, 'affiliate': 13}
