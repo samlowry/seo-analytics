@@ -37,7 +37,10 @@ import csv
 import gzip
 import importlib.util
 import json
+import os
 import re
+import signal
+import subprocess
 import sys
 import time
 from pathlib import Path
@@ -63,6 +66,8 @@ MAX_FOLLOW = 12
 MAX_BRANDED_PLAIN = 3
 MAX_INNER_LINKS = 4
 SITE_TIMEOUT = 300
+LAUNCH_TIMEOUT = 90
+CLOSE_TIMEOUT = 30
 BATCH = 150  # browser restarts between batches to cap memory growth
 
 REGISTRY = Path.home() / "Developer/skaner-bitykh-ssylok/registry/entries.json"
@@ -899,6 +904,46 @@ def done_domains(path: Path):
     return done
 
 
+def _consume(task):
+    if not task.cancelled():
+        task.exception()  # retrieved, so an abandoned task does not log "never retrieved"
+
+
+async def bounded(coro, timeout):
+    """Await coro for at most timeout seconds.
+
+    Unlike asyncio.wait_for, a timed-out task is cancelled without waiting for it to finish: the
+    cleanup of a page on a crashed browser (ctx.close() in a finally) can wait forever, and
+    wait_for would hang the worker with it.
+    """
+    task = asyncio.ensure_future(coro)
+    task.add_done_callback(_consume)
+    done, _ = await asyncio.wait({task}, timeout=timeout)
+    if not done:
+        task.cancel()
+        raise TimeoutError(f"no answer in {timeout}s")
+    return task.result()
+
+
+def kill_driver(cm):
+    """SIGKILL the Playwright driver of an AsyncCamoufox and everything below it (browser, content
+    processes), so a hung browser leaves no orphans behind. No-op when it has already exited."""
+    proc = getattr(getattr(getattr(cm, "_connection", None), "_transport", None), "_proc", None)
+    if proc is None or proc.returncode is not None:
+        return
+    pids, todo = [], [proc.pid]
+    while todo:
+        pid = todo.pop()
+        pids.append(pid)
+        out = subprocess.run(["pgrep", "-P", str(pid)], capture_output=True, text=True).stdout
+        todo += [int(x) for x in out.split()]
+    for pid in reversed(pids):
+        try:
+            os.kill(pid, signal.SIGKILL)
+        except ProcessLookupError:
+            pass
+
+
 async def detect_network() -> str:
     try:
         async with aiohttp.ClientSession() as s:
@@ -1001,11 +1046,25 @@ async def main():
     # content process, so a single heavy page stalls every other tab of the same browser.
     run_one = scanner.resolve_destination if a.mode == "destinations" else scanner.scan_site
 
-    async def worker():
+    async def worker(wid):
+        """One browser, relaunched after every batch, crash or hang; exits only when the queue is empty."""
         from camoufox.async_api import AsyncCamoufox
+        fails = 0
         while not q.empty():
-            async with AsyncCamoufox(headless=True, geoip=True, block_images=True, humanize=False,
-                                     i_know_what_im_doing=True) as browser:
+            cm = AsyncCamoufox(headless=True, geoip=True, block_images=True, humanize=False,
+                               i_know_what_im_doing=True)
+            try:
+                browser = await bounded(cm.__aenter__(), LAUNCH_TIMEOUT)
+            except Exception as e:  # noqa: BLE001
+                fails += 1
+                kill_driver(cm)
+                delay = min(300, 10 * 2 ** min(fails, 5))
+                print(f"worker {wid}: browser launch failed ({type(e).__name__}: {str(e)[:120]}), "
+                      f"retry in {delay}s", flush=True)
+                await asyncio.sleep(delay)
+                continue
+            fails = 0
+            try:
                 for _ in range(BATCH):
                     if q.empty():
                         break
@@ -1013,7 +1072,7 @@ async def main():
                     t = time.time()
                     restart = False
                     try:
-                        rec = await asyncio.wait_for(run_one(browser, item), timeout=SITE_TIMEOUT)
+                        rec = await bounded(run_one(browser, item), SITE_TIMEOUT)
                     except Exception as e:  # noqa: BLE001 — a stuck or crashed browser is replaced
                         restart = True
                         rec = {"domain": item["domain"], "ts": time.strftime("%Y-%m-%dT%H:%M:%S"),
@@ -1024,8 +1083,14 @@ async def main():
                     write(rec)
                     if restart:
                         break
+            finally:
+                try:
+                    await bounded(cm.__aexit__(None, None, None), CLOSE_TIMEOUT)
+                except Exception:  # noqa: BLE001 — a dead browser may never answer close()
+                    pass
+                kill_driver(cm)
 
-    await asyncio.gather(*((http_worker() if a.mode == "http" else worker()) for _ in range(a.concurrency)))
+    await asyncio.gather(*((http_worker() if a.mode == "http" else worker(i)) for i in range(a.concurrency)))
     await session.close()
     fh.close()
     print("done", dict(sorted(stats.items())), flush=True)
