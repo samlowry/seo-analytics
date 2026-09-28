@@ -38,6 +38,17 @@ Corsearch отдаёт в экспорт не больше 10 000 строк, п
 Колонки `phone_number` и `whatsapp` Corsearch не кладёт в кусок, где они пустые у всех, —
 склейка идёт по именам колонок.
 
+### Минус наши домены
+
+`resolves-minus-ours.csv` — `resolves.csv` без наших доменов из
+[`our-domains.txt`](our-domains.txt) (469 шт., список от владельца 28.09.2026). Сравнение по
+punycode в нижнем регистре, без `www.`: `resolves` 34 328 − 455 наших строк = **33 873**.
+
+Из 469 наших: 453 ресолвятся, среди нересолвящихся нет ни одного, 16 в базе Corsearch нет
+вовсе — они в `our-domains-not-in-base.txt` (девять из них на `.co.com`).
+
+Сайты не открывались: часть из них может клоачить, на этом этапе ходим только в DNS.
+
 Фильтры в адресе страницы: `interval=exact_dates&start_date=…&end_date=…`, статус —
 `taken_down_websites=ONLINE|OFFLINE|PARKED|UNKNOWN`.
 
@@ -51,4 +62,5 @@ Corsearch отдаёт в экспорт не больше 10 000 строк, п
 ```
 uv run --with openpyxl python tools/corsearch-merge-exports.py <out.csv> <папка с xlsx>
 uv run --with openpyxl --with dnspython python tools/brand-protection-dns.py <out.csv|file.xlsx> brand-protection/<дата>
+python3 tools/brand-protection-minus-ours.py brand-protection/<дата>
 ```
