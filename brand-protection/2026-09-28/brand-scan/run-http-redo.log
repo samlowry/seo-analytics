@@ -1,0 +1,17 @@
+queue 1572, done 20559, todo 1572, network RS AS15958 CETINdoo-NET 109.245.145.47, our refs guarded 321
+25/1572 34.3/min {'5_dead': 22, 'needs_browser': 3}
+50/1572 45.6/min {'5_dead': 47, 'needs_browser': 3}
+75/1572 41.0/min {'5_dead': 72, 'needs_browser': 3}
+100/1572 44.9/min {'5_dead': 97, 'needs_browser': 3}
+125/1572 42.7/min {'5_dead': 122, 'needs_browser': 3}
+150/1572 41.0/min {'5_dead': 147, 'needs_browser': 3}
+175/1572 43.4/min {'5_dead': 172, 'needs_browser': 3}
+200/1572 42.0/min {'5_dead': 197, 'needs_browser': 3}
+225/1572 43.9/min {'5_dead': 222, 'needs_browser': 3}
+250/1572 42.6/min {'5_dead': 247, 'needs_browser': 3}
+275/1572 44.0/min {'5_dead': 272, 'needs_browser': 3}
+300/1572 43.1/min {'5_dead': 297, 'needs_browser': 3}
+325/1572 43.9/min {'5_dead': 322, 'needs_browser': 3}
+350/1572 43.4/min {'5_dead': 347, 'needs_browser': 3}
+375/1572 43.5/min {'5_dead': 372, 'needs_browser': 3}
+400/1572 43.7/min {'5_dead': 397, 'needs_browser': 3}

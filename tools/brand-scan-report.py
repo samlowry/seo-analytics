@@ -17,12 +17,25 @@ bs = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(bs)
 
 
+def regroup_legacy(r: dict) -> dict:
+    """Browser records written before group 6 carry reason protection:cloudflare; map them the way
+    the scanner does now: an unsolved challenge -> 6_cf_check, the WAF block page -> 5_not_shown."""
+    res, h = r["result"], r.get("home") or {}
+    if res.get("reason") != "protection:cloudflare":
+        return r
+    if bs.CF_BLOCK.search(f'{h.get("title", "")} {h.get("text_sample", "")}'):
+        new = {**res, "reason": "protection:cloudflare_block"}
+    else:
+        new = {**res, "group": "6_cf_check", "reason": "cloudflare_challenge"}
+    return {**r, "result": new}
+
+
 def load(d: Path):
     http = bs.read_last(d / "http-scan.jsonl.gz")
     browser = bs.read_last(d / "browser-scan.jsonl.gz")
     dcache = bs.load_dest_cache(d / "dest-browser.jsonl.gz")
     recs = {k: bs.resolve_record(r, dcache) for k, r in http.items()}
-    recs.update(browser)
+    recs.update({k: regroup_legacy(r) for k, r in browser.items()})
     return list(recs.values())
 
 
@@ -49,7 +62,7 @@ def main(d: str):
             "http_status": h.get("status", ""), "final_url": h.get("final_url", ""),
             "moved_to": h.get("moved_to", ""), "title": h.get("title", ""),
             "protection": h.get("protection", ""), "error": h.get("error", ""),
-            "text_sample": (h.get("text_sample") or "")[:200] if str(res.get("group", "")).startswith("5") else "",
+            "text_sample": (h.get("text_sample") or "")[:200] if str(res.get("group", "")).startswith(("5", "6")) else "",
             "home_other_brand_mentions": " | ".join(h.get("home_other_brand_mentions") or []),
             "mode": r.get("mode", ""), "http_group": res.get("http_group", ""),
             "queue_reason": r.get("queue_reason", ""), "network": r.get("network", ""),
@@ -73,9 +86,9 @@ def main(d: str):
                 w.writerows(rows)
     print("sites", len(recs))
     print("groups:", dict(sorted(collections.Counter(x["group"] for x in groups).items())))
-    print("group 5 / needs_browser reasons:", collections.Counter(
+    print("group 5 / 6 / needs_browser reasons:", collections.Counter(
         f'{x["group"]}:{x["reason"]}' for x in groups
-        if str(x["group"]).startswith("5") or x["group"] == "needs_browser").most_common(25))
+        if str(x["group"]).startswith(("5", "6")) or x["group"] == "needs_browser").most_common(30))
     print("other brands:", collections.Counter(b for x in groups for b in x["other_brands"].split(" | ") if b)
           .most_common(20))
     print("mostbet pids:", collections.Counter(p for x in groups for p in x["mostbet_pids"].split() if p)
