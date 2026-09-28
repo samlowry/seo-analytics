@@ -84,7 +84,14 @@ GAMBLING = re.compile(
 PARKED = re.compile(
     r"domain (name )?(is |may be )?for sale|buy this domain|this domain is parked|parkingcrew|sedoparking|"
     r"bodis\.com|dan\.com|afternic|hugedomains|domain has expired|домен продается|домен припаркован|"
-    r"продажа домена|registrar-servers|this domain has been registered", re.I)
+    r"продажа домена|registrar-servers|this domain has been registered|"
+    # Registrar and hosting placeholders: expired, just registered or not yet set up.
+    r"has expired and may be available|may be (available )?for sale|срок регистрации домена ист[её]к|"
+    r"expired registration recovery policy|recently registered with namecheap|"
+    r"registrant whois contact information verification|registered for a match\.it customer|"
+    r"a été enregistré par un utilisateur|домен тіркелген|abovedomains\.com|"
+    r"page cannot be displayed\. please contact your service provider|site not configured|"
+    r"courtesy of www\.bluehost\.com", re.I)
 GEO_BLOCK = re.compile(
     r"not available in your (country|region|location)|unavailable in your (country|region)|"
     r"restricted (country|region|territory|jurisdiction)|access (is )?(denied|restricted) (from|in) your|"
