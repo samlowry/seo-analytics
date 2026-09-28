@@ -853,6 +853,36 @@ class Scanner:
         return res
 
 
+def repair_log(path: Path) -> int:
+    """Rewrite a jsonl.gz log whose last gzip member was cut off by a hard stop.
+
+    Readers stop at the broken member, so records appended after it would be lost; rewriting keeps
+    every complete line. Returns the number of lines kept, or -1 when the file was intact.
+    """
+    if not path.exists():
+        return -1
+    lines = []
+    try:
+        with gzip.open(path, "rt", encoding="utf-8") as f:
+            for line in f:
+                lines.append(line)
+        return -1
+    except (EOFError, OSError, gzip.BadGzipFile):
+        pass
+    good = []
+    for line in lines:
+        try:
+            json.loads(line)
+            good.append(line if line.endswith("\n") else line + "\n")
+        except json.JSONDecodeError:
+            pass
+    tmp = path.with_suffix(".tmp")
+    with gzip.open(tmp, "wt", encoding="utf-8") as f:
+        f.writelines(good)
+    tmp.replace(path)
+    return len(good)
+
+
 def done_domains(path: Path):
     done = set()
     if not path.exists():
@@ -898,6 +928,10 @@ async def main():
     out.mkdir(parents=True, exist_ok=True)
     scan = out / {"http": "http-scan.jsonl.gz", "destinations": "dest-browser.jsonl.gz",
                   "browser": "browser-scan.jsonl.gz"}[a.mode]
+    for log in (scan, out / "dest-browser.jsonl.gz"):
+        kept = repair_log(log)
+        if kept >= 0:
+            print(f"repaired truncated {log.name}: {kept} records kept", flush=True)
     dcache = load_dest_cache(out / "dest-browser.jsonl.gz")
     items = list(csv.DictReader(open(a.queue_csv, encoding="utf-8")))
     for x in items:
