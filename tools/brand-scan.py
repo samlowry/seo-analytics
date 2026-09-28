@@ -25,7 +25,9 @@ Per site:
    checker's stats depend on them.
 4. Group: 1_mostbet_only, 2_no_ads, 3_other_only, 4_mixed; sites that do not open go to 5_dead
    (network, DNS, parked) or 5_not_shown (alive, but protection, HTTP error or geo block), always
-   with a reason. HTTP mode marks what needs a browser as needs_browser with a reason.
+   with a reason. A Cloudflare challenge or Turnstile still standing after the wait goes to
+   6_cf_check — to be re-run with clicking. HTTP mode marks what needs a browser as needs_browser
+   with a reason.
 """
 import argparse
 import asyncio
@@ -184,16 +186,40 @@ async def snapshot(page):
     return "", "", ""
 
 
+# Cloudflare injects its bot-detection script into ordinary proxied pages: not a challenge by itself.
+CF_JSD = re.compile(r"/cdn-cgi/challenge-platform/scripts/jsd/[^\"'\s]*", re.I)
+CF_INTERSTITIAL = re.compile(r"cf_chl_opt|cf-chl|cf_chl|/cdn-cgi/challenge-platform/", re.I)
+CF_TURNSTILE = re.compile(r"cf-turnstile|challenges\.cloudflare\.com/turnstile", re.I)
+CF_BLOCK = re.compile(r"sorry, you have been blocked|you are unable to access|cf-error-details", re.I)
+CF_KINDS = ("cloudflare_challenge", "cloudflare_turnstile")  # left unsolved -> 6_cf_check, re-run with clicks
+
+
 def challenge_kind(title: str, html: str, text: str):
-    low = html[:300_000].lower()
+    """Kind of bot check on the page, or None.
+
+    cloudflare_challenge — the "Just a moment" interstitial; cloudflare_turnstile — a Turnstile widget
+    on the site's own page; cloudflare_block — the WAF "you have been blocked" page (no challenge);
+    ddos_guard, sucuri, hcaptcha, recaptcha, captcha (other), bot_check (title only).
+    """
+    low = CF_JSD.sub("", html[:300_000].lower())
     if not (CHALLENGE_TITLE.search(title) or (len(text) < 1000 and CHALLENGE_MARK.search(low))):
         return None
-    if "cloudflare" in low or "cf-chl" in low:
-        return "cloudflare"
+    if CF_BLOCK.search(low) and not CF_TURNSTILE.search(low):
+        return "cloudflare_block"
+    if CF_INTERSTITIAL.search(low):
+        return "cloudflare_challenge"
+    if CF_TURNSTILE.search(low):
+        return "cloudflare_turnstile"
+    if "challenges.cloudflare.com" in low or ("cloudflare" in low and CHALLENGE_TITLE.search(title)):
+        return "cloudflare_challenge"
     if "ddos-guard" in low:
         return "ddos_guard"
     if "sucuri" in low:
         return "sucuri"
+    if "hcaptcha" in low:
+        return "hcaptcha"
+    if "recaptcha" in low:
+        return "recaptcha"
     if "captcha" in low or "turnstile" in low:
         return "captcha"
     return "bot_check"
@@ -603,6 +629,8 @@ class Scanner:
                     mostbet_mentions=mentions, challenge_waited_ms=waited, text_sample=text[:300])
         if kind:
             home["protection"] = kind
+            if kind in CF_KINDS:
+                return {"home": home, "result": {"group": "6_cf_check", "reason": kind}}
             return {"home": home, "result": {"group": "5_not_shown", "reason": f"protection:{kind}"}}
         if lb.PARKED.search(title + " " + text[:3000]):
             return {"home": home, "result": {"group": "5_dead", "reason": "parked"}}
