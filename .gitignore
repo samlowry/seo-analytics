@@ -2,3 +2,4 @@ results/
 tools/node_modules/
 .env
 __pycache__/
+brand-protection/.DS_Store
