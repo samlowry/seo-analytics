@@ -1,7 +1,7 @@
 """Выгрузка brand protection (xlsx) → CSV и деление доменов на ресолвится / не ресолвится.
 
 Запуск:
-  uv run --with openpyxl --with dnspython python tools/brand-protection-dns.py <file.xlsx> <out_dir>
+  uv run --with openpyxl --with dnspython python tools/brand-protection-dns.py <file.xlsx|file.csv> <out_dir>
 
 Ресолв — A и AAAA через публичные резолверы (1.1.1.1, затем 8.8.8.8), а не через
 системный: у системного бывают свои фильтры. IDN переводится в punycode.
@@ -68,13 +68,19 @@ def cell(v):
 def main(src: str, out_dir: str):
     out = Path(out_dir)
     out.mkdir(parents=True, exist_ok=True)
-    ws = openpyxl.load_workbook(src, read_only=True).worksheets[0]
-    rows = list(ws.iter_rows(values_only=True))
+    if src.endswith(".csv"):
+        with open(src, newline="", encoding="utf-8") as f:
+            rows = list(csv.reader(f))
+    else:
+        ws = openpyxl.load_workbook(src, read_only=True).worksheets[0]
+        rows = list(ws.iter_rows(values_only=True))
     header, rows = list(rows[0]), [[cell(v) for v in r] for r in rows[1:]]
     domains = [r[header.index("domain_name")] for r in rows]
 
+    unique = sorted(set(domains))
     with ThreadPoolExecutor(max_workers=64) as pool:
-        dns_rows = list(pool.map(resolve, domains))
+        by_domain = dict(zip(unique, pool.map(resolve, unique)))
+    dns_rows = [by_domain[d] for d in domains]
 
     extra = ["dns_status", "dns_ips", "dns_note"]
     full_header = ["domain_name", "domain_ascii"] + extra + [h for h in header if h != "domain_name"]
