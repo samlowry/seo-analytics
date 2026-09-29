@@ -197,6 +197,7 @@ CF_INTERSTITIAL = re.compile(r"cf_chl_opt|cf-chl|cf_chl|/cdn-cgi/challenge-platf
 CF_TURNSTILE = re.compile(r"cf-turnstile|challenges\.cloudflare\.com/turnstile", re.I)
 CF_BLOCK = re.compile(r"sorry, you have been blocked|you are unable to access|cf-error-details", re.I)
 CF_KINDS = ("cloudflare_challenge", "cloudflare_turnstile")  # left unsolved -> 6_cf_check, re-run with clicks
+FORM_CAPTCHA_KINDS = ("captcha", "recaptcha", "hcaptcha", "cloudflare_turnstile")
 
 
 def challenge_kind(title: str, html: str, text: str):
@@ -530,6 +531,12 @@ class Scanner:
             await wait_content(page)
             kind, (title, html, text), _ = await pass_challenge(page)
             final = page.url
+            if kind in FORM_CAPTCHA_KINDS:
+                # Operator registration pages are short and carry a captcha in the sign-up form:
+                # that is the operator itself, not a bot wall in front of it.
+                res = lb.classify_destination(url, final, title, html, text, hosts_changed(url, hops))
+                if res["kind"] in ("mostbet", "other_gambling"):
+                    return {**res, "final_url": final, "title": title[:120], "hops": hops, "form_captcha": kind}
             if kind:
                 return {"kind": "unknown", "brand": "", "evidence": f"protected:{kind}", "final_url": final,
                         "hops": hops}
@@ -632,6 +639,10 @@ class Scanner:
         mentions = len(re.findall(r"mostbet|мостбет", html, re.I))
         home.update(final_url=final, status=status, title=title[:200], text_len=len(text),
                     mostbet_mentions=mentions, challenge_waited_ms=waited, text_sample=text[:300])
+        if kind in ("captcha", "recaptcha", "hcaptcha") and not CHALLENGE_TITLE.search(title) and \
+                len(links_of(html, final)[0]) >= 10:
+            home["form_captcha"] = kind  # a captcha in a form on a real page, not a wall: scan on
+            kind = None
         if kind:
             home["protection"] = kind
             if kind in CF_KINDS:
