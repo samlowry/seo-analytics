@@ -37,12 +37,30 @@ def regroup_legacy(r: dict) -> dict:
     return {**r, "result": new}
 
 
+OPENED = ("1_mostbet_only", "2_no_ads", "3_other_only", "4_mixed")
+
+
+def refine_record(r: dict) -> dict:
+    """Re-run landing_brand.refine() over the stored destinations of an opened site and regroup it,
+    so corrections added after the scan apply without rescanning."""
+    res = r["result"]
+    if res.get("group") not in OPENED or not r.get("destinations"):
+        return r
+    dests = [bs.lb.refine(x) for x in r["destinations"]]
+    if dests == r["destinations"]:
+        return r
+    live = [x for x in dests if x.get("kind") != "internal"]
+    new = {**res, **bs.lb.site_group(live, (r.get("home") or {}).get("mostbet_mentions") or 0)}
+    new["unresolved"] = sum(x.get("kind") in ("dead", "unknown", "needs_browser") for x in live)
+    return {**r, "destinations": dests, "result": new}
+
+
 def load(d: Path):
     http = bs.read_last(d / "http-scan.jsonl.gz")
     browser = bs.read_last(d / "browser-scan.jsonl.gz")
     dcache = bs.load_dest_cache(d / "dest-browser.jsonl.gz")
-    recs = {k: regroup_legacy(bs.resolve_record(r, dcache)) for k, r in http.items()}
-    recs.update({k: regroup_legacy(r) for k, r in browser.items()})
+    recs = {k: refine_record(regroup_legacy(bs.resolve_record(r, dcache))) for k, r in http.items()}
+    recs.update({k: refine_record(regroup_legacy(r)) for k, r in browser.items()})
     return list(recs.values())
 
 

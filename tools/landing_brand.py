@@ -74,6 +74,10 @@ BRANDS = [
     ("Lucky Bird", r"lucky\s?bird"), ("Joker", r"joker\s?(casino|win)"), ("Riobet", r"riobet"),
     ("Aurora", r"aurora\s?casino"), ("Bollywood", r"bollywood\s?casino"), ("Fairspin", r"fairspin"),
     ("Mostwin", r"mostwin"), ("Megaslot", r"megaslot"), ("Melbet", r"mel-?bet"),
+    ("Crorebet", r"crore-?\s?bet"), ("Lanista", r"lanista"), ("Batery", r"batery"),
+    ("Baxterbet", r"baxter\s?bet"), ("77MVP", r"77\s?mvp"), ("Spinanga", r"spinanga"),
+    ("Kingmaker", r"kingmaker"), ("1xCasino", r"1\s?x\s?casino"), ("Fieryplay", r"fiery\s?play"),
+    ("Hitnspin", r"hit\s?n\s?spin"),
 ]
 BRAND_RES = [(name, re.compile(rx, re.I)) for name, rx in BRANDS]
 
@@ -91,7 +95,7 @@ PARKED = re.compile(
     r"registrant whois contact information verification|registered for a match\.it customer|"
     r"a été enregistré par un utilisateur|домен тіркелген|abovedomains\.com|"
     r"page cannot be displayed\. please contact your service provider|site not configured|"
-    r"courtesy of www\.bluehost\.com", re.I)
+    r"courtesy of www\.bluehost\.com|доменный брокер", re.I)
 GEO_BLOCK = re.compile(
     r"not available in your (country|region|location)|unavailable in your (country|region)|"
     r"restricted (country|region|territory|jurisdiction)|access (is )?(denied|restricted) (from|in) your|"
@@ -214,7 +218,39 @@ def classify_destination(start_url: str, final_url: str, title: str, html: str, 
             return {**ident, "kind": "brand_site"}
         if ev == "gambling_words_unrecognized" and not ad:
             return {**ident, "kind": "gambling_site"}
-    return ident
+    out = refine({**ident, "final_url": final_url, "title": (title or "")[:120]})
+    return {k: v for k, v in out.items() if k not in ("final_url", "title")}
+
+
+REGISTRAR_HOSTS = re.compile(
+    r"(^|\.)(reg\.ru|nic\.ru|namecheap\.com|godaddy\.com|dan\.com|sedo\.com|afternic\.com|hugedomains\.com|"
+    r"dynadot\.com|porkbun\.com|atom\.com|spaceship\.com)$", re.I)
+BLOCKED_TITLE = re.compile(r"access denied|forbidden|not available in your (country|region)|"
+                           r"unavailable in your (country|region)", re.I)
+
+
+def refine(d: dict) -> dict:
+    """Corrections to an identified gambling destination from its final host and title only, so
+    they also apply to stored records (idempotent).
+
+    A registrar or parking page is not an ad; an unrecognized page that is only a block or geo wall
+    hides its advertiser (unknown); an unrecognized operator named in the dictionary by title or
+    host gets that name instead of the raw title.
+    """
+    if d.get("kind") not in ("other_gambling", "gambling_site"):
+        return d
+    title = d.get("title") or ""
+    host = urlsplit(d.get("final_url") or "").hostname or ""
+    if REGISTRAR_HOSTS.search(host) or PARKED.search(title):
+        return {**d, "kind": "non_gambling", "brand": "", "evidence": "parked_or_registrar"}
+    if d.get("evidence") != "gambling_words_unrecognized":
+        return d
+    name = next((n for n, rx in BRAND_RES if rx.search(title) or rx.search(host)), "")
+    if name:
+        return {**d, "brand": name, "evidence": f"title_or_host:{name}"}
+    if BLOCKED_TITLE.search(title):
+        return {**d, "kind": "unknown", "brand": "", "evidence": "blocked_page"}
+    return d
 
 
 def site_group(destinations: list, mostbet_mentions: int) -> dict:
