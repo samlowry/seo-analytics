@@ -92,7 +92,7 @@ export PATH="$HOME/.local/bin:$PATH"
 export BRAND_SCAN_REGISTRY=/root/seo-analytics-brand-scan/registry/entries.json
 
 # smoke: 5 доменов, убедиться что network=RS … и proxy в логе
-nice -n 10 uv run --with 'camoufox[geoip]' --with aiohttp --with selectolax \
+nice -n 10 uv run --with 'camoufox[geoip]' --with aiohttp --with aiohttp-socks --with selectolax \
   python tools/brand-scan.py \
   brand-protection/2026-09-28/affiliate-scan/camoufox-queue.csv \
   brand-protection/2026-09-28/brand-scan-server \
@@ -100,7 +100,7 @@ nice -n 10 uv run --with 'camoufox[geoip]' --with aiohttp --with selectolax \
   --proxy socks5://127.0.0.1:1080 --concurrency 2 --limit 5
 
 # полный рескан (подозрительные группы 1+2)
-nice -n 10 uv run --with 'camoufox[geoip]' --with aiohttp --with selectolax \
+nice -n 10 uv run --with 'camoufox[geoip]' --with aiohttp --with aiohttp-socks --with selectolax \
   python tools/brand-scan.py \
   brand-protection/2026-09-28/affiliate-scan/camoufox-queue.csv \
   brand-protection/2026-09-28/brand-scan-server \
@@ -139,5 +139,19 @@ uv run --with aiohttp --with selectolax python tools/brand-scan-report.py \
 - Туннель держать на Mac, пока идёт скан; ноут не усыплять.
 - Локальный скан и серверный не писать в один `browser-scan.jsonl.gz` одновременно.
 - Наши рефки по-прежнему не запрашиваются (`BRAND_SCAN_REGISTRY`).
-- При `--proxy` переходы по ссылкам идут **только браузером** (тот же SOCKS). Голый HTTP
-  с genhost — Amsterdam: рефки Mostbet отвечают `451`, и сайт ложно уходит в `2_no_ads`.
+- При `--proxy` HTTP-переходы идут через тот же SOCKS, что и браузер (`aiohttp-socks`, в
+  `uv run` нужен `--with aiohttp-socks`). Голый HTTP с genhost — Amsterdam: рефки Mostbet
+  отвечают `451`, и сайт ложно уходит в `2_no_ads`. Кэш переходов с других сетей при
+  `--proxy` не подгружается, кэш внутри прогона работает.
+- `--redo` сканирует список заново целиком, даже уже снятые домены: для дозапуска
+  собирать остаток, а не перезапускать старый список.
+
+## Что лежит в `brand-scan-server/` (2026-09-29)
+
+- `browser-scan.jsonl.gz.bad-http451` — первый прогон, где HTTP-переходы шли из
+  Амстердама. Жертвы `451` перескан перекрывает. **Остальные ~1 850 записей верные**
+  (в том числе ~100 переходов «рекламы нет» → чужой бренд) — при сливе брать их оттуда,
+  кроме доменов, которые есть в новом логе.
+- `browser-scan.jsonl.gz` — перескан с проксированными переходами: `redo-proxy-follow.txt`
+  (сначала переходы браузером, ~670 доменов), затем остаток плюс 76 доменов с `451` без
+  смены группы — `redo-proxy-http.txt` (HTTP через SOCKS).
