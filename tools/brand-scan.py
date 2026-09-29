@@ -68,6 +68,9 @@ MAX_INNER_LINKS = 4
 SITE_TIMEOUT = 300
 LAUNCH_TIMEOUT = 90
 CLOSE_TIMEOUT = 30
+READ_TIMEOUT = 15  # one page read (title, content, evaluate)
+FOLLOW_BUDGET = 90  # one destination, HTTP hops plus browser
+FOLLOW_DEADLINE = SITE_TIMEOUT - 110  # after this many seconds on a site, the rest is not followed
 BATCH = 150  # browser restarts between batches to cap memory growth
 
 REGISTRY = Path.home() / "Developer/skaner-bitykh-ssylok/registry/entries.json"
@@ -164,7 +167,8 @@ async def wait_content(page, max_ms=6_000):
     last, same, spent = -1, 0, 0
     while spent < max_ms:
         try:
-            n = await page.evaluate("() => document.body ? (document.body.innerText || '').length : 0")
+            n = await asyncio.wait_for(
+                page.evaluate("() => document.body ? (document.body.innerText || '').length : 0"), READ_TIMEOUT)
         except Exception:  # noqa: BLE001
             n = 0
         if n == last and n > 200:
@@ -179,12 +183,13 @@ async def wait_content(page, max_ms=6_000):
 
 
 async def snapshot(page):
-    """(title, html, visible text) of the current page; tolerant to mid-navigation errors."""
+    """(title, html, visible text) of the current page; tolerant to mid-navigation errors and to a
+    page whose scripts keep the main thread busy (reads are bounded)."""
     for _ in range(3):
         try:
-            title = await page.title()
-            html = await page.content()
-            text = await page.evaluate(TEXT_JS)
+            title = await asyncio.wait_for(page.title(), READ_TIMEOUT)
+            html = await asyncio.wait_for(page.content(), READ_TIMEOUT)
+            text = await asyncio.wait_for(page.evaluate(TEXT_JS), READ_TIMEOUT)
             return title or "", html or "", re.sub(r"\s+", " ", text or "").strip()
         except Exception:  # noqa: BLE001 — page navigated while reading
             await page.wait_for_timeout(1000)
@@ -452,13 +457,18 @@ class Scanner:
         if ref_key(url) in OUR_REFS:
             state["our_refs"].append(url)
             return {"kind": "our_ref_skipped", "brand": "Mostbet", "evidence": "registry"}
-        res = await self.http_follow(url, site, state)
-        if res is None:
-            res = await self.browser_follow(ctx, url, site)
+        try:
+            res = await bounded(self._follow_any(ctx, url, site, state), FOLLOW_BUDGET)
+        except TimeoutError:
+            return {"kind": "unknown", "brand": "", "evidence": "follow_timeout", "final_url": url}
         if key and res.get("kind") not in ("dead", "internal", "our_ref_skipped") and \
                 not str(res.get("evidence", "")).startswith("protected"):
             self.cache[key] = {k: v for k, v in res.items() if not k.startswith("_")}
         return res
+
+    async def _follow_any(self, ctx, url, site, state):
+        res = await self.http_follow(url, site, state)
+        return res if res is not None else await self.browser_follow(ctx, url, site)
 
     async def http_follow(self, url, site, state):
         """Hop-by-hop HTTP follow. Returns a result, or None when the page needs a browser."""
@@ -605,12 +615,13 @@ class Scanner:
         finally:
             rec["our_refs_skipped"] = state["our_refs"]
             try:
-                await ctx.close()
+                await asyncio.wait_for(ctx.close(), CLOSE_TIMEOUT)
             except Exception:  # noqa: BLE001
                 pass
         return rec
 
     async def _scan(self, ctx, domain, state):
+        started = time.time()
         page = await ctx.new_page()
         hops = []
         page.on("response", lambda r: hops.append([r.status, r.url[:200]])
@@ -679,7 +690,7 @@ class Scanner:
         clicked = []
         if js_cta:
             try:
-                marks = await page.evaluate(CTA_JS, aff.CTA.pattern)
+                marks = await asyncio.wait_for(page.evaluate(CTA_JS, aff.CTA.pattern), READ_TIMEOUT)
             except Exception:  # noqa: BLE001
                 marks = []
             state["capture"] = True
@@ -699,7 +710,10 @@ class Scanner:
             state["capture"] = False
             for p in ctx.pages:
                 if p != page:
-                    await p.close()
+                    try:
+                        await asyncio.wait_for(p.close(), READ_TIMEOUT)
+                    except Exception:  # noqa: BLE001 — a stuck popup is dropped with the context
+                        pass
         home["clicked"] = clicked
         click_urls = []
         for c in clicked:
@@ -709,13 +723,15 @@ class Scanner:
         queue = [{"url": u, "reason": "js_click", "refish": bool(aff.classify_ref(u, site)), "rank": -1}
                  for u in click_urls] + cands
         rec_cands, dests, not_followed = await self.follow_all(
-            queue, site, lambda u: self.follow(ctx, u, site, state))
+            queue, site, lambda u: self.follow(ctx, u, site, state), deadline=started + FOLLOW_DEADLINE)
         destinations += dests
         result = self.conclude(destinations, mentions, text, links, not_followed)
         return {"home": home, "candidates": rec_cands, "destinations": destinations, "result": result}
 
-    async def follow_all(self, queue, site, follow_fn):
-        """Follow candidates in order, up to MAX_FOLLOW; expand internal gate pages one level deep."""
+    async def follow_all(self, queue, site, follow_fn, deadline=None):
+        """Follow candidates in order, up to MAX_FOLLOW and until the deadline (epoch seconds), so a
+        site keeps what it found instead of timing out as a whole; expand internal gate pages one
+        level deep. The rest counts as not_followed."""
         seen, todo = set(), []
         for c in queue:
             k = cache_key(c["url"], site) or c["url"].split("#")[0]
@@ -725,7 +741,7 @@ class Scanner:
             todo.append(c)
         rec_cands = [{"url": c["url"][:300], "reason": c["reason"]} for c in todo]
         destinations, i = [], 0
-        while i < len(todo) and i < MAX_FOLLOW:
+        while i < len(todo) and i < MAX_FOLLOW and not (deadline and time.time() > deadline):
             c = todo[i]
             i += 1
             res = await follow_fn(c["url"])

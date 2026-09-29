@@ -69,3 +69,33 @@ Node.js v24.18.1
 1100/8720 12.7/min {'1_mostbet_only': 464, '2_no_ads': 543, '3_other_only': 81, '5_dead': 1, '5_not_shown': 11}
 1125/8720 12.5/min {'1_mostbet_only': 468, '2_no_ads': 559, '3_other_only': 86, '5_dead': 1, '5_not_shown': 11}
 1150/8720 12.5/min {'1_mostbet_only': 471, '2_no_ads': 579, '3_other_only': 87, '5_dead': 1, '5_not_shown': 12}
+1175/8720 12.5/min {'1_mostbet_only': 491, '2_no_ads': 583, '3_other_only': 88, '5_dead': 1, '5_not_shown': 12}
+1200/8720 12.6/min {'1_mostbet_only': 502, '2_no_ads': 595, '3_other_only': 90, '5_dead': 1, '5_not_shown': 12}
+1225/8720 12.6/min {'1_mostbet_only': 514, '2_no_ads': 604, '3_other_only': 94, '5_dead': 1, '5_not_shown': 12}
+1250/8720 12.6/min {'1_mostbet_only': 526, '2_no_ads': 613, '3_other_only': 98, '5_dead': 1, '5_not_shown': 12}
+1275/8720 12.6/min {'1_mostbet_only': 538, '2_no_ads': 624, '3_other_only': 100, '5_dead': 1, '5_not_shown': 12}
+1300/8720 12.6/min {'1_mostbet_only': 553, '2_no_ads': 632, '3_other_only': 102, '5_dead': 1, '5_not_shown': 12}
+1325/8720 12.5/min {'1_mostbet_only': 560, '2_no_ads': 649, '3_other_only': 103, '5_dead': 1, '5_not_shown': 12}
+1350/8720 12.5/min {'1_mostbet_only': 569, '2_no_ads': 661, '3_other_only': 107, '5_dead': 1, '5_not_shown': 12}
+1375/8720 12.5/min {'1_mostbet_only': 579, '2_no_ads': 674, '3_other_only': 109, '5_dead': 1, '5_not_shown': 12}
+1400/8720 12.4/min {'1_mostbet_only': 593, '2_no_ads': 682, '3_other_only': 112, '5_dead': 1, '5_not_shown': 12}
+1425/8720 12.3/min {'1_mostbet_only': 598, '2_no_ads': 694, '3_other_only': 119, '5_dead': 1, '5_not_shown': 13}
+1450/8720 12.1/min {'1_mostbet_only': 607, '2_no_ads': 706, '3_other_only': 123, '5_dead': 1, '5_not_shown': 13}
+1475/8720 10.3/min {'1_mostbet_only': 608, '2_no_ads': 712, '3_other_only': 123, '5_dead': 1, '5_not_shown': 31}
+1500/8720 9.7/min {'1_mostbet_only': 613, '2_no_ads': 718, '3_other_only': 129, '5_dead': 1, '5_not_shown': 39}
+1525/8720 9.7/min {'1_mostbet_only': 622, '2_no_ads': 728, '3_other_only': 134, '5_dead': 1, '5_not_shown': 40}
+1550/8720 9.7/min {'1_mostbet_only': 636, '2_no_ads': 736, '3_other_only': 137, '5_dead': 1, '5_not_shown': 40}
+1575/8720 9.5/min {'1_mostbet_only': 641, '2_no_ads': 749, '3_other_only': 140, '5_dead': 2, '5_not_shown': 43}
+1600/8720 9.3/min {'1_mostbet_only': 651, '2_no_ads': 760, '3_other_only': 141, '5_dead': 2, '5_not_shown': 46}
+1625/8720 9.3/min {'1_mostbet_only': 660, '2_no_ads': 771, '3_other_only': 144, '5_dead': 2, '5_not_shown': 48}
+1650/8720 9.4/min {'1_mostbet_only': 669, '2_no_ads': 786, '3_other_only': 145, '5_dead': 2, '5_not_shown': 48}
+1675/8720 9.4/min {'1_mostbet_only': 672, '2_no_ads': 807, '3_other_only': 146, '5_dead': 2, '5_not_shown': 48}
+1700/8720 9.5/min {'1_mostbet_only': 672, '2_no_ads': 832, '3_other_only': 146, '5_dead': 2, '5_not_shown': 48}
+1725/8720 9.6/min {'1_mostbet_only': 682, '2_no_ads': 847, '3_other_only': 146, '5_dead': 2, '5_not_shown': 48}
+1750/8720 9.6/min {'1_mostbet_only': 690, '2_no_ads': 862, '3_other_only': 147, '5_dead': 3, '5_not_shown': 48}
+repaired truncated browser-scan.jsonl.gz: 1752 records kept
+queue 8720, done 1752, todo 6968, network RS AS15958 CETINdoo-NET 109.245.145.47, our refs guarded 321
+25/6968 8.6/min {'1_mostbet_only': 13, '2_no_ads': 10, '3_other_only': 2}
+50/6968 9.4/min {'1_mostbet_only': 21, '2_no_ads': 26, '3_other_only': 3}
+75/6968 9.5/min {'1_mostbet_only': 25, '2_no_ads': 42, '3_other_only': 8}
+100/6968 10.6/min {'1_mostbet_only': 48, '2_no_ads': 44, '3_other_only': 8}
