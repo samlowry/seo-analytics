@@ -139,6 +139,8 @@ def err_reason(e: Exception) -> str:
 
 DEAD_REASONS = {"dns_fail", "connection_refused", "connection_reset", "empty_response", "timeout", "tls_error",
                 "redirect_loop", "parked", "empty_page", "nav_error"}
+FIREFOX_ERROR_TITLE = re.compile(r"(problem loading page|server not found|unable to connect|"
+                                 r"secure connection failed|the connection has timed out)$", re.I)
 
 
 async def settle(page, load_ms=10_000, extra_ms=6_000, quiet_ms=1_500):
@@ -665,6 +667,12 @@ class Scanner:
             geo = bool(lb.GEO_BLOCK.search(title + " " + text[:3000])) or status == 451
             return {"home": home, "result": {"group": "5_not_shown",
                                              "reason": "geo_block" if geo else f"http_{status}"}}
+        if FIREFOX_ERROR_TITLE.match(title) and len(text) < 30:
+            # A JS or tracker redirect ended on a host that does not answer: Firefox shows its own
+            # error page, which is not the site's content.
+            moved = not aff.same_site(urlsplit(final).hostname or "", domain)
+            return {"home": home, "result": {"group": "5_dead",
+                                             "reason": "redirect_target_dead" if moved else "nav_error"}}
         if len(text) < 30 and len(html) < 3000:
             return {"home": home, "result": {"group": "5_dead", "reason": "empty_page"}}
 
