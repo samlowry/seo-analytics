@@ -659,7 +659,7 @@ class Scanner:
             if kind in CF_KINDS:
                 return {"home": home, "result": {"group": "6_cf_check", "reason": kind}}
             return {"home": home, "result": {"group": "5_not_shown", "reason": f"protection:{kind}"}}
-        if lb.PARKED.search(title + " " + text[:3000]) or lb.PARKING_HTML.search(html[:300_000]):
+        if lb.PARKED.search(title + " " + text[:3000]) or lb.PARKED_HTML.search(html[:300_000]):
             return {"home": home, "result": {"group": "5_dead", "reason": "parked"}}
         if status and status >= 400:
             geo = bool(lb.GEO_BLOCK.search(title + " " + text[:3000])) or status == 451
@@ -820,7 +820,7 @@ class Scanner:
             home["protection"] = prot
             rec["result"] = {"group": "needs_browser", "reason": f"protection:{prot}"}
             return rec
-        if lb.PARKED.search(title + " " + text[:3000]) or lb.PARKING_HTML.search((body or "")[:300_000]):
+        if lb.PARKED.search(title + " " + text[:3000]) or lb.PARKED_HTML.search((body or "")[:300_000]):
             rec["result"] = {"group": "5_dead", "reason": "parked"}
             return rec
         if st >= 400:
