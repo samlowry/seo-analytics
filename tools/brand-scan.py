@@ -1055,6 +1055,17 @@ def kill_driver(cm):
             pass
 
 
+async def proxy_alive(server: str) -> bool:
+    """One cheap request through the proxy. A dropped Mac tunnel would otherwise turn the rest of
+    the queue into connection errors within minutes."""
+    p = await asyncio.create_subprocess_exec(
+        "curl", "-sS", "-m", "10", "-o", "/dev/null", "-w", "%{http_code}",
+        "-x", server.replace("socks5://", "socks5h://", 1), "https://www.gstatic.com/generate_204",
+        stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.DEVNULL)
+    out, _ = await p.communicate()
+    return out.strip() == b"204"
+
+
 async def detect_network(proxy: dict | None = None) -> str:
     """Exit IP as seen by the scan. With --proxy, probe through SOCKS (Mac tunnel), not the host."""
     try:
@@ -1079,6 +1090,7 @@ async def detect_network(proxy: dict | None = None) -> str:
 
 
 async def main():
+    global MAX_FOLLOW
     ap = argparse.ArgumentParser()
     ap.add_argument("queue_csv")
     ap.add_argument("out_dir")
@@ -1091,6 +1103,8 @@ async def main():
                     help="http: sites by plain HTTP; destinations: unique destinations HTTP could not decide, "
                          "in the browser; browser: whole sites whose home page needs a browser; "
                          "home: only fetch and keep home pages by plain HTTP (implies --save-html)")
+    ap.add_argument("--max-follow", type=int, default=MAX_FOLLOW,
+                    help=f"destinations followed per site (default {MAX_FOLLOW}); the rest count as not_followed")
     ap.add_argument("--save-html", nargs="?", const="", default=None, metavar="DIR",
                     help="keep home pages as <domain>.<http|browser>.html.gz (default DIR: <out_dir>/html)")
     ap.add_argument("--from-http", action="store_true",
@@ -1100,6 +1114,7 @@ async def main():
                          "from the Mac). Does not change the host default route. Needs aiohttp-socks; "
                          "the destination cache from other networks is not loaded")
     a = ap.parse_args()
+    MAX_FOLLOW = a.max_follow
     proxy = parse_proxy(a.proxy)
     out = Path(a.out_dir)
     out.mkdir(parents=True, exist_ok=True)
@@ -1220,6 +1235,9 @@ async def main():
             fails = 0
             try:
                 for _ in range(BATCH):
+                    while proxy and not await proxy_alive(proxy["server"]):
+                        print(f"{time.strftime('%H:%M:%S')} worker {wid}: proxy down, waiting", flush=True)
+                        await asyncio.sleep(60)
                     if q.empty():
                         break
                     item = q.get_nowait()
