@@ -99,3 +99,14 @@ queue 8720, done 1752, todo 6968, network RS AS15958 CETINdoo-NET 109.245.145.47
 50/6968 9.4/min {'1_mostbet_only': 21, '2_no_ads': 26, '3_other_only': 3}
 75/6968 9.5/min {'1_mostbet_only': 25, '2_no_ads': 42, '3_other_only': 8}
 100/6968 10.6/min {'1_mostbet_only': 48, '2_no_ads': 44, '3_other_only': 8}
+125/6968 11.4/min {'1_mostbet_only': 63, '2_no_ads': 53, '3_other_only': 9}
+150/6968 12.2/min {'1_mostbet_only': 83, '2_no_ads': 58, '3_other_only': 9}
+175/6968 12.7/min {'1_mostbet_only': 101, '2_no_ads': 64, '3_other_only': 10}
+200/6968 13.3/min {'1_mostbet_only': 113, '2_no_ads': 77, '3_other_only': 10}
+225/6968 13.7/min {'1_mostbet_only': 120, '2_no_ads': 93, '3_other_only': 12}
+250/6968 14.2/min {'1_mostbet_only': 138, '2_no_ads': 99, '3_other_only': 13}
+275/6968 14.3/min {'1_mostbet_only': 152, '2_no_ads': 109, '3_other_only': 14}
+300/6968 14.5/min {'1_mostbet_only': 166, '2_no_ads': 117, '3_other_only': 17}
+325/6968 14.5/min {'1_mostbet_only': 176, '2_no_ads': 129, '3_other_only': 20}
+350/6968 14.4/min {'1_mostbet_only': 191, '2_no_ads': 136, '3_other_only': 23}
+375/6968 14.3/min {'1_mostbet_only': 199, '2_no_ads': 148, '3_other_only': 28}
