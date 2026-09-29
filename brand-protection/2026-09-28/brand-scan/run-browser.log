@@ -2803,3 +2803,32 @@ queue 8720, done 5652, todo 3068, network RS AS15958 CETINdoo-NET 109.245.129.14
 2425/3068 11.2/min {'1_mostbet_only': 62, '2_no_ads': 389, '3_other_only': 159, '4_mixed': 4, '5_dead': 183, '5_not_shown': 1619, '6_cf_check': 9}
 2450/3068 11.2/min {'1_mostbet_only': 63, '2_no_ads': 390, '3_other_only': 159, '4_mixed': 4, '5_dead': 183, '5_not_shown': 1642, '6_cf_check': 9}
 2475/3068 11.2/min {'1_mostbet_only': 63, '2_no_ads': 394, '3_other_only': 160, '4_mixed': 4, '5_dead': 184, '5_not_shown': 1661, '6_cf_check': 9}
+2500/3068 11.2/min {'1_mostbet_only': 64, '2_no_ads': 394, '3_other_only': 160, '4_mixed': 4, '5_dead': 185, '5_not_shown': 1684, '6_cf_check': 9}
+2525/3068 11.2/min {'1_mostbet_only': 64, '2_no_ads': 397, '3_other_only': 161, '4_mixed': 4, '5_dead': 186, '5_not_shown': 1704, '6_cf_check': 9}
+2550/3068 11.3/min {'1_mostbet_only': 65, '2_no_ads': 397, '3_other_only': 161, '4_mixed': 4, '5_dead': 188, '5_not_shown': 1725, '6_cf_check': 10}
+2575/3068 11.3/min {'1_mostbet_only': 65, '2_no_ads': 399, '3_other_only': 161, '4_mixed': 4, '5_dead': 188, '5_not_shown': 1748, '6_cf_check': 10}
+2600/3068 11.2/min {'1_mostbet_only': 66, '2_no_ads': 402, '3_other_only': 164, '4_mixed': 4, '5_dead': 188, '5_not_shown': 1766, '6_cf_check': 10}
+2625/3068 11.2/min {'1_mostbet_only': 67, '2_no_ads': 403, '3_other_only': 164, '4_mixed': 4, '5_dead': 188, '5_not_shown': 1789, '6_cf_check': 10}
+2650/3068 11.2/min {'1_mostbet_only': 67, '2_no_ads': 404, '3_other_only': 164, '4_mixed': 4, '5_dead': 189, '5_not_shown': 1812, '6_cf_check': 10}
+2675/3068 11.2/min {'1_mostbet_only': 67, '2_no_ads': 407, '3_other_only': 165, '4_mixed': 4, '5_dead': 190, '5_not_shown': 1832, '6_cf_check': 10}
+2700/3068 11.2/min {'1_mostbet_only': 67, '2_no_ads': 411, '3_other_only': 170, '4_mixed': 4, '5_dead': 191, '5_not_shown': 1846, '6_cf_check': 11}
+2725/3068 11.2/min {'1_mostbet_only': 67, '2_no_ads': 419, '3_other_only': 180, '4_mixed': 5, '5_dead': 191, '5_not_shown': 1852, '6_cf_check': 11}
+2750/3068 11.2/min {'1_mostbet_only': 67, '2_no_ads': 425, '3_other_only': 187, '4_mixed': 5, '5_dead': 191, '5_not_shown': 1864, '6_cf_check': 11}
+2775/3068 11.1/min {'1_mostbet_only': 67, '2_no_ads': 430, '3_other_only': 197, '4_mixed': 5, '5_dead': 191, '5_not_shown': 1874, '6_cf_check': 11}
+2800/3068 11.1/min {'1_mostbet_only': 68, '2_no_ads': 434, '3_other_only': 199, '4_mixed': 5, '5_dead': 192, '5_not_shown': 1889, '6_cf_check': 13}
+2825/3068 11.2/min {'1_mostbet_only': 68, '2_no_ads': 436, '3_other_only': 201, '4_mixed': 5, '5_dead': 192, '5_not_shown': 1910, '6_cf_check': 13}
+2850/3068 11.2/min {'1_mostbet_only': 69, '2_no_ads': 443, '3_other_only': 208, '4_mixed': 5, '5_dead': 193, '5_not_shown': 1919, '6_cf_check': 13}
+2875/3068 11.2/min {'1_mostbet_only': 72, '2_no_ads': 450, '3_other_only': 214, '4_mixed': 5, '5_dead': 193, '5_not_shown': 1928, '6_cf_check': 13}
+2900/3068 11.1/min {'1_mostbet_only': 73, '2_no_ads': 457, '3_other_only': 221, '4_mixed': 5, '5_dead': 196, '5_not_shown': 1935, '6_cf_check': 13}
+2925/3068 11.2/min {'1_mostbet_only': 73, '2_no_ads': 460, '3_other_only': 221, '4_mixed': 5, '5_dead': 196, '5_not_shown': 1957, '6_cf_check': 13}
+2950/3068 11.1/min {'1_mostbet_only': 74, '2_no_ads': 473, '3_other_only': 227, '4_mixed': 5, '5_dead': 196, '5_not_shown': 1961, '6_cf_check': 14}
+2975/3068 11.1/min {'1_mostbet_only': 75, '2_no_ads': 478, '3_other_only': 237, '4_mixed': 5, '5_dead': 196, '5_not_shown': 1970, '6_cf_check': 14}
+3000/3068 11.2/min {'1_mostbet_only': 77, '2_no_ads': 482, '3_other_only': 243, '4_mixed': 5, '5_dead': 196, '5_not_shown': 1983, '6_cf_check': 14}
+3025/3068 11.2/min {'1_mostbet_only': 77, '2_no_ads': 486, '3_other_only': 247, '4_mixed': 5, '5_dead': 207, '5_not_shown': 1989, '6_cf_check': 14}
+3050/3068 11.2/min {'1_mostbet_only': 77, '2_no_ads': 497, '3_other_only': 247, '4_mixed': 5, '5_dead': 221, '5_not_shown': 1989, '6_cf_check': 14}
+3068/3068 11.1/min {'1_mostbet_only': 77, '2_no_ads': 497, '3_other_only': 248, '4_mixed': 5, '5_dead': 237, '5_not_shown': 1990, '6_cf_check': 14}
+done {'1_mostbet_only': 77, '2_no_ads': 497, '3_other_only': 248, '4_mixed': 5, '5_dead': 237, '5_not_shown': 1990, '6_cf_check': 14}
+=== 2026-09-29T16:53:19 follow-up redo of outage-window failures
+queue 5, done 8715, todo 5, network RS AS15958 CETINdoo-NET 109.245.129.144, our refs guarded 321
+5/5 16.3/min {'2_no_ads': 2, '3_other_only': 1, '5_dead': 2}
+done {'2_no_ads': 2, '3_other_only': 1, '5_dead': 2}
