@@ -95,7 +95,11 @@ PARKED = re.compile(
     r"registrant whois contact information verification|registered for a match\.it customer|"
     r"a été enregistré par un utilisateur|домен тіркелген|abovedomains\.com|"
     r"page cannot be displayed\. please contact your service provider|site not configured|"
-    r"courtesy of www\.bluehost\.com|доменный брокер|parked free, courtesy of godaddy", re.I)GEO_BLOCK = re.compile(
+    r"courtesy of www\.bluehost\.com|доменный брокер|parked free, courtesy of godaddy", re.I)
+# Parking landers that render nothing without their scripts: known only by markup.
+PARKED_HTML = re.compile(r"parklogic\.com|wsimg\.com/parking-lander|ap:\"parking\"|sedoparking\.com|"
+                         r"bodis\.com|parkingcrew\.net|abovedomains\.com", re.I)
+GEO_BLOCK = re.compile(
     r"not available in your (country|region|location)|unavailable in your (country|region)|"
     r"restricted (country|region|territory|jurisdiction)|access (is )?(denied|restricted) (from|in) your|"
     r"недоступ\w* в вашей (стране|регионе)|your country|your region|\b451\b", re.I)
