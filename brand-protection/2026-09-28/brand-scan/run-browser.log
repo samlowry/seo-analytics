@@ -2657,3 +2657,12 @@ Exception: Route.continue_: Connection closed while reading from the driver
 3800/6968 14.2/min {'1_mostbet_only': 494, '2_no_ads': 2050, '3_other_only': 237, '4_mixed': 2, '5_dead': 993, '5_not_shown': 22, '6_cf_check': 2}
 3825/6968 14.1/min {'1_mostbet_only': 494, '2_no_ads': 2063, '3_other_only': 238, '4_mixed': 2, '5_dead': 1004, '5_not_shown': 22, '6_cf_check': 2}
 3850/6968 14.0/min {'1_mostbet_only': 494, '2_no_ads': 2072, '3_other_only': 238, '4_mixed': 2, '5_dead': 1020, '5_not_shown': 22, '6_cf_check': 2}
+3875/6968 14.0/min {'1_mostbet_only': 494, '2_no_ads': 2075, '3_other_only': 239, '4_mixed': 2, '5_dead': 1041, '5_not_shown': 22, '6_cf_check': 2}
+3900/6968 14.0/min {'1_mostbet_only': 494, '2_no_ads': 2078, '3_other_only': 240, '4_mixed': 2, '5_dead': 1062, '5_not_shown': 22, '6_cf_check': 2}
+=== 2026-09-29T11:53:46 redo empty_page/aborted after uBO fix (c13e584), IP 109.245.129.144
+repaired truncated browser-scan.jsonl.gz: 5652 records kept
+queue 969, done 4683, todo 969, network RS AS15958 CETINdoo-NET 109.245.129.144, our refs guarded 321
+25/969 18.2/min {'2_no_ads': 2, '5_dead': 23}
+50/969 21.8/min {'2_no_ads': 3, '5_dead': 47}
+75/969 25.6/min {'2_no_ads': 3, '5_dead': 72}
+100/969 26.5/min {'2_no_ads': 3, '5_dead': 97}
