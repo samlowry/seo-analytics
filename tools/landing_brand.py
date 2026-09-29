@@ -19,6 +19,9 @@ MOSTBET_STRONG = re.compile(
     r"cdn-global-mst\.com|mostbet-head-web-upload|x011bt\.com/gif|"
     r"href=\"https://mostbett\.bet/\"\s+hreflang=\"x-default\"", re.I)
 MOSTBET_NAME = re.compile(r"most\s?bet|мостбет", re.I)
+# The official frontend titles itself "MostBet.com <betting company in the local language>";
+# affiliate copies use "Mostbet Official Website ..." instead.
+MIRROR_TITLE = re.compile(r"^\s*most\s?bet\.com\b", re.I)
 # Tracker and affiliate parameters: a link carrying them is an ad, not a plain cross-link.
 AFF_PARAMS = re.compile(
     r"(^|&)(tag|btag|stag|qtag|pid|p|promo|promocode|ref|aff|affid|aff_id|affiliate|sub1|subid|sub_id|"
@@ -35,7 +38,9 @@ BRANDS = [
     ("Winline", r"winline|винлайн"), ("GGBet", r"gg\.?bet"), ("Stake", r"\bstake\.(com|bet|us)|\bstake casino"),
     ("BC.Game", r"bc\.game"), ("20Bet", r"\b20\s?bet"), ("4rabet", r"4ra\s?bet"), ("Dafabet", r"dafabet"),
     ("Betway", r"betway"), ("bet365", r"bet\s?365"), ("Pokerdom", r"pokerdom|покердом"),
-    ("Joycasino", r"joy\s?casino|джойказино"), ("Vulkan", r"vulkan|вулкан"), ("Azino777", r"azino|азино"),
+    # "azino" sits inside kazino/казино: require a word start.
+    ("Joycasino", r"joy\s?casino|джойказино"), ("Vulkan", r"vulkan|вулкан"), ("Spinania", r"spinania"),
+    ("Azino777", r"(?<![a-zа-яё])(?:azino|азино)"),
     ("Selector", r"selector|селектор"), ("Gama", r"gama\s?casino|гама\s?казино"), ("Riobet", r"riobet"),
     ("Kometa", r"kometa|комета\s?казино"), ("Irwin", r"irwin"), ("R7", r"\br7\s?(casino|казино)"),
     ("Daddy", r"daddy\s?casino"), ("Monro", r"monro"), ("Kent", r"kent\s?casino"), ("Starda", r"starda"),
@@ -246,6 +251,12 @@ def refine(d: dict) -> dict:
     host = urlsplit(d.get("final_url") or "").hostname or ""
     if REGISTRAR_HOSTS.search(host) or PARKED.search(title):
         return {**d, "kind": "non_gambling", "brand": "", "evidence": "parked_or_registrar"}
+    d = _recheck_stale_brand(d, title, host)
+    if d.get("kind") not in ("other_gambling", "gambling_site"):
+        return d
+    if d.get("kind") == "other_gambling" and d.get("evidence") == "gambling_words_unrecognized" and \
+            "hops" in d and not _tracked(d):
+        return {**d, "kind": "gambling_site", "evidence": "unrecognized_no_tracker"}
     if d.get("evidence") != "gambling_words_unrecognized":
         return d
     name = next((n for n, rx in BRAND_RES if rx.search(title) or rx.search(host)), "")
@@ -254,6 +265,60 @@ def refine(d: dict) -> dict:
     if BLOCKED_TITLE.search(title):
         return {**d, "kind": "unknown", "brand": "", "evidence": "blocked_page"}
     return d
+
+
+STALE_BRANDS = {"Azino777"}  # brands whose old pattern over-matched; stored matches are re-checked
+
+
+def _recheck_stale_brand(d: dict, title: str, host: str) -> dict:
+    """Re-check a stored brand match made by a pattern fixed later, against the title and host.
+
+    Only the matched fragment was stored, so a match that no longer holds on title or host is
+    treated the way identify() treats a page with no dictionary brand.
+    """
+    if d.get("brand") not in STALE_BRANDS or not str(d.get("evidence", "")).startswith("fields:"):
+        return d
+    rx = dict(BRAND_RES)[d["brand"]]
+    if rx.search(title) or rx.search(host):
+        return d
+    ad = bool(d.get("ad_route"))
+    if MOSTBET_NAME.search(title) or MOSTBET_NAME.search(host):
+        return {**d, "kind": "mostbet" if ad else "brand_site", "brand": "Mostbet", "evidence": "name_only_weak"}
+    name = re.split(r"\s[|\-–—:ᐉᐈ»•·]\s", title)[0].strip()[:60] or "?"
+    return {**d, "kind": "other_gambling" if ad else "gambling_site", "brand": name,
+            "evidence": "gambling_words_unrecognized"}
+
+
+TRACK_PARAMS = re.compile(r"(^|&)(affiliatecode|affiliate_code|aff_code|refcode|referral|wid|ch|campaign)=", re.I)
+
+
+def _tracked(d: dict) -> bool:
+    """A destination went through a tracker: affiliate parameters anywhere in the chain, a
+    parametrised link that lands on another host, or more than one intermediate host.
+
+    A plain link to a page, or one plain redirect from the linked host to the page (sister
+    sites, renamed domains), is a cross-link, not an ad.
+    """
+    urls = [u for _, u in d.get("hops") or []] + [d.get("url") or "", d.get("final_url") or ""]
+    hosts = []
+    for u in urls:
+        try:
+            parts = urlsplit(u)
+        except ValueError:
+            continue
+        if AFF_PARAMS.search(parts.query or "") or TRACK_PARAMS.search(parts.query or ""):
+            return True
+        h = (parts.hostname or "").lower().removeprefix("www.")
+        if h and h not in hosts:
+            hosts.append(h)
+    try:
+        first, last = urlsplit(urls[0] if urls[0] else d.get("url") or ""), urlsplit(d.get("final_url") or "")
+    except ValueError:
+        return len(hosts) > 2
+    if first.query and first.hostname and last.hostname and \
+            first.hostname.removeprefix("www.") != last.hostname.removeprefix("www."):
+        return True
+    return len(hosts) > 2
 
 
 def site_group(destinations: list, mostbet_mentions: int) -> dict:
