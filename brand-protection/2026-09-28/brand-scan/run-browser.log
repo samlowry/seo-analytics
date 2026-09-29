@@ -110,3 +110,2512 @@ queue 8720, done 1752, todo 6968, network RS AS15958 CETINdoo-NET 109.245.145.47
 325/6968 14.5/min {'1_mostbet_only': 176, '2_no_ads': 129, '3_other_only': 20}
 350/6968 14.4/min {'1_mostbet_only': 191, '2_no_ads': 136, '3_other_only': 23}
 375/6968 14.3/min {'1_mostbet_only': 199, '2_no_ads': 148, '3_other_only': 28}
+400/6968 14.2/min {'1_mostbet_only': 202, '2_no_ads': 163, '3_other_only': 35}
+425/6968 14.1/min {'1_mostbet_only': 210, '2_no_ads': 175, '3_other_only': 40}
+450/6968 14.1/min {'1_mostbet_only': 213, '2_no_ads': 193, '3_other_only': 44}
+475/6968 14.1/min {'1_mostbet_only': 223, '2_no_ads': 205, '3_other_only': 47}
+500/6968 14.2/min {'1_mostbet_only': 229, '2_no_ads': 221, '3_other_only': 50}
+525/6968 13.8/min {'1_mostbet_only': 232, '2_no_ads': 241, '3_other_only': 52}
+550/6968 13.2/min {'1_mostbet_only': 232, '2_no_ads': 258, '3_other_only': 59, '5_dead': 1}
+575/6968 13.2/min {'1_mostbet_only': 241, '2_no_ads': 272, '3_other_only': 61, '5_dead': 1}
+600/6968 13.2/min {'1_mostbet_only': 249, '2_no_ads': 288, '3_other_only': 62, '5_dead': 1}
+625/6968 13.2/min {'1_mostbet_only': 257, '2_no_ads': 302, '3_other_only': 65, '5_dead': 1}
+650/6968 13.4/min {'1_mostbet_only': 262, '2_no_ads': 322, '3_other_only': 65, '5_dead': 1}
+675/6968 13.5/min {'1_mostbet_only': 279, '2_no_ads': 329, '3_other_only': 66, '5_dead': 1}
+700/6968 13.6/min {'1_mostbet_only': 288, '2_no_ads': 343, '3_other_only': 68, '5_dead': 1}
+725/6968 13.8/min {'1_mostbet_only': 296, '2_no_ads': 357, '3_other_only': 71, '5_dead': 1}
+750/6968 13.9/min {'1_mostbet_only': 305, '2_no_ads': 372, '3_other_only': 72, '5_dead': 1}
+775/6968 13.9/min {'1_mostbet_only': 309, '2_no_ads': 381, '3_other_only': 84, '5_dead': 1}
+800/6968 13.3/min {'1_mostbet_only': 317, '2_no_ads': 391, '3_other_only': 91, '5_dead': 1}
+825/6968 13.2/min {'1_mostbet_only': 326, '2_no_ads': 403, '3_other_only': 95, '5_dead': 1}
+850/6968 13.2/min {'1_mostbet_only': 334, '2_no_ads': 417, '3_other_only': 98, '5_dead': 1}
+875/6968 12.3/min {'1_mostbet_only': 338, '2_no_ads': 437, '3_other_only': 99, '5_dead': 1}
+900/6968 11.8/min {'1_mostbet_only': 341, '2_no_ads': 459, '3_other_only': 99, '5_dead': 1}
+925/6968 11.7/min {'1_mostbet_only': 359, '2_no_ads': 466, '3_other_only': 99, '5_dead': 1}
+950/6968 11.8/min {'1_mostbet_only': 379, '2_no_ads': 470, '3_other_only': 100, '5_dead': 1}
+975/6968 11.9/min {'1_mostbet_only': 397, '2_no_ads': 475, '3_other_only': 102, '5_dead': 1}
+1000/6968 12.0/min {'1_mostbet_only': 403, '2_no_ads': 490, '3_other_only': 106, '5_dead': 1}
+1025/6968 12.1/min {'1_mostbet_only': 423, '2_no_ads': 494, '3_other_only': 107, '5_dead': 1}
+1050/6968 12.3/min {'1_mostbet_only': 431, '2_no_ads': 509, '3_other_only': 108, '5_dead': 2}
+1075/6968 12.3/min {'1_mostbet_only': 436, '2_no_ads': 529, '3_other_only': 108, '5_dead': 2}
+1100/6968 12.5/min {'1_mostbet_only': 439, '2_no_ads': 548, '3_other_only': 111, '5_dead': 2}
+1125/6968 12.5/min {'1_mostbet_only': 458, '2_no_ads': 553, '3_other_only': 112, '5_dead': 2}
+1150/6968 12.6/min {'1_mostbet_only': 471, '2_no_ads': 563, '3_other_only': 114, '5_dead': 2}
+1175/6968 12.7/min {'1_mostbet_only': 473, '2_no_ads': 585, '3_other_only': 115, '5_dead': 2}
+1200/6968 12.8/min {'1_mostbet_only': 479, '2_no_ads': 602, '3_other_only': 117, '5_dead': 2}
+1225/6968 12.8/min {'1_mostbet_only': 483, '2_no_ads': 620, '3_other_only': 120, '5_dead': 2}
+1250/6968 12.6/min {'1_mostbet_only': 484, '2_no_ads': 643, '3_other_only': 120, '4_mixed': 1, '5_dead': 2}
+1275/6968 12.7/min {'1_mostbet_only': 484, '2_no_ads': 667, '3_other_only': 120, '4_mixed': 2, '5_dead': 2}
+1300/6968 12.7/min {'1_mostbet_only': 484, '2_no_ads': 692, '3_other_only': 120, '4_mixed': 2, '5_dead': 2}
+1325/6968 12.8/min {'1_mostbet_only': 484, '2_no_ads': 717, '3_other_only': 120, '4_mixed': 2, '5_dead': 2}
+1350/6968 12.8/min {'1_mostbet_only': 484, '2_no_ads': 742, '3_other_only': 120, '4_mixed': 2, '5_dead': 2}
+1375/6968 12.9/min {'1_mostbet_only': 484, '2_no_ads': 767, '3_other_only': 120, '4_mixed': 2, '5_dead': 2}
+1400/6968 12.9/min {'1_mostbet_only': 484, '2_no_ads': 792, '3_other_only': 120, '4_mixed': 2, '5_dead': 2}
+1425/6968 13.0/min {'1_mostbet_only': 484, '2_no_ads': 817, '3_other_only': 120, '4_mixed': 2, '5_dead': 2}
+1450/6968 13.0/min {'1_mostbet_only': 484, '2_no_ads': 842, '3_other_only': 120, '4_mixed': 2, '5_dead': 2}
+1475/6968 13.1/min {'1_mostbet_only': 484, '2_no_ads': 867, '3_other_only': 120, '4_mixed': 2, '5_dead': 2}
+1500/6968 13.1/min {'1_mostbet_only': 484, '2_no_ads': 892, '3_other_only': 120, '4_mixed': 2, '5_dead': 2}
+1525/6968 13.1/min {'1_mostbet_only': 484, '2_no_ads': 916, '3_other_only': 121, '4_mixed': 2, '5_dead': 2}
+1550/6968 13.1/min {'1_mostbet_only': 484, '2_no_ads': 941, '3_other_only': 121, '4_mixed': 2, '5_dead': 2}
+1575/6968 13.1/min {'1_mostbet_only': 484, '2_no_ads': 966, '3_other_only': 121, '4_mixed': 2, '5_dead': 2}
+1600/6968 13.1/min {'1_mostbet_only': 484, '2_no_ads': 991, '3_other_only': 121, '4_mixed': 2, '5_dead': 2}
+1625/6968 13.1/min {'1_mostbet_only': 484, '2_no_ads': 1016, '3_other_only': 121, '4_mixed': 2, '5_dead': 2}
+1650/6968 13.1/min {'1_mostbet_only': 484, '2_no_ads': 1040, '3_other_only': 122, '4_mixed': 2, '5_dead': 2}
+1675/6968 13.0/min {'1_mostbet_only': 484, '2_no_ads': 1065, '3_other_only': 122, '4_mixed': 2, '5_dead': 2}
+1700/6968 13.0/min {'1_mostbet_only': 484, '2_no_ads': 1089, '3_other_only': 123, '4_mixed': 2, '5_dead': 2}
+1725/6968 13.0/min {'1_mostbet_only': 484, '2_no_ads': 1113, '3_other_only': 124, '4_mixed': 2, '5_dead': 2}
+1750/6968 13.0/min {'1_mostbet_only': 484, '2_no_ads': 1137, '3_other_only': 125, '4_mixed': 2, '5_dead': 2}
+1775/6968 13.0/min {'1_mostbet_only': 484, '2_no_ads': 1162, '3_other_only': 125, '4_mixed': 2, '5_dead': 2}
+1800/6968 13.0/min {'1_mostbet_only': 484, '2_no_ads': 1187, '3_other_only': 125, '4_mixed': 2, '5_dead': 2}
+1825/6968 13.1/min {'1_mostbet_only': 484, '2_no_ads': 1212, '3_other_only': 125, '4_mixed': 2, '5_dead': 2}
+1850/6968 13.1/min {'1_mostbet_only': 484, '2_no_ads': 1237, '3_other_only': 125, '4_mixed': 2, '5_dead': 2}
+1875/6968 13.2/min {'1_mostbet_only': 485, '2_no_ads': 1261, '3_other_only': 125, '4_mixed': 2, '5_dead': 2}
+1900/6968 13.2/min {'1_mostbet_only': 485, '2_no_ads': 1286, '3_other_only': 125, '4_mixed': 2, '5_dead': 2}
+1925/6968 13.2/min {'1_mostbet_only': 485, '2_no_ads': 1311, '3_other_only': 125, '4_mixed': 2, '5_dead': 2}
+1950/6968 13.2/min {'1_mostbet_only': 485, '2_no_ads': 1336, '3_other_only': 125, '4_mixed': 2, '5_dead': 2}
+1975/6968 13.2/min {'1_mostbet_only': 485, '2_no_ads': 1361, '3_other_only': 125, '4_mixed': 2, '5_dead': 2}
+2000/6968 13.2/min {'1_mostbet_only': 485, '2_no_ads': 1386, '3_other_only': 125, '4_mixed': 2, '5_dead': 2}
+2025/6968 13.2/min {'1_mostbet_only': 485, '2_no_ads': 1411, '3_other_only': 125, '4_mixed': 2, '5_dead': 2}
+2050/6968 13.2/min {'1_mostbet_only': 485, '2_no_ads': 1436, '3_other_only': 125, '4_mixed': 2, '5_dead': 2}
+2075/6968 13.2/min {'1_mostbet_only': 485, '2_no_ads': 1461, '3_other_only': 125, '4_mixed': 2, '5_dead': 2}
+2100/6968 13.2/min {'1_mostbet_only': 485, '2_no_ads': 1486, '3_other_only': 125, '4_mixed': 2, '5_dead': 2}
+2125/6968 13.2/min {'1_mostbet_only': 487, '2_no_ads': 1504, '3_other_only': 130, '4_mixed': 2, '5_dead': 2}
+2150/6968 13.2/min {'1_mostbet_only': 487, '2_no_ads': 1524, '3_other_only': 135, '4_mixed': 2, '5_dead': 2}
+2175/6968 13.2/min {'1_mostbet_only': 487, '2_no_ads': 1542, '3_other_only': 141, '4_mixed': 2, '5_dead': 2, '5_not_shown': 1}
+2200/6968 13.2/min {'1_mostbet_only': 487, '2_no_ads': 1566, '3_other_only': 141, '4_mixed': 2, '5_dead': 3, '5_not_shown': 1}
+2225/6968 13.3/min {'1_mostbet_only': 488, '2_no_ads': 1584, '3_other_only': 147, '4_mixed': 2, '5_dead': 3, '5_not_shown': 1}
+2250/6968 13.3/min {'1_mostbet_only': 488, '2_no_ads': 1604, '3_other_only': 150, '4_mixed': 2, '5_dead': 5, '5_not_shown': 1}
+2275/6968 13.4/min {'1_mostbet_only': 488, '2_no_ads': 1621, '3_other_only': 152, '4_mixed': 2, '5_dead': 11, '5_not_shown': 1}
+2300/6968 13.5/min {'1_mostbet_only': 488, '2_no_ads': 1623, '3_other_only': 153, '4_mixed': 2, '5_dead': 33, '5_not_shown': 1}
+2325/6968 13.6/min {'1_mostbet_only': 488, '2_no_ads': 1631, '3_other_only': 156, '4_mixed': 2, '5_dead': 47, '5_not_shown': 1}
+2350/6968 13.6/min {'1_mostbet_only': 488, '2_no_ads': 1641, '3_other_only': 160, '4_mixed': 2, '5_dead': 58, '5_not_shown': 1}
+2375/6968 13.7/min {'1_mostbet_only': 488, '2_no_ads': 1644, '3_other_only': 160, '4_mixed': 2, '5_dead': 80, '5_not_shown': 1}
+/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/driver/package/lib/coreBundle.js:22797
+        for (const child of frame._getChildFrames())
+                                  ^
+
+TypeError: Cannot read properties of undefined (reading '_getChildFrames')
+    at FrameManager.removeChildFramesRecursively (/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/driver/package/lib/coreBundle.js:22797:35)
+    at FrameManager.frameCommittedNewDocumentNavigation (/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/driver/package/lib/coreBundle.js:22684:14)
+    at FFPage._onNavigationCommitted (/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/driver/package/lib/coreBundle.js:44922:33)
+    at FFSession.emit (node:events:509:28)
+    at /Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/driver/package/lib/coreBundle.js:44202:45
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at process.processImmediate (node:internal/timers:472:9)
+
+Node.js v24.18.1
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 582, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+2400/6968 13.7/min {'1_mostbet_only': 488, '2_no_ads': 1653, '3_other_only': 171, '4_mixed': 2, '5_dead': 84, '5_not_shown': 2}
+2425/6968 13.7/min {'1_mostbet_only': 489, '2_no_ads': 1667, '3_other_only': 174, '4_mixed': 2, '5_dead': 91, '5_not_shown': 2}
+2450/6968 13.7/min {'1_mostbet_only': 490, '2_no_ads': 1687, '3_other_only': 177, '4_mixed': 2, '5_dead': 92, '5_not_shown': 2}
+2475/6968 13.7/min {'1_mostbet_only': 490, '2_no_ads': 1712, '3_other_only': 177, '4_mixed': 2, '5_dead': 92, '5_not_shown': 2}
+2500/6968 13.7/min {'1_mostbet_only': 492, '2_no_ads': 1734, '3_other_only': 178, '4_mixed': 2, '5_dead': 92, '5_not_shown': 2}
+2525/6968 13.7/min {'1_mostbet_only': 492, '2_no_ads': 1752, '3_other_only': 185, '4_mixed': 2, '5_dead': 92, '5_not_shown': 2}
+2550/6968 13.7/min {'1_mostbet_only': 492, '2_no_ads': 1771, '3_other_only': 190, '4_mixed': 2, '5_dead': 92, '5_not_shown': 3}
+2575/6968 13.8/min {'1_mostbet_only': 493, '2_no_ads': 1794, '3_other_only': 190, '4_mixed': 2, '5_dead': 93, '5_not_shown': 3}
+2600/6968 13.8/min {'1_mostbet_only': 493, '2_no_ads': 1804, '3_other_only': 199, '4_mixed': 2, '5_dead': 93, '5_not_shown': 9}
+2625/6968 13.9/min {'1_mostbet_only': 493, '2_no_ads': 1814, '3_other_only': 201, '4_mixed': 2, '5_dead': 98, '5_not_shown': 17}
+2650/6968 13.9/min {'1_mostbet_only': 493, '2_no_ads': 1835, '3_other_only': 201, '4_mixed': 2, '5_dead': 102, '5_not_shown': 17}
+2675/6968 13.9/min {'1_mostbet_only': 493, '2_no_ads': 1847, '3_other_only': 202, '4_mixed': 2, '5_dead': 114, '5_not_shown': 17}
+2700/6968 13.9/min {'1_mostbet_only': 493, '2_no_ads': 1858, '3_other_only': 202, '4_mixed': 2, '5_dead': 128, '5_not_shown': 17}
+2725/6968 13.8/min {'1_mostbet_only': 493, '2_no_ads': 1872, '3_other_only': 202, '4_mixed': 2, '5_dead': 138, '5_not_shown': 17, '6_cf_check': 1}
+2750/6968 13.8/min {'1_mostbet_only': 494, '2_no_ads': 1886, '3_other_only': 204, '4_mixed': 2, '5_dead': 146, '5_not_shown': 17, '6_cf_check': 1}
+2775/6968 13.8/min {'1_mostbet_only': 494, '2_no_ads': 1897, '3_other_only': 206, '4_mixed': 2, '5_dead': 156, '5_not_shown': 19, '6_cf_check': 1}
+2800/6968 13.8/min {'1_mostbet_only': 494, '2_no_ads': 1912, '3_other_only': 208, '4_mixed': 2, '5_dead': 164, '5_not_shown': 19, '6_cf_check': 1}
+2825/6968 13.7/min {'1_mostbet_only': 494, '2_no_ads': 1922, '3_other_only': 216, '4_mixed': 2, '5_dead': 170, '5_not_shown': 19, '6_cf_check': 2}
+2850/6968 13.6/min {'1_mostbet_only': 494, '2_no_ads': 1932, '3_other_only': 219, '4_mixed': 2, '5_dead': 182, '5_not_shown': 19, '6_cf_check': 2}
+2875/6968 13.6/min {'1_mostbet_only': 494, '2_no_ads': 1939, '3_other_only': 223, '4_mixed': 2, '5_dead': 196, '5_not_shown': 19, '6_cf_check': 2}
+2900/6968 13.5/min {'1_mostbet_only': 494, '2_no_ads': 1952, '3_other_only': 224, '4_mixed': 2, '5_dead': 206, '5_not_shown': 20, '6_cf_check': 2}
