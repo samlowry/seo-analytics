@@ -2,4 +2,5 @@ results/
 tools/node_modules/
 .env
 __pycache__/
+brand-protection/*/brand-scan*/html/
 brand-protection/.DS_Store

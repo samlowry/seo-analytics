@@ -11,6 +11,8 @@ Input: a CSV with a `domain` column (camoufox-queue.csv or resolves-minus-ours-u
 Output: <out_dir>/http-scan.jsonl.gz and <out_dir>/browser-scan.jsonl.gz, one record per site;
 reruns skip scanned domains, --redo FILE rescans the listed ones (the report takes the last record).
 Filters: --priority 1,2 (queue priority), --domains FILE, --limit N.
+Keeping home pages: --save-html [DIR] (default <out_dir>/html, <domain>.<http|browser>.html.gz);
+--mode home only fetches and keeps home pages, follows nothing, logs to home-dump.jsonl.gz.
 Exit via Mac SOCKS for the browser and HTTP follows (server scan, host default route untouched):
   --proxy socks5://127.0.0.1:1080  (add --with aiohttp-socks to uv run)
   see brand-protection/.../brand-scan/SERVER-RESCAN.md
@@ -460,6 +462,20 @@ def resolve_record(r: dict, dcache: dict) -> dict:
     return {**r, "destinations": dests, "result": new}
 
 
+def save_html(html_dir: Path | None, domain: str, source: str, html: str, final_url: str, status) -> str:
+    """Keep a home page for later re-classification: as fetched (source=http) or as rendered
+    (source=browser). The first line records the source, time, status and final URL.
+    Returns the file name inside html_dir, or "" when nothing was saved."""
+    if not html_dir or not html:
+        return ""
+    name = f"{domain}.{source}.html.gz"
+    head = (f"<!-- brand-scan {source} {time.strftime('%Y-%m-%dT%H:%M:%S')} "
+            f"status={status} final_url={final_url} -->\n")
+    with gzip.open(html_dir / name, "wt", encoding="utf-8") as f:
+        f.write(head + html)
+    return name
+
+
 def hosts_changed(start_url: str, hops) -> bool:
     start = aff.base_host(urlsplit(start_url).hostname or "")
     return any(aff.base_host(urlsplit(u).hostname or "") != start for _s, u in hops)
@@ -469,10 +485,11 @@ DOWNLOAD_CT = re.compile(r"android|octet-stream|x-msdownload|zip", re.I)
 
 
 class Scanner:
-    def __init__(self, network: str, session, proxy: dict | None = None):
+    def __init__(self, network: str, session, proxy: dict | None = None, html_dir: Path | None = None):
         self.network = network
         self.session = session
         self.proxy = proxy  # Playwright dict; the aiohttp session must exit through the same proxy
+        self.html_dir = html_dir  # --save-html: home pages are kept here
         self.cache = {}  # external destination -> result, shared across sites
 
     async def follow(self, ctx, url, site, state):
@@ -681,7 +698,8 @@ class Scanner:
         status = hops[-1][0] if hops else (resp.status if resp else None)
         mentions = len(re.findall(r"mostbet|мостбет", html, re.I))
         home.update(final_url=final, status=status, title=title[:200], text_len=len(text),
-                    mostbet_mentions=mentions, challenge_waited_ms=waited, text_sample=text[:300])
+                    mostbet_mentions=mentions, challenge_waited_ms=waited, text_sample=text[:300],
+                    html_file=save_html(self.html_dir, domain, "browser", html, final, status))
         if kind in ("captcha", "recaptcha", "hcaptcha") and not CHALLENGE_TITLE.search(title) and \
                 len(links_of(html, final)[0]) >= 10:
             home["form_captcha"] = kind  # a captcha in a form on a real page, not a wall: scan on
@@ -852,7 +870,8 @@ class Scanner:
         links, js_buttons, js_cta, text = links_of(body or "", final)
         home.update(final_url=final, status=st, title=title, text_len=len(text), mostbet_mentions=mentions,
                     links=len(links), js_buttons=js_buttons, js_cta=js_cta, text_sample=text[:300],
-                    home_other_brand_mentions=sorted({n for n, rx in lb.BRAND_RES if rx.search(text)})[:20])
+                    home_other_brand_mentions=sorted({n for n, rx in lb.BRAND_RES if rx.search(text)})[:20],
+                    html_file=save_html(self.html_dir, domain, "http", body, final, st))
         prot = aff.protection(st, {k.lower(): v for k, v in hdr.items()}, body or "")
         if prot in ("cloudflare_challenge", "ddos_guard", "captcha", "sucuri"):
             home["protection"] = prot
@@ -906,6 +925,33 @@ class Scanner:
             result = {**result, "group": "needs_browser", "reason": "js_buttons", "http_group": result["group"]}
         rec.update(candidates=rec_cands, destinations=destinations, result=result,
                    our_refs_skipped=state["our_refs"])
+        return rec
+
+    async def home_dump(self, item):
+        """Home-only pass: fetch the home page by plain HTTP and keep it; nothing is followed, so
+        groups do not change. A home that redirects straight to a ref is recorded, not requested."""
+        domain = item["domain"]
+        rec = {"domain": domain, "ts": time.strftime("%Y-%m-%dT%H:%M:%S"), "network": self.network, "mode": "home"}
+        raw = await aff.fetch_home(self.session, domain)
+        home = {"hops": [[h.get("status"), h.get("url")] for h in (raw.get("chain") or [])]}
+        rec["home"] = home
+        if raw.get("home_ref"):
+            home["home_ref"] = raw["home_ref"][:300]
+            rec["result"] = {"group": "home_redirect", "reason": raw.get("home_ref_kind") or ""}
+            return rec
+        if not raw["ok"]:
+            home["error"] = raw.get("error") or "unknown"
+            rec["result"] = {"group": "no_answer", "reason": home["error"]}
+            return rec
+        st, body, final = raw["status"], raw["body"] or "", raw["final_url"]
+        tree = aff.HTMLParser(body)
+        title = (tree.css_first("title").text().strip() if tree.css_first("title") else "")[:200]
+        links, js_buttons, js_cta, text = links_of(body, final)
+        home.update(final_url=final, status=st, title=title, bytes=len(body), text_len=len(text),
+                    mostbet_mentions=len(re.findall(r"mostbet|мостбет", body, re.I)), links=len(links),
+                    js_buttons=js_buttons, js_cta=js_cta,
+                    html_file=save_html(self.html_dir, domain, "http", body, final, st))
+        rec["result"] = {"group": "saved" if home["html_file"] else "not_html", "reason": f"http_{st}"}
         return rec
 
     async def follow_http_only(self, url, site, state):
@@ -1041,9 +1087,12 @@ async def main():
     ap.add_argument("--priority", help="comma-separated queue priorities to take, e.g. 1,2")
     ap.add_argument("--redo", help="file with domains to rescan")
     ap.add_argument("--domains", help="file with domains to take from the queue (others are ignored)")
-    ap.add_argument("--mode", choices=("http", "destinations", "browser"), default="http",
+    ap.add_argument("--mode", choices=("http", "destinations", "browser", "home"), default="http",
                     help="http: sites by plain HTTP; destinations: unique destinations HTTP could not decide, "
-                         "in the browser; browser: whole sites whose home page needs a browser")
+                         "in the browser; browser: whole sites whose home page needs a browser; "
+                         "home: only fetch and keep home pages by plain HTTP (implies --save-html)")
+    ap.add_argument("--save-html", nargs="?", const="", default=None, metavar="DIR",
+                    help="keep home pages as <domain>.<http|browser>.html.gz (default DIR: <out_dir>/html)")
     ap.add_argument("--from-http", action="store_true",
                     help="browser mode: take only domains still needs_browser after the destination pass")
     ap.add_argument("--proxy",
@@ -1055,7 +1104,11 @@ async def main():
     out = Path(a.out_dir)
     out.mkdir(parents=True, exist_ok=True)
     scan = out / {"http": "http-scan.jsonl.gz", "destinations": "dest-browser.jsonl.gz",
-                  "browser": "browser-scan.jsonl.gz"}[a.mode]
+                  "browser": "browser-scan.jsonl.gz", "home": "home-dump.jsonl.gz"}[a.mode]
+    html_dir = None
+    if a.save_html is not None or a.mode == "home":
+        html_dir = Path(a.save_html) if a.save_html else out / "html"
+        html_dir.mkdir(parents=True, exist_ok=True)
     for log in (scan, out / "dest-browser.jsonl.gz"):
         kept = repair_log(log)
         if kept >= 0:
@@ -1101,7 +1154,7 @@ async def main():
     else:
         conn = aiohttp.TCPConnector(limit=64, limit_per_host=4, ttl_dns_cache=600, enable_cleanup_closed=True)
     session = aiohttp.ClientSession(connector=conn, headers=aff.HEADERS, cookie_jar=aiohttp.DummyCookieJar())
-    scanner = Scanner(network, session, proxy=proxy)
+    scanner = Scanner(network, session, proxy=proxy, html_dir=html_dir)
     if not proxy:
         scanner.cache.update(dcache)
     fh = gzip.open(scan, "at", encoding="utf-8")
@@ -1121,17 +1174,19 @@ async def main():
             rate = n / (time.time() - t0) * 60
             print(f"{n}/{len(todo)} {rate:.1f}/min {dict(sorted(stats.items()))}", flush=True)
 
+    http_one = scanner.home_dump if a.mode == "home" else scanner.http_scan_site
+
     async def http_worker():
         while not q.empty():
             item = q.get_nowait()
             t = time.time()
             try:
-                rec = await asyncio.wait_for(scanner.http_scan_site(item), timeout=SITE_TIMEOUT)
+                rec = await asyncio.wait_for(http_one(item), timeout=SITE_TIMEOUT)
             except Exception as e:  # noqa: BLE001
                 rec = {"domain": item["domain"], "ts": time.strftime("%Y-%m-%dT%H:%M:%S"), "network": network,
-                       "mode": "http", "queue_reason": item.get("reason"),
-                       "result": {"group": "needs_browser", "reason": "scan_error:" + type(e).__name__,
-                                  "detail": str(e)[:200]}}
+                       "mode": a.mode, "queue_reason": item.get("reason"),
+                       "result": {"group": "needs_browser" if a.mode == "http" else "no_answer",
+                                  "reason": "scan_error:" + type(e).__name__, "detail": str(e)[:200]}}
             rec["elapsed_s"] = round(time.time() - t, 1)
             write(rec)
 
@@ -1191,7 +1246,8 @@ async def main():
                     pass
                 kill_driver(cm)
 
-    await asyncio.gather(*((http_worker() if a.mode == "http" else worker(i)) for i in range(a.concurrency)))
+    await asyncio.gather(*((http_worker() if a.mode in ("http", "home") else worker(i))
+                           for i in range(a.concurrency)))
     await session.close()
     fh.close()
     print("done", dict(sorted(stats.items())), flush=True)
