@@ -659,7 +659,7 @@ class Scanner:
             if kind in CF_KINDS:
                 return {"home": home, "result": {"group": "6_cf_check", "reason": kind}}
             return {"home": home, "result": {"group": "5_not_shown", "reason": f"protection:{kind}"}}
-        if lb.PARKED.search(title + " " + text[:3000]):
+        if lb.PARKED.search(title + " " + text[:3000]) or lb.PARKING_HTML.search(html[:300_000]):
             return {"home": home, "result": {"group": "5_dead", "reason": "parked"}}
         if status and status >= 400:
             geo = bool(lb.GEO_BLOCK.search(title + " " + text[:3000])) or status == 451
@@ -820,7 +820,7 @@ class Scanner:
             home["protection"] = prot
             rec["result"] = {"group": "needs_browser", "reason": f"protection:{prot}"}
             return rec
-        if lb.PARKED.search(title + " " + text[:3000]):
+        if lb.PARKED.search(title + " " + text[:3000]) or lb.PARKING_HTML.search((body or "")[:300_000]):
             rec["result"] = {"group": "5_dead", "reason": "parked"}
             return rec
         if st >= 400:
@@ -1075,11 +1075,14 @@ async def main():
 
     async def worker(wid):
         """One browser, relaunched after every batch, crash or hang; exits only when the queue is empty."""
+        from camoufox import DefaultAddons
         from camoufox.async_api import AsyncCamoufox
         fails = 0
         while not q.empty():
+            # Camoufox bundles uBlock Origin by default; it aborts ad, tracker and parking scripts,
+            # which are exactly what this scan has to see (parked shells rendered as empty pages).
             cm = AsyncCamoufox(headless=True, geoip=True, block_images=True, humanize=False,
-                               i_know_what_im_doing=True)
+                               i_know_what_im_doing=True, exclude_addons=[DefaultAddons.UBO])
             try:
                 browser = await bounded(cm.__aenter__(), LAUNCH_TIMEOUT)
             except Exception as e:  # noqa: BLE001
