@@ -104,6 +104,10 @@ def home_mentions(h: dict) -> list:
 def load(d: Path):
     http = bs.read_last(d / "http-scan.jsonl.gz")
     browser = bs.read_last(d / "browser-scan.jsonl.gz")
+    # Rest-pass records extend a browser record; a later browser rescan supersedes them again.
+    for k, r in bs.read_last(d / "rest-scan.jsonl.gz").items():
+        if r.get("mode") == "browser+rest" and (k not in browser or r["ts"] >= browser[k].get("ts", "")):
+            browser[k] = r
     dcache = bs.load_dest_cache(d / "dest-browser.jsonl.gz")
     recs = {k: post_group(refine_record(regroup_legacy(bs.resolve_record(r, dcache)))) for k, r in http.items()}
     recs.update({k: post_group(refine_record(regroup_legacy(r))) for k, r in browser.items()})

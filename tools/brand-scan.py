@@ -481,6 +481,7 @@ def hosts_changed(start_url: str, hops) -> bool:
     return any(aff.base_host(urlsplit(u).hostname or "") != start for _s, u in hops)
 
 
+REST_RETRY = {"follow_timeout", "timeout", "aborted"}  # destinations the rest pass tries again
 DOWNLOAD_CT = re.compile(r"android|octet-stream|x-msdownload|zip", re.I)
 
 
@@ -927,6 +928,30 @@ class Scanner:
                    our_refs_skipped=state["our_refs"])
         return rec
 
+    async def follow_rest(self, rec):
+        """Rest pass over a browser record: follow by plain HTTP the candidates it left unfollowed
+        and the destinations that ran out of time, then regroup. Candidates include the URLs
+        captured from clicked buttons, so the browser is not needed again; what HTTP cannot decide
+        stays needs_browser (unresolved)."""
+        h = rec.get("home") or {}
+        site = urlsplit(h.get("final_url") or "").hostname or rec["domain"]
+        state = {"our_refs": []}
+        keep = [d for d in rec.get("destinations") or [] if d.get("evidence") not in REST_RETRY]
+        seen = {d["url"] for d in keep}
+        queue = [{"url": c["url"], "reason": c["reason"], "rank": 0}
+                 for c in rec.get("candidates") or [] if c["url"] not in seen]
+        _, new, not_followed = await self.follow_all(queue, site, lambda u: self.follow_http_only(u, site, state))
+        for d in new:
+            d.pop("_html", None)
+        destinations = keep + new
+        live = [d for d in destinations if d.get("kind") != "internal"]
+        result = lb.site_group(live, h.get("mostbet_mentions") or 0)
+        result["unresolved"] = sum(d.get("kind") in ("dead", "unknown", "needs_browser") for d in live)
+        result["not_followed"] = not_followed
+        return {**rec, "ts": time.strftime("%Y-%m-%dT%H:%M:%S"), "network": self.network, "mode": "browser+rest",
+                "destinations": destinations, "result": result, "rest_followed": len(new),
+                "our_refs_skipped": (rec.get("our_refs_skipped") or []) + state["our_refs"]}
+
     async def home_dump(self, item):
         """Home-only pass: fetch the home page by plain HTTP and keep it; nothing is followed, so
         groups do not change. A home that redirects straight to a ref is recorded, not requested."""
@@ -1099,10 +1124,11 @@ async def main():
     ap.add_argument("--priority", help="comma-separated queue priorities to take, e.g. 1,2")
     ap.add_argument("--redo", help="file with domains to rescan")
     ap.add_argument("--domains", help="file with domains to take from the queue (others are ignored)")
-    ap.add_argument("--mode", choices=("http", "destinations", "browser", "home"), default="http",
+    ap.add_argument("--mode", choices=("http", "destinations", "browser", "home", "rest"), default="http",
                     help="http: sites by plain HTTP; destinations: unique destinations HTTP could not decide, "
                          "in the browser; browser: whole sites whose home page needs a browser; "
-                         "home: only fetch and keep home pages by plain HTTP (implies --save-html)")
+                         "home: only fetch and keep home pages by plain HTTP (implies --save-html); "
+                         "rest: follow by HTTP what browser records left unfollowed (writes rest-scan.jsonl.gz)")
     ap.add_argument("--max-follow", type=int, default=MAX_FOLLOW,
                     help=f"destinations followed per site (default {MAX_FOLLOW}); the rest count as not_followed")
     ap.add_argument("--save-html", nargs="?", const="", default=None, metavar="DIR",
@@ -1119,7 +1145,8 @@ async def main():
     out = Path(a.out_dir)
     out.mkdir(parents=True, exist_ok=True)
     scan = out / {"http": "http-scan.jsonl.gz", "destinations": "dest-browser.jsonl.gz",
-                  "browser": "browser-scan.jsonl.gz", "home": "home-dump.jsonl.gz"}[a.mode]
+                  "browser": "browser-scan.jsonl.gz", "home": "home-dump.jsonl.gz",
+                  "rest": "rest-scan.jsonl.gz"}[a.mode]
     html_dir = None
     if a.save_html is not None or a.mode == "home":
         html_dir = Path(a.save_html) if a.save_html else out / "html"
@@ -1142,6 +1169,9 @@ async def main():
         wanted = {x["domain"] for x in items}
         http_recs = {d: r for d, r in read_last(out / "http-scan.jsonl.gz").items() if d in wanted}
         items = pending_destinations(http_recs)
+    elif a.mode == "rest":
+        browser_recs = read_last(out / "browser-scan.jsonl.gz")
+        items = [{**x, "rec": browser_recs[x["domain"]]} for x in items if x["domain"] in browser_recs]
     elif a.from_http:
         http_recs = read_last(out / "http-scan.jsonl.gz")
         still = {d for d, r in http_recs.items() if resolve_record(r, dcache)["result"]["group"] == "needs_browser"}
@@ -1189,7 +1219,8 @@ async def main():
             rate = n / (time.time() - t0) * 60
             print(f"{n}/{len(todo)} {rate:.1f}/min {dict(sorted(stats.items()))}", flush=True)
 
-    http_one = scanner.home_dump if a.mode == "home" else scanner.http_scan_site
+    http_one = {"home": scanner.home_dump, "rest": lambda x: scanner.follow_rest(x["rec"])}.get(
+        a.mode, scanner.http_scan_site)
 
     async def http_worker():
         while not q.empty():
@@ -1264,7 +1295,7 @@ async def main():
                     pass
                 kill_driver(cm)
 
-    await asyncio.gather(*((http_worker() if a.mode in ("http", "home") else worker(i))
+    await asyncio.gather(*((http_worker() if a.mode in ("http", "home", "rest") else worker(i))
                            for i in range(a.concurrency)))
     await session.close()
     fh.close()
