@@ -1,0 +1,70 @@
+queue 8720, done 0, todo 8720, network RS AS15958 CETINdoo-NET 109.245.145.47, our refs guarded 321
+/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/driver/package/lib/coreBundle.js:22797
+        for (const child of frame._getChildFrames())
+                                  ^
+
+TypeError: Cannot read properties of undefined (reading '_getChildFrames')
+    at FrameManager.removeChildFramesRecursively (/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/driver/package/lib/coreBundle.js:22797:35)
+    at FrameManager.frameCommittedNewDocumentNavigation (/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/driver/package/lib/coreBundle.js:22684:14)
+    at FFPage._onNavigationCommitted (/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/driver/package/lib/coreBundle.js:44922:33)
+    at FFSession.emit (node:events:509:28)
+    at /Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/driver/package/lib/coreBundle.js:44202:45
+
+Node.js v24.18.1
+25/8720 6.2/min {'1_mostbet_only': 2, '2_no_ads': 15, '3_other_only': 7, '5_not_shown': 1}
+50/8720 8.5/min {'1_mostbet_only': 13, '2_no_ads': 27, '3_other_only': 7, '5_not_shown': 3}
+75/8720 9.0/min {'1_mostbet_only': 22, '2_no_ads': 42, '3_other_only': 8, '5_not_shown': 3}
+100/8720 7.1/min {'1_mostbet_only': 32, '2_no_ads': 54, '3_other_only': 9, '5_not_shown': 5}
+/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/driver/package/lib/coreBundle.js:22797
+        for (const child of frame._getChildFrames())
+                                  ^
+
+TypeError: Cannot read properties of undefined (reading '_getChildFrames')
+    at FrameManager.removeChildFramesRecursively (/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/driver/package/lib/coreBundle.js:22797:35)
+    at FrameManager.frameCommittedNewDocumentNavigation (/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/driver/package/lib/coreBundle.js:22684:14)
+    at FFPage._onNavigationCommitted (/Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/driver/package/lib/coreBundle.js:44922:33)
+    at FFSession.emit (node:events:509:28)
+    at /Users/samlowry/.cache/uv/archive-v0/O6yPeqyEkFxByL7qtzJUU/lib/python3.13/site-packages/playwright/driver/package/lib/coreBundle.js:44202:45
+
+Node.js v24.18.1
+125/8720 7.4/min {'1_mostbet_only': 44, '2_no_ads': 64, '3_other_only': 9, '5_not_shown': 8}
+150/8720 8.0/min {'1_mostbet_only': 56, '2_no_ads': 73, '3_other_only': 13, '5_not_shown': 8}
+175/8720 8.3/min {'1_mostbet_only': 67, '2_no_ads': 86, '3_other_only': 14, '5_not_shown': 8}
+200/8720 8.9/min {'1_mostbet_only': 76, '2_no_ads': 101, '3_other_only': 15, '5_not_shown': 8}
+225/8720 9.0/min {'1_mostbet_only': 88, '2_no_ads': 112, '3_other_only': 17, '5_not_shown': 8}
+250/8720 9.3/min {'1_mostbet_only': 106, '2_no_ads': 118, '3_other_only': 18, '5_not_shown': 8}
+275/8720 9.6/min {'1_mostbet_only': 116, '2_no_ads': 133, '3_other_only': 18, '5_not_shown': 8}
+300/8720 9.8/min {'1_mostbet_only': 125, '2_no_ads': 147, '3_other_only': 20, '5_not_shown': 8}
+325/8720 10.0/min {'1_mostbet_only': 138, '2_no_ads': 155, '3_other_only': 24, '5_not_shown': 8}
+350/8720 10.1/min {'1_mostbet_only': 147, '2_no_ads': 167, '3_other_only': 27, '5_dead': 1, '5_not_shown': 8}
+375/8720 10.4/min {'1_mostbet_only': 149, '2_no_ads': 187, '3_other_only': 30, '5_dead': 1, '5_not_shown': 8}
+400/8720 10.6/min {'1_mostbet_only': 152, '2_no_ads': 206, '3_other_only': 33, '5_dead': 1, '5_not_shown': 8}
+425/8720 10.8/min {'1_mostbet_only': 158, '2_no_ads': 223, '3_other_only': 35, '5_dead': 1, '5_not_shown': 8}
+450/8720 11.0/min {'1_mostbet_only': 177, '2_no_ads': 229, '3_other_only': 35, '5_dead': 1, '5_not_shown': 8}
+475/8720 11.1/min {'1_mostbet_only': 183, '2_no_ads': 248, '3_other_only': 35, '5_dead': 1, '5_not_shown': 8}
+500/8720 11.2/min {'1_mostbet_only': 188, '2_no_ads': 268, '3_other_only': 35, '5_dead': 1, '5_not_shown': 8}
+525/8720 11.3/min {'1_mostbet_only': 192, '2_no_ads': 287, '3_other_only': 36, '5_dead': 1, '5_not_shown': 9}
+550/8720 11.4/min {'1_mostbet_only': 201, '2_no_ads': 300, '3_other_only': 39, '5_dead': 1, '5_not_shown': 9}
+575/8720 11.5/min {'1_mostbet_only': 206, '2_no_ads': 319, '3_other_only': 40, '5_dead': 1, '5_not_shown': 9}
+600/8720 11.7/min {'1_mostbet_only': 209, '2_no_ads': 338, '3_other_only': 43, '5_dead': 1, '5_not_shown': 9}
+625/8720 11.9/min {'1_mostbet_only': 219, '2_no_ads': 351, '3_other_only': 45, '5_dead': 1, '5_not_shown': 9}
+650/8720 12.0/min {'1_mostbet_only': 226, '2_no_ads': 369, '3_other_only': 45, '5_dead': 1, '5_not_shown': 9}
+675/8720 12.1/min {'1_mostbet_only': 230, '2_no_ads': 389, '3_other_only': 46, '5_dead': 1, '5_not_shown': 9}
+700/8720 12.2/min {'1_mostbet_only': 233, '2_no_ads': 408, '3_other_only': 49, '5_dead': 1, '5_not_shown': 9}
+725/8720 12.3/min {'1_mostbet_only': 251, '2_no_ads': 414, '3_other_only': 50, '5_dead': 1, '5_not_shown': 9}
+750/8720 12.3/min {'1_mostbet_only': 264, '2_no_ads': 424, '3_other_only': 52, '5_dead': 1, '5_not_shown': 9}
+775/8720 12.3/min {'1_mostbet_only': 286, '2_no_ads': 425, '3_other_only': 54, '5_dead': 1, '5_not_shown': 9}
+800/8720 12.4/min {'1_mostbet_only': 311, '2_no_ads': 425, '3_other_only': 54, '5_dead': 1, '5_not_shown': 9}
+825/8720 12.5/min {'1_mostbet_only': 331, '2_no_ads': 430, '3_other_only': 54, '5_dead': 1, '5_not_shown': 9}
+850/8720 12.6/min {'1_mostbet_only': 355, '2_no_ads': 431, '3_other_only': 54, '5_dead': 1, '5_not_shown': 9}
+875/8720 12.7/min {'1_mostbet_only': 376, '2_no_ads': 433, '3_other_only': 56, '5_dead': 1, '5_not_shown': 9}
+900/8720 12.7/min {'1_mostbet_only': 385, '2_no_ads': 447, '3_other_only': 58, '5_dead': 1, '5_not_shown': 9}
+925/8720 12.6/min {'1_mostbet_only': 390, '2_no_ads': 465, '3_other_only': 60, '5_dead': 1, '5_not_shown': 9}
+950/8720 12.4/min {'1_mostbet_only': 398, '2_no_ads': 474, '3_other_only': 67, '5_dead': 1, '5_not_shown': 10}
+975/8720 12.4/min {'1_mostbet_only': 412, '2_no_ads': 483, '3_other_only': 69, '5_dead': 1, '5_not_shown': 10}
+1000/8720 12.4/min {'1_mostbet_only': 417, '2_no_ads': 499, '3_other_only': 72, '5_dead': 1, '5_not_shown': 11}
+1025/8720 12.5/min {'1_mostbet_only': 425, '2_no_ads': 512, '3_other_only': 76, '5_dead': 1, '5_not_shown': 11}
+1050/8720 12.5/min {'1_mostbet_only': 439, '2_no_ads': 522, '3_other_only': 77, '5_dead': 1, '5_not_shown': 11}
+1075/8720 12.6/min {'1_mostbet_only': 454, '2_no_ads': 531, '3_other_only': 78, '5_dead': 1, '5_not_shown': 11}
+1100/8720 12.7/min {'1_mostbet_only': 464, '2_no_ads': 543, '3_other_only': 81, '5_dead': 1, '5_not_shown': 11}
+1125/8720 12.5/min {'1_mostbet_only': 468, '2_no_ads': 559, '3_other_only': 86, '5_dead': 1, '5_not_shown': 11}
