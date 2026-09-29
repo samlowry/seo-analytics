@@ -20,3 +20,11 @@ Camoufox по умолчанию загружает uBlock Origin. Он обры
 `redo-ubo.txt`. Почти все они — парковки (Parklogic/NameSilo, GoDaddy `/lander`),
 чья страница без скрипта пуста; после исправления они уходят в `5_dead` / `parked`.
 Отчёт берёт последнюю запись по домену, так что старые записи перекрываются.
+
+## Рескан uBlock-эпохи с genhost (после локального финиша)
+
+Списки: `redo-ublock-all.txt` (5 652), `redo-ublock-suspect.txt` (группы 1+2).
+Пересборка: `python3 tools/brand-scan-ublock-redo-list.py brand-protection/2026-09-28/brand-scan`.
+Инструкция: `SERVER-RESCAN.md` — SOCKS на Mac + `ssh -R` на `root@genhost.host`,
+скан только с `--proxy socks5://127.0.0.1:1080` (без Tailscale exit node / без
+системного прокси на сервере).

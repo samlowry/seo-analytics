@@ -11,6 +11,9 @@ Input: a CSV with a `domain` column (camoufox-queue.csv or resolves-minus-ours-u
 Output: <out_dir>/http-scan.jsonl.gz and <out_dir>/browser-scan.jsonl.gz, one record per site;
 reruns skip scanned domains, --redo FILE rescans the listed ones (the report takes the last record).
 Filters: --priority 1,2 (queue priority), --domains FILE, --limit N.
+Browser exit via Mac SOCKS (server scan, host default route untouched):
+  --proxy socks5://127.0.0.1:1080
+  see brand-protection/.../brand-scan/SERVER-RESCAN.md
 
 Per site:
 1. Open the home page. HTTP mode: plain request with redirects followed by hand. Browser mode:
@@ -73,7 +76,11 @@ FOLLOW_BUDGET = 90  # one destination, HTTP hops plus browser
 FOLLOW_DEADLINE = SITE_TIMEOUT - 110  # after this many seconds on a site, the rest is not followed
 BATCH = 150  # browser restarts between batches to cap memory growth
 
-REGISTRY = Path.home() / "Developer/skaner-bitykh-ssylok/registry/entries.json"
+# Override on the server: BRAND_SCAN_REGISTRY=/path/to/entries.json
+REGISTRY = Path(os.environ.get(
+    "BRAND_SCAN_REGISTRY",
+    str(Path.home() / "Developer/skaner-bitykh-ssylok/registry/entries.json"),
+))
 
 
 def ref_key(url: str) -> str:
@@ -84,6 +91,22 @@ def ref_key(url: str) -> str:
 OUR_REFS = set()
 if REGISTRY.exists():
     OUR_REFS = {ref_key(e["destination_url"]) for e in json.loads(REGISTRY.read_text())["entries"]}
+
+
+def parse_proxy(url: str | None) -> dict | None:
+    """Playwright/Camoufox proxy dict from a URL like socks5://127.0.0.1:1080."""
+    if not url:
+        return None
+    s = urlsplit(url)
+    if not s.scheme or not s.hostname:
+        raise SystemExit(f"bad --proxy {url!r}: need scheme://host:port")
+    server = f"{s.scheme}://{s.hostname}" + (f":{s.port}" if s.port else "")
+    out = {"server": server}
+    if s.username:
+        out["username"] = s.username
+    if s.password:
+        out["password"] = s.password
+    return out
 
 CHALLENGE_TITLE = re.compile(
     r"just a moment|один момент|attention required|checking (your|the) browser|ddos-guard|"
@@ -446,9 +469,10 @@ DOWNLOAD_CT = re.compile(r"android|octet-stream|x-msdownload|zip", re.I)
 
 
 class Scanner:
-    def __init__(self, network: str, session):
+    def __init__(self, network: str, session, proxy: dict | None = None):
         self.network = network
         self.session = session
+        self.proxy = proxy  # Playwright dict, or None — only browser traffic uses it
         self.cache = {}  # external destination -> result, shared across sites
 
     async def follow(self, ctx, url, site, state):
@@ -560,10 +584,12 @@ class Scanner:
         finally:
             await page.close()
 
-    @staticmethod
-    async def new_guarded_context(browser, state):
+    async def new_guarded_context(self, browser, state):
         """Browser context that never lets our registry refs out and captures clicks when asked."""
-        ctx = await browser.new_context(ignore_https_errors=True)
+        opts = {"ignore_https_errors": True}
+        if self.proxy:
+            opts["proxy"] = self.proxy
+        ctx = await browser.new_context(**opts)
         ctx.set_default_timeout(15_000)
 
         async def route(r, req):
@@ -979,12 +1005,25 @@ def kill_driver(cm):
             pass
 
 
-async def detect_network() -> str:
+async def detect_network(proxy: dict | None = None) -> str:
+    """Exit IP as seen by the scan. With --proxy, probe through SOCKS (Mac tunnel), not the host."""
     try:
-        async with aiohttp.ClientSession() as s:
-            async with s.get("https://ipinfo.io/json", timeout=aiohttp.ClientTimeout(total=10)) as r:
-                j = await r.json(content_type=None)
-                return f"{j.get('country')} {j.get('org')} {j.get('ip')}"
+        if proxy:
+            # curl speaks socks5h; aiohttp would need aiohttp-socks.
+            server = proxy["server"]
+            r = subprocess.run(
+                ["curl", "-sS", "-m", "12", "-x", server.replace("socks5://", "socks5h://", 1),
+                 "https://ipinfo.io/json"],
+                capture_output=True, text=True, check=False,
+            )
+            if r.returncode != 0 or not r.stdout.strip():
+                return f"proxy_fail {server}"
+            j = json.loads(r.stdout)
+        else:
+            async with aiohttp.ClientSession() as s:
+                async with s.get("https://ipinfo.io/json", timeout=aiohttp.ClientTimeout(total=10)) as resp:
+                    j = await resp.json(content_type=None)
+        return f"{j.get('country')} {j.get('org')} {j.get('ip')}"
     except Exception:  # noqa: BLE001
         return "unknown"
 
@@ -1003,7 +1042,11 @@ async def main():
                          "in the browser; browser: whole sites whose home page needs a browser")
     ap.add_argument("--from-http", action="store_true",
                     help="browser mode: take only domains still needs_browser after the destination pass")
+    ap.add_argument("--proxy",
+                    help="browser-only exit proxy, e.g. socks5://127.0.0.1:1080 (SSH -R tunnel from the Mac). "
+                         "Does not change the host default route; HTTP mode ignores it")
     a = ap.parse_args()
+    proxy = parse_proxy(a.proxy)
     out = Path(a.out_dir)
     out.mkdir(parents=True, exist_ok=True)
     scan = out / {"http": "http-scan.jsonl.gz", "destinations": "dest-browser.jsonl.gz",
@@ -1038,13 +1081,16 @@ async def main():
     todo = [x for x in items if x["domain"] not in done]
     if a.limit:
         todo = todo[:a.limit]
-    network = await detect_network()
+    network = await detect_network(proxy)
     print(f"queue {len(items)}, done {len(done)}, todo {len(todo)}, network {network}, "
-          f"our refs guarded {len(OUR_REFS)}", flush=True)
+          f"our refs guarded {len(OUR_REFS)}"
+          + (f", proxy {proxy['server']}" if proxy else ""), flush=True)
+    if proxy and "proxy_fail" in network:
+        raise SystemExit("proxy is set but exit IP probe failed — is the Mac SOCKS tunnel up?")
 
     conn = aiohttp.TCPConnector(limit=64, limit_per_host=4, ttl_dns_cache=600, enable_cleanup_closed=True)
     session = aiohttp.ClientSession(connector=conn, headers=aff.HEADERS, cookie_jar=aiohttp.DummyCookieJar())
-    scanner = Scanner(network, session)
+    scanner = Scanner(network, session, proxy=proxy)
     scanner.cache.update(dcache)
     fh = gzip.open(scan, "at", encoding="utf-8")
     stats, t0, n = {}, time.time(), 0
@@ -1089,8 +1135,11 @@ async def main():
         while not q.empty():
             # Camoufox bundles uBlock Origin by default; it aborts ad, tracker and parking scripts,
             # which are exactly what this scan has to see (parked shells rendered as empty pages).
-            cm = AsyncCamoufox(headless=True, geoip=True, block_images=True, humanize=False,
-                               i_know_what_im_doing=True, exclude_addons=[DefaultAddons.UBO])
+            launch = dict(headless=True, geoip=True, block_images=True, humanize=False,
+                          i_know_what_im_doing=True, exclude_addons=[DefaultAddons.UBO])
+            if proxy:
+                launch["proxy"] = proxy
+            cm = AsyncCamoufox(**launch)
             try:
                 browser = await bounded(cm.__aenter__(), LAUNCH_TIMEOUT)
             except Exception as e:  # noqa: BLE001
@@ -1118,6 +1167,8 @@ async def main():
                                "result": {"group": "5_not_shown", "reason": "scan_error:" + type(e).__name__,
                                           "detail": str(e)[:200]}}
                     rec["elapsed_s"] = round(time.time() - t, 1)
+                    if proxy:
+                        rec["proxy"] = proxy["server"]
                     write(rec)
                     if restart:
                         break
