@@ -139,3 +139,5 @@ uv run --with aiohttp --with selectolax python tools/brand-scan-report.py \
 - Туннель держать на Mac, пока идёт скан; ноут не усыплять.
 - Локальный скан и серверный не писать в один `browser-scan.jsonl.gz` одновременно.
 - Наши рефки по-прежнему не запрашиваются (`BRAND_SCAN_REGISTRY`).
+- При `--proxy` переходы по ссылкам идут **только браузером** (тот же SOCKS). Голый HTTP
+  с genhost — Amsterdam: рефки Mostbet отвечают `451`, и сайт ложно уходит в `2_no_ads`.

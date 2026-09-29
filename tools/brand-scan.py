@@ -472,13 +472,19 @@ class Scanner:
     def __init__(self, network: str, session, proxy: dict | None = None):
         self.network = network
         self.session = session
-        self.proxy = proxy  # Playwright dict, or None — only browser traffic uses it
+        self.proxy = proxy  # Playwright dict; when set, destination follows use the browser (same exit IP)
         self.cache = {}  # external destination -> result, shared across sites
 
     async def follow(self, ctx, url, site, state):
-        """Identify one destination: plain HTTP first, the browser only when HTTP cannot decide."""
+        """Identify one destination: plain HTTP first, the browser only when HTTP cannot decide.
+
+        With --proxy, HTTP is skipped: aiohttp would leave from the host (e.g. Amsterdam) while
+        Camoufox exits via the Mac SOCKS, and Mostbet landings answer 451 to the wrong geo.
+        """
         key = cache_key(url, site)
-        if key and key in self.cache:
+        # With --proxy we re-check every destination in the browser (same exit IP); skip the
+        # HTTP dest cache — it was filled from a different network.
+        if key and key in self.cache and not self.proxy:
             return {**self.cache[key], "cached": True}
         if ref_key(url) in OUR_REFS:
             state["our_refs"].append(url)
@@ -493,6 +499,8 @@ class Scanner:
         return res
 
     async def _follow_any(self, ctx, url, site, state):
+        if self.proxy:
+            return await self.browser_follow(ctx, url, site)
         res = await self.http_follow(url, site, state)
         return res if res is not None else await self.browser_follow(ctx, url, site)
 
@@ -1043,8 +1051,9 @@ async def main():
     ap.add_argument("--from-http", action="store_true",
                     help="browser mode: take only domains still needs_browser after the destination pass")
     ap.add_argument("--proxy",
-                    help="browser-only exit proxy, e.g. socks5://127.0.0.1:1080 (SSH -R tunnel from the Mac). "
-                         "Does not change the host default route; HTTP mode ignores it")
+                    help="exit proxy for Camoufox, e.g. socks5://127.0.0.1:1080 (SSH -R tunnel from the Mac). "
+                         "Does not change the host default route. Destination follows go through the browser "
+                         "(not bare HTTP) so they use the same exit IP; HTTP mode still ignores it")
     a = ap.parse_args()
     proxy = parse_proxy(a.proxy)
     out = Path(a.out_dir)
@@ -1091,7 +1100,8 @@ async def main():
     conn = aiohttp.TCPConnector(limit=64, limit_per_host=4, ttl_dns_cache=600, enable_cleanup_closed=True)
     session = aiohttp.ClientSession(connector=conn, headers=aff.HEADERS, cookie_jar=aiohttp.DummyCookieJar())
     scanner = Scanner(network, session, proxy=proxy)
-    scanner.cache.update(dcache)
+    if not proxy:
+        scanner.cache.update(dcache)
     fh = gzip.open(scan, "at", encoding="utf-8")
     stats, t0, n = {}, time.time(), 0
     q = asyncio.Queue()
