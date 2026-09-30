@@ -493,6 +493,7 @@ class Scanner:
         self.session = session
         self.proxy = proxy  # Playwright dict; the aiohttp session must exit through the same proxy
         self.html_dir = html_dir  # --save-html: home pages are kept here
+        self.html_src = "http"  # file suffix of HTTP-saved pages; "http-<as>" when scanning --as another visitor
         self.cache = {}  # external destination -> result, shared across sites
 
     async def follow(self, ctx, url, site, state):
@@ -874,7 +875,7 @@ class Scanner:
         home.update(final_url=final, status=st, title=title, text_len=len(text), mostbet_mentions=mentions,
                     links=len(links), js_buttons=js_buttons, js_cta=js_cta, text_sample=text[:300],
                     home_other_brand_mentions=sorted({n for n, rx in lb.BRAND_RES if rx.search(text)})[:20],
-                    html_file=save_html(self.html_dir, domain, "http", body, final, st))
+                    html_file=save_html(self.html_dir, domain, self.html_src, body, final, st))
         prot = aff.protection(st, {k.lower(): v for k, v in hdr.items()}, body or "")
         if prot in ("cloudflare_challenge", "ddos_guard", "captcha", "sucuri"):
             home["protection"] = prot
@@ -992,7 +993,7 @@ class Scanner:
         home.update(final_url=final, status=st, title=title, bytes=len(body), text_len=len(text),
                     mostbet_mentions=len(re.findall(r"mostbet|мостбет", body, re.I)), links=len(links),
                     js_buttons=js_buttons, js_cta=js_cta,
-                    html_file=save_html(self.html_dir, domain, "http", body, final, st))
+                    html_file=save_html(self.html_dir, domain, self.html_src, body, final, st))
         rec["result"] = {"group": "saved" if home["html_file"] else "not_html", "reason": f"http_{st}"}
         return rec
 
@@ -1009,6 +1010,14 @@ class Scanner:
         if key and res.get("kind") not in ("dead", "internal", "our_ref_skipped"):
             self.cache[key] = {k: v for k, v in res.items() if not k.startswith("_")}
         return res
+
+
+# Visitors a cloaking site treats differently from a plain desktop browser (--as).
+VISITORS = {
+    "google-mobile": {"User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-A536B) AppleWebKit/537.36 (KHTML, like Gecko) "
+                                    "Chrome/124.0 Mobile Safari/537.36", "Referer": "https://www.google.com/"},
+    "googlebot": {"User-Agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"},
+}
 
 
 def repair_log(path: Path) -> int:
@@ -1141,6 +1150,10 @@ async def main():
     ap.add_argument("--priority", help="comma-separated queue priorities to take, e.g. 1,2")
     ap.add_argument("--redo", help="file with domains to rescan")
     ap.add_argument("--domains", help="file with domains to take from the queue (others are ignored)")
+    ap.add_argument("--as", dest="as_", choices=sorted(VISITORS),
+                    help="HTTP scan as another visitor (cloaking check): google-mobile = mobile browser coming from a "
+                         "Google search, googlebot = Google's crawler. Logs to http-scan-<as>.jsonl.gz, pages to "
+                         "<domain>.http-<as>.html.gz")
     ap.add_argument("--mode", choices=("http", "destinations", "browser", "home", "rest", "gates"), default="http",
                     help="http: sites by plain HTTP; destinations: unique destinations HTTP could not decide, "
                          "in the browser; browser: whole sites whose home page needs a browser; "
@@ -1157,6 +1170,10 @@ async def main():
                          "from the Mac). Does not change the host default route. Needs aiohttp-socks; "
                          "the destination cache from other networks is not loaded")
     a = ap.parse_args()
+    if a.as_:
+        if a.mode != "http":
+            raise SystemExit("--as works with --mode http only")
+        aff.HEADERS.update(VISITORS[a.as_])
     MAX_FOLLOW = a.max_follow
     proxy = parse_proxy(a.proxy)
     out = Path(a.out_dir)
@@ -1164,6 +1181,8 @@ async def main():
     scan = out / {"http": "http-scan.jsonl.gz", "destinations": "dest-browser.jsonl.gz",
                   "browser": "browser-scan.jsonl.gz", "home": "home-dump.jsonl.gz",
                   "rest": "rest-scan.jsonl.gz", "gates": "gates-scan.jsonl.gz"}[a.mode]
+    if a.as_:
+        scan = out / f"http-scan-{a.as_}.jsonl.gz"
     html_dir = None
     if a.save_html is not None or a.mode == "home":
         html_dir = Path(a.save_html) if a.save_html else out / "html"
@@ -1217,7 +1236,9 @@ async def main():
         conn = aiohttp.TCPConnector(limit=64, limit_per_host=4, ttl_dns_cache=600, enable_cleanup_closed=True)
     session = aiohttp.ClientSession(connector=conn, headers=aff.HEADERS, cookie_jar=aiohttp.DummyCookieJar())
     scanner = Scanner(network, session, proxy=proxy, html_dir=html_dir)
-    if not proxy:
+    if a.as_:
+        scanner.html_src = f"http-{a.as_}"
+    if not proxy and not a.as_:  # a cloaking site answers another visitor differently: no shared cache
         scanner.cache.update(dcache)
     fh = gzip.open(scan, "at", encoding="utf-8")
     stats, t0, n = {}, time.time(), 0

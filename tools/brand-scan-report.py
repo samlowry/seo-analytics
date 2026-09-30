@@ -1,6 +1,7 @@
 """Tables from the logs written by tools/brand-scan.py.
 
-Run: uv run --with aiohttp --with selectolax python tools/brand-scan-report.py brand-protection/<date>/brand-scan
+Run: uv run --with aiohttp --with selectolax python tools/brand-scan-report.py brand-protection/<date>/brand-scan [<as>]
+With <as> (google-mobile, googlebot) it reads http-scan-<as>.jsonl.gz only and writes groups-<as>.csv, destinations-<as>.csv.
 Per domain the browser record wins; otherwise the HTTP record, with destinations the HTTP pass could
 not decide filled in from the browser destination pass (dest-browser.jsonl.gz) and the group
 recomputed. Ads found by any earlier scan are merged into the group (with_history); latest_group
@@ -155,14 +156,18 @@ def with_history(r: dict, hist: list) -> dict:
     return {**r, "result": new}
 
 
-def load(d: Path):
+def load(d: Path, variant: str = ""):
     """Latest record per domain (browser over HTTP, rest over the browser record it extends), with
     ads from every earlier record merged in (with_history). Returns (records, history)."""
-    dcache = bs.load_dest_cache(d / "dest-browser.jsonl.gz")
-    http_all = read_all(d / "http-scan.jsonl.gz")
-    browser_all = read_all(d / "browser-scan.jsonl.gz")
-    rest_all = {k: [r for r in rs if r.get("mode") == "browser+rest"]
-                for k, rs in read_all(d / "rest-scan.jsonl.gz").items()}
+    if variant:  # an HTTP scan as another visitor (brand-scan.py --as): its own log only, no shared cache
+        dcache, browser_all, rest_all = {}, {}, {}
+        http_all = read_all(d / f"http-scan-{variant}.jsonl.gz")
+    else:
+        dcache = bs.load_dest_cache(d / "dest-browser.jsonl.gz")
+        http_all = read_all(d / "http-scan.jsonl.gz")
+        browser_all = read_all(d / "browser-scan.jsonl.gz")
+        rest_all = {k: [r for r in rs if r.get("mode") == "browser+rest"]
+                    for k, rs in read_all(d / "rest-scan.jsonl.gz").items()}
     prep_http = lambda r: post_group(refine_record(regroup_legacy(bs.resolve_record(r, dcache))))  # noqa: E731
     prep = lambda r: post_group(refine_record(regroup_legacy(r)))  # noqa: E731
     hist = collections.defaultdict(list)
@@ -186,9 +191,10 @@ def hops_str(hops):
     return " → ".join(f"{s} {u}" for s, u in hops or [])
 
 
-def main(d: str):
+def main(d: str, variant: str = ""):
     d = Path(d)
-    recs, hist = load(d)
+    recs, hist = load(d, variant)
+    suffix = f"-{variant}" if variant else ""
     groups, dests = [], []
     for r in recs:
         res, h = r["result"], r.get("home") or {}
@@ -242,7 +248,7 @@ def main(d: str):
                           "cached": x.get("cached", ""), "from_dest_pass": x.get("from_dest_pass", ""),
                           "hops": hops_str(x.get("hops"))})
     groups.sort(key=lambda x: (x["group"] or "", x["domain"]))
-    for fn, rows in (("groups.csv", groups), ("destinations.csv", dests)):
+    for fn, rows in ((f"groups{suffix}.csv", groups), (f"destinations{suffix}.csv", dests)):
         with open(d / fn, "w", newline="", encoding="utf-8") as f:
             if rows:
                 w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
@@ -261,4 +267,4 @@ def main(d: str):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1])
+    main(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else "")

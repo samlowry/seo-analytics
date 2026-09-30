@@ -296,7 +296,7 @@ def lb_ref(url: str, site: str):
 def one(args):
     domain, files = args
     rec = {"domain": domain, "sources": sorted(files), "platform": bool(PLATFORMS.search(domain))}
-    for src in ("browser", "http"):
+    for src in ("browser", "http", "http-google-mobile", "http-googlebot"):
         if src not in files:
             continue
         html, final = read(files[src])
@@ -317,7 +317,7 @@ def main(d: str):
     d = Path(d)
     files = {}
     for p in (d / "html").iterdir():
-        m = re.match(r"(.+)\.(http|browser)\.html\.gz$", p.name)
+        m = re.match(r"(.+)\.(http|browser|http-google-mobile|http-googlebot)\.html\.gz$", p.name)
         if m:
             files.setdefault(m.group(1), {})[m.group(2)] = p
     out = d / "site-features.jsonl.gz"

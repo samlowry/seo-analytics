@@ -28,7 +28,8 @@ Categories (one per site):
   parked         parking or registrar placeholder
   dead           does not answer
   not_shown      answers, but a bot wall, HTTP error or geo block hides the page
-Tags (any number): platform, rotating_ads, search_referrer_js, apk, our_ref, brand_in_domain,
+Tags (any number): cloaked:<visitor> (hidden from a plain visitor, shown to one coming from Google search or to
+  Googlebot; judged by what that visitor gets), platform, rotating_ads, search_referrer_js, apk, our_ref, brand_in_domain,
   moved (home redirects to another host), ads_unverified (affiliate links not followed to the end),
   no_html.
 """
@@ -59,6 +60,10 @@ BARE_GATES = {"/go/", "/goto/", "/out/", "/link/", "/visit/", "/redirect/", "/cl
 NOT_CASINO_HOST = re.compile(r"(^|\.)(bet\.com|chatgpt\.com|openai\.com|nolimitcity\.com|pragmaticplay\.(com|net)|"
                              r"evolution\.com|playngo\.com|netent\.com|spribe\.co|gpwa\.org|iclg\.com|seo\.casino|promopult\.ru|begambleaware\.org|gamcare\.org\.uk|"
                              r"casino\.guru|askgamblers\.com|trustpilot\.com|curacao-egaming\.com|mga\.org\.mt)$", re.I)
+VISITORS = ("google-mobile", "googlebot")
+HIDDEN_GROUPS = ("5_not_shown", "6_cf_check", "5_dead")
+OPEN_RANK = {"4_mixed": 6, "3_other_only": 5, "1_mostbet_only": 4, "0_mostbet_frontend": 3, "2_no_ads": 2,
+             "7_unresolved": 2, "8_no_mention": 2, "needs_browser": 1}
 REGISTRY = Path.home() / "Developer/skaner-bitykh-ssylok/registry/entries.json"
 
 # Thresholds, tuned on the review sample.
@@ -441,6 +446,12 @@ def redirect_of(domain: str, g: dict, a: dict, hrec: dict):
     host = (urlsplit(final).hostname or "").lower()
     if hrec.get("group") == "home_redirect" or (a.get("method") or "").startswith("home_redirect"):
         return "redirect_ref", "home redirects to a Mostbet ref"
+    if g.get("method") == "home_redirect" and not host:
+        # The home page redirected straight into a ref chain; the scan kept only where it landed.
+        if g.get("mostbet_pids"):
+            return "redirect_ref", f"home redirects to a Mostbet ref, pid {g['mostbet_pids']}"
+        if g.get("other_brands"):
+            return "redirect_other", f"home redirects to {g['other_brands']}"
     if not host or lb_same(host, domain):
         return None
     query = urlsplit(final).query or ""
@@ -532,17 +543,39 @@ def main(d: str):
         our = {ref_key(e["destination_url"]) for e in json.loads(REGISTRY.read_text())["entries"]}
     ours_domains = {x.strip().lower() for x in (d.parent / "our-domains.txt").read_text().split() if x.strip()}
 
+    # Sites hidden from a plain visitor, scanned again as a visitor from Google search and as Googlebot
+    # (brand-scan.py --as, brand-scan-report.py <dir> <as>): judged by what those visitors get.
+    variants = {}
+    for v in VISITORS:
+        vg = load_csv(bs_dir / f"groups-{v}.csv")
+        vd = {}
+        if (bs_dir / f"destinations-{v}.csv").exists():
+            with open(bs_dir / f"destinations-{v}.csv", newline="", encoding="utf-8") as f:
+                for x in csv.DictReader(f):
+                    vd.setdefault(x["domain"], []).append(x)
+        variants[v] = (vg, vd)
+
     rows = []
     for domain in sorted(set(groups) | set(aff) | set(notaff)):
         if domain.lower().removeprefix("www.") in ours_domains:
             continue
         g, a, na = groups.get(domain, {}), aff.get(domain, {}), notaff.get(domain, {})
         fr = feats.get(domain, {})
+        cloaked, dests_here = "", dest_by.get(domain, [])
+        if g.get("group") in HIDDEN_GROUPS:
+            best = max(((OPEN_RANK.get(variants[v][0].get(domain, {}).get("group"), 0), v) for v in VISITORS), default=(0, ""))
+            if best[0]:
+                cloaked = best[1]
+                g = variants[cloaked][0][domain]
+                dests_here = variants[cloaked][1].get(domain, [])
+                fr = {"platform": fr.get("platform"), "sources": fr.get("sources"), "http": fr.get(f"http-{cloaked}") or {}}
         page = with_meta(from_scan(merged_page(fr), g, a, na))
         if page.get("gates"):
             page["gates"] = [x for x in page["gates"] if (x.get("url") if isinstance(x, dict) else x) not in not_gates]
-        ad = ads(domain, g, a, na, page, our, dest_by.get(domain, []), trackers_to_other, aff_checks.get(domain, []), mostbet_titled)
+        ad = ads(domain, g, a, na, page, our, dests_here, trackers_to_other, aff_checks.get(domain, []), mostbet_titled)
         tags = []
+        if cloaked:
+            tags.append(f"cloaked:{cloaked}")
         if fr.get("platform"):
             tags.append("platform")
         if g.get("ads_differ") == "True":
