@@ -226,6 +226,8 @@ def ads(domain: str, g: dict, a: dict, na: dict, page: dict, our: set, dests: li
             named = lb.brand_of_host(host) or next((n for n, rx in lb.BRAND_RES if rx.search(x.get("title") or "")), "")
             if named and named != "Mostbet" and not NOT_CASINO_HOST.search(host):
                 plain.add(host)
+        elif kind in ("unknown", "needs_browser", "dead") and coded and mostbet_ref_host(lb_base(final) or lb_base(url)):
+            mb = True
         elif kind in ("unknown", "needs_browser", "dead") and coded and not MB.search(lb_base(final) or lb_base(url)):
             other.add(lb_base(final) or lb_base(url))  # partner code on a host that is not Mostbet
         elif kind in ("unknown", "needs_browser", "dead") and (tracked or x.get("ad_route") == "True"):
@@ -269,6 +271,12 @@ def ads(domain: str, g: dict, a: dict, na: dict, page: dict, our: set, dests: li
 
 
 _aff = None
+
+
+def mostbet_ref_host(host: str) -> bool:
+    """Mostbet ref hosts end in mb/mst/most before the TLD (weg96sbmb.com) or are in the registry."""
+    aff_ref("https://x/", "x")  # load the module
+    return bool(host) and (bool(_aff.REF_HOST.search(host)) or host in _aff.KNOWN_REF_HOSTS)
 
 
 def aff_ref(url: str, site: str) -> bool:
