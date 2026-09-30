@@ -163,7 +163,7 @@ uv run --with aiohttp --with selectolax python tools/brand-scan-report.py \
 
 `tools/brand-scan-night.sh` на genhost ждёт окончания рескана и затем снимает
 `night-queue.csv` (10 247 сайтов) браузером через SOCKS: `--save-html` (отрисованная
-главная в `brand-scan-night/html/<домен>.browser.html.gz`), JS-кнопки жмутся,
+главная в `brand-scan-night/html/<домен>.browser.html.gz`; на Mac перенесено в `brand-scan/html/`), JS-кнопки жмутся,
 `--max-follow 20`, параллельность 8 (машина упирается в CPU уже на ней, ~22 сайта в минуту,
 ~8 часов). Очередь идёт по приоритету, так что недоделанный хвост — наименее важный:
 

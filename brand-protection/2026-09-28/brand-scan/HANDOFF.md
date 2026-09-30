@@ -65,11 +65,14 @@ Mostbet → ложное «рекламы нет».
    `0_mostbet_frontend`, «неопознанный title без трекера ≠ реклама».
 6. **HTTP-дамп главных** (`--mode home`) с Mac, IP Yettel: сырой HTML всех живых
    (~19k) → `brand-scan/html/<d>.http.html.gz`, лог `home-dump.jsonl.gz`.
+   30.09 дозалиты 11 728 доменов, которые `affiliate-scan` решил сам (`affiliate.csv` +
+   `not-affiliate.csv`, в `groups.csv` их нет): очередь `home-dump-affiliate-queue.csv`,
+   сохранено 11 557.
 7. **Rest pass** (`--mode rest`) с Mac: непройденные кандидаты из браузерных записей
    (в т.ч. с кликов) догоняются HTTP → `rest-scan.jsonl.gz`.
 8. **Ночной browser** на genhost (`brand-scan-night.sh`, очередь `night-queue.csv`,
    ~10k): `--save-html`, клики CTA, `--max-follow 20`, concurrency 8. Закончился
-   ~05:07 30.09. Отрисованный HTML: `brand-scan-night/html/<d>.browser.html.gz`.
+   ~05:07 30.09. Отрисованный HTML: `<d>.browser.html.gz`, перенесён в общий `brand-scan/html/`.
    Слито в основной `browser-scan.jsonl.gz`.
 
 Отчёт сейчас: **последняя запись по домену + реклама из любого прошлого прогона**
@@ -101,7 +104,7 @@ Mostbet → ложное «рекламы нет».
 Сделана страница `/tmp/brand-review/review.html`: по 5 сайтов из каждой группы,
 равномерно по списку, со ссылками и классами; вердикты в localStorage + export JSON.
 
-Главные выводы Матея (не терять):
+Главные выводы владельца по review (не терять):
 
 - **Не сохранили контент страниц** — большая ошибка первого прохода; исправлено
   дампами `home` + night `--save-html`.
@@ -195,7 +198,7 @@ sister-domain без params — не ads; см. `_tracked` / `unrecognized_no_tr
    `tools/brand-scan-report.py`, `landing_brand.py`.
 2. По сохранённому HTML (предпочитать `*.browser.html.gz`, иначе `*.http.html.gz`)
    разметить **тип сайта** и уточнить **слив**; пороги плотности + правила ссылок —
-   согласовать с Матеем, не выдумывать в вакууме.
+   согласовать с владельцем, не выдумывать в вакууме.
 3. Детализировать группы / колонки отчёта под две оси; ротирующих (ads_differ)
    не терять.
 4. Cloudflare/`5_not_shown` — отдельно и точечно, не второй ночной прогон на все 10k.

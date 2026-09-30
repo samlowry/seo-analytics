@@ -18,10 +18,9 @@
 | `…/brand-scan/rest-scan.jsonl.gz` | HTTP-догон непройденных ссылок из браузерных записей (`--mode rest`) |
 | `…/brand-scan/home-dump.jsonl.gz` | лог `--mode home` (только скачивание главных) |
 | `…/brand-scan/groups.csv`, `destinations.csv` | свежий отчёт (`brand-scan-report.py`, с историей прогонов) |
-| `…/brand-scan/html/` | сырой HTML главных: `<domain>.http.html.gz` (~18.7k файлов, ~239 МБ). **В git не лежит** (`.gitignore`) |
+| `…/brand-scan/html/` | **весь HTML в одном месте**, 40 472 файла на 30 459 доменов, 681 МБ. `<domain>.http.html.gz` — сырой HTML главной (30 266, все живые из `groups.csv` + `affiliate-scan`); `<domain>.browser.html.gz` — отрисованный из ночного прохода (10 206). **В git не лежит** (`.gitignore`) |
 | `…/brand-scan-server/` | сырые логи серверного рескана до слияния; `.bad-http451` — первый прогон без SOCKS на HTTP-follow |
 | `…/brand-scan-night/` | сырой ночной прогон: `browser-scan.jsonl.gz`, `run-browser.log` |
-| `…/brand-scan-night/html/` | отрисованный HTML: `<domain>.browser.html.gz` (~10.2k, ~182 МБ). **В git не лежит** |
 | `tools/brand-scan.py` | сканер: режимы `http` / `destinations` / `browser` / `home` / `rest` |
 | `tools/landing_brand.py` | бренды, refine, `_tracked`, зеркала, группы 1–4 |
 | `tools/brand-scan-report.py` | отчёт; `post_group` (0/7/8), `with_history` (реклама из любого прогона) |
