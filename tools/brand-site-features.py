@@ -31,7 +31,8 @@ HIDDEN_STYLE = re.compile(
     r"overflow\s*:\s*hidden[^\"]*(height|width)\s*:\s*[01]px|clip\s*:\s*rect\(\s*0", re.I)
 AFF_Q = re.compile(lb.AFF_PARAMS.pattern + "|" + lb.TRACK_PARAMS.pattern, re.I)
 GATE_PATH = re.compile(r"^/(go|goto|out|link|visit|click|redirect|redir|r|ref|aff|partner|promo|bonus|reg|"
-                       r"register|signup|join|play|download|apk|get|official|recommends|refer|visit-site)"
+                       r"register|signup|join|play|download|apk|get|official|recommends|refer|visit-site|mostbet|mostb|mb|bet|casino|"
+                       r"bonus-code|promo-code|link|site|app|login|enter)"
                        r"([/?#._-]|$)", re.I)
 DATE_PATH = re.compile(r"/20[012]\d/(0?[1-9]|1[0-2])/|/20[012]\d-\d\d-\d\d|/\d{4}/\d{2}/\d{2}/")
 SLUG = re.compile(r"/[a-z0-9Ѐ-ӿ%]+(?:-[a-z0-9Ѐ-ӿ%]+){3,}/?$", re.I)
@@ -80,6 +81,20 @@ def hidden(node) -> bool:
     return False
 
 
+SHELL = re.compile(r"front\.cdn-global-mb\.com|/spa-static/|mb_prod\.js|cdn-global-mst\.com/spa", re.I)
+POST_CLASS = re.compile(r"post|entry|article|card|blog|news|item|teaser|excerpt|story", re.I)
+
+
+def in_post(node) -> bool:
+    """A link inside a post card of a feed: <article>, or a block whose class names a post."""
+    n, depth = node.parent, 0
+    while n is not None and depth < 8:
+        if n.tag == "article" or (n.tag in ("div", "li", "section") and POST_CLASS.search((n.attributes or {}).get("class") or "")):
+            return True
+        n, depth = n.parent, depth + 1
+    return False
+
+
 def visible_text(tree) -> str:
     body = tree.body
     if body is None:
@@ -103,6 +118,7 @@ def page_features(html: str, final_url: str, domain: str) -> dict:
     scripts = " ".join((n.text() or "")[:50000] for n in tree.css("script") if not n.attributes.get("src"))
 
     links, mb_anchor, mb_hidden_links, hidden_links = [], 0, 0, 0
+    mb_anchor_int, mb_anchor_ext, mb_in_posts, mb_ext_hosts = 0, 0, 0, set()
     internal, date_links, slug_links, ext_hosts = 0, 0, 0, Counter()
     apk, gates, aff_links, seen_aff = [], [], [], set()
     for a in tree.css("a[href]"):
@@ -116,7 +132,7 @@ def page_features(html: str, final_url: str, domain: str) -> dict:
             continue
         text = re.sub(r"\s+", " ", a.text(deep=True) or "").strip()[:80]
         h = (s.hostname or "").lower()
-        is_int = lb_same(h, host)
+        is_int = lb_same(h, host) or not h
         mb_here = bool(MB.search(text)) or bool(MB.search(h)) or bool(MB.search(s.path))
         hid = hidden(a)
         if hid:
@@ -125,6 +141,13 @@ def page_features(html: str, final_url: str, domain: str) -> dict:
             mb_anchor += len(MB.findall(text)) or 1
             if hid:
                 mb_hidden_links += 1
+            if is_int:
+                mb_anchor_int += 1
+                if in_post(a):
+                    mb_in_posts += 1
+            else:
+                mb_anchor_ext += 1
+                mb_ext_hosts.add(h)
         if s.path.lower().endswith(".apk"):
             apk.append(u[:200])
         if is_int:
@@ -133,7 +156,7 @@ def page_features(html: str, final_url: str, domain: str) -> dict:
                 date_links += 1
             if SLUG.search(s.path):
                 slug_links += 1
-            if GATE_PATH.search(s.path):
+            if GATE_PATH.search(s.path) and len(s.path) <= 30 and s.path.count("-") <= 1:
                 gates.append({"url": u[:200], "text": text})
             continue
         ext_hosts[h] += 1
@@ -145,6 +168,13 @@ def page_features(html: str, final_url: str, domain: str) -> dict:
                               "ref_kind": ref_kind or "", "hidden": hid})
         links.append((h, mb_here, hid))
 
+    trackers = []  # external addresses in buttons/onclick without a readable destination
+    for n in tree.css("[onclick],[data-url],[data-href],[data-link],[data-go]"):
+        raw = " ".join(v for k, v in (n.attributes or {}).items() if v and (k == "onclick" or k.startswith("data-")))
+        for u in re.findall(r"https?://[^\s'\"<>)]+", raw):
+            h = (urlsplit(u).hostname or "").lower()
+            if h and not lb_same(h, host) and not lb_ref(u, host):
+                trackers.append(u[:200])
     for n in tree.css("[data-href],[data-url],[data-link],[data-go],[onclick]"):
         for k in ("data-href", "data-url", "data-link", "data-go"):
             v = n.attributes.get(k)
@@ -171,12 +201,15 @@ def page_features(html: str, final_url: str, domain: str) -> dict:
         "mb_title": bool(MB.search(title)), "mb_h1": bool(MB.search(h1)),
         "mb_heads": sum(bool(MB.search(x)) for x in heads), "heads": len(heads),
         "mb_anchor": mb_anchor, "mb_hidden_links": mb_hidden_links, "hidden_links": hidden_links,
+        "mb_anchor_int": mb_anchor_int, "mb_anchor_ext": mb_anchor_ext, "mb_in_posts": mb_in_posts,
+        "mb_ext_hosts": sorted(mb_ext_hosts)[:10],
         "gambling_words": gambling, "gambling_per_1k": round(gambling * 1000 / tl, 2),
         "other_brands": dict(others.most_common(12)),
         "links_int": internal, "links_ext": sum(ext_hosts.values()), "ext_hosts": len(ext_hosts),
         "date_links": date_links, "slug_links": slug_links, "articles": len(tree.css("article")),
         "wp": "wp-content" in html[:400000], "aff_links": aff_links[:60], "gates": gates[:30],
-        "apk": apk[:10], "referrer_js": ref_js,
+        "apk": apk[:10], "referrer_js": ref_js, "trackers": sorted(set(trackers))[:20],
+        "mostbet_shell": bool(SHELL.search(html)),
         "mirror_title": bool(lb.MIRROR_TITLE.search(title)), "mostbet_assets": bool(lb.MOSTBET_STRONG.search(html)),
         "parked": bool(lb.PARKED.search(f"{title} {text[:3000]}") or lb.PARKED_HTML.search(html[:200000])),
         "text_sample": text[:400],

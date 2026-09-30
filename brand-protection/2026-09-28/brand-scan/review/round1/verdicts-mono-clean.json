@@ -1,0 +1,242 @@
+[
+ {
+  "domain": "3-mostbet.com",
+  "given": "mirror",
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.95,
+  "comment": "Заглушка Dynadot «This domain is registered at Dynadot.com. Website coming soon» со скриптом парковки yfdpco6.com/sk-park.php. Правило mirror_title сработало на title «3-mostbet.com», где есть подстрока mostbet.com."
+ },
+ {
+  "domain": "brasl.ru",
+  "given": "mirror",
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.4,
+  "comment": "Это не шелл Mostbet: SEO-клон «Мостбет Официальное зеркало» без внешних ссылок, все CTA ведут на свой шлюз /mostb/. По destinations.csv шлюз уходит через go-to-play-*.php на dashplay37.com?serial=…&creative_id=…&anid=… (403), а это не реф-хост Mostbet. Бренд получателя не подтверждён, поэтому уверенность низкая, но mirror точно неверно."
+ },
+ {
+  "domain": "emqjqgmb.com",
+  "given": "mirror",
+  "verdict": "correct",
+  "should_be": "mirror",
+  "confidence": 0.9,
+  "comment": "Официальный шелл: front.cdn-global-mb.com/spa-static, /an/public/mb_prod.js, блок из 21 партнёрского hreflang, pid в ссылках нет."
+ },
+ {
+  "domain": "lkneosiwmb.com",
+  "given": "mirror",
+  "verdict": "correct",
+  "should_be": "mirror",
+  "confidence": 0.9,
+  "comment": "Тот же официальный шелл Mostbet (арабская локаль), title «MostBet.com», pid в ссылках нет."
+ },
+ {
+  "domain": "mcxskrmost.com",
+  "given": "mirror",
+  "verdict": "correct",
+  "should_be": "mirror",
+  "confidence": 0.9,
+  "comment": "Официальный шелл Mostbet (en_IN, крикет и кабадди в меню), реф-кодов нет."
+ },
+ {
+  "domain": "mostbet-wud3.buzz",
+  "given": "mirror",
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.75,
+  "comment": "В браузере сразу уходит на uksyxemb.com/casino?registration=1&cid=…&pid=363734, http-версия отдаёт 404. Это партнёрский вход с pid, а не зеркало, хотя шелл на конечной странице официальный."
+ },
+ {
+  "domain": "mostbetgowin.in",
+  "given": "mirror",
+  "verdict": "correct",
+  "should_be": "mirror",
+  "confidence": 0.8,
+  "comment": "Официальный шелл (mb_prod.js, cdn-global-mb, 21 hreflang), pid нет. Бренд в домене; mb_anchor=61 даёт тот же шаблон."
+ },
+ {
+  "domain": "o4wlaxzmb.com",
+  "given": "mirror",
+  "verdict": "correct",
+  "should_be": "mirror",
+  "confidence": 0.9,
+  "comment": "Официальный шелл Mostbet, title «Betting company MostBet.com», реф-кодов нет."
+ },
+ {
+  "domain": "qijfi6v6b.com",
+  "given": "mirror",
+  "verdict": "correct",
+  "should_be": "mirror",
+  "confidence": 0.9,
+  "comment": "Официальный шелл, немецкая локаль «Buchmachergesellschaft MostBet.com», реф-кодов нет."
+ },
+ {
+  "domain": "y0gwcbhsmb.com",
+  "given": "mirror",
+  "verdict": "correct",
+  "should_be": "mirror",
+  "confidence": 0.9,
+  "comment": "Официальный шелл, pt_BR. Четыре «скрытые» ссылки — это блок hreflang шелла, а не вставка."
+ },
+ {
+  "domain": "aquascapinglab.com",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Венгерский Mostbet-обзор на reginakerekpar.hu, CTA — base64 на mostbet-hu.bet/go/reg → t74k96q3mb.com/eAqF (реф Mostbet). «1Win» — это провайдер игры в таблице, а «1xBet» — остаток schema на mostbet-hu.bet; оба не ссылки."
+ },
+ {
+  "domain": "gianpierofusco.com",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "AZ-сайт Mostbet, CTA в base64 /play → malalcahuello.org/play → znx64tmb.com/P0ZF (реф Mostbet). Lucky Jet и JetX — игры Mostbet, чужих брендов нет."
+ },
+ {
+  "domain": "mosbetskachat.com",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.9,
+  "comment": "JS-клик /api?casino=mostbet-ru → vbwcvdmb.com/ELiF → pid=210885. В HTML чужих доменов нет, только Метрика."
+ },
+ {
+  "domain": "mostbet-bd-bangladesh.com",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.9,
+  "comment": "Всё /go → dd2pq09n8imst.com/ZCus (реф Mostbet). Внешние ссылки только на соцсети и kitchencouture.net: это canonical и hreflang на копию того же сайта, не чужой бренд."
+ },
+ {
+  "domain": "mostbet-kzcasino.com",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Все 38 CTA — trackland.xyz/WQzrVfL6, по affiliate-scan ведут на weg96sbmb.com/LMNU (реф Mostbet). Других брендов в тексте нет."
+ },
+ {
+  "domain": "mostbet.br.com",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.9,
+  "comment": "goto.mostbet.br.com/3NKdcsP → pid=37776 pr=MBBRAZ. Внешние ссылки — mostbetbdapp.com (тоже Mostbet), соцсети и DMCA."
+ },
+ {
+  "domain": "mostbet14673.help",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.9,
+  "comment": "Уводит на kg-mostbet.kg, кнопка «Кирүү» → llvgibmb.com/fHBF (реф Mostbet). Прочие внешние ссылки — GambleAware и Gambling Therapy."
+ },
+ {
+  "domain": "mostbets-hungary.org",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "/goto/ → redir.mostbet-officialhu.com/seogroup34 → klnumymb.com/gt2U (реф Mostbet). Две скрытые ссылки — тот же /goto/."
+ },
+ {
+  "domain": "ninewest-singapore.com",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Перехваченный домен, на нём AZ-лендинг Mostbet. /out/mostbet → link.mostbet1.in/6uxtTqS → pid=37776. Чужих брендов нет."
+ },
+ {
+  "domain": "tanishalong.com",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Тот же шаблон, что у ninewest-singapore.com: /out/mostbet → link.mostbet1.in → pid=37776."
+ },
+ {
+  "domain": "casino-mostbet-hungary.com",
+  "given": "mono_no_ads",
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.6,
+  "comment": "Кнопки /go/login и /go/register (обфусцированный JS) ведут на useflowcore.top/S9wxFxcn, который отдаёт 404. Реклама есть, но мёртвая, бренд не определить; тег ads_unverified стоит верно."
+ },
+ {
+  "domain": "i12wrk.com",
+  "given": "mono_no_ads",
+  "verdict": "unsure",
+  "should_be": "mono_no_ads",
+  "confidence": 0.5,
+  "comment": "AZ-лендинг Mostbet на studiocarnley.com: все девять CTA — свой шлюз /play, конечная точка не разрешена ни в одном скане. Реклама почти наверняка есть, но чья — не видно. Тега ads_unverified нет."
+ },
+ {
+  "domain": "johnsonhealthnetwork.com",
+  "given": "mono_no_ads",
+  "verdict": "unsure",
+  "should_be": "mono_no_ads",
+  "confidence": 0.5,
+  "comment": "Перехваченный домен, лендинг «Mostbet — бонусы…». Все 20 ссылок — шлюз /mostbet/, в affiliate-scan цепочка оборвалась на первом шаге. Реклама есть, бренд получателя не установлен. Тега ads_unverified нет."
+ },
+ {
+  "domain": "mostbet-93.online",
+  "given": "mono_no_ads",
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Кнопки через data-split → 3.33echelon.com/GMqHi (Shlink «Invalid Short URL»), ссылки на dhwqw.com таймаутят. Реклама мёртвая, чужих брендов нет (Aviatrix и JetX — игры)."
+ },
+ {
+  "domain": "mostbet-jc.xyz",
+  "given": "mono_no_ads",
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.95,
+  "comment": "Уходит на forsale.godaddy.com: «mostbet-jc.xyz is for sale — $499». Это парковка, а не сайт."
+ },
+ {
+  "domain": "mostbet-tojik-reg.info",
+  "given": "mono_no_ads",
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "Заглушка регистратора «The future home of… mostbet-tojik-reg.info / Is this domain name yours?». Это парковка."
+ },
+ {
+  "domain": "mostbet777.pl",
+  "given": "mono_no_ads",
+  "verdict": "wrong",
+  "should_be": "unclear",
+  "confidence": 0.55,
+  "comment": "Все CTA (44 onclick и data-url на Login/Register) ведут на трекер updatezone.net/GFgFBRPZ, значит реклама есть и это не no_ads. Куда ведёт трекер, неизвестно. У одноимённого mostbet777.in.ua шлюз /go/play/ уходит на slotcity.ua?refcode=aff_…, так что возможен mono_other."
+ },
+ {
+  "domain": "mostbetuz-online.com",
+  "given": "mono_no_ads",
+  "verdict": "wrong",
+  "should_be": "unclear",
+  "confidence": 0.6,
+  "comment": "«Roʻyxatdan oʻtish» ведёт на traf-link.com/mostbetuz → a.gambburj.com/click?pid=154922&offer_id=7197 → refpugotds.com/… → 404. Партнёрская цепочка с pid есть, но конечный бренд не установлен, так что это не no_ads."
+ },
+ {
+  "domain": "pakistan-mostbet.pk",
+  "given": "mono_no_ads",
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.9,
+  "comment": "Кнопки ведут на незаполненные плейсхолдеры https://[GLOBAL_REGISTER_AFF_LINK] и [GLOBAL_DOWNLOAD_AFF_LINK]: шаблон без рекламы. «Stake» — слово в тексте, не бренд."
+ },
+ {
+  "domain": "thomasbrothersproductions.com",
+  "given": "mono_no_ads",
+  "verdict": "unsure",
+  "should_be": "mono_no_ads",
+  "confidence": 0.5,
+  "comment": "Перехваченный домен с TR-лендингом Mostbet. Все 26 ссылок — шлюз /mostbet/, внешних нет, получатель шлюза не разрешён. Тега ads_unverified нет."
+ }
+]
