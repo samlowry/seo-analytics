@@ -1,5 +1,8 @@
 # Рескан uBlock-эпохи с genhost через SOCKS на Mac
 
+Карта каталогов Mac + genhost: [SERVER-LAYOUT.md](SERVER-LAYOUT.md).  
+Смысл прогонов и выводы для продолжения: [HANDOFF.md](HANDOFF.md).
+
 Первые ~5 652 записи `browser-scan.jsonl.gz` (до 2026-09-29 11:42) шли со
 встроенным uBlock Origin. Перегон — **только браузерный трафик** скана через
 твой резидентский IP. Default route сервера не трогаем: прод остаётся на
