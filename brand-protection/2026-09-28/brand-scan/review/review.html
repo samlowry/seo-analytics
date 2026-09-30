@@ -7,7 +7,7 @@ main{max-width:1100px;margin:0 auto;padding:16px} h1{font-size:20px;margin:4px 0
 nav{position:sticky;top:0;background:var(--bg);padding:8px 0;display:flex;gap:8px;align-items:center;z-index:2}
 button{border:0;background:var(--acc);color:#fff;padding:7px 12px;border-radius:8px;cursor:pointer}
 .card{background:var(--card);border-radius:10px;padding:12px 14px;margin-bottom:10px;border:2px solid transparent}
-.card.ok{border-color:var(--ok)} .card.bad{border-color:var(--bad)}
+.card.cls,.card.chk{border-color:var(--ok)} .card.none{border-color:var(--bad)}
 header{display:flex;flex-wrap:wrap;gap:8px;align-items:center} .dom{font-weight:700;font-size:16px;color:var(--fg)}
 .badge{background:var(--acc);color:#fff;border-radius:6px;padding:2px 8px;font-size:12px} .op{color:var(--mut);font-size:12.5px}
 .comment{margin:6px 0} .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:2px 14px;font-size:12.5px}
@@ -18,10 +18,11 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 </style></head><body><main>
 <h1>Проверка классов brand scan</h1>
 <div class="sub">Сайты второго круга проверки, где проверяющий не уверен (ниже 0.7) или не согласен с текущей категорией: 35 из 200.
-Синяя плашка — категория классификатора сейчас; «проверяющий» — что считает агент, читавший HTML.
+Синяя плашка — категория классификатора, «проверяющий» — мнение агента, читавшего HTML.
+Выберите, кто прав; если оба неправы — впишите категорию в поле.
 Ссылки открывают живой сайт. Отметки хранятся в этом браузере; «Скопировать всё» кладёт их в буфер JSON-ом.</div>
 <nav><button id="exp">Скопировать всё</button><span id="cnt" class="sub"></span></nav>
-<article class="card" data-domain="android-station.ru" data-given="article">
+<article class="card" data-domain="android-station.ru" data-given="article" data-checker="article">
 <header><a class="dom" href="https://android-station.ru/" target="_blank" rel="noreferrer">android-station.ru</a>
 <span class="badge">Статейник</span>
 <span class="op">проверяющий: <b>Статейник</b>
@@ -30,9 +31,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>non_gambling int=1 articles=0</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>Mostbet в тексте</span><b>1 (0.27/1k)</b></div><div class="kv"><span>чужие бренды в тексте</span><b>1win:1 Melbet:1 Betwinner:1</b></div><div class="kv"><span>title</span><b>Игры на андроид - лучшие версии бесплатных приложений</b></div><div class="kv"><span>h1</span><b>Скачать игры на Андроид устройства</b></div></div>
 <div class="sample">Категории Все игры Статьи Аркады Азартные Экшен Гонки Головоломки RPG Симуляторы Спортивные Стратегии Скачать игры на Андроид устройства Современный смартфон – не только средство связи, но и мощная игровая платформа. Каждый день появляются новые версии, поражающие геймеров спецэффектами и графическим совершенством. Скачать игры на Андроид вы можете бесплатно на нашем сайте, затем просто установить</div>
 
-<footer><label><input type="radio" name="v-android-station.ru" value="ok"> категория верна</label>
-<label><input type="radio" name="v-android-station.ru" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="inscae.ovh" data-given="article">
+<footer><label><input type="radio" name="v-android-station.ru" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-android-station.ru" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-android-station.ru" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="inscae.ovh" data-given="article" data-checker="hacked">
 <header><a class="dom" href="https://inscae.ovh/" target="_blank" rel="noreferrer">inscae.ovh</a>
 <span class="badge">Статейник</span>
 <span class="op">проверяющий: <b>Взломанный</b>
@@ -41,9 +43,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>mostbet_in_posts int=39 in_posts=23 articles=0</b></div><div class="kv"><span>теги</span><b>ads_unverified</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>простые ссылки</span><b>bwincasinoplay.com</b></div><div class="kv"><span>Mostbet в тексте</span><b>27 (1.27/1k)</b></div><div class="kv"><span>чужие бренды в тексте</span><b>Bwin:1</b></div><div class="kv"><span>title</span><b>Home - RANARISON Tsilavo NEXTHOPE est diplômé de l&#x27;INSCAE</b></div><div class="kv"><span>h1</span><b>RANARISON Tsilavo NEXTHOPE est diplômé de l&#x27;INSCAE</b></div></div>
 <div class="sample">Se connecter Home Home Loi Madagascar La plainte de RANARISON Tsilavo en ABS est irrecevable Les dommages intérêts reviennent à la société CONNECTIC Les jugements qui ont violé les lois malagches entre autres l’action civile d’un associé est irrecevable selon les article 6 du CPP et l’article 181 de la loi sur les sociétés commerciales Se connecter Bienvenue! Connectez-vous à votre compte votre no</div>
 
-<footer><label><input type="radio" name="v-inscae.ovh" value="ok"> категория верна</label>
-<label><input type="radio" name="v-inscae.ovh" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="mostbet-cz-login.cz" data-given="bait">
+<footer><label><input type="radio" name="v-inscae.ovh" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-inscae.ovh" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-inscae.ovh" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="mostbet-cz-login.cz" data-given="bait" data-checker="bait">
 <header><a class="dom" href="https://mostbet-cz-login.cz/" target="_blank" rel="noreferrer">mostbet-cz-login.cz</a>
 <span class="badge">Приманка: Mostbet в имени, внутри чужой</span>
 <span class="op">проверяющий: <b>Приманка: Mostbet в имени, внутри чужой</b>
@@ -52,9 +55,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>mostbet_in_domain content=other:0 mostbet=0</b></div><div class="kv"><span>теги</span><b>brand_in_domain moved ads_unverified</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>Mostbet в тексте</span><b>0 (0.0/1k)</b></div><div class="kv"><span>title</span><b>HEBAT303 ## Link Alternatif Login dan Daftar Terbaru Lengkap Dengan Panduan Resmi</b></div><div class="kv"><span>h1</span><b>HEBAT303 ## Link Alternatif Login dan Daftar Terbaru Lengkap Dengan Panduan Resmi / HEBAT303 ## Link Alternatif Login dan Daftar Terbaru Lengkap Dengan Panduan Resmi / HEBAT303 ## Link Alternatif Login dan Daftar Terbaru Lengkap Dengan Panduan Resmi</b></div></div>
 <div class="sample">Previous Customer Livechat 24 Jam Aktif HEBAT303 ## Link Alternatif Login dan Daftar Terbaru Lengkap Dengan Panduan Resmi Situs Slot Gacor Peluang Menang Di Situs Gacor Hari Ini HEBAT303 x Wz x Team WKWK Gabungan Trik Dengan Pola Maxwin Hari Ini Customer Livechat 24 Jam Aktif HEBAT303 ## Link Alternatif Login dan Daftar Terbaru Lengkap Dengan Panduan Resmi Next Select your store Address: Telephone</div>
 
-<footer><label><input type="radio" name="v-mostbet-cz-login.cz" value="ok"> категория верна</label>
-<label><input type="radio" name="v-mostbet-cz-login.cz" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="mostbet-uz.store" data-given="bait">
+<footer><label><input type="radio" name="v-mostbet-cz-login.cz" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-mostbet-cz-login.cz" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-mostbet-cz-login.cz" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="mostbet-uz.store" data-given="bait" data-checker="redirect_other">
 <header><a class="dom" href="https://mostbet-uz.store/" target="_blank" rel="noreferrer">mostbet-uz.store</a>
 <span class="badge">Приманка: Mostbet в имени, внутри чужой</span>
 <span class="op">проверяющий: <b>Редирект на чужую рефку</b>
@@ -63,9 +67,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>mostbet_in_domain content=other:0 mostbet=0</b></div><div class="kv"><span>теги</span><b>brand_in_domain moved</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>Mostbet в тексте</span><b>0 (0.0/1k)</b></div><div class="kv"><span>title</span><b>Онлайн Казино и Ставки на Спорт | 1win - 8474091.848130362</b></div></div>
 <div class="sample"></div>
 
-<footer><label><input type="radio" name="v-mostbet-uz.store" value="ok"> категория верна</label>
-<label><input type="radio" name="v-mostbet-uz.store" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="mostbet4013.ru" data-given="bait">
+<footer><label><input type="radio" name="v-mostbet-uz.store" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-mostbet-uz.store" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-mostbet-uz.store" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="mostbet4013.ru" data-given="bait" data-checker="">
 <header><a class="dom" href="https://mostbet4013.ru/" target="_blank" rel="noreferrer">mostbet4013.ru</a>
 <span class="badge">Приманка: Mostbet в имени, внутри чужой</span>
 <span class="op">проверяющий: <b>не уверен</b>
@@ -74,9 +79,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>mostbet_in_domain content=other:0 mostbet=0</b></div><div class="kv"><span>теги</span><b>brand_in_domain</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>Mostbet в тексте</span><b>0 (0.0/1k)</b></div><div class="kv"><span>title</span><b>Купить лизергиновая кислота, Анаша, Мефедрон без ожиданий. Всё проверено, выдача моментальная. Купить героин, гашиш, мефедрон, закладку, траву, лсд</b></div></div>
 <div class="sample">Главная Контакты Главная Контакты АСТАНА Заказать марихуана, ice-o-lator, Соль сейчас можно через телеграм. Доступны также Шишки, мед, метамефтамин. У нас вы найдете широкий ассортимент качественных товаров, которые подарят вам незабываемые эмоции и истинные радости жизни! У нас представлены самые лучшие закладки, наркотики и другие продукты, чтобы удовлетворить все ваши потребности. Выбирайте аль</div>
 
-<footer><label><input type="radio" name="v-mostbet4013.ru" value="ok"> категория верна</label>
-<label><input type="radio" name="v-mostbet4013.ru" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="mostbet-login-np.com" data-given="dead">
+<footer><label><input type="radio" name="v-mostbet4013.ru" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-mostbet4013.ru" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-mostbet4013.ru" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="mostbet-login-np.com" data-given="dead" data-checker="">
 <header><a class="dom" href="https://mostbet-login-np.com/" target="_blank" rel="noreferrer">mostbet-login-np.com</a>
 <span class="badge">Мёртвый</span>
 <span class="op">проверяющий: <b>не уверен</b>
@@ -85,9 +91,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>too_many_redirects</b></div><div class="kv"><span>теги</span><b>brand_in_domain no_html</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>Mostbet в тексте</span><b> (/1k)</b></div></div>
 <div class="sample"></div>
 
-<footer><label><input type="radio" name="v-mostbet-login-np.com" value="ok"> категория верна</label>
-<label><input type="radio" name="v-mostbet-login-np.com" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="freepressreleasedb.com" data-given="hacked">
+<footer><label><input type="radio" name="v-mostbet-login-np.com" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-mostbet-login-np.com" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-mostbet-login-np.com" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="freepressreleasedb.com" data-given="hacked" data-checker="article">
 <header><a class="dom" href="https://freepressreleasedb.com/" target="_blank" rel="noreferrer">freepressreleasedb.com</a>
 <span class="badge">Взломанный</span>
 <span class="op">проверяющий: <b>Статейник</b>
@@ -96,9 +103,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>mostbet_in_links ext=1 hidden=0 text=2 gambling=0.69</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>Mostbet в тексте</span><b>2 (0.35/1k)</b></div><div class="kv"><span>title</span><b>Free Press Release Db Helps You To Reach Out To Your Potential Global Audience By Category, Country And State.</b></div><div class="kv"><span>h1</span><b>Welcome to Free Press Release DB / Latest Press Release</b></div></div>
 <div class="sample">Home Register Login Country Faq About Us Contact Us Search Facebook Asia Homestay Welcome to Free Press Release DB Free Press Release DB helps you to reach out to your potential global audience by category, country and state ! It&#x27;s free to submit your press release. You need to create an account, click here to create an account. Once you have created an account, login and start submitting your pre</div>
 
-<footer><label><input type="radio" name="v-freepressreleasedb.com" value="ok"> категория верна</label>
-<label><input type="radio" name="v-freepressreleasedb.com" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="kmostb-top.com" data-given="hacked">
+<footer><label><input type="radio" name="v-freepressreleasedb.com" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-freepressreleasedb.com" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-freepressreleasedb.com" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="kmostb-top.com" data-given="hacked" data-checker="mono_mostbet">
 <header><a class="dom" href="https://kmostb-top.com/" target="_blank" rel="noreferrer">kmostb-top.com</a>
 <span class="badge">Взломанный</span>
 <span class="op">проверяющий: <b>Монобренд → только Mostbet</b>
@@ -107,9 +115,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>mostbet_in_title_of_non_gambling_page text=2</b></div><div class="kv"><span>реклама Mostbet</span><b>True</b></div><div class="kv"><span>Mostbet в тексте</span><b>2 (0.0/1k)</b></div><div class="kv"><span>title</span><b>Wheels</b></div></div>
 <div class="sample">1 2</div>
 
-<footer><label><input type="radio" name="v-kmostb-top.com" value="ok"> категория верна</label>
-<label><input type="radio" name="v-kmostb-top.com" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="mostbet-az.wiki" data-given="mono_mixed">
+<footer><label><input type="radio" name="v-kmostb-top.com" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-kmostb-top.com" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-kmostb-top.com" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="mostbet-az.wiki" data-given="mono_mixed" data-checker="multibrand">
 <header><a class="dom" href="https://mostbet-az.wiki/" target="_blank" rel="noreferrer">mostbet-az.wiki</a>
 <span class="badge">Монобренд → Mostbet и чужие</span>
 <span class="op">проверяющий: <b>Гэмблинг-аффилиат не про Mostbet</b>
@@ -118,9 +127,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>name_in_domain density=2.96</b></div><div class="kv"><span>теги</span><b>rotating_ads brand_in_domain moved ads_unverified</b></div><div class="kv"><span>реклама Mostbet</span><b>True</b></div><div class="kv"><span>реклама чужих</span><b>1win</b></div><div class="kv"><span>Mostbet в тексте</span><b>35 (2.96/1k)</b></div><div class="kv"><span>чужие бренды в тексте</span><b>1win:4 1xBet:2 Pin-Up:1</b></div><div class="kv"><span>title</span><b>Mostbet AZ Aviator Oyununda Qazanmaq: Məsləhətlər və Strategiyalar</b></div><div class="kv"><span>h1</span><b>Mostbet Aviator – Qaydalar, Bonus və Strategiyalar</b></div></div>
 <div class="sample">Mostbet Aviator 1Win Aviator 1xBet Aviator Toggle search Mostbet Aviator – Qaydalar, Bonus və Strategiyalar Mostbet Aviator oyunu Azərbaycanda çox sevilən və oyunçuların təyyarənin uçub getməzdən əvvəl nə qədər uçacağını təxmin etmək məqsədi daşıdığı maraqlı oyundur. Nə qədər uzun uçarsa, uduşlar bir o qədər böyük olar. Bu oyun yeni başlayanlar üçün asan başa düşülən sadə qaydalar təklif edir. Bu </div>
 
-<footer><label><input type="radio" name="v-mostbet-az.wiki" value="ok"> категория верна</label>
-<label><input type="radio" name="v-mostbet-az.wiki" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="museumteensummit.org" data-given="mono_mostbet">
+<footer><label><input type="radio" name="v-mostbet-az.wiki" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-mostbet-az.wiki" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-mostbet-az.wiki" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="museumteensummit.org" data-given="mono_mostbet" data-checker="mono_no_ads">
 <header><a class="dom" href="https://museumteensummit.org/" target="_blank" rel="noreferrer">museumteensummit.org</a>
 <span class="badge">Монобренд → только Mostbet</span>
 <span class="op">проверяющий: <b>Монобренд без рекламы</b>
@@ -129,9 +139,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>density=1.79 heads=2</b></div><div class="kv"><span>реклама Mostbet</span><b>True</b></div><div class="kv"><span>Mostbet в тексте</span><b>8 (1.79/1k)</b></div><div class="kv"><span>title</span><b>Qalmaq Üçün Strateji Məsləhətləri</b></div><div class="kv"><span>h1</span><b>Qumar Bazari</b></div></div>
 <div class="sample">Skip to content Qumar Bazari Mostbet AZ ilə idman mərclərində qalib gəlmək üçün ən yüksək şansları əldə edin. Bonuslar və məsul qumar təcrübəsi ilə qaliblik hissini yaşayın! Menu Mostbet-də onlayn mərc Sport Mostbet Azərbaycanda udmaq Blogs Blog Niyə ən yaxşı kazinoları araşdırmalısınız və ən yaxşı bonuslara nəzər salmalısınız? Aprel 13, 2024 Fevral 2, 2024 Kazino oyunlarına mərtəbə qazandırmaq və</div>
 
-<footer><label><input type="radio" name="v-museumteensummit.org" value="ok"> категория верна</label>
-<label><input type="radio" name="v-museumteensummit.org" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="mostbet-apk.top" data-given="mono_no_ads">
+<footer><label><input type="radio" name="v-museumteensummit.org" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-museumteensummit.org" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-museumteensummit.org" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="mostbet-apk.top" data-given="mono_no_ads" data-checker="mono_no_ads">
 <header><a class="dom" href="https://mostbet-apk.top/" target="_blank" rel="noreferrer">mostbet-apk.top</a>
 <span class="badge">Монобренд без рекламы</span>
 <span class="op">проверяющий: <b>Монобренд без рекламы</b>
@@ -140,9 +151,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>name_in_domain density=2.75</b></div><div class="kv"><span>теги</span><b>rotating_ads brand_in_domain moved</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>Mostbet в тексте</span><b>61 (2.75/1k)</b></div><div class="kv"><span>title</span><b>Mostbet казино | Мостбет казино официальный сайт</b></div><div class="kv"><span>h1</span><b>Официальный сайт Казино Mostbet: вход на сайт</b></div></div>
 <div class="sample">Бонусы Регистрация Welcome package До 250% + 445 FS на первый депозит для новых игроков Получить бонус Max***bet 49 500 ₽ Nika***24 59 900 ₽ Иг***ок 64 900 ₽ Ma***x 88 700 ₽ Lucky***9 119 400 ₽ Ти***р 151 000 ₽ Дм***ий 190 100 ₽ Rus***77 191 400 ₽ Ол***г 288 200 ₽ Va***ra 350 000 ₽ Са***ат 408 200 ₽ Best***Spin 412 900 ₽ Ми***ил 533 800 ₽ Ив***ан 705 300 ₽ Neo***Win 814 800 ₽ 🎰 Топ слоты Показать </div>
 
-<footer><label><input type="radio" name="v-mostbet-apk.top" value="ok"> категория верна</label>
-<label><input type="radio" name="v-mostbet-apk.top" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="bd-mostbet-agent.com" data-given="mono_other">
+<footer><label><input type="radio" name="v-mostbet-apk.top" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-mostbet-apk.top" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-mostbet-apk.top" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="bd-mostbet-agent.com" data-given="mono_other" data-checker="mono_other">
 <header><a class="dom" href="https://bd-mostbet-agent.com/" target="_blank" rel="noreferrer">bd-mostbet-agent.com</a>
 <span class="badge">Монобренд → только чужие</span>
 <span class="op">проверяющий: <b>Монобренд → только чужие</b>
@@ -151,9 +163,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>name_in_domain density=0.86</b></div><div class="kv"><span>теги</span><b>brand_in_domain ads_unverified</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>реклама чужих</span><b>19tbajee.com | 520bd12.vip | winbd17.com</b></div><div class="kv"><span>Mostbet в тексте</span><b>8 (0.86/1k)</b></div><div class="kv"><span>title</span><b>mostbet login এবং অ্যাপ ডাউনলোড | বিকাশ অনলাইন ক্যাসিনো</b></div><div class="kv"><span>h1</span><b>mostbet প্ল্যাটফর্মে সাইন-ইন এবং গেম শুরু করুন</b></div></div>
 <div class="sample">mostbet Login Register mostbet প্ল্যাটফর্মে সাইন-ইন এবং গেম শুরু করুন আবিষ্কার করুন mostbet এর বৈচিত্র্যময় গেমিং জগত যেখানে বাংলাদেশের খেলোয়াড়দের জন্য রয়েছে সহজ অভিজ্ঞতা। এখানে বিকাশ দিয়ে অনলাইন casino উপভোগ করা সম্ভব এবং প্রতিটি লেনদেন ৳ BDT কারেন্সিতে সম্পন্ন হয়। আমাদের সুরক্ষিত ইন-অ্যাকাউন্ট পেমেন্ট গেটওয়ে ব্যবহার করে আপনি আপনার পছন্দের গেমগুলো সহজে খেলতে পারবেন। এখনই অ্যাকাউন্ট খুলুন BDT সমর্থ</div>
 
-<footer><label><input type="radio" name="v-bd-mostbet-agent.com" value="ok"> категория верна</label>
-<label><input type="radio" name="v-bd-mostbet-agent.com" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="htfinstant.pics" data-given="mono_other">
+<footer><label><input type="radio" name="v-bd-mostbet-agent.com" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-bd-mostbet-agent.com" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-bd-mostbet-agent.com" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="htfinstant.pics" data-given="mono_other" data-checker="mono_unresolved">
 <header><a class="dom" href="https://htfinstant.pics/" target="_blank" rel="noreferrer">htfinstant.pics</a>
 <span class="badge">Монобренд → только чужие</span>
 <span class="op">проверяющий: <b>Монобренд, получатель рекламы неизвестен</b>
@@ -162,9 +175,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>name_in_title density=2.66</b></div><div class="kv"><span>теги</span><b>ads_unverified</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>реклама чужих</span><b>mediamafiaclub.com</b></div><div class="kv"><span>Mostbet в тексте</span><b>10 (2.66/1k)</b></div><div class="kv"><span>title</span><b>MOSTBET</b></div></div>
 <div class="sample">MOSTBET MOSTBET CASINO Игры 18+ Без рекламы Загрузка... 0 % of 12.1 MB Инициализация... Выбор редакции 6 4.8 ★ 6 отзывов 12.1 MB 18+ Возраст Добавить в желаемое Установить Загрузка... О приложении While some people only dream of a big win, others are already withdrawing money to their card. They are not lucky people. They are not professionals. Just ordinary people who once decided to try MOSTBET.</div>
 
-<footer><label><input type="radio" name="v-htfinstant.pics" value="ok"> категория верна</label>
-<label><input type="radio" name="v-htfinstant.pics" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="mostbet3.bet" data-given="mono_other">
+<footer><label><input type="radio" name="v-htfinstant.pics" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-htfinstant.pics" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-htfinstant.pics" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="mostbet3.bet" data-given="mono_other" data-checker="mono_other">
 <header><a class="dom" href="https://mostbet3.bet/" target="_blank" rel="noreferrer">mostbet3.bet</a>
 <span class="badge">Монобренд → только чужие</span>
 <span class="op">проверяющий: <b>Монобренд → только чужие</b>
@@ -175,9 +189,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
           জিতুন প্রতিদিন!</b></div></div>
 <div class="sample">English Home ম্যাচ অডস গেমস প্রোমোশন বেটিং টিপস রিভিউ ডাউনলোড বেট লগইন নিবন্ধন বাংলাদেশের #১ বেটিং প্ল্যাটফর্ম Mostbet3 -এ স্বাগতম — ক্রিকেট ও ক্যাসিনোতে জিতুন প্রতিদিন! মোস্টবেট৩ বাংলাদেশের সবচেয়ে বিশ্বস্ত ও দ্রুততম অনলাইন বেটিং প্ল্যাটফর্ম। লাইভ ম্যাচ, স্লট, পোকার — সবকিছু এক জায়গায়। এখনই শুরু করুন গেমস দেখুন ১০০% নিরাপদ ২৪/৭ সাপোর্ট দ্রুত উইথড্র 0 নিবন্ধিত ইউজার 0 মোট গেম 0 পেআউট রেট 0 এখন অ</div>
 
-<footer><label><input type="radio" name="v-mostbet3.bet" value="ok"> категория верна</label>
-<label><input type="radio" name="v-mostbet3.bet" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="wonam.pl" data-given="mono_other">
+<footer><label><input type="radio" name="v-mostbet3.bet" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-mostbet3.bet" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-mostbet3.bet" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="wonam.pl" data-given="mono_other" data-checker="">
 <header><a class="dom" href="https://wonam.pl/" target="_blank" rel="noreferrer">wonam.pl</a>
 <span class="badge">Монобренд → только чужие</span>
 <span class="op">проверяющий: <b>не уверен</b>
@@ -186,9 +201,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>name_in_title density=4.26</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>реклама чужих</span><b>via partners-official.com</b></div><div class="kv"><span>Mostbet в тексте</span><b>90 (4.26/1k)</b></div><div class="kv"><span>title</span><b>Mostbet PL 2026 – Recenzja kasyna online dla Polaków</b></div><div class="kv"><span>h1</span><b>Mostbet – kompleksowa recenzja kasyna online dla polskich graczy w 2026 roku</b></div></div>
 <div class="sample">Mos tbet Strona główna › Kasyna › Onam Graj teraz → Opublikowano: September 23, 2026 · Zaktualizowano: September 24, 2026 Mostbet – kompleksowa recenzja kasyna online dla polskich graczy w 2026 roku 8.7 /10 ★★★★☆ Ocena ekspertów #licencja #sloty #live-kasyno #bonus Zaktualizowano: 2026 Graj w Mostbet Czytaj recenzję Spis treści recenzji O kasynie Onam Bonusy Płatności FAQ Dlaczego warto wybrać mos</div>
 
-<footer><label><input type="radio" name="v-wonam.pl" value="ok"> категория верна</label>
-<label><input type="radio" name="v-wonam.pl" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="blackfridaysale.com.pl" data-given="mono_unresolved">
+<footer><label><input type="radio" name="v-wonam.pl" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-wonam.pl" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-wonam.pl" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="blackfridaysale.com.pl" data-given="mono_unresolved" data-checker="mono_unresolved">
 <header><a class="dom" href="https://blackfridaysale.com.pl/" target="_blank" rel="noreferrer">blackfridaysale.com.pl</a>
 <span class="badge">Монобренд, получатель рекламы неизвестен</span>
 <span class="op">проверяющий: <b>Монобренд, получатель рекламы неизвестен</b>
@@ -197,9 +213,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>name_in_title density=5.41</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>Mostbet в тексте</span><b>18 (5.41/1k)</b></div><div class="kv"><span>title</span><b>Mostbet Casino Polska: Poznaj kasyno online 2026 i odbierz bonus!</b></div><div class="kv"><span>h1</span><b>Mostbet Casino Polska: Mostbet Polska i kasyno online 2026</b></div></div>
 <div class="sample">Mostbet CASINO ☰ Rejestracja Logowanie Płatności Bonusy Gry FAQ Mostbet Casino Polska: Mostbet Polska i kasyno online 2026 100% do 1000 EUR + 200 FS Pakiet powitalny – kod BONUS100 Odbierz bonus Mostbet Casino to nowoczesna platforma rozrywki online, która w 2026 roku przyciąga graczy szerokim wyborem gier kasynowych, promocji i atrakcyjnym bonusem powitalnym. Serwis oferuje intuicyjny interfejs, </div>
 
-<footer><label><input type="radio" name="v-blackfridaysale.com.pl" value="ok"> категория верна</label>
-<label><input type="radio" name="v-blackfridaysale.com.pl" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="kofkever.com" data-given="mono_unresolved">
+<footer><label><input type="radio" name="v-blackfridaysale.com.pl" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-blackfridaysale.com.pl" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-blackfridaysale.com.pl" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="kofkever.com" data-given="mono_unresolved" data-checker="mono_xlink">
 <header><a class="dom" href="https://kofkever.com/" target="_blank" rel="noreferrer">kofkever.com</a>
 <span class="badge">Монобренд, получатель рекламы неизвестен</span>
 <span class="op">проверяющий: <b>Монобренд, простые ссылки на чужих</b>
@@ -208,9 +225,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>name_in_title density=4.04</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>простые ссылки</span><b>1xbetportugal.org</b></div><div class="kv"><span>Mostbet в тексте</span><b>28 (4.04/1k)</b></div><div class="kv"><span>чужие бренды в тексте</span><b>1xBet:2 1win:2 Melbet:2</b></div><div class="kv"><span>title</span><b>Casinò online Mostbet - Sito ufficiale Specchio</b></div><div class="kv"><span>h1</span><b>Casinò online Mostbet – Sito ufficiale Specchio</b></div></div>
 <div class="sample">Salta al contenuto Mostbet Bonus Pagamenti Scarica Articoli Contatti Aviator Mostbet Mostbet Bonus Pagamenti Scarica Articoli Contatti Aviator Accesso Mostbet Menu Casinò online Mostbet – Sito ufficiale Specchio Benvenuti nel meraviglioso mondo del casinò online Mostbet, il sito ufficiale specchio che offre un’esperienza di gioco digitale indimenticabile. In questo magico spazio, potrete esplorare</div>
 
-<footer><label><input type="radio" name="v-kofkever.com" value="ok"> категория верна</label>
-<label><input type="radio" name="v-kofkever.com" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="mgmteh.ru" data-given="mono_unresolved">
+<footer><label><input type="radio" name="v-kofkever.com" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-kofkever.com" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-kofkever.com" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="mgmteh.ru" data-given="mono_unresolved" data-checker="mono_xlink">
 <header><a class="dom" href="https://mgmteh.ru/" target="_blank" rel="noreferrer">mgmteh.ru</a>
 <span class="badge">Монобренд, получатель рекламы неизвестен</span>
 <span class="op">проверяющий: <b>Монобренд, простые ссылки на чужих</b>
@@ -219,9 +237,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>name_in_title density=12.6</b></div><div class="kv"><span>теги</span><b>ads_unverified</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>Mostbet в тексте</span><b>13 (12.6/1k)</b></div><div class="kv"><span>чужие бренды в тексте</span><b>Pinco:2 Pin-Up:1 Casibom:1</b></div><div class="kv"><span>title</span><b>Мостбет: онлайн казино и ставки в БК – зеркало на официальный сайт Mostbet [2024]</b></div><div class="kv"><span>h1</span><b>Мостбет (Mostbet) — зеркало официального сайта, рабочее на сегодня</b></div></div>
 <div class="sample">Зеркало Бонусы Вход Казино Скачать Aviator Регистрация Отзывы Депозит Вывод Вход Регистрация Вход Регистрация Зеркало Бонусы Вход Казино Скачать Aviator Регистрация Отзывы Депозит Вывод Мостбет (Mostbet) — зеркало официального сайта, рабочее на сегодня Регистрация Линия ставок Live Коэффициенты Первая ставка Отзывы MGM777 Копировать Перейти на сайт ✅ Официальный сайт Перейти 🔥 Дата основания 2018 </div>
 
-<footer><label><input type="radio" name="v-mgmteh.ru" value="ok"> категория верна</label>
-<label><input type="radio" name="v-mgmteh.ru" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="mostbet-casino--pl.pl" data-given="mono_unresolved">
+<footer><label><input type="radio" name="v-mgmteh.ru" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-mgmteh.ru" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-mgmteh.ru" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="mostbet-casino--pl.pl" data-given="mono_unresolved" data-checker="">
 <header><a class="dom" href="https://mostbet-casino--pl.pl/" target="_blank" rel="noreferrer">mostbet-casino--pl.pl</a>
 <span class="badge">Монобренд, получатель рекламы неизвестен</span>
 <span class="op">проверяющий: <b>не уверен</b>
@@ -230,9 +249,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>name_in_domain density=4.01</b></div><div class="kv"><span>теги</span><b>brand_in_domain ads_unverified</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>простые ссылки</span><b>vulkan-vegas--pl.pl</b></div><div class="kv"><span>Mostbet в тексте</span><b>92 (4.01/1k)</b></div><div class="kv"><span>чужие бренды в тексте</span><b>Vulkan:1</b></div><div class="kv"><span>title</span><b>🎰 Mostbet 2026 – kasyno online, bonus i opinie</b></div><div class="kv"><span>h1</span><b>🎰 Mostbet Polska – kasyno online, sloty, jackpoty i bonus</b></div></div>
 <div class="sample">Kasyno Logowanie Aplikacja Bonus Rejestracja Zaloguj się × Kasyno Logowanie Aplikacja Bonus 🎰 Mostbet Polska – kasyno online, sloty, jackpoty i bonus Mostbet to kasyno online skierowane do polskich graczy, działające na licencji offshore (MGA/Curaçao) i znane z bonusu powitalnego 100% do 800 zł oraz 50 darmowych spinów. Z jednego konta zagrasz w ponad 2000 slotów, zapolujesz na jackpoty i usiądzie</div>
 
-<footer><label><input type="radio" name="v-mostbet-casino--pl.pl" value="ok"> категория верна</label>
-<label><input type="radio" name="v-mostbet-casino--pl.pl" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="mostbet-casino-play9le.top" data-given="mono_unresolved">
+<footer><label><input type="radio" name="v-mostbet-casino--pl.pl" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-mostbet-casino--pl.pl" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-mostbet-casino--pl.pl" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="mostbet-casino-play9le.top" data-given="mono_unresolved" data-checker="stub">
 <header><a class="dom" href="https://mostbet-casino-play9le.top/" target="_blank" rel="noreferrer">mostbet-casino-play9le.top</a>
 <span class="badge">Монобренд, получатель рекламы неизвестен</span>
 <span class="op">проверяющий: <b>Пустышка</b>
@@ -241,9 +261,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>name_in_domain density=10.0</b></div><div class="kv"><span>теги</span><b>brand_in_domain ads_unverified</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>Mostbet в тексте</span><b>2 (10.0/1k)</b></div><div class="kv"><span>title</span><b>Website mostbet-casino-play9le.top is ready. The content is to be added</b></div></div>
 <div class="sample">Greetings! Приветствуем! Website mostbet-casino-play9le.top is ready. The content is to be added. Сайт mostbet-casino-play9le.top только что создан. Содержимое появится позже. Ispmanager © 1997 - 2023</div>
 
-<footer><label><input type="radio" name="v-mostbet-casino-play9le.top" value="ok"> категория верна</label>
-<label><input type="radio" name="v-mostbet-casino-play9le.top" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="mostbet-vipapp.com" data-given="mono_unresolved">
+<footer><label><input type="radio" name="v-mostbet-casino-play9le.top" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-mostbet-casino-play9le.top" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-mostbet-casino-play9le.top" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="mostbet-vipapp.com" data-given="mono_unresolved" data-checker="mono_xlink">
 <header><a class="dom" href="https://mostbet-vipapp.com/" target="_blank" rel="noreferrer">mostbet-vipapp.com</a>
 <span class="badge">Монобренд, получатель рекламы неизвестен</span>
 <span class="op">проверяющий: <b>Монобренд, простые ссылки на чужих</b>
@@ -252,9 +273,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>name_in_domain density=7.79</b></div><div class="kv"><span>теги</span><b>brand_in_domain ads_unverified</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>простые ссылки</span><b>www.bd-betwinner-apps.com www.bd-crickex-apps.com www.bdbetvisa-app.com</b></div><div class="kv"><span>Mostbet в тексте</span><b>27 (7.79/1k)</b></div><div class="kv"><span>чужие бренды в тексте</span><b>Crickex:2 Betwinner:1 Betvisa:1</b></div><div class="kv"><span>title</span><b>Mostbet — বাংলাদেশের স্বাধীন তথ্য কেন্দ্র | mostbet-vipapp.com</b></div><div class="kv"><span>h1</span><b>স্বাগতম Mostbet তথ্য কেন্দ্রে</b></div></div>
 <div class="sample">mostbet . হোম Mostbet Mostbet Bangladesh Mostbet Online Casino স্বাগতম Mostbet তথ্য কেন্দ্রে বাংলাদেশের ব্যবহারকারীদের জন্য নির্ভরযোগ্য ও স্বাধীন তথ্য — রেজিস্ট্রেশন, পেমেন্ট, বেটিং এবং দায়িত্বশীল গেমিং সংক্রান্ত সম্পূর্ণ গাইড। স্বাধীন তথ্য কেন্দ্র আপডেট: মার্চ ২০২৫ ১০,০০০+ সক্রিয় ব্যবহারকারী রেজিস্ট্রেশন গাইড আরও জানুন Mostbet সম্পর্কে নির্ভরযোগ্য তথ্য আমরা একটি স্বাধীন তথ্য প্ল্যাটফর্ম — Mostbe</div>
 
-<footer><label><input type="radio" name="v-mostbet-vipapp.com" value="ok"> категория верна</label>
-<label><input type="radio" name="v-mostbet-vipapp.com" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="mostbett.pe" data-given="mono_unresolved">
+<footer><label><input type="radio" name="v-mostbet-vipapp.com" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-mostbet-vipapp.com" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-mostbet-vipapp.com" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="mostbett.pe" data-given="mono_unresolved" data-checker="mono_xlink">
 <header><a class="dom" href="https://mostbett.pe/" target="_blank" rel="noreferrer">mostbett.pe</a>
 <span class="badge">Монобренд, получатель рекламы неизвестен</span>
 <span class="op">проверяющий: <b>Монобренд, простые ссылки на чужих</b>
@@ -263,9 +285,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>name_in_domain density=2.52</b></div><div class="kv"><span>теги</span><b>brand_in_domain ads_unverified</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>простые ссылки</span><b>1win-mx.mx</b></div><div class="kv"><span>Mostbet в тексте</span><b>50 (2.52/1k)</b></div><div class="kv"><span>чужие бренды в тексте</span><b>1win:1 Caliente:1</b></div><div class="kv"><span>title</span><b>Mostbet Perú - Sitio Oficial Casino y Apuestas Deportivas | Inicio de sesión</b></div><div class="kv"><span>h1</span><b>Mostbet: Sitio Oficial de Apuestas Deportivas y Casino en Perú</b></div></div>
 <div class="sample">Aplicación Inscripción Bonos Código promocional Aviator Mines JetX Opciones de pago Contactos Mostbet: Sitio Oficial de Apuestas Deportivas y Casino en Perú Mostbet es la casa de apuestas oficial de Perú y ofrece más de 35 disciplinas deportivas para apostar. Jugadores tienen acceso a una conveniente app móvil, un sistema de bonos, y un programa de lealtad para apuestas. A los usuarios les gusta l</div>
 
-<footer><label><input type="radio" name="v-mostbett.pe" value="ok"> категория верна</label>
-<label><input type="radio" name="v-mostbett.pe" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="ramblers.pl" data-given="mono_unresolved">
+<footer><label><input type="radio" name="v-mostbett.pe" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-mostbett.pe" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-mostbett.pe" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="ramblers.pl" data-given="mono_unresolved" data-checker="mono_xlink">
 <header><a class="dom" href="https://ramblers.pl/" target="_blank" rel="noreferrer">ramblers.pl</a>
 <span class="badge">Монобренд, получатель рекламы неизвестен</span>
 <span class="op">проверяющий: <b>Монобренд, простые ссылки на чужих</b>
@@ -274,9 +297,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>name_in_title density=0.67</b></div><div class="kv"><span>теги</span><b>ads_unverified</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>простые ссылки</span><b>22bet4u.com betsson.com betwinner.com melbet.com pinup.com www.leovegas.com www.unibet.com</b></div><div class="kv"><span>Mostbet в тексте</span><b>17 (0.67/1k)</b></div><div class="kv"><span>чужие бренды в тексте</span><b>Melbet:8 LeoVegas:8 Betsson:7 22Bet:6 Betwinner:4 Unibet:4</b></div><div class="kv"><span>title</span><b>Mostbet Polska 2026 – Licencje, Bezpieczeństwo i Bonusy</b></div><div class="kv"><span>h1</span><b>Czy Mostbet JestBezpieczny dla Polaków?</b></div></div>
 <div class="sample">Ramblers .pl Rankingi Licencje Bonusy Bezpiecz. FAQ PL Zobacz Ranking Rankingi Licencje Bonusy Bezpieczeństwo FAQ PL-PL Strona Główna / Mostbet Polska RAPORT SPECJALNY 2026 Czy Mostbet Jest Bezpieczny dla Polaków? Śledcza analiza licencji, bezpieczeństwa danych i warunków bonusowych. Fakty, które każdy doświadczony gracz powinien znać przed pierwszą wpłatą. Aktywnych Graczy 3848 Online Teraz 410 7</div>
 
-<footer><label><input type="radio" name="v-ramblers.pl" value="ok"> категория верна</label>
-<label><input type="radio" name="v-ramblers.pl" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="www-mostbet.co" data-given="mono_unresolved">
+<footer><label><input type="radio" name="v-ramblers.pl" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-ramblers.pl" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-ramblers.pl" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="www-mostbet.co" data-given="mono_unresolved" data-checker="">
 <header><a class="dom" href="https://www-mostbet.co/" target="_blank" rel="noreferrer">www-mostbet.co</a>
 <span class="badge">Монобренд, получатель рекламы неизвестен</span>
 <span class="op">проверяющий: <b>не уверен</b>
@@ -285,9 +309,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>name_in_domain density=1.61</b></div><div class="kv"><span>теги</span><b>brand_in_domain</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>простые ссылки</span><b>bet7k777.com</b></div><div class="kv"><span>Mostbet в тексте</span><b>27 (1.61/1k)</b></div><div class="kv"><span>чужие бренды в тексте</span><b>Bet7k:5</b></div><div class="kv"><span>title</span><b>Mostbet (www-mostbet): cassino Mostbet análise completa &amp;</b></div><div class="kv"><span>h1</span><b>Mostbet — cassino online, caça-níqueis e apostas com pagamento via Pix</b></div></div>
 <div class="sample">Mostbet Cassino online e apostas — pagando no Pix. Cassino Bônus Slots Poker &amp; Roulette Jogos em alta App FAQ Cadastrar grátis Cassino Bônus Slots Poker &amp; Roulette Jogos em alta VIP FAQ Cassino Online · +18 · Bônus de cadastro Mostbet — cassino online, caça-níqueis e apostas com pagamento via Pix Slots, Fortune Tiger, Aviator, Mines e mesas ao vivo. Pix sem taxas. Entrar App Slot recomendado de ho</div>
 
-<footer><label><input type="radio" name="v-www-mostbet.co" value="ok"> категория верна</label>
-<label><input type="radio" name="v-www-mostbet.co" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="mostbet.forum" data-given="multibrand">
+<footer><label><input type="radio" name="v-www-mostbet.co" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-www-mostbet.co" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-www-mostbet.co" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="mostbet.forum" data-given="multibrand" data-checker="bait">
 <header><a class="dom" href="https://mostbet.forum/" target="_blank" rel="noreferrer">mostbet.forum</a>
 <span class="badge">Гэмблинг-аффилиат не про Mostbet</span>
 <span class="op">проверяющий: <b>Приманка: Mostbet в имени, внутри чужой</b>
@@ -296,9 +321,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>top_other=:0 mostbet=4 density=0.0</b></div><div class="kv"><span>теги</span><b>brand_in_domain ads_unverified</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>Mostbet в тексте</span><b>4 (0.0/1k)</b></div></div>
 <div class="sample"></div>
 
-<footer><label><input type="radio" name="v-mostbet.forum" value="ok"> категория верна</label>
-<label><input type="radio" name="v-mostbet.forum" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="mostbet.living" data-given="multibrand">
+<footer><label><input type="radio" name="v-mostbet.forum" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-mostbet.forum" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-mostbet.forum" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="mostbet.living" data-given="multibrand" data-checker="bait">
 <header><a class="dom" href="https://mostbet.living/" target="_blank" rel="noreferrer">mostbet.living</a>
 <span class="badge">Гэмблинг-аффилиат не про Mostbet</span>
 <span class="op">проверяющий: <b>Приманка: Mostbet в имени, внутри чужой</b>
@@ -307,9 +333,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>top_other=:0 mostbet=4 density=0.0</b></div><div class="kv"><span>теги</span><b>brand_in_domain ads_unverified</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>Mostbet в тексте</span><b>4 (0.0/1k)</b></div></div>
 <div class="sample"></div>
 
-<footer><label><input type="radio" name="v-mostbet.living" value="ok"> категория верна</label>
-<label><input type="radio" name="v-mostbet.living" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="mostbet.rest" data-given="multibrand">
+<footer><label><input type="radio" name="v-mostbet.living" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-mostbet.living" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-mostbet.living" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="mostbet.rest" data-given="multibrand" data-checker="bait">
 <header><a class="dom" href="https://mostbet.rest/" target="_blank" rel="noreferrer">mostbet.rest</a>
 <span class="badge">Гэмблинг-аффилиат не про Mostbet</span>
 <span class="op">проверяющий: <b>Приманка: Mostbet в имени, внутри чужой</b>
@@ -318,9 +345,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>top_other=:0 mostbet=4 density=0.0</b></div><div class="kv"><span>теги</span><b>brand_in_domain ads_unverified</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>Mostbet в тексте</span><b>4 (0.0/1k)</b></div></div>
 <div class="sample"></div>
 
-<footer><label><input type="radio" name="v-mostbet.rest" value="ok"> категория верна</label>
-<label><input type="radio" name="v-mostbet.rest" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="mostbetgame.store" data-given="multibrand">
+<footer><label><input type="radio" name="v-mostbet.rest" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-mostbet.rest" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-mostbet.rest" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="mostbetgame.store" data-given="multibrand" data-checker="mono_unresolved">
 <header><a class="dom" href="https://mostbetgame.store/" target="_blank" rel="noreferrer">mostbetgame.store</a>
 <span class="badge">Гэмблинг-аффилиат не про Mostbet</span>
 <span class="op">проверяющий: <b>Монобренд, получатель рекламы неизвестен</b>
@@ -329,9 +357,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>top_other=:0 mostbet=6 density=0.0</b></div><div class="kv"><span>теги</span><b>brand_in_domain</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>Mostbet в тексте</span><b>6 (0.0/1k)</b></div></div>
 <div class="sample"></div>
 
-<footer><label><input type="radio" name="v-mostbetgame.store" value="ok"> категория верна</label>
-<label><input type="radio" name="v-mostbetgame.store" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="pawabetfixed.com" data-given="multibrand">
+<footer><label><input type="radio" name="v-mostbetgame.store" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-mostbetgame.store" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-mostbetgame.store" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="pawabetfixed.com" data-given="multibrand" data-checker="article">
 <header><a class="dom" href="https://pawabetfixed.com/" target="_blank" rel="noreferrer">pawabetfixed.com</a>
 <span class="badge">Гэмблинг-аффилиат не про Mostbet</span>
 <span class="op">проверяющий: <b>Статейник</b>
@@ -340,9 +369,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>top_other=Maxbet:2 mostbet=9 density=1.7</b></div><div class="kv"><span>теги</span><b>ads_unverified</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>простые ссылки</span><b>1xbet-online-stavka.net maxbet-tips.com volleyballmaxbet.com</b></div><div class="kv"><span>Mostbet в тексте</span><b>9 (1.7/1k)</b></div><div class="kv"><span>чужие бренды в тексте</span><b>Maxbet:2 1xBet:1</b></div><div class="kv"><span>title</span><b>pawabetfixed.com – Betting Guides</b></div></div>
 <div class="sample">Skip to content Primary Menu Home Betting Guides About Us FAQ Privacy Terms Contact Us Online Casino Mostbet Kasyno – Szczegółowa Recenzja, Bonus 1400 zł + 250 Spinów Clyde Pagac Jr. December 16, 2025 Comments Off on Mostbet Kasyno – Szczegółowa Recenzja, Bonus 1400 zł + 250 Spinów Mostbet Kasyno Opinia – Nasza Szczegółowa Recenzja 2026 Jeśli interesuje Cię Mostbet kasyno i chcesz poznać, jak dzia</div>
 
-<footer><label><input type="radio" name="v-pawabetfixed.com" value="ok"> категория верна</label>
-<label><input type="radio" name="v-pawabetfixed.com" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="mostafathabet.com" data-given="other_gambling">
+<footer><label><input type="radio" name="v-pawabetfixed.com" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-pawabetfixed.com" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-pawabetfixed.com" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="mostafathabet.com" data-given="other_gambling" data-checker="unrelated">
 <header><a class="dom" href="https://mostafathabet.com/" target="_blank" rel="noreferrer">mostafathabet.com</a>
 <span class="badge">Чужой гэмблинг</span>
 <span class="op">проверяющий: <b>Не про гэмблинг</b>
@@ -351,9 +381,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>no_mostbet</b></div><div class="kv"><span>теги</span><b>ads_unverified</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>Mostbet в тексте</span><b>0 (0.0/1k)</b></div><div class="kv"><span>title</span><b>مصطفى ثابت – مصطفى ثابت فويس اوفر</b></div><div class="kv"><span>h1</span><b>Mostafa Thabet</b></div></div>
 <div class="sample">Home About Samples Services Studio Testimonials Contact Hire Me Home About Samples Services Studio Testimonials Contact Hire Me Chat on WhatsApp Listen to Samples Mostafa Thabet Professional Voice Over Artist | As a passionate voice-over artist, I live every word I speak, giving it the emotion it deserves. To me, voice is not just sound waves to be heard — it&#x27;s a story to be told, a feeling to be </div>
 
-<footer><label><input type="radio" name="v-mostafathabet.com" value="ok"> категория верна</label>
-<label><input type="radio" name="v-mostafathabet.com" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="mostbet-indir-az.org" data-given="unclear">
+<footer><label><input type="radio" name="v-mostafathabet.com" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-mostafathabet.com" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-mostafathabet.com" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="mostbet-indir-az.org" data-given="unclear" data-checker="not_shown">
 <header><a class="dom" href="https://mostbet-indir-az.org/" target="_blank" rel="noreferrer">mostbet-indir-az.org</a>
 <span class="badge">Неясно</span>
 <span class="op">проверяющий: <b>Не показался</b>
@@ -362,9 +393,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>density=0.0 top_other=:0 gambling=0.0</b></div><div class="kv"><span>теги</span><b>brand_in_domain</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>Mostbet в тексте</span><b>1 (0.0/1k)</b></div><div class="kv"><span>title</span><b>Attention Required! | Cloudflare</b></div><div class="kv"><span>h1</span><b>Sorry, you have been blocked</b></div></div>
 <div class="sample">Please enable cookies. Sorry, you have been blocked You are unable to access mostbet-indir-az.org Why have I been blocked? This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data</div>
 
-<footer><label><input type="radio" name="v-mostbet-indir-az.org" value="ok"> категория верна</label>
-<label><input type="radio" name="v-mostbet-indir-az.org" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="startmostbet.ws" data-given="unclear">
+<footer><label><input type="radio" name="v-mostbet-indir-az.org" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-mostbet-indir-az.org" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-mostbet-indir-az.org" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="startmostbet.ws" data-given="unclear" data-checker="parked">
 <header><a class="dom" href="https://startmostbet.ws/" target="_blank" rel="noreferrer">startmostbet.ws</a>
 <span class="badge">Неясно</span>
 <span class="op">проверяющий: <b>Парковка</b>
@@ -373,9 +405,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>density=0.0 top_other=:0 gambling=0.0</b></div><div class="kv"><span>теги</span><b>brand_in_domain</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>Mostbet в тексте</span><b>3 (0.0/1k)</b></div><div class="kv"><span>title</span><b>WEBSITE.WS - Your Internet Address For Life™</b></div></div>
 <div class="sample"></div>
 
-<footer><label><input type="radio" name="v-startmostbet.ws" value="ok"> категория верна</label>
-<label><input type="radio" name="v-startmostbet.ws" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="mostbet-onlywin.xyz" data-given="unrelated">
+<footer><label><input type="radio" name="v-startmostbet.ws" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-startmostbet.ws" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-startmostbet.ws" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="mostbet-onlywin.xyz" data-given="unrelated" data-checker="bait">
 <header><a class="dom" href="https://mostbet-onlywin.xyz/" target="_blank" rel="noreferrer">mostbet-onlywin.xyz</a>
 <span class="badge">Не про гэмблинг</span>
 <span class="op">проверяющий: <b>Приманка: Mostbet в имени, внутри чужой</b>
@@ -384,9 +417,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>mostbet_only_in_domain</b></div><div class="kv"><span>теги</span><b>brand_in_domain</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>Mostbet в тексте</span><b>0 (0.0/1k)</b></div><div class="kv"><span>title</span><b>Legjobb Online Kaszinó és Sportfogadás Magyarországon 2026</b></div><div class="kv"><span>h1</span><b>Legjobb Online Kaszinó Sportfogadás Platformok Magyarországon</b></div></div>
 <div class="sample">Ugrás a tartalomra Tippmixpro Gametwist Boabet Rangsor megtekintése ↓ Menü Tippmixpro Gametwist Boabet Független kaszinóértékelő oldal Legjobb Online Kaszinó Sportfogadás Platformok Magyarországon Ez az oldal egy független értékelést nyújt a legjobb magyar játékosoknak szánt szerencsejáték platformokról a 2026-os évre. A hazai piac sokféle lehetőséget biztosít a szórakozásra. A kínálat tartalmazza</div>
 
-<footer><label><input type="radio" name="v-mostbet-onlywin.xyz" value="ok"> категория верна</label>
-<label><input type="radio" name="v-mostbet-onlywin.xyz" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="mostbetaviator-az.click" data-given="unrelated">
+<footer><label><input type="radio" name="v-mostbet-onlywin.xyz" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-mostbet-onlywin.xyz" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-mostbet-onlywin.xyz" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="mostbetaviator-az.click" data-given="unrelated" data-checker="">
 <header><a class="dom" href="https://mostbetaviator-az.click/" target="_blank" rel="noreferrer">mostbetaviator-az.click</a>
 <span class="badge">Не про гэмблинг</span>
 <span class="op">проверяющий: <b>не уверен</b>
@@ -395,9 +429,10 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>mostbet_only_in_domain</b></div><div class="kv"><span>теги</span><b>brand_in_domain</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>Mostbet в тексте</span><b>0 (0.0/1k)</b></div><div class="kv"><span>title</span><b>Business Listing Directory | Boost Your Online Presence</b></div><div class="kv"><span>h1</span><b>Business Listing Directory</b></div></div>
 <div class="sample">Business Listing Directory Strengthen your professional network &amp; boost online visibility Business Listings Explore top business listing websites that strengthen your professional network, enhance credibility, and improve online visibility across search engines. smarttechfixer.com baddiehubmagazine.com thepinnaclemagazine.co.uk btrackindia.com businestomarks.com thewayground.com mytechsslaash.com </div>
 
-<footer><label><input type="radio" name="v-mostbetaviator-az.click" value="ok"> категория верна</label>
-<label><input type="radio" name="v-mostbetaviator-az.click" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article><article class="card" data-domain="speedtwitch.com" data-given="unrelated">
+<footer><label><input type="radio" name="v-mostbetaviator-az.click" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-mostbetaviator-az.click" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-mostbetaviator-az.click" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article><article class="card" data-domain="speedtwitch.com" data-given="unrelated" data-checker="other_gambling">
 <header><a class="dom" href="https://speedtwitch.com/" target="_blank" rel="noreferrer">speedtwitch.com</a>
 <span class="badge">Не про гэмблинг</span>
 <span class="op">проверяющий: <b>Чужой гэмблинг</b>
@@ -406,15 +441,16 @@ footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px da
 <div class="grid"><div class="kv"><span>почему</span><b>no_mostbet</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>Mostbet в тексте</span><b>0 (0.0/1k)</b></div><div class="kv"><span>title</span><b>乐鱼（中国）体育官方网站</b></div></div>
 <div class="sample">服务热线： 0318-8438304 乐鱼（中国）体育官方网站 生产输送机械及配套设备的一体化企业 乐鱼（中国）体育官方网站 公司简介 产品展示 生产设备 荣誉证书 业绩展示 工程案例 联系我们 公司简介 About us 乐鱼（中国）体育官方网站，位于冀东南枣强县境内，紧靠石德铁路，京九线在此设有枣强站，乐鱼（中国）体育官方网站占地面积57060 m 2 ，其中建筑面积30639 m 2 ，有多名专业技术人员，职工近百人，乐鱼（中国）体育官方网站是生产输送机械及配套设备的一体化企业。 乐鱼（中国）体育官方网站生产：带式输送机系列、波状挡边大倾角带式输送机、 螺旋输送机、斗式提升机、FU型链式输送机系列、埋刮板输送机系列、板式输送机、输送机滚筒托辊系列、驱动装置、合金弹簧清扫器等输送机械及配件产品。 乐鱼（中国）体育官方网站技术力量雄厚，生产设备配套齐全，检测仪器 完善 ，产品一直畅销**</div>
 
-<footer><label><input type="radio" name="v-speedtwitch.com" value="ok"> категория верна</label>
-<label><input type="radio" name="v-speedtwitch.com" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article>
+<footer><label><input type="radio" name="v-speedtwitch.com" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-speedtwitch.com" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-speedtwitch.com" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article>
 <script>
-const KEY='brand-classes-review-r2';let st={};try{st=JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){}
+const KEY='brand-classes-review-r2b';let st={};try{st=JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){}
 const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(st))}catch(e){};document.getElementById('cnt').textContent=Object.values(st).filter(x=>x.v).length+' отмечено'};
 document.querySelectorAll('.card').forEach(c=>{const d=c.dataset.domain,s=st[d]||{};
  c.querySelectorAll('input[type=radio]').forEach(r=>{if(r.value===s.v){r.checked=true;c.classList.add(s.v)}
-  r.onchange=()=>{c.classList.remove('ok','bad');c.classList.add(r.value);st[d]={...st[d],v:r.value,given:c.dataset.given};save()}});
+  r.onchange=()=>{c.classList.remove('cls','chk','none');c.classList.add(r.value);st[d]={...st[d],v:r.value,given:c.dataset.given,checker:c.dataset.checker};save()}});
  const n=c.querySelector('.note');n.value=s.note||'';n.oninput=()=>{st[d]={...st[d],note:n.value,given:c.dataset.given};save()}});
 document.getElementById('exp').onclick=()=>{const t=JSON.stringify(st,null,1);navigator.clipboard.writeText(t).then(()=>document.getElementById('exp').textContent='Скопировано')};
 save();

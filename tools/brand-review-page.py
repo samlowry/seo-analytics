@@ -61,7 +61,7 @@ def main(folder: str, max_conf: float = 0.7):
                  ("чужие бренды в тексте", s.get("other_brands_text")), ("title", s.get("title")), ("h1", s.get("h1"))]
         grid = "".join(f'<div class="kv"><span>{k}</span><b>{e(val)}</b></div>' for k, val in facts if val not in ("", None))
         given, should = v.get("now"), (v.get("should_be") if v.get("verdict") == "wrong" else v.get("given"))
-        cards.append(f'''<article class="card" data-domain="{e(v["domain"])}" data-given="{e(given)}">
+        cards.append(f'''<article class="card" data-domain="{e(v["domain"])}" data-given="{e(given)}" data-checker="{e(should if v.get("verdict") != "unsure" else "")}">
 <header><a class="dom" href="https://{e(v["domain"])}/" target="_blank" rel="noreferrer">{e(v["domain"])}</a>
 <span class="badge">{e(CATEGORY_RU.get(given, given))}</span>
 <span class="op">проверяющий: <b>{e(CATEGORY_RU.get(should, should)) if v.get("verdict") != "unsure" else "не уверен"}</b>
@@ -70,9 +70,10 @@ def main(folder: str, max_conf: float = 0.7):
 <div class="grid">{grid}</div>
 <div class="sample">{e((s.get("text_sample") or "")[:400])}</div>
 {f'<ul class="links">{links}</ul>' if links else ''}
-<footer><label><input type="radio" name="v-{e(v["domain"])}" value="ok"> категория верна</label>
-<label><input type="radio" name="v-{e(v["domain"])}" value="bad"> неверна</label>
-<input class="note" placeholder="какая должна быть / комментарий"></footer></article>''')
+<footer><label><input type="radio" name="v-{e(v["domain"])}" value="cls"> прав классификатор</label>
+<label><input type="radio" name="v-{e(v["domain"])}" value="chk"> прав проверяющий</label>
+<label><input type="radio" name="v-{e(v["domain"])}" value="none"> оба неправы</label>
+<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article>''')
     page = f'''<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Проверка классов brand scan</title><style>
 :root{{--bg:#f1f5f9;--card:#fff;--fg:#0f172a;--mut:#64748b;--line:#e2e8f0;--acc:#2563eb;--ok:#16a34a;--bad:#dc2626}}
@@ -82,7 +83,7 @@ main{{max-width:1100px;margin:0 auto;padding:16px}} h1{{font-size:20px;margin:4p
 nav{{position:sticky;top:0;background:var(--bg);padding:8px 0;display:flex;gap:8px;align-items:center;z-index:2}}
 button{{border:0;background:var(--acc);color:#fff;padding:7px 12px;border-radius:8px;cursor:pointer}}
 .card{{background:var(--card);border-radius:10px;padding:12px 14px;margin-bottom:10px;border:2px solid transparent}}
-.card.ok{{border-color:var(--ok)}} .card.bad{{border-color:var(--bad)}}
+.card.cls,.card.chk{{border-color:var(--ok)}} .card.none{{border-color:var(--bad)}}
 header{{display:flex;flex-wrap:wrap;gap:8px;align-items:center}} .dom{{font-weight:700;font-size:16px;color:var(--fg)}}
 .badge{{background:var(--acc);color:#fff;border-radius:6px;padding:2px 8px;font-size:12px}} .op{{color:var(--mut);font-size:12.5px}}
 .comment{{margin:6px 0}} .grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:2px 14px;font-size:12.5px}}
@@ -93,16 +94,17 @@ footer{{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px d
 </style></head><body><main>
 <h1>Проверка классов brand scan</h1>
 <div class="sub">Сайты второго круга проверки, где проверяющий не уверен (ниже {max_conf}) или не согласен с текущей категорией: {len(keep)} из {len(verdicts)}.
-Синяя плашка — категория классификатора сейчас; «проверяющий» — что считает агент, читавший HTML.
+Синяя плашка — категория классификатора, «проверяющий» — мнение агента, читавшего HTML.
+Выберите, кто прав; если оба неправы — впишите категорию в поле.
 Ссылки открывают живой сайт. Отметки хранятся в этом браузере; «Скопировать всё» кладёт их в буфер JSON-ом.</div>
 <nav><button id="exp">Скопировать всё</button><span id="cnt" class="sub"></span></nav>
 {''.join(cards)}
 <script>
-const KEY='brand-classes-review-r2';let st={{}};try{{st=JSON.parse(localStorage.getItem(KEY)||'{{}}')}}catch(e){{}}
+const KEY='brand-classes-review-r2b';let st={{}};try{{st=JSON.parse(localStorage.getItem(KEY)||'{{}}')}}catch(e){{}}
 const save=()=>{{try{{localStorage.setItem(KEY,JSON.stringify(st))}}catch(e){{}};document.getElementById('cnt').textContent=Object.values(st).filter(x=>x.v).length+' отмечено'}};
 document.querySelectorAll('.card').forEach(c=>{{const d=c.dataset.domain,s=st[d]||{{}};
  c.querySelectorAll('input[type=radio]').forEach(r=>{{if(r.value===s.v){{r.checked=true;c.classList.add(s.v)}}
-  r.onchange=()=>{{c.classList.remove('ok','bad');c.classList.add(r.value);st[d]={{...st[d],v:r.value,given:c.dataset.given}};save()}}}});
+  r.onchange=()=>{{c.classList.remove('cls','chk','none');c.classList.add(r.value);st[d]={{...st[d],v:r.value,given:c.dataset.given,checker:c.dataset.checker}};save()}}}});
  const n=c.querySelector('.note');n.value=s.note||'';n.oninput=()=>{{st[d]={{...st[d],note:n.value,given:c.dataset.given}};save()}}}});
 document.getElementById('exp').onclick=()=>{{const t=JSON.stringify(st,null,1);navigator.clipboard.writeText(t).then(()=>document.getElementById('exp').textContent='Скопировано')}};
 save();
