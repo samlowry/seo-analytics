@@ -56,7 +56,7 @@ class _MB:
 
 
 MB = _MB()
-GAMBLING = re.compile(lb.GAMBLING.pattern.replace("|bet\\b|", "|\\bbet\\b|"), re.I)
+GAMBLING = re.compile(lb.GAMBLING.pattern.replace("|bet\\b|", "|\\bbet\\b|").replace("|слот", "|(?<![а-яё])слот"), re.I)
 META_KEYS = ("og:title", "og:description", "description", "application-name", "twitter:title")
 HIDDEN_STYLE = re.compile(
     r"display\s*:\s*none|visibility\s*:\s*hidden|(left|top|text-indent)\s*:\s*-\d{3,}|font-size\s*:\s*[01](\.\d+)?(px|pt)?\s*(;|$)|"
