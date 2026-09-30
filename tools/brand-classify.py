@@ -472,9 +472,14 @@ def dominant_site(page: dict) -> bool:
     return page.get("heads", 0) > 0 and page.get("mb_heads", 0) >= max(3, page.get("heads", 0) // 2)
 
 
-def mono_sub(ad: dict, page: dict) -> str:
+def mono_sub(ad: dict, page: dict, g: dict = None) -> str:
     if ad["other"]:
         return "mono_mixed" if ad["mb"] else "mono_other"
+    g = g or {}
+    clicked = g.get("mode") in ("browser", "browser+rest") and g.get("group") in ("2_no_ads", "8_no_mention") \
+        and not g.get("incomplete")
+    if clicked and not ad["mb"] and not ad["plain"]:
+        return "mono_no_ads"  # the browser clicked every button and followed every link: nothing is advertised
     # Buttons lead somewhere (own gate, external tracker, partner link of an unknown brand) and nobody
     # followed them to the end: the advertiser is unknown, not absent.
     if not ad["mb"] and (page.get("gates") or page.get("trackers") or ad["unverified"] or page.get("placeholder_links", 0) >= 2):
@@ -595,7 +600,7 @@ def main(d: str):
         else:
             cat, why = site_type(domain, page, ad)
             if cat == "mono":
-                cat = mono_sub(ad, page)
+                cat = mono_sub(ad, page, g)
         ob = page.get("other_brands") or {}
         rows.append({
             "domain": domain, "category": cat, "tags": " ".join(tags), "why": why,
