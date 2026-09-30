@@ -666,7 +666,9 @@ class Scanner:
         state = {"capture": False, "captured": [], "our_refs": []}
         ctx = await self.new_guarded_context(browser, state)
         try:
-            rec.update(await self._scan(ctx, domain, state))
+            if item.get("referer"):
+                rec["referer"] = item["referer"]
+            rec.update(await self._scan(ctx, domain, state, referer=item.get("referer") or None))
         finally:
             rec["our_refs_skipped"] = state["our_refs"]
             try:
@@ -675,7 +677,7 @@ class Scanner:
                 pass
         return rec
 
-    async def _scan(self, ctx, domain, state):
+    async def _scan(self, ctx, domain, state, referer=None):
         started = time.time()
         page = await ctx.new_page()
         hops = []
@@ -684,7 +686,8 @@ class Scanner:
         resp, error = None, None
         for start in (f"https://{domain}/", f"http://{domain}/"):
             try:
-                resp = await page.goto(start, wait_until="domcontentloaded", timeout=NAV_TIMEOUT)
+                # referer: arrive as a visitor from a search engine (queue column `referer`), for cloaking sites
+                resp = await page.goto(start, wait_until="domcontentloaded", timeout=NAV_TIMEOUT, referer=referer)
                 error = None
                 break
             except Exception as e:  # noqa: BLE001
