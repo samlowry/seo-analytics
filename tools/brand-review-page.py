@@ -70,10 +70,9 @@ def main(folder: str, max_conf: float = 0.7):
 <div class="grid">{grid}</div>
 <div class="sample">{e((s.get("text_sample") or "")[:400])}</div>
 {f'<ul class="links">{links}</ul>' if links else ''}
-<footer><label><input type="radio" name="v-{e(v["domain"])}" value="cls"> прав классификатор</label>
-<label><input type="radio" name="v-{e(v["domain"])}" value="chk"> прав проверяющий</label>
-<label><input type="radio" name="v-{e(v["domain"])}" value="none"> оба неправы</label>
-<input class="note" placeholder="если оба неправы — какая категория; любой комментарий"></footer></article>''')
+<footer><label><input type="radio" name="v-{e(v["domain"])}" value="ok"> плашка верна</label>
+<label><input type="radio" name="v-{e(v["domain"])}" value="bad"> плашка неверна</label>
+<input class="note" placeholder="если неверна — какая должна быть; любой комментарий"></footer></article>''')
     page = f'''<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Проверка классов brand scan</title><style>
 :root{{--bg:#f1f5f9;--card:#fff;--fg:#0f172a;--mut:#64748b;--line:#e2e8f0;--acc:#2563eb;--ok:#16a34a;--bad:#dc2626}}
@@ -83,7 +82,7 @@ main{{max-width:1100px;margin:0 auto;padding:16px}} h1{{font-size:20px;margin:4p
 nav{{position:sticky;top:0;background:var(--bg);padding:8px 0;display:flex;gap:8px;align-items:center;z-index:2}}
 button{{border:0;background:var(--acc);color:#fff;padding:7px 12px;border-radius:8px;cursor:pointer}}
 .card{{background:var(--card);border-radius:10px;padding:12px 14px;margin-bottom:10px;border:2px solid transparent}}
-.was{{color:var(--bad);font-size:12.5px;width:100%}} .card.cls,.card.chk{{border-color:var(--ok)}} .card.none{{border-color:var(--bad)}}
+.was{{color:var(--bad);font-size:12.5px;width:100%}} .card.ok{{border-color:var(--ok)}} .card.bad{{border-color:var(--bad)}}
 header{{display:flex;flex-wrap:wrap;gap:8px;align-items:center}} .dom{{font-weight:700;font-size:16px;color:var(--fg)}}
 .badge{{background:var(--acc);color:#fff;border-radius:6px;padding:2px 8px;font-size:12px}} .op{{color:var(--mut);font-size:12.5px}}
 .comment{{margin:6px 0}} .grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:2px 14px;font-size:12.5px}}
@@ -95,19 +94,17 @@ footer{{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px d
 <h1>Проверка классов brand scan</h1>
 <div class="sub">Сайты второго круга проверки, где проверяющий не уверен (ниже {max_conf}) или не согласен с текущей категорией: {len(keep)} из {len(verdicts)}.
 Синяя плашка — категория классификатора, «проверяющий» — мнение агента, читавшего HTML.
-Выберите, кто прав; если оба неправы — впишите категорию в поле.
+Отметка — про синюю плашку; если она неверна, впишите правильную категорию (или «как у проверяющего»).
 Ссылки открывают живой сайт. Отметки хранятся в этом браузере; «Скопировать всё» кладёт их в буфер JSON-ом.</div>
 <nav><button id="exp">Скопировать всё</button><span id="cnt" class="sub"></span></nav>
 {''.join(cards)}
 <script>
 const KEY='brand-classes-review-r2';let st={{}};try{{st=JSON.parse(localStorage.getItem(KEY)||'{{}}')}}catch(e){{}}
 const save=()=>{{try{{localStorage.setItem(KEY,JSON.stringify(st))}}catch(e){{}};document.getElementById('cnt').textContent=Object.values(st).filter(x=>x.v).length+' отмечено'}};
-// Marks made on the first version of this page: "ok" meant the classifier is right; "bad" did not say who is.
-Object.values(st).forEach(x=>{{if(x.v==='ok')x.v='cls';else if(x.v==='bad'){{x.v='';x.was_bad=true}}}});
 document.querySelectorAll('.card').forEach(c=>{{const d=c.dataset.domain,s=st[d]||{{}};
- if(s.was_bad&&!s.v){{const m=document.createElement('span');m.className='was';m.textContent='раньше: «неверна» — выберите, кто прав';c.querySelector('footer').prepend(m)}}
+
  c.querySelectorAll('input[type=radio]').forEach(r=>{{if(r.value===s.v){{r.checked=true;c.classList.add(s.v)}}
-  r.onchange=()=>{{c.classList.remove('cls','chk','none');c.classList.add(r.value);st[d]={{...st[d],v:r.value,given:c.dataset.given,checker:c.dataset.checker}};save()}}}});
+  r.onchange=()=>{{c.classList.remove('ok','bad');c.classList.add(r.value);st[d]={{...st[d],v:r.value,given:c.dataset.given,checker:c.dataset.checker}};save()}}}});
  const n=c.querySelector('.note');n.value=s.note||'';n.oninput=()=>{{st[d]={{...st[d],note:n.value,given:c.dataset.given}};save()}}}});
 document.getElementById('exp').onclick=()=>{{const t=JSON.stringify(st,null,1);navigator.clipboard.writeText(t).then(()=>document.getElementById('exp').textContent='Скопировано')}};
 save();
