@@ -253,6 +253,12 @@ def page_features(html: str, final_url: str, domain: str) -> dict:
         m = re.search(r"""(?:location(?:\.href)?\s*=|location\.(?:replace|assign)\s*\()\s*["'`](https?://[^"'`]+)""", scripts)
         if m:
             js_redirect = m.group(1)[:300]
+    # PWA landers (fake store pages): the install leads to window.appDataConfigs.url, set on the page itself.
+    pwa = bool(re.search(r"appDataConfigs|paso1-images|window\.pageData|beforeinstallprompt", html[:600000]))
+    pwa_offer = ""
+    m = re.search(r'appDataConfigs[^<]{0,4000}?"url"\s*:\s*"([^"]+)"', html)
+    if m:
+        pwa_offer = m.group(1).replace("\\/", "/")[:400]
     ref_js = bool(REFERRER_JS.search(scripts) and SEARCH_ENGINES.search(scripts) and POPUP.search(scripts))
     return {
         "host": host, "title": title, "h1": h1, "lang": lang, "generator": generator,
@@ -271,7 +277,7 @@ def page_features(html: str, final_url: str, domain: str) -> dict:
         "mostbet_shell": bool(SHELL.search(html)),
         "mirror_title": bool(lb.MIRROR_TITLE.search(title)), "mostbet_assets": bool(lb.MOSTBET_STRONG.search(html)),
         "parked": bool(lb.PARKED.search(f"{title} {text[:3000]}") or lb.PARKED_HTML.search(html[:200000])),
-        "text_sample": text[:400], "meta_text": meta_text, "mb_meta": mb_count(meta_text), "js_redirect": js_redirect,
+        "text_sample": text[:400], "meta_text": meta_text, "pwa": pwa, "pwa_offer": pwa_offer, "mb_meta": mb_count(meta_text), "js_redirect": js_redirect,
     }
 
 

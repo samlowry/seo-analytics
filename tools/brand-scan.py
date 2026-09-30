@@ -13,6 +13,8 @@ reruns skip scanned domains, --redo FILE rescans the listed ones (the report tak
 Filters: --priority 1,2 (queue priority), --domains FILE, --limit N.
 --mode gates follows the button addresses given in the queue column `urls` (from saved home pages) by
 HTTP, logs to gates-scan.jsonl.gz; tools/brand-classify.py reads them as extra destinations.
+--mode deep follows links found on inner pages (column `pages`) and in the site's own scripts (`scripts`),
+logs to deep-scan.jsonl.gz; read the same way.
 Keeping home pages: --save-html [DIR] (default <out_dir>/html, <domain>.<http|browser>.html.gz);
 --mode home only fetches and keeps home pages, follows nothing, logs to home-dump.jsonl.gz.
 Exit via Mac SOCKS for the browser and HTTP follows (server scan, host default route untouched):
@@ -955,6 +957,56 @@ class Scanner:
                 "destinations": destinations, "result": result, "rest_followed": len(new),
                 "our_refs_skipped": (rec.get("our_refs_skipped") or []) + state["our_refs"]}
 
+    async def follow_deep(self, item):
+        """Deep pass: pages beyond the home page. Input rows carry `pages` (inner pages of the site: posts that
+        name Mostbet, registration / app / bonus pages) and `scripts` (the site's own JS files, where button
+        addresses hide when the page has none). Links found there are followed by HTTP like home-page links;
+        our refs are skipped as everywhere."""
+        domain = item["domain"]
+        site = item.get("site") or domain
+        state = {"our_refs": []}
+        links, pages, seen = [], [], set()
+        for u in (item.get("pages") or "").split()[:4]:
+            try:
+                url, body = u, ""
+                for _ in range(4):  # same-site redirects only
+                    st, loc, _, body, _ = await aff.hop(self.session, url, aff.HOME_BODY_CAP,
+                                                         aiohttp.ClientTimeout(total=20, sock_connect=8))
+                    if 300 <= st < 400 and loc and aff.same_site(urlsplit(urljoin(url, loc)).hostname or "", site):
+                        url = urljoin(url, loc)
+                        continue
+                    break
+            except Exception as e:  # noqa: BLE001
+                pages.append({"url": u, "error": type(e).__name__})
+                continue
+            found, _, _, text = links_of(body or "", url)
+            pages.append({"url": u, "status": st, "links": len(found), "text_len": len(text),
+                          "mostbet_mentions": len(re.findall(r"mostbet|мостбет", body or "", re.I))})
+            links += [x for x in found if x[0] not in seen]
+            seen |= {x[0] for x in found}
+        for u in (item.get("scripts") or "").split()[:6]:
+            try:
+                async with self.session.get(u, timeout=aiohttp.ClientTimeout(total=20, sock_connect=8), ssl=False) as r:
+                    code = (await r.content.read(aff.JS_BODY_CAP)).decode("utf-8", "replace")
+            except Exception as e:  # noqa: BLE001
+                pages.append({"url": u, "error": type(e).__name__})
+                continue
+            found = [(aff.clean(m), "script_file") for m in aff.ABS_URL.findall(code)] + \
+                [(urljoin(f"https://{site}/", aff.clean(m)), "script_file_nav") for m in aff.JS_NAV.findall(code)]
+            for m in aff.B64_HTTP.findall(code):
+                found += [(x, "script_file:b64") for x in aff.b64_urls(m)]
+            pages.append({"url": u, "script_bytes": len(code), "urls": len(found)})
+            links += [x for x in found if x[0] not in seen]
+            seen |= {x[0] for x in found}
+        cands, skipped = pick(links, site)
+        _, new, not_followed = await self.follow_all(cands, site, lambda u: self.follow_http_only(u, site, state))
+        for d in new:
+            d.pop("_html", None)
+        return {"domain": domain, "ts": time.strftime("%Y-%m-%dT%H:%M:%S"), "network": self.network, "mode": "deep",
+                "pages": pages, "destinations": new, "not_followed": not_followed, "external_skipped": skipped,
+                "our_refs_skipped": state["our_refs"],
+                "result": {"group": "deep", "reason": f"pages={len(pages)} followed={len(new)}"}}
+
     async def follow_gates(self, item):
         """Gates pass: follow by plain HTTP the button addresses read from a saved home page (own
         gates like /go/, external trackers) that no earlier pass took to the end. Input rows carry
@@ -1017,6 +1069,8 @@ VISITORS = {
     "google-mobile": {"User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-A536B) AppleWebKit/537.36 (KHTML, like Gecko) "
                                     "Chrome/124.0 Mobile Safari/537.36", "Referer": "https://www.google.com/"},
     "googlebot": {"User-Agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"},
+    "mobile": {"User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-A536B) AppleWebKit/537.36 (KHTML, like Gecko) "
+                             "Chrome/124.0 Mobile Safari/537.36"},
 }
 
 
@@ -1154,7 +1208,7 @@ async def main():
                     help="HTTP scan as another visitor (cloaking check): google-mobile = mobile browser coming from a "
                          "Google search, googlebot = Google's crawler. Logs to http-scan-<as>.jsonl.gz, pages to "
                          "<domain>.http-<as>.html.gz")
-    ap.add_argument("--mode", choices=("http", "destinations", "browser", "home", "rest", "gates"), default="http",
+    ap.add_argument("--mode", choices=("http", "destinations", "browser", "home", "rest", "gates", "deep"), default="http",
                     help="http: sites by plain HTTP; destinations: unique destinations HTTP could not decide, "
                          "in the browser; browser: whole sites whose home page needs a browser; "
                          "home: only fetch and keep home pages by plain HTTP (implies --save-html); "
@@ -1180,7 +1234,7 @@ async def main():
     out.mkdir(parents=True, exist_ok=True)
     scan = out / {"http": "http-scan.jsonl.gz", "destinations": "dest-browser.jsonl.gz",
                   "browser": "browser-scan.jsonl.gz", "home": "home-dump.jsonl.gz",
-                  "rest": "rest-scan.jsonl.gz", "gates": "gates-scan.jsonl.gz"}[a.mode]
+                  "rest": "rest-scan.jsonl.gz", "gates": "gates-scan.jsonl.gz", "deep": "deep-scan.jsonl.gz"}[a.mode]
     if a.as_:
         scan = out / f"http-scan-{a.as_}.jsonl.gz"
     html_dir = None
@@ -1258,7 +1312,7 @@ async def main():
             print(f"{n}/{len(todo)} {rate:.1f}/min {dict(sorted(stats.items()))}", flush=True)
 
     http_one = {"home": scanner.home_dump, "rest": lambda x: scanner.follow_rest(x["rec"]),
-                "gates": scanner.follow_gates}.get(
+                "gates": scanner.follow_gates, "deep": scanner.follow_deep}.get(
         a.mode, scanner.http_scan_site)
 
     async def http_worker():
@@ -1334,7 +1388,7 @@ async def main():
                     pass
                 kill_driver(cm)
 
-    await asyncio.gather(*((http_worker() if a.mode in ("http", "home", "rest", "gates") else worker(i))
+    await asyncio.gather(*((http_worker() if a.mode in ("http", "home", "rest", "gates", "deep") else worker(i))
                            for i in range(a.concurrency)))
     await session.close()
     fh.close()

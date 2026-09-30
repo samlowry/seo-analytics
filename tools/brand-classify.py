@@ -30,8 +30,8 @@ Categories (one per site):
   not_shown      answers, but a bot wall, HTTP error or geo block hides the page
 Tags (any number): cloaked:<visitor> (hidden from a plain visitor, shown to one coming from Google search or to
   Googlebot; judged by what that visitor gets), platform, rotating_ads, search_referrer_js, apk, our_ref, brand_in_domain,
-  moved (home redirects to another host), ads_unverified (affiliate links not followed to the end),
-  no_html.
+  pwa (fake store lander installing an app; its offer is followed in gates-scan), moved (home redirects to another host), ads_unverified (affiliate links not followed to the end),
+  no_html, ads_mobile_only / ads_search_only (foreign ads seen only by a mobile visitor / one coming from Google).
 """
 import csv
 import gzip
@@ -60,7 +60,8 @@ BARE_GATES = {"/go/", "/goto/", "/out/", "/link/", "/visit/", "/redirect/", "/cl
 NOT_CASINO_HOST = re.compile(r"(^|\.)(bet\.com|chatgpt\.com|openai\.com|nolimitcity\.com|pragmaticplay\.(com|net)|"
                              r"evolution\.com|playngo\.com|netent\.com|spribe\.co|gpwa\.org|iclg\.com|seo\.casino|promopult\.ru|begambleaware\.org|gamcare\.org\.uk|"
                              r"casino\.guru|askgamblers\.com|trustpilot\.com|curacao-egaming\.com|mga\.org\.mt)$", re.I)
-VISITORS = ("google-mobile", "googlebot")
+VISITORS = ("google-mobile", "googlebot")  # used for sites hidden from a plain visitor
+EXTRA_VISITORS = {"mobile": "ads_mobile_only", "google-mobile": "ads_search_only"}  # extra snapshots of live sites
 HIDDEN_GROUPS = ("5_not_shown", "6_cf_check", "5_dead")
 OPEN_RANK = {"4_mixed": 6, "3_other_only": 5, "1_mostbet_only": 4, "0_mostbet_frontend": 3, "2_no_ads": 2,
              "7_unresolved": 2, "8_no_mention": 2, "needs_browser": 1}
@@ -131,6 +132,8 @@ def merged_page(fr: dict) -> dict:
     for k in ("gates", "trackers"):
         base[k] = (b.get(k) or []) + [x for x in (h.get(k) or []) if x not in (b.get(k) or [])]
     base["mostbet_shell"] = bool(b.get("mostbet_shell") or h.get("mostbet_shell"))
+    base["pwa"] = bool(b.get("pwa") or h.get("pwa"))
+    base["pwa_offer"] = b.get("pwa_offer") or h.get("pwa_offer") or ""
     base["apk"] = sorted(set((b.get("apk") or []) + (h.get("apk") or [])))
     base["referrer_js"] = bool(b.get("referrer_js") or h.get("referrer_js"))
     base["mostbet_assets"] = bool(b.get("mostbet_assets") or h.get("mostbet_assets"))
@@ -221,6 +224,8 @@ def ads(domain: str, g: dict, a: dict, na: dict, page: dict, our: set, dests: li
             continue  # an app download is not an ad of the brand it names
         coded, tracked = is_coded(x), via_tracker(x)
         kind, brand = x.get("kind"), x.get("brand") or ""
+        if kind in ("unknown", "dead", "needs_browser", "non_gambling") and MB.search(lb_base(url)) and not su.query:
+            continue  # a plain link to a sister Mostbet-named site; where that site now goes is not this site's ad
         if x.get("via", "").startswith("js:data-modal"):
             continue  # game demo windows of providers, not links
         if mostbet_ref(url, domain):
@@ -521,8 +526,9 @@ def main(d: str):
             if x.get("kind") == "other_gambling" and x.get("brand") not in ("", "?"):
                 trackers_to_other |= {lb_base(u) for u in hop_urls(x) + [x.get("url") or ""] if lb_base(u)}
     not_gates = set()
-    gates_log = bs_dir / "gates-scan.jsonl.gz"  # button addresses followed by brand-scan --mode gates
-    if gates_log.exists():
+    for log_name, via in (("gates-scan.jsonl.gz", "gates"), ("deep-scan.jsonl.gz", "deep")):
+      gates_log = bs_dir / log_name  # --mode gates: button addresses; --mode deep: inner pages and own scripts
+      if gates_log.exists():
         with gzip.open(gates_log, "rt", encoding="utf-8") as f:
             for line in f:
                 r = json.loads(line)
@@ -530,7 +536,7 @@ def main(d: str):
                     if x.get("kind") == "internal":
                         not_gates.add(x.get("url") or "")  # the "gate" is an ordinary page of the site
                     row = {k: str(x.get(k, "")) for k in ("url", "final_url", "kind", "brand", "evidence", "pid", "title")}
-                    row.update(domain=r["domain"], via="gates", ad_route=str(x.get("ad_route", "")),
+                    row.update(domain=r["domain"], via=via, ad_route=str(x.get("ad_route", "")),
                                hops=" → ".join(f"{h[0]} {h[1]}" for h in x.get("hops") or [] if len(h) == 2))
                     dest_by.setdefault(r["domain"], []).append(row)
     home = {}
@@ -546,7 +552,7 @@ def main(d: str):
     # Sites hidden from a plain visitor, scanned again as a visitor from Google search and as Googlebot
     # (brand-scan.py --as, brand-scan-report.py <dir> <as>): judged by what those visitors get.
     variants = {}
-    for v in VISITORS:
+    for v in sorted(set(VISITORS) | set(EXTRA_VISITORS)):
         vg = load_csv(bs_dir / f"groups-{v}.csv")
         vd = {}
         if (bs_dir / f"destinations-{v}.csv").exists():
@@ -572,10 +578,23 @@ def main(d: str):
         page = with_meta(from_scan(merged_page(fr), g, a, na))
         if page.get("gates"):
             page["gates"] = [x for x in page["gates"] if (x.get("url") if isinstance(x, dict) else x) not in not_gates]
-        ad = ads(domain, g, a, na, page, our, dests_here, trackers_to_other, aff_checks.get(domain, []), mostbet_titled)
+        args = (our,)
+        extra = {} if cloaked else {v: variants[v][1].get(domain, []) for v in EXTRA_VISITORS}
+        ad = ads(domain, g, a, na, page, our, dests_here + [x for xs in extra.values() for x in xs], trackers_to_other,
+                 aff_checks.get(domain, []), mostbet_titled)
+        extra_tags = []
+        if extra and any(extra.values()):
+            base_other = set(ads(domain, g, a, na, page, our, dests_here, trackers_to_other, aff_checks.get(domain, []),
+                                 mostbet_titled)["other"])
+            for v, tag in EXTRA_VISITORS.items():
+                if extra[v] and set(ads(domain, g, a, na, page, our, extra[v], trackers_to_other, (), mostbet_titled)["other"]) - base_other:
+                    extra_tags.append(tag)  # foreign ads seen only by this visitor
         tags = []
+        tags += extra_tags
         if cloaked:
             tags.append(f"cloaked:{cloaked}")
+        if page.get("pwa"):
+            tags.append("pwa")
         if fr.get("platform"):
             tags.append("platform")
         if g.get("ads_differ") == "True":

@@ -1,0 +1,432 @@
+queue 10731, done 0, todo 10731, network RS AS15958 CETINdoo-NET 109.245.130.133, our refs guarded 321
+25/10731 572.2/min {'deep': 25}
+50/10731 848.3/min {'deep': 50}
+75/10731 966.2/min {'deep': 75}
+100/10731 1060.5/min {'deep': 100}
+125/10731 1152.5/min {'deep': 125}
+150/10731 1145.6/min {'deep': 150}
+175/10731 1146.2/min {'deep': 175}
+200/10731 1187.6/min {'deep': 200}
+225/10731 1188.3/min {'deep': 225}
+250/10731 1168.6/min {'deep': 250}
+275/10731 1180.6/min {'deep': 275}
+300/10731 1199.5/min {'deep': 300}
+325/10731 1180.5/min {'deep': 325}
+350/10731 1116.0/min {'deep': 350}
+375/10731 1137.1/min {'deep': 375}
+400/10731 1163.8/min {'deep': 400}
+425/10731 1164.1/min {'deep': 425}
+450/10731 1170.9/min {'deep': 450}
+475/10731 1197.9/min {'deep': 475}
+500/10731 1186.0/min {'deep': 500}
+525/10731 1194.4/min {'deep': 525}
+550/10731 1200.1/min {'deep': 550}
+575/10731 1190.9/min {'deep': 575}
+600/10731 1173.4/min {'deep': 600}
+625/10731 1157.1/min {'deep': 625}
+650/10731 1164.1/min {'deep': 650}
+675/10731 1079.4/min {'deep': 675}
+700/10731 1079.7/min {'deep': 700}
+725/10731 1093.0/min {'deep': 725}
+750/10731 1095.2/min {'deep': 750}
+775/10731 1068.6/min {'deep': 775}
+800/10731 1063.2/min {'deep': 800}
+825/10731 1055.0/min {'deep': 825}
+850/10731 1057.9/min {'deep': 850}
+875/10731 1060.2/min {'deep': 875}
+900/10731 1058.7/min {'deep': 900}
+925/10731 1054.2/min {'deep': 925}
+950/10731 1054.0/min {'deep': 950}
+975/10731 1059.1/min {'deep': 975}
+1000/10731 1064.0/min {'deep': 1000}
+1025/10731 1070.7/min {'deep': 1025}
+1050/10731 1072.5/min {'deep': 1050}
+1075/10731 1082.7/min {'deep': 1074, 'no_answer': 1}
+1100/10731 1090.0/min {'deep': 1099, 'no_answer': 1}
+1125/10731 1070.0/min {'deep': 1124, 'no_answer': 1}
+1150/10731 1065.7/min {'deep': 1149, 'no_answer': 1}
+1175/10731 1059.5/min {'deep': 1174, 'no_answer': 1}
+1200/10731 1054.4/min {'deep': 1199, 'no_answer': 1}
+1225/10731 1064.1/min {'deep': 1224, 'no_answer': 1}
+1250/10731 1064.8/min {'deep': 1249, 'no_answer': 1}
+1275/10731 1067.1/min {'deep': 1274, 'no_answer': 1}
+1300/10731 1076.0/min {'deep': 1299, 'no_answer': 1}
+1325/10731 1073.9/min {'deep': 1324, 'no_answer': 1}
+1350/10731 1071.0/min {'deep': 1349, 'no_answer': 1}
+1375/10731 1053.4/min {'deep': 1374, 'no_answer': 1}
+1400/10731 1055.1/min {'deep': 1399, 'no_answer': 1}
+1425/10731 1056.0/min {'deep': 1424, 'no_answer': 1}
+1450/10731 1063.4/min {'deep': 1449, 'no_answer': 1}
+1475/10731 1068.7/min {'deep': 1474, 'no_answer': 1}
+1500/10731 1061.8/min {'deep': 1499, 'no_answer': 1}
+1525/10731 1069.1/min {'deep': 1524, 'no_answer': 1}
+1550/10731 1072.9/min {'deep': 1549, 'no_answer': 1}
+1575/10731 1084.3/min {'deep': 1574, 'no_answer': 1}
+1600/10731 1090.3/min {'deep': 1599, 'no_answer': 1}
+1625/10731 1096.9/min {'deep': 1624, 'no_answer': 1}
+1650/10731 1101.3/min {'deep': 1649, 'no_answer': 1}
+1675/10731 1104.8/min {'deep': 1674, 'no_answer': 1}
+1700/10731 1102.2/min {'deep': 1699, 'no_answer': 1}
+1725/10731 1077.9/min {'deep': 1724, 'no_answer': 1}
+1750/10731 1076.0/min {'deep': 1748, 'no_answer': 2}
+1775/10731 1076.2/min {'deep': 1773, 'no_answer': 2}
+1800/10731 1085.8/min {'deep': 1798, 'no_answer': 2}
+1825/10731 1091.5/min {'deep': 1823, 'no_answer': 2}
+1850/10731 1095.8/min {'deep': 1848, 'no_answer': 2}
+1875/10731 1100.7/min {'deep': 1873, 'no_answer': 2}
+1900/10731 1102.6/min {'deep': 1898, 'no_answer': 2}
+1925/10731 1102.3/min {'deep': 1923, 'no_answer': 2}
+1950/10731 1106.3/min {'deep': 1948, 'no_answer': 2}
+1975/10731 1100.2/min {'deep': 1972, 'no_answer': 3}
+2000/10731 1088.1/min {'deep': 1997, 'no_answer': 3}
+2025/10731 1090.6/min {'deep': 2022, 'no_answer': 3}
+2050/10731 1096.0/min {'deep': 2047, 'no_answer': 3}
+2075/10731 1101.5/min {'deep': 2072, 'no_answer': 3}
+2100/10731 1104.0/min {'deep': 2097, 'no_answer': 3}
+2125/10731 1110.2/min {'deep': 2122, 'no_answer': 3}
+2150/10731 1115.0/min {'deep': 2147, 'no_answer': 3}
+2175/10731 1112.2/min {'deep': 2172, 'no_answer': 3}
+2200/10731 1114.5/min {'deep': 2197, 'no_answer': 3}
+2225/10731 1113.3/min {'deep': 2222, 'no_answer': 3}
+2250/10731 1111.6/min {'deep': 2247, 'no_answer': 3}
+2275/10731 1112.0/min {'deep': 2272, 'no_answer': 3}
+2300/10731 1105.9/min {'deep': 2297, 'no_answer': 3}
+2325/10731 1100.2/min {'deep': 2322, 'no_answer': 3}
+2350/10731 1100.7/min {'deep': 2347, 'no_answer': 3}
+2375/10731 1096.8/min {'deep': 2372, 'no_answer': 3}
+2400/10731 1084.4/min {'deep': 2397, 'no_answer': 3}
+2425/10731 1085.4/min {'deep': 2422, 'no_answer': 3}
+2450/10731 1084.5/min {'deep': 2447, 'no_answer': 3}
+2475/10731 1076.8/min {'deep': 2472, 'no_answer': 3}
+2500/10731 1073.9/min {'deep': 2497, 'no_answer': 3}
+2525/10731 1076.0/min {'deep': 2522, 'no_answer': 3}
+2550/10731 1074.4/min {'deep': 2547, 'no_answer': 3}
+2575/10731 1070.0/min {'deep': 2572, 'no_answer': 3}
+2600/10731 1066.7/min {'deep': 2597, 'no_answer': 3}
+2625/10731 1068.7/min {'deep': 2622, 'no_answer': 3}
+2650/10731 1073.9/min {'deep': 2647, 'no_answer': 3}
+2675/10731 1077.6/min {'deep': 2672, 'no_answer': 3}
+2700/10731 1080.6/min {'deep': 2697, 'no_answer': 3}
+2725/10731 1080.6/min {'deep': 2722, 'no_answer': 3}
+2750/10731 1085.4/min {'deep': 2747, 'no_answer': 3}
+2775/10731 1089.7/min {'deep': 2772, 'no_answer': 3}
+2800/10731 1083.9/min {'deep': 2797, 'no_answer': 3}
+2825/10731 1078.6/min {'deep': 2821, 'no_answer': 4}
+2850/10731 1079.2/min {'deep': 2846, 'no_answer': 4}
+2875/10731 1080.1/min {'deep': 2871, 'no_answer': 4}
+2900/10731 1083.8/min {'deep': 2896, 'no_answer': 4}
+2925/10731 1078.7/min {'deep': 2921, 'no_answer': 4}
+2950/10731 1076.3/min {'deep': 2946, 'no_answer': 4}
+2975/10731 1077.3/min {'deep': 2971, 'no_answer': 4}
+3000/10731 1071.7/min {'deep': 2996, 'no_answer': 4}
+3025/10731 1069.5/min {'deep': 3021, 'no_answer': 4}
+3050/10731 1066.1/min {'deep': 3046, 'no_answer': 4}
+3075/10731 1066.9/min {'deep': 3071, 'no_answer': 4}
+3100/10731 1067.9/min {'deep': 3096, 'no_answer': 4}
+3125/10731 1069.5/min {'deep': 3121, 'no_answer': 4}
+3150/10731 1067.1/min {'deep': 3146, 'no_answer': 4}
+3175/10731 1066.2/min {'deep': 3171, 'no_answer': 4}
+3200/10731 1063.1/min {'deep': 3196, 'no_answer': 4}
+3225/10731 1060.8/min {'deep': 3221, 'no_answer': 4}
+3250/10731 1060.1/min {'deep': 3246, 'no_answer': 4}
+3275/10731 1059.3/min {'deep': 3271, 'no_answer': 4}
+3300/10731 1054.1/min {'deep': 3296, 'no_answer': 4}
+3325/10731 1054.1/min {'deep': 3321, 'no_answer': 4}
+3350/10731 1051.4/min {'deep': 3346, 'no_answer': 4}
+3375/10731 1050.6/min {'deep': 3371, 'no_answer': 4}
+3400/10731 1052.2/min {'deep': 3396, 'no_answer': 4}
+3425/10731 1055.3/min {'deep': 3421, 'no_answer': 4}
+3450/10731 1055.9/min {'deep': 3446, 'no_answer': 4}
+3475/10731 1059.4/min {'deep': 3471, 'no_answer': 4}
+3500/10731 1063.0/min {'deep': 3496, 'no_answer': 4}
+3525/10731 1066.6/min {'deep': 3521, 'no_answer': 4}
+3550/10731 1070.4/min {'deep': 3546, 'no_answer': 4}
+3575/10731 1070.5/min {'deep': 3571, 'no_answer': 4}
+3600/10731 1068.9/min {'deep': 3596, 'no_answer': 4}
+3625/10731 1065.2/min {'deep': 3621, 'no_answer': 4}
+3650/10731 1059.6/min {'deep': 3646, 'no_answer': 4}
+3675/10731 1049.0/min {'deep': 3671, 'no_answer': 4}
+3700/10731 1037.8/min {'deep': 3696, 'no_answer': 4}
+3725/10731 1035.3/min {'deep': 3721, 'no_answer': 4}
+3750/10731 1026.9/min {'deep': 3746, 'no_answer': 4}
+3775/10731 1013.1/min {'deep': 3771, 'no_answer': 4}
+3800/10731 999.6/min {'deep': 3796, 'no_answer': 4}
+3825/10731 981.8/min {'deep': 3821, 'no_answer': 4}
+3850/10731 984.1/min {'deep': 3846, 'no_answer': 4}
+3875/10731 978.3/min {'deep': 3871, 'no_answer': 4}
+3900/10731 970.0/min {'deep': 3896, 'no_answer': 4}
+3925/10731 955.8/min {'deep': 3921, 'no_answer': 4}
+3950/10731 930.5/min {'deep': 3946, 'no_answer': 4}
+3975/10731 919.7/min {'deep': 3971, 'no_answer': 4}
+4000/10731 911.1/min {'deep': 3996, 'no_answer': 4}
+4025/10731 907.3/min {'deep': 4021, 'no_answer': 4}
+4050/10731 905.4/min {'deep': 4046, 'no_answer': 4}
+4075/10731 898.2/min {'deep': 4071, 'no_answer': 4}
+4100/10731 894.2/min {'deep': 4096, 'no_answer': 4}
+4125/10731 891.1/min {'deep': 4121, 'no_answer': 4}
+4150/10731 892.4/min {'deep': 4146, 'no_answer': 4}
+4175/10731 888.4/min {'deep': 4171, 'no_answer': 4}
+4200/10731 887.2/min {'deep': 4196, 'no_answer': 4}
+4225/10731 887.4/min {'deep': 4221, 'no_answer': 4}
+4250/10731 885.4/min {'deep': 4246, 'no_answer': 4}
+4275/10731 884.8/min {'deep': 4271, 'no_answer': 4}
+4300/10731 884.0/min {'deep': 4296, 'no_answer': 4}
+4325/10731 884.3/min {'deep': 4321, 'no_answer': 4}
+4350/10731 879.2/min {'deep': 4346, 'no_answer': 4}
+4375/10731 873.1/min {'deep': 4371, 'no_answer': 4}
+4400/10731 868.9/min {'deep': 4396, 'no_answer': 4}
+4425/10731 858.7/min {'deep': 4421, 'no_answer': 4}
+4450/10731 853.7/min {'deep': 4446, 'no_answer': 4}
+4475/10731 840.2/min {'deep': 4471, 'no_answer': 4}
+4500/10731 838.0/min {'deep': 4496, 'no_answer': 4}
+4525/10731 833.7/min {'deep': 4521, 'no_answer': 4}
+4550/10731 831.2/min {'deep': 4546, 'no_answer': 4}
+4575/10731 823.2/min {'deep': 4571, 'no_answer': 4}
+4600/10731 815.0/min {'deep': 4596, 'no_answer': 4}
+4625/10731 813.1/min {'deep': 4621, 'no_answer': 4}
+4650/10731 803.3/min {'deep': 4646, 'no_answer': 4}
+4675/10731 782.0/min {'deep': 4671, 'no_answer': 4}
+4700/10731 769.2/min {'deep': 4696, 'no_answer': 4}
+4725/10731 753.9/min {'deep': 4721, 'no_answer': 4}
+4750/10731 737.7/min {'deep': 4746, 'no_answer': 4}
+4775/10731 723.4/min {'deep': 4771, 'no_answer': 4}
+4800/10731 716.8/min {'deep': 4796, 'no_answer': 4}
+4825/10731 715.8/min {'deep': 4821, 'no_answer': 4}
+4850/10731 715.1/min {'deep': 4846, 'no_answer': 4}
+4875/10731 714.7/min {'deep': 4871, 'no_answer': 4}
+4900/10731 711.9/min {'deep': 4896, 'no_answer': 4}
+4925/10731 713.5/min {'deep': 4921, 'no_answer': 4}
+4950/10731 712.8/min {'deep': 4946, 'no_answer': 4}
+4975/10731 708.3/min {'deep': 4971, 'no_answer': 4}
+5000/10731 706.5/min {'deep': 4996, 'no_answer': 4}
+5025/10731 705.6/min {'deep': 5021, 'no_answer': 4}
+5050/10731 695.2/min {'deep': 5046, 'no_answer': 4}
+5075/10731 687.7/min {'deep': 5071, 'no_answer': 4}
+5100/10731 676.4/min {'deep': 5096, 'no_answer': 4}
+5125/10731 665.1/min {'deep': 5121, 'no_answer': 4}
+5150/10731 658.7/min {'deep': 5146, 'no_answer': 4}
+5175/10731 656.2/min {'deep': 5171, 'no_answer': 4}
+5200/10731 653.4/min {'deep': 5196, 'no_answer': 4}
+5225/10731 651.0/min {'deep': 5221, 'no_answer': 4}
+5250/10731 649.6/min {'deep': 5246, 'no_answer': 4}
+5275/10731 645.7/min {'deep': 5271, 'no_answer': 4}
+5300/10731 643.5/min {'deep': 5296, 'no_answer': 4}
+5325/10731 637.3/min {'deep': 5321, 'no_answer': 4}
+5350/10731 632.6/min {'deep': 5346, 'no_answer': 4}
+5375/10731 625.6/min {'deep': 5371, 'no_answer': 4}
+5400/10731 617.6/min {'deep': 5396, 'no_answer': 4}
+5425/10731 613.0/min {'deep': 5421, 'no_answer': 4}
+5450/10731 613.4/min {'deep': 5446, 'no_answer': 4}
+5475/10731 613.8/min {'deep': 5471, 'no_answer': 4}
+5500/10731 613.7/min {'deep': 5496, 'no_answer': 4}
+5525/10731 609.8/min {'deep': 5521, 'no_answer': 4}
+5550/10731 609.4/min {'deep': 5546, 'no_answer': 4}
+5575/10731 610.9/min {'deep': 5571, 'no_answer': 4}
+5600/10731 612.6/min {'deep': 5596, 'no_answer': 4}
+5625/10731 612.5/min {'deep': 5621, 'no_answer': 4}
+5650/10731 611.4/min {'deep': 5646, 'no_answer': 4}
+5675/10731 612.9/min {'deep': 5671, 'no_answer': 4}
+5700/10731 612.7/min {'deep': 5696, 'no_answer': 4}
+5725/10731 607.2/min {'deep': 5721, 'no_answer': 4}
+5750/10731 605.1/min {'deep': 5746, 'no_answer': 4}
+5775/10731 605.5/min {'deep': 5771, 'no_answer': 4}
+5800/10731 605.0/min {'deep': 5796, 'no_answer': 4}
+5825/10731 603.4/min {'deep': 5821, 'no_answer': 4}
+5850/10731 597.4/min {'deep': 5846, 'no_answer': 4}
+5875/10731 587.5/min {'deep': 5871, 'no_answer': 4}
+5900/10731 572.5/min {'deep': 5896, 'no_answer': 4}
+5925/10731 571.6/min {'deep': 5921, 'no_answer': 4}
+5950/10731 572.4/min {'deep': 5946, 'no_answer': 4}
+5975/10731 573.0/min {'deep': 5971, 'no_answer': 4}
+6000/10731 573.1/min {'deep': 5996, 'no_answer': 4}
+6025/10731 574.5/min {'deep': 6021, 'no_answer': 4}
+6050/10731 575.8/min {'deep': 6046, 'no_answer': 4}
+6075/10731 577.0/min {'deep': 6071, 'no_answer': 4}
+6100/10731 577.0/min {'deep': 6096, 'no_answer': 4}
+6125/10731 572.6/min {'deep': 6121, 'no_answer': 4}
+6150/10731 571.5/min {'deep': 6146, 'no_answer': 4}
+6175/10731 569.2/min {'deep': 6171, 'no_answer': 4}
+6200/10731 564.3/min {'deep': 6196, 'no_answer': 4}
+6225/10731 561.2/min {'deep': 6221, 'no_answer': 4}
+6250/10731 559.3/min {'deep': 6246, 'no_answer': 4}
+6275/10731 557.5/min {'deep': 6271, 'no_answer': 4}
+6300/10731 554.1/min {'deep': 6296, 'no_answer': 4}
+6325/10731 550.8/min {'deep': 6321, 'no_answer': 4}
+6350/10731 548.4/min {'deep': 6346, 'no_answer': 4}
+6375/10731 524.5/min {'deep': 6371, 'no_answer': 4}
+6400/10731 516.7/min {'deep': 6396, 'no_answer': 4}
+6425/10731 511.9/min {'deep': 6421, 'no_answer': 4}
+6450/10731 510.7/min {'deep': 6446, 'no_answer': 4}
+6475/10731 509.9/min {'deep': 6471, 'no_answer': 4}
+6500/10731 508.6/min {'deep': 6496, 'no_answer': 4}
+6525/10731 502.9/min {'deep': 6521, 'no_answer': 4}
+6550/10731 499.1/min {'deep': 6546, 'no_answer': 4}
+6575/10731 495.4/min {'deep': 6571, 'no_answer': 4}
+6600/10731 478.1/min {'deep': 6596, 'no_answer': 4}
+6625/10731 476.2/min {'deep': 6621, 'no_answer': 4}
+6650/10731 475.7/min {'deep': 6646, 'no_answer': 4}
+6675/10731 473.9/min {'deep': 6671, 'no_answer': 4}
+6700/10731 472.4/min {'deep': 6696, 'no_answer': 4}
+6725/10731 466.4/min {'deep': 6721, 'no_answer': 4}
+6750/10731 454.1/min {'deep': 6746, 'no_answer': 4}
+6775/10731 446.0/min {'deep': 6771, 'no_answer': 4}
+6800/10731 438.3/min {'deep': 6796, 'no_answer': 4}
+6825/10731 435.8/min {'deep': 6821, 'no_answer': 4}
+6850/10731 436.0/min {'deep': 6846, 'no_answer': 4}
+6875/10731 431.4/min {'deep': 6871, 'no_answer': 4}
+6900/10731 431.7/min {'deep': 6896, 'no_answer': 4}
+6925/10731 431.6/min {'deep': 6921, 'no_answer': 4}
+6950/10731 430.5/min {'deep': 6946, 'no_answer': 4}
+6975/10731 429.9/min {'deep': 6971, 'no_answer': 4}
+7000/10731 429.6/min {'deep': 6996, 'no_answer': 4}
+7025/10731 429.0/min {'deep': 7021, 'no_answer': 4}
+7050/10731 429.0/min {'deep': 7046, 'no_answer': 4}
+7075/10731 429.4/min {'deep': 7071, 'no_answer': 4}
+7100/10731 429.5/min {'deep': 7096, 'no_answer': 4}
+7125/10731 429.8/min {'deep': 7121, 'no_answer': 4}
+7150/10731 430.1/min {'deep': 7146, 'no_answer': 4}
+7175/10731 430.4/min {'deep': 7171, 'no_answer': 4}
+7200/10731 431.0/min {'deep': 7196, 'no_answer': 4}
+7225/10731 432.0/min {'deep': 7221, 'no_answer': 4}
+7250/10731 432.9/min {'deep': 7246, 'no_answer': 4}
+7275/10731 433.4/min {'deep': 7271, 'no_answer': 4}
+7300/10731 433.5/min {'deep': 7296, 'no_answer': 4}
+7325/10731 434.1/min {'deep': 7321, 'no_answer': 4}
+7350/10731 434.8/min {'deep': 7346, 'no_answer': 4}
+7375/10731 435.7/min {'deep': 7371, 'no_answer': 4}
+7400/10731 436.3/min {'deep': 7396, 'no_answer': 4}
+7425/10731 437.0/min {'deep': 7421, 'no_answer': 4}
+7450/10731 437.9/min {'deep': 7446, 'no_answer': 4}
+7475/10731 438.9/min {'deep': 7471, 'no_answer': 4}
+7500/10731 440.0/min {'deep': 7496, 'no_answer': 4}
+7525/10731 441.1/min {'deep': 7521, 'no_answer': 4}
+7550/10731 442.0/min {'deep': 7546, 'no_answer': 4}
+7575/10731 442.8/min {'deep': 7571, 'no_answer': 4}
+7600/10731 443.9/min {'deep': 7596, 'no_answer': 4}
+7625/10731 445.0/min {'deep': 7621, 'no_answer': 4}
+7650/10731 446.2/min {'deep': 7646, 'no_answer': 4}
+7675/10731 447.0/min {'deep': 7671, 'no_answer': 4}
+7700/10731 447.9/min {'deep': 7696, 'no_answer': 4}
+7725/10731 449.0/min {'deep': 7720, 'no_answer': 5}
+7750/10731 449.8/min {'deep': 7745, 'no_answer': 5}
+7775/10731 450.9/min {'deep': 7770, 'no_answer': 5}
+7800/10731 451.8/min {'deep': 7795, 'no_answer': 5}
+7825/10731 452.7/min {'deep': 7820, 'no_answer': 5}
+7850/10731 453.3/min {'deep': 7845, 'no_answer': 5}
+7875/10731 454.1/min {'deep': 7870, 'no_answer': 5}
+7900/10731 455.1/min {'deep': 7895, 'no_answer': 5}
+7925/10731 455.6/min {'deep': 7920, 'no_answer': 5}
+7950/10731 456.3/min {'deep': 7945, 'no_answer': 5}
+7975/10731 456.4/min {'deep': 7970, 'no_answer': 5}
+8000/10731 457.3/min {'deep': 7995, 'no_answer': 5}
+8025/10731 457.3/min {'deep': 8020, 'no_answer': 5}
+8050/10731 457.4/min {'deep': 8045, 'no_answer': 5}
+8075/10731 457.9/min {'deep': 8070, 'no_answer': 5}
+8100/10731 458.5/min {'deep': 8095, 'no_answer': 5}
+8125/10731 459.4/min {'deep': 8120, 'no_answer': 5}
+8150/10731 459.5/min {'deep': 8145, 'no_answer': 5}
+8175/10731 460.1/min {'deep': 8170, 'no_answer': 5}
+8200/10731 461.0/min {'deep': 8195, 'no_answer': 5}
+8225/10731 461.5/min {'deep': 8220, 'no_answer': 5}
+8250/10731 462.0/min {'deep': 8245, 'no_answer': 5}
+8275/10731 462.7/min {'deep': 8270, 'no_answer': 5}
+8300/10731 463.3/min {'deep': 8295, 'no_answer': 5}
+8325/10731 463.6/min {'deep': 8320, 'no_answer': 5}
+8350/10731 463.8/min {'deep': 8345, 'no_answer': 5}
+8375/10731 464.1/min {'deep': 8370, 'no_answer': 5}
+8400/10731 464.6/min {'deep': 8395, 'no_answer': 5}
+8425/10731 464.6/min {'deep': 8420, 'no_answer': 5}
+8450/10731 465.3/min {'deep': 8445, 'no_answer': 5}
+8475/10731 466.0/min {'deep': 8470, 'no_answer': 5}
+8500/10731 466.3/min {'deep': 8495, 'no_answer': 5}
+8525/10731 467.0/min {'deep': 8520, 'no_answer': 5}
+8550/10731 467.8/min {'deep': 8545, 'no_answer': 5}
+8575/10731 468.4/min {'deep': 8570, 'no_answer': 5}
+8600/10731 469.2/min {'deep': 8595, 'no_answer': 5}
+8625/10731 469.4/min {'deep': 8620, 'no_answer': 5}
+8650/10731 469.7/min {'deep': 8645, 'no_answer': 5}
+8675/10731 470.2/min {'deep': 8670, 'no_answer': 5}
+8700/10731 469.6/min {'deep': 8695, 'no_answer': 5}
+8725/10731 470.3/min {'deep': 8720, 'no_answer': 5}
+8750/10731 471.0/min {'deep': 8745, 'no_answer': 5}
+8775/10731 471.7/min {'deep': 8770, 'no_answer': 5}
+8800/10731 472.4/min {'deep': 8795, 'no_answer': 5}
+8825/10731 473.2/min {'deep': 8820, 'no_answer': 5}
+8850/10731 473.9/min {'deep': 8845, 'no_answer': 5}
+8875/10731 474.7/min {'deep': 8870, 'no_answer': 5}
+8900/10731 475.4/min {'deep': 8895, 'no_answer': 5}
+8925/10731 476.1/min {'deep': 8920, 'no_answer': 5}
+8950/10731 476.8/min {'deep': 8945, 'no_answer': 5}
+8975/10731 477.6/min {'deep': 8970, 'no_answer': 5}
+9000/10731 478.1/min {'deep': 8995, 'no_answer': 5}
+9025/10731 478.7/min {'deep': 9020, 'no_answer': 5}
+9050/10731 478.8/min {'deep': 9045, 'no_answer': 5}
+9075/10731 479.7/min {'deep': 9070, 'no_answer': 5}
+9100/10731 480.4/min {'deep': 9095, 'no_answer': 5}
+9125/10731 481.0/min {'deep': 9120, 'no_answer': 5}
+9150/10731 481.8/min {'deep': 9145, 'no_answer': 5}
+9175/10731 482.4/min {'deep': 9170, 'no_answer': 5}
+9200/10731 483.4/min {'deep': 9195, 'no_answer': 5}
+9225/10731 484.3/min {'deep': 9220, 'no_answer': 5}
+9250/10731 485.0/min {'deep': 9245, 'no_answer': 5}
+9275/10731 485.9/min {'deep': 9270, 'no_answer': 5}
+9300/10731 486.9/min {'deep': 9295, 'no_answer': 5}
+9325/10731 487.6/min {'deep': 9320, 'no_answer': 5}
+9350/10731 488.2/min {'deep': 9345, 'no_answer': 5}
+9375/10731 489.0/min {'deep': 9370, 'no_answer': 5}
+9400/10731 489.8/min {'deep': 9395, 'no_answer': 5}
+9425/10731 490.6/min {'deep': 9420, 'no_answer': 5}
+9450/10731 491.2/min {'deep': 9445, 'no_answer': 5}
+9475/10731 491.6/min {'deep': 9470, 'no_answer': 5}
+9500/10731 492.4/min {'deep': 9495, 'no_answer': 5}
+9525/10731 493.2/min {'deep': 9520, 'no_answer': 5}
+9550/10731 494.1/min {'deep': 9545, 'no_answer': 5}
+9575/10731 494.7/min {'deep': 9570, 'no_answer': 5}
+9600/10731 495.7/min {'deep': 9595, 'no_answer': 5}
+9625/10731 496.4/min {'deep': 9620, 'no_answer': 5}
+9650/10731 497.2/min {'deep': 9645, 'no_answer': 5}
+9675/10731 498.1/min {'deep': 9670, 'no_answer': 5}
+9700/10731 498.8/min {'deep': 9695, 'no_answer': 5}
+9725/10731 499.6/min {'deep': 9720, 'no_answer': 5}
+9750/10731 500.5/min {'deep': 9745, 'no_answer': 5}
+9775/10731 501.3/min {'deep': 9770, 'no_answer': 5}
+9800/10731 502.0/min {'deep': 9795, 'no_answer': 5}
+9825/10731 502.1/min {'deep': 9820, 'no_answer': 5}
+9850/10731 502.8/min {'deep': 9845, 'no_answer': 5}
+9875/10731 503.7/min {'deep': 9870, 'no_answer': 5}
+9900/10731 504.5/min {'deep': 9895, 'no_answer': 5}
+9925/10731 505.2/min {'deep': 9920, 'no_answer': 5}
+9950/10731 505.8/min {'deep': 9945, 'no_answer': 5}
+9975/10731 506.8/min {'deep': 9970, 'no_answer': 5}
+10000/10731 507.5/min {'deep': 9995, 'no_answer': 5}
+10025/10731 508.5/min {'deep': 10020, 'no_answer': 5}
+10050/10731 508.8/min {'deep': 10045, 'no_answer': 5}
+10075/10731 508.3/min {'deep': 10070, 'no_answer': 5}
+10100/10731 508.9/min {'deep': 10095, 'no_answer': 5}
+10125/10731 509.8/min {'deep': 10120, 'no_answer': 5}
+10150/10731 510.4/min {'deep': 10145, 'no_answer': 5}
+10175/10731 511.2/min {'deep': 10170, 'no_answer': 5}
+10200/10731 511.9/min {'deep': 10195, 'no_answer': 5}
+10225/10731 512.3/min {'deep': 10220, 'no_answer': 5}
+10250/10731 512.7/min {'deep': 10245, 'no_answer': 5}
+10275/10731 513.5/min {'deep': 10270, 'no_answer': 5}
+10300/10731 514.0/min {'deep': 10295, 'no_answer': 5}
+10325/10731 514.0/min {'deep': 10320, 'no_answer': 5}
+10350/10731 514.7/min {'deep': 10345, 'no_answer': 5}
+10375/10731 515.2/min {'deep': 10370, 'no_answer': 5}
+10400/10731 515.9/min {'deep': 10395, 'no_answer': 5}
+10425/10731 516.3/min {'deep': 10420, 'no_answer': 5}
+10450/10731 517.0/min {'deep': 10445, 'no_answer': 5}
+10475/10731 517.7/min {'deep': 10470, 'no_answer': 5}
+10500/10731 518.4/min {'deep': 10495, 'no_answer': 5}
+10525/10731 518.9/min {'deep': 10520, 'no_answer': 5}
+10550/10731 519.7/min {'deep': 10545, 'no_answer': 5}
+10575/10731 520.4/min {'deep': 10570, 'no_answer': 5}
+10600/10731 520.8/min {'deep': 10595, 'no_answer': 5}
+10625/10731 521.2/min {'deep': 10620, 'no_answer': 5}
+10650/10731 521.3/min {'deep': 10645, 'no_answer': 5}
+10675/10731 522.0/min {'deep': 10670, 'no_answer': 5}
+10700/10731 522.6/min {'deep': 10695, 'no_answer': 5}
+10725/10731 517.3/min {'deep': 10720, 'no_answer': 5}
+10731/10731 469.7/min {'deep': 10726, 'no_answer': 5}
+done {'deep': 10726, 'no_answer': 5}
