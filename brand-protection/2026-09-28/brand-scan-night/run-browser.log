@@ -1,0 +1,460 @@
+15:52:07 waiting for the running scan to finish
+15:53:07 waiting for the running scan to finish
+15:54:07 waiting for the running scan to finish
+15:55:07 waiting for the running scan to finish
+15:56:08 waiting for the running scan to finish
+15:57:08 waiting for the running scan to finish
+15:58:08 waiting for the running scan to finish
+15:59:08 waiting for the running scan to finish
+16:00:08 waiting for the running scan to finish
+16:01:08 waiting for the running scan to finish
+16:02:08 waiting for the running scan to finish
+16:03:08 waiting for the running scan to finish
+16:04:08 waiting for the running scan to finish
+16:05:08 waiting for the running scan to finish
+16:06:08 waiting for the running scan to finish
+16:07:08 waiting for the running scan to finish
+16:08:08 waiting for the running scan to finish
+16:09:08 waiting for the running scan to finish
+16:10:08 waiting for the running scan to finish
+16:11:08 waiting for the running scan to finish
+16:12:08 waiting for the running scan to finish
+16:13:08 waiting for the running scan to finish
+16:14:08 waiting for the running scan to finish
+16:15:08 waiting for the running scan to finish
+16:16:08 waiting for the running scan to finish
+16:17:08 waiting for the running scan to finish
+16:18:08 waiting for the running scan to finish
+16:19:08 waiting for the running scan to finish
+16:20:08 waiting for the running scan to finish
+16:21:08 waiting for the running scan to finish
+16:22:08 waiting for the running scan to finish
+16:23:08 waiting for the running scan to finish
+16:24:08 waiting for the running scan to finish
+16:25:08 waiting for the running scan to finish
+16:26:08 waiting for the running scan to finish
+16:27:09 proxy_ip=109.245.134.170
+queue 10247, done 0, todo 10247, network RS AS15958 CETINdoo-NET 109.245.134.170, our refs guarded 321, proxy socks5://127.0.0.1:1080
+25/10247 21.7/min {'1_mostbet_only': 22, '4_mixed': 2, '5_dead': 1}
+50/10247 22.7/min {'1_mostbet_only': 44, '2_no_ads': 1, '3_other_only': 1, '4_mixed': 3, '5_dead': 1}
+75/10247 21.0/min {'1_mostbet_only': 68, '2_no_ads': 1, '3_other_only': 1, '4_mixed': 3, '5_dead': 2}
+100/10247 18.5/min {'1_mostbet_only': 92, '2_no_ads': 1, '3_other_only': 1, '4_mixed': 4, '5_dead': 2}
+125/10247 19.9/min {'1_mostbet_only': 116, '2_no_ads': 1, '3_other_only': 1, '4_mixed': 5, '5_dead': 2}
+150/10247 21.1/min {'1_mostbet_only': 140, '2_no_ads': 1, '3_other_only': 1, '4_mixed': 6, '5_dead': 2}
+175/10247 21.4/min {'1_mostbet_only': 165, '2_no_ads': 1, '3_other_only': 1, '4_mixed': 6, '5_dead': 2}
+200/10247 22.0/min {'1_mostbet_only': 185, '2_no_ads': 5, '3_other_only': 2, '4_mixed': 6, '5_dead': 2}
+225/10247 22.7/min {'1_mostbet_only': 208, '2_no_ads': 6, '3_other_only': 2, '4_mixed': 7, '5_dead': 2}
+250/10247 23.8/min {'1_mostbet_only': 233, '2_no_ads': 6, '3_other_only': 2, '4_mixed': 7, '5_dead': 2}
+275/10247 23.8/min {'1_mostbet_only': 252, '2_no_ads': 12, '3_other_only': 2, '4_mixed': 7, '5_dead': 2}
+300/10247 23.4/min {'1_mostbet_only': 276, '2_no_ads': 12, '3_other_only': 2, '4_mixed': 8, '5_dead': 2}
+325/10247 22.4/min {'1_mostbet_only': 294, '2_no_ads': 14, '3_other_only': 3, '4_mixed': 12, '5_dead': 2}
+350/10247 22.6/min {'1_mostbet_only': 302, '2_no_ads': 30, '3_other_only': 3, '4_mixed': 13, '5_dead': 2}
+375/10247 23.3/min {'1_mostbet_only': 309, '2_no_ads': 47, '3_other_only': 3, '4_mixed': 13, '5_dead': 3}
+400/10247 23.3/min {'1_mostbet_only': 331, '2_no_ads': 49, '3_other_only': 3, '4_mixed': 14, '5_dead': 3}
+425/10247 22.6/min {'1_mostbet_only': 353, '2_no_ads': 52, '3_other_only': 3, '4_mixed': 14, '5_dead': 3}
+450/10247 22.3/min {'1_mostbet_only': 377, '2_no_ads': 53, '3_other_only': 3, '4_mixed': 14, '5_dead': 3}
+475/10247 22.3/min {'1_mostbet_only': 400, '2_no_ads': 53, '3_other_only': 3, '4_mixed': 16, '5_dead': 3}
+500/10247 22.5/min {'1_mostbet_only': 417, '2_no_ads': 61, '3_other_only': 3, '4_mixed': 16, '5_dead': 3}
+525/10247 23.1/min {'1_mostbet_only': 424, '2_no_ads': 79, '3_other_only': 3, '4_mixed': 16, '5_dead': 3}
+550/10247 22.5/min {'1_mostbet_only': 446, '2_no_ads': 82, '3_other_only': 3, '4_mixed': 16, '5_dead': 3}
+575/10247 22.4/min {'1_mostbet_only': 470, '2_no_ads': 82, '3_other_only': 3, '4_mixed': 17, '5_dead': 3}
+600/10247 22.3/min {'1_mostbet_only': 495, '2_no_ads': 82, '3_other_only': 3, '4_mixed': 17, '5_dead': 3}
+625/10247 22.0/min {'1_mostbet_only': 519, '2_no_ads': 82, '3_other_only': 4, '4_mixed': 17, '5_dead': 3}
+650/10247 22.3/min {'1_mostbet_only': 543, '2_no_ads': 82, '3_other_only': 4, '4_mixed': 18, '5_dead': 3}
+675/10247 22.4/min {'1_mostbet_only': 568, '2_no_ads': 82, '3_other_only': 4, '4_mixed': 18, '5_dead': 3}
+700/10247 22.3/min {'1_mostbet_only': 592, '2_no_ads': 82, '3_other_only': 4, '4_mixed': 19, '5_dead': 3}
+725/10247 22.4/min {'1_mostbet_only': 616, '2_no_ads': 83, '3_other_only': 4, '4_mixed': 19, '5_dead': 3}
+750/10247 22.3/min {'1_mostbet_only': 641, '2_no_ads': 83, '3_other_only': 4, '4_mixed': 19, '5_dead': 3}
+775/10247 22.5/min {'1_mostbet_only': 663, '2_no_ads': 86, '3_other_only': 4, '4_mixed': 19, '5_dead': 3}
+800/10247 22.7/min {'1_mostbet_only': 685, '2_no_ads': 88, '3_other_only': 5, '4_mixed': 19, '5_dead': 3}
+825/10247 22.2/min {'1_mostbet_only': 688, '2_no_ads': 89, '3_other_only': 26, '4_mixed': 19, '5_dead': 3}
+850/10247 21.9/min {'1_mostbet_only': 690, '2_no_ads': 91, '3_other_only': 47, '4_mixed': 19, '5_dead': 3}
+875/10247 21.7/min {'1_mostbet_only': 694, '2_no_ads': 92, '3_other_only': 66, '4_mixed': 20, '5_dead': 3}
+900/10247 21.1/min {'1_mostbet_only': 695, '2_no_ads': 94, '3_other_only': 86, '4_mixed': 21, '5_dead': 3, '5_not_shown': 1}
+925/10247 21.0/min {'1_mostbet_only': 695, '2_no_ads': 98, '3_other_only': 107, '4_mixed': 21, '5_dead': 3, '5_not_shown': 1}
+950/10247 20.8/min {'1_mostbet_only': 695, '2_no_ads': 101, '3_other_only': 129, '4_mixed': 21, '5_dead': 3, '5_not_shown': 1}
+975/10247 20.6/min {'1_mostbet_only': 696, '2_no_ads': 107, '3_other_only': 147, '4_mixed': 21, '5_dead': 3, '5_not_shown': 1}
+1000/10247 20.2/min {'1_mostbet_only': 696, '2_no_ads': 108, '3_other_only': 168, '4_mixed': 22, '5_dead': 5, '5_not_shown': 1}
+1025/10247 20.0/min {'1_mostbet_only': 700, '2_no_ads': 110, '3_other_only': 185, '4_mixed': 23, '5_dead': 5, '5_not_shown': 1, '6_cf_check': 1}
+1050/10247 19.8/min {'1_mostbet_only': 700, '2_no_ads': 123, '3_other_only': 197, '4_mixed': 23, '5_dead': 5, '5_not_shown': 1, '6_cf_check': 1}
+1075/10247 19.2/min {'1_mostbet_only': 701, '2_no_ads': 129, '3_other_only': 214, '4_mixed': 24, '5_dead': 5, '5_not_shown': 1, '6_cf_check': 1}
+/root/.cache/uv/archive-v0/i3UchEecoKasKjqMegwz6/lib/python3.12/site-packages/playwright/driver/package/lib/coreBundle.js:22797
+        for (const child of frame._getChildFrames())
+                                  ^
+
+TypeError: Cannot read properties of undefined (reading '_getChildFrames')
+    at FrameManager.removeChildFramesRecursively (/root/.cache/uv/archive-v0/i3UchEecoKasKjqMegwz6/lib/python3.12/site-packages/playwright/driver/package/lib/coreBundle.js:22797:35)
+    at FrameManager.frameCommittedNewDocumentNavigation (/root/.cache/uv/archive-v0/i3UchEecoKasKjqMegwz6/lib/python3.12/site-packages/playwright/driver/package/lib/coreBundle.js:22684:14)
+    at FFPage._onNavigationCommitted (/root/.cache/uv/archive-v0/i3UchEecoKasKjqMegwz6/lib/python3.12/site-packages/playwright/driver/package/lib/coreBundle.js:44922:33)
+    at FFSession.emit (node:events:509:28)
+    at /root/.cache/uv/archive-v0/i3UchEecoKasKjqMegwz6/lib/python3.12/site-packages/playwright/driver/package/lib/coreBundle.js:44202:45
+
+Node.js v24.18.1
+1100/10247 18.9/min {'1_mostbet_only': 702, '2_no_ads': 131, '3_other_only': 235, '4_mixed': 24, '5_dead': 5, '5_not_shown': 2, '6_cf_check': 1}
+1125/10247 18.9/min {'1_mostbet_only': 703, '2_no_ads': 136, '3_other_only': 253, '4_mixed': 25, '5_dead': 5, '5_not_shown': 2, '6_cf_check': 1}
+1150/10247 18.7/min {'1_mostbet_only': 705, '2_no_ads': 140, '3_other_only': 271, '4_mixed': 26, '5_dead': 5, '5_not_shown': 2, '6_cf_check': 1}
+1175/10247 18.5/min {'1_mostbet_only': 707, '2_no_ads': 142, '3_other_only': 290, '4_mixed': 27, '5_dead': 6, '5_not_shown': 2, '6_cf_check': 1}
+1200/10247 18.5/min {'1_mostbet_only': 707, '2_no_ads': 142, '3_other_only': 315, '4_mixed': 27, '5_dead': 6, '5_not_shown': 2, '6_cf_check': 1}
+1225/10247 18.5/min {'1_mostbet_only': 711, '2_no_ads': 146, '3_other_only': 328, '4_mixed': 29, '5_dead': 7, '5_not_shown': 3, '6_cf_check': 1}
+1250/10247 18.2/min {'1_mostbet_only': 711, '2_no_ads': 150, '3_other_only': 343, '4_mixed': 34, '5_dead': 8, '5_not_shown': 3, '6_cf_check': 1}
+1275/10247 18.0/min {'1_mostbet_only': 711, '2_no_ads': 151, '3_other_only': 366, '4_mixed': 34, '5_dead': 9, '5_not_shown': 3, '6_cf_check': 1}
+1300/10247 18.1/min {'1_mostbet_only': 711, '2_no_ads': 153, '3_other_only': 389, '4_mixed': 34, '5_dead': 9, '5_not_shown': 3, '6_cf_check': 1}
+1325/10247 18.0/min {'1_mostbet_only': 714, '2_no_ads': 158, '3_other_only': 406, '4_mixed': 34, '5_dead': 9, '5_not_shown': 3, '6_cf_check': 1}
+1350/10247 18.1/min {'1_mostbet_only': 714, '2_no_ads': 158, '3_other_only': 431, '4_mixed': 34, '5_dead': 9, '5_not_shown': 3, '6_cf_check': 1}
+1375/10247 18.1/min {'1_mostbet_only': 714, '2_no_ads': 160, '3_other_only': 453, '4_mixed': 34, '5_dead': 10, '5_not_shown': 3, '6_cf_check': 1}
+1400/10247 18.0/min {'1_mostbet_only': 716, '2_no_ads': 166, '3_other_only': 470, '4_mixed': 34, '5_dead': 10, '5_not_shown': 3, '6_cf_check': 1}
+1425/10247 17.8/min {'1_mostbet_only': 716, '2_no_ads': 175, '3_other_only': 486, '4_mixed': 34, '5_dead': 10, '5_not_shown': 3, '6_cf_check': 1}
+1450/10247 17.6/min {'1_mostbet_only': 716, '2_no_ads': 182, '3_other_only': 501, '4_mixed': 36, '5_dead': 11, '5_not_shown': 3, '6_cf_check': 1}
+1475/10247 17.5/min {'1_mostbet_only': 717, '2_no_ads': 189, '3_other_only': 515, '4_mixed': 39, '5_dead': 11, '5_not_shown': 3, '6_cf_check': 1}
+1500/10247 17.6/min {'1_mostbet_only': 717, '2_no_ads': 193, '3_other_only': 536, '4_mixed': 39, '5_dead': 11, '5_not_shown': 3, '6_cf_check': 1}
+1525/10247 17.6/min {'1_mostbet_only': 718, '2_no_ads': 198, '3_other_only': 553, '4_mixed': 40, '5_dead': 12, '5_not_shown': 3, '6_cf_check': 1}
+1550/10247 17.5/min {'1_mostbet_only': 718, '2_no_ads': 205, '3_other_only': 569, '4_mixed': 41, '5_dead': 13, '5_not_shown': 3, '6_cf_check': 1}
+1575/10247 17.4/min {'1_mostbet_only': 718, '2_no_ads': 208, '3_other_only': 591, '4_mixed': 41, '5_dead': 13, '5_not_shown': 3, '6_cf_check': 1}
+1600/10247 17.5/min {'1_mostbet_only': 718, '2_no_ads': 216, '3_other_only': 607, '4_mixed': 42, '5_dead': 13, '5_not_shown': 3, '6_cf_check': 1}
+1625/10247 17.5/min {'1_mostbet_only': 720, '2_no_ads': 222, '3_other_only': 624, '4_mixed': 42, '5_dead': 13, '5_not_shown': 3, '6_cf_check': 1}
+1650/10247 17.4/min {'1_mostbet_only': 723, '2_no_ads': 231, '3_other_only': 637, '4_mixed': 42, '5_dead': 13, '5_not_shown': 3, '6_cf_check': 1}
+1675/10247 17.4/min {'1_mostbet_only': 723, '2_no_ads': 233, '3_other_only': 659, '4_mixed': 43, '5_dead': 13, '5_not_shown': 3, '6_cf_check': 1}
+1700/10247 17.1/min {'1_mostbet_only': 724, '2_no_ads': 236, '3_other_only': 678, '4_mixed': 44, '5_dead': 14, '5_not_shown': 3, '6_cf_check': 1}
+1725/10247 17.1/min {'1_mostbet_only': 726, '2_no_ads': 236, '3_other_only': 699, '4_mixed': 44, '5_dead': 16, '5_not_shown': 3, '6_cf_check': 1}
+1750/10247 16.9/min {'1_mostbet_only': 727, '2_no_ads': 237, '3_other_only': 705, '4_mixed': 60, '5_dead': 17, '5_not_shown': 3, '6_cf_check': 1}
+1775/10247 16.7/min {'1_mostbet_only': 728, '2_no_ads': 237, '3_other_only': 705, '4_mixed': 84, '5_dead': 17, '5_not_shown': 3, '6_cf_check': 1}
+1800/10247 16.6/min {'1_mostbet_only': 728, '2_no_ads': 248, '3_other_only': 710, '4_mixed': 93, '5_dead': 17, '5_not_shown': 3, '6_cf_check': 1}
+1825/10247 16.7/min {'1_mostbet_only': 728, '2_no_ads': 269, '3_other_only': 711, '4_mixed': 95, '5_dead': 17, '5_not_shown': 4, '6_cf_check': 1}
+1850/10247 16.7/min {'1_mostbet_only': 728, '2_no_ads': 290, '3_other_only': 715, '4_mixed': 95, '5_dead': 17, '5_not_shown': 4, '6_cf_check': 1}
+1875/10247 16.8/min {'1_mostbet_only': 729, '2_no_ads': 314, '3_other_only': 715, '4_mixed': 95, '5_dead': 17, '5_not_shown': 4, '6_cf_check': 1}
+1900/10247 16.8/min {'1_mostbet_only': 730, '2_no_ads': 337, '3_other_only': 716, '4_mixed': 95, '5_dead': 17, '5_not_shown': 4, '6_cf_check': 1}
+1925/10247 16.8/min {'1_mostbet_only': 731, '2_no_ads': 358, '3_other_only': 717, '4_mixed': 96, '5_dead': 18, '5_not_shown': 4, '6_cf_check': 1}
+1950/10247 16.8/min {'1_mostbet_only': 732, '2_no_ads': 381, '3_other_only': 718, '4_mixed': 96, '5_dead': 18, '5_not_shown': 4, '6_cf_check': 1}
+1975/10247 16.9/min {'1_mostbet_only': 733, '2_no_ads': 404, '3_other_only': 719, '4_mixed': 96, '5_dead': 18, '5_not_shown': 4, '6_cf_check': 1}
+2000/10247 17.0/min {'1_mostbet_only': 733, '2_no_ads': 427, '3_other_only': 721, '4_mixed': 96, '5_dead': 18, '5_not_shown': 4, '6_cf_check': 1}
+2025/10247 17.0/min {'1_mostbet_only': 733, '2_no_ads': 448, '3_other_only': 724, '4_mixed': 97, '5_dead': 18, '5_not_shown': 4, '6_cf_check': 1}
+2050/10247 17.1/min {'1_mostbet_only': 733, '2_no_ads': 469, '3_other_only': 728, '4_mixed': 97, '5_dead': 18, '5_not_shown': 4, '6_cf_check': 1}
+2075/10247 17.1/min {'1_mostbet_only': 733, '2_no_ads': 492, '3_other_only': 730, '4_mixed': 97, '5_dead': 18, '5_not_shown': 4, '6_cf_check': 1}
+2100/10247 17.1/min {'1_mostbet_only': 733, '2_no_ads': 516, '3_other_only': 730, '4_mixed': 97, '5_dead': 19, '5_not_shown': 4, '6_cf_check': 1}
+2125/10247 17.2/min {'1_mostbet_only': 733, '2_no_ads': 538, '3_other_only': 733, '4_mixed': 97, '5_dead': 19, '5_not_shown': 4, '6_cf_check': 1}
+2150/10247 17.2/min {'1_mostbet_only': 733, '2_no_ads': 560, '3_other_only': 736, '4_mixed': 97, '5_dead': 19, '5_not_shown': 4, '6_cf_check': 1}
+2175/10247 17.2/min {'1_mostbet_only': 733, '2_no_ads': 584, '3_other_only': 737, '4_mixed': 97, '5_dead': 19, '5_not_shown': 4, '6_cf_check': 1}
+2200/10247 17.2/min {'1_mostbet_only': 735, '2_no_ads': 605, '3_other_only': 739, '4_mixed': 97, '5_dead': 19, '5_not_shown': 4, '6_cf_check': 1}
+2225/10247 17.3/min {'1_mostbet_only': 735, '2_no_ads': 628, '3_other_only': 741, '4_mixed': 97, '5_dead': 19, '5_not_shown': 4, '6_cf_check': 1}
+2250/10247 17.3/min {'1_mostbet_only': 735, '2_no_ads': 651, '3_other_only': 743, '4_mixed': 97, '5_dead': 19, '5_not_shown': 4, '6_cf_check': 1}
+2275/10247 17.3/min {'1_mostbet_only': 736, '2_no_ads': 673, '3_other_only': 745, '4_mixed': 97, '5_dead': 19, '5_not_shown': 4, '6_cf_check': 1}
+2300/10247 17.3/min {'1_mostbet_only': 739, '2_no_ads': 693, '3_other_only': 747, '4_mixed': 97, '5_dead': 19, '5_not_shown': 4, '6_cf_check': 1}
+2325/10247 17.3/min {'1_mostbet_only': 739, '2_no_ads': 716, '3_other_only': 749, '4_mixed': 97, '5_dead': 19, '5_not_shown': 4, '6_cf_check': 1}
+2350/10247 17.2/min {'1_mostbet_only': 742, '2_no_ads': 736, '3_other_only': 750, '4_mixed': 97, '5_dead': 20, '5_not_shown': 4, '6_cf_check': 1}
+2375/10247 17.3/min {'1_mostbet_only': 744, '2_no_ads': 757, '3_other_only': 752, '4_mixed': 97, '5_dead': 20, '5_not_shown': 4, '6_cf_check': 1}
+2400/10247 17.4/min {'1_mostbet_only': 744, '2_no_ads': 777, '3_other_only': 757, '4_mixed': 97, '5_dead': 20, '5_not_shown': 4, '6_cf_check': 1}
+2425/10247 17.5/min {'1_mostbet_only': 744, '2_no_ads': 801, '3_other_only': 758, '4_mixed': 97, '5_dead': 20, '5_not_shown': 4, '6_cf_check': 1}
+2450/10247 17.6/min {'1_mostbet_only': 744, '2_no_ads': 826, '3_other_only': 758, '4_mixed': 97, '5_dead': 20, '5_not_shown': 4, '6_cf_check': 1}
+2475/10247 17.4/min {'1_mostbet_only': 745, '2_no_ads': 849, '3_other_only': 759, '4_mixed': 97, '5_dead': 20, '5_not_shown': 4, '6_cf_check': 1}
+2500/10247 17.3/min {'1_mostbet_only': 749, '2_no_ads': 867, '3_other_only': 762, '4_mixed': 97, '5_dead': 20, '5_not_shown': 4, '6_cf_check': 1}
+2525/10247 17.2/min {'1_mostbet_only': 754, '2_no_ads': 880, '3_other_only': 768, '4_mixed': 97, '5_dead': 20, '5_not_shown': 5, '6_cf_check': 1}
+2550/10247 17.2/min {'1_mostbet_only': 761, '2_no_ads': 895, '3_other_only': 771, '4_mixed': 97, '5_dead': 20, '5_not_shown': 5, '6_cf_check': 1}
+2575/10247 17.2/min {'1_mostbet_only': 766, '2_no_ads': 912, '3_other_only': 774, '4_mixed': 97, '5_dead': 20, '5_not_shown': 5, '6_cf_check': 1}
+2600/10247 17.2/min {'1_mostbet_only': 766, '2_no_ads': 932, '3_other_only': 779, '4_mixed': 97, '5_dead': 20, '5_not_shown': 5, '6_cf_check': 1}
+2625/10247 17.3/min {'1_mostbet_only': 766, '2_no_ads': 956, '3_other_only': 780, '4_mixed': 97, '5_dead': 20, '5_not_shown': 5, '6_cf_check': 1}
+2650/10247 17.3/min {'1_mostbet_only': 766, '2_no_ads': 977, '3_other_only': 782, '4_mixed': 97, '5_dead': 22, '5_not_shown': 5, '6_cf_check': 1}
+2675/10247 17.3/min {'1_mostbet_only': 768, '2_no_ads': 998, '3_other_only': 784, '4_mixed': 97, '5_dead': 22, '5_not_shown': 5, '6_cf_check': 1}
+2700/10247 17.3/min {'1_mostbet_only': 770, '2_no_ads': 1019, '3_other_only': 786, '4_mixed': 97, '5_dead': 22, '5_not_shown': 5, '6_cf_check': 1}
+2725/10247 17.3/min {'1_mostbet_only': 771, '2_no_ads': 1039, '3_other_only': 790, '4_mixed': 97, '5_dead': 22, '5_not_shown': 5, '6_cf_check': 1}
+2750/10247 17.1/min {'1_mostbet_only': 772, '2_no_ads': 1061, '3_other_only': 792, '4_mixed': 97, '5_dead': 22, '5_not_shown': 5, '6_cf_check': 1}
+2775/10247 17.1/min {'1_mostbet_only': 774, '2_no_ads': 1082, '3_other_only': 793, '4_mixed': 97, '5_dead': 23, '5_not_shown': 5, '6_cf_check': 1}
+2800/10247 16.8/min {'1_mostbet_only': 775, '2_no_ads': 1102, '3_other_only': 797, '4_mixed': 97, '5_dead': 23, '5_not_shown': 5, '6_cf_check': 1}
+2825/10247 16.8/min {'1_mostbet_only': 775, '2_no_ads': 1123, '3_other_only': 800, '4_mixed': 97, '5_dead': 24, '5_not_shown': 5, '6_cf_check': 1}
+2850/10247 16.8/min {'1_mostbet_only': 775, '2_no_ads': 1146, '3_other_only': 802, '4_mixed': 97, '5_dead': 24, '5_not_shown': 5, '6_cf_check': 1}
+2875/10247 16.8/min {'1_mostbet_only': 775, '2_no_ads': 1160, '3_other_only': 812, '4_mixed': 97, '5_dead': 24, '5_not_shown': 6, '6_cf_check': 1}
+2900/10247 16.8/min {'1_mostbet_only': 775, '2_no_ads': 1181, '3_other_only': 815, '4_mixed': 97, '5_dead': 25, '5_not_shown': 6, '6_cf_check': 1}
+2925/10247 16.8/min {'1_mostbet_only': 776, '2_no_ads': 1202, '3_other_only': 817, '4_mixed': 97, '5_dead': 26, '5_not_shown': 6, '6_cf_check': 1}
+2950/10247 16.8/min {'1_mostbet_only': 777, '2_no_ads': 1219, '3_other_only': 823, '4_mixed': 97, '5_dead': 27, '5_not_shown': 6, '6_cf_check': 1}
+2975/10247 16.8/min {'1_mostbet_only': 780, '2_no_ads': 1236, '3_other_only': 828, '4_mixed': 97, '5_dead': 27, '5_not_shown': 6, '6_cf_check': 1}
+3000/10247 16.6/min {'1_mostbet_only': 783, '2_no_ads': 1256, '3_other_only': 830, '4_mixed': 97, '5_dead': 27, '5_not_shown': 6, '6_cf_check': 1}
+3025/10247 16.6/min {'1_mostbet_only': 786, '2_no_ads': 1274, '3_other_only': 833, '4_mixed': 97, '5_dead': 28, '5_not_shown': 6, '6_cf_check': 1}
+3050/10247 16.6/min {'1_mostbet_only': 787, '2_no_ads': 1296, '3_other_only': 835, '4_mixed': 97, '5_dead': 28, '5_not_shown': 6, '6_cf_check': 1}
+3075/10247 16.6/min {'1_mostbet_only': 789, '2_no_ads': 1313, '3_other_only': 839, '4_mixed': 97, '5_dead': 30, '5_not_shown': 6, '6_cf_check': 1}
+3100/10247 16.6/min {'1_mostbet_only': 789, '2_no_ads': 1331, '3_other_only': 843, '4_mixed': 97, '5_dead': 32, '5_not_shown': 7, '6_cf_check': 1}
+3125/10247 16.5/min {'1_mostbet_only': 792, '2_no_ads': 1351, '3_other_only': 845, '4_mixed': 97, '5_dead': 32, '5_not_shown': 7, '6_cf_check': 1}
+3150/10247 16.5/min {'1_mostbet_only': 793, '2_no_ads': 1373, '3_other_only': 846, '4_mixed': 97, '5_dead': 32, '5_not_shown': 7, '6_cf_check': 2}
+3175/10247 16.6/min {'1_mostbet_only': 793, '2_no_ads': 1397, '3_other_only': 847, '4_mixed': 97, '5_dead': 32, '5_not_shown': 7, '6_cf_check': 2}
+3200/10247 16.6/min {'1_mostbet_only': 793, '2_no_ads': 1416, '3_other_only': 853, '4_mixed': 97, '5_dead': 32, '5_not_shown': 7, '6_cf_check': 2}
+3225/10247 16.6/min {'1_mostbet_only': 793, '2_no_ads': 1440, '3_other_only': 854, '4_mixed': 97, '5_dead': 32, '5_not_shown': 7, '6_cf_check': 2}
+3250/10247 16.6/min {'1_mostbet_only': 793, '2_no_ads': 1463, '3_other_only': 856, '4_mixed': 97, '5_dead': 32, '5_not_shown': 7, '6_cf_check': 2}
+3275/10247 16.6/min {'1_mostbet_only': 793, '2_no_ads': 1486, '3_other_only': 857, '4_mixed': 98, '5_dead': 32, '5_not_shown': 7, '6_cf_check': 2}
+3300/10247 16.6/min {'1_mostbet_only': 794, '2_no_ads': 1509, '3_other_only': 858, '4_mixed': 98, '5_dead': 32, '5_not_shown': 7, '6_cf_check': 2}
+3325/10247 16.6/min {'1_mostbet_only': 795, '2_no_ads': 1532, '3_other_only': 859, '4_mixed': 98, '5_dead': 32, '5_not_shown': 7, '6_cf_check': 2}
+3350/10247 16.6/min {'1_mostbet_only': 797, '2_no_ads': 1552, '3_other_only': 861, '4_mixed': 98, '5_dead': 33, '5_not_shown': 7, '6_cf_check': 2}
+3375/10247 16.6/min {'1_mostbet_only': 797, '2_no_ads': 1577, '3_other_only': 861, '4_mixed': 98, '5_dead': 33, '5_not_shown': 7, '6_cf_check': 2}
+3400/10247 16.6/min {'1_mostbet_only': 799, '2_no_ads': 1597, '3_other_only': 863, '4_mixed': 98, '5_dead': 33, '5_not_shown': 8, '6_cf_check': 2}
+3425/10247 16.5/min {'1_mostbet_only': 799, '2_no_ads': 1620, '3_other_only': 865, '4_mixed': 98, '5_dead': 33, '5_not_shown': 8, '6_cf_check': 2}
+3450/10247 16.6/min {'1_mostbet_only': 799, '2_no_ads': 1641, '3_other_only': 868, '4_mixed': 98, '5_dead': 34, '5_not_shown': 8, '6_cf_check': 2}
+3475/10247 16.5/min {'1_mostbet_only': 800, '2_no_ads': 1663, '3_other_only': 870, '4_mixed': 98, '5_dead': 34, '5_not_shown': 8, '6_cf_check': 2}
+3500/10247 16.6/min {'1_mostbet_only': 802, '2_no_ads': 1672, '3_other_only': 870, '4_mixed': 98, '5_dead': 35, '5_not_shown': 21, '6_cf_check': 2}
+3525/10247 16.7/min {'1_mostbet_only': 802, '2_no_ads': 1673, '3_other_only': 870, '4_mixed': 98, '5_dead': 35, '5_not_shown': 45, '6_cf_check': 2}
+3550/10247 16.7/min {'1_mostbet_only': 803, '2_no_ads': 1673, '3_other_only': 870, '4_mixed': 98, '5_dead': 37, '5_not_shown': 67, '6_cf_check': 2}
+3575/10247 16.8/min {'1_mostbet_only': 803, '2_no_ads': 1673, '3_other_only': 870, '4_mixed': 98, '5_dead': 37, '5_not_shown': 91, '6_cf_check': 3}
+3600/10247 16.9/min {'1_mostbet_only': 803, '2_no_ads': 1674, '3_other_only': 870, '4_mixed': 98, '5_dead': 38, '5_not_shown': 114, '6_cf_check': 3}
+3625/10247 17.0/min {'1_mostbet_only': 803, '2_no_ads': 1674, '3_other_only': 870, '4_mixed': 98, '5_dead': 38, '5_not_shown': 137, '6_cf_check': 5}
+3650/10247 17.0/min {'1_mostbet_only': 803, '2_no_ads': 1674, '3_other_only': 870, '4_mixed': 98, '5_dead': 38, '5_not_shown': 162, '6_cf_check': 5}
+3675/10247 17.1/min {'1_mostbet_only': 803, '2_no_ads': 1675, '3_other_only': 870, '4_mixed': 98, '5_dead': 39, '5_not_shown': 185, '6_cf_check': 5}
+3700/10247 17.2/min {'1_mostbet_only': 803, '2_no_ads': 1675, '3_other_only': 870, '4_mixed': 98, '5_dead': 39, '5_not_shown': 210, '6_cf_check': 5}
+3725/10247 17.2/min {'1_mostbet_only': 803, '2_no_ads': 1675, '3_other_only': 870, '4_mixed': 98, '5_dead': 39, '5_not_shown': 235, '6_cf_check': 5}
+3750/10247 17.3/min {'1_mostbet_only': 803, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 258, '6_cf_check': 6}
+3775/10247 17.4/min {'1_mostbet_only': 803, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 283, '6_cf_check': 6}
+3800/10247 17.4/min {'1_mostbet_only': 803, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 308, '6_cf_check': 6}
+3825/10247 17.5/min {'1_mostbet_only': 803, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 333, '6_cf_check': 6}
+3850/10247 17.6/min {'1_mostbet_only': 803, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 358, '6_cf_check': 6}
+3875/10247 17.7/min {'1_mostbet_only': 803, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 382, '6_cf_check': 7}
+3900/10247 17.7/min {'1_mostbet_only': 803, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 407, '6_cf_check': 7}
+3925/10247 17.8/min {'1_mostbet_only': 803, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 432, '6_cf_check': 7}
+3950/10247 17.9/min {'1_mostbet_only': 803, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 457, '6_cf_check': 7}
+3975/10247 18.0/min {'1_mostbet_only': 803, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 482, '6_cf_check': 7}
+4000/10247 18.0/min {'1_mostbet_only': 803, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 507, '6_cf_check': 7}
+4025/10247 18.1/min {'1_mostbet_only': 803, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 532, '6_cf_check': 7}
+4050/10247 18.2/min {'1_mostbet_only': 803, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 557, '6_cf_check': 7}
+4075/10247 18.2/min {'1_mostbet_only': 803, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 582, '6_cf_check': 7}
+4100/10247 18.3/min {'1_mostbet_only': 803, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 607, '6_cf_check': 7}
+4125/10247 18.4/min {'1_mostbet_only': 803, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 632, '6_cf_check': 7}
+4150/10247 18.5/min {'1_mostbet_only': 803, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 657, '6_cf_check': 7}
+4175/10247 18.5/min {'1_mostbet_only': 803, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 682, '6_cf_check': 7}
+4200/10247 18.6/min {'1_mostbet_only': 803, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 707, '6_cf_check': 7}
+4225/10247 18.7/min {'1_mostbet_only': 803, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 732, '6_cf_check': 7}
+4250/10247 18.7/min {'1_mostbet_only': 803, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 757, '6_cf_check': 7}
+4275/10247 18.8/min {'1_mostbet_only': 803, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 782, '6_cf_check': 7}
+4300/10247 18.9/min {'1_mostbet_only': 803, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 807, '6_cf_check': 7}
+4325/10247 18.9/min {'1_mostbet_only': 803, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 832, '6_cf_check': 7}
+4350/10247 19.0/min {'1_mostbet_only': 803, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 857, '6_cf_check': 7}
+4375/10247 19.1/min {'1_mostbet_only': 803, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 882, '6_cf_check': 7}
+4400/10247 19.1/min {'1_mostbet_only': 803, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 907, '6_cf_check': 7}
+4425/10247 19.2/min {'1_mostbet_only': 803, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 932, '6_cf_check': 7}
+4450/10247 19.3/min {'1_mostbet_only': 804, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 956, '6_cf_check': 7}
+4475/10247 19.3/min {'1_mostbet_only': 804, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 981, '6_cf_check': 7}
+4500/10247 19.4/min {'1_mostbet_only': 804, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1006, '6_cf_check': 7}
+4525/10247 19.5/min {'1_mostbet_only': 804, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1031, '6_cf_check': 7}
+4550/10247 19.5/min {'1_mostbet_only': 804, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1056, '6_cf_check': 7}
+4575/10247 19.5/min {'1_mostbet_only': 804, '2_no_ads': 1675, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1080, '6_cf_check': 8}
+4600/10247 19.6/min {'1_mostbet_only': 804, '2_no_ads': 1677, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1102, '6_cf_check': 9}
+4625/10247 19.6/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1126, '6_cf_check': 9}
+4650/10247 19.7/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1150, '6_cf_check': 10}
+4675/10247 19.8/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1175, '6_cf_check': 10}
+4700/10247 19.8/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1200, '6_cf_check': 10}
+4725/10247 19.9/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1225, '6_cf_check': 10}
+4750/10247 20.0/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1249, '6_cf_check': 11}
+4775/10247 20.0/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1273, '6_cf_check': 12}
+4800/10247 20.1/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1298, '6_cf_check': 12}
+4825/10247 20.2/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1323, '6_cf_check': 12}
+4850/10247 20.2/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1348, '6_cf_check': 12}
+4875/10247 20.3/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1373, '6_cf_check': 12}
+4900/10247 20.3/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1397, '6_cf_check': 13}
+4925/10247 20.4/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1422, '6_cf_check': 13}
+4950/10247 20.5/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1447, '6_cf_check': 13}
+4975/10247 20.5/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1472, '6_cf_check': 13}
+5000/10247 20.6/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1496, '6_cf_check': 14}
+5025/10247 20.6/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1521, '6_cf_check': 14}
+5050/10247 20.7/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1546, '6_cf_check': 14}
+5075/10247 20.8/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1571, '6_cf_check': 14}
+5100/10247 20.8/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1596, '6_cf_check': 14}
+5125/10247 20.9/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1621, '6_cf_check': 14}
+5150/10247 20.9/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1645, '6_cf_check': 15}
+5175/10247 21.0/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1668, '6_cf_check': 17}
+5200/10247 21.0/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1693, '6_cf_check': 17}
+5225/10247 21.1/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1718, '6_cf_check': 17}
+5250/10247 21.2/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1743, '6_cf_check': 17}
+5275/10247 21.2/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1768, '6_cf_check': 17}
+5300/10247 21.3/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1793, '6_cf_check': 17}
+5325/10247 21.3/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1818, '6_cf_check': 17}
+5350/10247 21.4/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1842, '6_cf_check': 18}
+5375/10247 21.4/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1867, '6_cf_check': 18}
+5400/10247 21.5/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1891, '6_cf_check': 19}
+5425/10247 21.6/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1916, '6_cf_check': 19}
+5450/10247 21.6/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1941, '6_cf_check': 19}
+5475/10247 21.7/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1966, '6_cf_check': 19}
+5500/10247 21.7/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 1991, '6_cf_check': 19}
+5525/10247 21.8/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2016, '6_cf_check': 19}
+5550/10247 21.8/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2041, '6_cf_check': 19}
+5575/10247 21.9/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2066, '6_cf_check': 19}
+5600/10247 21.9/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2091, '6_cf_check': 19}
+5625/10247 22.0/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2116, '6_cf_check': 19}
+5650/10247 22.1/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2141, '6_cf_check': 19}
+5675/10247 22.1/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2166, '6_cf_check': 19}
+5700/10247 22.2/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2191, '6_cf_check': 19}
+5725/10247 22.2/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2216, '6_cf_check': 19}
+5750/10247 22.3/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2241, '6_cf_check': 19}
+5775/10247 22.3/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2266, '6_cf_check': 19}
+5800/10247 22.4/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2291, '6_cf_check': 19}
+5825/10247 22.4/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2316, '6_cf_check': 19}
+5850/10247 22.5/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2341, '6_cf_check': 19}
+5875/10247 22.5/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2364, '6_cf_check': 21}
+5900/10247 22.6/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2389, '6_cf_check': 21}
+5925/10247 22.6/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2414, '6_cf_check': 21}
+5950/10247 22.7/min {'1_mostbet_only': 804, '2_no_ads': 1678, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2439, '6_cf_check': 21}
+5975/10247 22.7/min {'1_mostbet_only': 804, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2463, '6_cf_check': 21}
+6000/10247 22.8/min {'1_mostbet_only': 804, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2488, '6_cf_check': 21}
+6025/10247 22.8/min {'1_mostbet_only': 804, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2513, '6_cf_check': 21}
+6050/10247 22.9/min {'1_mostbet_only': 804, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2538, '6_cf_check': 21}
+6075/10247 22.9/min {'1_mostbet_only': 804, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2561, '6_cf_check': 23}
+6100/10247 23.0/min {'1_mostbet_only': 804, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2586, '6_cf_check': 23}
+6125/10247 23.0/min {'1_mostbet_only': 804, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2611, '6_cf_check': 23}
+6150/10247 23.1/min {'1_mostbet_only': 804, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2636, '6_cf_check': 23}
+6175/10247 23.2/min {'1_mostbet_only': 804, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2661, '6_cf_check': 23}
+6200/10247 23.2/min {'1_mostbet_only': 804, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2686, '6_cf_check': 23}
+6225/10247 23.3/min {'1_mostbet_only': 804, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2711, '6_cf_check': 23}
+6250/10247 23.3/min {'1_mostbet_only': 804, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2736, '6_cf_check': 23}
+6275/10247 23.4/min {'1_mostbet_only': 804, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2761, '6_cf_check': 23}
+6300/10247 23.4/min {'1_mostbet_only': 804, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2786, '6_cf_check': 23}
+6325/10247 23.4/min {'1_mostbet_only': 804, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2811, '6_cf_check': 23}
+6350/10247 23.5/min {'1_mostbet_only': 804, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2836, '6_cf_check': 23}
+6375/10247 23.5/min {'1_mostbet_only': 806, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2859, '6_cf_check': 23}
+6400/10247 23.6/min {'1_mostbet_only': 806, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2884, '6_cf_check': 23}
+6425/10247 23.6/min {'1_mostbet_only': 806, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2909, '6_cf_check': 23}
+6450/10247 23.7/min {'1_mostbet_only': 806, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2934, '6_cf_check': 23}
+6475/10247 23.7/min {'1_mostbet_only': 806, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2959, '6_cf_check': 23}
+6500/10247 23.8/min {'1_mostbet_only': 806, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 2984, '6_cf_check': 23}
+6525/10247 23.8/min {'1_mostbet_only': 806, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3009, '6_cf_check': 23}
+6550/10247 23.9/min {'1_mostbet_only': 809, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3031, '6_cf_check': 23}
+6575/10247 23.9/min {'1_mostbet_only': 809, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3056, '6_cf_check': 23}
+6600/10247 24.0/min {'1_mostbet_only': 809, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3081, '6_cf_check': 23}
+6625/10247 24.0/min {'1_mostbet_only': 809, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3106, '6_cf_check': 23}
+6650/10247 24.1/min {'1_mostbet_only': 809, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3131, '6_cf_check': 23}
+6675/10247 24.1/min {'1_mostbet_only': 809, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3156, '6_cf_check': 23}
+6700/10247 24.2/min {'1_mostbet_only': 809, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3181, '6_cf_check': 23}
+6725/10247 24.2/min {'1_mostbet_only': 809, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3206, '6_cf_check': 23}
+6750/10247 24.3/min {'1_mostbet_only': 809, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3231, '6_cf_check': 23}
+6775/10247 24.3/min {'1_mostbet_only': 809, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3256, '6_cf_check': 23}
+6800/10247 24.4/min {'1_mostbet_only': 809, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3281, '6_cf_check': 23}
+6825/10247 24.4/min {'1_mostbet_only': 809, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3306, '6_cf_check': 23}
+6850/10247 24.5/min {'1_mostbet_only': 809, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3331, '6_cf_check': 23}
+6875/10247 24.5/min {'1_mostbet_only': 809, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3356, '6_cf_check': 23}
+6900/10247 24.5/min {'1_mostbet_only': 809, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3381, '6_cf_check': 23}
+6925/10247 24.6/min {'1_mostbet_only': 809, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3406, '6_cf_check': 23}
+6950/10247 24.6/min {'1_mostbet_only': 809, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3431, '6_cf_check': 23}
+6975/10247 24.7/min {'1_mostbet_only': 809, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3456, '6_cf_check': 23}
+7000/10247 24.7/min {'1_mostbet_only': 809, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3481, '6_cf_check': 23}
+7025/10247 24.8/min {'1_mostbet_only': 809, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3506, '6_cf_check': 23}
+7050/10247 24.8/min {'1_mostbet_only': 810, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3530, '6_cf_check': 23}
+7075/10247 24.9/min {'1_mostbet_only': 810, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3555, '6_cf_check': 23}
+7100/10247 24.9/min {'1_mostbet_only': 810, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3580, '6_cf_check': 23}
+7125/10247 24.9/min {'1_mostbet_only': 810, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3605, '6_cf_check': 23}
+7150/10247 25.0/min {'1_mostbet_only': 810, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3630, '6_cf_check': 23}
+7175/10247 25.0/min {'1_mostbet_only': 810, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3655, '6_cf_check': 23}
+7200/10247 25.1/min {'1_mostbet_only': 810, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3680, '6_cf_check': 23}
+7225/10247 25.1/min {'1_mostbet_only': 810, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3705, '6_cf_check': 23}
+7250/10247 25.2/min {'1_mostbet_only': 810, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3730, '6_cf_check': 23}
+7275/10247 25.2/min {'1_mostbet_only': 810, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3755, '6_cf_check': 23}
+7300/10247 25.3/min {'1_mostbet_only': 810, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3780, '6_cf_check': 23}
+7325/10247 25.3/min {'1_mostbet_only': 811, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3804, '6_cf_check': 23}
+7350/10247 25.3/min {'1_mostbet_only': 815, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3825, '6_cf_check': 23}
+7375/10247 25.4/min {'1_mostbet_only': 815, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3850, '6_cf_check': 23}
+7400/10247 25.4/min {'1_mostbet_only': 815, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3875, '6_cf_check': 23}
+7425/10247 25.5/min {'1_mostbet_only': 815, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3900, '6_cf_check': 23}
+7450/10247 25.5/min {'1_mostbet_only': 815, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3925, '6_cf_check': 23}
+7475/10247 25.5/min {'1_mostbet_only': 815, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3950, '6_cf_check': 23}
+7500/10247 25.6/min {'1_mostbet_only': 815, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3975, '6_cf_check': 23}
+7525/10247 25.6/min {'1_mostbet_only': 818, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 3997, '6_cf_check': 23}
+7550/10247 25.7/min {'1_mostbet_only': 818, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 4022, '6_cf_check': 23}
+7575/10247 25.7/min {'1_mostbet_only': 818, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 4047, '6_cf_check': 23}
+7600/10247 25.8/min {'1_mostbet_only': 818, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 4072, '6_cf_check': 23}
+7625/10247 25.8/min {'1_mostbet_only': 818, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 4097, '6_cf_check': 23}
+7650/10247 25.8/min {'1_mostbet_only': 818, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 4122, '6_cf_check': 23}
+7675/10247 25.9/min {'1_mostbet_only': 819, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 4146, '6_cf_check': 23}
+7700/10247 25.9/min {'1_mostbet_only': 819, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 4171, '6_cf_check': 23}
+7725/10247 26.0/min {'1_mostbet_only': 819, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 4196, '6_cf_check': 23}
+7750/10247 26.0/min {'1_mostbet_only': 819, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 4221, '6_cf_check': 23}
+7775/10247 26.0/min {'1_mostbet_only': 819, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 4246, '6_cf_check': 23}
+7800/10247 26.1/min {'1_mostbet_only': 819, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 4271, '6_cf_check': 23}
+7825/10247 26.1/min {'1_mostbet_only': 819, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 4296, '6_cf_check': 23}
+7850/10247 26.2/min {'1_mostbet_only': 819, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 4321, '6_cf_check': 23}
+7875/10247 26.2/min {'1_mostbet_only': 819, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 4346, '6_cf_check': 23}
+7900/10247 26.2/min {'1_mostbet_only': 819, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 39, '5_not_shown': 4371, '6_cf_check': 23}
+7925/10247 26.3/min {'1_mostbet_only': 819, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 40, '5_not_shown': 4392, '6_cf_check': 26}
+7950/10247 26.3/min {'1_mostbet_only': 819, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 40, '5_not_shown': 4417, '6_cf_check': 26}
+7975/10247 26.3/min {'1_mostbet_only': 819, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 40, '5_not_shown': 4442, '6_cf_check': 26}
+8000/10247 26.4/min {'1_mostbet_only': 819, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 40, '5_not_shown': 4467, '6_cf_check': 26}
+8025/10247 26.4/min {'1_mostbet_only': 819, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 40, '5_not_shown': 4492, '6_cf_check': 26}
+8050/10247 26.4/min {'1_mostbet_only': 819, '2_no_ads': 1679, '3_other_only': 871, '4_mixed': 98, '5_dead': 40, '5_not_shown': 4517, '6_cf_check': 26}
+8075/10247 26.5/min {'1_mostbet_only': 819, '2_no_ads': 1679, '3_other_only': 872, '4_mixed': 98, '5_dead': 41, '5_not_shown': 4540, '6_cf_check': 26}
+8100/10247 26.5/min {'1_mostbet_only': 819, '2_no_ads': 1680, '3_other_only': 872, '4_mixed': 98, '5_dead': 41, '5_not_shown': 4564, '6_cf_check': 26}
+8125/10247 26.6/min {'1_mostbet_only': 819, '2_no_ads': 1680, '3_other_only': 872, '4_mixed': 98, '5_dead': 41, '5_not_shown': 4589, '6_cf_check': 26}
+8150/10247 26.6/min {'1_mostbet_only': 820, '2_no_ads': 1680, '3_other_only': 872, '4_mixed': 98, '5_dead': 41, '5_not_shown': 4612, '6_cf_check': 27}
+8175/10247 26.6/min {'1_mostbet_only': 820, '2_no_ads': 1680, '3_other_only': 872, '4_mixed': 98, '5_dead': 41, '5_not_shown': 4636, '6_cf_check': 28}
+8200/10247 26.7/min {'1_mostbet_only': 820, '2_no_ads': 1680, '3_other_only': 872, '4_mixed': 98, '5_dead': 41, '5_not_shown': 4661, '6_cf_check': 28}
+8225/10247 26.7/min {'1_mostbet_only': 820, '2_no_ads': 1680, '3_other_only': 872, '4_mixed': 98, '5_dead': 42, '5_not_shown': 4684, '6_cf_check': 29}
+8250/10247 26.7/min {'1_mostbet_only': 820, '2_no_ads': 1680, '3_other_only': 873, '4_mixed': 98, '5_dead': 43, '5_not_shown': 4706, '6_cf_check': 30}
+8275/10247 26.7/min {'1_mostbet_only': 820, '2_no_ads': 1680, '3_other_only': 873, '4_mixed': 98, '5_dead': 44, '5_not_shown': 4730, '6_cf_check': 30}
+8300/10247 26.8/min {'1_mostbet_only': 820, '2_no_ads': 1680, '3_other_only': 873, '4_mixed': 98, '5_dead': 44, '5_not_shown': 4753, '6_cf_check': 32}
+8325/10247 26.8/min {'1_mostbet_only': 820, '2_no_ads': 1680, '3_other_only': 873, '4_mixed': 98, '5_dead': 44, '5_not_shown': 4777, '6_cf_check': 33}
+8350/10247 26.8/min {'1_mostbet_only': 820, '2_no_ads': 1680, '3_other_only': 873, '4_mixed': 98, '5_dead': 44, '5_not_shown': 4801, '6_cf_check': 34}
+8375/10247 26.8/min {'1_mostbet_only': 820, '2_no_ads': 1693, '3_other_only': 874, '4_mixed': 98, '5_dead': 44, '5_not_shown': 4811, '6_cf_check': 35}
+8400/10247 26.7/min {'1_mostbet_only': 820, '2_no_ads': 1718, '3_other_only': 874, '4_mixed': 98, '5_dead': 44, '5_not_shown': 4811, '6_cf_check': 35}
+8425/10247 26.7/min {'1_mostbet_only': 820, '2_no_ads': 1743, '3_other_only': 874, '4_mixed': 98, '5_dead': 44, '5_not_shown': 4811, '6_cf_check': 35}
+8450/10247 26.6/min {'1_mostbet_only': 820, '2_no_ads': 1765, '3_other_only': 877, '4_mixed': 98, '5_dead': 44, '5_not_shown': 4811, '6_cf_check': 35}
+8475/10247 26.6/min {'1_mostbet_only': 820, '2_no_ads': 1789, '3_other_only': 878, '4_mixed': 98, '5_dead': 44, '5_not_shown': 4811, '6_cf_check': 35}
+8500/10247 26.6/min {'1_mostbet_only': 820, '2_no_ads': 1814, '3_other_only': 878, '4_mixed': 98, '5_dead': 44, '5_not_shown': 4811, '6_cf_check': 35}
+8525/10247 26.5/min {'1_mostbet_only': 820, '2_no_ads': 1839, '3_other_only': 878, '4_mixed': 98, '5_dead': 44, '5_not_shown': 4811, '6_cf_check': 35}
+8550/10247 26.5/min {'1_mostbet_only': 820, '2_no_ads': 1864, '3_other_only': 878, '4_mixed': 98, '5_dead': 44, '5_not_shown': 4811, '6_cf_check': 35}
+8575/10247 26.4/min {'1_mostbet_only': 820, '2_no_ads': 1889, '3_other_only': 878, '4_mixed': 98, '5_dead': 44, '5_not_shown': 4811, '6_cf_check': 35}
+8600/10247 26.3/min {'1_mostbet_only': 820, '2_no_ads': 1914, '3_other_only': 878, '4_mixed': 98, '5_dead': 44, '5_not_shown': 4811, '6_cf_check': 35}
+8625/10247 26.2/min {'1_mostbet_only': 820, '2_no_ads': 1938, '3_other_only': 878, '4_mixed': 98, '5_dead': 44, '5_not_shown': 4812, '6_cf_check': 35}
+8650/10247 26.1/min {'1_mostbet_only': 820, '2_no_ads': 1961, '3_other_only': 878, '4_mixed': 98, '5_dead': 44, '5_not_shown': 4814, '6_cf_check': 35}
+8675/10247 26.1/min {'1_mostbet_only': 820, '2_no_ads': 1986, '3_other_only': 878, '4_mixed': 98, '5_dead': 44, '5_not_shown': 4814, '6_cf_check': 35}
+8700/10247 26.0/min {'1_mostbet_only': 820, '2_no_ads': 2009, '3_other_only': 879, '4_mixed': 98, '5_dead': 45, '5_not_shown': 4814, '6_cf_check': 35}
+8725/10247 25.9/min {'1_mostbet_only': 820, '2_no_ads': 2032, '3_other_only': 879, '4_mixed': 98, '5_dead': 46, '5_not_shown': 4815, '6_cf_check': 35}
+8750/10247 25.8/min {'1_mostbet_only': 820, '2_no_ads': 2057, '3_other_only': 879, '4_mixed': 98, '5_dead': 46, '5_not_shown': 4815, '6_cf_check': 35}
+8775/10247 25.7/min {'1_mostbet_only': 820, '2_no_ads': 2081, '3_other_only': 879, '4_mixed': 98, '5_dead': 47, '5_not_shown': 4815, '6_cf_check': 35}
+8800/10247 25.6/min {'1_mostbet_only': 820, '2_no_ads': 2105, '3_other_only': 880, '4_mixed': 98, '5_dead': 47, '5_not_shown': 4815, '6_cf_check': 35}
+8825/10247 25.6/min {'1_mostbet_only': 820, '2_no_ads': 2129, '3_other_only': 881, '4_mixed': 98, '5_dead': 47, '5_not_shown': 4815, '6_cf_check': 35}
+8850/10247 25.5/min {'1_mostbet_only': 820, '2_no_ads': 2153, '3_other_only': 881, '4_mixed': 98, '5_dead': 48, '5_not_shown': 4815, '6_cf_check': 35}
+8875/10247 25.5/min {'1_mostbet_only': 820, '2_no_ads': 2177, '3_other_only': 881, '4_mixed': 98, '5_dead': 48, '5_not_shown': 4816, '6_cf_check': 35}
+8900/10247 25.4/min {'1_mostbet_only': 820, '2_no_ads': 2199, '3_other_only': 881, '4_mixed': 98, '5_dead': 49, '5_not_shown': 4818, '6_cf_check': 35}
+8925/10247 25.4/min {'1_mostbet_only': 820, '2_no_ads': 2223, '3_other_only': 882, '4_mixed': 98, '5_dead': 49, '5_not_shown': 4818, '6_cf_check': 35}
+8950/10247 25.4/min {'1_mostbet_only': 820, '2_no_ads': 2248, '3_other_only': 882, '4_mixed': 98, '5_dead': 49, '5_not_shown': 4818, '6_cf_check': 35}
+8975/10247 25.3/min {'1_mostbet_only': 820, '2_no_ads': 2273, '3_other_only': 882, '4_mixed': 98, '5_dead': 49, '5_not_shown': 4818, '6_cf_check': 35}
+9000/10247 25.3/min {'1_mostbet_only': 827, '2_no_ads': 2291, '3_other_only': 882, '4_mixed': 98, '5_dead': 49, '5_not_shown': 4818, '6_cf_check': 35}
+9025/10247 25.3/min {'1_mostbet_only': 848, '2_no_ads': 2291, '3_other_only': 884, '4_mixed': 98, '5_dead': 51, '5_not_shown': 4818, '6_cf_check': 35}
+9050/10247 25.4/min {'1_mostbet_only': 873, '2_no_ads': 2291, '3_other_only': 884, '4_mixed': 98, '5_dead': 51, '5_not_shown': 4818, '6_cf_check': 35}
+9075/10247 25.4/min {'1_mostbet_only': 897, '2_no_ads': 2291, '3_other_only': 885, '4_mixed': 98, '5_dead': 51, '5_not_shown': 4818, '6_cf_check': 35}
+9100/10247 25.4/min {'1_mostbet_only': 921, '2_no_ads': 2291, '3_other_only': 886, '4_mixed': 98, '5_dead': 51, '5_not_shown': 4818, '6_cf_check': 35}
+9125/10247 25.4/min {'1_mostbet_only': 944, '2_no_ads': 2291, '3_other_only': 886, '4_mixed': 100, '5_dead': 51, '5_not_shown': 4818, '6_cf_check': 35}
+9150/10247 25.4/min {'1_mostbet_only': 969, '2_no_ads': 2291, '3_other_only': 886, '4_mixed': 100, '5_dead': 51, '5_not_shown': 4818, '6_cf_check': 35}
+9175/10247 25.4/min {'1_mostbet_only': 988, '2_no_ads': 2297, '3_other_only': 886, '4_mixed': 100, '5_dead': 51, '5_not_shown': 4818, '6_cf_check': 35}
+9200/10247 25.4/min {'1_mostbet_only': 1013, '2_no_ads': 2297, '3_other_only': 886, '4_mixed': 100, '5_dead': 51, '5_not_shown': 4818, '6_cf_check': 35}
+9225/10247 25.5/min {'1_mostbet_only': 1036, '2_no_ads': 2298, '3_other_only': 887, '4_mixed': 100, '5_dead': 51, '5_not_shown': 4818, '6_cf_check': 35}
+9250/10247 25.5/min {'1_mostbet_only': 1061, '2_no_ads': 2298, '3_other_only': 887, '4_mixed': 100, '5_dead': 51, '5_not_shown': 4818, '6_cf_check': 35}
+9275/10247 25.5/min {'1_mostbet_only': 1086, '2_no_ads': 2298, '3_other_only': 887, '4_mixed': 100, '5_dead': 51, '5_not_shown': 4818, '6_cf_check': 35}
+9300/10247 25.5/min {'1_mostbet_only': 1111, '2_no_ads': 2298, '3_other_only': 887, '4_mixed': 100, '5_dead': 51, '5_not_shown': 4818, '6_cf_check': 35}
+9325/10247 25.6/min {'1_mostbet_only': 1135, '2_no_ads': 2298, '3_other_only': 888, '4_mixed': 100, '5_dead': 51, '5_not_shown': 4818, '6_cf_check': 35}
+9350/10247 25.6/min {'1_mostbet_only': 1148, '2_no_ads': 2309, '3_other_only': 889, '4_mixed': 100, '5_dead': 51, '5_not_shown': 4818, '6_cf_check': 35}
+9375/10247 25.6/min {'1_mostbet_only': 1148, '2_no_ads': 2332, '3_other_only': 891, '4_mixed': 100, '5_dead': 51, '5_not_shown': 4818, '6_cf_check': 35}
+9400/10247 25.6/min {'1_mostbet_only': 1148, '2_no_ads': 2357, '3_other_only': 891, '4_mixed': 100, '5_dead': 51, '5_not_shown': 4818, '6_cf_check': 35}
+9425/10247 25.6/min {'1_mostbet_only': 1148, '2_no_ads': 2381, '3_other_only': 891, '4_mixed': 100, '5_dead': 52, '5_not_shown': 4818, '6_cf_check': 35}
+9450/10247 25.6/min {'1_mostbet_only': 1148, '2_no_ads': 2406, '3_other_only': 891, '4_mixed': 100, '5_dead': 52, '5_not_shown': 4818, '6_cf_check': 35}
+9475/10247 25.6/min {'1_mostbet_only': 1148, '2_no_ads': 2431, '3_other_only': 891, '4_mixed': 100, '5_dead': 52, '5_not_shown': 4818, '6_cf_check': 35}
+9500/10247 25.6/min {'1_mostbet_only': 1148, '2_no_ads': 2456, '3_other_only': 891, '4_mixed': 100, '5_dead': 52, '5_not_shown': 4818, '6_cf_check': 35}
+9525/10247 25.7/min {'1_mostbet_only': 1148, '2_no_ads': 2481, '3_other_only': 891, '4_mixed': 100, '5_dead': 52, '5_not_shown': 4818, '6_cf_check': 35}
+9550/10247 25.7/min {'1_mostbet_only': 1148, '2_no_ads': 2506, '3_other_only': 891, '4_mixed': 100, '5_dead': 52, '5_not_shown': 4818, '6_cf_check': 35}
+9575/10247 25.7/min {'1_mostbet_only': 1148, '2_no_ads': 2528, '3_other_only': 891, '4_mixed': 100, '5_dead': 55, '5_not_shown': 4818, '6_cf_check': 35}
+9600/10247 25.7/min {'1_mostbet_only': 1148, '2_no_ads': 2547, '3_other_only': 891, '4_mixed': 100, '5_dead': 61, '5_not_shown': 4818, '6_cf_check': 35}
+9625/10247 25.8/min {'1_mostbet_only': 1148, '2_no_ads': 2572, '3_other_only': 891, '4_mixed': 100, '5_dead': 61, '5_not_shown': 4818, '6_cf_check': 35}
+9650/10247 25.8/min {'1_mostbet_only': 1148, '2_no_ads': 2597, '3_other_only': 891, '4_mixed': 100, '5_dead': 61, '5_not_shown': 4818, '6_cf_check': 35}
+9675/10247 25.8/min {'1_mostbet_only': 1148, '2_no_ads': 2621, '3_other_only': 891, '4_mixed': 100, '5_dead': 62, '5_not_shown': 4818, '6_cf_check': 35}
+9700/10247 25.8/min {'1_mostbet_only': 1148, '2_no_ads': 2643, '3_other_only': 891, '4_mixed': 100, '5_dead': 65, '5_not_shown': 4818, '6_cf_check': 35}
+9725/10247 25.9/min {'1_mostbet_only': 1148, '2_no_ads': 2667, '3_other_only': 891, '4_mixed': 100, '5_dead': 66, '5_not_shown': 4818, '6_cf_check': 35}
+9750/10247 25.9/min {'1_mostbet_only': 1148, '2_no_ads': 2690, '3_other_only': 891, '4_mixed': 100, '5_dead': 67, '5_not_shown': 4819, '6_cf_check': 35}
+9775/10247 25.9/min {'1_mostbet_only': 1148, '2_no_ads': 2715, '3_other_only': 891, '4_mixed': 100, '5_dead': 67, '5_not_shown': 4819, '6_cf_check': 35}
+9800/10247 25.9/min {'1_mostbet_only': 1148, '2_no_ads': 2740, '3_other_only': 891, '4_mixed': 100, '5_dead': 67, '5_not_shown': 4819, '6_cf_check': 35}
+9825/10247 25.9/min {'1_mostbet_only': 1148, '2_no_ads': 2765, '3_other_only': 891, '4_mixed': 100, '5_dead': 67, '5_not_shown': 4819, '6_cf_check': 35}
+9850/10247 25.9/min {'1_mostbet_only': 1148, '2_no_ads': 2789, '3_other_only': 891, '4_mixed': 100, '5_dead': 67, '5_not_shown': 4819, '6_cf_check': 36}
+9875/10247 25.9/min {'1_mostbet_only': 1148, '2_no_ads': 2814, '3_other_only': 891, '4_mixed': 100, '5_dead': 67, '5_not_shown': 4819, '6_cf_check': 36}
+9900/10247 26.0/min {'1_mostbet_only': 1148, '2_no_ads': 2839, '3_other_only': 891, '4_mixed': 100, '5_dead': 67, '5_not_shown': 4819, '6_cf_check': 36}
+9925/10247 26.0/min {'1_mostbet_only': 1148, '2_no_ads': 2863, '3_other_only': 891, '4_mixed': 100, '5_dead': 67, '5_not_shown': 4819, '6_cf_check': 37}
+9950/10247 26.0/min {'1_mostbet_only': 1148, '2_no_ads': 2887, '3_other_only': 891, '4_mixed': 100, '5_dead': 68, '5_not_shown': 4819, '6_cf_check': 37}
+9975/10247 26.0/min {'1_mostbet_only': 1148, '2_no_ads': 2912, '3_other_only': 891, '4_mixed': 100, '5_dead': 68, '5_not_shown': 4819, '6_cf_check': 37}
+10000/10247 25.9/min {'1_mostbet_only': 1148, '2_no_ads': 2936, '3_other_only': 891, '4_mixed': 100, '5_dead': 68, '5_not_shown': 4819, '6_cf_check': 38}
+10025/10247 25.9/min {'1_mostbet_only': 1148, '2_no_ads': 2960, '3_other_only': 891, '4_mixed': 100, '5_dead': 69, '5_not_shown': 4819, '6_cf_check': 38}
+10050/10247 25.9/min {'1_mostbet_only': 1148, '2_no_ads': 2982, '3_other_only': 891, '4_mixed': 100, '5_dead': 72, '5_not_shown': 4819, '6_cf_check': 38}
+10075/10247 26.0/min {'1_mostbet_only': 1148, '2_no_ads': 3006, '3_other_only': 891, '4_mixed': 100, '5_dead': 72, '5_not_shown': 4820, '6_cf_check': 38}
+10100/10247 26.0/min {'1_mostbet_only': 1148, '2_no_ads': 3030, '3_other_only': 891, '4_mixed': 100, '5_dead': 73, '5_not_shown': 4820, '6_cf_check': 38}
+10125/10247 26.0/min {'1_mostbet_only': 1148, '2_no_ads': 3055, '3_other_only': 891, '4_mixed': 100, '5_dead': 73, '5_not_shown': 4820, '6_cf_check': 38}
+10150/10247 26.0/min {'1_mostbet_only': 1148, '2_no_ads': 3077, '3_other_only': 893, '4_mixed': 100, '5_dead': 74, '5_not_shown': 4820, '6_cf_check': 38}
+10175/10247 26.0/min {'1_mostbet_only': 1148, '2_no_ads': 3091, '3_other_only': 904, '4_mixed': 100, '5_dead': 74, '5_not_shown': 4820, '6_cf_check': 38}
+10200/10247 25.9/min {'1_mostbet_only': 1148, '2_no_ads': 3104, '3_other_only': 916, '4_mixed': 100, '5_dead': 74, '5_not_shown': 4820, '6_cf_check': 38}
+10225/10247 25.5/min {'1_mostbet_only': 1148, '2_no_ads': 3109, '3_other_only': 935, '4_mixed': 100, '5_dead': 74, '5_not_shown': 4820, '6_cf_check': 39}
+10247/10247 25.4/min {'1_mostbet_only': 1148, '2_no_ads': 3117, '3_other_only': 949, '4_mixed': 100, '5_dead': 74, '5_not_shown': 4820, '6_cf_check': 39}
+done {'1_mostbet_only': 1148, '2_no_ads': 3117, '3_other_only': 949, '4_mixed': 100, '5_dead': 74, '5_not_shown': 4820, '6_cf_check': 39}
