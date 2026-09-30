@@ -116,6 +116,7 @@ def hidden(node) -> bool:
 SHELL = re.compile(r"front\.cdn-global-mb\.com|/spa-static/|mb_prod\.js|cdn-global-mst\.com/spa", re.I)
 SKIPPY = re.compile(r"(^|\.)(t\.me|youtu\.be|youtube\.com|facebook\.com|instagram\.com|x\.com|twitter\.com|tiktok\.com|"
                     r"vk\.com|linkedin\.com|pinterest\.com|wa\.me|bit\.ly|goo\.gl)$", re.I)
+PLACEHOLDER_HREF = re.compile(r"^(href|link|url|#href|\{\{.*\}\}|\[[A-Z_]+\]|%[A-Z_]+%|\$\{.*\})$", re.I)
 POST_CLASS = re.compile(r"post|entry|article|card|blog|news|item|teaser|excerpt|story", re.I)
 
 
@@ -156,8 +157,12 @@ def page_features(html: str, final_url: str, domain: str) -> dict:
     internal, date_links, slug_links, ext_hosts = 0, 0, 0, Counter()
     apk, gates, aff_links, seen_aff = [], [], [], set()
     trackers, ext_urls = [], Counter()
+    placeholders = 0  # buttons whose address a script fills later or a template left unfilled
     for a in tree.css("a[href]"):
         href = (a.attributes.get("href") or "").strip()
+        if PLACEHOLDER_HREF.search(href):
+            placeholders += 1
+            continue
         if not href or href.startswith(("#", "mailto:", "tel:", "javascript:")):
             continue
         try:
@@ -262,7 +267,7 @@ def page_features(html: str, final_url: str, domain: str) -> dict:
         "links_int": internal, "links_ext": sum(ext_hosts.values()), "ext_hosts": len(ext_hosts),
         "date_links": date_links, "slug_links": slug_links, "articles": len(tree.css("article")),
         "wp": "wp-content" in html[:400000], "aff_links": aff_links[:60], "gates": gates[:30],
-        "apk": apk[:10], "referrer_js": ref_js, "trackers": sorted(set(trackers))[:20],
+        "apk": apk[:10], "referrer_js": ref_js, "trackers": sorted(set(trackers))[:20], "placeholder_links": placeholders,
         "mostbet_shell": bool(SHELL.search(html)),
         "mirror_title": bool(lb.MIRROR_TITLE.search(title)), "mostbet_assets": bool(lb.MOSTBET_STRONG.search(html)),
         "parked": bool(lb.PARKED.search(f"{title} {text[:3000]}") or lb.PARKED_HTML.search(html[:200000])),

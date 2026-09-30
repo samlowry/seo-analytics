@@ -11,6 +11,8 @@ Input: a CSV with a `domain` column (camoufox-queue.csv or resolves-minus-ours-u
 Output: <out_dir>/http-scan.jsonl.gz and <out_dir>/browser-scan.jsonl.gz, one record per site;
 reruns skip scanned domains, --redo FILE rescans the listed ones (the report takes the last record).
 Filters: --priority 1,2 (queue priority), --domains FILE, --limit N.
+--mode gates follows the button addresses given in the queue column `urls` (from saved home pages) by
+HTTP, logs to gates-scan.jsonl.gz; tools/brand-classify.py reads them as extra destinations.
 Keeping home pages: --save-html [DIR] (default <out_dir>/html, <domain>.<http|browser>.html.gz);
 --mode home only fetches and keeps home pages, follows nothing, logs to home-dump.jsonl.gz.
 Exit via Mac SOCKS for the browser and HTTP follows (server scan, host default route untouched):
@@ -952,6 +954,21 @@ class Scanner:
                 "destinations": destinations, "result": result, "rest_followed": len(new),
                 "our_refs_skipped": (rec.get("our_refs_skipped") or []) + state["our_refs"]}
 
+    async def follow_gates(self, item):
+        """Gates pass: follow by plain HTTP the button addresses read from a saved home page (own
+        gates like /go/, external trackers) that no earlier pass took to the end. Input rows carry
+        `urls` (space-separated). Our refs are skipped as everywhere."""
+        domain = item["domain"]
+        site = item.get("site") or domain
+        state = {"our_refs": []}
+        queue = [{"url": u, "reason": "gate", "rank": 0} for u in (item.get("urls") or "").split() if u]
+        _, new, not_followed = await self.follow_all(queue, site, lambda u: self.follow_http_only(u, site, state))
+        for d in new:
+            d.pop("_html", None)
+        return {"domain": domain, "ts": time.strftime("%Y-%m-%dT%H:%M:%S"), "network": self.network, "mode": "gates",
+                "destinations": new, "not_followed": not_followed, "our_refs_skipped": state["our_refs"],
+                "result": {"group": "gates", "reason": f"followed={len(new)}"}}
+
     async def home_dump(self, item):
         """Home-only pass: fetch the home page by plain HTTP and keep it; nothing is followed, so
         groups do not change. A home that redirects straight to a ref is recorded, not requested."""
@@ -1124,7 +1141,7 @@ async def main():
     ap.add_argument("--priority", help="comma-separated queue priorities to take, e.g. 1,2")
     ap.add_argument("--redo", help="file with domains to rescan")
     ap.add_argument("--domains", help="file with domains to take from the queue (others are ignored)")
-    ap.add_argument("--mode", choices=("http", "destinations", "browser", "home", "rest"), default="http",
+    ap.add_argument("--mode", choices=("http", "destinations", "browser", "home", "rest", "gates"), default="http",
                     help="http: sites by plain HTTP; destinations: unique destinations HTTP could not decide, "
                          "in the browser; browser: whole sites whose home page needs a browser; "
                          "home: only fetch and keep home pages by plain HTTP (implies --save-html); "
@@ -1146,7 +1163,7 @@ async def main():
     out.mkdir(parents=True, exist_ok=True)
     scan = out / {"http": "http-scan.jsonl.gz", "destinations": "dest-browser.jsonl.gz",
                   "browser": "browser-scan.jsonl.gz", "home": "home-dump.jsonl.gz",
-                  "rest": "rest-scan.jsonl.gz"}[a.mode]
+                  "rest": "rest-scan.jsonl.gz", "gates": "gates-scan.jsonl.gz"}[a.mode]
     html_dir = None
     if a.save_html is not None or a.mode == "home":
         html_dir = Path(a.save_html) if a.save_html else out / "html"
@@ -1219,7 +1236,8 @@ async def main():
             rate = n / (time.time() - t0) * 60
             print(f"{n}/{len(todo)} {rate:.1f}/min {dict(sorted(stats.items()))}", flush=True)
 
-    http_one = {"home": scanner.home_dump, "rest": lambda x: scanner.follow_rest(x["rec"])}.get(
+    http_one = {"home": scanner.home_dump, "rest": lambda x: scanner.follow_rest(x["rec"]),
+                "gates": scanner.follow_gates}.get(
         a.mode, scanner.http_scan_site)
 
     async def http_worker():
@@ -1295,7 +1313,7 @@ async def main():
                     pass
                 kill_driver(cm)
 
-    await asyncio.gather(*((http_worker() if a.mode in ("http", "home", "rest") else worker(i))
+    await asyncio.gather(*((http_worker() if a.mode in ("http", "home", "rest", "gates") else worker(i))
                            for i in range(a.concurrency)))
     await session.close()
     fh.close()

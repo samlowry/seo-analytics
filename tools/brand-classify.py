@@ -14,7 +14,8 @@ Categories (one per site):
   mono_mostbet   Mostbet monobrand advertising Mostbet only
   mono_unresolved Mostbet monobrand whose buttons lead to a gate or tracker nobody followed to the end
   mono_no_ads    Mostbet monobrand with no affiliate links found
-  bait           Mostbet in the domain or title, the page is about another brand or casino
+  bait           Mostbet in the domain or title, the page is about another brand or casino (a violator)
+  discredit      Mostbet in the domain, the page is not about gambling at all (shop, drugs, anything)
   multibrand     gambling affiliate not about Mostbet: rating of several brands, games, slots
   article        article site or link seller: a feed of posts, Mostbet not its subject
   hacked         unrelated site with Mostbet only in links, often hidden
@@ -220,12 +221,14 @@ def ads(domain: str, g: dict, a: dict, na: dict, page: dict, our: set, dests: li
         elif kind in ("other_gambling", "gambling_site") and (coded or tracked):
             other.add(brand if brand and brand != "?" else (urlsplit(final).hostname or "?"))
         elif kind == "other_gambling" and brand and brand != "?":
-            plain.add(urlsplit(final).hostname or brand)
+            other.add(brand)  # a link to a named operator is an ad even without a partner code (owner, 30.09)
         elif kind == "gambling_site":
             host = (urlsplit(final).hostname or "").lower()
             named = lb.brand_of_host(host) or next((n for n, rx in lb.BRAND_RES if rx.search(x.get("title") or "")), "")
             if named and named != "Mostbet" and not NOT_CASINO_HOST.search(host):
-                plain.add(host)
+                other.add(named)
+            elif not NOT_CASINO_HOST.search(host):
+                plain.add(host)  # another gambling site with no known brand: a doorway, the weak case
         elif kind in ("unknown", "needs_browser", "dead") and coded and mostbet_ref_host(lb_base(final) or lb_base(url)):
             mb = True
         elif kind in ("unknown", "needs_browser", "dead") and coded and not MB.search(lb_base(final) or lb_base(url)):
@@ -264,6 +267,10 @@ def ads(domain: str, g: dict, a: dict, na: dict, page: dict, our: set, dests: li
             mb = True
         elif x.get("brand"):
             other.add(x["brand"])
+        elif lb.AFF_PARAMS.search(urlsplit(x["url"]).query or "") or lb.TRACK_PARAMS.search(urlsplit(x["url"]).query or "") \
+                or re.search(r"(^|&)(affiliatecode|affiliate_code|sub\d|buyer)=", urlsplit(x["url"]).query or "", re.I):
+            if not MB.search(x.get("host") or "") and not mostbet_ref_host(x.get("host") or ""):
+                other.add(x.get("host") or "?")
         elif not g:
             unverified += 1  # tracker link of an unknown brand, not followed for this site
     return {"mb": mb, "other": sorted(other), "plain": sorted(p for p in plain if p), "unverified": unverified,
@@ -328,7 +335,7 @@ def site_type(domain: str, page: dict, ad: dict) -> tuple:
     # Own topic is not gambling and Mostbet sits in links to other domains or in hidden blocks: injected.
     if not topic_gambling and not in_domain and (hidden_mb or (ext_mb and mb_text <= max(ext_mb, HACKED_MAX_TEXT) + 2)):
         return "hacked", f"mostbet_in_links ext={ext_mb} hidden={hidden_mb} text={mb_text} gambling={gpk}"
-    if in_head and not in_domain and not gambling:
+    if in_head and not in_domain and not gambling and page.get("text_len", 0) >= 1000 and not ad["mb"]:
         return "hacked", f"mostbet_in_title_of_non_gambling_page text={mb_text}"
     # Mostbet only in the site's own posts: an article site or a sold post.
     if not topic_gambling and not in_domain and not ad["mb"] and (in_posts or (int_mb and posts)):
@@ -339,12 +346,18 @@ def site_type(domain: str, page: dict, ad: dict) -> tuple:
         return "mono", f"name_in_{'domain' if in_domain else 'title'} density={dens}"
     if dominant and dens >= MONO_DENSITY and gambling and page.get("mb_heads", 0) >= 2 and ext_mb <= mb_text / 2:
         return "mono", f"density={dens} heads={page.get('mb_heads', 0)}"
+    # The brand in the domain name makes the site a brand user whatever it shows (owner, 30.09):
+    # gambling content of others -> bait; content with no gambling at all -> brand discredit.
+    if in_domain and not page.get("moved") and gambling:
+        return "bait", f"mostbet_in_domain content={other_name or 'gambling'}:{other_n} mostbet={mb_text}"
+    if in_domain and not page.get("moved") and not gambling and page.get("text_len", 0) >= STUB_TEXT:
+        return "discredit", f"mostbet_in_domain non_gambling content text={page.get('text_len', 0)}"
     if gambling:
         return "multibrand", f"top_other={other_name}:{other_n} mostbet={mb_text} density={dens}"
     if not in_domain and (int_mb or posts):
         return "article", f"non_gambling int={int_mb} articles={page.get('articles', 0)}"
     if in_domain and not mb_text:
-        return "unrelated", "mostbet_only_in_domain"
+        return "discredit", "mostbet_only_in_domain"
     return "unclear", f"density={dens} top_other={other_name}:{other_n} gambling={gpk}"
 
 
@@ -380,7 +393,7 @@ def mono_sub(ad: dict, page: dict) -> str:
         return "mono_mixed" if ad["mb"] else "mono_other"
     # Buttons lead somewhere (own gate, external tracker, partner link of an unknown brand) and nobody
     # followed them to the end: the advertiser is unknown, not absent.
-    if not ad["mb"] and (page.get("gates") or page.get("trackers") or ad["unverified"]):
+    if not ad["mb"] and (page.get("gates") or page.get("trackers") or ad["unverified"] or page.get("placeholder_links", 0) >= 2):
         return "mono_unresolved"
     if ad["plain"]:
         return "mono_xlink"
@@ -405,6 +418,19 @@ def main(d: str):
             dest_by.setdefault(x["domain"], []).append(x)
             if x.get("kind") == "other_gambling" and x.get("brand") not in ("", "?"):
                 trackers_to_other |= {lb_base(u) for u in hop_urls(x) + [x.get("url") or ""] if lb_base(u)}
+    not_gates = set()
+    gates_log = bs_dir / "gates-scan.jsonl.gz"  # button addresses followed by brand-scan --mode gates
+    if gates_log.exists():
+        with gzip.open(gates_log, "rt", encoding="utf-8") as f:
+            for line in f:
+                r = json.loads(line)
+                for x in r.get("destinations") or []:
+                    if x.get("kind") == "internal":
+                        not_gates.add(x.get("url") or "")  # the "gate" is an ordinary page of the site
+                    row = {k: str(x.get(k, "")) for k in ("url", "final_url", "kind", "brand", "evidence", "pid", "title")}
+                    row.update(domain=r["domain"], via="gates", ad_route=str(x.get("ad_route", "")),
+                               hops=" → ".join(f"{h[0]} {h[1]}" for h in x.get("hops") or [] if len(h) == 2))
+                    dest_by.setdefault(r["domain"], []).append(row)
     home = {}
     with gzip.open(bs_dir / "home-dump.jsonl.gz", "rt", encoding="utf-8") as f:
         for line in f:
@@ -422,6 +448,8 @@ def main(d: str):
         g, a, na = groups.get(domain, {}), aff.get(domain, {}), notaff.get(domain, {})
         fr = feats.get(domain, {})
         page = with_meta(from_scan(merged_page(fr), g, a, na))
+        if page.get("gates"):
+            page["gates"] = [x for x in page["gates"] if (x.get("url") if isinstance(x, dict) else x) not in not_gates]
         ad = ads(domain, g, a, na, page, our, dest_by.get(domain, []), trackers_to_other, aff_checks.get(domain, []))
         tags = []
         if fr.get("platform"):
@@ -441,6 +469,8 @@ def main(d: str):
             tags.append("moved")
         if ad["unverified"]:
             tags.append("ads_unverified")
+        if page:
+            page["moved"] = "moved" in tags
         if not page:
             tags.append("no_html")
 
@@ -495,6 +525,15 @@ def main(d: str):
             "scan_group": grp or ("affiliate" if a else "not-affiliate"),
             "html": " ".join(fr.get("sources") or []),
         })
+    # Sites with no trace of the brand at all (not in the domain, the page, the links or the ads):
+    # Corsearch collected them by mistake; the owner sends this list to Corsearch as a whitelist.
+    fp = [r for r in rows if r["category"] in ("unrelated", "other_gambling") and "brand_in_domain" not in r["tags"]
+          and not int(r["mb_text"] or 0) and not int(r["mb_anchor"] or 0) and r["mostbet_ads"] is False]
+    with open(d / "brand-scan" / "corsearch-false-positives.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=["domain", "category", "title", "final_url"])
+        w.writeheader()
+        w.writerows({k: r[k] for k in ("domain", "category", "title", "final_url")} for r in fp)
+    print("corsearch false positives", len(fp))
     out = d / "brand-scan" / "classified.csv"
     with open(out, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
