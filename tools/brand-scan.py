@@ -1006,7 +1006,7 @@ class Scanner:
         domain = item["domain"]
         site = item.get("site") or domain
         state = {"our_refs": []}
-        links, pages, seen = [], [], set()
+        links, pages, seen, kept = [], [], set(), []
         for u in (item.get("pages") or "").split()[:4]:
             try:
                 url, body = u, ""
@@ -1021,6 +1021,7 @@ class Scanner:
                 pages.append({"url": u, "error": type(e).__name__})
                 continue
             found, _, _, text = links_of(body or "", url)
+            kept.append({"url": url, "type": "page", "status": st, "body": (body or "")[:aff.HOME_BODY_CAP]})
             pages.append({"url": u, "status": st, "links": len(found), "text_len": len(text),
                           "mostbet_mentions": len(re.findall(r"mostbet|мостбет", body or "", re.I))})
             links += [x for x in found if x[0] not in seen]
@@ -1029,6 +1030,7 @@ class Scanner:
             try:
                 async with self.session.get(u, timeout=aiohttp.ClientTimeout(total=20, sock_connect=8), ssl=False) as r:
                     code = (await r.content.read(aff.JS_BODY_CAP)).decode("utf-8", "replace")
+                    kept.append({"url": u, "type": "script", "status": r.status, "body": code})
             except Exception as e:  # noqa: BLE001
                 pages.append({"url": u, "error": type(e).__name__})
                 continue
@@ -1039,11 +1041,17 @@ class Scanner:
             pages.append({"url": u, "script_bytes": len(code), "urls": len(found)})
             links += [x for x in found if x[0] not in seen]
             seen |= {x[0] for x in found}
+        res_file = ""
+        if self.html_dir and kept:  # inner pages and scripts as fetched: <domain>.deep-res.json.gz
+            res_file = f"{domain}.deep-res.json.gz"
+            with gzip.open(self.html_dir / res_file, "wt", encoding="utf-8") as f:
+                json.dump(kept, f, ensure_ascii=False)
         cands, skipped = pick(links, site)
         _, new, not_followed = await self.follow_all(cands, site, lambda u: self.follow_http_only(u, site, state))
         for d in new:
             d.pop("_html", None)
         return {"domain": domain, "ts": time.strftime("%Y-%m-%dT%H:%M:%S"), "network": self.network, "mode": "deep",
+                "resources_file": res_file,
                 "pages": pages, "destinations": new, "not_followed": not_followed, "external_skipped": skipped,
                 "our_refs_skipped": state["our_refs"],
                 "result": {"group": "deep", "reason": f"pages={len(pages)} followed={len(new)}"}}
