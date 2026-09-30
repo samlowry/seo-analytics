@@ -56,7 +56,8 @@ MB = _feat.MB  # folds accents and look-alike letters: "Μοѕtbеt", "Móstbet"
 NOT_AD_HOST = re.compile(r"(^|\.)(yahoo\.com|consent\.[a-z.]+|legal\.[a-z.]+|google\.[a-z.]+|facebook\.com|"
                          r"apple\.com|microsoft\.com|cookiebot\.com|onetrust\.com|gannett\.com)$", re.I)
 BARE_GATES = {"/go/", "/goto/", "/out/", "/link/", "/visit/", "/redirect/", "/click/", "/go", "/goto", "/out"}
-NOT_CASINO_HOST = re.compile(r"(^|\.)(gpwa\.org|iclg\.com|seo\.casino|promopult\.ru|begambleaware\.org|gamcare\.org\.uk|"
+NOT_CASINO_HOST = re.compile(r"(^|\.)(bet\.com|chatgpt\.com|openai\.com|nolimitcity\.com|pragmaticplay\.(com|net)|"
+                             r"evolution\.com|playngo\.com|netent\.com|spribe\.co|gpwa\.org|iclg\.com|seo\.casino|promopult\.ru|begambleaware\.org|gamcare\.org\.uk|"
                              r"casino\.guru|askgamblers\.com|trustpilot\.com|curacao-egaming\.com|mga\.org\.mt)$", re.I)
 REGISTRY = Path.home() / "Developer/skaner-bitykh-ssylok/registry/entries.json"
 
@@ -78,7 +79,8 @@ STUB_MORE = re.compile(r"why am i seeing this page|fastpanel|account (disabled|s
                        r"website is ready|coming soon|under construction|default (web )?page|it works!|"
                        r"домен не прилинкован|сайт заблокирован|hosting account|техническая пауза|сайт обновляется|"
                        r"under-construction|site not found|served by the hosting platform|сайт в разработке|"
-                       r"website \S+ is ready|content is to be added|только что создан", re.I)
+                       r"website \S+ is ready|content is to be added|только что создан|welcome to nginx|сайт недоступен|"
+                       r"parked domain|registered at|hostinger|this site can.t be reached|default site", re.I)
 CHALLENGE = re.compile(r"just a moment|attention required|ddos-guard|checking your browser|verify you are human|"
                        r"access denied|cookie consent|before you continue", re.I)
 MIRROR_TITLE = re.compile(r"\bmost\s?bet\.com\s*[-–—]", re.I)  # localized "Betting company MostBet.com – …"
@@ -168,7 +170,7 @@ def is_coded(x: dict) -> bool:
             q = urlsplit(u).query or ""
         except ValueError:
             continue
-        if lb.AFF_PARAMS.search(q) or lb.TRACK_PARAMS.search(q):
+        if lb.AFF_PARAMS.search(q) or lb.TRACK_PARAMS.search(q) or CODE_Q.search(q):
             return True
     return False
 
@@ -196,7 +198,7 @@ def with_meta(page: dict) -> dict:
 
 
 def ads(domain: str, g: dict, a: dict, na: dict, page: dict, our: set, dests: list, trackers_to_other: set,
-        checks: list = ()) -> dict:
+        checks: list = (), mostbet_titled: set = frozenset()) -> dict:
     """Affiliate traffic of a site: to Mostbet, to other brands (with names), plain links to other
     gambling sites, links not followed to the end, our own refs."""
     mb, other, plain, unverified, ours = False, set(), set(), 0, False
@@ -214,22 +216,29 @@ def ads(domain: str, g: dict, a: dict, na: dict, page: dict, our: set, dests: li
             continue  # an app download is not an ad of the brand it names
         coded, tracked = is_coded(x), via_tracker(x)
         kind, brand = x.get("kind"), x.get("brand") or ""
-        if aff_ref(url, domain):
-            mb = True  # Mostbet ref by its shape, even when the ref host no longer answers
+        if x.get("via", "").startswith("js:data-modal"):
+            continue  # game demo windows of providers, not links
+        if mostbet_ref(url, domain):
+            mb = True  # Mostbet ref by its shape and host, even when the ref host no longer answers
         elif kind == "mostbet":
             # Named only by its title (another Mostbet-branded site, not the operator): an ad only with a code.
             weak = x.get("evidence") == "name_only_weak"
-            if x.get("pid") or coded or aff_ref(url, domain) or (tracked and not weak):
+            if x.get("pid") or coded or mostbet_ref(url, domain) or (tracked and not weak):
                 mb = True
         elif kind in ("other_gambling", "gambling_site") and (coded or tracked):
             other.add(brand if brand and brand != "?" else (urlsplit(final).hostname or "?"))
-        elif kind == "other_gambling" and brand and brand != "?":
-            other.add(brand)  # a link to a named operator is an ad even without a partner code (owner, 30.09)
+        elif kind == "other_gambling" and brand and brand != "?" and lb.brand_of_host(lb_base(final)) not in ("", "Mostbet") \
+                and not NOT_CASINO_HOST.search(lb_base(final)):
+            other.add(brand)  # a link to an operator (its brand in the host) is an ad even without a code (owner, 30.09)
+        elif kind in ("other_gambling", "gambling_site") and MB.search(lb_base(url)):
+            continue  # a sister Mostbet-named site of a network moving elsewhere: not this site's ad
+        elif kind == "other_gambling" and not NOT_CASINO_HOST.search(lb_base(final)):
+            plain.add(lb_base(final))  # a review or doorway naming a brand in its title, not the operator
         elif kind == "gambling_site":
             host = (urlsplit(final).hostname or "").lower()
             named = lb.brand_of_host(host) or next((n for n, rx in lb.BRAND_RES if rx.search(x.get("title") or "")), "")
-            if named and named != "Mostbet" and not NOT_CASINO_HOST.search(host):
-                other.add(named)
+            if lb.brand_of_host(host) not in ("", "Mostbet") and not NOT_CASINO_HOST.search(host):
+                other.add(lb.brand_of_host(host))
             elif not NOT_CASINO_HOST.search(host):
                 plain.add(host)  # another gambling site with no known brand: a doorway, the weak case
         elif kind in ("unknown", "needs_browser", "dead") and coded and mostbet_ref_host(lb_base(final) or lb_base(url)):
@@ -239,9 +248,14 @@ def ads(domain: str, g: dict, a: dict, na: dict, page: dict, our: set, dests: li
         elif kind in ("unknown", "needs_browser", "dead") and (tracked or x.get("ad_route") == "True"):
             unverified += 1
     if a:
-        mb = True
-        if ref_key(a.get("ref_url") or "") in our:
+        ref = a.get("ref_url") or ""
+        if ref_key(ref) in our:
             ours = True
+            mb = True
+        elif mostbet_ref(ref, domain) or MB.search(lb_base(ref)):
+            mb = True
+        elif looks_tracker(ref):
+            other.add(lb.brand_of_host(lb_base(ref)) or f"via {lb_base(ref)}")
     for chk in checks:
         chain = [c.get("url") or "" for c in chk.get("chain") or []]
         if chk.get("found") or len(chain) < 2:
@@ -249,7 +263,8 @@ def ads(domain: str, g: dict, a: dict, na: dict, page: dict, our: set, dests: li
         hosts = [lb_base(u) for u in chain[1:] if lb_base(u) and not lb_same(lb_base(u), domain)]
         if not hosts or any(NOT_AD_HOST.search(h) for h in hosts):
             continue
-        named = next((lb.brand_of_host(h) for h in hosts if lb.brand_of_host(h)), "")
+        named = next((lb.brand_of_host(h) for h in hosts if lb.brand_of_host(h)), "") or \
+            ("Mostbet" if any(h in mostbet_titled for h in hosts) else "")
         coded = any(lb.AFF_PARAMS.search(urlsplit(u).query or "") or lb.TRACK_PARAMS.search(urlsplit(u).query or "") for u in chain)
         last_ok = (chk.get("chain") or [{}])[-1].get("status") == 200
         if named == "Mostbet":
@@ -268,8 +283,10 @@ def ads(domain: str, g: dict, a: dict, na: dict, page: dict, our: set, dests: li
         if ref_key(x["url"]) in our:
             ours = True
             mb = True
-        elif x.get("ref_kind") or x.get("brand") == "Mostbet":
+        elif x.get("brand") == "Mostbet" or (x.get("ref_kind") and mostbet_ref(x["url"], domain)):
             mb = True
+        elif x.get("ref_kind"):
+            other.add(f"via {x.get('host')}")
         elif x.get("brand"):
             other.add(x["brand"])
         elif lb.AFF_PARAMS.search(urlsplit(x["url"]).query or "") or lb.TRACK_PARAMS.search(urlsplit(x["url"]).query or "") \
@@ -286,6 +303,16 @@ _aff = None
 
 
 TRACKER_PATH = re.compile(r"^/[A-Za-z0-9_-]{4,12}/?$")
+CODE_Q = re.compile(r"(^|&)(code|invite|invitecode|affiliatecode|affiliate_code|sub\d|buyer|refcode)=", re.I)
+
+
+def mostbet_ref(url: str, site: str) -> bool:
+    """A Mostbet ref: ref-shaped AND on a Mostbet ref host (…mb.com, …mst.com, registry). Other programs use the
+    same /XXXX shape (bwredir.com/2Sgv is Betwinner)."""
+    aff_ref("https://x/", "x")
+    kind = _aff.classify_ref(url, site)
+    host = lb_base(url)
+    return kind in ("known_ref_host", "mostbet_host") or (kind == "ref" and mostbet_ref_host(host))
 
 
 def looks_tracker(url: str) -> bool:
@@ -295,7 +322,8 @@ def looks_tracker(url: str) -> bool:
     except ValueError:
         return False
     aff_ref("https://x/", "x")
-    return bool(_aff.random_host((s.hostname or "").lower()) or
+    rooted = (s.path or "/") == "/" and not s.query
+    return bool((_aff.random_host((s.hostname or "").lower()) and not rooted) or
                 (TRACKER_PATH.search(s.path or "") and any(c.isupper() or c.isdigit() for c in s.path)) or
                 lb.AFF_PARAMS.search(s.query or "") or lb.TRACK_PARAMS.search(s.query or ""))
 
@@ -325,13 +353,16 @@ def top_other(page: dict):
 
 
 GAME_WORDS = re.compile(r"aviator|chicken\s?road|plinko|tappy\s?bird|crash game|mines game|jetx|lucky\s?jet|"
-                        r"spaceman|penalty shoot|slot", re.I)
+                        r"spaceman|penalty shoot|slot|مراهن|كازينو|رهان|fogad|kaszin|bukmach|kasyn|zakład|apuest|cassino|"
+                        r"aposta|bahis|kumar|pariuri|sázk|tikish|mərc|kazino|বেটিং|ক্যাসিনো|सट्टा|कैसीनो|bookmaker|betting|"
+                        r"nhà cái|cá cược|kèo|tài xỉu|nổ hũ|game bài|bắn cá|พนัน|คาสิโน|judi|taruhan", re.I)
 
 
 def site_type(domain: str, page: dict, ad: dict) -> tuple:
     """(category, why) from the page and its ads; statuses are decided before."""
     # A domain that moved to another site is judged by that site: its own name no longer shows.
     in_domain = bool(MB.search(page.get("host") or domain)) if page.get("moved") else bool(MB.search(domain))
+    brand_domain = bool(MB.search(domain))  # the name the visitor typed, before any move
     in_head = bool(page.get("mb_title") or page.get("mb_h1"))
     mb_text, dens = page.get("mb_text", 0), page.get("mb_per_1k", 0.0)
     other_name, other_n = top_other(page)
@@ -340,49 +371,67 @@ def site_type(domain: str, page: dict, ad: dict) -> tuple:
     head = f'{page.get("title", "")} {page.get("h1", "")}'
     gambling_head = bool(_feat.GAMBLING.search(head) or GAME_WORDS.search(head)) or \
         any(rx.search(head) for _, rx in lb.BRAND_RES[:40])
-    gambling = gpk >= GAMBLING_DENSITY or page.get("gambling_words", 0) >= 15 or gambling_head
+    gambling = gpk >= GAMBLING_DENSITY or page.get("gambling_words", 0) >= 15 or gambling_head or \
+        len(GAME_WORDS.findall(page.get("text_sample") or "")) >= 2 or bool(ad["other"]) or bool(ad["plain"])
     posts = page.get("articles", 0) > 0 or page.get("date_links", 0) >= 5
     ext_mb, int_mb = page.get("mb_anchor_ext", 0), page.get("mb_anchor_int", 0)
     hidden_mb, in_posts = page.get("mb_hidden_links", 0), page.get("mb_in_posts", 0)
     dominant = mb_text >= MONO_DOMINANCE * max(other_n, 1) or (mb_text and not other_n)
     other_dominant = other_n >= MONO_DOMINANCE * max(mb_text, 1) and other_n >= 5
-    topic_gambling = gambling_head or gpk >= HACKED_GAMBLING
+    topic_gambling = gambling_head or gpk >= HACKED_GAMBLING or n_brands > 5
+    subject = (in_head or page.get("mb_meta", 0) > 0) and dens >= MONO_DENSITY  # Mostbet in title/meta and all over the text
 
+    if in_domain and page.get("from_meta") and not ad["mb"]:
+        return "bait", "mostbet_in_domain, store-style PWA lander without a Mostbet ref"  # owner, 30.09
+    if brand_domain and page.get("moved") and not mb_text and not ad["mb"] and (gambling or ad["other"]):
+        return "bait", f"brand domain moves to {page.get('host', '')} with other gambling"
     if not (mb_text or ext_mb or int_mb or in_domain or in_head or ad["mb"]):
         known_other = [x for x in ad["other"] if not x.startswith("via ")]
         return ("other_gambling" if gambling or known_other else "unrelated"), "no_mostbet"
-    subject = in_head and dens >= MONO_DENSITY  # Mostbet named in the title and all over the text: the site's own subject
     if hidden_mb >= 3 and not gambling_head and not in_domain and not subject:
         return "hacked", f"hidden_mostbet_links={hidden_mb}"
     # Own topic is not gambling and Mostbet sits in links to other domains or in hidden blocks: injected.
     if not topic_gambling and not in_domain and not subject and (hidden_mb or (ext_mb and mb_text <= max(ext_mb, HACKED_MAX_TEXT) + 2)):
         return "hacked", f"mostbet_in_links ext={ext_mb} hidden={hidden_mb} text={mb_text} gambling={gpk}"
-    if in_head and not in_domain and not gambling and page.get("text_len", 0) >= 1000 and not ad["mb"]:
+    if in_head and not in_domain and not gambling and not subject and page.get("text_len", 0) >= 1000 and not ad["mb"]:
         return "hacked", f"mostbet_in_title_of_non_gambling_page text={mb_text}"
     # Mostbet only in the site's own posts: an article site or a sold post.
-    if not topic_gambling and not in_domain and not ad["mb"] and (in_posts or (int_mb and posts)):
+    if not topic_gambling and not in_domain and not ad["mb"] and not subject and (in_posts or (int_mb and posts)):
         return "article", f"mostbet_in_posts int={int_mb} in_posts={in_posts} articles={page.get('articles', 0)}"
-    if (in_domain or in_head) and (other_dominant or (gambling and not mb_text and not ad["mb"])):
+    foreign = bool(other_n or ad["other"] or ad["plain"])
+    title_mb = bool(MB.search(page.get("title") or ""))
+    if (in_domain or (title_mb and n_brands < 3)) and foreign and (other_dominant or (gambling and not mb_text and not ad["mb"])):
         return "bait", f"mostbet_in_{'domain' if in_domain else 'title'} content={other_name or 'other'}:{other_n} mostbet={mb_text}"
     if (in_domain or in_head) and dominant and (dens >= MONO_DENSITY / 2 or (in_head and ad["mb"])):
         return "mono", f"name_in_{'domain' if in_domain else 'title'} density={dens}"
+    feed_real = page.get("date_links", 0) >= 5 or (page.get("articles", 0) >= 3 and page.get("slug_links", 0) >= ARTICLE_LINKS)
+    if not in_domain and not in_head and feed_real and not dominant_site(page) and not ad["mb"] and not subject:
+        return "article", f"feed before density: date={page.get('date_links', 0)} slug={page.get('slug_links', 0)}"
     if dominant and dens >= MONO_DENSITY and gambling and page.get("mb_heads", 0) >= 2 and ext_mb <= mb_text / 2:
         return "mono", f"density={dens} heads={page.get('mb_heads', 0)}"
-    if not in_domain and not in_head and (page.get("date_links", 0) >= 5 or page.get("articles", 0) >= 5) and \
+    if not in_domain and not in_head and (page.get("date_links", 0) >= 5 or (page.get("articles", 0) >= 3 and page.get("slug_links", 0) >= ARTICLE_LINKS)) and \
             not dominant_site(page) and not (page.get("mb_meta") and dens >= MONO_DENSITY):
         return "article", f"dated feed date={page.get('date_links', 0)} articles={page.get('articles', 0)}"
     # The brand in the domain name makes the site a brand user whatever it shows (owner, 30.09):
     # gambling content of others -> bait; content with no gambling at all -> brand discredit.
-    if in_domain and not page.get("moved") and gambling:
+    if in_domain and not page.get("moved") and gambling and foreign:
         return "bait", f"mostbet_in_domain content={other_name or 'gambling'}:{other_n} mostbet={mb_text}"
-    if in_domain and not page.get("moved") and not gambling and page.get("text_len", 0) >= STUB_TEXT:
+    if in_domain and not page.get("moved") and not ad["mb"] and (page.get("from_meta") or (gambling and not mb_text)):
+        return "bait", "mostbet_in_domain, page never names Mostbet"  # PWA of others, slots apps (owner, 30.09)
+    if in_domain and not page.get("moved") and gambling:
+        return "mono", f"name_in_domain, no other brand density={dens}"
+    if in_domain and not page.get("moved") and not gambling and page.get("text_len", 0) >= 1500:
         return "discredit", f"mostbet_in_domain non_gambling content text={page.get('text_len', 0)}"
+    if gambling and not mb_text and not ext_mb and not int_mb and not ad["mb"] and not in_head:
+        return "other_gambling", "mostbet_only_in_meta"
     if gambling:
         return "multibrand", f"top_other={other_name}:{other_n} mostbet={mb_text} density={dens}"
     if not in_domain and (int_mb or posts):
         return "article", f"non_gambling int={int_mb} articles={page.get('articles', 0)}"
-    if in_domain and not mb_text:
+    if in_domain and not mb_text and page.get("text_len", 0) >= 1500:
         return "discredit", "mostbet_only_in_domain"
+    if in_domain and not mb_text:
+        return "stub", f"mostbet_only_in_domain, little text={page.get('text_len', 0)}"
     return "unclear", f"density={dens} top_other={other_name}:{other_n} gambling={gpk}"
 
 
@@ -400,6 +449,9 @@ def redirect_of(domain: str, g: dict, a: dict, hrec: dict):
         return None
     if g.get("mostbet_pids") or g.get("group") == "1_mostbet_only" or "pid=" in query and MB.search(g.get("title") or ""):
         return "redirect_ref", f"home redirects to {host} (Mostbet)"
+    if not (g.get("other_brands") or _feat.GAMBLING.search(g.get("title") or "") or GAME_WORDS.search(g.get("title") or "")
+            or looks_tracker(final)):
+        return None  # moved to a site that is not about gambling: judged by its content
     return "redirect_other", f"home redirects to {host} ({g.get('other_brands') or (g.get('title') or '')[:40]})"
 
 
@@ -410,6 +462,8 @@ def js_redirect_of(domain: str, page: dict):
         return None
     if aff_ref(target, domain) or MB.search(host):
         return "redirect_ref", f"script sends the home page to {host} (Mostbet)"
+    if not (looks_tracker(target) or _feat.GAMBLING.search(host) or GAME_WORDS.search(host)):
+        return None
     return "redirect_other", f"script sends the home page to {host}"
 
 
@@ -442,10 +496,12 @@ def main(d: str):
             r = json.loads(line)
             if r.get("checks"):
                 aff_checks[r["domain"]] = r["checks"]
-    dest_by, trackers_to_other = {}, set()
+    dest_by, trackers_to_other, mostbet_titled = {}, set(), set()
     with open(bs_dir / "destinations.csv", newline="", encoding="utf-8") as f:
         for x in csv.DictReader(f):
             dest_by.setdefault(x["domain"], []).append(x)
+            if MB.search(x.get("title") or ""):
+                mostbet_titled.add(lb_base(x.get("final_url") or ""))
             if x.get("kind") == "other_gambling" and x.get("brand") not in ("", "?"):
                 trackers_to_other |= {lb_base(u) for u in hop_urls(x) + [x.get("url") or ""] if lb_base(u)}
     not_gates = set()
@@ -480,7 +536,7 @@ def main(d: str):
         page = with_meta(from_scan(merged_page(fr), g, a, na))
         if page.get("gates"):
             page["gates"] = [x for x in page["gates"] if (x.get("url") if isinstance(x, dict) else x) not in not_gates]
-        ad = ads(domain, g, a, na, page, our, dest_by.get(domain, []), trackers_to_other, aff_checks.get(domain, []))
+        ad = ads(domain, g, a, na, page, our, dest_by.get(domain, []), trackers_to_other, aff_checks.get(domain, []), mostbet_titled)
         tags = []
         if fr.get("platform"):
             tags.append("platform")

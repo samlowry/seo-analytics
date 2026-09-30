@@ -1,0 +1,242 @@
+[
+ {
+  "domain": "apkmostbetin.com",
+  "given": "mono_mixed",
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Все кнопки (лого, меню, Reward, Login) ведут на /go/ → bwx888.org → betwinner.rs?btag=…; ссылок на Mostbet нет. mostbet_ads=True взялся из affiliate-scan, где bwredir.com/2Sgv принят за реф Mostbet по форме."
+ },
+ {
+  "domain": "casinomostbetcz.com",
+  "given": "mono_mixed",
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Все кнопки (REGISTRACE, PŘIHLÁŠENÍ, HRÁT, лого) — /go/ → bwx888.org → betwinner.rs?btag=…; Mostbet-рефок нет. Mostbet засчитан по bwredir.com/2Sgv из affiliate-scan."
+ },
+ {
+  "domain": "karczma-przemysl.pl",
+  "given": "mono_mixed",
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.65,
+  "comment": "Кнопки ведут на реф Mostbet pid=303430. «Чужой» thehatchery.club — это переключатель стран: ссылка на сестринский mostbets-pt.com, который сам редиректит на португальский рейтинг казино. Это не оператор и не код партнёра."
+ },
+ {
+  "domain": "mostbet-az.website",
+  "given": "mono_mixed",
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Кнопки ведут на ipc.html → hpnjesmb.com/KqFU (pid=327472). «via badbunnytour2023.com» — это анкор «mostbet» в тексте на biglies2019.com, который переезжает на сайт с title «Mostbet Casino». Это дорвей Mostbet, а не трекер."
+ },
+ {
+  "domain": "mostbet-downloads.com",
+  "given": "mono_mixed",
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.9,
+  "comment": "Все кнопки идут через mostroute.net на Mostbet pid=184831. 1win.global есть только в закомментированных JS-переменных темы («// var Imagepath = …»), ссылкой на странице он не является."
+ },
+ {
+  "domain": "mostbet05924.online",
+  "given": "mono_mixed",
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.6,
+  "comment": "Переехал на mostbet-kg.kg: кнопка /reg и Telegram-иконка ведут на Mostbet pid=130609. В футере скрытый (height:2px) линк на 1winkg.kg → win1.kg «1Win — официальный сайт»; по правилу владельца (1win-mx.mx) это оператор, но похоже на дорвей — тогда было бы mono_xlink."
+ },
+ {
+  "domain": "mostbet3.ink",
+  "given": "mono_mixed",
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.9,
+  "comment": "Ротатор /go/main → go-reff.website отдаёт то slotoro77.bet?ref=…, то Mostbet pid=444325."
+ },
+ {
+  "domain": "mostbet78063.help",
+  "given": "mono_mixed",
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.6,
+  "comment": "Копия mostbet05924.online (тот же HTML mostbet-kg.kg): Mostbet pid=130609 плюс скрытый линк на 1winkg.kg → win1.kg. Граница оператор/дорвей та же."
+ },
+ {
+  "domain": "owbing.com",
+  "given": "mono_mixed",
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.7,
+  "comment": "Mostbet Bangladesh на теме hc_satellite: /go/registration → cpmldqmb.com → Mostbet pid=304732. 28.09 в скриптах был ddd7dj.org/MPNB4gYP?p=cros → pclira → slotuna-0296.com (mid=…); в HTML от 30.09 его уже нет."
+ },
+ {
+  "domain": "voucher-wager-bang3.top",
+  "given": "mono_mixed",
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.85,
+  "comment": "Реклама только Mostbet: n37ztcmb.com/LVDU (хост вида *mb.com, промокод Troyaff). 1win засчитан по bonusplayin1.top из блока «More Resources» (обмен dofollow-ссылками с другими .top-дорвеями). Это обзорник-дорвей без кода, не оператор."
+ },
+ {
+  "domain": "amp-super-best192.cfd",
+  "given": "mono_other",
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Турецкий Mostbet-лендинг: кнопки Kayıt/Giriş → /go.php → vsgfzfgwgo69.top → refpa → 1xbet.rs?tag=d_3755482m…"
+ },
+ {
+  "domain": "fairfarmsnoworg8.cfd",
+  "given": "mono_other",
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet Azərbaycan: все кнопки → /play.php → cvl36s4x15n.top → refpa → 1xBet tag=d_3755482m_22585c."
+ },
+ {
+  "domain": "infiniteyou.pl",
+  "given": "mono_other",
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Mostbet Casino PL: /go/ → winshark.link → winshark13.com?stag=109401_…; Mostbet-рефок нет."
+ },
+ {
+  "domain": "mostbet-92w1.buzz",
+  "given": "mono_other",
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Шелл «Мостбет зеркало»: /goto/ → bigme.buzz/s8PhTV → r1wemeq.life/casino/list?open=register&p=kebv (формат ссылок 1win). Mostbet-рефок нет."
+ },
+ {
+  "domain": "mostbet-casinoo.best",
+  "given": "mono_other",
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Чешский Mostbet-лендинг (тот же шаблон, что infiniteyou.pl): /visit/ → winshark.link → winshark13.com?stag=109401."
+ },
+ {
+  "domain": "mostbetazpwclorg430.top",
+  "given": "mono_other",
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet AZ: все кнопки (/go.php) → aos9d9e9g0o.top → refpa-57015 → 1xBet."
+ },
+ {
+  "domain": "mostbetguncel.net",
+  "given": "mono_other",
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Турецкий «Mostbet güncel giriş»: главная CTA ведёт на serbozgel.top/supertotobet; с внутренних страниц t2m.co → herkulbet?btag=okanparavan и t2po.com → poliwin?btag=abe777. В футере обмен ссылками с бахис-форумами."
+ },
+ {
+  "domain": "mostbettanzania.com",
+  "given": "mono_other",
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet Tanzania: /go/login и /go/register → 1mclick.com → blackflagaffiliates → 42winairlines64.com?cxd=36557_…"
+ },
+ {
+  "domain": "sba.com.pl",
+  "given": "mono_other",
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "«Ultimate Guide to MostBet», h1 MostBet Bangladesh; кнопки в JS ведут на ddd7dj.org/MPNB4gYP?…&a=DAFF → pclira → Lanista/Slotuna (одна сеть). В сохранённом HTML трекера нет, его видел только affiliate-scan 28.09."
+ },
+ {
+  "domain": "vigvamkids.ru",
+  "given": "mono_other",
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "«Мостбет казино зеркало» на взломанном домене: все /go/ → dashplay37.com?serial=… → 9normcasino?qtag=… (NormCasino)."
+ },
+ {
+  "domain": "aforjet.cz",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.55,
+  "comment": "Кнопки → stafbul.com → Mostbet pid=303430. Единственная «чужая» ссылка — mostbets-pt.com в переключателе стран; этот сестринский домен сам редиректит на thehatchery.club. Нарушитель — mostbets-pt.com, а не этот сайт."
+ },
+ {
+  "domain": "boschtools.cz",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.55,
+  "comment": "Тот же шаблон, что aforjet.cz: реклама Mostbet pid=303430, thehatchery.club только через редирект сестринского mostbets-pt.com из переключателя стран."
+ },
+ {
+  "domain": "guiadaka.com",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "article",
+  "confidence": 0.9,
+  "comment": "Бразильский блог про уборку («Limpeza e Organização»), лента постов (feed_links=16). Mostbet только в двух свежих постах (польский про промокоды, турецкий про giriş), в домене и title бренда нет."
+ },
+ {
+  "domain": "jidelnazlin.cz",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.55,
+  "comment": "Та же сеть, что aforjet.cz: pid=303430, xlink только из-за редиректа mostbets-pt.com → thehatchery.club."
+ },
+ {
+  "domain": "mostbet-india.org",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Реклама Mostbet: link.mostbets.in → pid=37776. nolimitcity.com — это data-modal-url кнопки «Play Demo» (демо игры провайдера), как и pragmaticplay/evoplay/hacksaw. Ссылкой на бренд это не является."
+ },
+ {
+  "domain": "mostbet-mosbet-cz.com",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.9,
+  "comment": "/go/1 → Mostbet pid=263382. bet.com — это автоссылка в списке опечаток («Most bet.com») на сайт телеканала BET, к гэмблингу он не относится."
+ },
+ {
+  "domain": "mostbetg.com",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet Pakistan (урду), но обе кнопки шапки (регистрация, скачать приложение) ведут на luckypk777d.com/?code=9DQGHKCWDN6. Это оператор (страница регистрации Luckypk777) с кодом приглашения, а не простая ссылка на дорвей."
+ },
+ {
+  "domain": "mostbetreferral.com",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "mono_no_ads",
+  "confidence": 0.7,
+  "comment": "Все /go/* → mostbet.example.com/?partner=REFCODE_PLACEHOLDER: заглушка, реального рефа нет, поэтому mostbet_ads=True ложный. chatgpt.com — строка «спросить ИИ» (ChatGPT/Perplexity/Grok/Claude), к гэмблингу не относится."
+ },
+ {
+  "domain": "profiambau.cz",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.55,
+  "comment": "Та же сеть, что aforjet.cz: pid=303430, xlink только из-за mostbets-pt.com → thehatchery.club."
+ },
+ {
+  "domain": "stavby-dvorak.cz",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.55,
+  "comment": "Та же сеть, что aforjet.cz: pid=303430, xlink только из-за mostbets-pt.com → thehatchery.club."
+ }
+]

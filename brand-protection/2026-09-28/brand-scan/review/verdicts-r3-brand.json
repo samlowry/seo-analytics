@@ -1,0 +1,242 @@
+[
+ {
+  "domain": "1win-jetx-game.com",
+  "given": "bait",
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.6,
+  "comment": "Страница — клон 1win JetX (1win:43 в тексте), Mostbet только в h1 «Online casino Mostbet…»; в title Mostbet нет, правило mostbet_in_title на деле сработало по h1."
+ },
+ {
+  "domain": "melbet-qo1.top",
+  "given": "bait",
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Title и h1 про Mostbet, дальше текст про Мелбет и кнопка «ПЕРЕЙТИ НА MELBET»; /reg ведёт на refpa62148.com → melbet.org с tag=s_5330m."
+ },
+ {
+  "domain": "mostbet-azerbaijan-casino.net",
+  "given": "bait",
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Весь сайт про Mostbet (title, h1, текст), других брендов нет; все ссылки внутренние, CTA ведут на свой /start и /az-az29, куда — не прослежено. Чужого казино внутри нет."
+ },
+ {
+  "domain": "mostbet-gh.net",
+  "given": "bait",
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.95,
+  "comment": "Домен с Mostbet, страница целиком про Amunra Casino на чешском."
+ },
+ {
+  "domain": "mostbet-oficials.es",
+  "given": "bait",
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.6,
+  "comment": "Скопированный гид BetAmericaLatina без конкретного чужого бренда (1xBet упомянут раз в FAQ); все кнопки /go/ ведут на Mostbet pid=141153. Чужого казино и чужой рекламы нет — это дорвей под Mostbet на бренд-домене."
+ },
+ {
+  "domain": "mostbet-uz-top.com",
+  "given": "bait",
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.95,
+  "comment": "Домен с Mostbet, внутри индонезийские слоты APEL888, трекер linkaku.homes/apel888."
+ },
+ {
+  "domain": "mostbeta1.com",
+  "given": "bait",
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.95,
+  "comment": "Домен с Mostbet, страница про 6666bet с бонусами и ссылками на трекеры d6zi9dev.com / c1y9tedo.com."
+ },
+ {
+  "domain": "mostbetf4.com",
+  "given": "bait",
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.95,
+  "comment": "Домен с Mostbet, страница про lucky22, кнопка «Entrar» на трекер hl.dmffg2.com?ch=34."
+ },
+ {
+  "domain": "mostbetsam.com",
+  "given": "bait",
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.95,
+  "comment": "Домен с Mostbet, внутри индонезийский слот-сайт NARUTOBET."
+ },
+ {
+  "domain": "uzmanapk.com",
+  "given": "bait",
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.9,
+  "comment": "Каталог APK 19+ букмекеров (title «1xBet, Mostbet, Linebet»), Mostbet — один из многих, ссылки на refpa/lb-aff/spin-b и на Mostbet; бренда в домене нет."
+ },
+ {
+  "domain": "amp-mostbet-site2.xyz",
+  "given": "discredit",
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "Заглушка регистратора: «This domain is registered at Dynadot.com. Website coming soon.»"
+ },
+ {
+  "domain": "mostbet-app.pro",
+  "given": "discredit",
+  "verdict": "unsure",
+  "should_be": "stub",
+  "confidence": 0.5,
+  "comment": "Сохранённый HTML — пустой шаблон на 1,2 КБ: меню, заголовок «NYT > Sports» без содержимого, «Powered by: mostbet-app.pro»; text_len=13164 в записи с файлом не сходится. Если лента NYT подгружалась — это автоблог, но не магазин/наркошоп."
+ },
+ {
+  "domain": "mostbet-bd2.bet",
+  "given": "discredit",
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Бенгальский сайт казино и ставок на крикет под брендом «mp3juice», кнопка регистрации на www.fg8010.com/register?affiliateCode=gg5552 — гэмблинг, а не негэмблинг."
+ },
+ {
+  "domain": "mostbet-norway.com",
+  "given": "discredit",
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.9,
+  "comment": "Заглушка хостинга SpaceWeb «Сайт недоступен… закончился предоплаченный период»."
+ },
+ {
+  "domain": "mostbet-officialsite.com",
+  "given": "discredit",
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.95,
+  "comment": "Дефолтная страница «Welcome to nginx!»."
+ },
+ {
+  "domain": "mostbet.jp.net",
+  "given": "discredit",
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Вьетнамский сайт букмекера PTWIN: статьи про kèo, tài xỉu, bắn cá, ссылки на bov2026.com / bov26.net / cf68.us — гэмблинг."
+ },
+ {
+  "domain": "mostbet777.buzz",
+  "given": "discredit",
+  "verdict": "correct",
+  "should_be": "discredit",
+  "confidence": 0.9,
+  "comment": "Полноценный лендинг выкупа автомобилей «AUTO PRISE» с телефоном и формой заявки, гэмблинга нет."
+ },
+ {
+  "domain": "mostbetmobil.net",
+  "given": "discredit",
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.95,
+  "comment": "«Parked Domain name on Hostinger DNS system»."
+ },
+ {
+  "domain": "mostbetstroy.ru",
+  "given": "discredit",
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.85,
+  "comment": "Одна строфа Данте «Benvenuti all'inferno» на 311 символов — заглушка, а не сайт. Имя, вероятно, «Мостбетстрой» (мост+бетон), а не бренд."
+ },
+ {
+  "domain": "mostbett-kasynopl.ink",
+  "given": "discredit",
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.95,
+  "comment": "Дефолтная страница «Welcome to nginx!»."
+ },
+ {
+  "domain": "golfrohan.cz",
+  "given": "redirect_other",
+  "verdict": "wrong",
+  "should_be": "unrelated",
+  "confidence": 0.85,
+  "comment": "JS и meta refresh уводят на regbu.com, который в destinations.csv размечен non_gambling (no_gambling_words); Mostbet на странице нет, реф-кода нет."
+ },
+ {
+  "domain": "mostbet-2021.xyz",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.95,
+  "comment": "Главная уводит на casinozlucky.com/?ref=fap_w24128p111_runodep — казино «Лев» с партнёрским кодом."
+ },
+ {
+  "domain": "mostbet-bd2.xyz",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.85,
+  "comment": "HTTP-версия — JS-челлендж, браузер дошёл до lewis-kickback.top/?ref=fap_w24128p111_runodep (сеть казино «Лев»)."
+ },
+ {
+  "domain": "mostbet-car1.xyz",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.95,
+  "comment": "Конечный адрес go2chirinkotan.com?ref=fap_w24128p111_hbrdlev&site=mostbet-car1.xyz — трекер «Лев»."
+ },
+ {
+  "domain": "mostbet-dyne.xyz",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.85,
+  "comment": "Та же сеть: JS-челлендж → lewis-kickback.top/?ref=fap_w24128p111_runodep."
+ },
+ {
+  "domain": "mostbet-portugal.info",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.95,
+  "comment": "Уводит на casinozlucky.com/?ref=fap_w24128p111_runodep — казино «Лев»."
+ },
+ {
+  "domain": "mostbet-rbbv.xyz",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.85,
+  "comment": "Та же сеть: JS-челлендж → lewis-kickback.top/?ref=fap_w24128p111_runodep."
+ },
+ {
+  "domain": "mostbet-wud4.buzz",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.8,
+  "comment": "location.replace на gamesredq.ru/mostbet.php → spin-wheel лендинг spinnyspinwheel.org; та же цепочка у mostbet.bid идёт через 0appsts.com sub_id_30=1win_slots."
+ },
+ {
+  "domain": "mostbetazerbaycan.com",
+  "given": "redirect_other",
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.5,
+  "comment": "Страница «Mostbet Azerbaycan» сразу делает window.location на cantouchmytalala.com/vGbnTLtN; этот хост нигде не разрешён (у mos.bet та же ссылка — empty_page). Получатель неизвестен, а в записи при этом mostbet_ads=True — поля противоречат категории."
+ },
+ {
+  "domain": "mostbetwin.top",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Уводит на beefcasino162.com/?stag=196386_…&btag=mostbet_1 — партнёрская ссылка Beef Casino; «mostbet_1» — метка аффилиата, не Mostbet."
+ }
+]
