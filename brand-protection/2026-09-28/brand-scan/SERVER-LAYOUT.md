@@ -19,6 +19,7 @@
 | `…/brand-scan/home-dump.jsonl.gz` | лог `--mode home` (только скачивание главных) |
 | `…/brand-scan/groups.csv`, `destinations.csv` | свежий отчёт (`brand-scan-report.py`, с историей прогонов) |
 | `…/brand-scan/html/` | **весь HTML в одном месте**, 40 472 файла на 30 459 доменов, 681 МБ. `<domain>.http.html.gz` — сырой HTML главной (30 266, все живые из `groups.csv` + `affiliate-scan`); `<domain>.browser.html.gz` — отрисованный из ночного прохода (10 206). **В git не лежит** (`.gitignore`) |
+| `…/brand-scan/html-archive/` | **тот же HTML в git**: срез 30.09, `html.tar.zst.00…02` (3 части, 203 МБ, 40 472 файла без gzip). Распаковать в `brand-scan/`: `cat html-archive/html.tar.zst.* \| zstd -d --long=27 \| tar x` |
 | `…/brand-scan-server/` | сырые логи серверного рескана до слияния; `.bad-http451` — первый прогон без SOCKS на HTTP-follow |
 | `…/brand-scan-night/` | сырой ночной прогон: `browser-scan.jsonl.gz`, `run-browser.log` |
 | `tools/brand-scan.py` | сканер: режимы `http` / `destinations` / `browser` / `home` / `rest` |
@@ -72,5 +73,5 @@ ssh -o ControlPath=~/.ssh/cm-genhost-brandscan root@genhost.host
 В git: код, jsonl.gz логов, csv отчёта, списки доменов, `run-*.log`,
 `SERVER-RESCAN.md`, этот файл, `HANDOFF.md`.
 
-Не в git: `brand-protection/*/brand-scan*/html/` — только на диске Mac (и копия
-night-html ещё на genhost). Без локального worktree HTML для Claude Code недоступен.
+Не в git: `brand-protection/*/brand-scan*/html/` — рабочая папка на диске Mac. Её срез
+на 30.09 лежит в git архивом `brand-scan/html-archive/` (см. таблицу выше).
