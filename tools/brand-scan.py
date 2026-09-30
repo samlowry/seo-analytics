@@ -15,7 +15,8 @@ Filters: --priority 1,2 (queue priority), --domains FILE, --limit N.
 HTTP, logs to gates-scan.jsonl.gz; tools/brand-classify.py reads them as extra destinations.
 --mode deep follows links found on inner pages (column `pages`) and in the site's own scripts (`scripts`),
 logs to deep-scan.jsonl.gz; read the same way.
-Keeping home pages: --save-html [DIR] (default <out_dir>/html, <domain>.<http|browser>.html.gz);
+Keeping home pages: --save-html [DIR] (default <out_dir>/html, <domain>.<http|browser>.html.gz; the browser also
+keeps the scripts and JSON the page loaded, libraries aside, in <domain>.browser-res.json.gz);
 --mode home only fetches and keeps home pages, follows nothing, logs to home-dump.jsonl.gz.
 Exit via Mac SOCKS for the browser and HTTP follows (server scan, host default route untouched):
   --proxy socks5://127.0.0.1:1080  (add --with aiohttp-socks to uv run)
@@ -480,6 +481,38 @@ def save_html(html_dir: Path | None, domain: str, source: str, html: str, final_
     return name
 
 
+# Common libraries and trackers: their code says nothing about where a site sends its visitors.
+LIB_URL = re.compile(r"jquery|googletagmanager|google-analytics|gtag/js|recaptcha|gstatic\.com|cloudflareinsights|"
+                     r"fontawesome|bootstrap(\.min)?\.js|mc\.yandex|metrika|facebook\.net|hotjar|clarity\.ms|"
+                     r"wp-includes/js|wp-emoji|polyfill|cdnjs\.cloudflare\.com/ajax/libs|unpkg\.com|jsdelivr\.net/npm/"
+                     r"(swiper|slick|lazysizes)|doubleclick|googlesyndication|youtube\.com|ytimg", re.I)
+RES_CAP, RES_TOTAL = 1_500_000, 8_000_000
+
+
+async def save_resources(html_dir, domain: str, responses) -> str:
+    """Keep the scripts and JSON (xhr/fetch) a rendered page loaded, next to its HTML:
+    <domain>.browser-res.json.gz, a list of {url, type, status, body}. Libraries are skipped, bodies capped."""
+    if not html_dir or not responses:
+        return ""
+    out, total = [], 0
+    for r in responses[:80]:
+        try:
+            body = await asyncio.wait_for(r.body(), 10)
+        except Exception:  # noqa: BLE001 — redirects, aborted or evicted bodies
+            continue
+        if not body or len(body) > RES_CAP or total + len(body) > RES_TOTAL:
+            continue
+        total += len(body)
+        out.append({"url": r.url[:500], "type": r.request.resource_type, "status": r.status,
+                    "body": body.decode("utf-8", "replace")})
+    if not out:
+        return ""
+    name = f"{domain}.browser-res.json.gz"
+    with gzip.open(Path(html_dir) / name, "wt", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False)
+    return name
+
+
 def hosts_changed(start_url: str, hops) -> bool:
     start = aff.base_host(urlsplit(start_url).hostname or "")
     return any(aff.base_host(urlsplit(u).hostname or "") != start for _s, u in hops)
@@ -683,6 +716,10 @@ class Scanner:
         hops = []
         page.on("response", lambda r: hops.append([r.status, r.url[:200]])
                 if r.request.is_navigation_request() and r.frame == page.main_frame else None)
+        resources = []  # scripts and JSON the page loaded: kept with the HTML (--save-html)
+        if self.html_dir:
+            page.on("response", lambda r: resources.append(r)
+                    if r.request.resource_type in ("script", "xhr", "fetch") and not LIB_URL.search(r.url) else None)
         resp, error = None, None
         for start in (f"https://{domain}/", f"http://{domain}/"):
             try:
@@ -708,7 +745,8 @@ class Scanner:
         mentions = len(re.findall(r"mostbet|мостбет", html, re.I))
         home.update(final_url=final, status=status, title=title[:200], text_len=len(text),
                     mostbet_mentions=mentions, challenge_waited_ms=waited, text_sample=text[:300],
-                    html_file=save_html(self.html_dir, domain, "browser", html, final, status))
+                    html_file=save_html(self.html_dir, domain, "browser", html, final, status),
+                    resources_file=await save_resources(self.html_dir, domain, resources))
         if kind in ("captcha", "recaptcha", "hcaptcha") and not CHALLENGE_TITLE.search(title) and \
                 len(links_of(html, final)[0]) >= 10:
             home["form_captcha"] = kind  # a captcha in a form on a real page, not a wall: scan on
