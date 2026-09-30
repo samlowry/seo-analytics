@@ -83,7 +83,7 @@ main{{max-width:1100px;margin:0 auto;padding:16px}} h1{{font-size:20px;margin:4p
 nav{{position:sticky;top:0;background:var(--bg);padding:8px 0;display:flex;gap:8px;align-items:center;z-index:2}}
 button{{border:0;background:var(--acc);color:#fff;padding:7px 12px;border-radius:8px;cursor:pointer}}
 .card{{background:var(--card);border-radius:10px;padding:12px 14px;margin-bottom:10px;border:2px solid transparent}}
-.card.cls,.card.chk{{border-color:var(--ok)}} .card.none{{border-color:var(--bad)}}
+.was{{color:var(--bad);font-size:12.5px;width:100%}} .card.cls,.card.chk{{border-color:var(--ok)}} .card.none{{border-color:var(--bad)}}
 header{{display:flex;flex-wrap:wrap;gap:8px;align-items:center}} .dom{{font-weight:700;font-size:16px;color:var(--fg)}}
 .badge{{background:var(--acc);color:#fff;border-radius:6px;padding:2px 8px;font-size:12px}} .op{{color:var(--mut);font-size:12.5px}}
 .comment{{margin:6px 0}} .grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:2px 14px;font-size:12.5px}}
@@ -100,9 +100,12 @@ footer{{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px d
 <nav><button id="exp">Скопировать всё</button><span id="cnt" class="sub"></span></nav>
 {''.join(cards)}
 <script>
-const KEY='brand-classes-review-r2b';let st={{}};try{{st=JSON.parse(localStorage.getItem(KEY)||'{{}}')}}catch(e){{}}
+const KEY='brand-classes-review-r2';let st={{}};try{{st=JSON.parse(localStorage.getItem(KEY)||'{{}}')}}catch(e){{}}
 const save=()=>{{try{{localStorage.setItem(KEY,JSON.stringify(st))}}catch(e){{}};document.getElementById('cnt').textContent=Object.values(st).filter(x=>x.v).length+' отмечено'}};
+// Marks made on the first version of this page: "ok" meant the classifier is right; "bad" did not say who is.
+Object.values(st).forEach(x=>{{if(x.v==='ok')x.v='cls';else if(x.v==='bad'){{x.v='';x.was_bad=true}}}});
 document.querySelectorAll('.card').forEach(c=>{{const d=c.dataset.domain,s=st[d]||{{}};
+ if(s.was_bad&&!s.v){{const m=document.createElement('span');m.className='was';m.textContent='раньше: «неверна» — выберите, кто прав';c.querySelector('footer').prepend(m)}}
  c.querySelectorAll('input[type=radio]').forEach(r=>{{if(r.value===s.v){{r.checked=true;c.classList.add(s.v)}}
   r.onchange=()=>{{c.classList.remove('cls','chk','none');c.classList.add(r.value);st[d]={{...st[d],v:r.value,given:c.dataset.given,checker:c.dataset.checker}};save()}}}});
  const n=c.querySelector('.note');n.value=s.note||'';n.oninput=()=>{{st[d]={{...st[d],note:n.value,given:c.dataset.given}};save()}}}});
