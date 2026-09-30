@@ -842,7 +842,7 @@ class Scanner:
                "mode": "http", "queue_reason": item.get("reason"), "queue_priority": item.get("priority")}
         state = {"our_refs": []}
         follow = lambda u: self.follow_http_only(u, site, state)  # noqa: E731
-        home_raw = await aff.fetch_home(self.session, domain)
+        home_raw = await aff.fetch_home(self.session, domain, is_ours=lambda u: ref_key(u) in OUR_REFS)
         home = {"hops": [[h.get("status"), h.get("url")] for h in (home_raw.get("chain") or [])]}
         rec["home"] = home
         site = domain
@@ -957,7 +957,7 @@ class Scanner:
         groups do not change. A home that redirects straight to a ref is recorded, not requested."""
         domain = item["domain"]
         rec = {"domain": domain, "ts": time.strftime("%Y-%m-%dT%H:%M:%S"), "network": self.network, "mode": "home"}
-        raw = await aff.fetch_home(self.session, domain)
+        raw = await aff.fetch_home(self.session, domain, is_ours=lambda u: ref_key(u) in OUR_REFS)
         home = {"hops": [[h.get("status"), h.get("url")] for h in (raw.get("chain") or [])]}
         rec["home"] = home
         if raw.get("home_ref"):

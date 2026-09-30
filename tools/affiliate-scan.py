@@ -279,8 +279,9 @@ def err_name(e: Exception) -> str:
     return n
 
 
-async def fetch_home(session, domain):
-    """Главная с ручным проходом редиректов. Возвращает dict."""
+async def fetch_home(session, domain, is_ours=None):
+    """Главная с ручным проходом редиректов. Возвращает dict.
+    is_ours(url) → True: адрес из реестра наших рефок, не запрашивается, как и рефка."""
     tries = []
     for start in (f"https://{domain}/", f"http://{domain}/"):
         chain, url = [], start
@@ -291,7 +292,7 @@ async def fetch_home(session, domain):
                 chain.append({"url": url, "status": st, "location": loc})
                 if 300 <= st < 400 and loc:
                     nxt = urljoin(url, loc)
-                    kind = classify_ref(nxt, domain)
+                    kind = "our_ref" if is_ours and is_ours(nxt) else classify_ref(nxt, domain)
                     if kind:
                         return {"ok": True, "chain": chain, "home_ref": nxt, "home_ref_kind": kind}
                     url = nxt
