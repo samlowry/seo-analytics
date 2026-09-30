@@ -24,16 +24,48 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 import landing_brand as lb  # noqa: E402
 
-MB = re.compile(r"most\s?bet|мостбет|мостбэт", re.I)
+import unicodedata
+
+MB_LAT = re.compile(r"most(?:bet|\s+bet(?![-\s]?on\b|ting|s\b|ter))", re.I)
+MB_CYR = re.compile(r"мостбет|мостбэт", re.I)
+# Look-alike letters used to spell the brand past filters (Unicode TR39 confusables, the ones seen in the wild).
+CONFUSABLE = str.maketrans({"Μ": "M", "Ο": "O", "ο": "o", "Ѕ": "S", "ѕ": "s", "Τ": "T", "Β": "B", "Е": "E", "е": "e",
+                            "М": "M", "О": "O", "о": "o", "Т": "T", "В": "B", "С": "C", "с": "c", "а": "a", "Α": "A",
+                            "ε": "e", "τ": "t", "і": "i", "Ι": "I", "ı": "i", "ѐ": "e", "ё": "e"})
+
+
+def fold(t: str) -> str:
+    """Latin skeleton of a text: accents dropped, look-alike Greek/Cyrillic letters mapped to Latin."""
+    t = unicodedata.normalize("NFKD", t or "")
+    return "".join(c for c in t if not unicodedata.combining(c)).translate(CONFUSABLE)
+
+
+def mb_count(t: str) -> int:
+    return len(MB_LAT.findall(fold(t))) + len(MB_CYR.findall(t or ""))
+
+
+class _MB:
+    """MB.search / MB.findall over the folded text, so every existing call sees disguised spellings."""
+    @staticmethod
+    def search(t):
+        return MB_LAT.search(fold(t)) or MB_CYR.search(t or "")
+
+    @staticmethod
+    def findall(t):
+        return MB_LAT.findall(fold(t)) + MB_CYR.findall(t or "")
+
+
+MB = _MB()
+GAMBLING = re.compile(lb.GAMBLING.pattern.replace("|bet\\b|", "|\\bbet\\b|"), re.I)
+META_KEYS = ("og:title", "og:description", "description", "application-name", "twitter:title")
 HIDDEN_STYLE = re.compile(
-    r"display\s*:\s*none|visibility\s*:\s*hidden|(left|top|text-indent)\s*:\s*-\d{3,}|font-size\s*:\s*0(px)?\s*(;|$)|"
+    r"display\s*:\s*none|visibility\s*:\s*hidden|(left|top|text-indent)\s*:\s*-\d{3,}|font-size\s*:\s*[01](\.\d+)?(px|pt)?\s*(;|$)|"
     r"opacity\s*:\s*0(\.0+)?\s*(;|$)|(height|width)\s*:\s*[01]px[^\"]*overflow\s*:\s*hidden|"
     r"overflow\s*:\s*hidden[^\"]*(height|width)\s*:\s*[01]px|clip\s*:\s*rect\(\s*0", re.I)
-AFF_Q = re.compile(lb.AFF_PARAMS.pattern + "|" + lb.TRACK_PARAMS.pattern, re.I)
-GATE_PATH = re.compile(r"^/(go|goto|out|link|visit|click|redirect|redir|r|ref|aff|partner|promo|bonus|reg|"
-                       r"register|signup|join|play|download|apk|get|official|recommends|refer|visit-site|mostbet|mostb|mb|bet|casino|"
-                       r"bonus-code|promo-code|link|site|app|login|enter)"
-                       r"([/?#._-]|$)", re.I)
+AFF_Q = re.compile(lb.AFF_PARAMS.pattern + "|" + lb.TRACK_PARAMS.pattern + r"|(^|&)(sub\d|subid\d?|affiliatecode|affiliate_code|buyer)=", re.I)
+GATE_PATH = re.compile(r"^/(go|goto|out|visit|click|redirect|redir|recommends|refer|link|reg|register|play|bonus|promo|"
+                       r"mostbet|mostb|step-un|get|join|signup)(/[^/]{0,24})?/?$", re.I)
+TRACKER_PATH = re.compile(r"^/[A-Za-z0-9_-]{4,12}/?$")
 DATE_PATH = re.compile(r"/20[012]\d/(0?[1-9]|1[0-2])/|/20[012]\d-\d\d-\d\d|/\d{4}/\d{2}/\d{2}/")
 SLUG = re.compile(r"/[a-z0-9Ѐ-ӿ%]+(?:-[a-z0-9Ѐ-ӿ%]+){3,}/?$", re.I)
 REFERRER_JS = re.compile(r"document\.referrer", re.I)
@@ -82,6 +114,8 @@ def hidden(node) -> bool:
 
 
 SHELL = re.compile(r"front\.cdn-global-mb\.com|/spa-static/|mb_prod\.js|cdn-global-mst\.com/spa", re.I)
+SKIPPY = re.compile(r"(^|\.)(t\.me|youtu\.be|youtube\.com|facebook\.com|instagram\.com|x\.com|twitter\.com|tiktok\.com|"
+                    r"vk\.com|linkedin\.com|pinterest\.com|wa\.me|bit\.ly|goo\.gl)$", re.I)
 POST_CLASS = re.compile(r"post|entry|article|card|blog|news|item|teaser|excerpt|story", re.I)
 
 
@@ -121,6 +155,7 @@ def page_features(html: str, final_url: str, domain: str) -> dict:
     mb_anchor_int, mb_anchor_ext, mb_in_posts, mb_ext_hosts = 0, 0, 0, set()
     internal, date_links, slug_links, ext_hosts = 0, 0, 0, Counter()
     apk, gates, aff_links, seen_aff = [], [], [], set()
+    trackers, ext_urls = [], Counter()
     for a in tree.css("a[href]"):
         href = (a.attributes.get("href") or "").strip()
         if not href or href.startswith(("#", "mailto:", "tel:", "javascript:")):
@@ -141,10 +176,12 @@ def page_features(html: str, final_url: str, domain: str) -> dict:
             mb_anchor += len(MB.findall(text)) or 1
             if hid:
                 mb_hidden_links += 1
-            if is_int:
+            if is_int and not GATE_PATH.search(s.path):
                 mb_anchor_int += 1
                 if in_post(a):
                     mb_in_posts += 1
+            elif is_int:
+                pass
             else:
                 mb_anchor_ext += 1
                 mb_ext_hosts.add(h)
@@ -156,10 +193,14 @@ def page_features(html: str, final_url: str, domain: str) -> dict:
                 date_links += 1
             if SLUG.search(s.path):
                 slug_links += 1
-            if GATE_PATH.search(s.path) and len(s.path) <= 30 and s.path.count("-") <= 1:
+            if GATE_PATH.search(s.path):
                 gates.append({"url": u[:200], "text": text})
+            elif h and h.removeprefix("www.") != host.removeprefix("www.") and TRACKER_PATH.search(s.path) and \
+                    any(c.isupper() or c.isdigit() for c in s.path):
+                trackers.append(u[:200])  # short code on a subdomain of the site: its own tracker
             continue
         ext_hosts[h] += 1
+        ext_urls[u] += 1
         ref_kind = lb_ref(u, host)
         affq = bool(AFF_Q.search(s.query or ""))
         if (ref_kind or affq) and u not in seen_aff:
@@ -168,7 +209,9 @@ def page_features(html: str, final_url: str, domain: str) -> dict:
                               "ref_kind": ref_kind or "", "hidden": hid})
         links.append((h, mb_here, hid))
 
-    trackers = []  # external addresses in buttons/onclick without a readable destination
+    # External short-code links repeated on several buttons are a tracker even without parameters.
+    trackers += [u for u, c in ext_urls.items() if c >= 2 and TRACKER_PATH.search(urlsplit(u).path or "")
+                 and any(ch.isupper() or ch.isdigit() for ch in urlsplit(u).path) and not SKIPPY.search(urlsplit(u).hostname or "")]
     for n in tree.css("[onclick],[data-url],[data-href],[data-link],[data-go]"):
         raw = " ".join(v for k, v in (n.attributes or {}).items() if v and (k == "onclick" or k.startswith("data-")))
         for u in re.findall(r"https?://[^\s'\"<>)]+", raw):
@@ -187,13 +230,24 @@ def page_features(html: str, final_url: str, domain: str) -> dict:
     text = visible_text(tree)
     tl = max(len(text), 1)
     mb_text = len(MB.findall(text))
-    gambling = len(lb.GAMBLING.findall(text[:300000]))
+    gambling = len(GAMBLING.findall(text[:300000]))
     others = Counter()
     sample = text[:300000]
     for name, rx in BRAND_ALT:
         c = len(rx.findall(sample))
         if c and (name not in COMMON_WORDS or gambling >= 5):
             others[name] += c
+    meta = []
+    for n in tree.css("meta[property],meta[name]"):
+        k = (n.attributes.get("property") or n.attributes.get("name") or "").lower()
+        if k in META_KEYS:
+            meta.append((n.attributes.get("content") or "")[:300])
+    meta_text = " | ".join(m for m in meta if m)
+    js_redirect = ""
+    if len(text) < 200:
+        m = re.search(r"""(?:location(?:\.href)?\s*=|location\.(?:replace|assign)\s*\()\s*["'`](https?://[^"'`]+)""", scripts)
+        if m:
+            js_redirect = m.group(1)[:300]
     ref_js = bool(REFERRER_JS.search(scripts) and SEARCH_ENGINES.search(scripts) and POPUP.search(scripts))
     return {
         "host": host, "title": title, "h1": h1, "lang": lang, "generator": generator,
@@ -212,7 +266,7 @@ def page_features(html: str, final_url: str, domain: str) -> dict:
         "mostbet_shell": bool(SHELL.search(html)),
         "mirror_title": bool(lb.MIRROR_TITLE.search(title)), "mostbet_assets": bool(lb.MOSTBET_STRONG.search(html)),
         "parked": bool(lb.PARKED.search(f"{title} {text[:3000]}") or lb.PARKED_HTML.search(html[:200000])),
-        "text_sample": text[:400],
+        "text_sample": text[:400], "meta_text": meta_text, "mb_meta": mb_count(meta_text), "js_redirect": js_redirect,
     }
 
 

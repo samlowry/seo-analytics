@@ -1,0 +1,482 @@
+[
+ {
+  "domain": "akademiayna.com",
+  "given": "other_gambling",
+  "verdict": "correct",
+  "should_be": "other_gambling",
+  "confidence": 0.85,
+  "comment": "Итальянский гайд по Chicken Road (демо, RTP, 1win/LeoVegas в тексте); Mostbet нет ни в тексте, ни в href/скрытых блоках."
+ },
+ {
+  "domain": "bayar44.co",
+  "given": "other_gambling",
+  "verdict": "correct",
+  "should_be": "other_gambling",
+  "confidence": 0.9,
+  "comment": "Малайзийское онлайн-казино bayar44 со своими /promo-bonus, /download; упоминаний Mostbet в HTML ноль."
+ },
+ {
+  "domain": "dd-bet.cc",
+  "given": "other_gambling",
+  "verdict": "correct",
+  "should_be": "other_gambling",
+  "confidence": 0.7,
+  "comment": "Browser-scan: «DDBet Review 2026 | Confiável ou Golpe?», no_brand_mention=True. Сохранён только HTML Cloudflare-челленджа, отрисованной страницы на диске нет."
+ },
+ {
+  "domain": "hee777.net",
+  "given": "other_gambling",
+  "verdict": "correct",
+  "should_be": "other_gambling",
+  "confidence": 0.9,
+  "comment": "Пакистанское слот-казино hee777, реклама JJ55; Mostbet в HTML нет."
+ },
+ {
+  "domain": "k9winff.xyz",
+  "given": "other_gambling",
+  "verdict": "correct",
+  "should_be": "other_gambling",
+  "confidence": 0.9,
+  "comment": "Азиатское казино K9WIN (slot 351, togel); Mostbet в HTML нет."
+ },
+ {
+  "domain": "mostafathabet.com",
+  "given": "other_gambling",
+  "verdict": "wrong",
+  "should_be": "unrelated",
+  "confidence": 0.95,
+  "comment": "Портфолио египетского диктора Mostafa Thabet (озвучка рекламы, аудиокниги); гэмблинга нет — gambling_per_1k=1.08 набран подстрокой «bet» в «Mostafathabet/Thabet»."
+ },
+ {
+  "domain": "n1bet-bet.com",
+  "given": "other_gambling",
+  "verdict": "correct",
+  "should_be": "other_gambling",
+  "confidence": 0.9,
+  "comment": "Дорвей N1 Bet для Австралии; Mostbet в HTML нет."
+ },
+ {
+  "domain": "shopmollysonmain.com",
+  "given": "other_gambling",
+  "verdict": "correct",
+  "should_be": "other_gambling",
+  "confidence": 0.85,
+  "comment": "Дроп-домен с лендингом Dragon Tiger для Индии (UPI); Mostbet в HTML нет."
+ },
+ {
+  "domain": "theplayoffs.news",
+  "given": "other_gambling",
+  "verdict": "correct",
+  "should_be": "other_gambling",
+  "confidence": 0.8,
+  "comment": "Бразильский портал о ставках (bet365, Betano, Superbet…); Mostbet нет ни в тексте, ни в ссылках."
+ },
+ {
+  "domain": "ufrst.com",
+  "given": "other_gambling",
+  "verdict": "correct",
+  "should_be": "other_gambling",
+  "confidence": 0.85,
+  "comment": "Вьетнамский сайт 12BET с лентой статей про GO99; Mostbet в HTML нет."
+ },
+ {
+  "domain": "amazon.se",
+  "given": "unrelated",
+  "verdict": "correct",
+  "should_be": "unrelated",
+  "confidence": 0.95,
+  "comment": "Amazon.se (browser-scan, title «Låga priser på Elektronik…»); на диске только AWS WAF challenge, Mostbet нет."
+ },
+ {
+  "domain": "blog.youtube",
+  "given": "unrelated",
+  "verdict": "correct",
+  "should_be": "unrelated",
+  "confidence": 0.95,
+  "comment": "Официальный блог YouTube; ни Mostbet, ни гэмблинга в HTML."
+ },
+ {
+  "domain": "droolrecipes.com",
+  "given": "unrelated",
+  "verdict": "correct",
+  "should_be": "unrelated",
+  "confidence": 0.95,
+  "comment": "Кулинарный блог (рецепты, Ezoic-реклама); Mostbet и гэмблинга нет."
+ },
+ {
+  "domain": "foxnews.com",
+  "given": "unrelated",
+  "verdict": "correct",
+  "should_be": "unrelated",
+  "confidence": 0.9,
+  "comment": "Fox News; единственный гэмблинг — пункт меню «OutKick Betting», Mostbet нет."
+ },
+ {
+  "domain": "kgxpedition.org",
+  "given": "unrelated",
+  "verdict": "correct",
+  "should_be": "unrelated",
+  "confidence": 0.9,
+  "comment": "301 на kgxpedition.com — сайт оверлендинг-команды; «slot» только в CSS-селекторах Wix."
+ },
+ {
+  "domain": "mostbetaviator-az.click",
+  "given": "unrelated",
+  "verdict": "unsure",
+  "should_be": "article",
+  "confidence": 0.55,
+  "comment": "Mostbet только в домене; страница — линк-селлер «Business Listing Directory» (21 внешний домен, «High-authority backlinks, DR increase»). По определению ближе к article (линк-селлер), чем к unrelated."
+ },
+ {
+  "domain": "obserwatorium.biz",
+  "given": "unrelated",
+  "verdict": "correct",
+  "should_be": "unrelated",
+  "confidence": 0.9,
+  "comment": "Польское агентство цифровых стратегий; Mostbet и гэмблинга нет."
+ },
+ {
+  "domain": "radiostroi.ru",
+  "given": "unrelated",
+  "verdict": "correct",
+  "should_be": "unrelated",
+  "confidence": 0.9,
+  "comment": "Дроп-домен с сервисом изучения языков Lingwa; Mostbet и гэмблинга нет."
+ },
+ {
+  "domain": "speedtwitch.com",
+  "given": "unrelated",
+  "verdict": "wrong",
+  "should_be": "other_gambling",
+  "confidence": 0.75,
+  "comment": "Взломанный сайт китайского завода конвейеров: title и название заменены на «乐鱼（中国）体育官方网站» (бренд ставок Leyu), подключён чужой скрипт happywealth11.com. Mostbet нет, но это дорвей чужой БК."
+ },
+ {
+  "domain": "vkgk.kz",
+  "given": "unrelated",
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.85,
+  "comment": "Цепочка редиректов на mst.vkgk.kz/under-construction.html, текст «Техническая пауза. Сайт обновляется прямо сейчас» — заглушка."
+ },
+ {
+  "domain": "mostbest-pk.com",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.9,
+  "comment": "Дефолтная страница хостинга «Success!», 45 символов текста."
+ },
+ {
+  "domain": "mostbet-vmv1.cfd",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.95,
+  "comment": "Шаблонная заглушка «🚀 Coming Soon… We're working on something amazing», 133 символа, ссылок нет."
+ },
+ {
+  "domain": "mostbet-vtu9.cfd",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.95,
+  "comment": "Шаблонная заглушка «🚀 Coming Soon… We're working on something amazing», 133 символа, ссылок нет."
+ },
+ {
+  "domain": "mostbet-wfq2.cfd",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.95,
+  "comment": "Шаблонная заглушка «🚀 Coming Soon… We're working on something amazing», 133 символа, ссылок нет."
+ },
+ {
+  "domain": "mostbet-who5.cfd",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.95,
+  "comment": "Шаблонная заглушка «🚀 Coming Soon… We're working on something amazing», 133 символа, ссылок нет."
+ },
+ {
+  "domain": "mostbet-wnn1.cfd",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.95,
+  "comment": "Шаблонная заглушка «🚀 Coming Soon… We're working on something amazing», 133 символа, ссылок нет."
+ },
+ {
+  "domain": "mostbet-wqw2.cfd",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.95,
+  "comment": "Шаблонная заглушка «🚀 Coming Soon… We're working on something amazing», 133 символа, ссылок нет."
+ },
+ {
+  "domain": "mostbet-wtw4.cfd",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.95,
+  "comment": "Шаблонная заглушка «🚀 Coming Soon… We're working on something amazing», 133 символа, ссылок нет."
+ },
+ {
+  "domain": "mostbet-wwd5.cfd",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.95,
+  "comment": "Шаблонная заглушка «🚀 Coming Soon… We're working on something amazing», 133 символа, ссылок нет."
+ },
+ {
+  "domain": "mostbet.community",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.95,
+  "comment": "Заглушка хостинга «Домен не прилинкован ни к одной из директорий на сервере!»."
+ },
+ {
+  "domain": "kaequinephotography.org",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.95,
+  "comment": "Страница Namecheap «Domain registration has expired» с lander.parity.domains."
+ },
+ {
+  "domain": "mostbet-bk4.xyz",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.95,
+  "comment": "JS-редирект на /lander → forsale.godaddy.com: «is for sale — Buy now for $399»."
+ },
+ {
+  "domain": "mostbet-game.xyz",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.95,
+  "comment": "JS-редирект на /lander → forsale.godaddy.com: «is for sale — Buy now for $799»."
+ },
+ {
+  "domain": "mostbet-ur.xyz",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.95,
+  "comment": "JS-редирект на /lander → forsale.godaddy.com: «is for sale — Buy now for $399»."
+ },
+ {
+  "domain": "mostbet-wcz7.top",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "«Redirecting...» со скриптом router.parklogic.com, в параметрах tenant «namesilo-expired» — парковка просроченного домена."
+ },
+ {
+  "domain": "mostbet-wiu7.top",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.75,
+  "comment": "HTML не сохранён; http-scan: «Redirecting...» (тот же шаблон, что у parklogic-парковок), browser-scan: reason=parked. Упоминания Mostbet — вероятно, ключи рекламной ленты парковки."
+ },
+ {
+  "domain": "mostbet-wte2.top",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.75,
+  "comment": "HTML не сохранён; http-scan: «Redirecting...» (тот же шаблон, что у parklogic-парковок), browser-scan: reason=parked. Упоминания Mostbet — вероятно, ключи рекламной ленты парковки."
+ },
+ {
+  "domain": "mostbetoo.buzz",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.75,
+  "comment": "HTML не сохранён; http-scan: «Redirecting...» (тот же шаблон, что у parklogic-парковок), browser-scan: reason=parked. Упоминания Mostbet — вероятно, ключи рекламной ленты парковки."
+ },
+ {
+  "domain": "mostbet.ink",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.95,
+  "comment": "Страница Namecheap «Domain registration has expired»."
+ },
+ {
+  "domain": "mostbetuzbeks.com",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.95,
+  "comment": "Парковка Spaceship: «Your domain has expired. Please log in to your Spaceship account to renew it»."
+ },
+ {
+  "domain": "7k-cassino.lol",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.8,
+  "comment": "http-scan: timeout, hops пустые; в browser-scan и home-dump домена нет, HTML нет."
+ },
+ {
+  "domain": "mostbet-az-giris-az.com",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.8,
+  "comment": "http-scan: timeout, hops пустые; в browser-scan и home-dump домена нет, HTML нет."
+ },
+ {
+  "domain": "mostbet-bg.com",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.8,
+  "comment": "http-scan: timeout, hops пустые; в browser-scan и home-dump домена нет, HTML нет."
+ },
+ {
+  "domain": "mostbet-se.com",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.8,
+  "comment": "http-scan: timeout, hops пустые; в browser-scan и home-dump домена нет, HTML нет."
+ },
+ {
+  "domain": "mostbetbonus.pl",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.8,
+  "comment": "http-scan: timeout, hops пустые; в browser-scan и home-dump домена нет, HTML нет."
+ },
+ {
+  "domain": "mostbetot.casino",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.8,
+  "comment": "http-scan: timeout, hops пустые; в browser-scan и home-dump домена нет, HTML нет."
+ },
+ {
+  "domain": "mostbets.click",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.8,
+  "comment": "http-scan: timeout, hops пустые; в browser-scan и home-dump домена нет, HTML нет."
+ },
+ {
+  "domain": "suite101cagliari.it",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.8,
+  "comment": "http-scan: timeout, hops пустые; в browser-scan и home-dump домена нет, HTML нет."
+ },
+ {
+  "domain": "mostbet-login-np.com",
+  "given": "dead",
+  "verdict": "unsure",
+  "should_be": "not_shown",
+  "confidence": 0.5,
+  "comment": "Сервер отвечает, но зациклен: 301 https://…/ → https://…:443/ до too_many_redirects. Это не «не отвечает», а ошибка, скрывающая страницу."
+ },
+ {
+  "domain": "mostbet-wgd1.cfd",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.7,
+  "comment": "home-dump: connect_error, HTML нет. Title «Coming Soon» в выборке пришёл из более раннего источника — соседние mostbet-w*.cfd такие же заглушки."
+ },
+ {
+  "domain": "casinomostbetkzskachat.com.kz",
+  "given": "not_shown",
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.7,
+  "comment": "503 с телом «Site Not Found… Served by the hosting platform» — заглушка хостинга, сайт на домене не настроен; защиты или гео-блока нет."
+ },
+ {
+  "domain": "mostbet-8blji.icu",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.8,
+  "comment": "Стандартный nginx «403 Forbidden» и в http, и в браузере — контент закрыт от нашей точки (RS)."
+ },
+ {
+  "domain": "mostbet-ns2.xyz",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.8,
+  "comment": "Стандартный nginx «403 Forbidden» и в http, и в браузере — контент закрыт от нашей точки (RS)."
+ },
+ {
+  "domain": "mostbet-wfs4.top",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.8,
+  "comment": "Стандартный nginx «403 Forbidden» и в http, и в браузере — контент закрыт от нашей точки (RS)."
+ },
+ {
+  "domain": "rating-mostbet-casinozj1.top",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.8,
+  "comment": "Стандартный nginx «403 Forbidden» и в http, и в браузере — контент закрыт от нашей точки (RS)."
+ },
+ {
+  "domain": "mostbet-casino-z0r.top",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.8,
+  "comment": "403 «You don't have permission to access this resource», http-scan пометил ddos_guard."
+ },
+ {
+  "domain": "mostbet-kirish777.com",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.95,
+  "comment": "Cloudflare «Sorry, you have been blocked»."
+ },
+ {
+  "domain": "mostbet-registro.sbs",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.95,
+  "comment": "Cloudflare «Sorry, you have been blocked»."
+ },
+ {
+  "domain": "mostbet-wvl8.top",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.75,
+  "comment": "nginx «503 Service Temporarily Unavailable» в http и в браузере."
+ },
+ {
+  "domain": "mostbet-zaolxx.top",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.8,
+  "comment": "nginx 444 (соединение закрыто без ответа), HTML нет."
+ }
+]

@@ -1,0 +1,482 @@
+[
+ {
+  "domain": "aclarkforsheriff.com",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Азербайджанский шаблон про Mostbet; реф hpnjesmb.com/KqFU → pid=327472 (с внутренних страниц). Ссылки в подвале (rvthenorthgiveaway.com и др.) — обмен, не реклама."
+ },
+ {
+  "domain": "en-mostbet.com",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.9,
+  "comment": "Все кнопки на /visit/ → visit773.com → vs66cd75semb.com/rAmF (реф Mostbet). Чужих брендов нет."
+ },
+ {
+  "domain": "mortysdelicatessen1.com",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.9,
+  "comment": "10 кнопок на ktmobomst.com/eN9U — реф-хост Mostbet; других внешних ссылок, кроме begambleaware/gamcare, нет."
+ },
+ {
+  "domain": "mostbet-deutsch-de.com",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.9,
+  "comment": "data-go /go/registration → gotosimn.com → rvqezxmb.com (реф Mostbet); чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-lniw.top",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Переезд на mostbet-mejn.top, все кнопки /reg → vb2f8dw5k3mp.com/WO3S (реф Mostbet)."
+ },
+ {
+  "domain": "mostbet.edu.bi",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.9,
+  "comment": "Тот же азербайджанский шаблон, реф hpnjesmb.com/KqFU → pid=327472; внешние frozensmokedispensary/luigisvirginia — обмен ссылками."
+ },
+ {
+  "domain": "mostbet50693.help",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Переезд на smak.kg, /go/registration/ → llvgibmb.com/n8AF (реф Mostbet)."
+ },
+ {
+  "domain": "mostbets-bet.it.com",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Трекер space-mind-io.com/click → pskxnlmb.com pid=5870; остальные внешние — сайты про Mostbet без кода."
+ },
+ {
+  "domain": "penzion-polka.cz",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "27 кнопок на /go/go.php/ → 4o0o9sxmb.com/sH9U (реф Mostbet); чужих брендов нет."
+ },
+ {
+  "domain": "webarium.cz",
+  "given": "mono_mostbet",
+  "verdict": "wrong",
+  "should_be": "mono_no_ads",
+  "confidence": 0.75,
+  "comment": "Единственная «реклама» — 7 ссылок на https://mostbet.com без кода партнёра; по правилам брифа это не аффилиатская ссылка. (В текущем classified.csv уже mono_no_ads.)"
+ },
+ {
+  "domain": "blackfridaysale.com.pl",
+  "given": "mono_no_ads",
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "19 кнопок, включая логотип и «Rejestracja/Odbierz bonus», ведут на свой /step-un/ — похоже на шлюз, никто по нему не прошёл."
+ },
+ {
+  "domain": "fitsewbeautifulnewburypark.com",
+  "given": "mono_no_ads",
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "WordPress-страница про Mostbet PT без единой кнопки и внешней ссылки."
+ },
+ {
+  "domain": "lekarnamohelnice.cz",
+  "given": "mono_no_ads",
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "/go/ (js_click) → winshark.link → winshark13.com?stag=109401_… — реф Winshark; в destinations.csv есть, но правило голых шлюзов /go/ его выбросило. (В текущем classified.csv уже mono_other.)"
+ },
+ {
+  "domain": "mostbet-apk.top",
+  "given": "mono_no_ads",
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.55,
+  "comment": "Сейчас все 60 кнопок сломаны (href=\"href\"), рекламы нет; но в прошлом скане были ссылки Mostbet (ads_seen_in_earlier_scan), так что возможно mono_mostbet."
+ },
+ {
+  "domain": "mostbet-casino-play9le.top",
+  "given": "mono_no_ads",
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.9,
+  "comment": "Заглушка ispmanager «Website … is ready. The content is to be added»; Mostbet только в имени домена внутри текста."
+ },
+ {
+  "domain": "mostbet-uze1.com",
+  "given": "mono_no_ads",
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Кнопки location.href='/login' и '/register' на mostbet-uze3.com отдают 404 — рекламы нет."
+ },
+ {
+  "domain": "mostbet51656.shop",
+  "given": "mono_no_ads",
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Все кнопки href=\"#\" без обработчиков; браузер кликал — ничего не поймал."
+ },
+ {
+  "domain": "ninca.pl",
+  "given": "mono_no_ads",
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "/go/ → winshark13.com?stag=109401_… (Winshark); тот же шаблон, что lekarnamohelnice.cz. (В текущем classified.csv уже mono_other.)"
+ },
+ {
+  "domain": "restauracemlyny.cz",
+  "given": "mono_no_ads",
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "18 кнопок на трекер partners-official.com/b2tcnrmv, браузер его пропустил (external_skipped=1). На других сайтах этот трекер ведёт на Spinanga."
+ },
+ {
+  "domain": "vkplast.cz",
+  "given": "mono_no_ads",
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "CTA — href=\"#\" с rel=sponsored, клики остаются на vkplast.cz; реклама не подключена."
+ },
+ {
+  "domain": "bd-mostbet-agent.com",
+  "given": "mono_unresolved",
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.65,
+  "comment": "На внутренних страницах ссылки с кодом на 19tbajee.com (Baji) и winbd17.com/520bd12.vip (?affiliateCode=seo555/520ge00c) — чужие бангладешские казино; получатель виден, только captcha не дала подтвердить бренд."
+ },
+ {
+  "domain": "htfinstant.pics",
+  "given": "mono_unresolved",
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "PWA-«установщик» Mostbet, кнопка на трекер mediamafiaclub.com/K3m29p с незаполненным шаблоном макросов, отдаёт 404 — получатель неизвестен."
+ },
+ {
+  "domain": "mgmteh.ru",
+  "given": "mono_unresolved",
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.55,
+  "comment": "«Шлюзы» — обычные внутренние страницы (/mostbet-casino/, /mostbet-registratsiya/); рекламных ссылок нет, зато простые ссылки на rsn-rb.ru (Азино777) и finut2020.com (турецкий рейтинг казино)."
+ },
+ {
+  "domain": "mostbet-casino-india.net",
+  "given": "mono_unresolved",
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "15 кнопок на трекер mcin.mostbet-casino-india.net/TTK8Z4L — поддомен считается своим и не пройден; получатель неизвестен. Поле gates при этом показывает обычные страницы, а не трекер."
+ },
+ {
+  "domain": "mostbet-ki.ru",
+  "given": "mono_unresolved",
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Трекер 3.33echelon.com/GMqHi отдаёт 404 (Invalid Short URL), dhwqw.com не отвечает — получатель действительно неизвестен."
+ },
+ {
+  "domain": "mostbet06318.help",
+  "given": "mono_unresolved",
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.7,
+  "comment": "Переезд на mostbet-czcasino.com, кнопки на свой /reg не пройдены; внешняя mostbet-azerbaycan-aviator.com — сайт про Mostbet без кода."
+ },
+ {
+  "domain": "mostbet3.bet",
+  "given": "mono_unresolved",
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.65,
+  "comment": "В destinations.csv ссылка 520bd09.vip/register?affiliateCode=ge8bd0k — партнёрский код чужого бангладешского казино (recaptcha не дала прочитать бренд)."
+ },
+ {
+  "domain": "mostbethungary.online",
+  "given": "mono_unresolved",
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "data-href /go/ → bitroute.click/brandmostbet → mell0529.life?p=slic — Mellstroy; выброшено правилом голого /go/. (В текущем classified.csv уже mono_other.)"
+ },
+ {
+  "domain": "pklisty.cz",
+  "given": "mono_unresolved",
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.7,
+  "comment": "20 кнопок на partners-official.com/b2tcnrmv, трекер отдал пустую страницу; вероятный получатель — Spinanga (так ведёт этот трекер на других сайтах), но не подтверждено."
+ },
+ {
+  "domain": "scottsdalemicrobladingstudio.com",
+  "given": "mono_unresolved",
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.7,
+  "comment": "Реф weg96sbmb.com/KqFU не ответил, но хост вида <случайно>mb.com/<4 символа> и тот же код KqFU на hpnjesmb.com в том же шаблоне ведут на Mostbet pid=327472."
+ },
+ {
+  "domain": "38bhoemb.com",
+  "given": "mirror",
+  "verdict": "correct",
+  "should_be": "mirror",
+  "confidence": 0.9,
+  "comment": "Официальный SPA-шелл Mostbet: theme-color #003265, тот же блок из 21 hreflang (mostkupon.tr, mostbett.bet x-default…), title «…MostBet.com…»."
+ },
+ {
+  "domain": "bdmostbet2.com",
+  "given": "mirror",
+  "verdict": "correct",
+  "should_be": "mirror",
+  "confidence": 0.9,
+  "comment": "Официальный SPA-шелл Mostbet: theme-color #003265, тот же блок из 21 hreflang (mostkupon.tr, mostbett.bet x-default…), title «…MostBet.com…»."
+ },
+ {
+  "domain": "favpgamb.com",
+  "given": "mirror",
+  "verdict": "correct",
+  "should_be": "mirror",
+  "confidence": 0.9,
+  "comment": "Официальный SPA-шелл Mostbet: theme-color #003265, тот же блок из 21 hreflang (mostkupon.tr, mostbett.bet x-default…), title «…MostBet.com…»."
+ },
+ {
+  "domain": "kdlnnvmb.com",
+  "given": "mirror",
+  "verdict": "correct",
+  "should_be": "mirror",
+  "confidence": 0.85,
+  "comment": "Официальный SPA-шелл Mostbet: theme-color #003265, тот же блок из 21 hreflang (mostkupon.tr, mostbett.bet x-default…), title «…MostBet.com…». Сохранён только сырой HTML, но это тот же шелл."
+ },
+ {
+  "domain": "mostbet-co10.com",
+  "given": "mirror",
+  "verdict": "correct",
+  "should_be": "mirror",
+  "confidence": 0.85,
+  "comment": "Официальный SPA-шелл Mostbet: theme-color #003265, тот же блок из 21 hreflang (mostkupon.tr, mostbett.bet x-default…), title «…MostBet.com…». Сохранён только сырой HTML, но это тот же шелл."
+ },
+ {
+  "domain": "mostbet-pt28.com",
+  "given": "mirror",
+  "verdict": "correct",
+  "should_be": "mirror",
+  "confidence": 0.9,
+  "comment": "Официальный SPA-шелл Mostbet: theme-color #003265, тот же блок из 21 hreflang (mostkupon.tr, mostbett.bet x-default…), title «…MostBet.com…»."
+ },
+ {
+  "domain": "mostbetbd10.com",
+  "given": "mirror",
+  "verdict": "correct",
+  "should_be": "mirror",
+  "confidence": 0.9,
+  "comment": "Официальный SPA-шелл Mostbet: theme-color #003265, тот же блок из 21 hreflang (mostkupon.tr, mostbett.bet x-default…), title «…MostBet.com…»."
+ },
+ {
+  "domain": "pnwfpqmb.com",
+  "given": "mirror",
+  "verdict": "correct",
+  "should_be": "mirror",
+  "confidence": 0.9,
+  "comment": "Официальный SPA-шелл Mostbet: theme-color #003265, тот же блок из 21 hreflang (mostkupon.tr, mostbett.bet x-default…), title «…MostBet.com…»."
+ },
+ {
+  "domain": "syqpxqmb.com",
+  "given": "mirror",
+  "verdict": "correct",
+  "should_be": "mirror",
+  "confidence": 0.9,
+  "comment": "Официальный SPA-шелл Mostbet: theme-color #003265, тот же блок из 21 hreflang (mostkupon.tr, mostbett.bet x-default…), title «…MostBet.com…»."
+ },
+ {
+  "domain": "zckfvlmb.com",
+  "given": "mirror",
+  "verdict": "correct",
+  "should_be": "mirror",
+  "confidence": 0.9,
+  "comment": "Официальный SPA-шелл Mostbet: theme-color #003265, тот же блок из 21 hreflang (mostkupon.tr, mostbett.bet x-default…), title «…MostBet.com…»."
+ },
+ {
+  "domain": "most-betapk.store",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.85,
+  "comment": "Главная сразу уходит на jackl.group/click?o=1131&a=320&aff_click_id=… → slotoro77.bet — реф чужого казино."
+ },
+ {
+  "domain": "mostbet-4poh.xyz",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Главная уводит на casinozlucky.com/?ref=fap_w24128p111_runodep — реф «Игорный дом Лев»."
+ },
+ {
+  "domain": "mostbet-app.mobi",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Главная уводит на voyllckans.com/?ref=fap_w24128p111_runodep — тот же реф «Лев»."
+ },
+ {
+  "domain": "mostbet-c.xyz",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Главная уводит на casinozlucky.com/?ref=fap_w24128p111_runodep — «Лев»."
+ },
+ {
+  "domain": "mostbet-fa83.xyz",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.8,
+  "comment": "JS location.href=\"/go.php?t=…\" → lewis-kickback.top/?ref=fap_w24128p111_runodep — реф «Лев»."
+ },
+ {
+  "domain": "mostbet-md2.xyz",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.8,
+  "comment": "Тот же go.php-скрипт → lewis-kickback.top/?ref=fap_… (Лев)."
+ },
+ {
+  "domain": "mostbet-uz.store",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.85,
+  "comment": "Главная уводит на 1wyikj.life — 1win."
+ },
+ {
+  "domain": "mostbet-uz2.xyz",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.85,
+  "comment": "Главная уводит на go2chirinkotan.com?ref=fap_w24128p111_hbrdlev — «Лев»."
+ },
+ {
+  "domain": "mostbet996.casino",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.8,
+  "comment": "meta refresh 0 + location.href на promo-slot-link.com/…refCode=sk_w238255…_Dmostbet997 — реф чужого казино (7k). Сама цель ответила 429."
+ },
+ {
+  "domain": "mostbetru.ru",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.85,
+  "comment": "Главная уводит через v.trackthis.click?domain=refpa42380.com на melbet.org — реф Melbet."
+ },
+ {
+  "domain": "1mostbet.kg",
+  "given": "redirect_ref",
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "301 на mostbetkg.net — это контентный сайт про Mostbet (сам в classified как mono_unresolved), а не реф: pid и кода в цепочке нет."
+ },
+ {
+  "domain": "mostbet-kz.com",
+  "given": "redirect_ref",
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "301 → mostbetkz.asia → mostbetkazinokazakhstan.com — переезд на контентный сайт (сам mono_unresolved), а не реф."
+ },
+ {
+  "domain": "mostbet-wds1.top",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.9,
+  "comment": "Главная уходит на uksyxemb.com/casino?…pid=363734 — реф Mostbet."
+ },
+ {
+  "domain": "mostbet-wud1.top",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.9,
+  "comment": "Главная уходит на uksyxemb.com/casino?…pid=363734 — реф Mostbet."
+ },
+ {
+  "domain": "mostbet.cm",
+  "given": "redirect_ref",
+  "verdict": "wrong",
+  "should_be": "mirror",
+  "confidence": 0.75,
+  "comment": "Страница — синий прелоадер-диспетчер, как на апексе mostbet.com, уводит на официальное зеркало 8unx689.com без pid. Это официальный вход, а не реф."
+ },
+ {
+  "domain": "mostbet2.com.tr",
+  "given": "redirect_ref",
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "301 → mostkupon.tr → mostbettr.asia — переезд на контентный сайт сетки из hreflang апекса (сам mono_unresolved), а не реф."
+ },
+ {
+  "domain": "mostbetaz.biz",
+  "given": "redirect_ref",
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "301 на mostbetazerbaycangiris.net — контентный сайт (сам mono_unresolved), а не реф."
+ },
+ {
+  "domain": "mostbetkg1.bet",
+  "given": "redirect_ref",
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "301 на mostbetkg.net — переезд на контентный сайт, кода партнёра нет."
+ },
+ {
+  "domain": "mostbett.com.az",
+  "given": "redirect_ref",
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "301 → mostbetaz.biz → mostbetazerbaycangiris.net — цепочка переездов на контентный сайт, а не реф."
+ },
+ {
+  "domain": "pkmostbet.com",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.85,
+  "comment": "302 с главной на 5cpca83xd2wjmb.com/Arks — реф-хост Mostbet."
+ }
+]

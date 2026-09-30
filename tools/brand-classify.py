@@ -46,7 +46,12 @@ import landing_brand as lb  # noqa: E402
 
 csv.field_size_limit(sys.maxsize)
 
-MB = re.compile(r"most\s?bet|мостбет|мостбэт", re.I)
+import importlib.util as _ilu
+
+_spec = _ilu.spec_from_file_location("brand_site_features", HERE / "brand-site-features.py")
+_feat = _ilu.module_from_spec(_spec)
+_spec.loader.exec_module(_feat)
+MB = _feat.MB  # folds accents and look-alike letters: "Μοѕtbеt", "Móstbet"
 NOT_AD_HOST = re.compile(r"(^|\.)(yahoo\.com|consent\.[a-z.]+|legal\.[a-z.]+|google\.[a-z.]+|facebook\.com|"
                          r"apple\.com|microsoft\.com|cookiebot\.com|onetrust\.com|gannett\.com)$", re.I)
 BARE_GATES = {"/go/", "/goto/", "/out/", "/link/", "/visit/", "/redirect/", "/click/", "/go", "/goto", "/out"}
@@ -65,12 +70,13 @@ HACKED_MAX_TEXT = 3     # Mostbet mentions in visible text outside links, at mos
 MIRROR_TEXT = 6000      # visible chars of a rendered mirror; affiliate copies with Mostbet CDN images are longer
 HACKED_GAMBLING = 5.0   # a hacked site's own topic is not gambling: gambling words per 1k chars below this
 STUB_TEXT = 300         # visible chars below which a page with no ads is a stub
-PARKED_MORE = re.compile(r"domain registration has expired|forsale\.godaddy\.com|is for sale|future home of|"
+PARKED_MORE = re.compile(r"domain registration has expired|website\.ws/wc_landing|forsale\.godaddy\.com|is for sale|future home of|"
                          r"is this domain name yours|forsale\.dynadot\.com|on auction|^\s*parking page|"
                          r"domain is for sale|buy this domain|domain parking", re.I)
 STUB_MORE = re.compile(r"why am i seeing this page|fastpanel|account (disabled|suspended)|web server is ready|"
                        r"website is ready|coming soon|under construction|default (web )?page|it works!|"
-                       r"домен не прилинкован|сайт заблокирован|hosting account", re.I)
+                       r"домен не прилинкован|сайт заблокирован|hosting account|техническая пауза|сайт обновляется|"
+                       r"under-construction|site not found|served by the hosting platform|сайт в разработке", re.I)
 CHALLENGE = re.compile(r"just a moment|attention required|ddos-guard|checking your browser|verify you are human|"
                        r"access denied|cookie consent|before you continue", re.I)
 MIRROR_TITLE = re.compile(r"\bmost\s?bet\.com\s*[-–—]", re.I)  # localized "Betting company MostBet.com – …"
@@ -149,7 +155,46 @@ def from_scan(page: dict, g: dict, a: dict, na: dict) -> dict:
             "from_scan": True}
 
 
-def ads(domain: str, g: dict, a: dict, na: dict, page: dict, our: set, dests: list) -> dict:
+def hop_urls(x: dict) -> list:
+    return [h.split(" ", 1)[-1] for h in (x.get("hops") or "").split(" → ") if h]
+
+
+def is_coded(x: dict) -> bool:
+    """A partner code anywhere on the way: affiliate parameters in the link, a hop or the landing."""
+    for u in [x.get("url") or "", x.get("final_url") or ""] + hop_urls(x):
+        try:
+            q = urlsplit(u).query or ""
+        except ValueError:
+            continue
+        if lb.AFF_PARAMS.search(q) or lb.TRACK_PARAMS.search(q):
+            return True
+    return False
+
+
+def via_tracker(x: dict) -> bool:
+    """The chain passes a host that is neither the linked host nor the landing: a tracker, not a domain move."""
+    ends = {lb_base(x.get("url") or ""), lb_base(x.get("final_url") or "")}
+    return any(lb_base(u) not in ends for u in hop_urls(x) if lb_base(u))
+
+
+def lb_base(u: str) -> str:
+    try:
+        return (urlsplit(u).hostname or "").lower().removeprefix("www.")
+    except ValueError:
+        return ""
+
+
+def with_meta(page: dict) -> dict:
+    """A page with no visible text (PWA store landers) is read from its meta and og tags."""
+    if not page or page.get("text_len", 0) >= 100 or not page.get("meta_text"):
+        return page
+    mt = page["meta_text"]
+    return {**page, "mb_text": max(page.get("mb_text", 0), page.get("mb_meta", 0)), "mb_title": bool(page.get("mb_title") or MB.search(mt)),
+            "title": page.get("title") or mt[:120], "from_meta": True}
+
+
+def ads(domain: str, g: dict, a: dict, na: dict, page: dict, our: set, dests: list, trackers_to_other: set,
+        checks: list = ()) -> dict:
     """Affiliate traffic of a site: to Mostbet, to other brands (with names), plain links to other
     gambling sites, links not followed to the end, our own refs."""
     mb, other, plain, unverified, ours = False, set(), set(), 0, False
@@ -158,34 +203,57 @@ def ads(domain: str, g: dict, a: dict, na: dict, page: dict, our: set, dests: li
     for x in dests:
         url, final = x.get("url") or "", x.get("final_url") or ""
         su = urlsplit(url)
-        if x.get("via") == "home_redirect" or su.path.lower() in BARE_GATES:
-            continue  # the site's own move, or a gate prefix glued in a script without its id
-        if url.lower().split("?")[0].endswith(".apk") or x.get("kind") == "download":
-            continue  # an app download is not an ad unless it carries a partner code
-        coded = any(lb.AFF_PARAMS.search(urlsplit(u).query or "") or lb.TRACK_PARAMS.search(urlsplit(u).query or "")
-                    for u in (url, final) + tuple(h.split(" ", 1)[-1] for h in (x.get("hops") or "").split(" → ") if h))
+        if x.get("via") == "home_redirect":
+            continue  # the site's own move
+        if su.path.lower() in BARE_GATES and str(x.get("via", "")).startswith("js:"):
+            continue  # a gate prefix glued in a script without its id
+        if url.lower().split("?")[0].endswith(".apk") or x.get("kind") == "download" or \
+                str(x.get("evidence", "")).startswith("download"):
+            continue  # an app download is not an ad of the brand it names
+        coded, tracked = is_coded(x), via_tracker(x)
         kind, brand = x.get("kind"), x.get("brand") or ""
-        if kind == "mostbet" and (x.get("evidence") != "name_only_weak" or x.get("pid") or coded):
-            mb = True
-        elif kind == "other_gambling" and brand and brand != "?" and (coded or x.get("ad_route") == "True"):
-            other.add(brand)
+        if aff_ref(url, domain):
+            mb = True  # Mostbet ref by its shape, even when the ref host no longer answers
+        elif kind == "mostbet":
+            if x.get("pid") or coded or tracked or aff_ref(url, domain):
+                mb = True
+        elif kind in ("other_gambling", "gambling_site") and (coded or tracked):
+            other.add(brand if brand and brand != "?" else (urlsplit(final).hostname or "?"))
         elif kind == "other_gambling" and brand and brand != "?":
             plain.add(urlsplit(final).hostname or brand)
-        elif kind in ("other_gambling", "gambling_site") and coded:
-            other.add(brand if brand and brand != "?" else (urlsplit(final).hostname or "?"))
         elif kind == "gambling_site":
             host = (urlsplit(final).hostname or "").lower()
             named = lb.brand_of_host(host) or next((n for n, rx in lb.BRAND_RES if rx.search(x.get("title") or "")), "")
             if named and named != "Mostbet" and not NOT_CASINO_HOST.search(host):
                 plain.add(host)
-        elif kind in ("unknown", "needs_browser", "dead") and x.get("ad_route") == "True":
+        elif kind in ("unknown", "needs_browser", "dead") and coded and not MB.search(lb_base(final) or lb_base(url)):
+            other.add(lb_base(final) or lb_base(url))  # partner code on a host that is not Mostbet
+        elif kind in ("unknown", "needs_browser", "dead") and (tracked or x.get("ad_route") == "True"):
             unverified += 1
     if a:
         mb = True
         if ref_key(a.get("ref_url") or "") in our:
             ours = True
-    if na and na.get("gate_other") and not NOT_AD_HOST.search(na["gate_other"]):
-        other.add(f"via {na['gate_other']}")
+    for chk in checks:
+        chain = [c.get("url") or "" for c in chk.get("chain") or []]
+        if chk.get("found") or len(chain) < 2:
+            continue
+        hosts = [lb_base(u) for u in chain[1:] if lb_base(u) and not lb_same(lb_base(u), domain)]
+        if not hosts or any(NOT_AD_HOST.search(h) for h in hosts):
+            continue
+        named = next((lb.brand_of_host(h) for h in hosts if lb.brand_of_host(h)), "")
+        coded = any(lb.AFF_PARAMS.search(urlsplit(u).query or "") or lb.TRACK_PARAMS.search(urlsplit(u).query or "") for u in chain)
+        last_ok = (chk.get("chain") or [{}])[-1].get("status") == 200
+        if named == "Mostbet":
+            mb = True
+        elif named:
+            other.add(named)
+        elif coded and last_ok:
+            other.add(hosts[-1])
+        elif hosts[0] in trackers_to_other:
+            other.add(f"via {hosts[0]}")
+        else:
+            unverified += 1
     for x in page.get("aff_links") or []:
         if ref_key(x["url"]) in our:
             ours = True
@@ -198,6 +266,19 @@ def ads(domain: str, g: dict, a: dict, na: dict, page: dict, our: set, dests: li
             unverified += 1  # tracker link of an unknown brand, not followed for this site
     return {"mb": mb, "other": sorted(other), "plain": sorted(p for p in plain if p), "unverified": unverified,
             "ours": ours}
+
+
+_aff = None
+
+
+def aff_ref(url: str, site: str) -> bool:
+    global _aff
+    if _aff is None:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("affiliate_scan", HERE / "affiliate-scan.py")
+        _aff = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(_aff)
+    return bool(_aff.classify_ref(url, site))
 
 
 def top_other(page: dict):
@@ -229,25 +310,27 @@ def site_type(domain: str, page: dict, ad: dict) -> tuple:
     hidden_mb, in_posts = page.get("mb_hidden_links", 0), page.get("mb_in_posts", 0)
     dominant = mb_text >= MONO_DOMINANCE * max(other_n, 1) or (mb_text and not other_n)
     other_dominant = other_n >= MONO_DOMINANCE * max(mb_text, 1) and other_n >= 5
-    topic_gambling = gambling_head or gpk >= HACKED_GAMBLING or n_brands >= 3
+    topic_gambling = gambling_head or gpk >= HACKED_GAMBLING
 
     if not (mb_text or ext_mb or int_mb or in_domain or in_head or ad["mb"]):
         known_other = [x for x in ad["other"] if not x.startswith("via ")]
         return ("other_gambling" if gambling or known_other else "unrelated"), "no_mostbet"
+    if hidden_mb >= 3 and not gambling_head and not in_domain:
+        return "hacked", f"hidden_mostbet_links={hidden_mb}"
     # Own topic is not gambling and Mostbet sits in links to other domains or in hidden blocks: injected.
     if not topic_gambling and not in_domain and (hidden_mb or (ext_mb and mb_text <= max(ext_mb, HACKED_MAX_TEXT) + 2)):
         return "hacked", f"mostbet_in_links ext={ext_mb} hidden={hidden_mb} text={mb_text} gambling={gpk}"
     if in_head and not in_domain and not gambling:
         return "hacked", f"mostbet_in_title_of_non_gambling_page text={mb_text}"
     # Mostbet only in the site's own posts: an article site or a sold post.
-    if not topic_gambling and not in_domain and (in_posts or (int_mb and posts)):
+    if not topic_gambling and not in_domain and not ad["mb"] and (in_posts or (int_mb and posts)):
         return "article", f"mostbet_in_posts int={int_mb} in_posts={in_posts} articles={page.get('articles', 0)}"
     if (in_domain or in_head) and (other_dominant or (gambling and not mb_text and not ad["mb"])):
         return "bait", f"mostbet_in_{'domain' if in_domain else 'title'} content={other_name or 'other'}:{other_n} mostbet={mb_text}"
     if (in_domain or in_head) and dominant and (dens >= MONO_DENSITY / 2 or (in_head and ad["mb"])):
         return "mono", f"name_in_{'domain' if in_domain else 'title'} density={dens}"
-    if dominant and dens >= MONO_DENSITY and gambling:
-        return "mono", f"density={dens}"
+    if dominant and dens >= MONO_DENSITY and gambling and page.get("mb_heads", 0) >= 2 and ext_mb <= mb_text / 2:
+        return "mono", f"density={dens} heads={page.get('mb_heads', 0)}"
     if gambling:
         return "multibrand", f"top_other={other_name}:{other_n} mostbet={mb_text} density={dens}"
     if not in_domain and (int_mb or posts):
@@ -266,25 +349,34 @@ def redirect_of(domain: str, g: dict, a: dict, hrec: dict):
     if not host or lb_same(host, domain):
         return None
     query = urlsplit(final).query or ""
-    if g.get("method") != "home_redirect" and not (lb.AFF_PARAMS.search(query) or lb.TRACK_PARAMS.search(query)):
+    # A plain move to another content site is not a ref: the site is judged by what it shows (tag moved).
+    if not (lb.AFF_PARAMS.search(query) or lb.TRACK_PARAMS.search(query) or aff_ref(final, domain)):
         return None
     if g.get("mostbet_pids") or g.get("group") == "1_mostbet_only" or "pid=" in query and MB.search(g.get("title") or ""):
         return "redirect_ref", f"home redirects to {host} (Mostbet)"
     return "redirect_other", f"home redirects to {host} ({g.get('other_brands') or (g.get('title') or '')[:40]})"
 
 
+def js_redirect_of(domain: str, page: dict):
+    target = page.get("js_redirect") or ""
+    host = lb_base(target)
+    if not host or lb_same(host, domain):
+        return None
+    if aff_ref(target, domain) or MB.search(host):
+        return "redirect_ref", f"script sends the home page to {host} (Mostbet)"
+    return "redirect_other", f"script sends the home page to {host}"
+
+
 def mono_sub(ad: dict, page: dict) -> str:
     if ad["other"]:
         return "mono_mixed" if ad["mb"] else "mono_other"
-    if ad["plain"]:
-        return "mono_xlink"
-    if ad["mb"]:
-        return "mono_mostbet"
     # Buttons lead somewhere (own gate, external tracker, partner link of an unknown brand) and nobody
     # followed them to the end: the advertiser is unknown, not absent.
-    if page.get("gates") or page.get("trackers") or ad["unverified"]:
+    if not ad["mb"] and (page.get("gates") or page.get("trackers") or ad["unverified"]):
         return "mono_unresolved"
-    return "mono_no_ads"
+    if ad["plain"]:
+        return "mono_xlink"
+    return "mono_mostbet" if ad["mb"] else "mono_no_ads"
 
 
 def main(d: str):
@@ -293,10 +385,18 @@ def main(d: str):
     groups = load_csv(bs_dir / "groups.csv")
     aff, notaff = load_csv(af_dir / "affiliate.csv"), load_csv(af_dir / "not-affiliate.csv")
     feats = load_features(bs_dir / "site-features.jsonl.gz")
-    dest_by = {}
+    aff_checks = {}  # follow chains of the affiliate-scan pass: where a site's gates really lead
+    with gzip.open(af_dir / "scan.jsonl.gz", "rt", encoding="utf-8") as f:
+        for line in f:
+            r = json.loads(line)
+            if r.get("checks") and r["domain"] not in groups:
+                aff_checks[r["domain"]] = r["checks"]
+    dest_by, trackers_to_other = {}, set()
     with open(bs_dir / "destinations.csv", newline="", encoding="utf-8") as f:
         for x in csv.DictReader(f):
             dest_by.setdefault(x["domain"], []).append(x)
+            if x.get("kind") == "other_gambling" and x.get("brand") not in ("", "?"):
+                trackers_to_other |= {lb_base(u) for u in hop_urls(x) + [x.get("url") or ""] if lb_base(u)}
     home = {}
     with gzip.open(bs_dir / "home-dump.jsonl.gz", "rt", encoding="utf-8") as f:
         for line in f:
@@ -313,8 +413,8 @@ def main(d: str):
             continue
         g, a, na = groups.get(domain, {}), aff.get(domain, {}), notaff.get(domain, {})
         fr = feats.get(domain, {})
-        page = from_scan(merged_page(fr), g, a, na)
-        ad = ads(domain, g, a, na, page, our, dest_by.get(domain, []))
+        page = with_meta(from_scan(merged_page(fr), g, a, na))
+        ad = ads(domain, g, a, na, page, our, dest_by.get(domain, []), trackers_to_other, aff_checks.get(domain, []))
         tags = []
         if fr.get("platform"):
             tags.append("platform")
@@ -339,7 +439,7 @@ def main(d: str):
         grp = g.get("group", "")
         hrec = (home.get(domain) or {}).get("result") or {}
         why = ""
-        redirect = redirect_of(domain, g, a, hrec)
+        redirect = redirect_of(domain, g, a, hrec) or js_redirect_of(domain, page)
         if redirect:
             cat, why = redirect
         elif grp == "5_dead" and g.get("reason") != "parked" and \
@@ -347,8 +447,12 @@ def main(d: str):
             cat, why = "not_shown", f"answered in an earlier scan: {g.get('group_history')}"
         elif grp == "5_dead":
             cat, why = ("parked" if g.get("reason") == "parked" else "dead"), g.get("reason", "")
+        elif grp in ("5_not_shown", "6_cf_check") and STUB_MORE.search(f'{g.get("title", "")} {g.get("text_sample", "")}'):
+            cat, why = "stub", f"hosting placeholder behind {g.get('reason', '')}"
         elif grp in ("5_not_shown", "6_cf_check"):
             cat, why = "not_shown", g.get("reason", "")
+        elif page and CHALLENGE.search(page.get("title") or "") and not page.get("from_scan"):
+            cat, why = "not_shown", f"bot wall: {page.get('title', '')[:40]}"
         elif not fr and hrec.get("group") == "no_answer":
             cat, why = "dead", f"home dump: {((home.get(domain) or {}).get('home') or {}).get('error', '')}"
         elif not page:
@@ -359,8 +463,8 @@ def main(d: str):
         elif (page.get("mostbet_shell") or (page.get("mostbet_assets") and MIRROR_TITLE.search(page.get("title") or ""))) and \
                 (page.get("mb_text", 0) <= 5 or page.get("text_len", 0) < MIRROR_TEXT):
             cat, why = "mirror", "mostbet_shell" if page.get("mostbet_shell") else "assets_and_title"
-        elif STUB_MORE.search(f'{page.get("title", "")} {page.get("text_sample", "")[:300]}') and \
-                page.get("text_len", 0) < 1500 and not page.get("mb_text") and not ad["mb"] and not ad["other"]:
+        elif STUB_MORE.search(f'{page.get("title", "")} {page.get("text_sample", "")[:300]} {page.get("final_url", "")}') and \
+                page.get("text_len", 0) < 1500 and page.get("mb_text", 0) <= 2 and not ad["mb"] and not ad["other"]:
             cat, why = "stub", "placeholder text"
         elif page.get("text_len", 0) < STUB_TEXT and not page.get("mb_text") and not ad["mb"] and not ad["other"]:
             cat, why = "stub", f"text_len={page.get('text_len', 0)}"

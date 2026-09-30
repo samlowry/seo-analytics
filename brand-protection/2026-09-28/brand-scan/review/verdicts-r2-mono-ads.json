@@ -1,0 +1,242 @@
+[
+ {
+  "domain": "asomiforg598.top",
+  "given": "mono_other",
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet AZ (title/h1, 57 упоминаний); единственная кнопка /go.php → aos9d9e9g0o.top → refpa-57015.com tag=d_3755482m… → 1xbet.rs, т.е. партнёрка 1xBet."
+ },
+ {
+  "domain": "fedorkotoff.ru",
+  "given": "mono_other",
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "«Мостбет зеркало» — монобренд; /go/ → dashplay37.com serial=61356828 (на этом сайте цепочка встала на 401, но тот же serial на других сайтах всегда доходит до NormCasino)."
+ },
+ {
+  "domain": "game-top-play583.cfd",
+  "given": "mono_other",
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet AZ; /play.php → cf2w2a827cgd.top → refpa-57015.com smartlink → 1xbet.rs с tag=d_3755482m, партнёрка 1xBet."
+ },
+ {
+  "domain": "mostbet-20lz.buzz",
+  "given": "mono_other",
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Клон «БК Мостбет рабочее зеркало»; reg.html → bigme.buzz → r1wemeq.life/casino/list?open=register&p=kebv — ссылка 1win с партнёрским p=, не Mostbet."
+ },
+ {
+  "domain": "mostbet-nz.com",
+  "given": "mono_other",
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Страница про Mostbet NZ, кнопки через a.v1pcasino.com/click?…&brand=Mostbet уходят на 1win (p=gdlc), Tikitaka и Cazeus (mid=310282) — Mostbet-ссылок нет."
+ },
+ {
+  "domain": "mostbetaviatorgame.info",
+  "given": "mono_other",
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "«MostBet Aviator» для Индии; кнопки → c2.maxcloudlink.com?ch=…&wid= → 17jl33.com?affiliateCode=17jl01 — партнёрка 17JL."
+ },
+ {
+  "domain": "mostbetindir.info",
+  "given": "mono_other",
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Тот же шаблон, турецкий «Mostbet Uygulamasını İndir»; кнопки → c1.maxcloudlink.com → 17jl33.com?affiliateCode=17jl01."
+ },
+ {
+  "domain": "paseodelahabana147.com",
+  "given": "mono_other",
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Переехал на ompu-micro.org, «Mostbet AZ» монобренд; /play → casea-8039.com/registration?mid=381638_2213288 — партнёрка Casea."
+ },
+ {
+  "domain": "pwclorg906.top",
+  "given": "mono_other",
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Копия asomiforg598.top: Mostbet AZ, /go.php → aos9d9e9g0o.top → refpa-57015.com → 1xbet.rs."
+ },
+ {
+  "domain": "wonam.pl",
+  "given": "mono_other",
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.5,
+  "comment": "Обзор Mostbet (91 упоминание, «Onam» — имя самого сайта); /go/onam/ → partners-official.com/zpFfMdFL, где цепочка встала на 200 — получатель неизвестен (в dest-browser этот трекер 68 из 73 раз пустой, 4 раза Spinanga)."
+ },
+ {
+  "domain": "casino-mostbet-nl.com",
+  "given": "mono_mixed",
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Кнопки через luckylinktraff.com → Luckygans (stag=155393) и gameingnews.com → Slotorado (stag=180189); «Mostbet-реклама» — это голая ссылка https://mostbet.com в тексте без кода."
+ },
+ {
+  "domain": "easternhighschooldc.org",
+  "given": "mono_mixed",
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Страница «Mostbet 30 Darmowych Spinów»; одна и та же ссылка traftraf.site/Wn1ZDh ротирует между Mostbet (pid=392426) и Twindor Casino (refCode)."
+ },
+ {
+  "domain": "image4security.com",
+  "given": "mono_mixed",
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Переехал на storetbj.com, «Mostbet Casino Polska»; traftraf.site/Wn1ZDh отдаёт то Mostbet pid=392426, то Twindor Casino."
+ },
+ {
+  "domain": "mmostbet.ink",
+  "given": "mono_mixed",
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Клон «Mostbet Polska»; /go/main ротирует: Mostbet pid=444325 и slotoro77.bet ref=vp_w260700."
+ },
+ {
+  "domain": "mostbet-az.wiki",
+  "given": "mono_mixed",
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.55,
+  "comment": "Домен редиректит на aviator-kazino.com/mostbet-aviator — страница мультибрендового сайта про Aviator (меню Mostbet/1Win/1xBet Aviator, топ казино 1win, Pin-up); Mostbet-реф pid=379648 есть, а 1win — прямой 1wiwbt.com без кода."
+ },
+ {
+  "domain": "mostbet-uz-uzb.com",
+  "given": "mono_mixed",
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Обе кнопки ведут на DBbet: /mostbet/ → refpa96317 tag=d_3662051m → db-bet; /apk/ → тот же refpa → dbbet.apk. «Mostbet» здесь — APK DBbet, ошибочно записанный как Mostbet."
+ },
+ {
+  "domain": "mostbet2.life",
+  "given": "mono_mixed",
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Тот же клон, что mmostbet.ink: /go/main → Mostbet pid=444325 или slotoro77.bet ref=vp_w260700."
+ },
+ {
+  "domain": "mostbetlivecrazytime.com",
+  "given": "mono_mixed",
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.75,
+  "comment": "Кнопка /go/register → Mostbet pid=433335; «Nine Casino» — прямая ссылка ninecasinologin.com (редирект на tropheesdelacom.so без кода) из футерной ссылочной фермы на ~70 казино-сайтов."
+ },
+ {
+  "domain": "mostbetuzuzb.com",
+  "given": "mono_mixed",
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Зеркало mostbet-uz-uzb.com: /mostbet/ и /apk/ оба уходят в refpa96317 tag=d_3662051m → DBbet (сайт и dbbet.apk); Mostbet-рекламы нет."
+ },
+ {
+  "domain": "ramblers.pl",
+  "given": "mono_mixed",
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.6,
+  "comment": "«Czy Mostbet Jest Bezpieczny» с таблицей альтернатив; все кнопки — голые главные mostbet.com, betsson.com, 22bet.com, melbet.com и т.д. без кода; 22Bet засчитан рекламой лишь из-за редиректа 22bet.com→22bet4u.com."
+ },
+ {
+  "domain": "alamholding.com",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.9,
+  "comment": "Корпоративный сайт Alam Holding с вставленным блоком «Online Casino Mostbet» и ссылочной фермой (~60 анкоров mostbet/casibom/1win на чужие домены). Не монобренд."
+ },
+ {
+  "domain": "inscae.ovh",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.7,
+  "comment": "Блог о праве Мадагаскара (RANARISON Tsilavo, INSCAE) с подсаженными постами «Mostbet …» на азербайджанском и фермой ссылок на ~30 казино. Не монобренд; можно считать и article."
+ },
+ {
+  "domain": "kofkever.com",
+  "given": "mono_xlink",
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "«Casinò online Mostbet» монобренд; кнопки /recommends/mostbet/ → mostbet.com без кода, прямые ссылки на 1xbetportugal.org и rockstarcasino.one."
+ },
+ {
+  "domain": "matrixalltrades.com.au",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.9,
+  "comment": "Сайт сантехников из Брисбена со вставленной статьёй «MostBet PT» и ссылками на 1-xbet-nigeria.com, kazyno-ua.com. Не монобренд."
+ },
+ {
+  "domain": "mostbet-casino--pl.pl",
+  "given": "mono_xlink",
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Монобренд Mostbet PL, но все ~30 CTA ведут на /go → best-igaming.ru/bH2CYxMv (пустая страница, получатель неизвестен); прямые ссылки на vulkan-vegas--pl.pl, nv-casino--pl.pl — вторичны."
+ },
+ {
+  "domain": "mostbet-vipapp.com",
+  "given": "mono_xlink",
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Инфо-сайт «Mostbet তথ্য কেন্দ্র» для Бангладеш; в футере прямые ссылки на сетку bd-betwinner-apps, bd-crickex-apps, bdbetvisa-app и др. без кода."
+ },
+ {
+  "domain": "mostbetsites.com",
+  "given": "mono_xlink",
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "«Mostbet Casino» монобренд; прямые ссылки на соседей по сетке 1winsites.com, 1xbetjourney.com, 20bets.live, bj.live без кода."
+ },
+ {
+  "domain": "mostbett.pe",
+  "given": "mono_xlink",
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "«Mostbet Perú»; кнопки reg.mostbett.pe/NZyCEhs → kxfmqfgmb.com/ohiF (реф-хост Mostbet), плюс прямая ссылка 1win-mx.mx без кода."
+ },
+ {
+  "domain": "pawabetfixed.com",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "article",
+  "confidence": 0.8,
+  "comment": "Блог «Betting Guides» о скачках и футболе; Mostbet — один пост «Mostbet Kasyno – Recenzja» из ленты. Не монобренд."
+ },
+ {
+  "domain": "www-mostbet.co",
+  "given": "mono_xlink",
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Монобренд Mostbet BR, все ~25 CTA ведут на href=\"/go/\", который никто не прошёл (выкинут как «голый шлюз»); bet7k777.com и 456bet-com.co — вторичные прямые ссылки."
+ }
+]
