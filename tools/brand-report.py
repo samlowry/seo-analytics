@@ -189,12 +189,17 @@ def main(d: str):
     for gi, (gname, cats) in enumerate(GROUPS):
         key = GROUP_KEYS[gi]
         toc.append(f'<tr class="grp"><td colspan="3"><span class="sw" style="background:var(--g-{key})"></span>{e(gname)}'
-                   f' — {fmt(gsum[gname])}</td></tr>')
+                   f' — {fmt(gsum[gname])}'
+                   + meter(key, gsum[gname] / total, f"<b>{pc(gsum[gname] * 100 / total)} %</b> всех доменов")
+                   + '</td></tr>')
         sections.append(f'<div class="ghead" id="g-{key}"><h1>{e(gname)}</h1>'
                         + meter(key, gsum[gname] / total, f"<b>{pc(gsum[gname] * 100 / total)} %</b> всех доменов · "
                                 f"{fmt(gsum[gname])} из {fmt(total)}") + '</div>')
         for c, ru, desc in cats:
-            toc.append(f'<tr><td><a href="#{c}">{e(ru)}</a></td><td class="n">{fmt(cnt[c])}</td><td>{e(desc)}</td></tr>')
+            gs = cnt[c] / gsum[gname] if gsum[gname] else 0
+            toc.append(f'<tr><td><a href="#{c}">{e(ru)}</a></td><td class="n">{fmt(cnt[c])}</td><td>{e(desc)}'
+                       + meter(key, gs, f"<b>{pc(gs * 100)} %</b> группы · {pc(cnt[c] * 100 / total)} % всех")
+                       + '</td></tr>')
             cards = []
             for r in picks[c]:
                 tags = ", ".join(TAG_RU.get(t, t) for t in r["tags"].split() if t in TAG_RU and t != "brand_in_domain")
@@ -237,7 +242,7 @@ section.g-other h2{{border-color:var(--g-other)}} section.g-dead h2{{border-colo
 .desc{{color:var(--mut);margin:2px 0 10px}} .lead{{background:var(--card);border-radius:10px;padding:12px 16px;margin:12px 0;break-inside:avoid}}
 .lead li{{margin:3px 0}} table{{width:100%;border-collapse:collapse;background:var(--card);border-radius:10px;overflow:hidden;font-size:13px}}
 td{{padding:5px 10px;border-bottom:1px solid var(--line);vertical-align:top}} td.n{{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}}
-tr.grp td{{font-weight:700;background:var(--bg)}} a{{color:var(--acc)}}
+tr.grp td{{font-weight:700;background:var(--bg)}} tr.grp .meter-t{{font-weight:400}} td .meter{{margin:6px 0 2px}} a{{color:var(--acc)}}
 .card{{background:var(--card);border-radius:10px;padding:9px 14px;margin-bottom:8px;break-inside:avoid}}
 .dom{{font-weight:700;font-size:15px;color:var(--fg);text-decoration:none}}
 .kv{{font-size:12.5px;overflow-wrap:anywhere}} .kv span{{color:var(--mut)}} .kv b{{font-weight:500}}
