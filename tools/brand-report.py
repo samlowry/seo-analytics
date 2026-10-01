@@ -319,9 +319,12 @@ def main(d: str):
                 shown_cards.append(card(num, r, text.get(r["domain"])))
             ranges[c] = (lo, num) if cnt[c] else None
             body = "".join(shown_cards[:len(first)])
-            if rest:
-                body += (f'<details class="more" data-k="{c}"><summary>Остальные {fmt(len(rest))} — '
-                         f'№ {fmt(lo + len(first))}–{fmt(num)}</summary>{"".join(shown_cards[len(first):])}</details>')
+            if rest:  # the rest in collapsed chunks of a hundred: one long list is too long to scroll
+                body += f'<div class="rest-h">Остальные {fmt(len(rest))}, по 100:</div>'
+                for i in range(len(first), len(shown_cards), 100):
+                    a, b = lo + i, lo + min(i + 100, len(shown_cards)) - 1
+                    body += (f'<details class="more" data-k="{c}-{a}"><summary>№ {fmt(a)}–{fmt(b)}</summary>'
+                             f'{"".join(shown_cards[i:i + 100])}</details>')
             head = f"{fmt(cnt[c])} · № {fmt(lo)}–{fmt(num)}" if cnt[c] else "0"
             gshare = cnt[c] / gsum[gname] if gsum[gname] else 0
             sections.append(f'''<section id="{c}" class="g-{key}"><h2>{e(ru)} <small>{head}</small></h2>
@@ -363,7 +366,7 @@ tr.grp td{{font-weight:700;background:var(--bg)}} tr.grp .meter-t{{font-weight:4
 .links{{font-size:12.5px;margin:3px 0;padding-left:18px;overflow-wrap:anywhere}} .to{{color:var(--mut)}}
 .ak{{font-size:11.5px;border-radius:4px;padding:0 5px;white-space:nowrap;border:1px solid var(--line)}}
 .ak-other{{border-color:var(--g-viol)}} .ak-mb{{border-color:var(--g-mono)}}
-details.more{{margin:6px 0 10px}} details.more>summary{{cursor:pointer;color:var(--acc);font-weight:600;padding:6px 0;text-decoration:underline;text-underline-offset:2px}}
+.rest-h{{color:var(--mut);margin:10px 0 2px}} details.more{{margin:2px 0}} details.more>summary{{cursor:pointer;color:var(--acc);font-weight:600;padding:6px 0;text-decoration:underline;text-underline-offset:2px}}
 .rng{{color:var(--mut);font-size:12px}}
 .kv{{font-size:12.5px;overflow-wrap:anywhere}} .kv span{{color:var(--mut)}} .kv b{{font-weight:500}}
 .sample{{color:var(--mut);font-size:12px;margin-top:4px;overflow-wrap:anywhere}} .cols{{columns:2;column-gap:28px}}
@@ -408,7 +411,7 @@ Mostbet — 15 из 20 подтверждены (ошибки исправлен
 
 <h1 style="margin-top:28px">Все сайты по классам</h1>
 <div class="sub">Нумерация сквозная, № 1–{fmt(total)}. В каждом классе сначала 10 примеров: домены класса упорядочены
-по имени и разбиты на 10 равных частей, из каждой взят один случайный. Остальные свёрнуты под списком, открытые списки
+по имени и разбиты на 10 равных частей, из каждой взят один случайный. Остальные свёрнуты списками по 100, открытые списки
 запоминаются в этом браузере. У каждого сайта — причина, по которой он в классе, и ссылки, решившие класс.</div>
 {''.join(sections)}
 <script>
