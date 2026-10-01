@@ -17,6 +17,7 @@ Categories (one per site):
   bait           Mostbet in the domain or title, the page is about another brand or casino (a violator)
   discredit      Mostbet in the domain, the page is not about gambling at all (shop, drugs, anything)
   multibrand     gambling affiliate not about Mostbet: rating of several brands, games, slots
+  mb_page_other  not a monobrand, but its page about Mostbet advertises other brands (owner, 01.10) — a violator
   article        article site or link seller: a feed of posts, Mostbet not its subject
   hacked         unrelated site with Mostbet only in links, often hidden
   other_gambling another operator or its doorway, Mostbet not mentioned
@@ -40,7 +41,7 @@ import re
 import sys
 from collections import Counter
 from pathlib import Path
-from urllib.parse import urlsplit
+from urllib.parse import urljoin, urlsplit
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
@@ -54,12 +55,14 @@ _spec = _ilu.spec_from_file_location("brand_site_features", HERE / "brand-site-f
 _feat = _ilu.module_from_spec(_spec)
 _spec.loader.exec_module(_feat)
 MB = _feat.MB  # folds accents and look-alike letters: "Μοѕtbеt", "Móstbet"
-NOT_AD_HOST = re.compile(r"(^|\.)(yahoo\.com|consent\.[a-z.]+|legal\.[a-z.]+|google\.[a-z.]+|facebook\.com|"
+NOT_AD_HOST = re.compile(r"(^|\.)(wordpress\.(com|org)|wp\.com|gravatar\.com|blogger\.com|tumblr\.com|medium\.com|"
+                         r"yahoo\.com|consent\.[a-z.]+|legal\.[a-z.]+|google\.[a-z.]+|facebook\.com|"
                          r"apple\.com|microsoft\.com|cookiebot\.com|onetrust\.com|gannett\.com)$", re.I)
 BARE_GATES = {"/go/", "/goto/", "/out/", "/link/", "/visit/", "/redirect/", "/click/", "/go", "/goto", "/out"}
 NOT_CASINO_HOST = re.compile(r"(^|\.)(bet\.com|chatgpt\.com|openai\.com|nolimitcity\.com|pragmaticplay\.(com|net)|"
                              r"evolution\.com|playngo\.com|netent\.com|spribe\.co|gpwa\.org|iclg\.com|seo\.casino|promopult\.ru|begambleaware\.org|gamcare\.org\.uk|"
                              r"casino\.guru|askgamblers\.com|trustpilot\.com|curacao-egaming\.com|mga\.org\.mt)$", re.I)
+SETTLED_STRIKES = ("mono_other", "mono_mixed", "bait", "redirect_other", "discredit")
 VISITORS = ("google-mobile", "googlebot")  # used for sites hidden from a plain visitor
 EXTRA_VISITORS = {"mobile": "ads_mobile_only", "google-mobile": "ads_search_only"}  # extra snapshots of live sites
 HIDDEN_GROUPS = ("5_not_shown", "6_cf_check", "5_dead")
@@ -488,6 +491,61 @@ def dominant_site(page: dict) -> bool:
     return page.get("heads", 0) > 0 and page.get("mb_heads", 0) >= max(3, page.get("heads", 0) // 2)
 
 
+def mb_page_evidence(domain: str, html_dir: Path, dests: list) -> list:
+    """Pages about Mostbet (Mostbet in their title or h1) that advertise other brands: [(page url, [brands])].
+
+    Pages come from the deep and mbpages passes (<domain>.{deep,mbpages}-res.json.gz); each link on such a page is
+    judged by what the pass found behind it — a partner code or tracker to another brand, or a link to an operator."""
+    by_url = {}
+    for x in dests:
+        by_url.setdefault(x.get("url") or "", []).append(x)
+    out = []
+    for tag in ("mbpages", "deep"):
+        p = html_dir / f"{domain}.{tag}-res.json.gz"
+        if not p.exists():
+            continue
+        try:
+            with gzip.open(p, "rt", encoding="utf-8") as f:
+                res = json.load(f)
+        except (OSError, ValueError):
+            continue
+        for r in res:
+            if r.get("type") != "page" or not r.get("body"):
+                continue
+            tree = lb.HTMLParser(r["body"])
+            title = (tree.css_first("title").text() if tree.css_first("title") else "") + " " + \
+                " ".join(n.text(deep=True) for n in tree.css("h1")[:2])
+            # About Mostbet: named in the title or h1, and no other brand named there (a rating "Mostbet, Pin-Up,
+            # 1xbet" is a multibrand page, not an article about Mostbet).
+            if not MB.search(title) or any(rx.search(title) for _, rx in lb.BRAND_RES):
+                continue
+            brands = set()
+            for a_ in tree.css("a[href],[data-href],[data-url],[data-link],[data-go]"):
+                raw = next((a_.attributes.get(k) for k in ("href", "data-href", "data-url", "data-link", "data-go")
+                            if a_.attributes.get(k)), "")
+                try:
+                    u = urljoin(r["url"], raw.strip())
+                except ValueError:
+                    continue
+                host = lb_base(u)
+                if not host or lb_same(host, lb_base(r["url"])) and not by_url.get(u):
+                    continue
+                for x in by_url.get(u, []):
+                    final = x.get("final_url") or ""
+                    if x.get("kind") in ("other_gambling", "gambling_site") and (is_coded(x) or via_tracker(x)):
+                        brands.add(x.get("brand") if x.get("brand") not in ("", "?") else lb_base(final))
+                    elif x.get("kind") == "other_gambling" and lb.brand_of_host(lb_base(final)) not in ("", "Mostbet"):
+                        brands.add(x.get("brand") or lb.brand_of_host(lb_base(final)))
+                q = urlsplit(u).query or ""
+                if lb.brand_of_host(host) not in ("", "Mostbet") and not NOT_CASINO_HOST.search(host):
+                    brands.add(lb.brand_of_host(host))
+
+            brands.discard("")
+            if brands:
+                out.append((r["url"], sorted(brands)))
+    return out
+
+
 def mono_sub(ad: dict, page: dict, g: dict = None) -> str:
     if ad["other"]:
         return "mono_mixed" if ad["mb"] else "mono_other"
@@ -526,7 +584,7 @@ def main(d: str):
             if x.get("kind") == "other_gambling" and x.get("brand") not in ("", "?"):
                 trackers_to_other |= {lb_base(u) for u in hop_urls(x) + [x.get("url") or ""] if lb_base(u)}
     not_gates = set()
-    for log_name, via in (("gates-scan.jsonl.gz", "gates"), ("deep-scan.jsonl.gz", "deep")):
+    for log_name, via in (("gates-scan.jsonl.gz", "gates"), ("deep-scan.jsonl.gz", "deep"), ("mbpages-scan.jsonl.gz", "mbpages")):
       gates_log = bs_dir / log_name  # --mode gates: button addresses; --mode deep: inner pages and own scripts
       if gates_log.exists():
         with gzip.open(gates_log, "rt", encoding="utf-8") as f:
@@ -653,6 +711,14 @@ def main(d: str):
             cat, why = site_type(domain, page, ad)
             if cat == "mono":
                 cat = mono_sub(ad, page, g)
+        evidence = mb_page_evidence(domain, bs_dir / "html", dests_here) if cat not in SETTLED_STRIKES else []
+        if evidence:
+            if cat.startswith("mono_"):
+                cat = "mono_mixed" if ad["mb"] else "mono_other"
+            elif cat not in ("dead", "parked", "not_shown", "stub", "mirror"):
+                cat = "mb_page_other"
+            why = f"{why} | Mostbet page advertises others: {evidence[0][0]} ({', '.join(evidence[0][1][:4])})"
+            ad["other"] = sorted(set(ad["other"]) | {b_ for _, bs in evidence for b_ in bs})
         ob = page.get("other_brands") or {}
         rows.append({
             "domain": domain, "category": cat, "tags": " ".join(tags), "why": why,

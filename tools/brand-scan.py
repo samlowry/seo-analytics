@@ -14,7 +14,8 @@ Filters: --priority 1,2 (queue priority), --domains FILE, --limit N.
 --mode gates follows the button addresses given in the queue column `urls` (from saved home pages) by
 HTTP, logs to gates-scan.jsonl.gz; tools/brand-classify.py reads them as extra destinations.
 --mode deep follows links found on inner pages (column `pages`) and in the site's own scripts (`scripts`),
-logs to deep-scan.jsonl.gz; read the same way.
+logs to deep-scan.jsonl.gz; read the same way. --mode mbpages is the same over the site's pages about Mostbet
+(tools/brand-mb-pages.py → mbpages-queue.csv), up to 8 per site, log mbpages-scan.jsonl.gz, files *.mbpages-res.json.gz.
 Keeping home pages: --save-html [DIR] (default <out_dir>/html, <domain>.<http|browser>.html.gz; the browser also
 keeps the scripts and JSON the page loaded, libraries aside, in <domain>.browser-res.json.gz);
 --mode home only fetches and keeps home pages, follows nothing, logs to home-dump.jsonl.gz.
@@ -528,6 +529,7 @@ class Scanner:
         self.session = session
         self.proxy = proxy  # Playwright dict; the aiohttp session must exit through the same proxy
         self.html_dir = html_dir  # --save-html: home pages are kept here
+        self.deep_tag, self.deep_pages = "deep", 4  # --mode mbpages: "mbpages", 8
         self.html_src = "http"  # file suffix of HTTP-saved pages; "http-<as>" when scanning --as another visitor
         self.cache = {}  # external destination -> result, shared across sites
 
@@ -1007,7 +1009,7 @@ class Scanner:
         site = item.get("site") or domain
         state = {"our_refs": []}
         links, pages, seen, kept = [], [], set(), []
-        for u in (item.get("pages") or "").split()[:4]:
+        for u in (item.get("pages") or "").split()[:self.deep_pages]:
             try:
                 url, body = u, ""
                 for _ in range(4):  # same-site redirects only
@@ -1043,14 +1045,14 @@ class Scanner:
             seen |= {x[0] for x in found}
         res_file = ""
         if self.html_dir and kept:  # inner pages and scripts as fetched: <domain>.deep-res.json.gz
-            res_file = f"{domain}.deep-res.json.gz"
+            res_file = f"{domain}.{self.deep_tag}-res.json.gz"
             with gzip.open(self.html_dir / res_file, "wt", encoding="utf-8") as f:
                 json.dump(kept, f, ensure_ascii=False)
         cands, skipped = pick(links, site)
         _, new, not_followed = await self.follow_all(cands, site, lambda u: self.follow_http_only(u, site, state))
         for d in new:
             d.pop("_html", None)
-        return {"domain": domain, "ts": time.strftime("%Y-%m-%dT%H:%M:%S"), "network": self.network, "mode": "deep",
+        return {"domain": domain, "ts": time.strftime("%Y-%m-%dT%H:%M:%S"), "network": self.network, "mode": self.deep_tag,
                 "resources_file": res_file,
                 "pages": pages, "destinations": new, "not_followed": not_followed, "external_skipped": skipped,
                 "our_refs_skipped": state["our_refs"],
@@ -1257,7 +1259,7 @@ async def main():
                     help="HTTP scan as another visitor (cloaking check): google-mobile = mobile browser coming from a "
                          "Google search, googlebot = Google's crawler. Logs to http-scan-<as>.jsonl.gz, pages to "
                          "<domain>.http-<as>.html.gz")
-    ap.add_argument("--mode", choices=("http", "destinations", "browser", "home", "rest", "gates", "deep"), default="http",
+    ap.add_argument("--mode", choices=("http", "destinations", "browser", "home", "rest", "gates", "deep", "mbpages"), default="http",
                     help="http: sites by plain HTTP; destinations: unique destinations HTTP could not decide, "
                          "in the browser; browser: whole sites whose home page needs a browser; "
                          "home: only fetch and keep home pages by plain HTTP (implies --save-html); "
@@ -1283,7 +1285,8 @@ async def main():
     out.mkdir(parents=True, exist_ok=True)
     scan = out / {"http": "http-scan.jsonl.gz", "destinations": "dest-browser.jsonl.gz",
                   "browser": "browser-scan.jsonl.gz", "home": "home-dump.jsonl.gz",
-                  "rest": "rest-scan.jsonl.gz", "gates": "gates-scan.jsonl.gz", "deep": "deep-scan.jsonl.gz"}[a.mode]
+                  "rest": "rest-scan.jsonl.gz", "gates": "gates-scan.jsonl.gz", "deep": "deep-scan.jsonl.gz",
+                  "mbpages": "mbpages-scan.jsonl.gz"}[a.mode]
     if a.as_:
         scan = out / f"http-scan-{a.as_}.jsonl.gz"
     html_dir = None
@@ -1341,6 +1344,8 @@ async def main():
     scanner = Scanner(network, session, proxy=proxy, html_dir=html_dir)
     if a.as_:
         scanner.html_src = f"http-{a.as_}"
+    if a.mode == "mbpages":
+        scanner.deep_tag, scanner.deep_pages = "mbpages", 8
     if not proxy and not a.as_:  # a cloaking site answers another visitor differently: no shared cache
         scanner.cache.update(dcache)
     fh = gzip.open(scan, "at", encoding="utf-8")
@@ -1361,7 +1366,7 @@ async def main():
             print(f"{n}/{len(todo)} {rate:.1f}/min {dict(sorted(stats.items()))}", flush=True)
 
     http_one = {"home": scanner.home_dump, "rest": lambda x: scanner.follow_rest(x["rec"]),
-                "gates": scanner.follow_gates, "deep": scanner.follow_deep}.get(
+                "gates": scanner.follow_gates, "deep": scanner.follow_deep, "mbpages": scanner.follow_deep}.get(
         a.mode, scanner.http_scan_site)
 
     async def http_worker():
@@ -1437,7 +1442,7 @@ async def main():
                     pass
                 kill_driver(cm)
 
-    await asyncio.gather(*((http_worker() if a.mode in ("http", "home", "rest", "gates", "deep") else worker(i))
+    await asyncio.gather(*((http_worker() if a.mode in ("http", "home", "rest", "gates", "deep", "mbpages") else worker(i))
                            for i in range(a.concurrency)))
     await session.close()
     fh.close()
