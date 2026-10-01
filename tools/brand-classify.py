@@ -528,8 +528,11 @@ def mb_page_evidence(domain: str, html_dir: Path, dests: list) -> list:
                 except ValueError:
                     continue
                 host = lb_base(u)
-                if not host or lb_same(host, lb_base(r["url"])) and not by_url.get(u):
+                own = lb_same(host, lb_base(r["url"])) or lb_same(host, domain)
+                if not host or own and not by_url.get(u):
                     continue
+                if _feat.hidden(a_) or re.search(r"color\s*:\s*transparent", a_.attributes.get("style") or "", re.I):
+                    continue  # hidden SEO links to satellites are not ads on the page
                 for x in by_url.get(u, []):
                     final = x.get("final_url") or ""
                     if x.get("kind") in ("other_gambling", "gambling_site") and (is_coded(x) or via_tracker(x)):
@@ -537,7 +540,7 @@ def mb_page_evidence(domain: str, html_dir: Path, dests: list) -> list:
                     elif x.get("kind") == "other_gambling" and lb.brand_of_host(lb_base(final)) not in ("", "Mostbet"):
                         brands.add(x.get("brand") or lb.brand_of_host(lb_base(final)))
                 q = urlsplit(u).query or ""
-                if lb.brand_of_host(host) not in ("", "Mostbet") and not NOT_CASINO_HOST.search(host):
+                if not own and lb.brand_of_host(host) not in ("", "Mostbet") and not NOT_CASINO_HOST.search(host):
                     brands.add(lb.brand_of_host(host))
 
             brands.discard("")
