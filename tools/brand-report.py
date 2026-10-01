@@ -128,12 +128,12 @@ def donut(parts, total) -> str:
 
 
 def meter(key, share, label) -> str:
-    """Vertical share meter: a same-hue track, filled from the bottom; the number beside it in text ink."""
-    h = max(2.0, 56 * share)
-    return (f'<div class="meter"><svg width="14" height="56" viewBox="0 0 14 56" aria-hidden="true">'
-            f'<rect x="0" y="0" width="14" height="56" rx="4" style="fill:var(--g-{key});opacity:.16"/>'
-            f'<rect x="0" y="{56 - h:.1f}" width="14" height="{h:.1f}" rx="4" style="fill:var(--g-{key})"/></svg>'
-            f'<div class="meter-t">{label}</div></div>')
+    """Horizontal share bar across the full text width: a same-hue track with the share filled from the left;
+    the number above it in text ink."""
+    w = max(0.4, share * 100)
+    return (f'<div class="meter"><div class="meter-t">{label}</div><div class="bar" role="img" aria-label="{w:.1f} %">'
+            f'<div class="bar-track" style="background:var(--g-{key})"></div>'
+            f'<div class="bar-fill" style="width:{w:.2f}%;background:var(--g-{key})"></div></div></div>')
 
 
 def e(x) -> str:
@@ -191,7 +191,7 @@ def main(d: str):
         toc.append(f'<tr class="grp"><td colspan="3"><span class="sw" style="background:var(--g-{key})"></span>{e(gname)}'
                    f' — {fmt(gsum[gname])}</td></tr>')
         sections.append(f'<div class="ghead" id="g-{key}"><h1>{e(gname)}</h1>'
-                        + meter(key, gsum[gname] / total, f"<b>{pc(gsum[gname] * 100 / total)} %</b> всех доменов<br>"
+                        + meter(key, gsum[gname] / total, f"<b>{pc(gsum[gname] * 100 / total)} %</b> всех доменов · "
                                 f"{fmt(gsum[gname])} из {fmt(total)}") + '</div>')
         for c, ru, desc in cats:
             toc.append(f'<tr><td><a href="#{c}">{e(ru)}</a></td><td class="n">{fmt(cnt[c])}</td><td>{e(desc)}</td></tr>')
@@ -208,7 +208,7 @@ def main(d: str):
             shown = f"{len(picks[c])} из {fmt(cnt[c])}" if cnt[c] > 10 else f"все {cnt[c]}"
             gshare = cnt[c] / gsum[gname] if gsum[gname] else 0
             sections.append(f'''<section id="{c}" class="g-{key}"><h2>{e(ru)} <small>{fmt(cnt[c])} · примеры: {shown}</small></h2>
-{meter(key, gshare, f"<b>{pc(gshare * 100)} %</b> группы «{e(gname.split(':')[0])}»<br>{pc(cnt[c] * 100 / total)} % всех доменов")}
+{meter(key, gshare, f"<b>{pc(gshare * 100)} %</b> группы «{e(gname.split(':')[0])}» · {pc(cnt[c] * 100 / total)} % всех доменов")}
 <p class="desc">{e(desc)}</p>{''.join(cards)}</section>''')
 
     brand_rows = "".join(f"<li><b>{e(b)}</b> — {fmt(n)}</li>" for b, n in top)
@@ -230,7 +230,9 @@ section.g-other h2{{border-color:var(--g-other)}} section.g-dead h2{{border-colo
 .legend b{{font-variant-numeric:tabular-nums}} .pct{{color:var(--mut);width:52px;text-align:right;font-variant-numeric:tabular-nums}}
 .sw{{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px;flex:none}}
 .dn-n{{font-size:20px;font-weight:700;fill:var(--fg)}} .dn-l{{font-size:11px;fill:var(--mut)}}
-.meter{{display:flex;gap:10px;align-items:flex-end;margin:6px 0 8px}} .meter-t{{font-size:12.5px;color:var(--mut);line-height:1.35}}
+.meter{{margin:6px 0 10px}} .meter-t{{font-size:12.5px;color:var(--mut);line-height:1.35;margin-bottom:4px}}
+.bar{{position:relative;height:10px;width:100%}} .bar-track{{position:absolute;inset:0;border-radius:4px;opacity:.16}}
+.bar-fill{{position:absolute;left:0;top:0;bottom:0;border-radius:4px}}
 .meter-t b{{color:var(--fg);font-size:15px}} .ghead{{margin-top:36px;padding-top:8px;border-top:2px solid var(--line)}} .ghead h1{{margin:0 0 4px}}
 .desc{{color:var(--mut);margin:2px 0 10px}} .lead{{background:var(--card);border-radius:10px;padding:12px 16px;margin:12px 0;break-inside:avoid}}
 .lead li{{margin:3px 0}} table{{width:100%;border-collapse:collapse;background:var(--card);border-radius:10px;overflow:hidden;font-size:13px}}
