@@ -1,0 +1,230 @@
+queue 1600, done 15804, todo 1600, network RS AS15958 CETINdoo-NET 109.245.130.133, our refs guarded 321
+25/1600 25.4/min {'1_mostbet_only': 1, '2_no_ads': 21, '3_other_only': 3}
+50/1600 26.3/min {'1_mostbet_only': 3, '2_no_ads': 44, '3_other_only': 3}
+75/1600 25.7/min {'1_mostbet_only': 3, '2_no_ads': 67, '3_other_only': 5}
+100/1600 26.1/min {'1_mostbet_only': 3, '2_no_ads': 90, '3_other_only': 7}
+125/1600 23.2/min {'1_mostbet_only': 5, '2_no_ads': 109, '3_other_only': 11}
+/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/driver/package/lib/coreBundle.js:22797
+        for (const child of frame._getChildFrames())
+                                  ^
+
+TypeError: Cannot read properties of undefined (reading '_getChildFrames')
+    at FrameManager.removeChildFramesRecursively (/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/driver/package/lib/coreBundle.js:22797:35)
+    at FrameManager.frameCommittedNewDocumentNavigation (/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/driver/package/lib/coreBundle.js:22684:14)
+    at FFPage._onNavigationCommitted (/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/driver/package/lib/coreBundle.js:44922:33)
+    at FFSession.emit (node:events:509:28)
+    at /Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/driver/package/lib/coreBundle.js:44202:45
+
+Node.js v24.18.1
+150/1600 22.3/min {'1_mostbet_only': 7, '2_no_ads': 131, '3_other_only': 11, '5_not_shown': 1}
+175/1600 22.9/min {'1_mostbet_only': 8, '2_no_ads': 149, '3_other_only': 17, '5_not_shown': 1}
+200/1600 23.9/min {'1_mostbet_only': 10, '2_no_ads': 170, '3_other_only': 19, '5_not_shown': 1}
+225/1600 24.4/min {'1_mostbet_only': 10, '2_no_ads': 189, '3_other_only': 25, '5_not_shown': 1}
+250/1600 25.3/min {'1_mostbet_only': 10, '2_no_ads': 210, '3_other_only': 29, '5_not_shown': 1}
+275/1600 25.6/min {'1_mostbet_only': 10, '2_no_ads': 232, '3_other_only': 32, '5_not_shown': 1}
+300/1600 25.3/min {'1_mostbet_only': 12, '2_no_ads': 254, '3_other_only': 33, '5_not_shown': 1}
+325/1600 25.7/min {'1_mostbet_only': 13, '2_no_ads': 276, '3_other_only': 35, '5_not_shown': 1}
+350/1600 25.9/min {'1_mostbet_only': 14, '2_no_ads': 295, '3_other_only': 40, '5_not_shown': 1}
+375/1600 26.1/min {'1_mostbet_only': 16, '2_no_ads': 316, '3_other_only': 42, '5_not_shown': 1}
+400/1600 26.1/min {'1_mostbet_only': 18, '2_no_ads': 337, '3_other_only': 43, '5_dead': 1, '5_not_shown': 1}
+425/1600 26.3/min {'1_mostbet_only': 18, '2_no_ads': 361, '3_other_only': 44, '5_dead': 1, '5_not_shown': 1}
+450/1600 25.6/min {'1_mostbet_only': 20, '2_no_ads': 382, '3_other_only': 46, '5_dead': 1, '5_not_shown': 1}
+475/1600 25.5/min {'1_mostbet_only': 20, '2_no_ads': 407, '3_other_only': 46, '5_dead': 1, '5_not_shown': 1}
+500/1600 25.5/min {'1_mostbet_only': 21, '2_no_ads': 425, '3_other_only': 47, '5_dead': 1, '5_not_shown': 6}
+525/1600 25.5/min {'1_mostbet_only': 23, '2_no_ads': 447, '3_other_only': 47, '5_dead': 1, '5_not_shown': 7}
+550/1600 25.7/min {'1_mostbet_only': 23, '2_no_ads': 472, '3_other_only': 47, '5_dead': 1, '5_not_shown': 7}
+575/1600 26.3/min {'1_mostbet_only': 23, '2_no_ads': 497, '3_other_only': 47, '5_dead': 1, '5_not_shown': 7}
+600/1600 26.8/min {'1_mostbet_only': 23, '2_no_ads': 522, '3_other_only': 47, '5_dead': 1, '5_not_shown': 7}
+625/1600 27.2/min {'1_mostbet_only': 23, '2_no_ads': 546, '3_other_only': 48, '5_dead': 1, '5_not_shown': 7}
+650/1600 27.3/min {'1_mostbet_only': 23, '2_no_ads': 571, '3_other_only': 48, '5_dead': 1, '5_not_shown': 7}
+675/1600 27.0/min {'1_mostbet_only': 23, '2_no_ads': 594, '3_other_only': 49, '5_dead': 1, '5_not_shown': 8}
+700/1600 26.6/min {'1_mostbet_only': 23, '2_no_ads': 618, '3_other_only': 50, '5_dead': 1, '5_not_shown': 8}
+725/1600 26.4/min {'1_mostbet_only': 24, '2_no_ads': 640, '3_other_only': 51, '5_dead': 1, '5_not_shown': 9}
+750/1600 26.1/min {'1_mostbet_only': 24, '2_no_ads': 664, '3_other_only': 52, '5_dead': 1, '5_not_shown': 9}
+775/1600 26.1/min {'1_mostbet_only': 24, '2_no_ads': 688, '3_other_only': 53, '5_dead': 1, '5_not_shown': 9}
+800/1600 26.2/min {'1_mostbet_only': 30, '2_no_ads': 707, '3_other_only': 53, '5_dead': 1, '5_not_shown': 9}
+/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/driver/package/lib/coreBundle.js:22797
+        for (const child of frame._getChildFrames())
+                                  ^
+
+TypeError: Cannot read properties of undefined (reading '_getChildFrames')
+    at FrameManager.removeChildFramesRecursively (/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/driver/package/lib/coreBundle.js:22797:35)
+    at FrameManager.frameCommittedNewDocumentNavigation (/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/driver/package/lib/coreBundle.js:22684:14)
+    at FFPage._onNavigationCommitted (/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/driver/package/lib/coreBundle.js:44922:33)
+    at FFSession.emit (node:events:509:28)
+    at /Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/driver/package/lib/coreBundle.js:44202:45
+
+Node.js v24.18.1
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 634, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 634, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+825/1600 26.1/min {'1_mostbet_only': 31, '2_no_ads': 729, '3_other_only': 54, '5_dead': 1, '5_not_shown': 10}
+850/1600 26.1/min {'1_mostbet_only': 31, '2_no_ads': 753, '3_other_only': 55, '5_dead': 1, '5_not_shown': 10}
+875/1600 26.0/min {'1_mostbet_only': 31, '2_no_ads': 777, '3_other_only': 56, '5_dead': 1, '5_not_shown': 10}
+900/1600 26.0/min {'1_mostbet_only': 33, '2_no_ads': 800, '3_other_only': 56, '5_dead': 1, '5_not_shown': 10}
+925/1600 26.2/min {'1_mostbet_only': 33, '2_no_ads': 825, '3_other_only': 56, '5_dead': 1, '5_not_shown': 10}
+950/1600 26.3/min {'1_mostbet_only': 33, '2_no_ads': 850, '3_other_only': 56, '5_dead': 1, '5_not_shown': 10}
+975/1600 26.1/min {'1_mostbet_only': 33, '2_no_ads': 873, '3_other_only': 57, '5_dead': 1, '5_not_shown': 11}
+1000/1600 25.5/min {'1_mostbet_only': 33, '2_no_ads': 898, '3_other_only': 57, '5_dead': 1, '5_not_shown': 11}
+1025/1600 24.7/min {'1_mostbet_only': 33, '2_no_ads': 923, '3_other_only': 57, '5_dead': 1, '5_not_shown': 11}
+1050/1600 24.7/min {'1_mostbet_only': 34, '2_no_ads': 947, '3_other_only': 57, '5_dead': 1, '5_not_shown': 11}
+1075/1600 24.7/min {'1_mostbet_only': 34, '2_no_ads': 971, '3_other_only': 58, '5_dead': 1, '5_not_shown': 11}
+1100/1600 24.6/min {'1_mostbet_only': 34, '2_no_ads': 995, '3_other_only': 59, '5_dead': 1, '5_not_shown': 11}
+1125/1600 24.4/min {'1_mostbet_only': 34, '2_no_ads': 1018, '3_other_only': 61, '5_dead': 1, '5_not_shown': 11}
+1150/1600 24.1/min {'1_mostbet_only': 34, '2_no_ads': 1042, '3_other_only': 62, '5_dead': 1, '5_not_shown': 11}
+1175/1600 24.0/min {'1_mostbet_only': 34, '2_no_ads': 1067, '3_other_only': 62, '5_dead': 1, '5_not_shown': 11}
+1200/1600 24.0/min {'1_mostbet_only': 35, '2_no_ads': 1091, '3_other_only': 62, '5_dead': 1, '5_not_shown': 11}
+1225/1600 24.1/min {'1_mostbet_only': 35, '2_no_ads': 1115, '3_other_only': 63, '5_dead': 1, '5_not_shown': 11}
+1250/1600 24.1/min {'1_mostbet_only': 35, '2_no_ads': 1136, '3_other_only': 67, '5_dead': 1, '5_not_shown': 11}
+1275/1600 24.0/min {'1_mostbet_only': 37, '2_no_ads': 1153, '3_other_only': 73, '5_dead': 1, '5_not_shown': 11}
+1300/1600 24.0/min {'1_mostbet_only': 37, '2_no_ads': 1175, '3_other_only': 76, '5_dead': 1, '5_not_shown': 11}
+1325/1600 24.1/min {'1_mostbet_only': 37, '2_no_ads': 1198, '3_other_only': 78, '5_dead': 1, '5_not_shown': 11}
+1350/1600 24.1/min {'1_mostbet_only': 37, '2_no_ads': 1221, '3_other_only': 80, '5_dead': 1, '5_not_shown': 11}
+/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/driver/package/lib/coreBundle.js:22797
+        for (const child of frame._getChildFrames())
+                                  ^
+
+TypeError: Cannot read properties of undefined (reading '_getChildFrames')
+    at FrameManager.removeChildFramesRecursively (/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/driver/package/lib/coreBundle.js:22797:35)
+    at FrameManager.frameCommittedNewDocumentNavigation (/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/driver/package/lib/coreBundle.js:22684:14)
+    at FFPage._onNavigationCommitted (/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/driver/package/lib/coreBundle.js:44922:33)
+    at FFSession.emit (node:events:509:28)
+    at /Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/driver/package/lib/coreBundle.js:44202:45
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at process.processImmediate (node:internal/timers:472:9)
+
+Node.js v24.18.1
+Error occurred in event listener
+Traceback (most recent call last):
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 261, in _on_route
+    handled = await route_handler.handle(route)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 455, in handle
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 442, in handle
+    return await self._handle_internal(route)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_helper.py", line 483, in _handle_internal
+    await asyncio.ensure_future(coro_or_future)
+  File "/Users/samlowry/Developer/seo-analytics@brand-scan-2026-09-28/tools/brand-scan.py", line 634, in route
+    await r.continue_()
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 1011, in continue_
+    await self._impl_obj.continue_(
+    ...<4 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_network.py", line 518, in continue_
+    return await self._handle_route(_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_network.py", line 468, in _handle_route
+    raise e
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_network.py", line 464, in _handle_route
+    await callback()
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_network.py", line 516, in _inner
+    await self._inner_continue(False)
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_network.py", line 522, in _inner_continue
+    await self._race_with_page_close(
+    ...<17 lines>...
+    )
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_network.py", line 564, in _race_with_page_close
+    raise cast(BaseException, fut.exception())
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/samlowry/.cache/uv/archive-v0/iWgELBoCq4HkHLLzUTu5j/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Route.continue_: Connection closed while reading from the driver
+1375/1600 24.1/min {'1_mostbet_only': 37, '2_no_ads': 1244, '3_other_only': 81, '5_dead': 1, '5_not_shown': 12}
+1400/1600 24.0/min {'1_mostbet_only': 38, '2_no_ads': 1264, '3_other_only': 85, '5_dead': 1, '5_not_shown': 12}
+1425/1600 23.9/min {'1_mostbet_only': 39, '2_no_ads': 1284, '3_other_only': 89, '5_dead': 1, '5_not_shown': 12}
+1450/1600 23.9/min {'1_mostbet_only': 39, '2_no_ads': 1308, '3_other_only': 90, '5_dead': 1, '5_not_shown': 12}
+1475/1600 23.9/min {'1_mostbet_only': 41, '2_no_ads': 1330, '3_other_only': 91, '5_dead': 1, '5_not_shown': 12}
+1500/1600 23.9/min {'1_mostbet_only': 41, '2_no_ads': 1352, '3_other_only': 94, '5_dead': 1, '5_not_shown': 12}
+1525/1600 23.9/min {'1_mostbet_only': 41, '2_no_ads': 1376, '3_other_only': 95, '5_dead': 1, '5_not_shown': 12}
+1550/1600 23.9/min {'1_mostbet_only': 41, '2_no_ads': 1399, '3_other_only': 97, '5_dead': 1, '5_not_shown': 12}
+1575/1600 23.9/min {'1_mostbet_only': 42, '2_no_ads': 1422, '3_other_only': 98, '5_dead': 1, '5_not_shown': 12}
+1600/1600 23.6/min {'1_mostbet_only': 42, '2_no_ads': 1441, '3_other_only': 104, '5_dead': 1, '5_not_shown': 12}
+done {'1_mostbet_only': 42, '2_no_ads': 1441, '3_other_only': 104, '5_dead': 1, '5_not_shown': 12}

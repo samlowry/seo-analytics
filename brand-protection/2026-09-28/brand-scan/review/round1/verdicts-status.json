@@ -1,0 +1,562 @@
+[
+ {
+  "domain": "92dado.net",
+  "given": "other_gambling",
+  "verdict": "correct",
+  "should_be": "other_gambling",
+  "confidence": 0.9,
+  "comment": "Своё казино/БК для Пакистана (92dado, JazzCash, PSL); в сыром HTML «mostbet» не встречается ни в тексте, ни в ссылках."
+ },
+ {
+  "domain": "bettingpros.com",
+  "given": "other_gambling",
+  "verdict": "correct",
+  "should_be": "other_gambling",
+  "confidence": 0.85,
+  "comment": "Сайт спортивных прогнозов и коэффициентов (picks, props, odds); Mostbet в HTML нет."
+ },
+ {
+  "domain": "courier-journal.com",
+  "given": "other_gambling",
+  "verdict": "wrong",
+  "should_be": "unrelated",
+  "confidence": 0.9,
+  "comment": "Городская газета Луисвилля: новости, некрологи; гэмблинга нет (0,48 на 1k). В other_ads попало «The Indianapolis Star» — это соседняя газета сети USA Today, а не бренд казино."
+ },
+ {
+  "domain": "gamingtoday.com",
+  "given": "other_gambling",
+  "verdict": "correct",
+  "should_be": "other_gambling",
+  "confidence": 0.7,
+  "comment": "Браузерный скан: портал про онлайн-казино и ставки США, реклама BitStarz, Mostbet 0. Сохранён только HTML с челленджем Cloudflare, проверить ссылки по файлу нельзя."
+ },
+ {
+  "domain": "infospa.org",
+  "given": "other_gambling",
+  "verdict": "correct",
+  "should_be": "other_gambling",
+  "confidence": 0.85,
+  "comment": "Сайт игры Aviator для Мозамбика (M-Pesa); упомянуты 1xBet и Betway, Mostbet в HTML нет."
+ },
+ {
+  "domain": "miin-study.ru",
+  "given": "other_gambling",
+  "verdict": "correct",
+  "should_be": "other_gambling",
+  "confidence": 0.85,
+  "comment": "Уехал на stavka-cybersport.ru — гид по ставкам на киберспорт, упомянуты Melbet, Fonbet, Winline и др.; Mostbet в HTML нет."
+ },
+ {
+  "domain": "playamo-casino0-au.com",
+  "given": "other_gambling",
+  "verdict": "correct",
+  "should_be": "other_gambling",
+  "confidence": 0.9,
+  "comment": "Дорвей PlayAmo Casino Australia со шлюзом /go-to/; Mostbet в HTML нет."
+ },
+ {
+  "domain": "promodesi.com",
+  "given": "other_gambling",
+  "verdict": "correct",
+  "should_be": "other_gambling",
+  "confidence": 0.8,
+  "comment": "Страница бонусов без депозита с 1xBet, Parimatch, Betway; Mostbet в HTML нет ни в тексте, ни в href."
+ },
+ {
+  "domain": "smseximenterprises.com",
+  "given": "other_gambling",
+  "verdict": "correct",
+  "should_be": "other_gambling",
+  "confidence": 0.75,
+  "comment": "Шаблонный сайт компании, лента заполнена постами про казино Новой Зеландии; Mostbet в HTML нет."
+ },
+ {
+  "domain": "tw.bid.yahoo.com",
+  "given": "other_gambling",
+  "verdict": "wrong",
+  "should_be": "not_shown",
+  "confidence": 0.6,
+  "comment": "Страница — окно согласия на cookies consent.yahoo.com, сам аукцион не показан. «via legal.yahoo.com» — ссылка на политику приватности, а не партнёрка; гэмблинга нет."
+ },
+ {
+  "domain": "bet-10-app.com",
+  "given": "unrelated",
+  "verdict": "wrong",
+  "should_be": "other_gambling",
+  "confidence": 0.85,
+  "comment": "Браузерный скан: обзор Bet10 для Бразилии (title «Melhores Jogos Bet10»), ссылка на bet10.com. Признаки считали по сырому HTML с челленджем Cloudflare, отсюда gambling_per_1k=0."
+ },
+ {
+  "domain": "dolcevitahsvillage.com",
+  "given": "unrelated",
+  "verdict": "correct",
+  "should_be": "unrelated",
+  "confidence": 0.95,
+  "comment": "Ресторан Dolce Vita в Арканзасе, меню и часы работы; ни Mostbet, ни гэмблинга в HTML."
+ },
+ {
+  "domain": "fasttrac.org",
+  "given": "unrelated",
+  "verdict": "correct",
+  "should_be": "unrelated",
+  "confidence": 0.95,
+  "comment": "Kauffman FastTrac — курсы для предпринимателей; Mostbet и гэмблинга в HTML нет."
+ },
+ {
+  "domain": "ingenin.org",
+  "given": "unrelated",
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.85,
+  "comment": "Дефолтная страница FASTPANEL «Why am I seeing this page?» — сайта на сервере нет, это заглушка хостинга."
+ },
+ {
+  "domain": "mcserdolik.ru",
+  "given": "unrelated",
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.85,
+  "comment": "Дефолтная страница FASTPANEL «Why am I seeing this page?» — заглушка хостинга, а не сайт."
+ },
+ {
+  "domain": "mostbet-pt.site",
+  "given": "unrelated",
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "Страница Namecheap «Domain registration has expired… Renew this domain» — истёкший домен у регистратора."
+ },
+ {
+  "domain": "nb41.com.br",
+  "given": "unrelated",
+  "verdict": "correct",
+  "should_be": "unrelated",
+  "confidence": 0.95,
+  "comment": "Бразильское digital-агентство (SEO, трафик); Mostbet и гэмблинга в HTML нет."
+ },
+ {
+  "domain": "potworywozkowe.pl",
+  "given": "unrelated",
+  "verdict": "correct",
+  "should_be": "unrelated",
+  "confidence": 0.9,
+  "comment": "Польский блог о беременности и детях; 107 ссылок, ни одна не на Mostbet, скрытых упоминаний нет."
+ },
+ {
+  "domain": "thechiquitachannel.com",
+  "given": "unrelated",
+  "verdict": "correct",
+  "should_be": "unrelated",
+  "confidence": 0.95,
+  "comment": "Личный сайт подкастера CC Paschal; Mostbet в HTML нет."
+ },
+ {
+  "domain": "tracxn.com",
+  "given": "unrelated",
+  "verdict": "correct",
+  "should_be": "unrelated",
+  "confidence": 0.95,
+  "comment": "Tracxn — платформа данных для венчурных фондов; Mostbet в HTML нет."
+ },
+ {
+  "domain": "cusjeaeamb.com",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.95,
+  "comment": "Porkbun: «This domain is for sale… expired and is currently for sale at auction»."
+ },
+ {
+  "domain": "mostbet-eg-club.com",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.95,
+  "comment": "Парковка Spaceship: «Your domain has expired. Please log in to your Spaceship account to renew it»."
+ },
+ {
+  "domain": "mostbet-tr27.ph",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "HTML нет; браузерный скан: «This domain is available to be registered», категории-ссылки и «You'll be redirected to our sponsor» — парковка. 13 упоминаний Mostbet — это имя домена на парковке."
+ },
+ {
+  "domain": "mostbet-wdg1.top",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "HTML нет; браузерный скан: «This domain is parked with NameSilo», блок ParkLogic. 11 упоминаний Mostbet — имя домена."
+ },
+ {
+  "domain": "mostbet-wey1.top",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "HTML нет; браузерный скан: «This domain is parked with NameSilo», ParkLogic."
+ },
+ {
+  "domain": "mostbet-wos1.top",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "HTML нет; браузерный скан: «This domain is parked with NameSilo», ParkLogic."
+ },
+ {
+  "domain": "mostbet-wvz2.top",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "HTML нет; браузерный скан: «This domain is parked with NameSilo», ParkLogic."
+ },
+ {
+  "domain": "mostbetance-jee.com.ph",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "HTML нет; браузерный скан: «This domain is available to be registered», редирект на спонсора — парковка."
+ },
+ {
+  "domain": "mostbetcasinoazerbaijan.com",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "HTML нет; браузерный скан: парковка Sav.com «This website is coming soon!» с блоком категорий ParkLogic."
+ },
+ {
+  "domain": "mostbetzq.casino",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "HTML нет; браузерный скан: NameSilo «The domain has expired», ParkLogic."
+ },
+ {
+  "domain": "mostbet-dd.top",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.95,
+  "comment": "Страница «Coming Soon» на 1,1 КБ без единого скрипта — дорисовывать нечего."
+ },
+ {
+  "domain": "mostbet-indibet.com",
+  "given": "stub",
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.6,
+  "comment": "HTML нет. Title «Parking Page» из старого affiliate-scan — так называется парковка Spaceship; свежий home-dump даёт connect_error, то есть сейчас это скорее dead."
+ },
+ {
+  "domain": "mostbet-wcy8.cfd",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.95,
+  "comment": "Шаблон «Coming Soon» на 1,1 КБ, скриптов 0."
+ },
+ {
+  "domain": "mostbet-wf6.xyz",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.95,
+  "comment": "Шаблон «Coming Soon» на 1,1 КБ, скриптов 0."
+ },
+ {
+  "domain": "mostbet-whm5.cfd",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.95,
+  "comment": "Шаблон «Coming Soon» на 1,1 КБ, скриптов 0."
+ },
+ {
+  "domain": "mostbet-wmh1.cfd",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.95,
+  "comment": "Шаблон «Coming Soon» на 1,1 КБ, скриптов 0."
+ },
+ {
+  "domain": "mostbet-wsj7.cfd",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.95,
+  "comment": "Шаблон «Coming Soon» на 1,1 КБ, скриптов 0."
+ },
+ {
+  "domain": "mostbet-wsv1.cfd",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.6,
+  "comment": "HTML нет; title «Coming Soon» из старого affiliate-scan, та же серия, что и соседние *.cfd. Свежий home-dump даёт connect_error, так что сейчас это может быть dead."
+ },
+ {
+  "domain": "mostbet-wzr2.cfd",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.95,
+  "comment": "Шаблон «Coming Soon» на 1,1 КБ, скриптов 0."
+ },
+ {
+  "domain": "oldeconomy.org",
+  "given": "stub",
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "Уводит на forsale.dynadot.com: «This domain name is on auction!» — аукцион регистратора, а не заглушка."
+ },
+ {
+  "domain": "3f5nfrmb.com",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.85,
+  "comment": "HTML нет; http-скан: connection_refused."
+ },
+ {
+  "domain": "most-official-uz2.com",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.8,
+  "comment": "HTML нет; timeout в единственном http-скане из RS."
+ },
+ {
+  "domain": "mostbet-casino-girisi.it.com",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.85,
+  "comment": "HTML нет; timeout в двух сканах."
+ },
+ {
+  "domain": "mostbet-gghh.click",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.8,
+  "comment": "HTML нет; timeout в единственном скане."
+ },
+ {
+  "domain": "mostbet-sk.com",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.85,
+  "comment": "HTML нет; timeout в двух сканах."
+ },
+ {
+  "domain": "mostbet-wcu6.casino",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.85,
+  "comment": "HTML нет; timeout в двух сканах."
+ },
+ {
+  "domain": "mostbet6113.casino",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.85,
+  "comment": "HTML нет; connection_refused."
+ },
+ {
+  "domain": "mostbetcasino.co.uk",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.85,
+  "comment": "HTML нет; timeout в двух сканах."
+ },
+ {
+  "domain": "nambu.pl",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.8,
+  "comment": "HTML нет; timeout в единственном скане."
+ },
+ {
+  "domain": "rainmakerleadsco.com",
+  "given": "dead",
+  "verdict": "wrong",
+  "should_be": "not_shown",
+  "confidence": 0.65,
+  "comment": "Сервер отвечает: Cloudflare отдаёт 404 с пустым телом (http-скан и home-dump), браузер получил тот же 404 и цикл через 307. Это ошибка на живом хосте, а не неответ."
+ },
+ {
+  "domain": "apk-mostbet-official708.top",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.8,
+  "comment": "Оба HTML — nginx «503 Service Temporarily Unavailable»."
+ },
+ {
+  "domain": "mostbet-az-az2.us.com",
+  "given": "not_shown",
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.7,
+  "comment": "«Account disabled by server administrator», ISPmanager — аккаунт хостинга заблокирован (suspended), это заглушка, а не защита."
+ },
+ {
+  "domain": "mostbet-deposit.sbs",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.9,
+  "comment": "Cloudflare «Sorry, you have been blocked», страница скрыта."
+ },
+ {
+  "domain": "mostbet-jmw23.cam",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.8,
+  "comment": "Уводит на mostbet-bvp87.sbs, там 403 «You don't have permission to access this page» — ротация зеркал с блоком."
+ },
+ {
+  "domain": "mostbet-life22.site",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.8,
+  "comment": "Уводит на mostbet-ugs84.cam, там такой же 403 Forbidden."
+ },
+ {
+  "domain": "mostbet-rv-37xt.xyz",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.8,
+  "comment": "nginx 403 Forbidden и в браузере, и по http."
+ },
+ {
+  "domain": "mostbet-whh8.xyz",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.8,
+  "comment": "nginx 403 Forbidden и в браузере, и по http."
+ },
+ {
+  "domain": "mostbet-wqf7.top",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.8,
+  "comment": "Уводит на mostbet-sbk37.cam, там 403 Forbidden."
+ },
+ {
+  "domain": "mostbeti.com",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.8,
+  "comment": "nginx 503 и в браузере, и по http."
+ },
+ {
+  "domain": "mostbettopz.com",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.9,
+  "comment": "Cloudflare «Sorry, you have been blocked… unable to access mostbettopz.com»."
+ },
+ {
+  "domain": "app-tezplay.com",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.9,
+  "comment": "home-dump: 302 → sdau.global-home.my → doaq86baa48zmst.com/RSlF?…sub5=lv512crushgroup — реф-хост Mostbet со случайным именем."
+ },
+ {
+  "domain": "lkmostbet.com",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.9,
+  "comment": "302 сразу на w76txdq8gaias60mst.com/uMzs — реф-хост Mostbet с кодом из 4 символов."
+ },
+ {
+  "domain": "md-mostbet.org",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.9,
+  "comment": "302 на ztmfvrmb.com/pNfU — реф-ссылка Mostbet."
+ },
+ {
+  "domain": "mostbet-pe.site",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.9,
+  "comment": "301 на xtsplkmost.com/XXIF — известный реф-хост Mostbet."
+ },
+ {
+  "domain": "mostbet-tracker.com",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.9,
+  "comment": "302 на vs66cd75semb.com/MrTF?sub1=… — реф-ссылка Mostbet."
+ },
+ {
+  "domain": "mostbet2.site",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.9,
+  "comment": "301 на xtsplkmost.com/XXIF, та же рефка, что у mostbet-pe.site и mostbet3.buzz."
+ },
+ {
+  "domain": "mostbet3.buzz",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.9,
+  "comment": "301 на xtsplkmost.com/XXIF."
+ },
+ {
+  "domain": "mostbetreg.top",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.9,
+  "comment": "301 на rvqezxmb.com/8u4F/ — реф-хост Mostbet."
+ },
+ {
+  "domain": "my-ladbrokes.com",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.85,
+  "comment": "Домен с именем Ladbrokes: 302 → go2.promo/c/ladbrokes → hpnjesmb.com/9c4F, то есть реф Mostbet. Правило верно, но по сути это ещё и приманка на чужом бренде."
+ },
+ {
+  "domain": "play-nova-center.click",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.85,
+  "comment": "302 на sunsunrisepath-win.cloud, затем на nb80z34avcmst.com/CzuF?sub1=… — реф-хост Mostbet."
+ }
+]

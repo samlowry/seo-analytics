@@ -19,6 +19,9 @@ MOSTBET_STRONG = re.compile(
     r"cdn-global-mst\.com|mostbet-head-web-upload|x011bt\.com/gif|"
     r"href=\"https://mostbett\.bet/\"\s+hreflang=\"x-default\"", re.I)
 MOSTBET_NAME = re.compile(r"most\s?bet|мостбет", re.I)
+# The official frontend titles itself "MostBet.com <betting company in the local language>";
+# affiliate copies use "Mostbet Official Website ..." instead.
+MIRROR_TITLE = re.compile(r"^\s*most\s?bet\.com\b", re.I)
 # Tracker and affiliate parameters: a link carrying them is an ad, not a plain cross-link.
 AFF_PARAMS = re.compile(
     r"(^|&)(tag|btag|stag|qtag|pid|p|promo|promocode|ref|aff|affid|aff_id|affiliate|sub1|subid|sub_id|"
@@ -35,7 +38,9 @@ BRANDS = [
     ("Winline", r"winline|винлайн"), ("GGBet", r"gg\.?bet"), ("Stake", r"\bstake\.(com|bet|us)|\bstake casino"),
     ("BC.Game", r"bc\.game"), ("20Bet", r"\b20\s?bet"), ("4rabet", r"4ra\s?bet"), ("Dafabet", r"dafabet"),
     ("Betway", r"betway"), ("bet365", r"bet\s?365"), ("Pokerdom", r"pokerdom|покердом"),
-    ("Joycasino", r"joy\s?casino|джойказино"), ("Vulkan", r"vulkan|вулкан"), ("Azino777", r"azino|азино"),
+    # "azino" sits inside kazino/казино: require a word start.
+    ("Joycasino", r"joy\s?casino|джойказино"), ("Vulkan", r"vulkan|вулкан"), ("Spinania", r"spinania"),
+    ("Azino777", r"(?<![a-zа-яё])(?:azino|азино)"),
     ("Selector", r"selector|селектор"), ("Gama", r"gama\s?casino|гама\s?казино"), ("Riobet", r"riobet"),
     ("Kometa", r"kometa|комета\s?казино"), ("Irwin", r"irwin"), ("R7", r"\br7\s?(casino|казино)"),
     ("Daddy", r"daddy\s?casino"), ("Monro", r"monro"), ("Kent", r"kent\s?casino"), ("Starda", r"starda"),
@@ -74,6 +79,10 @@ BRANDS = [
     ("Lucky Bird", r"lucky\s?bird"), ("Joker", r"joker\s?(casino|win)"), ("Riobet", r"riobet"),
     ("Aurora", r"aurora\s?casino"), ("Bollywood", r"bollywood\s?casino"), ("Fairspin", r"fairspin"),
     ("Mostwin", r"mostwin"), ("Megaslot", r"megaslot"), ("Melbet", r"mel-?bet"),
+    ("Crorebet", r"crore-?\s?bet"), ("Lanista", r"lanista"), ("Batery", r"batery"),
+    ("Baxterbet", r"baxter\s?bet"), ("77MVP", r"77\s?mvp"), ("Spinanga", r"spinanga"),
+    ("Kingmaker", r"kingmaker"), ("1xCasino", r"1\s?x\s?casino"), ("Fieryplay", r"fiery\s?play"),
+    ("Hitnspin", r"hit\s?n\s?spin"),
 ]
 BRAND_RES = [(name, re.compile(rx, re.I)) for name, rx in BRANDS]
 
@@ -91,7 +100,10 @@ PARKED = re.compile(
     r"registrant whois contact information verification|registered for a match\.it customer|"
     r"a été enregistré par un utilisateur|домен тіркелген|abovedomains\.com|"
     r"page cannot be displayed\. please contact your service provider|site not configured|"
-    r"courtesy of www\.bluehost\.com", re.I)
+    r"courtesy of www\.bluehost\.com|доменный брокер|parked free, courtesy of godaddy", re.I)
+# Parking landers that render nothing without their scripts: known only by markup.
+PARKED_HTML = re.compile(r"parklogic\.com|wsimg\.com/parking-lander|ap:\"parking\"|sedoparking\.com|"
+                         r"bodis\.com|parkingcrew\.net|abovedomains\.com", re.I)
 GEO_BLOCK = re.compile(
     r"not available in your (country|region|location)|unavailable in your (country|region)|"
     r"restricted (country|region|territory|jurisdiction)|access (is )?(denied|restricted) (from|in) your|"
@@ -214,7 +226,99 @@ def classify_destination(start_url: str, final_url: str, title: str, html: str, 
             return {**ident, "kind": "brand_site"}
         if ev == "gambling_words_unrecognized" and not ad:
             return {**ident, "kind": "gambling_site"}
-    return ident
+    out = refine({**ident, "final_url": final_url, "title": (title or "")[:120]})
+    return {k: v for k, v in out.items() if k not in ("final_url", "title")}
+
+
+REGISTRAR_HOSTS = re.compile(
+    r"(^|\.)(reg\.ru|nic\.ru|namecheap\.com|godaddy\.com|dan\.com|sedo\.com|afternic\.com|hugedomains\.com|"
+    r"dynadot\.com|porkbun\.com|atom\.com|spaceship\.com)$", re.I)
+BLOCKED_TITLE = re.compile(r"access denied|forbidden|not available in your (country|region)|"
+                           r"unavailable in your (country|region)", re.I)
+
+
+def refine(d: dict) -> dict:
+    """Corrections to an identified gambling destination from its final host and title only, so
+    they also apply to stored records (idempotent).
+
+    A registrar or parking page is not an ad; an unrecognized page that is only a block or geo wall
+    hides its advertiser (unknown); an unrecognized operator named in the dictionary by title or
+    host gets that name instead of the raw title.
+    """
+    if d.get("kind") not in ("other_gambling", "gambling_site"):
+        return d
+    title = d.get("title") or ""
+    host = urlsplit(d.get("final_url") or "").hostname or ""
+    if REGISTRAR_HOSTS.search(host) or PARKED.search(title):
+        return {**d, "kind": "non_gambling", "brand": "", "evidence": "parked_or_registrar"}
+    d = _recheck_stale_brand(d, title, host)
+    if d.get("kind") not in ("other_gambling", "gambling_site"):
+        return d
+    if d.get("kind") == "other_gambling" and d.get("evidence") == "gambling_words_unrecognized" and \
+            "hops" in d and not _tracked(d):
+        return {**d, "kind": "gambling_site", "evidence": "unrecognized_no_tracker"}
+    if d.get("evidence") != "gambling_words_unrecognized":
+        return d
+    name = next((n for n, rx in BRAND_RES if rx.search(title) or rx.search(host)), "")
+    if name:
+        return {**d, "brand": name, "evidence": f"title_or_host:{name}"}
+    if BLOCKED_TITLE.search(title):
+        return {**d, "kind": "unknown", "brand": "", "evidence": "blocked_page"}
+    return d
+
+
+STALE_BRANDS = {"Azino777"}  # brands whose old pattern over-matched; stored matches are re-checked
+
+
+def _recheck_stale_brand(d: dict, title: str, host: str) -> dict:
+    """Re-check a stored brand match made by a pattern fixed later, against the title and host.
+
+    Only the matched fragment was stored, so a match that no longer holds on title or host is
+    treated the way identify() treats a page with no dictionary brand.
+    """
+    if d.get("brand") not in STALE_BRANDS or not str(d.get("evidence", "")).startswith("fields:"):
+        return d
+    rx = dict(BRAND_RES)[d["brand"]]
+    if rx.search(title) or rx.search(host):
+        return d
+    ad = bool(d.get("ad_route"))
+    if MOSTBET_NAME.search(title) or MOSTBET_NAME.search(host):
+        return {**d, "kind": "mostbet" if ad else "brand_site", "brand": "Mostbet", "evidence": "name_only_weak"}
+    name = re.split(r"\s[|\-–—:ᐉᐈ»•·]\s", title)[0].strip()[:60] or "?"
+    return {**d, "kind": "other_gambling" if ad else "gambling_site", "brand": name,
+            "evidence": "gambling_words_unrecognized"}
+
+
+TRACK_PARAMS = re.compile(r"(^|&)(affiliatecode|affiliate_code|aff_code|refcode|referral|wid|ch|campaign)=", re.I)
+
+
+def _tracked(d: dict) -> bool:
+    """A destination went through a tracker: affiliate parameters anywhere in the chain, a
+    parametrised link that lands on another host, or more than one intermediate host.
+
+    A plain link to a page, or one plain redirect from the linked host to the page (sister
+    sites, renamed domains), is a cross-link, not an ad.
+    """
+    urls = [u for _, u in d.get("hops") or []] + [d.get("url") or "", d.get("final_url") or ""]
+    hosts = []
+    for u in urls:
+        try:
+            parts = urlsplit(u)
+        except ValueError:
+            continue
+        if AFF_PARAMS.search(parts.query or "") or TRACK_PARAMS.search(parts.query or ""):
+            return True
+        h = (parts.hostname or "").lower().removeprefix("www.")
+        if h and h not in hosts:
+            hosts.append(h)
+    try:
+        first, last = urlsplit(urls[0] if urls[0] else d.get("url") or ""), urlsplit(d.get("final_url") or "")
+    except ValueError:
+        return len(hosts) > 2
+    if first.query and first.hostname and last.hostname and \
+            first.hostname.removeprefix("www.") != last.hostname.removeprefix("www."):
+        return True
+    return len(hosts) > 2
 
 
 def site_group(destinations: list, mostbet_mentions: int) -> dict:

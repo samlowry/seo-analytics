@@ -1,0 +1,771 @@
+queue 19161, done 0, todo 19161, network RS AS15958 CETINdoo-NET 109.245.134.170, our refs guarded 321
+25/19161 5034.5/min {'saved': 25}
+50/19161 6580.0/min {'saved': 50}
+75/19161 7360.2/min {'saved': 75}
+100/19161 7757.3/min {'saved': 100}
+125/19161 7936.3/min {'no_answer': 1, 'saved': 124}
+150/19161 7085.4/min {'no_answer': 1, 'saved': 149}
+175/19161 4565.3/min {'no_answer': 1, 'saved': 174}
+200/19161 3908.2/min {'no_answer': 1, 'saved': 199}
+225/19161 3915.0/min {'no_answer': 1, 'saved': 224}
+250/19161 3958.3/min {'no_answer': 1, 'saved': 249}
+275/19161 3521.7/min {'no_answer': 1, 'saved': 274}
+300/19161 3502.5/min {'no_answer': 1, 'saved': 299}
+325/19161 3570.1/min {'no_answer': 2, 'saved': 323}
+350/19161 3419.5/min {'no_answer': 2, 'saved': 348}
+375/19161 3380.7/min {'no_answer': 2, 'saved': 373}
+400/19161 3382.5/min {'no_answer': 2, 'saved': 398}
+425/19161 3405.7/min {'no_answer': 2, 'saved': 423}
+450/19161 3430.7/min {'no_answer': 2, 'saved': 448}
+475/19161 3495.2/min {'no_answer': 2, 'saved': 473}
+500/19161 3520.8/min {'no_answer': 2, 'saved': 498}
+525/19161 3482.5/min {'no_answer': 2, 'saved': 523}
+550/19161 3490.5/min {'no_answer': 2, 'saved': 548}
+575/19161 3464.4/min {'no_answer': 2, 'saved': 573}
+600/19161 3467.3/min {'no_answer': 2, 'saved': 598}
+625/19161 3460.7/min {'no_answer': 2, 'saved': 623}
+650/19161 3483.3/min {'no_answer': 2, 'saved': 648}
+675/19161 3444.8/min {'no_answer': 2, 'saved': 673}
+700/19161 3434.8/min {'no_answer': 2, 'saved': 698}
+725/19161 3463.8/min {'no_answer': 2, 'saved': 723}
+750/19161 3454.3/min {'no_answer': 2, 'saved': 748}
+775/19161 3436.3/min {'no_answer': 2, 'saved': 773}
+800/19161 3479.1/min {'no_answer': 2, 'saved': 798}
+825/19161 3470.9/min {'no_answer': 2, 'saved': 823}
+850/19161 3454.3/min {'no_answer': 2, 'saved': 848}
+875/19161 3452.7/min {'no_answer': 2, 'saved': 873}
+900/19161 3472.3/min {'no_answer': 2, 'saved': 898}
+925/19161 3476.2/min {'no_answer': 2, 'not_html': 1, 'saved': 922}
+950/19161 3466.4/min {'no_answer': 2, 'not_html': 1, 'saved': 947}
+975/19161 3427.5/min {'no_answer': 2, 'not_html': 1, 'saved': 972}
+1000/19161 3363.6/min {'no_answer': 2, 'not_html': 1, 'saved': 997}
+1025/19161 3315.5/min {'no_answer': 2, 'not_html': 1, 'saved': 1022}
+1050/19161 3323.9/min {'no_answer': 2, 'not_html': 1, 'saved': 1047}
+1075/19161 3329.6/min {'no_answer': 2, 'not_html': 1, 'saved': 1072}
+1100/19161 3331.6/min {'no_answer': 2, 'not_html': 1, 'saved': 1097}
+1125/19161 3344.0/min {'no_answer': 2, 'not_html': 1, 'saved': 1122}
+1150/19161 3301.5/min {'no_answer': 2, 'not_html': 1, 'saved': 1147}
+1175/19161 3297.6/min {'no_answer': 2, 'not_html': 1, 'saved': 1172}
+1200/19161 3302.7/min {'no_answer': 2, 'not_html': 1, 'saved': 1197}
+1225/19161 3270.6/min {'no_answer': 2, 'not_html': 1, 'saved': 1222}
+1250/19161 3233.8/min {'no_answer': 2, 'not_html': 1, 'saved': 1247}
+1275/19161 3203.1/min {'no_answer': 2, 'not_html': 1, 'saved': 1272}
+1300/19161 3216.7/min {'no_answer': 2, 'not_html': 1, 'saved': 1297}
+1325/19161 3223.3/min {'no_answer': 2, 'not_html': 1, 'saved': 1322}
+1350/19161 3240.3/min {'no_answer': 2, 'not_html': 1, 'saved': 1347}
+1375/19161 3257.7/min {'no_answer': 2, 'not_html': 1, 'saved': 1372}
+1400/19161 3271.8/min {'no_answer': 2, 'not_html': 1, 'saved': 1397}
+1425/19161 3281.8/min {'no_answer': 2, 'not_html': 1, 'saved': 1422}
+1450/19161 3236.2/min {'no_answer': 2, 'not_html': 1, 'saved': 1447}
+1475/19161 3249.8/min {'no_answer': 2, 'not_html': 1, 'saved': 1472}
+1500/19161 3236.0/min {'no_answer': 2, 'not_html': 1, 'saved': 1497}
+1525/19161 3184.0/min {'no_answer': 2, 'not_html': 1, 'saved': 1522}
+1550/19161 3143.3/min {'no_answer': 2, 'not_html': 1, 'saved': 1547}
+1575/19161 3102.1/min {'no_answer': 2, 'not_html': 3, 'saved': 1570}
+1600/19161 3097.0/min {'no_answer': 2, 'not_html': 3, 'saved': 1595}
+1625/19161 3004.6/min {'no_answer': 2, 'not_html': 3, 'saved': 1620}
+1650/19161 2895.4/min {'no_answer': 3, 'not_html': 3, 'saved': 1644}
+1675/19161 2861.2/min {'no_answer': 3, 'not_html': 3, 'saved': 1669}
+1700/19161 2858.0/min {'no_answer': 3, 'not_html': 3, 'saved': 1694}
+1725/19161 2820.9/min {'no_answer': 3, 'not_html': 3, 'saved': 1719}
+1750/19161 2776.0/min {'no_answer': 3, 'not_html': 3, 'saved': 1744}
+1775/19161 2789.8/min {'no_answer': 3, 'not_html': 3, 'saved': 1769}
+1800/19161 2755.5/min {'no_answer': 3, 'not_html': 3, 'saved': 1794}
+1825/19161 2677.5/min {'no_answer': 3, 'not_html': 3, 'saved': 1819}
+1850/19161 2647.3/min {'no_answer': 3, 'not_html': 3, 'saved': 1844}
+1875/19161 2650.5/min {'no_answer': 3, 'not_html': 3, 'saved': 1869}
+1900/19161 2657.2/min {'no_answer': 3, 'not_html': 3, 'saved': 1894}
+1925/19161 2664.1/min {'no_answer': 3, 'not_html': 3, 'saved': 1919}
+1950/19161 2676.4/min {'no_answer': 3, 'not_html': 3, 'saved': 1944}
+1975/19161 2687.6/min {'no_answer': 3, 'not_html': 3, 'saved': 1969}
+2000/19161 2700.4/min {'no_answer': 3, 'not_html': 3, 'saved': 1994}
+2025/19161 2688.1/min {'no_answer': 3, 'not_html': 3, 'saved': 2019}
+2050/19161 2676.8/min {'no_answer': 3, 'not_html': 3, 'saved': 2044}
+2075/19161 2682.3/min {'no_answer': 3, 'not_html': 3, 'saved': 2069}
+2100/19161 2686.4/min {'no_answer': 3, 'not_html': 3, 'saved': 2094}
+2125/19161 2691.6/min {'no_answer': 3, 'not_html': 3, 'saved': 2119}
+2150/19161 2698.4/min {'no_answer': 3, 'not_html': 3, 'saved': 2144}
+2175/19161 2707.2/min {'no_answer': 3, 'not_html': 3, 'saved': 2169}
+2200/19161 2713.7/min {'no_answer': 3, 'not_html': 3, 'saved': 2194}
+2225/19161 2724.5/min {'no_answer': 3, 'not_html': 3, 'saved': 2219}
+2250/19161 2728.6/min {'no_answer': 3, 'not_html': 3, 'saved': 2244}
+repaired truncated home-dump.jsonl.gz: 2252 records kept
+queue 19161, done 2252, todo 16909, network RS AS15958 CETINdoo-NET 109.245.134.170, our refs guarded 321
+25/16909 2251.1/min {'saved': 25}
+50/16909 2408.0/min {'saved': 50}
+75/16909 2712.1/min {'saved': 75}
+100/16909 2800.3/min {'no_answer': 1, 'saved': 99}
+125/16909 3058.0/min {'no_answer': 1, 'saved': 124}
+150/16909 3237.0/min {'no_answer': 1, 'saved': 149}
+175/16909 3311.9/min {'no_answer': 1, 'saved': 174}
+200/16909 3351.7/min {'no_answer': 1, 'saved': 199}
+225/16909 3401.7/min {'no_answer': 1, 'saved': 224}
+250/16909 3282.4/min {'no_answer': 1, 'saved': 249}
+275/16909 3199.3/min {'no_answer': 1, 'saved': 274}
+300/16909 3182.5/min {'no_answer': 1, 'saved': 299}
+325/16909 3207.4/min {'no_answer': 1, 'saved': 324}
+350/16909 3200.8/min {'no_answer': 1, 'saved': 349}
+375/16909 3194.1/min {'no_answer': 1, 'saved': 374}
+400/16909 3212.4/min {'no_answer': 1, 'saved': 399}
+425/16909 3157.0/min {'no_answer': 1, 'saved': 424}
+450/16909 2941.6/min {'no_answer': 1, 'saved': 449}
+475/16909 2954.6/min {'no_answer': 1, 'saved': 474}
+500/16909 2960.5/min {'no_answer': 1, 'saved': 499}
+525/16909 2925.2/min {'no_answer': 1, 'saved': 524}
+550/16909 2920.3/min {'no_answer': 1, 'saved': 549}
+575/16909 2923.6/min {'no_answer': 1, 'saved': 574}
+600/16909 2906.9/min {'no_answer': 1, 'saved': 599}
+625/16909 2921.1/min {'no_answer': 3, 'saved': 622}
+650/16909 2932.2/min {'no_answer': 3, 'saved': 647}
+675/16909 2929.5/min {'no_answer': 3, 'saved': 672}
+700/16909 2789.8/min {'no_answer': 3, 'saved': 697}
+725/16909 2689.2/min {'no_answer': 3, 'saved': 722}
+750/16909 2694.3/min {'no_answer': 3, 'saved': 747}
+775/16909 2685.2/min {'no_answer': 3, 'saved': 772}
+800/16909 2709.2/min {'no_answer': 3, 'saved': 797}
+825/16909 2702.5/min {'no_answer': 3, 'saved': 822}
+850/16909 2731.3/min {'no_answer': 3, 'saved': 847}
+875/16909 2764.5/min {'no_answer': 3, 'saved': 872}
+900/16909 2799.2/min {'no_answer': 3, 'saved': 897}
+925/16909 2828.5/min {'no_answer': 3, 'saved': 922}
+950/16909 2842.7/min {'no_answer': 3, 'saved': 947}
+975/16909 2861.3/min {'no_answer': 3, 'saved': 972}
+1000/16909 2826.7/min {'no_answer': 3, 'saved': 997}
+1025/16909 2790.7/min {'no_answer': 4, 'saved': 1021}
+1050/16909 2745.1/min {'no_answer': 4, 'saved': 1046}
+1075/16909 2762.7/min {'no_answer': 4, 'saved': 1071}
+1100/16909 2707.8/min {'no_answer': 4, 'saved': 1096}
+1125/16909 2679.2/min {'no_answer': 4, 'saved': 1121}
+1150/16909 2659.5/min {'no_answer': 4, 'saved': 1146}
+1175/16909 2640.4/min {'no_answer': 4, 'saved': 1171}
+1200/16909 2612.8/min {'no_answer': 4, 'saved': 1196}
+1225/16909 2617.1/min {'no_answer': 4, 'saved': 1221}
+1250/16909 2631.9/min {'no_answer': 4, 'saved': 1246}
+1275/16909 2633.3/min {'no_answer': 4, 'saved': 1271}
+1300/16909 2603.8/min {'no_answer': 4, 'not_html': 1, 'saved': 1295}
+1325/16909 2580.6/min {'no_answer': 4, 'not_html': 1, 'saved': 1320}
+1350/16909 2592.4/min {'no_answer': 4, 'not_html': 1, 'saved': 1345}
+1375/16909 2592.9/min {'no_answer': 4, 'not_html': 1, 'saved': 1370}
+1400/16909 2587.7/min {'no_answer': 4, 'not_html': 1, 'saved': 1395}
+1425/16909 2577.2/min {'no_answer': 4, 'not_html': 1, 'saved': 1420}
+1450/16909 2584.6/min {'no_answer': 4, 'not_html': 1, 'saved': 1445}
+1475/16909 2584.1/min {'no_answer': 4, 'not_html': 1, 'saved': 1470}
+1500/16909 2599.5/min {'no_answer': 4, 'not_html': 1, 'saved': 1495}
+1525/16909 2582.2/min {'no_answer': 4, 'not_html': 1, 'saved': 1520}
+1550/16909 2579.3/min {'no_answer': 4, 'not_html': 1, 'saved': 1545}
+1575/16909 2558.2/min {'no_answer': 5, 'not_html': 1, 'saved': 1569}
+1600/16909 2548.2/min {'no_answer': 5, 'not_html': 1, 'saved': 1594}
+1625/16909 2545.2/min {'no_answer': 5, 'not_html': 1, 'saved': 1619}
+1650/16909 2527.3/min {'no_answer': 5, 'not_html': 1, 'saved': 1644}
+1675/16909 2526.4/min {'no_answer': 5, 'not_html': 1, 'saved': 1669}
+1700/16909 2543.6/min {'no_answer': 5, 'not_html': 1, 'saved': 1694}
+1725/16909 2551.1/min {'no_answer': 5, 'not_html': 1, 'saved': 1719}
+1750/16909 2545.8/min {'no_answer': 5, 'not_html': 1, 'saved': 1744}
+1775/16909 2514.0/min {'no_answer': 5, 'not_html': 1, 'saved': 1769}
+1800/16909 2494.9/min {'no_answer': 6, 'not_html': 1, 'saved': 1793}
+1825/16909 2496.2/min {'no_answer': 6, 'not_html': 1, 'saved': 1818}
+1850/16909 2501.3/min {'no_answer': 6, 'not_html': 1, 'saved': 1843}
+1875/16909 2504.9/min {'no_answer': 6, 'not_html': 1, 'saved': 1868}
+1900/16909 2490.6/min {'no_answer': 6, 'not_html': 1, 'saved': 1893}
+1925/16909 2481.6/min {'no_answer': 6, 'not_html': 1, 'saved': 1918}
+1950/16909 2471.8/min {'no_answer': 6, 'not_html': 1, 'saved': 1943}
+1975/16909 2469.6/min {'no_answer': 6, 'not_html': 1, 'saved': 1968}
+2000/16909 2451.0/min {'no_answer': 6, 'not_html': 1, 'saved': 1993}
+2025/16909 2445.7/min {'no_answer': 6, 'not_html': 1, 'saved': 2018}
+2050/16909 2426.9/min {'no_answer': 6, 'not_html': 1, 'saved': 2043}
+2075/16909 2425.6/min {'no_answer': 6, 'not_html': 1, 'saved': 2068}
+2100/16909 2423.2/min {'no_answer': 6, 'not_html': 1, 'saved': 2093}
+2125/16909 2428.6/min {'no_answer': 6, 'not_html': 1, 'saved': 2118}
+2150/16909 2430.9/min {'no_answer': 6, 'not_html': 1, 'saved': 2143}
+2175/16909 2429.7/min {'no_answer': 6, 'not_html': 1, 'saved': 2168}
+2200/16909 2435.5/min {'no_answer': 7, 'not_html': 1, 'saved': 2192}
+2225/16909 2444.3/min {'no_answer': 7, 'not_html': 1, 'saved': 2217}
+2250/16909 2444.2/min {'no_answer': 7, 'not_html': 1, 'saved': 2242}
+2275/16909 2446.7/min {'no_answer': 7, 'not_html': 1, 'saved': 2267}
+2300/16909 2447.5/min {'no_answer': 7, 'not_html': 1, 'saved': 2292}
+2325/16909 2435.1/min {'no_answer': 7, 'not_html': 1, 'saved': 2317}
+2350/16909 2432.6/min {'no_answer': 7, 'not_html': 1, 'saved': 2342}
+2375/16909 2437.0/min {'no_answer': 7, 'not_html': 1, 'saved': 2367}
+2400/16909 2419.8/min {'no_answer': 7, 'not_html': 1, 'saved': 2392}
+2425/16909 2426.7/min {'no_answer': 7, 'not_html': 1, 'saved': 2417}
+2450/16909 2429.5/min {'no_answer': 7, 'not_html': 1, 'saved': 2442}
+2475/16909 2441.1/min {'no_answer': 7, 'not_html': 1, 'saved': 2467}
+2500/16909 2439.9/min {'no_answer': 7, 'not_html': 1, 'saved': 2492}
+2525/16909 2444.7/min {'no_answer': 7, 'not_html': 1, 'saved': 2517}
+2550/16909 2445.6/min {'no_answer': 7, 'not_html': 1, 'saved': 2542}
+2575/16909 2442.8/min {'no_answer': 7, 'not_html': 1, 'saved': 2567}
+2600/16909 2449.9/min {'no_answer': 7, 'not_html': 1, 'saved': 2592}
+2625/16909 2451.0/min {'no_answer': 7, 'not_html': 1, 'saved': 2617}
+2650/16909 2454.9/min {'no_answer': 7, 'not_html': 1, 'saved': 2642}
+2675/16909 2451.0/min {'no_answer': 7, 'not_html': 1, 'saved': 2667}
+2700/16909 2450.8/min {'no_answer': 7, 'not_html': 1, 'saved': 2692}
+2725/16909 2451.3/min {'no_answer': 7, 'not_html': 1, 'saved': 2717}
+2750/16909 2453.6/min {'no_answer': 7, 'not_html': 1, 'saved': 2742}
+2775/16909 2456.5/min {'no_answer': 7, 'not_html': 1, 'saved': 2767}
+2800/16909 2454.6/min {'no_answer': 7, 'not_html': 1, 'saved': 2792}
+2825/16909 2451.4/min {'no_answer': 7, 'not_html': 1, 'saved': 2817}
+2850/16909 2433.9/min {'no_answer': 7, 'not_html': 1, 'saved': 2842}
+2875/16909 2424.3/min {'no_answer': 7, 'not_html': 1, 'saved': 2867}
+2900/16909 2413.7/min {'no_answer': 7, 'not_html': 1, 'saved': 2892}
+2925/16909 2406.7/min {'no_answer': 7, 'not_html': 1, 'saved': 2917}
+2950/16909 2401.8/min {'no_answer': 7, 'not_html': 1, 'saved': 2942}
+2975/16909 2387.9/min {'no_answer': 7, 'not_html': 1, 'saved': 2967}
+3000/16909 2362.1/min {'no_answer': 7, 'not_html': 1, 'saved': 2992}
+3025/16909 2360.3/min {'no_answer': 7, 'not_html': 4, 'saved': 3014}
+3050/16909 2357.6/min {'no_answer': 7, 'not_html': 11, 'saved': 3032}
+3075/16909 2361.4/min {'no_answer': 7, 'not_html': 19, 'saved': 3049}
+3100/16909 2371.9/min {'no_answer': 7, 'not_html': 22, 'saved': 3071}
+3125/16909 2375.6/min {'no_answer': 7, 'not_html': 23, 'saved': 3095}
+3150/16909 2375.2/min {'no_answer': 7, 'not_html': 29, 'saved': 3114}
+3175/16909 2372.4/min {'no_answer': 12, 'not_html': 34, 'saved': 3129}
+3200/16909 2373.3/min {'no_answer': 12, 'not_html': 36, 'saved': 3152}
+3225/16909 2357.1/min {'no_answer': 12, 'not_html': 42, 'saved': 3171}
+3250/16909 2329.7/min {'no_answer': 12, 'not_html': 45, 'saved': 3193}
+3275/16909 2313.6/min {'no_answer': 12, 'not_html': 47, 'saved': 3216}
+3300/16909 2211.6/min {'no_answer': 12, 'not_html': 53, 'saved': 3235}
+3325/16909 2158.4/min {'no_answer': 12, 'not_html': 60, 'saved': 3253}
+3350/16909 2141.0/min {'no_answer': 12, 'not_html': 61, 'saved': 3277}
+3375/16909 2105.2/min {'no_answer': 12, 'not_html': 64, 'saved': 3299}
+3400/16909 2088.2/min {'no_answer': 12, 'not_html': 66, 'saved': 3322}
+3425/16909 2077.6/min {'no_answer': 12, 'not_html': 70, 'saved': 3343}
+3450/16909 2078.7/min {'no_answer': 12, 'not_html': 74, 'saved': 3364}
+3475/16909 2070.3/min {'no_answer': 12, 'not_html': 74, 'saved': 3389}
+3500/16909 2073.7/min {'no_answer': 12, 'not_html': 78, 'saved': 3410}
+3525/16909 2072.4/min {'no_answer': 12, 'not_html': 80, 'saved': 3433}
+3550/16909 2055.3/min {'no_answer': 12, 'not_html': 86, 'saved': 3452}
+3575/16909 2053.1/min {'no_answer': 12, 'not_html': 93, 'saved': 3470}
+3600/16909 2049.6/min {'no_answer': 12, 'not_html': 100, 'saved': 3488}
+3625/16909 2049.0/min {'no_answer': 12, 'not_html': 104, 'saved': 3509}
+3650/16909 2047.8/min {'no_answer': 12, 'not_html': 106, 'saved': 3532}
+3675/16909 2048.5/min {'no_answer': 12, 'not_html': 108, 'saved': 3555}
+3700/16909 2046.3/min {'no_answer': 12, 'not_html': 112, 'saved': 3576}
+3725/16909 2029.9/min {'no_answer': 12, 'not_html': 116, 'saved': 3597}
+3750/16909 2019.4/min {'no_answer': 12, 'not_html': 117, 'saved': 3621}
+3775/16909 2003.1/min {'no_answer': 12, 'not_html': 122, 'saved': 3641}
+3800/16909 2001.8/min {'no_answer': 14, 'not_html': 122, 'saved': 3664}
+3825/16909 2003.3/min {'no_answer': 17, 'not_html': 122, 'saved': 3686}
+3850/16909 1986.4/min {'no_answer': 17, 'not_html': 122, 'saved': 3711}
+3875/16909 1979.2/min {'no_answer': 17, 'not_html': 124, 'saved': 3734}
+3900/16909 1979.9/min {'no_answer': 17, 'not_html': 124, 'saved': 3759}
+3925/16909 1971.1/min {'no_answer': 17, 'not_html': 124, 'saved': 3784}
+3950/16909 1974.3/min {'no_answer': 17, 'not_html': 124, 'saved': 3809}
+3975/16909 1979.9/min {'no_answer': 17, 'not_html': 124, 'saved': 3834}
+4000/16909 1985.3/min {'no_answer': 17, 'not_html': 124, 'saved': 3859}
+4025/16909 1988.6/min {'no_answer': 17, 'not_html': 124, 'saved': 3884}
+4050/16909 1992.8/min {'no_answer': 17, 'not_html': 124, 'saved': 3909}
+4075/16909 1998.3/min {'no_answer': 17, 'not_html': 124, 'saved': 3934}
+4100/16909 2004.5/min {'no_answer': 17, 'not_html': 124, 'saved': 3959}
+4125/16909 2011.3/min {'no_answer': 17, 'not_html': 124, 'saved': 3984}
+4150/16909 2017.4/min {'no_answer': 17, 'not_html': 125, 'saved': 4008}
+4175/16909 2023.8/min {'no_answer': 17, 'not_html': 125, 'saved': 4033}
+4200/16909 2030.9/min {'no_answer': 17, 'not_html': 125, 'saved': 4058}
+4225/16909 2037.7/min {'no_answer': 17, 'not_html': 125, 'saved': 4083}
+4250/16909 2044.3/min {'no_answer': 17, 'not_html': 125, 'saved': 4108}
+4275/16909 2051.8/min {'no_answer': 17, 'not_html': 125, 'saved': 4133}
+4300/16909 2058.7/min {'no_answer': 17, 'not_html': 125, 'saved': 4158}
+4325/16909 2066.0/min {'no_answer': 18, 'not_html': 125, 'saved': 4182}
+4350/16909 2073.1/min {'no_answer': 18, 'not_html': 125, 'saved': 4207}
+4375/16909 2080.1/min {'no_answer': 18, 'not_html': 125, 'saved': 4232}
+4400/16909 2086.9/min {'no_answer': 18, 'not_html': 125, 'saved': 4257}
+4425/16909 2094.7/min {'no_answer': 18, 'not_html': 125, 'saved': 4282}
+4450/16909 2102.0/min {'no_answer': 18, 'not_html': 125, 'saved': 4307}
+4475/16909 2108.7/min {'no_answer': 18, 'not_html': 125, 'saved': 4332}
+4500/16909 2114.8/min {'no_answer': 18, 'not_html': 125, 'saved': 4357}
+4525/16909 2120.3/min {'no_answer': 18, 'not_html': 125, 'saved': 4382}
+4550/16909 2126.2/min {'no_answer': 18, 'not_html': 125, 'saved': 4407}
+4575/16909 2131.2/min {'no_answer': 18, 'not_html': 125, 'saved': 4432}
+4600/16909 2138.9/min {'no_answer': 18, 'not_html': 125, 'saved': 4457}
+4625/16909 2144.7/min {'no_answer': 18, 'not_html': 125, 'saved': 4482}
+4650/16909 2150.3/min {'no_answer': 18, 'not_html': 129, 'saved': 4503}
+4675/16909 2154.2/min {'no_answer': 18, 'not_html': 135, 'saved': 4522}
+4700/16909 2158.1/min {'no_answer': 19, 'not_html': 135, 'saved': 4546}
+4725/16909 2163.2/min {'no_answer': 19, 'not_html': 137, 'saved': 4569}
+4750/16909 2167.1/min {'no_answer': 19, 'not_html': 138, 'saved': 4593}
+4775/16909 2131.7/min {'no_answer': 19, 'not_html': 140, 'saved': 4616}
+4800/16909 1925.7/min {'no_answer': 19, 'not_html': 144, 'saved': 4637}
+4825/16909 1914.5/min {'no_answer': 19, 'not_html': 145, 'saved': 4661}
+4850/16909 1918.4/min {'no_answer': 19, 'not_html': 145, 'saved': 4686}
+4875/16909 1918.8/min {'no_answer': 19, 'not_html': 147, 'saved': 4709}
+4900/16909 1922.9/min {'no_answer': 19, 'not_html': 151, 'saved': 4730}
+4925/16909 1927.9/min {'no_answer': 19, 'not_html': 151, 'saved': 4755}
+4950/16909 1880.6/min {'no_answer': 19, 'not_html': 151, 'saved': 4780}
+4975/16909 1854.5/min {'no_answer': 19, 'not_html': 151, 'saved': 4805}
+5000/16909 1825.6/min {'no_answer': 19, 'not_html': 152, 'saved': 4829}
+5025/16909 1815.5/min {'no_answer': 19, 'not_html': 152, 'saved': 4854}
+5050/16909 1781.3/min {'no_answer': 19, 'not_html': 153, 'saved': 4878}
+5075/16909 1780.0/min {'no_answer': 19, 'not_html': 154, 'saved': 4902}
+5100/16909 1782.2/min {'no_answer': 19, 'not_html': 154, 'saved': 4927}
+5125/16909 1785.3/min {'no_answer': 19, 'not_html': 154, 'saved': 4952}
+5150/16909 1790.0/min {'no_answer': 19, 'not_html': 155, 'saved': 4976}
+5175/16909 1795.5/min {'no_answer': 19, 'not_html': 155, 'saved': 5001}
+5200/16909 1800.9/min {'no_answer': 19, 'not_html': 156, 'saved': 5025}
+5225/16909 1806.3/min {'no_answer': 19, 'not_html': 156, 'saved': 5050}
+5250/16909 1811.6/min {'no_answer': 19, 'not_html': 156, 'saved': 5075}
+5275/16909 1816.4/min {'no_answer': 19, 'not_html': 156, 'saved': 5100}
+5300/16909 1822.0/min {'no_answer': 19, 'not_html': 156, 'saved': 5125}
+5325/16909 1828.1/min {'no_answer': 20, 'not_html': 156, 'saved': 5149}
+5350/16909 1833.2/min {'no_answer': 20, 'not_html': 156, 'saved': 5174}
+5375/16909 1838.6/min {'no_answer': 20, 'not_html': 156, 'saved': 5199}
+5400/16909 1843.4/min {'no_answer': 20, 'not_html': 156, 'saved': 5224}
+5425/16909 1847.0/min {'no_answer': 20, 'not_html': 156, 'saved': 5249}
+5450/16909 1851.5/min {'no_answer': 20, 'not_html': 160, 'saved': 5270}
+5475/16909 1854.3/min {'no_answer': 20, 'not_html': 161, 'saved': 5294}
+5500/16909 1857.2/min {'no_answer': 20, 'not_html': 161, 'saved': 5319}
+5525/16909 1860.1/min {'no_answer': 20, 'not_html': 161, 'saved': 5344}
+5550/16909 1862.3/min {'no_answer': 20, 'not_html': 162, 'saved': 5368}
+5575/16909 1864.9/min {'no_answer': 20, 'not_html': 162, 'saved': 5393}
+5600/16909 1868.7/min {'no_answer': 20, 'not_html': 164, 'saved': 5416}
+5625/16909 1870.2/min {'no_answer': 20, 'not_html': 165, 'saved': 5440}
+5650/16909 1867.1/min {'no_answer': 21, 'not_html': 167, 'saved': 5462}
+5675/16909 1869.9/min {'no_answer': 21, 'not_html': 168, 'saved': 5486}
+5700/16909 1871.0/min {'no_answer': 21, 'not_html': 168, 'saved': 5511}
+5725/16909 1871.2/min {'no_answer': 21, 'not_html': 169, 'saved': 5535}
+5750/16909 1872.5/min {'no_answer': 21, 'not_html': 170, 'saved': 5559}
+5775/16909 1874.2/min {'no_answer': 21, 'not_html': 170, 'saved': 5584}
+5800/16909 1874.6/min {'no_answer': 21, 'not_html': 170, 'saved': 5609}
+5825/16909 1876.1/min {'no_answer': 21, 'not_html': 170, 'saved': 5634}
+5850/16909 1877.9/min {'no_answer': 21, 'not_html': 171, 'saved': 5658}
+5875/16909 1878.6/min {'no_answer': 21, 'not_html': 171, 'saved': 5683}
+5900/16909 1878.3/min {'no_answer': 21, 'not_html': 171, 'saved': 5708}
+5925/16909 1879.7/min {'no_answer': 21, 'not_html': 171, 'saved': 5733}
+5950/16909 1880.5/min {'no_answer': 21, 'not_html': 171, 'saved': 5758}
+5975/16909 1879.7/min {'no_answer': 21, 'not_html': 175, 'saved': 5779}
+6000/16909 1881.1/min {'no_answer': 21, 'not_html': 177, 'saved': 5802}
+6025/16909 1880.3/min {'no_answer': 21, 'not_html': 178, 'saved': 5826}
+6050/16909 1880.2/min {'no_answer': 21, 'not_html': 180, 'saved': 5849}
+6075/16909 1879.1/min {'no_answer': 21, 'not_html': 180, 'saved': 5874}
+6100/16909 1882.2/min {'no_answer': 21, 'not_html': 180, 'saved': 5899}
+6125/16909 1886.2/min {'no_answer': 21, 'not_html': 180, 'saved': 5924}
+6150/16909 1889.8/min {'no_answer': 21, 'not_html': 180, 'saved': 5949}
+6175/16909 1893.8/min {'no_answer': 21, 'not_html': 182, 'saved': 5972}
+6200/16909 1898.5/min {'no_answer': 21, 'not_html': 184, 'saved': 5995}
+6225/16909 1903.2/min {'no_answer': 21, 'not_html': 184, 'saved': 6020}
+6250/16909 1907.3/min {'no_answer': 21, 'not_html': 184, 'saved': 6045}
+6275/16909 1911.8/min {'no_answer': 21, 'not_html': 184, 'saved': 6070}
+6300/16909 1914.9/min {'no_answer': 21, 'not_html': 184, 'saved': 6095}
+6325/16909 1918.3/min {'no_answer': 21, 'not_html': 187, 'saved': 6117}
+6350/16909 1919.7/min {'no_answer': 21, 'not_html': 187, 'saved': 6142}
+6375/16909 1920.8/min {'no_answer': 21, 'not_html': 188, 'saved': 6166}
+6400/16909 1922.6/min {'no_answer': 21, 'not_html': 190, 'saved': 6189}
+6425/16909 1925.5/min {'no_answer': 21, 'not_html': 191, 'saved': 6213}
+6450/16909 1928.0/min {'no_answer': 21, 'not_html': 193, 'saved': 6236}
+6475/16909 1930.4/min {'no_answer': 21, 'not_html': 193, 'saved': 6261}
+6500/16909 1932.6/min {'no_answer': 21, 'not_html': 194, 'saved': 6285}
+6525/16909 1936.1/min {'no_answer': 21, 'not_html': 194, 'saved': 6310}
+6550/16909 1938.8/min {'no_answer': 21, 'not_html': 194, 'saved': 6335}
+6575/16909 1941.2/min {'no_answer': 21, 'not_html': 194, 'saved': 6360}
+6600/16909 1943.2/min {'no_answer': 21, 'not_html': 194, 'saved': 6385}
+6625/16909 1945.5/min {'no_answer': 21, 'not_html': 194, 'saved': 6410}
+6650/16909 1948.4/min {'no_answer': 21, 'not_html': 194, 'saved': 6435}
+6675/16909 1951.7/min {'no_answer': 21, 'not_html': 195, 'saved': 6459}
+6700/16909 1955.1/min {'no_answer': 21, 'not_html': 195, 'saved': 6484}
+6725/16909 1957.9/min {'no_answer': 21, 'not_html': 196, 'saved': 6508}
+6750/16909 1961.1/min {'no_answer': 21, 'not_html': 196, 'saved': 6533}
+6775/16909 1964.9/min {'no_answer': 21, 'not_html': 196, 'saved': 6558}
+6800/16909 1969.3/min {'no_answer': 21, 'not_html': 197, 'saved': 6582}
+6825/16909 1972.9/min {'no_answer': 21, 'not_html': 198, 'saved': 6606}
+6850/16909 1976.5/min {'no_answer': 21, 'not_html': 200, 'saved': 6629}
+6875/16909 1978.9/min {'no_answer': 21, 'not_html': 200, 'saved': 6654}
+6900/16909 1982.9/min {'no_answer': 21, 'not_html': 203, 'saved': 6676}
+6925/16909 1987.2/min {'no_answer': 21, 'not_html': 203, 'saved': 6701}
+6950/16909 1991.3/min {'no_answer': 21, 'not_html': 204, 'saved': 6725}
+6975/16909 1993.6/min {'no_answer': 21, 'not_html': 204, 'saved': 6750}
+7000/16909 1996.5/min {'no_answer': 21, 'not_html': 206, 'saved': 6773}
+7025/16909 1999.5/min {'no_answer': 21, 'not_html': 207, 'saved': 6797}
+7050/16909 2000.2/min {'no_answer': 21, 'not_html': 208, 'saved': 6821}
+7075/16909 1997.5/min {'no_answer': 21, 'not_html': 208, 'saved': 6846}
+7100/16909 1999.4/min {'no_answer': 21, 'not_html': 208, 'saved': 6871}
+7125/16909 1998.9/min {'no_answer': 21, 'not_html': 208, 'saved': 6896}
+7150/16909 2000.4/min {'no_answer': 21, 'not_html': 208, 'saved': 6921}
+7175/16909 2001.4/min {'no_answer': 21, 'not_html': 208, 'saved': 6946}
+7200/16909 2001.6/min {'no_answer': 21, 'not_html': 208, 'saved': 6971}
+7225/16909 2002.4/min {'no_answer': 21, 'not_html': 209, 'saved': 6995}
+7250/16909 2005.0/min {'no_answer': 21, 'not_html': 209, 'saved': 7020}
+7275/16909 2008.4/min {'no_answer': 21, 'not_html': 210, 'saved': 7044}
+7300/16909 2011.5/min {'no_answer': 22, 'not_html': 210, 'saved': 7068}
+7325/16909 2015.6/min {'no_answer': 22, 'not_html': 210, 'saved': 7093}
+7350/16909 2020.0/min {'no_answer': 22, 'not_html': 211, 'saved': 7117}
+7375/16909 2023.3/min {'no_answer': 22, 'not_html': 213, 'saved': 7140}
+7400/16909 2027.7/min {'no_answer': 22, 'not_html': 216, 'saved': 7162}
+7425/16909 2030.4/min {'no_answer': 22, 'not_html': 217, 'saved': 7186}
+7450/16909 2033.8/min {'no_answer': 22, 'not_html': 218, 'saved': 7210}
+7475/16909 2037.4/min {'no_answer': 22, 'not_html': 218, 'saved': 7235}
+7500/16909 2040.3/min {'no_answer': 22, 'not_html': 218, 'saved': 7260}
+7525/16909 2042.9/min {'no_answer': 22, 'not_html': 219, 'saved': 7284}
+7550/16909 2045.4/min {'no_answer': 22, 'not_html': 219, 'saved': 7309}
+7575/16909 2048.0/min {'no_answer': 22, 'not_html': 219, 'saved': 7334}
+7600/16909 2050.4/min {'no_answer': 22, 'not_html': 221, 'saved': 7357}
+7625/16909 2052.1/min {'no_answer': 22, 'not_html': 223, 'saved': 7380}
+7650/16909 2054.2/min {'no_answer': 22, 'not_html': 223, 'saved': 7405}
+7675/16909 2054.3/min {'no_answer': 22, 'not_html': 224, 'saved': 7429}
+7700/16909 2057.7/min {'no_answer': 22, 'not_html': 225, 'saved': 7453}
+7725/16909 2060.1/min {'no_answer': 22, 'not_html': 226, 'saved': 7477}
+7750/16909 2061.4/min {'no_answer': 22, 'not_html': 227, 'saved': 7501}
+7775/16909 2063.3/min {'no_answer': 22, 'not_html': 228, 'saved': 7525}
+7800/16909 2065.5/min {'no_answer': 22, 'not_html': 228, 'saved': 7550}
+7825/16909 2067.7/min {'no_answer': 22, 'not_html': 229, 'saved': 7574}
+7850/16909 2067.9/min {'no_answer': 22, 'not_html': 230, 'saved': 7598}
+7875/16909 2065.4/min {'no_answer': 22, 'not_html': 230, 'saved': 7623}
+7900/16909 2065.4/min {'no_answer': 22, 'not_html': 230, 'saved': 7648}
+7925/16909 2065.4/min {'no_answer': 22, 'not_html': 232, 'saved': 7671}
+7950/16909 2066.2/min {'no_answer': 22, 'not_html': 233, 'saved': 7695}
+7975/16909 2067.7/min {'no_answer': 22, 'not_html': 233, 'saved': 7720}
+8000/16909 2069.2/min {'no_answer': 22, 'not_html': 234, 'saved': 7744}
+8025/16909 2070.1/min {'no_answer': 22, 'not_html': 234, 'saved': 7769}
+8050/16909 2072.6/min {'no_answer': 22, 'not_html': 234, 'saved': 7794}
+8075/16909 2074.0/min {'no_answer': 22, 'not_html': 235, 'saved': 7818}
+8100/16909 2075.8/min {'no_answer': 22, 'not_html': 235, 'saved': 7843}
+8125/16909 2077.4/min {'no_answer': 22, 'not_html': 236, 'saved': 7867}
+8150/16909 2079.5/min {'no_answer': 22, 'not_html': 237, 'saved': 7891}
+8175/16909 2081.6/min {'no_answer': 22, 'not_html': 237, 'saved': 7916}
+8200/16909 2084.0/min {'no_answer': 22, 'not_html': 237, 'saved': 7941}
+8225/16909 2079.0/min {'no_answer': 22, 'not_html': 237, 'saved': 7966}
+8250/16909 2079.7/min {'no_answer': 22, 'not_html': 237, 'saved': 7991}
+8275/16909 2081.0/min {'no_answer': 22, 'not_html': 237, 'saved': 8016}
+8300/16909 2081.6/min {'no_answer': 22, 'not_html': 238, 'saved': 8040}
+8325/16909 2082.6/min {'no_answer': 22, 'not_html': 238, 'saved': 8065}
+8350/16909 2081.2/min {'no_answer': 22, 'not_html': 238, 'saved': 8090}
+8375/16909 2083.5/min {'no_answer': 22, 'not_html': 238, 'saved': 8115}
+8400/16909 2085.1/min {'no_answer': 22, 'not_html': 238, 'saved': 8140}
+8425/16909 2087.4/min {'no_answer': 22, 'not_html': 238, 'saved': 8165}
+8450/16909 2088.7/min {'no_answer': 22, 'not_html': 238, 'saved': 8190}
+8475/16909 2086.8/min {'no_answer': 22, 'not_html': 238, 'saved': 8215}
+8500/16909 2088.6/min {'no_answer': 22, 'not_html': 239, 'saved': 8239}
+8525/16909 2090.9/min {'no_answer': 22, 'not_html': 239, 'saved': 8264}
+8550/16909 2093.4/min {'no_answer': 22, 'not_html': 239, 'saved': 8289}
+8575/16909 2095.3/min {'no_answer': 22, 'not_html': 240, 'saved': 8313}
+8600/16909 2097.2/min {'no_answer': 22, 'not_html': 242, 'saved': 8336}
+8625/16909 2099.4/min {'no_answer': 22, 'not_html': 242, 'saved': 8361}
+8650/16909 2102.0/min {'no_answer': 22, 'not_html': 242, 'saved': 8386}
+8675/16909 2104.6/min {'no_answer': 22, 'not_html': 242, 'saved': 8411}
+8700/16909 2108.1/min {'no_answer': 22, 'not_html': 242, 'saved': 8436}
+8725/16909 2111.3/min {'no_answer': 22, 'not_html': 242, 'saved': 8461}
+8750/16909 2113.7/min {'no_answer': 22, 'not_html': 244, 'saved': 8484}
+8775/16909 2116.8/min {'no_answer': 22, 'not_html': 244, 'saved': 8509}
+8800/16909 2120.5/min {'no_answer': 22, 'not_html': 245, 'saved': 8533}
+8825/16909 2123.7/min {'no_answer': 22, 'not_html': 245, 'saved': 8558}
+8850/16909 2127.0/min {'no_answer': 22, 'not_html': 245, 'saved': 8583}
+8875/16909 2130.0/min {'no_answer': 22, 'not_html': 246, 'saved': 8607}
+8900/16909 2132.9/min {'no_answer': 23, 'not_html': 247, 'saved': 8630}
+8925/16909 2136.8/min {'no_answer': 23, 'not_html': 250, 'saved': 8652}
+8950/16909 2140.1/min {'no_answer': 23, 'not_html': 251, 'saved': 8676}
+8975/16909 2143.2/min {'no_answer': 24, 'not_html': 251, 'saved': 8700}
+9000/16909 2144.5/min {'no_answer': 24, 'not_html': 253, 'saved': 8723}
+9025/16909 2147.0/min {'no_answer': 24, 'not_html': 255, 'saved': 8746}
+9050/16909 2149.4/min {'no_answer': 24, 'not_html': 256, 'saved': 8770}
+9075/16909 2152.9/min {'no_answer': 24, 'not_html': 257, 'saved': 8794}
+9100/16909 2155.6/min {'no_answer': 24, 'not_html': 258, 'saved': 8818}
+9125/16909 2158.4/min {'no_answer': 24, 'not_html': 260, 'saved': 8841}
+9150/16909 2162.1/min {'no_answer': 24, 'not_html': 260, 'saved': 8866}
+9175/16909 2164.5/min {'no_answer': 24, 'not_html': 261, 'saved': 8890}
+9200/16909 2166.2/min {'no_answer': 24, 'not_html': 261, 'saved': 8915}
+9225/16909 2168.7/min {'no_answer': 24, 'not_html': 261, 'saved': 8940}
+9250/16909 2171.4/min {'no_answer': 24, 'not_html': 261, 'saved': 8965}
+9275/16909 2173.2/min {'no_answer': 24, 'not_html': 261, 'saved': 8990}
+9300/16909 2176.7/min {'no_answer': 24, 'not_html': 261, 'saved': 9015}
+9325/16909 2180.3/min {'no_answer': 24, 'not_html': 261, 'saved': 9040}
+9350/16909 2183.6/min {'no_answer': 24, 'not_html': 261, 'saved': 9065}
+9375/16909 2186.6/min {'no_answer': 24, 'not_html': 261, 'saved': 9090}
+9400/16909 2189.8/min {'no_answer': 24, 'not_html': 261, 'saved': 9115}
+9425/16909 2192.9/min {'no_answer': 24, 'not_html': 261, 'saved': 9140}
+9450/16909 2196.3/min {'no_answer': 24, 'not_html': 261, 'saved': 9165}
+9475/16909 2199.8/min {'no_answer': 24, 'not_html': 261, 'saved': 9190}
+9500/16909 2202.9/min {'no_answer': 24, 'not_html': 261, 'saved': 9215}
+9525/16909 2205.6/min {'no_answer': 24, 'not_html': 261, 'saved': 9240}
+9550/16909 2209.1/min {'no_answer': 24, 'not_html': 261, 'saved': 9265}
+9575/16909 2212.0/min {'no_answer': 24, 'not_html': 261, 'saved': 9290}
+9600/16909 2215.6/min {'no_answer': 24, 'not_html': 261, 'saved': 9315}
+9625/16909 2218.8/min {'no_answer': 24, 'not_html': 262, 'saved': 9339}
+9650/16909 2221.9/min {'no_answer': 24, 'not_html': 262, 'saved': 9364}
+9675/16909 2225.3/min {'no_answer': 24, 'not_html': 262, 'saved': 9389}
+9700/16909 2228.9/min {'no_answer': 24, 'not_html': 262, 'saved': 9414}
+9725/16909 2232.3/min {'no_answer': 24, 'not_html': 262, 'saved': 9439}
+9750/16909 2235.5/min {'no_answer': 24, 'not_html': 262, 'saved': 9464}
+9775/16909 2238.4/min {'no_answer': 24, 'not_html': 262, 'saved': 9489}
+9800/16909 2241.4/min {'no_answer': 24, 'not_html': 263, 'saved': 9513}
+9825/16909 2244.2/min {'no_answer': 24, 'not_html': 263, 'saved': 9538}
+9850/16909 2247.0/min {'no_answer': 24, 'not_html': 263, 'saved': 9563}
+9875/16909 2250.0/min {'no_answer': 24, 'not_html': 263, 'saved': 9588}
+9900/16909 2253.0/min {'no_answer': 24, 'not_html': 263, 'saved': 9613}
+9925/16909 2256.2/min {'no_answer': 24, 'not_html': 263, 'saved': 9638}
+9950/16909 2259.6/min {'no_answer': 24, 'not_html': 263, 'saved': 9663}
+9975/16909 2262.6/min {'no_answer': 24, 'not_html': 263, 'saved': 9688}
+10000/16909 2265.9/min {'no_answer': 24, 'not_html': 264, 'saved': 9712}
+10025/16909 2269.3/min {'no_answer': 24, 'not_html': 264, 'saved': 9737}
+10050/16909 2272.9/min {'no_answer': 24, 'not_html': 264, 'saved': 9762}
+10075/16909 2275.5/min {'no_answer': 24, 'not_html': 264, 'saved': 9787}
+10100/16909 2278.4/min {'no_answer': 24, 'not_html': 264, 'saved': 9812}
+10125/16909 2281.5/min {'no_answer': 24, 'not_html': 264, 'saved': 9837}
+10150/16909 2284.7/min {'no_answer': 24, 'not_html': 264, 'saved': 9862}
+10175/16909 2287.8/min {'no_answer': 24, 'not_html': 264, 'saved': 9887}
+10200/16909 2290.3/min {'no_answer': 24, 'not_html': 264, 'saved': 9912}
+10225/16909 2292.7/min {'no_answer': 24, 'not_html': 264, 'saved': 9937}
+10250/16909 2294.0/min {'no_answer': 24, 'not_html': 264, 'saved': 9962}
+10275/16909 2297.5/min {'no_answer': 24, 'not_html': 264, 'saved': 9987}
+10300/16909 2300.9/min {'no_answer': 24, 'not_html': 264, 'saved': 10012}
+10325/16909 2304.0/min {'no_answer': 24, 'not_html': 264, 'saved': 10037}
+10350/16909 2307.1/min {'no_answer': 24, 'not_html': 264, 'saved': 10062}
+10375/16909 2310.0/min {'no_answer': 24, 'not_html': 264, 'saved': 10087}
+10400/16909 2313.5/min {'no_answer': 24, 'not_html': 264, 'saved': 10112}
+10425/16909 2316.6/min {'no_answer': 24, 'not_html': 264, 'saved': 10137}
+10450/16909 2319.8/min {'no_answer': 24, 'not_html': 265, 'saved': 10161}
+10475/16909 2323.3/min {'no_answer': 24, 'not_html': 266, 'saved': 10185}
+10500/16909 2326.6/min {'no_answer': 24, 'not_html': 266, 'saved': 10210}
+10525/16909 2329.9/min {'no_answer': 24, 'not_html': 266, 'saved': 10235}
+10550/16909 2333.4/min {'no_answer': 24, 'not_html': 266, 'saved': 10260}
+10575/16909 2336.4/min {'no_answer': 24, 'not_html': 266, 'saved': 10285}
+10600/16909 2339.2/min {'no_answer': 24, 'not_html': 266, 'saved': 10310}
+10625/16909 2341.1/min {'no_answer': 24, 'not_html': 266, 'saved': 10335}
+10650/16909 2343.8/min {'no_answer': 25, 'not_html': 266, 'saved': 10359}
+10675/16909 2347.1/min {'no_answer': 25, 'not_html': 266, 'saved': 10384}
+10700/16909 2350.3/min {'no_answer': 25, 'not_html': 266, 'saved': 10409}
+10725/16909 2353.4/min {'no_answer': 25, 'not_html': 267, 'saved': 10433}
+10750/16909 2356.1/min {'no_answer': 25, 'not_html': 267, 'saved': 10458}
+10775/16909 2354.2/min {'no_answer': 25, 'not_html': 267, 'saved': 10483}
+10800/16909 2357.4/min {'no_answer': 25, 'not_html': 267, 'saved': 10508}
+10825/16909 2360.1/min {'no_answer': 25, 'not_html': 267, 'saved': 10533}
+10850/16909 2363.0/min {'no_answer': 25, 'not_html': 267, 'saved': 10558}
+10875/16909 2366.1/min {'no_answer': 25, 'not_html': 267, 'saved': 10583}
+10900/16909 2369.7/min {'no_answer': 25, 'not_html': 267, 'saved': 10608}
+10925/16909 2372.4/min {'no_answer': 25, 'not_html': 267, 'saved': 10633}
+10950/16909 2375.5/min {'no_answer': 25, 'not_html': 268, 'saved': 10657}
+10975/16909 2378.5/min {'no_answer': 25, 'not_html': 268, 'saved': 10682}
+11000/16909 2380.9/min {'no_answer': 25, 'not_html': 268, 'saved': 10707}
+11025/16909 2384.1/min {'no_answer': 25, 'not_html': 268, 'saved': 10732}
+11050/16909 2386.9/min {'no_answer': 25, 'not_html': 268, 'saved': 10757}
+11075/16909 2390.3/min {'no_answer': 25, 'not_html': 268, 'saved': 10782}
+11100/16909 2393.9/min {'no_answer': 25, 'not_html': 269, 'saved': 10806}
+11125/16909 2397.3/min {'no_answer': 25, 'not_html': 269, 'saved': 10831}
+11150/16909 2400.7/min {'no_answer': 25, 'not_html': 270, 'saved': 10855}
+11175/16909 2403.7/min {'no_answer': 25, 'not_html': 270, 'saved': 10880}
+11200/16909 2407.2/min {'no_answer': 25, 'not_html': 271, 'saved': 10904}
+11225/16909 2411.0/min {'no_answer': 25, 'not_html': 272, 'saved': 10928}
+11250/16909 2414.3/min {'no_answer': 25, 'not_html': 274, 'saved': 10951}
+11275/16909 2417.3/min {'no_answer': 25, 'not_html': 275, 'saved': 10975}
+11300/16909 2420.4/min {'no_answer': 25, 'not_html': 276, 'saved': 10999}
+11325/16909 2423.1/min {'no_answer': 25, 'not_html': 276, 'saved': 11024}
+11350/16909 2426.0/min {'no_answer': 25, 'not_html': 278, 'saved': 11047}
+11375/16909 2428.9/min {'no_answer': 25, 'not_html': 278, 'saved': 11072}
+11400/16909 2432.3/min {'no_answer': 25, 'not_html': 278, 'saved': 11097}
+11425/16909 2436.5/min {'no_answer': 25, 'not_html': 279, 'saved': 11121}
+11450/16909 2439.4/min {'no_answer': 25, 'not_html': 280, 'saved': 11145}
+11475/16909 2441.6/min {'no_answer': 25, 'not_html': 281, 'saved': 11169}
+11500/16909 2444.6/min {'no_answer': 25, 'not_html': 282, 'saved': 11193}
+11525/16909 2445.7/min {'no_answer': 25, 'not_html': 282, 'saved': 11218}
+11550/16909 2448.1/min {'no_answer': 25, 'not_html': 285, 'saved': 11240}
+11575/16909 2450.6/min {'no_answer': 25, 'not_html': 286, 'saved': 11264}
+11600/16909 2454.0/min {'no_answer': 25, 'not_html': 286, 'saved': 11289}
+11625/16909 2454.2/min {'no_answer': 25, 'not_html': 286, 'saved': 11314}
+11650/16909 2455.8/min {'no_answer': 25, 'not_html': 286, 'saved': 11339}
+11675/16909 2457.2/min {'no_answer': 25, 'not_html': 286, 'saved': 11364}
+11700/16909 2458.2/min {'no_answer': 25, 'not_html': 287, 'saved': 11388}
+11725/16909 2459.7/min {'no_answer': 25, 'not_html': 287, 'saved': 11413}
+11750/16909 2461.3/min {'no_answer': 25, 'not_html': 287, 'saved': 11438}
+11775/16909 2461.5/min {'no_answer': 25, 'not_html': 288, 'saved': 11462}
+11800/16909 2460.8/min {'no_answer': 25, 'not_html': 290, 'saved': 11485}
+11825/16909 2457.1/min {'no_answer': 25, 'not_html': 292, 'saved': 11508}
+11850/16909 2447.0/min {'no_answer': 25, 'not_html': 297, 'saved': 11528}
+11875/16909 2433.5/min {'no_answer': 26, 'not_html': 298, 'saved': 11551}
+11900/16909 2425.5/min {'no_answer': 27, 'not_html': 298, 'saved': 11575}
+11925/16909 2423.5/min {'no_answer': 29, 'not_html': 301, 'saved': 11595}
+11950/16909 2416.1/min {'no_answer': 29, 'not_html': 304, 'saved': 11617}
+11975/16909 2413.3/min {'no_answer': 29, 'not_html': 306, 'saved': 11640}
+12000/16909 2408.0/min {'no_answer': 29, 'not_html': 306, 'saved': 11665}
+12025/16909 2394.0/min {'no_answer': 29, 'not_html': 307, 'saved': 11689}
+12050/16909 2393.0/min {'no_answer': 29, 'not_html': 310, 'saved': 11711}
+12075/16909 2390.9/min {'no_answer': 29, 'not_html': 311, 'saved': 11735}
+12100/16909 2377.7/min {'no_answer': 29, 'not_html': 311, 'saved': 11760}
+12125/16909 2376.4/min {'no_answer': 29, 'not_html': 311, 'saved': 11785}
+12150/16909 2373.2/min {'no_answer': 29, 'not_html': 312, 'saved': 11809}
+12175/16909 2368.7/min {'no_answer': 29, 'not_html': 313, 'saved': 11833}
+12200/16909 2366.9/min {'no_answer': 29, 'not_html': 317, 'saved': 11854}
+12225/16909 2364.7/min {'no_answer': 29, 'not_html': 319, 'saved': 11877}
+12250/16909 2361.3/min {'no_answer': 29, 'not_html': 320, 'saved': 11901}
+12275/16909 2358.8/min {'no_answer': 29, 'not_html': 321, 'saved': 11925}
+12300/16909 2358.5/min {'no_answer': 29, 'not_html': 322, 'saved': 11949}
+12325/16909 2356.5/min {'no_answer': 29, 'not_html': 326, 'saved': 11970}
+12350/16909 2354.9/min {'no_answer': 29, 'not_html': 327, 'saved': 11994}
+12375/16909 2348.8/min {'no_answer': 29, 'not_html': 329, 'saved': 12017}
+12400/16909 2278.5/min {'no_answer': 29, 'not_html': 329, 'saved': 12042}
+12425/16909 2269.1/min {'no_answer': 29, 'not_html': 329, 'saved': 12067}
+12450/16909 2263.1/min {'no_answer': 29, 'not_html': 331, 'saved': 12090}
+12475/16909 2259.4/min {'no_answer': 29, 'not_html': 332, 'saved': 12114}
+12500/16909 2251.6/min {'no_answer': 29, 'not_html': 332, 'saved': 12139}
+12525/16909 2248.5/min {'no_answer': 29, 'not_html': 333, 'saved': 12163}
+12550/16909 2243.3/min {'no_answer': 29, 'not_html': 333, 'saved': 12188}
+12575/16909 2241.5/min {'no_answer': 29, 'not_html': 333, 'saved': 12213}
+12600/16909 2241.9/min {'no_answer': 29, 'not_html': 334, 'saved': 12237}
+12625/16909 2243.5/min {'no_answer': 29, 'not_html': 334, 'saved': 12262}
+12650/16909 2244.5/min {'no_answer': 29, 'not_html': 334, 'saved': 12287}
+12675/16909 2244.8/min {'no_answer': 29, 'not_html': 335, 'saved': 12311}
+12700/16909 2244.5/min {'no_answer': 29, 'not_html': 338, 'saved': 12333}
+12725/16909 2245.0/min {'no_answer': 29, 'not_html': 338, 'saved': 12358}
+12750/16909 2242.8/min {'no_answer': 29, 'not_html': 343, 'saved': 12378}
+12775/16909 2241.9/min {'no_answer': 30, 'not_html': 349, 'saved': 12396}
+12800/16909 2239.2/min {'no_answer': 30, 'not_html': 352, 'saved': 12418}
+12825/16909 2238.8/min {'no_answer': 30, 'not_html': 356, 'saved': 12439}
+12850/16909 2237.4/min {'no_answer': 30, 'not_html': 362, 'saved': 12458}
+12875/16909 2236.1/min {'no_answer': 30, 'not_html': 365, 'saved': 12480}
+12900/16909 2235.7/min {'no_answer': 30, 'not_html': 365, 'saved': 12505}
+12925/16909 2235.4/min {'no_answer': 30, 'not_html': 365, 'saved': 12530}
+12950/16909 2236.6/min {'no_answer': 30, 'not_html': 368, 'saved': 12552}
+12975/16909 2233.9/min {'no_answer': 30, 'not_html': 373, 'saved': 12572}
+13000/16909 2233.9/min {'no_answer': 30, 'not_html': 375, 'saved': 12595}
+13025/16909 2231.9/min {'no_answer': 30, 'not_html': 380, 'saved': 12615}
+13050/16909 2230.6/min {'no_answer': 30, 'not_html': 382, 'saved': 12638}
+13075/16909 2232.6/min {'no_answer': 30, 'not_html': 384, 'saved': 12661}
+13100/16909 2228.4/min {'no_answer': 30, 'not_html': 390, 'saved': 12680}
+13125/16909 2222.5/min {'no_answer': 30, 'not_html': 395, 'saved': 12700}
+13150/16909 2212.2/min {'no_answer': 30, 'not_html': 398, 'saved': 12722}
+13175/16909 2196.4/min {'no_answer': 30, 'not_html': 401, 'saved': 12744}
+13200/16909 2187.8/min {'no_answer': 30, 'not_html': 403, 'saved': 12767}
+13225/16909 2183.2/min {'no_answer': 30, 'not_html': 403, 'saved': 12792}
+13250/16909 2168.8/min {'no_answer': 31, 'not_html': 405, 'saved': 12814}
+13275/16909 2163.7/min {'no_answer': 31, 'not_html': 405, 'saved': 12839}
+13300/16909 2163.4/min {'no_answer': 31, 'not_html': 406, 'saved': 12863}
+13325/16909 2163.6/min {'no_answer': 31, 'not_html': 406, 'saved': 12888}
+13350/16909 2164.2/min {'no_answer': 31, 'not_html': 406, 'saved': 12913}
+13375/16909 2164.1/min {'no_answer': 31, 'not_html': 406, 'saved': 12938}
+13400/16909 2160.0/min {'no_answer': 31, 'not_html': 406, 'saved': 12963}
+13425/16909 2159.5/min {'no_answer': 31, 'not_html': 406, 'saved': 12988}
+13450/16909 2159.0/min {'no_answer': 31, 'not_html': 406, 'saved': 13013}
+13475/16909 2159.2/min {'no_answer': 31, 'not_html': 406, 'saved': 13038}
+13500/16909 2154.2/min {'no_answer': 31, 'not_html': 407, 'saved': 13062}
+13525/16909 2153.5/min {'no_answer': 31, 'not_html': 407, 'saved': 13087}
+13550/16909 2152.3/min {'no_answer': 31, 'not_html': 407, 'saved': 13112}
+13575/16909 2151.3/min {'no_answer': 31, 'not_html': 407, 'saved': 13137}
+13600/16909 2148.8/min {'no_answer': 31, 'not_html': 407, 'saved': 13162}
+13625/16909 2149.5/min {'no_answer': 31, 'not_html': 407, 'saved': 13187}
+13650/16909 2149.6/min {'no_answer': 31, 'not_html': 407, 'saved': 13212}
+13675/16909 2149.7/min {'no_answer': 31, 'not_html': 407, 'saved': 13237}
+13700/16909 2149.0/min {'no_answer': 31, 'not_html': 407, 'saved': 13262}
+13725/16909 2149.7/min {'no_answer': 31, 'not_html': 407, 'saved': 13287}
+13750/16909 2150.3/min {'no_answer': 31, 'not_html': 407, 'saved': 13312}
+13775/16909 2149.7/min {'no_answer': 31, 'not_html': 407, 'saved': 13337}
+13800/16909 2150.3/min {'no_answer': 31, 'not_html': 407, 'saved': 13362}
+13825/16909 2151.2/min {'no_answer': 31, 'not_html': 407, 'saved': 13387}
+13850/16909 2151.7/min {'no_answer': 31, 'not_html': 407, 'saved': 13412}
+13875/16909 2151.6/min {'no_answer': 31, 'not_html': 407, 'saved': 13437}
+13900/16909 2150.8/min {'no_answer': 31, 'not_html': 407, 'saved': 13462}
+13925/16909 2150.7/min {'no_answer': 31, 'not_html': 407, 'saved': 13487}
+13950/16909 2150.7/min {'no_answer': 31, 'not_html': 407, 'saved': 13512}
+13975/16909 2150.4/min {'no_answer': 32, 'not_html': 407, 'saved': 13536}
+14000/16909 2150.6/min {'no_answer': 32, 'not_html': 407, 'saved': 13561}
+14025/16909 2150.4/min {'no_answer': 32, 'not_html': 407, 'saved': 13586}
+14050/16909 2149.6/min {'no_answer': 32, 'not_html': 407, 'saved': 13611}
+14075/16909 2150.2/min {'no_answer': 32, 'not_html': 407, 'saved': 13636}
+14100/16909 2151.5/min {'no_answer': 32, 'not_html': 407, 'saved': 13661}
+14125/16909 2153.7/min {'no_answer': 32, 'not_html': 407, 'saved': 13686}
+14150/16909 2153.6/min {'no_answer': 32, 'not_html': 407, 'saved': 13711}
+14175/16909 2154.9/min {'no_answer': 32, 'not_html': 407, 'saved': 13736}
+14200/16909 2151.7/min {'no_answer': 32, 'not_html': 407, 'saved': 13761}
+14225/16909 2151.9/min {'no_answer': 32, 'not_html': 407, 'saved': 13786}
+14250/16909 2151.8/min {'no_answer': 32, 'not_html': 407, 'saved': 13811}
+14275/16909 2152.0/min {'no_answer': 32, 'not_html': 407, 'saved': 13836}
+14300/16909 2151.3/min {'no_answer': 32, 'not_html': 407, 'saved': 13861}
+14325/16909 2152.6/min {'no_answer': 32, 'not_html': 407, 'saved': 13886}
+14350/16909 2153.2/min {'no_answer': 32, 'not_html': 407, 'saved': 13911}
+14375/16909 2154.5/min {'no_answer': 32, 'not_html': 407, 'saved': 13936}
+14400/16909 2155.8/min {'no_answer': 32, 'not_html': 407, 'saved': 13961}
+14425/16909 2157.2/min {'no_answer': 32, 'not_html': 407, 'saved': 13986}
+14450/16909 2158.4/min {'no_answer': 32, 'not_html': 407, 'saved': 14011}
+14475/16909 2159.8/min {'no_answer': 32, 'not_html': 407, 'saved': 14036}
+14500/16909 2159.8/min {'no_answer': 32, 'not_html': 407, 'saved': 14061}
+14525/16909 2159.7/min {'no_answer': 32, 'not_html': 407, 'saved': 14086}
+14550/16909 2160.3/min {'no_answer': 32, 'not_html': 407, 'saved': 14111}
+14575/16909 2161.8/min {'no_answer': 32, 'not_html': 407, 'saved': 14136}
+14600/16909 2162.0/min {'no_answer': 33, 'not_html': 407, 'saved': 14160}
+14625/16909 2160.7/min {'no_answer': 33, 'not_html': 407, 'saved': 14185}
+14650/16909 2162.3/min {'no_answer': 33, 'not_html': 407, 'saved': 14210}
+14675/16909 2163.9/min {'no_answer': 33, 'not_html': 407, 'saved': 14235}
+14700/16909 2165.6/min {'no_answer': 33, 'not_html': 407, 'saved': 14260}
+14725/16909 2167.1/min {'no_answer': 33, 'not_html': 407, 'saved': 14285}
+14750/16909 2168.7/min {'no_answer': 33, 'not_html': 407, 'saved': 14310}
+14775/16909 2170.7/min {'no_answer': 33, 'not_html': 407, 'saved': 14335}
+14800/16909 2172.3/min {'no_answer': 33, 'not_html': 407, 'saved': 14360}
+14825/16909 2173.7/min {'no_answer': 33, 'not_html': 407, 'saved': 14385}
+14850/16909 2174.5/min {'no_answer': 33, 'not_html': 407, 'saved': 14410}
+14875/16909 2175.8/min {'no_answer': 33, 'not_html': 407, 'saved': 14435}
+14900/16909 2177.6/min {'no_answer': 33, 'not_html': 407, 'saved': 14460}
+14925/16909 2179.5/min {'no_answer': 33, 'not_html': 407, 'saved': 14485}
+14950/16909 2180.0/min {'no_answer': 33, 'not_html': 407, 'saved': 14510}
+14975/16909 2181.2/min {'no_answer': 33, 'not_html': 407, 'saved': 14535}
+15000/16909 2181.5/min {'no_answer': 33, 'not_html': 407, 'saved': 14560}
+15025/16909 2181.0/min {'no_answer': 33, 'not_html': 407, 'saved': 14585}
+15050/16909 2180.6/min {'no_answer': 33, 'not_html': 407, 'saved': 14610}
+15075/16909 2181.5/min {'no_answer': 33, 'not_html': 407, 'saved': 14635}
+15100/16909 2176.3/min {'no_answer': 33, 'not_html': 407, 'saved': 14660}
+15125/16909 2174.2/min {'no_answer': 33, 'not_html': 407, 'saved': 14685}
+15150/16909 2173.1/min {'no_answer': 33, 'not_html': 407, 'saved': 14710}
+15175/16909 2170.3/min {'no_answer': 33, 'not_html': 407, 'saved': 14735}
+15200/16909 2169.7/min {'no_answer': 33, 'not_html': 407, 'saved': 14760}
+15225/16909 2168.4/min {'no_answer': 33, 'not_html': 407, 'saved': 14785}
+15250/16909 2169.3/min {'no_answer': 33, 'not_html': 407, 'saved': 14810}
+15275/16909 2169.5/min {'no_answer': 33, 'not_html': 407, 'saved': 14835}
+15300/16909 2171.2/min {'no_answer': 33, 'not_html': 407, 'saved': 14860}
+15325/16909 2171.6/min {'no_answer': 33, 'not_html': 407, 'saved': 14885}
+15350/16909 2171.9/min {'no_answer': 33, 'not_html': 407, 'saved': 14910}
+15375/16909 2173.5/min {'no_answer': 33, 'not_html': 407, 'saved': 14935}
+15400/16909 2175.0/min {'no_answer': 33, 'not_html': 407, 'saved': 14960}
+15425/16909 2175.4/min {'no_answer': 33, 'not_html': 407, 'saved': 14985}
+15450/16909 2177.1/min {'no_answer': 33, 'not_html': 407, 'saved': 15010}
+15475/16909 2177.5/min {'no_answer': 33, 'not_html': 407, 'saved': 15035}
+15500/16909 2178.9/min {'no_answer': 33, 'not_html': 407, 'saved': 15060}
+15525/16909 2178.2/min {'no_answer': 33, 'not_html': 407, 'saved': 15085}
+15550/16909 2180.2/min {'no_answer': 33, 'not_html': 407, 'saved': 15110}
+15575/16909 2180.1/min {'no_answer': 33, 'not_html': 407, 'saved': 15135}
+15600/16909 2178.6/min {'no_answer': 33, 'not_html': 407, 'saved': 15160}
+15625/16909 2179.6/min {'no_answer': 33, 'not_html': 407, 'saved': 15185}
+15650/16909 2180.2/min {'no_answer': 33, 'not_html': 407, 'saved': 15210}
+15675/16909 2180.5/min {'no_answer': 33, 'not_html': 407, 'saved': 15235}
+15700/16909 2180.3/min {'no_answer': 33, 'not_html': 407, 'saved': 15260}
+15725/16909 2176.5/min {'no_answer': 33, 'not_html': 407, 'saved': 15285}
+15750/16909 2174.4/min {'no_answer': 34, 'not_html': 407, 'saved': 15309}
+15775/16909 2173.3/min {'no_answer': 34, 'not_html': 407, 'saved': 15334}
+15800/16909 2173.8/min {'no_answer': 34, 'not_html': 407, 'saved': 15359}
+15825/16909 2173.2/min {'no_answer': 34, 'not_html': 407, 'saved': 15384}
+15850/16909 2173.4/min {'no_answer': 34, 'not_html': 407, 'saved': 15409}
+15875/16909 2175.1/min {'no_answer': 34, 'not_html': 407, 'saved': 15434}
+15900/16909 2175.7/min {'no_answer': 34, 'not_html': 407, 'saved': 15459}
+15925/16909 2177.3/min {'no_answer': 34, 'not_html': 407, 'saved': 15484}
+15950/16909 2178.1/min {'no_answer': 34, 'not_html': 407, 'saved': 15509}
+15975/16909 2179.6/min {'no_answer': 34, 'not_html': 407, 'saved': 15534}
+16000/16909 2180.5/min {'no_answer': 34, 'not_html': 407, 'saved': 15559}
+16025/16909 2180.5/min {'no_answer': 34, 'not_html': 407, 'saved': 15584}
+16050/16909 2179.3/min {'no_answer': 34, 'not_html': 407, 'saved': 15609}
+16075/16909 2180.5/min {'no_answer': 34, 'not_html': 407, 'saved': 15634}
+16100/16909 2182.0/min {'no_answer': 34, 'not_html': 407, 'saved': 15659}
+16125/16909 2182.7/min {'no_answer': 34, 'not_html': 407, 'saved': 15684}
+16150/16909 2183.3/min {'no_answer': 34, 'not_html': 407, 'saved': 15709}
+16175/16909 2184.4/min {'no_answer': 34, 'not_html': 407, 'saved': 15734}
+16200/16909 2185.1/min {'no_answer': 34, 'not_html': 407, 'saved': 15759}
+16225/16909 2186.6/min {'no_answer': 34, 'not_html': 407, 'saved': 15784}
+16250/16909 2187.7/min {'no_answer': 34, 'not_html': 407, 'saved': 15809}
+16275/16909 2188.0/min {'no_answer': 34, 'not_html': 407, 'saved': 15834}
+16300/16909 2189.1/min {'no_answer': 34, 'not_html': 407, 'saved': 15859}
+16325/16909 2190.7/min {'no_answer': 34, 'not_html': 407, 'saved': 15884}
+16350/16909 2189.5/min {'no_answer': 34, 'not_html': 407, 'saved': 15909}
+16375/16909 2189.3/min {'no_answer': 34, 'not_html': 407, 'saved': 15934}
+16400/16909 2191.3/min {'no_answer': 34, 'not_html': 407, 'saved': 15959}
+16425/16909 2189.7/min {'no_answer': 34, 'not_html': 408, 'saved': 15983}
+16450/16909 2190.6/min {'no_answer': 34, 'not_html': 408, 'saved': 16008}
+16475/16909 2191.7/min {'no_answer': 34, 'not_html': 408, 'saved': 16033}
+16500/16909 2192.9/min {'no_answer': 34, 'not_html': 408, 'saved': 16058}
+16525/16909 2194.7/min {'no_answer': 34, 'not_html': 408, 'saved': 16083}
+16550/16909 2195.9/min {'no_answer': 34, 'not_html': 408, 'saved': 16108}
+16575/16909 2196.6/min {'no_answer': 34, 'not_html': 408, 'saved': 16133}
+16600/16909 2197.3/min {'no_answer': 34, 'not_html': 408, 'saved': 16158}
+16625/16909 2198.4/min {'no_answer': 34, 'not_html': 408, 'saved': 16183}
+16650/16909 2200.0/min {'no_answer': 34, 'not_html': 408, 'saved': 16208}
+16675/16909 2201.4/min {'no_answer': 34, 'not_html': 408, 'saved': 16233}
+16700/16909 2202.5/min {'no_answer': 34, 'not_html': 408, 'saved': 16258}
+16725/16909 2203.4/min {'no_answer': 34, 'not_html': 408, 'saved': 16283}
+16750/16909 2202.8/min {'no_answer': 34, 'not_html': 408, 'saved': 16308}
+16775/16909 2201.4/min {'no_answer': 34, 'not_html': 408, 'saved': 16333}
+16800/16909 2201.4/min {'no_answer': 34, 'not_html': 408, 'saved': 16358}
+16825/16909 2201.0/min {'no_answer': 34, 'not_html': 409, 'saved': 16382}
+16850/16909 2201.8/min {'no_answer': 34, 'not_html': 409, 'saved': 16407}
+16875/16909 2200.9/min {'no_answer': 34, 'not_html': 409, 'saved': 16432}
+16900/16909 2197.9/min {'no_answer': 34, 'not_html': 409, 'saved': 16457}
+16909/16909 2129.1/min {'no_answer': 37, 'not_html': 409, 'saved': 16463}
+done {'no_answer': 37, 'not_html': 409, 'saved': 16463}

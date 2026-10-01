@@ -1,0 +1,278 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Проверка классов brand scan</title><style>
+:root{--bg:#f1f5f9;--card:#fff;--fg:#0f172a;--mut:#64748b;--line:#e2e8f0;--acc:#2563eb;--ok:#16a34a;--bad:#dc2626}
+@media (prefers-color-scheme:dark){:root{--bg:#0b1120;--card:#111827;--fg:#e5e7eb;--mut:#94a3b8;--line:#1f2937;--acc:#60a5fa}}
+body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+main{max-width:1100px;margin:0 auto;padding:16px} h1{font-size:20px;margin:4px 0} .sub{color:var(--mut);margin-bottom:12px}
+nav{position:sticky;top:0;background:var(--bg);padding:8px 0;display:flex;gap:8px;align-items:center;z-index:2}
+button{border:0;background:var(--acc);color:#fff;padding:7px 12px;border-radius:8px;cursor:pointer}
+.card{background:var(--card);border-radius:10px;padding:12px 14px;margin-bottom:10px;border:2px solid transparent}
+.was{color:var(--bad);font-size:12.5px;width:100%} .card.ok{border-color:var(--ok)} .card.bad{border-color:var(--bad)}
+header{display:flex;flex-wrap:wrap;gap:8px;align-items:center} .dom{font-weight:700;font-size:16px;color:var(--fg)}
+.badge{background:var(--acc);color:#fff;border-radius:6px;padding:2px 8px;font-size:12px} .op{color:var(--mut);font-size:12.5px}
+.comment{margin:6px 0} .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:2px 14px;font-size:12.5px}
+.kv{display:flex;gap:6px;min-width:0} .kv span{color:var(--mut);white-space:nowrap} .kv b{font-weight:500;overflow-wrap:anywhere}
+.sample{color:var(--mut);font-size:12px;margin:6px 0} .links{font-size:12px;margin:4px 0;padding-left:18px;overflow-wrap:anywhere} .t{color:var(--mut)}
+footer{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px dashed var(--line);padding-top:8px;margin-top:6px}
+.note{flex:1;min-width:200px;padding:5px 8px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--fg);font:inherit}
+</style></head><body><main>
+<h1>Проверка классов brand scan</h1>
+<div class="sub">Сайты второго круга проверки, где проверяющий не уверен (ниже 0.7) или не согласен с текущей категорией: 22 из 90.
+Синяя плашка — категория классификатора, «проверяющий» — мнение агента, читавшего HTML.
+Отметка — про синюю плашку; если она неверна, впишите правильную категорию (или «как у проверяющего»).
+Ссылки открывают живой сайт. Отметки хранятся в этом браузере; «Скопировать всё» кладёт их в буфер JSON-ом.</div>
+<nav><button id="exp">Скопировать всё</button><span id="cnt" class="sub"></span></nav>
+<article class="card" data-domain="amp-mostbet-site2.xyz" data-given="bait" data-checker="parked">
+<header><a class="dom" href="https://amp-mostbet-site2.xyz/" target="_blank" rel="noreferrer">amp-mostbet-site2.xyz</a>
+<span class="badge">Приманка: Mostbet в имени, внутри чужой</span>
+<span class="op">проверяющий: <b>Парковка</b>
+· уверенность 0.9</span></header>
+<p class="comment">Заглушка регистратора: «This domain is registered at Dynadot.com. Website coming soon.»</p>
+<div class="grid"><div class="kv"><span>почему</span><b>mostbet_in_domain content=other:0 mostbet=0</b></div><div class="kv"><span>теги</span><b>rotating_ads brand_in_domain</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>реклама чужих</span><b>yfdpco5.com</b></div><div class="kv"><span>Mostbet в тексте</span><b>0 (0.0/1k)</b></div><div class="kv"><span>title</span><b>amp-mostbet-site2.xyz</b></div></div>
+<div class="sample">___ This domain is registered at Dynadot.com . Website coming soon. Privacy Policy 2026 Copyright | All Rights Reserved.</div>
+
+<footer><label><input type="radio" name="v-amp-mostbet-site2.xyz" value="ok"> плашка верна</label>
+<label><input type="radio" name="v-amp-mostbet-site2.xyz" value="bad"> плашка неверна</label>
+<input class="note" placeholder="если неверна — какая должна быть; любой комментарий"></footer></article><article class="card" data-domain="mostbet-oficials.es" data-given="bait" data-checker="mono_mostbet">
+<header><a class="dom" href="https://mostbet-oficials.es/" target="_blank" rel="noreferrer">mostbet-oficials.es</a>
+<span class="badge">Приманка: Mostbet в имени, внутри чужой</span>
+<span class="op">проверяющий: <b>Монобренд → только Mostbet</b>
+· уверенность 0.6</span></header>
+<p class="comment">Скопированный гид BetAmericaLatina без конкретного чужого бренда (1xBet упомянут раз в FAQ); все кнопки /go/ ведут на Mostbet pid=141153. Чужого казино и чужой рекламы нет — это дорвей под Mostbet на бренд-домене.</p>
+<div class="grid"><div class="kv"><span>почему</span><b>mostbet_in_domain content=1xBet:1 mostbet=0</b></div><div class="kv"><span>теги</span><b>brand_in_domain ads_unverified</b></div><div class="kv"><span>реклама Mostbet</span><b>True</b></div><div class="kv"><span>Mostbet в тексте</span><b>0 (0.0/1k)</b></div><div class="kv"><span>чужие бренды в тексте</span><b>1xBet:1</b></div><div class="kv"><span>title</span><b>BetAmericaLatina - Tu fuente principal para apostar en deportes.</b></div><div class="kv"><span>h1</span><b>El sitio ideal para tus guías de apuestas deportivas en América Latina.</b></div></div>
+<div class="sample">Conócenos Quiénes Somos Principios Editoriales Conoce a Nuestro Equipo Contacto Países Seleccionar Mercado argentina bolivia chile colombia costa-rica ecuador el-salvador guatemala honduras mexico perú venezuela Para seguir avanzando: Selecciona tu región. Haz clic en tu país para obtener información específica sobre operadores, bonos, métodos de pago y mucho más según tu ubicación. argentina boli</div>
+
+<footer><label><input type="radio" name="v-mostbet-oficials.es" value="ok"> плашка верна</label>
+<label><input type="radio" name="v-mostbet-oficials.es" value="bad"> плашка неверна</label>
+<input class="note" placeholder="если неверна — какая должна быть; любой комментарий"></footer></article><article class="card" data-domain="mostbet-app.pro" data-given="discredit" data-checker="">
+<header><a class="dom" href="https://mostbet-app.pro/" target="_blank" rel="noreferrer">mostbet-app.pro</a>
+<span class="badge">discredit</span>
+<span class="op">проверяющий: <b>не уверен</b>
+· уверенность 0.5</span></header>
+<p class="comment">Сохранённый HTML — пустой шаблон на 1,2 КБ: меню, заголовок «NYT &gt; Sports» без содержимого, «Powered by: mostbet-app.pro»; text_len=13164 в записи с файлом не сходится. Если лента NYT подгружалась — это автоблог, но не магазин/наркошоп.</p>
+<div class="grid"><div class="kv"><span>почему</span><b>mostbet_in_domain non_gambling content text=13164</b></div><div class="kv"><span>теги</span><b>brand_in_domain</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>Mostbet в тексте</span><b>3 (0.23/1k)</b></div><div class="kv"><span>title</span><b>Home | mostbet-app.pro</b></div><div class="kv"><span>h1</span><b>NYT &gt; Sports</b></div></div>
+<div class="sample">mostbet-app.pro Home Disclaimer Privacy Policy Contact Us NYT &gt; Sports Powered by: mostbet-app.pro .</div>
+
+<footer><label><input type="radio" name="v-mostbet-app.pro" value="ok"> плашка верна</label>
+<label><input type="radio" name="v-mostbet-app.pro" value="bad"> плашка неверна</label>
+<input class="note" placeholder="если неверна — какая должна быть; любой комментарий"></footer></article><article class="card" data-domain="mostbet-downloads.com" data-given="mono_mixed" data-checker="mono_mostbet">
+<header><a class="dom" href="https://mostbet-downloads.com/" target="_blank" rel="noreferrer">mostbet-downloads.com</a>
+<span class="badge">Монобренд → Mostbet и чужие</span>
+<span class="op">проверяющий: <b>Монобренд → только Mostbet</b>
+· уверенность 0.9</span></header>
+<p class="comment">Все кнопки идут через mostroute.net на Mostbet pid=184831. 1win.global есть только в закомментированных JS-переменных темы («// var Imagepath = …»), ссылкой на странице он не является.</p>
+<div class="grid"><div class="kv"><span>почему</span><b>name_in_domain density=4.7</b></div><div class="kv"><span>теги</span><b>brand_in_domain ads_unverified</b></div><div class="kv"><span>реклама Mostbet</span><b>True</b></div><div class="kv"><span>реклама чужих</span><b>1win</b></div><div class="kv"><span>Mostbet в тексте</span><b>81 (4.7/1k)</b></div><div class="kv"><span>title</span><b>Скачать мобильное приложение Mostbet бесплатно 🎰 для Android / IOS📱</b></div><div class="kv"><span>h1</span><b>Мостбет Скачать для Android или iOS в России</b></div></div>
+<div class="sample">Скачать мобильное приложение Mostbet бесплатно 🎰 для Android / IOS📱 Log in to account Вход Приложение Бонусы Авиатор Вход Приложение Бонусы Авиатор ru Select your country Русский Войти Мостбет Скачать для Android или iOS в России Для тех, кто находится в России и не представляет свою жизнь без азарта и ставок, приложение Мостбет для Android и iOS — это настоящее открытие. Здесь вы получите безгран</div>
+
+<footer><label><input type="radio" name="v-mostbet-downloads.com" value="ok"> плашка верна</label>
+<label><input type="radio" name="v-mostbet-downloads.com" value="bad"> плашка неверна</label>
+<input class="note" placeholder="если неверна — какая должна быть; любой комментарий"></footer></article><article class="card" data-domain="aforjet.cz" data-given="mono_mostbet" data-checker="mono_mostbet">
+<header><a class="dom" href="https://aforjet.cz/" target="_blank" rel="noreferrer">aforjet.cz</a>
+<span class="badge">Монобренд → только Mostbet</span>
+<span class="op">проверяющий: <b>Монобренд → только Mostbet</b>
+· уверенность 0.55</span></header>
+<p class="comment">Кнопки → stafbul.com → Mostbet pid=303430. Единственная «чужая» ссылка — mostbets-pt.com в переключателе стран; этот сестринский домен сам редиректит на thehatchery.club. Нарушитель — mostbets-pt.com, а не этот сайт.</p>
+<div class="grid"><div class="kv"><span>почему</span><b>name_in_title density=3.23</b></div><div class="kv"><span>теги</span><b>ads_unverified</b></div><div class="kv"><span>реклама Mostbet</span><b>True</b></div><div class="kv"><span>Mostbet в тексте</span><b>89 (3.23/1k)</b></div><div class="kv"><span>title</span><b>Mostbet Česká republika: Získejte 30 otočení zdarma za registraci</b></div><div class="kv"><span>h1</span><b>Mostbet Česká republika</b></div></div>
+<div class="sample">Aplikace Bonusy Promo kód No Deposit Bonus 30 otočení zdarma Kasino Aviator Tigers Gold Gates of Olympus Sportovní sázení Hokej Esports Dota 2 CS2 League of Legends Vklad Výběr hotovosti Přihlásit se Registrace Obsah O Mostbetu Legální a bezpečný Bonusy a promo akce Mobilní aplikace Jak se přihlásit Registrace Metody platby Sázkové trhy Možnost sázení Živé sázení Kasino Živé kasino Sloty Poker Tot</div>
+
+<footer><label><input type="radio" name="v-aforjet.cz" value="ok"> плашка верна</label>
+<label><input type="radio" name="v-aforjet.cz" value="bad"> плашка неверна</label>
+<input class="note" placeholder="если неверна — какая должна быть; любой комментарий"></footer></article><article class="card" data-domain="boschtools.cz" data-given="mono_mostbet" data-checker="mono_mostbet">
+<header><a class="dom" href="https://boschtools.cz/" target="_blank" rel="noreferrer">boschtools.cz</a>
+<span class="badge">Монобренд → только Mostbet</span>
+<span class="op">проверяющий: <b>Монобренд → только Mostbet</b>
+· уверенность 0.55</span></header>
+<p class="comment">Тот же шаблон, что aforjet.cz: реклама Mostbet pid=303430, thehatchery.club только через редирект сестринского mostbets-pt.com из переключателя стран.</p>
+<div class="grid"><div class="kv"><span>почему</span><b>name_in_title density=3.23</b></div><div class="kv"><span>теги</span><b>ads_unverified</b></div><div class="kv"><span>реклама Mostbet</span><b>True</b></div><div class="kv"><span>Mostbet в тексте</span><b>89 (3.23/1k)</b></div><div class="kv"><span>title</span><b>Mostbet Česká republika: Získejte 30 otočení zdarma za registraci</b></div><div class="kv"><span>h1</span><b>Mostbet Česká republika</b></div></div>
+<div class="sample">Aplikace Bonusy Promo kód No Deposit Bonus 30 otočení zdarma Kasino Aviator Tigers Gold Gates of Olympus Sportovní sázení Hokej Esports Dota 2 CS2 League of Legends Vklad Výběr hotovosti Přihlásit se Registrace Obsah O Mostbetu Legální a bezpečný Bonusy a promo akce Mobilní aplikace Jak se přihlásit Registrace Metody platby Sázkové trhy Možnost sázení Živé sázení Kasino Živé kasino Sloty Poker Tot</div>
+
+<footer><label><input type="radio" name="v-boschtools.cz" value="ok"> плашка верна</label>
+<label><input type="radio" name="v-boschtools.cz" value="bad"> плашка неверна</label>
+<input class="note" placeholder="если неверна — какая должна быть; любой комментарий"></footer></article><article class="card" data-domain="jidelnazlin.cz" data-given="mono_mostbet" data-checker="mono_mostbet">
+<header><a class="dom" href="https://jidelnazlin.cz/" target="_blank" rel="noreferrer">jidelnazlin.cz</a>
+<span class="badge">Монобренд → только Mostbet</span>
+<span class="op">проверяющий: <b>Монобренд → только Mostbet</b>
+· уверенность 0.55</span></header>
+<p class="comment">Та же сеть, что aforjet.cz: pid=303430, xlink только из-за редиректа mostbets-pt.com → thehatchery.club.</p>
+<div class="grid"><div class="kv"><span>почему</span><b>name_in_title density=3.23</b></div><div class="kv"><span>теги</span><b>ads_unverified</b></div><div class="kv"><span>реклама Mostbet</span><b>True</b></div><div class="kv"><span>Mostbet в тексте</span><b>89 (3.23/1k)</b></div><div class="kv"><span>title</span><b>Mostbet Česká republika: Získejte 30 otočení zdarma za registraci</b></div><div class="kv"><span>h1</span><b>Mostbet Česká republika</b></div></div>
+<div class="sample">Aplikace Bonusy Promo kód No Deposit Bonus 30 otočení zdarma Kasino Aviator Tigers Gold Gates of Olympus Sportovní sázení Hokej Esports Dota 2 CS2 League of Legends Vklad Výběr hotovosti Přihlásit se Registrace Obsah O Mostbetu Legální a bezpečný Bonusy a promo akce Mobilní aplikace Jak se přihlásit Registrace Metody platby Sázkové trhy Možnost sázení Živé sázení Kasino Živé kasino Sloty Poker Tot</div>
+
+<footer><label><input type="radio" name="v-jidelnazlin.cz" value="ok"> плашка верна</label>
+<label><input type="radio" name="v-jidelnazlin.cz" value="bad"> плашка неверна</label>
+<input class="note" placeholder="если неверна — какая должна быть; любой комментарий"></footer></article><article class="card" data-domain="karczma-przemysl.pl" data-given="mono_mostbet" data-checker="mono_mostbet">
+<header><a class="dom" href="https://karczma-przemysl.pl/" target="_blank" rel="noreferrer">karczma-przemysl.pl</a>
+<span class="badge">Монобренд → только Mostbet</span>
+<span class="op">проверяющий: <b>Монобренд → только Mostbet</b>
+· уверенность 0.65</span></header>
+<p class="comment">Кнопки ведут на реф Mostbet pid=303430. «Чужой» thehatchery.club — это переключатель стран: ссылка на сестринский mostbets-pt.com, который сам редиректит на португальский рейтинг казино. Это не оператор и не код партнёра.</p>
+<div class="grid"><div class="kv"><span>почему</span><b>name_in_title density=2.83</b></div><div class="kv"><span>теги</span><b>moved ads_unverified</b></div><div class="kv"><span>реклама Mostbet</span><b>True</b></div><div class="kv"><span>Mostbet в тексте</span><b>136 (2.83/1k)</b></div><div class="kv"><span>title</span><b>Mostbet Casino PL - 3000 PLN i 250 FS ⭐️ Login Most Bet Online</b></div><div class="kv"><span>h1</span><b>MostBet Polska - najlepszy bukmacher i kasyno online</b></div></div>
+<div class="sample">Aplikacja Rejestracja Bonusy Kod promocyjny 100 darmowych spinów 30 darmowych spinów Mega Bonus Cashback Program lojalnościowy Kasyno Casino-Live Aviator Royal Coins Lucky 3 Iron Bank Sun of Egypt Mostbet Spin Master 777 Coins Burning Wins: Classic 5 Lines Coin Volcano Coins Strike: Hold and Win Energy Coins: Hold and Win Lucky Streak 3 Royal Coins 2: Hold and Win Royal Joker: Hold and Win Sport T</div>
+
+<footer><label><input type="radio" name="v-karczma-przemysl.pl" value="ok"> плашка верна</label>
+<label><input type="radio" name="v-karczma-przemysl.pl" value="bad"> плашка неверна</label>
+<input class="note" placeholder="если неверна — какая должна быть; любой комментарий"></footer></article><article class="card" data-domain="mostbetreferral.com" data-given="mono_mostbet" data-checker="mono_no_ads">
+<header><a class="dom" href="https://mostbetreferral.com/" target="_blank" rel="noreferrer">mostbetreferral.com</a>
+<span class="badge">Монобренд → только Mostbet</span>
+<span class="op">проверяющий: <b>Монобренд без рекламы</b>
+· уверенность 0.7</span></header>
+<p class="comment">Все /go/* → mostbet.example.com/?partner=REFCODE_PLACEHOLDER: заглушка, реального рефа нет, поэтому mostbet_ads=True ложный. chatgpt.com — строка «спросить ИИ» (ChatGPT/Perplexity/Grok/Claude), к гэмблингу не относится.</p>
+<div class="grid"><div class="kv"><span>почему</span><b>name_in_domain density=3.23</b></div><div class="kv"><span>теги</span><b>brand_in_domain ads_unverified</b></div><div class="kv"><span>реклама Mostbet</span><b>True</b></div><div class="kv"><span>Mostbet в тексте</span><b>44 (3.23/1k)</b></div><div class="kv"><span>title</span><b>Mostbet Referral - Register with Bonus via Official Affiliate Link</b></div><div class="kv"><span>h1</span><b>Mostbet Betting Platform for Sports and Casino</b></div></div>
+<div class="sample">Skip to content Official Affiliate Partner &amp; Registration Bonuses 🇺🇸 EN 🇺🇸 English 🇪🇸 Español 🇵🇹 Português 🇵🇱 Polski DOWNLOAD 🤖 🍏 LOG IN SIGN UP 🔥 Welcome Bonus 125% + 250 FS LOG IN SIGN UP Home Sports Casino Promotions Mobile App Blog Contact DOWNLOAD APP 🤖 🍏 ★ Mostbet 📝 Registration 👤 Login 📱 Mostbet App 🎰 Casino 🏷️ Mostbet Bonus ▾ 📍 Locations ▾ ✈️ Aviator 🐔 Chicken Road MOSTBET Mostbet Betting </div>
+
+<footer><label><input type="radio" name="v-mostbetreferral.com" value="ok"> плашка верна</label>
+<label><input type="radio" name="v-mostbetreferral.com" value="bad"> плашка неверна</label>
+<input class="note" placeholder="если неверна — какая должна быть; любой комментарий"></footer></article><article class="card" data-domain="profiambau.cz" data-given="mono_mostbet" data-checker="mono_mostbet">
+<header><a class="dom" href="https://profiambau.cz/" target="_blank" rel="noreferrer">profiambau.cz</a>
+<span class="badge">Монобренд → только Mostbet</span>
+<span class="op">проверяющий: <b>Монобренд → только Mostbet</b>
+· уверенность 0.55</span></header>
+<p class="comment">Та же сеть, что aforjet.cz: pid=303430, xlink только из-за mostbets-pt.com → thehatchery.club.</p>
+<div class="grid"><div class="kv"><span>почему</span><b>name_in_title density=3.23</b></div><div class="kv"><span>теги</span><b>ads_unverified</b></div><div class="kv"><span>реклама Mostbet</span><b>True</b></div><div class="kv"><span>Mostbet в тексте</span><b>89 (3.23/1k)</b></div><div class="kv"><span>title</span><b>Mostbet Česká republika: Získejte 30 otočení zdarma za registraci</b></div><div class="kv"><span>h1</span><b>Mostbet Česká republika</b></div></div>
+<div class="sample">Aplikace Bonusy Promo kód No Deposit Bonus 30 otočení zdarma Kasino Aviator Tigers Gold Gates of Olympus Sportovní sázení Hokej Esports Dota 2 CS2 League of Legends Vklad Výběr hotovosti Přihlásit se Registrace Obsah O Mostbetu Legální a bezpečný Bonusy a promo akce Mobilní aplikace Jak se přihlásit Registrace Metody platby Sázkové trhy Možnost sázení Živé sázení Kasino Živé kasino Sloty Poker Tot</div>
+
+<footer><label><input type="radio" name="v-profiambau.cz" value="ok"> плашка верна</label>
+<label><input type="radio" name="v-profiambau.cz" value="bad"> плашка неверна</label>
+<input class="note" placeholder="если неверна — какая должна быть; любой комментарий"></footer></article><article class="card" data-domain="stavby-dvorak.cz" data-given="mono_mostbet" data-checker="mono_mostbet">
+<header><a class="dom" href="https://stavby-dvorak.cz/" target="_blank" rel="noreferrer">stavby-dvorak.cz</a>
+<span class="badge">Монобренд → только Mostbet</span>
+<span class="op">проверяющий: <b>Монобренд → только Mostbet</b>
+· уверенность 0.55</span></header>
+<p class="comment">Та же сеть, что aforjet.cz: pid=303430, xlink только из-за mostbets-pt.com → thehatchery.club.</p>
+<div class="grid"><div class="kv"><span>почему</span><b>name_in_title density=3.23</b></div><div class="kv"><span>теги</span><b>ads_unverified</b></div><div class="kv"><span>реклама Mostbet</span><b>True</b></div><div class="kv"><span>Mostbet в тексте</span><b>89 (3.23/1k)</b></div><div class="kv"><span>title</span><b>Mostbet Česká republika: Získejte 30 otočení zdarma za registraci</b></div><div class="kv"><span>h1</span><b>Mostbet Česká republika</b></div></div>
+<div class="sample">Aplikace Bonusy Promo kód No Deposit Bonus 30 otočení zdarma Kasino Aviator Tigers Gold Gates of Olympus Sportovní sázení Hokej Esports Dota 2 CS2 League of Legends Vklad Výběr hotovosti Přihlásit se Registrace Obsah O Mostbetu Legální a bezpečný Bonusy a promo akce Mobilní aplikace Jak se přihlásit Registrace Metody platby Sázkové trhy Možnost sázení Živé sázení Kasino Živé kasino Sloty Poker Tot</div>
+
+<footer><label><input type="radio" name="v-stavby-dvorak.cz" value="ok"> плашка верна</label>
+<label><input type="radio" name="v-stavby-dvorak.cz" value="bad"> плашка неверна</label>
+<input class="note" placeholder="если неверна — какая должна быть; любой комментарий"></footer></article><article class="card" data-domain="mostbet-azerbaijan-casino.net" data-given="mono_no_ads" data-checker="mono_unresolved">
+<header><a class="dom" href="https://mostbet-azerbaijan-casino.net/" target="_blank" rel="noreferrer">mostbet-azerbaijan-casino.net</a>
+<span class="badge">Монобренд без рекламы</span>
+<span class="op">проверяющий: <b>Монобренд, получатель рекламы неизвестен</b>
+· уверенность 0.8</span></header>
+<p class="comment">Весь сайт про Mostbet (title, h1, текст), других брендов нет; все ссылки внутренние, CTA ведут на свой /start и /az-az29, куда — не прослежено. Чужого казино внутри нет.</p>
+<div class="grid"><div class="kv"><span>почему</span><b>name_in_domain, no other brand density=0.49</b></div><div class="kv"><span>теги</span><b>brand_in_domain</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>Mostbet в тексте</span><b>7 (0.49/1k)</b></div><div class="kv"><span>title</span><b>Mostbet ilə Həyəcan və Qələbə Dünyasına Qoşulun</b></div><div class="kv"><span>h1</span><b>Mostbet ilə Daha Çox Qazan – Təkliflər və Faydalar</b></div></div>
+<div class="sample">Bonuslar Mobil tetbiq Odenisler Qeydiyyat Nece oynamaq Giriş Qeydiyyat Mostbet ilə Daha Çox Qazan – Təkliflər və Faydalar Saytlarımızda onlayn mərclər dünyasına qoşulmaq istəyirsinizsə, doğru ünvanı tapdınız. Rəsmi mənbələr arasında seçilən platformamız, yüksək RTP ilə slot oyunları, böyük bonus paketləri və zəngin məzmunu ilə fərqlənir. Hər mərclə həyəcan hissini yaşayıb qalibiyyətin dadını çıxar</div>
+
+<footer><label><input type="radio" name="v-mostbet-azerbaijan-casino.net" value="ok"> плашка верна</label>
+<label><input type="radio" name="v-mostbet-azerbaijan-casino.net" value="bad"> плашка неверна</label>
+<input class="note" placeholder="если неверна — какая должна быть; любой комментарий"></footer></article><article class="card" data-domain="mostbet05924.online" data-given="mono_xlink" data-checker="mono_mixed">
+<header><a class="dom" href="https://mostbet05924.online/" target="_blank" rel="noreferrer">mostbet05924.online</a>
+<span class="badge">Монобренд, простые ссылки на чужих</span>
+<span class="op">проверяющий: <b>Монобренд → Mostbet и чужие</b>
+· уверенность 0.6</span></header>
+<p class="comment">Переехал на mostbet-kg.kg: кнопка /reg и Telegram-иконка ведут на Mostbet pid=130609. В футере скрытый (height:2px) линк на 1winkg.kg → win1.kg «1Win — официальный сайт»; по правилу владельца (1win-mx.mx) это оператор, но похоже на дорвей — тогда было бы mono_xlink.</p>
+<div class="grid"><div class="kv"><span>почему</span><b>name_in_domain density=2.84</b></div><div class="kv"><span>теги</span><b>apk brand_in_domain moved</b></div><div class="kv"><span>реклама Mostbet</span><b>True</b></div><div class="kv"><span>простые ссылки</span><b>win1.kg</b></div><div class="kv"><span>Mostbet в тексте</span><b>71 (2.84/1k)</b></div><div class="kv"><span>title</span><b>Mostbet — официальный сайт, вход и регистрация, скачать Мостбет</b></div><div class="kv"><span>h1</span><b>Mostbet Кыргызстан: официальный сайт, вход, зеркало на сегодня, бонусы</b></div></div>
+<div class="sample">Перейти к содержанию Search for: РЕГИСТРАЦИЯ ВХОД MBBONUS25 Промокод Скачать приложение Ставки на спорт Казино Aviator Mostbet Кыргызстан: официальный сайт, вход, зеркало на сегодня, бонусы История возникновения Mostbet в Кыргызстане началась с открытия дверей этой букмекерской конторы в СНГ. Созданный в 2009 году, бренд быстро стал популярным среди ставок на спорт и азартных игр. MOSTBET СКАЧАТЬ </div>
+<ul class="links"><li><a href="https://xmnylu0l12nymst.com/cNRF" rel="noreferrer">https://xmnylu0l12nymst.com/cNRF</a> <span class="t"> </span></li></ul>
+<footer><label><input type="radio" name="v-mostbet05924.online" value="ok"> плашка верна</label>
+<label><input type="radio" name="v-mostbet05924.online" value="bad"> плашка неверна</label>
+<input class="note" placeholder="если неверна — какая должна быть; любой комментарий"></footer></article><article class="card" data-domain="mostbet78063.help" data-given="mono_xlink" data-checker="mono_mixed">
+<header><a class="dom" href="https://mostbet78063.help/" target="_blank" rel="noreferrer">mostbet78063.help</a>
+<span class="badge">Монобренд, простые ссылки на чужих</span>
+<span class="op">проверяющий: <b>Монобренд → Mostbet и чужие</b>
+· уверенность 0.6</span></header>
+<p class="comment">Копия mostbet05924.online (тот же HTML mostbet-kg.kg): Mostbet pid=130609 плюс скрытый линк на 1winkg.kg → win1.kg. Граница оператор/дорвей та же.</p>
+<div class="grid"><div class="kv"><span>почему</span><b>name_in_domain density=2.84</b></div><div class="kv"><span>теги</span><b>apk brand_in_domain moved</b></div><div class="kv"><span>реклама Mostbet</span><b>True</b></div><div class="kv"><span>простые ссылки</span><b>win1.kg</b></div><div class="kv"><span>Mostbet в тексте</span><b>71 (2.84/1k)</b></div><div class="kv"><span>title</span><b>Mostbet — официальный сайт, вход и регистрация, скачать Мостбет</b></div><div class="kv"><span>h1</span><b>Mostbet Кыргызстан: официальный сайт, вход, зеркало на сегодня, бонусы</b></div></div>
+<div class="sample">Перейти к содержанию Search for: РЕГИСТРАЦИЯ ВХОД MBBONUS25 Промокод Скачать приложение Ставки на спорт Казино Aviator Mostbet Кыргызстан: официальный сайт, вход, зеркало на сегодня, бонусы История возникновения Mostbet в Кыргызстане началась с открытия дверей этой букмекерской конторы в СНГ. Созданный в 2009 году, бренд быстро стал популярным среди ставок на спорт и азартных игр. MOSTBET СКАЧАТЬ </div>
+<ul class="links"><li><a href="https://xmnylu0l12nymst.com/cNRF" rel="noreferrer">https://xmnylu0l12nymst.com/cNRF</a> <span class="t"> </span></li></ul>
+<footer><label><input type="radio" name="v-mostbet78063.help" value="ok"> плашка верна</label>
+<label><input type="radio" name="v-mostbet78063.help" value="bad"> плашка неверна</label>
+<input class="note" placeholder="если неверна — какая должна быть; любой комментарий"></footer></article><article class="card" data-domain="1win-jetx-game.com" data-given="multibrand" data-checker="bait">
+<header><a class="dom" href="https://1win-jetx-game.com/" target="_blank" rel="noreferrer">1win-jetx-game.com</a>
+<span class="badge">Гэмблинг-аффилиат не про Mostbet</span>
+<span class="op">проверяющий: <b>Приманка: Mostbet в имени, внутри чужой</b>
+· уверенность 0.6</span></header>
+<p class="comment">Страница — клон 1win JetX (1win:43 в тексте), Mostbet только в h1 «Online casino Mostbet…»; в title Mostbet нет, правило mostbet_in_title на деле сработало по h1.</p>
+<div class="grid"><div class="kv"><span>почему</span><b>top_other=1win:43 mostbet=1 density=0.06</b></div><div class="kv"><span>теги</span><b>ads_unverified</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>реклама чужих</span><b>via 1wjuyz.life</b></div><div class="kv"><span>Mostbet в тексте</span><b>1 (0.06/1k)</b></div><div class="kv"><span>чужие бренды в тексте</span><b>1win:43</b></div><div class="kv"><span>title</span><b>1Win JetX demo ⚡ 1Win JetX game for money - how to play, strategies, demo, download in India</b></div><div class="kv"><span>h1</span><b>Online casino Mostbet - slot machines and roulette without registration</b></div></div>
+<div class="sample">application for Windows IN IN KZ TR BR Main Live Line Casino Live-games eSports 1win invest Games Betgames TVBET Vsport Poker Aviator leaderboard 1win TV statistics Cases more... Login Registration Continue playing Play for free Play for free 1win Tv 5453 All Very strange things Boys Obi-Wan Kenobi Morbius Love. Death. robots Sonic 2 movie Batman Moon knight Better call Saul Spiderman: No Way Home</div>
+
+<footer><label><input type="radio" name="v-1win-jetx-game.com" value="ok"> плашка верна</label>
+<label><input type="radio" name="v-1win-jetx-game.com" value="bad"> плашка неверна</label>
+<input class="note" placeholder="если неверна — какая должна быть; любой комментарий"></footer></article><article class="card" data-domain="bestbetplay.com" data-given="multibrand" data-checker="">
+<header><a class="dom" href="https://bestbetplay.com/" target="_blank" rel="noreferrer">bestbetplay.com</a>
+<span class="badge">Гэмблинг-аффилиат не про Mostbet</span>
+<span class="op">проверяющий: <b>не уверен</b>
+· уверенность 0.5</span></header>
+<p class="comment">Страница пустая в HTML (SPA), title «Best Betting Sites India | MegaPari FOOTBALLKING»; Mostbet только в meta keywords — видимого упоминания нет, по видимому это промо MegaPari.</p>
+<div class="grid"><div class="kv"><span>почему</span><b>top_other=:0 mostbet=2 density=0.0</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>Mostbet в тексте</span><b>2 (0.0/1k)</b></div><div class="kv"><span>title</span><b>Best Betting Sites India 2026 | MegaPari FOOTBALLKING</b></div></div>
+<div class="sample"></div>
+
+<footer><label><input type="radio" name="v-bestbetplay.com" value="ok"> плашка верна</label>
+<label><input type="radio" name="v-bestbetplay.com" value="bad"> плашка неверна</label>
+<input class="note" placeholder="если неверна — какая должна быть; любой комментарий"></footer></article><article class="card" data-domain="gnranalytical.com" data-given="multibrand" data-checker="hacked">
+<header><a class="dom" href="https://gnranalytical.com/" target="_blank" rel="noreferrer">gnranalytical.com</a>
+<span class="badge">Гэмблинг-аффилиат не про Mostbet</span>
+<span class="op">проверяющий: <b>Взломанный</b>
+· уверенность 0.9</span></header>
+<p class="comment">Сайт спектрометров GNR Analytical; скрытый блок left:-544728px с текстом про Mostbet и ссылки «Witryna kasyna Most Bet», casino ohne oasis.</p>
+<div class="grid"><div class="kv"><span>почему</span><b>top_other=:0 mostbet=5 density=1.04</b></div><div class="kv"><span>теги</span><b>ads_unverified</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>простые ссылки</span><b>bet-rate.br.com</b></div><div class="kv"><span>Mostbet в тексте</span><b>5 (1.04/1k)</b></div><div class="kv"><span>title</span><b>Home | GNR Analytical Instruments</b></div><div class="kv"><span>h1</span><b>We are GNR Analytical Instruments</b></div></div>
+<div class="sample">Skip to content ↓ Follow us on Twitter Connect on LinkedIn 07774 226009 / info@gnranalytical.com Contact us Menu About Us Service &amp; Repairs Products Optical Emission Spectrometers X-Ray Products Sample Preparation Equipment Instrument Software Industries Winspark Software News Testimonials Metals — Advanced Solutions to perform different and wide analytical tasks in the Metal Industry Optical Emis</div>
+
+<footer><label><input type="radio" name="v-gnranalytical.com" value="ok"> плашка верна</label>
+<label><input type="radio" name="v-gnranalytical.com" value="bad"> плашка неверна</label>
+<input class="note" placeholder="если неверна — какая должна быть; любой комментарий"></footer></article><article class="card" data-domain="sarahgallowayphotography.com" data-given="multibrand" data-checker="article">
+<header><a class="dom" href="https://sarahgallowayphotography.com/" target="_blank" rel="noreferrer">sarahgallowayphotography.com</a>
+<span class="badge">Гэмблинг-аффилиат не про Mostbet</span>
+<span class="op">проверяющий: <b>Статейник</b>
+· уверенность 0.8</span></header>
+<p class="comment">Сайт фотографа с лентой гэмблинг-постов (Mostbet Polska, 20bet, casino zonder cruks); в футере ещё и скрытые ссылки left:-9966px на чужие казино.</p>
+<div class="grid"><div class="kv"><span>почему</span><b>top_other=20Bet:23 mostbet=25 density=0.47</b></div><div class="kv"><span>теги</span><b>ads_unverified</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>реклама чужих</span><b>CASINO UDEN ROFUS</b></div><div class="kv"><span>простые ссылки</span><b>cazeussi.com www.casino-portugal-online.pt</b></div><div class="kv"><span>Mostbet в тексте</span><b>25 (0.47/1k)</b></div><div class="kv"><span>чужие бренды в тексте</span><b>20Bet:23 bet365:1 Unibet:1 Bwin:1</b></div><div class="kv"><span>title</span><b>Sarah Galloway Photography - Murrieta family photographer</b></div><div class="kv"><span>h1</span><b>Sarah Galloway Photography / Korzyści z wyboru Mostbet jako legalnego kasyna w Polsce / The Mysterious Behavior of Spinyoo: Unanswered Questions</b></div></div>
+<div class="sample">Skip to content Sarah Galloway Photography Murrieta family photographer Scroll down to content Posts Posted on September 18, 2026 Korzyści z wyboru Mostbet jako legalnego kasyna w Polsce Korzyści z wyboru Mostbet jako legalnego kasyna w Polsce Wybór odpowiedniego kasyna online w Polsce może być wyzwaniem, zwłaszcza w obliczu wielu dostępnych opcji. Mostbet wyróżnia się jako jedno z najbardziej zau</div>
+
+<footer><label><input type="radio" name="v-sarahgallowayphotography.com" value="ok"> плашка верна</label>
+<label><input type="radio" name="v-sarahgallowayphotography.com" value="bad"> плашка неверна</label>
+<input class="note" placeholder="если неверна — какая должна быть; любой комментарий"></footer></article><article class="card" data-domain="sonyscaviar.com" data-given="multibrand" data-checker="article">
+<header><a class="dom" href="https://sonyscaviar.com/" target="_blank" rel="noreferrer">sonyscaviar.com</a>
+<span class="badge">Гэмблинг-аффилиат не про Mostbet</span>
+<span class="op">проверяющий: <b>Статейник</b>
+· уверенность 0.8</span></header>
+<p class="comment">WP «My Blog» (контент с sonymordechai.com): лента датированных постов про Betway, Betplay, 1win и др.; без бренда в домене/title — article по правилу владельца.</p>
+<div class="grid"><div class="kv"><span>почему</span><b>top_other=Betway:136 mostbet=109 density=0.85</b></div><div class="kv"><span>теги</span><b>ads_unverified</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>реклама чужих</span><b>1win</b></div><div class="kv"><span>простые ссылки</span><b>slotshammerpeli.com</b></div><div class="kv"><span>Mostbet в тексте</span><b>109 (0.85/1k)</b></div><div class="kv"><span>чужие бренды в тексте</span><b>Betway:136 1win:122 Pin-Up:50 1xBet:20 Megapari:17 Slottica:17</b></div><div class="kv"><span>title</span><b>My Blog – My WordPress Blog</b></div><div class="kv"><span>h1</span><b>My Blog</b></div></div>
+<div class="sample">Skip to the content Search My Blog My WordPress Blog Menu Sample Page Search Search for: Close search Close Menu Sample Page Categories Betway Login 65 Exactly How In Buy To Register A Betway Accounts Post author By admin Post date September 29, 2026 No Comments on Exactly How In Buy To Register A Betway Accounts Although an individual could head on lower to end upwards being capable to your regio</div>
+
+<footer><label><input type="radio" name="v-sonyscaviar.com" value="ok"> плашка верна</label>
+<label><input type="radio" name="v-sonyscaviar.com" value="bad"> плашка неверна</label>
+<input class="note" placeholder="если неверна — какая должна быть; любой комментарий"></footer></article><article class="card" data-domain="twojjays.com" data-given="multibrand" data-checker="other_gambling">
+<header><a class="dom" href="https://twojjays.com/" target="_blank" rel="noreferrer">twojjays.com</a>
+<span class="badge">Гэмблинг-аффилиат не про Mostbet</span>
+<span class="op">проверяющий: <b>Чужой гэмблинг</b>
+· уверенность 0.8</span></header>
+<p class="comment">Само казино TOJAYS.BET (Пакистан, SPA на cdn.intx111.link); Mostbet только в meta keywords рядом с 1xbet, melbet, 22bet — видимого упоминания нет.</p>
+<div class="grid"><div class="kv"><span>почему</span><b>top_other=:0 mostbet=1 density=0.0</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>Mostbet в тексте</span><b>1 (0.0/1k)</b></div><div class="kv"><span>title</span><b>TOJAYS.BET-Best Real Money Online Casino In Pakistan 24/7</b></div></div>
+<div class="sample"></div>
+
+<footer><label><input type="radio" name="v-twojjays.com" value="ok"> плашка верна</label>
+<label><input type="radio" name="v-twojjays.com" value="bad"> плашка неверна</label>
+<input class="note" placeholder="если неверна — какая должна быть; любой комментарий"></footer></article><article class="card" data-domain="mostbetazerbaycan.com" data-given="redirect_other" data-checker="">
+<header><a class="dom" href="https://mostbetazerbaycan.com/" target="_blank" rel="noreferrer">mostbetazerbaycan.com</a>
+<span class="badge">Редирект на чужую рефку</span>
+<span class="op">проверяющий: <b>не уверен</b>
+· уверенность 0.5</span></header>
+<p class="comment">Страница «Mostbet Azerbaycan» сразу делает window.location на cantouchmytalala.com/vGbnTLtN; этот хост нигде не разрешён (у mos.bet та же ссылка — empty_page). Получатель неизвестен, а в записи при этом mostbet_ads=True — поля противоречат категории.</p>
+<div class="grid"><div class="kv"><span>почему</span><b>script sends the home page to cantouchmytalala.com</b></div><div class="kv"><span>теги</span><b>brand_in_domain</b></div><div class="kv"><span>реклама Mostbet</span><b>True</b></div><div class="kv"><span>Mostbet в тексте</span><b>5 (0.0/1k)</b></div><div class="kv"><span>title</span><b>Mostbet Azerbaycan</b></div></div>
+<div class="sample"></div>
+
+<footer><label><input type="radio" name="v-mostbetazerbaycan.com" value="ok"> плашка верна</label>
+<label><input type="radio" name="v-mostbetazerbaycan.com" value="bad"> плашка неверна</label>
+<input class="note" placeholder="если неверна — какая должна быть; любой комментарий"></footer></article><article class="card" data-domain="mostbetmobil.net" data-given="stub" data-checker="parked">
+<header><a class="dom" href="https://mostbetmobil.net/" target="_blank" rel="noreferrer">mostbetmobil.net</a>
+<span class="badge">Пустышка</span>
+<span class="op">проверяющий: <b>Парковка</b>
+· уверенность 0.95</span></header>
+<p class="comment">«Parked Domain name on Hostinger DNS system».</p>
+<div class="grid"><div class="kv"><span>почему</span><b>placeholder text</b></div><div class="kv"><span>теги</span><b>brand_in_domain ads_unverified</b></div><div class="kv"><span>реклама Mostbet</span><b>False</b></div><div class="kv"><span>Mostbet в тексте</span><b>0 (0.0/1k)</b></div><div class="kv"><span>title</span><b>Parked Domain name on Hostinger DNS system</b></div></div>
+<div class="sample">Registered at If this is your domain, you can manage it in your Hostinger account. Manage domain Start your online journey Build your website today Launch your business with WordPress or Website Builder using AI tools, templates, and reliable hosting. Get Web hosting Prompt your website Chat with AI to build a complete website - with CRM, booking forms, and more. Horizons handles code, design, and</div>
+
+<footer><label><input type="radio" name="v-mostbetmobil.net" value="ok"> плашка верна</label>
+<label><input type="radio" name="v-mostbetmobil.net" value="bad"> плашка неверна</label>
+<input class="note" placeholder="если неверна — какая должна быть; любой комментарий"></footer></article>
+<script>
+const KEY='brand-classes-review-r2';let st={};try{st=JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){}
+const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(st))}catch(e){};document.getElementById('cnt').textContent=Object.values(st).filter(x=>x.v).length+' отмечено'};
+document.querySelectorAll('.card').forEach(c=>{const d=c.dataset.domain,s=st[d]||{};
+
+ c.querySelectorAll('input[type=radio]').forEach(r=>{if(r.value===s.v){r.checked=true;c.classList.add(s.v)}
+  r.onchange=()=>{c.classList.remove('ok','bad');c.classList.add(r.value);st[d]={...st[d],v:r.value,given:c.dataset.given,checker:c.dataset.checker};save()}});
+ const n=c.querySelector('.note');n.value=s.note||'';n.oninput=()=>{st[d]={...st[d],note:n.value,given:c.dataset.given};save()}});
+document.getElementById('exp').onclick=()=>{const t=JSON.stringify(st,null,1);navigator.clipboard.writeText(t).then(()=>document.getElementById('exp').textContent='Скопировано')};
+save();
+</script></main></body></html>

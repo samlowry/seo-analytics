@@ -11,6 +11,17 @@ Input: a CSV with a `domain` column (camoufox-queue.csv or resolves-minus-ours-u
 Output: <out_dir>/http-scan.jsonl.gz and <out_dir>/browser-scan.jsonl.gz, one record per site;
 reruns skip scanned domains, --redo FILE rescans the listed ones (the report takes the last record).
 Filters: --priority 1,2 (queue priority), --domains FILE, --limit N.
+--mode gates follows the button addresses given in the queue column `urls` (from saved home pages) by
+HTTP, logs to gates-scan.jsonl.gz; tools/brand-classify.py reads them as extra destinations.
+--mode deep follows links found on inner pages (column `pages`) and in the site's own scripts (`scripts`),
+logs to deep-scan.jsonl.gz; read the same way. --mode mbpages is the same over the site's pages about Mostbet
+(tools/brand-mb-pages.py → mbpages-queue.csv), up to 8 per site, log mbpages-scan.jsonl.gz, files *.mbpages-res.json.gz.
+Keeping home pages: --save-html [DIR] (default <out_dir>/html, <domain>.<http|browser>.html.gz; the browser also
+keeps the scripts and JSON the page loaded, libraries aside, in <domain>.browser-res.json.gz);
+--mode home only fetches and keeps home pages, follows nothing, logs to home-dump.jsonl.gz.
+Exit via Mac SOCKS for the browser and HTTP follows (server scan, host default route untouched):
+  --proxy socks5://127.0.0.1:1080  (add --with aiohttp-socks to uv run)
+  see brand-protection/.../brand-scan/SERVER-RESCAN.md
 
 Per site:
 1. Open the home page. HTTP mode: plain request with redirects followed by hand. Browser mode:
@@ -37,7 +48,10 @@ import csv
 import gzip
 import importlib.util
 import json
+import os
 import re
+import signal
+import subprocess
 import sys
 import time
 from pathlib import Path
@@ -63,9 +77,18 @@ MAX_FOLLOW = 12
 MAX_BRANDED_PLAIN = 3
 MAX_INNER_LINKS = 4
 SITE_TIMEOUT = 300
+LAUNCH_TIMEOUT = 90
+CLOSE_TIMEOUT = 30
+READ_TIMEOUT = 15  # one page read (title, content, evaluate)
+FOLLOW_BUDGET = 90  # one destination, HTTP hops plus browser
+FOLLOW_DEADLINE = SITE_TIMEOUT - 110  # after this many seconds on a site, the rest is not followed
 BATCH = 150  # browser restarts between batches to cap memory growth
 
-REGISTRY = Path.home() / "Developer/skaner-bitykh-ssylok/registry/entries.json"
+# Override on the server: BRAND_SCAN_REGISTRY=/path/to/entries.json
+REGISTRY = Path(os.environ.get(
+    "BRAND_SCAN_REGISTRY",
+    str(Path.home() / "Developer/skaner-bitykh-ssylok/registry/entries.json"),
+))
 
 
 def ref_key(url: str) -> str:
@@ -76,6 +99,22 @@ def ref_key(url: str) -> str:
 OUR_REFS = set()
 if REGISTRY.exists():
     OUR_REFS = {ref_key(e["destination_url"]) for e in json.loads(REGISTRY.read_text())["entries"]}
+
+
+def parse_proxy(url: str | None) -> dict | None:
+    """Playwright/Camoufox proxy dict from a URL like socks5://127.0.0.1:1080."""
+    if not url:
+        return None
+    s = urlsplit(url)
+    if not s.scheme or not s.hostname:
+        raise SystemExit(f"bad --proxy {url!r}: need scheme://host:port")
+    server = f"{s.scheme}://{s.hostname}" + (f":{s.port}" if s.port else "")
+    out = {"server": server}
+    if s.username:
+        out["username"] = s.username
+    if s.password:
+        out["password"] = s.password
+    return out
 
 CHALLENGE_TITLE = re.compile(
     r"just a moment|один момент|attention required|checking (your|the) browser|ddos-guard|"
@@ -131,6 +170,8 @@ def err_reason(e: Exception) -> str:
 
 DEAD_REASONS = {"dns_fail", "connection_refused", "connection_reset", "empty_response", "timeout", "tls_error",
                 "redirect_loop", "parked", "empty_page", "nav_error"}
+FIREFOX_ERROR_TITLE = re.compile(r"(problem loading page|server not found|unable to connect|"
+                                 r"secure connection failed|the connection has timed out)$", re.I)
 
 
 async def settle(page, load_ms=10_000, extra_ms=6_000, quiet_ms=1_500):
@@ -159,7 +200,8 @@ async def wait_content(page, max_ms=6_000):
     last, same, spent = -1, 0, 0
     while spent < max_ms:
         try:
-            n = await page.evaluate("() => document.body ? (document.body.innerText || '').length : 0")
+            n = await asyncio.wait_for(
+                page.evaluate("() => document.body ? (document.body.innerText || '').length : 0"), READ_TIMEOUT)
         except Exception:  # noqa: BLE001
             n = 0
         if n == last and n > 200:
@@ -174,12 +216,13 @@ async def wait_content(page, max_ms=6_000):
 
 
 async def snapshot(page):
-    """(title, html, visible text) of the current page; tolerant to mid-navigation errors."""
+    """(title, html, visible text) of the current page; tolerant to mid-navigation errors and to a
+    page whose scripts keep the main thread busy (reads are bounded)."""
     for _ in range(3):
         try:
-            title = await page.title()
-            html = await page.content()
-            text = await page.evaluate(TEXT_JS)
+            title = await asyncio.wait_for(page.title(), READ_TIMEOUT)
+            html = await asyncio.wait_for(page.content(), READ_TIMEOUT)
+            text = await asyncio.wait_for(page.evaluate(TEXT_JS), READ_TIMEOUT)
             return title or "", html or "", re.sub(r"\s+", " ", text or "").strip()
         except Exception:  # noqa: BLE001 — page navigated while reading
             await page.wait_for_timeout(1000)
@@ -192,6 +235,7 @@ CF_INTERSTITIAL = re.compile(r"cf_chl_opt|cf-chl|cf_chl|/cdn-cgi/challenge-platf
 CF_TURNSTILE = re.compile(r"cf-turnstile|challenges\.cloudflare\.com/turnstile", re.I)
 CF_BLOCK = re.compile(r"sorry, you have been blocked|you are unable to access|cf-error-details", re.I)
 CF_KINDS = ("cloudflare_challenge", "cloudflare_turnstile")  # left unsolved -> 6_cf_check, re-run with clicks
+FORM_CAPTCHA_KINDS = ("captcha", "recaptcha", "hcaptcha", "cloudflare_turnstile")
 
 
 def challenge_kind(title: str, html: str, text: str):
@@ -424,35 +468,95 @@ def resolve_record(r: dict, dcache: dict) -> dict:
     return {**r, "destinations": dests, "result": new}
 
 
+def save_html(html_dir: Path | None, domain: str, source: str, html: str, final_url: str, status) -> str:
+    """Keep a home page for later re-classification: as fetched (source=http) or as rendered
+    (source=browser). The first line records the source, time, status and final URL.
+    Returns the file name inside html_dir, or "" when nothing was saved."""
+    if not html_dir or not html:
+        return ""
+    name = f"{domain}.{source}.html.gz"
+    head = (f"<!-- brand-scan {source} {time.strftime('%Y-%m-%dT%H:%M:%S')} "
+            f"status={status} final_url={final_url} -->\n")
+    with gzip.open(html_dir / name, "wt", encoding="utf-8") as f:
+        f.write(head + html)
+    return name
+
+
+# Common libraries and trackers: their code says nothing about where a site sends its visitors.
+LIB_URL = re.compile(r"jquery|googletagmanager|google-analytics|gtag/js|recaptcha|gstatic\.com|cloudflareinsights|"
+                     r"fontawesome|bootstrap(\.min)?\.js|mc\.yandex|metrika|facebook\.net|hotjar|clarity\.ms|"
+                     r"wp-includes/js|wp-emoji|polyfill|cdnjs\.cloudflare\.com/ajax/libs|unpkg\.com|jsdelivr\.net/npm/"
+                     r"(swiper|slick|lazysizes)|doubleclick|googlesyndication|youtube\.com|ytimg", re.I)
+RES_CAP, RES_TOTAL = 1_500_000, 8_000_000
+
+
+async def save_resources(html_dir, domain: str, responses) -> str:
+    """Keep the scripts and JSON (xhr/fetch) a rendered page loaded, next to its HTML:
+    <domain>.browser-res.json.gz, a list of {url, type, status, body}. Libraries are skipped, bodies capped."""
+    if not html_dir or not responses:
+        return ""
+    out, total = [], 0
+    for r in responses[:80]:
+        try:
+            body = await asyncio.wait_for(r.body(), 10)
+        except Exception:  # noqa: BLE001 — redirects, aborted or evicted bodies
+            continue
+        if not body or len(body) > RES_CAP or total + len(body) > RES_TOTAL:
+            continue
+        total += len(body)
+        out.append({"url": r.url[:500], "type": r.request.resource_type, "status": r.status,
+                    "body": body.decode("utf-8", "replace")})
+    if not out:
+        return ""
+    name = f"{domain}.browser-res.json.gz"
+    with gzip.open(Path(html_dir) / name, "wt", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False)
+    return name
+
+
 def hosts_changed(start_url: str, hops) -> bool:
     start = aff.base_host(urlsplit(start_url).hostname or "")
     return any(aff.base_host(urlsplit(u).hostname or "") != start for _s, u in hops)
 
 
+REST_RETRY = {"follow_timeout", "timeout", "aborted"}  # destinations the rest pass tries again
 DOWNLOAD_CT = re.compile(r"android|octet-stream|x-msdownload|zip", re.I)
 
 
 class Scanner:
-    def __init__(self, network: str, session):
+    def __init__(self, network: str, session, proxy: dict | None = None, html_dir: Path | None = None):
         self.network = network
         self.session = session
+        self.proxy = proxy  # Playwright dict; the aiohttp session must exit through the same proxy
+        self.html_dir = html_dir  # --save-html: home pages are kept here
+        self.deep_tag, self.deep_pages = "deep", 4  # --mode mbpages: "mbpages", 8
+        self.html_src = "http"  # file suffix of HTTP-saved pages; "http-<as>" when scanning --as another visitor
         self.cache = {}  # external destination -> result, shared across sites
 
     async def follow(self, ctx, url, site, state):
-        """Identify one destination: plain HTTP first, the browser only when HTTP cannot decide."""
+        """Identify one destination: plain HTTP first, the browser only when HTTP cannot decide.
+
+        With --proxy both HTTP and the browser exit via the SOCKS: from the host's own IP
+        (e.g. Amsterdam) Mostbet landings answer 451.
+        """
         key = cache_key(url, site)
         if key and key in self.cache:
             return {**self.cache[key], "cached": True}
         if ref_key(url) in OUR_REFS:
             state["our_refs"].append(url)
             return {"kind": "our_ref_skipped", "brand": "Mostbet", "evidence": "registry"}
-        res = await self.http_follow(url, site, state)
-        if res is None:
-            res = await self.browser_follow(ctx, url, site)
+        try:
+            res = await bounded(self._follow_any(ctx, url, site, state), FOLLOW_BUDGET)
+        except TimeoutError:
+            return {"kind": "unknown", "brand": "", "evidence": "follow_timeout", "final_url": url}
         if key and res.get("kind") not in ("dead", "internal", "our_ref_skipped") and \
                 not str(res.get("evidence", "")).startswith("protected"):
             self.cache[key] = {k: v for k, v in res.items() if not k.startswith("_")}
         return res
+
+    async def _follow_any(self, ctx, url, site, state):
+        res = await self.http_follow(url, site, state)
+        return res if res is not None else await self.browser_follow(ctx, url, site)
 
     async def http_follow(self, url, site, state):
         """Hop-by-hop HTTP follow. Returns a result, or None when the page needs a browser."""
@@ -525,6 +629,12 @@ class Scanner:
             await wait_content(page)
             kind, (title, html, text), _ = await pass_challenge(page)
             final = page.url
+            if kind in FORM_CAPTCHA_KINDS:
+                # Operator registration pages are short and carry a captcha in the sign-up form:
+                # that is the operator itself, not a bot wall in front of it.
+                res = lb.classify_destination(url, final, title, html, text, hosts_changed(url, hops))
+                if res["kind"] in ("mostbet", "other_gambling"):
+                    return {**res, "final_url": final, "title": title[:120], "hops": hops, "form_captcha": kind}
             if kind:
                 return {"kind": "unknown", "brand": "", "evidence": f"protected:{kind}", "final_url": final,
                         "hops": hops}
@@ -536,10 +646,12 @@ class Scanner:
         finally:
             await page.close()
 
-    @staticmethod
-    async def new_guarded_context(browser, state):
+    async def new_guarded_context(self, browser, state):
         """Browser context that never lets our registry refs out and captures clicks when asked."""
-        ctx = await browser.new_context(ignore_https_errors=True)
+        opts = {"ignore_https_errors": True}
+        if self.proxy:
+            opts["proxy"] = self.proxy
+        ctx = await browser.new_context(**opts)
         ctx.set_default_timeout(15_000)
 
         async def route(r, req):
@@ -589,24 +701,32 @@ class Scanner:
         state = {"capture": False, "captured": [], "our_refs": []}
         ctx = await self.new_guarded_context(browser, state)
         try:
-            rec.update(await self._scan(ctx, domain, state))
+            if item.get("referer"):
+                rec["referer"] = item["referer"]
+            rec.update(await self._scan(ctx, domain, state, referer=item.get("referer") or None))
         finally:
             rec["our_refs_skipped"] = state["our_refs"]
             try:
-                await ctx.close()
+                await asyncio.wait_for(ctx.close(), CLOSE_TIMEOUT)
             except Exception:  # noqa: BLE001
                 pass
         return rec
 
-    async def _scan(self, ctx, domain, state):
+    async def _scan(self, ctx, domain, state, referer=None):
+        started = time.time()
         page = await ctx.new_page()
         hops = []
         page.on("response", lambda r: hops.append([r.status, r.url[:200]])
                 if r.request.is_navigation_request() and r.frame == page.main_frame else None)
+        resources = []  # scripts and JSON the page loaded: kept with the HTML (--save-html)
+        if self.html_dir:
+            page.on("response", lambda r: resources.append(r)
+                    if r.request.resource_type in ("script", "xhr", "fetch") and not LIB_URL.search(r.url) else None)
         resp, error = None, None
         for start in (f"https://{domain}/", f"http://{domain}/"):
             try:
-                resp = await page.goto(start, wait_until="domcontentloaded", timeout=NAV_TIMEOUT)
+                # referer: arrive as a visitor from a search engine (queue column `referer`), for cloaking sites
+                resp = await page.goto(start, wait_until="domcontentloaded", timeout=NAV_TIMEOUT, referer=referer)
                 error = None
                 break
             except Exception as e:  # noqa: BLE001
@@ -626,18 +746,30 @@ class Scanner:
         status = hops[-1][0] if hops else (resp.status if resp else None)
         mentions = len(re.findall(r"mostbet|мостбет", html, re.I))
         home.update(final_url=final, status=status, title=title[:200], text_len=len(text),
-                    mostbet_mentions=mentions, challenge_waited_ms=waited, text_sample=text[:300])
+                    mostbet_mentions=mentions, challenge_waited_ms=waited, text_sample=text[:300],
+                    html_file=save_html(self.html_dir, domain, "browser", html, final, status),
+                    resources_file=await save_resources(self.html_dir, domain, resources))
+        if kind in ("captcha", "recaptcha", "hcaptcha") and not CHALLENGE_TITLE.search(title) and \
+                len(links_of(html, final)[0]) >= 10:
+            home["form_captcha"] = kind  # a captcha in a form on a real page, not a wall: scan on
+            kind = None
         if kind:
             home["protection"] = kind
             if kind in CF_KINDS:
                 return {"home": home, "result": {"group": "6_cf_check", "reason": kind}}
             return {"home": home, "result": {"group": "5_not_shown", "reason": f"protection:{kind}"}}
-        if lb.PARKED.search(title + " " + text[:3000]):
+        if lb.PARKED.search(title + " " + text[:3000]) or lb.PARKED_HTML.search(html[:300_000]):
             return {"home": home, "result": {"group": "5_dead", "reason": "parked"}}
         if status and status >= 400:
             geo = bool(lb.GEO_BLOCK.search(title + " " + text[:3000])) or status == 451
             return {"home": home, "result": {"group": "5_not_shown",
                                              "reason": "geo_block" if geo else f"http_{status}"}}
+        if FIREFOX_ERROR_TITLE.match(title) and len(text) < 30:
+            # A JS or tracker redirect ended on a host that does not answer: Firefox shows its own
+            # error page, which is not the site's content.
+            moved = not aff.same_site(urlsplit(final).hostname or "", domain)
+            return {"home": home, "result": {"group": "5_dead",
+                                             "reason": "redirect_target_dead" if moved else "nav_error"}}
         if len(text) < 30 and len(html) < 3000:
             return {"home": home, "result": {"group": "5_dead", "reason": "empty_page"}}
 
@@ -663,7 +795,7 @@ class Scanner:
         clicked = []
         if js_cta:
             try:
-                marks = await page.evaluate(CTA_JS, aff.CTA.pattern)
+                marks = await asyncio.wait_for(page.evaluate(CTA_JS, aff.CTA.pattern), READ_TIMEOUT)
             except Exception:  # noqa: BLE001
                 marks = []
             state["capture"] = True
@@ -683,7 +815,10 @@ class Scanner:
             state["capture"] = False
             for p in ctx.pages:
                 if p != page:
-                    await p.close()
+                    try:
+                        await asyncio.wait_for(p.close(), READ_TIMEOUT)
+                    except Exception:  # noqa: BLE001 — a stuck popup is dropped with the context
+                        pass
         home["clicked"] = clicked
         click_urls = []
         for c in clicked:
@@ -693,13 +828,15 @@ class Scanner:
         queue = [{"url": u, "reason": "js_click", "refish": bool(aff.classify_ref(u, site)), "rank": -1}
                  for u in click_urls] + cands
         rec_cands, dests, not_followed = await self.follow_all(
-            queue, site, lambda u: self.follow(ctx, u, site, state))
+            queue, site, lambda u: self.follow(ctx, u, site, state), deadline=started + FOLLOW_DEADLINE)
         destinations += dests
         result = self.conclude(destinations, mentions, text, links, not_followed)
         return {"home": home, "candidates": rec_cands, "destinations": destinations, "result": result}
 
-    async def follow_all(self, queue, site, follow_fn):
-        """Follow candidates in order, up to MAX_FOLLOW; expand internal gate pages one level deep."""
+    async def follow_all(self, queue, site, follow_fn, deadline=None):
+        """Follow candidates in order, up to MAX_FOLLOW and until the deadline (epoch seconds), so a
+        site keeps what it found instead of timing out as a whole; expand internal gate pages one
+        level deep. The rest counts as not_followed."""
         seen, todo = set(), []
         for c in queue:
             k = cache_key(c["url"], site) or c["url"].split("#")[0]
@@ -709,7 +846,7 @@ class Scanner:
             todo.append(c)
         rec_cands = [{"url": c["url"][:300], "reason": c["reason"]} for c in todo]
         destinations, i = [], 0
-        while i < len(todo) and i < MAX_FOLLOW:
+        while i < len(todo) and i < MAX_FOLLOW and not (deadline and time.time() > deadline):
             c = todo[i]
             i += 1
             res = await follow_fn(c["url"])
@@ -753,7 +890,7 @@ class Scanner:
                "mode": "http", "queue_reason": item.get("reason"), "queue_priority": item.get("priority")}
         state = {"our_refs": []}
         follow = lambda u: self.follow_http_only(u, site, state)  # noqa: E731
-        home_raw = await aff.fetch_home(self.session, domain)
+        home_raw = await aff.fetch_home(self.session, domain, is_ours=lambda u: ref_key(u) in OUR_REFS)
         home = {"hops": [[h.get("status"), h.get("url")] for h in (home_raw.get("chain") or [])]}
         rec["home"] = home
         site = domain
@@ -782,13 +919,14 @@ class Scanner:
         links, js_buttons, js_cta, text = links_of(body or "", final)
         home.update(final_url=final, status=st, title=title, text_len=len(text), mostbet_mentions=mentions,
                     links=len(links), js_buttons=js_buttons, js_cta=js_cta, text_sample=text[:300],
-                    home_other_brand_mentions=sorted({n for n, rx in lb.BRAND_RES if rx.search(text)})[:20])
+                    home_other_brand_mentions=sorted({n for n, rx in lb.BRAND_RES if rx.search(text)})[:20],
+                    html_file=save_html(self.html_dir, domain, self.html_src, body, final, st))
         prot = aff.protection(st, {k.lower(): v for k, v in hdr.items()}, body or "")
         if prot in ("cloudflare_challenge", "ddos_guard", "captcha", "sucuri"):
             home["protection"] = prot
             rec["result"] = {"group": "needs_browser", "reason": f"protection:{prot}"}
             return rec
-        if lb.PARKED.search(title + " " + text[:3000]):
+        if lb.PARKED.search(title + " " + text[:3000]) or lb.PARKED_HTML.search((body or "")[:300_000]):
             rec["result"] = {"group": "5_dead", "reason": "parked"}
             return rec
         if st >= 400:
@@ -838,6 +976,130 @@ class Scanner:
                    our_refs_skipped=state["our_refs"])
         return rec
 
+    async def follow_rest(self, rec):
+        """Rest pass over a browser record: follow by plain HTTP the candidates it left unfollowed
+        and the destinations that ran out of time, then regroup. Candidates include the URLs
+        captured from clicked buttons, so the browser is not needed again; what HTTP cannot decide
+        stays needs_browser (unresolved)."""
+        h = rec.get("home") or {}
+        site = urlsplit(h.get("final_url") or "").hostname or rec["domain"]
+        state = {"our_refs": []}
+        keep = [d for d in rec.get("destinations") or [] if d.get("evidence") not in REST_RETRY]
+        seen = {d["url"] for d in keep}
+        queue = [{"url": c["url"], "reason": c["reason"], "rank": 0}
+                 for c in rec.get("candidates") or [] if c["url"] not in seen]
+        _, new, not_followed = await self.follow_all(queue, site, lambda u: self.follow_http_only(u, site, state))
+        for d in new:
+            d.pop("_html", None)
+        destinations = keep + new
+        live = [d for d in destinations if d.get("kind") != "internal"]
+        result = lb.site_group(live, h.get("mostbet_mentions") or 0)
+        result["unresolved"] = sum(d.get("kind") in ("dead", "unknown", "needs_browser") for d in live)
+        result["not_followed"] = not_followed
+        return {**rec, "ts": time.strftime("%Y-%m-%dT%H:%M:%S"), "network": self.network, "mode": "browser+rest",
+                "destinations": destinations, "result": result, "rest_followed": len(new),
+                "our_refs_skipped": (rec.get("our_refs_skipped") or []) + state["our_refs"]}
+
+    async def follow_deep(self, item):
+        """Deep pass: pages beyond the home page. Input rows carry `pages` (inner pages of the site: posts that
+        name Mostbet, registration / app / bonus pages) and `scripts` (the site's own JS files, where button
+        addresses hide when the page has none). Links found there are followed by HTTP like home-page links;
+        our refs are skipped as everywhere."""
+        domain = item["domain"]
+        site = item.get("site") or domain
+        state = {"our_refs": []}
+        links, pages, seen, kept = [], [], set(), []
+        for u in (item.get("pages") or "").split()[:self.deep_pages]:
+            try:
+                url, body = u, ""
+                for _ in range(4):  # same-site redirects only
+                    st, loc, _, body, _ = await aff.hop(self.session, url, aff.HOME_BODY_CAP,
+                                                         aiohttp.ClientTimeout(total=20, sock_connect=8))
+                    if 300 <= st < 400 and loc and aff.same_site(urlsplit(urljoin(url, loc)).hostname or "", site):
+                        url = urljoin(url, loc)
+                        continue
+                    break
+            except Exception as e:  # noqa: BLE001
+                pages.append({"url": u, "error": type(e).__name__})
+                continue
+            found, _, _, text = links_of(body or "", url)
+            kept.append({"url": url, "type": "page", "status": st, "body": (body or "")[:aff.HOME_BODY_CAP]})
+            pages.append({"url": u, "status": st, "links": len(found), "text_len": len(text),
+                          "mostbet_mentions": len(re.findall(r"mostbet|мостбет", body or "", re.I))})
+            links += [x for x in found if x[0] not in seen]
+            seen |= {x[0] for x in found}
+        for u in (item.get("scripts") or "").split()[:6]:
+            try:
+                async with self.session.get(u, timeout=aiohttp.ClientTimeout(total=20, sock_connect=8), ssl=False) as r:
+                    code = (await r.content.read(aff.JS_BODY_CAP)).decode("utf-8", "replace")
+                    kept.append({"url": u, "type": "script", "status": r.status, "body": code})
+            except Exception as e:  # noqa: BLE001
+                pages.append({"url": u, "error": type(e).__name__})
+                continue
+            found = [(aff.clean(m), "script_file") for m in aff.ABS_URL.findall(code)] + \
+                [(urljoin(f"https://{site}/", aff.clean(m)), "script_file_nav") for m in aff.JS_NAV.findall(code)]
+            for m in aff.B64_HTTP.findall(code):
+                found += [(x, "script_file:b64") for x in aff.b64_urls(m)]
+            pages.append({"url": u, "script_bytes": len(code), "urls": len(found)})
+            links += [x for x in found if x[0] not in seen]
+            seen |= {x[0] for x in found}
+        res_file = ""
+        if self.html_dir and kept:  # inner pages and scripts as fetched: <domain>.deep-res.json.gz
+            res_file = f"{domain}.{self.deep_tag}-res.json.gz"
+            with gzip.open(self.html_dir / res_file, "wt", encoding="utf-8") as f:
+                json.dump(kept, f, ensure_ascii=False)
+        cands, skipped = pick(links, site)
+        _, new, not_followed = await self.follow_all(cands, site, lambda u: self.follow_http_only(u, site, state))
+        for d in new:
+            d.pop("_html", None)
+        return {"domain": domain, "ts": time.strftime("%Y-%m-%dT%H:%M:%S"), "network": self.network, "mode": self.deep_tag,
+                "resources_file": res_file,
+                "pages": pages, "destinations": new, "not_followed": not_followed, "external_skipped": skipped,
+                "our_refs_skipped": state["our_refs"],
+                "result": {"group": "deep", "reason": f"pages={len(pages)} followed={len(new)}"}}
+
+    async def follow_gates(self, item):
+        """Gates pass: follow by plain HTTP the button addresses read from a saved home page (own
+        gates like /go/, external trackers) that no earlier pass took to the end. Input rows carry
+        `urls` (space-separated). Our refs are skipped as everywhere."""
+        domain = item["domain"]
+        site = item.get("site") or domain
+        state = {"our_refs": []}
+        queue = [{"url": u, "reason": "gate", "rank": 0} for u in (item.get("urls") or "").split() if u]
+        _, new, not_followed = await self.follow_all(queue, site, lambda u: self.follow_http_only(u, site, state))
+        for d in new:
+            d.pop("_html", None)
+        return {"domain": domain, "ts": time.strftime("%Y-%m-%dT%H:%M:%S"), "network": self.network, "mode": "gates",
+                "destinations": new, "not_followed": not_followed, "our_refs_skipped": state["our_refs"],
+                "result": {"group": "gates", "reason": f"followed={len(new)}"}}
+
+    async def home_dump(self, item):
+        """Home-only pass: fetch the home page by plain HTTP and keep it; nothing is followed, so
+        groups do not change. A home that redirects straight to a ref is recorded, not requested."""
+        domain = item["domain"]
+        rec = {"domain": domain, "ts": time.strftime("%Y-%m-%dT%H:%M:%S"), "network": self.network, "mode": "home"}
+        raw = await aff.fetch_home(self.session, domain, is_ours=lambda u: ref_key(u) in OUR_REFS)
+        home = {"hops": [[h.get("status"), h.get("url")] for h in (raw.get("chain") or [])]}
+        rec["home"] = home
+        if raw.get("home_ref"):
+            home["home_ref"] = raw["home_ref"][:300]
+            rec["result"] = {"group": "home_redirect", "reason": raw.get("home_ref_kind") or ""}
+            return rec
+        if not raw["ok"]:
+            home["error"] = raw.get("error") or "unknown"
+            rec["result"] = {"group": "no_answer", "reason": home["error"]}
+            return rec
+        st, body, final = raw["status"], raw["body"] or "", raw["final_url"]
+        tree = aff.HTMLParser(body)
+        title = (tree.css_first("title").text().strip() if tree.css_first("title") else "")[:200]
+        links, js_buttons, js_cta, text = links_of(body, final)
+        home.update(final_url=final, status=st, title=title, bytes=len(body), text_len=len(text),
+                    mostbet_mentions=len(re.findall(r"mostbet|мостбет", body, re.I)), links=len(links),
+                    js_buttons=js_buttons, js_cta=js_cta,
+                    html_file=save_html(self.html_dir, domain, self.html_src, body, final, st))
+        rec["result"] = {"group": "saved" if home["html_file"] else "not_html", "reason": f"http_{st}"}
+        return rec
+
     async def follow_http_only(self, url, site, state):
         key = cache_key(url, site)
         if key and key in self.cache:
@@ -851,6 +1113,16 @@ class Scanner:
         if key and res.get("kind") not in ("dead", "internal", "our_ref_skipped"):
             self.cache[key] = {k: v for k, v in res.items() if not k.startswith("_")}
         return res
+
+
+# Visitors a cloaking site treats differently from a plain desktop browser (--as).
+VISITORS = {
+    "google-mobile": {"User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-A536B) AppleWebKit/537.36 (KHTML, like Gecko) "
+                                    "Chrome/124.0 Mobile Safari/537.36", "Referer": "https://www.google.com/"},
+    "googlebot": {"User-Agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"},
+    "mobile": {"User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-A536B) AppleWebKit/537.36 (KHTML, like Gecko) "
+                             "Chrome/124.0 Mobile Safari/537.36"},
+}
 
 
 def repair_log(path: Path) -> int:
@@ -899,17 +1171,82 @@ def done_domains(path: Path):
     return done
 
 
-async def detect_network() -> str:
+def _consume(task):
+    if not task.cancelled():
+        task.exception()  # retrieved, so an abandoned task does not log "never retrieved"
+
+
+async def bounded(coro, timeout):
+    """Await coro for at most timeout seconds.
+
+    Unlike asyncio.wait_for, a timed-out task is cancelled without waiting for it to finish: the
+    cleanup of a page on a crashed browser (ctx.close() in a finally) can wait forever, and
+    wait_for would hang the worker with it.
+    """
+    task = asyncio.ensure_future(coro)
+    task.add_done_callback(_consume)
+    done, _ = await asyncio.wait({task}, timeout=timeout)
+    if not done:
+        task.cancel()
+        raise TimeoutError(f"no answer in {timeout}s")
+    return task.result()
+
+
+def kill_driver(cm):
+    """SIGKILL the Playwright driver of an AsyncCamoufox and everything below it (browser, content
+    processes), so a hung browser leaves no orphans behind. No-op when it has already exited."""
+    proc = getattr(getattr(getattr(cm, "_connection", None), "_transport", None), "_proc", None)
+    if proc is None or proc.returncode is not None:
+        return
+    pids, todo = [], [proc.pid]
+    while todo:
+        pid = todo.pop()
+        pids.append(pid)
+        out = subprocess.run(["pgrep", "-P", str(pid)], capture_output=True, text=True).stdout
+        todo += [int(x) for x in out.split()]
+    for pid in reversed(pids):
+        try:
+            os.kill(pid, signal.SIGKILL)
+        except ProcessLookupError:
+            pass
+
+
+async def proxy_alive(server: str) -> bool:
+    """One cheap request through the proxy. A dropped Mac tunnel would otherwise turn the rest of
+    the queue into connection errors within minutes."""
+    p = await asyncio.create_subprocess_exec(
+        "curl", "-sS", "-m", "10", "-o", "/dev/null", "-w", "%{http_code}",
+        "-x", server.replace("socks5://", "socks5h://", 1), "https://www.gstatic.com/generate_204",
+        stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.DEVNULL)
+    out, _ = await p.communicate()
+    return out.strip() == b"204"
+
+
+async def detect_network(proxy: dict | None = None) -> str:
+    """Exit IP as seen by the scan. With --proxy, probe through SOCKS (Mac tunnel), not the host."""
     try:
-        async with aiohttp.ClientSession() as s:
-            async with s.get("https://ipinfo.io/json", timeout=aiohttp.ClientTimeout(total=10)) as r:
-                j = await r.json(content_type=None)
-                return f"{j.get('country')} {j.get('org')} {j.get('ip')}"
+        if proxy:
+            # curl speaks socks5h; aiohttp would need aiohttp-socks.
+            server = proxy["server"]
+            r = subprocess.run(
+                ["curl", "-sS", "-m", "12", "-x", server.replace("socks5://", "socks5h://", 1),
+                 "https://ipinfo.io/json"],
+                capture_output=True, text=True, check=False,
+            )
+            if r.returncode != 0 or not r.stdout.strip():
+                return f"proxy_fail {server}"
+            j = json.loads(r.stdout)
+        else:
+            async with aiohttp.ClientSession() as s:
+                async with s.get("https://ipinfo.io/json", timeout=aiohttp.ClientTimeout(total=10)) as resp:
+                    j = await resp.json(content_type=None)
+        return f"{j.get('country')} {j.get('org')} {j.get('ip')}"
     except Exception:  # noqa: BLE001
         return "unknown"
 
 
 async def main():
+    global MAX_FOLLOW
     ap = argparse.ArgumentParser()
     ap.add_argument("queue_csv")
     ap.add_argument("out_dir")
@@ -918,16 +1255,44 @@ async def main():
     ap.add_argument("--priority", help="comma-separated queue priorities to take, e.g. 1,2")
     ap.add_argument("--redo", help="file with domains to rescan")
     ap.add_argument("--domains", help="file with domains to take from the queue (others are ignored)")
-    ap.add_argument("--mode", choices=("http", "destinations", "browser"), default="http",
+    ap.add_argument("--as", dest="as_", choices=sorted(VISITORS),
+                    help="HTTP scan as another visitor (cloaking check): google-mobile = mobile browser coming from a "
+                         "Google search, googlebot = Google's crawler. Logs to http-scan-<as>.jsonl.gz, pages to "
+                         "<domain>.http-<as>.html.gz")
+    ap.add_argument("--mode", choices=("http", "destinations", "browser", "home", "rest", "gates", "deep", "mbpages"), default="http",
                     help="http: sites by plain HTTP; destinations: unique destinations HTTP could not decide, "
-                         "in the browser; browser: whole sites whose home page needs a browser")
+                         "in the browser; browser: whole sites whose home page needs a browser; "
+                         "home: only fetch and keep home pages by plain HTTP (implies --save-html); "
+                         "rest: follow by HTTP what browser records left unfollowed (writes rest-scan.jsonl.gz)")
+    ap.add_argument("--max-follow", type=int, default=MAX_FOLLOW,
+                    help=f"destinations followed per site (default {MAX_FOLLOW}); the rest count as not_followed")
+    ap.add_argument("--save-html", nargs="?", const="", default=None, metavar="DIR",
+                    help="keep home pages as <domain>.<http|browser>.html.gz (default DIR: <out_dir>/html)")
     ap.add_argument("--from-http", action="store_true",
                     help="browser mode: take only domains still needs_browser after the destination pass")
+    ap.add_argument("--proxy",
+                    help="exit proxy for Camoufox and HTTP follows, e.g. socks5://127.0.0.1:1080 (SSH -R tunnel "
+                         "from the Mac). Does not change the host default route. Needs aiohttp-socks; "
+                         "the destination cache from other networks is not loaded")
     a = ap.parse_args()
+    if a.as_:
+        if a.mode != "http":
+            raise SystemExit("--as works with --mode http only")
+        aff.HEADERS.update(VISITORS[a.as_])
+    MAX_FOLLOW = a.max_follow
+    proxy = parse_proxy(a.proxy)
     out = Path(a.out_dir)
     out.mkdir(parents=True, exist_ok=True)
     scan = out / {"http": "http-scan.jsonl.gz", "destinations": "dest-browser.jsonl.gz",
-                  "browser": "browser-scan.jsonl.gz"}[a.mode]
+                  "browser": "browser-scan.jsonl.gz", "home": "home-dump.jsonl.gz",
+                  "rest": "rest-scan.jsonl.gz", "gates": "gates-scan.jsonl.gz", "deep": "deep-scan.jsonl.gz",
+                  "mbpages": "mbpages-scan.jsonl.gz"}[a.mode]
+    if a.as_:
+        scan = out / f"http-scan-{a.as_}.jsonl.gz"
+    html_dir = None
+    if a.save_html is not None or a.mode == "home":
+        html_dir = Path(a.save_html) if a.save_html else out / "html"
+        html_dir.mkdir(parents=True, exist_ok=True)
     for log in (scan, out / "dest-browser.jsonl.gz"):
         kept = repair_log(log)
         if kept >= 0:
@@ -946,6 +1311,9 @@ async def main():
         wanted = {x["domain"] for x in items}
         http_recs = {d: r for d, r in read_last(out / "http-scan.jsonl.gz").items() if d in wanted}
         items = pending_destinations(http_recs)
+    elif a.mode == "rest":
+        browser_recs = read_last(out / "browser-scan.jsonl.gz")
+        items = [{**x, "rec": browser_recs[x["domain"]]} for x in items if x["domain"] in browser_recs]
     elif a.from_http:
         http_recs = read_last(out / "http-scan.jsonl.gz")
         still = {d for d, r in http_recs.items() if resolve_record(r, dcache)["result"]["group"] == "needs_browser"}
@@ -958,14 +1326,28 @@ async def main():
     todo = [x for x in items if x["domain"] not in done]
     if a.limit:
         todo = todo[:a.limit]
-    network = await detect_network()
+    network = await detect_network(proxy)
     print(f"queue {len(items)}, done {len(done)}, todo {len(todo)}, network {network}, "
-          f"our refs guarded {len(OUR_REFS)}", flush=True)
+          f"our refs guarded {len(OUR_REFS)}"
+          + (f", proxy {proxy['server']}" if proxy else ""), flush=True)
+    if proxy and "proxy_fail" in network:
+        raise SystemExit("proxy is set but exit IP probe failed — is the Mac SOCKS tunnel up?")
 
-    conn = aiohttp.TCPConnector(limit=64, limit_per_host=4, ttl_dns_cache=600, enable_cleanup_closed=True)
+    if proxy:
+        from aiohttp_socks import ProxyConnector  # only proxied runs need it
+        # rdns: names resolve on the proxy side, like socks5h in curl
+        conn = ProxyConnector.from_url(a.proxy, rdns=True, limit=64, limit_per_host=4,
+                                       enable_cleanup_closed=True)
+    else:
+        conn = aiohttp.TCPConnector(limit=64, limit_per_host=4, ttl_dns_cache=600, enable_cleanup_closed=True)
     session = aiohttp.ClientSession(connector=conn, headers=aff.HEADERS, cookie_jar=aiohttp.DummyCookieJar())
-    scanner = Scanner(network, session)
-    scanner.cache.update(dcache)
+    scanner = Scanner(network, session, proxy=proxy, html_dir=html_dir)
+    if a.as_:
+        scanner.html_src = f"http-{a.as_}"
+    if a.mode == "mbpages":
+        scanner.deep_tag, scanner.deep_pages = "mbpages", 8
+    if not proxy and not a.as_:  # a cloaking site answers another visitor differently: no shared cache
+        scanner.cache.update(dcache)
     fh = gzip.open(scan, "at", encoding="utf-8")
     stats, t0, n = {}, time.time(), 0
     q = asyncio.Queue()
@@ -983,17 +1365,21 @@ async def main():
             rate = n / (time.time() - t0) * 60
             print(f"{n}/{len(todo)} {rate:.1f}/min {dict(sorted(stats.items()))}", flush=True)
 
+    http_one = {"home": scanner.home_dump, "rest": lambda x: scanner.follow_rest(x["rec"]),
+                "gates": scanner.follow_gates, "deep": scanner.follow_deep, "mbpages": scanner.follow_deep}.get(
+        a.mode, scanner.http_scan_site)
+
     async def http_worker():
         while not q.empty():
             item = q.get_nowait()
             t = time.time()
             try:
-                rec = await asyncio.wait_for(scanner.http_scan_site(item), timeout=SITE_TIMEOUT)
+                rec = await asyncio.wait_for(http_one(item), timeout=SITE_TIMEOUT)
             except Exception as e:  # noqa: BLE001
                 rec = {"domain": item["domain"], "ts": time.strftime("%Y-%m-%dT%H:%M:%S"), "network": network,
-                       "mode": "http", "queue_reason": item.get("reason"),
-                       "result": {"group": "needs_browser", "reason": "scan_error:" + type(e).__name__,
-                                  "detail": str(e)[:200]}}
+                       "mode": a.mode, "queue_reason": item.get("reason"),
+                       "result": {"group": "needs_browser" if a.mode == "http" else "no_answer",
+                                  "reason": "scan_error:" + type(e).__name__, "detail": str(e)[:200]}}
             rec["elapsed_s"] = round(time.time() - t, 1)
             write(rec)
 
@@ -1001,19 +1387,42 @@ async def main():
     # content process, so a single heavy page stalls every other tab of the same browser.
     run_one = scanner.resolve_destination if a.mode == "destinations" else scanner.scan_site
 
-    async def worker():
+    async def worker(wid):
+        """One browser, relaunched after every batch, crash or hang; exits only when the queue is empty."""
+        from camoufox import DefaultAddons
         from camoufox.async_api import AsyncCamoufox
+        fails = 0
         while not q.empty():
-            async with AsyncCamoufox(headless=True, geoip=True, block_images=True, humanize=False,
-                                     i_know_what_im_doing=True) as browser:
+            # Camoufox bundles uBlock Origin by default; it aborts ad, tracker and parking scripts,
+            # which are exactly what this scan has to see (parked shells rendered as empty pages).
+            launch = dict(headless=True, geoip=True, block_images=True, humanize=False,
+                          i_know_what_im_doing=True, exclude_addons=[DefaultAddons.UBO])
+            if proxy:
+                launch["proxy"] = proxy
+            cm = AsyncCamoufox(**launch)
+            try:
+                browser = await bounded(cm.__aenter__(), LAUNCH_TIMEOUT)
+            except Exception as e:  # noqa: BLE001
+                fails += 1
+                kill_driver(cm)
+                delay = min(300, 10 * 2 ** min(fails, 5))
+                print(f"worker {wid}: browser launch failed ({type(e).__name__}: {str(e)[:120]}), "
+                      f"retry in {delay}s", flush=True)
+                await asyncio.sleep(delay)
+                continue
+            fails = 0
+            try:
                 for _ in range(BATCH):
+                    while proxy and not await proxy_alive(proxy["server"]):
+                        print(f"{time.strftime('%H:%M:%S')} worker {wid}: proxy down, waiting", flush=True)
+                        await asyncio.sleep(60)
                     if q.empty():
                         break
                     item = q.get_nowait()
                     t = time.time()
                     restart = False
                     try:
-                        rec = await asyncio.wait_for(run_one(browser, item), timeout=SITE_TIMEOUT)
+                        rec = await bounded(run_one(browser, item), SITE_TIMEOUT)
                     except Exception as e:  # noqa: BLE001 — a stuck or crashed browser is replaced
                         restart = True
                         rec = {"domain": item["domain"], "ts": time.strftime("%Y-%m-%dT%H:%M:%S"),
@@ -1021,11 +1430,20 @@ async def main():
                                "result": {"group": "5_not_shown", "reason": "scan_error:" + type(e).__name__,
                                           "detail": str(e)[:200]}}
                     rec["elapsed_s"] = round(time.time() - t, 1)
+                    if proxy:
+                        rec["proxy"] = proxy["server"]
                     write(rec)
                     if restart:
                         break
+            finally:
+                try:
+                    await bounded(cm.__aexit__(None, None, None), CLOSE_TIMEOUT)
+                except Exception:  # noqa: BLE001 — a dead browser may never answer close()
+                    pass
+                kill_driver(cm)
 
-    await asyncio.gather(*((http_worker() if a.mode == "http" else worker()) for _ in range(a.concurrency)))
+    await asyncio.gather(*((http_worker() if a.mode in ("http", "home", "rest", "gates", "deep", "mbpages") else worker(i))
+                           for i in range(a.concurrency)))
     await session.close()
     fh.close()
     print("done", dict(sorted(stats.items())), flush=True)

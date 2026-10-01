@@ -1,0 +1,394 @@
+[
+ {
+  "domain": "ciepukacademy.com",
+  "given": "article",
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.8,
+  "comment": "Сайт учебных курсов; в блоке «Our Blogs» ленты — статьи на азербайджанском про вход в Mostbet (/mostbet-girisi-…). Mostbet не тема сайта, типичные продажные посты."
+ },
+ {
+  "domain": "f-nail.ru",
+  "given": "article",
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.75,
+  "comment": "Магазин товаров для салонов; ленты статей нет (articles=0), в тело вставлен блок «Вход в личный кабинет казино mostbet», где анкоры «mostbet»/«мостбет» ведут на nsmaster.ru и lawfirmmanagement.ru — инъекция ссылок."
+ },
+ {
+  "domain": "glamorousgrowth.com",
+  "given": "article",
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.7,
+  "comment": "Блог о саморазвитии, в ленте Mostbet нет; в подвал вставлен турецкий абзац «MostBet, Türkiye’nin bahis…» с URL yildizteknikservis.com.tr (перед ним мусор «Array%9151725802972617%») — инъекция, а не пост."
+ },
+ {
+  "domain": "gotbalance.com",
+  "given": "article",
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Сайт о здоровье и фитнесе; в ленте от admin посты «Mostbet App Təhlükəsizliyi», «Mostbet Azərbaycan: Rəsmi Sayt…» (08.2025) рядом со статьями о медитации."
+ },
+ {
+  "domain": "ilebasi.ir",
+  "given": "article",
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.75,
+  "comment": "Иранский магазин одежды; в разделе «وبلاگ» посты «Mostbet-də Kiberidman Mərcləri», «Mostbet-də Fantaziya Idmanı» вперемешку с PrimePlay и NV Casino — продажная лента."
+ },
+ {
+  "domain": "nutraking.hu",
+  "given": "article",
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Магазин БАДов; в ленте блога среди статей о магнии пост «İnteraktiv yanaşma: Mostbet AZ istifadəçi müraciətlərinin…» (03.02.2026)."
+ },
+ {
+  "domain": "offthetable.org.au",
+  "given": "article",
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.8,
+  "comment": "Кампания против фермерского лосося; в ленте News пост «Mostbet AZ – bukmeker ve kazino Mostbet – Giriş rəsmi sayt» (23.06.2025) между новостями о шефах."
+ },
+ {
+  "domain": "sezioneaurea.com",
+  "given": "article",
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.6,
+  "comment": "Сайт дизайн-агентства; ленты нет, главная переписана под «Stampa professionale… con mostbet bônus sem depósito» с анкором на mostbet-for-portugal.com и пунктом меню /mostbet — захваченная главная."
+ },
+ {
+  "domain": "sportim.ru",
+  "given": "article",
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.55,
+  "comment": "Спортивные новости, Mostbet в тексте нет; в сайдбаре баннер mostbet1000x1000.webp с реф-ссылкой zo7qsh1t1jmrpr3mst.com/NXSS. Ближе всего article, но по сути это СМИ с рекламным баннером Mostbet."
+ },
+ {
+  "domain": "altfwok.net",
+  "given": "hacked",
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.9,
+  "comment": "Арабский рейтинг казино «أفضل كازينو اون لاين مصر»: 1xBet, Mostbet, Melbet, 888Starz, Rabona с бонусами; /mostbet — внутренний шлюз «العب الآن». Гэмблинг-аффилиат, не взлом."
+ },
+ {
+  "domain": "egyptgamblingtheraphy.org",
+  "given": "hacked",
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.9,
+  "comment": "Копия altfwok.net: рейтинг восьми казино Египта, Mostbet — одна из карточек со шлюзом /mostbet. Мультибренд."
+ },
+ {
+  "domain": "aventure-se.com",
+  "given": "hacked",
+  "verdict": "wrong",
+  "should_be": "article",
+  "confidence": 0.8,
+  "comment": "Тревел-блог на WordPress.com; в ленте пост «Evite Estes Erros Comuns nas Apostas: Um Guia da Mostbet» (2024/07/30) и пост о безопасности казино рядом с путевыми заметками — продажные статьи, а не анкоры."
+ },
+ {
+  "domain": "cruxcarecoliving.com",
+  "given": "hacked",
+  "verdict": "correct",
+  "should_be": "hacked",
+  "confidence": 0.95,
+  "comment": "Реабцентр трезвого проживания; в h1 вставлен блок за экраном (left:-13945px) «Play in mostbet casino» с анкорами на lido-plage.com, mesakoza66.com и десятком ссылок 1win/chicken road."
+ },
+ {
+  "domain": "integratedpowersys.com",
+  "given": "hacked",
+  "verdict": "correct",
+  "should_be": "hacked",
+  "confidence": 0.95,
+  "comment": "Магазин промышленной электрики; в шапку и блок категорий вставлены анкоры «mostbet», «mostbet az», «mostbet kz», «mostbit» на mostbet-live.kz, mostbet-giris-azn.com и сателлиты Pin-Up."
+ },
+ {
+  "domain": "michael-jordan-ar.com",
+  "given": "hacked",
+  "verdict": "wrong",
+  "should_be": "article",
+  "confidence": 0.6,
+  "comment": "Фан-сайт о Майкле Джордане; Mostbet — во внутреннем посте ленты «دليل جديد لتنزيل Mostbet على Android» (/mostbet-apk) рядом с постами про 1Win и 1xBet. Лента статей, не анкоры."
+ },
+ {
+  "domain": "outdoorlogic.net",
+  "given": "hacked",
+  "verdict": "wrong",
+  "should_be": "article",
+  "confidence": 0.8,
+  "comment": "Сайт группы Good Gravy превращён в линк-селлер: лента постов про ставки, «Mostbet Promo Code Bonuses», Solana, стероиды; блок «Links:» с внешними ссылками."
+ },
+ {
+  "domain": "skinfoodapothecary.co.za",
+  "given": "hacked",
+  "verdict": "wrong",
+  "should_be": "article",
+  "confidence": 0.8,
+  "comment": "Магазин косметики; в «Our Blog» посты «Mostbet Online Casino Cz Oficiální Stránky…» и про 22Bet — продажная лента, Mostbet во внутренних ссылках на посты."
+ },
+ {
+  "domain": "tipica.org",
+  "given": "hacked",
+  "verdict": "correct",
+  "should_be": "hacked",
+  "confidence": 0.85,
+  "comment": "Бюллетень школьного здоровья; в новость о книге вставлен абзац про «Mostbet APK» для «juego seguro» с анкором на mostbetapk.com/es/."
+ },
+ {
+  "domain": "visitrussiaspain.es",
+  "given": "hacked",
+  "verdict": "correct",
+  "should_be": "hacked",
+  "confidence": 0.9,
+  "comment": "Туристический сайт о России; вставленная фраза «mostbet aporta un sutil brillo de audacia» с анкором на mostbet-espana.es, рядом ссылки на jokabet."
+ },
+ {
+  "domain": "apmccper.org.in",
+  "given": "multibrand",
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.9,
+  "comment": "Сайт про Aviator (редирект на apnacoolingsolution.in): витрина 1win, Batery, Mostbet, 4rabet со шлюзами /go/<бренд>/."
+ },
+ {
+  "domain": "bestinternationalschool.in",
+  "given": "multibrand",
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.9,
+  "comment": "Aviator India: шесть операторов (4RABET, 1Win, Pin-Up, 888Starz, Mostbet, Battery), шлюзы /go/<бренд>."
+ },
+ {
+  "domain": "burning-wins-official.ru",
+  "given": "multibrand",
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Сайт слота Burning Wins: настройки в Mostbet, 1Win, BitStarz, Pin-Up; сеть ссылок на другие слот-сайты (links-go9.top)."
+ },
+ {
+  "domain": "ecaclub.in",
+  "given": "multibrand",
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.9,
+  "comment": "Тот же шаблон Aviator India, что bestinternationalschool.in: шесть брендов со шлюзами /go/."
+ },
+ {
+  "domain": "goteach.ro",
+  "given": "multibrand",
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.9,
+  "comment": "Журнал для учителей английского, текста 600 знаков; в заголовки номеров и шапку вставлены анкоры «mostbet», «mosbet», «most bet» на mostbet-play.kz и mostbet-cazino.kz плюс pin-up, 1win. Плотность 5.03 — артефакт малого текста."
+ },
+ {
+  "domain": "maxbetslot-fdy.top",
+  "given": "multibrand",
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.7,
+  "comment": "Дорвей-зеркало MaxBet с таблицей бонусов семи казино (Pivo, Winity, Azino, Riobet, Playfortuna, Leon, Mostbet) и шлюзом /links/Mostbet.php. Mostbet — один из."
+ },
+ {
+  "domain": "palmemirates.in",
+  "given": "multibrand",
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.9,
+  "comment": "Тот же шаблон Aviator India, шесть брендов, шлюзы /go/."
+ },
+ {
+  "domain": "reydonimpex.com",
+  "given": "multibrand",
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.9,
+  "comment": "Магазин спортивной формы; спам-блоки за экраном (left:-9966px) с анкорами «Mostbet casino», «Mostbet PL» на polskidramat.pl, brnostavi.cz, parent2parentnj.org и т. п. Гэмблинга в теме сайта нет."
+ },
+ {
+  "domain": "togovn.com",
+  "given": "multibrand",
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.8,
+  "comment": "Вьетнамский производитель термобумаги; в «Tin tức» посты «…v kasinu Mostbet CZ», плюс скрытые (left:-9966px) и открытые анкоры «Mostbet» на чужие сателлиты. Взлом, не гэмблинг-аффилиат."
+ },
+ {
+  "domain": "winbetbd.com",
+  "given": "multibrand",
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Кэшбэк-витрина WinBet BD: JeetWin, Baji, 1xBet, MelBet, MostBet, реф-ссылки на 1win (1wezue.com) и Melbet (reffpa.com)."
+ },
+ {
+  "domain": "gruhalaxminri.com",
+  "given": "bait",
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "title и meta description «Mostbet Casino Official Website in Bangladesh», а всё тело — обзор MelBet (h1 «MelBet Sports Betting and Casino Site»)."
+ },
+ {
+  "domain": "mostbet-1214.xyz",
+  "given": "bait",
+  "verdict": "unsure",
+  "should_be": "redirect_ref",
+  "confidence": 0.55,
+  "comment": "Главная сразу 302 → go657673.com?id=17336 → vodka2e9r.com (Vodka Casino); своей страницы нет. Это редирект на трекер чужого бренда; bait только если redirect_ref зарезервирован за рефками Mostbet."
+ },
+ {
+  "domain": "mostbet-335.xyz",
+  "given": "bait",
+  "verdict": "unsure",
+  "should_be": "redirect_ref",
+  "confidence": 0.55,
+  "comment": "Главная через go.php уводит на go2chirinkotan.com/?ref=fap_w24128p111_runodep → казино «Лев»; своей страницы нет. Редирект на рефку чужого бренда."
+ },
+ {
+  "domain": "mostbet-canada.ca",
+  "given": "bait",
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Домен с Mostbet, страница — чешский обзор бонусов Amunra Casino."
+ },
+ {
+  "domain": "mostbet-ireland.org",
+  "given": "bait",
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Побайтово та же страница Amunra Casino (CZ), что на mostbet-canada.ca."
+ },
+ {
+  "domain": "mostbet-marc.com",
+  "given": "bait",
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Домен с Mostbet, страница «Online Slots Morocco: Best Online Casinos for Slots»; Mostbet в тексте не упомянут."
+ },
+ {
+  "domain": "mostbet-uz.fun",
+  "given": "bait",
+  "verdict": "unsure",
+  "should_be": "redirect_ref",
+  "confidence": 0.55,
+  "comment": "Главная 302 → 1wyikj.life (зеркало 1win через клоаку bundlecda.com); своей страницы нет. Редирект на чужой бренд."
+ },
+ {
+  "domain": "mostbetcasino-pt.click",
+  "given": "bait",
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Домен с Mostbet, страница — индонезийский слот/тогель «NIRMALABET x BIOLATOGEL» на шаблоне обувного магазина."
+ },
+ {
+  "domain": "mostbetpromo.mobi",
+  "given": "bait",
+  "verdict": "unsure",
+  "should_be": "redirect_ref",
+  "confidence": 0.55,
+  "comment": "Та же цепочка, что у mostbet-335.xyz: go.php → go2chirinkotan.com/?ref=fap_w24128p111_runodep → казино «Лев»."
+ },
+ {
+  "domain": "on-it.co.il",
+  "given": "bait",
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.8,
+  "comment": "Сайт IT-компании на WordPress с lorem ipsum; «mostbet kz» вписано в слоган сайта, откуда попало в title, meta description и JSON-LD. Про чужой бренд страница не рассказывает — это взлом/порча настроек."
+ },
+ {
+  "domain": "autoslezak.cz",
+  "given": "unclear",
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.75,
+  "comment": "home-dump: HTTP 200 без редиректов, тело 0 байт, title пуст — пустая страница. Группа not_html возникла из-за пустого ответа."
+ },
+ {
+  "domain": "filminfinite.com",
+  "given": "unclear",
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.75,
+  "comment": "home-dump: HTTP 200 без редиректов, тело 0 байт, title пуст — пустая страница. Группа not_html возникла из-за пустого ответа."
+ },
+ {
+  "domain": "lesamesarts.fr",
+  "given": "unclear",
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.75,
+  "comment": "home-dump: HTTP 200 без редиректов, тело 0 байт, title пуст — пустая страница. Группа not_html возникла из-за пустого ответа."
+ },
+ {
+  "domain": "mostbet-bwg96.buzz",
+  "given": "unclear",
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.75,
+  "comment": "home-dump: HTTP 200 без редиректов, тело 0 байт, title пуст — пустая страница. Группа not_html возникла из-за пустого ответа."
+ },
+ {
+  "domain": "mostbet-download-kz.com",
+  "given": "unclear",
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.75,
+  "comment": "home-dump: HTTP 200 без редиректов, тело 0 байт, title пуст — пустая страница. Группа not_html возникла из-за пустого ответа."
+ },
+ {
+  "domain": "mostbet-pl.digital",
+  "given": "unclear",
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.75,
+  "comment": "home-dump: HTTP 200 без редиректов, тело 0 байт, title пуст — пустая страница. Группа not_html возникла из-за пустого ответа."
+ },
+ {
+  "domain": "mostbetilovasi.ru",
+  "given": "unclear",
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.75,
+  "comment": "home-dump: HTTP 200 без редиректов, тело 0 байт, title пуст — пустая страница. Группа not_html возникла из-за пустого ответа."
+ },
+ {
+  "domain": "pilawadolna.pl",
+  "given": "unclear",
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.75,
+  "comment": "home-dump: HTTP 200 без редиректов, тело 0 байт, title пуст — пустая страница. Группа not_html возникла из-за пустого ответа."
+ },
+ {
+  "domain": "zerkalomostbet10.ru",
+  "given": "unclear",
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.75,
+  "comment": "home-dump: HTTP 200 без редиректов, тело 0 байт, title пуст — пустая страница. Группа not_html возникла из-за пустого ответа."
+ },
+ {
+  "domain": "tappy-bird.co.kr",
+  "given": "unclear",
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Сайт игры Tappy Bird с блоком партнёров MOSTBET / PIN-UP / 1WIN; все кнопки /out/tappy-bird ведут на 1win (chickenpirate-link.com, buyer=seo044_tmld). Играет на бренде Mostbet, а трафик отдаёт 1win."
+ }
+]

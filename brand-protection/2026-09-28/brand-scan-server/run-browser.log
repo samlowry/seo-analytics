@@ -1,0 +1,138 @@
+waiting for proxy...
+PROXY_OK 109.245.134.170
+proxy_ip=109.245.134.170
+queue 4140, done 0, todo 4140, network RS AS15958 CETINdoo-NET 109.245.134.170, our refs guarded 321, proxy socks5://127.0.0.1:1080
+25/4140 9.6/min {'1_mostbet_only': 5, '2_no_ads': 20}
+waiting for proxy...
+PROXY_OK 109.245.134.170
+proxy_ip=109.245.134.170 redo=brand-protection/2026-09-28/brand-scan/redo-proxy-follow.txt
+repaired truncated browser-scan.jsonl.gz: 43 records kept
+queue 2287, done 33, todo 2287, network RS AS15958 CETINdoo-NET 109.245.134.170, our refs guarded 321, proxy socks5://127.0.0.1:1080
+25/2287 6.6/min {'1_mostbet_only': 24, '2_no_ads': 1}
+50/2287 8.5/min {'1_mostbet_only': 49, '2_no_ads': 1}
+75/2287 9.1/min {'1_mostbet_only': 74, '2_no_ads': 1}
+100/2287 9.7/min {'1_mostbet_only': 98, '2_no_ads': 1, '3_other_only': 1}
+125/2287 10.1/min {'1_mostbet_only': 122, '2_no_ads': 1, '3_other_only': 2}
+150/2287 10.5/min {'1_mostbet_only': 145, '2_no_ads': 1, '3_other_only': 4}
+175/2287 10.5/min {'1_mostbet_only': 170, '2_no_ads': 1, '3_other_only': 4}
+200/2287 10.5/min {'1_mostbet_only': 193, '2_no_ads': 1, '3_other_only': 6}
+225/2287 10.1/min {'1_mostbet_only': 214, '2_no_ads': 1, '3_other_only': 10}
+250/2287 9.7/min {'1_mostbet_only': 238, '2_no_ads': 1, '3_other_only': 11}
+275/2287 9.2/min {'1_mostbet_only': 263, '2_no_ads': 1, '3_other_only': 11}
+300/2287 8.8/min {'1_mostbet_only': 288, '2_no_ads': 1, '3_other_only': 11}
+325/2287 8.5/min {'1_mostbet_only': 313, '2_no_ads': 1, '3_other_only': 11}
+350/2287 8.5/min {'1_mostbet_only': 338, '2_no_ads': 1, '3_other_only': 11}
+375/2287 8.6/min {'1_mostbet_only': 363, '2_no_ads': 1, '3_other_only': 11}
+400/2287 8.6/min {'1_mostbet_only': 385, '2_no_ads': 1, '3_other_only': 14}
+425/2287 8.9/min {'1_mostbet_only': 406, '2_no_ads': 1, '3_other_only': 18}
+450/2287 9.1/min {'1_mostbet_only': 430, '2_no_ads': 1, '3_other_only': 19}
+475/2287 9.1/min {'1_mostbet_only': 454, '2_no_ads': 1, '3_other_only': 20}
+500/2287 9.2/min {'1_mostbet_only': 477, '2_no_ads': 2, '3_other_only': 21}
+525/2287 9.3/min {'1_mostbet_only': 502, '2_no_ads': 2, '3_other_only': 21}
+550/2287 9.4/min {'1_mostbet_only': 527, '2_no_ads': 2, '3_other_only': 21}
+575/2287 9.5/min {'1_mostbet_only': 552, '2_no_ads': 2, '3_other_only': 21}
+600/2287 9.6/min {'1_mostbet_only': 577, '2_no_ads': 2, '3_other_only': 21}
+625/2287 9.6/min {'1_mostbet_only': 602, '2_no_ads': 2, '3_other_only': 21}
+node:events:487
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:1026:11)
+    at Socket._write (node:net:1038:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at PipeTransport.send (/root/.cache/uv/archive-v0/bAqQYK81tDPwq37csjO71/lib/python3.12/site-packages/playwright/driver/package/lib/coreBundle.js:34569:25)
+    at dispatcherConnection.onmessage (/root/.cache/uv/archive-v0/bAqQYK81tDPwq37csjO71/lib/python3.12/site-packages/playwright/driver/package/lib/coreBundle.js:69266:59)
+    at DispatcherConnection.sendEvent (/root/.cache/uv/archive-v0/bAqQYK81tDPwq37csjO71/lib/python3.12/site-packages/playwright/driver/package/lib/coreBundle.js:18641:14)
+Emitted 'error' event on Socket instance at:
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processImmediate (node:internal/timers:472:9) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write'
+}
+
+Node.js v24.18.1
+waiting for proxy...
+PROXY_OK 109.245.134.170
+proxy_ip=109.245.134.170 redo=brand-protection/2026-09-28/brand-scan/redo-proxy-http.txt
+repaired truncated browser-scan.jsonl.gz: 676 records kept
+queue 1730, done 666, todo 1730, network RS AS15958 CETINdoo-NET 109.245.134.170, our refs guarded 321, proxy socks5://127.0.0.1:1080
+25/1730 23.0/min {'1_mostbet_only': 24, '2_no_ads': 1}
+50/1730 26.3/min {'1_mostbet_only': 48, '2_no_ads': 2}
+75/1730 28.4/min {'1_mostbet_only': 73, '2_no_ads': 2}
+100/1730 29.5/min {'1_mostbet_only': 98, '2_no_ads': 2}
+125/1730 30.7/min {'1_mostbet_only': 123, '2_no_ads': 2}
+150/1730 31.3/min {'1_mostbet_only': 148, '2_no_ads': 2}
+175/1730 32.3/min {'1_mostbet_only': 173, '2_no_ads': 2}
+200/1730 33.1/min {'1_mostbet_only': 198, '2_no_ads': 2}
+225/1730 33.3/min {'1_mostbet_only': 222, '2_no_ads': 2, '3_other_only': 1}
+250/1730 32.9/min {'1_mostbet_only': 244, '2_no_ads': 2, '3_other_only': 4}
+275/1730 33.9/min {'1_mostbet_only': 269, '2_no_ads': 2, '3_other_only': 4}
+300/1730 34.8/min {'1_mostbet_only': 294, '2_no_ads': 2, '3_other_only': 4}
+325/1730 35.9/min {'1_mostbet_only': 318, '2_no_ads': 2, '3_other_only': 4, '4_mixed': 1}
+350/1730 36.9/min {'1_mostbet_only': 343, '2_no_ads': 2, '3_other_only': 4, '4_mixed': 1}
+375/1730 36.1/min {'1_mostbet_only': 367, '2_no_ads': 3, '3_other_only': 4, '4_mixed': 1}
+400/1730 35.6/min {'1_mostbet_only': 392, '2_no_ads': 3, '3_other_only': 4, '4_mixed': 1}
+425/1730 35.4/min {'1_mostbet_only': 417, '2_no_ads': 3, '3_other_only': 4, '4_mixed': 1}
+450/1730 35.1/min {'1_mostbet_only': 442, '2_no_ads': 3, '3_other_only': 4, '4_mixed': 1}
+475/1730 35.2/min {'1_mostbet_only': 467, '2_no_ads': 3, '3_other_only': 4, '4_mixed': 1}
+500/1730 35.5/min {'1_mostbet_only': 492, '2_no_ads': 3, '3_other_only': 4, '4_mixed': 1}
+525/1730 33.8/min {'1_mostbet_only': 499, '2_no_ads': 21, '3_other_only': 4, '4_mixed': 1}
+550/1730 31.9/min {'1_mostbet_only': 499, '2_no_ads': 46, '3_other_only': 4, '4_mixed': 1}
+575/1730 30.5/min {'1_mostbet_only': 499, '2_no_ads': 71, '3_other_only': 4, '4_mixed': 1}
+600/1730 29.2/min {'1_mostbet_only': 499, '2_no_ads': 96, '3_other_only': 4, '4_mixed': 1}
+625/1730 28.3/min {'1_mostbet_only': 499, '2_no_ads': 121, '3_other_only': 4, '4_mixed': 1}
+650/1730 27.1/min {'1_mostbet_only': 499, '2_no_ads': 146, '3_other_only': 4, '4_mixed': 1}
+675/1730 26.3/min {'1_mostbet_only': 499, '2_no_ads': 171, '3_other_only': 4, '4_mixed': 1}
+700/1730 25.5/min {'1_mostbet_only': 499, '2_no_ads': 196, '3_other_only': 4, '4_mixed': 1}
+725/1730 24.9/min {'1_mostbet_only': 499, '2_no_ads': 221, '3_other_only': 4, '4_mixed': 1}
+750/1730 24.2/min {'1_mostbet_only': 499, '2_no_ads': 246, '3_other_only': 4, '4_mixed': 1}
+775/1730 24.0/min {'1_mostbet_only': 499, '2_no_ads': 271, '3_other_only': 4, '4_mixed': 1}
+800/1730 23.5/min {'1_mostbet_only': 499, '2_no_ads': 296, '3_other_only': 4, '4_mixed': 1}
+825/1730 23.3/min {'1_mostbet_only': 499, '2_no_ads': 321, '3_other_only': 4, '4_mixed': 1}
+850/1730 22.8/min {'1_mostbet_only': 499, '2_no_ads': 346, '3_other_only': 4, '4_mixed': 1}
+875/1730 22.7/min {'1_mostbet_only': 500, '2_no_ads': 370, '3_other_only': 4, '4_mixed': 1}
+900/1730 22.6/min {'1_mostbet_only': 500, '2_no_ads': 395, '3_other_only': 4, '4_mixed': 1}
+925/1730 22.4/min {'1_mostbet_only': 500, '2_no_ads': 420, '3_other_only': 4, '4_mixed': 1}
+950/1730 22.1/min {'1_mostbet_only': 500, '2_no_ads': 445, '3_other_only': 4, '4_mixed': 1}
+975/1730 21.8/min {'1_mostbet_only': 500, '2_no_ads': 470, '3_other_only': 4, '4_mixed': 1}
+1000/1730 21.5/min {'1_mostbet_only': 500, '2_no_ads': 495, '3_other_only': 4, '4_mixed': 1}
+1025/1730 21.3/min {'1_mostbet_only': 500, '2_no_ads': 520, '3_other_only': 4, '4_mixed': 1}
+1050/1730 21.0/min {'1_mostbet_only': 500, '2_no_ads': 545, '3_other_only': 4, '4_mixed': 1}
+1075/1730 20.8/min {'1_mostbet_only': 500, '2_no_ads': 570, '3_other_only': 4, '4_mixed': 1}
+1100/1730 20.7/min {'1_mostbet_only': 500, '2_no_ads': 595, '3_other_only': 4, '4_mixed': 1}
+1125/1730 20.8/min {'1_mostbet_only': 501, '2_no_ads': 619, '3_other_only': 4, '4_mixed': 1}
+1150/1730 20.9/min {'1_mostbet_only': 502, '2_no_ads': 642, '3_other_only': 5, '4_mixed': 1}
+1175/1730 20.7/min {'1_mostbet_only': 502, '2_no_ads': 666, '3_other_only': 6, '4_mixed': 1}
+1200/1730 20.8/min {'1_mostbet_only': 502, '2_no_ads': 688, '3_other_only': 7, '4_mixed': 1, '5_dead': 2}
+1225/1730 20.9/min {'1_mostbet_only': 503, '2_no_ads': 712, '3_other_only': 7, '4_mixed': 1, '5_dead': 2}
+1250/1730 21.0/min {'1_mostbet_only': 503, '2_no_ads': 737, '3_other_only': 7, '4_mixed': 1, '5_dead': 2}
+1275/1730 21.2/min {'1_mostbet_only': 503, '2_no_ads': 758, '3_other_only': 7, '4_mixed': 1, '5_dead': 6}
+1300/1730 21.4/min {'1_mostbet_only': 504, '2_no_ads': 782, '3_other_only': 7, '4_mixed': 1, '5_dead': 6}
+1325/1730 21.4/min {'1_mostbet_only': 505, '2_no_ads': 802, '3_other_only': 10, '4_mixed': 1, '5_dead': 7}
+1350/1730 21.7/min {'1_mostbet_only': 505, '2_no_ads': 823, '3_other_only': 11, '4_mixed': 1, '5_dead': 10}
+1375/1730 21.9/min {'1_mostbet_only': 507, '2_no_ads': 846, '3_other_only': 11, '4_mixed': 1, '5_dead': 10}
+1400/1730 21.9/min {'1_mostbet_only': 507, '2_no_ads': 871, '3_other_only': 11, '4_mixed': 1, '5_dead': 10}
+1425/1730 22.1/min {'1_mostbet_only': 508, '2_no_ads': 895, '3_other_only': 11, '4_mixed': 1, '5_dead': 10}
+1450/1730 22.3/min {'1_mostbet_only': 508, '2_no_ads': 917, '3_other_only': 12, '4_mixed': 1, '5_dead': 10, '5_not_shown': 2}
+1475/1730 22.1/min {'1_mostbet_only': 508, '2_no_ads': 941, '3_other_only': 12, '4_mixed': 1, '5_dead': 10, '5_not_shown': 3}
+1500/1730 22.2/min {'1_mostbet_only': 508, '2_no_ads': 963, '3_other_only': 12, '4_mixed': 1, '5_dead': 10, '5_not_shown': 6}
+1525/1730 22.3/min {'1_mostbet_only': 509, '2_no_ads': 986, '3_other_only': 12, '4_mixed': 1, '5_dead': 11, '5_not_shown': 6}
+1550/1730 22.4/min {'1_mostbet_only': 509, '2_no_ads': 1011, '3_other_only': 12, '4_mixed': 1, '5_dead': 11, '5_not_shown': 6}
+1575/1730 21.8/min {'1_mostbet_only': 509, '2_no_ads': 1035, '3_other_only': 12, '4_mixed': 1, '5_dead': 12, '5_not_shown': 6}
+1600/1730 21.6/min {'1_mostbet_only': 509, '2_no_ads': 1059, '3_other_only': 12, '4_mixed': 1, '5_dead': 13, '5_not_shown': 6}
+1625/1730 21.4/min {'1_mostbet_only': 509, '2_no_ads': 1084, '3_other_only': 12, '4_mixed': 1, '5_dead': 13, '5_not_shown': 6}
+1650/1730 21.2/min {'1_mostbet_only': 509, '2_no_ads': 1108, '3_other_only': 12, '4_mixed': 1, '5_dead': 14, '5_not_shown': 6}
+1675/1730 21.1/min {'1_mostbet_only': 509, '2_no_ads': 1133, '3_other_only': 12, '4_mixed': 1, '5_dead': 14, '5_not_shown': 6}
+1700/1730 20.6/min {'1_mostbet_only': 509, '2_no_ads': 1158, '3_other_only': 12, '4_mixed': 1, '5_dead': 14, '5_not_shown': 6}
+1725/1730 20.3/min {'1_mostbet_only': 509, '2_no_ads': 1183, '3_other_only': 12, '4_mixed': 1, '5_dead': 14, '5_not_shown': 6}
+1730/1730 20.3/min {'1_mostbet_only': 509, '2_no_ads': 1188, '3_other_only': 12, '4_mixed': 1, '5_dead': 14, '5_not_shown': 6}
+done {'1_mostbet_only': 509, '2_no_ads': 1188, '3_other_only': 12, '4_mixed': 1, '5_dead': 14, '5_not_shown': 6}

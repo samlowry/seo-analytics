@@ -1,0 +1,242 @@
+[
+ {
+  "domain": "asmcosmeticlab.com",
+  "given": "mono_mixed",
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Все кнопки — window.open на play-link.org/wzmqNL9S?pid=241 → Casea. «Реклама Mostbet» — это только скачивание Mostbet.apk с mobile-apps.online, без партнёрского кода."
+ },
+ {
+  "domain": "dealpakistan.com",
+  "given": "mono_mixed",
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Единственный шлюз towardsgreenenvironment.org/go/main → Mostbet pid=444325. Чужой бренд «?» — это сам редирект главной на towardsgreenenvironment.org, а не реклама."
+ },
+ {
+  "domain": "italianvillagepizzapittsburgh.com",
+  "given": "mono_mixed",
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Клон интерфейса Mostbet на phonefault.com, /click?key=… → Mostbet pid=425783. «?» — редирект главной, других реф-ссылок нет."
+ },
+ {
+  "domain": "lbrsc.org",
+  "given": "mono_mixed",
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "georgiamountainlife.com/go/main → go-reff.website → Mostbet pid=444325. «?» взялся из редиректа главной на georgiamountainlife.com."
+ },
+ {
+  "domain": "mostbet-aze-giris.com",
+  "given": "mono_mixed",
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Все 54 кнопки ведут на /play → 1win (p=4wsa). «Mostbet» в рекламе — это редирект главной на aze-mostbetgiris.com, а не реф-ссылка."
+ },
+ {
+  "domain": "mostbet-casino-lkg1.online",
+  "given": "mono_mixed",
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Все кнопки data-link=4041 → /goto/4041 → Mostbet pid=261386. Kometa сканер получил, пройдя по голому префиксу /goto/ из JS-склейки \"/goto/\"+link; на странице такой ссылки нет."
+ },
+ {
+  "domain": "mostbet-uz-com.com",
+  "given": "mono_mixed",
+  "verdict": "unsure",
+  "should_be": "mono_mixed",
+  "confidence": 0.5,
+  "comment": "/recommends/mostbet/ ведёт на cehbr3fqqfmst.com/lc1s (реф-хост вида Mostbet), но при HTTP-проходе из RS тот же шлюз отдал pops-лендинг klaund.top «Welcome». Это подмена по гео или UA, бренд не определён."
+ },
+ {
+  "domain": "mostbetcasinodaet.ru",
+  "given": "mono_mixed",
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Все 56 кнопок data-link=3987 → /goto/3987 → Mostbet pid=261386. Kometa — из голого /goto/ (тот же JS \"/goto/\"+link), по нему пользователь не переходит."
+ },
+ {
+  "domain": "mosttbet.live",
+  "given": "mono_mixed",
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.65,
+  "comment": "Все кнопки ведут на /go/main → go-reff.website: в одном скане Mostbet pid=444325, в другом slotoro77.bet ?ref=vp_… Ротация настоящая, бренд «?» = Slotoro."
+ },
+ {
+  "domain": "vanishing-ice.org",
+  "given": "mono_mixed",
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "gulustan.info/go/go.php → Mostbet pid=2784, других реф-ссылок нет. «?» — редирект главной на gulustan.info."
+ },
+ {
+  "domain": "bk-mostbetsite.top",
+  "given": "mono_other",
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "12 кнопок «ПЕРЕЙТИ НА MOSTBET» ведут на /reg → updatezone.net → 1win (p=0nyp). Mostbet-рефок нет."
+ },
+ {
+  "domain": "ccr2p.org",
+  "given": "mono_other",
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Скрипт переписывает все a[href=\"#\"] на /go/ → refpa → 1xBet tag=d_3755482m. Текст целиком про Mostbet AZ."
+ },
+ {
+  "domain": "foodsniffer.eu",
+  "given": "mono_other",
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Кнопок наружу нет. Посетителям с поисковика по первому клику открывается попандер ddd7dj.org/MPNB4gYP?a=DAFF → Lanista, текст целиком про Mostbet PL."
+ },
+ {
+  "domain": "mostbet-bonusi1.ru",
+  "given": "mono_other",
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "44 кнопки window.open('updatezone.net/Bjyjf1TL') → 1win p=0nyp. APK через ketanatut.com — безымянный app.apk."
+ },
+ {
+  "domain": "mostbet-casinos.org.pl",
+  "given": "mono_other",
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.65,
+  "comment": "Клик по слайдеру ведёт через трекер track-mono.com/allmono?kg=mostbet → bets.io. Сам трекер сохранён только в браузерном проходе, в http-HTML его нет."
+ },
+ {
+  "domain": "mostbet-rabochee-zerkalo-na-segodnya.ru",
+  "given": "mono_other",
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Внешняя ссылка click.lp-link.ru/KZqOVpdD?sub_id3=mostbet → Лига Ставок (Alanbase). Весь текст — «зеркало Мостбет»."
+ },
+ {
+  "domain": "mostbetgame-cazinos.ru",
+  "given": "mono_other",
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Тот же шаблон, что у mostbet-bonusi1.ru: 44 кнопки на updatezone.net/Bjyjf1TL → 1win."
+ },
+ {
+  "domain": "murphsgaslight.com",
+  "given": "mono_other",
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "/play → rzf7ax13.top → 1xBet tag=d_3755482m (тот же smartlink, что у ccr2p.org). Текст — Mostbet BD."
+ },
+ {
+  "domain": "registrations-mostbet.ru",
+  "given": "mono_other",
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Тот же шаблон, что у mostbet-bonusi1.ru: updatezone.net/Bjyjf1TL → 1win p=0nyp."
+ },
+ {
+  "domain": "somaliembassydcnet688.cfd",
+  "given": "mono_other",
+  "verdict": "unsure",
+  "should_be": "mono_other",
+  "confidence": 0.55,
+  "comment": "25 кнопок ведут на /go.php → aos9d9e9g0o.top, дальше не пройдено, бренд неизвестен. Шаблон и случайный хост .top — как у 1xBet-smartlink на ccr2p.org, скорее всего это 1xBet."
+ },
+ {
+  "domain": "22bet-casino.online",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.65,
+  "comment": "Кнопки «регистрация» ведут на /reg → pg5i0mmb.com/8u4F, это реф-хост вида Mostbet (connect_error). promopult.ru/ref/… — SEO-сервис, не казино, WWXXdex.ru — спам в комментарии."
+ },
+ {
+  "domain": "in-mostbet.com",
+  "given": "mono_xlink",
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.7,
+  "comment": "В подвале проданные ссылки с анкорами «pinco», «pin up», «casino siteleri», «sultan casino» на сторонние сайты (finut2020.com и др.). Аффилиатских кодов нет."
+ },
+ {
+  "domain": "most-bet-game.com",
+  "given": "mono_xlink",
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.65,
+  "comment": "Каталог из 8 «Mostbet» APK, но все «Download APK» ведут на rummy100.com/apk → apk BollyGame, без кода. По сути Mostbet подменён чужим приложением."
+ },
+ {
+  "domain": "mostbet-bet-casino.com",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "article",
+  "confidence": 0.75,
+  "comment": "Лента новостей про гэмблинг в целом («Straight answers about online gambling»), Mostbet только в домене и title, в тексте 2 упоминания. Ссылки на casinosenligne/streetnsports/cardplayer — продажа ссылок. 199 «анкоров Mostbet» — это внутренние URL самого домена."
+ },
+ {
+  "domain": "mostbet-casinoindia.org",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "mono_no_ads",
+  "confidence": 0.6,
+  "comment": "Единственная «ссылка на казино» — значок gpwa.org (ассоциация вебмастеров) в подвале. 58 кнопок ведут на /go/, он отдал 403, дальше не пройдено."
+ },
+ {
+  "domain": "mostbet2.id",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "В отрисованной странице есть кнопка на www.fg8017.com/register?affiliateCode=gg6663 — это партнёрская ссылка на FG8, а не простая. /register остаётся на сайте."
+ },
+ {
+  "domain": "mostbetapp.bid",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "В отрисованной странице есть кнопка на www.fg8016.com/register?affiliateCode=gg6662 — это реф-ссылка на FG8."
+ },
+ {
+  "domain": "mostbetlive.app",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Модалка с кнопками «নিবন্ধন করুন» и «লগইন» ведёт на www.fg8016.com/register?affiliateCode=gg6662, ссылка даже есть в aff_links, но без бренда."
+ },
+ {
+  "domain": "mostbets.com.br",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "mono_no_ads",
+  "confidence": 0.55,
+  "comment": "«Ссылка на казино» — iclg.com (юридический обзор законов Бразилии). 35 кнопок ведут на win.mostbetbr.net/bFUbMeC — похоже на реф Mostbet, но не пройдено."
+ },
+ {
+  "domain": "vokzal-service.kz",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "mono_no_ads",
+  "confidence": 0.6,
+  "comment": "seo.casino — это SEO-агентство, не казино. Шлюз /go-ru из RS отдал 301 на внутренний /uz/, похоже на гео-клоакинг; реклама не установлена."
+ }
+]

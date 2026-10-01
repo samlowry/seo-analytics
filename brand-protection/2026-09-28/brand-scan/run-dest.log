@@ -1,0 +1,129 @@
+queue 2784, done 0, todo 2784, network RS AS15958 CETINdoo-NET 109.245.145.47, our refs guarded 321
+25/2784 18.8/min {'dead': 1, 'internal': 3, 'mostbet': 15, 'non_gambling': 4, 'other_gambling': 1, 'unknown': 1}
+50/2784 10.9/min {'brand_site': 1, 'dead': 1, 'gambling_site': 2, 'internal': 4, 'mostbet': 18, 'non_gambling': 15, 'other_gambling': 2, 'unknown': 7}
+75/2784 10.9/min {'5_not_shown': 4, 'brand_site': 1, 'dead': 5, 'gambling_site': 2, 'internal': 7, 'mostbet': 21, 'non_gambling': 19, 'other_gambling': 7, 'unknown': 9}
+100/2784 12.2/min {'5_not_shown': 4, 'brand_site': 2, 'dead': 5, 'gambling_site': 2, 'internal': 10, 'mostbet': 37, 'non_gambling': 20, 'other_gambling': 7, 'unknown': 13}
+repaired truncated dest-browser.jsonl.gz: 116 records kept
+queue 2784, done 116, todo 2668, network RS AS15958 CETINdoo-NET 109.245.145.47, our refs guarded 321
+25/2668 18.5/min {'brand_site': 3, 'dead': 1, 'gambling_site': 1, 'internal': 5, 'mostbet': 6, 'non_gambling': 3, 'unknown': 6}
+50/2668 21.3/min {'brand_site': 5, 'dead': 2, 'gambling_site': 1, 'internal': 14, 'mostbet': 14, 'non_gambling': 4, 'other_gambling': 2, 'unknown': 8}
+75/2668 23.5/min {'brand_site': 9, 'dead': 3, 'gambling_site': 1, 'internal': 18, 'mostbet': 26, 'non_gambling': 5, 'other_gambling': 2, 'unknown': 11}
+100/2668 21.4/min {'brand_site': 11, 'dead': 3, 'gambling_site': 2, 'internal': 21, 'mostbet': 36, 'non_gambling': 7, 'other_gambling': 2, 'unknown': 18}
+125/2668 20.4/min {'brand_site': 12, 'dead': 4, 'gambling_site': 2, 'internal': 25, 'mostbet': 46, 'non_gambling': 8, 'other_gambling': 2, 'unknown': 26}
+150/2668 20.0/min {'brand_site': 12, 'dead': 5, 'gambling_site': 2, 'internal': 38, 'mostbet': 50, 'non_gambling': 9, 'other_gambling': 5, 'unknown': 29}
+175/2668 19.5/min {'brand_site': 12, 'dead': 5, 'gambling_site': 4, 'internal': 44, 'mostbet': 55, 'non_gambling': 12, 'other_gambling': 7, 'unknown': 36}
+200/2668 19.7/min {'brand_site': 14, 'dead': 9, 'gambling_site': 4, 'internal': 55, 'mostbet': 58, 'non_gambling': 12, 'other_gambling': 10, 'unknown': 38}
+225/2668 19.5/min {'brand_site': 14, 'dead': 18, 'gambling_site': 4, 'internal': 59, 'mostbet': 60, 'non_gambling': 12, 'other_gambling': 14, 'unknown': 44}
+250/2668 18.8/min {'5_not_shown': 1, 'brand_site': 15, 'dead': 19, 'gambling_site': 4, 'internal': 64, 'mostbet': 60, 'non_gambling': 14, 'other_gambling': 15, 'unknown': 58}
+275/2668 18.8/min {'5_not_shown': 1, 'brand_site': 16, 'dead': 22, 'gambling_site': 4, 'internal': 73, 'mostbet': 60, 'non_gambling': 16, 'other_gambling': 21, 'unknown': 62}
+300/2668 18.8/min {'5_not_shown': 1, 'brand_site': 17, 'dead': 28, 'gambling_site': 5, 'internal': 76, 'mostbet': 63, 'non_gambling': 22, 'other_gambling': 24, 'unknown': 64}
+325/2668 19.1/min {'5_not_shown': 1, 'brand_site': 19, 'dead': 32, 'gambling_site': 5, 'internal': 87, 'mostbet': 64, 'non_gambling': 22, 'other_gambling': 25, 'unknown': 70}
+350/2668 18.7/min {'5_not_shown': 1, 'brand_site': 19, 'dead': 36, 'gambling_site': 5, 'internal': 91, 'mostbet': 68, 'non_gambling': 22, 'other_gambling': 32, 'unknown': 76}
+375/2668 19.1/min {'5_not_shown': 1, 'brand_site': 20, 'dead': 45, 'gambling_site': 6, 'internal': 92, 'mostbet': 70, 'non_gambling': 31, 'other_gambling': 34, 'unknown': 76}
+400/2668 18.8/min {'5_not_shown': 1, 'brand_site': 20, 'dead': 54, 'gambling_site': 6, 'internal': 101, 'mostbet': 72, 'non_gambling': 31, 'other_gambling': 38, 'unknown': 77}
+425/2668 19.0/min {'5_not_shown': 1, 'brand_site': 22, 'dead': 60, 'gambling_site': 6, 'internal': 109, 'mostbet': 74, 'non_gambling': 32, 'other_gambling': 38, 'unknown': 83}
+450/2668 18.9/min {'5_not_shown': 1, 'brand_site': 23, 'dead': 64, 'gambling_site': 6, 'internal': 111, 'mostbet': 76, 'non_gambling': 34, 'other_gambling': 39, 'unknown': 96}
+475/2668 19.1/min {'5_not_shown': 1, 'brand_site': 23, 'dead': 72, 'gambling_site': 6, 'internal': 112, 'mostbet': 76, 'non_gambling': 36, 'other_gambling': 50, 'unknown': 99}
+500/2668 19.3/min {'5_not_shown': 1, 'brand_site': 23, 'dead': 75, 'gambling_site': 11, 'internal': 116, 'mostbet': 76, 'non_gambling': 38, 'other_gambling': 54, 'unknown': 106}
+525/2668 19.3/min {'5_not_shown': 1, 'brand_site': 24, 'dead': 77, 'gambling_site': 11, 'internal': 126, 'mostbet': 78, 'non_gambling': 38, 'other_gambling': 59, 'unknown': 111}
+550/2668 19.2/min {'5_not_shown': 1, 'brand_site': 25, 'dead': 82, 'gambling_site': 12, 'internal': 131, 'mostbet': 79, 'non_gambling': 40, 'other_gambling': 66, 'unknown': 114}
+575/2668 18.8/min {'5_not_shown': 1, 'brand_site': 25, 'dead': 83, 'gambling_site': 12, 'internal': 146, 'mostbet': 80, 'non_gambling': 41, 'other_gambling': 66, 'unknown': 121}
+600/2668 18.7/min {'5_not_shown': 2, 'brand_site': 25, 'dead': 83, 'gambling_site': 12, 'internal': 154, 'mostbet': 81, 'non_gambling': 41, 'other_gambling': 76, 'unknown': 126}
+625/2668 18.5/min {'5_not_shown': 2, 'brand_site': 25, 'dead': 85, 'gambling_site': 12, 'internal': 160, 'mostbet': 81, 'non_gambling': 46, 'other_gambling': 78, 'unknown': 136}
+650/2668 18.2/min {'5_not_shown': 2, 'brand_site': 25, 'dead': 86, 'gambling_site': 13, 'internal': 162, 'mostbet': 81, 'non_gambling': 48, 'other_gambling': 87, 'unknown': 146}
+675/2668 18.1/min {'5_not_shown': 2, 'brand_site': 25, 'dead': 87, 'gambling_site': 14, 'internal': 171, 'mostbet': 82, 'non_gambling': 54, 'other_gambling': 93, 'unknown': 147}
+700/2668 17.9/min {'5_not_shown': 2, 'brand_site': 25, 'dead': 87, 'gambling_site': 14, 'internal': 182, 'mostbet': 83, 'non_gambling': 54, 'other_gambling': 96, 'unknown': 157}
+725/2668 17.5/min {'5_not_shown': 2, 'brand_site': 25, 'dead': 92, 'gambling_site': 14, 'internal': 194, 'mostbet': 83, 'non_gambling': 55, 'other_gambling': 98, 'unknown': 162}
+750/2668 17.5/min {'5_not_shown': 3, 'brand_site': 25, 'dead': 92, 'gambling_site': 14, 'internal': 197, 'mostbet': 83, 'non_gambling': 55, 'other_gambling': 113, 'unknown': 168}
+775/2668 17.7/min {'5_not_shown': 3, 'brand_site': 25, 'dead': 92, 'gambling_site': 14, 'internal': 200, 'mostbet': 84, 'non_gambling': 55, 'other_gambling': 133, 'unknown': 169}
+800/2668 17.4/min {'5_not_shown': 3, 'brand_site': 25, 'dead': 92, 'gambling_site': 14, 'internal': 210, 'mostbet': 85, 'non_gambling': 57, 'other_gambling': 141, 'unknown': 173}
+825/2668 17.1/min {'5_not_shown': 3, 'brand_site': 26, 'dead': 92, 'gambling_site': 14, 'internal': 214, 'mostbet': 85, 'non_gambling': 66, 'other_gambling': 147, 'unknown': 178}
+850/2668 17.2/min {'5_not_shown': 4, 'brand_site': 27, 'dead': 92, 'gambling_site': 14, 'internal': 226, 'mostbet': 85, 'non_gambling': 70, 'other_gambling': 153, 'unknown': 179}
+875/2668 16.8/min {'5_not_shown': 4, 'brand_site': 27, 'dead': 92, 'gambling_site': 15, 'internal': 243, 'mostbet': 85, 'non_gambling': 70, 'other_gambling': 154, 'unknown': 185}
+900/2668 16.7/min {'5_not_shown': 4, 'brand_site': 27, 'dead': 92, 'gambling_site': 16, 'internal': 254, 'mostbet': 86, 'non_gambling': 72, 'other_gambling': 156, 'unknown': 193}
+925/2668 16.6/min {'5_not_shown': 4, 'brand_site': 28, 'dead': 92, 'gambling_site': 17, 'internal': 266, 'mostbet': 86, 'non_gambling': 73, 'other_gambling': 161, 'unknown': 198}
+950/2668 16.2/min {'5_not_shown': 4, 'brand_site': 28, 'dead': 92, 'gambling_site': 18, 'internal': 275, 'mostbet': 86, 'non_gambling': 81, 'other_gambling': 162, 'unknown': 204}
+975/2668 15.8/min {'5_not_shown': 5, 'brand_site': 29, 'dead': 92, 'gambling_site': 18, 'internal': 284, 'mostbet': 86, 'non_gambling': 83, 'other_gambling': 166, 'unknown': 212}
+1000/2668 15.6/min {'5_not_shown': 5, 'brand_site': 29, 'dead': 92, 'gambling_site': 18, 'internal': 294, 'mostbet': 86, 'non_gambling': 83, 'other_gambling': 169, 'unknown': 224}
+1025/2668 15.5/min {'5_not_shown': 5, 'brand_site': 29, 'dead': 93, 'gambling_site': 18, 'internal': 309, 'mostbet': 86, 'non_gambling': 85, 'other_gambling': 170, 'unknown': 230}
+repaired truncated dest-browser.jsonl.gz: 1153 records kept
+queue 2784, done 1153, todo 1631, network RS AS15958 CETINdoo-NET 109.245.145.47, our refs guarded 321
+repaired truncated dest-browser.jsonl.gz: 1172 records kept
+queue 2784, done 1172, todo 1612, network RS AS15958 CETINdoo-NET 109.245.145.47, our refs guarded 321
+25/1612 11.0/min {'dead': 1, 'internal': 7, 'mostbet': 2, 'non_gambling': 3, 'other_gambling': 2, 'unknown': 10}
+50/1612 11.9/min {'dead': 1, 'internal': 12, 'mostbet': 3, 'non_gambling': 4, 'other_gambling': 8, 'unknown': 22}
+75/1612 12.5/min {'dead': 2, 'internal': 26, 'mostbet': 3, 'non_gambling': 6, 'other_gambling': 9, 'unknown': 29}
+100/1612 12.2/min {'dead': 2, 'internal': 33, 'mostbet': 4, 'non_gambling': 9, 'other_gambling': 11, 'unknown': 41}
+125/1612 12.3/min {'dead': 2, 'internal': 43, 'mostbet': 4, 'non_gambling': 11, 'other_gambling': 15, 'unknown': 50}
+150/1612 13.2/min {'dead': 2, 'gambling_site': 1, 'internal': 61, 'mostbet': 4, 'non_gambling': 11, 'other_gambling': 17, 'unknown': 54}
+175/1612 13.7/min {'dead': 8, 'gambling_site': 7, 'internal': 65, 'mostbet': 4, 'non_gambling': 12, 'other_gambling': 17, 'unknown': 62}
+200/1612 13.4/min {'dead': 8, 'gambling_site': 7, 'internal': 81, 'mostbet': 5, 'non_gambling': 12, 'other_gambling': 18, 'unknown': 69}
+225/1612 13.9/min {'5_not_shown': 1, 'dead': 14, 'gambling_site': 8, 'internal': 85, 'mostbet': 5, 'non_gambling': 12, 'other_gambling': 24, 'unknown': 76}
+250/1612 14.4/min {'5_not_shown': 1, 'dead': 14, 'gambling_site': 14, 'internal': 88, 'mostbet': 5, 'non_gambling': 14, 'other_gambling': 30, 'unknown': 84}
+275/1612 14.5/min {'5_not_shown': 1, 'dead': 14, 'gambling_site': 15, 'internal': 98, 'mostbet': 5, 'non_gambling': 15, 'other_gambling': 34, 'unknown': 93}
+300/1612 14.8/min {'5_not_shown': 1, 'dead': 14, 'gambling_site': 15, 'internal': 106, 'mostbet': 5, 'non_gambling': 15, 'other_gambling': 38, 'unknown': 106}
+325/1612 14.6/min {'5_not_shown': 1, 'brand_site': 1, 'dead': 14, 'gambling_site': 15, 'internal': 117, 'mostbet': 5, 'non_gambling': 16, 'other_gambling': 40, 'unknown': 116}
+350/1612 14.7/min {'5_not_shown': 1, 'brand_site': 2, 'dead': 14, 'gambling_site': 15, 'internal': 128, 'mostbet': 5, 'non_gambling': 17, 'other_gambling': 44, 'unknown': 124}
+375/1612 15.1/min {'5_not_shown': 1, 'brand_site': 3, 'dead': 14, 'gambling_site': 15, 'internal': 140, 'mostbet': 5, 'non_gambling': 19, 'other_gambling': 52, 'unknown': 126}
+400/1612 15.6/min {'5_not_shown': 1, 'brand_site': 3, 'dead': 14, 'gambling_site': 15, 'internal': 155, 'mostbet': 5, 'non_gambling': 21, 'other_gambling': 52, 'unknown': 134}
+425/1612 16.0/min {'5_not_shown': 1, 'brand_site': 3, 'dead': 14, 'gambling_site': 15, 'internal': 165, 'mostbet': 5, 'non_gambling': 28, 'other_gambling': 58, 'unknown': 136}
+450/1612 16.4/min {'5_not_shown': 1, 'brand_site': 3, 'dead': 15, 'gambling_site': 16, 'internal': 172, 'mostbet': 5, 'non_gambling': 34, 'other_gambling': 66, 'unknown': 138}
+475/1612 16.6/min {'5_not_shown': 1, 'brand_site': 3, 'dead': 15, 'gambling_site': 16, 'internal': 185, 'mostbet': 5, 'non_gambling': 38, 'other_gambling': 72, 'unknown': 140}
+500/1612 16.6/min {'5_not_shown': 1, 'brand_site': 3, 'dead': 15, 'gambling_site': 16, 'internal': 191, 'mostbet': 5, 'non_gambling': 38, 'other_gambling': 83, 'unknown': 148}
+repaired truncated dest-browser.jsonl.gz: 1694 records kept
+queue 2784, done 1694, todo 1090, network RS AS15958 CETINdoo-NET 109.245.145.47, our refs guarded 321
+25/1090 16.7/min {'brand_site': 3, 'internal': 9, 'mostbet': 1, 'other_gambling': 12}
+50/1090 18.5/min {'brand_site': 4, 'internal': 19, 'mostbet': 1, 'non_gambling': 6, 'other_gambling': 19, 'unknown': 1}
+75/1090 18.7/min {'brand_site': 4, 'gambling_site': 1, 'internal': 25, 'mostbet': 1, 'non_gambling': 8, 'other_gambling': 29, 'unknown': 7}
+100/1090 18.6/min {'brand_site': 4, 'gambling_site': 1, 'internal': 28, 'mostbet': 3, 'non_gambling': 12, 'other_gambling': 43, 'unknown': 9}
+125/1090 19.1/min {'brand_site': 4, 'gambling_site': 2, 'internal': 29, 'mostbet': 4, 'non_gambling': 19, 'other_gambling': 54, 'unknown': 13}
+150/1090 18.8/min {'brand_site': 6, 'gambling_site': 2, 'internal': 30, 'mostbet': 5, 'non_gambling': 21, 'other_gambling': 66, 'unknown': 20}
+175/1090 18.0/min {'brand_site': 8, 'gambling_site': 3, 'internal': 31, 'mostbet': 5, 'non_gambling': 26, 'other_gambling': 75, 'unknown': 27}
+200/1090 18.8/min {'brand_site': 9, 'gambling_site': 4, 'internal': 40, 'mostbet': 6, 'non_gambling': 26, 'other_gambling': 82, 'unknown': 33}
+225/1090 18.7/min {'brand_site': 9, 'dead': 2, 'gambling_site': 4, 'internal': 44, 'mostbet': 7, 'non_gambling': 27, 'other_gambling': 86, 'unknown': 46}
+250/1090 17.9/min {'brand_site': 15, 'dead': 2, 'gambling_site': 7, 'internal': 44, 'mostbet': 8, 'non_gambling': 32, 'other_gambling': 95, 'unknown': 47}
+275/1090 16.5/min {'brand_site': 16, 'dead': 2, 'gambling_site': 7, 'internal': 50, 'mostbet': 9, 'non_gambling': 35, 'other_gambling': 108, 'unknown': 48}
+300/1090 14.9/min {'5_not_shown': 2, 'brand_site': 17, 'dead': 3, 'gambling_site': 7, 'internal': 52, 'mostbet': 9, 'non_gambling': 36, 'other_gambling': 117, 'unknown': 57}
+325/1090 14.3/min {'5_not_shown': 3, 'brand_site': 17, 'dead': 21, 'gambling_site': 7, 'internal': 52, 'mostbet': 9, 'non_gambling': 40, 'other_gambling': 119, 'unknown': 57}
+350/1090 14.4/min {'5_not_shown': 3, 'brand_site': 20, 'dead': 21, 'gambling_site': 7, 'internal': 53, 'mostbet': 9, 'non_gambling': 47, 'other_gambling': 131, 'unknown': 59}
+375/1090 14.8/min {'5_not_shown': 3, 'brand_site': 23, 'dead': 21, 'gambling_site': 9, 'internal': 54, 'mostbet': 9, 'non_gambling': 55, 'other_gambling': 132, 'unknown': 69}
+400/1090 15.2/min {'5_not_shown': 3, 'brand_site': 23, 'dead': 21, 'gambling_site': 9, 'internal': 54, 'mostbet': 9, 'non_gambling': 56, 'other_gambling': 134, 'unknown': 91}
+425/1090 15.3/min {'5_not_shown': 3, 'brand_site': 23, 'dead': 21, 'gambling_site': 10, 'internal': 55, 'mostbet': 9, 'non_gambling': 56, 'other_gambling': 140, 'unknown': 108}
+450/1090 15.3/min {'5_not_shown': 3, 'brand_site': 23, 'dead': 21, 'gambling_site': 10, 'internal': 55, 'mostbet': 9, 'non_gambling': 56, 'other_gambling': 149, 'unknown': 124}
+475/1090 15.6/min {'5_not_shown': 3, 'brand_site': 23, 'dead': 21, 'gambling_site': 14, 'internal': 56, 'mostbet': 9, 'non_gambling': 56, 'other_gambling': 153, 'unknown': 140}
+500/1090 15.7/min {'5_not_shown': 3, 'brand_site': 24, 'dead': 22, 'gambling_site': 14, 'internal': 59, 'mostbet': 9, 'non_gambling': 58, 'other_gambling': 164, 'unknown': 147}
+525/1090 15.7/min {'5_not_shown': 3, 'brand_site': 24, 'dead': 22, 'gambling_site': 16, 'internal': 63, 'mostbet': 9, 'non_gambling': 62, 'other_gambling': 170, 'unknown': 156}
+550/1090 15.9/min {'5_not_shown': 3, 'brand_site': 24, 'dead': 22, 'gambling_site': 17, 'internal': 64, 'mostbet': 9, 'non_gambling': 62, 'other_gambling': 189, 'unknown': 160}
+575/1090 15.6/min {'5_not_shown': 3, 'brand_site': 25, 'dead': 22, 'gambling_site': 20, 'internal': 65, 'mostbet': 10, 'non_gambling': 65, 'other_gambling': 197, 'unknown': 168}
+600/1090 15.2/min {'5_not_shown': 3, 'brand_site': 25, 'dead': 23, 'gambling_site': 21, 'internal': 66, 'mostbet': 10, 'non_gambling': 70, 'other_gambling': 208, 'unknown': 174}
+625/1090 15.4/min {'5_not_shown': 5, 'brand_site': 30, 'dead': 23, 'gambling_site': 21, 'internal': 67, 'mostbet': 10, 'non_gambling': 76, 'other_gambling': 217, 'unknown': 176}
+650/1090 15.6/min {'5_not_shown': 5, 'brand_site': 30, 'dead': 23, 'download': 1, 'gambling_site': 23, 'internal': 68, 'mostbet': 10, 'non_gambling': 79, 'other_gambling': 227, 'unknown': 184}
+675/1090 15.9/min {'5_not_shown': 5, 'brand_site': 30, 'dead': 23, 'download': 1, 'gambling_site': 24, 'internal': 69, 'mostbet': 11, 'non_gambling': 84, 'other_gambling': 241, 'unknown': 187}
+700/1090 15.8/min {'5_not_shown': 5, 'brand_site': 31, 'dead': 23, 'download': 1, 'gambling_site': 24, 'internal': 69, 'mostbet': 11, 'non_gambling': 91, 'other_gambling': 255, 'unknown': 190}
+725/1090 16.0/min {'5_not_shown': 5, 'brand_site': 32, 'dead': 25, 'download': 1, 'gambling_site': 26, 'internal': 70, 'mostbet': 12, 'non_gambling': 96, 'other_gambling': 263, 'unknown': 195}
+750/1090 16.1/min {'5_not_shown': 5, 'brand_site': 32, 'dead': 25, 'download': 1, 'gambling_site': 27, 'internal': 71, 'mostbet': 13, 'non_gambling': 100, 'other_gambling': 278, 'unknown': 198}
+775/1090 16.2/min {'5_not_shown': 5, 'brand_site': 33, 'dead': 28, 'download': 1, 'gambling_site': 35, 'internal': 72, 'mostbet': 13, 'non_gambling': 102, 'other_gambling': 282, 'unknown': 204}
+800/1090 16.2/min {'5_not_shown': 5, 'brand_site': 33, 'dead': 30, 'download': 1, 'gambling_site': 36, 'internal': 78, 'mostbet': 13, 'non_gambling': 106, 'other_gambling': 292, 'unknown': 206}
+825/1090 15.8/min {'5_not_shown': 5, 'brand_site': 33, 'dead': 30, 'download': 1, 'gambling_site': 36, 'internal': 78, 'mostbet': 15, 'non_gambling': 108, 'other_gambling': 304, 'unknown': 215}
+850/1090 15.7/min {'5_not_shown': 7, 'brand_site': 33, 'dead': 31, 'download': 1, 'gambling_site': 36, 'internal': 80, 'mostbet': 15, 'non_gambling': 111, 'other_gambling': 312, 'unknown': 224}
+875/1090 15.9/min {'5_not_shown': 7, 'brand_site': 35, 'dead': 33, 'download': 1, 'gambling_site': 36, 'internal': 86, 'mostbet': 15, 'non_gambling': 116, 'other_gambling': 319, 'unknown': 227}
+900/1090 15.8/min {'5_not_shown': 7, 'brand_site': 36, 'dead': 38, 'download': 1, 'gambling_site': 36, 'internal': 87, 'mostbet': 15, 'non_gambling': 119, 'other_gambling': 329, 'unknown': 232}
+925/1090 15.8/min {'5_not_shown': 7, 'brand_site': 37, 'dead': 41, 'download': 1, 'gambling_site': 37, 'internal': 87, 'mostbet': 16, 'non_gambling': 124, 'other_gambling': 339, 'unknown': 236}
+950/1090 15.6/min {'5_not_shown': 7, 'brand_site': 37, 'dead': 42, 'download': 1, 'gambling_site': 39, 'internal': 87, 'mostbet': 16, 'non_gambling': 128, 'other_gambling': 349, 'unknown': 244}
+975/1090 15.5/min {'5_not_shown': 9, 'brand_site': 38, 'dead': 46, 'download': 1, 'gambling_site': 39, 'internal': 88, 'mostbet': 16, 'non_gambling': 136, 'other_gambling': 350, 'unknown': 252}
+1000/1090 15.6/min {'5_not_shown': 9, 'brand_site': 39, 'dead': 47, 'download': 1, 'gambling_site': 44, 'internal': 91, 'mostbet': 17, 'non_gambling': 140, 'other_gambling': 353, 'unknown': 259}
+1025/1090 15.5/min {'5_not_shown': 9, 'brand_site': 39, 'dead': 59, 'download': 1, 'gambling_site': 44, 'internal': 97, 'mostbet': 17, 'non_gambling': 142, 'other_gambling': 356, 'unknown': 261}
+1050/1090 15.7/min {'5_not_shown': 9, 'brand_site': 39, 'dead': 60, 'download': 1, 'gambling_site': 44, 'internal': 113, 'mostbet': 17, 'non_gambling': 144, 'other_gambling': 357, 'unknown': 266}
+1075/1090 15.8/min {'5_not_shown': 9, 'brand_site': 39, 'dead': 60, 'download': 1, 'gambling_site': 45, 'internal': 116, 'mostbet': 17, 'non_gambling': 150, 'other_gambling': 366, 'unknown': 272}
+1090/1090 15.7/min {'5_not_shown': 9, 'brand_site': 39, 'dead': 70, 'download': 1, 'gambling_site': 45, 'internal': 116, 'mostbet': 17, 'non_gambling': 152, 'other_gambling': 369, 'unknown': 272}
+done {'5_not_shown': 9, 'brand_site': 39, 'dead': 70, 'download': 1, 'gambling_site': 45, 'internal': 116, 'mostbet': 17, 'non_gambling': 152, 'other_gambling': 369, 'unknown': 272}
+queue 189, done 2595, todo 189, network RS AS15958 CETINdoo-NET 109.245.145.47, our refs guarded 321
+25/189 3.1/min {'5_not_shown': 4, 'mostbet': 4, 'other_gambling': 6, 'unknown': 11}
+50/189 4.0/min {'5_not_shown': 5, 'mostbet': 4, 'other_gambling': 19, 'unknown': 22}
+75/189 3.9/min {'5_not_shown': 7, 'mostbet': 4, 'other_gambling': 38, 'unknown': 26}
+100/189 4.4/min {'5_not_shown': 8, 'mostbet': 4, 'other_gambling': 62, 'unknown': 26}
+125/189 4.7/min {'5_not_shown': 8, 'mostbet': 4, 'other_gambling': 86, 'unknown': 27}
+150/189 4.9/min {'5_not_shown': 8, 'mostbet': 4, 'non_gambling': 1, 'other_gambling': 104, 'unknown': 33}
+175/189 5.0/min {'5_not_shown': 9, 'mostbet': 4, 'non_gambling': 2, 'other_gambling': 116, 'unknown': 44}
+189/189 3.9/min {'5_not_shown': 18, 'mostbet': 4, 'non_gambling': 2, 'other_gambling': 116, 'unknown': 49}
+done {'5_not_shown': 18, 'mostbet': 4, 'non_gambling': 2, 'other_gambling': 116, 'unknown': 49}

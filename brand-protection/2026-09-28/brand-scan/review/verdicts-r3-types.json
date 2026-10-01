@@ -1,0 +1,242 @@
+[
+ {
+  "domain": "3bets.ru",
+  "given": "article",
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.7,
+  "comment": "Лента обзоров букмекеров (Mostbet, СпортБет, Betway, Ladbrokes…), в домене и title Mostbet нет, реф-ссылок нет — по правилу владельца article; по сути ближе к multibrand-обзорнику."
+ },
+ {
+  "domain": "blackdragonteacompany.com",
+  "given": "article",
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.9,
+  "comment": "WordPress «Black Dragon Tea Company» с датированными постами про Mostbet и Pinco на азербайджанском."
+ },
+ {
+  "domain": "dataproxessor.com",
+  "given": "article",
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.8,
+  "comment": "Взломанный WP («Hacked by Trenggalek6etar»), лента постов mostbet bonus code / bejelentkezés / pin up с датами; тип — лента статей."
+ },
+ {
+  "domain": "gameonpakistan.com",
+  "given": "article",
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.9,
+  "comment": "Не лента, а рейтинг «Top 5 betting sites Pakistan»: Planbet, Melbet, Mostbet (3-е место), Megapari, 1xBet с кнопками Play Now; дат нет."
+ },
+ {
+  "domain": "infoglobalid.com",
+  "given": "article",
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Индонезийский новостной шаблон (Berita, Pilkada, Moneter) с датированными постами, один из них — про Mostbet на азербайджанском."
+ },
+ {
+  "domain": "madpoolsafaris.com",
+  "given": "article",
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.8,
+  "comment": "Сайт сафари-туров, в блоке Recent Articles посты про Mostbet Polska, 1xBet, Pinko от 29.03.2026."
+ },
+ {
+  "domain": "oldnews.one",
+  "given": "article",
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.9,
+  "comment": "Блог общей тематики (Fire Risk, Vinyl Flooring), среди постов — Mostbet download, Pin-Up, Hellspin, 20bet."
+ },
+ {
+  "domain": "sarahgallowayphotography.com",
+  "given": "article",
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.8,
+  "comment": "Сайт фотографа с лентой гэмблинг-постов (Mostbet Polska, 20bet, casino zonder cruks); в футере ещё и скрытые ссылки left:-9966px на чужие казино."
+ },
+ {
+  "domain": "sonyscaviar.com",
+  "given": "article",
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.8,
+  "comment": "WP «My Blog» (контент с sonymordechai.com): лента датированных постов про Betway, Betplay, 1win и др.; без бренда в домене/title — article по правилу владельца."
+ },
+ {
+  "domain": "wirenews.co",
+  "given": "article",
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Израильский блог про беспроводные технологии и быт, 150 постов, среди них гэмблинг-посты с Mostbet, 1xBet, Pin-Up."
+ },
+ {
+  "domain": "bettingegypt.com",
+  "given": "hacked",
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.95,
+  "comment": "Сам сайт — гэмблинг-аффилиат: «أفضل مواقع مراهنات في مصر», промокоды 1xBet, Melbet, 888starz, Mostbet и др.; никакой своей негэмблинговой темы."
+ },
+ {
+  "domain": "chicagomustangspro.com",
+  "given": "hacked",
+  "verdict": "correct",
+  "should_be": "hacked",
+  "confidence": 0.85,
+  "comment": "Сайт инди-футбольного клуба Chicago Mustangs, подсунут раздел BETTING с Mostbet/Melbet и ссылки на mostbet.br.com, mostbet.de.com, non-gamstop казино."
+ },
+ {
+  "domain": "ects2019.org",
+  "given": "hacked",
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Весь сайт — «Mostbet Magyarország» (title, h1, текст, логотип Mostbet), кнопки /go/ ведут на Kingmaker (mid=133029) — монобренд с рекламой чужого."
+ },
+ {
+  "domain": "gnranalytical.com",
+  "given": "hacked",
+  "verdict": "correct",
+  "should_be": "hacked",
+  "confidence": 0.9,
+  "comment": "Сайт спектрометров GNR Analytical; скрытый блок left:-544728px с текстом про Mostbet и ссылки «Witryna kasyna Most Bet», casino ohne oasis."
+ },
+ {
+  "domain": "jubilacionyreajuste.com.ar",
+  "given": "hacked",
+  "verdict": "correct",
+  "should_be": "hacked",
+  "confidence": 0.95,
+  "comment": "Сайт юристов-пенсионщиков; внутри h1 скрытые блоки left:-7566px со ссылками «mostbet apk», chicken road, rtbet и др."
+ },
+ {
+  "domain": "miavalasz.hu",
+  "given": "hacked",
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Вся главная — «Mostbet Magyar App és Sportfogadás», 73 упоминания; кнопка /go/go.php ведёт на fonbet001.com с affijet-click — монобренд с рекламой чужого."
+ },
+ {
+  "domain": "mos-tbet.com",
+  "given": "hacked",
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене (mos-tbet) и title, весь сайт — гид mostbet login/APK для Бангладеш; APK-ссылка ведёт через k-x8.com на okgo (affiliateCode=shanji001). Нарушитель по правилу «бренд в домене»; если страница считается не про Mostbet — bait."
+ },
+ {
+  "domain": "riad-essaouira-perledeau.com",
+  "given": "hacked",
+  "verdict": "wrong",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Домен риада, но весь сайт — «دليل Mostbet المتكامل» (APK, bonus, promo code, aviator); кнопки ведут на свои страницы и «#», чужой рекламы нет."
+ },
+ {
+  "domain": "todoslosgatossonpardos.com",
+  "given": "hacked",
+  "verdict": "correct",
+  "should_be": "hacked",
+  "confidence": 0.95,
+  "comment": "Сайт шоу про Gato Pérez; десятки скрытых блоков (left:-9966px, overflow:hidden;height:1px) со ссылками «Mostbet», «mostbet app», LeoVegas, Vavada, Crowngreen."
+ },
+ {
+  "domain": "winspin.living",
+  "given": "hacked",
+  "verdict": "wrong",
+  "should_be": "mono_no_ads",
+  "confidence": 0.75,
+  "comment": "Лендинг приложения «Mostbet Sport Quiz… By MostBet team» со ссылкой на Google Play; своей негэмблинговой темы нет, домен без истории — монобренд Mostbet без реф-ссылок."
+ },
+ {
+  "domain": "audubonparkmasterplan.org",
+  "given": "multibrand",
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.9,
+  "comment": "Клон «Aviator Game India»: Where to Play 4RABET, 1Win, Pin-up, 888Starz, Mostbet, Battery; Mostbet — один из шести."
+ },
+ {
+  "domain": "bestbetplay.com",
+  "given": "multibrand",
+  "verdict": "unsure",
+  "should_be": "other_gambling",
+  "confidence": 0.5,
+  "comment": "Страница пустая в HTML (SPA), title «Best Betting Sites India | MegaPari FOOTBALLKING»; Mostbet только в meta keywords — видимого упоминания нет, по видимому это промо MegaPari."
+ },
+ {
+  "domain": "botkymanie.cz",
+  "given": "multibrand",
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.9,
+  "comment": "Чешский рейтинг зарубежных казино (Bethall, Bizzo, Wazamba, MostBet Casino, Malina…), Mostbet — одно из многих."
+ },
+ {
+  "domain": "digitalproductsplrshop.com",
+  "given": "multibrand",
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.9,
+  "comment": "Русский каталог бездепозитных бонусов онлайн-казино с реф-ссылками на 1xBet, Vavada, refpa и др.; Mostbet упомянут один раз."
+ },
+ {
+  "domain": "greensatredmondgc.com",
+  "given": "multibrand",
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.9,
+  "comment": "Тот же клон «Aviator Game India» с шестью брендами, Mostbet — один из них."
+ },
+ {
+  "domain": "krishnaguesthouse.in",
+  "given": "multibrand",
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.9,
+  "comment": "Тот же клон «Aviator Game India» с шестью брендами, Mostbet — один из них."
+ },
+ {
+  "domain": "padelhuechuraba.cl",
+  "given": "multibrand",
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.9,
+  "comment": "Переезд на casasohiggins.cl — «Mejores casinos online Chile»: девять казино с /go/ на 1xBet, GG.bet, JugaBet; Mostbet упомянут один раз."
+ },
+ {
+  "domain": "rb-health.com.ua",
+  "given": "multibrand",
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Рейтинг казино с минимальным депозитом: Mostbet 9.6, Vegasino 9.2, Funbet 8.9; other_brands_text пуст только потому, что Vegasino/Funbet нет в словаре."
+ },
+ {
+  "domain": "sebastiancpeter.com",
+  "given": "multibrand",
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.9,
+  "comment": "Тот же клон «Aviator Game India» с шестью брендами, Mostbet — один из них."
+ },
+ {
+  "domain": "twojjays.com",
+  "given": "multibrand",
+  "verdict": "wrong",
+  "should_be": "other_gambling",
+  "confidence": 0.8,
+  "comment": "Само казино TOJAYS.BET (Пакистан, SPA на cdn.intx111.link); Mostbet только в meta keywords рядом с 1xbet, melbet, 22bet — видимого упоминания нет."
+ }
+]
