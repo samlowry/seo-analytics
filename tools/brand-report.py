@@ -1,9 +1,10 @@
-"""Report on the whole brand scan: classes, numbers, 10 examples per class. One HTML file, printed to PDF.
+"""Full report on the brand scan: classes, numbers and every site with its reason and the links that decided.
 
 Run: uv run --with selectolax python tools/brand-report.py brand-protection/2026-09-28/brand-scan
 Reads classified.csv, site-features.jsonl.gz, corsearch-false-positives.csv. Writes report/brand-report.html, self-contained:
-the donut of groups and the share meters are inline SVG/CSS, no external resources. Examples: per class, the domains sorted by name and cut into ten equal
-parts, one random domain from each part (fixed seed), so the sample spreads over the whole class.
+the donut of groups and the share meters are inline SVG/CSS, no external resources. One numbering runs through the whole
+report. Per class the first ten shown are a sample: the domains sorted by name and cut into ten equal parts, one random
+domain from each part (fixed seed); the rest of the class sits in a collapsed list, its open/closed state kept in the browser.
 """
 import collections
 import csv
@@ -84,23 +85,121 @@ def brand_name(b: str) -> str:
     return b
 
 
+DEAD_RU = {
+    "timeout": "не ответил за отведённое время", "dns_fail": "домен не резолвится (DNS)", "empty_page": "пустой ответ",
+    "empty_response": "пустой ответ", "connection_refused": "соединение отклонено", "too_many_redirects": "бесконечные редиректы",
+    "ServerDisconnectedError": "сервер обрывает соединение", "tls_error": "ошибка TLS-сертификата",
+    "connect_error": "не удалось соединиться", "ClientResponseError": "битый ответ сервера",
+    "ClientPayloadError": "битый ответ сервера", "ClientOSError": "сетевая ошибка",
+}
+
+
+def density(r) -> str:
+    n, k = r["mb_text"], r["mb_per_1k"]
+    return f"Mostbet в тексте: {n} ({k.replace('.', ',')} на 1000 слов)" if n not in ("", "0") else "Mostbet в тексте не упоминается"
+
+
 def why_ru(r) -> str:
-    """The rule that decided, in words — only where it is the evidence itself."""
+    """Why the site is in its class, in words; URLs stay as they are and become links."""
     w, c = r["why"], r["category"]
     if "Mostbet page advertises others:" in w:
         url, brands = w.split("Mostbet page advertises others: ", 1)[1].rsplit(" (", 1)
         return f"страница про Mostbet {url} рекламирует {brands.rstrip(')')}"
     if c in ("redirect_ref", "redirect_other"):
-        w = re.sub(r"home redirects to( a Mostbet ref,)?", "главная уводит на", w)
-        return w.replace("script sends the home page to", "скрипт уводит главную на").replace("pid", "pid")
+        w = w.replace("home redirects to a Mostbet ref", "главная уводит на рефку Mostbet").replace("home redirects to", "главная уводит на")
+        return w.replace("script sends the home page to", "скрипт уводит главную на").replace(" (?)", "").replace(" ()", "")
     if c == "discredit":
         return "Mostbet в домене, страница не про ставки"
     if c == "bait":
-        return "Mostbet в домене или заголовке, страница про другой бренд" + \
-            (" (страница не называет Mostbet)" if "never names" in w else "")
+        if "moves to" in w:
+            return "домен с Mostbet в имени переезжает на " + w.split("moves to ", 1)[1].replace(" with other gambling", ", там чужой гэмблинг")
+        if "PWA" in w:
+            return "Mostbet в домене, PWA-лендинг в стиле магазина приложений без рефки Mostbet"
+        m = re.search(r"content=([^:]*):(\d+) mostbet=(\d+)", w)
+        where = "в заголовке" if "in_title" in w else "в домене"
+        if "never names" in w:
+            return f"Mostbet {where}, страница не называет Mostbet"
+        if m:
+            other = {"other": "другие бренды", "gambling": "азартные игры без бренда"}.get(m[1], m[1])
+            return f"Mostbet {where}, на странице {other} — {m[2]} раз, Mostbet — {m[3]}"
+        return f"Mostbet {where}, страница про другой бренд"
     if c == "hacked":
-        return "Mostbet только в ссылках" + (", скрытых" if re.search(r"hidden=[1-9]|hidden_mostbet", w) else "")
-    return ""
+        if "in_title" in w:
+            return "Mostbet в заголовке страницы не про ставки"
+        return "сайт не про ставки, Mostbet только в ссылках" + (", скрытых" if re.search(r"hidden=[1-9]|hidden_mostbet", w) else "")
+    if c.startswith("mono_") or c == "mb_page_other":
+        where = "Mostbet в домене" if "name_in_domain" in w else "Mostbet в заголовке" if "name_in_title" in w else "Mostbet в заголовках страницы"
+        tail = {"mono_other": "реклама только чужих брендов", "mono_mixed": "реклама Mostbet и чужих брендов",
+                "mono_mostbet": "реклама только Mostbet", "mono_xlink": "чужой рекламы нет, простые ссылки на чужие сайты",
+                "mono_unresolved": "кнопки ведут на трекер или шлюз, получатель не установлен",
+                "mono_no_ads": "партнёрских ссылок нет"}.get(c, "")
+        return f"{where}; {density(r)}; {tail}"
+    if c == "mirror":
+        return "шаблон официального сайта Mostbet (его скрипты и разметка)"
+    if c == "article":
+        m = re.search(r"articles=(\d+)", w)
+        n = f", статей на главной — {m[1]}" if m else ""
+        if "mostbet_in_posts" in w:
+            return f"лента статей, Mostbet — в отдельных постах{n}"
+        if "non_gambling" in w:
+            return f"лента статей не про ставки{n}"
+        return f"лента статей с датами{n}; {density(r)}"
+    if c == "multibrand":
+        m = re.search(r"top_other=([^:]*):(\d+) mostbet=(\d+)", w)
+        if m and m[1]:
+            return f"чаще всего упоминается {m[1]} ({m[2]}), Mostbet — {m[3]}"
+        return f"много брендов и игр; упоминаний Mostbet: {m[3] if m else r['mb_text']}"
+    if c == "unclear":
+        return f"{density(r)}; ни одно правило не подошло"
+    if c == "other_gambling":
+        return "казино или БК, Mostbet на странице не упоминается"
+    if c == "unrelated":
+        return "ни Mostbet, ни ставок на странице"
+    if c == "dead":
+        k = w.removeprefix("home dump: ")
+        return DEAD_RU.get(k, k)
+    if c == "parked":
+        return "парковка или страница регистратора"
+    if c == "stub":
+        if w == "placeholder text":
+            return "текст-заглушка (coming soon, хостинг, отключённый аккаунт)"
+        if w.startswith("text_len="):
+            return f"почти нет текста ({w.split('=')[1]} символов)"
+        if w.startswith("mostbet_only"):
+            return "Mostbet только в имени домена, текста почти нет"
+        return "заглушка хостинга за ошибкой " + w.rsplit("_", 1)[-1]
+    if c == "not_shown":
+        m = re.match(r"(http|cloudflare)_(\d+)", w)
+        if m:
+            return ("Cloudflare отдаёт " if m[1] == "cloudflare" else "сервер отдаёт ") + m[2] + " любому посетителю"
+        if w.startswith("answered in an earlier scan"):
+            return "в первых проходах отвечал, в последнем — нет"
+        return {"cloudflare_challenge": "проверка Cloudflare", "cloudflare_turnstile": "проверка Cloudflare Turnstile",
+                "geo_block": "блок по стране", "not_html": "отдаёт не HTML",
+                "protection:cloudflare_block": "блок Cloudflare"}.get(w, w)
+    return w
+
+
+def linkify(text: str) -> str:
+    """Escape, then turn every URL into a link that opens in a new tab."""
+    return re.sub(r"https?://[^\s,()]+", lambda m: f'<a href="{m[0]}">{m[0]}</a>', e(text))
+
+
+AD_KIND = {"other": "реклама чужого", "mb": "реклама Mostbet", "plain": "простая ссылка"}
+
+
+def ad_links(r) -> str:
+    try:
+        links = json.loads(r.get("ad_links") or "[]")
+    except ValueError:
+        return ""
+    items = []
+    for kind, name, url, final in links:
+        nm = brand_name(name) if kind == "other" else name
+        to = f' → <span class="to">{e(final[:90])}</span>' if final else ""
+        items.append(f'<li><span class="ak ak-{kind}">{AD_KIND[kind]}</span> <b>{e(nm)}</b>: '
+                     f'<a href="{e(url)}">{e(url[:100])}</a>{to}</li>')
+    return f'<ul class="links">{"".join(items)}</ul>' if items else ""
 
 
 GROUP_KEYS = ["viol", "mono", "other", "dead"]  # CSS colour slots, in GROUPS order
@@ -148,6 +247,17 @@ def fmt(n) -> str:
     return f"{n:,}".replace(",", " ")
 
 
+def card(num, r, sample_text) -> str:
+    tags = ", ".join(TAG_RU.get(t, t) for t in r["tags"].split() if t in TAG_RU and t != "brand_in_domain")
+    facts = [("метки", tags), ("title", r["title"]),
+             ("конечный адрес", r["final_url"] if r["final_url"] and r["domain"] not in r["final_url"] else "")]
+    grid = "".join(f'<div class="kv"><span>{k}</span> {linkify(v) if k == "конечный адрес" else e(v)}</div>' for k, v in facts if v)
+    st = f'<div class="sample">{e(sample_text)}</div>' if sample_text else ""
+    return (f'<article class="card" id="n{num}"><header><span class="num">{num}</span>'
+            f'<a class="dom" href="https://{e(r["domain"])}/">{e(r["domain"])}</a></header>'
+            f'<div class="why"><span>причина</span> {linkify(why_ru(r))}</div>{ad_links(r)}{grid}{st}</article>')
+
+
 def sample(rows, n=10):
     rows = sorted(rows, key=lambda r: r["domain"])
     if len(rows) <= n:
@@ -164,14 +274,13 @@ def main(d: str):
     for r in rows:
         by[r["category"]].append(r)
     picks = {c: sample(by[c]) for g in GROUPS for c, _, _ in g[1]}
-    want = {r["domain"] for v in picks.values() for r in v}
     text = {}
     with gzip.open(d / "site-features.jsonl.gz", "rt", encoding="utf-8") as f:
         for line in f:
             x = json.loads(line)
-            if x["domain"] in want:
-                pg = next((x[k] for k in ("browser", "http", "http-google-mobile", "http-googlebot") if x.get(k)), {})
-                text[x["domain"]] = (pg.get("text_sample") or "")[:260]
+            pg = next((x[k] for k in ("browser", "http", "http-google-mobile", "http-googlebot") if x.get(k)), {})
+            if pg.get("text_sample"):
+                text[x["domain"]] = " ".join(pg["text_sample"].split())[:140]
     with open(d / "corsearch-false-positives.csv", newline="", encoding="utf-8") as f:
         false_pos = sum(1 for _ in csv.DictReader(f))
 
@@ -184,7 +293,7 @@ def main(d: str):
     pid_net = sum(1 for r in rows if r["category"] == "redirect_ref" and "229671" in r["why"])
     viol = sum(cnt[c] for c, _, _ in GROUPS[0][1])
 
-    toc, sections = [], []
+    toc, sections, ranges, num = [], [], {}, 0
     gsum = {g[0]: sum(cnt[c] for c, _, _ in g[1]) for g in GROUPS}
     for gi, (gname, cats) in enumerate(GROUPS):
         key = GROUP_KEYS[gi]
@@ -197,28 +306,33 @@ def main(d: str):
                                 f"{fmt(gsum[gname])} из {fmt(total)}") + '</div>')
         for c, ru, desc in cats:
             gs = cnt[c] / gsum[gname] if gsum[gname] else 0
-            toc.append(f'<tr><td><a href="#{c}">{e(ru)}</a></td><td class="n">{fmt(cnt[c])}</td><td>{e(desc)}'
+            toc.append(f'<tr><td><a href="#{c}" target="_self">{e(ru)}</a>@@RANGE-{c}@@</td><td class="n">{fmt(cnt[c])}</td><td>{e(desc)}'
                        + meter(key, gs, f"<b>{pc(gs * 100)} %</b> группы · {pc(cnt[c] * 100 / total)} % всех")
                        + '</td></tr>')
-            cards = []
-            for r in picks[c]:
-                tags = ", ".join(TAG_RU.get(t, t) for t in r["tags"].split() if t in TAG_RU and t != "brand_in_domain")
-                facts = [("почему", why_ru(r)), ("реклама чужих", ", ".join(dict.fromkeys(brand_name(b) for b in r["other_ads"].split(" | ") if b))),
-                         ("реклама Mostbet", "да" if r["mostbet_ads"] == "True" else ""),
-                         ("простые ссылки", r["plain_gambling_links"]), ("метки", tags), ("title", r["title"]),
-                         ("конечный адрес", r["final_url"] if r["final_url"] and r["domain"] not in r["final_url"] else "")]
-                grid = "".join(f'<div class="kv"><span>{k}</span> <b>{e(v)}</b></div>' for k, v in facts if v)
-                cards.append(f'''<article class="card"><header><a class="dom" href="https://{e(r["domain"])}/">{e(r["domain"])}</a></header>
-{grid}{f'<div class="sample">{e(text.get(r["domain"]))}</div>' if text.get(r["domain"]) else ''}</article>''')
-            shown = f"{len(picks[c])} из {fmt(cnt[c])}" if cnt[c] > 10 else f"все {cnt[c]}"
+            first = picks[c]
+            fset = {r["domain"] for r in first}
+            rest = sorted((r for r in by[c] if r["domain"] not in fset), key=lambda r: r["domain"])
+            lo = num + 1
+            shown_cards = []
+            for r in first + rest:
+                num += 1
+                shown_cards.append(card(num, r, text.get(r["domain"])))
+            ranges[c] = (lo, num) if cnt[c] else None
+            body = "".join(shown_cards[:len(first)])
+            if rest:
+                body += (f'<details class="more" data-k="{c}"><summary>Остальные {fmt(len(rest))} — '
+                         f'№ {fmt(lo + len(first))}–{fmt(num)}</summary>{"".join(shown_cards[len(first):])}</details>')
+            head = f"{fmt(cnt[c])} · № {fmt(lo)}–{fmt(num)}" if cnt[c] else "0"
             gshare = cnt[c] / gsum[gname] if gsum[gname] else 0
-            sections.append(f'''<section id="{c}" class="g-{key}"><h2>{e(ru)} <small>{fmt(cnt[c])} · примеры: {shown}</small></h2>
+            sections.append(f'''<section id="{c}" class="g-{key}"><h2>{e(ru)} <small>{head}</small></h2>
 {meter(key, gshare, f"<b>{pc(gshare * 100)} %</b> группы «{e(gname.split(':')[0])}» · {pc(cnt[c] * 100 / total)} % всех доменов")}
-<p class="desc">{e(desc)}</p>{''.join(cards)}</section>''')
+<p class="desc">{e(desc)}{" Первые 10 — случайная выборка по всему классу, остальные — по алфавиту." if rest else ""}</p>{body}</section>''')
 
+    toc = [re.sub(r"@@RANGE-(\w+)@@", lambda m: (f'<div class="rng">№ {fmt(ranges[m[1]][0])}–{fmt(ranges[m[1]][1])}</div>'
+                                                  if ranges.get(m[1]) else ""), t) for t in toc]
     brand_rows = "".join(f"<li><b>{e(b)}</b> — {fmt(n)}</li>" for b, n in top)
     page = f'''<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Использование бренда Mostbet</title><style>
+<title>Использование бренда Mostbet</title><base target="_blank"><style>
 :root{{--bg:#f1f5f9;--card:#fff;--fg:#0f172a;--mut:#64748b;--line:#e2e8f0;--acc:#2563eb;
  --g-viol:#eb6834;--g-mono:#2a78d6;--g-other:#1baf7a;--g-dead:#4a3aa7}}
 @media (prefers-color-scheme:dark){{:root:not([data-theme="light"]){{--bg:#0b1120;--card:#111827;--fg:#e5e7eb;--mut:#94a3b8;
@@ -242,9 +356,15 @@ section.g-other h2{{border-color:var(--g-other)}} section.g-dead h2{{border-colo
 .desc{{color:var(--mut);margin:2px 0 10px}} .lead{{background:var(--card);border-radius:10px;padding:12px 16px;margin:12px 0;break-inside:avoid}}
 .lead li{{margin:3px 0}} table{{width:100%;border-collapse:collapse;background:var(--card);border-radius:10px;overflow:hidden;font-size:13px}}
 td{{padding:5px 10px;border-bottom:1px solid var(--line);vertical-align:top}} td.n{{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}}
-tr.grp td{{font-weight:700;background:var(--bg)}} tr.grp .meter-t{{font-weight:400}} td .meter{{margin:6px 0 2px}} a{{color:var(--acc)}}
+tr.grp td{{font-weight:700;background:var(--bg)}} tr.grp .meter-t{{font-weight:400}} td .meter{{margin:6px 0 2px}} a{{color:var(--acc);text-decoration:underline;text-underline-offset:2px}}
 .card{{background:var(--card);border-radius:10px;padding:9px 14px;margin-bottom:8px;break-inside:avoid}}
-.dom{{font-weight:700;font-size:15px;color:var(--fg);text-decoration:none}}
+.dom{{font-weight:700;font-size:15px;color:var(--fg)}} .num{{color:var(--mut);font-variant-numeric:tabular-nums;margin-right:8px;font-size:13px}}
+.why{{font-size:13px;margin:3px 0;overflow-wrap:anywhere}} .why span{{color:var(--mut)}}
+.links{{font-size:12.5px;margin:3px 0;padding-left:18px;overflow-wrap:anywhere}} .to{{color:var(--mut)}}
+.ak{{font-size:11.5px;border-radius:4px;padding:0 5px;white-space:nowrap;border:1px solid var(--line)}}
+.ak-other{{border-color:var(--g-viol)}} .ak-mb{{border-color:var(--g-mono)}}
+details.more{{margin:6px 0 10px}} details.more>summary{{cursor:pointer;color:var(--acc);font-weight:600;padding:6px 0;text-decoration:underline;text-underline-offset:2px}}
+.rng{{color:var(--mut);font-size:12px}}
 .kv{{font-size:12.5px;overflow-wrap:anywhere}} .kv span{{color:var(--mut)}} .kv b{{font-weight:500}}
 .sample{{color:var(--mut);font-size:12px;margin-top:4px;overflow-wrap:anywhere}} .cols{{columns:2;column-gap:28px}}
 @media (max-width:640px){{.cols{{columns:1}}}}
@@ -254,7 +374,7 @@ tr.grp td{{font-weight:700;background:var(--bg)}} tr.grp .meter-t{{font-weight:4
 <div class="sub">Срез 01.10.2026 · база Corsearch от 28.09.2026 без наших доменов · {fmt(total)} доменов</div>
 
 <div class="lead chart"><div>{donut([(GROUP_KEYS[i], g[0], gsum[g[0]]) for i, g in enumerate(GROUPS)], total)}</div>
-<ul class="legend">{"".join(f'<li><span class="sw" style="background:var(--g-{GROUP_KEYS[i]})"></span><a href="#g-{GROUP_KEYS[i]}">{e(g[0])}</a>'
+<ul class="legend">{"".join(f'<li><span class="sw" style="background:var(--g-{GROUP_KEYS[i]})"></span><a href="#g-{GROUP_KEYS[i]}" target="_self">{e(g[0])}</a>'
 f'<b>{fmt(gsum[g[0]])}</b><span class="pct">{pc(gsum[g[0]] * 100 / total)} %</span></li>' for i, g in enumerate(GROUPS))}</ul></div>
 
 <div class="lead"><b>Главное</b><ul>
@@ -286,10 +406,17 @@ Mostbet — 15 из 20 подтверждены (ошибки исправлен
 <li>Не видно: реклама, которую показывают только в других странах; {fmt(cnt["mono_unresolved"])} монобрендов,
 чьи трекеры не открылись.</li></ul></div>
 
-<h1 style="margin-top:28px">Примеры по классам</h1>
-<div class="sub">По 10 на класс: домены класса упорядочены по имени и разбиты на 10 равных частей, из каждой взят
-один случайный.</div>
+<h1 style="margin-top:28px">Все сайты по классам</h1>
+<div class="sub">Нумерация сквозная, № 1–{fmt(total)}. В каждом классе сначала 10 примеров: домены класса упорядочены
+по имени и разбиты на 10 равных частей, из каждой взят один случайный. Остальные свёрнуты под списком, открытые списки
+запоминаются в этом браузере. У каждого сайта — причина, по которой он в классе, и ссылки, решившие класс.</div>
 {''.join(sections)}
+<script>
+const KEY='brand-report-open';let st={{}};try{{st=JSON.parse(localStorage.getItem(KEY)||'{{}}')}}catch(_){{}}
+document.querySelectorAll('details.more').forEach(d=>{{if(st[d.dataset.k])d.open=true;
+ d.addEventListener('toggle',()=>{{st[d.dataset.k]=d.open;try{{localStorage.setItem(KEY,JSON.stringify(st))}}catch(_){{}}}})}});
+const h=location.hash.match(/^#n(\\d+)$/);if(h){{const el=document.getElementById('n'+h[1]);if(el){{const d=el.closest('details');if(d)d.open=true;el.scrollIntoView()}}}}
+</script>
 </main></body></html>'''
     out = d / "report"
     out.mkdir(exist_ok=True)

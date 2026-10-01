@@ -213,6 +213,20 @@ def ads(domain: str, g: dict, a: dict, na: dict, page: dict, our: set, dests: li
     """Affiliate traffic of a site: to Mostbet, to other brands (with names), plain links to other
     gambling sites, links not followed to the end, our own refs."""
     mb, other, plain, unverified, ours = False, set(), set(), 0, False
+    links = []  # (kind, name, url, final) of every link that decided: the evidence shown in the report
+
+    def add_other(name, u, f):
+        other.add(name)
+        links.append(("other", name, u, f))
+
+    def add_mb(u, f, kind="mb"):
+        nonlocal mb
+        mb = True
+        links.append((kind, "Mostbet", u, f))
+
+    def add_plain(host, u, f):
+        plain.add(host)
+        links.append(("plain", host, u, f))
     if g.get("incomplete"):
         unverified += 1
     for x in dests:
@@ -232,43 +246,43 @@ def ads(domain: str, g: dict, a: dict, na: dict, page: dict, our: set, dests: li
         if x.get("via", "").startswith("js:data-modal"):
             continue  # game demo windows of providers, not links
         if mostbet_ref(url, domain):
-            mb = True  # Mostbet ref by its shape and host, even when the ref host no longer answers
+            add_mb(url, final, "mb")  # Mostbet ref by its shape and host, even when the ref host no longer answers
         elif kind == "mostbet":
             # Named only by its title (another Mostbet-branded site, not the operator): an ad only with a code.
             weak = x.get("evidence") == "name_only_weak"
             if x.get("pid") or coded or mostbet_ref(url, domain) or (tracked and not weak):
-                mb = True
+                add_mb(url, final, "mb")
         elif kind in ("other_gambling", "gambling_site") and (coded or tracked):
-            other.add(brand if brand and brand != "?" else (urlsplit(final).hostname or "?"))
+            add_other(brand if brand and brand != "?" else (urlsplit(final).hostname or "?"), url, final)
         elif kind == "other_gambling" and brand and brand != "?" and lb.brand_of_host(lb_base(final)) not in ("", "Mostbet") \
                 and not NOT_CASINO_HOST.search(lb_base(final)):
-            other.add(brand)  # a link to an operator (its brand in the host) is an ad even without a code (owner, 30.09)
+            add_other(brand, url, final)  # a link to an operator (its brand in the host) is an ad even without a code (owner, 30.09)
         elif kind in ("other_gambling", "gambling_site") and MB.search(lb_base(url)):
             continue  # a sister Mostbet-named site of a network moving elsewhere: not this site's ad
         elif kind == "other_gambling" and not NOT_CASINO_HOST.search(lb_base(final)):
-            plain.add(lb_base(final))  # a review or doorway naming a brand in its title, not the operator
+            add_plain(lb_base(final), url, final)  # a review or doorway naming a brand in its title, not the operator
         elif kind == "gambling_site":
             host = (urlsplit(final).hostname or "").lower()
             named = lb.brand_of_host(host) or next((n for n, rx in lb.BRAND_RES if rx.search(x.get("title") or "")), "")
             if lb.brand_of_host(host) not in ("", "Mostbet") and not NOT_CASINO_HOST.search(host):
-                other.add(lb.brand_of_host(host))
+                add_other(lb.brand_of_host(host), url, final)
             elif not NOT_CASINO_HOST.search(host):
-                plain.add(host)  # another gambling site with no known brand: a doorway, the weak case
+                add_plain(host, url, final)  # another gambling site with no known brand: a doorway, the weak case
         elif kind in ("unknown", "needs_browser", "dead") and coded and mostbet_ref_host(lb_base(final) or lb_base(url)):
-            mb = True
+            add_mb(url, final, "mb")
         elif kind in ("unknown", "needs_browser", "dead") and coded and not MB.search(lb_base(final) or lb_base(url)):
-            other.add(lb_base(final) or lb_base(url))  # partner code on a host that is not Mostbet
+            add_other(lb_base(final) or lb_base(url), url, final)  # partner code on a host that is not Mostbet
         elif kind in ("unknown", "needs_browser", "dead") and (tracked or x.get("ad_route") == "True"):
             unverified += 1
     if a:
         ref = a.get("ref_url") or ""
         if ref_key(ref) in our:
             ours = True
-            mb = True
+            add_mb(ref, "", "ours")
         elif mostbet_ref(ref, domain) or MB.search(lb_base(ref)):
-            mb = True
+            add_mb(ref, "", "mb")
         elif looks_tracker(ref):
-            other.add(lb.brand_of_host(lb_base(ref)) or f"via {lb_base(ref)}")
+            add_other(lb.brand_of_host(lb_base(ref)) or f"via {lb_base(ref)}", ref, "")
     for chk in checks:
         chain = [c.get("url") or "" for c in chk.get("chain") or []]
         if chk.get("found") or len(chain) < 2:
@@ -283,33 +297,33 @@ def ads(domain: str, g: dict, a: dict, na: dict, page: dict, our: set, dests: li
         if named == "Mostbet":
             # A chain of Mostbet-named doorways is not an ad; a ref host or a partner code is.
             if coded or any(mostbet_ref_host(h) for h in hosts):
-                mb = True
+                add_mb(chain[1], chain[-1], "mb")
         elif named:
-            other.add(named)
+            add_other(named, chain[1], chain[-1])
         elif coded and last_ok:
-            other.add(hosts[-1])
+            add_other(hosts[-1], chain[1], chain[-1])
         elif not mostbet_ref_host(hosts[0]) and not MB.search(hosts[0]) and looks_tracker(chain[1] if len(chain) > 1 else ""):
-            other.add(f"via {hosts[0]}")  # a foreign tracker counts even when it no longer opens (owner, 30.09)
+            add_other(f"via {hosts[0]}", chain[1], chain[-1])  # a foreign tracker counts even when it no longer opens (owner, 30.09)
         else:
             unverified += 1
     for x in page.get("aff_links") or []:
         if ref_key(x["url"]) in our:
             ours = True
-            mb = True
+            add_mb(x["url"], "", "ours")
         elif x.get("brand") == "Mostbet" or (x.get("ref_kind") and mostbet_ref(x["url"], domain)):
-            mb = True
+            add_mb(x["url"], "", "mb")
         elif x.get("ref_kind"):
-            other.add(f"via {x.get('host')}")
+            add_other(f"via {x.get('host')}", x["url"], "")
         elif x.get("brand"):
-            other.add(x["brand"])
+            add_other(x["brand"], x["url"], "")
         elif lb.AFF_PARAMS.search(urlsplit(x["url"]).query or "") or lb.TRACK_PARAMS.search(urlsplit(x["url"]).query or "") \
                 or re.search(r"(^|&)(affiliatecode|affiliate_code|sub\d|buyer)=", urlsplit(x["url"]).query or "", re.I):
             if not MB.search(x.get("host") or "") and not mostbet_ref_host(x.get("host") or ""):
-                other.add(x.get("host") or "?")
+                add_other(x.get("host") or "?", x["url"], "")
         elif not g:
             unverified += 1  # tracker link of an unknown brand, not followed for this site
     return {"mb": mb, "other": sorted(other), "plain": sorted(p for p in plain if p), "unverified": unverified,
-            "ours": ours}
+            "ours": ours, "links": links}
 
 
 _aff = None
@@ -727,6 +741,7 @@ def main(d: str):
             "domain": domain, "category": cat, "tags": " ".join(tags), "why": why,
             "source": "brand-scan" if g else "affiliate-scan",
             "mostbet_ads": ad["mb"], "other_ads": " | ".join(ad["other"]), "plain_gambling_links": " ".join(ad["plain"][:10]),
+            "ad_links": ad_links_json(ad["links"]),
             "mb_text": page.get("mb_text", ""), "mb_per_1k": page.get("mb_per_1k", ""), "mb_anchor": page.get("mb_anchor", ""),
             "mb_hidden_links": page.get("mb_hidden_links", ""), "text_len": page.get("text_len", ""),
             "gambling_per_1k": page.get("gambling_per_1k", ""),
@@ -755,6 +770,17 @@ def main(d: str):
     for k, v in Counter(r["category"] for r in rows).most_common():
         print(f"  {k:15} {v}")
     print("tags:", Counter(t for r in rows for t in r["tags"].split()).most_common())
+
+
+def ad_links_json(links: list) -> str:
+    """The links that decided, foreign ads first, one per name, at most 6; our own refs never printed."""
+    seen, out = set(), []
+    for kind in ("other", "mb", "plain"):
+        for k, name, u, f in links:
+            if k == kind and (k, name) not in seen and u:
+                seen.add((k, name))
+                out.append([k, name, u, f if f != u else ""])
+    return json.dumps(out[:6], ensure_ascii=False) if out else ""
 
 
 def lb_same(a: str, b: str) -> bool:
