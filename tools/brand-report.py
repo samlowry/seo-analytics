@@ -1,8 +1,8 @@
 """Report on the whole brand scan: classes, numbers, 10 examples per class. One HTML file, printed to PDF.
 
-Run: uv run --with selectolax --with playwright python tools/brand-report.py brand-protection/2026-09-28/brand-scan
-Reads classified.csv, site-features.jsonl.gz, corsearch-false-positives.csv. Writes report/brand-report.html and
-report/brand-report.pdf (headless Chromium). Examples: per class, the domains sorted by name and cut into ten equal
+Run: uv run --with selectolax python tools/brand-report.py brand-protection/2026-09-28/brand-scan
+Reads classified.csv, site-features.jsonl.gz, corsearch-false-positives.csv. Writes report/brand-report.html, self-contained:
+the donut of groups and the share meters are inline SVG/CSS, no external resources. Examples: per class, the domains sorted by name and cut into ten equal
 parts, one random domain from each part (fixed seed), so the sample spreads over the whole class.
 """
 import collections
@@ -103,8 +103,45 @@ def why_ru(r) -> str:
     return ""
 
 
+GROUP_KEYS = ["viol", "mono", "other", "dead"]  # CSS colour slots, in GROUPS order
+
+
+def donut(parts, total) -> str:
+    """Donut of the groups: inline SVG, 2px surface gaps between slices, native tooltip per slice."""
+    import math
+    cx = cy = 90
+    r_out, r_in = 84, 52
+    a0, out = -math.pi / 2, []
+    for key, name, n in parts:
+        a1 = a0 + 2 * math.pi * n / total
+        large = 1 if a1 - a0 > math.pi else 0
+        p = lambda a, r: (cx + r * math.cos(a), cy + r * math.sin(a))  # noqa: E731
+        (x0, y0), (x1, y1), (x2, y2), (x3, y3) = p(a0, r_out), p(a1, r_out), p(a1, r_in), p(a0, r_in)
+        d_ = (f"M{x0:.2f},{y0:.2f} A{r_out},{r_out} 0 {large} 1 {x1:.2f},{y1:.2f} L{x2:.2f},{y2:.2f} "
+              f"A{r_in},{r_in} 0 {large} 0 {x3:.2f},{y3:.2f}Z")
+        out.append(f'<path d="{d_}" style="fill:var(--g-{key})" stroke="var(--card)" stroke-width="2">'
+                   f'<title>{e(name)}: {fmt(n)} ({pc(n * 100 / total)} %)</title></path>')
+        a0 = a1
+    return (f'<svg viewBox="0 0 180 180" width="180" height="180" role="img" aria-label="Доли групп">{"".join(out)}'
+            f'<text x="90" y="86" text-anchor="middle" class="dn-n">{fmt(total)}</text>'
+            f'<text x="90" y="104" text-anchor="middle" class="dn-l">доменов</text></svg>')
+
+
+def meter(key, share, label) -> str:
+    """Vertical share meter: a same-hue track, filled from the bottom; the number beside it in text ink."""
+    h = max(2.0, 56 * share)
+    return (f'<div class="meter"><svg width="14" height="56" viewBox="0 0 14 56" aria-hidden="true">'
+            f'<rect x="0" y="0" width="14" height="56" rx="4" style="fill:var(--g-{key});opacity:.16"/>'
+            f'<rect x="0" y="{56 - h:.1f}" width="14" height="{h:.1f}" rx="4" style="fill:var(--g-{key})"/></svg>'
+            f'<div class="meter-t">{label}</div></div>')
+
+
 def e(x) -> str:
     return html.escape(str(x or ""))
+
+
+def pc(x) -> str:
+    return f"{x:.1f}".replace(".", ",")
 
 
 def fmt(n) -> str:
@@ -148,8 +185,14 @@ def main(d: str):
     viol = sum(cnt[c] for c, _, _ in GROUPS[0][1])
 
     toc, sections = [], []
-    for gname, cats in GROUPS:
-        toc.append(f'<tr class="grp"><td colspan="3">{e(gname)}</td></tr>')
+    gsum = {g[0]: sum(cnt[c] for c, _, _ in g[1]) for g in GROUPS}
+    for gi, (gname, cats) in enumerate(GROUPS):
+        key = GROUP_KEYS[gi]
+        toc.append(f'<tr class="grp"><td colspan="3"><span class="sw" style="background:var(--g-{key})"></span>{e(gname)}'
+                   f' — {fmt(gsum[gname])}</td></tr>')
+        sections.append(f'<div class="ghead" id="g-{key}"><h1>{e(gname)}</h1>'
+                        + meter(key, gsum[gname] / total, f"<b>{pc(gsum[gname] * 100 / total)} %</b> всех доменов<br>"
+                                f"{fmt(gsum[gname])} из {fmt(total)}") + '</div>')
         for c, ru, desc in cats:
             toc.append(f'<tr><td><a href="#{c}">{e(ru)}</a></td><td class="n">{fmt(cnt[c])}</td><td>{e(desc)}</td></tr>')
             cards = []
@@ -163,18 +206,32 @@ def main(d: str):
                 cards.append(f'''<article class="card"><header><a class="dom" href="https://{e(r["domain"])}/">{e(r["domain"])}</a></header>
 {grid}{f'<div class="sample">{e(text.get(r["domain"]))}</div>' if text.get(r["domain"]) else ''}</article>''')
             shown = f"{len(picks[c])} из {fmt(cnt[c])}" if cnt[c] > 10 else f"все {cnt[c]}"
-            sections.append(f'''<section id="{c}"><h2>{e(ru)} <small>{fmt(cnt[c])} · примеры: {shown}</small></h2>
+            gshare = cnt[c] / gsum[gname] if gsum[gname] else 0
+            sections.append(f'''<section id="{c}" class="g-{key}"><h2>{e(ru)} <small>{fmt(cnt[c])} · примеры: {shown}</small></h2>
+{meter(key, gshare, f"<b>{pc(gshare * 100)} %</b> группы «{e(gname.split(':')[0])}»<br>{pc(cnt[c] * 100 / total)} % всех доменов")}
 <p class="desc">{e(desc)}</p>{''.join(cards)}</section>''')
 
     brand_rows = "".join(f"<li><b>{e(b)}</b> — {fmt(n)}</li>" for b, n in top)
     page = f'''<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Использование бренда Mostbet</title><style>
-:root{{--bg:#f1f5f9;--card:#fff;--fg:#0f172a;--mut:#64748b;--line:#e2e8f0;--acc:#2563eb;--red:#dc2626}}
-@media (prefers-color-scheme:dark){{:root:not([data-print]){{--bg:#0b1120;--card:#111827;--fg:#e5e7eb;--mut:#94a3b8;--line:#1f2937;--acc:#60a5fa}}}}
+:root{{--bg:#f1f5f9;--card:#fff;--fg:#0f172a;--mut:#64748b;--line:#e2e8f0;--acc:#2563eb;
+ --g-viol:#eb6834;--g-mono:#2a78d6;--g-other:#1baf7a;--g-dead:#4a3aa7}}
+@media (prefers-color-scheme:dark){{:root:not([data-theme="light"]){{--bg:#0b1120;--card:#111827;--fg:#e5e7eb;--mut:#94a3b8;
+ --line:#1f2937;--acc:#60a5fa;--g-viol:#d95926;--g-mono:#256abf;--g-other:#199e70;--g-dead:#9085e9}}}}
+:root[data-theme="dark"]{{--bg:#0b1120;--card:#111827;--fg:#e5e7eb;--mut:#94a3b8;--line:#1f2937;--acc:#60a5fa;
+ --g-viol:#d95926;--g-mono:#256abf;--g-other:#199e70;--g-dead:#9085e9}}
 body{{margin:0;background:var(--bg);color:var(--fg);font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}}
 main{{max-width:1040px;margin:0 auto;padding:16px}} h1{{font-size:24px;margin:8px 0 4px}} .sub{{color:var(--mut)}}
 h2{{font-size:18px;margin:28px 0 4px;border-left:5px solid var(--acc);padding-left:10px}} h2 small{{color:var(--mut);font-weight:400;font-size:13px}}
-section:nth-of-type(-n+6) h2{{border-color:var(--red)}}
+section.g-viol h2{{border-color:var(--g-viol)}} section.g-mono h2{{border-color:var(--g-mono)}}
+section.g-other h2{{border-color:var(--g-other)}} section.g-dead h2{{border-color:var(--g-dead)}}
+.chart{{display:flex;gap:24px;align-items:center;flex-wrap:wrap}} .legend{{list-style:none;padding:0;margin:0;flex:1;min-width:240px}}
+.legend li{{display:flex;gap:8px;align-items:center;padding:5px 0;border-bottom:1px solid var(--line)}} .legend a{{flex:1;color:var(--fg)}}
+.legend b{{font-variant-numeric:tabular-nums}} .pct{{color:var(--mut);width:52px;text-align:right;font-variant-numeric:tabular-nums}}
+.sw{{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px;flex:none}}
+.dn-n{{font-size:20px;font-weight:700;fill:var(--fg)}} .dn-l{{font-size:11px;fill:var(--mut)}}
+.meter{{display:flex;gap:10px;align-items:flex-end;margin:6px 0 8px}} .meter-t{{font-size:12.5px;color:var(--mut);line-height:1.35}}
+.meter-t b{{color:var(--fg);font-size:15px}} .ghead{{margin-top:36px;padding-top:8px;border-top:2px solid var(--line)}} .ghead h1{{margin:0 0 4px}}
 .desc{{color:var(--mut);margin:2px 0 10px}} .lead{{background:var(--card);border-radius:10px;padding:12px 16px;margin:12px 0;break-inside:avoid}}
 .lead li{{margin:3px 0}} table{{width:100%;border-collapse:collapse;background:var(--card);border-radius:10px;overflow:hidden;font-size:13px}}
 td{{padding:5px 10px;border-bottom:1px solid var(--line);vertical-align:top}} td.n{{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}}
@@ -184,10 +241,14 @@ tr.grp td{{font-weight:700;background:var(--bg)}} a{{color:var(--acc)}}
 .kv{{font-size:12.5px;overflow-wrap:anywhere}} .kv span{{color:var(--mut)}} .kv b{{font-weight:500}}
 .sample{{color:var(--mut);font-size:12px;margin-top:4px;overflow-wrap:anywhere}} .cols{{columns:2;column-gap:28px}}
 @media (max-width:640px){{.cols{{columns:1}}}}
-@media print{{body{{background:#fff}} .card,.lead,table{{border:1px solid #e2e8f0}} h2{{break-after:avoid}} a{{color:#1d4ed8}}}}
+@media print{{body{{background:#fff}} .card,.lead,table{{border:1px solid #e2e8f0}} h2{{break-after:avoid}}}}
 </style></head><body><main>
 <h1>Использование бренда Mostbet: кто и как</h1>
 <div class="sub">Срез 01.10.2026 · база Corsearch от 28.09.2026 без наших доменов · {fmt(total)} доменов</div>
+
+<div class="lead chart"><div>{donut([(GROUP_KEYS[i], g[0], gsum[g[0]]) for i, g in enumerate(GROUPS)], total)}</div>
+<ul class="legend">{"".join(f'<li><span class="sw" style="background:var(--g-{GROUP_KEYS[i]})"></span><a href="#g-{GROUP_KEYS[i]}">{e(g[0])}</a>'
+f'<b>{fmt(gsum[g[0]])}</b><span class="pct">{pc(gsum[g[0]] * 100 / total)} %</span></li>' for i, g in enumerate(GROUPS))}</ul></div>
 
 <div class="lead"><b>Главное</b><ul>
 <li><b>{fmt(viol)} нарушителей</b> используют бренд Mostbet, чтобы рекламировать других или дискредитировать бренд.
@@ -226,21 +287,7 @@ Mostbet — 15 из 20 подтверждены (ошибки исправлен
     out = d / "report"
     out.mkdir(exist_ok=True)
     (out / "brand-report.html").write_text(page, encoding="utf-8")
-    from playwright.sync_api import sync_playwright
-    with sync_playwright() as p:
-        try:
-            b = p.chromium.launch(headless=True)
-        except Exception:  # noqa: BLE001 — the bundled browser of this Playwright release is not installed: take any
-            shells = sorted(Path.home().glob("Library/Caches/ms-playwright/chromium_headless_shell-*/*/chrome-headless-shell"))
-            b = p.chromium.launch(headless=True, executable_path=str(shells[-1]))
-        pg = b.new_page()
-        pg.goto((out / "brand-report.html").resolve().as_uri())
-        pg.evaluate("document.documentElement.setAttribute('data-print','1')")
-        pg.emulate_media(media="print", color_scheme="light")
-        pg.pdf(path=str(out / "brand-report.pdf"), format="A4", print_background=True,
-               margin={"top": "12mm", "bottom": "12mm", "left": "10mm", "right": "10mm"})
-        b.close()
-    print(out / "brand-report.html", out / "brand-report.pdf")
+    print(out / "brand-report.html")
 
 
 if __name__ == "__main__":
