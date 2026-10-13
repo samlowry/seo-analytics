@@ -10,6 +10,7 @@ Categories (one per site):
   mirror         official Mostbet frontend (its assets or its "MostBet.com …" title)
   mono_other     Mostbet monobrand advertising only other brands by affiliate links   — main target
   mono_mixed     Mostbet monobrand advertising Mostbet and other brands                — main target
+  mono_hidden    Mostbet monobrand with hidden links to other-brand affiliate sites (owner, 13.10)  — a violator
   mono_xlink     Mostbet monobrand, no foreign affiliate links, plain links to other-brand sites
   mono_mostbet   Mostbet monobrand advertising Mostbet only
   mono_unresolved Mostbet monobrand whose buttons lead to a gate or tracker nobody followed to the end
@@ -62,6 +63,8 @@ BARE_GATES = {"/go/", "/goto/", "/out/", "/link/", "/visit/", "/redirect/", "/cl
 NOT_CASINO_HOST = re.compile(r"(^|\.)(bet\.com|chatgpt\.com|openai\.com|nolimitcity\.com|pragmaticplay\.(com|net)|"
                              r"evolution\.com|playngo\.com|netent\.com|spribe\.co|gpwa\.org|iclg\.com|seo\.casino|promopult\.ru|begambleaware\.org|gamcare\.org\.uk|"
                              r"casino\.guru|askgamblers\.com|trustpilot\.com|curacao-egaming\.com|mga\.org\.mt)$", re.I)
+MOVE_TARGET_CLASSES = {"mono_other", "mono_mixed", "mono_hidden", "mono_xlink", "mono_mostbet", "mono_unresolved",
+                       "mono_no_ads", "mb_page_other", "multibrand", "article", "hacked"}  # bait and discredit end on a casino or a non-gambling site
 SETTLED_STRIKES = ("mono_other", "mono_mixed", "bait", "redirect_other", "discredit")
 VISITORS = ("google-mobile", "googlebot")  # used for sites hidden from a plain visitor
 EXTRA_VISITORS = {"mobile": "ads_mobile_only", "google-mobile": "ads_search_only"}  # extra snapshots of live sites
@@ -99,8 +102,6 @@ EXTRA_GAMBLING = re.compile(r"\btogel\b|\btoto\b|slot gacor|situs (slot|judi|tot
                             r"کیسینو|رولیٹ|جوا|اندر باہر|\b\d+\s?FS\b|free spins|фриспин|hokiwin|\bmpo\d*|s8toto|u638|royal joker|"
                             r"jackpot|roulette|blackjack|baccarat|poker|lottery|лотере", re.I)
 NOT_BRAND_DOMAIN = re.compile(r"mostbeton(?!line)", re.I)  # «мост-бетон», a concrete plant (round 4)
-OPERATOR_TITLE = re.compile(r"официальн|official|офіційн|resmi|oficial|offiziell|вход|login|giriş|зеркало|mirror|"
-                            r"registration|регистрац", re.I)
 MIRROR_TITLE = re.compile(r"\bmost\s?bet\.com\s*[-–—]", re.I)  # localized "Betting company MostBet.com – …"
 
 
@@ -129,6 +130,44 @@ def js_url_live(domain: str, url: str) -> bool:
     raw, clean = _js_text[domain]
     key = url.split("://", 1)[-1].rstrip("/")
     return key not in raw or key in clean
+
+
+def hidden_hosts(domain: str) -> set:
+    """Hosts of links hidden from the visitor (display:none, a 2px box with overflow:hidden, …) in the saved pages."""
+    out = set()
+    for p in HTML_DIR.glob(f"{domain}.*"):
+        if not re.match(r"(http|browser)[\w-]*\.html\.gz$", p.name[len(domain) + 1:]):
+            continue
+        try:
+            tree = lb.HTMLParser(gzip.open(p, "rt", encoding="utf-8", errors="replace").read())
+        except (OSError, EOFError):
+            continue
+        for a_ in tree.css("a[href]"):
+            if _feat.hidden(a_):
+                out.add(lb_base(a_.attributes.get("href") or ""))
+    out.discard("")
+    return out
+
+
+def home_chains(bs_dir: Path, af_dir: Path) -> dict:
+    """domain -> URLs its home page passed through on the way to the final page, from every scan log."""
+    out = {}
+    logs = sorted(bs_dir.glob("http-scan*.jsonl.gz")) + [bs_dir / "browser-scan.jsonl.gz", bs_dir / "home-dump.jsonl.gz",
+                                                          af_dir / "scan.jsonl.gz"]
+    for p in logs:
+        if not p.exists():
+            continue
+        with gzip.open(p, "rt", encoding="utf-8") as f:
+            for line in f:
+                r = json.loads(line)
+                hops = (r.get("home") or {}).get("hops") or r.get("home_chain") or []
+                urls = [h[1] if isinstance(h, list) and len(h) > 1 else (h.get("url") if isinstance(h, dict) else h)
+                        for h in hops]
+                urls = [u for u in urls[:-1] if isinstance(u, str) and u]  # the last one is the final page
+                if urls:
+                    seen = out.setdefault(r["domain"].lower().removeprefix("www."), [])
+                    seen += [u for u in urls if u not in seen]
+    return out
 
 
 def ref_key(url: str) -> str:
@@ -300,10 +339,6 @@ def ads(domain: str, g: dict, a: dict, na: dict, page: dict, our: set, dests: li
         elif kind == "other_gambling" and brand and brand != "?" and lb.brand_of_host(lb_base(final)) not in ("", "Mostbet") \
                 and not NOT_CASINO_HOST.search(lb_base(final)):
             add_other(brand, url, final)  # a link to an operator (its brand in the host) is an ad even without a code (owner, 30.09)
-        elif kind == "other_gambling" and brand and brand != "?" and "." not in brand and x.get("ad_route") == "True" \
-                and OPERATOR_TITLE.search(x.get("title") or "") and not NOT_CASINO_HOST.search(lb_base(final)) \
-                and not MB.search(lb_base(url)):
-            add_other(brand, url, final)  # the operator's own site by its title ("1Win — официальный сайт"), round 4
         elif kind in ("other_gambling", "gambling_site") and MB.search(lb_base(url)):
             continue  # a sister Mostbet-named site of a network moving elsewhere: not this site's ad
         elif kind == "other_gambling" and not NOT_CASINO_HOST.search(lb_base(final)):
@@ -523,6 +558,8 @@ def site_type(domain: str, page: dict, ad: dict) -> tuple:
         return "discredit", f"mostbet_in_domain non_gambling content text={page.get('text_len', 0)}"
     if gambling and not mb_text and not ext_mb and not int_mb and not ad["mb"] and not in_head:
         return "other_gambling", "mostbet_only_in_meta"
+    if ad["mb"] and not in_domain and not in_head and not gambling and not subject:
+        return "article", "own topic with a Mostbet ad (banner, popup)"  # a publisher selling ad space (owner, 13.10)
     if gambling and not other_n and mb_text <= 1 and not ext_mb and not int_mb and not in_head:
         return "other_gambling", "mostbet_only_in_meta"  # one mention in meta keywords is no Mostbet review (round 4)
     if gambling:
@@ -851,6 +888,11 @@ def main(d: str):
             cat, why = site_type(domain, page, ad)
             if cat == "mono":
                 cat = mono_sub(ad, page, g)
+                # Hidden links to other brands' affiliate sites: a violation of its own kind (owner, 13.10).
+                plain_hosts = {lb_base(u) for k, _, u, _ in ad["links"] if k == "plain"}
+                hid = plain_hosts & hidden_hosts(domain) if plain_hosts and not ad["other"] else set()
+                if hid:
+                    cat, why = "mono_hidden", f"{why} | hidden links to {', '.join(sorted(hid)[:3])}"
         evidence = mb_page_evidence(domain, bs_dir / "html", dests_here) if cat not in SETTLED_STRIKES else []
         if evidence:
             if cat.startswith("mono_"):
@@ -875,6 +917,37 @@ def main(d: str):
             "scan_group": grp or ("affiliate" if a else "not-affiliate"),
             "html": " ".join(fr.get("sources") or []),
         })
+    # A home page that moves to another domain, directly or through a chain: every affiliate domain on the way
+    # and the final one belong to the list (owner, 13.10). Those missing from the base join it with the class of
+    # the page the chain ends on (the moving site was judged by that very page), tagged not_in_corsearch.
+    # Left out: parkings, refs and trackers, casinos, dead targets, our own domains.
+    have = {r["domain"].lower().removeprefix("www.") for r in rows}
+    chains = home_chains(bs_dir, af_dir)
+    by_target = {}
+    for r in rows:
+        if r["category"] not in MOVE_TARGET_CLASSES:
+            continue
+        dom = r["domain"].lower().removeprefix("www.")
+        hosts = [(u, lb_base(u)) for u in chains.get(dom, [])]
+        final = r["final_url"] or ""
+        if "moved" in r["tags"].split() and final:
+            hosts.append((final, lb_base(final)))
+        for u, t in hosts:
+            if not t or t in have or t in ours_domains or lb_same(t, dom) or by_target.get(t, [None])[-1] is r:
+                continue
+            if mostbet_ref_host(t) or t in MB_TRACK or PARKED_MORE.search(t) or NOT_AD_HOST.search(t) or \
+                    NOT_CASINO_HOST.search(t) or (looks_tracker(u) and not MB.search(t)):
+                continue
+            by_target.setdefault(t, []).append(r)
+    for t, srcs in sorted(by_target.items()):
+        best = Counter(r["category"] for r in srcs).most_common(1)[0][0]
+        r0 = next(r for r in srcs if r["category"] == best)
+        tags = [x for x in r0["tags"].split() if x not in ("moved", "brand_in_domain")] + ["not_in_corsearch"]
+        if MB.search(t):
+            tags.append("brand_in_domain")
+        rows.append({**r0, "domain": t, "tags": " ".join(tags), "source": "move-chain",
+                     "why": f"{r0['why']} | on the move of {len(srcs)} domains of the base, e.g. {srcs[0]['domain']}"})
+    print("move chain domains added", len(by_target))
     # Sites with no trace of the brand at all (not in the domain, the page, the links or the ads):
     # Corsearch collected them by mistake; the owner sends this list to Corsearch as a whitelist.
     fp = [r for r in rows if r["category"] in ("unrelated", "other_gambling") and "brand_in_domain" not in r["tags"]

@@ -29,7 +29,7 @@ SEED = 20261013
 MONO_DENSITY = 1.0  # as in brand-classify.py
 
 FAMILY = {
-    **{c: "viol" for c in ("mono_other", "mono_mixed", "mb_page_other", "bait", "redirect_other", "discredit")},
+    **{c: "viol" for c in ("mono_other", "mono_mixed", "mb_page_other", "bait", "redirect_other", "discredit", "mono_hidden")},
     **{c: "mono" for c in ("mono_mostbet", "redirect_ref", "mono_xlink", "mono_unresolved", "mono_no_ads", "mirror")},
     **{c: "other" for c in ("multibrand", "article", "hacked", "other_gambling", "unrelated", "unclear")},
     **{c: "dead" for c in ("not_shown", "stub", "parked", "dead")},
@@ -168,6 +168,8 @@ def raw_score(r: dict) -> tuple:
             s += pen(-0.1, "не все кнопки пройдены до конца")
     elif c == "mono_xlink":
         s = 0.65
+    elif c == "mono_hidden":
+        s = 0.85  # the hidden link is read from the saved HTML itself
     elif c == "mirror":
         s = 0.95 if w == "mostbet_shell" else 0.8
     elif c == "multibrand":
@@ -228,8 +230,6 @@ def raw_score(r: dict) -> tuple:
         s += pen(-0.4, "вместо страницы — блокировка Cloudflare")
     if c in CONTENT and "no_html" in tags:
         s += pen(-0.2, "HTML страницы не сохранён")
-    if c in CONTENT and "moved" in tags:
-        s += pen(-0.04, "главная переезжает на другой домен")
     if any(t.startswith("cloaked:") for t in tags):
         s += pen(-0.04, "сайт виден только посетителю из Google или Googlebot")
     if c in ("mono_other", "mono_mixed", "mono_xlink") and "ads_unverified" in tags:
@@ -262,6 +262,11 @@ def labels(d: Path, now: dict) -> dict:
                 out[dom] = (now[dom] == m.get("given"), "owner")
             elif dom in OWNER_BAD:
                 out[dom] = (now[dom] in OWNER_BAD[dom], "owner")
+    om4 = d / "review" / "owner-marks-r4.json"  # the owner's classes after round 4: {domain: class}
+    if om4.exists():
+        for dom, c in json.loads(om4.read_text()).items():
+            if dom in now:
+                out[dom] = (now[dom] == c, "owner")
     return out
 
 

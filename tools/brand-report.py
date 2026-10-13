@@ -34,6 +34,9 @@ GROUPS = [
          "Главная сразу уводит посетителя на партнёрскую ссылку другого бренда."),
         ("discredit", "Дискредитация бренда",
          "Mostbet в домене, а на сайте содержимое не про ставки вообще (магазин, наркошоп и т. п.)."),
+        ("mono_hidden", "Монобренд → скрытые ссылки на чужие монобренды",
+         "Чужой рекламы нет, но в коде спрятаны от посетителя ссылки на аффилиат-сайты других брендов "
+         "(блок высотой в пару пикселей, display:none): ссылочный вес монобренда Mostbet уходит чужим."),
     ]),
     ("Монобренд Mostbet без чужой рекламы", [
         ("mono_mostbet", "Монобренд → только Mostbet", "Реклама только Mostbet (партнёрские ссылки с pid)."),
@@ -70,7 +73,7 @@ TAG_RU = {
     "rotating_ads": "реклама меняется между снимками", "search_referrer_js": "скрипт реагирует на заход из поиска",
     "pwa": "PWA-лендинг", "apk": "раздаёт APK", "brand_in_domain": "Mostbet в домене", "moved": "главная переезжает",
     "ads_unverified": "не все ссылки пройдены", "platform": "на платформе (blogspot и т. п.)", "no_html": "HTML нет",
-    "our_ref": "наша рефка",
+    "our_ref": "наша рефка", "not_in_corsearch": "нет в базе Corsearch — сюда переезжают домены базы",
 }
 
 
@@ -132,7 +135,8 @@ def why_ru(r) -> str:
         tail = {"mono_other": "реклама только чужих брендов", "mono_mixed": "реклама Mostbet и чужих брендов",
                 "mono_mostbet": "реклама только Mostbet", "mono_xlink": "чужой рекламы нет, простые ссылки на чужие сайты",
                 "mono_unresolved": "кнопки ведут на трекер или шлюз, получатель не установлен",
-                "mono_no_ads": "партнёрских ссылок нет"}.get(c, "")
+                "mono_no_ads": "партнёрских ссылок нет",
+                "mono_hidden": "скрытые ссылки на " + (w.split("hidden links to ", 1)[-1] if "hidden links to" in w else "чужие сайты")}.get(c, "")
         return f"{where}; {density(r)}; {tail}"
     if c == "mirror":
         return "шаблон официального сайта Mostbet (его скрипты и разметка)"
@@ -308,6 +312,7 @@ def main(d: str):
         false_pos = sum(1 for _ in csv.DictReader(f))
 
     total = len(rows)
+    added = sum(1 for r in rows if "not_in_corsearch" in r["tags"].split())
     cnt = collections.Counter(r["category"] for r in rows)
     strikes = [r for r in rows if r["category"] in ("mono_other", "mono_mixed", "mb_page_other")]
     brands = collections.Counter(brand_name(b) for r in strikes for b in set(r["other_ads"].split(" | ")) if b)
@@ -402,7 +407,8 @@ tr.grp td{{font-weight:700;background:var(--bg)}} tr.grp .meter-t{{font-weight:4
 @media print{{body{{background:#fff}} .card,.lead,table{{border:1px solid #e2e8f0}} h2{{break-after:avoid}}}}
 </style></head><body><main>
 <h1>Использование бренда Mostbet: кто и как</h1>
-<div class="sub">Срез 01.10.2026 · база Corsearch от 28.09.2026 без наших доменов · {fmt(total)} доменов</div>
+<div class="sub">Срез 13.10.2026 · база Corsearch от 28.09.2026 без наших доменов · {fmt(total)} доменов, из них
+{fmt(added)} добавлены: их нет в базе, но на них переезжают главные доменов базы</div>
 
 <div class="lead chart"><div>{donut([(GROUP_KEYS[i], g[0], gsum[g[0]]) for i, g in enumerate(GROUPS)], total)}</div>
 <ul class="legend">{"".join(f'<li><span class="sw" style="background:var(--g-{GROUP_KEYS[i]})"></span><a href="#g-{GROUP_KEYS[i]}" target="_self">{e(g[0])}</a>'
@@ -436,7 +442,7 @@ f'<b>{fmt(gsum[g[0]])}</b><span class="pct">{pc(gsum[g[0]] * 100 / total)} %</sp
 <li><b>Уверенность 0–100 у каждого сайта</b> — доля сайтов с таким баллом, чей класс проверяющий подтвердил.
 Балл считается по силе улики класса (какое правило сработало, какие ссылки решили) за вычетом недостающих данных
 и близости к соседнему классу; шкала подогнана по 910 проверенным сайтам. На проверенных сайтах, каждый оценён без
-себя: заявлено 91 % — подтверждено 90 %, заявлено 71 % — подтверждено 76 %. Под карточкой — что снизило уверенность.
+себя: заявлено 91 % — подтверждено 89 %, заявлено 73 % — подтверждено 75 %. Под карточкой — что снизило уверенность.
 Ошибки правил, найденные в четвёртом круге, исправлены; совпадение классов с проверяющими — 84 % (было 76 %).
 Эти же сайты служили и для правки правил, поэтому на новых сайтах совпадение может быть ниже.</li>
 <li>Не видно: реклама, которую показывают только в других странах; {fmt(cnt["mono_unresolved"])} монобрендов,
