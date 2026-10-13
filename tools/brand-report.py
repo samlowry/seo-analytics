@@ -260,17 +260,17 @@ def conf_badge(dom) -> tuple:
         return "", ""
     n = int(c["confidence"])
     lvl = "hi" if n >= 80 else "mid" if n >= 60 else "lo"
-    badge = f'<span class="cf cf-{lvl}" title="уверенность в классе, 0–100">класс {n}</span>'
+    badge = f'<span class="cf cf-{lvl}" title="вероятность, что тип сайта (класс) определён верно">уверенность в типе сайта: {n} %</span>'
     if c.get("violation"):
         v = int(c["violation"])
         vl = "lo" if v >= 90 else "mid" if v >= 50 else "hi"
-        badge += f'<span class="cf cf-{vl}" title="вероятность, что сайт нарушитель, 0–100">нарушение {v}</span>'
+        badge += f'<span class="cf cf-{vl}" title="вероятность, что сайт нарушитель, какой бы ни был тип">уверенность в нарушении: {v} %</span>'
     extra = []
     if c["minus"]:
-        extra.append(f'<div class="kv"><span>снижает уверенность</span> {e(c["minus"])}</div>')
+        extra.append(f'<div class="kv"><span>снижает уверенность:</span> <b>{e(c["minus"])}</b></div>')
     if c["checked"]:
-        extra.append(f'<div class="kv"><span>проверен вручную</span> '
-                     f'{"класс подтверждён" if c["checked"] == "agrees" else "класс не подтверждён"}</div>')
+        extra.append(f'<div class="kv"><span>проверен вручную:</span> <b>'
+                     f'{"тип подтверждён" if c["checked"] == "agrees" else "тип не подтверждён"}</b></div>')
     return badge, "".join(extra)
 
 
@@ -279,11 +279,12 @@ def card(num, r, sample_text) -> str:
     tags = ", ".join(TAG_RU.get(t, t) for t in r["tags"].split() if t in TAG_RU and t != "brand_in_domain")
     facts = [("метки", tags), ("title", r["title"]),
              ("конечный адрес", r["final_url"] if r["final_url"] and r["domain"] not in r["final_url"] else "")]
-    grid = "".join(f'<div class="kv"><span>{k}</span> {linkify(v) if k == "конечный адрес" else e(v)}</div>' for k, v in facts if v)
-    st = f'<div class="sample">{e(sample_text)}</div>' if sample_text else ""
+    grid = "".join(f'<div class="kv"><span>{k}:</span> <b>{linkify(v) if k == "конечный адрес" else e(v)}</b></div>'
+                   for k, v in facts if v)
+    st = f'<div class="sample"><span>текст главной:</span> «{e(sample_text)}…»</div>' if sample_text else ""
     return (f'<article class="card" id="n{num}"><header><span class="num">{num}</span>'
             f'<a class="dom" href="https://{e(r["domain"])}/">{e(r["domain"])}</a>{badge}</header>'
-            f'<div class="why"><span>причина</span> {linkify(why_ru(r))}</div>{ad_links(r)}{cf_extra}{grid}{st}</article>')
+            f'<div class="why"><span>причина:</span> <b>{linkify(why_ru(r))}</b></div>{ad_links(r)}{cf_extra}{grid}{st}</article>')
 
 
 def sample(rows, n=10):
@@ -362,10 +363,10 @@ def main(d: str):
             head = f"{fmt(cnt[c])} · № {fmt(lo)}–{fmt(num)}" if cnt[c] else "0"
             cfs = [int(CONF[r["domain"]]["confidence"]) for r in by[c] if r["domain"] in CONF]
             if cfs:
-                head += f" · средняя уверенность в классе {round(sum(cfs) / len(cfs))}, ниже 60 — {fmt(sum(1 for x in cfs if x < 60))}"
+                head += f" · средняя уверенность в типе сайта {round(sum(cfs) / len(cfs))}, ниже 60 — {fmt(sum(1 for x in cfs if x < 60))}"
             vs = [int(CONF[r["domain"]]["violation"]) for r in by[c] if CONF.get(r["domain"], {}).get("violation")]
             if vs and gi == 0:
-                head += f" · нарушение от 90 — {fmt(sum(1 for x in vs if x >= 90))}"
+                head += f" · уверенность в нарушении от 90 % — {fmt(sum(1 for x in vs if x >= 90))}"
             gshare = cnt[c] / gsum[gname] if gsum[gname] else 0
             sections.append(f'''<section id="{c}" class="g-{key}"><h2>{e(ru)} <small>{head}</small></h2>
 {meter(key, gshare, f"<b>{pc(gshare * 100)} %</b> группы «{e(gname.split(':')[0])}» · {pc(cnt[c] * 100 / total)} % всех доменов")}
@@ -408,9 +409,10 @@ tr.grp td{{font-weight:700;background:var(--bg)}} tr.grp .meter-t{{font-weight:4
 .ak-other{{border-color:var(--g-viol)}} .ak-mb{{border-color:var(--g-mono)}}
 .rest-h{{color:var(--mut);margin:10px 0 2px}} details.more{{margin:2px 0}} details.more>summary{{cursor:pointer;color:var(--acc);font-weight:600;padding:6px 0;text-decoration:underline;text-underline-offset:2px}}
 .rng{{color:var(--mut);font-size:12px}}
-.cf{{margin-left:10px;font-size:12px;border-radius:5px;padding:1px 7px;border:1px solid var(--line);color:var(--fg);white-space:nowrap}}
+header{{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px}} .cf{{font-size:12px;border-radius:5px;padding:1px 7px;border:1px solid var(--line);color:var(--fg);white-space:nowrap}}
 .cf-hi{{border-color:var(--g-other)}} .cf-mid{{border-color:var(--g-mono)}} .cf-lo{{border-color:var(--g-viol);border-width:2px;font-weight:600}}
-.kv{{font-size:12.5px;overflow-wrap:anywhere}} .kv span{{color:var(--mut)}} .kv b{{font-weight:500}}
+.kv{{font-size:12.5px;overflow-wrap:anywhere;margin:1px 0}} .kv span,.why span,.sample span{{color:var(--mut);font-weight:400}}
+.kv b,.why b{{font-weight:600;color:var(--fg)}} .sample span{{font-style:normal}}
 .sample{{color:var(--mut);font-size:12px;margin-top:4px;overflow-wrap:anywhere}} .cols{{columns:2;column-gap:28px}}
 @media (max-width:640px){{.cols{{columns:1}}}}
 @media print{{body{{background:#fff}} .card,.lead,table{{border:1px solid #e2e8f0}} h2{{break-after:avoid}}}}
