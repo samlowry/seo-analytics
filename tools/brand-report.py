@@ -27,7 +27,7 @@ GROUPS = [
          "Сайт про Mostbet рекламирует и Mostbet, и другие бренды; часто одна ссылка ротирует между ними."),
         ("mb_page_other", "Статья про Mostbet → реклама чужих",
          "Сайт не монобренд (статейник, мультибренд), но его страница про Mostbet рекламирует другие бренды. "
-         "Адрес страницы — в поле «почему»."),
+         "Адрес страницы — в поле «причина»."),
         ("bait", "Приманка",
          "Mostbet в домене или заголовке, а внутри чужое казино, чужое PWA-приложение или слоты."),
         ("redirect_other", "Редирект на чужую рефку",
@@ -251,6 +251,48 @@ def fmt(n) -> str:
     return f"{n:,}".replace(",", " ")
 
 
+CSS = """:root{--bg:#f1f5f9;--card:#fff;--fg:#0f172a;--mut:#64748b;--line:#e2e8f0;--acc:#2563eb;
+ --g-viol:#eb6834;--g-mono:#2a78d6;--g-other:#1baf7a;--g-dead:#4a3aa7}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1120;--card:#111827;--fg:#e5e7eb;--mut:#94a3b8;
+ --line:#1f2937;--acc:#60a5fa;--g-viol:#d95926;--g-mono:#256abf;--g-other:#199e70;--g-dead:#9085e9}}
+:root[data-theme="dark"]{--bg:#0b1120;--card:#111827;--fg:#e5e7eb;--mut:#94a3b8;--line:#1f2937;--acc:#60a5fa;
+ --g-viol:#d95926;--g-mono:#256abf;--g-other:#199e70;--g-dead:#9085e9}
+body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:1040px;margin:0 auto;padding:16px} h1{font-size:24px;margin:8px 0 4px} .sub{color:var(--mut)}
+h2{font-size:18px;margin:28px 0 4px;border-left:5px solid var(--acc);padding-left:10px} h2 small{color:var(--mut);font-weight:400;font-size:13px}
+section.g-viol h2{border-color:var(--g-viol)} section.g-mono h2{border-color:var(--g-mono)}
+section.g-other h2{border-color:var(--g-other)} section.g-dead h2{border-color:var(--g-dead)}
+.chart{display:flex;gap:24px;align-items:center;flex-wrap:wrap} .legend{list-style:none;padding:0;margin:0;flex:1;min-width:240px}
+.legend li{display:flex;gap:8px;align-items:center;padding:5px 0;border-bottom:1px solid var(--line)} .legend a{flex:1;color:var(--fg)}
+.legend b{font-variant-numeric:tabular-nums} .pct{color:var(--mut);width:52px;text-align:right;font-variant-numeric:tabular-nums}
+.sw{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px;flex:none}
+.dn-n{font-size:20px;font-weight:700;fill:var(--fg)} .dn-l{font-size:11px;fill:var(--mut)}
+.meter{margin:6px 0 10px} .meter-t{font-size:12.5px;color:var(--mut);line-height:1.35;margin-bottom:4px}
+.bar{position:relative;height:10px;width:100%} .bar-track{position:absolute;inset:0;border-radius:4px;opacity:.16}
+.bar-fill{position:absolute;left:0;top:0;bottom:0;border-radius:4px}
+.meter-t b{color:var(--fg);font-size:15px} .ghead{margin-top:36px;padding-top:8px;border-top:2px solid var(--line)} .ghead h1{margin:0 0 4px}
+.desc{color:var(--mut);margin:2px 0 10px} .lead{background:var(--card);border-radius:10px;padding:12px 16px;margin:12px 0;break-inside:avoid}
+.lead li{margin:3px 0} table{width:100%;border-collapse:collapse;background:var(--card);border-radius:10px;overflow:hidden;font-size:13px}
+td{padding:5px 10px;border-bottom:1px solid var(--line);vertical-align:top} td.n{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+tr.grp td{font-weight:700;background:var(--bg)} tr.grp .meter-t{font-weight:400} td .meter{margin:6px 0 2px} a{color:var(--acc);text-decoration:underline;text-underline-offset:2px}
+.card{background:var(--card);border-radius:10px;padding:9px 14px;margin-bottom:8px;break-inside:avoid}
+.dom{font-weight:700;font-size:15px;color:var(--fg)} .num{color:var(--mut);font-variant-numeric:tabular-nums;margin-right:8px;font-size:13px}
+.why{font-size:13px;margin:3px 0;overflow-wrap:anywhere} .why span{color:var(--mut)}
+.links{font-size:12.5px;margin:3px 0;padding-left:18px;overflow-wrap:anywhere} .to{color:var(--mut)}
+.ak{font-size:11.5px;border-radius:4px;padding:0 5px;white-space:nowrap;border:1px solid var(--line)}
+.ak-other{border-color:var(--g-viol)} .ak-mb{border-color:var(--g-mono)}
+.rest-h{color:var(--mut);margin:10px 0 2px} details.more{margin:2px 0} details.more>summary{cursor:pointer;color:var(--acc);font-weight:600;padding:6px 0;text-decoration:underline;text-underline-offset:2px}
+.rng{color:var(--mut);font-size:12px}
+header{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px} .cf{font-size:12px;border-radius:5px;padding:1px 7px;border:1px solid var(--line);color:var(--fg);white-space:nowrap}
+.cf-hi{border-color:var(--g-other)} .cf-mid{border-color:var(--g-mono)} .cf-lo{border-color:var(--g-viol);border-width:2px;font-weight:600}
+.kv{font-size:12.5px;overflow-wrap:anywhere;margin:1px 0} .kv span,.why span,.sample span{color:var(--mut);font-weight:400}
+.kv b,.why b{font-weight:600;color:var(--fg)} .sample span{font-style:normal}
+.sample{color:var(--mut);font-size:12px;margin-top:4px;overflow-wrap:anywhere} .cols{columns:2;column-gap:28px}
+@media (max-width:640px){.cols{columns:1}}
+@media print{body{background:#fff} .card,.lead,table{border:1px solid #e2e8f0} h2{break-after:avoid}}
+"""
+
+
 CONF = {}  # domain -> confidence.csv row (tools/brand-confidence.py)
 
 
@@ -395,46 +437,7 @@ def main(d: str):
     brand_rows = "".join(f"<li><b>{e(b)}</b> — {fmt(n)}</li>" for b, n in top)
     page = f'''<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Использование бренда Mostbet</title><base target="_blank"><style>
-:root{{--bg:#f1f5f9;--card:#fff;--fg:#0f172a;--mut:#64748b;--line:#e2e8f0;--acc:#2563eb;
- --g-viol:#eb6834;--g-mono:#2a78d6;--g-other:#1baf7a;--g-dead:#4a3aa7}}
-@media (prefers-color-scheme:dark){{:root:not([data-theme="light"]){{--bg:#0b1120;--card:#111827;--fg:#e5e7eb;--mut:#94a3b8;
- --line:#1f2937;--acc:#60a5fa;--g-viol:#d95926;--g-mono:#256abf;--g-other:#199e70;--g-dead:#9085e9}}}}
-:root[data-theme="dark"]{{--bg:#0b1120;--card:#111827;--fg:#e5e7eb;--mut:#94a3b8;--line:#1f2937;--acc:#60a5fa;
- --g-viol:#d95926;--g-mono:#256abf;--g-other:#199e70;--g-dead:#9085e9}}
-body{{margin:0;background:var(--bg);color:var(--fg);font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}}
-main{{max-width:1040px;margin:0 auto;padding:16px}} h1{{font-size:24px;margin:8px 0 4px}} .sub{{color:var(--mut)}}
-h2{{font-size:18px;margin:28px 0 4px;border-left:5px solid var(--acc);padding-left:10px}} h2 small{{color:var(--mut);font-weight:400;font-size:13px}}
-section.g-viol h2{{border-color:var(--g-viol)}} section.g-mono h2{{border-color:var(--g-mono)}}
-section.g-other h2{{border-color:var(--g-other)}} section.g-dead h2{{border-color:var(--g-dead)}}
-.chart{{display:flex;gap:24px;align-items:center;flex-wrap:wrap}} .legend{{list-style:none;padding:0;margin:0;flex:1;min-width:240px}}
-.legend li{{display:flex;gap:8px;align-items:center;padding:5px 0;border-bottom:1px solid var(--line)}} .legend a{{flex:1;color:var(--fg)}}
-.legend b{{font-variant-numeric:tabular-nums}} .pct{{color:var(--mut);width:52px;text-align:right;font-variant-numeric:tabular-nums}}
-.sw{{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px;flex:none}}
-.dn-n{{font-size:20px;font-weight:700;fill:var(--fg)}} .dn-l{{font-size:11px;fill:var(--mut)}}
-.meter{{margin:6px 0 10px}} .meter-t{{font-size:12.5px;color:var(--mut);line-height:1.35;margin-bottom:4px}}
-.bar{{position:relative;height:10px;width:100%}} .bar-track{{position:absolute;inset:0;border-radius:4px;opacity:.16}}
-.bar-fill{{position:absolute;left:0;top:0;bottom:0;border-radius:4px}}
-.meter-t b{{color:var(--fg);font-size:15px}} .ghead{{margin-top:36px;padding-top:8px;border-top:2px solid var(--line)}} .ghead h1{{margin:0 0 4px}}
-.desc{{color:var(--mut);margin:2px 0 10px}} .lead{{background:var(--card);border-radius:10px;padding:12px 16px;margin:12px 0;break-inside:avoid}}
-.lead li{{margin:3px 0}} table{{width:100%;border-collapse:collapse;background:var(--card);border-radius:10px;overflow:hidden;font-size:13px}}
-td{{padding:5px 10px;border-bottom:1px solid var(--line);vertical-align:top}} td.n{{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}}
-tr.grp td{{font-weight:700;background:var(--bg)}} tr.grp .meter-t{{font-weight:400}} td .meter{{margin:6px 0 2px}} a{{color:var(--acc);text-decoration:underline;text-underline-offset:2px}}
-.card{{background:var(--card);border-radius:10px;padding:9px 14px;margin-bottom:8px;break-inside:avoid}}
-.dom{{font-weight:700;font-size:15px;color:var(--fg)}} .num{{color:var(--mut);font-variant-numeric:tabular-nums;margin-right:8px;font-size:13px}}
-.why{{font-size:13px;margin:3px 0;overflow-wrap:anywhere}} .why span{{color:var(--mut)}}
-.links{{font-size:12.5px;margin:3px 0;padding-left:18px;overflow-wrap:anywhere}} .to{{color:var(--mut)}}
-.ak{{font-size:11.5px;border-radius:4px;padding:0 5px;white-space:nowrap;border:1px solid var(--line)}}
-.ak-other{{border-color:var(--g-viol)}} .ak-mb{{border-color:var(--g-mono)}}
-.rest-h{{color:var(--mut);margin:10px 0 2px}} details.more{{margin:2px 0}} details.more>summary{{cursor:pointer;color:var(--acc);font-weight:600;padding:6px 0;text-decoration:underline;text-underline-offset:2px}}
-.rng{{color:var(--mut);font-size:12px}}
-header{{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px}} .cf{{font-size:12px;border-radius:5px;padding:1px 7px;border:1px solid var(--line);color:var(--fg);white-space:nowrap}}
-.cf-hi{{border-color:var(--g-other)}} .cf-mid{{border-color:var(--g-mono)}} .cf-lo{{border-color:var(--g-viol);border-width:2px;font-weight:600}}
-.kv{{font-size:12.5px;overflow-wrap:anywhere;margin:1px 0}} .kv span,.why span,.sample span{{color:var(--mut);font-weight:400}}
-.kv b,.why b{{font-weight:600;color:var(--fg)}} .sample span{{font-style:normal}}
-.sample{{color:var(--mut);font-size:12px;margin-top:4px;overflow-wrap:anywhere}} .cols{{columns:2;column-gap:28px}}
-@media (max-width:640px){{.cols{{columns:1}}}}
-@media print{{body{{background:#fff}} .card,.lead,table{{border:1px solid #e2e8f0}} h2{{break-after:avoid}}}}
-</style></head><body><main>
+{CSS}</style></head><body><main>
 <h1>Использование бренда Mostbet: кто и как</h1>
 <div class="sub">Срез 13.10.2026 · база Corsearch от 28.09.2026 без наших доменов · {fmt(total)} доменов, из них
 {fmt(added)} добавлены: их нет в базе, но на них переезжают главные доменов базы</div>
@@ -523,7 +526,74 @@ const h=location.hash.match(/^#n(\\d+)$/);if(h){{const el=document.getElementByI
                 w.writerow([r["domain"], r["category"], r.get("check_violator", ""), r.get("check_confidence", ""),
                             r.get("check_note", ""), c.get("violation", ""), c.get("confidence", ""), why_ru(r),
                             r["final_url"], "not_in_corsearch" in r["tags"].split()])
+    group_reports(d, rows, text)
     print(out / "brand-report.html")
+
+
+GROUP_MIN = 90  # per-class reports keep only violators this sure: the checker's confidence, else the violation scale
+
+
+def group_reports(d: Path, rows, text):
+    """report/groups/: per violator class an HTML page and a CSV with the same fields as the full report, no
+    collapsing, plus README.md as the index. Only sites with violation confidence >= GROUP_MIN."""
+    out = d / "report" / "groups"
+    out.mkdir(parents=True, exist_ok=True)
+
+    def sure(r):
+        if r.get("check"):
+            return r.get("check_violator") == "True" and float(r.get("check_confidence") or 0) * 100 >= GROUP_MIN
+        return int(CONF.get(r["domain"], {}).get("violation") or 0) >= GROUP_MIN
+
+    def links_txt(r):
+        try:
+            links = json.loads(r.get("ad_links") or "[]")
+        except ValueError:
+            return ""
+        return "\n".join(f'{AD_KIND[k]} {brand_name(n) if k == "other" else n}: {u}' + (f" → {f}" if f else "")
+                         for k, n, u, f in links)
+
+    cols = ["№", "домен", "уверенность в нарушении, %", "уверенность в типе сайта, %", "проверка",
+            "уверенность проверяющего, %", "проверяющий", "класс по правилам был", "причина", "ссылки, решившие класс",
+            "снижает уверенность", "метки", "title", "конечный адрес", "текст главной", "нет в базе Corsearch"]
+    index = []
+    for i, (c, ru, desc) in enumerate(GROUPS[0][1], 1):
+        sel = sorted((r for r in rows if r["category"] == c and sure(r)), key=lambda r: r["domain"])
+        name = f"{i:02d}-{c}"
+        with open(out / f"{name}.csv", "w", newline="", encoding="utf-8") as f:
+            w = csv.writer(f)
+            w.writerow(cols)
+            for n, r in enumerate(sel, 1):
+                cf = CONF.get(r["domain"], {})
+                cv = r.get("check_violator")
+                w.writerow([n, r["domain"], cf.get("violation", ""), cf.get("confidence", ""),
+                            {"True": "нарушитель", "False": "не нарушитель"}.get(cv, "не решено" if r.get("check") else ""),
+                            round(float(r["check_confidence"]) * 100) if r.get("check_confidence") else "",
+                            r.get("check_note", ""), r.get("rule_category", "") if r.get("check") == "fixed" else "",
+                            why_ru(r), links_txt(r), cf.get("minus", ""),
+                            ", ".join(TAG_RU.get(t, t) for t in r["tags"].split() if t in TAG_RU and t != "brand_in_domain"),
+                            r["title"], r["final_url"] if r["final_url"] and r["domain"] not in r["final_url"] else "",
+                            text.get(r["domain"], ""), "да" if "not_in_corsearch" in r["tags"].split() else ""])
+        cards = "".join(card(n, r, text.get(r["domain"])) for n, r in enumerate(sel, 1))
+        page = f"""<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{e(ru)}</title><base target="_blank"><style>
+{CSS}</style></head><body><main>
+<h1>{e(ru)}</h1>
+<div class="sub">Нарушители Mostbet · срез 13.10.2026 · {fmt(len(sel))} доменов с уверенностью в нарушении от {GROUP_MIN} % ·
+по алфавиту · таблица: <a href="{name}.csv">{name}.csv</a></div>
+<p class="desc">{e(desc)}</p>
+<section class="g-viol">{cards}</section>
+</main></body></html>"""
+        (out / f"{name}.html").write_text(page, encoding="utf-8")
+        index.append((name, ru, desc, len(sel)))
+    md = [f"# Нарушители Mostbet по классам, уверенность от {GROUP_MIN} %", "",
+          f"Срез 13.10.2026. В каждом классе — пара файлов: страница с карточками сайтов и таблица с теми же полями. "
+          f"Взяты нарушители с уверенностью от {GROUP_MIN} %: у сайтов, проверенных агентом, — вердикт «нарушитель» с "
+          f"уверенностью проверяющего от {GROUP_MIN} %, у непроверенных — шкала «уверенность в нарушении» от {GROUP_MIN}. "
+          f"Всего {fmt(sum(x[3] for x in index))} доменов.", "", "| класс | доменов | что это | файлы |", "|---|---:|---|---|"]
+    md += [f"| {ru} | {fmt(n)} | {desc} | [{name}.html]({name}.html), [{name}.csv]({name}.csv) |"
+           for name, ru, desc, n in index]
+    (out / "README.md").write_text("\n".join(md) + "\n", encoding="utf-8")
+    return index
 
 
 if __name__ == "__main__":
