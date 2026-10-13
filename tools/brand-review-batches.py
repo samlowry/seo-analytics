@@ -1,10 +1,14 @@
-"""Batches for checking every violator by subagents (review round 5).
+"""Batches for checking sites by subagents: every violator (round 5) or the riskiest non-violators (round 6, --missed).
 
 Run: uv run --with 'selectolax<1' python tools/brand-review-batches.py brand-protection/2026-09-28/brand-scan
 Writes review/round5/control.json — 60 violators checked in round 4 (to compare a cheaper model with the round-4
 verdicts), and review/round5/batches/b001.json … — every other violator, 50 per batch, sorted by violation
 confidence, lowest first. Each record has the same fields as the round-4 sample (classified.csv row, page features,
 saved files).
+
+--missed writes review/round6/batches/ instead: sites the rules call non-violators where a violation is likeliest —
+every mono_xlink, mono_unresolved, multibrand and article site, plus the 500 others with the highest violation
+confidence; sites already judged in round 5 are left out.
 """
 import collections
 import csv
@@ -55,6 +59,32 @@ def records(d: Path, rows: list) -> list:
     return out
 
 
+MISSED_CLASSES = {"mono_xlink", "mono_unresolved", "multibrand", "article"}
+MISSED_TOP = 500
+NO_PAGE = {"not_shown", "stub", "parked", "dead"}  # nothing to judge a violation by
+
+
+def missed(d: Path):
+    rows = bc.load_rows(d)
+    conf = {r["domain"]: r for r in csv.DictReader(open(d / "confidence.csv", newline="", encoding="utf-8"))}
+    shown = [r for r in rows if r["shown_category"] not in bc.VIOL and not r.get("check")]
+    pick = [r for r in shown if r["shown_category"] in MISSED_CLASSES]
+    rest = sorted((r for r in shown if r["shown_category"] not in MISSED_CLASSES | NO_PAGE),
+                  key=lambda r: -int(conf.get(r["domain"], {}).get("violation") or 0))
+    pick += rest[:MISSED_TOP]
+    for r in pick:
+        r["category"] = r["shown_category"]
+    pick.sort(key=lambda r: (r["category"], r["domain"]))
+    out = d / "review" / "round6" / "batches"
+    out.mkdir(parents=True, exist_ok=True)
+    recs = records(d, pick)
+    for i in range(0, len(recs), BATCH):
+        (out / f"b{i // BATCH + 1:03d}.json").write_text(json.dumps(recs[i:i + BATCH], ensure_ascii=False, indent=1),
+                                                       encoding="utf-8")
+    print(f"batches {(len(recs) + BATCH - 1) // BATCH} × {BATCH} = {len(recs)}",
+          collections.Counter(r["category"] for r in pick).most_common())
+
+
 def main(d: str):
     d = Path(d)
     rows = bc.load_rows(d)
@@ -89,4 +119,4 @@ def main(d: str):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1])
+    missed(Path(sys.argv[1])) if "--missed" in sys.argv else main(sys.argv[1])

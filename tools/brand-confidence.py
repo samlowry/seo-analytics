@@ -250,7 +250,8 @@ def labels(d: Path, now: dict) -> dict:
         sorted(glob.glob(str(d / "review" / "round2" / "verdicts-*.json"))) + \
         sorted(glob.glob(str(d / "review" / "verdicts-*.json"))) + \
         sorted(glob.glob(str(d / "review" / "round4" / "verdicts-*.json"))) + \
-        sorted(glob.glob(str(d / "review" / "round5" / "verdicts-r5-*.json")))
+        sorted(glob.glob(str(d / "review" / "round5" / "verdicts-r5-*.json"))) + \
+        sorted(glob.glob(str(d / "review" / "round6" / "verdicts-r6-*.json")))
     for p in paths:
         for v in json.loads(Path(p).read_text()):
             if v.get("verdict") == "unsure" or v["domain"] not in now:

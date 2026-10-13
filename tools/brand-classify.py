@@ -957,11 +957,12 @@ def main(d: str):
         rows.append({**r0, "domain": t, "tags": " ".join(tags), "source": "move-chain",
                      "why": f"{r0['why']} | on the move of {len(srcs)} domains of the base, e.g. {srcs[0]['domain']}"})
     print("move chain domains added", len(by_target))
-    # The checked class wins: every violator was judged by a checker in round 5 (review/round5/verdicts-*.json).
+    # The checked class wins: every violator was judged by a checker in round 5, the riskiest non-violators in round 6.
     # A verdict applies only while the rules still give the class the checker saw; rule_category keeps the rules'
     # own class, which the confidence scale is fitted on.
     checks = {}
-    for p in sorted((bs_dir / "review" / "round5").glob("verdicts-r5-*.json")):
+    for p in sorted((bs_dir / "review" / "round5").glob("verdicts-r5-*.json")) + \
+            sorted((bs_dir / "review" / "round6").glob("verdicts-r6-*.json")):
         for v in json.loads(p.read_text()):
             checks[v["domain"]] = v
     valid = set(Counter(r["category"] for r in rows)) | {"mono_hidden"}
