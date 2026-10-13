@@ -260,7 +260,11 @@ def conf_badge(dom) -> tuple:
         return "", ""
     n = int(c["confidence"])
     lvl = "hi" if n >= 80 else "mid" if n >= 60 else "lo"
-    badge = f'<span class="cf cf-{lvl}" title="уверенность в классе, 0–100">уверенность {n}</span>'
+    badge = f'<span class="cf cf-{lvl}" title="уверенность в классе, 0–100">класс {n}</span>'
+    if c.get("violation"):
+        v = int(c["violation"])
+        vl = "lo" if v >= 90 else "mid" if v >= 50 else "hi"
+        badge += f'<span class="cf cf-{vl}" title="вероятность, что сайт нарушитель, 0–100">нарушение {v}</span>'
     extra = []
     if c["minus"]:
         extra.append(f'<div class="kv"><span>снижает уверенность</span> {e(c["minus"])}</div>')
@@ -313,6 +317,8 @@ def main(d: str):
 
     total = len(rows)
     added = sum(1 for r in rows if "not_in_corsearch" in r["tags"].split())
+    viol_cls = {c for c, _, _ in GROUPS[0][1]}
+    v90 = sum(1 for r in rows if r["category"] in viol_cls and int(CONF.get(r["domain"], {}).get("violation") or 0) >= 90)
     cnt = collections.Counter(r["category"] for r in rows)
     strikes = [r for r in rows if r["category"] in ("mono_other", "mono_mixed", "mb_page_other")]
     brands = collections.Counter(brand_name(b) for r in strikes for b in set(r["other_ads"].split(" | ")) if b)
@@ -356,7 +362,10 @@ def main(d: str):
             head = f"{fmt(cnt[c])} · № {fmt(lo)}–{fmt(num)}" if cnt[c] else "0"
             cfs = [int(CONF[r["domain"]]["confidence"]) for r in by[c] if r["domain"] in CONF]
             if cfs:
-                head += f" · средняя уверенность {round(sum(cfs) / len(cfs))}, ниже 60 — {fmt(sum(1 for x in cfs if x < 60))}"
+                head += f" · средняя уверенность в классе {round(sum(cfs) / len(cfs))}, ниже 60 — {fmt(sum(1 for x in cfs if x < 60))}"
+            vs = [int(CONF[r["domain"]]["violation"]) for r in by[c] if CONF.get(r["domain"], {}).get("violation")]
+            if vs and gi == 0:
+                head += f" · нарушение от 90 — {fmt(sum(1 for x in vs if x >= 90))}"
             gshare = cnt[c] / gsum[gname] if gsum[gname] else 0
             sections.append(f'''<section id="{c}" class="g-{key}"><h2>{e(ru)} <small>{head}</small></h2>
 {meter(key, gshare, f"<b>{pc(gshare * 100)} %</b> группы «{e(gname.split(':')[0])}» · {pc(cnt[c] * 100 / total)} % всех доменов")}
@@ -445,6 +454,10 @@ f'<b>{fmt(gsum[g[0]])}</b><span class="pct">{pc(gsum[g[0]] * 100 / total)} %</sp
 себя: заявлено 91 % — подтверждено 89 %, заявлено 73 % — подтверждено 75 %. Под карточкой — что снизило уверенность.
 Ошибки правил, найденные в четвёртом круге, исправлены; совпадение классов с проверяющими — 84 % (было 76 %).
 Эти же сайты служили и для правки правил, поэтому на новых сайтах совпадение может быть ниже.</li>
+<li><b>Нарушение 0–100</b> — вторая шкала: вероятность, что сайт нарушитель, какой бы ни был класс (путаница
+внутри нарушителей тут не ошибка). Подогнана на тех же проверках: заявлено 90 % — нарушителей 91 %.
+Из нарушителей нарушение от 90 у {fmt(v90)} сайтов, на проверке подтвердились 156 из 163 —
+их можно отправлять без ручной проверки; ниже 90 — проверять.</li>
 <li>Не видно: реклама, которую показывают только в других странах; {fmt(cnt["mono_unresolved"])} монобрендов,
 чьи трекеры не открылись.</li></ul></div>
 
@@ -463,6 +476,18 @@ const h=location.hash.match(/^#n(\\d+)$/);if(h){{const el=document.getElementByI
     out = d / "report"
     out.mkdir(exist_ok=True)
     (out / "brand-report.html").write_text(page, encoding="utf-8")
+    # Takedown lists: violators sure enough to send without a manual check (violation >= 90), and the rest to check.
+    cols = ["domain", "category", "violation", "class_confidence", "reason", "final_url", "not_in_corsearch"]
+    for name, keep in (("takedown-send.csv", lambda v: v >= 90), ("takedown-check.csv", lambda v: v < 90)):
+        sel = [r for r in rows if r["category"] in viol_cls and keep(int(CONF.get(r["domain"], {}).get("violation") or 0))]
+        sel.sort(key=lambda r: (-int(CONF.get(r["domain"], {}).get("violation") or 0), r["domain"]))
+        with open(out / name, "w", newline="", encoding="utf-8") as f:
+            w = csv.writer(f)
+            w.writerow(cols)
+            for r in sel:
+                c = CONF.get(r["domain"], {})
+                w.writerow([r["domain"], r["category"], c.get("violation", ""), c.get("confidence", ""), why_ru(r),
+                            r["final_url"], "not_in_corsearch" in r["tags"].split()])
     print(out / "brand-report.html")
 
 

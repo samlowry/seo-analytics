@@ -34,6 +34,7 @@ FAMILY = {
     **{c: "other" for c in ("multibrand", "article", "hacked", "other_gambling", "unrelated", "unclear")},
     **{c: "dead" for c in ("not_shown", "stub", "parked", "dead")},
 }
+VIOL = {c for c, f in FAMILY.items() if f == "viol"}
 CONTENT = {c for c, f in FAMILY.items() if f in ("viol", "mono", "other")} - {"redirect_ref", "redirect_other"}
 
 # The owner's marks of round 2 that name a class (review/owner-marks-r2.json): "ok" keeps the class shown then,
@@ -238,7 +239,7 @@ def raw_score(r: dict) -> tuple:
 
 
 def labels(d: Path, now: dict) -> dict:
-    """domain -> (agrees, source) from every checked site; later rounds win, the owner wins over agents."""
+    """domain -> (agrees, source, expected classes) from every checked site; later rounds win, the owner wins over agents."""
     out = {}
     paths = sorted(glob.glob(str(d / "review" / "round1" / "verdicts-*.json"))) + \
         sorted(glob.glob(str(d / "review" / "round2" / "verdicts-*.json"))) + \
@@ -249,24 +250,25 @@ def labels(d: Path, now: dict) -> dict:
             if v.get("verdict") == "unsure" or v["domain"] not in now:
                 continue
             if "given" not in v:  # verdicts on the Mostbet-page evidence: "correct" means the evidence holds
-                out[v["domain"]] = (v["verdict"] == "correct", Path(p).stem)
+                ok = v["verdict"] == "correct"
+                out[v["domain"]] = (ok, Path(p).stem, {now[v["domain"]]} if ok else {"not_a_violator"})
                 continue
             expected = {v.get("should_be")} if v.get("verdict") == "wrong" else {v.get("given")}
-            out[v["domain"]] = (now[v["domain"]] in expected, Path(p).parent.name + "/" + Path(p).stem)
+            out[v["domain"]] = (now[v["domain"]] in expected, Path(p).parent.name + "/" + Path(p).stem, expected)
     om = d / "review" / "owner-marks-r2.json"
     if om.exists():
         for dom, m in json.loads(om.read_text()).items():
             if dom not in now:
                 continue
             if m.get("v") == "ok":
-                out[dom] = (now[dom] == m.get("given"), "owner")
+                out[dom] = (now[dom] == m.get("given"), "owner", {m.get("given")})
             elif dom in OWNER_BAD:
-                out[dom] = (now[dom] in OWNER_BAD[dom], "owner")
+                out[dom] = (now[dom] in OWNER_BAD[dom], "owner", OWNER_BAD[dom])
     om4 = d / "review" / "owner-marks-r4.json"  # the owner's classes after round 4: {domain: class}
     if om4.exists():
         for dom, c in json.loads(om4.read_text()).items():
             if dom in now:
-                out[dom] = (now[dom] == c, "owner")
+                out[dom] = (now[dom] == c, "owner", {c})
     return out
 
 
@@ -326,7 +328,7 @@ def main(d: str, sample_round4=False):
 
     params, report = {}, []
     for fam in ("viol", "mono", "other", "dead"):
-        pts = [(logit(scored[dom][0]), 1.0 if ok else 0.0) for dom, (ok, _) in lab.items() if FAMILY.get(now[dom]) == fam]
+        pts = [(logit(scored[dom][0]), 1.0 if ok else 0.0) for dom, (ok, *_) in lab.items() if FAMILY.get(now[dom]) == fam]
         params[fam] = fit([x for x, _ in pts], [y for _, y in pts]) if pts else (0.0, 1.0)
         report.append((fam, len(pts), sum(y for _, y in pts), params[fam]))
 
@@ -334,7 +336,7 @@ def main(d: str, sample_round4=False):
     offs = {}
     for c in FAMILY:
         a, b = params[FAMILY[c]]
-        pts = [(a + b * logit(scored[dom][0]), 1.0 if ok else 0.0) for dom, (ok, _) in lab.items() if now[dom] == c]
+        pts = [(a + b * logit(scored[dom][0]), 1.0 if ok else 0.0) for dom, (ok, *_) in lab.items() if now[dom] == c]
         offs[c] = class_offset(pts)
 
     def conf(dom):
@@ -343,11 +345,11 @@ def main(d: str, sample_round4=False):
 
     # Leave-one-out check of the calibration: claimed vs observed, by bins.
     bins = collections.defaultdict(lambda: [0, 0, 0.0])
-    for dom, (ok, _) in lab.items():
+    for dom, (ok, *_) in lab.items():
         fam = FAMILY[now[dom]]
-        rest = [(logit(scored[x][0]), 1.0 if o else 0.0) for x, (o, _) in lab.items() if x != dom and FAMILY[now[x]] == fam]
+        rest = [(logit(scored[x][0]), 1.0 if o else 0.0) for x, (o, *_) in lab.items() if x != dom and FAMILY[now[x]] == fam]
         a, b = fit([x for x, _ in rest], [y for _, y in rest]) if rest else (0.0, 1.0)
-        o = class_offset([(a + b * logit(scored[x][0]), 1.0 if ok2 else 0.0) for x, (ok2, _) in lab.items()
+        o = class_offset([(a + b * logit(scored[x][0]), 1.0 if ok2 else 0.0) for x, (ok2, *_) in lab.items()
                           if x != dom and now[x] == now[dom]])
         p = 1 / (1 + math.exp(-(a + o + b * logit(scored[dom][0]))))
         k = min(4, int(p * 5))
@@ -355,19 +357,50 @@ def main(d: str, sample_round4=False):
         bins[k][1] += ok
         bins[k][2] += p
 
+    # The second scale: is the site a violator at all, whatever its class. Trained on the same checks turned into
+    # violator / not; a mix-up inside the violators (mono_other vs mono_mixed) is no error here. For a violator class
+    # a stronger class evidence means a likelier violation, for the others a less likely one.
+    def vx(dom):
+        x = logit(scored[dom][0])
+        return x if now[dom] in VIOL else -x
+    vlab = {dom: bool(exp & VIOL) for dom, (_, _, exp) in lab.items()}
+    vparams = {}
+    for fam in ("viol", "mono", "other", "dead"):
+        pts = [(vx(dom), 1.0 if (y if fam == "viol" else not y) else 0.0) for dom, y in vlab.items() if FAMILY[now[dom]] == fam]
+        vparams[fam] = fit([x for x, _ in pts], [y for _, y in pts]) if pts else (0.0, 1.0)
+    voffs = {}
+    for c in FAMILY:
+        a, b = vparams[FAMILY[c]]
+        voffs[c] = class_offset([(a + b * vx(dom), 1.0 if (y if c in VIOL else not y) else 0.0)
+                                 for dom, y in vlab.items() if now[dom] == c])
+
+    def viol(dom):
+        c = now[dom]
+        a, b = vparams[FAMILY[c]]
+        p = 1 / (1 + math.exp(-(a + voffs[c] + b * vx(dom))))
+        return p if c in VIOL else 1 - p
+
+    vbins = collections.defaultdict(lambda: [0, 0, 0.0])
+    for dom, y in vlab.items():
+        k = min(4, int(viol(dom) * 5))
+        vbins[k][0] += 1
+        vbins[k][1] += y
+        vbins[k][2] += viol(dom)
+
     with open(d / "confidence.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
-        w.writerow(["domain", "category", "raw", "confidence", "minus", "checked"])
+        w.writerow(["domain", "category", "raw", "confidence", "violation", "minus", "checked"])
         for r in rows:
             dom = r["domain"]
             ck = lab.get(dom)
-            w.writerow([dom, r["category"], f"{scored[dom][0]:.2f}", round(conf(dom) * 100), "; ".join(scored[dom][1]),
+            w.writerow([dom, r["category"], f"{scored[dom][0]:.2f}", round(conf(dom) * 100), round(viol(dom) * 100),
+                        "; ".join(scored[dom][1]),
                         "" if not ck else ("agrees" if ck[0] else "disagrees")])
 
     per_class = collections.defaultdict(list)
     for r in rows:
         per_class[r["category"]].append(conf(r["domain"]) * 100)
-    checked = collections.Counter((now[x], ok) for x, (ok, _) in lab.items())
+    checked = collections.Counter((now[x], ok) for x, (ok, *_) in lab.items())
     md = ["# Калибровка уверенности", "",
           f"Проверенных сайтов с вердиктом: {len(lab)}. Подгонка по группам классов, Platt с притяжением к сырому баллу.", "",
           "## Группы", ""]
@@ -383,6 +416,17 @@ def main(d: str, sample_round4=False):
         v = per_class[c]
         md.append(f"- {c}: {sum(v) / len(v):.0f}, ниже 60 — {sum(1 for x in v if x < 60)} из {len(v)}; "
                   f"проверено {checked[(c, True)] + checked[(c, False)]} ({checked[(c, True)]})")
+    md += ["", "## Уверенность в нарушении: заявлено против подтверждённого (на тех же сайтах, без исключения себя)", ""]
+    for k in sorted(vbins):
+        n, ok, ps = vbins[k]
+        md.append(f"- {k * 20}–{k * 20 + 20}: сайтов {n}, заявлено {ps / n * 100:.0f} %, нарушителей {ok / n * 100:.0f} %")
+    md += ["", "## Уверенность в нарушении по классам: средняя, сайтов от 50", ""]
+    vpc = collections.defaultdict(list)
+    for r in rows:
+        vpc[r["category"]].append(viol(r["domain"]) * 100)
+    for c in sorted(vpc, key=lambda c: list(FAMILY).index(c)):
+        v = vpc[c]
+        md.append(f"- {c}: {sum(v) / len(v):.0f}, от 50 — {sum(1 for x in v if x >= 50)} из {len(v)}")
     (d / "review" / "calibration.md").write_text("\n".join(md) + "\n", encoding="utf-8")
     print("\n".join(md))
 
