@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbetazpwclorg708.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet AZ (домен, title, h1, 57 упоминаний); кнопки и ссылки футера ведут на /go.php, который редиректит на 1xbet.rs/registration?tag=d_3755482m_22585c — рефка 1xBet, рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetazpwclorg730.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet AZ (домен, title, h1, 57 упоминаний); кнопки и ссылки футера ведут на /go.php, который редиректит на 1xbet.rs/registration?tag=d_3755482m_22585c — рефка 1xBet, рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetazpwclorg860.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet AZ (домен, title, h1, 57 упоминаний); кнопки и ссылки футера ведут на /go.php, который редиректит на 1xbet.rs/registration?tag=d_3755482m_22585c — рефка 1xBet, рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetazpwclorg884.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet AZ (домен, title, h1, 57 упоминаний); кнопки и ссылки футера ведут на /go.php, который редиректит на 1xbet.rs/registration?tag=d_3755482m_22585c — рефка 1xBet, рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetazpwclorg906.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet AZ (домен, title, h1, 57 упоминаний); кнопки и ссылки футера ведут на /go.php, который редиректит на 1xbet.rs/registration?tag=d_3755482m_22585c — рефка 1xBet, рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetazpwclorg915.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet AZ (домен, title, h1, 57 упоминаний); кнопки и ссылки футера ведут на /go.php, который редиректит на 1xbet.rs/registration?tag=d_3755482m_22585c — рефка 1xBet, рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetbd2login.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Домен с Mostbet, страница — шаблон чужого казино (лента фейковых выигрышей, сетка слотов), выдаёт себя за Mostbet; кнопки через трекер c3.maxcloudlink.com ведут на 17jl33.com/?affiliateCode=17jl01 — чужое казино, точнее bait."
+ },
+ {
+  "domain": "mostbetbdlogin.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Домен с Mostbet, страница — шаблон чужого казино (лента фейковых выигрышей, сетка слотов), выдаёт себя за Mostbet; кнопки через трекер c2.maxcloudlink.com ведут на 17jl33.com/?affiliateCode=17jl01 — чужое казино, точнее bait."
+ },
+ {
+  "domain": "mostbetbet.de",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (mostbetbet.de, title про Mostbet); кнопка /bonus и трекер gofluxa.net/kpRJwn ведут на ivibettnow.com/registration?btag=677167_… — чужая рефка, рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetbet.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Домен и title про Mostbet, страница-лобби выдаёт себя за mostbet casino; кнопки /register/ и скрипт ведут на 77mvp.win/?cid=4291909 — рефка чужого казино 77MVP."
+ },
+ {
+  "domain": "mostbetbrazil.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet Brasil (102 упоминания); кнопки через bestoffer.wiki/mostbet ведут на winshark13.com/?stag=144731_… — рефка Winshark."
+ },
+ {
+  "domain": "mostbetcas.lol",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд «Казино mostbetcas»; кнопки ведут на 1win (r1w0lj3.life …p=4c1n&sub1=mostbetcaslol) и трекеры autumn-ice.com/copper-ray.com → NormCasino/5lacasino с qtag — только чужие рефки."
+ },
+ {
+  "domain": "mostbetcas1no.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet Polska; шлюз /go/sosihui ведёт на redirect-fieryplay.com/?ref=vp_w245602…_Mostbet, трекер traffick-jumps.com → starwindirect.com — чужие рефки, Mostbet-рекламы нет."
+ },
+ {
+  "domain": "mostbetcasin.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд «Онлайн-казино mostbetcasin»; скрипт даёт refpa-07755.com/L?tag=d_5888363m… → 1xCasino, jettredsarel.com → JetTon, lunar-haze/autumn-ice → 5lacasino/NormCasino; внешние ссылки на mostbet-домены без pid — не реклама Mostbet."
+ },
+ {
+  "domain": "mostbetcasino-az.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Домен с Mostbet переезжает на official-mostbet.online (монобренд Mostbet); кнопки там через трекер jytryd.click/PVCwzYSF ведут на 1xbet.rs/registration?tag=d_5135492m — рефка 1xBet."
+ },
+ {
+  "domain": "mostbetcasino-bangladesh.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet Casino; форма /play ведёт на 8-baxterbet…com/?cxd=35568_440029 (рефка Baxterbet), трекер wliny.com → starwindirect.com — только чужие бренды."
+ },
+ {
+  "domain": "mostbetcasino-ca.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet Canada; кнопки через трекер a.v1pcasino.com/click?key=8ce10f… ведут на tikitaka и cazeus (mid=310282_…) — чужие рефки."
+ },
+ {
+  "domain": "mostbetcasino-de.de",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (DE); кнопки навигации через трекер vip.w1ncasino.org/click?key=bcb09393… ведут на casea-8039.com/registration?mid=363346_2106015 — рефка Casea."
+ },
+ {
+  "domain": "mostbetcasino-fr.eu.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (FR); кнопки навигации через трекер vip.w1ncasino.org/click?key=bcb09393… ведут на casea-8039.com/registration?mid=363346_2106015 — рефка Casea."
+ },
+ {
+  "domain": "mostbetcasino-hu.hu.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (HU); кнопки навигации через трекер vip.w1ncasino.org/click?key=bcb09393… ведут на casea-8039.com/registration?mid=363346_2106015 — рефка Casea."
+ },
+ {
+  "domain": "mostbetcasino-hungary.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet Kaszinó; кнопки BEJELENTKEZÉS/REGISZTRÁCIÓ ведут на /go → 3-baxterbet46.com/sr?cxd=35291_439084 — рефка Baxterbet."
+ },
+ {
+  "domain": "mostbetcasino-in.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet Casino; форма /play ведёт на 3-baxterbet…com/?cxd=35568_440029 (рефка Baxterbet), трекер wliny.com → promo-push.com (bb_w267346…) — только чужие бренды."
+ },
+ {
+  "domain": "mostbetcasino-nederland.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet Casino NL; кнопки Casino/App/вход ведут на /go/ → luckygans.com/?stag=155432_… — рефка Luckygans."
+ },
+ {
+  "domain": "mostbetcasino-nl.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet Casino NL; кнопки Casino/App/вход ведут на /go/ → luckygans.com/?stag=155432_… — рефка Luckygans."
+ },
+ {
+  "domain": "mostbetcasino-no.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (NO); кнопки навигации через трекер vip.w1ncasino.org/click?key=bcb09393… ведут на casea-8039.com/registration?mid=363346_2106015 — рефка Casea."
+ },
+ {
+  "domain": "mostbetcasino-no.eu.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (NO); кнопки навигации через трекер vip.w1ncasino.org/click?key=bcb09393… ведут на casea-8039.com/registration?mid=363346_2106015 — рефка Casea."
+ },
+ {
+  "domain": "mostbetcasino-pl.eu.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (PL); кнопки навигации через трекер vip.w1ncasino.org/click?key=bcb09393… ведут на casea-8039.com/registration?mid=363346_2106015 — рефка Casea."
+ },
+ {
+  "domain": "mostbetcasino-portugal.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet Casino; кнопки /go/login и /go/register ведут на rocketplay32.com/?stag=227232_… — рефка RocketPlay."
+ },
+ {
+  "domain": "mostbetcasino-portugal.pt",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд «MostBet Casino Portugal» (play.mostbetcasino-portugal.pt); кнопки через go.mostbetcasino-portugal.pt/v8rrdylp ведут на bitstarz.com/?stag=9144_… — рефка BitStarz."
+ },
+ {
+  "domain": "mostbetcasino-ro.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (RO); кнопки навигации через трекер vip.w1ncasino.org/click?key=bcb09393… ведут на casea-8039.com/registration?mid=363346_2106015 — рефка Casea."
+ },
+ {
+  "domain": "mostbetcasino-ro.com.ro",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (RO); кнопки навигации через трекер vip.w1ncasino.org/click?key=bcb09393… ведут на casea-8039.com/registration?mid=363346_2106015 — рефка Casea."
+ },
+ {
+  "domain": "mostbetcasino-win.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Домен с Mostbet переезжает на official-mostbet.online (монобренд Mostbet); кнопки там через трекер jytryd.click/PVCwzYSF ведут на 1xbet.rs/registration?tag=d_5135492m — рефка 1xBet."
+ },
+ {
+  "domain": "mostbetcasino.app",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Домен и title про Mostbet, страница-лобби выдаёт себя за mostbet casino; кнопки /register/ и скрипт ведут на 77mvp.win/?cid=4291909 — рефка чужого казино 77MVP."
+ },
+ {
+  "domain": "mostbetcasino.ca",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд «Mostbet ™ — Official Site»; кнопки /log_in, /sign-up, /play/banner ведут на tuffpuff1.com/?stag=144730_… — рефка TuffPuff Casino."
+ },
+ {
+  "domain": "mostbetcasino.ch",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд «Mostbet ™ — Official Site»; кнопки /log_in, /sign-up, /play/banner ведут на tuffpuff1.com/?stag=144730_… — рефка TuffPuff Casino."
+ },
+ {
+  "domain": "mostbetcasino.cl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet Chile; кнопки Registrarse на /go.php ведут на sapphirebet.com (tag=d_5860277m) и ivibettnow.com (btag=655134_…), трекер yourlinknow.xyz → SapphireBet — чужие рефки."
+ },
+ {
+  "domain": "mostbetcasino.eu",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (mostbetcasino.eu); кнопки Claim bonus на /get-bonus-mostbet/ ведут на gr29--gransino.com/registration?mid=231025_1795020 — рефка Gransino."
+ },
+ {
+  "domain": "mostbetcasino.info",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Домен с Mostbet, страница — шаблон чужого казино (лента фейковых выигрышей, сетка слотов), выдаёт себя за Mostbet; кнопки через трекер c4.maxcloudlink.com ведут на 17jl33.com/?affiliateCode=17jl01 — чужое казино, точнее bait."
+ },
+ {
+  "domain": "mostbetcasino.io",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд «Mostbet ™ — Official Site»; кнопки /log_in, /sign-up, /play/banner ведут на tuffpuff1.com/?stag=144730_… — рефка TuffPuff Casino."
+ },
+ {
+  "domain": "mostbetcasino.net.gr",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet Casino Ελλάδα; кнопки Σύνδεση/Εγγραφή ведут на 1wfafs.life/casino/list?open=register&p=oa30 → one-vv4739.com — рефка 1win."
+ },
+ {
+  "domain": "mostbetcasino.net.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet Polska/UK; кнопки на /click/ ведут на winshark13.com/?stag=109401_… — рефка Winshark."
+ },
+ {
+  "domain": "mostbetcasino.nz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд «Mostbet ™ — Official Site»; кнопки /log_in, /sign-up, /play/banner ведут на tuffpuff1.com/?stag=144730_… — рефка TuffPuff Casino."
+ },
+ {
+  "domain": "mostbetcasino.one",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet Polska/UK; кнопки на /to/ ведут на winshark13.com/?stag=109401_… — рефка Winshark."
+ },
+ {
+  "domain": "mostbetcasino.org.mx",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд «Mostbet ™ — Official Site»; кнопки /log_in, /sign-up, /play/banner ведут на tuffpuff1.com/?stag=144730_… — рефка TuffPuff Casino."
+ },
+ {
+  "domain": "mostbetcasino.ro",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд «Mostbet ™ — Official Site»; кнопки /log_in, /sign-up, /play/banner ведут на tuffpuff1.com/?stag=144730_… — рефка TuffPuff Casino."
+ },
+ {
+  "domain": "mostbetcasino.us",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet Casino; форма /play ведёт на 7-baxterbet…com/?cxd=35568_440029 (рефка Baxterbet), трекер wliny.com → starwindirect.com — только чужие бренды."
+ },
+ {
+  "domain": "mostbetcasino.vip",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд «МостБет (Mostbet)» Україна; кнопки Реєстрація/Вхід на /go/ ведут на beton.ua/?refcode=aff_…_1272, трекер prizegaming.top → BETON; плюс прямые ссылки на pin-up и favbet-зеркала — только чужие бренды."
+ },
+ {
+  "domain": "mostbetcasino1.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet Casino NL; кнопки Casino/App/вход ведут на /go/ → luckygans.com/?stag=155432_… — рефка Luckygans."
+ },
+ {
+  "domain": "mostbetcasino1.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet Polska/UK; кнопки на /go/ (ссылка скрипта на mostbet21.pl без pid — не реклама Mostbet) ведут на winshark13.com/?stag=109401_… — рефка Winshark."
+ },
+ {
+  "domain": "mostbetcasino24.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet Casino; кнопки /go/login и /go/register ведут на rocketplay32.com/?stag=227232_… — рефка RocketPlay."
+ }
+]

@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "de.mostbet-de.bet",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Чужая реклама — ссылка mostbet-mexico.com в переключателе языков (простая ссылка на сеть сателлитов), которая переезжает через apuestasenmexico.mx на обзорник oaoamatematicas.org; кнопки /go/registration ведут на трекер Mostbet (mostbet-global-pro.com, mostbetnow.com)."
+ },
+ {
+  "domain": "detoxsoberlounge.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Свой шлюз /go/main ротирует: в одних прогонах ведёт на kaqimwmb.com pid=444325 (Mostbet), в других — на slotoro77.bet/register?ref=vp_w260700... (чужое казино)."
+ },
+ {
+  "domain": "dorksidetoys.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Взломанный сайт показывает Google-mobile монобренд «Mostbet AZ»; кнопки на нём пустые (#), единственная рекламная ссылка — «apk yükləyin» /apk → d4hdamr0.top/ybzRsnYF?sub1=apk; этот трекер у 350 других сайтов ведёт на 1xBet (tag=d_3755482m)."
+ },
+ {
+  "domain": "emma-toolkit.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Взломанный сайт показывает Google-mobile монобренд «Mostbet AZ»; кнопки на нём пустые (#), единственная рекламная ссылка — «apk yükləyin» /apk → d4hdamr0.top/ybzRsnYF?sub1=apk; этот трекер у 350 других сайтов ведёт на 1xBet (tag=d_3755482m)."
+ },
+ {
+  "domain": "glocksonlineandhandgunshoponline.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Свой шлюз /go/main ротирует: в одних прогонах ведёт на kaqimwmb.com pid=444325 (Mostbet), в других — на slotoro77.bet/register?ref=vp_w260700... (чужое казино)."
+ },
+ {
+  "domain": "lifespanohio.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Взломанный сайт показывает Google-mobile монобренд «Mostbet AZ»; кнопки на нём пустые (#), единственная рекламная ссылка — «apk yükləyin» /apk → d4hdamr0.top/ybzRsnYF?sub1=apk; этот трекер у 350 других сайтов ведёт на 1xBet (tag=d_3755482m)."
+ },
+ {
+  "domain": "m-ostbet.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.7,
+  "comment": "Свой шлюз /go/ уходит на трекер (relayfox/link-verse/refpilot/routepoint): в одних прогонах на lziooamb.com pid=147099 (Mostbet), в affiliate-scan — на чужое казино (redirect-verde → Verde casino, bigclash)."
+ },
+ {
+  "domain": "materica.pt",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Свой шлюз /go/ → трекер (gametimehub/back-linker/hushvector/illuminater/refpilot) ведёт то на lziooamb.com pid=147099 (Mostbet), то на bigclash-9829.com/registration?mid=388580_2240021 (чужое казино)."
+ },
+ {
+  "domain": "mos-t-be-t.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.7,
+  "comment": "Свой шлюз /go/ уходит на трекер (relayfox/link-verse/refpilot/routepoint): в одних прогонах на lziooamb.com pid=147099 (Mostbet), в affiliate-scan — на чужое казино (redirect-verde → Verde casino, bigclash)."
+ },
+ {
+  "domain": "mos-t-bett.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.7,
+  "comment": "Свой шлюз /go/ уходит на трекер (relayfox/link-verse/refpilot/routepoint): в одних прогонах на lziooamb.com pid=147099 (Mostbet), в affiliate-scan — на чужое казино (redirect-verde → Verde casino, bigclash)."
+ },
+ {
+  "domain": "most-bet-india.net",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "«Чужая» ссылка — кнопка Demo слотов (data-url …/launch?key=TEST…&mode=demo, partner=mostbet-prod / playsonsite-prod), это демо игры провайдера, не реклама; Play/регистрация ведут на трекер Mostbet (regu.crickacademy.com → zlaovvmb.com pid=37776; snrjucmb.com → pid=18728)."
+ },
+ {
+  "domain": "most-bet-online.kz",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.6,
+  "comment": "Обе «рекламы» — одна и та же кнопка adminclick.org/…: тот же трекер у других сайтов ведёт на рефку Mostbet pid=226747; в этом прогоне его перекинуло через goclickflow на лид-форму dzdsbn.com без опознанного бренда (404)."
+ },
+ {
+  "domain": "most-bet-pl.net",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.7,
+  "comment": "Свой шлюз /go/ уходит на трекер (relayfox/link-verse/refpilot/routepoint): в одних прогонах на lziooamb.com pid=147099 (Mostbet), в affiliate-scan — на чужое казино (redirect-verde → Verde casino, bigclash)."
+ },
+ {
+  "domain": "most-bet-pl.online",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.7,
+  "comment": "Свой шлюз /go/ уходит на трекер (relayfox/link-verse/refpilot/routepoint): в одних прогонах на lziooamb.com pid=147099 (Mostbet), в affiliate-scan — на чужое казино (redirect-verde → Verde casino, bigclash)."
+ },
+ {
+  "domain": "most-bet-pl.site",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.7,
+  "comment": "Свой шлюз /go/ уходит на трекер (relayfox/link-verse/refpilot/routepoint): в одних прогонах на lziooamb.com pid=147099 (Mostbet), в affiliate-scan — на чужое казино (redirect-verde → Verde casino, bigclash)."
+ },
+ {
+  "domain": "most-bet.fr",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Свой шлюз /go/ → трекер (gametimehub/back-linker/hushvector/illuminater/refpilot) ведёт то на lziooamb.com pid=147099 (Mostbet), то на bigclash-9829.com/registration?mid=388580_2240021 (чужое казино)."
+ },
+ {
+  "domain": "most-bet.ink",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Свой шлюз /go/ → трекер (gametimehub/back-linker/hushvector/illuminater/refpilot) ведёт то на lziooamb.com pid=147099 (Mostbet), то на bigclash-9829.com/registration?mid=388580_2240021 (чужое казино)."
+ },
+ {
+  "domain": "most-bet.kg",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.6,
+  "comment": "Обе «рекламы» — одна и та же кнопка adminclick.org/…: тот же трекер у других сайтов ведёт на рефку Mostbet pid=226747; в этом прогоне его перекинуло через goclickflow на лид-форму dzdsbn.com без опознанного бренда (404)."
+ },
+ {
+  "domain": "most-beto.uk",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Свой шлюз /go/ → трекер (gametimehub/back-linker/hushvector/illuminater/refpilot) ведёт то на lziooamb.com pid=147099 (Mostbet), то на bigclash-9829.com/registration?mid=388580_2240021 (чужое казино)."
+ },
+ {
+  "domain": "most-bett.com.pl",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Свой шлюз /go/ → трекер (gametimehub/back-linker/hushvector/illuminater/refpilot) ведёт то на lziooamb.com pid=147099 (Mostbet), то на bigclash-9829.com/registration?mid=388580_2240021 (чужое казино)."
+ },
+ {
+  "domain": "most-bett.pl",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Свой шлюз /go/ → трекер (gametimehub/back-linker/hushvector/illuminater/refpilot) ведёт то на lziooamb.com pid=147099 (Mostbet), то на bigclash-9829.com/registration?mid=388580_2240021 (чужое казино)."
+ },
+ {
+  "domain": "mostb-et.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Свой шлюз /go/ → трекер (gametimehub/back-linker/hushvector/illuminater/refpilot) ведёт то на lziooamb.com pid=147099 (Mostbet), то на bigclash-9829.com/registration?mid=388580_2240021 (чужое казино)."
+ },
+ {
+  "domain": "mostbbet.click",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Свой шлюз /go/main ротирует: в одних прогонах ведёт на kaqimwmb.com pid=444325 (Mostbet), в других — на slotoro77.bet/register?ref=vp_w260700... (чужое казино)."
+ },
+ {
+  "domain": "mostbbet.ink",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Свой шлюз /go/main ротирует: в одних прогонах ведёт на kaqimwmb.com pid=444325 (Mostbet), в других — на slotoro77.bet/register?ref=vp_w260700... (чужое казино)."
+ },
+ {
+  "domain": "mostbet-bangladesh.bet",
+  "given": "mono_mixed",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_mixed",
+  "confidence": 0.4,
+  "comment": "Кнопки /go/registration ведут на Mostbet pid=304732; трекер ddd7dj.org/MPNB4gYP → Slotuna найден только в одном прогоне affiliate-scan (script_url); в сохранённом HTML его нет, проверить, что строка не закомментирована, нельзя."
+ },
+ {
+  "domain": "mostbet-bgl.com",
+  "given": "mono_mixed",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_mixed",
+  "confidence": 0.4,
+  "comment": "Кнопки /go/registration ведут на Mostbet pid=304732; трекер ddd7dj.org/MPNB4gYP → Slotuna найден только в одном прогоне affiliate-scan (script_url); в сохранённом HTML его нет, проверить, что строка не закомментирована, нельзя."
+ },
+ {
+  "domain": "mostbet-bonus.org",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "«Чужая» реклама getplay.plseocpa.com (Morospin, disabled) — артефакт: ссылка window.open('play-link.org/126tw5z2?source=…\\u0026pid=241') с \\u0026; целая ссылка ведёт на fvoidjmb.com pid=401053 (Mostbet), APK — mobile-apps.online/…/Mostbet.apk."
+ },
+ {
+  "domain": "mostbet-casino-bbj1.ru",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Ротация на своём /goto/: /goto/<номер> → lfpvspmb.com pid=261386 (Mostbet), /goto/ → nebula-vectorial.com → trynvex.org?stag=69533 (у других сайтов это Kometa casino)."
+ },
+ {
+  "domain": "mostbet-casino-hungary.org",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "«Чужая» реклама getplay.plseocpa.com (Morospin, disabled) — артефакт: ссылка window.open('play-link.org/126tw5z2?source=…\\u0026pid=241') с \\u0026; целая ссылка ведёт на fvoidjmb.com pid=401053 (Mostbet), APK — mobile-apps.online/…/Mostbet.apk."
+ },
+ {
+  "domain": "mostbet-casino-jbjb.ru",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Ротация на своём /goto/: /goto/<номер> → lfpvspmb.com pid=261386 (Mostbet), /goto/ → nebula-vectorial.com → trynvex.org?stag=69533 (у других сайтов это Kometa casino)."
+ },
+ {
+  "domain": "mostbet-casino-lkg1.online",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Ротация на своём /goto/: /goto/<номер> → lfpvspmb.com pid=261386 (Mostbet), /goto/ → nebula-vectorial.com → trynvex.org?stag=69533 (у других сайтов это Kometa casino)."
+ },
+ {
+  "domain": "mostbet-casino-official.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "«Чужая» реклама getplay.plseocpa.com (Morospin, disabled) — артефакт: ссылка window.open('play-link.org/126tw5z2?source=…\\u0026pid=241') с \\u0026; целая ссылка ведёт на fvoidjmb.com pid=401053 (Mostbet), APK — mobile-apps.online/…/Mostbet.apk."
+ },
+ {
+  "domain": "mostbet-casino-pl.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "«Чужая» реклама getplay.plseocpa.com (Morospin, disabled) — артефакт: ссылка window.open('play-link.org/126tw5z2?source=…\\u0026pid=241') с \\u0026; целая ссылка ведёт на fvoidjmb.com pid=401053 (Mostbet), APK — mobile-apps.online/…/Mostbet.apk."
+ },
+ {
+  "domain": "mostbet-casino-rgs1.ru",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Ротация на своём /goto/: /goto/<номер> → lfpvspmb.com pid=261386 (Mostbet), /goto/ → nebula-vectorial.com → trynvex.org?stag=69533 (у других сайтов это Kometa casino)."
+ },
+ {
+  "domain": "mostbet-de.bet",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Чужая реклама — ссылка mostbet-mexico.com в переключателе языков (простая ссылка на сеть сателлитов), которая переезжает через apuestasenmexico.mx на обзорник oaoamatematicas.org; кнопки /go/registration ведут на трекер Mostbet (mostbet-global-pro.com, mostbetnow.com)."
+ },
+ {
+  "domain": "mostbet-download.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.6,
+  "comment": "Обе «рекламы» — одна и та же кнопка adminclick.org/…: тот же трекер у других сайтов ведёт на рефку Mostbet pid=226747; в этом прогоне его перекинуло через goclickflow на лид-форму dzdsbn.com без опознанного бренда (404)."
+ },
+ {
+  "domain": "mostbet-in.eu.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "«Чужая» ссылка — кнопка Demo слотов (data-url …/launch?key=TEST…&mode=demo, partner=mostbet-prod / playsonsite-prod), это демо игры провайдера, не реклама; Play/регистрация ведут на трекер Mostbet (regu.crickacademy.com → zlaovvmb.com pid=37776; snrjucmb.com → pid=18728)."
+ },
+ {
+  "domain": "mostbet-kaszyno.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "«Чужая» реклама getplay.plseocpa.com (Morospin, disabled) — артефакт: ссылка window.open('play-link.org/126tw5z2?source=…\\u0026pid=241') с \\u0026; целая ссылка ведёт на fvoidjmb.com pid=401053 (Mostbet), APK — mobile-apps.online/…/Mostbet.apk."
+ },
+ {
+  "domain": "mostbet-nl.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.7,
+  "comment": "Свой шлюз /go/ уходит на трекер (relayfox/link-verse/refpilot/routepoint): в одних прогонах на lziooamb.com pid=147099 (Mostbet), в affiliate-scan — на чужое казино (redirect-verde → Verde casino, bigclash)."
+ },
+ {
+  "domain": "mostbet-official-casino.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "«Чужая» реклама getplay.plseocpa.com (Morospin, disabled) — артефакт: ссылка window.open('play-link.org/126tw5z2?source=…\\u0026pid=241') с \\u0026; целая ссылка ведёт на fvoidjmb.com pid=401053 (Mostbet), APK — mobile-apps.online/…/Mostbet.apk."
+ },
+ {
+  "domain": "mostbet-official-site.org",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "«Чужая» реклама getplay.plseocpa.com (Morospin, disabled) — артефакт: ссылка window.open('play-link.org/126tw5z2?source=…\\u0026pid=241') с \\u0026; целая ссылка ведёт на fvoidjmb.com pid=401053 (Mostbet), APK — mobile-apps.online/…/Mostbet.apk."
+ },
+ {
+  "domain": "mostbet.lv",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "«Чужая» ссылка — кнопка Demo слотов (data-url …/launch?key=TEST…&mode=demo, partner=mostbet-prod / playsonsite-prod), это демо игры провайдера, не реклама; Play/регистрация ведут на трекер Mostbet (regu.crickacademy.com → zlaovvmb.com pid=37776; snrjucmb.com → pid=18728)."
+ },
+ {
+  "domain": "mostbet.pro.in",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "«Чужая» ссылка — кнопка Demo слотов (data-url …/launch?key=TEST…&mode=demo, partner=mostbet-prod / playsonsite-prod), это демо игры провайдера, не реклама; Play/регистрация ведут на трекер Mostbet (regu.crickacademy.com → zlaovvmb.com pid=37776; snrjucmb.com → pid=18728)."
+ },
+ {
+  "domain": "mostbetbonus.cz",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Свой шлюз /go/ → трекер (gametimehub/back-linker/hushvector/illuminater/refpilot) ведёт то на lziooamb.com pid=147099 (Mostbet), то на bigclash-9829.com/registration?mid=388580_2240021 (чужое казино)."
+ },
+ {
+  "domain": "mostbetcazino.cz",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "«Чужая» реклама getplay.plseocpa.com (Morospin, disabled) — артефакт: ссылка window.open('play-link.org/126tw5z2?source=…\\u0026pid=241') с \\u0026; целая ссылка ведёт на fvoidjmb.com pid=401053 (Mostbet), APK — mobile-apps.online/…/Mostbet.apk."
+ },
+ {
+  "domain": "mostbetcz.info",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "«Чужая» реклама getplay.plseocpa.com (Morospin, disabled) — артефакт: ссылка window.open('play-link.org/126tw5z2?source=…\\u0026pid=241') с \\u0026; целая ссылка ведёт на fvoidjmb.com pid=401053 (Mostbet), APK — mobile-apps.online/…/Mostbet.apk."
+ },
+ {
+  "domain": "mostbetde.de",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Чужая реклама — ссылка mostbet-mexico.com в переключателе языков (простая ссылка на сеть сателлитов), которая переезжает через apuestasenmexico.mx на обзорник oaoamatematicas.org; кнопки /go/registration ведут на трекер Mostbet (mostbet-global-pro.com, mostbetnow.com)."
+ },
+ {
+  "domain": "mostbete-in.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "«Чужая» ссылка — epod.cid.harvard.edu в списке источников (простая ссылка на Гарвард, не реклама); кнопки ведут на kdwylpmb.com pid=141153 (Mostbet), остальные внешние ссылки — gov.in, doi.org."
+ },
+ {
+  "domain": "mostbete.in",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "«Чужая» ссылка — epod.cid.harvard.edu в списке источников (простая ссылка на Гарвард, не реклама); кнопки ведут на kdwylpmb.com pid=141153 (Mostbet), остальные внешние ссылки — gov.in, doi.org."
+ },
+ {
+  "domain": "mostbetindix.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "«Чужая» ссылка — epod.cid.harvard.edu в списке источников (простая ссылка на Гарвард, не реклама); кнопки ведут на kdwylpmb.com pid=141153 (Mostbet), остальные внешние ссылки — gov.in, doi.org."
+ }
+]

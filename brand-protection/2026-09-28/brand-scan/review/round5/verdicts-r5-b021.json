@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbet-android.cyou",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-android.sbs",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-android.xyz",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-app.click",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-app.cyou",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-app.sbs",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-aviator.cyou",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-aviator.sbs",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-bet.click",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-bet.cyou",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-bet.sbs",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-bet.xyz",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-bonos.click",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-bonos.cyou",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-bonos.sbs",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-bonos.xyz",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-bonus.cyou",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-bonus.sbs",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-cash.cfd",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-cash.click",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-cash.cyou",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-cash.sbs",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-cash.xyz",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-casino.cyou",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-casino.sbs",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-code.cfd",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-code.click",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-code.cyou",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-code.sbs",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-code.xyz",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-cricket.cfd",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-cricket.click",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-cricket.cyou",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-cricket.sbs",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-cricket.xyz",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-deposit.cfd",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-deposit.click",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-deposit.cyou",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-deposit.sbs",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-deposit.xyz",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-depositar.cfd",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-depositar.click",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-depositar.cyou",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-depositar.sbs",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-download.cfd",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-download.click",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-download.cyou",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-download.sbs",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-download.xyz",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ },
+ {
+  "domain": "mostbet-game.cfd",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Куда ведёт t2m.co/most-bet, на диске нет (ни в destinations*, ни в jsonl): если на чужую рефку — redirect_other, если на Mostbet — redirect_ref."
+ }
+]

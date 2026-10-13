@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbet-game.click",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-game.cyou",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-games.cfd",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-games.click",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-games.cyou",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-games.xyz",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-global.xyz",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-oficial.cfd",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-oficial.click",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-oficial.cyou",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-oficial.xyz",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-online.cyou",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-original.cfd",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-original.click",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-original.cyou",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-original.xyz",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-pc.cfd",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-pc.click",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-pc.cyou",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-pc.xyz",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-plinko.cfd",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-plinko.click",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-plinko.cyou",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-plinko.xyz",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-register.cfd",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-register.click",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-register.cyou",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-register.sbs",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-register.xyz",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-registration.click",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-registration.cyou",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-registration.sbs",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-registro.cfd",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-registro.click",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-registro.cyou",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-registro.sbs",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-registro.xyz",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-sign.cfd",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-sign.click",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-sign.cyou",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-sign.sbs",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-sign.xyz",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-site.cfd",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-site.click",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-site.cyou",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-site.sbs",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-today.cfd",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-today.click",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-today.cyou",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ },
+ {
+  "domain": "mostbet-today.sbs",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google (http-google-mobile, 200) скрипт через 1 с шлёт на https://t2m.co/most-bet, обычному клиенту и Googlebot — Cloudflare 403. Получатель сокращателя на диске не записан, а слаг most-bet указывает скорее на рефку Mostbet, чем на чужой бренд; чужая рефка не доказана."
+ }
+]

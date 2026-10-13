@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbet-website.cfd",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту и Googlebot — Cloudflare 403; посетителю из Google скрипт шлёт на https://t2m.co/most-bet — slug по Mostbet, получатель на диске не разрешён; тот же шаблон у mostbet-depositar.xyz владелец в контроле признал не нарушителем."
+ },
+ {
+  "domain": "mostbet-website.click",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту и Googlebot — Cloudflare 403; посетителю из Google скрипт шлёт на https://t2m.co/most-bet — slug по Mostbet, получатель на диске не разрешён; тот же шаблон у mostbet-depositar.xyz владелец в контроле признал не нарушителем."
+ },
+ {
+  "domain": "mostbet-website.cyou",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту и Googlebot — Cloudflare 403; посетителю из Google скрипт шлёт на https://t2m.co/most-bet — slug по Mostbet, получатель на диске не разрешён; тот же шаблон у mostbet-depositar.xyz владелец в контроле признал не нарушителем."
+ },
+ {
+  "domain": "mostbet-website.sbs",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту и Googlebot — Cloudflare 403; посетителю из Google скрипт шлёт на https://t2m.co/most-bet — slug по Mostbet, получатель на диске не разрешён; тот же шаблон у mostbet-depositar.xyz владелец в контроле признал не нарушителем."
+ },
+ {
+  "domain": "mostbet-website.xyz",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту и Googlebot — Cloudflare 403; посетителю из Google скрипт шлёт на https://t2m.co/most-bet — slug по Mostbet, получатель на диске не разрешён; тот же шаблон у mostbet-depositar.xyz владелец в контроле признал не нарушителем."
+ },
+ {
+  "domain": "mostbet996.casino",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.75,
+  "comment": "Главная мета-рефрешем и скриптом уводит на promo-slot-link.com/l/…?sub_id=Dmostbet997 → лендинг 7kmost?refCode=sk_w238255c309321l24609p2169 — партнёрский код чужой сети (не pid Mostbet), финал 429."
+ },
+ {
+  "domain": "website-mostbet.cfd",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту и Googlebot — Cloudflare 403; посетителю из Google скрипт шлёт на https://t2m.co/most-bet — slug по Mostbet, получатель на диске не разрешён; тот же шаблон у mostbet-depositar.xyz владелец в контроле признал не нарушителем."
+ },
+ {
+  "domain": "website-mostbet.click",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту и Googlebot — Cloudflare 403; посетителю из Google скрипт шлёт на https://t2m.co/most-bet — slug по Mostbet, получатель на диске не разрешён; тот же шаблон у mostbet-depositar.xyz владелец в контроле признал не нарушителем."
+ },
+ {
+  "domain": "website-mostbet.cyou",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту и Googlebot — Cloudflare 403; посетителю из Google скрипт шлёт на https://t2m.co/most-bet — slug по Mostbet, получатель на диске не разрешён; тот же шаблон у mostbet-depositar.xyz владелец в контроле признал не нарушителем."
+ },
+ {
+  "domain": "website-mostbet.xyz",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту и Googlebot — Cloudflare 403; посетителю из Google скрипт шлёт на https://t2m.co/most-bet — slug по Mostbet, получатель на диске не разрешён; тот же шаблон у mostbet-depositar.xyz владелец в контроле признал не нарушителем."
+ },
+ {
+  "domain": "altbetlink.com",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.85,
+  "comment": "На /mostbet-alternative-link/ в тексте «Try BetPlay.io» и баннер в сайдбаре ведут на betplay.io/?ref=706f5360a707 — партнёрская ссылка чужого оператора."
+ },
+ {
+  "domain": "asian-bookies.net",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.75,
+  "comment": "Переезд bsdxtremepark.com → asian-bookies.net; на /review/mostbet/ рядом с /go/mostbet/ (pid=154665) стоит ссылка /go/1xbet/ → 1xbet.rs/?tag=d_2406831m_97c_."
+ },
+ {
+  "domain": "aviator.org.mx",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.7,
+  "comment": "На /mostbet-casino/ кнопка в шапке «JUEGO AVIATOR» /go-default/ → brazpromo.com/promo/click/… → brazino777.mx; кнопки Mostbet ведут на /casino-ahead-mostbet-casino/."
+ },
+ {
+  "domain": "brasil-mostbet.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, страница — индонезийское togel/слот-казино IRAMATOGEL с кнопками LOGIN/DAFTAR (bit.ly, livechat), Mostbet нет."
+ },
+ {
+  "domain": "casino-bonuses-uz.com",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.85,
+  "comment": "Переезд dawo.uz → casino-bonuses-uz.com; на /mostbet/ и /ru/mostbet/ кнопка «Bonus olish / Получить бонус» ведёт на bobaffs.org/click?o=1887&a=189 → 1xbet.rs?tag=d_5846941m_97c_."
+ },
+ {
+  "domain": "dormetmeble.pl",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.7,
+  "comment": "Переезд biesiadasmaku-bistro.pl → dormetmeble.pl; на /reviews/mostbet-casino-login/ блок «Odbierz bonus» /play/vulkanvegas → v484.vegas?ref=vp_w169785c207650… (Vulkan Vegas), плюс /play/ice50fs, /play/spinanga."
+ },
+ {
+  "domain": "isuzu-truck.pl",
+  "given": "mb_page_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mb_page_other",
+  "confidence": 0.4,
+  "comment": "Переезд witchyaromas.pl → isuzu-truck.pl; на /reviews/mostbet-casino-login/ только кнопки /play/mostbet → playlink.ink/mostbet → record.mozzartaffiliates.com → Mozzart (замер из RS, похоже на гео-подмену); чужих кнопок на странице нет."
+ },
+ {
+  "domain": "mostbeta0.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, страница — бразильское казино «551x», кнопка регистрации через трекер isz5.cbevl9fl.com?ch=100770 → w32w.wuz8ndk8.com/register; Mostbet нет."
+ },
+ {
+  "domain": "mostbetss.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, страница — казино «abcgame» (слоты, PIX), регистрация через isz5.cbevl9fl.com?ch=100770 → ankw.c1y9tedo.com/register; Mostbet нет."
+ },
+ {
+  "domain": "vitisport.ru",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.75,
+  "comment": "На /bukmekery/mostbet.html обе кнопки «ЗАБРАТЬ БОНУС до €400 + промокод WINVIP» и «Регистрация» ведут на трекер upx-cli.life/tagpyjbjs (Up-X, rel=sponsored), не на Mostbet."
+ },
+ {
+  "domain": "wsesam.ru",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.85,
+  "comment": "Переезд borovsk-tract.ru → wsesam.ru; на /mostbet.html кнопки ведут на refpa58816.com/L?tag=s_4173503m… (Melbet), partnerprofitpath.com (PINCO), gate707.net?promo=…, 46831.brightwhale.co?partner=…."
+ },
+ {
+  "domain": "mahabodhi.co.za",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.6,
+  "comment": "Взломанный сайт галереи с постами про Mostbet и SEO-спамом: на страницах Mostbet ссылки «bettilt giriş» ведут на другие взломанные сайты (siamgoldgallery.com, iag-intl.com), casibomm.live — дорвей «Casibom Güncel Link»; кодов партнёра и ссылок на операторов нет."
+ },
+ {
+  "domain": "mostbetappc.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене и title, но сайт — каталог APK чужих игр (C444 и др.); кнопка Download на /popular-apk/c444/ ведёт на luckypk777d.com/?code=MT7TCFZH6AU — чужое казино с кодом."
+ },
+ {
+  "domain": "mostbetpakistanq.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене и title, но сайт — каталог APK чужих игр (C444 и др.); кнопка Download на /popular-apk/c444/ ведёт на luckypk777d.com/?code=MT7TCFZH6AU — чужое казино с кодом."
+ },
+ {
+  "domain": "mostbetud.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене и title, но сайт — каталог APK чужих игр (C444 и др.); кнопка Download на /popular-apk/c444/ ведёт на luckypk777d.com/?code=MT7TCFZH6AU — чужое казино с кодом."
+ },
+ {
+  "domain": "raphael67.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.6,
+  "comment": "Блог «Raphael 67» (финансы) с залитыми спам-постами; на посте про Mostbet единственная внешняя ссылка «Most bet» → caaad.org.tr, Azino777 (azino777play.net — дорвей-зеркало) только в другом посте; рекламы чужих операторов на странице Mostbet нет."
+ },
+ {
+  "domain": "most-bet-casinoin.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд «Mostbet India»; все кнопки Register/Log In/Play ведут на /go/ → 1wsmoz.com/v3/landing-page/casino?sub1=…&sub2=Hybrid-Team (1win)."
+ },
+ {
+  "domain": "most-bet-india.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд «Mostbet in India»; все кнопки Register/Log In/Play ведут на /go/ → 1wsmoz.com/v3/landing-page/casino?sub1=…&sub2=Hybrid-Team (1win)."
+ },
+ {
+  "domain": "mostardentlymarybeth.com",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.9,
+  "comment": "Не бренд (most ardently), заглушка WordPress.com «coming soon»; ссылка wordpress.com/?ref=coming_soon — не реклама гэмблинга."
+ },
+ {
+  "domain": "mostbet-309.net",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.6,
+  "comment": "Монобренд Mostbet-309 AZ: кнопки «Giriş» → /link/go.php → eefagemb.com?pid=197333 (Mostbet); в меню простые ссылки на pinup-306.com и melbet-az.com — дорвеи той же сетки «Rəsmi Sayt», не операторы, без кода."
+ },
+ {
+  "domain": "mostbet-46ey.xyz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене; главная через PoW-скрипт /go.php → go2chirinkotan.com?ref=fap_w24128p111_… → lewa-bet.xyz — казино «Игорный дом Лев»."
+ },
+ {
+  "domain": "mostbet-9g00.xyz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене; главная через PoW-скрипт /go.php → go2chirinkotan.com?ref=fap_w24128p111_… → fly-lewus.xyz — казино «Игорный дом Лев»."
+ },
+ {
+  "domain": "mostbet-apkkz.com",
+  "given": "bait",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "stub",
+  "confidence": 0.4,
+  "comment": "Пустая страница: title «Download app Mostbet», только логотип, ни одной ссылки и скрипта, в meta description «Download app 1xBet» (шаблон чужого лендинга); рекламы не видно."
+ },
+ {
+  "domain": "mostbet-apks.mobi",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене; главная уводит на digitalsduct.top?ref=fap_w24128p129_hbrdblwd → blywdnolimit.top — казино «Болливуд»."
+ },
+ {
+  "domain": "mostbet-at2.xyz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене; главная уводит на infopour.top?ref=fap_w24128p112_hbrdeldrd → eldaaradoswin.com — казино «Эльдорадо»."
+ },
+ {
+  "domain": "mostbet-bd2.xyz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене; главная через PoW-скрипт /go.php → go2chirinkotan.com?ref=fap_w24128p111_… → lewis-kickback.top — казино «Игорный дом Лев»."
+ },
+ {
+  "domain": "mostbet-bd4.xyz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене; главная через PoW-скрипт /go.php → go2chirinkotan.com?ref=fap_w24128p111_… → lewis-kickback.top — казино «Игорный дом Лев»."
+ },
+ {
+  "domain": "mostbet-bonus.net.ru",
+  "given": "bait",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Одна страница «Бонус Мостбет для новых игроков» с промокодом mostbet2sx, ссылок наружу нет — продвигается только Mostbet, не PWA и не чужое."
+ },
+ {
+  "domain": "mostbet-br4.xyz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене; главная через PoW-скрипт /go.php → go2chirinkotan.com?ref=fap_w24128p111_… → lewis-kickback.top — казино «Игорный дом Лев»."
+ },
+ {
+  "domain": "mostbet-by3.xyz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене; главная через PoW-скрипт /go.php → go2chirinkotan.com?ref=fap_w24128p111_… → lewis-kickback.top — казино «Игорный дом Лев»."
+ },
+ {
+  "domain": "mostbet-car1.xyz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене; главная уводит на go2chirinkotan.com?ref=fap_w24128p111_hbrdlev → fly-lewus.xyz — казино «Игорный дом Лев»."
+ },
+ {
+  "domain": "mostbet-cz3.xyz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене; главная через PoW-скрипт /go.php → go2chirinkotan.com?ref=fap_w24128p111_… → lewis-kickback.top — казино «Игорный дом Лев»."
+ },
+ {
+  "domain": "mostbet-dyne.xyz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене; главная через PoW-скрипт /go.php → go2chirinkotan.com?ref=fap_w24128p111_… → lewis-kickback.top — казино «Игорный дом Лев»."
+ },
+ {
+  "domain": "mostbet-fa83.xyz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене; главная через PoW-скрипт /go.php → go2chirinkotan.com?ref=fap_w24128p111_… → lewis-kickback.top — казино «Игорный дом Лев»."
+ },
+ {
+  "domain": "mostbet-girisi-turkey.vip",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене; главная скриптом window.location.href уводит на giris.vilcasino.com — чужое казино Vilcasino."
+ },
+ {
+  "domain": "mostbet-md2.xyz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене; главная через PoW-скрипт /go.php → go2chirinkotan.com?ref=fap_w24128p111_… → lewis-kickback.top — казино «Игорный дом Лев»."
+ },
+ {
+  "domain": "mostbet-official-website.cz",
+  "given": "bait",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.75,
+  "comment": "Лендинг «MostBet oficiální stránky» на конструкторе reg.ru; кнопки ведут на clck.ru/33nfht → cc6vw5cm14mst.com/mVts — трекер вида …mst.com, по правилу это реклама Mostbet; чужого нет."
+ },
+ {
+  "domain": "mostbet-r.xyz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене; главная уводит на go2chirinkotan.com?ref=fap_w24128p111_hbrdlev → lewa-bet.xyz — казино «Игорный дом Лев»."
+ },
+ {
+  "domain": "mostbet-rbbv.xyz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене; главная через PoW-скрипт /go.php → go2chirinkotan.com?ref=fap_w24128p111_… → lewis-kickback.top — казино «Игорный дом Лев»."
+ },
+ {
+  "domain": "mostbet-resmi-giris.cam",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене; главная скриптом window.location.href уводит на giris.vilcasino.com — чужое казино Vilcasino."
+ }
+]

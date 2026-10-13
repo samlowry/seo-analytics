@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbet-kazahi.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.9,
+  "comment": "Все кнопки (most-bet-official.com/oGHU, /PGHU, mbetiterm.com/KGHU) ведут на рефку Mostbet pid=470355 (gvkzphmb.com, hgzcnhmb.com); «other via most-bet-official.com» — тот же трекер Mostbet, чужой рекламы нет."
+ },
+ {
+  "domain": "mostbetcasinoazeri.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.9,
+  "comment": "Все кнопки (most-bet-official.com/oGHU, /PGHU, mbetiterm.com/KGHU) ведут на рефку Mostbet pid=470355 (gvkzphmb.com, hgzcnhmb.com); «other via most-bet-official.com» — тот же трекер Mostbet, чужой рекламы нет."
+ },
+ {
+  "domain": "mostbetcasinomagyar.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.9,
+  "comment": "Все кнопки (most-bet-official.com/oGHU, /PGHU, mbetiterm.com/KGHU) ведут на рефку Mostbet pid=470355 (gvkzphmb.com, hgzcnhmb.com); «other via most-bet-official.com» — тот же трекер Mostbet, чужой рекламы нет."
+ },
+ {
+  "domain": "mostbetczechia.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.9,
+  "comment": "Все кнопки (most-bet-official.com/oGHU, /PGHU, mbetiterm.com/KGHU) ведут на рефку Mostbet pid=470355 (gvkzphmb.com, hgzcnhmb.com); «other via most-bet-official.com» — тот же трекер Mostbet, чужой рекламы нет."
+ },
+ {
+  "domain": "mostbetportuguesa.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.9,
+  "comment": "Все кнопки (most-bet-official.com/oGHU, /PGHU, mbetiterm.com/KGHU) ведут на рефку Mostbet pid=470355 (gvkzphmb.com, hgzcnhmb.com); «other via most-bet-official.com» — тот же трекер Mostbet, чужой рекламы нет."
+ },
+ {
+  "domain": "vbet-casino-tr.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://xf38lo22j1y0ihymst.com/K6XF, трекер вида …mb/…mst/…most)."
+ },
+ {
+  "domain": "adorans.hu",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://t74k96q3mb.com/e0FU, трекер вида …mb/…mst/…most)."
+ },
+ {
+  "domain": "amadershomoys.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://8a1e2ftbmb.com/sR5U, трекер вида …mb/…mst/…most)."
+ },
+ {
+  "domain": "az-mostbet-casino.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-90az.com/app/ → https://uksyxemb.com/ с pid)."
+ },
+ {
+  "domain": "az-mostbet-indir.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-90az.com/app/ → https://uksyxemb.com/ с pid)."
+ },
+ {
+  "domain": "az-mostbet-login.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-90az.com/app/ → https://uksyxemb.com/ с pid)."
+ },
+ {
+  "domain": "buildthedricnow.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-90az.com/app/ → https://uksyxemb.com/ с pid)."
+ },
+ {
+  "domain": "casino-az-mostbet.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-90az.com/app/ → https://uksyxemb.com/ с pid)."
+ },
+ {
+  "domain": "macrorruedasproexport.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-90az.com/app/ → https://uksyxemb.com/ с pid)."
+ },
+ {
+  "domain": "mostbet-az-27.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-90az.com/app/ → https://uksyxemb.com/ с pid)."
+ },
+ {
+  "domain": "mostbet-az-45.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-90az.com/app/ → https://uksyxemb.com/ с pid)."
+ },
+ {
+  "domain": "mostbet-az-now.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-90az.com/app/ → https://uksyxemb.com/ с pid)."
+ },
+ {
+  "domain": "mostbet-az-play.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-90az.com/app/ → https://uksyxemb.com/ с pid)."
+ },
+ {
+  "domain": "mostbet-az.com.co",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-90az.com/app/ → https://uksyxemb.com/ с pid)."
+ },
+ {
+  "domain": "mostbet-azerbaijani.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-90az.com/app/ → https://uksyxemb.com/ с pid)."
+ },
+ {
+  "domain": "mostbet-azerbaijani1.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-90az.com/app/ → https://uksyxemb.com/ с pid)."
+ },
+ {
+  "domain": "mostbet-casino-hungary.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://t74k96q3mb.com/e0FU, трекер вида …mb/…mst/…most)."
+ },
+ {
+  "domain": "mostbet-giris-az.net",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-90az.com/app/ → https://uksyxemb.com/ с pid)."
+ },
+ {
+  "domain": "mostbet-giris-az1.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-90az.com/app/ → https://uksyxemb.com/ с pid)."
+ },
+ {
+  "domain": "mostbet-giris-az48.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-90az.com/app/ → https://uksyxemb.com/ с pid)."
+ },
+ {
+  "domain": "mostbet1-casino-az.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-90az.com/app/ → https://uksyxemb.com/ с pid)."
+ },
+ {
+  "domain": "mostbet7-24.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-90az.com/app/ → https://uksyxemb.com/ с pid)."
+ },
+ {
+  "domain": "mostbetaz-aviator.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-90az.com/app/ → https://uksyxemb.com/ с pid)."
+ },
+ {
+  "domain": "mostbetaz-yukle.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-90az.com/app/ → https://uksyxemb.com/ с pid)."
+ },
+ {
+  "domain": "mostbetaze-casino.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-90az.com/app/ → https://uksyxemb.com/ с pid)."
+ },
+ {
+  "domain": "niger-gouv.org",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-90az.com/app/ → https://uksyxemb.com/ с pid)."
+ },
+ {
+  "domain": "heizung-meissner.de",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.75,
+  "comment": "Шлюз /go/ во всех прогонах идёт getright.online/gV1sx5 → simkmumb.com → lziooamb.com pid=147099 (Mostbet); чужой финал из ad_links (https://bigclash-9829.com/lv/registratio…) в цепочках этого сайта не встречается. hreflang на betonredd.de — в <head>, не реклама."
+ },
+ {
+  "domain": "mostbet-bangladesh24.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-bd-bookmaker.com/go/ → https://mostbet-bd64.com/ с pid)."
+ },
+ {
+  "domain": "mostbet-bd-bookmaker.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-bd-bookmaker.com/go/ → https://mostbet-bd64.com/ с pid)."
+ },
+ {
+  "domain": "mostbet-bd-games.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-bd-bookmaker.com/go/ → https://mostbet-bd64.com/ с pid)."
+ },
+ {
+  "domain": "mostbet-bd-pro.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-bd-bookmaker.com/go/ → https://mostbet-bd64.com/ с pid)."
+ },
+ {
+  "domain": "mostbet-bd1.net",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-bd-bookmaker.com/go/ → https://mostbet-bd64.com/ с pid)."
+ },
+ {
+  "domain": "mostbet-casino1.org",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-bd-bookmaker.com/go/ → https://mostbet-bd64.com/ с pid)."
+ },
+ {
+  "domain": "mostbet-downloads.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-downloads.com/sign-up → https://uksyxemb.com/ с pid)."
+ },
+ {
+  "domain": "mostbet-info-np.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-info-np.com/go/ → https://nvjnacmb.com/ с pid)."
+ },
+ {
+  "domain": "mostbet-maroc.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-maroc.com/login/ → https://uksyxemb.com/ с pid)."
+ },
+ {
+  "domain": "mostbet-online.de",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-online.de/login/ → https://uksyxemb.com/ с pid)."
+ },
+ {
+  "domain": "mostbet-polish.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://wxksxxmost.com/ezQF, трекер вида …mb/…mst/…most)."
+ },
+ {
+  "domain": "mostbet-uae1.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-uae1.com/login/ → https://uksyxemb.com/ с pid)."
+ },
+ {
+  "domain": "mostbet-ukraine1.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://mostbet-ukraine1.com/login/ → https://uksyxemb.com/ с pid)."
+ },
+ {
+  "domain": "mostbetpl.net",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://wxksxxmost.com/ezQF, трекер вида …mb/…mst/…most)."
+ },
+ {
+  "domain": "vbet-kasino-turkiye.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://xf38lo22j1y0ihymst.com/K6XF, трекер вида …mb/…mst/…most). Заголовок «Latest 1win News» — текст без ссылки."
+ },
+ {
+  "domain": "casino-mostbet.com.de",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.75,
+  "comment": "Шлюз /go/ во всех прогонах идёт urlnest.top/bx5gVSSr → simkmumb.com → lziooamb.com pid=147099 (Mostbet); чужой финал из ad_links (https://redirect-verde.com/url.replace(…) в цепочках этого сайта не встречается."
+ },
+ {
+  "domain": "casinomostbet-de.de",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.75,
+  "comment": "Шлюз /go/ во всех прогонах идёт urlnest.top/PTC2YWj8 → simkmumb.com → lziooamb.com pid=147099 (Mostbet); чужой финал из ad_links (https://redirect-verde.com/url.replace(…) в цепочках этого сайта не встречается."
+ },
+ {
+  "domain": "mostbet-bets.de",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1win.global есть только в закомментированных строках скрипта (// var Imagepath / // var siteimgurl) и в имени картинки ORG_1win-*.webp — не ссылка; кнопки ведут на Mostbet (https://klnumymb.com/gt2U?sub1=3k5hhgn.22.17d88&sub2=seogroup34 → https://kmjwdimb.com/casino с pid)."
+ }
+]

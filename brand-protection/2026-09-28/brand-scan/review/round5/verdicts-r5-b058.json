@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbet12044.ru",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ru-kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet12045.ru",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet12046.ru",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet12047.ru",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet12049.ru",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet13374.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet14473.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet15247.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet15743.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet18178.company",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet18247.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet18715.company",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet19142.shop",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet20010.shop",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet2027.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet2028.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet2029.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet2030.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet2031.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet2032.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ru-kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet2033.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet2035.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet20553.shop",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet2062.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet2063.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet2064.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet2065.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet2066.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet2067.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ru-kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet2068.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet2069.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet2070.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet21611.icu",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet22685.online",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet26809.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet28470.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet28648.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet30760.company",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet31422.icu",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet33270.company",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet33465.online",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet3347.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet33907.online",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet34192.company",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet35849.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet38201.online",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet39081.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet39930.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet40483.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ },
+ {
+  "domain": "mostbet41248.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.9,
+  "comment": "Домен переезжает на монобренд https://mostbet-kg.kg/ (кнопки на рефку Mostbet pid=130609); в футере спрятан блок <div style=\"overflow:hidden;height:2px\"> со ссылкой https://1winkg.kg → 301 на win1.kg, монобренд 1Win («1Win — официальный сайт, вход и зеркало 1вин»)."
+ }
+]

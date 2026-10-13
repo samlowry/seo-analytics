@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbet-greek.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Рабочий JS-обработчик кнопок (не закомментирован) шлёт на czzczzczz.com/click.php?key=8wvpqdd… → dk.glitch-spin.com со stag; Mostbet — только скрытая ссылка club28petel.kz → рефка pid=5870."
+ },
+ {
+  "domain": "mostbet-japan.site",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.75,
+  "comment": "Домен с Mostbet клоачит: Googlebot и посетитель из Google уводятся на vfwauxiliaryil.org — японский блог про онлайн-казино без единого упоминания Mostbet; прямому посетителю — заглушка Cloudflare."
+ },
+ {
+  "domain": "mostbet-kasyna.com.pl",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Ротирующий трекер traftraf.site/Wn1ZDh/ отдаёт то Twindor Casino (refCode=ca_w238212…), то рефку Mostbet pid=392426."
+ },
+ {
+  "domain": "mostbet-magyar.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.6,
+  "comment": "Кнопки Login/Register → рефка Mostbet pid=184831; Betandreas — простые ссылки в меню (betandreas-azerbaijani.com, betandreas.co.in, betandres-kz.com) на монобрендовые обзорники Betandreas без кода партнёра, не на оператора."
+ },
+ {
+  "domain": "mostbet-online-casino.org",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.55,
+  "comment": "Домен переезжает на bukmekersaytlari.org/kazino-reyler/mostbet; там кнопка data-casino-url wxiwncmb.com → рефка Mostbet pid=477881, Melbet — только внутренняя ссылка в таблице сравнения на обзор Melbet; партнёрка Melbet refpa3665 стоит на странице /kazino-reyler/melbet, не на странице Mostbet."
+ },
+ {
+  "domain": "mostbet-pakistani.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.6,
+  "comment": "Переезд на most-bet-pk.com: кнопки sign-up → рефка Mostbet pid=459547; Betandreas — простые ссылки в меню (betandreas-azerbaijani.com, csimkd.net, betadreas.com) на монобрендовые обзорники Betandreas без кода, не на оператора."
+ },
+ {
+  "domain": "mostbet-pl.org.pl",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Ротирующий трекер traftraf.site/Wn1ZDh/ отдаёт то Twindor Casino (refCode=ca_w238212…), то рефку Mostbet pid=392426."
+ },
+ {
+  "domain": "mostbet-review-pt.casino",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Монобренд-обзор Mostbet; кнопки «Ver oferta / Jogar agora» на внутренних страницах — трекер play55games.com/click_api → qzino.com со stag=83672; рекламы Mostbet не найдено."
+ },
+ {
+  "domain": "mostbet-rus-casino.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Кнопки главной — трекеры с меткой домена: refpa-07755.com (1xCasino tag), jetbetlura/jettredsarel (JetTon), autumn-ice.com (NormCasino), lunar-haze.com (7/6lacasino); рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbet-vip-01.online",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Кнопки главной — трекеры с меткой домена: refpa-07755.com (1xCasino tag), jetbetlura/jettredsarel (JetTon), autumn-ice.com (NormCasino), lunar-haze.com (7/6lacasino); рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbet-vip.win",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Кнопки главной — трекеры с меткой домена: refpa-07755.com (1xCasino tag), jetbetlura/jettredsarel (JetTon), autumn-ice.com (NormCasino), lunar-haze.com (7/6lacasino); рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbet.ne.ke",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Плитки игр на главной ведут на трекер play888ke.com/KRbGyL?…path=reg → 888starz.co.ke с tag=d_6094312m; рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbet01.cc",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Кнопки главной — трекеры с меткой домена: refpa-07755.com (1xCasino tag), jetbetlura/jettredsarel (JetTon), autumn-ice.com (NormCasino), lunar-haze.com (7/6lacasino); рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbet01.online",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Кнопки главной — трекеры с меткой домена: refpa-07755.com (1xCasino tag), jetbetlura/jettredsarel (JetTon), autumn-ice.com (NormCasino), lunar-haze.com (7/6lacasino); рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbet07915.online",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.6,
+  "comment": "Домен переезжает на casino-kg.com/review/mostbet/; на этой странице единственная кнопка /go/mostbet/ → xtsplkmost.com → рефка pid=469441. 1xBet и Melbet (refpa…) — только на других страницах мультибрендового сайта, на странице про Mostbet их нет."
+ },
+ {
+  "domain": "mostbet2309.online",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Кнопки главной — трекеры с меткой домена: refpa-07755.com (1xCasino tag), jetbetlura/jettredsarel (JetTon), autumn-ice.com (NormCasino), lunar-haze.com (7/6lacasino); рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbet42861.icu",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.6,
+  "comment": "Домен переезжает на casino-kg.com/review/mostbet/; на этой странице единственная кнопка /go/mostbet/ → xtsplkmost.com → рефка pid=469441. 1xBet и Melbet (refpa…) — только на других страницах мультибрендового сайта, на странице про Mostbet их нет."
+ },
+ {
+  "domain": "mostbet51426.online",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.6,
+  "comment": "Домен переезжает на casino-kg.com/review/mostbet/; на этой странице единственная кнопка /go/mostbet/ → xtsplkmost.com → рефка pid=469441. 1xBet и Melbet (refpa…) — только на других страницах мультибрендового сайта, на странице про Mostbet их нет."
+ },
+ {
+  "domain": "mostbet70131.online",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.6,
+  "comment": "Домен переезжает на casino-kg.com/review/mostbet/; на этой странице единственная кнопка /go/mostbet/ → xtsplkmost.com → рефка pid=469441. 1xBet и Melbet (refpa…) — только на других страницах мультибрендового сайта, на странице про Mostbet их нет."
+ },
+ {
+  "domain": "mostbet74628.online",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.6,
+  "comment": "Домен переезжает на casino-kg.com/review/mostbet/; на этой странице единственная кнопка /go/mostbet/ → xtsplkmost.com → рефка pid=469441. 1xBet и Melbet (refpa…) — только на других страницах мультибрендового сайта, на странице про Mostbet их нет."
+ },
+ {
+  "domain": "mostbet76473.icu",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.6,
+  "comment": "Домен переезжает на casino-kg.com/review/mostbet/; на этой странице единственная кнопка /go/mostbet/ → xtsplkmost.com → рефка pid=469441. 1xBet и Melbet (refpa…) — только на других страницах мультибрендового сайта, на странице про Mostbet их нет."
+ },
+ {
+  "domain": "mostbet92954.online",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.6,
+  "comment": "Домен переезжает на casino-kg.com/review/mostbet/; на этой странице единственная кнопка /go/mostbet/ → xtsplkmost.com → рефка pid=469441. 1xBet и Melbet (refpa…) — только на других страницах мультибрендового сайта, на странице про Mostbet их нет."
+ },
+ {
+  "domain": "mostbet99407.online",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.6,
+  "comment": "Домен переезжает на casino-kg.com/review/mostbet/; на этой странице единственная кнопка /go/mostbet/ → xtsplkmost.com → рефка pid=469441. 1xBet и Melbet (refpa…) — только на других страницах мультибрендового сайта, на странице про Mostbet их нет."
+ },
+ {
+  "domain": "mostbetazrbjn-yukle.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Кнопки /go/ и klnumymb.com → рефка Mostbet pid=141153; «SpringerLink» — это ссылка-цитата на журнал Journal of Gambling Studies, не реклама; внешние ссылки главной — только на соседние mostbet-сайты сети."
+ },
+ {
+  "domain": "mostbetcasin.lol",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Кнопки: r1w0lj3.life/casino/list?p=4c1n&sub1=mostbetcasinlol → 1win (one-vv5043.com) и autumn-ice.com → NormCasino; рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasino-greece.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Рабочий JS-обработчик кнопок (не закомментирован) шлёт на czzczzczz.com/click.php?key=8wvpqdd… → dk.glitch-spin.com со stag; Mostbet — только скрытая ссылка club28petel.kz → рефка pid=5870."
+ },
+ {
+  "domain": "mostbetcasino-pt.bet",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet Casino PT; кнопки — трекер play55games.com/click_api → Casoola (mid=348948), Hyper Lucky (affiliateId), Qzino (stag=83672); рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasinos-india.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд-обзор Mostbet India; 23 кнопки на главной ведут на gocasino2026.com/Z1CM2BKM?a=aff23 → 392spingranny.com, плюс sprt.pclira.com → sportuna; рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasinos.biz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Свой шлюз /register и /play-now → wildsino-7474.com/registration?mid=229514; ещё трекеры на dragonia и starwindirect (ref=vp_w217948…); рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetgiris.ink",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Кнопки входа: t2po.com/hizli-giris → poliwin251.com?btag=abe777 и t2m.co/okanparavan → herkulbet170.com?btag=okanparavan; рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetguncel.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Кнопки входа: t2po.com/hizli-giris → poliwin251.com?btag=abe777 и t2m.co/okanparavan → herkulbet170.com?btag=okanparavan; рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetkasino.win",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Кнопки главной — трекеры с меткой домена: refpa-07755.com (1xCasino tag), jetbetlura/jettredsarel (JetTon), autumn-ice.com (NormCasino), lunar-haze.com (7/6lacasino); рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetkazin.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Кнопки: r1w0lj3.life?sub1=mostbetkazintop → 1win, refpa-07755.com tag=d_6012144m → 1xCasino, autumn-ice.com → NormCasino; рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetonline.art",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Свой шлюз /play → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; title «Mostbet Casino … Most Bet», рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetportugal.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Кнопки → 30bh8mf4jpe8mb.com → рефка Mostbet pid=35818; «PAY77» — текстовая ссылка в статье на бывшее зеркало mostbet1.com.pt, которое теперь переезжает на scarboroughjunction.org — не реклама."
+ },
+ {
+  "domain": "mostbets-gr.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Рабочий JS-обработчик кнопок (не закомментирован) шлёт на czzczzczz.com/click.php?key=8wvpqdd… → dk.glitch-spin.com со stag; Mostbet — только скрытая ссылка club28petel.kz → рефка pid=5870."
+ },
+ {
+  "domain": "mostbets-greece.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Рабочий JS-обработчик кнопок (не закомментирован) шлёт на czzczzczz.com/click.php?key=8wvpqdd… → dk.glitch-spin.com со stag; Mostbet — только скрытая ссылка club28petel.kz → рефка pid=5870."
+ },
+ {
+  "domain": "mostbets.games",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Свой шлюз /go/bonus → redirect-fieryplay.com?ref=vp_w245602… и трекер traffick-jumps.com → dudespin (mid=299736); рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetsazc.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Кнопки /go/ и klnumymb.com → рефка Mostbet pid=141153; «SpringerLink» — это ссылка-цитата на журнал Journal of Gambling Studies, не реклама; внешние ссылки главной — только на соседние mostbet-сайты сети."
+ },
+ {
+  "domain": "mostbettcasino.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Кнопки главной — трекеры с меткой домена: refpa-07755.com (1xCasino tag), jetbetlura/jettredsarel (JetTon), autumn-ice.com (NormCasino), lunar-haze.com (7/6lacasino); рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetyenigirisi.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Кнопки входа: t2po.com/hizli-giris → poliwin251.com?btag=abe777 и t2m.co/okanparavan → herkulbet170.com?btag=okanparavan; рекламы Mostbet нет."
+ },
+ {
+  "domain": "nukkadwala.co.in",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.8,
+  "comment": "Title «MostBet Official site in India»: шлюз /go → 1xbet.rs?tag=d_3755482m, рядом link.mostbet1.in → рефка Mostbet pid=37776."
+ },
+ {
+  "domain": "primacinemacom667.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Кнопки ведут на свой шлюз /play.php → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; title и текст про Mostbet AZ, рекламы Mostbet нет."
+ },
+ {
+  "domain": "primacinemacom668.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Кнопки ведут на свой шлюз /play.php → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; title и текст про Mostbet AZ, рекламы Mostbet нет."
+ },
+ {
+  "domain": "primacinemacom713.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Кнопки ведут на свой шлюз /play.php → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; title и текст про Mostbet AZ, рекламы Mostbet нет."
+ },
+ {
+  "domain": "pwclorg470.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Кнопки ведут на свой шлюз /go.php → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; title «Mostbet AZ», рекламы Mostbet нет."
+ },
+ {
+  "domain": "pwclorg556.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Кнопки ведут на свой шлюз /go.php → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; title «Mostbet AZ», рекламы Mostbet нет."
+ },
+ {
+  "domain": "pwclorg624.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Кнопки ведут на свой шлюз /go.php → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; title «Mostbet AZ», рекламы Mostbet нет."
+ },
+ {
+  "domain": "pwclorg651.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Кнопки ведут на свой шлюз /go.php → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; title «Mostbet AZ», рекламы Mostbet нет."
+ },
+ {
+  "domain": "pwclorg718.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Кнопки ведут на свой шлюз /go.php → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; title «Mostbet AZ», рекламы Mostbet нет."
+ }
+]

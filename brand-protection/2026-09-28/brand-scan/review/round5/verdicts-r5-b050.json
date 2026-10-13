@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbet-tr.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Домен со словом mostbet переезжает на mostbet-casino-uz.com (монобренд Mostbet UZ, 53 упоминания); кнопка «Saytga o'ting» /go ведёт на 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbet-turkiye.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Домен со словом mostbet переезжает на mostbet-casino-uz.com (монобренд Mostbet UZ, 53 упоминания); кнопка «Saytga o'ting» /go ведёт на 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbet-uz-online.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Домен со словом mostbet переезжает на mostbet-casino-uz.com (монобренд Mostbet UZ, 53 упоминания); кнопка «Saytga o'ting» /go ведёт на 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbet-uz.space",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.95,
+  "comment": "Домен mostbet-uz.space сразу уводит на 1wyikj.life — зеркало 1win (title «Онлайн Казино и Ставки на Спорт | 1win»)."
+ },
+ {
+  "domain": "mostbet-uz.store",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.95,
+  "comment": "Домен mostbet-uz.store сразу уводит на 1wyikj.life — зеркало 1win (title «… | 1win»)."
+ },
+ {
+  "domain": "mostbet-uz.su",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.95,
+  "comment": "Домен mostbet-uz.su сразу уводит на 1wyikj.life — зеркало 1win (title «… | 1win»)."
+ },
+ {
+  "domain": "mostbet-uzbekistan.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Домен со словом mostbet переезжает на mostbet-casino-uz.com (монобренд Mostbet UZ, 53 упоминания); кнопка «Saytga o'ting» /go ведёт на 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbet-uzbekistan.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Домен со словом mostbet переезжает на mostbet-casino-uz.com (монобренд Mostbet UZ, 53 упоминания); кнопка «Saytga o'ting» /go ведёт на 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbet-win.cyou",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.8,
+  "comment": "Домен mostbet-win.cyou переезжает на mostbet-polska-win.online — подделка «M★STBEST / Mostbest» с собственным казино (кнопки на /game/, почта support@mostbest.com), не Mostbet."
+ },
+ {
+  "domain": "mostbet-wwwmostbet.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет: 9 ссылок на трекер updatezone.net/Bjyjf1TL уводят на 1win one-vv0352.com/?p=0nyp&sub1=…; ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbet-wwwonline.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет: 9 ссылок на трекер updatezone.net/Bjyjf1TL уводят на 1win one-vv0352.com/?p=0nyp&sub1=…; ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbet-zerka1o.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет: 7 ссылок на трекер updatezone.net/Bjyjf1TL уводят на 1win one-vv0352.com/?p=0nyp&sub1=…; ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbet-zerkalo-segodnya.top",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.95,
+  "comment": "Домен mostbet-zerkalo-segodnya.top уводит на dealredirect-go.com/?ref=sk_…_888starz-01 и дальше на 7k5236.casino (7K Casino) — чужая рефка."
+ },
+ {
+  "domain": "mostbet-zerkalo.ru.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.95,
+  "comment": "Домен mostbet-zerkalo.ru.com переезжает на competitiestand.nl — вьетнамский сайт 789CLUB, кнопки на /go/789club."
+ },
+ {
+  "domain": "mostbet-zerkalorabochee.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет: 7 ссылок на трекер updatezone.net/Bjyjf1TL уводят на 1win one-vv0352.com/?p=0nyp&sub1=…; ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbet.dev",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.95,
+  "comment": "Домен mostbet.dev переезжает на pinupaviator.com — индонезийский togel-сайт KUY4D (TOTO TOGEL, TOTO SLOT), не Mostbet."
+ },
+ {
+  "domain": "mostbet.in.ua",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet в Украине: кнопка /go/play ведёт на ggbet.ua через ggbetuapromotion.com с utm_source=Aff&utm_medium=214634 — партнёрская реклама GGBet."
+ },
+ {
+  "domain": "mostbet.info",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд MOSTBET (192 упоминания): 101 ссылка на трекер shortslink1-5.com/banner6 ведёт на bitcasino447.io?refAff[aff_id]=23629."
+ },
+ {
+  "domain": "mostbet1.net.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet PL: кнопка /go/ ведёт на 3-baxterbet46.com/sr?cxd=35291_439084 (Baxterbet, afp10=Seo); рефок Mostbet нет."
+ },
+ {
+  "domain": "mostbet40.buzz",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.95,
+  "comment": "Домен mostbet40.buzz переезжает на betplay-569.bet — сайт OK8386, ссылки через domainchainlink01.com на ok83868b.com/register?inviteCode=S482DS."
+ },
+ {
+  "domain": "mostbet41.buzz",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.95,
+  "comment": "Домен mostbet41.buzz переезжает на betplay-569.bet — сайт OK8386, ссылки через domainchainlink01.com на ok8386as.vip/register?inviteCode=S482DS."
+ },
+ {
+  "domain": "mostbet4890.buzz",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.95,
+  "comment": "Домен mostbet4890.buzz переезжает на forrarbet.top — вьетнамский сайт казино UU88."
+ },
+ {
+  "domain": "mostbet6033.ru",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.8,
+  "comment": "Домен mostbet6033.ru уводит на Google Play, страницу покерного приложения Windjammer Poker (PEGI 18) — чужая азартная игра вместо Mostbet."
+ },
+ {
+  "domain": "mostbetaap.mobi",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Домен mostbetaap.mobi уводит на luckmoreprophecy.xyz/affiliate/l_3b0cwfgx?site=mostbetaap.mobi — партнёрская ссылка Luckmore Casino (по сути redirect_other, тоже нарушитель)."
+ },
+ {
+  "domain": "mostbetaustralia.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet Australia: кнопки через wp-admin/admin-ajax.php?action=go_url_redirect ведут на 1win one-vv4739.com/?p=z8zo&sub1=…; рефок Mostbet нет."
+ },
+ {
+  "domain": "mostbetavtomaty.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет: 7 ссылок на трекер updatezone.net/Bjyjf1TL уводят на 1win one-vv0352.com/?p=0nyp&sub1=…; ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetbet.co",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.95,
+  "comment": "Домен mostbetbet.co переезжает на xstory-fr.co — вьетнамский сайт казино H13, ссылки на au88vn.co/?inviteCode=24430949."
+ },
+ {
+  "domain": "mostbetbet.lat",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (83 упоминания): кнопка /play ведёт на 3-baxterbet22.com/sr?cxd=35568_440029 (Baxterbet); рефок Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasifreespins.click",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (218 упоминаний): кнопка /registration/ ведёт на gr29--gransino.com/en/registration?mid=231025_1795016 (Gransino)."
+ },
+ {
+  "domain": "mostbetcasino-bd.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet Bangladesh: кнопки data-link через /visit/2k8DB3 ведут на moreeeglory.com (Glory, utm_source=17847); ссылки на mostbet.partners/mostpartner — пустые <a> в тексте о партнёрке, не реклама для игроков."
+ },
+ {
+  "domain": "mostbetcasino-portu.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet Portugal: кнопка /go/ ведёт на 8-baxterbet53.com/sr?cxd=35291_439084 (Baxterbet)."
+ },
+ {
+  "domain": "mostbetcasino-portugal.app",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet Casino Portugal: кнопка /go/ ведёт на 7-baxterbet21.com/sr?cxd=35291_439084 (Baxterbet)."
+ },
+ {
+  "domain": "mostbetcasino-top.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет: кнопка /goto/5401 ведёт на 7normcasino-fa.win/ru/registration?qtag=a88202_t61358382 (NormCasino)."
+ },
+ {
+  "domain": "mostbetcasino.it",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet Casino Italia: 60 ссылок на трекер goosu8453t.com/15BZ1X ведут на billybets-6293.com/registration?mid=316673_2237373."
+ },
+ {
+  "domain": "mostbetcasino.me",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Домен mostbetcasino.me переезжает на therealstoriesofkarabakh.com с монобрендом «Mostbet AZ»; кнопки partnervada.com/?promo=… и getruvada.com ведут на Vavada."
+ },
+ {
+  "domain": "mostbetcasino00.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Kasyno MostBet: 40 ссылок на трекер goosu8453t.com/tYjRbX ведут на billybets-6293.com/registration?mid=316673_2237373."
+ },
+ {
+  "domain": "mostbetcasino1.pt",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.95,
+  "comment": "Домен mostbetcasino1.pt переезжает на tritonslots.com.pl — польский сайт Triton Slots, про Mostbet ни слова."
+ },
+ {
+  "domain": "mostbetcasino777x.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет: 2 ссылок на трекер updatezone.net/Bjyjf1TL уводят на 1win one-vv0352.com/?p=0nyp&sub1=…; ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetcasinoczech.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Домен со словом mostbet, переезжает на mostbetczechcasino.cz; монобренд Mostbet Czech, кнопки идут через wp-admin/admin-ajax.php?action=go_url_redirect на 1win one-vv4739.com/?p=z8zo&sub1=…; рефок Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasinohot.lol",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет: кнопка /goto/1837 ведёт на casinomartin142.com/registration?stag=178273_… (Martin Casino)."
+ },
+ {
+  "domain": "mostbetcasinoofficial.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет (401 упоминание): 19 ссылок на updatezone.net/Bjyjf1TL и /casino ведут на 1win one-vv0352.com с sub1; рефок Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasinorf.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet: кнопка /goto/ ведёт на play-playfortuna…com/registration (Play Fortuna), /goto/5460 — на трекер autumn-ice.com?serial=61358382."
+ },
+ {
+  "domain": "mostbetcasinoturkiye.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Домен со словом mostbet переезжает на mostbet-casino-uz.com (монобренд Mostbet UZ, 53 упоминания); кнопка «Saytga o'ting» /go ведёт на 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetcasinowin888.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет: 9 ссылок updatezone.net/Bjyjf1TL и /casino ведут на 1win one-vv0352.com с sub1; рефок Mostbet нет."
+ },
+ {
+  "domain": "mostbetcazino.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет: кнопка /goto/5401 ведёт на 4normcasino-fo.win/ru/registration?qtag=a88202_t61358382 (NormCasino)."
+ },
+ {
+  "domain": "mostbetclub.top",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.95,
+  "comment": "Домен mostbetclub.top переезжает на pepe.it.com — вьетнамский сайт казино 39BET."
+ },
+ {
+  "domain": "mostbetcom-azerbaycan.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Домен со словом mostbet переезжает на mostbet-casino-uz.com (монобренд Mostbet UZ, 53 упоминания); кнопка «Saytga o'ting» /go ведёт на 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetcom-turkiye.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Домен со словом mostbet переезжает на mostbet-casino-uz.com (монобренд Mostbet UZ, 53 упоминания); кнопка «Saytga o'ting» /go ведёт на 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetczech.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Домен со словом mostbet, переезжает на mostbetczechcasino.cz; монобренд Mostbet Czech, кнопки идут через wp-admin/admin-ajax.php?action=go_url_redirect на 1win one-vv4739.com/?p=z8zo&sub1=…; рефок Mostbet нет."
+ },
+ {
+  "domain": "mostbetczechcasino.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Домен со словом mostbet; монобренд Mostbet Czech, кнопки идут через wp-admin/admin-ajax.php?action=go_url_redirect на 1win one-vv4739.com/?p=z8zo&sub1=…; рефок Mostbet нет."
+ }
+]

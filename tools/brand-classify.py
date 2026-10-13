@@ -603,11 +603,17 @@ def redirect_of(domain: str, g: dict, a: dict, hrec: dict):
     return "redirect_other", f"home redirects to {host} ({g.get('other_brands') or (g.get('title') or '')[:40]})"
 
 
+RESOLVED = {}  # url -> final url, links resolved by hand (brand-scan/resolved-links.csv)
+
+
 def js_redirect_of(domain: str, page: dict):
     target = page.get("js_redirect") or ""
     host = lb_base(target)
     if not host or lb_same(host, domain):
         return None
+    final = RESOLVED.get(target.rstrip("/")) or ""
+    if final and (mostbet_ref_host(lb_base(final)) or MB.search(lb_base(final))):
+        return "redirect_ref", f"script sends the home page to {host} → {lb_base(final)} (Mostbet, resolved by hand)"
     if aff_ref(target, domain) or MB.search(host):
         return "redirect_ref", f"script sends the home page to {host} (Mostbet)"
     if not (looks_tracker(target) or _feat.GAMBLING.search(host) or GAME_WORDS.search(host)):
@@ -767,6 +773,9 @@ def main(d: str):
 
     global HTML_DIR
     HTML_DIR = bs_dir / "html"
+    if (bs_dir / "resolved-links.csv").exists():
+        with open(bs_dir / "resolved-links.csv", newline="", encoding="utf-8") as f:
+            RESOLVED.update({x["url"].rstrip("/"): x["final_url"] for x in csv.DictReader(f)})
     to_mb, to_other = set(), set()
     for xs in [dest_by] + [vd for _, vd in variants.values()]:
         for rows_ in xs.values():
@@ -948,6 +957,28 @@ def main(d: str):
         rows.append({**r0, "domain": t, "tags": " ".join(tags), "source": "move-chain",
                      "why": f"{r0['why']} | on the move of {len(srcs)} domains of the base, e.g. {srcs[0]['domain']}"})
     print("move chain domains added", len(by_target))
+    # The checked class wins: every violator was judged by a checker in round 5 (review/round5/verdicts-*.json).
+    # A verdict applies only while the rules still give the class the checker saw; rule_category keeps the rules'
+    # own class, which the confidence scale is fitted on.
+    checks = {}
+    for p in sorted((bs_dir / "review" / "round5").glob("verdicts-r5-*.json")):
+        for v in json.loads(p.read_text()):
+            checks[v["domain"]] = v
+    valid = set(Counter(r["category"] for r in rows)) | {"mono_hidden"}
+    for r in rows:
+        r["rule_category"] = r["category"]
+        r["check"], r["check_violator"], r["check_confidence"], r["check_note"] = "", "", "", ""
+        v = checks.get(r["domain"])
+        if not v or v.get("given") != r["category"]:
+            continue
+        r["check_violator"] = "" if v.get("violator") is None else str(bool(v["violator"]))
+        r["check_confidence"] = str(v.get("confidence") or "")
+        r["check_note"] = v.get("comment") or ""
+        if v.get("verdict") == "wrong" and v.get("should_be") in valid and v["should_be"] != r["category"]:
+            r["category"], r["check"] = v["should_be"], "fixed"
+        else:
+            r["check"] = "unsure" if v.get("verdict") == "unsure" else "confirmed"
+    print("checked", Counter(r["check"] for r in rows if r["check"]))
     # Sites with no trace of the brand at all (not in the domain, the page, the links or the ads):
     # Corsearch collected them by mistake; the owner sends this list to Corsearch as a whitelist.
     fp = [r for r in rows if r["category"] in ("unrelated", "other_gambling") and "brand_in_domain" not in r["tags"]

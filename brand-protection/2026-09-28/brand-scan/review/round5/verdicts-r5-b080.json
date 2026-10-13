@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbet-game-az.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet AZ; кнопка «Qeydiyyat» ведёт на трекер 1win r1wvvyb.life/?p=e9u9 → one-vv4739.com, реклама Mostbet нет."
+ },
+ {
+  "domain": "mostbet-germany.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet Germany; /play ведёт на 1win (one-vv1469.com/?p=4wsa), трекер delta.play2win.one → SpinEmpire со stag."
+ },
+ {
+  "domain": "mostbet-giris-tr.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet TR; кнопки через ротатор gotobonus.link на Casea (mid=371151) и Vulkan (ref=vp_…), плюс ddspn.lynmonkel.com → Dudespin."
+ },
+ {
+  "domain": "mostbet-in.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд MostBet India; шлюз /go/play/ и трекер refocuss.com ведут на 9winz со btag=976612."
+ },
+ {
+  "domain": "mostbet-india7.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet India; /link ротирует Zoccer (mid=371862) и gg257.bet (ref=gg_w…), Mostbet-ссылок нет."
+ },
+ {
+  "domain": "mostbet-kasyno.com.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Kasyno Mostbet»; /go/ ведёт на Lanista (mid=371788), трекер registration-acc.site → koraco9.com."
+ },
+ {
+  "domain": "mostbet-kenya.co.ke",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене и title; кнопка ведёт через трекер play888ke.com на 888starz.co.ke с tag=d_6094312m."
+ },
+ {
+  "domain": "mostbet-login-az.com",
+  "given": "mono_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_other",
+  "confidence": 0.4,
+  "comment": "Кнопка /get/ ведёт через refpugotds.com на лид-форму msotebtd-form-az.sg.romavex.net (хост — искажённое «mostbet»); refpugotds в других цепочках стоит за pid Mostbet, бренд формы не установлен."
+ },
+ {
+  "domain": "mostbet-mobile57-amp.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Мостбет; /go/ и трекер dashplay37.com ведут на NormCasino с qtag=a84744."
+ },
+ {
+  "domain": "mostbet-mobile59-amp.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Мостбет; /go/ и трекер dashplay37.com ведут на NormCasino с qtag=a84744."
+ },
+ {
+  "domain": "mostbet-mobile60-amp.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Мостбет; /go/ и трекер dashplay37.com ведут на NormCasino с qtag=a84744."
+ },
+ {
+  "domain": "mostbet-mobile61-amp.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Мостбет; /go/ и трекер dashplay37.com ведут на NormCasino с qtag=a84744."
+ },
+ {
+  "domain": "mostbet-mobile62-amp.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Мостбет; /go/ и трекер dashplay37.com ведут на NormCasino с qtag=a84744."
+ },
+ {
+  "domain": "mostbet-mobile63-amp.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Мостбет; /go/ и трекер dashplay37.com ведут на NormCasino с qtag=a84744."
+ },
+ {
+  "domain": "mostbet-nl.nl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet NL; /go ведёт на Baxterbet с bta=35291, второй путь через track.heroaff.com."
+ },
+ {
+  "domain": "mostbet-no.eu.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet Norge; кнопки через signup-page.com на Vulkan (ref=vp_w265764) и click-game.com на Starwin."
+ },
+ {
+  "domain": "mostbet-official-az.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet AZ; кнопки через ротатор gotobonus.link на Casea и Vulkan, плюс lynmonkel.com → Dudespin."
+ },
+ {
+  "domain": "mostbet-official-az.net",
+  "given": "mono_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_other",
+  "confidence": 0.4,
+  "comment": "Кнопка /go/ ведёт через refpugotds.com на лид-форму msotebtd-form-az.sg.romavex.net (искажённое «mostbet»); тот же трекер у других сайтов стоит за pid Mostbet, бренд формы не установлен."
+ },
+ {
+  "domain": "mostbet-onlinebet.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд MostBet (CZ); кнопка «Registrace» через redirector-keitaro.site ведёт на Retro Casino с pid=ghg2."
+ },
+ {
+  "domain": "mostbet-poland.live",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене и title, страница — лобби слотов; все кнопки /go/play ведут на Fieryplay (ref=vp_w245602), трекер traffick-jumps.com."
+ },
+ {
+  "domain": "mostbet-poland.net.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet Polska; кнопки через promo-redirect.link на Vulkan (ref=vp_w259773) и lynmonkel.com на Casea."
+ },
+ {
+  "domain": "mostbet-polska.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet; /go/ ведёт на Mellstroy (p=slic), bitroute.click/brandmostbet → btrwflm.life."
+ },
+ {
+  "domain": "mostbet-preimushestva-obzor.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Mostbet-домен переезжает на mostbetpolskacasino.com (Mostbet Casino PL); /go и betlnk.cc ведут на Coldbet с tag=d_5342616m."
+ },
+ {
+  "domain": "mostbet-pt.com.pt",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд MostBet Portugal; link.php ротирует Winshark и SlotsVader (stag=153635)."
+ },
+ {
+  "domain": "mostbet-ro.ro",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet România; кнопки через vip.cas1n0.one (brand=Mostbet) ведут на 1xBet с tag=d_5723492m, ещё Cazeus, Tikitaka."
+ },
+ {
+  "domain": "mostbet-russia.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Мостбет; /go/ ведёт на Mellstroy (p=slic), bitroute.click/brandmostbet → btrwflm.life."
+ },
+ {
+  "domain": "mostbet-schweiz.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене и title («Alternativen»); /login/ ведёт на Winshark и SlotsVader со stag=174887/174895."
+ },
+ {
+  "domain": "mostbet-site.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet AZ; кнопки через bgn-game.com и kaaslink.me ведут на kaas.go2play.link со stag=247897."
+ },
+ {
+  "domain": "mostbet-today.com",
+  "given": "mono_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_other",
+  "confidence": 0.4,
+  "comment": "Кнопки /go/ ведут на лид-форму bostmet-bd.pu220ev.com через onlinepingo.com, а соседняя /go/ — на mostbet.apk с теми же subId; форма с искажённым «mostbet» в хосте, вероятно Mostbet, бренд не установлен."
+ },
+ {
+  "domain": "mostbet-ua.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Мостбет Україна; /go/ ведёт на Mellstroy (p=slic), bitroute.click/brandmostbet → btrwflm.life."
+ },
+ {
+  "domain": "mostbet-ua.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Мостбет Україна; /go/ ведёт на mstr7470.live (Mellstroy, p=slic) и btrwflm.life."
+ },
+ {
+  "domain": "mostbet.bid",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "«Mostbet Slots Catalog»; кнопки Demo/PLAY NOW (/goto/) ведут на mhh2mr4.spinnyspinwheel.org, трекер 0appsts.com → 1win p=ep3j."
+ },
+ {
+  "domain": "mostbet.de.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Переезжает на mostbetdeutschland.de (Mostbet DE); кнопки регистрации через log.mostbett.de ведут на Spinania (bta=36759) и Azino777."
+ },
+ {
+  "domain": "mostbet.ing",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet Polska; все кнопки /go/ ведут на Weiss (betweissbet.online), gotoplaynow.link → pid=62282."
+ },
+ {
+  "domain": "mostbet.kherson.ua",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet Україна; /go ведёт на BETON с refcode=aff_…_1119 (go.affiliate-beton.com pid=1119)."
+ },
+ {
+  "domain": "mostbet.net.kg",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд MostBet Кыргызстан; /partner-registration/ ведёт на 1win (1wsvyz.com/?p=sfim)."
+ },
+ {
+  "domain": "mostbet1-kz.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet KZ; кнопка регистрации — трекер 1win r1wqgd.life/?p=fnba → one-vv5043.com."
+ },
+ {
+  "domain": "mostbet3370.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Мостбет; /reg ведёт на 7K (ref=sk_w227721), трекер nonametraff3.buzz → Riobet btag=alanbase."
+ },
+ {
+  "domain": "mostbet7.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet Casino Norge; кнопки через signup-page.com на Vulkan (ref=vp_w265764) и hitnspinpromo.com на Hitnspin."
+ },
+ {
+  "domain": "mostbet777.in.ua",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Мостбет; /go/play/ и trck.agency ведут на Slot City с refcode=aff_…_584."
+ },
+ {
+  "domain": "mostbetapp-uz.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Мостбет Узбекистан; /go/reg/ ведёт на 1win (p=z8zo), трекер ttybb3j2.com → r1wexmo.life."
+ },
+ {
+  "domain": "mostbetapp.vin",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Mostbet App в домене и title; скрипт ставит кнопкам Register/Login адрес bet55.game/?cid=7954107 — чужой оператор с кодом."
+ },
+ {
+  "domain": "mostbetapp.vu",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Mostbet App в домене и title; кнопки Register ведут на bet55.game/?cid=7954107 — чужой оператор с кодом."
+ },
+ {
+  "domain": "mostbetaz.us.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet AZ; кнопки через trafffers.com и glptds.com ведут на Olymp Casino (utm_medium=affiliate, rich_ref)."
+ },
+ {
+  "domain": "mostbetazerbaycan.it.com",
+  "given": "mono_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_other",
+  "confidence": 0.4,
+  "comment": "Кнопка /go/ ведёт через refpugotds.com на лид-форму msotebtd-form-az.sg.romavex.net (искажённое «mostbet»); refpugotds у других сайтов стоит за pid Mostbet, бренд формы не установлен."
+ },
+ {
+  "domain": "mostbetbdmobile.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Переезжает на getmostbetbd.com (MostBet BD); /go/register → Sportbet.one со stag=2358, /go/login → Fieryplay ref=vp_w20149."
+ },
+ {
+  "domain": "mostbetcasino-az.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet AZ; /play и jetton.direct ведут на JetTon (jetbetorbit.com, click=…)."
+ },
+ {
+  "domain": "mostbetcasino-bonus-pl.click",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet PL; кнопка ведёт на NV Casino (ref=sn_w253353), трекер eutraffproject.pro → trafcloverstream."
+ },
+ {
+  "domain": "mostbetcasino-czech.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet CZ; /play/banner и hotprimeoffers.com ведут на TuffPuff и Winshark со stag=144730."
+ },
+ {
+  "domain": "mostbetcasino-de.website",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Mostbet Casino в домене и title; /go/ ведут на Fieryplay (ref=vp_w129507), Rizzio (utm_medium=affiliate), 24slots."
+ }
+]

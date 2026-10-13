@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbetonline-hu.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Все кнопки — play-link.org/126tw5z2?source=mostbet-bonus.org\\u0026pid=241 в JSON-строке скрипта; целая ссылка с &pid=241 ведёт на fvoidjmb.com pid=401053 (Mostbet). «Чужой» getplay.plseocpa.com/disabled.html (Morospin) — результат той же ссылки с неразэкранированным \\u0026, pid потерян."
+ },
+ {
+  "domain": "mostbets-bd.com",
+  "given": "mono_mixed",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_mixed",
+  "confidence": 0.4,
+  "comment": "Кнопки /go/registration → cpmldqmb.com → Mostbet pid=304732. Ссылка на чужое (скрипт ddd7dj.org/MPNB4gYP?p=cros → sltna.pclira.com → Slotuna) была только в скане 28.09; в сохранённых страницах 30.09–01.10 её нет — не подтверждается."
+ },
+ {
+  "domain": "mostbett-app.net",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Сеть pid=147099: /go/ → link-verse.top/5v6hWZ → в большинстве гео Mostbet (lziooamb.com pid=147099), а при заходе из LV те же трекеры сети отдают Bigclash (mma.lynmonkel.com mid=388580 → bigclash-9829.com) и redirect-verde.com ref=vp_… — реклама и Mostbet, и чужих. Переезд на most-bet-pl.net."
+ },
+ {
+  "domain": "mostbett-bonus.net",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Сеть pid=147099: /go/ → link-verse.top/5v6hWZ → в большинстве гео Mostbet (lziooamb.com pid=147099), а при заходе из LV те же трекеры сети отдают Bigclash (mma.lynmonkel.com mid=388580 → bigclash-9829.com) и redirect-verde.com ref=vp_… — реклама и Mostbet, и чужих. Переезд на most-bet-pl.net."
+ },
+ {
+  "domain": "mostbett-pl.pl",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Сеть pid=147099: /go/ → click-stream.top/gV1sx5 → в большинстве гео Mostbet (lziooamb.com pid=147099), а при заходе из LV те же трекеры сети отдают Bigclash (mma.lynmonkel.com mid=388580 → bigclash-9829.com) и redirect-verde.com ref=vp_… — реклама и Mostbet, и чужих."
+ },
+ {
+  "domain": "mostbett.cz",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Все кнопки — play-link.org/126tw5z2?source=mostbet-official-casino.com\\u0026pid=241 в JSON-строке скрипта; целая ссылка ведёт на fvoidjmb.com pid=401053 (Mostbet). getplay.plseocpa.com/disabled.html (Morospin) — та же ссылка с испорченным \\u0026, pid обрезан."
+ },
+ {
+  "domain": "mostbettlogin.net",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Сеть pid=147099: /go/ → link-verse.top/5v6hWZ → в большинстве гео Mostbet (lziooamb.com pid=147099), а при заходе из LV те же трекеры сети отдают Bigclash (mma.lynmonkel.com mid=388580 → bigclash-9829.com) и redirect-verde.com ref=vp_… — реклама и Mostbet, и чужих. Переезд на most-bet-pl.net."
+ },
+ {
+  "domain": "mostbetturkey.pro",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.6,
+  "comment": "/visit/ → 27cashgifts.com/3rwXXn4R — трекер, который у 11 других сайтов ведёт на Mostbet pid=248988. /visit/download/ того же трекера → gotorefpin.com → btwerz.p56219up84.com/views/404.html: страница загрузки, бренд не виден, чужое казино не подтверждено."
+ },
+ {
+  "domain": "mostbookie.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.75,
+  "comment": "Все кнопки (Mirror, Link #1–4, Mobile, Android) — onclick на трекеры вида …mst.com (q9940pwhbimst.com, zo7qsh1t1jmrpr3mst.com) — Mostbet. «Чужое» — windscribe.com?affid — партнёрка VPN, не бренд ставок."
+ },
+ {
+  "domain": "mosttbet.ink",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Клон «Mostbet Casino Polska»; /go/main ротирует: Mostbet pid=444325 (kaqimwmb.com) или slotoro77.bet/register?ref=vp_w260700… (как mosttbet.live, mmostbet.ink)."
+ },
+ {
+  "domain": "mosttbet.live",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "/go/main ротирует: Mostbet pid=444325 (kaqimwmb.com) или slotoro77.bet ?ref=vp_w260700… — реклама и Mostbet, и чужого казино."
+ },
+ {
+  "domain": "nayora.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.65,
+  "comment": "Клон «Mostbet AZ | Mostbet-az90», показан только посетителю из Google (взломанный сайт); единственная внешняя ссылка — «apk yükləyin» /apk → d4hdamr0.top/ybzRsnYF?sub1=apk (трекер, сейчас мёртв), остальные кнопки '#'. Тот же шаблон Mostbet-az90 на доменах сети (somaliembassydcnet183.top, asomiforg212.top) ведёт через go.php на 1xBet tag=d_3755482m."
+ },
+ {
+  "domain": "nbspolicyplatform.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.65,
+  "comment": "Переезд на somaliembassydc.net. Клон «Mostbet AZ | Mostbet-az90», показан только посетителю из Google (взломанный сайт); единственная внешняя ссылка — «apk yükləyin» /apk → d4hdamr0.top/ybzRsnYF?sub1=apk (трекер, сейчас мёртв), остальные кнопки '#'. Тот же шаблон Mostbet-az90 на доменах сети (somaliembassydcnet183.top, asomiforg212.top) ведёт через go.php на 1xBet tag=d_3755482m."
+ },
+ {
+  "domain": "nyceac.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.65,
+  "comment": "Клон «Mostbet AZ | Mostbet-az90», показан только посетителю из Google (взломанный сайт); единственная внешняя ссылка — «apk yükləyin» /apk → d4hdamr0.top/ybzRsnYF?sub1=apk (трекер, сейчас мёртв), остальные кнопки '#'. Тот же шаблон Mostbet-az90 на доменах сети (somaliembassydcnet183.top, asomiforg212.top) ведёт через go.php на 1xBet tag=d_3755482m."
+ },
+ {
+  "domain": "philfrance-scholarships.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.65,
+  "comment": "Клон «Mostbet AZ | Mostbet-az90», показан только посетителю из Google (взломанный сайт); единственная внешняя ссылка — «apk yükləyin» /apk → d4hdamr0.top/ybzRsnYF?sub1=apk (трекер, сейчас мёртв), остальные кнопки '#'. Тот же шаблон Mostbet-az90 на доменах сети (somaliembassydcnet183.top, asomiforg212.top) ведёт через go.php на 1xBet tag=d_3755482m."
+ },
+ {
+  "domain": "posthof.cz",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.7,
+  "comment": "Монобренд «MostBet Casino ČR». Сеть pid=147099: /go/ → routezen.online/S9BTqGvk → в большинстве гео Mostbet (lziooamb.com pid=147099), а при заходе из LV те же трекеры сети отдают Bigclash (mma.lynmonkel.com mid=388580 → bigclash-9829.com) и redirect-verde.com ref=vp_… — реклама и Mostbet, и чужих. neteller.com?btag — партнёрка платёжки, не казино."
+ },
+ {
+  "domain": "pwcl.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.65,
+  "comment": "Клон «Mostbet AZ | Mostbet-az90», показан только посетителю из Google (взломанный сайт); единственная внешняя ссылка — «apk yükləyin» /apk → d4hdamr0.top/ybzRsnYF?sub1=apk (трекер, сейчас мёртв), остальные кнопки '#'. Тот же шаблон Mostbet-az90 на доменах сети (somaliembassydcnet183.top, asomiforg212.top) ведёт через go.php на 1xBet tag=d_3755482m."
+ },
+ {
+  "domain": "rosmini.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.65,
+  "comment": "Клон «Mostbet AZ | Mostbet-az90», показан только посетителю из Google (взломанный сайт); единственная внешняя ссылка — «apk yükləyin» /apk → d4hdamr0.top/ybzRsnYF?sub1=apk (трекер, сейчас мёртв), остальные кнопки '#'. Тот же шаблон Mostbet-az90 на доменах сети (somaliembassydcnet183.top, asomiforg212.top) ведёт через go.php на 1xBet tag=d_3755482m."
+ },
+ {
+  "domain": "somaliembassydc.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.65,
+  "comment": "Цель переезда dorksidetoys.com и др. Клон «Mostbet AZ | Mostbet-az90», показан только посетителю из Google (взломанный сайт); единственная внешняя ссылка — «apk yükləyin» /apk → d4hdamr0.top/ybzRsnYF?sub1=apk (трекер, сейчас мёртв), остальные кнопки '#'. Тот же шаблон Mostbet-az90 на доменах сети (somaliembassydcnet183.top, asomiforg212.top) ведёт через go.php на 1xBet tag=d_3755482m."
+ },
+ {
+  "domain": "templeterracechamber.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.65,
+  "comment": "Клон «Mostbet AZ | Mostbet-az90», показан только посетителю из Google (взломанный сайт); единственная внешняя ссылка — «apk yükləyin» /apk → d4hdamr0.top/ybzRsnYF?sub1=apk (трекер, сейчас мёртв), остальные кнопки '#'. Тот же шаблон Mostbet-az90 на доменах сети (somaliembassydcnet183.top, asomiforg212.top) ведёт через go.php на 1xBet tag=d_3755482m."
+ },
+ {
+  "domain": "ultrasoundtechniciancenter.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.65,
+  "comment": "Клон «Mostbet AZ | Mostbet-az90», показан только посетителю из Google (взломанный сайт); единственная внешняя ссылка — «apk yükləyin» /apk → d4hdamr0.top/ybzRsnYF?sub1=apk (трекер, сейчас мёртв), остальные кнопки '#'. Тот же шаблон Mostbet-az90 на доменах сети (somaliembassydcnet183.top, asomiforg212.top) ведёт через go.php на 1xBet tag=d_3755482m."
+ },
+ {
+  "domain": "usdfregion6.org",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Клон «Mostbet Kasyno Online»; /go/main ротирует: Mostbet pid=444325 (leyjmnmb.com) или slotoro77.bet ?ref=vp_w260700…"
+ },
+ {
+  "domain": "utlea.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.65,
+  "comment": "Клон «Mostbet AZ | Mostbet-az90», показан только посетителю из Google (взломанный сайт); единственная внешняя ссылка — «apk yükləyin» /apk → d4hdamr0.top/ybzRsnYF?sub1=apk (трекер, сейчас мёртв), остальные кнопки '#'. Тот же шаблон Mostbet-az90 на доменах сети (somaliembassydcnet183.top, asomiforg212.top) ведёт через go.php на 1xBet tag=d_3755482m."
+ },
+ {
+  "domain": "22bet-casino.online",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.7,
+  "comment": "Кнопки «регистрация» → /reg → pg5i0mmb.com/8u4F (рефхост вида …mb.com, Mostbet). promopult.ru/ref/ — SEO-сервис, не казино; 22bet только в имени домена, на странице чужих брендов нет."
+ },
+ {
+  "domain": "5deswing.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.65,
+  "comment": "Монобренд «Mostbet Polska 2026 | 5deswing»; кнопки /go/mostbet → partners-official.com/W7RkZgH9 (сейчас 404). Тот же шаблон с кодом W7RkZgH8 (rezepter.eu) ведёт на nnvytcmb.com/pa2U — хост вида …mb.com, рефка Mostbet; чужих брендов не видно."
+ },
+ {
+  "domain": "890555b.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "unrelated",
+  "confidence": 0.8,
+  "comment": "Китайский каталог сайтов (клон flml.cn), Mostbet только в title; ссылки на каталог, новости и wpa.qq.com (чат QQ для заказа размещения) — не реклама казино."
+ },
+ {
+  "domain": "adappliancerepairs.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.65,
+  "comment": "Монобренд «Mostbet Polska 2026 | Adappliancerepairs»; кнопки /go/mostbet → partners-official.com/W7RkZgH15 (сейчас 404). Тот же шаблон с кодом W7RkZgH8 (rezepter.eu) ведёт на nnvytcmb.com/pa2U — хост вида …mb.com, рефка Mostbet; чужих брендов не видно."
+ },
+ {
+  "domain": "are-musikverlag.de",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Монобренд «MostBet DE»; /go → zeusshow.today/gsLn8K17?utm_term=redirect_Mostbet → betmatch2.de/regmail — регистрация в чужом казино, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "as-towingca.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.65,
+  "comment": "Монобренд «Mostbet Polska 2026 | As Towingca»; кнопки /go/mostbet → partners-official.com/W7RkZgH38 (сейчас 404). Тот же шаблон с кодом W7RkZgH8 (rezepter.eu) ведёт на nnvytcmb.com/pa2U — хост вида …mb.com, рефка Mostbet; чужих брендов не видно."
+ },
+ {
+  "domain": "attitudeautos.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.7,
+  "comment": "«Mostbet Kasino»; /go/signup → seotrk.net → go.trkflow.net → track.unit31.net/visit/?bta=35202 → astrofy3.com?cxd=35202_… — чужое казино с партнёрским кодом, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "augustedgedesign.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.65,
+  "comment": "Монобренд «Mostbet Polska 2026 | Augustedgedesign»; кнопки /go/mostbet → partners-official.com/W7RkZgH29 (сейчас 404). Тот же шаблон с кодом W7RkZgH8 (rezepter.eu) ведёт на nnvytcmb.com/pa2U — хост вида …mb.com, рефка Mostbet; чужих брендов не видно."
+ },
+ {
+  "domain": "avto-gazeta.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.5,
+  "comment": "Монобренд «Мостбет зеркало»; /play/ → aaamervix.top/qSQ3Xp (случайный хост, короткий код, 404) — по правилу чужой трекер; на Mostbet он нигде не выводил. В подвале простая ссылка «interwetten schweiz» на дорвей jk-barber.ch."
+ },
+ {
+  "domain": "bajkowymikolaj.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Монобренд Mostbet PL; кнопки /go/play → partners-official.com/zpFfMdFL (200, пустая страница). Этот трекер на Mostbet не выводил ни разу; хост partners-official в других кодах ведёт на Spinanga, а код zpFfMdFL стоит и на обзорниках Bison Casino — по правилу о чужом трекере реклама чужих."
+ },
+ {
+  "domain": "bloodtoberfest.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.65,
+  "comment": "Монобренд «Mostbet Polska 2026 | Bloodtoberfest»; кнопки /go/mostbet → partners-official.com/W7RkZgH21 (сейчас 404). Тот же шаблон с кодом W7RkZgH8 (rezepter.eu) ведёт на nnvytcmb.com/pa2U — хост вида …mb.com, рефка Mostbet; чужих брендов не видно."
+ },
+ {
+  "domain": "blues-station.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Монобренд Mostbet PL; кнопки /go/play → partners-official.com/zpFfMdFL (200, пустая страница). Этот трекер на Mostbet не выводил ни разу; хост partners-official в других кодах ведёт на Spinanga, а код zpFfMdFL стоит и на обзорниках Bison Casino — по правилу о чужом трекере реклама чужих."
+ },
+ {
+  "domain": "boisegutters.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.5,
+  "comment": "«Mostbet Bahis Giriş»; /mostbet/ → a.chf3fortur.com/click?pid=151280&offer_id=11680 → disabled.html — CPA-трекер с партнёрскими параметрами, оффер отключён, бренд не виден; на Mostbet он нигде не выводил."
+ },
+ {
+  "domain": "bornholmsismejeri.dk",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "article",
+  "confidence": 0.75,
+  "comment": "Блог «Hello World !» с лентой постов от 2 августа 2026 (Mostbet, 1xbet app, Sportwetten ohne Oasis, casino non AAMS), каждый пост — простая ссылка на чужой дорвей (klig.pl, bdesh1xbet.com). Бренда в домене и title нет — статейник-PBN."
+ },
+ {
+  "domain": "caseopen.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Монобренд Mostbet PL; кнопки /go/caseopen/ → partners-official.com/zpFfMdFL (200, пустая страница). Этот трекер на Mostbet не выводил ни разу; хост partners-official в других кодах ведёт на Spinanga, а код zpFfMdFL стоит и на обзорниках Bison Casino — по правилу о чужом трекере реклама чужих."
+ },
+ {
+  "domain": "cbroofingcontractor.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.65,
+  "comment": "Монобренд «Mostbet Polska 2026 | Cbroofingcontractor»; кнопки /go/mostbet → partners-official.com/W7RkZgH10 (сейчас 404). Тот же шаблон с кодом W7RkZgH8 (rezepter.eu) ведёт на nnvytcmb.com/pa2U — хост вида …mb.com, рефка Mostbet; чужих брендов не видно."
+ },
+ {
+  "domain": "centershc.pics",
+  "given": "mono_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.4,
+  "comment": "Фейковая карточка Google Play «MostBet» (PWA); оффер из /analytic/… → b3-team.site/b3-pwag?external_id=… с незаполненными макросами, сканер дальше не прошёл — получатель неизвестен."
+ },
+ {
+  "domain": "centertkr.pics",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "PWA «Mostbet: Мобильная Система» (AZ); оффер из /analytic/… → b2-team.site/mb15azMostbetandroid?…&utm_source=traffic-back — путь назван по Mostbet, получатель не открыт; чужого бренда не видно."
+ },
+ {
+  "domain": "chayaelevators.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.7,
+  "comment": "Взломанный сайт фабрики клапанов (Гуанчжоу), имя компании подменено на «Mostbet注册福利»; в подвале китайские линк-обмены на дорвеи J9, K8, Parimatch电竞 без партнёрского кода. Страницы про Mostbet с рекламой нет."
+ },
+ {
+  "domain": "colligatio.net",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.65,
+  "comment": "Монобренд «Mostbet Polska 2026 | Colligatio»; кнопки /go/mostbet → partners-official.com/W7RkZgH37 (сейчас 404). Тот же шаблон с кодом W7RkZgH8 (rezepter.eu) ведёт на nnvytcmb.com/pa2U — хост вида …mb.com, рефка Mostbet; чужих брендов не видно."
+ },
+ {
+  "domain": "cormaster.pics",
+  "given": "mono_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.4,
+  "comment": "PWA «Mostbet» (PL, бонус 3000 zł); оффер из /analytic/… → bigwinlegend.com/<uuid>?zoneid={site_id}… с незаполненными макросами, мёртв — получатель неизвестен."
+ },
+ {
+  "domain": "czytajacbiblie.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Монобренд Mostbet PL; кнопки /go/czytajacbiblie/ → partners-official.com/zpFfMdFL (200, пустая страница). Этот трекер на Mostbet не выводил ни разу; хост partners-official в других кодах ведёт на Spinanga, а код zpFfMdFL стоит и на обзорниках Bison Casino — по правилу о чужом трекере реклама чужих."
+ },
+ {
+  "domain": "denk-positiv.eu",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.65,
+  "comment": "Монобренд «Mostbet Polska 2026 | Denk Positiv»; кнопки /go/mostbet → partners-official.com/W7RkZgH22 (сейчас 404). Тот же шаблон с кодом W7RkZgH8 (rezepter.eu) ведёт на nnvytcmb.com/pa2U — хост вида …mb.com, рефка Mostbet; чужих брендов не видно."
+ },
+ {
+  "domain": "directjdf.pics",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "PWA «Mostbet™ Official casino of Azerbaijan»; оффер из /analytic/… → b2-team.site/mb129mb?external_id=… — путь назван по Mostbet, получатель не открыт; чужого бренда не видно."
+ },
+ {
+  "domain": "dkcwinner.top",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "PWA «MostBet Slot» (KZ); оффер из /analytic/… → b2-team.site/mb61kzandroid?…&utm_source=traffic-back — путь по Mostbet, получатель не открыт; чужого бренда не видно."
+ },
+ {
+  "domain": "domus.org.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд «Mostbet Kasyno Polska»; баннер и кнопка в шапке → track-mono.com/allmono?kg=mostbet → wolfaffiliates.app → wolf.io?stag=242830_… — чужое казино с партнёрским кодом."
+ },
+ {
+  "domain": "eatiebeatie.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "article",
+  "confidence": 0.75,
+  "comment": "Копия того же блога, что bornholmsismejeri.dk: «Hello World !», лента постов от 2 августа 2026 с простыми ссылками на дорвеи (klig.pl, bdesh1xbet.com); бренда в домене и title нет — статейник."
+ }
+]

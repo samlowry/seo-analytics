@@ -69,8 +69,13 @@ def load_trackers(d: Path):
 
 
 def load_rows(d: Path) -> list:
+    """Rows with the rules' own class: the scale measures the rules, not the checkers' corrections."""
     with open(d / "classified.csv", newline="", encoding="utf-8") as f:
-        return list(csv.DictReader(f))
+        rows = list(csv.DictReader(f))
+    for r in rows:
+        r["shown_category"] = r["category"]
+        r["category"] = r.get("rule_category") or r["category"]
+    return rows
 
 
 def num(x, default=0.0) -> float:
@@ -244,7 +249,8 @@ def labels(d: Path, now: dict) -> dict:
     paths = sorted(glob.glob(str(d / "review" / "round1" / "verdicts-*.json"))) + \
         sorted(glob.glob(str(d / "review" / "round2" / "verdicts-*.json"))) + \
         sorted(glob.glob(str(d / "review" / "verdicts-*.json"))) + \
-        sorted(glob.glob(str(d / "review" / "round4" / "verdicts-*.json")))
+        sorted(glob.glob(str(d / "review" / "round4" / "verdicts-*.json"))) + \
+        sorted(glob.glob(str(d / "review" / "round5" / "verdicts-r5-*.json")))
     for p in paths:
         for v in json.loads(Path(p).read_text()):
             if v.get("verdict") == "unsure" or v["domain"] not in now:

@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "rating-mostbet-casino11.top",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "«Чужой» ndnymamb.com — тот же Mostbet: /go/ → a8qbwd9m19.top/VmbPyy → nh31pbgjmb.com → hgzcnhmb.com/htvxoumb.com/ndnymamb.com casino/registration pid=317230; все исходы — рефка Mostbet."
+ },
+ {
+  "domain": "rating-mostbet-casino7.top",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "«Чужой» ndnymamb.com — тот же Mostbet: /go/ → a8qbwd9m19.top/VmbPyy → nh31pbgjmb.com → hgzcnhmb.com/htvxoumb.com/ndnymamb.com casino/registration pid=317230; все исходы — рефка Mostbet."
+ },
+ {
+  "domain": "rating-mostbet-casino8.top",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "«Чужой» ndnymamb.com — тот же Mostbet: /go/ → a8qbwd9m19.top/VmbPyy → nh31pbgjmb.com → hgzcnhmb.com/htvxoumb.com/ndnymamb.com casino/registration pid=317230; все исходы — рефка Mostbet."
+ },
+ {
+  "domain": "zaramago.co",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "«Чужая» реклама getplay.plseocpa.com (Morospin, disabled) — артефакт window.open('play-link.org/126tw5z2?source=zaramago.co\\u0026pid=241') с \\u0026; целая ссылка play-link.org/126tw5z2?…&pid=241 ведёт на fvoidjmb.com pid=401053 (Mostbet)."
+ },
+ {
+  "domain": "100dni.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.65,
+  "comment": "Обзор Mostbet CZ, все кнопки «Hrát nyní/Získat bonus» → /go/ → thecasinoplayed.com/bGmtSytK — чужой трекер; та же кампания bGmtSytK на mostbetskz.com гонит на Olimp Casino, в прогоне отдал joi.com (не гэмблинг)."
+ },
+ {
+  "domain": "26obr.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet-клон (title/h1 про Mostbet), кнопки «Войти/Регистрация» → 26obr.ru/go-to-play-cczpl0k.php → bestonxprojump.com/?s=154&ref=ox_w250264… — казино ON-X."
+ },
+ {
+  "domain": "365aayy.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.85,
+  "comment": "Сайт китайской фабрики платков (头巾, 1688), «Mostbet新手指南» вставлено вместо названия компании в title/текст; ссылки на mail.qiye.163.com, cydkj.com и др. — не гэмблинг, рекламы нет."
+ },
+ {
+  "domain": "admmedvegensk.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Кнопки «Вход»/«Регистрация» в шапке → use-matchtrafficpulse.com/l/68da77e2… (click_id=mostbet), у других сайтов он и dealbest-redirect.com ведут на ON-X (ref=sl_w243680…)."
+ },
+ {
+  "domain": "aist-st.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet-клон (title/h1 про Mostbet), кнопки «Войти/Регистрация» → aist-st.ru/go-to-play-cczpl0k.php → bestonxprojump.com/?s=154&ref=ox_w250264… — казино ON-X."
+ },
+ {
+  "domain": "aiwekrona.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet-клон (title/h1 про Mostbet), кнопки «Войти/Регистрация» → aiwekrona.ru/go-to-play-cczpl0k.php → bestonxprojump.com/?s=154&ref=ox_w250264… — казино ON-X."
+ },
+ {
+  "domain": "andoutcometheboobs.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Mostbet Philippines; кнопка «Magrehistro» и плитки видов спорта → refpa25604.com/L?tag=d_5070342m_72759c_ → yohoho.bet (чужой оператор)."
+ },
+ {
+  "domain": "arjsabet.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.65,
+  "comment": "Кнопки /reg, /play, /bonus «Získejte bonus od Mostbetu» → thecasinoplayed.com/bGmtSytK?sub2=julcas — чужой трекер (та же кампания у mostbetskz.com ведёт на Olimp Casino), в прогоне отдал joi.com."
+ },
+ {
+  "domain": "azbooka.com.ua",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "«БК Mostbet Україна»; кнопки «Реєстрація» → /agent/go/… → workaroundxyz.com/1bYSbzSH → go.stawkibet4.io/prj3/… и stawkibet4.io/uk — не Mostbet (та же сеть на freeprogs.kiev.ua гонит на Parik24, topmatch)."
+ },
+ {
+  "domain": "balkanskoe.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet-клон (title/h1 про Mostbet), кнопки «Войти/Регистрация» → balkanskoe.ru/go-to-play-cczpl0k.php → bestonxprojump.com/?s=154&ref=ox_w250264… — казино ON-X."
+ },
+ {
+  "domain": "balneo-kmv.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Кнопки «Вход»/«Регистрация» в шапке → use-matchtrafficpulse.com/l/68da77e2… (click_id=mostbet), у других сайтов он и dealbest-redirect.com ведут на ON-X (ref=sl_w243680…)."
+ },
+ {
+  "domain": "bbmc.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Кнопки «Вход»/«Регистрация» в шапке → use-matchtrafficpulse.com/l/68da77e2… (click_id=mostbet), у других сайтов он и dealbest-redirect.com ведут на ON-X (ref=sl_w243680…)."
+ },
+ {
+  "domain": "befitt.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet kaszinó; кнопки «Regisztráció» /agent/go/… → lolwaytyu.com/ccv9cSJT → royalsea1.com/regmail и 1bet-match.com/regmail; в меню «Ice Casino»."
+ },
+ {
+  "domain": "behappy-shop.com.ua",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Mostbet Україна; кнопки /agent/go/… → workaroundxyz.com/1bYSbzSH → stawkibet4.io/uk и go.stawkibet4.io/prj3/… — чужой бренд, кода Mostbet нет."
+ },
+ {
+  "domain": "biotreen.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet-клон (title/h1 про Mostbet), кнопки «Войти/Регистрация» → biotreen.ru/go-to-play-cczpl0k.php → bestonxprojump.com/?s=154&ref=ox_w250264… — казино ON-X."
+ },
+ {
+  "domain": "blok-t.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet-клон (title/h1 про Mostbet), кнопки «Войти/Регистрация» → blok-t.ru/go-to-play-cczpl0k.php → bestonxprojump.com/?s=154&ref=ox_w250264… — казино ON-X."
+ },
+ {
+  "domain": "boukle.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Кнопки «Вход»/«Регистрация» в шапке → use-matchtrafficpulse.com/l/68da77e2… (click_id=mostbet), у других сайтов он и dealbest-redirect.com ведут на ON-X (ref=sl_w243680…)."
+ },
+ {
+  "domain": "brindecommoderacao.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet Brasil; меню «Cadastro/ENTRAR/REGISTRO» → /go/ → conela2020.com.br/go/?sub1=a52 → slotcity.ua/registration?refcode=aff_… (Slot City)."
+ },
+ {
+  "domain": "budostal5.com.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet Kasyno Polska; баннер/кнопки через скрипт track-mono.com/allmono?kg=mostbet → wolf.io (чужое казино)."
+ },
+ {
+  "domain": "cistiflux.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet-клон (title/h1 про Mostbet), кнопки «Войти/Регистрация» → cistiflux.ru/go-to-play-cczpl0k.php → bestonxprojump.com/?s=154&ref=ox_w250264… — казино ON-X."
+ },
+ {
+  "domain": "cleo.media.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet Kasyno Polska; кнопки через track-mono.com/allmono?kg=mostbet&s=cleo.media.pl → wolf.io."
+ },
+ {
+  "domain": "clincom.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet-клон (title/h1 про Mostbet), кнопки «Войти/Регистрация» → clincom.ru/go-to-play-cczpl0k.php → bestonxprojump.com/?s=154&ref=ox_w250264… — казино ON-X."
+ },
+ {
+  "domain": "consul96.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Кнопки «Вход»/«Регистрация» в шапке → use-matchtrafficpulse.com/l/68da77e2… (click_id=mostbet), у других сайтов он и dealbest-redirect.com ведут на ON-X (ref=sl_w243680…)."
+ },
+ {
+  "domain": "crcquintadoslombos.pt",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet Portugal; кнопки (по реферу из поиска) → sltna.pclira.com/?mid=371788_… → slotuna-0296.com/registration (Slotuna), ещё ddd7dj.org → lanista-2064.com."
+ },
+ {
+  "domain": "datcatiyatrofestivali.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.55,
+  "comment": "Mostbet AZ90; кнопки «Giris/Daxil ol» → /go/go.php → wlflowgo.com/OHnNyZO5 (чужой трекер, короткий код) → лид-форма dzdsbn.com (404); на Mostbet этот трекер нигде не вёл."
+ },
+ {
+  "domain": "delta-optima.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet-клон (title/h1 про Mostbet), кнопки «Войти/Регистрация» → delta-optima.ru/go-to-play-cczpl0k.php → bestonxprojump.com/?s=154&ref=ox_w250264… — казино ON-X."
+ },
+ {
+  "domain": "detailsquad.pt",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet Portugal; кнопка → sltna.pclira.com/?mid=371788_2157771&pubid=DAFF → slotuna-0296.com/registration (Slotuna)."
+ },
+ {
+  "domain": "dhdebates.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet PL; баннер «Bonus Mostbet» и кнопки в шапке → xxxreff.xyz/3SbMqc?source=parahacker.com → 593nv.casino/en/20-eur-nodep (чужое казино)."
+ },
+ {
+  "domain": "digall.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Переезд на firmy-kolejowe.pl (Mostbet Casino PL); кнопки /go/ → track120.online/3HT3vy → natiocasino2.com/?btag=673978_… (Natio Casino)."
+ },
+ {
+  "domain": "dimsan.de",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet Casino 2026; кнопки /go.php → toptraffgo.top/st/?domain=dimsan.de&src=NoBrand → slotornado.com/registration?refcode=s74498s."
+ },
+ {
+  "domain": "dogandesign.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet Casino DE; кнопки «Jetzt spielen» → toptraffgo.top/st/?domain=dogandesign.net → slotornado.com/registration?refcode=s74498s."
+ },
+ {
+  "domain": "eisk-sea.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Кнопки «Вход»/«Регистрация» в шапке → use-matchtrafficpulse.com/l/68da77e2… (click_id=mostbet), у других сайтов он и dealbest-redirect.com ведут на ON-X (ref=sl_w243680…)."
+ },
+ {
+  "domain": "ekodomdg.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Mostbet Polska; /go/login → seotrk.net → trkflow.net → track.unit31.net/visit/?bta=35202 → astrofy3.com; /go/signup → playground.inexusgateway.com (disabled) — чужая партнёрка, не pid Mostbet."
+ },
+ {
+  "domain": "electroday.by",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Mostbet Беларусь; кнопки «Войти/Зарегистрироваться» → /go и /vhod/ → start.pm.by/aff_reg_100500/?aff_id=41520 (Parimatch BY)."
+ },
+ {
+  "domain": "elena-54.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet-клон (title/h1 про Mostbet), кнопки «Войти/Регистрация» → elena-54.ru/go-to-play-cczpl0k.php → bestonxprojump.com/?s=154&ref=ox_w250264… — казино ON-X."
+ },
+ {
+  "domain": "encontrosaude2019.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "MostBet Online Brasil; кнопки «JOGAR/REGISTRO» → /go/ → conela2020.com.br/go/?sub1=a54 → slotcity.ua/registration?refcode=aff_… (Slot City)."
+ },
+ {
+  "domain": "enfeji.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "MOSTBET-in rəsmi saytı; логотип и кнопки «Qeydiyyat/Giriş» → ipc.html → meta refresh на getruvada.com/?promo=…&target=register (Vavada)."
+ },
+ {
+  "domain": "firmy-kolejowe.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Цель переезда digall.pl, «Mostbet Casino PL»; кнопки /go/ → track120.online/3HT3vy → natiocasino2.com/?btag=673978_…."
+ },
+ {
+  "domain": "freddy-miller.eu",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet Casino Portugal; кнопка → sltna.pclira.com/?mid=371788_2157771&pubid=DAFF → slotuna-0296.com/registration."
+ },
+ {
+  "domain": "gagarinadmin.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Кнопки «Вход»/«Регистрация» в шапке → use-matchtrafficpulse.com/l/68da77e2… (click_id=mostbet), у других сайтов он и dealbest-redirect.com ведут на ON-X (ref=sl_w243680…)."
+ },
+ {
+  "domain": "galabavaqti.online",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Поддельная карточка Google Play «Mostbet Kazino / Mostbet LTD»; «O‘rnatish» → akcktrack.com/fLPjwFK4 → gifttakestreasure.com (Gambling Vitrina) и winahoraly.com → twindorcasino.com."
+ },
+ {
+  "domain": "go-mostbet.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.55,
+  "comment": "Mostbet в домене; баннер и «Get Bonus … in Mostbet» → /visit/ → mieux-redder.space/J1NP6BXf?sub_id_2=go-mostbet.com — чужой трекер (короткий код), сейчас мёртв, получатель неизвестен."
+ },
+ {
+  "domain": "goralskipass.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Цель переезда grotasolnapoznan.pl, Mostbet Casino PL; кнопки → eutraffproject.pro/r1vW3xMP?site=35876 → trafcloverstream.com → nv9.casino (NV Casino)."
+ },
+ {
+  "domain": "gorizont-ndv.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet-клон (title/h1 про Mostbet), кнопки «Войти/Регистрация» → gorizont-ndv.ru/go-to-play-cczpl0k.php → bestonxprojump.com/?s=154&ref=ox_w250264… — казино ON-X."
+ },
+ {
+  "domain": "gr-polik6.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Кнопки «Вход»/«Регистрация» в шапке → use-matchtrafficpulse.com/l/68da77e2… (click_id=mostbet), у других сайтов он и dealbest-redirect.com ведут на ON-X (ref=sl_w243680…)."
+ },
+ {
+  "domain": "grotasolnapoznan.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Переезд на goralskipass.com, Mostbet Casino PL; кнопки → eutraffproject.pro/r1vW3xMP → trafcloverstream.com (ref=sn_w253353…) → nv9.casino."
+ }
+]

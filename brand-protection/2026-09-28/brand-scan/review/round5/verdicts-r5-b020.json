@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "activar-mostbet.cfd",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "activar-mostbet.click",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "activar-mostbet.cyou",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "activar-mostbet.sbs",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "activar-mostbet.xyz",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "android-mostbet.cfd",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "android-mostbet.click",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.4,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google (http-google-mobile) скрипт через 1 с шлёт на https://rebrand.ly/temp-1x — slug намекает на 1xBet, но куда ведёт сокращатель, на диске нет."
+ },
+ {
+  "domain": "android-mostbet.cyou",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "android-mostbet.xyz",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "apk-mostbet.cfd",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "apk-mostbet.click",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "apk-mostbet.cyou",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "apk-mostbet.sbs",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "app-mostbet.cfd",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "app-mostbet.click",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "app-mostbet.cyou",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "app-mostbet.sbs",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "app-mostbet.xyz",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "aviator-mostbet.cfd",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "aviator-mostbet.click",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "aviator-mostbet.cyou",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "aviator-mostbet.xyz",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "bet-mostbet.cfd",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "bet-mostbet.cyou",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "bet-mostbet.xyz",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "bonos-mostbet.cfd",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "bonos-mostbet.click",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "bonos-mostbet.cyou",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "bonos-mostbet.xyz",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "bonus-mostbet.cfd",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "bonus-mostbet.click",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "bonus-mostbet.cyou",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "bonus-mostbet.xyz",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "cash-mostbet.cfd",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "cash-mostbet.click",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "cash-mostbet.cyou",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "cash-mostbet.xyz",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "casino-mostbet.cfd",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "casino-mostbet.click",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "casino-mostbet.cyou",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "casino-mostbet.xyz",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "code-mostbet.click",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "code-mostbet.cyou",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "code-mostbet.xyz",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "hairbywadelee.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.6,
+  "comment": "Все кнопки «Qeydiyyat» ведут на /go/mostbetaz.php → рефка Mostbet pid=2784; чужое — только простая ссылка без кода в FAQ «Pinco Casino» на pinco-casino-az.net, это дорвей-аффилиат Pinco (такой же есть на .org), а не оператор."
+ },
+ {
+  "domain": "mostbet-activar.click",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "mostbet-activar.cyou",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "mostbet-activar.sbs",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "mostbet-activar.xyz",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ },
+ {
+  "domain": "mostbet-android.click",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare 403; посетителю из Google скрипт через 1 с шлёт на https://t2m.co/most-bet — получатель на диске не разрешён, slug указывает на Mostbet; тот же шаблон у mostbet-depositar.xyz размечен владельцем в контроле как не нарушитель."
+ }
+]

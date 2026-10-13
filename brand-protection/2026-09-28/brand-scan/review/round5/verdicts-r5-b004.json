@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "instalateriustinadlabem.cz",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Реклама одна: play-link.org/126tw5z2?…&pid=241 → getplay.plseocpa.com → fvoidjmb.com, pid=401053 (Mostbet). «Чужой» getplay.plseocpa.com/disabled.html — та же ссылка с \\u0026 вместо &, pid обрезан, трекер отдал заглушку."
+ },
+ {
+  "domain": "irwinassociates.eu",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.6,
+  "comment": "Mostbet Bangladesh на теме hc_satellite: /go/registration → cpmldqmb.com → Mostbet pid=304732. Чужое — скрипт ddd7dj.org/MPNB4gYP?p=cros → sltna.pclira.com → slotuna (Slotuna, mid=371788_…); видел его только affiliate-scan 28.09, в HTML от 30.09–01.10 его нет."
+ },
+ {
+  "domain": "janaushadhikendraonline.co.in",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Реклама только Mostbet: regu.crickacademy.com/nHcVnsu → zlaovvmb.com, pid=37776. «Чужой» lrs-2433.3e8-co84pe-v50wo.com/launch?…partner=mostbet-prod&exit_url=8unx689.com — демо-слот провайдера внутри самого Mostbet, не реклама чужого."
+ },
+ {
+  "domain": "mejayes.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.6,
+  "comment": "Mostbet Bangladesh на теме hc_satellite: /go/registration → cpmldqmb.com → Mostbet pid=304732. Чужое — скрипт ddd7dj.org/MPNB4gYP?p=cros → sltna.pclira.com → slotuna (Slotuna, mid=371788_…); видел его только affiliate-scan 28.09, в HTML от 30.09–01.10 его нет."
+ },
+ {
+  "domain": "mib555s.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.6,
+  "comment": "Mostbet Bangladesh на теме hc_satellite: /go/registration → cpmldqmb.com → Mostbet pid=304732. Чужое — скрипт ddd7dj.org/MPNB4gYP?p=cros → sltna.pclira.com → slotuna (Slotuna, mid=371788_…); видел его только affiliate-scan 28.09, в HTML от 30.09–01.10 его нет."
+ },
+ {
+  "domain": "moost-bet.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet; одна кнопка https://moost-bet.com/go/ → https://refpilot.top/LS2SW486 — гео-ротатор: с RS-IP в simkmumb.com → pid=147099 (Mostbet), в affiliate-scan 28.09 — в new-promos.com → redirect-verde.com (ref=vp_…, Verde Casino)."
+ },
+ {
+  "domain": "mos-t-bet.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet; одна кнопка https://mosstbet.cz/go/ → https://routezen.online/pXjcs94j — гео-ротатор: с RS-IP в simkmumb.com → pid=147099 (Mostbet), в affiliate-scan 28.09 — в mma.lynmonkel.com → bigclash-9829.com/lv/registration (mid=388580_…, BigClash)."
+ },
+ {
+  "domain": "mosstbeet.cz",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet; одна кнопка https://mosstbeet.cz/go/ → https://routezen.online/wSNSVCMP — гео-ротатор: с RS-IP в simkmumb.com → pid=147099 (Mostbet), в affiliate-scan 28.09 — в mma.lynmonkel.com → bigclash-9829.com/lv/registration (mid=388580_…, BigClash)."
+ },
+ {
+  "domain": "mosstbet.cz",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet; одна кнопка https://mosstbet.cz/go/ → https://routezen.online/pXjcs94j — гео-ротатор: с RS-IP в simkmumb.com → pid=147099 (Mostbet), в affiliate-scan 28.09 — в mma.lynmonkel.com → bigclash-9829.com/lv/registration (mid=388580_…, BigClash)."
+ },
+ {
+  "domain": "most-bet-aplikace.cz",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet; одна кнопка https://most-bet-aplikace.cz/go/ → https://refpilot.top/2mBx9vvz — гео-ротатор: с RS-IP в simkmumb.com → pid=147099 (Mostbet), в affiliate-scan 28.09 — в new-promos.com → redirect-verde.com (ref=vp_…, Verde Casino)."
+ },
+ {
+  "domain": "most-bet-cz.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet; одна кнопка https://most-bet-cz.com/go/ → https://refpilot.top/LS2SW486 — гео-ротатор: с RS-IP в simkmumb.com → pid=147099 (Mostbet), в affiliate-scan 28.09 — в new-promos.com → redirect-verde.com (ref=vp_…, Verde Casino)."
+ },
+ {
+  "domain": "most-bet-cz.cz",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet; одна кнопка https://most-bet-cz.cz/go/ → https://refpilot.top/YPFYVtzy — гео-ротатор: с RS-IP в simkmumb.com → pid=147099 (Mostbet), в affiliate-scan 28.09 — в new-promos.com → redirect-verde.com (ref=vp_…, Verde Casino)."
+ },
+ {
+  "domain": "most-bet-cz.net",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet; одна кнопка https://most-bet-cz.net/go/ → https://routezen.online/rQrxCm1H — гео-ротатор: с RS-IP в simkmumb.com → pid=147099 (Mostbet), в affiliate-scan 28.09 — в new-promos.com → redirect-verde.com (ref=vp_…, Verde Casino)."
+ },
+ {
+  "domain": "most-bet-login.cz",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet; одна кнопка https://most-bet-login.cz/go/ → https://refpilot.top/8cTQth95 — гео-ротатор: с RS-IP в simkmumb.com → pid=147099 (Mostbet), в affiliate-scan 28.09 — в new-promos.com → redirect-verde.com (ref=vp_…, Verde Casino)."
+ },
+ {
+  "domain": "most-bet-poland.pl",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet; одна кнопка https://most-bet-poland.pl/go/ → https://click-stream.top/gV1sx5 — гео-ротатор: с RS-IP в simkmumb.com → pid=147099 (Mostbet), в affiliate-scan 28.09 — в mma.lynmonkel.com → bigclash-9829.com/lv/registration (mid=388580_…, BigClash)."
+ },
+ {
+  "domain": "most-bet-polska.pl",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet; одна кнопка https://most-bet-polska.pl/go/ → https://click-stream.top/gV1sx5 — гео-ротатор: с RS-IP в simkmumb.com → pid=147099 (Mostbet), в affiliate-scan 28.09 — в new-promos.com → redirect-verde.com (ref=vp_…, Verde Casino)."
+ },
+ {
+  "domain": "most-bet.pl",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.55,
+  "comment": "11 кнопок adminclick.org/vDPHLg → dzwahdhsmb.com → pid=226747 (Mostbet). «Чужой» traf-link.com/Tz2NXT стоит в таблице в строке «Adres strony» с анкором «Mostbet.com», ведёт на lgamiflux.com (404, sub2=polram — та же кампания, что sub1=mostplram у Mostbet); чужой бренд не виден."
+ },
+ {
+  "domain": "most-bets.cz",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet; одна кнопка https://most-bets.cz/go/ → https://refpilot.top/djSZVvGQ — гео-ротатор: с RS-IP в simkmumb.com → pid=147099 (Mostbet), в affiliate-scan 28.09 — в new-promos.com → redirect-verde.com (ref=vp_…, Verde Casino)."
+ },
+ {
+  "domain": "most-bett.cz",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet; одна кнопка https://most-bett.cz/go/ → https://refpilot.top/BNSFHnPQ — гео-ротатор: с RS-IP в simkmumb.com → pid=147099 (Mostbet), в affiliate-scan 28.09 — в mma.lynmonkel.com → bigclash-9829.com/lv/registration (mid=388580_…, BigClash)."
+ },
+ {
+  "domain": "mosttbett.cz",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet; одна кнопка https://mosttbett.cz/go/ → https://routezen.online/kwvnFn6B — гео-ротатор: с RS-IP в simkmumb.com → pid=147099 (Mostbet), в affiliate-scan 28.09 — в mma.lynmonkel.com → bigclash-9829.com/lv/registration (mid=388580_…, BigClash)."
+ },
+ {
+  "domain": "nobleindustries.org",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Реклама только Mostbet: regu.crickacademy.com/nHcVnsu → zlaovvmb.com, pid=37776. «Чужой» lrs-2433.3e8-co84pe-v50wo.com/launch?…partner=mostbet-prod&exit_url=8unx689.com — демо-слот провайдера внутри самого Mostbet, не реклама чужого."
+ },
+ {
+  "domain": "number9my.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.6,
+  "comment": "Mostbet Bangladesh на теме hc_satellite: /go/registration → cpmldqmb.com → Mostbet pid=304732. Чужое — скрипт ddd7dj.org/MPNB4gYP?p=cros → sltna.pclira.com → slotuna (Slotuna, mid=371788_…); видел его только affiliate-scan 28.09, в HTML от 30.09–01.10 его нет."
+ },
+ {
+  "domain": "owbing.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.6,
+  "comment": "Mostbet Bangladesh на теме hc_satellite: /go/registration → cpmldqmb.com → Mostbet pid=304732. Чужое — скрипт ddd7dj.org/MPNB4gYP?p=cros → sltna.pclira.com → slotuna (Slotuna, mid=371788_…); видел его только affiliate-scan 28.09, в HTML от 30.09–01.10 его нет."
+ },
+ {
+  "domain": "patnabeats.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.6,
+  "comment": "Mostbet Bangladesh на теме hc_satellite: /go/registration → cpmldqmb.com → Mostbet pid=304732. Чужое — скрипт ddd7dj.org/MPNB4gYP?p=cros → sltna.pclira.com → slotuna (Slotuna, mid=371788_…); видел его только affiliate-scan 28.09, в HTML от 30.09–01.10 его нет."
+ },
+ {
+  "domain": "pezeshk20.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.6,
+  "comment": "Mostbet Bangladesh на теме hc_satellite: /go/registration → cpmldqmb.com → Mostbet pid=304732. Чужое — скрипт ddd7dj.org/MPNB4gYP?p=cros → sltna.pclira.com → slotuna (Slotuna, mid=371788_…); видел его только affiliate-scan 28.09, в HTML от 30.09–01.10 его нет."
+ },
+ {
+  "domain": "pureratioscbd.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.7,
+  "comment": "Мостбет AZ, кнопки ipc.html → hpnjesmb.com → qrncfumb.com, pid=327472 (Mostbet). «Чужой» justfarmingsystem.com/az — ссылка в тексте с анкором «Mostbet» на сателлит, сам домен в петле 301; luigisvirginia.com с анкором «mostbet indir» — тоже сателлит. Чужого оператора нет."
+ },
+ {
+  "domain": "raktarinfo.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Реклама одна: play-link.org/126tw5z2?…&pid=241 → getplay.plseocpa.com → fvoidjmb.com, pid=401053 (Mostbet). «Чужой» getplay.plseocpa.com/disabled.html — та же ссылка с \\u0026 вместо &, pid обрезан, трекер отдал заглушку."
+ },
+ {
+  "domain": "rlef.eu.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.6,
+  "comment": "Mostbet Bangladesh на теме hc_satellite: /go/registration → cpmldqmb.com → Mostbet pid=304732. Чужое — скрипт ddd7dj.org/MPNB4gYP?p=cros → sltna.pclira.com → slotuna (Slotuna, mid=371788_…); видел его только affiliate-scan 28.09, в HTML от 30.09–01.10 его нет."
+ },
+ {
+  "domain": "rok1938.cz",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet; одна кнопка https://rok1938.cz/go/ → https://routezen.online/HBPRfmMs — гео-ротатор: с RS-IP в simkmumb.com → pid=147099 (Mostbet), в affiliate-scan 28.09 — в new-promos.com → redirect-verde.com (ref=vp_…, Verde Casino)."
+ },
+ {
+  "domain": "salonwega.pl",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Реклама одна: play-link.org/126tw5z2?…&pid=241 → getplay.plseocpa.com → fvoidjmb.com, pid=401053 (Mostbet). «Чужой» getplay.plseocpa.com/disabled.html — та же ссылка с \\u0026 вместо &, pid обрезан, трекер отдал заглушку."
+ },
+ {
+  "domain": "saturnoilopen.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.6,
+  "comment": "Mostbet Bangladesh на теме hc_satellite: /go/registration → cpmldqmb.com → Mostbet pid=304732. Чужое — скрипт ddd7dj.org/MPNB4gYP?p=cros → sltna.pclira.com → slotuna (Slotuna, mid=371788_…); видел его только affiliate-scan 28.09, в HTML от 30.09–01.10 его нет."
+ },
+ {
+  "domain": "smartcarsnz.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.6,
+  "comment": "Mostbet Bangladesh на теме hc_satellite: /go/registration → cpmldqmb.com → Mostbet pid=304732. Чужое — скрипт ddd7dj.org/MPNB4gYP?p=cros → sltna.pclira.com → slotuna (Slotuna, mid=371788_…); видел его только affiliate-scan 28.09, в HTML от 30.09–01.10 его нет."
+ },
+ {
+  "domain": "sportialize.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.6,
+  "comment": "Mostbet Bangladesh на теме hc_satellite: /go/registration → cpmldqmb.com → Mostbet pid=304732. Чужое — скрипт ddd7dj.org/MPNB4gYP?p=cros → sltna.pclira.com → slotuna (Slotuna, mid=371788_…); видел его только affiliate-scan 28.09, в HTML от 30.09–01.10 его нет."
+ },
+ {
+  "domain": "tenodsamochodow.pl",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Реклама одна: play-link.org/126tw5z2?…&pid=241 → getplay.plseocpa.com → fvoidjmb.com, pid=401053 (Mostbet). «Чужой» getplay.plseocpa.com/disabled.html — та же ссылка с \\u0026 вместо &, pid обрезан, трекер отдал заглушку."
+ },
+ {
+  "domain": "tonmau.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.6,
+  "comment": "Mostbet Bangladesh на теме hc_satellite: /go/registration → cpmldqmb.com → Mostbet pid=304732. Чужое — скрипт ddd7dj.org/MPNB4gYP?p=cros → sltna.pclira.com → slotuna (Slotuna, mid=371788_…); видел его только affiliate-scan 28.09, в HTML от 30.09–01.10 его нет."
+ },
+ {
+  "domain": "vazkananiti.cz",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.6,
+  "comment": "Mostbet CZ: /play → fvoidjmb.com, pid=303430 (Mostbet). Скрипт ddd7dj.org/MPNB4gYP?…&a=DAFF → pclira → slotuna-0296.com (Slotuna) был в affiliate-scan 28.09, в HTML от 30.09 его нет."
+ },
+ {
+  "domain": "visakhapatnamnyt.in",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.6,
+  "comment": "Mostbet Bangladesh на теме hc_satellite: /go/registration → cpmldqmb.com → Mostbet pid=304732. Чужое — скрипт ddd7dj.org/MPNB4gYP?p=cros → sltna.pclira.com → slotuna (Slotuna, mid=371788_…); видел его только affiliate-scan 28.09, в HTML от 30.09–01.10 его нет."
+ },
+ {
+  "domain": "wazamba-app-gr.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.7,
+  "comment": "Мостбет AZ, кнопки ipc.html → hpnjesmb.com → qrncfumb.com, pid=327472 (Mostbet). «Чужой» justfarmingsystem.com/az — ссылка в тексте с анкором «Mostbet» на сателлит, сам домен в петле 301; luigisvirginia.com с анкором «mostbet indir» — тоже сателлит. Чужого оператора нет."
+ },
+ {
+  "domain": "whynet.kz",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Реклама только Mostbet: /go/login → lfnpcrmb.com, pid=145039. «Чужой» ltc.kz/app/ — это /go/app/ → most.ltc.kz/mostbet_7.16.1.apk, APK самого Mostbet."
+ },
+ {
+  "domain": "zlotypies.org",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Реклама одна: play-link.org/126tw5z2?…&pid=241 → getplay.plseocpa.com → fvoidjmb.com, pid=401053 (Mostbet). «Чужой» getplay.plseocpa.com/disabled.html — та же ссылка с \\u0026 вместо &, pid обрезан, трекер отдал заглушку."
+ },
+ {
+  "domain": "mostbet-giris001.ink",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.6,
+  "comment": "Mostbet Türkiye; data-go на <body>: десктопу ame1a56mb.com/Sh2U → pid=462721 (Mostbet), мобильному и посетителю из Google — plusfind.info/go/<хэш>?subid=mostbet_tr_rovbet (чужой трекер, оффер Rovbet), не открыт."
+ },
+ {
+  "domain": "mostbet-giris01.it.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.6,
+  "comment": "Mostbet Türkiye; data-go на <body>: десктопу ame1a56mb.com/Sh2U → pid=462721 (Mostbet), мобильному и посетителю из Google — plusfind.info/go/<хэш>?subid=mostbet_tr_rovbet (чужой трекер, оффер Rovbet), не открыт."
+ },
+ {
+  "domain": "mostbetgiris2o26.icu",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.6,
+  "comment": "Mostbet Türkiye; data-go на <body>: десктопу ame1a56mb.com/Sh2U → pid=462721 (Mostbet), мобильному и посетителю из Google — plusfind.info/go/<хэш>?subid=mostbet_tr_rovbet (чужой трекер, оффер Rovbet), не открыт."
+ },
+ {
+  "domain": "mostbet-wgq2.buzz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене; главная location.replace → gamesredq.ru/mostbet.php → 0appsta.com/LhHFkG → r1wjfml.life/casino/list?open=register&p=ep3j (казино 1win-формата) через лендинг-колесо spinnyspinwheel.org."
+ },
+ {
+  "domain": "mostbet-wud4.buzz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене; главная location.replace → gamesredq.ru/mostbet.php → 0appsta.com/LhHFkG → r1wjfml.life/casino/list?open=register&p=ep3j (казино 1win-формата) через лендинг-колесо spinnyspinwheel.org."
+ },
+ {
+  "domain": "mostbetslots7.top",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "not_shown",
+  "confidence": 0.4,
+  "comment": "Mostbet в домене; главная 302 → martin-route-three.com/c3a55434a?btag=mostbet_new, а там 404 техноблога. Куда ведёт TDS живому посетителю — не видно ни в одном скане."
+ },
+ {
+  "domain": "bd-mostbet-agent.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Mostbet в домене и title (mostbet login, Bangladesh); кнопки Login/Register через /api?action=click уводят на регистрацию чужих операторов с кодом партнёра: 19tbajee.com, 520bd12.vip, winbd17.com (?affiliateCode=seo555 / 520ge00c). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "bd-mostbet-apk.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Mostbet в домене и title (mostbet login, Bangladesh); кнопки Login/Register через /api?action=click уводят на регистрацию чужих операторов с кодом партнёра: 19bdbajee.com, 19tbajee.com (?affiliateCode=seo555 / 520ge00c). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "bd-mostbet-bangladesh.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Mostbet в домене и title (mostbet login, Bangladesh); кнопки Login/Register через /api?action=click уводят на регистрацию чужих операторов с кодом партнёра: 19bdbajee.com, 520bd12.vip (?affiliateCode=seo555 / 520ge00c). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "bd-mostbet-bd1.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Mostbet в домене и title (mostbet login, Bangladesh); кнопки Login/Register через /api?action=click уводят на регистрацию чужих операторов с кодом партнёра: 19bdbajee.com, 520bd12.vip, winbd17.com (?affiliateCode=seo555 / 520ge00c). Ссылок на Mostbet нет."
+ }
+]

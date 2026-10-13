@@ -274,8 +274,26 @@ def conf_badge(dom) -> tuple:
     return badge, "".join(extra)
 
 
+def check_badge(r) -> tuple:
+    """The round-5 checker's verdict, when there is one."""
+    if not r.get("check"):
+        return "", ""
+    v = r.get("check_violator")
+    word = {"True": "нарушитель", "False": "не нарушитель"}.get(v, "не решено")
+    lvl = "lo" if v == "True" else "hi" if v == "False" else "mid"
+    conf = f", уверенность проверяющего {round(float(r['check_confidence']) * 100)} %" if r.get("check_confidence") else ""
+    badge = f'<span class="cf cf-{lvl}" title="проверка агентом по сохранённым страницам">проверка: {word}{conf}</span>'
+    note = f'<div class="kv"><span>проверяющий:</span> <b>{e(r.get("check_note"))}</b></div>' if r.get("check_note") else ""
+    if r.get("check") == "fixed":
+        note += f'<div class="kv"><span>класс по правилам был:</span> <b>{e(r.get("rule_category"))}</b></div>'
+    return badge, note
+
+
 def card(num, r, sample_text) -> str:
     badge, cf_extra = conf_badge(r["domain"])
+    cb, cn = check_badge(r)
+    if cb:  # a checker's verdict replaces the model's estimate
+        badge, cf_extra = cb, cn
     tags = ", ".join(TAG_RU.get(t, t) for t in r["tags"].split() if t in TAG_RU and t != "brand_in_domain")
     facts = [("метки", tags), ("title", r["title"]),
              ("конечный адрес", r["final_url"] if r["final_url"] and r["domain"] not in r["final_url"] else "")]
@@ -456,6 +474,10 @@ f'<b>{fmt(gsum[g[0]])}</b><span class="pct">{pc(gsum[g[0]] * 100 / total)} %</sp
 себя: заявлено 91 % — подтверждено 89 %, заявлено 73 % — подтверждено 75 %. Под карточкой — что снизило уверенность.
 Ошибки правил, найденные в четвёртом круге, исправлены; совпадение классов с проверяющими — 84 % (было 76 %).
 Эти же сайты служили и для правки правил, поэтому на новых сайтах совпадение может быть ниже.</li>
+<li><b>Каждый нарушитель проверен агентом</b> (пятый круг, 13.10): 4 077 сайтов по сохранённым страницам и
+цепочкам ссылок. Вердикт проверяющего заменяет класс по правилам и стоит плашкой в карточке. В списке на удаление
+<code>report/takedown-send.csv</code> — нарушители, подтверждённые с уверенностью проверяющего от 80 %;
+остальные — в <code>report/takedown-check.csv</code>.</li>
 <li><b>Нарушение 0–100</b> — вторая шкала: вероятность, что сайт нарушитель, какой бы ни был класс (путаница
 внутри нарушителей тут не ошибка). Подогнана на тех же проверках: заявлено 90 % — нарушителей 91 %.
 Из нарушителей нарушение от 90 у {fmt(v90)} сайтов, на проверке подтвердились 156 из 163 —
@@ -478,17 +500,28 @@ const h=location.hash.match(/^#n(\\d+)$/);if(h){{const el=document.getElementByI
     out = d / "report"
     out.mkdir(exist_ok=True)
     (out / "brand-report.html").write_text(page, encoding="utf-8")
-    # Takedown lists: violators sure enough to send without a manual check (violation >= 90), and the rest to check.
-    cols = ["domain", "category", "violation", "class_confidence", "reason", "final_url", "not_in_corsearch"]
-    for name, keep in (("takedown-send.csv", lambda v: v >= 90), ("takedown-check.csv", lambda v: v < 90)):
-        sel = [r for r in rows if r["category"] in viol_cls and keep(int(CONF.get(r["domain"], {}).get("violation") or 0))]
-        sel.sort(key=lambda r: (-int(CONF.get(r["domain"], {}).get("violation") or 0), r["domain"]))
+    # Takedown lists. Checked violators: send when the checker confirmed with confidence >= 0.8; the rest of the
+    # violators (confirmed with less, undecided, never checked) go to the manual check list.
+    cols = ["domain", "category", "check", "checker_confidence", "checker_note", "violation", "class_confidence",
+            "reason", "final_url", "not_in_corsearch"]
+
+    def sure(r):
+        if r.get("check_violator") == "True":
+            return float(r.get("check_confidence") or 0) >= 0.8
+        if r.get("check"):
+            return False
+        return int(CONF.get(r["domain"], {}).get("violation") or 0) >= 90
+
+    for name, keep in (("takedown-send.csv", True), ("takedown-check.csv", False)):
+        sel = [r for r in rows if r["category"] in viol_cls and sure(r) == keep]
+        sel.sort(key=lambda r: (-float(r.get("check_confidence") or 0), r["domain"]))
         with open(out / name, "w", newline="", encoding="utf-8") as f:
             w = csv.writer(f)
             w.writerow(cols)
             for r in sel:
                 c = CONF.get(r["domain"], {})
-                w.writerow([r["domain"], r["category"], c.get("violation", ""), c.get("confidence", ""), why_ru(r),
+                w.writerow([r["domain"], r["category"], r.get("check_violator", ""), r.get("check_confidence", ""),
+                            r.get("check_note", ""), c.get("violation", ""), c.get("confidence", ""), why_ru(r),
                             r["final_url"], "not_in_corsearch" in r["tags"].split()])
     print(out / "brand-report.html")
 

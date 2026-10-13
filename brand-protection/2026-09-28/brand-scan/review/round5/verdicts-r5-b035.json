@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "rlifiles-1.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд-клон «Mostbet AZ Giriş» (title/h1 про Mostbet, 63 упоминания); все кнопки «Daxil ol/Qeydiyyat» ведут на свой /play.php → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink. Рекламы Mostbet нет."
+ },
+ {
+  "domain": "rlifiles-1.xyz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд-клон «Mostbet AZ Giriş» (title/h1 про Mostbet, 63 упоминания); все кнопки «Daxil ol/Qeydiyyat» ведут на свой /play.php → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink. Рекламы Mostbet нет."
+ },
+ {
+  "domain": "rlifiles-10.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд-клон «Mostbet AZ Giriş» (title/h1 про Mostbet, 63 упоминания); все кнопки «Daxil ol/Qeydiyyat» ведут на свой /play.php → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink. Рекламы Mostbet нет."
+ },
+ {
+  "domain": "rlifiles-11.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд-клон «Mostbet AZ Giriş» (title/h1 про Mostbet, 63 упоминания); все кнопки «Daxil ol/Qeydiyyat» ведут на свой /play.php → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink. Рекламы Mostbet нет."
+ },
+ {
+  "domain": "rlifiles-12.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд-клон «Mostbet AZ Giriş» (title/h1 про Mostbet, 63 упоминания); все кнопки «Daxil ol/Qeydiyyat» ведут на свой /play.php → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink. Рекламы Mostbet нет."
+ },
+ {
+  "domain": "rlifiles-13.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд-клон «Mostbet AZ Giriş» (title/h1 про Mostbet, 63 упоминания); все кнопки «Daxil ol/Qeydiyyat» ведут на свой /play.php → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink. Рекламы Mostbet нет."
+ },
+ {
+  "domain": "rlifiles-2.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд-клон «Mostbet AZ Giriş» (title/h1 про Mostbet, 63 упоминания); все кнопки «Daxil ol/Qeydiyyat» ведут на свой /play.php → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink. Рекламы Mostbet нет."
+ },
+ {
+  "domain": "rlifiles-2.xyz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд-клон «Mostbet AZ Giriş» (title/h1 про Mostbet, 63 упоминания); все кнопки «Daxil ol/Qeydiyyat» ведут на свой /play.php → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink. Рекламы Mostbet нет."
+ },
+ {
+  "domain": "rlifiles.xyz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд-клон «Mostbet AZ Giriş» (title/h1 про Mostbet, 63 упоминания); все кнопки «Daxil ol/Qeydiyyat» ведут на свой /play.php → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink. Рекламы Mostbet нет."
+ },
+ {
+  "domain": "saltlampcraft.com",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.85,
+  "comment": "Взломанный магазин солевых ламп; пост /2026/07/30/mostbet-az-bukmeker-ve-kazino-mostbet-giris-r-smi-sayt/ сразу под h1 даёт зелёную кнопку на трекер w3n7z2qt.top/v1GxGYrB → 1xbet.rs?tag=d_3755482m_22585c."
+ },
+ {
+  "domain": "sportsconference.in",
+  "given": "mb_page_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "article",
+  "confidence": 0.7,
+  "comment": "Блог ставок с лентой постов; на странице mostbet-site-in-india внешние ссылки — простые ссылки на дорвеи parimatchbet.in (→ parimatch.co.com) и 1xbets-chile.cl без кода партнёра, трекеров нет; не оператор и не рефка."
+ },
+ {
+  "domain": "stavkinasport.com",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.85,
+  "comment": "Мультибренд-обзорник; страница kak-vyvesti-dengi-mostbet ведёт через свой шлюз /go/winlinebetru/ на winline.ru с utm_source=13389/utm_promo=NASPORT, плюс /go/ на Baltbet, Marathonbet со stag."
+ },
+ {
+  "domain": "sunstripe.io",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.85,
+  "comment": "Взломанный блог; пост 2026/09/30/mostbet-az-bukmeker-ve-kazino-mostbet-giris-r-smi-sayt-4 под h1 даёт кнопку на трекер w3n7z2qt.top/v1GxGYrB → 1xbet.rs?tag=d_3755482m_22585c."
+ },
+ {
+  "domain": "super-best-top118.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд-клон «Mostbet AZ Giriş» (title/h1 про Mostbet, 63 упоминания); все кнопки «Daxil ol/Qeydiyyat» ведут на свой /play.php → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink. Рекламы Mostbet нет."
+ },
+ {
+  "domain": "super-play-online173.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд-клон «Mostbet AZ Giriş» (title/h1 про Mostbet, 63 упоминания); все кнопки «Daxil ol/Qeydiyyat» ведут на свой /play.php → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink. Рекламы Mostbet нет."
+ },
+ {
+  "domain": "tamsac.pe",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.6,
+  "comment": "Взломанный сайт строительной фирмы; пост deseja-jogar-na-mostbet-com ссылается анкором «mostbet» на mostbet-brasil-top.com, который уводит на ambking1234.dev/?action=register&marketingRef=… (чужое тайское казино)."
+ },
+ {
+  "domain": "telecomasia.net",
+  "given": "mb_page_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.6,
+  "comment": "Большой мультибренд-обзорник; на странице reviews/mostbet/login внешних ссылок на чужих операторов нет (только gambleaware, trustpilot и т. п.); найденный aff888gioladew.com → top100bonus.com — URL из скрипта, не ссылка со страницы Mostbet; Betway — только внутренняя навигация."
+ },
+ {
+  "domain": "tenacreslodge.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet CZ (title «Oficiální webové stránky Mostbet», 72 упоминания); кнопка «Přejděte na stránky» → свой /go/ → 1xbet.rs/registration?tag=d_3755482m_22585c."
+ },
+ {
+  "domain": "thefowlergroup.com",
+  "given": "mb_page_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.65,
+  "comment": "Взломанный сайт дизайн-агентства; пост blog/crash-games-mostbet-sri-lanka содержит только простые ссылки без кода на дорвеи melbets.mn, slotticacl.cl, 1winbet-de.com, easybet.net.za — ни трекера, ни рефки, ни официального оператора."
+ },
+ {
+  "domain": "thelifestylerevive.com",
+  "given": "mb_page_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "article",
+  "confidence": 0.65,
+  "comment": "Лайфстайл-блог с гостевыми постами; пост про Mostbet ссылается простой ссылкой на дорвей 1win-giris-az.com (title «1Win Giriş…», без кода партнёра) и на чужие гостевые посты; рекламы с кодом нет."
+ },
+ {
+  "domain": "toontown.org",
+  "given": "mb_page_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "article",
+  "confidence": 0.65,
+  "comment": "Обзорный блог казино (Топ-3: 1xbet, 1win, Mostbet); на страницах skachat-prilozhenie-mostbet и obzor-mostbet ссылки только на дорвеи 1win-kg.in.net, kds.kg, pricelist.uz без кода партнёра."
+ },
+ {
+  "domain": "top-best-game216.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд-клон «Mostbet AZ Giriş» (title/h1 про Mostbet, 63 упоминания); все кнопки «Daxil ol/Qeydiyyat» ведут на свой /play.php → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink. Рекламы Mostbet нет."
+ },
+ {
+  "domain": "top-game-online153.click",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд-клон «Mostbet AZ Giriş» (title/h1 про Mostbet, 63 упоминания); все кнопки «Daxil ol/Qeydiyyat» ведут на свой /play.php → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink. Рекламы Mostbet нет."
+ },
+ {
+  "domain": "top-game-online153.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд-клон «Mostbet AZ Giriş» (title/h1 про Mostbet, 63 упоминания); все кнопки «Daxil ol/Qeydiyyat» ведут на свой /play.php → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink. Рекламы Mostbet нет."
+ },
+ {
+  "domain": "top-game-online154.click",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд-клон «Mostbet AZ Giriş» (title/h1 про Mostbet, 63 упоминания); все кнопки «Daxil ol/Qeydiyyat» ведут на свой /play.php → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink. Рекламы Mostbet нет."
+ },
+ {
+  "domain": "top-super-best318.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд-клон «Mostbet AZ Giriş» (title/h1 про Mostbet, 63 упоминания); все кнопки «Daxil ol/Qeydiyyat» ведут на свой /play.php → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink. Рекламы Mostbet нет."
+ },
+ {
+  "domain": "top-super-best654.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд-клон «Mostbet AZ Giriş» (title/h1 про Mostbet, 63 упоминания); все кнопки «Daxil ol/Qeydiyyat» ведут на свой /play.php → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink. Рекламы Mostbet нет."
+ },
+ {
+  "domain": "top-super-game657.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд-клон «Mostbet AZ Giriş» (title/h1 про Mostbet, 63 упоминания); все кнопки «Daxil ol/Qeydiyyat» ведут на свой /play.php → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink. Рекламы Mostbet нет."
+ },
+ {
+  "domain": "turkiyepromotiongroup.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet TR (title «Mostbet Giriş», h1 «Mostbet – …»); кнопки ведут на свой /go.php → 1xbet.rs/registration?tag=d_3755482m_22585c."
+ },
+ {
+  "domain": "umkhl.com",
+  "given": "mb_page_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.7,
+  "comment": "Взломанный сайт ГЭС; посты про Mostbet ссылаются простыми ссылками на дорвей 1win-giris-az.com и чужие сайты сетки (zamankurs.com, belzebub2.com) — без кода партнёра, трекера и ссылок на оператора."
+ },
+ {
+  "domain": "underconstructionfestival.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Блог-монобренд «Sans Topla – Mostbet AZ» (title про Mostbet, 33 упоминания); во внутреннем посте об установке приложения прямая ссылка на оператора www.1xbet.com/mobile/ (→ 1xbet.rs/en/mobile) и m.1xbet.com/az/ — по правилу прямая ссылка на чужого оператора считается рекламой."
+ },
+ {
+  "domain": "uzbek-casinos.com",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.85,
+  "comment": "Мультибренд-рейтинг казино; страница mostbet-casino рядом с Mostbet рекламирует Lanista через свой /go/lanista-casino → lanista-2064.com/registration?mid=94093_2209595."
+ },
+ {
+  "domain": "uzreyting.com",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.85,
+  "comment": "Мультибренд-рейтинг БК; страница bonuslar/mostbet/stavka-sugurtasi ведёт через /go/1xbet на 1xbet.rs?tag=s_155107m_355c_, плюс /go/ на Linebet, Betwinner, Melbet с tag."
+ },
+ {
+  "domain": "vascafe.com.pl",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.6,
+  "comment": "Взломанный кофейный магазин; пост mostbet-portugal-pt-on-line-casino-… ссылается на mostbet-brasil-top.com, который уводит на ambking1234.dev/?action=register&marketingRef=…; плюс ссылки на ggbetas.com, vavadas-online.pl."
+ },
+ {
+  "domain": "volnacasinoru.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Сайт выдаёт себя за «Казино Мостбет официальный сайт» (title/h1, 55 упоминаний), лобби слотов; кнопки через свой /goto/ → play-playfortunau8qc3za9br.com/en/registration (Play Fortuna)."
+ },
+ {
+  "domain": "volnakazino-online.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Копия volnacasinoru.ru: title «Казино Мостбет официальный сайт», кнопки через /goto/ → play-playfortunau8qc3za9br.com/en/registration (Play Fortuna)."
+ },
+ {
+  "domain": "witchyaromas.pl",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.8,
+  "comment": "Домен переезжает на isuzu-truck.pl (бонусный обзорник); страница reviews/mostbet-casino-login рекламирует через /play/ Fieryplay и Vulkan Vegas с ref=vp_w169785… и Mozzart."
+ },
+ {
+  "domain": "xbetapp.ru",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.75,
+  "comment": "WAP-портал ставок; страница files/show/?id=7 рекламирует через refpa98980.com/L?tag=d_4282958m… WinWinBet и Sweet Bonanza (winwincasino.bet), плюс скрытая refpa4219945.top → 1xBet."
+ },
+ {
+  "domain": "xn--igbhb6b1ejmbcpbuh.com",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.85,
+  "comment": "Мультибренд-рейтинг (Иордания); страница platform/mostbet рядом с Mostbet ведёт через свой /go/Melbet на melbet.org?tag=d_4799696m_53523c_."
+ },
+ {
+  "domain": "zarzadzanieit.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Mostbet Polska» (title/h1, 64 упоминания); все кнопки (Logowanie, Rejestr, Pobierz) ведут на свой /play → 1xbet.rs/registration?tag=d_3755482m_22585c."
+ },
+ {
+  "domain": "1mostbet.buzz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, клон «Мостбет Казино зеркало»; кнопки ведут на refpa-07755.com → 1xcasino.com?tag=d_5888363m…, jettredsarel.com → JetTon, autumn-ice.com → NormCasino."
+ },
+ {
+  "domain": "1mostbet.cc",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, клон «Мостбет Казино рабочее зеркало»; ссылки на refpa-71803.com → 1xCasino (tag=d_5888363m), lunar-haze.com → 7lacasino, autumn-ice.com → NormCasino."
+ },
+ {
+  "domain": "2025mostbet.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, title «Mostbet Giriş»; ссылки через трекеры t2m.co/okanparavan → herkulbet170.com?btag=okanparavan и t2po.com → poliwin251.com?btag=abe777."
+ },
+ {
+  "domain": "aelfricedenhoodie.org",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Монобренд «Mostbet 30 Free Spins» (PL); ротатор traftraf.site/Wn1ZDh отдаёт то Mostbet (pid=392426), то Twindor Casino (refCode=ca_w238212…)."
+ },
+ {
+  "domain": "alma-med.kz",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Монобренд «Мостбет Онлайн» KZ; ротатор /mostbet.php отдаёт то Mostbet (pid=459127), то Pokerdom (vqs7pokerdom.com, webmaster=22245)."
+ },
+ {
+  "domain": "amp-play-super895.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Mostbet AZ» (title, h1 «Mostbet»); кнопки через свой /go.php → 1xbet.rs/registration?tag=d_3755482m_22585c."
+ },
+ {
+  "domain": "argentino-mostbet.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене; /link ведёт на Mostbet (pid=467377), а видимая кнопка «Reclamar bono» в баннере — на keitaro-zalupa.com/JRK3yP → luckykpet.life (Lucky Star)."
+ },
+ {
+  "domain": "asiavent1.kz",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Монобренд «Мостбет Казино Казахстан»; ротатор /mostbet.php отдаёт то Mostbet (pid=459127), то Pokerdom (vqs7pokerdom.com, webmaster=22245)."
+ },
+ {
+  "domain": "aze-mostbet.org",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Mostbet в домене; главная переезжает на bukmekersaytlari.org/kazino-reyler/mostbet — обзор Mostbet с рефкой Mostbet (pid=477881) и рекламой Melbet через refpa3665.com?tag=d_5266353m."
+ },
+ {
+  "domain": "azmar.kz",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Монобренд «Мостбет КЗ»; ротатор /mostbet.php отдаёт то Mostbet (pid=459127), то Pokerdom (vqs7pokerdom.com, webmaster=22245)."
+ }
+]

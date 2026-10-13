@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbet-casino247.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд «Казино Мостбет», кнопка /goto/ уводит на регистрацию Play Fortuna (play-playfortunau8qc3za9br.com/registration), /goto/5425 — на трекер autumn-ice.com; рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbet-casino24x7h.top",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.95,
+  "comment": "Домен с mostbet переезжает на vavada-casino24x7p.top — сайт Vavada с рефкой getruvada.com/?promo=…"
+ },
+ {
+  "domain": "mostbet-casino24x7o.top",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.95,
+  "comment": "Домен с mostbet переезжает на vavada-casino24x7p.top — сайт Vavada с рефкой getruvada.com/?promo=…"
+ },
+ {
+  "domain": "mostbet-casino24x7p.top",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.95,
+  "comment": "Домен с mostbet переезжает на vavada-casino24x7p.top — сайт Vavada с рефкой getruvada.com/?promo=…"
+ },
+ {
+  "domain": "mostbet-casinoindia.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Монобренд Mostbet India, кнопки Register/Log In через свой /go/ уводят на 1win (1wsmoz.com, sub1/sub2=Hybrid-Team)."
+ },
+ {
+  "domain": "mostbet-cesko-login.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Переезжает на craft-her.com — страница «Mostbet CZ», кнопка регистрации через трекер holy-duck.top/click уводит на Dudespin (mid=33585_…); Mostbet-рекламы нет."
+ },
+ {
+  "domain": "mostbet-com.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Mostbet official website», ссылка lkbb.cc/103fdf36 ведёт на 1win (one-vv0352.com, p=3tys)."
+ },
+ {
+  "domain": "mostbet-cz-login.cz",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Домен с mostbet переезжает на solutionsmarkets.co — слот-сайт HEBAT303 (Индонезия)."
+ },
+ {
+  "domain": "mostbet-download-app.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_hidden",
+  "confidence": 0.85,
+  "comment": "Монобренд «Mostbet скачать», кнопка «ПЕРЕЙТИ НА MOSTBET» ведёт на «/»; в тексте спрятан блок visibility:hidden со ссылкой pin-up-casino-kz.biz (301 на 1xbettuzbekistan.top, дорвей 1xBet). Видимой чужой рекламы нет — скрытая ссылка, класс mono_hidden."
+ },
+ {
+  "domain": "mostbet-fonbet-1xbet.ru",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Посетителю браузером 403, но из Google (mobile) отдаётся дорвей 1xBet со ссылкой links-go9.top/1xbet → 1xbet.rs (tag=s_1728657m…); Mostbet в домене."
+ },
+ {
+  "domain": "mostbet-go.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Мостбет официальный сайт». Шаблон APK: кнопка «Вход/Регистрация» ведёт через трекер updatezone.net/Bjyjf1TL на 1win (one-vv0352.com, p=0nyp, sub1); вторая кнопка ketanatut.com/KrWSKm отдаёт APK неизвестного бренда, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-go777.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Мостбет официальный сайт». Шаблон APK: кнопка «Вход/Регистрация» ведёт через трекер updatezone.net/Bjyjf1TL на 1win (one-vv0352.com, p=0nyp, sub1); вторая кнопка ketanatut.com/KrWSKm отдаёт APK неизвестного бренда, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-guncel-giris.org",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.95,
+  "comment": "Домен с mostbet переезжает на luckypari-ru.cc — сайт LuckyPari с рефкой cpartners.pro/L?tag=d_3727334m…"
+ },
+ {
+  "domain": "mostbet-helpsite.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Мостбет официальный сайт». Шаблон APK: кнопка «Вход/Регистрация» ведёт через трекер updatezone.net/Bjyjf1TL на 1win (one-vv0352.com, p=0nyp, sub1); вторая кнопка ketanatut.com/KrWSKm отдаёт APK неизвестного бренда, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-https.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Мостбет официальный сайт». Шаблон APK: кнопка «Вход/Регистрация» ведёт через трекер updatezone.net/Bjyjf1TL на 1win (one-vv0352.com, p=0nyp, sub1); вторая кнопка ketanatut.com/KrWSKm отдаёт APK неизвестного бренда, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-hungary.jp.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «MostBet Hivatalos oldal», кнопки /play/ и трекер serffigdmlzkrl.help/vMD6N7 ведут на 1win (one-vv3429.com, p=hztd)."
+ },
+ {
+  "domain": "mostbet-india.ink",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet India, ссылка link4go.org/Xnwywy ведёт на 1win (one-vv0352.com, p=1bah); внутренние /login, /registration зациклены."
+ },
+ {
+  "domain": "mostbet-kazino-fun.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Мостбет официальный сайт». Шаблон APK: кнопка «Вход/Регистрация» ведёт через трекер updatezone.net/Bjyjf1TL на 1win (one-vv0352.com, p=0nyp, sub1); вторая кнопка ketanatut.com/KrWSKm отдаёт APK неизвестного бренда, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-kazino2025.mobi",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.93,
+  "comment": "Домен с mostbet переезжает на sc88111.com — сайт букмекера SC88 (Вьетнам) с трекером domainchainlink02.com → sc88ve.biz/?id=…"
+ },
+ {
+  "domain": "mostbet-luxury.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.93,
+  "comment": "Домен с mostbet переезжает на pinup-doorway.com — дорвей Pin-Up Casino AZ (Pin-Up в тексте 189 раз)."
+ },
+ {
+  "domain": "mostbet-mexico.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Домен с mostbet переезжает на oaoamatematicas.org — обзорник «Mejores Casas de Apuestas» (1xBet, bet365, Codere), Mostbet не упоминается."
+ },
+ {
+  "domain": "mostbet-mirror.space",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.88,
+  "comment": "Домен с mostbet переезжает на shopentheogen5.space — страница CARITOGEL (togel/slot gacor, Индонезия)."
+ },
+ {
+  "domain": "mostbet-naandroid.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Мостбет официальный сайт». Шаблон APK: кнопка «Вход/Регистрация» ведёт через трекер updatezone.net/Bjyjf1TL на 1win (one-vv0352.com, p=0nyp, sub1); вторая кнопка ketanatut.com/KrWSKm отдаёт APK неизвестного бренда, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-officla1.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Мостбет официальный сайт». Шаблон APK: кнопка «Вход/Регистрация» ведёт через трекер updatezone.net/Bjyjf1TL на 1win (one-vv0352.com, p=0nyp, sub1); вторая кнопка ketanatut.com/KrWSKm отдаёт APK неизвестного бренда, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-oficialni.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Мостбет официальный сайт». Шаблон APK: кнопка «Вход/Регистрация» ведёт через трекер updatezone.net/Bjyjf1TL на 1win (one-vv0352.com, p=0nyp, sub1); вторая кнопка ketanatut.com/KrWSKm отдаёт APK неизвестного бренда, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-on1inesite.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Мостбет официальный сайт». Шаблон APK: кнопка «Вход/Регистрация» ведёт через трекер updatezone.net/Bjyjf1TL на 1win (one-vv0352.com, p=0nyp, sub1); вторая кнопка ketanatut.com/KrWSKm отдаёт APK неизвестного бренда, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-online-ru.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.93,
+  "comment": "Домен с mostbet переезжает на monument-rzn.ru — сайт Unlim Casino, кнопки /go/ на трекер dashplay37.com/?serial=…"
+ },
+ {
+  "domain": "mostbet-online.bet",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.93,
+  "comment": "Домен с mostbet переезжает на sol-bet.net — сайт Solbet (Перу), трекер click.lcclick.com?pid=696 → sapphirebet.com (tag=d_5525686m…)."
+ },
+ {
+  "domain": "mostbet-onlineru.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Мостбет официальный сайт». Шаблон APK: кнопка «Вход/Регистрация» ведёт через трекер updatezone.net/Bjyjf1TL на 1win (one-vv0352.com, p=0nyp, sub1); вторая кнопка ketanatut.com/KrWSKm отдаёт APK неизвестного бренда, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-ozbekiston.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Мостбет официальный сайт». Шаблон APK: кнопка «Вход/Регистрация» ведёт через трекер updatezone.net/Bjyjf1TL на 1win (one-vv0352.com, p=0nyp, sub1); вторая кнопка ketanatut.com/KrWSKm отдаёт APK неизвестного бренда, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-partner1.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Мостбет официальный сайт». Шаблон APK: кнопка «Вход/Регистрация» ведёт через трекер updatezone.net/Bjyjf1TL на 1win (one-vv0352.com, p=0nyp, sub1); вторая кнопка ketanatut.com/KrWSKm отдаёт APK неизвестного бренда, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-portu.app",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Монобренд Mostbet Casino Portugal, все кнопки через /go/ уводят на Baxterbet (baxterbet21.com/sr?cxd=35291_…, bta=35291)."
+ },
+ {
+  "domain": "mostbet-portu.pt",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Монобренд Mostbet Casino, все кнопки через /go/ уводят на Baxterbet (baxterbet46.com/sr?cxd=35291_…, bta=35291)."
+ },
+ {
+  "domain": "mostbet-portu.site",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Монобренд Mostbet Casino, все кнопки через /go/ уводят на Baxterbet (baxterbet22.com/sr?cxd=35291_…, bta=35291)."
+ },
+ {
+  "domain": "mostbet-portugal.app",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Монобренд Mostbet Casino, все кнопки через /go/ уводят на Baxterbet (baxterbet22.com/sq?cxd=35291_…, bta=35291)."
+ },
+ {
+  "domain": "mostbet-prilozhenietop.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Мостбет официальный сайт». Шаблон APK: кнопка «Вход/Регистрация» ведёт через трекер updatezone.net/Bjyjf1TL на 1win (one-vv0352.com, p=0nyp, sub1); вторая кнопка ketanatut.com/KrWSKm отдаёт APK неизвестного бренда, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-promocodes.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Мостбет официальный сайт». Шаблон APK: кнопка «Вход/Регистрация» ведёт через трекер updatezone.net/Bjyjf1TL на 1win (one-vv0352.com, p=0nyp, sub1); вторая кнопка ketanatut.com/KrWSKm отдаёт APK неизвестного бренда, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-reg1straciya.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Мостбет официальный сайт». Шаблон APK: кнопка «Вход/Регистрация» ведёт через трекер updatezone.net/Bjyjf1TL на 1win (one-vv0352.com, p=0nyp, sub1); вторая кнопка ketanatut.com/KrWSKm отдаёт APK неизвестного бренда, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-registraciya.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Мостбет официальный сайт». Шаблон APK: кнопка «Вход/Регистрация» ведёт через трекер updatezone.net/Bjyjf1TL на 1win (one-vv0352.com, p=0nyp, sub1); вторая кнопка ketanatut.com/KrWSKm отдаёт APK неизвестного бренда, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-rfplay.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд «Онлайн казино Мостбет», кнопка /goto/ уводит на регистрацию Play Fortuna (play-playfortunau8qc3za9br.com/registration); рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbet-siteofficiall.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Мостбет официальный сайт». Шаблон APK: кнопка «Вход/Регистрация» ведёт через трекер updatezone.net/Bjyjf1TL на 1win (one-vv0352.com, p=0nyp, sub1); вторая кнопка ketanatut.com/KrWSKm отдаёт APK неизвестного бренда, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-sitewww.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Мостбет официальный сайт». Шаблон APK: кнопка «Вход/Регистрация» ведёт через трекер updatezone.net/Bjyjf1TL на 1win (one-vv0352.com, p=0nyp, sub1); вторая кнопка ketanatut.com/KrWSKm отдаёт APK неизвестного бренда, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-sports1.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Мостбет официальный сайт». Шаблон APK: кнопка «Вход/Регистрация» ведёт через трекер updatezone.net/Bjyjf1TL на 1win (one-vv0352.com, p=0nyp, sub1); вторая кнопка ketanatut.com/KrWSKm отдаёт APK неизвестного бренда, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-sportwetten.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Домен с mostbet переезжает на angker77.com — слот-сайт ANGKER77 (Индонезия)."
+ },
+ {
+  "domain": "mostbet-star.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.8,
+  "comment": "Домен с mostbet переезжает на alaskahub.org — title «MABAR88 x ALASKA-HUB» (слоты), тело — клон страницы Samsung; Mostbet не упоминается."
+ },
+ {
+  "domain": "mostbet-stavk1.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Мостбет официальный сайт». Шаблон APK: кнопка «Вход/Регистрация» ведёт через трекер updatezone.net/Bjyjf1TL на 1win (one-vv0352.com, p=0nyp, sub1); вторая кнопка ketanatut.com/KrWSKm отдаёт APK неизвестного бренда, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-stavka.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Переезжает на mostbet-com.com/ru/ — монобренд Mostbet, ссылка lkbb.cc/103fdf36 ведёт на 1win (one-vv0352.com, p=3tys)."
+ },
+ {
+  "domain": "mostbet-telegram.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.93,
+  "comment": "Домен с mostbet переезжает на bwisc.org — сайт 8XBET (Вьетнам) с трекером 8x6709.com/p/3uI4."
+ },
+ {
+  "domain": "mostbet-top555.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Мостбет официальный сайт». Шаблон APK: кнопка «Вход/Регистрация» ведёт через трекер updatezone.net/Bjyjf1TL на 1win (one-vv0352.com, p=0nyp, sub1); вторая кнопка ketanatut.com/KrWSKm отдаёт APK неизвестного бренда, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-topbonus.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Мостбет официальный сайт». Шаблон APK: кнопка «Вход/Регистрация» ведёт через трекер updatezone.net/Bjyjf1TL на 1win (one-vv0352.com, p=0nyp, sub1); вторая кнопка ketanatut.com/KrWSKm отдаёт APK неизвестного бренда, ссылок на Mostbet нет."
+ }
+]

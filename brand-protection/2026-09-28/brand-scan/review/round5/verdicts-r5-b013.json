@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbetbd2.ws",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Бангладешский клон: кнопки «নিবন্ধন» через /register в браузере уводят на 520bd09.vip/register?affiliateCode=ge8bd0k — чужой оператор с кодом партнёра; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetbd3.bet",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Бангладешский клон: кнопки «নিবন্ধন» через /register в браузере уводят на 520bd09.vip/register?affiliateCode=ge8bd0k — чужой оператор с кодом партнёра; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetbd3.biz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Бангладешский клон: кнопки «নিবন্ধন» через /register в браузере уводят на 520bd09.vip/register?affiliateCode=ge8bd0k — чужой оператор с кодом партнёра; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetbd3.ws",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Бангладешский клон: кнопки «নিবন্ধন» через /register в браузере уводят на 520bd09.vip/register?affiliateCode=ge8bd0k — чужой оператор с кодом партнёра; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetbett.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Кнопки регистрации через трекер gofluxa.net/R7NfFL уводят на ads-useoffer.com/?ref=vp_w271574... — та же партнёрка у других сайтов ведёт на Vulkan (v484.vegas)."
+ },
+ {
+  "domain": "mostbetbonuses.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Кнопки «Hrát Nyní» ведут на трекер liberaldom.com/3D6Rp5tb (noscript-заглушка koraly7.com, которая у nowekasynaonline.net стоит за /go/spinmama) плюс PWA most.playmarket-play.click — реклама чужого."
+ },
+ {
+  "domain": "mostbetcasino-pt.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Кнопки входа/регистрации ведут через трекер pausedcasino.com/lq?sub1=... на 8noreq7yg4.com с pid=2060916/mid=67045 — чужая партнёрка, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasino-uk.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Кнопки входа/регистрации ведут через трекер stoppedcasino.com/lq?sub1=... на 8noreq7yg4.com с pid=2060916/mid=67045 — чужая партнёрка, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasino.de",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Переезжает на mostbetcasino1.pro; там кнопка регистрации через globalisation.pro/ccv9cSJT уводит на 1bet-match.com/regmail — чужой бренд, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasino.im",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Бангладешский клон: кнопки /register в браузере уводят на bj77x.com/m/register?affiliateCode=tcg31seopwa05 — чужой оператор с кодом партнёра; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasino1.pro",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Кнопка регистрации через трекер globalisation.pro/ccv9cSJT уводит на royalsea1.com/en/regmail (в других прогонах 1bet-match.com) — чужой бренд, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasinologin.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Указанная классификатором ссылка playngonetwork.com — демо-игра в iframe, не реклама; но кнопка через /recommends/offer/ уводит на трекер just-play7.top/cZ26DT (случайный хост, короткий код), ссылок на Mostbet нет — по правилу чужой трекер."
+ },
+ {
+  "domain": "mostbetcasinopt.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Кнопки входа/регистрации ведут через трекер neytraff.com/lq?sub1=... на 8noreq7yg4.com с pid=2060916/mid=67045 — чужая партнёрка, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasinos.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Кнопки входа/регистрации ведут через трекер stoppedcasino.com/lq?sub1=... на 8noreq7yg4.com с pid=2060916/mid=67045 — чужая партнёрка, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetcom.app",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Бангладешский клон: кнопки «নিবন্ধন» через /register в браузере уводят на 520bd09.vip/register?affiliateCode=ge8bd0k — чужой оператор с кодом партнёра; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetcom.bet",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Бангладешский клон: кнопки «নিবন্ধন» через /register в браузере уводят на 520bd09.vip/register?affiliateCode=ge8bd0k — чужой оператор с кодом партнёра; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetdanske.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Кнопки /login-mostbet/, /play-mostbet/ уводят на vrsroute.com/GxZcq8?source=cross-valhalla — трекер, который у monsterwinkasino.com/polskakasyno.net ведёт на чужие казино."
+ },
+ {
+  "domain": "mostbetgame.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Все кнопки через свой шлюз /go на doublehtraff.com/cXStcq?sub_id_1=... — чужой трекер (тот же у сетки венгерских mostbet-доменов), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetgirisadresi.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Кнопки ведут на refpa28543.top/L?tag=d_51101m_1264c_bahiscisitelericom — трекер партнёрки 1xBet-семейства с кодом, плюс fstgo.to; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetgunceli.org",
+  "given": "mono_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_other",
+  "confidence": 0.4,
+  "comment": "amp-wp.org/?p=5463 — служебная ссылка темы, не реклама; реальная реклама — полоса баннеров 728x90 на shortlks.com/site1 и /site6, получатель баннеров по файлам не виден."
+ },
+ {
+  "domain": "mostbethu-online.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Все кнопки через свой шлюз /go на doublehtraff.com/cXStcq?sub_id_1=... — чужой трекер (тот же у сетки венгерских mostbet-доменов), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetkazino-az.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.65,
+  "comment": "Кнопки ведут на трекер partnerprofitsource.com/j6w7VRW6/?subId2=... (случайный хост, короткий код), не на Mostbet; родственный partnerprofitboost у других сайтов уводит не на Mostbet."
+ },
+ {
+  "domain": "mostbetlogin.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Бангладешский клон: кнопки /register в браузере уводят на bj77x.com/m/register?affiliateCode=tcg31seopwa05 — чужой оператор с кодом партнёра; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetmirror.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Кнопка «Open mirror» через трекер maskcorr.com/8sYGr2dG, noscript-заглушка koraly7.com — та же, что у nowekasynaonline.net за /go/spinmama; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetofficial.nl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Кнопки через gofluxa.net/kpRJwn уводят на ivibettnow.com/registration?btag=677167_... — чужое казино с кодом партнёра."
+ },
+ {
+  "domain": "mostbetoficial.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Кнопки через trackgeo.link/R7bBD3 уводят на spinlendos.com/iframe-mgeo-black — гео-ротатор чужих казино (у goldparty-argentina.com тот же ведёт на чужие бренды)."
+ },
+ {
+  "domain": "mostbetonlinede.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Все кнопки ведут на свой шлюз /play/ → startgogologauscentral.xyz/go/ref09463/de/ → sp1n1278line.com/?mid=301808_... — чужое казино."
+ },
+ {
+  "domain": "mostbetpartners.app",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Бангладешский клон: кнопки «নিবন্ধন» через /register в браузере уводят на 520bd09.vip/register?affiliateCode=ge8bd0k — чужой оператор с кодом партнёра; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetpartners.bet",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Бангладешский клон: кнопки «নিবন্ধন» через /register в браузере уводят на 520bd09.vip/register?affiliateCode=ge8bd0k — чужой оператор с кодом партнёра; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetpartners.biz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Бангладешский клон: кнопки «নিবন্ধন» через /register в браузере уводят на 520bd09.vip/register?affiliateCode=ge8bd0k — чужой оператор с кодом партнёра; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetpartners.click",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Бангладешский клон: кнопки «নিবন্ধন» через /register в браузере уводят на 520bd09.vip/register?affiliateCode=ge8bd0k — чужой оператор с кодом партнёра; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetpartners.pro",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Бангладешский клон: кнопки «নিবন্ধন» через /register в браузере уводят на 520bd09.vip/register?affiliateCode=ge8bd0k — чужой оператор с кодом партнёра; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetpartners.ws",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Бангладешский клон: кнопки «নিবন্ধন» через /register в браузере уводят на 520bd09.vip/register?affiliateCode=ge8bd0k — чужой оператор с кодом партнёра; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetplay.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Бангладешский клон: кнопки «নিবন্ধন» через /register в браузере уводят на 520bd09.vip/register?affiliateCode=ge8bd0k — чужой оператор с кодом партнёра; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetportugal.pt",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Кнопки /registration, /login, /get-bonus ведут на clck.ru/3EZwS9 → webcolibri.ru/rPLcRM (мёртв), получатель неизвестен; сайт из сетки mostbetuzs.com, где кнопки ведут на Mostbet-трекер weg96sbmb.com — чужая реклама не доказана."
+ },
+ {
+  "domain": "mostbetpromo.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Все кнопки через свой шлюз /go на doublehtraff.com/cXStcq?sub_id_1=... — чужой трекер (тот же у сетки венгерских mostbet-доменов), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbets-az4.info",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.7,
+  "comment": "Кнопки /play-now ведут на трекер ozj0m1h.com/1dAF?sub1=... (случайный хост, короткий код), хост не похож на трекеры Mostbet (…mb/…mst)."
+ },
+ {
+  "domain": "mostbets-uk.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Кнопки /go → popopaws.pro/TNP6Jtdd → go2wool.com/en?stag=178020_... — чужой оператор с кодом партнёра (stag), не Mostbet."
+ },
+ {
+  "domain": "mostbetslogin.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Все кнопки (Claim Bonus, Play at Mostbet, Login) ведут на трекер qnr.me/click?key=26c49b...; получатель по файлам не открыт, Mostbet-трекером он нигде не подтверждён — по правилу считается чужим."
+ },
+ {
+  "domain": "mostbetslot.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Все кнопки через свой шлюз /go на doublehtraff.com/cXStcq?sub_id_1=... — чужой трекер (тот же у сетки венгерских mostbet-доменов), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "multiplaz.com.ua",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Поддомен mostbet.multiplaz.com.ua: кнопки header/footer через workaroundxyz.com/1bYSbzSH уводят на go.stawkibet4.io и stawkibet4.io — чужой бренд."
+ },
+ {
+  "domain": "nadafund.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Обзор Mostbet на азербайджанском; кнопки ведут на getruvada.com/?promo=uuid&target=register — формат зеркал Vavada (как infowawada.com → vavada.co)."
+ },
+ {
+  "domain": "naigora.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.7,
+  "comment": "Кнопка «Hrát Mostbet» ведёт на трекер thecasinoplayed.com/bGmtSytK?sub2=julcas, который сейчас уводит на joi.com с afid — чужая партнёрка, не Mostbet."
+ },
+ {
+  "domain": "nd-larenaissance.eu",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "cbos.pl (CBOS) и bkl.edu.pl — сноски-источники в тексте, не реклама; все кнопки «Zgarnij Bonus» якорные (#bonusy), в скрипте только ссылка на mostbet.com — чужой рекламы нет."
+ },
+ {
+  "domain": "ngsp89.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Кнопки ведут на dealbest-redirect.com/?ref=sl_w243680... и use-matchtrafficpulse.com — у других сайтов эта партнёрка уводит на ON-X/1xBet-зеркала."
+ },
+ {
+  "domain": "numizmatikaclassica.hu",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Кнопка и баннер в сайдбаре через lolwaytyu.com/ccv9cSJT уводят на royalsea1.com/regmail и 1bet-match.com (utm_term=hu-hotslots) — чужие бренды."
+ },
+ {
+  "domain": "oknatop.com.ua",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Кнопки header/footer через workaroundxyz.com/1bYSbzSH уводят на go.stawkibet4.io и stawkibet4.io/uk — чужой бренд."
+ },
+ {
+  "domain": "oloziolo.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Кнопка «Graj Teraz» через sltna.pclira.com уводит на slotuna-0296.com/registration?mid=371788_... — казино Slotuna."
+ },
+ {
+  "domain": "opk-gorodu.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Клон интерфейса Mostbet; кнопки через свой /go-to-play-cczpl0k.php уводят на bestonxprojump.com/?ref=ox_w250264... — ON-X."
+ },
+ {
+  "domain": "otilor-shop.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Клон интерфейса Mostbet; кнопки через свой /go-to-play-cczpl0k.php уводят на bestonxprojump.com/?ref=ox_w250264... — ON-X."
+ }
+]

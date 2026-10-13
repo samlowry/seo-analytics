@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "kneequickie.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.6,
+  "comment": "Домен без бренда, переезд на thehatchery.club: рейтинг четырёх операторов (Mostbet 39 упоминаний, 888 — 26, Solverde — 22, Estoril Sol — 20), все кнопки «Jogue agora» (data-href base64) → onlinecasinoportugal.vip/play → трекер clickfrbt-2.com/BJpk477W; семейство clickfrbt-* у других сайтов ведёт на 1Red, Lilu, Gtspins. Монобренда Mostbet нет; если владелец считает такой рейтинг страницей про Mostbet — mb_page_other."
+ },
+ {
+  "domain": "lamozzarellaaveiro.pt",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.6,
+  "comment": "Домен без бренда, переезд на thehatchery.club: рейтинг четырёх операторов (Mostbet 39 упоминаний, 888 — 26, Solverde — 22, Estoril Sol — 20), все кнопки «Jogue agora» (data-href base64) → onlinecasinoportugal.vip/play → трекер clickfrbt-2.com/BJpk477W; семейство clickfrbt-* у других сайтов ведёт на 1Red, Lilu, Gtspins. Монобренда Mostbet нет; если владелец считает такой рейтинг страницей про Mostbet — mb_page_other."
+ },
+ {
+  "domain": "manmachinegames.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.6,
+  "comment": "Домен без бренда, переезд на thehatchery.club: рейтинг четырёх операторов (Mostbet 39 упоминаний, 888 — 26, Solverde — 22, Estoril Sol — 20), все кнопки «Jogue agora» (data-href base64) → onlinecasinoportugal.vip/play → трекер clickfrbt-2.com/BJpk477W; семейство clickfrbt-* у других сайтов ведёт на 1Red, Lilu, Gtspins. Монобренда Mostbet нет; если владелец считает такой рейтинг страницей про Mostbet — mb_page_other."
+ },
+ {
+  "domain": "mimikry.org",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.6,
+  "comment": "Домен без бренда, переезд на thehatchery.club: рейтинг четырёх операторов (Mostbet 39 упоминаний, 888 — 26, Solverde — 22, Estoril Sol — 20), все кнопки «Jogue agora» (data-href base64) → onlinecasinoportugal.vip/play → трекер clickfrbt-2.com/BJpk477W; семейство clickfrbt-* у других сайтов ведёт на 1Red, Lilu, Gtspins. Монобренда Mostbet нет; если владелец считает такой рейтинг страницей про Mostbet — mb_page_other."
+ },
+ {
+  "domain": "mingle-games.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.6,
+  "comment": "Домен без бренда, переезд на thehatchery.club: рейтинг четырёх операторов (Mostbet 39 упоминаний, 888 — 26, Solverde — 22, Estoril Sol — 20), все кнопки «Jogue agora» (data-href base64) → onlinecasinoportugal.vip/play → трекер clickfrbt-2.com/BJpk477W; семейство clickfrbt-* у других сайтов ведёт на 1Red, Lilu, Gtspins. Монобренда Mostbet нет; если владелец считает такой рейтинг страницей про Mostbet — mb_page_other."
+ },
+ {
+  "domain": "mostbet-kasino.pl",
+  "given": "mono_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.4,
+  "comment": "Монобренд Mostbet; все кнопки → /go/ → 3o1.org/all/?from=mostbet-kasino.pl → crownwork.info?sub_id_1=… (пустая страница). Получатель TDS неизвестен, у других сайтов 3o1.org не встречается."
+ },
+ {
+  "domain": "mostbet-partner.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet BD (бренд в домене и title); кнопки login()/register() из обфусцированного main.js открывают 19tbajee.com/m/register?affiliateCode=seo555 — рефка оператора Baji."
+ },
+ {
+  "domain": "mostbet-portu.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.8,
+  "comment": "Mostbet в домене, главная уводит на чужой сайт — переезд на thehatchery.club: рейтинг четырёх операторов (Mostbet 39 упоминаний, 888 — 26, Solverde — 22, Estoril Sol — 20), все кнопки «Jogue agora» (data-href base64) → onlinecasinoportugal.vip/play → трекер clickfrbt-2.com/BJpk477W; семейство clickfrbt-* у других сайтов ведёт на 1Red, Lilu, Gtspins. Это не монобренд, а рейтинг под чужой трекер."
+ },
+ {
+  "domain": "mostbet-portugal.monster",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.8,
+  "comment": "Mostbet в домене, главная уводит на чужой сайт — переезд на thehatchery.club: рейтинг четырёх операторов (Mostbet 39 упоминаний, 888 — 26, Solverde — 22, Estoril Sol — 20), все кнопки «Jogue agora» (data-href base64) → onlinecasinoportugal.vip/play → трекер clickfrbt-2.com/BJpk477W; семейство clickfrbt-* у других сайтов ведёт на 1Red, Lilu, Gtspins. Это не монобренд, а рейтинг под чужой трекер."
+ },
+ {
+  "domain": "mostbet-pt.lat",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.8,
+  "comment": "Mostbet в домене, главная уводит на чужой сайт — переезд на thehatchery.club: рейтинг четырёх операторов (Mostbet 39 упоминаний, 888 — 26, Solverde — 22, Estoril Sol — 20), все кнопки «Jogue agora» (data-href base64) → onlinecasinoportugal.vip/play → трекер clickfrbt-2.com/BJpk477W; семейство clickfrbt-* у других сайтов ведёт на 1Red, Lilu, Gtspins. Это не монобренд, а рейтинг под чужой трекер."
+ },
+ {
+  "domain": "mostbetcasino-pt.cyou",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.8,
+  "comment": "Mostbet в домене, главная уводит на чужой сайт — переезд на thehatchery.club: рейтинг четырёх операторов (Mostbet 39 упоминаний, 888 — 26, Solverde — 22, Estoril Sol — 20), все кнопки «Jogue agora» (data-href base64) → onlinecasinoportugal.vip/play → трекер clickfrbt-2.com/BJpk477W; семейство clickfrbt-* у других сайтов ведёт на 1Red, Lilu, Gtspins. Это не монобренд, а рейтинг под чужой трекер."
+ },
+ {
+  "domain": "mostbetcasino-pt.sbs",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.8,
+  "comment": "Mostbet в домене, главная уводит на чужой сайт — переезд на thehatchery.club: рейтинг четырёх операторов (Mostbet 39 упоминаний, 888 — 26, Solverde — 22, Estoril Sol — 20), все кнопки «Jogue agora» (data-href base64) → onlinecasinoportugal.vip/play → трекер clickfrbt-2.com/BJpk477W; семейство clickfrbt-* у других сайтов ведёт на 1Red, Lilu, Gtspins. Это не монобренд, а рейтинг под чужой трекер."
+ },
+ {
+  "domain": "mostbetoficial-pt.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.8,
+  "comment": "Mostbet в домене, главная уводит на чужой сайт — переезд на thehatchery.club: рейтинг четырёх операторов (Mostbet 39 упоминаний, 888 — 26, Solverde — 22, Estoril Sol — 20), все кнопки «Jogue agora» (data-href base64) → onlinecasinoportugal.vip/play → трекер clickfrbt-2.com/BJpk477W; семейство clickfrbt-* у других сайтов ведёт на 1Red, Lilu, Gtspins. Это не монобренд, а рейтинг под чужой трекер."
+ },
+ {
+  "domain": "mostbetoficial-pt.click",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.8,
+  "comment": "Mostbet в домене, главная уводит на чужой сайт — переезд на thehatchery.club: рейтинг четырёх операторов (Mostbet 39 упоминаний, 888 — 26, Solverde — 22, Estoril Sol — 20), все кнопки «Jogue agora» (data-href base64) → onlinecasinoportugal.vip/play → трекер clickfrbt-2.com/BJpk477W; семейство clickfrbt-* у других сайтов ведёт на 1Red, Lilu, Gtspins. Это не монобренд, а рейтинг под чужой трекер."
+ },
+ {
+  "domain": "mostbetoficial-pt.cyou",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.8,
+  "comment": "Mostbet в домене, главная уводит на чужой сайт — переезд на thehatchery.club: рейтинг четырёх операторов (Mostbet 39 упоминаний, 888 — 26, Solverde — 22, Estoril Sol — 20), все кнопки «Jogue agora» (data-href base64) → onlinecasinoportugal.vip/play → трекер clickfrbt-2.com/BJpk477W; семейство clickfrbt-* у других сайтов ведёт на 1Red, Lilu, Gtspins. Это не монобренд, а рейтинг под чужой трекер."
+ },
+ {
+  "domain": "mostbetoficial-pt.rest",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.8,
+  "comment": "Mostbet в домене, главная уводит на чужой сайт — переезд на thehatchery.club: рейтинг четырёх операторов (Mostbet 39 упоминаний, 888 — 26, Solverde — 22, Estoril Sol — 20), все кнопки «Jogue agora» (data-href base64) → onlinecasinoportugal.vip/play → трекер clickfrbt-2.com/BJpk477W; семейство clickfrbt-* у других сайтов ведёт на 1Red, Lilu, Gtspins. Это не монобренд, а рейтинг под чужой трекер."
+ },
+ {
+  "domain": "mostbetoficial.click",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.8,
+  "comment": "Mostbet в домене, главная уводит на чужой сайт — переезд на thehatchery.club: рейтинг четырёх операторов (Mostbet 39 упоминаний, 888 — 26, Solverde — 22, Estoril Sol — 20), все кнопки «Jogue agora» (data-href base64) → onlinecasinoportugal.vip/play → трекер clickfrbt-2.com/BJpk477W; семейство clickfrbt-* у других сайтов ведёт на 1Red, Lilu, Gtspins. Это не монобренд, а рейтинг под чужой трекер."
+ },
+ {
+  "domain": "mostbetportugal.co",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.8,
+  "comment": "Mostbet в домене, главная уводит на чужой сайт — переезд на thehatchery.club: рейтинг четырёх операторов (Mostbet 39 упоминаний, 888 — 26, Solverde — 22, Estoril Sol — 20), все кнопки «Jogue agora» (data-href base64) → onlinecasinoportugal.vip/play → трекер clickfrbt-2.com/BJpk477W; семейство clickfrbt-* у других сайтов ведёт на 1Red, Lilu, Gtspins. Это не монобренд, а рейтинг под чужой трекер."
+ },
+ {
+  "domain": "mostbetportugal.sbs",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.8,
+  "comment": "Mostbet в домене, главная уводит на чужой сайт — переезд на thehatchery.club: рейтинг четырёх операторов (Mostbet 39 упоминаний, 888 — 26, Solverde — 22, Estoril Sol — 20), все кнопки «Jogue agora» (data-href base64) → onlinecasinoportugal.vip/play → трекер clickfrbt-2.com/BJpk477W; семейство clickfrbt-* у других сайтов ведёт на 1Red, Lilu, Gtspins. Это не монобренд, а рейтинг под чужой трекер."
+ },
+ {
+  "domain": "mostbets-cz.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "1win.global/Casino есть только в закомментированных строках скрипта (// var Imagepath, // var siteimgurl) — не ссылка. Все кнопки входа ведут на «/», внешней рекламы нет."
+ },
+ {
+  "domain": "mostbets-pt.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.8,
+  "comment": "Mostbet в домене, главная уводит на чужой сайт — переезд на thehatchery.club: рейтинг четырёх операторов (Mostbet 39 упоминаний, 888 — 26, Solverde — 22, Estoril Sol — 20), все кнопки «Jogue agora» (data-href base64) → onlinecasinoportugal.vip/play → трекер clickfrbt-2.com/BJpk477W; семейство clickfrbt-* у других сайтов ведёт на 1Red, Lilu, Gtspins. Это не монобренд, а рейтинг под чужой трекер."
+ },
+ {
+  "domain": "motorradhangar.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.6,
+  "comment": "Домен без бренда, переезд на thehatchery.club: рейтинг четырёх операторов (Mostbet 39 упоминаний, 888 — 26, Solverde — 22, Estoril Sol — 20), все кнопки «Jogue agora» (data-href base64) → onlinecasinoportugal.vip/play → трекер clickfrbt-2.com/BJpk477W; семейство clickfrbt-* у других сайтов ведёт на 1Red, Lilu, Gtspins. Монобренда Mostbet нет; если владелец считает такой рейтинг страницей про Mostbet — mb_page_other."
+ },
+ {
+  "domain": "myseocare.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.6,
+  "comment": "Домен без бренда, переезд на thehatchery.club: рейтинг четырёх операторов (Mostbet 39 упоминаний, 888 — 26, Solverde — 22, Estoril Sol — 20), все кнопки «Jogue agora» (data-href base64) → onlinecasinoportugal.vip/play → трекер clickfrbt-2.com/BJpk477W; семейство clickfrbt-* у других сайтов ведёт на 1Red, Lilu, Gtspins. Монобренда Mostbet нет; если владелец считает такой рейтинг страницей про Mostbet — mb_page_other."
+ },
+ {
+  "domain": "novaagora.pt",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.6,
+  "comment": "Домен без бренда, переезд на thehatchery.club: рейтинг четырёх операторов (Mostbet 39 упоминаний, 888 — 26, Solverde — 22, Estoril Sol — 20), все кнопки «Jogue agora» (data-href base64) → onlinecasinoportugal.vip/play → трекер clickfrbt-2.com/BJpk477W; семейство clickfrbt-* у других сайтов ведёт на 1Red, Lilu, Gtspins. Монобренда Mostbet нет; если владелец считает такой рейтинг страницей про Mostbet — mb_page_other."
+ },
+ {
+  "domain": "sismica2024.pt",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.6,
+  "comment": "Домен без бренда, переезд на thehatchery.club: рейтинг четырёх операторов (Mostbet 39 упоминаний, 888 — 26, Solverde — 22, Estoril Sol — 20), все кнопки «Jogue agora» (data-href base64) → onlinecasinoportugal.vip/play → трекер clickfrbt-2.com/BJpk477W; семейство clickfrbt-* у других сайтов ведёт на 1Red, Lilu, Gtspins. Монобренда Mostbet нет; если владелец считает такой рейтинг страницей про Mostbet — mb_page_other."
+ },
+ {
+  "domain": "sleeplessclinic.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.6,
+  "comment": "Домен без бренда, переезд на thehatchery.club: рейтинг четырёх операторов (Mostbet 39 упоминаний, 888 — 26, Solverde — 22, Estoril Sol — 20), все кнопки «Jogue agora» (data-href base64) → onlinecasinoportugal.vip/play → трекер clickfrbt-2.com/BJpk477W; семейство clickfrbt-* у других сайтов ведёт на 1Red, Lilu, Gtspins. Монобренда Mostbet нет; если владелец считает такой рейтинг страницей про Mostbet — mb_page_other."
+ },
+ {
+  "domain": "slotsmostbet-bd.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet BD (бренд в домене и title); кнопки login()/register() из обфусцированного main.js открывают 19tbajee.com/m/register?affiliateCode=seo555 — рефка оператора Baji."
+ },
+ {
+  "domain": "stcatharinesconcrete.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.6,
+  "comment": "Домен без бренда, переезд на thehatchery.club: рейтинг четырёх операторов (Mostbet 39 упоминаний, 888 — 26, Solverde — 22, Estoril Sol — 20), все кнопки «Jogue agora» (data-href base64) → onlinecasinoportugal.vip/play → трекер clickfrbt-2.com/BJpk477W; семейство clickfrbt-* у других сайтов ведёт на 1Red, Lilu, Gtspins. Монобренда Mostbet нет; если владелец считает такой рейтинг страницей про Mostbet — mb_page_other."
+ },
+ {
+  "domain": "steamcarnival.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.6,
+  "comment": "Домен без бренда, переезд на thehatchery.club: рейтинг четырёх операторов (Mostbet 39 упоминаний, 888 — 26, Solverde — 22, Estoril Sol — 20), все кнопки «Jogue agora» (data-href base64) → onlinecasinoportugal.vip/play → трекер clickfrbt-2.com/BJpk477W; семейство clickfrbt-* у других сайтов ведёт на 1Red, Lilu, Gtspins. Монобренда Mostbet нет; если владелец считает такой рейтинг страницей про Mostbet — mb_page_other."
+ },
+ {
+  "domain": "sushissimo.pt",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.6,
+  "comment": "Домен без бренда, переезд на thehatchery.club: рейтинг четырёх операторов (Mostbet 39 упоминаний, 888 — 26, Solverde — 22, Estoril Sol — 20), все кнопки «Jogue agora» (data-href base64) → onlinecasinoportugal.vip/play → трекер clickfrbt-2.com/BJpk477W; семейство clickfrbt-* у других сайтов ведёт на 1Red, Lilu, Gtspins. Монобренда Mostbet нет; если владелец считает такой рейтинг страницей про Mostbet — mb_page_other."
+ },
+ {
+  "domain": "thehatchery.club",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.6,
+  "comment": "Сам сайт-приёмник переездов, переезд на thehatchery.club: рейтинг четырёх операторов (Mostbet 39 упоминаний, 888 — 26, Solverde — 22, Estoril Sol — 20), все кнопки «Jogue agora» (data-href base64) → onlinecasinoportugal.vip/play → трекер clickfrbt-2.com/BJpk477W; семейство clickfrbt-* у других сайтов ведёт на 1Red, Lilu, Gtspins. Монобренда Mostbet нет; если владелец считает такой рейтинг страницей про Mostbet — mb_page_other."
+ },
+ {
+  "domain": "transparency-usa.org",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.6,
+  "comment": "Домен без бренда, переезд на thehatchery.club: рейтинг четырёх операторов (Mostbet 39 упоминаний, 888 — 26, Solverde — 22, Estoril Sol — 20), все кнопки «Jogue agora» (data-href base64) → onlinecasinoportugal.vip/play → трекер clickfrbt-2.com/BJpk477W; семейство clickfrbt-* у других сайтов ведёт на 1Red, Lilu, Gtspins. Монобренда Mostbet нет; если владелец считает такой рейтинг страницей про Mostbet — mb_page_other."
+ },
+ {
+  "domain": "tripr.pt",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.6,
+  "comment": "Домен свой, переезд на thehatchery.club: рейтинг четырёх операторов (Mostbet 39 упоминаний, 888 — 26, Solverde — 22, Estoril Sol — 20), все кнопки «Jogue agora» (data-href base64) → onlinecasinoportugal.vip/play → трекер clickfrbt-2.com/BJpk477W; семейство clickfrbt-* у других сайтов ведёт на 1Red, Lilu, Gtspins. Монобренда Mostbet нет; если владелец считает такой рейтинг страницей про Mostbet — mb_page_other."
+ },
+ {
+  "domain": "umdiavamos.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.6,
+  "comment": "Домен без бренда, переезд на thehatchery.club: рейтинг четырёх операторов (Mostbet 39 упоминаний, 888 — 26, Solverde — 22, Estoril Sol — 20), все кнопки «Jogue agora» (data-href base64) → onlinecasinoportugal.vip/play → трекер clickfrbt-2.com/BJpk477W; семейство clickfrbt-* у других сайтов ведёт на 1Red, Lilu, Gtspins. Монобренда Mostbet нет; если владелец считает такой рейтинг страницей про Mostbet — mb_page_other."
+ },
+ {
+  "domain": "1918-1938.cz",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.65,
+  "comment": "Монобренд Mostbet CZ; единственная кнопка /go/ → routezen.online/… → в сохранённых прогонах simkmumb.com → Mostbet pid=147099, в прогоне классификатора тот же routezen → bigclash-9829.com/lv/registration?mid=388580 (BigClash). Ротация по гео, в локальных файлах чужой исход не подтверждён."
+ },
+ {
+  "domain": "23cityblocks.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.65,
+  "comment": "Монобренд Mostbet BD; кнопки /go/registration → в сохранённых прогонах cpmldqmb.com → Mostbet pid=304732, в прогоне классификатора → sltna.pclira.com?mid=371788 → slotuna-0296.com (Slotuna). Ротация шлюза, чужой исход в локальных файлах не подтверждён."
+ },
+ {
+  "domain": "addsolutions.in",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "«Чужая» ссылка — демо слота в модалке Play (data-url lrs-…/launch?partner=mostbet-prod, exit_url=8unx689.com), это провайдер игр самого Mostbet. Кнопки Download → regu.crickacademy.com/nHcVnsu → Mostbet pid=37776."
+ },
+ {
+  "domain": "akwaaba.cz",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.65,
+  "comment": "Монобренд Mostbet CZ; единственная кнопка /go/ → routezen.online/… → в сохранённых прогонах simkmumb.com → Mostbet pid=147099, в прогоне классификатора тот же routezen → bigclash-9829.com/lv/registration?mid=388580 (BigClash). Ротация по гео, в локальных файлах чужой исход не подтверждён."
+ },
+ {
+  "domain": "aoluoi.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.65,
+  "comment": "Монобренд Mostbet BD; кнопки /go/registration → в сохранённых прогонах cpmldqmb.com → Mostbet pid=304732, в прогоне классификатора → sltna.pclira.com?mid=371788 → slotuna-0296.com (Slotuna). Ротация шлюза, чужой исход в локальных файлах не подтверждён."
+ },
+ {
+  "domain": "birwebtasarim.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.65,
+  "comment": "Монобренд Mostbet BD; кнопки /go/registration → в сохранённых прогонах cpmldqmb.com → Mostbet pid=304732, в прогоне классификатора → sltna.pclira.com?mid=371788 → slotuna-0296.com (Slotuna). Ротация шлюза, чужой исход в локальных файлах не подтверждён."
+ },
+ {
+  "domain": "bitscams.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.65,
+  "comment": "Монобренд Mostbet BD; кнопки /go/registration → в сохранённых прогонах cpmldqmb.com → Mostbet pid=304732, в прогоне классификатора → sltna.pclira.com?mid=371788 → slotuna-0296.com (Slotuna). Ротация шлюза, чужой исход в локальных файлах не подтверждён."
+ },
+ {
+  "domain": "canyounot.org",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "«Чужая» ссылка — демо слота в модалке Play (data-url lrs-…/launch?partner=mostbet-prod, exit_url=8unx689.com), это провайдер игр самого Mostbet. Кнопки Download → regu.crickacademy.com/nHcVnsu → Mostbet pid=37776."
+ },
+ {
+  "domain": "cktschool.in",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "«Чужая» ссылка — демо слота в модалке Play (data-url lrs-…/launch?partner=mostbet-prod, exit_url=8unx689.com), это провайдер игр самого Mostbet. Кнопки Download → regu.crickacademy.com/nHcVnsu → Mostbet pid=37776."
+ },
+ {
+  "domain": "davcommercesolapur.org",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "«Чужая» ссылка — демо слота в модалке Play (data-url lrs-…/launch?partner=mostbet-prod, exit_url=8unx689.com), это провайдер игр самого Mostbet. Кнопки Download → regu.crickacademy.com/nHcVnsu → Mostbet pid=37776."
+ },
+ {
+  "domain": "ekofun.cz",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.65,
+  "comment": "Монобренд Mostbet CZ; единственная кнопка /go/ → routezen.online/… → в сохранённых прогонах simkmumb.com → Mostbet pid=147099, в прогоне классификатора тот же routezen → bigclash-9829.com/lv/registration?mid=388580 (BigClash). Ротация по гео, в локальных файлах чужой исход не подтверждён."
+ },
+ {
+  "domain": "eliteexams.in",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "«Чужая» ссылка — демо слота в модалке Play (data-url lrs-…/launch?partner=mostbet-prod, exit_url=8unx689.com), это провайдер игр самого Mostbet. Кнопки Download → regu.crickacademy.com/nHcVnsu → Mostbet pid=37776."
+ },
+ {
+  "domain": "eparichay.in",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "«Чужая» ссылка — демо слота в модалке Play (data-url lrs-…/launch?partner=mostbet-prod, exit_url=8unx689.com), это провайдер игр самого Mostbet. Кнопки Download → regu.crickacademy.com/nHcVnsu → Mostbet pid=37776."
+ },
+ {
+  "domain": "euforialab.pl",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Кнопки Play → play-link.org/126tw5z2?source=…&pid=241 → fvoidjmb.com, Mostbet pid=401053. getplay.plseocpa.com (Morospin, disabled.html) — та же ссылка с \\u0026 вместо &, код партнёра обрезан."
+ },
+ {
+  "domain": "havanacafe.info",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.65,
+  "comment": "Монобренд Mostbet BD; кнопки /go/registration → в сохранённых прогонах cpmldqmb.com → Mostbet pid=304732, в прогоне классификатора → sltna.pclira.com?mid=371788 → slotuna-0296.com (Slotuna). Ротация шлюза, чужой исход в локальных файлах не подтверждён."
+ },
+ {
+  "domain": "hungarytourism.cz",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.65,
+  "comment": "Монобренд Mostbet CZ; единственная кнопка /go/ → routezen.online/… → в сохранённых прогонах simkmumb.com → Mostbet pid=147099, в прогоне классификатора тот же routezen → bigclash-9829.com/lv/registration?mid=388580 (BigClash). Ротация по гео, в локальных файлах чужой исход не подтверждён."
+ }
+]

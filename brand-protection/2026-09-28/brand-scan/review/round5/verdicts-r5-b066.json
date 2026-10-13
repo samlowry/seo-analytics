@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbet-casino-qtr1.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-casino-qtr1.ru/goto/1837 ведёт на Martin Casino (https://casinomartin142.com/) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-casino-qtr2.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-casino-qtr2.ru/goto/1837 ведёт на Martin Casino (https://casinomartin142.com/) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-casino-qtr3.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-casino-qtr3.ru/goto/1837 ведёт на Martin Casino (https://casinomartin142.com/) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-casino-ro.ro",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://vip.cas1n0.one/click?key=9e72cd458bc5a66eb926&page=index&link= ведёт на 1xBet (https://1xbet.rs:443/en/registration) с кодом партнёра. Параметр brand=Mostbet в трекере vip.cas1n0.one — метка, ведёт трекер на 1xBet (36 из 36 в destinations)."
+ },
+ {
+  "domain": "mostbet-casino-uk.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-casino-uk.com/go ведёт на Faqja Zyrtare e Kazinosë Spingranny (https://709spingranny.com/sq) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-casino-ux4.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-casino-ux4.ru/goto/1837 ведёт на Martin Casino (https://casinomartin142.com/) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-casino-yeh.buzz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-casino-yeh.buzz/go/velora ведёт на Velora Casino (https://4v3lor4-prev4il.com/) с кодом партнёра. Плюс 13 скрытых ссылок."
+ },
+ {
+  "domain": "mostbet-casino-zd5.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-casino-zd5.ru/goto/1837 ведёт на Martin Casino (https://casinomartin142.com/) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-casino.info.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-casino.info.pl/go/registration ведёт на Parimatch (https://parimatch.now/en/registration) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-casino.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-casino.org/play ведёт на 1xBet (https://1xbet.rs:443/en/registration) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-casino.us.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-casino.us.com/go/ ведёт на Winshark (https://winshark13.com/en) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-casino2.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-casino2.com/get/ ведёт на Winshark (https://winshark13.com/en) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-casinocz.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://gotogame1.com/dtKsr1?sub_id_1=7305&sub_id_10=Mostbet+Casino ведёт на Dobrodošli u Online Casino Lobby u Winairlines ✅ (https://63winairlines41.com/sr/lobby) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-casinohu.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-casinohu.org/play ведёт на Baxterbet (https://8-baxterbet53.com/sr) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-casinons.cyou",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-casinons.cyou/play ведёт на 1xBet (https://1xbet.rs:443/en/registration) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-casinoo.app",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-casinoo.app/jump/ ведёт на Winshark (https://winshark13.com/en) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-casinoo.best",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-casinoo.best/visit/ ведёт на Winshark (https://winshark13.com/en) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-casinoo.casino",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-casinoo.casino/jump/ ведёт на Winshark (https://winshark13.com/en) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-casinoo.click",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-casinoo.click/jump/ ведёт на Winshark (https://winshark13.com/en) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-casinoo.com.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-casinoo.com.pl/go/ ведёт на Winshark (https://winshark13.com/en) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-casinoo.info",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-casinoo.info/click/ ведёт на Winshark (https://winshark13.com/en) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-casinoo.ink",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-casinoo.ink/go/ ведёт на Winshark (https://winshark13.com/en) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-casinos-pl.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://casino.casino-link.workers.dev/?source=mostbet-casinos-pl.com ведёт на Slotuna online casino and sports betting (https://slotuna-0296.com/sr/registration) с кодом партнёра. Плюс 7 скрытых ссылок."
+ },
+ {
+  "domain": "mostbet-casinos.org.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://track-mono.com/allmono?kg=mostbet&s=mostbet-casinos.org.pl&bl= ведёт на Crypto Casino & Sportsbook (https://www.bets.io/) с кодом партнёра. Трекер track-mono.com с kg=mostbet ведёт на bets.io."
+ },
+ {
+  "domain": "mostbet-casinoz.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://www.mostbet-casinoz.cz/play/ ведёт на 1win (https://one-vv3429.com/sr-RS/) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-cazic.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://jetbetlura.click/chOmTFcSmaW?click_id=roma-mostbet-cazic.top&t ведёт на JetTon Games (https://jetbetluxe.com/en) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-co.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-co.com/go/register ведёт на Dobrodošli u Online Casino Lobby u Winairlines ✅ (https://42winairlines64.com/sr/lobby) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-code.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-code.com/join ведёт на 1xBet (https://1xbet.rs:443/en/registration) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-col.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-col.com/go/register ведёт на Dobrodošli u Online Casino Lobby u Winairlines ✅ (https://68winairlines86.com/sr/lobby) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-crash.kz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-crash.kz/click ведёт на 1xBet (https://1xbet.rs:443/en/registration) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-cz-casino.win",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-cz-casino.win/go/register ведёт на Lussurio (https://lussurio.com/) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-czechia.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-czechia.com/go/register ведёт на Bine ați venit în Lobby-ul Cazinoului Online de la Winairlin (https://84winairlines13.com/ro/lobby) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-czesko.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-czesko.com/go/register ведёт на Dobrodošli u Online Casino Lobby u Winairlines ✅ (https://63winairlines41.com/sr/lobby) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-dfg34.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-dfg34.com/goto/ ведёт на ON-X (https://matchmarketpulseuse.com/) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-fgh48.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-fgh48.com/goto/ ведёт на ON-X (https://matchmarketpulseuse.com/) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-gamble.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-gamble.com/play ведёт на 1xBet (https://1xbet.rs:443/en/registration) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-gambling.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-gambling.net/go/ ведёт на 1xBet (https://1xbet.rs:443/en/registration) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-game.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbets-magyar.net/go/ ведёт на Kingmaker (https://kingmaker-8118.com/hu/registration) с кодом партнёра. Главная переезжает на mostbets-magyar.net, там то же."
+ },
+ {
+  "domain": "mostbet-gaming.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-gaming.net/go/ ведёт на Kingmaker (https://kingmaker-8118.com/hu/registration) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-gaming.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-gaming.org/go/ ведёт на Kingmaker (https://kingmaker-8118.com/hu/registration) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-ghj15.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-ghj15.com/goto/ ведёт на ON-X (https://matchmarketpulseuse.com/) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-giriss.ink",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-giriss.ink/play ведёт на 1xBet (https://1xbet.rs:443/en/registration) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-h.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-h.com/go/register ведёт на Dobrodošli u Online Casino Lobby u Winairlines ✅ (https://76winairlines48.com/sr/lobby) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-hesab.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-hesab.com/join ведёт на 1xBet (https://1xbet.rs:443/en/registration) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-himalaya.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-himalaya.com/go/login ведёт на Dobrodošli u Online Casino Lobby u Winairlines ✅ (https://63winairlines41.com/sr/lobby) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-hu-online.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-hu-online.com/go/register ведёт на Dobrodošli u Online Casino Lobby u Winairlines ✅ (https://76winairlines48.com/sr/lobby) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-hu.it.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-hu.it.com/go/go.php ведёт на Fonbet (https://fonbet001.com/) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-hu3.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-hu3.com/go/go.php ведёт на Spinfin (https://spinfin4.com/en/registration) с кодом партнёра."
+ },
+ {
+  "domain": "mostbet-hu4.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-hu4.com/go/go.php ведёт на Atefia (https://atefia8.com/hu/registration) с кодом партнёра. Плюс 9 скрытых ссылок."
+ },
+ {
+  "domain": "mostbet-hu5.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, рекламы Mostbet нет; кнопка https://mostbet-hu5.com/go/go.php ведёт на Atefia (https://atefia8.com/hu/registration) с кодом партнёра."
+ }
+]

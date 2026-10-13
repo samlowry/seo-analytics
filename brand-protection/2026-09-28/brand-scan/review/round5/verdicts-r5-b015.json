@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "xn--80abbijju5a2a.xn--p1ai",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (title/h1 «Мостбет официальный сайт»); кнопка «Вход» ведёт на трекер use-matchtrafficpulse.com, второй — dealbest-redirect.com ref=sl_w243680…, который у других сайтов уводит на On-X/1xbet-лендинги; рекламы Mostbet нет."
+ },
+ {
+  "domain": "xn--h1acdfggncfk.xn--p1ai",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Клон того же шаблона «Мостбет официальный сайт»; «Вход» → use-matchtrafficpulse.com, dealbest-redirect.com (ON-X по destinations.csv), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "yumey-brand.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Сайт целиком про Mostbet (title «Мостбет официальный сайт»), кнопка ведёт через свой go-to-play-*.php на bestonxprojump.com/?ref=ox_w250264… (партнёрка On-X)."
+ },
+ {
+  "domain": "zajazdmilki.mazury.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Страница-клон «Mostbet Casino» на поддомене; слайдер ведёт на трекер track-mono.com/allmono?kg=mostbet → wolf.io (чужой оператор)."
+ },
+ {
+  "domain": "duiheomuoiespana.vn",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.6,
+  "comment": "Взломанный сайт продавца хамона: pinup.com — в общем скрытом блоке спама (left:-7786px) вместе с testasdasd.com, NV Casino и др., не в посте про Mostbet; страница поста /mostbet-500-2/ чужой рекламы не содержит."
+ },
+ {
+  "domain": "11bikefest.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд MostBet Polska; свои шлюзы /login, /play, /registration ведут на 593nv.casino/?atp=11bikefest.pl (NV Casino), плюс трекер xxxreff.xyz."
+ },
+ {
+  "domain": "aviator-mosbet.kz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Сайт «Авиатор в Mostbet» (домен с опечаткой mosbet); баннеры «Nomad» и «Games KZ» ведут на affgo.org/?pid=nomadkz-pbnmaster / sultankz-pbnmaster — чужие казино (Nomad, Sultan Games)."
+ },
+ {
+  "domain": "bd-mostbet-app.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене и title; кнопки Login/Register через /tracking?action=click ведут на 19tbajee.com/19bdbajee.com /m/register?affiliateCode=seo555 (Baji) и 520bd12.vip."
+ },
+ {
+  "domain": "bd-mostbetbd.club",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене и title; клики login/register (/api?action=click) уводят на 19bdbajee.com, winbd17.com (affiliateCode=seo555) и 520bd12.vip — чужие операторы."
+ },
+ {
+  "domain": "best-mostbet.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, шаблон «Мостбет официальный сайт»; «Вход» → use-matchtrafficpulse.com и dealbest-redirect.com (On-X), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "betting-mostbet.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, тот же шаблон; «Вход» → use-matchtrafficpulse.com, dealbest-redirect.com ref=sl_w243680… (On-X)."
+ },
+ {
+  "domain": "casino-mostbet.gr",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.55,
+  "comment": "Mostbet в домене и h1; все кнопки ведут на свой /go/ → трекер goplayredirect.online/488feade01f7?var1=csn-mstbtgr; конечный бренд не установлен, засчитан по правилу о чужом трекере — проверить вручную."
+ },
+ {
+  "domain": "demodayopeninnovation.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Сайт «Casino Online Mostbet» на чужом домене; кнопки /go/ → conela2020.com.br/go/?sub1=a51 → slotcity.ua/registration?refcode=aff_… (Slot City)."
+ },
+ {
+  "domain": "franziskavonkempis.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Главная переезжает на mostbets-deutschland.de («Mostbet DE»); кнопка — трекер xxxreff.xyz/3SbMqc → 593nv.casino (NV Casino)."
+ },
+ {
+  "domain": "getfitmama.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «MostBet Polska»; шлюзы /reg, /play, /login → 593nv.casino/?atp=getfitmama.pl (NV Casino), трекер xxxreff.xyz."
+ },
+ {
+  "domain": "hackjam.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "«Oficjalna strona MostBet Polska»; кнопки «WEJŚCIE DO MOSTBET»/«REJESTRACJA» (/reg) ведут на 593nv.casino/?atp=hackjam.net."
+ },
+ {
+  "domain": "mos-tbet.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Монобренд mostbet (Бангладеш); ссылка на APK k-x8.com/apk-zl.html уводит на okgo1aa.com/register?affiliateCode=shanji001 (OKGO)."
+ },
+ {
+  "domain": "most-bet-brasil.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "«MostBet Casino Brasil»; кнопки CADASTRE-SE/INICIAR SESSAO (/go/) → conela2020.com.br/go/?sub1=a56 → slotcity.ua refcode=aff_…"
+ },
+ {
+  "domain": "most-bet.org.mx",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "«Ads» — это демо-игры провайдеров (playngonetwork, blueprintgaming, kaga88, gen-game) без партнёрского кода, не реклама операторов; все кнопки ведут на свой /goto/, куда он уводит — не записано."
+ },
+ {
+  "domain": "mostbet-0dec.buzz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, клон интерфейса Mostbet («ОБХОД БЛОКИРОВОК», линия/LIVE); все кнопки (трекер bigme.buzz/s8PhTV) ведут на r1wemeq.life/casino/list?open=register&p=kebv (схема 1win), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-0i3a.buzz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, клон интерфейса Mostbet («ОБХОД БЛОКИРОВОК», линия/LIVE); все кнопки /goto/ ведут на r1wemeq.life/casino/list?open=register&p=kebv (схема 1win), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-1.click",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Mostbet в домене и title; кнопки /go-mostbet/ → eutraffproject.pro/r1vW3xMP?site=35876, этот трекер у balgera.pl и mostbetcasino-bonus-pl.click ведёт на nv9.casino (NV Casino)."
+ },
+ {
+  "domain": "mostbet-1.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, клон интерфейса Mostbet («ОБХОД БЛОКИРОВОК», линия/LIVE); все кнопки (трекер bigme.buzz/s8PhTV) ведут на r1wemeq.life/casino/list?open=register&p=kebv (схема 1win), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-16ho.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, клон интерфейса Mostbet («ОБХОД БЛОКИРОВОК», линия/LIVE); все кнопки /goto/ ведут на r1wemeq.life/casino/list?open=register&p=kebv (схема 1win), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-1fe3.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, клон интерфейса Mostbet («ОБХОД БЛОКИРОВОК», линия/LIVE); все кнопки (трекер bigme.buzz/s8PhTV) ведут на r1wemeq.life/casino/list?open=register&p=kebv (схема 1win), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-1g8v.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, клон интерфейса Mostbet («ОБХОД БЛОКИРОВОК», линия/LIVE); все кнопки /goto/ ведут на r1wemeq.life/casino/list?open=register&p=kebv (схема 1win), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-1giv.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, клон интерфейса Mostbet («ОБХОД БЛОКИРОВОК», линия/LIVE); все кнопки /goto/ ведут на r1wemeq.life/casino/list?open=register&p=kebv (схема 1win), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-1mvb.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, клон интерфейса Mostbet («ОБХОД БЛОКИРОВОК», линия/LIVE); все кнопки /goto/ ведут на r1wemeq.life/casino/list?open=register&p=kebv (схема 1win), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-1oul.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, клон интерфейса Mostbet («ОБХОД БЛОКИРОВОК», линия/LIVE); все кнопки /goto/ ведут на r1wemeq.life/casino/list?open=register&p=kebv (схема 1win), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-1xas.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, клон интерфейса Mostbet («ОБХОД БЛОКИРОВОК», линия/LIVE); все кнопки /goto/ ведут на r1wemeq.life/casino/list?open=register&p=kebv (схема 1win), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-20lz.buzz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, клон интерфейса Mostbet («ОБХОД БЛОКИРОВОК», линия/LIVE); все кнопки (трекер bigme.buzz/s8PhTV) ведут на r1wemeq.life/casino/list?open=register&p=kebv (схема 1win), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-2gn5.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, клон интерфейса Mostbet («ОБХОД БЛОКИРОВОК», линия/LIVE); все кнопки /goto/ ведут на r1wemeq.life/casino/list?open=register&p=kebv (схема 1win), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-2i2j.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, клон интерфейса Mostbet («ОБХОД БЛОКИРОВОК», линия/LIVE); все кнопки /goto/ ведут на r1wemeq.life/casino/list?open=register&p=kebv (схема 1win), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-2tuk.buzz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, клон интерфейса Mostbet («ОБХОД БЛОКИРОВОК», линия/LIVE); все кнопки /goto/ ведут на r1wemeq.life/casino/list?open=register&p=kebv (схема 1win), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-3iv6.buzz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, клон интерфейса Mostbet («ОБХОД БЛОКИРОВОК», линия/LIVE); все кнопки /goto/ ведут на r1wemeq.life/casino/list?open=register&p=kebv (схема 1win), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-3s1e.buzz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, клон интерфейса Mostbet («ОБХОД БЛОКИРОВОК», линия/LIVE); все кнопки /goto/ ведут на r1wemeq.life/casino/list?open=register&p=kebv (схема 1win), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-42mf.buzz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, клон интерфейса Mostbet («ОБХОД БЛОКИРОВОК», линия/LIVE); все кнопки (трекер bigme.buzz/s8PhTV) ведут на r1wemeq.life/casino/list?open=register&p=kebv (схема 1win), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-4gz4.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, клон интерфейса Mostbet («ОБХОД БЛОКИРОВОК», линия/LIVE); все кнопки /goto/ ведут на r1wemeq.life/casino/list?open=register&p=kebv (схема 1win), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-4u35.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, клон интерфейса Mostbet («ОБХОД БЛОКИРОВОК», линия/LIVE); все кнопки (трекер bigme.buzz/s8PhTV) ведут на r1wemeq.life/casino/list?open=register&p=kebv (схема 1win), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-5msb.buzz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, клон интерфейса Mostbet («ОБХОД БЛОКИРОВОК», линия/LIVE); все кнопки /goto/ ведут на r1wemeq.life/casino/list?open=register&p=kebv (схема 1win), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-5n66.buzz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, клон интерфейса Mostbet («ОБХОД БЛОКИРОВОК», линия/LIVE); все кнопки /goto/ ведут на r1wemeq.life/casino/list?open=register&p=kebv (схема 1win), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-60m7.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, клон интерфейса Mostbet («ОБХОД БЛОКИРОВОК», линия/LIVE); все кнопки (трекер bigme.buzz/s8PhTV) ведут на r1wemeq.life/casino/list?open=register&p=kebv (схема 1win), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-6531.buzz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, клон интерфейса Mostbet («ОБХОД БЛОКИРОВОК», линия/LIVE); все кнопки /goto/ ведут на r1wemeq.life/casino/list?open=register&p=kebv (схема 1win), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-6a8o.buzz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, клон интерфейса Mostbet («ОБХОД БЛОКИРОВОК», линия/LIVE); все кнопки /goto/ ведут на r1wemeq.life/casino/list?open=register&p=kebv (схема 1win), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-6aqz.buzz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, клон интерфейса Mostbet («ОБХОД БЛОКИРОВОК», линия/LIVE); все кнопки /goto/ ведут на r1wemeq.life/casino/list?open=register&p=kebv (схема 1win), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-6lb7.buzz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, клон интерфейса Mostbet («ОБХОД БЛОКИРОВОК», линия/LIVE); все кнопки /goto/ ведут на r1wemeq.life/casino/list?open=register&p=kebv (схема 1win), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-6saz.buzz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, клон интерфейса Mostbet («ОБХОД БЛОКИРОВОК», линия/LIVE); все кнопки (трекер bigme.buzz/s8PhTV) ведут на r1wemeq.life/casino/list?open=register&p=kebv (схема 1win), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-6sja.buzz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, клон интерфейса Mostbet («ОБХОД БЛОКИРОВОК», линия/LIVE); все кнопки /goto/ ведут на r1wemeq.life/casino/list?open=register&p=kebv (схема 1win), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-6u5e.buzz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, клон интерфейса Mostbet («ОБХОД БЛОКИРОВОК», линия/LIVE); все кнопки /goto/ ведут на r1wemeq.life/casino/list?open=register&p=kebv (схема 1win), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-74sf.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, клон интерфейса Mostbet («ОБХОД БЛОКИРОВОК», линия/LIVE); все кнопки /goto/ ведут на r1wemeq.life/casino/list?open=register&p=kebv (схема 1win), ссылок на Mostbet нет."
+ }
+]

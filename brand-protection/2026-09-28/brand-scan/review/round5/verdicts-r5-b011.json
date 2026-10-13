@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "grzegorzsowa2020.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet Live Casino (title/h1); кнопки «Odbierz Bonus» с href=\"#\" подменяются скриптом на трекер sltna.pclira.com/ddd7dj.org → Slotuna/Lanista (mid=371788, pubid=DAFF)."
+ },
+ {
+  "domain": "gypunrzrmb.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Страница выдаёт себя за «Most Bet» (h1 «Welcome to Most Bet»), кнопка «Claim Your Bonus» ведёт на 00097.tv/goo → u00097.com (98BET, invitationCode=7733054839)."
+ },
+ {
+  "domain": "healthonlineghana.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Монобренд Mostbet UZ; кнопки /play уходят на трекер zonemix.cyou/tSCpzm → luckywavepartner.media (click_id), получатель не открылся — чужой трекер по правилу. Ссылки /__x/go/onluck, 1red, beonbet лежат в HTML-комментарии и не считаются."
+ },
+ {
+  "domain": "helmex.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Клон Mostbet («Мостбет» в title/h1); кнопка регистрации скриптом ведёт на /go-to-play-cczpl0k.php → bestonxprojump.com (ON-X, ref=ox_w250264…)."
+ },
+ {
+  "domain": "hersenbloeding.eu",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet Portugal; кнопки подменяются скриптом на sltna.pclira.com/ddd7dj.org → Slotuna/Lanista (mid=371788, pubid=DAFF)."
+ },
+ {
+  "domain": "holidayhouse.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.55,
+  "comment": "Монобренд Mostbet PL; /go/login → astrofy3.com (Keitaro, петля редиректов), /go/signup → playground.inexusgateway.com/disabled.html; получатель неизвестен, засчитано как чужой трекер по правилу."
+ },
+ {
+  "domain": "hostelcycleon.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.65,
+  "comment": "Монобренд Mostbet PL; все кнопки /play, /reg, /bonus ведут на трекер thecasinoplayed.com/bGmtSytK?sub2=julcas, из нашей точки — на офер Joi AI; трекер не Mostbet."
+ },
+ {
+  "domain": "ijazscholars.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Копия healthonlineghana.com (Mostbet UZ); /play → zonemix.cyou → luckywavepartner.media, получатель не открылся — чужой трекер по правилу; KT-ссылки в комментарии не считаются."
+ },
+ {
+  "domain": "illinoisbic.biz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Страница «Mostbet Aviator» (Mostbet в title, 22 упоминания против 8 Pin-Up и 6 1win); кнопка «Giris» /go/go.php → partnerprofitpath.com → dzdsbn.com (лендинг Pinco), не Mostbet."
+ },
+ {
+  "domain": "iphonepochinka.by",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet Беларусь; все кнопки /go и /vhod/ ведут на start.pm.by/aff_reg_100500 (aff_id=41520) — партнёрка Parimatch BY."
+ },
+ {
+  "domain": "janpolbrzozie.com.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet PL; баннер-кнопка ведёт на track-mono.com/allmono?kg=mostbet → wolf.io."
+ },
+ {
+  "domain": "joker-krasnodar.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Клон Mostbet («Мостбет» в title/h1); регистрация через /go-to-play-cczpl0k.php → bestonxprojump.com (ON-X)."
+ },
+ {
+  "domain": "kam-sport.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet RU; «Вход»/«Регистрация» в шапке → use-matchtrafficpulse.com/l/68da77e2… → dealbest-redirect.com ref=sl_w243680… (ON-X)."
+ },
+ {
+  "domain": "karczma-u-jana.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet PL; слайдер-кнопка → track-mono.com/allmono?kg=mostbet → wolf.io."
+ },
+ {
+  "domain": "kdctmn.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Тот же шаблон, что kam-sport.ru: кнопки шапки → use-matchtrafficpulse.com → dealbest-redirect.com (ON-X)."
+ },
+ {
+  "domain": "kevinandjoanne.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.55,
+  "comment": "Монобренд Mostbet AZ; /go/login → astrofy3.com, /go/register → inexusgateway.com/disabled.html; получатель неизвестен, засчитано как чужой трекер по правилу."
+ },
+ {
+  "domain": "kik-sssr.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Шаблон kam-sport.ru: «Вход»/«Регистрация» → use-matchtrafficpulse.com → dealbest-redirect.com (ON-X)."
+ },
+ {
+  "domain": "kraft-hotel-anapa.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Клон Mostbet; регистрация через /go-to-play-cczpl0k.php → bestonxprojump.com (ON-X)."
+ },
+ {
+  "domain": "kspk-kolpashevo.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Шаблон kam-sport.ru: кнопки шапки → use-matchtrafficpulse.com → dealbest-redirect.com (ON-X)."
+ },
+ {
+  "domain": "kwwkukiz-15.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet Polska; кнопки подменяются скриптом на sltna.pclira.com → Slotuna/Lanista."
+ },
+ {
+  "domain": "lazarevskoe-sanatoriy.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Шаблон kam-sport.ru: кнопки шапки → use-matchtrafficpulse.com → dealbest-redirect.com (ON-X)."
+ },
+ {
+  "domain": "livedocelive.com.br",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Монобренд MostBet Brasil; кнопки «Registre-se» ведут на /mostbet/ → conela2020.com.br/go/?sub1=a57 → slotcity.ua (refcode=aff_…)."
+ },
+ {
+  "domain": "luch-kino.by",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Мостбет Беларусь; кнопки /play → pm.by/ru/popup/registration (promocode, aff_id=41520) — Parimatch."
+ },
+ {
+  "domain": "max-sparkleorca.click",
+  "given": "mono_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.4,
+  "comment": "PWA-лендинг «Mostbet by Victor Osimhen» под Google Play; оффер в lead_info ведёт на трекер sunsunrisepath-win.cloud, получатель неизвестен; easy-links-track.com — postback в скрипте, не реклама."
+ },
+ {
+  "domain": "mkalamuseum.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Шаблон kam-sport.ru: кнопки шапки → use-matchtrafficpulse.com → dealbest-redirect.com (ON-X)."
+ },
+ {
+  "domain": "mmm-acns2017.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet PL; кнопка в шапке → track-mono.com/allmono?kg=mostbet → wolf.io."
+ },
+ {
+  "domain": "most-bet.by",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене; кнопки /play → pm.by/ru/popup/registration (aff_id=41520) — Parimatch."
+ },
+ {
+  "domain": "most-bet.pro",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, страница выдаёт себя за «Most Bet»; кнопки регистрации → 11kk.co/register?affiliateCode=gg0003 (чужое казино)."
+ },
+ {
+  "domain": "most-bet.vip",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, «most bet Bangladesh»; регистрация → 11kk.co/register?affiliateCode=gg0003."
+ },
+ {
+  "domain": "most-betcasino.bar",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, Mostbet KZ; /click?key= → onepppgo.com (subId2=pinco_kz_mind) → dzdsbn.com — Pinco."
+ },
+ {
+  "domain": "mostbet--casino.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Mostbet в домене; /go → трекер best-igaming.ru/bH2CYxMv (не открылся), плюс простые ссылки на дорвеи Lemon Casino; засчитано как чужой трекер по правилу."
+ },
+ {
+  "domain": "mostbet-309.org",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "amp-wp.org — классы CSS темы AMP, а не ссылка-реклама; кнопки «Giriş»/«Bonuslar» ведут на свой /link/go.php, получатель не найден, чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-app.homes",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене; кнопка → c1.super-ace.org/2 → 520bd96.com/m/register?affiliateCode=bdge00k (чужое бангладешское казино)."
+ },
+ {
+  "domain": "mostbet-aviator.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Mostbet в домене; «Play on Mostbet» /go/play/ и «Continue now» → liberaldom.com/9sjX3wDF → koraly7.com (Keitaro, получатель не открылся); засчитано как чужой трекер по правилу."
+ },
+ {
+  "domain": "mostbet-bonuses.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене; кнопки → go.aff.1b4w.partners → 1bet4win.com/?bonus=388082_… — чужой оператор 1Bet4Win."
+ },
+ {
+  "domain": "mostbet-casino-logowanie.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Mostbet в домене; /play-now и /registration → luckytimeforgames.online/playnow?type=brand&name=mostbet — роутер с явным брендом Mostbet, APK тоже Mostbet; чужого бренда нет."
+ },
+ {
+  "domain": "mostbet-casino-pln.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Mostbet в домене; /rejestracja → luckytimeforgames.online/playnow?type=brand&id=11&name=mostbet — роутер ведёт на бренд Mostbet; чужой рекламы нет."
+ },
+ {
+  "domain": "mostbet-cassino.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене; регистрация → bj77x.com/m/register?affiliateCode=tcg31seopwa05 (чужое казино)."
+ },
+ {
+  "domain": "mostbet-egypt-eg.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.55,
+  "comment": "Mostbet в домене; /recommends/go/ → uidwmhs.com/vmhs?sub1=… (трекер, сейчас парковка ww38); получатель неизвестен, засчитано как чужой трекер по правилу."
+ },
+ {
+  "domain": "mostbet-games.vip",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.55,
+  "comment": "Mostbet в домене; все кнопки «Claim Bonus»/«Login» → qnr.me/click?key=26c49ba7… (трекер с плейсхолдерами sub1–sub7), получатель неизвестен — чужой трекер по правилу."
+ },
+ {
+  "domain": "mostbet-go.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Mostbet в домене; /go → best-igaming.ru/bH2CYxMv (не открылся), плюс простые ссылки на n1bet-at.at и nvcasino-bet.at; засчитано как чужой трекер по правилу."
+ },
+ {
+  "domain": "mostbet-gracpolska.life",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Mostbet в домене; /play → meetwinahora.com/l/6a6463fd…?sub_id=mostbet — тот же формат /l/<id>, что у matchtrafficpulse (ON-X); получатель не открылся."
+ },
+ {
+  "domain": "mostbet-kasyno-polska.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Mostbet в домене; /play-now → luckytimeforgames.online/playnow?type=brand&id=11&name=mostbet — роутер с брендом Mostbet, APK Mostbet; чужой рекламы нет."
+ },
+ {
+  "domain": "mostbet-login.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Mostbet в домене; /go/ → doublehtraff.com/cXStcq?sub_id_1=… (трекер, не открылся); засчитано как чужой трекер по правилу."
+ },
+ {
+  "domain": "mostbet-online.in",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.7,
+  "comment": "Mostbet в домене; кнопка → casinorealmoneyonline.su/topfs.php?key=… → a.gambru.com (у других сайтов gambru ведёт на 1xBet)."
+ },
+ {
+  "domain": "mostbet-polska.win",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "box-int-54f2g.com, truelab, 3oaks — демо-игры в кнопках «Demo», не реклама; «Rejestracja»/«Pobierz» → mp.mostbet-polska-2025.pl/jnHbjqF (короткая ссылка на домене mostbet, не открылась)."
+ },
+ {
+  "domain": "mostbet-registration.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене; кнопки → go.aff.1b4w.partners → 1bet4win.com/?bonus=388082_… — чужой оператор 1Bet4Win."
+ },
+ {
+  "domain": "mostbet-review-pt.bet",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Mostbet в домене; «Jogar agora» /go → play55games.com/click_api (у mostbetcasino-pt.bet этот трекер ведёт на Qzino и Casoola)."
+ },
+ {
+  "domain": "mostbet-review-pt.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Mostbet в домене; /go → play55games.com/click_api — трекер, который у соседних сайтов ведёт на Qzino/Casoola."
+ },
+ {
+  "domain": "mostbet-slot.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Mostbet в домене; /go/ → doublehtraff.com/cXStcq?sub_id_1=mostbet-slot.net (не открылся); засчитано как чужой трекер по правилу."
+ }
+]

@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbet-spin.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Монобренд Mostbet (HU); все кнопки ведут на свой шлюз /go/ → трекер doublehtraff.com/cXStcq?sub_id_1=… (не открылся, не паттерн Mostbet) — по правилу чужой трекер."
+ },
+ {
+  "domain": "mostbet-start.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Монобренд Mostbet (CZ); кнопки /go → best-igaming.ru/bH2CYxMv (владелец: «не наше»), плюс в тексте ссылки на nvcasino-bet.pl и n1bet-at.at."
+ },
+ {
+  "domain": "mostbet-uz-site.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Монобренд Mostbet UZ; кнопка «SAYTGA KIRISH» ведёт на трекер ibheo05.com/lJTS?sub1=alex-se (не открылся, не паттерн Mostbet)."
+ },
+ {
+  "domain": "mostbet-vn.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Монобренд Mostbet VN; кнопки через /tracking?action=click ведут на 04llwin.com/?id=361085708 — чужой оператор."
+ },
+ {
+  "domain": "mostbet-yeniadresi.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Монобренд «Mostbet Giriş»; ссылка в тексте на трекер d1j69z8.com/vcUF (не открылся, не паттерн Mostbet)."
+ },
+ {
+  "domain": "mostbet.ac",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд MOSTBET Nepal; кнопки REGISTER/LOGIN (/register) 307 → jayabaji.online/en-np?aff=81715076ba — чужой оператор с кодом."
+ },
+ {
+  "domain": "mostbet.if.ua",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet UA; все кнопки /agent/go/… → workaroundxyz.com/1bYSbzSH → go.stawkibet4.io (бренд StawkiBet)."
+ },
+ {
+  "domain": "mostbet.ws",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд mostbet Bangladesh; кнопки регистрации ведут на bj77x.com/m/register?affiliateCode=tcg31seopwa05 — чужой оператор BJ77."
+ },
+ {
+  "domain": "mostbet1.bid",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд mostbet1 (BD); регистрация → bj77d.com/m/register?affiliateCode=tcg31seopwa04 — чужой оператор BJ77."
+ },
+ {
+  "domain": "mostbet1.ci",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.55,
+  "comment": "Лендинг Mostbet Côte d’Ivoire из 262 знаков; кнопка «Inscrivez-vous» → трекер findmyass.pro/wZwr4KZf (не открылся, не паттерн Mostbet)."
+ },
+ {
+  "domain": "mostbet1.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Монобренд Mostbet India; 82 кнопки на shre.ink/DAfB (→ facebook colorpredict), плюс прямая ссылка на чужого оператора 82lottery6.com/#/register?invitationCode=128682364."
+ },
+ {
+  "domain": "mostbet2.biz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (BD, бенгальский); кнопка регистрации ведёт на 520bd09.vip/register?affiliateCode=ge8bd0k — чужой оператор с кодом."
+ },
+ {
+  "domain": "mostbet2.club",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (BD); кнопки Casino/Login → bj77d.com/m/register?affiliateCode=tcg31seopwa04 — чужой оператор BJ77."
+ },
+ {
+  "domain": "mostbet2.ws",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (BD, бенгальский); кнопка регистрации ведёт на 520bd09.vip/register?affiliateCode=ge8bd0k — чужой оператор с кодом."
+ },
+ {
+  "domain": "mostbet2az.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Клон дизайна Mostbet из сетки mostbet2xx.com; кнопки /go/ → gotraf.com/zpzTm6 → 1wfetd.life/casino/list?open=register (1win)."
+ },
+ {
+  "domain": "mostbet2br.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Клон дизайна Mostbet из сетки mostbet2xx.com; кнопки /go/ → gotraf.com/zpzTm6 → 1wfetd.life/casino/list?open=register (1win)."
+ },
+ {
+  "domain": "mostbet2cz.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Клон дизайна Mostbet из сетки mostbet2xx.com; кнопки /go/ → gotraf.com/zpzTm6 → 1wfetd.life/casino/list?open=register (1win)."
+ },
+ {
+  "domain": "mostbet2de.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Клон дизайна Mostbet из сетки mostbet2xx.com; кнопки /go/ → gotraf.com/zpzTm6 → 1wfetd.life/casino/list?open=register (1win)."
+ },
+ {
+  "domain": "mostbet2fi.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Клон дизайна Mostbet из сетки mostbet2xx.com; кнопки /go/ → gotraf.com/zpzTm6 → 1wfetd.life/casino/list?open=register (1win)."
+ },
+ {
+  "domain": "mostbet2hu.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Клон дизайна Mostbet из сетки mostbet2xx.com; кнопки /go/ → gotraf.com/zpzTm6 → 1wfetd.life/casino/list?open=register (1win)."
+ },
+ {
+  "domain": "mostbet2in.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Клон дизайна Mostbet из сетки mostbet2xx.com; кнопки /go/ → gotraf.com/zpzTm6 → 1wfetd.life/casino/list?open=register (1win)."
+ },
+ {
+  "domain": "mostbet2it.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Клон дизайна Mostbet из сетки mostbet2xx.com; кнопки /go/ → gotraf.com/zpzTm6 → 1wfetd.life/casino/list?open=register (1win)."
+ },
+ {
+  "domain": "mostbet2kz.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Клон дизайна Mostbet из сетки mostbet2xx.com; кнопки /go/ → gotraf.com/zpzTm6 → 1wfetd.life/casino/list?open=register (1win)."
+ },
+ {
+  "domain": "mostbet2no.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Клон дизайна Mostbet из сетки mostbet2xx.com; кнопки /go/ → gotraf.com/zpzTm6 → 1wfetd.life/casino/list?open=register (1win)."
+ },
+ {
+  "domain": "mostbet2pe.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Клон дизайна Mostbet из сетки mostbet2xx.com; кнопки /go/ → gotraf.com/zpzTm6 → 1wfetd.life/casino/list?open=register (1win)."
+ },
+ {
+  "domain": "mostbet2pl.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Клон дизайна Mostbet из сетки mostbet2xx.com; кнопки /go/ → gotraf.com/zpzTm6 → 1wfetd.life/casino/list?open=register (1win)."
+ },
+ {
+  "domain": "mostbet2pt.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Клон дизайна Mostbet из сетки mostbet2xx.com; кнопки /go/ → gotraf.com/zpzTm6 → 1wfetd.life/casino/list?open=register (1win)."
+ },
+ {
+  "domain": "mostbet3.bet",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (BD, бенгальский); кнопка регистрации ведёт на 520bd09.vip/register?affiliateCode=ge8bd0k — чужой оператор с кодом."
+ },
+ {
+  "domain": "mostbet3.club",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (BD); кнопки Casino/Login → bj77d.com/m/register?affiliateCode=tcg31seopwa04 — чужой оператор BJ77."
+ },
+ {
+  "domain": "mostbet3.ws",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (BD, бенгальский); кнопка регистрации ведёт на 520bd09.vip/register?affiliateCode=ge8bd0k — чужой оператор с кодом."
+ },
+ {
+  "domain": "mostbetapk.bet",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (BD); кнопки регистрации → bj77x.com/m/register?affiliateCode=tcg31seopwa05 — чужой оператор BJ77."
+ },
+ {
+  "domain": "mostbetapp.click",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд «mostbet app» (BD); кнопки регистрации → c1.super-ace.org/2 → 520bd96.com/m/register?affiliateCode=bdge00k — чужой оператор."
+ },
+ {
+  "domain": "mostbetapp.homes",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд «mostbet app» (BD); кнопки регистрации → c1.super-ace.org/2 → 520bd96.com/m/register?affiliateCode=bdge00k — чужой оператор."
+ },
+ {
+  "domain": "mostbetapp.im",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (BD); кнопки регистрации → bj77x.com/m/register?affiliateCode=tcg31seopwa05 — чужой оператор BJ77."
+ },
+ {
+  "domain": "mostbetapp.pro",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet App Bangladesh; кнопки → fg8015.com/register?affiliateCode=gg6661 и bj77d.com/register?affiliateCode=tcg31seopwa03 — чужие операторы."
+ },
+ {
+  "domain": "mostbetaviatorgame.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд «Aviator at Mostbet»; кнопки JOIN NOW /aviator/ → amonbet1.live/welcome-page?stag=184000_… — чужой оператор Amonbet."
+ },
+ {
+  "domain": "mostbetaz-casinos.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet AZ; кнопки → glptds.com/tds/… → olymp-csn.com/?modal=reg&utm_medium=affiliate — чужой оператор Olymp Casino."
+ },
+ {
+  "domain": "mostbetaz.casino",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.7,
+  "comment": "Кнопки play-now.html → gamewins.net/go/… — этот трекер у jeuxde-avion.com ведёт на рефку Mostbet (uksyxemb.com pid=65198); banggood.com — клоака для LV-выхода, не реклама."
+ },
+ {
+  "domain": "mostbetaz.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.55,
+  "comment": "Лендинг Mostbet Azərbaycan (304 знака); кнопка «QEYD EDİN» → трекер findmyass.pro/4pycKH9Y (не открылся, не паттерн Mostbet)."
+ },
+ {
+  "domain": "mostbetaz.shop",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.5,
+  "comment": "PWA-страница «Mostbet» на конструкторе cubbbe.app; кнопка «Назад» перехвачена на трекер officialgialuroniq.shop/RH2HdM5d?external_id=… (не открылся); куда ведёт само приложение, по файлам не видно."
+ },
+ {
+  "domain": "mostbetazerbaycan-giris.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet AZ; кнопки → glptds.com/tds/… → olymp-csn.com/?modal=reg&utm_medium=affiliate — чужой оператор Olymp Casino."
+ },
+ {
+  "domain": "mostbetbangla.net",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.75,
+  "comment": "Чужой рекламы нет: onlyplay/booming/aleaplay — демо-игры с lobbyUrl=8unx689.com (зеркало Mostbet); кнопки на bd.mostbetbangla.net/uKQdk42 — тот же шаблон, что bd.mostbetbangladesh.net/NfehMRc → Mostbet pid=37776."
+ },
+ {
+  "domain": "mostbetbangladesh.biz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (BD, бенгальский); кнопка регистрации ведёт на 520bd09.vip/register?affiliateCode=ge8bd0k — чужой оператор с кодом."
+ },
+ {
+  "domain": "mostbetbangladesh.click",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (BD, бенгальский); кнопка регистрации ведёт на 520bd09.vip/register?affiliateCode=ge8bd0k — чужой оператор с кодом."
+ },
+ {
+  "domain": "mostbetbangladesh.ws",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (BD, бенгальский); кнопка регистрации ведёт на 520bd09.vip/register?affiliateCode=ge8bd0k — чужой оператор с кодом."
+ },
+ {
+  "domain": "mostbetbd.fun",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (BD); кнопки регистрации → bj77x.com/m/register?affiliateCode=tcg31seopwa05 — чужой оператор BJ77."
+ },
+ {
+  "domain": "mostbetbd.vip",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (BD); кнопки регистрации → bj77x.com/m/register?affiliateCode=tcg31seopwa05 — чужой оператор BJ77."
+ },
+ {
+  "domain": "mostbetbd.ws",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (BD, бенгальский); кнопка регистрации ведёт на 520bd09.vip/register?affiliateCode=ge8bd0k — чужой оператор с кодом."
+ },
+ {
+  "domain": "mostbetbd1.ws",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (BD, бенгальский); кнопка регистрации ведёт на 520bd09.vip/register?affiliateCode=ge8bd0k — чужой оператор с кодом."
+ },
+ {
+  "domain": "mostbetbd2.biz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (BD, бенгальский); кнопка регистрации ведёт на 520bd09.vip/register?affiliateCode=ge8bd0k — чужой оператор с кодом."
+ }
+]

@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "bk-mostbet-kz-1.top",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet: реклама чужого 1xBet (https://bk-mostbet-kz-1.top/link.php → https://1xbet.rs:443/en/registration) и Mostbet (https://nwyt3ti7mb.com/lj3S). Трекер nwyt3ti7mb.com — хост вида …mb.com, считается рекламой Mostbet."
+ },
+ {
+  "domain": "casino-kg.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "casino-kg.com — каталог казино (/go/1xbet/, /go/1win/, /go/melbet/, /go/pinco/ на /list/online-casinos/ и /bonusy-kazino/); на самой странице /review/mostbet/ единственная партнёрская ссылка /go/mostbet/, рефки 1xBet и Melbet взяты с других страниц сайта."
+ },
+ {
+  "domain": "casino-mostbet.cc",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet — официальный сайт казино Мостбет»), кнопка https://jettredsarel.com/ciruBLB7v3y ведёт на https://jtmirconnect.com/en; рекламы Mostbet нет."
+ },
+ {
+  "domain": "casino-mostbet.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Casino Official Website Online Casino»), кнопка https://casino-mostbet.org/register ведёт на https://wildsino-7474.com/en/registration, код mid=229514_2174712; рекламы Mostbet нет."
+ },
+ {
+  "domain": "casinomostbetkz.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet: реклама чужого Pokerdom (https://casinomostbetkz.com/mostbet.php → https://vqs7pokerdom.com/auth/registration) и Mostbet (https://casinomostbetkz.com/mostbet.php → https://kgpgbmmb.com/casino)."
+ },
+ {
+  "domain": "ccr2porg.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ ✔️ Rəsmi internet saytında giriş və qey»), кнопка https://ccr2porg.cfd/go.php ведёт на https://1xbet.rs:443/en/registration, код tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет. Ссылка отдаётся мобильным/пришедшим из поиска — это клоакинг, реклама засчитывается."
+ },
+ {
+  "domain": "ccr2porg.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ ✔️ Rəsmi internet saytında giriş və qey»), кнопка https://ccr2porg.top/go.php ведёт на https://1xbet.rs:443/en/registration, код tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет. Ссылка отдаётся мобильным/пришедшим из поиска — это клоакинг, реклама засчитывается."
+ },
+ {
+  "domain": "ccr2porg13.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ ✔️ Rəsmi internet saytında giriş və qey»), кнопка https://ccr2porg13.cfd/go.php ведёт на https://1xbet.rs:443/en/registration, код tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет. Ссылка отдаётся мобильным/пришедшим из поиска — это клоакинг, реклама засчитывается."
+ },
+ {
+  "domain": "easternhighschooldc.org",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet: реклама чужого Twindor Casino (https://traftraf.site/Wn1ZDh/ → https://twindorcasino.com/en/) и Mostbet (https://traftraf.site/Wn1ZDh/ → https://lziooamb.com/casino)."
+ },
+ {
+  "domain": "eccm20.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Onlayn Kazino: Ümumi İcmal»), кнопка https://eccm20.org/play ведёт на https://1xbet.rs:443/en/registration, код tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет. Ссылка отдаётся мобильным/пришедшим из поиска — это клоакинг, реклама засчитывается."
+ },
+ {
+  "domain": "eccm20org197.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Onlayn Kazino: Ümumi İcmal»), кнопка https://eccm20org197.cfd/play.php ведёт на https://1xbet.rs:443/en/registration, код tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет. Ссылка отдаётся мобильным/пришедшим из поиска — это клоакинг, реклама засчитывается."
+ },
+ {
+  "domain": "eccm20org358.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Onlayn Kazino: Ümumi İcmal»), кнопка https://eccm20org358.cfd/play.php ведёт на https://1xbet.rs:443/en/registration, код tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет. Ссылка отдаётся мобильным/пришедшим из поиска — это клоакинг, реклама засчитывается."
+ },
+ {
+  "domain": "eccm20org358.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Onlayn Kazino: Ümumi İcmal»), кнопка https://eccm20org358.top/play.php ведёт на https://1xbet.rs:443/en/registration, код tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет. Ссылка отдаётся мобильным/пришедшим из поиска — это клоакинг, реклама засчитывается."
+ },
+ {
+  "domain": "eccm20org540.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Onlayn Kazino: Ümumi İcmal»), кнопка https://eccm20org540.cfd/play.php ведёт на https://1xbet.rs:443/en/registration, код tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет. Ссылка отдаётся мобильным/пришедшим из поиска — это клоакинг, реклама засчитывается."
+ },
+ {
+  "domain": "eccm20org571.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Onlayn Kazino: Ümumi İcmal»), кнопка https://eccm20org571.cfd/play.php ведёт на https://1xbet.rs:443/en/registration, код tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет. Ссылка отдаётся мобильным/пришедшим из поиска — это клоакинг, реклама засчитывается."
+ },
+ {
+  "domain": "eccm20org623.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Onlayn Kazino: Ümumi İcmal»), кнопка https://eccm20org623.cfd/play.php ведёт на https://1xbet.rs:443/en/registration, код tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет. Ссылка отдаётся мобильным/пришедшим из поиска — это клоакинг, реклама засчитывается."
+ },
+ {
+  "domain": "eccm20org785.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Onlayn Kazino: Ümumi İcmal»), кнопка https://eccm20org785.cfd/play.php ведёт на https://1xbet.rs:443/en/registration, код tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет. Ссылка отдаётся мобильным/пришедшим из поиска — это клоакинг, реклама засчитывается."
+ },
+ {
+  "domain": "eccm20org809.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Onlayn Kazino: Ümumi İcmal»), кнопка https://eccm20org809.cfd/play.php ведёт на https://1xbet.rs:443/en/registration, код tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет. Ссылка отдаётся мобильным/пришедшим из поиска — это клоакинг, реклама засчитывается."
+ },
+ {
+  "domain": "eccm20org860.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Onlayn Kazino: Ümumi İcmal»), кнопка https://eccm20org860.cfd/play.php ведёт на https://1xbet.rs:443/en/registration, код tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет. Ссылка отдаётся мобильным/пришедшим из поиска — это клоакинг, реклама засчитывается."
+ },
+ {
+  "domain": "eccm20org876.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Onlayn Kazino: Ümumi İcmal»), кнопка https://eccm20org876.top/play.php ведёт на https://1xbet.rs:443/en/registration, код tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет. Ссылка отдаётся мобильным/пришедшим из поиска — это клоакинг, реклама засчитывается."
+ },
+ {
+  "domain": "eccm20org984.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Onlayn Kazino: Ümumi İcmal»), кнопка https://eccm20org984.cfd/play.php ведёт на https://1xbet.rs:443/en/registration, код tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет. Ссылка отдаётся мобильным/пришедшим из поиска — это клоакинг, реклама засчитывается."
+ },
+ {
+  "domain": "fairfarmsnoworg11.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Onlayn Kazino: Ümumi İcmal»), кнопка https://fairfarmsnoworg11.cfd/play.php ведёт на https://1xbet.rs:443/en/registration, код tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет. Ссылка отдаётся мобильным/пришедшим из поиска — это клоакинг, реклама засчитывается."
+ },
+ {
+  "domain": "fairfarmsnoworg5.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Onlayn Kazino: Ümumi İcmal»), кнопка https://fairfarmsnoworg5.cfd/play.php ведёт на https://1xbet.rs:443/en/registration, код tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет. Ссылка отдаётся мобильным/пришедшим из поиска — это клоакинг, реклама засчитывается."
+ },
+ {
+  "domain": "fairfarmsnoworg6.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Onlayn Kazino: Ümumi İcmal»), кнопка https://fairfarmsnoworg6.cfd/play.php ведёт на https://1xbet.rs:443/en/registration, код tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет. Ссылка отдаётся мобильным/пришедшим из поиска — это клоакинг, реклама засчитывается."
+ },
+ {
+  "domain": "fairfarmsnoworg8.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Onlayn Kazino: Ümumi İcmal»), кнопка https://fairfarmsnoworg8.cfd/play.php ведёт на https://1xbet.rs:443/en/registration, код tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет. Ссылка отдаётся мобильным/пришедшим из поиска — это клоакинг, реклама засчитывается."
+ },
+ {
+  "domain": "greek-mostbet.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Все кнопки (main.js, незакомментированный код) ведут на трекер czzczzczz.com/click.php?key=8wvpqdd2ftplgc76opqk → dk.glitch-spin.com (stag=5757_…); «реклама Mostbet» club28petel.kz — простая ссылка в переключателе языков на соседний клон, без кода партнёра."
+ },
+ {
+  "domain": "hungary-mostbet.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Hungary | Regisztrálj és szerezd meg a +12»), кнопка https://hungary-mostbet.org/play ведёт на https://one-vv1469.com/sr-RS/, код p=4wsa; рекламы Mostbet нет."
+ },
+ {
+  "domain": "im4dcorg315.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Kazino: Azərbaycanda Ən Yaxşı Onlayn Oyun »), кнопка https://im4dcorg315.cfd/play.php ведёт на https://1xbet.rs:443/en/registration, код tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет. Ссылка отдаётся мобильным/пришедшим из поиска — это клоакинг, реклама засчитывается."
+ },
+ {
+  "domain": "im4dcorg658.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Kazino: Azərbaycanda Ən Yaxşı Onlayn Oyun »), кнопка https://im4dcorg658.cfd/play.php ведёт на https://1xbet.rs:443/en/registration, код tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет. Ссылка отдаётся мобильным/пришедшим из поиска — это клоакинг, реклама засчитывается."
+ },
+ {
+  "domain": "im4dcorg799.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Kazino: Azərbaycanda Ən Yaxşı Onlayn Oyun »), кнопка https://im4dcorg799.cfd/play.php ведёт на https://1xbet.rs:443/en/registration, код tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет. Ссылка отдаётся мобильным/пришедшим из поиска — это клоакинг, реклама засчитывается."
+ },
+ {
+  "domain": "im4dcorg872.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Kazino: Azərbaycanda Ən Yaxşı Onlayn Oyun »), кнопка https://im4dcorg872.cfd/play.php ведёт на https://1xbet.rs:443/en/registration, код tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет. Ссылка отдаётся мобильным/пришедшим из поиска — это клоакинг, реклама засчитывается."
+ },
+ {
+  "domain": "kuchenneprzyrzady.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Casino – Najlepsze Kasyno Online w Polsce »), кнопка https://kuchenneprzyrzady.com/play ведёт на https://1xbet.rs:443/en/registration, код tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет. Ссылка отдаётся мобильным/пришедшим из поиска — это клоакинг, реклама засчитывается."
+ },
+ {
+  "domain": "mercsaytlariaz.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Переезд ведёт на мультибренд bukmekersaytlari.org/kazino-reyler/mostbet; на этой странице кнопка только на wxiwncmb.com/PrDU (Mostbet pid=477881), а Melbet refpa3665 (site=5266353) стоит на отдельной странице /kazino-reyler/melbet."
+ },
+ {
+  "domain": "mosbet-mostbet.ink",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «MostBet BD – Play Online Casino in Bangladesh Most»), кнопка https://mosbet-mostbet.ink/play ведёт на https://1xbet.rs:443/en/registration, код tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет. Ссылка отдаётся мобильным/пришедшим из поиска — это клоакинг, реклама засчитывается."
+ },
+ {
+  "domain": "most-casino-amp.kz",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet: реклама чужого Pokerdom (https://most-casino-amp.kz/go-play-cczpl0k.php → https://tqn7pokerdom.com/auth/registration) и Mostbet (https://most-casino-amp.kz/mostbet.php → https://kgpgbmmb.com/casino)."
+ },
+ {
+  "domain": "mostbet-apk-gr.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Все кнопки (main.js, незакомментированный код) ведут на трекер czzczzczz.com/click.php?key=8wvpqdd2ftplgc76opqk → dk.glitch-spin.com (stag=5757_…); «реклама Mostbet» club28petel.kz — простая ссылка в переключателе языков на соседний клон, без кода партнёра."
+ },
+ {
+  "domain": "mostbet-apuestas.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Colombia – Casino en Línea y Apuestas Depo»), кнопка https://1wggsr.life/ ведёт на https://1wggsr.life/, код p=yunb https://1wggsr.life/?open=register; рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbet-azerba.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Все CTA ведут на /go/ → рефка Mostbet pid=141153; «SpringerLink» — ссылка на научный журнал link.springer.com/journal/10899 в тексте внутренней страницы, не реклама; скрытые ссылки ведут только на соседние клоны Mostbet (mostbetsazc.com и др.)."
+ },
+ {
+  "domain": "mostbet-azerbajans.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Все CTA ведут на /go/ → рефка Mostbet pid=141153; «SpringerLink» — ссылка на научный журнал link.springer.com/journal/10899 в тексте внутренней страницы, не реклама; скрытые ссылки ведут только на соседние клоны Mostbet (mostbetsazc.com и др.)."
+ },
+ {
+  "domain": "mostbet-azrbjn-giris.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Все CTA ведут на /go/ → рефка Mostbet pid=141153; «SpringerLink» — ссылка на научный журнал link.springer.com/journal/10899 в тексте внутренней страницы, не реклама; скрытые ссылки ведут только на соседние клоны Mostbet (mostbetsazc.com и др.)."
+ },
+ {
+  "domain": "mostbet-azrbjn.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Все CTA ведут на /go/ → рефка Mostbet pid=141153; «SpringerLink» — ссылка на научный журнал link.springer.com/journal/10899 в тексте внутренней страницы, не реклама; скрытые ссылки ведут только на соседние клоны Mostbet (mostbetsazc.com и др.)."
+ },
+ {
+  "domain": "mostbet-casino-arg.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet: реклама чужого Lucky Star (https://keitaro-zalupa.com/JRK3yP → https://luckykpet.life/) и Mostbet (https://argentino-mostbet.com/link → https://kdlnnvmb.com/casino)."
+ },
+ {
+  "domain": "mostbet-casino-azerbaijan.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Casino Azerbaijan 💎 Qeydiyyat, Bonuslar Mo»), кнопка https://mostbet-casino-azerbaijan.com/play ведёт на https://1xbet.rs:443/en/registration, код tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет. Ссылка отдаётся мобильным/пришедшим из поиска — это клоакинг, реклама засчитывается."
+ },
+ {
+  "domain": "mostbet-casino-azerbaijan.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ Casino — Giriş, Qeydiyyat və Pulsuz Bon»), кнопка https://mostbet-casino-azerbaijan.org/play ведёт на https://1xbet.rs:443/en/registration, код tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет. Ссылка отдаётся мобильным/пришедшим из поиска — это клоакинг, реклама засчитывается."
+ },
+ {
+  "domain": "mostbet-casino-bet-az.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ Giriş — Rəsmi Sayt, Bonuslar və Qazanma»), кнопка https://mostbet-casino-bet-az.com/play ведёт на https://1xbet.rs:443/en/registration, код tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет. Ссылка отдаётся мобильным/пришедшим из поиска — это клоакинг, реклама засчитывается."
+ },
+ {
+  "domain": "mostbet-casino-greece.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Все кнопки (main.js, незакомментированный код) ведут на трекер czzczzczz.com/click.php?key=8wvpqdd2ftplgc76opqk → dk.glitch-spin.com (stag=5757_…); «реклама Mostbet» club28petel.kz — простая ссылка в переключателе языков на соседний клон, без кода партнёра."
+ },
+ {
+  "domain": "mostbet-club-az.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Все CTA ведут на /go/ → рефка Mostbet pid=141153; «SpringerLink» — ссылка на научный журнал link.springer.com/journal/10899 в тексте внутренней страницы, не реклама; скрытые ссылки ведут только на соседние клоны Mostbet (mostbetsazc.com и др.)."
+ },
+ {
+  "domain": "mostbet-gaming-play.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «MostBet Casino – Play Online in India with Bonuses»), кнопка https://mostbet-gaming-play.com/play ведёт на https://1xbet.rs:443/en/registration, код tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет. Ссылка отдаётся мобильным/пришедшим из поиска — это клоакинг, реклама засчитывается."
+ },
+ {
+  "domain": "mostbet-gr-casino.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Все кнопки (main.js, незакомментированный код) ведут на трекер czzczzczz.com/click.php?key=8wvpqdd2ftplgc76opqk → dk.glitch-spin.com (stag=5757_…); «реклама Mostbet» club28petel.kz — простая ссылка в переключателе языков на соседний клон, без кода партнёра."
+ },
+ {
+  "domain": "mostbet-grc.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Все кнопки (main.js, незакомментированный код) ведут на трекер czzczzczz.com/click.php?key=8wvpqdd2ftplgc76opqk → dk.glitch-spin.com (stag=5757_…); «реклама Mostbet» club28petel.kz — простая ссылка в переключателе языков на соседний клон, без кода партнёра."
+ }
+]

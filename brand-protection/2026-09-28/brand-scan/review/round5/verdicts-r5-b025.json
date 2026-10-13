@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbet-casino-register-cz.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.8,
+  "comment": "Mostbet в домене и title, внутри лента спортивных новостей; в сайдбаре блок «Sponsored» со ссылками на jeetbuzz.ink и 1xbets.dev, в «Official Partnership» — pinuponline-bd.com."
+ },
+ {
+  "domain": "mostbet-casino-uz.site",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, внутри индонезийский слот MELATISLOT со ссылкой на bermain.melatislot.work."
+ },
+ {
+  "domain": "mostbet-casino777.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене, внутри канадский рейтинг казино; /visit/* ведут на партнёрки Hugo Casino (stag=86452), CrownGreen, CoinPoker (affid=3481), Slotowl."
+ },
+ {
+  "domain": "mostbet-czechia.org",
+  "given": "bait",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet Casino (title и h1 про Mostbet), а кнопка /go/bonus ведёт на 1win one-vv1469.com/?p=4wsa&sub1=… — реклама только чужого."
+ },
+ {
+  "domain": "mostbet-download-free.ru",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, внутри «Официальный сайт казино MAD»; /go.php → madmirror2.com, рефка sendmad.org/affiliate/m_dnv25zc3."
+ },
+ {
+  "domain": "mostbet-download.top",
+  "given": "bait",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "dead",
+  "confidence": 0.85,
+  "comment": "DNS_PROBE_FINISHED_NXDOMAIN — домен не резолвится, содержимого нет; ссылка html5rocks.com — из страницы ошибки браузера."
+ },
+ {
+  "domain": "mostbet-egypt7.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.65,
+  "comment": "Mostbet в домене, внутри пустой WordPress-блог; в сайдбаре ссылка «slot jackpot» на blogus123.com (LIVE123, индонезийские слоты) и «slot online»."
+ },
+ {
+  "domain": "mostbet-fr.eu.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet France (title, h1, 22 упоминания), кнопка бонуса через трекер vip.w1ncasino.org/click ведёт на Casea casea-8039.com/registration?mid=363346_…."
+ },
+ {
+  "domain": "mostbet-gamble.pro",
+  "given": "bait",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.6,
+  "comment": "Парковка Dynadot («This domain is registered at Dynadot.com. Website coming soon»); 1xBet smartlink tag=d_3755482m_… идёт от парковочной сети sk-park.php, а не от контента сайта."
+ },
+ {
+  "domain": "mostbet-mirror.top",
+  "given": "bait",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "dead",
+  "confidence": 0.85,
+  "comment": "DNS_PROBE_FINISHED_NXDOMAIN — домен не резолвится, ссылка html5rocks.com со страницы ошибки браузера."
+ },
+ {
+  "domain": "mostbet-official-2025.top",
+  "given": "bait",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "dead",
+  "confidence": 0.85,
+  "comment": "DNS_PROBE_FINISHED_NXDOMAIN — домен не резолвится, ссылка html5rocks.com со страницы ошибки браузера."
+ },
+ {
+  "domain": "mostbet-official-site.ru",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.65,
+  "comment": "Mostbet в домене, внутри чужой блог «Бетсофи» про лайфхаки в казино (Pin-Up в тексте), ссылки на kuwait-onlinecasinos.com и lukkly4.com."
+ },
+ {
+  "domain": "mostbet-official.se",
+  "given": "bait",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.85,
+  "comment": "Главная уводит на страницу входа Plesk (login_up.php), сайта нет; ссылка support.plesk.com — из панели."
+ },
+ {
+  "domain": "mostbet-oficials.es",
+  "given": "bait",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.7,
+  "comment": "Клон BetAmericaLatina (гайды по ставкам), все кнопки /go/ ведут на рефку Mostbet kmjwdimb.com/casino?pid=141153; чужой рекламы нет, 1xBet только упомянут в тексте."
+ },
+ {
+  "domain": "mostbet-online-play.org",
+  "given": "bait",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд MostBet Spain (title, h1), кнопки ведут на партнёрки Lizaro (lzr--40lz.com, mid=260893_…) и Casoola (csl--47cs.com, mid=253504_…)."
+ },
+ {
+  "domain": "mostbet-qazaqstan-agency.kz",
+  "given": "bait",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.85,
+  "comment": "Главная уводит на вход в панель Plesk (login_up.php), сайта нет."
+ },
+ {
+  "domain": "mostbet-reg1.ru",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "title «Мостбет официальный сайт», а h1 и контент — «Сайт онлайн-казино Joycasino»; кнопки через трекер updatezone.net/Bjyjf1TL ведут на 1win (?p=0nyp)."
+ },
+ {
+  "domain": "mostbet-resmi.link",
+  "given": "bait",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.4,
+  "comment": "title «Mostbet giriş», все кнопки ведут на трекер partnerprofitboost.com/kI8pUeOn/ → лид-лендинг dzdsbn.com без бренда; получатель не установлен (тот же dzdsbn у сетки burning-wins)."
+ },
+ {
+  "domain": "mostbet-russia.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.6,
+  "comment": "Mostbet в домене, внутри PBN-блог «MY BLOG» с постами про онлайн-игры и ссылками на слоты (gboslot, m11totosydney.com, monroepro99.com, mydiva4d.com)."
+ },
+ {
+  "domain": "mostbet-stavki.top",
+  "given": "bait",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "dead",
+  "confidence": 0.85,
+  "comment": "DNS_PROBE_FINISHED_NXDOMAIN — домен не резолвится, ссылка html5rocks.com со страницы ошибки браузера."
+ },
+ {
+  "domain": "mostbet-turkiye-giris.org",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.7,
+  "comment": "title «Mostbet Türkiye Giriş», внутри PBN-блог со ссылками на индонезийские слоты (CABEMANIS88 через toto.thenfdf.org, raja88king.com, luxury12-jitu)."
+ },
+ {
+  "domain": "mostbet-uz-com.ru",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, внутри рейтинг BET ATLAS; out.php?book=… ведёт на операторов 1xbet.rs, melbet.com, betwinner.com, parimatch.now, linebet.com, 22bet4u.com."
+ },
+ {
+  "domain": "mostbet-uz-top.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене, внутри индонезийский слот APEL888; кнопки через linkaku.homes/apel888 на resmigaruda888.online/register?ref=953582."
+ },
+ {
+  "domain": "mostbet-z2n.buzz",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене, внутри «Рейтинг казино — 7 лучших в России» с трекерами flagmanway610, irisroute64, fuguway610 и др. на партнёрки stag=184742_…."
+ },
+ {
+  "domain": "mostbet.hair",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, внутри PWA-копия страницы Google Play «Jackpot Buffalo Slots» со ссылкой на com.kamagames.buffaloslots."
+ },
+ {
+  "domain": "mostbet1-gr.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, внутри чешский сайт Beep Beep Casino; кнопка через track-mono.com/wNR2WCQK ведёт на wolf.io/?stag=242830_…."
+ },
+ {
+  "domain": "mostbeta1.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, внутри бразильский 6666bet; кнопки ведут на 412w.d6zi9dev.com и ankw.c1y9tedo.com/register?ch=100770."
+ },
+ {
+  "domain": "mostbetaviator-az.click",
+  "given": "bait",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "discredit",
+  "confidence": 0.75,
+  "comment": "Mostbet в домене, а содержимое — «Business Listing Directory», каталог бизнес-сайтов, не про ставки."
+ },
+ {
+  "domain": "mostbetbd1.net",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.6,
+  "comment": "Монобренд Mostbet BD с рефкой mostbetnow.com/U6NF; чужое — одна видимая ссылка в тексте «1xBet app in Bangladesh» на 1xbetinbd.net, это аффилиатский дорвей 1xBet, не оператор, кода нет."
+ },
+ {
+  "domain": "mostbetbonus.biz",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, внутри PWA-копия Google Play «Jackpot Strike - Casino Slots» (com.mobee.igniteonline)."
+ },
+ {
+  "domain": "mostbetcasino-hungary.org",
+  "given": "bait",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet Casino Hungary (title, h1), кнопка /go/signup ведёт на 1win one-vv1469.com/?p=4wsa&sub1=…."
+ },
+ {
+  "domain": "mostbetcasino-pt.click",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, внутри индонезийский NIRMALABET x BIOLATOGEL со ссылкой на go.kucasino-vn.click."
+ },
+ {
+  "domain": "mostbetcasino.kz",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.55,
+  "comment": "Монобренд «Казино Мостбет КЗ» с рефкой gm59asoyr5l9hormst.com/vJos; чужое — видимая ссылка «Pin Up» в первом абзаце на pinup-kz.dreamdesk.kz, дорвей на поддомене магазина столов, не оператор, без кода."
+ },
+ {
+  "domain": "mostbetcasino.nu",
+  "given": "bait",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.85,
+  "comment": "Заглушка регистратора Safenames: «There is no website configured for this address yet»; ссылка safenames.net?ref=lndrdr — реклама регистратора."
+ },
+ {
+  "domain": "mostbetd.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, внутри бразильский 7jogos; кнопки на hl.dmffg2.com?ch=34 → hlt.zp7dth.com/reg."
+ },
+ {
+  "domain": "mostbetenjoyslot.net",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.6,
+  "comment": "Mostbet в домене, внутри PBN-блог «Just Deploy It!» с рубриками Casino, Poker, Slot, Toto и скрытыми ссылками (80 штук)."
+ },
+ {
+  "domain": "mostbetf4.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, внутри бразильский lucky22; кнопка «Entrar» на hl.dmffg2.com?ch=34 → hlt.zp7dth.com/reg."
+ },
+ {
+  "domain": "mostbetf6.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, внутри бразильский d7game; кнопка «LOGIN» на hl.dmffg2.com?ch=34 → hlt.zp7dth.com/reg."
+ },
+ {
+  "domain": "mostbetforu.best",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, внутри PWA-копия Google Play «Vegas Craze Casino» (com.playlinks.vegascraze)."
+ },
+ {
+  "domain": "mostbetgame.click",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, внутри PWA-копия Google Play «Jackpot Buffalo Slots»."
+ },
+ {
+  "domain": "mostbetgame.store",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, внутри PWA-копия Google Play «Jackpot Buffalo Slots»."
+ },
+ {
+  "domain": "mostbetgamesbest.xyz",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, внутри PWA-копия Google Play «Vegas Craze Casino»."
+ },
+ {
+  "domain": "mostbetgift.casa",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, внутри PWA-копия Google Play «Jackpot Strike - Casino Slots»."
+ },
+ {
+  "domain": "mostbetkzslots.best",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, внутри PWA-копия Google Play «Jackpot Strike - Casino Slots»."
+ },
+ {
+  "domain": "mostbetluck.xyz",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, внутри PWA-копия Google Play «Jackpot Strike - Casino Slots»."
+ },
+ {
+  "domain": "mostbetmost.com",
+  "given": "bait",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "dead",
+  "confidence": 0.9,
+  "comment": "Домен просрочен: заглушка West.cn «域名到期», сайта нет; ссылка west.cn — реклама регистратора."
+ },
+ {
+  "domain": "mostbetonlinecasino.ru",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.75,
+  "comment": "Mostbet в домене, внутри чужой блог BetOnlineCasino про букмекеров со слотами; ссылка на Linebet linebetsport.com/ru/mobile."
+ },
+ {
+  "domain": "mostbetp0.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, внутри бразильский luxo55 APK; кнопка «Start Playing» на hl.dmffg2.com?ch=34 → hlt.zp7dth.com/reg."
+ },
+ {
+  "domain": "mostbetpak.live",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.75,
+  "comment": "Mostbet в домене, а сайт — «Mostwin - India's #1 Gaming Platform», чужой бренд."
+ },
+ {
+  "domain": "mostbetpl.buzz",
+  "given": "bait",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "discredit",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, а содержимое — продажа Viagra («Viagra in the USA»), не гэмблинг."
+ }
+]

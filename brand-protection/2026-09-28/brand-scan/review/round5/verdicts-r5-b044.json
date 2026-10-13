@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "femmefables.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Кнопки главной (JS-клик) ведут через /click/ на winshark13.com с stag=109401_…; ссылок на Mostbet с кодом нет, mostbets.radio.fm только в hreflang/скриптах."
+ },
+ {
+  "domain": "filialsuplica.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Скрипт уводит через трекер f1n6x6m9c4n0.top/nt2w73 на 1xbet.rs/registration?tag=d_3755482m_…; рекламы Mostbet нет."
+ },
+ {
+  "domain": "finsedukacja.edu.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "26 кнопок /link/ в меню и шапке ведут на hellspin222.com с btag=678741_…; монобренд Mostbet PL."
+ },
+ {
+  "domain": "fiquesabendo.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Кнопки «Registar»/«DOWNLOAD» href=/play ведут на 1xbet.rs с tag=d_3755482m_…; монобренд Mostbet PT."
+ },
+ {
+  "domain": "fklitvinov.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "JS-кнопки через трекер so-corny.cfd/click?key=… ведут на dd21--dudespin.com с mid=33585_…; ссылка chatbotnumi.cz/mostbet/ без кода."
+ },
+ {
+  "domain": "fkodraopole.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Кнопки через track-mono.com/allmono?kg=mostbet ведут на bets.io (?sign-up=modal) — чужой оператор; Mostbet-ссылок с кодом нет."
+ },
+ {
+  "domain": "floram.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Клон интерфейса Mostbet: 139 ссылок /mostb/ ведут на 9normcasino-oa.win/ru/registration?qtag=a84744_…"
+ },
+ {
+  "domain": "fondstanina.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Кнопки «Вход в систему» href=/play ведут на 1xbet.rs с tag=d_3755482m_…; монобренд Мостбет KZ."
+ },
+ {
+  "domain": "foodgallerynyc.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Кнопки href=/play ведут на 1xbet.rs с tag=d_3755482m_…; монобренд Mostbet UZ."
+ },
+ {
+  "domain": "foothillstorm.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Кнопки «register» href=/play ведут на 1xbet.rs с tag=d_3755482m_…; внешняя ccr2p.org (сайт Mostbet) без кода."
+ },
+ {
+  "domain": "forabusiness.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Клон интерфейса Mostbet: ссылки /mostb/ ведут на 9normcasino-xa.win с qtag=a84744_…"
+ },
+ {
+  "domain": "fotografzauschwitz.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "19 ссылок /step-un/ (в т. ч. логотип) ведут на hellspin222.com с btag=678741_…"
+ },
+ {
+  "domain": "fotovideografia.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Кнопки через track-mono.com/allmono?kg=mostbet ведут на bets.io — чужой оператор; кодов Mostbet нет."
+ },
+ {
+  "domain": "foundbubbly.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "JS-кнопки через holy-duck.top/click?key=… ведут на dd21--dudespin.com с mid=33585_…; mostbet-cs-cz.jvsholding.cz только в скрипте/картинках."
+ },
+ {
+  "domain": "framingboca.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Кнопки (JS-клик) через /click/ ведут на winshark13.com с stag=109401_…; монобренд Mostbet."
+ },
+ {
+  "domain": "freeprogs.kiev.ua",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.82,
+  "comment": "Поддомен mostbet.*: кнопки /agent/go/utm_term:melbet/… через трекер workaroundxyz.com ведут на parik24bet.pro, go.stawkibet4.io, start.topmatch-ua.club — чужие операторы."
+ },
+ {
+  "domain": "fuelingactivekids.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Кнопки «Daxil ol» href=/play ведут на 1xbet.rs с tag=d_3755482m_…; монобренд Mostbet AZ."
+ },
+ {
+  "domain": "fundacja-alaska.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Ссылки /step-un/ (логотип, кнопки) ведут на hellspin222.com с btag=678741_…"
+ },
+ {
+  "domain": "game-best-super741.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Меню и кнопки href=/go.php ведут на 1xbet.rs с tag=d_3755482m_…; монобренд Mostbet AZ."
+ },
+ {
+  "domain": "game-online-play741.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Меню и кнопки href=/go.php ведут на 1xbet.rs с tag=d_3755482m_…; монобренд Mostbet AZ."
+ },
+ {
+  "domain": "game-online-top853.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Пункт меню «Mostbet» и кнопки href=/play.php ведут на 1xbet.rs с tag=d_3755482m_…"
+ },
+ {
+  "domain": "game-online-top854.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Пункт меню «Mostbet» и кнопки href=/play.php ведут на 1xbet.rs с tag=d_3755482m_…"
+ },
+ {
+  "domain": "game-online-top854.click",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Пункт меню «Mostbet» и кнопки href=/play.php ведут на 1xbet.rs с tag=d_3755482m_…"
+ },
+ {
+  "domain": "game-super-play908.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Кнопки «Вход в систему» href=/play.php ведут на 1xbet.rs с tag=d_3755482m_…; монобренд Мостбет KZ."
+ },
+ {
+  "domain": "game-super-top658.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "25 кнопок href=/go.php ведут на 1xbet.rs с tag=d_3755482m_…; монобренд Mostbet AZ."
+ },
+ {
+  "domain": "game-top-online782.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "25 кнопок href=/go.php ведут на 1xbet.rs с tag=d_3755482m_…; монобренд Mostbet AZ."
+ },
+ {
+  "domain": "ganwo53.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Кнопка /qeydiyyat/ ведёт на GETX (stag=74548_…), пункт меню /casino/ — на olymp-csn.com с utm_medium=affiliate."
+ },
+ {
+  "domain": "gatewayaccount38.beauty",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Кнопки через трекер betoholictrack.name/zogxmUNO?sub1=… ведут на 1xbet.rs с tag=d_5539176m_…; страница про бонус Mostbet."
+ },
+ {
+  "domain": "gaziyarimaratonu.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Кнопки href=/play ведут на 1xbet.rs с tag=d_3755482m_…; mostbet-onlinetr.top упомянут без кода."
+ },
+ {
+  "domain": "geotechsupply.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Кнопки «login» href=/play ведут на 1xbet.rs с tag=d_3755482m_…; монобренд Mostbet Pakistan."
+ },
+ {
+  "domain": "getthefoutroom.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Кнопки href=/play ведут на 1xbet.rs с tag=d_3755482m_…; монобренд Mostbet UZ."
+ },
+ {
+  "domain": "gloriaperezsalmeron.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Кнопки через /go/ ведут на 1xbet.rs с tag=d_3755482m_…; монобренд Mostbet AZ."
+ },
+ {
+  "domain": "gnyda.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Кнопки через /go ведут на 1xbet.rs с tag=d_3755482m_…; монобренд Мостбет KZ."
+ },
+ {
+  "domain": "godawards.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Кнопки «Login» href=/play ведут на 1xbet.rs с tag=d_3755482m_…; монобренд Mostbet Bangladesh."
+ },
+ {
+  "domain": "godzina10.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "25 ссылок /link/ (логотип, кнопки) ведут на hellspin222.com с btag=678741_…"
+ },
+ {
+  "domain": "gpstrenink.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Кнопки href=/play/ ведут на one-vv3429.com (1win) с p=hztd&sub1=…; монобренд Mostbet CZ."
+ },
+ {
+  "domain": "gracetattoolondon.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Кнопки через play-link.org/wzmqNL9S ведут на casea-8039.com с mid=231666_…; APK Mostbet с mobile-apps.online без партнёрского кода — не реклама Mostbet."
+ },
+ {
+  "domain": "grillbox.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "103 ссылки /go/sosihui ведут на 804fieryplay73.com с ref=vp_w245602…; ещё трекер traffick-jumps.com на starwindirect.com."
+ },
+ {
+  "domain": "groutmedicdfw.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Кнопки через /go/ ведут на winshark13.com с stag=109401_…; mostbet21.pl только в скрипте/картинках."
+ },
+ {
+  "domain": "gryfdeveloper.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "26 ссылок /link/ ведут на hellspin222.com с btag=678741_…"
+ },
+ {
+  "domain": "gts-nsk.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Клон интерфейса Mostbet: ссылки /mostb/ ведут на 3normcasino-oo.win с qtag=a84744_…"
+ },
+ {
+  "domain": "guacamole.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "JS-кнопки через holy-duck.top/click?key=… ведут на dd21--dudespin.com с mid=33585_…"
+ },
+ {
+  "domain": "gynea-praha.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Кнопки через /to/ ведут на winshark13.com с stag=109401_…; монобренд Mostbet CZ."
+ },
+ {
+  "domain": "gzmd.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Клон интерфейса Mostbet: ссылки /mostb/ ведут на 3normcasino-oo.win с qtag=a84744_…"
+ },
+ {
+  "domain": "h-ddealersportugal.pt",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Главная переезжает на vidareal-rp-portugal.pt (монобренд Mostbet PT), кнопки /play/ ведут на one-vv3429.com (1win) с p=hztd."
+ },
+ {
+  "domain": "hannahjohnsonfabrics.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Кнопки (JS-форма) через трекер 9b5kbfxuvy.top/vxH9YR ведут на 1xbet.rs с tag=d_3755482m_…; монобренд Mostbet BD."
+ },
+ {
+  "domain": "hanoiszybowcowa.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Кнопки через /go/ ведут на winshark13.com с stag=109401_…; mostbet21.pl только в скрипте/картинках."
+ },
+ {
+  "domain": "hasta-center.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Клон интерфейса Mostbet: ссылки /mostb/ ведут на 8normcasino-fe.win с qtag=a84744_…"
+ },
+ {
+  "domain": "higherorderthinkingschools.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Кнопки «Вход в систему» href=/play ведут на 1xbet.rs с tag=d_3755482m_…; монобренд Мостбет KZ."
+ },
+ {
+  "domain": "hotel-slavalyans.com.ua",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Кнопка в шапке /goto/rega/ ведёт на favbet.ua/short-register с b_tag=a_489b_…; ещё трекер topcassinisonlines2022.com на Favbet."
+ }
+]

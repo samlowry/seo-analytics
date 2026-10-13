@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbet-az-casino.eu.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet Rəsmi Sayt – Qeydiyyat, Giriş və Üstünlükl»); кнопка https://e9jb2hse5u0.top/zqdZr4 ведёт на 1xbet.rs:443 — 1xBet, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-az-online.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Домен с Mostbet переезжает на avshalomgur.com (title «Mostbet AZ»); кнопка /get/ ведёт через трекер refpugotds.com/7TtcTxaj с subId на лид-форму msotebtd-form-az.sg.romavex.net «10 000 ₼ + 250 FS» — чужой трекер без pid Mostbet."
+ },
+ {
+  "domain": "mostbet-az-platforma.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet Azerbaycan Rəsmi Casino | Mostbet AZ Giriş»); кнопка /go.php ведёт на 1xbet.rs:443 — 1xBet, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-az-slot.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet rəsmi sayt bonuslar və sürətli ödənişlər»); кнопка /enter-now ведёт на 1xbet.rs:443 — 1xBet, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-az.tech",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet Azərbaycanda bonuslar və yüksək əmsallar»); кнопка /go-now ведёт на 1xbet.rs:443 — 1xBet, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-azcasino.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet AZ Casino - Böyük Bonuslar və Rahat Oyun T»); кнопка /play ведёт на 7-baxterbet21.com — Baxterbet, с партнёрским кодом (+1 других чужих ссылок); ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-azerbaijan-777.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet ilə Böyük Qalibiyyətlərə Doğru Addımlayın»); кнопка /visit ведёт на 1xbet.rs:443 — 1xBet, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-azerbaijan-bet.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet: Şansını Keşfet ve Qazan!»); кнопка /click ведёт на 1xbet.rs:443 — 1xBet, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-azerbaijan-club.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet ilə Ən Yaxşı Mərc Təcrübəsi Qazanın»); кнопка /play-now ведёт на 1xbet.rs:443 — 1xBet, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-azerbaijan-game.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet Az sürətli qeydiyyat və xoş gəldin bonusu»); кнопка /play-now ведёт на 1xbet.rs:443 — 1xBet, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-azerbaijan-jackpot.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet: Ən Yaxşı Mərc Seçimləriniz Sizinlədir»); кнопка /go ведёт на 1xbet.rs:443 — 1xBet, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-azerbaijan-jackpot.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet - Uduşlarınızı Təkmilləşdirin»); кнопка /visit ведёт на 1xbet.rs:443 — 1xBet, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-azerbaijan-sport.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet AZ Giriş ᐉ Mostbet Azerbaycan Rəsmi Casino»); кнопка /play ведёт на 1xbet.rs:443 — 1xBet, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-azerbaijan-sport.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet ilə Qazanmanın Ən Yaxşı Yolunu Kəşf Edin»); кнопка /play-now ведёт на 1xbet.rs:443 — 1xBet, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-azerbaijan.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet AZ | Azərbaycanın ən yaxşı bukmeker kontor»); кнопка /go.php ведёт на 1xbet.rs:443 — 1xBet, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-azerbajan.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet Azərbaycan Onlayn Kazino 2026»); кнопка /go/register ведёт на 25winairlines80.com — Bine ați venit în Lobby-ul Cazinoului Online de la Winairlin, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-azerbaycan.fun",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet AZ Giriş | Mərc və kazino Mostbet Azərbayc»); кнопка /play ведёт на 1xbet.rs:443 — 1xBet, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-azz.ink",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet AZ ✔️ Rəsmi internet saytında giriş və qey»); кнопка /go/ ведёт на 1xbet.rs:443 — 1xBet, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-bang.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet: Play & Win Real Money in Bangladesh 🇧🇩»); кнопка /go/login ведёт на 76winairlines48.com — Dobrodošli u Online Casino Lobby u Winairlines ✅, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-bd-casino.biz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet Official Bookmaker Live Odds and Casino»); кнопка /enter ведёт на 1xbet.rs:443 — 1xBet, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-bd.cloud",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet Live Bets Casino Offers and Fast Payouts»); кнопка /visit ведёт на 1xbet.rs:443 — 1xBet, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-bd.digital",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet Sports Betting Casino Big Odds Fast Payout»); кнопка /go ведёт на 1xbet.rs:443 — 1xBet, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-bd.icu",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet Your Place for Fast Sports Bets and Slots»); кнопка /enter ведёт на 1xbet.rs:443 — 1xBet, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-bd.pro",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet Live Sports Betting and Casino Offers»); кнопка /go-now ведёт на 1xbet.rs:443 — 1xBet, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-bd.space",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet Sportsbook Casino Bonuses and Live Bets»); кнопка /go-now ведёт на 1xbet.rs:443 — 1xBet, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-bestpk.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet Login Pakistan - sports betting casino | B»); кнопка /play ведёт на 1xbet.rs:443 — 1xBet, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-bonus.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Кнопки через play-link.org/wzmqNL9S?pid=241 ведут на casea-8039.com/registration?mid=… (Casea); вторая ссылка getplay.plseocpa.com с \\u0026 — испорченная копия, суждение по целой."
+ },
+ {
+  "domain": "mostbet-bonusy.pro",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet AZ | ✦ 2026 Yeni Link | Canlı Kazino və İd»); кнопка /go ведёт на 1xbet.rs:443 — 1xBet, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-brand-pl.best",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet — kasyno online z bonusem 550% do 15 000 P»); кнопка /go/register ведёт на wc58--westace.com — Westace, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-brand-pl.click",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet kasyno online od 2009 — 1500+ gier i bonus»); кнопка /go/register ведёт на wc58--westace.com — Westace, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-brand-pl.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet kasyno online — 1500+ gier i bonus 15 000 »); кнопка /go/register ведёт на alawin-1119.com — Alawin, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-brand.pro",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet kasyno online – 1500+ gier i bonus do 15 0»); кнопка /go/register ведёт на alawin-1119.com — Alawin, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-ca.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet Official Site ᐉ Mostbet Login»); кнопка /click/ ведёт на winshark13.com — Winshark, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-ca.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet Official Site ᐉ Mostbet Login»); кнопка /out/ ведёт на winshark13.com — Winshark, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-casino-2025.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet Casino Bonus Online 🎁 Nawet 4000€ oraz 300»); кнопка https://gotogame1.com/tCzdMB?sub_id_1=4943&sub_id_10=Mostbet+Casino ведёт на 63winairlines41.com — Dobrodošli u Online Casino Lobby u Winairlines ✅, с партнёрским кодом (+1 других чужих ссылок); ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-casino-game.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet mərc platforması qaydaları və ödəmə seçiml»); кнопка /visit ведёт на 1xbet.rs:443 — 1xBet, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-casino-go.click",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Клон «Mostbet Casino – Hivatalos Oldal»: все кнопки (data-sf-a, base64) ведут через трекер bochc.best-online-casinos-hu.click/uS9pGG9 на венгерский каталог чужих казино; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-casino-kasyno.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet Polska | Oficjalne Kasyno Online i Zakłady»); кнопка /go/ALL-LINK ведёт на 174spingranny.com — Званични сајт казина SpingrannySpingrannySpingranny, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-casino-ma.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet Maroc 2026 : Avis Complet, Inscription, Bo»); кнопка https://pingoosplash.fr/gIzyvD ведёт на 1wzpdo.life — 1win, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-casino-mirror-3.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet ᐉ Лучшее онлайн казино и БК | Официальный »); кнопка /play.php ведёт на 1xbet.rs:443 — 1xBet, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-casino-nl.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet Casino Online 🎰 Speel de Beste Slots met B»); кнопка /go/ ведёт на vivajack1.com — VivaJack Casino, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-casino-nz.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet Online New Zealand Casino — Fast Payouts: »); кнопка https://a.v1pcasino.com/click?key=8ce10f41662ac542e781&page=index&link=nav-app&brand=Mostbet&source=&firstpage=https%3A%2F%2Fmostbet-casino-nz.com%2F&site=mostbet-casino-nz.com&pagetype=home&offer=App&lang=en-NZ ведёт на kt61--tikitaka.com — Tikitaka, с партнёрским кодом (+2 других чужих ссылок); ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-casino-ofb.fun",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «МостБет Казино и MostBet Casino: обзор»); кнопка /go/velora ведёт на 4v3lor4-prev4il.com — Velora Casino, с партнёрским кодом (+4 других чужих ссылок); ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-casino-online-cz.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet Online Česko: Kasinové hry, bonusy, mobiln»); кнопка https://vip.w1ncasino.org/click?key=bcb09393f8e24f3db9f0df4e253f1012&page=index&link=nav-bonus&brand=Mostbet&source=&firstpage=https%3A%2F%2Fmostbet-casino-online-cz.com%2F&site=mostbet-casino-online-cz.com&pagetype=home&offer=Bonus&lang=cs-CZ ведёт на casea-8039.com — Casea, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-casino-online-cz.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet Kasino Online Česko: Bonusy, Hry, Mobilní »); кнопка https://vip.w1ncasino.org/click?key=bcb09393f8e24f3db9f0df4e253f1012&page=index&link=nav-app&brand=Mostbet&source=&firstpage=https%3A%2F%2Fmostbet-casino-online-cz.cz%2F&site=mostbet-casino-online-cz.cz&pagetype=home&offer=Aplikace&lang=cs-CZ ведёт на casea-8039.com — Casea, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-casino-online-cz.eu.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet Online Česko Casino: Výběr her, bonusy a m»); кнопка https://vip.w1ncasino.org/click?key=bcb09393f8e24f3db9f0df4e253f1012&page=index&link=nav-app&brand=Mostbet&source=&firstpage=https%3A%2F%2Fmostbet-casino-online-cz.eu.com%2F&site=mostbet-casino-online-cz.eu.com&pagetype=home&offer=Aplikace&lang=cs-CZ ведёт на casea-8039.com — Casea, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-casino-pt.bet",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet Casino Portugal 2026 | Acesso Oficial e Se»); кнопка https://play55games.com/click_api/?_lp=1&_token=2r4tnv11ieceh3.1790804081.1.3a44d36a131b695ca7b2618bd823c5bd?_subid=22ckq76.ae5.29kt7n&_token=2r4tnv11ieceh3.1790804081.1.3a44d36a131b695ca7b2618bd823c5bd ведёт на qzino.com — Qzino, с партнёрским кодом (+2 других чужих ссылок); ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-casino-pt.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet Casino Online - 30 Free Spins + Bônus Espe»); кнопка /go/login ведёт на rocketplay32.com — RocketPlay Casino, с партнёрским кодом; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-casino-pt.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet Portugal 2026: Casino Online, Bónus e Paga»); кнопка https://play55games.com/click_api/?_lp=1&_token=646cce3pgisl6.1790804087.1.850b1ab5b8dd11ddd5d2e85529948b41?_subid=22ckq76.ae2.29kt7t&_token=646cce3pgisl6.1790804087.1.850b1ab5b8dd11ddd5d2e85529948b41 ведёт на rainbet.com — rainbet.com, с партнёрским кодом (+2 других чужих ссылок); ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-casino-pt.pt",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet (домен и title «Mostbet Casino Portugal 2026 | Jogue e Ganhe Agora»); кнопка /navigate-tunnel ведёт на betlbl.com — BetLabel, с партнёрским кодом; ссылок на Mostbet нет."
+ }
+]

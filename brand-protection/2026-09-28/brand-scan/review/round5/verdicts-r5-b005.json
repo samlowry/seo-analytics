@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "bd-mostbet-bonus.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (домен, title, h1) на бангладешском шаблоне; кнопки «লগইন/নিবন্ধন» через /api?action=click отдают ссылки на 19bdbajee.com, 19tbajee.com/m/register?affiliateCode=seo555|520ge00c — партнёрки Baji/Winbd, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "bd-mostbet-login.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (домен, title, h1) на бангладешском шаблоне; кнопки «লগইন/নিবন্ধন» через /api?action=click отдают ссылки на 19bdbajee.com, 19tbajee.com, winbd17.com/m/register?affiliateCode=seo555|520ge00c — партнёрки Baji/Winbd, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "bd-mostbet-official.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (домен, title, h1) на бангладешском шаблоне; кнопки «লগইন/নিবন্ধন» через /api?action=click отдают ссылки на 19bdbajee.com, 19tbajee.com/m/register?affiliateCode=seo555|520ge00c — партнёрки Baji/Winbd, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "bd-mostbet-online.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (домен, title, h1) на бангладешском шаблоне; кнопки «লগইন/নিবন্ধন» через /api?action=click отдают ссылки на 19tbajee.com, winbd17.com/m/register?affiliateCode=seo555|520ge00c — партнёрки Baji/Winbd, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "bd-mostbet-pakistan.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (домен, title, h1) на бангладешском шаблоне; кнопки «লগইন/নিবন্ধন» через /api?action=click отдают ссылки на 19tbajee.com, 520bd12.vip, winbd17.com/m/register?affiliateCode=seo555|520ge00c — партнёрки Baji/Winbd, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "bd-mostbet-play.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (домен, title, h1) на бангладешском шаблоне; кнопки «লগইন/নিবন্ধন» через /api?action=click отдают ссылки на 19bdbajee.com, 19tbajee.com/m/register?affiliateCode=seo555|520ge00c — партнёрки Baji/Winbd, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "bd-mostbet-review.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (домен, title, h1) на бангладешском шаблоне; кнопки «লগইন/নিবন্ধন» через /api?action=click отдают ссылки на 19tbajee.com, 520bd12.vip/m/register?affiliateCode=seo555|520ge00c — партнёрки Baji/Winbd, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "bd-mostbetbetting.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (домен, title, h1) на бангладешском шаблоне; кнопки «লগইন/নিবন্ধন» через /api?action=click отдают ссылки на 19bdbajee.com, 520bd12.vip, winbd17.com/m/register?affiliateCode=seo555|520ge00c — партнёрки Baji/Winbd, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "bd-mostbetcasino.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (домен, title, h1) на бангладешском шаблоне; кнопки «লগইন/নিবন্ধন» через /api?action=click отдают ссылки на 19bdbajee.com, 19tbajee.com/m/register?affiliateCode=seo555|520ge00c — партнёрки Baji/Winbd, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "bd-mostbetofficial.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (домен, title, h1) на бангладешском шаблоне; кнопки «লগইন/নিবন্ধন» через /api?action=click отдают ссылки на 19tbajee.com, 520bd12.vip/m/register?affiliateCode=seo555|520ge00c — партнёрки Baji/Winbd, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "bet-mostbet-app.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (домен, title, h1) на бангладешском шаблоне; кнопки «লগইন/নিবন্ধন» через /api?action=click отдают ссылки на 19tbajee.com, 520bd12.vip, winbd17.com/m/register?affiliateCode=seo555|520ge00c — партнёрки Baji/Winbd, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "bet-mostbet-bd.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (домен, title, h1) на бангладешском шаблоне; кнопки «লগইন/নিবন্ধন» через /api?action=click отдают ссылки на 19tbajee.com, 520bd12.vip/m/register?affiliateCode=seo555|520ge00c — партнёрки Baji/Winbd, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "casino-mostbet-app.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (домен, title, h1) на бангладешском шаблоне; кнопки «লগইন/নিবন্ধন» через /api?action=click отдают ссылки на 19tbajee.com, 520bd12.vip, winbd17.com/m/register?affiliateCode=seo555|520ge00c — партнёрки Baji/Winbd, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "casino-mostbet-casino.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (домен, title, h1) на бангладешском шаблоне; кнопки «লগইন/নিবন্ধন» через /api?action=click отдают ссылки на 19bdbajee.com, 19tbajee.com, 520bd12.vip/m/register?affiliateCode=seo555|520ge00c — партнёрки Baji/Winbd, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "hobrealm.top",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.5,
+  "comment": "Фейковая карточка Google Play «MostBet KZ» (PWA); оффер берётся скриптом из /analytic/{osid}, в HTML только data-prevbutton (перехват кнопки «Назад») на lowkey-media.live/pwagroup?external_id=… — получатель неизвестен, бренд не установлен."
+ },
+ {
+  "domain": "mostbet-affiliate.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (домен, title, h1) на бангладешском шаблоне; кнопки «লগইন/নিবন্ধন» через /api?action=click отдают ссылки на 19tbajee.com, winbd17.com/m/register?affiliateCode=seo555|520ge00c — партнёрки Baji/Winbd, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-bd-bet.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (домен, title, h1) на бангладешском шаблоне; кнопки «লগইন/নিবন্ধন» через /api?action=click отдают ссылки на 19bdbajee.com, winbd17.com/m/register?affiliateCode=seo555|520ge00c — партнёрки Baji/Winbd, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-com.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (домен, title, h1) на бангладешском шаблоне; кнопки «লগইন/নিবন্ধন» через /api?action=click отдают ссылки на 19bdbajee.com, 19tbajee.com, winbd17.com/m/register?affiliateCode=seo555|520ge00c — партнёрки Baji/Winbd, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-com.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (домен, title, h1) на бангладешском шаблоне; кнопки «লগইন/নিবন্ধন» через /api?action=click отдают ссылки на 19bdbajee.com, 19tbajee.com, 520bd12.vip/m/register?affiliateCode=seo555|520ge00c — партнёрки Baji/Winbd, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-deposit.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (домен, title, h1) на бангладешском шаблоне; кнопки «লগইন/নিবন্ধন» через /api?action=click отдают ссылки на 520bd12.vip, winbd17.com/m/register?affiliateCode=seo555|520ge00c — партнёрки Baji/Winbd, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-download.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (домен, title, h1) на бангладешском шаблоне; кнопки «লগইন/নিবন্ধন» через /api?action=click отдают ссылки на 19tbajee.com, 520bd12.vip/m/register?affiliateCode=seo555|520ge00c — партнёрки Baji/Winbd, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-free.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (домен, title, h1) на бангладешском шаблоне; кнопки «লগইন/নিবন্ধন» через /api?action=click отдают ссылки на 19bdbajee.com, 520bd12.vip, winbd17.com/m/register?affiliateCode=seo555|520ge00c — партнёрки Baji/Winbd, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-peru.pe",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.92,
+  "comment": "Заглушка регистратора 101domain «Future home of …»; единственная внешняя ссылка — my.101domain.com/login.html?lref=… (реферал регистратора), не реклама казино."
+ },
+ {
+  "domain": "mostbet-promo.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (домен, title, h1) на бангладешском шаблоне; кнопки «লগইন/নিবন্ধন» через /api?action=click отдают ссылки на 19tbajee.com, 520bd12.vip/m/register?affiliateCode=seo555|520ge00c — партнёрки Baji/Winbd, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-pt.pt",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.92,
+  "comment": "Заглушка регистратора 101domain «Future home of …»; единственная внешняя ссылка — my.101domain.com/login.html?lref=… (реферал регистратора), не реклама казино."
+ },
+ {
+  "domain": "mostbet-register.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (домен, title, h1) на бангладешском шаблоне; кнопки «লগইন/নিবন্ধন» через /api?action=click отдают ссылки на 19bdbajee.com, 19tbajee.com, winbd17.com/m/register?affiliateCode=seo555|520ge00c — партнёрки Baji/Winbd, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-sign.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (домен, title, h1) на бангладешском шаблоне; кнопки «লগইন/নিবন্ধন» через /api?action=click отдают ссылки на 19bdbajee.com, 520bd12.vip/m/register?affiliateCode=seo555|520ge00c — партнёрки Baji/Winbd, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-tojik-reg.info",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.92,
+  "comment": "Заглушка регистратора 101domain «Future home of …»; единственная внешняя ссылка — my.101domain.com/login.html?lref=… (реферал регистратора), не реклама казино."
+ },
+ {
+  "domain": "mostbet.hockey",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.92,
+  "comment": "Заглушка регистратора 101domain «Future home of …»; единственная внешняя ссылка — my.101domain.com/login.html?lref=… (реферал регистратора), не реклама казино."
+ },
+ {
+  "domain": "mostbet.hr",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.92,
+  "comment": "Заглушка регистратора 101domain «Future home of …»; единственная внешняя ссылка — my.101domain.com/login.html?lref=… (реферал регистратора), не реклама казино."
+ },
+ {
+  "domain": "mostbet.moscow",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.92,
+  "comment": "Главная уводит на /login_up.php — страница входа в панель Plesk; ссылка support.plesk.com/hc — справка Plesk, не реклама."
+ },
+ {
+  "domain": "mostbet.org.kz",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.92,
+  "comment": "Главная уводит на /login_up.php — страница входа в панель Plesk; ссылка support.plesk.com/hc — справка Plesk, не реклама."
+ },
+ {
+  "domain": "mostbet.soccer",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.92,
+  "comment": "Заглушка регистратора 101domain «Future home of …»; единственная внешняя ссылка — my.101domain.com/login.html?lref=… (реферал регистратора), не реклама казино."
+ },
+ {
+  "domain": "mostbet1.ke",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.92,
+  "comment": "Заглушка регистратора 101domain «Future home of …»; единственная внешняя ссылка — my.101domain.com/login.html?lref=… (реферал регистратора), не реклама казино."
+ },
+ {
+  "domain": "mostbet1.ng",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.92,
+  "comment": "Заглушка регистратора 101domain «Future home of …»; единственная внешняя ссылка — my.101domain.com/login.html?lref=… (реферал регистратора), не реклама казино."
+ },
+ {
+  "domain": "mostbet2.ru",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.92,
+  "comment": "Главная уводит на /login_up.php — страница входа в панель Plesk; ссылка support.plesk.com/hc — справка Plesk, не реклама."
+ },
+ {
+  "domain": "mostbet88.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.7,
+  "comment": "Монобренд «Mostbet Bangladesh»; все 23 кнопки ведут на трекер rf92qw43.com/?ch=5323 → fr29zt63.com/register?ch=5323 — случайные хосты с кодом канала, pid Mostbet нет; по правилу владельца — реклама чужого."
+ },
+ {
+  "domain": "mostbetbogota.info",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.92,
+  "comment": "Заглушка регистратора 101domain «Future home of …»; единственная внешняя ссылка — my.101domain.com/login.html?lref=… (реферал регистратора), не реклама казино."
+ },
+ {
+  "domain": "mostbetco-registro.pro",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.92,
+  "comment": "Заглушка регистратора 101domain «Future home of …»; единственная внешняя ссылка — my.101domain.com/login.html?lref=… (реферал регистратора), не реклама казино."
+ },
+ {
+  "domain": "mostbetuz.biz",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.92,
+  "comment": "Заглушка регистратора 101domain «Future home of …»; единственная внешняя ссылка — my.101domain.com/login.html?lref=… (реферал регистратора), не реклама казино."
+ },
+ {
+  "domain": "mostbetvip.vip",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.7,
+  "comment": "Монобренд Mostbet (BD); 4 кнопки «নিবন্ধন/লগইন» в шапке → thehound.ninja/ani → rg31zt75.com/?ch=7127 → eg79vh34.com/register?ch=7127 — чужой трекер той же сети, что у mostbet88.net, pid Mostbet нет."
+ },
+ {
+  "domain": "primacinema.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Mostbet AZ» на чужом домене; все кнопки «Daxil ol/Qeydiyyat» → /play → cf2w2a827cgd.top → refpa-57015.com → 1xbet.rs/registration?tag=d_3755482m — партнёрка 1xBet."
+ },
+ {
+  "domain": "slotsmostbet-app.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (домен, title, h1) на бангладешском шаблоне; кнопки «লগইন/নিবন্ধন» через /api?action=click отдают ссылки на 19bdbajee.com, 520bd12.vip, winbd17.com/m/register?affiliateCode=seo555|520ge00c — партнёрки Baji/Winbd, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "slotsmostbet-casino.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (домен, title, h1) на бангладешском шаблоне; кнопки «লগইন/নিবন্ধন» через /api?action=click отдают ссылки на 19bdbajee.com, 19tbajee.com, 520bd12.vip/m/register?affiliateCode=seo555|520ge00c — партнёрки Baji/Winbd, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "zoomostbet.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (домен, title, h1) на бангладешском шаблоне; кнопки «লগইন/নিবন্ধন» через /api?action=click отдают ссылки на 19tbajee.com, winbd17.com/m/register?affiliateCode=seo555|520ge00c — партнёрки Baji/Winbd, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "8xbetbonus.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Текст и h1 «Mostbet Casinó Live», кнопки onclick → vs66cd75semb.com/mRvs (Mostbet pid=102050); во всплывающем окне #popup баннер 8xbet.png → 8xbet55.com/p/k7kW — реклама 8xBet (windscribe affid — VPN, не в счёт)."
+ },
+ {
+  "domain": "asomif.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.65,
+  "comment": "Клоака для Google-mobile: монобренд «Mostbet AZ»; кнопка /apk → d4hdamr0.top/ybzRsnYF?sub1=apk — чужой трекер (сейчас 404); копии этой сети (asomiforg598.top, pwclorg906.top) вели на refpa → 1xbet.rs."
+ },
+ {
+  "domain": "aviator-mostbet.casino",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Единственная внешняя ссылка (3 кнопки «Open Game») — playcasino2026.com/2nsCWjXp → n37ztcmb.com → ijwdpnmb.com …pid=310598, т. е. рефка Mostbet; классификатор посчитал этот же трекер ещё и чужой рекламой."
+ },
+ {
+  "domain": "childcareindiana.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.65,
+  "comment": "Копия asomif.org: клоака для Google-mobile, монобренд «Mostbet AZ», кнопка /apk → d4hdamr0.top/ybzRsnYF?sub1=apk — чужой трекер (сейчас 404), сеть ранее рекламировала 1xBet."
+ },
+ {
+  "domain": "cricketbettingbd.top",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.7,
+  "comment": "Монобренд Mostbet: кнопки /reg → pg5i0mmb.com/8u4F (трекер Mostbet) и две видимые картинки-ссылки в тексте на 1xbet-4in.club/reg (1xBet). PromoPult/Uptolike из other_ads — виджет «Поделиться», не реклама."
+ }
+]

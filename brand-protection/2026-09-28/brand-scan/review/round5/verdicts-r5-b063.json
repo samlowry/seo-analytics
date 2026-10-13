@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "foontik.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет (title «Мостбет официальный сайт | Рабочее зеркало Mostbet»), все кнопки меню и «Регистрация» ведут на свой шлюз https://foontik.ru/go/ → регистрация NormCasino с qtag=a84744; ссылок Mostbet нет."
+ },
+ {
+  "domain": "forajournal.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet (title про Mostbet), кнопок на Mostbet нет; скрипт попандера открывает ddd7dj.org/MPNB4gYP?a=DAFF → регистрация lanista-2064.com (mid=371788), второй трекер sltna.pclira.com → slotuna-0296.com. В сохранённом HTML скрипта нет, ссылка есть только в destinations.csv (js:script_url) — та же сетка, что у соседних сайтов."
+ },
+ {
+  "domain": "forestchel.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет (title «Мостбет Казино и Мостбет зеркало — Официальный сай»), все кнопки меню и «Регистрация» ведут на свой шлюз https://forestchel.ru/go/ → регистрация NormCasino с qtag=a84744; ссылок Mostbet нет."
+ },
+ {
+  "domain": "fotopola.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (title про Mostbet), кнопок на Mostbet нет; скрипт попандера открывает ddd7dj.org/MPNB4gYP?a=DAFF → регистрация lanista-2064.com (mid=371788), второй трекер sltna.pclira.com → slotuna-0296.com."
+ },
+ {
+  "domain": "geststudent.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet UZ (шаблон templates/mostbet), кнопки ведут на свой шлюз /go/ → likecasino.com/uz/register?tracker=58327&sub1={NikitaFr}; ссылок Mostbet нет."
+ },
+ {
+  "domain": "getmostbetbd.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене, кнопка /go/register ведёт на redirect-fieryplay.com/?ref=vp_w20149… — рефка Fieryplay; ссылок Mostbet нет."
+ },
+ {
+  "domain": "gigagame.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет (title «Мостбет зеркало — актуальное рабочее зеркало Мостб»), все кнопки меню и «Регистрация» ведут на свой шлюз https://gigagame.ru/go/ → регистрация NormCasino с qtag=a84744; ссылок Mostbet нет."
+ },
+ {
+  "domain": "gilbert-invest.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет (title «Мостбет Казино (Mostbet) — официальный сайт, бонус»), все кнопки меню и «Регистрация» ведут на свой шлюз https://gilbert-invest.ru/play/ → регистрация NormCasino с qtag=a84744; ссылок Mostbet нет."
+ },
+ {
+  "domain": "globus-korenovsk.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет (title «Мостбет зеркало и Мостбет Casino – рабочее зеркало»), все кнопки меню и «Регистрация» ведут на свой шлюз https://globus-korenovsk.ru/go/ → регистрация NormCasino с qtag=a84744; ссылок Mostbet нет."
+ },
+ {
+  "domain": "glosujodpowiedzialnie.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (title про Mostbet), кнопок на Mostbet нет; скрипт попандера открывает ddd7dj.org/MPNB4gYP?a=DAFF → регистрация lanista-2064.com (mid=371788), второй трекер sltna.pclira.com → slotuna-0296.com."
+ },
+ {
+  "domain": "gnomemines.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet (title про Mostbet), кнопок на Mostbet нет; скрипт попандера открывает ddd7dj.org/MPNB4gYP?a=DAFF → регистрация lanista-2064.com (mid=371788), второй трекер sltna.pclira.com → slotuna-0296.com. В сохранённом HTML скрипта нет, ссылка есть только в destinations.csv (js:script_url) — та же сетка, что у соседних сайтов."
+ },
+ {
+  "domain": "griefergamez.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet UZ (шаблон templates/mostbet), кнопки ведут на свой шлюз /go/ → likecasino.com/uz/register?tracker=58327&sub1={NikitaFr}; ссылок Mostbet нет."
+ },
+ {
+  "domain": "grumetti.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (title про Mostbet), кнопок на Mostbet нет; скрипт попандера открывает ddd7dj.org/MPNB4gYP?a=DAFF → регистрация lanista-2064.com (mid=371788), второй трекер sltna.pclira.com → slotuna-0296.com."
+ },
+ {
+  "domain": "h-dva-o.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет (title «Мостбет БК - (Mostbet Casino) Официальный сайт»), все кнопки меню и «Регистрация» ведут на свой шлюз https://h-dva-o.ru/go/ → регистрация NormCasino с qtag=a84744; ссылок Mostbet нет."
+ },
+ {
+  "domain": "h4ssp.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет (title «Мостбет казино зеркало ⭐ Официальный сайт Mostbet»), все кнопки меню и «Регистрация» ведут на свой шлюз https://h4ssp.ru/go/ → регистрация NormCasino с qtag=a84744; ссылок Mostbet нет."
+ },
+ {
+  "domain": "happyteamloftspb.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет (title «Мостбет Казино онлайн | Официальный сайт Mostbet C»), все кнопки меню и «Регистрация» ведут на свой шлюз https://happyteamloftspb.ru/go/ → регистрация NormCasino с qtag=a84744; ссылок Mostbet нет."
+ },
+ {
+  "domain": "haval-sib.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет (title «Мостбет Казино — рабочее зеркало и официальный сай»), все кнопки меню и «Регистрация» ведут на свой шлюз https://haval-sib.ru/play/ → регистрация NormCasino с qtag=a84744; ссылок Mostbet нет."
+ },
+ {
+  "domain": "hedmet.com.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (title про Mostbet), кнопок на Mostbet нет; скрипт попандера открывает ddd7dj.org/MPNB4gYP?a=DAFF → регистрация lanista-2064.com (mid=371788), второй трекер sltna.pclira.com → slotuna-0296.com."
+ },
+ {
+  "domain": "help-home.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет (title «Mostbet Casino (Мостбет) официальный сайт | Зеркал»), все кнопки меню и «Регистрация» ведут на свой шлюз https://help-home.ru/go/ → регистрация NormCasino с qtag=a84744; ссылок Mostbet нет."
+ },
+ {
+  "domain": "herbal-lipetsk.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет (title «Мостбет зеркало (Mostbet) — онлайн азартная платфо»), все кнопки меню и «Регистрация» ведут на свой шлюз https://herbal-lipetsk.ru/play/ → регистрация NormCasino с qtag=a84744; ссылок Mostbet нет."
+ },
+ {
+  "domain": "hlaskhk.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet CZ, кнопки через свой шлюз /go/ и трекер cz.stat-umlead.com ведут на spinsy-9504.com (mid=225868_2251219); ссылок Mostbet нет."
+ },
+ {
+  "domain": "hospitalmariocorrea.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Главная переезжает на mostbets-magyar.net — монобренд Mostbet Hungary; кнопки /go/ ведут на kingmaker-8118.com/hu/registration?mid=133029_2249488; ссылок Mostbet нет."
+ },
+ {
+  "domain": "hwarang.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет (title «Мостбет: Официальный сайт Mostbet Casino 🚀 Вход и »), все кнопки меню и «Регистрация» ведут на свой шлюз https://hwarang.ru/go/ → регистрация NormCasino с qtag=a84744; ссылок Mostbet нет."
+ },
+ {
+  "domain": "id-spr.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет (title «Мостбет Казино (Mostbet Casino) - вход и регистрац»), все кнопки меню и «Регистрация» ведут на свой шлюз https://id-spr.ru/go/ → регистрация NormCasino с qtag=a84744; ссылок Mostbet нет."
+ },
+ {
+  "domain": "igr45.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет (title «Mostbet Casino 🎰 Мостбет БК – официальный сайт, иг»), все кнопки меню и «Регистрация» ведут на свой шлюз https://igr45.ru/go/ → регистрация NormCasino с qtag=a84744; ссылок Mostbet нет."
+ },
+ {
+  "domain": "igrushka-service.com.ua",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Страница про Mostbet (title «Мостбет Казино», текст про Mostbet в Украине), все кнопки /play/* редиректят 302 на mozzartbet.com/sr — прямая ссылка на чужого оператора; плюс трекер visquick.com → slottica."
+ },
+ {
+  "domain": "imanonlineschoo.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет (title «Мостбет Казино (Mostbet Casino) – платформа для на»), все кнопки меню и «Регистрация» ведут на свой шлюз https://imanonlineschoo.ru/go/ → регистрация NormCasino с qtag=a84744; ссылок Mostbet нет."
+ },
+ {
+  "domain": "imperial-cinepix.com.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet (title про Mostbet), кнопок на Mostbet нет; скрипт попандера открывает ddd7dj.org/MPNB4gYP?a=DAFF → регистрация lanista-2064.com (mid=371788), второй трекер sltna.pclira.com → slotuna-0296.com. В сохранённом HTML скрипта нет, ссылка есть только в destinations.csv (js:script_url) — та же сетка, что у соседних сайтов."
+ },
+ {
+  "domain": "ind-mostbet.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, кнопка https://ind-mostbet.com/go/login ведёт на winairlines (…/sr/lobby?cxd=36557_500352, bta=36557) — чужое казино по партнёрскому коду; ссылок Mostbet нет."
+ },
+ {
+  "domain": "indiegaming.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет (title «Мостбет Казино (Mostbet) Официальный сайт ᐈ онлайн»), все кнопки меню и «Регистрация» ведут на свой шлюз https://indiegaming.ru/go/ → регистрация NormCasino с qtag=a84744; ссылок Mostbet нет."
+ },
+ {
+  "domain": "inmostbet.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, страница «Mostbet Aviator / Mostbet APK» для Индии, но кнопки Join/Log In по клику уводят через https://c1.maxcloudlink.com/?ch=2NGS6&wi на 17jl33.com/?affiliateCode=17jl01 — чужое казино."
+ },
+ {
+  "domain": "inmostbetaviator.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, страница «Mostbet Aviator / Mostbet APK» для Индии, но кнопки Join/Log In по клику уводят через https://c2.maxcloudlink.com/?ch=C260V&wi на 17jl33.com/?affiliateCode=17jl01 — чужое казино."
+ },
+ {
+  "domain": "inmostbetcasino.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, страница «Mostbet Aviator / Mostbet APK» для Индии, но кнопки Join/Log In по клику уводят через https://c2.maxcloudlink.com/?ch=C260V&wi на 17jl33.com/?affiliateCode=17jl01 — чужое казино."
+ },
+ {
+  "domain": "inyogabks.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет (title «Мостбет Казино онлайн сайт: официальный вход и рег»), все кнопки меню и «Регистрация» ведут на свой шлюз https://inyogabks.ru/go/ → регистрация NormCasino с qtag=a84744; ссылок Mostbet нет."
+ },
+ {
+  "domain": "itharpe.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет (title «Mostbet Casino - официальный сайт - зеркало и вход»), все кнопки меню и «Регистрация» ведут на свой шлюз https://itharpe.ru/go/ → регистрация NormCasino с qtag=a84744; ссылок Mostbet нет."
+ },
+ {
+  "domain": "jaccar-vrn.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет (title «Мостбет — Мостбет зеркало 🔵 Рабочее зеркало Мостбе»), все кнопки меню и «Регистрация» ведут на свой шлюз https://jaccar-vrn.ru/go/ → регистрация NormCasino с qtag=a84744; ссылок Mostbet нет."
+ },
+ {
+  "domain": "joyor-russia.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет (title «Мостбет зеркало рабочее сегодня — официальный сайт»), все кнопки меню и «Регистрация» ведут на свой шлюз https://joyor-russia.ru/go/ → регистрация NormCasino с qtag=a84744; ссылок Mostbet нет."
+ },
+ {
+  "domain": "jvc-site.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет (title «Мостбет Казино (Mostbet) Официальный сайт ᐈ онлайн»), все кнопки меню и «Регистрация» ведут на свой шлюз https://jvc-site.ru/go/ → регистрация NormCasino с qtag=a84744; ссылок Mostbet нет."
+ },
+ {
+  "domain": "k-bystrsp.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет (title «Мостбет (Mostbet) — официальный сайт и зеркало, ре»), все кнопки меню и «Регистрация» ведут на свой шлюз https://k-bystrsp.ru/play/ → регистрация NormCasino с qtag=a84744; ссылок Mostbet нет."
+ },
+ {
+  "domain": "kalinamost.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет (title «Mostbet Casino | Вход на официальный сайт Мостбет,»), все кнопки меню и «Регистрация» ведут на свой шлюз https://kalinamost.ru/go/ → регистрация NormCasino с qtag=a84744; ссылок Mostbet нет."
+ },
+ {
+  "domain": "kartiny-nft.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет (title «Мостбет официальный сайт | Рабочее зеркало Mostbet»), все кнопки меню и «Регистрация» ведут на свой шлюз https://kartiny-nft.ru/go/ → регистрация NormCasino с qtag=a84744; ссылок Mostbet нет."
+ },
+ {
+  "domain": "kcsonsayansk.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет (title «Mostbet Casino — Официальный сайт Мостбет Казино в»), все кнопки меню и «Регистрация» ведут на свой шлюз https://kcsonsayansk.ru/go/ → регистрация NormCasino с qtag=a84744; ссылок Mostbet нет."
+ },
+ {
+  "domain": "kgmostbet.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, кнопка https://kgmostbet.com/go/register ведёт на winairlines (…/sr/lobby?cxd=36557_500352, bta=36557) — чужое казино по партнёрскому коду; ссылок Mostbet нет."
+ },
+ {
+  "domain": "kimostoretopup.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet UZ (шаблон templates/mostbet), кнопки ведут на свой шлюз /go/ → likecasino.com/uz/register?tracker=58327&sub1={NikitaFr}; ссылок Mostbet нет."
+ },
+ {
+  "domain": "klimovsafonova.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет (title «Мостбет Казино онлайн сайт: официальный вход и рег»), все кнопки меню и «Регистрация» ведут на свой шлюз https://klimovsafonova.ru/go/ → регистрация NormCasino с qtag=a84744; ссылок Mostbet нет."
+ },
+ {
+  "domain": "kommunar-estate.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет (title «Мостбет Казино (Mostbet) официальный сайт онлайн»), все кнопки меню и «Регистрация» ведут на свой шлюз https://kommunar-estate.ru/go/ → регистрация NormCasino с qtag=a84744; ссылок Mostbet нет."
+ },
+ {
+  "domain": "kommunarka-med.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет (title «Мостбет зеркало, Мостбет Казино – рабочее зеркало »), все кнопки меню и «Регистрация» ведут на свой шлюз https://kommunarka-med.ru/go/ → регистрация NormCasino с qtag=a84744; ссылок Mostbet нет."
+ },
+ {
+  "domain": "komp-auto.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет (title «Мостбет Казино (Mostbet Casino) - зеркало официаль»), все кнопки меню и «Регистрация» ведут на свой шлюз https://komp-auto.ru/go/ → регистрация NormCasino с qtag=a84744; ссылок Mostbet нет."
+ },
+ {
+  "domain": "kor-kos.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет (title «Мостбет официальный сайт Mostbet Casino | зеркало»), все кнопки меню и «Регистрация» ведут на свой шлюз https://kor-kos.ru/go/ → регистрация NormCasino с qtag=a84744; ссылок Mostbet нет."
+ },
+ {
+  "domain": "koreajob.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет (title «Мостбет Казино (Mostbet Casino) – официальный сайт»), все кнопки меню и «Регистрация» ведут на свой шлюз https://koreajob.ru/go/ → регистрация NormCasino с qtag=a84744; ссылок Mostbet нет."
+ }
+]
