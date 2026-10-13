@@ -1,0 +1,272 @@
+[
+ {
+  "domain": "mostbet.vip",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.75,
+  "comment": "Mostbet в домене и title, но это гест-пост блог про коробки, отели и пр. с рекламным скриптом revenuecpmgate; есть посты о чужих казино (ignition-casino-..., crown-coins-casino-...) со ссылками на win-en-ignitioncasino.com и win-en-crowncoinscasino.com; про Mostbet ничего нет."
+ },
+ {
+  "domain": "mostbet10646.company",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (зеркало mostbet-kg.kg), в подвале ссылка на https://1winkg.kg (1win) в блоке overflow:hidden; height:2px — скрыта от посетителя; видимой чужой рекламы нет, кнопки ведут на Mostbet (pid=130609)."
+ },
+ {
+  "domain": "mostbet12048.ru",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (зеркало mostbet-kg.kg), в подвале ссылка на https://1winkg.kg (1win) в блоке overflow:hidden; height:2px — скрыта от посетителя; видимой чужой рекламы нет, кнопки ведут на Mostbet (pid=130609)."
+ },
+ {
+  "domain": "mostbet2034.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (зеркало mostbet-kg.kg), в подвале ссылка на https://1winkg.kg (1win) в блоке overflow:hidden; height:2px — скрыта от посетителя; видимой чужой рекламы нет, кнопки ведут на Mostbet (pid=130609)."
+ },
+ {
+  "domain": "mostbet21480.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (зеркало mostbet-kg.kg), в подвале ссылка на https://1winkg.kg (1win) в блоке overflow:hidden; height:2px — скрыта от посетителя; видимой чужой рекламы нет, кнопки ведут на Mostbet (pid=130609)."
+ },
+ {
+  "domain": "mostbet37461.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (зеркало mostbet-kg.kg), в подвале ссылка на https://1winkg.kg (1win) в блоке overflow:hidden; height:2px — скрыта от посетителя; видимой чужой рекламы нет, кнопки ведут на Mostbet (pid=130609)."
+ },
+ {
+  "domain": "mostbet4478.shop",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (зеркало mostbet-kg.kg), в подвале ссылка на https://1winkg.kg (1win) в блоке overflow:hidden; height:2px — скрыта от посетителя; видимой чужой рекламы нет, кнопки ведут на Mostbet (pid=130609)."
+ },
+ {
+  "domain": "mostbet538.lol",
+  "given": "discredit",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "discredit",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, страница — фабрика межкомнатных дверей «Калина» (Екатеринбург), к ставкам отношения нет."
+ },
+ {
+  "domain": "mostbet56890.icu",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (зеркало mostbet-kg.kg), в подвале ссылка на https://1winkg.kg (1win) в блоке overflow:hidden; height:2px — скрыта от посетителя; видимой чужой рекламы нет, кнопки ведут на Mostbet (pid=130609)."
+ },
+ {
+  "domain": "mostbet69754.shop",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (зеркало mostbet-kg.kg), в подвале ссылка на https://1winkg.kg (1win) в блоке overflow:hidden; height:2px — скрыта от посетителя; видимой чужой рекламы нет, кнопки ведут на Mostbet (pid=130609)."
+ },
+ {
+  "domain": "mostbet80295.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (зеркало mostbet-kg.kg), в подвале ссылка на https://1winkg.kg (1win) в блоке overflow:hidden; height:2px — скрыта от посетителя; видимой чужой рекламы нет, кнопки ведут на Mostbet (pid=130609)."
+ },
+ {
+  "domain": "mostbet96810.help",
+  "given": "mono_hidden",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_hidden",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (зеркало mostbet-kg.kg), в подвале ссылка на https://1winkg.kg (1win) в блоке overflow:hidden; height:2px — скрыта от посетителя; видимой чужой рекламы нет, кнопки ведут на Mostbet (pid=130609)."
+ },
+ {
+  "domain": "mostbet995.casino",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Главная сразу (meta refresh + JS) уводит на promo-slot-link.com, в браузере попадает на рефку казино 7K (ref=sk_w238255..., sub_id=Dmostbet997); в домене Mostbet, самой Mostbet на странице нет."
+ },
+ {
+  "domain": "mostbetapps.icu",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Главная в браузере уводит на joker-lewus.top (Игорный дом Лев) с ref=fap_w24128p111..., то есть на рефку чужого казино; Mostbet в домене."
+ },
+ {
+  "domain": "mostbetazpwclorg324.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet AZ (title, h1, 57 упоминаний); все 25 кнопок ведут на /go.php, который через refpa-57015.com приводит на 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink — реклама только 1xBet."
+ },
+ {
+  "domain": "mostbetbk.pro",
+  "given": "discredit",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.6,
+  "comment": "Стандартная тестовая страница Apache на CentOS (5 КБ), ни контента, ни ссылок, ни упоминаний Mostbet; это заглушка сервера, а не discredit. Бренд в домене, поэтому не 0."
+ },
+ {
+  "domain": "mostbeto.com",
+  "given": "discredit",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "discredit",
+  "confidence": 0.7,
+  "comment": "Домен mostbeto (опечатка бренда); в браузере китайский сайт с порно-видео («AV无码免费播放»), к ставкам отношения нет; для http отдаёт 403."
+ },
+ {
+  "domain": "mostbetskz.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.8,
+  "comment": "Главная уводит редиректом на olimpbetcasino.com — страница «Олимп Казино», кнопки «Играть сейчас»/«Получить бонус» на olimpbetcasino.com/play и /bonus и трекер thecasinoplayed.com; Mostbet в домене."
+ },
+ {
+  "domain": "mostbettech.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, на странице казино U638 (рамми, рулетка, баккара и т.д.) на урду; Mostbet нигде не упомянут."
+ },
+ {
+  "domain": "mostbetts.site",
+  "given": "discredit",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "discredit",
+  "confidence": 0.7,
+  "comment": "Домен с Mostbet (mostbetts); страница — бессмысленный текстовый журнал «North Journal» с мусорными ссылками на отели (ehotelsreviews.com), не про ставки."
+ },
+ {
+  "domain": "mostsbet.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Домен-опечатка, title/h1 Mostbet (53 упоминания), но в таблицах «SİTEYE GİT» ссылки t2m.co/okanparavan (Herkulbet, btag=okanparavan) и t2po.com/hizli-giris (Poliwin, btag=abe777); ссылок на Mostbet нет."
+ },
+ {
+  "domain": "partnerupak.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Клон Mostbet (title «Мостбет», h1); кнопки «Регистрация» ведут на partnerupak.ru/mostb/, оттуда цепочка на 7normcasino-af.win с qtag=a84744_... (NormCasino); Mostbet-получателя в замерах нет."
+ },
+ {
+  "domain": "promotoyotadepok.net",
+  "given": "mono_mixed",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_mixed",
+  "confidence": 0.45,
+  "comment": "Монобренд Mostbet Bangladesh, кнопки /go/registration в 3 замерах ведут на Mostbet (pid=304732). Чужой Slotuna (sltna.pclira.com, subid=cros) указан только в записи классификатора, ни в одном файле destinations/HTML его нет — проверить нечем."
+ },
+ {
+  "domain": "quandlesrusses.com",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.7,
+  "comment": "Блог-свалка на разные темы, статья /sport/mostbet-azerbaijan-... ссылается на mostbet-play.online и на app-1xbet.ng (1xBet, сайт оператора) без кода; главная — пачка ссылок на казино (Nine Casino, BC.Game)."
+ },
+ {
+  "domain": "simpatiasdobrasil.com.br",
+  "given": "mb_page_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mb_page_other",
+  "confidence": 0.5,
+  "comment": "Пустой WP с 10 постами одного дня (15.04.2026, автор admlnlx) про Mostbet/Pinko/1xbet; во всех страницах в head JS-редирект мобильных на eventbet.best/PPbsTL (Sportbet.one, Fieryplay с ref). Похоже на взлом или спам-сетку, но владельца не отличить — класс mb_page_other или hacked."
+ },
+ {
+  "domain": "sulunur.kz",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.88,
+  "comment": "Монобренд (title «Мостбет Казино Казахстан»); кнопки ведут на sulunur.kz/mostbet.php, который в замерах отдавал то Mostbet (pid=459127), то Pokerdom (webmaster=22245, offer_id=8)."
+ },
+ {
+  "domain": "talahaljoodbh.com",
+  "given": "mb_page_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.6,
+  "comment": "Магазин фиников из Бахрейна (WooCommerce) с подложенными постами про Mostbet; в одном из них ссылка на 1win-giris-az.com, в других на случайные сайты. Владелец магазина — не нарушитель, это взлом."
+ },
+ {
+  "domain": "top-casino-uzbekistan.com",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.8,
+  "comment": "Мультибренд-рейтинг казино; страница /obzor-mostbet/ (и /ru/, /lilbet-ili-mostbet/) отправляет на lilbet через refpa27053.com/L?tag=d_6134977m_103301c_sbzr — партнёрский тег."
+ },
+ {
+  "domain": "uzbekistan-mostbet.net.ph",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.65,
+  "comment": "Парковка: «Directory Index» с «No results found», Privacy/Terms, редирект через ww547.* и JS-проверку; Mostbet на странице нет, рекламы с кодом нет. Нужна повторная проверка, если владелец считает парковку с брендом нарушением."
+ },
+ {
+  "domain": "wowuzmostbet.click",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, на странице PWA «Vegas Craze Casino» (200+ слотов), кнопки на Google Play com.playlinks.vegascraze и vegascraze.com; Mostbet нет."
+ }
+]
