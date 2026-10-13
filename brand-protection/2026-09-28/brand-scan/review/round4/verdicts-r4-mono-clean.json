@@ -1,0 +1,322 @@
+[
+ {
+  "domain": "al-usur.com",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.9,
+  "comment": "Клон mostbets-eg.com (og:url perfectclean-eg.com), все кнопки reg.mostbets-eg.com/twC89qX → pid=37776; чужих ссылок нет."
+ },
+ {
+  "domain": "apk-mostbet.net",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Шаблон перешит с Melbet (data-pr=\"melbet\", alt «Melbet download site»), ссылка на apk-melbetbn.com закомментирована; кнопки link3.php → pid=5844."
+ },
+ {
+  "domain": "bayraktarbayrakli.com",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.9,
+  "comment": "Тема mostbet1, кнопки в base64 data-атрибутах → link.mostbet1.in/6uxtTqS → pid=37776; чужих ссылок нет."
+ },
+ {
+  "domain": "dincerbicer.com",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.9,
+  "comment": "Все CTA на y435cdby55mb.com/4CbF → pid=303430; внешние только ncpgambling/begambleaware."
+ },
+ {
+  "domain": "kalyptus-mobile.com",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "1xBet и Parimatch только в таблице сравнения текстом, без ссылок; кнопки goto.inquisitivereader.com/YsyrrZg → pid=70758."
+ },
+ {
+  "domain": "lgbtsewi.org",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "canonical на mostbet-aze.mehrnamrastegari.com, кнопки space-mind-io.com/click → pid=5870; чужих брендов в ссылках нет."
+ },
+ {
+  "domain": "mommygyver.com",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "36 ссылок на szvojmazmb.com/P0ZF → pid=303430, других внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-brasil.org",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Melbet 4 раза в тексте (кусок скопирован с обзора Melbet), но ссылок на Melbet нет; кнопки mbcb.mostbet-brasil.com.br → pid=37776."
+ },
+ {
+  "domain": "mostbet-casino-b7j.top",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.9,
+  "comment": "Все кнопки links-go9.top/mostbet* → pid=297832."
+ },
+ {
+  "domain": "mostbet-hu.eu.com",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "«1xbet»/«melbet» только в CSS-темах [data-theme]; ссылки hpnjesmb.com/vgfiiimb.com с sub1 → pid=263382 и APK Mostbet."
+ },
+ {
+  "domain": "mostbet-kz-app.com",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Переехал на sabaktar.kz (og:url navat.com.kz — клон); 3kaz8fmst.com/s7IU и gm59…mst.com → pid=145039."
+ },
+ {
+  "domain": "mostbet-rasmiy-uz.com",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.9,
+  "comment": "30 ссылок на llvgibmb.com/fHBF → pid=130609, других внешних нет."
+ },
+ {
+  "domain": "mostbet61024.help",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.9,
+  "comment": "Переезд на uz-mostbet-online.com, /registration → pid=130609, n37ztcmb.com → APK Mostbet."
+ },
+ {
+  "domain": "mostbet8314.help",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.9,
+  "comment": "Переезд на mostbettjk.com, /reg → pid=130609; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbetbdapp.com",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "reg.mostbetbdapp.com/7ue78qT → pid=37776; внешняя mostbet.br.com — тоже Mostbet-дорвей, api.inout.games — демо игры."
+ },
+ {
+  "domain": "mostbets-prihlaseni.com",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.75,
+  "comment": "71 кнопка на /go/ → kfsi2upmb.com/t65U (хост партнёрки Mostbet, mphost=mostbet.partners); до pid не дошли, чужих ссылок нет."
+ },
+ {
+  "domain": "mostbets.br.com",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "join.mostbets.br.com → pid=37776; внешние ссылки только на Mostbet-дорвеи (mostbet-pe.pe, mostbets.com.pl, mostbet.cn.in)."
+ },
+ {
+  "domain": "mostbetuzuz.com",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.9,
+  "comment": "/mostbet/ и /apk/ → pid=483799, других внешних ссылок нет."
+ },
+ {
+  "domain": "polskamostbet.com",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.9,
+  "comment": "/goto/bonus/ → pid=272338; внешние только kcpu.gov.pl, anonimowihazardzisci.org и др. помощь."
+ },
+ {
+  "domain": "top-mostbet.pl",
+  "given": "mono_mostbet",
+  "verdict": "correct",
+  "should_be": "mono_mostbet",
+  "confidence": 0.9,
+  "comment": "instredir.site/px5Fyn → pid=461431, других внешних нет."
+ },
+ {
+  "domain": "apk-mostbet-az.com",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "discredit",
+  "confidence": 0.8,
+  "comment": "Главная — индонезийская новостная лента («Home - APK», 212 страниц политики/экономики); Mostbet только в имени домена, вставленном в текст («Jakarta, apk-mostbet-az Indonesia»). Плюс проданные ссылки на slot gacor."
+ },
+ {
+  "domain": "banglasylhet.com",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.75,
+  "comment": "«Простые ссылки» — это nofollow на провайдеров игр (Playtech, NetEnt, Evolution, Yggdrasil) в списке разработчиков, не на казино/дорвеи; реклама только Mostbet pid=37776."
+ },
+ {
+  "domain": "discount-gain-bangladesh.top",
+  "given": "mono_xlink",
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Блок «More Resources» с dofollow на дорвеи сети (gameslotceylon4.top, expert-casino-bd2.top и др.), Mostbet-трекер n37ztcmb.com/LVDU."
+ },
+ {
+  "domain": "mostbet-asia.net",
+  "given": "mono_xlink",
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Ссылки на bdbet.net → oddsroute.net (обзорник), без кода; реклама только Mostbet pid=232749."
+ },
+ {
+  "domain": "mostbet-ru-casino.org",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "mono_mixed",
+  "confidence": 0.6,
+  "comment": "В футере QR «Играть в Telegram» data-url=t.me/zerkalo_odinwin_bot — бот зеркал 1win; плюс ссылки на дорвеи 1win-игр (luckyjet-com.com, jetx-crashgame.com). Рядом Mostbet pid=457929."
+ },
+ {
+  "domain": "mostbet10646.company",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Скрытая ссылка в футере (div height:2px; overflow:hidden) на 1winkg.kg → win1.kg «1Win — официальный сайт, вход и зеркало» — прямая ссылка на оператора 1win (как 1win-mx.mx); рядом Mostbet pid=130609. Переезд на mostbet-kg.kg."
+ },
+ {
+  "domain": "mostbet12034.ru",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Скрытая ссылка в футере (div height:2px; overflow:hidden) на 1winkg.kg → win1.kg «1Win — официальный сайт, вход и зеркало» — прямая ссылка на оператора 1win (как 1win-mx.mx); рядом Mostbet pid=130609. Переезд на mostbet-kg.kg."
+ },
+ {
+  "domain": "mostbet12048.ru",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Скрытая ссылка в футере (div height:2px; overflow:hidden) на 1winkg.kg → win1.kg «1Win — официальный сайт, вход и зеркало» — прямая ссылка на оператора 1win (как 1win-mx.mx); рядом Mostbet pid=130609. Переезд на mostbet-kg.kg."
+ },
+ {
+  "domain": "mostbet18247.help",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Скрытая ссылка в футере (div height:2px; overflow:hidden) на 1winkg.kg → win1.kg «1Win — официальный сайт, вход и зеркало» — прямая ссылка на оператора 1win (как 1win-mx.mx); рядом Mostbet pid=130609. Переезд на mostbet-kg.kg."
+ },
+ {
+  "domain": "mostbet2034.help",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Скрытая ссылка в футере (div height:2px; overflow:hidden) на 1winkg.kg → win1.kg «1Win — официальный сайт, вход и зеркало» — прямая ссылка на оператора 1win (как 1win-mx.mx); рядом Mostbet pid=130609. Переезд на mostbet-kg.kg."
+ },
+ {
+  "domain": "mostbet21480.help",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Скрытая ссылка в футере (div height:2px; overflow:hidden) на 1winkg.kg → win1.kg «1Win — официальный сайт, вход и зеркало» — прямая ссылка на оператора 1win (как 1win-mx.mx); рядом Mostbet pid=130609. Переезд на mostbet-kg.kg."
+ },
+ {
+  "domain": "mostbet37461.help",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Скрытая ссылка в футере (div height:2px; overflow:hidden) на 1winkg.kg → win1.kg «1Win — официальный сайт, вход и зеркало» — прямая ссылка на оператора 1win (как 1win-mx.mx); рядом Mostbet pid=130609. Переезд на mostbet-kg.kg."
+ },
+ {
+  "domain": "mostbet4478.shop",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Скрытая ссылка в футере (div height:2px; overflow:hidden) на 1winkg.kg → win1.kg «1Win — официальный сайт, вход и зеркало» — прямая ссылка на оператора 1win (как 1win-mx.mx); рядом Mostbet pid=130609. Переезд на mostbet-kg.kg."
+ },
+ {
+  "domain": "mostbet51338.help",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Скрытая ссылка в футере (div height:2px; overflow:hidden) на 1winkg.kg → win1.kg «1Win — официальный сайт, вход и зеркало» — прямая ссылка на оператора 1win (как 1win-mx.mx); рядом Mostbet pid=130609. Переезд на mostbet-kg.kg."
+ },
+ {
+  "domain": "mostbet56890.icu",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Скрытая ссылка в футере (div height:2px; overflow:hidden) на 1winkg.kg → win1.kg «1Win — официальный сайт, вход и зеркало» — прямая ссылка на оператора 1win (как 1win-mx.mx); рядом Mostbet pid=130609. Переезд на mostbet-kg.kg."
+ },
+ {
+  "domain": "mostbet69754.shop",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Скрытая ссылка в футере (div height:2px; overflow:hidden) на 1winkg.kg → win1.kg «1Win — официальный сайт, вход и зеркало» — прямая ссылка на оператора 1win (как 1win-mx.mx); рядом Mostbet pid=130609. Переезд на mostbet-kg.kg."
+ },
+ {
+  "domain": "mostbet80295.help",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Скрытая ссылка в футере (div height:2px; overflow:hidden) на 1winkg.kg → win1.kg «1Win — официальный сайт, вход и зеркало» — прямая ссылка на оператора 1win (как 1win-mx.mx); рядом Mostbet pid=130609. Переезд на mostbet-kg.kg."
+ },
+ {
+  "domain": "mostbet96810.help",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Скрытая ссылка в футере (div height:2px; overflow:hidden) на 1winkg.kg → win1.kg «1Win — официальный сайт, вход и зеркало» — прямая ссылка на оператора 1win (как 1win-mx.mx); рядом Mostbet pid=130609. Переезд на mostbet-kg.kg."
+ },
+ {
+  "domain": "mostbetuz2025.com",
+  "given": "mono_xlink",
+  "verdict": "wrong",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Блок проданных ссылок: «Переходите на сайт казино Восток и получайте бонус» → vostokcasino112.com → woctokcasino.com (оператор) и palmslots.de (казино); Mostbet-трекеры kxfmqfgmb.com/uKGF, xf38…mst.com/uKGF."
+ },
+ {
+  "domain": "offerplaykaz1.top",
+  "given": "mono_xlink",
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Блок dofollow на дорвеи сети (gamepotkazakh2.top — 1win, gameslotceylon4.top) и prokod-47b21.web.app; Mostbet-трекер n37ztcmb.com/LVDU."
+ }
+]

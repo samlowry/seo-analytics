@@ -1,6 +1,6 @@
 """Full report on the brand scan: classes, numbers and every site with its reason and the links that decided.
 
-Run: uv run --with selectolax python tools/brand-report.py brand-protection/2026-09-28/brand-scan
+Run: uv run --with 'selectolax<1' python tools/brand-report.py brand-protection/2026-09-28/brand-scan
 Reads classified.csv, site-features.jsonl.gz, corsearch-false-positives.csv. Writes report/brand-report.html, self-contained:
 the donut of groups and the share meters are inline SVG/CSS, no external resources. One numbering runs through the whole
 report. Per class the first ten shown are a sample: the domains sorted by name and cut into ten equal parts, one random
@@ -431,9 +431,12 @@ f'<b>{fmt(gsum[g[0]])}</b><span class="pct">{pc(gsum[g[0]] * 100 / total)} %</sp
 <li>Каждый сайт дополнительно открыт как мобильный посетитель, как посетитель из Google и как Googlebot —
 так видна реклама, которую показывают не всем.</li>
 <li>Наши партнёрские ссылки из реестра не открывались ни разу.</li>
-<li>Классы проверены вручную и агентами: по 10 случайных сайтов на класс, три круга; с проверяющим совпадает
-77–82 %, класс «монобренд → реклама только чужих» — 10 из 10 во всех кругах; страницы-доказательства статей про
-Mostbet — 15 из 20 подтверждены (ошибки исправлены).</li>
+<li>Классы проверены вручную и агентами по сохранённому HTML: четыре круга, 910 сайтов с вердиктом
+(в четвёртом — по 20 непроверенных сайтов на класс, разброс по всей шкале уверенности).</li>
+<li><b>Уверенность 0–100 у каждого сайта</b> — доля сайтов с таким баллом, чей класс проверяющий подтвердил.
+Балл считается по силе улики класса (какое правило сработало, какие ссылки решили) за вычетом недостающих данных
+и близости к соседнему классу; шкала подогнана по 910 проверенным сайтам. На проверенных сайтах, каждый оценён без
+себя: заявлено 90 % — подтверждено 91 %, заявлено 70 % — подтверждено 69 %. Под карточкой — что снизило уверенность.</li>
 <li>Не видно: реклама, которую показывают только в других странах; {fmt(cnt["mono_unresolved"])} монобрендов,
 чьи трекеры не открылись.</li></ul></div>
 

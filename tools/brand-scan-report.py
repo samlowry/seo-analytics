@@ -1,6 +1,6 @@
 """Tables from the logs written by tools/brand-scan.py.
 
-Run: uv run --with aiohttp --with selectolax python tools/brand-scan-report.py brand-protection/<date>/brand-scan [<as>]
+Run: uv run --with aiohttp --with 'selectolax<1' python tools/brand-scan-report.py brand-protection/<date>/brand-scan [<as>]
 With <as> (google-mobile, googlebot) it reads http-scan-<as>.jsonl.gz only and writes groups-<as>.csv, destinations-<as>.csv.
 Per domain the browser record wins; otherwise the HTTP record, with destinations the HTTP pass could
 not decide filled in from the browser destination pass (dest-browser.jsonl.gz) and the group

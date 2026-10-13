@@ -1,7 +1,7 @@
 """Queue for brand-scan.py --mode deep: inner pages and own scripts of sites whose home page did not settle
 where their traffic goes.
 
-Run: uv run --with selectolax python tools/brand-deep-queue.py brand-protection/2026-09-28/brand-scan
+Run: uv run --with 'selectolax<1' python tools/brand-deep-queue.py brand-protection/2026-09-28/brand-scan
 Takes monobrand sites (every mono_* category), article sites and multibrand sites from classified.csv; from each
 saved home page picks up to 4 inner pages — posts or links that name Mostbet, then registration / app / bonus /
 login pages — and up to 6 of the site's own script files (skipping common libraries). Writes deep-queue.csv.

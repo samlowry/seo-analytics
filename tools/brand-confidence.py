@@ -7,7 +7,7 @@ Run: python3 tools/brand-confidence.py brand-protection/2026-09-28/brand-scan [-
    and for a page near the border of the neighbouring class.
 2. Calibration: the raw score is turned into a probability that a checker agrees with the class, fitted per group of
    classes on every checked site (review rounds 1-4, the owner's marks). Platt scaling with a pull towards the raw
-   score, so a group with few checks stays close to the raw score.
+   score, plus a shift per class pulled to zero, so a class with few checks keeps the scale of its group.
 3. Writes confidence.csv (domain, category, raw, confidence, minus) and calibration.md (bins: claimed vs observed).
 
 --sample-round4 instead writes review/round4/sample.json: 20 sites per class not checked before, spread over the raw
@@ -45,6 +45,26 @@ OWNER_BAD = {
     "mostbet.forum": {"bait"}, "mostbet.living": {"bait"}, "mostbet.rest": {"bait"}, "mostbetgame.store": {"bait"},
     "pawabetfixed.com": {"article"},
 }
+
+
+BLOCK_TITLE = re.compile(r"Attention Required|Just a moment|you have been blocked|Access denied", re.I)
+MB_TRACKERS, OTHER_TRACKERS = set(), set()  # link hosts seen leading to a Mostbet ref / to another brand
+
+
+def load_trackers(d: Path):
+    """Hosts of links that some site's chain followed to a Mostbet ref (pid, …mb.com) or to another brand (round 4:
+    a "via host" counted as a foreign ad is often Mostbet's own tracker)."""
+    from urllib.parse import urlsplit
+    for name in ("destinations.csv", "destinations-google-mobile.csv", "destinations-mobile.csv", "destinations-googlebot.csv"):
+        if not (d / name).exists():
+            continue
+        with open(d / name, newline="", encoding="utf-8") as f:
+            for x in csv.DictReader(f):
+                h = (urlsplit(x["url"]).hostname or "").lower()
+                if x["kind"] == "mostbet" and (x["pid"] or re.search(r"mb\.com|pid=", x["final_url"])):
+                    MB_TRACKERS.add(h)
+                elif x["kind"] == "other_gambling":
+                    OTHER_TRACKERS.add(h)
 
 
 def load_rows(d: Path) -> list:
@@ -198,6 +218,14 @@ def raw_score(r: dict) -> tuple:
         else:
             s = {"cloudflare_challenge": 0.85, "cloudflare_turnstile": 0.85, "geo_block": 0.9}.get(w, 0.62)
 
+    if c in ("mono_other", "mono_mixed"):
+        o = [b for b in r["other_ads"].split(" | ") if b]
+        if o and all(b.startswith("via ") and b[4:] in MB_TRACKERS and b[4:] not in OTHER_TRACKERS for b in o):
+            s += pen(-0.35, "«чужой» трекер в других местах ведёт на Mostbet")
+        if other_l and all("1win.global" in x[2] for x in other_l):
+            s += pen(-0.35, "чужая ссылка 1win.global может быть из закомментированного кода темы")
+    if c not in ("not_shown", "dead", "parked") and BLOCK_TITLE.search(r["title"]):
+        s += pen(-0.4, "вместо страницы — блокировка Cloudflare")
     if c in CONTENT and "no_html" in tags:
         s += pen(-0.2, "HTML страницы не сохранён")
     if c in CONTENT and "moved" in tags:
@@ -264,9 +292,23 @@ def fit(xs, ys, prior=4.0):
     return a, b
 
 
+def class_offset(pts, prior=3.0):
+    """Shift o on the logit scale maximising Σ log σ(z+o) for the class's checks, with a Gaussian pull to 0."""
+    o = 0.0
+    for _ in range(100):
+        g, h = o * prior, prior
+        for z, y in pts:
+            p = 1 / (1 + math.exp(-(z + o)))
+            g += p - y
+            h += p * (1 - p)
+        o -= g / h
+    return o
+
+
 def main(d: str, sample_round4=False):
     d = Path(d)
     rows = load_rows(d)
+    load_trackers(d)
     scored = {}
     for r in rows:
         scored[r["domain"]] = raw_score(r)
@@ -283,9 +325,16 @@ def main(d: str, sample_round4=False):
         params[fam] = fit([x for x, _ in pts], [y for _, y in pts]) if pts else (0.0, 1.0)
         report.append((fam, len(pts), sum(y for _, y in pts), params[fam]))
 
+    # Each class gets its own shift on top of its group, pulled to zero: a class with few checks keeps the group scale.
+    offs = {}
+    for c in FAMILY:
+        a, b = params[FAMILY[c]]
+        pts = [(a + b * logit(scored[dom][0]), 1.0 if ok else 0.0) for dom, (ok, _) in lab.items() if now[dom] == c]
+        offs[c] = class_offset(pts)
+
     def conf(dom):
         a, b = params[FAMILY[now[dom]]]
-        return 1 / (1 + math.exp(-(a + b * logit(scored[dom][0]))))
+        return 1 / (1 + math.exp(-(a + offs[now[dom]] + b * logit(scored[dom][0]))))
 
     # Leave-one-out check of the calibration: claimed vs observed, by bins.
     bins = collections.defaultdict(lambda: [0, 0, 0.0])
@@ -293,7 +342,9 @@ def main(d: str, sample_round4=False):
         fam = FAMILY[now[dom]]
         rest = [(logit(scored[x][0]), 1.0 if o else 0.0) for x, (o, _) in lab.items() if x != dom and FAMILY[now[x]] == fam]
         a, b = fit([x for x, _ in rest], [y for _, y in rest]) if rest else (0.0, 1.0)
-        p = 1 / (1 + math.exp(-(a + b * logit(scored[dom][0]))))
+        o = class_offset([(a + b * logit(scored[x][0]), 1.0 if ok2 else 0.0) for x, (ok2, _) in lab.items()
+                          if x != dom and now[x] == now[dom]])
+        p = 1 / (1 + math.exp(-(a + o + b * logit(scored[dom][0]))))
         k = min(4, int(p * 5))
         bins[k][0] += 1
         bins[k][1] += ok
@@ -317,6 +368,7 @@ def main(d: str, sample_round4=False):
           "## Группы", ""]
     for fam, n, pos, (a, b) in report:
         md.append(f"- {fam}: проверено {n}, класс подтверждён {int(pos)}; a={a:.2f}, b={b:.2f}")
+    md += ["", "Сдвиг по классам (логит): " + ", ".join(f"{c} {o:+.2f}" for c, o in offs.items() if abs(o) >= 0.05)]
     md += ["", "## Заявленная уверенность против подтверждённой (каждый сайт оценён без себя)", ""]
     for k in sorted(bins):
         n, ok, ps = bins[k]

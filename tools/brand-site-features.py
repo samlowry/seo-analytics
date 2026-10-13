@@ -1,6 +1,6 @@
 """Features of every saved home page, for classifying sites by type (axis A) and by ads (axis B).
 
-Run: uv run --with selectolax --with aiohttp python tools/brand-site-features.py brand-protection/2026-09-28/brand-scan
+Run: uv run --with 'selectolax<1' --with aiohttp python tools/brand-site-features.py brand-protection/2026-09-28/brand-scan
 Reads <dir>/html/<domain>.{http,browser}.html.gz (the rendered page wins for text, both are scanned for
 links), writes <dir>/site-features.jsonl.gz, one record per domain. No network.
 

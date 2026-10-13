@@ -1,6 +1,6 @@
 """One category per site plus tags, over the whole brand-protection list.
 
-Run: uv run --with selectolax --with aiohttp python tools/brand-classify.py brand-protection/2026-09-28
+Run: uv run --with 'selectolax<1' --with aiohttp python tools/brand-classify.py brand-protection/2026-09-28
 Reads brand-scan/groups.csv (the 22k sites affiliate-scan could not settle, with followed ads),
 affiliate-scan/{affiliate,not-affiliate}.csv (the 11.7k it settled), brand-scan/site-features.jsonl.gz
 (features of the saved home pages, tools/brand-site-features.py) and the ref registry.

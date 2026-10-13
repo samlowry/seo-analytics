@@ -1,0 +1,322 @@
+[
+ {
+  "domain": "anahnu.club",
+  "given": "hacked",
+  "verdict": "correct",
+  "should_be": "hacked",
+  "confidence": 0.7,
+  "comment": "Соцсеть на JomSocial, спам-аккаунт «mostbet» завёл группы Mostbet Deutschland/Nepal/Pakistan; ссылки групп ведут на дорвеи mostbetin.in, mostbetnp.casino, рекламы с кодом нет."
+ },
+ {
+  "domain": "canastillasplasticascolombia.com",
+  "given": "hacked",
+  "verdict": "correct",
+  "should_be": "hacked",
+  "confidence": 0.85,
+  "comment": "Магазин пластиковых корзин; в шапку вставлены анкоры mostbet → mostbet-slots.kz, pin up → pin-up-aze.com, плюс спам-посты в категориях mostbet-tr/russia."
+ },
+ {
+  "domain": "canyouletmydogout.com",
+  "given": "hacked",
+  "verdict": "correct",
+  "should_be": "hacked",
+  "confidence": 0.9,
+  "comment": "Сервис выгула собак; скрытые ссылки (left:-10000px, height:0.5px) Mostbet → melap.pt, cat casino → хорошиевещи.онлайн и вставленный текст про казино Mostbet."
+ },
+ {
+  "domain": "ddrservice.net",
+  "given": "hacked",
+  "verdict": "wrong",
+  "should_be": "article",
+  "confidence": 0.7,
+  "comment": "«Homepage - Blogger»: лента из 6 датированных постов про Mostbet Aviator, 1win, Pinco; бренда в домене и title нет. Скрытый блок ссылок на vavada/1win есть только на главной, статья про Mostbet ведёт лишь на mostbet-azerbaycanda.co.uk."
+ },
+ {
+  "domain": "domino174.ru",
+  "given": "hacked",
+  "verdict": "correct",
+  "should_be": "hacked",
+  "confidence": 0.85,
+  "comment": "Сайт клиники эстетической медицины, сверху вставлен текст «Линия ставок в БК MostBet» с анкором MostBet → robotomag.ru."
+ },
+ {
+  "domain": "fightmatrix.com",
+  "given": "hacked",
+  "verdict": "wrong",
+  "should_be": "article",
+  "confidence": 0.75,
+  "comment": "Рейтинги MMA с лентой датированных гостевых постов про казино (линк-селлер); 4 статьи про Mostbet 2023–2025 ведут только на Mostbet-дорвеи (mostbetonline.in, mostbets.in). Не взлом, а продажа статей."
+ },
+ {
+  "domain": "heartandshape.com",
+  "given": "hacked",
+  "verdict": "correct",
+  "should_be": "hacked",
+  "confidence": 0.95,
+  "comment": "Сайт о здоровье; сотни ссылок в блоке position:absolute; left:-9966px — 1win, Pinco, Mostbet → brnostavi.cz, iswoda.pl."
+ },
+ {
+  "domain": "icwacatch.com",
+  "given": "hacked",
+  "verdict": "correct",
+  "should_be": "hacked",
+  "confidence": 0.85,
+  "comment": "Сайт о кэтче; блок нулевой высоты с ссылками на mostbet-mar.com, melbetonline.ci, 1wincom.ci, premier-bet-mali.com."
+ },
+ {
+  "domain": "isitgoonair.net",
+  "given": "hacked",
+  "verdict": "wrong",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Вся главная — гайд «Mostbet Bangladesh: App Download Guide» (title, h1, 15 h2 про приложение Mostbet); внешних ссылок нет вовсе."
+ },
+ {
+  "domain": "izradalogotipa.com",
+  "given": "hacked",
+  "verdict": "correct",
+  "should_be": "hacked",
+  "confidence": 0.9,
+  "comment": "Студия логотипов; вставлен блок position:absolute с анкорами onewin casino, mostbet-play.kz, pin up india."
+ },
+ {
+  "domain": "mbp-form.com",
+  "given": "hacked",
+  "verdict": "wrong",
+  "should_be": "mono_no_ads",
+  "confidence": 0.55,
+  "comment": "Анкета набора менеджеров партнёрской сети Most Partners (mbpasia@mostbet.partners, t.me/MbP_Asia_support_bot) — служебный сайт самого Mostbet, рекламы нет; под взлом не подходит, своего класса нет."
+ },
+ {
+  "domain": "missevieteas.com",
+  "given": "hacked",
+  "verdict": "correct",
+  "should_be": "hacked",
+  "confidence": 0.9,
+  "comment": "Магазин чая; скрытые ссылки mostbet → kumasalimsatim.com, lesliesalon.com (left:-13945px) и вставки «Play in mostbet casino»."
+ },
+ {
+  "domain": "mostbets.io",
+  "given": "hacked",
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "Главная уводит на forsale.godaddy.com «mostbets.io is for sale» — продажа домена."
+ },
+ {
+  "domain": "powiatzgorzelecki.pl",
+  "given": "hacked",
+  "verdict": "correct",
+  "should_be": "hacked",
+  "confidence": 0.95,
+  "comment": "Сайт староства повята; скрытый блок left:-7000px с казино-анкорами, среди них «Mosbet kazino» → mostbet-club.com."
+ },
+ {
+  "domain": "sentieroplanetario.eu",
+  "given": "hacked",
+  "verdict": "correct",
+  "should_be": "hacked",
+  "confidence": 0.9,
+  "comment": "Туристическая тропа на Терминилло; в контент вставлены анкоры mostbet kz → mostbet-slots.kz, mostbet-play.kz, 1win, pin-up."
+ },
+ {
+  "domain": "sud74.ru",
+  "given": "hacked",
+  "verdict": "correct",
+  "should_be": "hacked",
+  "confidence": 0.85,
+  "comment": "Юруслуги в туризме; внизу вставлен SEO-текст про casino mostbet и скрытые ссылки на znaki.fm, casino41.ch."
+ },
+ {
+  "domain": "thecandyfactoryla.com",
+  "given": "hacked",
+  "verdict": "wrong",
+  "should_be": "mono_no_ads",
+  "confidence": 0.75,
+  "comment": "Главная — гайд «Mostbet Bangladesh: Official App Download & Installation» (title и h1 про Mostbet, тот же шаблон, что isitgoonair.net); внешних ссылок нет."
+ },
+ {
+  "domain": "uclabasketballfacility.com",
+  "given": "hacked",
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.65,
+  "comment": "Перехваченный домен UCLA: в меню BASKETBALL BETTING, страницы спонсоров BET365/BETMGM/BC.GAME, обзоры 1Win; Mostbet лишь в блоке «Our partners». Гэмблинг — тема сайта, не вставка."
+ },
+ {
+  "domain": "unitedetpl.com",
+  "given": "hacked",
+  "verdict": "correct",
+  "should_be": "hacked",
+  "confidence": 0.9,
+  "comment": "Производитель электрооборудования; вставлены ссылки pinup casino, mostbet-slots.kz, mostbet-play.kz, lucky jet."
+ },
+ {
+  "domain": "yenial.net",
+  "given": "hacked",
+  "verdict": "correct",
+  "should_be": "hacked",
+  "confidence": 0.9,
+  "comment": "Магазин табличек по охране труда; вставлен азербайджанский текст про Mostbet и скрытые ссылки на mostbet10/12/15.com (left:-7000px)."
+ },
+ {
+  "domain": "bafkingdom.pics",
+  "given": "unclear",
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "PWA под Play Store «3 COIN VOLCANOES от MostBet Casino»; кнопка ведёт на mostbet.inmy.chat → Mostbet pid=124098, чужих брендов нет."
+ },
+ {
+  "domain": "bdmostbetcasino.com",
+  "given": "unclear",
+  "verdict": "wrong",
+  "should_be": "not_shown",
+  "confidence": 0.75,
+  "comment": "Во всех ответах Cloudflare «Just a moment...» со статусом 403, в том числе под Googlebot; живой страницы в файлах нет."
+ },
+ {
+  "domain": "caspianenergy.info",
+  "given": "unclear",
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Посетителю из Google (http-google-mobile) отдаётся страница «Mostbet apk – Azerbaycan» с кнопками /go/go.php → Mostbet pid=197333; остальным — блок Cloudflare."
+ },
+ {
+  "domain": "daxshat.tv",
+  "given": "unclear",
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.45,
+  "comment": "Узбекский кино-сайт, Mostbet только в баннере n37ztcmb.com → pid=490771. Это не взлом, а рекламное место; ближайший класс — hacked, точного нет."
+ },
+ {
+  "domain": "mbtap.com",
+  "given": "unclear",
+  "verdict": "wrong",
+  "should_be": "not_shown",
+  "confidence": 0.55,
+  "comment": "«Mostbet Token» — Telegram Mini App, вне Telegram отдаёт ошибку «opened your app outside Telegram» и пустую страницу."
+ },
+ {
+  "domain": "mostbet-az-mostbets.com",
+  "given": "unclear",
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "Title «… Resources and Information.», браузер уходит на findonlineresults.com/?dn=… — шаблон парковки."
+ },
+ {
+  "domain": "mostbet-casino.pl",
+  "given": "unclear",
+  "verdict": "wrong",
+  "should_be": "not_shown",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-opinie.pl, там Cloudflare «Just a moment...» 403 во всех вариантах и в браузере."
+ },
+ {
+  "domain": "mostbet-casinoaz.com",
+  "given": "unclear",
+  "verdict": "wrong",
+  "should_be": "not_shown",
+  "confidence": 0.7,
+  "comment": "Есть только файл под Googlebot — Cloudflare-челлендж 403; обычный http-скан — not_html."
+ },
+ {
+  "domain": "mostbet-pln.it.com",
+  "given": "unclear",
+  "verdict": "wrong",
+  "should_be": "not_shown",
+  "confidence": 0.75,
+  "comment": "Cloudflare «Just a moment...» 403 в http, google-mobile и googlebot, в браузере — тоже 403."
+ },
+ {
+  "domain": "mostbet365.com",
+  "given": "unclear",
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Посетителю из Google отдаётся «Mostbet BD – Betting, Casino, App» (монобренд), остальным — блок Cloudflare; кнопки Registration/Login — <button> через /uploads/main.js, получатель неизвестен."
+ },
+ {
+  "domain": "mostbet40580.help",
+  "given": "unclear",
+  "verdict": "wrong",
+  "should_be": "not_shown",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-azerbaycan-aviator.com, там Cloudflare-челлендж 403 во всех вариантах."
+ },
+ {
+  "domain": "mostbetapp.net.pl",
+  "given": "unclear",
+  "verdict": "wrong",
+  "should_be": "not_shown",
+  "confidence": 0.7,
+  "comment": "Главная — Cloudflare 403; в sitemap есть страницы /article/rejestracja/ и /article/bonusy/, но их тела пустые. Чем сайт рекламирует — не видно."
+ },
+ {
+  "domain": "mostbetgiris-turkiye.com",
+  "given": "unclear",
+  "verdict": "wrong",
+  "should_be": "not_shown",
+  "confidence": 0.8,
+  "comment": "Обычному клиенту — 403 со служебным «sid/uid/ip», Googlebot получает JS-антибот с title «..» и refresh на /ciez2a; контента нет."
+ },
+ {
+  "domain": "mostbetonline.de",
+  "given": "unclear",
+  "verdict": "wrong",
+  "should_be": "not_shown",
+  "confidence": 0.7,
+  "comment": "Cloudflare-челлендж 403 под Googlebot, http — not_html; тела страниц из sitemap (/article/anmeldung/, /boni/) пустые."
+ },
+ {
+  "domain": "mostbetopinie.com.pl",
+  "given": "unclear",
+  "verdict": "wrong",
+  "should_be": "not_shown",
+  "confidence": 0.7,
+  "comment": "Cloudflare-челлендж 403 под Googlebot, http — not_html; тела страниц из sitemap пустые."
+ },
+ {
+  "domain": "mostbetpt.pt",
+  "given": "unclear",
+  "verdict": "wrong",
+  "should_be": "not_shown",
+  "confidence": 0.75,
+  "comment": "Cloudflare «Just a moment...» 403 во всех вариантах, в браузере — тоже."
+ },
+ {
+  "domain": "mostbets.de",
+  "given": "unclear",
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.85,
+  "comment": "Главная уводит на sedo.com/search/details/?domain=mostbets.de (лендинг продажи Sedo), где сам Sedo показывает Cloudflare."
+ },
+ {
+  "domain": "promokod-mostbet-pri-registratsii.online",
+  "given": "unclear",
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "Title «… Resources and Information.», браузер уходит на onlineresultsfinder.com/?dn=… — шаблон парковки."
+ },
+ {
+  "domain": "sakhalin32school.ru",
+  "given": "unclear",
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.85,
+  "comment": "Сайт школы № 32 Южно-Сахалинска; в контент вставлен «Обзор официального сайта БК Mostbet» с анкором Mostbet → pr-tsj.ru."
+ },
+ {
+  "domain": "sportuz.tv",
+  "given": "unclear",
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.45,
+  "comment": "Узбекские спортивные новости, Mostbet только в баннере ktmobomst.com → pid=25716 (плюс раздел «TOP Bukmekerlar»). Это рекламное место, а не взлом; ближайший класс — hacked."
+ }
+]

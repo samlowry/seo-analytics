@@ -1,0 +1,322 @@
+[
+ {
+  "domain": "alrouletteonline.com",
+  "given": "mb_page_other",
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.95,
+  "comment": "Обзор /reviews/mostbet-casino/ ведёт кнопками «العب الان» на /go/1xbet, /go/22bet, /go/Melbet — все с tag/btag; рядом и /go/Mostbet pid=418791."
+ },
+ {
+  "domain": "aviatorgamecrash.com",
+  "given": "mb_page_other",
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.95,
+  "comment": "На /aviator-mostbet/ единственная кнопка «Play now» → /visit/ → 1xbet.rs/registration?tag=e_5736640m…"
+ },
+ {
+  "domain": "aviatrixcasinos.com",
+  "given": "mb_page_other",
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.95,
+  "comment": "На /aviatrix-mostbet/ кнопка «Play now» → /visit/ → 1xBet с tag=e_5736640m; ссылки на Mostbet нет."
+ },
+ {
+  "domain": "bbbuae.com",
+  "given": "mb_page_other",
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.6,
+  "comment": "Спам-пост «mostbet 30 ingyen porgetes» на взломанном бизнес-сайте; в подвале hacklink-ссылки на azino888.vercel.app, jojobetyeni-adresiniz.com, 1453betbom.com — дорвеи чужих брендов без кода, реклама слабая."
+ },
+ {
+  "domain": "bracexcursions.com",
+  "given": "mb_page_other",
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.9,
+  "comment": "Пост «Mostbet AZ… rəsmi sayt» на сайте экскурсий: кнопка «▶️ OYNA» → w3n7z2qt.top/v1GxGYrB → 1xbet.rs?tag=d_3755482m."
+ },
+ {
+  "domain": "comediepaka.fr",
+  "given": "mb_page_other",
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.75,
+  "comment": "Статья про приложение Mostbet: ссылка с анкором «mostbet» → mostbet-brasil-win.com → ambking1234.dev/?action=register&marketingRef=… (чужое казино)."
+ },
+ {
+  "domain": "dailysports.net",
+  "given": "mb_page_other",
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.9,
+  "comment": "На /bookmakers/mostbet/ рядом с кнопками Mostbet (go.dailysports.net/1k1k9N, pid=9088) виджеты «1xBet Promo Code» → go…/LrHFwX → 1xBet tag=s_1667305m и «1WIN Casino Bonus»."
+ },
+ {
+  "domain": "dawo.uz",
+  "given": "mb_page_other",
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.9,
+  "comment": "Страница «Mostbet bonus O'zbekiston» (casino-bonuses-uz.com/mostbet/): кнопка «Bonus olish» → bobaffs.org/click?o=1887&a=189 → 1xBet tag=d_5846941m."
+ },
+ {
+  "domain": "fifthstrategy.com",
+  "given": "mb_page_other",
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.7,
+  "comment": "Пост про Mostbet на пустом WP-блоге: в тексте ссылка «1win az» → 1win-giris-az.com (зеркало-дорвей 1win, без кода)."
+ },
+ {
+  "domain": "goldparty-argentina.com",
+  "given": "mb_page_other",
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.95,
+  "comment": "На странице бонуса Mostbet кнопка «Jugar en Mostbet» → /go/mostbet → trackgeo.link → spinlendos.com (не Mostbet), «Iniciar sesión» → /go/play → caposino1.com / 20Bet с btag."
+ },
+ {
+  "domain": "highlyratedprofessional.com",
+  "given": "mb_page_other",
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.9,
+  "comment": "Пост «Mostbet AZ… rəsmi sayt» на блоге о ресторанах: кнопка «▶️ OYNA» → w3n7z2qt.top/v1GxGYrB → 1xBet tag=d_3755482m."
+ },
+ {
+  "domain": "highvaluestaffing.com",
+  "given": "mb_page_other",
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.7,
+  "comment": "Пост «Mostbet: O Internet Site Oficial…» на сайте кадрового агентства: ссылка «mostbet» → mostbet-brasil-top.com → ambking1234.dev с marketingRef."
+ },
+ {
+  "domain": "liminaltidesmag.com",
+  "given": "mb_page_other",
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.85,
+  "comment": "Пост про Mostbet: в тексте «1 win az» → 1win-giris-az.com, в сайдбаре десятки ссылок на vidobet, casinolevant, şans casino."
+ },
+ {
+  "domain": "livecricketcup.com",
+  "given": "mb_page_other",
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.7,
+  "comment": "На /mostbet-app-india… виджет «Our Partners» с баннерами 4rabet → 4rabetbd.net и Bet365 → bet365india.net (кодов нет, это дорвеи брендов), плюс ссылки на non-gamstop казино."
+ },
+ {
+  "domain": "nandigramlive.com",
+  "given": "mb_page_other",
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.9,
+  "comment": "Пост «Mostbet AZ… rəsmi sayt» на бенгальском новостнике: кнопка «▶️ OYNA» → w3n7z2qt.top/v1GxGYrB → 1xBet tag=d_3755482m."
+ },
+ {
+  "domain": "onlinebettinghelper.com",
+  "given": "mb_page_other",
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.65,
+  "comment": "На «Mostbet Review Site» в сайдбаре «Slottica Casino Chile — Top Licensed Slots Platform» → casino-slottica.cl и betting-app.in; кода нет, это сайдбар-ссылки."
+ },
+ {
+  "domain": "quandlesrusses.com",
+  "given": "mb_page_other",
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.75,
+  "comment": "Пост «Mostbet Azerbaijan…»: виджет с баннером «For the best odds and offers, visit 1xbet.ng» → app-1xbet.ng."
+ },
+ {
+  "domain": "talahaljoodbh.com",
+  "given": "mb_page_other",
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.75,
+  "comment": "Пост «Mostbet Platformasının Mobil Yönümlü İcmalı»: в тексте ссылка 1win-giris-az.com."
+ },
+ {
+  "domain": "tamsac.pe",
+  "given": "mb_page_other",
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.75,
+  "comment": "Пост «Deseja Jogar Na Mostbet Com?» на сайте строительной фирмы: ссылка «mostbet» → mostbet-brasil-top.com → ambking1234.dev с marketingRef."
+ },
+ {
+  "domain": "xn--igbhb6b1ejmbcpbuh.com",
+  "given": "mb_page_other",
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.9,
+  "comment": "На /platform/mostbet/ рядом с /go/Mostbet (pid=418791) кнопки «إلعب هنا» на /go/Melbet → melbet tag=d_4799696m, /go/1win, /go/Betfinal, /go/1xslots."
+ },
+ {
+  "domain": "az-mostbet-az.com",
+  "given": "bait",
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Фейковая страница Google Play для игры «Sweet Stacking» (Gambling slots casino), кнопка «Quraşdır» → luckleon.com/6NNJd8 с app_bundle; Mostbet на странице нет."
+ },
+ {
+  "domain": "lapbanddallas.com",
+  "given": "bait",
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.65,
+  "comment": "Сайт китайского завода уплотнителей (国泰萧星密封材料); Mostbet только во вставленных title/keywords/description и /aa.js в head — классический SEO-взлом, страница не про чужое казино."
+ },
+ {
+  "domain": "mostbet-22.com",
+  "given": "bait",
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Спин-текст про казино «lllm9», кнопки → hl.dmffg2.com / hlt.zp7dth.com/reg?ch=34 — чужой бренд."
+ },
+ {
+  "domain": "mostbet-app-fr.com",
+  "given": "bait",
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Редирект на turner-asia.com — вьетнамский топ-20 «Tài Xỉu Online»; Mostbet нет."
+ },
+ {
+  "domain": "mostbet-bangladesh.com",
+  "given": "bait",
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Редирект на hard-rock-casinos.com «Hard Rock Online Casino» (NL), кнопка → chicken-road-app.net/xSgTW7?sub_id_1=hardrock."
+ },
+ {
+  "domain": "mostbet-casino-no.site",
+  "given": "bait",
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Страница «MELATISLOT x MELATIWIN88» (индонезийские слоты), ссылка на login.melatislot.world."
+ },
+ {
+  "domain": "mostbet-casino.art",
+  "given": "bait",
+  "verdict": "wrong",
+  "should_be": "discredit",
+  "confidence": 0.55,
+  "comment": "Редирект на jusorun1.com «주소가자» — корейский каталог ссылок: порно, оп, вебтуны, торренты; тото/казино лишь 2 раздела из ~10. Ближе к discredit, чем к чужому казино."
+ },
+ {
+  "domain": "mostbet-casino777.com",
+  "given": "bait",
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "«Canada Online Casino Free Spins — Popular Sites Compared», кнопки /visit/cashed-3, /visit/hugocasino, /visit/coinpoker — мультибренд на домене с Mostbet."
+ },
+ {
+  "domain": "mostbet-kenya.net",
+  "given": "bait",
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Лендинг «Amunra Casino bonus» для Чехии, Mostbet не упоминается."
+ },
+ {
+  "domain": "mostbet-registraciya-2025.top",
+  "given": "bait",
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.7,
+  "comment": "Сайт отвечает 200 и отдаёт сохранённую копию ошибки Chrome DNS_PROBE_FINISHED_NXDOMAIN («saved from url=chrome-error://chromewebdata», с маяком Cloudflare) — заглушка, не казино. «via html5rocks.com» в other_ads — ссылка из кода страницы ошибки Chrome."
+ },
+ {
+  "domain": "mostbet-uz.fun",
+  "given": "bait",
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.7,
+  "comment": "302 сразу на 1wyikj.life — зеркало 1win; кода партнёра в цепочке не видно, поэтому bait, а не redirect_other."
+ },
+ {
+  "domain": "mostbet.vip",
+  "given": "bait",
+  "verdict": "wrong",
+  "should_be": "discredit",
+  "confidence": 0.75,
+  "comment": "«Mostbet VIP Blog» — линк-селлер с гостевыми постами: «Niagara Falls Bus Tour», «Metals Coating UAE», «Panasonic Toughbook», «Netflix Support Number»; чужого казино нет, ставки — 1–2 поста. По правилу владельца бренд в домене + не гэмблинг → discredit."
+ },
+ {
+  "domain": "mostbet24.click",
+  "given": "bait",
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Промо-страница соц-слота «Bonanza Party — Slot Machines», Mostbet не упоминается."
+ },
+ {
+  "domain": "mostbetbet.co",
+  "given": "bait",
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Редирект на xstory-fr.co — «H13 Trang Chủ» (вьетнамское казино), ссылки au88vn.co/?inviteCode=24430949."
+ },
+ {
+  "domain": "mostbetgamesbest.xyz",
+  "given": "bait",
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Страница приложения «Vegas Craze Casino» со ссылкой в Google Play com.playlinks.vegascraze."
+ },
+ {
+  "domain": "mostbeton.ru",
+  "given": "bait",
+  "verdict": "wrong",
+  "should_be": "unrelated",
+  "confidence": 0.85,
+  "comment": "Бетонный завод «ТрейдКом» в Брянске: «mostbeton» = «мост-бетон», бренд Mostbet ни при чём — ложное срабатывание по подстроке."
+ },
+ {
+  "domain": "mostbets.online",
+  "given": "bait",
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.95,
+  "comment": "«1win Casino ⭐ 500% + 300 ФС», 37 упоминаний 1win, Mostbet нет."
+ },
+ {
+  "domain": "mostbetskz.com",
+  "given": "bait",
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Редирект на olimpbetcasino.com «Олимп Казино — обзор для игроков из КЗ», кнопки → thecasinoplayed.com/bGmtSytK."
+ },
+ {
+  "domain": "uzbekistan-mostbet.net.ph",
+  "given": "bait",
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.75,
+  "comment": "JS-редирект на ww547.uzbekistan-mostbet.net.ph/?tkn=… с лендингом «Directory Index / No results found for your search» и ссылкой payedsurveys.com?clickid — разметка парковки; Googlebot получает 401 Forbidden."
+ },
+ {
+  "domain": "wowuzmostbet.click",
+  "given": "bait",
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Та же страница «Vegas Craze Casino», что у mostbetgamesbest.xyz: ссылка в Google Play com.playlinks.vegascraze."
+ }
+]
