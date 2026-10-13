@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbet-giris777.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Обычным клиентам Cloudflare-блок; Google-mobile — монобренд Mostbet TR, кнопки AMP.navigateTo на perfstream.net/click?key=…, который у других сайтов сети ведёт на Mostbet pid=5870; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-giris888.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Обычным клиентам Cloudflare-блок; Google-mobile — монобренд Mostbet TR, кнопки AMP.navigateTo на perfstream.net/click?key=…, который у других сайтов сети ведёт на Mostbet pid=5870; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-girisi.live",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Обычным клиентам Cloudflare-блок; Google-mobile — монобренд Mostbet TR, копия nostrcal.com/tr: кнопки data-split на JS-трекер, amphtml online-play-games365.ink (его кнопки ведут на Mostbet pid=5870); чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-girisi2025.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Обычным клиентам Cloudflare-блок; Google-mobile — монобренд Mostbet TR, кнопки data-split на JS-трекер, ссылки на mwokajicakery.com/tr01 и amphtml play-tr-031.online (ведёт на Mostbet pid=5870); чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-girisi2026.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Обычным клиентам Cloudflare-блок; Google-mobile — монобренд Mostbet TR, кнопки data-split на JS-трекер, ссылки на mwokajicakery.com/tr01 и amphtml play-tr-031.online (ведёт на Mostbet pid=5870); чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-girisss.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Обычным клиентам Cloudflare-блок; Google-mobile — монобренд Mostbet AZ, кнопки AMP.navigateTo на perfstream.net/click?key=f4890f…, трекер сети с Mostbet pid=5870; ссылки на halebyrnes.org и resmi.casino-mostbet-giris.com; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-globalwin.org",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Самодельная страница «MostBet» с демо-слотом и рулеткой на JS; внешних ссылок и трекеров нет, чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-greece.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Лендинг Mostbet GR из одной кнопки /go/mostbet-greece.php, которая отдаёт 404; внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-guvenilir.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Обычным клиентам Cloudflare-блок; Google-mobile — монобренд Mostbet TR, копия nostrcal.com/tr: кнопки data-split на JS-трекер, amphtml online-play-games365.ink (его кнопки ведут на Mostbet pid=5870); чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-hra.cz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.7,
+  "comment": "Вне Чехии блок; Googlebot видит только выбор языка Mostbet CZ/EN, внутренние страницы /cs/ тоже заблокированы; внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-hu.org",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.8,
+  "comment": "Заглушка «We'll be back soon» с логотипом MOSTBET, ссылок нет."
+ },
+ {
+  "domain": "mostbet-ind.org",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Монобренд Mostbet India; кнопки data-encryp-url (base64) ведут на mio.mostbet-ind.org/VhPYgKZ — трекер на своём поддомене, получатель не установлен; прочие ссылки — соцпрофили и mostbetindorg.blogspot.com, чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-india.app",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet App India; кнопки /go/linkc7c и /go/spinpol уводят на example.com/login|register — пустышка; внешние ссылки только t.me/mbeng_bot и x.com/mostbet_arg."
+ },
+ {
+  "domain": "mostbet-indiax.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet India; кнопки /go/bonusaaf и /go/bonusyu5 уводят на example.com — пустышка; внешние ссылки только t.me/mbeng_bot и x.com/mostbet_arg."
+ },
+ {
+  "domain": "mostbet-indir-casino.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Обычным клиентам Cloudflare-блок; Google-mobile — монобренд Mostbet AZ, кнопка data-goal на JS-трекер, ссылки на mostbet-az-site.com, mostbet-azerbaijan-amp.com, sayeitwithstyle.com; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-indir-top.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Обычным клиентам Cloudflare-блок; Google-mobile — монобренд Mostbet TR, копия nostrcal.com/tr: кнопки data-split на JS-трекер, amphtml online-play-games365.ink (его кнопки ведут на Mostbet pid=5870); чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-indir-turkiye.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Обычным клиентам Cloudflare-блок; Google-mobile — монобренд Mostbet TR, копия nostrcal.com/tr: кнопки data-split на JS-трекер, amphtml online-play-games365.ink (его кнопки ведут на Mostbet pid=5870); чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-indir1.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Обычным клиентам Cloudflare-блок; Google-mobile — монобренд Mostbet AZ, кнопка data-goal на JS-трекер, ссылки на mostbet-az-site.com, mostbet-azerbaijan-amp.com, sayeitwithstyle.com; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-info.hu",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.85,
+  "comment": "Страница регистратора «This domain name is not available for registration», ссылка только на whoisprivacy.domains; сайта нет."
+ },
+ {
+  "domain": "mostbet-install-bd.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Обычным клиентам Cloudflare-блок; Google-mobile — монобренд Mostbet BD, кнопки data-goal на JS-трекер, ссылка на theurbangardeninitiative.org/en-bd; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-it.net",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.8,
+  "comment": "Пустая страница с одной строкой «Benvenuti - Mostbet Italia ufficiale», ссылок нет."
+ },
+ {
+  "domain": "mostbet-italia.it",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet Italia; кнопки ведут на внутренние /bonus/, /mostbet-registrazione/, внешние ссылки только на регуляторов (curacao-egaming, mga.org.mt) и begambleaware."
+ },
+ {
+  "domain": "mostbet-kasino-cz.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Монобренд Mostbet CZ; кнопки data-goal через uploads/main.js уходят на трекер content-dropped.buzz/click?key=fc4b86… (строка активна), получатель не установлен; ссылки на mostbet-cz-cz.dietavkrabicce.cz; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-kasino.site",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Обычным клиентам Access denied; Google-mobile — обзор Mostbet KZ, все кнопки onclick location.href на свою главную /#/; внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-kasyno.net.pl",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "Домен на продаже: страница Aftermarket.pl, meta refresh на aftermarket.eu; сайта нет."
+ },
+ {
+  "domain": "mostbet-kasyno0.pl",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Обычным клиентам Cloudflare-блок; Google-mobile — монобренд Mostbet PL, ссылки на fajnekola.pl и casino.mostbet-login1.pl; внешних трекеров и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-kaszino.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Из HU 451-заглушка; Google-mobile — клон казино Mostbet HU, кнопки gotToRefLink берут const ref = 'https://rroffer.vip/93sPhk' при casino = 'mostbet_casino'; трекер нигде не открыт, получатель не установлен, чужих брендов на странице нет."
+ },
+ {
+  "domain": "mostbet-kazino-giris.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Обычным клиентам Cloudflare-блок; Google-mobile — монобренд Mostbet TR, кнопки data-split на JS-трекер, ссылки на mwokajicakery.com/tr01 и amphtml play-tr-031.online (ведёт на Mostbet pid=5870); чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-kazino-igrat.ru",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Обычным клиентам Cloudflare-блок; Google-mobile — копия most-bet.berst59.ru: кнопки data-goal на JS-трекер, ссылки на most-bet.berst59.ru и municipal-sd.ru (Mostbet-сайты, трекер gameshreder.com → Mostbet pid=5870); чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-kazino-rf.ru",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Переезжает на mosbet-1kj.top (Mostbet RU); кнопки links-go9.top/mostbet, /mostbet_android, /mostbet_cr — у других сайтов этот трекер ведёт на Mostbet pid=297832; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-kazino-skachat.ru",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Обычным клиентам Cloudflare-блок; Google-mobile — копия most-bet.berst59.ru: кнопки data-goal на JS-трекер, ссылки на most-bet.berst59.ru и municipal-sd.ru (Mostbet-сайты, трекер gameshreder.com → Mostbet pid=5870); чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-kazino-zerkalo.ru",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Обычным клиентам Cloudflare-блок; Google-mobile — копия most-bet.berst59.ru, кнопки AMP-url на gameshreder.com/click.php?key=iudnt4…, который у berst59.ru ведёт на Mostbet pid=5870; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-kazino.ru",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Обычным клиентам Cloudflare-блок; Google-mobile — монобренд Mostbet RU, кнопки data-goal на JS-трекер, ссылки на kamapark.ru и amphtml subterranean-pulse.top (ведёт на Mostbet pid=5870); чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-kazino2026az.in.net",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.7,
+  "comment": "Монобренд Mostbet AZ на 1 400 знаков; все кнопки на внутренний /gogo/, который отдаёт Cloudflare-челлендж; внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-kazyno-polska.net.pl",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "Домен на продаже: страница Aftermarket.pl, meta refresh на aftermarket.eu; сайта нет."
+ },
+ {
+  "domain": "mostbet-ke-app.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.75,
+  "comment": "Обычным клиентам Access denied; Google-mobile — монобренд Mostbet Kenya, кнопки — onclick myFunction (FAQ-аккордеон) и javascript:void(0); внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-kg.org",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Монобренд Mostbet KG; все 4 кнопки («РЕГИСТРАЦИЯ», «Получить бонус») — прямая ссылка на трекер thecasinoplayed.com/bGmtSytK?source=mostbet-kg.org; та же кампания стоит на olimpbetcasino.com (Olimpbet) и в прогоне отдала joi.com — чужой трекер, рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbet-kz-login.us.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Обычным клиентам Cloudflare-блок; Google-mobile — монобренд Mostbet KZ, кнопки data-goal на JS-трекер, amphtml kz-login-amp.top; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-kz25.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.75,
+  "comment": "Обычным клиентам Access denied; Google-mobile — клон Mostbet KZ, все 64 кнопки на свой /see; внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-login-app.cz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Монобренд Mostbet CZ; кнопки data-goal через uploads/main.js уходят на трекер content-dropped.buzz/click?key=fc4b86… (строка активна), получатель не установлен; ссылки на mostbet-cz-cz.dietavkrabicce.cz; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-login-cz.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Монобренд Mostbet CZ; кнопки data-goal через uploads/main.js уходят на трекер content-dropped.buzz/click?key=fc4b86… (строка активна), получатель не установлен; ссылки на mostbet-cz-cz.dietavkrabicce.cz; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-login-online-bd.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Обычным клиентам Cloudflare-блок; Google-mobile — монобренд Mostbet BD, кнопки data-goal на JS-трекер, ссылка на theurbangardeninitiative.org/en-bd; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-login-register.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Обычным клиентам Cloudflare-блок; Google-mobile — монобренд Mostbet BD, кнопки data-goal на JS-трекер, ссылка на theurbangardeninitiative.org/en-bd; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-login1.pl",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Обычным клиентам Cloudflare-блок; Google-mobile — монобренд Mostbet PL, ссылки на fajnekola.pl и casino.mostbet-login1.pl; внешних трекеров и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-login24.in",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Обычным клиентам Access denied; Google-mobile — монобренд Mostbet India, кнопки на внутренние /registration/, /try/; ссылки на cmamforum.org и online.mostbetindia.it.com; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-luck4.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Обычным клиентам Cloudflare-блок; Google-mobile — копия most-bet.berst59.ru: кнопки data-goal на JS-трекер, ссылки на most-bet.berst59.ru и municipal-sd.ru (Mostbet-сайты, трекер gameshreder.com → Mostbet pid=5870); чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-luck5.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Обычным клиентам Cloudflare-блок; Google-mobile — копия most-bet.berst59.ru: кнопки data-goal на JS-трекер, ссылки на most-bet.berst59.ru и municipal-sd.ru (Mostbet-сайты, трекер gameshreder.com → Mostbet pid=5870); чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-lucky.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Обычным клиентам Cloudflare-блок; Google-mobile — монобренд Mostbet TR, копия nostrcal.com/tr: кнопки data-split на JS-трекер, amphtml online-play-games365.ink (его кнопки ведут на Mostbet pid=5870); чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-mexico.net",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.75,
+  "comment": "Обычным клиентам Access denied; Google-mobile — монобренд Mostbet México, внешних ссылок и трекеров в разметке нет."
+ },
+ {
+  "domain": "mostbet-mobile-giris.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Обычным клиентам Cloudflare-блок; Google-mobile — монобренд Mostbet AZ, кнопки data-goal на JS-трекер, ссылки на mostbet-aze.mehrnamrastegari.com и most-az-amper.com (ведёт на Mostbet pid=5870); чужих брендов нет."
+ }
+]

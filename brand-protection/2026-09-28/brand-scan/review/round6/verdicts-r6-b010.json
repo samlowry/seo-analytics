@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbet-casino-officieel.nl",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Все кнопки шапки и меню (Casino, Registreren, Welkomstbonus) — onclick window.open(atob(...)) на чужой трекер slotix.top/rtEMBb7I?sub_id_5=..., на странице про Mostbet ещё justmake.click/rtEMBb7I; в сканах этот трекер нигде не раскрыт, к Mostbet не привязан — по правилу владельца это реклама чужих."
+ },
+ {
+  "domain": "mostbet-casino-oficjalny.pl",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Все кнопки (Kasyno, Zarejestruj się, Bonus powitalny) — onclick window.open(atob(...)) на чужой трекер bestgoal.top/Wy0410LY?sub_id_5=...; в сканах не раскрыт, к Mostbet не привязан — по правилу владельца реклама чужих."
+ },
+ {
+  "domain": "mostbet-casino-online-bd.com",
+  "given": "mono_no_ads",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.3,
+  "comment": "Людям и Googlebot — блок Cloudflare 403; в версии для google-mobile кнопки data-split=\"buttonReg\" ведут через /uploads/main.js, который не сохранён; canonical на theurbangardeninitiative.org/en-bd/. Получатель неизвестен."
+ },
+ {
+  "domain": "mostbet-casino-pl.net",
+  "given": "mono_no_ads",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.3,
+  "comment": "Людям — блок Cloudflare 403; в версии для google-mobile кнопки data-split=\"reg\" ведут через /uploads/main.js, который не сохранён; canonical на schizofrenia.org.pl. Получатель неизвестен."
+ },
+ {
+  "domain": "mostbet-casino-poland.pl",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.8,
+  "comment": "Страница парковки Aftermarket.pl: «domena zarejestrowana w serwisie Aftermarket.pl», ссылки только на aftermarket.pl/.eu; казино и рекламы нет."
+ },
+ {
+  "domain": "mostbet-casino-portugal.pt",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.7,
+  "comment": "Людям — Access denied; в версии для google-mobile кнопки «Cadastre-se» и вход ведут на главную самого сайта, внешних ссылок на операторов и трекеров нет."
+ },
+ {
+  "domain": "mostbet-casino-pt.com.pt",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.8,
+  "comment": "Заглушка регистратора: «This domain name is not available for registration», единственная ссылка — whoisprivacy.domains."
+ },
+ {
+  "domain": "mostbet-casino-top.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Кнопки data-split ведут через /uploads/main.js (файл не сохранён, людям сайт отдаёт блок Cloudflare); link rel=amphtml указывает на online-play-games365.ink, у которого те же кнопки ведут через perfstream.net на рефку Mostbet pid=5870. Чужой рекламы на странице нет."
+ },
+ {
+  "domain": "mostbet-casino-turk.live",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Кнопки data-split ведут через /uploads/main.js (файл не сохранён, людям сайт отдаёт блок Cloudflare); link rel=amphtml указывает на online-play-games365.ink, у которого те же кнопки ведут через perfstream.net на рефку Mostbet pid=5870. Чужой рекламы на странице нет."
+ },
+ {
+  "domain": "mostbet-casino-turk.vip",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Кнопки data-split ведут через /uploads/main.js (файл не сохранён, людям сайт отдаёт блок Cloudflare); link rel=amphtml указывает на online-play-games365.ink, у которого те же кнопки ведут через perfstream.net на рефку Mostbet pid=5870. Чужой рекламы на странице нет."
+ },
+ {
+  "domain": "mostbet-casino.pe",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.7,
+  "comment": "Людям — Access denied; в версии для google-mobile кнопки входа и регистрации — якоря #login/#register, внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-casino.ro",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.8,
+  "comment": "Заглушка регистратора: «This domain name is not available for registration», единственная ссылка — whoisprivacy.domains."
+ },
+ {
+  "domain": "mostbet-casino.space",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Людям — Access denied; в версии для google-mobile нет ни внешних ссылок, ни трекеров в скриптах; упоминания Azino777 в сохранённых файлах нет."
+ },
+ {
+  "domain": "mostbet-casino0.pl",
+  "given": "mono_no_ads",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.3,
+  "comment": "Людям — блок Cloudflare 403; в версии для google-mobile кнопки data-split ведут через /uploads/main.js, который не сохранён; canonical на schizofrenia.org.pl. Получатель неизвестен."
+ },
+ {
+  "domain": "mostbet-casino108.in",
+  "given": "mono_no_ads",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.3,
+  "comment": "Копия mostbet-casino-online-bd.com: людям — блок Cloudflare, кнопки data-split ведут через /uploads/main.js, который не сохранён; canonical на theurbangardeninitiative.org/en-bd/."
+ },
+ {
+  "domain": "mostbet-casinohungary.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.5,
+  "comment": "Кнопка «Játssz most» — rating-link плагина cpm-ratings через собственный /redirect, получатель не раскрыт; внешние ссылки только на юридические источники (iclg.com, igamingtoday.com)."
+ },
+ {
+  "domain": "mostbet-casinoin.org",
+  "given": "mono_no_ads",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.4,
+  "comment": "Все кнопки ведут на свой шлюз /go/, который сканеру отдаёт 403. Сайт той же сети, что mostbetcasino-india.com (тот же DMCA ID 644d3e17, картинки и скрипты общие), а там кнопки через /raf5826c/ уводят на 1win — рекламу чужих стоит перепроверить кликом в браузере."
+ },
+ {
+  "domain": "mostbet-casinoindia.org",
+  "given": "mono_no_ads",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.4,
+  "comment": "Все кнопки ведут на свой шлюз /go/, который сканеру отдаёт 403. Сайт той же сети, что mostbetcasino-india.com (DMCA ID 644d3e17), а там кнопки через /raf5826c/ уводят на 1win — рекламу чужих стоит перепроверить кликом в браузере."
+ },
+ {
+  "domain": "mostbet-casinooo.cz",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Все кнопки через /uploads/main.js (location.href) ведут на sneaker-speaker.com/click?key=611d75efe1374e36aca10dbb369898ed; тот же ключ у mostbet-czech.site и sunarcana.com приводит на чужое казино 593nv.casino/en/register?atp=287&plid=21379."
+ },
+ {
+  "domain": "mostbet-casinos-cz.ink",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.85,
+  "comment": "Страница cPanel по умолчанию «SORRY! If you are the owner of this website…» — сайта нет."
+ },
+ {
+  "domain": "mostbet-casinos.eu",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.65,
+  "comment": "Людям — блокировка SRIJ; в версии для Googlebot все кнопки js-ref-link ведут по const ref = \"https://trakleon.vip/e88c22423f3e\" — это чужой трекер. Тот же шаблон у mostbet-cz.eu с ref на signup-page.com/NJytTx, который приводит на Vulkan (v484.vegas?ref=)."
+ },
+ {
+  "domain": "mostbet-casinos.one",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Клон формы регистрации Mostbet (Vue): «Это моя первая регистрация на Mostbet.com», форма отправляется на собственный /script.php и перенаправляет на URL из ответа сервера; ссылок на чужие бренды нет."
+ },
+ {
+  "domain": "mostbet-casinos.pt",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.65,
+  "comment": "Людям — блокировка SRIJ; в версии для Googlebot все кнопки js-ref-link ведут по const ref = \"https://trakleon.vip/0ac88cbe7301\" — это чужой трекер. Тот же шаблон у mostbet-cz.eu ведёт на Vulkan."
+ },
+ {
+  "domain": "mostbet-casinos2026.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Кнопки data-split ведут через /uploads/main.js (файл не сохранён, людям сайт отдаёт блок Cloudflare); link rel=amphtml указывает на play-tr-031.online, у которого те же кнопки ведут через perfstream.net на рефку Mostbet pid=5870. Чужой рекламы на странице нет."
+ },
+ {
+  "domain": "mostbet-casinospinn.pro",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Все кнопки и плитки слотов ведут на /click?key=959bb437c49a45e26cb9, оттуда 307 → onepppgo.com/A53bNc9o/?subId2=pinco_kz_mind → dzdsbn.com (трекер Pinco). Это реклама Pinco на монобренде Mostbet KZ."
+ },
+ {
+  "domain": "mostbet-cassino.com.br",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.8,
+  "comment": "Заглушка «We'll be back soon» с логотипом MOSTBET, ссылок нет."
+ },
+ {
+  "domain": "mostbet-caz.club",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, а на странице чужое PWA «Kasyno LuckySpin 🎰»: шаблон карточки приложения (Google Play/App Store, отзывы, скриншоты), о Mostbet ни слова."
+ },
+ {
+  "domain": "mostbet-cazino.cz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.8,
+  "comment": "Заглушка регистратора: «This domain name is not available for registration»."
+ },
+ {
+  "domain": "mostbet-cesko-casino.cz",
+  "given": "mono_no_ads",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.35,
+  "comment": "Кнопки data-element без href обрабатывает /uploads/main.js, но сохранённая копия обрезана и строки с адресом в ней нет. У сайтов-близнецов (mostbet-cesko.com, mostbet-free-spins.cz: тот же title и шаблон) кнопки ведут на чужой трекер content-dropped.buzz."
+ },
+ {
+  "domain": "mostbet-cesko.com",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.55,
+  "comment": "Все кнопки через /uploads/main.js: window.location.href = \"https://content-dropped.buzz/click?key=fc4b8622894b4967adcecbe3d1f397f0&element=...\" — чужой трекер; нигде не раскрыт и к Mostbet не привязан. Закомментирован только вариант без &element."
+ },
+ {
+  "domain": "mostbet-com-giris.org",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Кнопки data-split ведут через /uploads/main.js (файл не сохранён, людям сайт отдаёт блок Cloudflare); link rel=amphtml указывает на online-play-games365.ink, у которого те же кнопки ведут через perfstream.net на рефку Mostbet pid=5870. Чужой рекламы на странице нет."
+ },
+ {
+  "domain": "mostbet-cs.click",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.7,
+  "comment": "Все кнопки через /uploads/main.js ведут на think-link-point.com/click?key=6623e2f9...; этот хост трекера у 613atlantic.com и ignitingthepowerwithin.ca ведёт на рефку 1xBet (reffpa.com tag=d_4218802m)."
+ },
+ {
+  "domain": "mostbet-cz.eu",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Людям — страница «Přístup omezen»; в версии для Googlebot все кнопки js-ref-link (header-login/header-signin) ведут по const ref = \"https://signup-page.com/NJytTx\"; у most-bet.at, mostbet7.org и других тот же трекер приводит на Vulkan (v484.vegas/en?ref=vp_w265764...)."
+ },
+ {
+  "domain": "mostbet-cz.life",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.7,
+  "comment": "Копия mostbet-cs.click: кнопки через /uploads/main.js ведут на think-link-point.com/click?key=6623e2f9...; хост трекера у других сайтов ведёт на рефку 1xBet."
+ },
+ {
+  "domain": "mostbet-de1.de",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.8,
+  "comment": "Страница продажи домена: «Der Domainname mostbet-de1.de steht zum Verkauf» (domainname.de)."
+ },
+ {
+  "domain": "mostbet-dz.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Людям — Access denied; в версии для google-mobile старый WordPress, внешних ссылок нет, кроме упоминания mostbet.com/software."
+ },
+ {
+  "domain": "mostbet-ecuador.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.8,
+  "comment": "Заглушка регистратора: «This domain name is not available for registration»."
+ },
+ {
+  "domain": "mostbet-ecuador.ec",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.8,
+  "comment": "Заглушка регистратора: «This domain name is not available for registration»."
+ },
+ {
+  "domain": "mostbet-egypt-2025.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Кнопки data-sf-a ведут на собственный трекер reg.mostbet-egypt-2025.com/7ancUsT, получатель не раскрыт; такой же поддомен-трекер regi.mostbet1az.com у соседней сети ведёт на Mostbet. Чужих брендов нет, canonical на ugtickets.com/ar-eg/."
+ },
+ {
+  "domain": "mostbet-fr-app.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.7,
+  "comment": "Людям — Access denied; в версии для google-mobile кнопки ведут на собственные /registration/ и /applications/, единственная внешняя ссылка — seo.casino (SEO-агентство, не оператор)."
+ },
+ {
+  "domain": "mostbet-fr.org",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.8,
+  "comment": "Заглушка «We'll be back soon» с логотипом MOSTBET, ссылок нет."
+ },
+ {
+  "domain": "mostbet-free-spins.cz",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.55,
+  "comment": "Копия mostbet-cesko.com: кнопки через /uploads/main.js ведут на чужой трекер content-dropped.buzz/click?key=fc4b8622...; нигде не раскрыт, к Mostbet не привязан."
+ },
+ {
+  "domain": "mostbet-giri-play.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Кнопки data-split ведут через /uploads/main.js (файл не сохранён, людям сайт отдаёт блок Cloudflare); link rel=amphtml указывает на most-az-amper.com, у которого те же кнопки ведут через space-mind-io.com на рефку Mostbet pid=5870. Чужой рекламы на странице нет."
+ },
+ {
+  "domain": "mostbet-giris-247.org",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Кнопки data-split ведут через /uploads/main.js (файл не сохранён, людям сайт отдаёт блок Cloudflare); link rel=amphtml указывает на online-play-games365.ink, у которого те же кнопки ведут через perfstream.net на рефку Mostbet pid=5870. Чужой рекламы на странице нет."
+ },
+ {
+  "domain": "mostbet-giris-az.art",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Переезжает на mostbet1az.com; кнопки ведут на regi.mostbet1az.com/WLPLGmU, у mostbet-az.gold и nshsa.org он приводит на рефку Mostbet pid=37776. Чужой рекламы нет."
+ },
+ {
+  "domain": "mostbet-giris-az.click",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Переезжает на mostbet1az.com; кнопки ведут на regi.mostbet1az.com/WLPLGmU, он приводит на рефку Mostbet pid=37776. Чужой рекламы нет."
+ },
+ {
+  "domain": "mostbet-giris-az.live",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Переезжает на mostbet1az.com; кнопки ведут на regi.mostbet1az.com/WLPLGmU, он приводит на рефку Mostbet pid=37776. Чужой рекламы нет."
+ },
+ {
+  "domain": "mostbet-giris-guncel.org",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Кнопки data-split ведут через /uploads/main.js (файл не сохранён, людям сайт отдаёт блок Cloudflare); link rel=amphtml указывает на online-play-games365.ink, у которого те же кнопки ведут через perfstream.net на рефку Mostbet pid=5870. Чужой рекламы на странице нет."
+ },
+ {
+  "domain": "mostbet-giris-turk.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Людям — «Site Çalışmıyor»; в версии для google-mobile меню ведёт на собственные /kayit/ и /promosyon-kodu/, внешние ссылки — только демо-слоты провайдеров (pragmaticplay, endorphina) и соцсети."
+ },
+ {
+  "domain": "mostbet-giris-turkey.org",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Кнопки data-split ведут через /uploads/main.js (файл не сохранён, людям сайт отдаёт блок Cloudflare); link rel=amphtml указывает на play-tr-031.online, у которого те же кнопки ведут через perfstream.net на рефку Mostbet pid=5870. Чужой рекламы на странице нет."
+ }
+]

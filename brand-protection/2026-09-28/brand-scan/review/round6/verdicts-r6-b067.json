@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "pyatnishko.kz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbetcasino.hanjeux.com (МостБет KZ): ни на главной, ни на 23 внутренних страницах нет внешних ссылок и кнопок на оператора, только внутренние страницы и форма комментариев."
+ },
+ {
+  "domain": "queensac.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_no_ads",
+  "confidence": 0.75,
+  "comment": "Mostbet AZ только для Google-mobile; единственная кнопка — <a class=\"wp-block-button__link\"> без href, внешних ссылок нет."
+ },
+ {
+  "domain": "rating-mostbet-casino1.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-lde37.buzz; кнопки ведут на reg.html → трекер occlusometer-82.xyz/ryQCCs?sub_id_2=…, который ни у одного сайта сети не открылся; прочая внешняя ссылка — mostbet.partners без кода, чужих брендов нет."
+ },
+ {
+  "domain": "rating-mostbet-casino2.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-pvt16.buzz; кнопки ведут на reg.html → трекер occlusometer-82.xyz/ryQCCs?sub_id_2=…, который ни у одного сайта сети не открылся; прочая внешняя ссылка — mostbet.partners без кода, чужих брендов нет."
+ },
+ {
+  "domain": "reference57.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.7,
+  "comment": "8 кнопок onclick=window.location.href=atob('L3JlZw==') → свой /reg, при проходе мёртв; внешних ссылок нет, чужих брендов нет."
+ },
+ {
+  "domain": "rentacarpd.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.7,
+  "comment": "8 кнопок onclick=window.location.href=atob('L3JlZw==') → свой /reg, при проходе мёртв; внешних ссылок нет, чужих брендов нет."
+ },
+ {
+  "domain": "revistagueto.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Кнопки /recommends/mostbet/ ведут на mostbet.com; в блоке «Parceiros» видимые простые ссылки на immersys.io («african grand casino») и crescendo-cae.fr — обзорник/дорвей без кода, не оператор."
+ },
+ {
+  "domain": "rsuj-moot.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.8,
+  "comment": "Взломанный сайт университетского конкурса (title RSUJ Moot Court), вставлена статья «Как выиграть деньги в казино Mostbet» с анкорами «Mostbet», «казино Мостбет» на nsmaster.ru; чужих брендов и партнёрских кодов нет."
+ },
+ {
+  "domain": "rubytanwork.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Mostbet AZ: кнопки ведут на dhwqw.com/aviator/, /bonus/, /yukle/ (таймаут у всех сайтов шаблона) и data-split → 3.33echelon.com/GMqHi (Shlink «Invalid Short URL») — получатель неизвестен, чужих брендов нет."
+ },
+ {
+  "domain": "russian-mostbet.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Mostbet в домене; все 63 кнопки /goto/account уводят на mostbet.com (оператор Mostbet, без кода); других внешних ссылок нет."
+ },
+ {
+  "domain": "ryanhanrahan.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.75,
+  "comment": "Монобренд «Mostbet Pakistan». Кнопки /go.php не раскрыты; в видимом блоке под текстом простые ссылки с анкорами casibom, pinco, pin up, casino siteleri на дорвеи (finut2020.com, toucheurope.org, imaile.eu) без кода партнёра, не на операторов."
+ },
+ {
+  "domain": "sajtwebaruhaz.hu",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.7,
+  "comment": "Монобренд Mostbet HU: все кнопки (88) ведут прямо на трекер partners-official.com/VfPrdZ1d (пустая страница); тот же код на eqpb.hu стоит за карточками Fireball, Slotrave, Luckera, FeliceBet — реклама чужих."
+ },
+ {
+  "domain": "salonroyal.cz",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.65,
+  "comment": "Монобренд Mostbet CZ: все кнопки (70) ведут прямо на трекер partners-official.com/b2tcnrmv, он нигде не открылся; на Mostbet этот код не выводил ни разу, хост partners-official другими кодами доводит до Spinanga (mid=267534), а на mc-salve.cz тот же b2tcnrmv стоит за карточками топ-5 чужих казино — чужой трекер по правилу."
+ },
+ {
+  "domain": "skachatmostbet.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.7,
+  "comment": "Mostbet в домене; 12 кнопок на свой шлюз /go/, при проходе остался на /go/ (получатель не установлен); внешних ссылок нет."
+ },
+ {
+  "domain": "skachatmostbet.fun",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.7,
+  "comment": "Mostbet в домене; кнопки на свои /play и /go не раскрыты; внешние ссылки только на egr.global, sigmagroup.com, kommersant.ru, rns.ru (био автора), чужих брендов нет."
+ },
+ {
+  "domain": "skachatmostbetuz.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.7,
+  "comment": "Mostbet в домене, страница только для Google-mobile; кнопки <button data-split=\"reg\"> без href (шаблон сети 3.33echelon), внешних ссылок кроме соцсетей Mostbet нет."
+ },
+ {
+  "domain": "slots-mostbet-casino1.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-gxr76.cam; кнопки ведут на reg.html → трекер occlusometer-82.xyz/ryQCCs?sub_id_2=…, который ни у одного сайта сети не открылся; прочая внешняя ссылка — mostbet.partners без кода, чужих брендов нет."
+ },
+ {
+  "domain": "slots-mostbet-casino2.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-nla69.cam; кнопки ведут на reg.html → трекер occlusometer-82.xyz/ryQCCs?sub_id_2=…, который ни у одного сайта сети не открылся; прочая внешняя ссылка — mostbet.partners без кода, чужих брендов нет."
+ },
+ {
+  "domain": "spindlmaxcard.cz",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.65,
+  "comment": "Монобренд Mostbet CZ: все кнопки (52) ведут прямо на трекер partners-official.com/b2tcnrmv, он нигде не открылся; на Mostbet этот код не выводил ни разу, хост partners-official другими кодами доводит до Spinanga (mid=267534), а на mc-salve.cz тот же b2tcnrmv стоит за карточками топ-5 чужих казино — чужой трекер по правилу."
+ },
+ {
+  "domain": "stavka-mostbet.win",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-cwc41.sbs; кнопки ведут на reg.html → трекер occlusometer-82.xyz/ryQCCs?sub_id_2=…, который ни у одного сайта сети не открылся; прочая внешняя ссылка — mostbet.partners без кода, чужих брендов нет."
+ },
+ {
+  "domain": "stavka-mostbet3.site",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-yso85.cfd; кнопки ведут на reg.html → трекер occlusometer-82.xyz/ryQCCs?sub_id_2=…, который ни у одного сайта сети не открылся; прочая внешняя ссылка — mostbet.partners без кода, чужих брендов нет."
+ },
+ {
+  "domain": "suchovkraji.cz",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.65,
+  "comment": "Монобренд Mostbet CZ: все кнопки (96) ведут прямо на трекер partners-official.com/b2tcnrmv, он нигде не открылся; на Mostbet этот код не выводил ни разу, хост partners-official другими кодами доводит до Spinanga (mid=267534), а на mc-salve.cz тот же b2tcnrmv стоит за карточками топ-5 чужих казино — чужой трекер по правилу."
+ },
+ {
+  "domain": "t-voice.net",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.75,
+  "comment": "Монобренд Mostbet BR, кнопки ведут на свои страницы (/entrar, /promo). в видимом блоке под текстом простые ссылки с анкорами casibom, pinco, pin up, casino siteleri на дорвеи (finut2020.com, toucheurope.org, imaile.eu) без кода партнёра, не на операторов."
+ },
+ {
+  "domain": "tenisz-open.hu",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.7,
+  "comment": "Монобренд Mostbet HU: все кнопки (48) ведут прямо на трекер partners-official.com/VfPrdZ1d (пустая страница); тот же код на eqpb.hu стоит за карточками Fireball, Slotrave, Luckera, FeliceBet — реклама чужих."
+ },
+ {
+  "domain": "thepointbarandgrill.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.75,
+  "comment": "Клоака, переезд на nshsa.org: Mostbet AZ, кнопки data-href → regi.mostbet1az.com/WLPLGmU, у nshsa.org он доходит до rasfjtmb.com pid=37776 (Mostbet); чужих брендов нет."
+ },
+ {
+  "domain": "timburtonpraha.cz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Монобренд Mostbet CZ: 212 кнопок на свой шлюз /hrat, не раскрыт; внешние ссылки только на соцсети @cz_most_bet, чужих брендов нет."
+ },
+ {
+  "domain": "tirelire-original.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.75,
+  "comment": "Клоака, переезд на hausofcarslv.com: Mostbet App BD, кнопки data-link → win.mostbet-app-bd.net/r6Tj4hf, у lescheminsdemusique.org он доходит до рефки Mostbet pid=37776; чужих ссылок нет."
+ },
+ {
+  "domain": "tribecahotel.ge",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.75,
+  "comment": "Клоака, переезд на nshsa.org: Mostbet AZ, кнопки data-href → regi.mostbet1az.com/WLPLGmU, у nshsa.org он доходит до rasfjtmb.com pid=37776 (Mostbet); чужих брендов нет."
+ },
+ {
+  "domain": "unanihealth.in",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Обзор «Mostbet Aviator»: все 60 кнопок ведут прямо на трекер part-global.com/PcfQ2RgY (пустая страница); хост part-global у других сайтов стоит за /go/4rabet, до Mostbet не доводил ни разу — чужой трекер по правилу."
+ },
+ {
+  "domain": "unitycollege.in",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Обзор «Mostbet Aviator»: все 60 кнопок ведут прямо на трекер part-global.com/PcfQ2RgY (пустая страница); хост part-global у других сайтов стоит за /go/4rabet, до Mostbet не доводил ни разу — чужой трекер по правилу."
+ },
+ {
+  "domain": "uz-casino-mostbet.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.75,
+  "comment": "Монобренд Mostbet UZ: кнопки /go/cta ведут на mloz82mb.com/mbjU — хост вида …mb.com, трекер Mostbet; внешних ссылок на чужих нет, Vulkan — название слота в тексте."
+ },
+ {
+  "domain": "uz-mostbet-app.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.75,
+  "comment": "Монобренд Mostbet UZ: кнопки /go/cta ведут на mloz82mb.com/mbjU — хост вида …mb.com, трекер Mostbet; внешних ссылок на чужих нет, Vulkan — название слота в тексте."
+ },
+ {
+  "domain": "uz-mostbet-kirish.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.75,
+  "comment": "Монобренд Mostbet UZ: кнопки /go/cta ведут на mloz82mb.com/mbjU — хост вида …mb.com, трекер Mostbet; внешних ссылок на чужих нет, Vulkan — название слота в тексте."
+ },
+ {
+  "domain": "uz-mostbetskachat.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.75,
+  "comment": "Монобренд Mostbet UZ: кнопки /go/cta ведут на mloz82mb.com/mbjU — хост вида …mb.com, трекер Mostbet; внешних ссылок на чужих нет, Vulkan — название слота в тексте."
+ },
+ {
+  "domain": "uzmostbet-apk.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.75,
+  "comment": "Монобренд Mostbet UZ: кнопки /go/cta ведут на mloz82mb.com/mbjU — хост вида …mb.com, трекер Mostbet; внешних ссылок на чужих нет, Vulkan — название слота в тексте."
+ },
+ {
+  "domain": "uzmostbet-app.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.75,
+  "comment": "Монобренд Mostbet UZ: кнопки /go/cta ведут на mloz82mb.com/mbjU — хост вида …mb.com, трекер Mostbet; внешних ссылок на чужих нет, Vulkan — название слота в тексте."
+ },
+ {
+  "domain": "viralfeedbee.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Кнопки /recommends/mostbet/ ведут на mostbet.com; в подвале видимые простые ссылки onore.ro («nv casino online»), hothotfruit.co.za («hot hot fruit demo betway»), immersys.io — обзорники без кода, не операторы."
+ },
+ {
+  "domain": "vizitkov.cz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_no_ads",
+  "confidence": 0.75,
+  "comment": "Обзор Mostbet CZ с карточками Tipsport, 22Bet: все кнопки «Srovnat →» и CTA — href=\"#\", onclick только квиз; внешних ссылок кроме RG-сайтов нет."
+ },
+ {
+  "domain": "voiture-bordeaux-rc-motors.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.75,
+  "comment": "Клоака, переезд на hausofcarslv.com: Mostbet App BD, кнопки data-link → win.mostbet-app-bd.net/r6Tj4hf, у lescheminsdemusique.org он доходит до рефки Mostbet pid=37776; чужих ссылок нет."
+ },
+ {
+  "domain": "westfalia.org",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.75,
+  "comment": "Монобренд MOSTBET, кнопки ведут на свои страницы /mostbet-*/. в видимом блоке под текстом простые ссылки с анкорами casibom, pinco, pin up, casino siteleri на дорвеи (finut2020.com, toucheurope.org, imaile.eu) без кода партнёра, не на операторов."
+ },
+ {
+  "domain": "wilmingtonnctaxicab.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Mostbet AZ для Google-mobile, кнопки на свой шлюз /gogo/ не раскрыты (прямой заход — Cloudflare 522); у сайтов шаблона /gogo/ ведёт на Mostbet pid=20570; чужих ссылок нет."
+ },
+ {
+  "domain": "wordel.in",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.7,
+  "comment": "Mostbet Aviator Nepal: пункты меню onclick=window.open на wadcpa.rdrtdmn.org/6G3TNH, из нашей точки отдал google.com (клоака, как у nepalmostbet.com); ещё простая ссылка на сателлит mostbet-bonus.net — получатель не установлен."
+ },
+ {
+  "domain": "wwwmostbet.com",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.7,
+  "comment": "Mostbet в домене; кнопки Register/Login — span data-href в base64 → mieux-redder.space/J1NP6BXf?sub_id_2=wwwmostbet.com: случайный хост с коротким кодом, мёртв; по правилу владельца чужой трекер (как у go-mostbet.com, themostbet.org)."
+ },
+ {
+  "domain": "xn--mostbetgiri-az-5zc.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.7,
+  "comment": "Mostbet в домене; кнопки DAXIL OL/QEYDIYYAT → свой /go → ty9e3wr.com/GuEs?sub1=az2-mob (мёртв у всей сети), получатель не установлен; кроме APK со своего домена внешних ссылок нет."
+ },
+ {
+  "domain": "yirmibirkebap.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.7,
+  "comment": "Mostbet TR: 24 кнопки на свой шлюз /msbt/ (как у balabanlar.com.tr), не пройден; APK лежит на самом сайте; чужих ссылок нет."
+ },
+ {
+  "domain": "zazijfosku.cz",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.65,
+  "comment": "Монобренд Mostbet CZ: все кнопки (115) ведут прямо на трекер partners-official.com/b2tcnrmv, он нигде не открылся; на Mostbet этот код не выводил ни разу, хост partners-official другими кодами доводит до Spinanga (mid=267534), а на mc-salve.cz тот же b2tcnrmv стоит за карточками топ-5 чужих казино — чужой трекер по правилу."
+ },
+ {
+  "domain": "zkrasnedoliny.cz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet CZ: 28 кнопок прямо на https://mostbet.com (оператор Mostbet); прочие внешние — RG-сайты, чужих брендов нет."
+ },
+ {
+  "domain": "apk-mostbet-az.com",
+  "given": "mono_xlink",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "discredit",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, а содержимое — индонезийская новостная лента («Jakarta, apk-mostbet-az Indonesia — PT INKA…», gambling 0 на 1 000 слов), не про ставки."
+ },
+ {
+  "domain": "babygearguidance.com",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.85,
+  "comment": "Кнопки на link.msbtonline.com/Kj5mWjF → рефка Mostbet pid=37776; простые ссылки на сателлиты mostbat.in, mostbat-bd.com; shorto.link/telegra.ph — спам в комментариях, не реклама."
+ },
+ {
+  "domain": "banglasylhet.com",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.85,
+  "comment": "Mostbet BD на поддомене: bd.mostbetbangladesh.net/NfehMRc → рефка Mostbet pid=37776; playtech.com — провайдер игр, не оператор; чужой рекламы нет."
+ }
+]

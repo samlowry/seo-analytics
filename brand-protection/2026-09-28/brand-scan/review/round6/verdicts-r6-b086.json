@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "wilhelmus.ca",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.85,
+  "comment": "Взломанный блог о туризме с постами про Mostbet; в постах про Mostbet ссылки только на Mostbet-дорвеи (mostbet-bd-casino-app.com, immiau.ru с анкором «Мостбет УЗ»), чужой рекламы на них нет."
+ },
+ {
+  "domain": "winbetbd.com",
+  "given": "multibrand",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mb_page_other",
+  "confidence": 0.5,
+  "comment": "Мультибренд с рефками 1win (1wezue.com p=29xn в кнопках LOGIN/REGISTER шапки), Melbet/1xBet (reffpa.com, refpa3665.com tag=…winbetbd), Krikya af=AG027553; есть страницы /mostbet и /mostbet-promo-code-bonus, но сохранён только пустой SPA-шелл без тела — есть ли на них та же шапка с 1win, по файлам не проверить."
+ },
+ {
+  "domain": "winpartners.pro",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Сайт партнёрки «WinPartners — Afiliere Casino: Melbet, 1xBet, BetWinner», Mostbet упомянут в списке; страниц про Mostbet и рекламных ссылок нет."
+ },
+ {
+  "domain": "wins-burning.ru",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Обзор слота Burning Wins с рейтингом казино; кнопка через onepppgo.com → dzdsbn.com, остальное — простые ссылки на слот-дорвеи. Mostbet ни в домене, ни в title, отдельной страницы про Mostbet нет."
+ },
+ {
+  "domain": "winsburning.ru",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Копия wins-burning.ru: обзор слота, трекер onepppgo.com → dzdsbn.com и ссылки на слот-дорвеи; страниц про Mostbet нет."
+ },
+ {
+  "domain": "wirelessequipments.in",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Aviator-обзорник: /go/1win → 1win-global-pro.com, /go/mostbet → fvoidjmb.com pid=303430, /go/4rabet; страницы про Mostbet нет, это рейтинг."
+ },
+ {
+  "domain": "wksonline.pics",
+  "given": "multibrand",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.4,
+  "comment": "Фейковая карточка Google Play «Chicken Road» с разработчиком «MostBet» (apple-mobile-web-app-title MostBet); кнопка → b3-team.site/b3-pwag с незаполненными макросами, получатель неизвестен (как centershc.pics и fjcexpress.pics)."
+ },
+ {
+  "domain": "xbet-apk.org",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Каталог APK 1xBet/Melbet/Mostbet/Betwinner; ссылка Mostbet — трекер xmnylu0l12nymst.com (…mst.com, Mostbet), чужой рекламы на страницах Mostbet не найдено."
+ },
+ {
+  "domain": "xbet-mirror1.online",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Страница зеркала 1xBet, Mostbet упомянут 3 раза в тексте; единственная внешняя ссылка 1xbet.team-dignitas.net. Страницы про Mostbet нет."
+ },
+ {
+  "domain": "xdigitalmedia.online",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.75,
+  "comment": "Тестовый/взломанный блог «Test XDM 2» с постами про Mostbet; в постах про Mostbet ссылки только на mostbetnederland.net и hadi.uz с анкорами «casino mostbet», ссылка на pinco-tj.vip стоит в другом посте на главной."
+ },
+ {
+  "domain": "xn--80aaipbeld0aegzpo4kc.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Рейтинг «Казино Кыргызстан»: /goto/1xbet → 1xbet.rs tag=d_93121m; Mostbet — одна из карточек, страницы про Mostbet нет."
+ },
+ {
+  "domain": "xn--m3c5abilt1b6l.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Тайский рейтинг «สล็อตลาว» той же сети: /goto/1xbet → 1xbet.rs tag=d_93121m; Mostbet — карточка в списке, отдельной страницы нет."
+ },
+ {
+  "domain": "yallashoot-pro.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Египетский рейтинг казино; кнопка карточки Mostbet /mostbet и /go-1xbet ведут 307 на один трекер eg-globallink.com/J2SJsHf6 — шлюз в списке, не страница про Mostbet (как alfabetoeg.com, egybx.com)."
+ },
+ {
+  "domain": "yasamayavefe-art.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Aviator TR обзор, Mostbet и 1win по одному упоминанию, рекламных ссылок нет."
+ },
+ {
+  "domain": "yazanyazan.av.tr",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.85,
+  "comment": "Сайт юрбюро «YAZAN & YAZAN HUKUK BÜROSU» со вставленным блоком ссылочного спама (mostbet-apk-bonus-turkiye.com, fr-gransino.net, spinbet- и irwin-страницы на чужих доменах); страницы про Mostbet нет."
+ },
+ {
+  "domain": "yeekong.online",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.8,
+  "comment": "Взломанный сайт Foshan Yeekong Med с постами про Mostbet; в постах про Mostbet внешние ссылки только на посторонние турецкие сайты (primesuites.com.tr, ilkehastanesi.com.tr, prosky.com.tr), bethub.casino — в отдельном посте про Bethub."
+ },
+ {
+  "domain": "yuklab-olish.net",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Каталог APK букмекеров; страницы /xx/mostbet/ ведут на трекер xmnylu0l12nymst.com (Mostbet) и apk-ios-bonus.com/uz/mostbet/bonus/, другие бренды — только внутреннее меню на свои страницы."
+ },
+ {
+  "domain": "yutoritenshoku.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Польский рейтинг криптоказино с рефками GGBet, 1xBet (refpa58144.com), 1win и др.; Mostbet 1 раз (трекер xf38lo22j1y0ihymst.com), страниц про Mostbet нет."
+ },
+ {
+  "domain": "zagrajsweetbonanza.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Обзор слота Sweet Bonanza; единственная рекламная ссылка /visit/mostbet/ → qrncfumb.com pid=280212 (Mostbet)."
+ },
+ {
+  "domain": "zagraniczne-kasyna.net",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Польский рейтинг зарубежных казино; страница /casino/mostbet/ — кнопка «Graj teraz» /go?k=mostbet → jvrqlzmb.com pid=416873, чужой рекламы на ней нет."
+ },
+ {
+  "domain": "zahradasvitavy.cz",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Чешский рейтинг казино на захваченном домене садоводства; рекламных ссылок нет, Mostbet — пункт списка."
+ },
+ {
+  "domain": "zefrenchlady.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Копия wirelessequipments.in: Aviator-обзорник с /go/1win, /go/4rabet, /go/mostbet; страницы про Mostbet нет."
+ },
+ {
+  "domain": "zendurance.co.in",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Aviator-обзорник (переезд на anmolcomputersalesandservice.in): /go/1win → 1win-global-pro.com, /go/mostbet, /go/4rabet; страницы про Mostbet нет."
+ },
+ {
+  "domain": "zentralblattmath.org",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Обзор слота Viking Forge; рекламная ссылка kairos777.top → qrncfumb.com pid=348368 (Mostbet), остальные — простые ссылки на обзорники."
+ },
+ {
+  "domain": "zeus-vs-hades-play.ru",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Обзор слота Zeus vs Hades, Mostbet и 1win по одному упоминанию; кнопка /play, чужого бренда в домене/title нет."
+ },
+ {
+  "domain": "zeusvshades-battle.life",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Слот-лендинг Zeus vs Hades с трекером zeusvshades-testxyz123.pro; Mostbet лишь упомянут, бренда Mostbet в домене/title нет."
+ },
+ {
+  "domain": "zeusvshadesslot777.online",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Слот-лендинг Zeus vs Hades с трекером upx-cli.life; Mostbet лишь упомянут, страницы про Mostbet нет."
+ },
+ {
+  "domain": "zuul.menu",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Статейник про Pin-Up/Pinco; пост про Mostbet AZ ведёт на saktirising.com/click → sojwokmb.com pid=425783 (Mostbet), чужой рекламы в нём нет."
+ },
+ {
+  "domain": "1xbetpromostavka.ru",
+  "given": "other_gambling",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "other_gambling",
+  "confidence": 0.85,
+  "comment": "Переезд на 1xbetpromostavka5.top, страница 1xCasino; Mostbet нет ни в одном сохранённом файле."
+ },
+ {
+  "domain": "bikepackinghungary.com",
+  "given": "other_gambling",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "other_gambling",
+  "confidence": 0.85,
+  "comment": "Клоака: Google видит итальянский обзор Plinko, обычный посетитель — блок Cloudflare; Mostbet нет ни в одном файле."
+ },
+ {
+  "domain": "bowade.pl",
+  "given": "other_gambling",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "other_gambling",
+  "confidence": 0.85,
+  "comment": "Переезд на tutu4littleprincess.pl, страница Slottica Casino; Mostbet нет ни в одном файле."
+ },
+ {
+  "domain": "cleanix-service.de",
+  "given": "other_gambling",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mb_page_other",
+  "confidence": 0.9,
+  "comment": "Взломанный сайт: страницы /mostbet-w-polsce-kasyna-online-i-zaklady-sportowe и /mostbet-w-polsce-obsluga-klienta, кнопка «▶️ GRAĆ» → w3n7z2qt.top/v1GxGYrB → 1xbet.rs tag=d_3755482m_22585c_smartlink."
+ },
+ {
+  "domain": "elmeda.net",
+  "given": "other_gambling",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "other_gambling",
+  "confidence": 0.85,
+  "comment": "Клоака под Googlebot: страница 1xBet Египет; Mostbet нет ни в одном файле."
+ },
+ {
+  "domain": "galeriamalta.pl",
+  "given": "other_gambling",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "other_gambling",
+  "confidence": 0.85,
+  "comment": "Клоака: Google видит Flagman Casino, посетителю 403; Mostbet нет."
+ },
+ {
+  "domain": "ifpmm.org",
+  "given": "other_gambling",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "other_gambling",
+  "confidence": 0.85,
+  "comment": "Клоака: Google видит обзор Sultan Casino, посетителю 403; Mostbet нет."
+ },
+ {
+  "domain": "jalti.in",
+  "given": "other_gambling",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "other_gambling",
+  "confidence": 0.85,
+  "comment": "Клоака под Googlebot: страница Melbet App; Mostbet нет."
+ },
+ {
+  "domain": "kulturastolic.ru",
+  "given": "other_gambling",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "other_gambling",
+  "confidence": 0.85,
+  "comment": "Клоака: Google видит Адмирал X, посетителю Access denied; Mostbet нет."
+ },
+ {
+  "domain": "leo-vegas-casino-uk.com",
+  "given": "other_gambling",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "other_gambling",
+  "confidence": 0.85,
+  "comment": "Клоака: Google видит LeoVegas Casino UK, посетителю 403; Mostbet нет."
+ },
+ {
+  "domain": "apk-domain-kz.com",
+  "given": "unclear",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.8,
+  "comment": "Страница «Download app Mostbet»: только логотип на синем фоне, noindex, ни одной ссылки."
+ },
+ {
+  "domain": "bafkingdom.pics",
+  "given": "unclear",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "PWA «3 COIN VOLCANOES от MostBet Casino»; кнопка data-prevbutton → mostbet.inmy.chat → hymcnxmb.com pid=124098 (Mostbet)."
+ },
+ {
+  "domain": "bioart-fp7.eu",
+  "given": "unclear",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Монобренд «MOSTBET BÓNUSZOK 2026» (HU); кнопки — якоря #regisztracio/#bonuszok, внешние ссылки только на GamCare/BeGambleAware."
+ },
+ {
+  "domain": "corehub24.com",
+  "given": "unclear",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_no_ads",
+  "confidence": 0.75,
+  "comment": "Лендинг «Most Partners» для партнёров из Узбекистана; единственная ссылка — Telegram-канал, рекламы операторов нет."
+ },
+ {
+  "domain": "delightspice.com",
+  "given": "unclear",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Монобренд «Mostbet Bangladesh | Download Mobile App»; внешних ссылок нет, кроме служебных WordPress."
+ },
+ {
+  "domain": "gangbuzzz.com",
+  "given": "unclear",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Монобренд «Mostbet Bangladesh: How to Install Mostbet App»; внешних ссылок нет, кроме автора темы theclassictemplates.com."
+ },
+ {
+  "domain": "kaz-apk-most.com",
+  "given": "unclear",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.8,
+  "comment": "Копия apk-domain-kz.com: «Download app Mostbet», только логотип, noindex, ссылок нет."
+ },
+ {
+  "domain": "mavisupansiyon.com",
+  "given": "unclear",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.6,
+  "comment": "Title «Mostbet网页版登录», внутри клон сайта китайской фабрики hcch.cn; в браузере поверх страницы iframe на весь экран www.7a5twi.com/mktland, в подвале 友情链接 на W88, K8, BC.Game, KS凯时 — как madagascarweather.com."
+ },
+ {
+  "domain": "mbtap.com",
+  "given": "unclear",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.7,
+  "comment": "«Mostbet Token» — Telegram Mini App, вне Telegram показывает ошибку запуска; ссылок нет."
+ },
+ {
+  "domain": "mostbet-affpartners.com",
+  "given": "unclear",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "«Mostbet Partners» — SPA партнёрской программы со скриптом x011bt.com/public/mbp_prod.js; чужих брендов и рекламных ссылок нет."
+ },
+ {
+  "domain": "mostbet-az-mosbet.com",
+  "given": "unclear",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.85,
+  "comment": "Парковка Sedo («… Resources and Information.»), браузер уходит на findonlineresults.com/?dn=…; казино и рекламы нет."
+ },
+ {
+  "domain": "mostbet-az-mostbets.com",
+  "given": "unclear",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.85,
+  "comment": "Парковка Sedo, браузер уходит на findonlineresults.com/?dn=…; казино и рекламы нет."
+ }
+]

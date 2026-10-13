@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "gpsprot.org",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.75,
+  "comment": "Все кнопки ведут на свой /mostbet/, который с RS-IP отдаёт пустую страницу 200 на том же сайте; внешних ссылок и трекеров на главной нет."
+ },
+ {
+  "domain": "grahamnorton.net",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Кнопки data-sf-a ведут на трекер reg.mostbet-egypt-2025.com/7ancUsT (не открыт); та же схема reg.<сайт>/<код> у mostbetbdapp.com (reg.mostbetbdapp.com/7ue78qT) дошла до Mostbet pid=37776 — реклама Mostbet, чужой нет."
+ },
+ {
+  "domain": "gree-egypt.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Тот же шаблон, что grahamnorton.net: кнопки data-sf-a → reg.mostbet-egypt-2025.com/7ancUsT (схема, которая у mostbetbdapp.com дошла до Mostbet pid=37776); чужих ссылок нет."
+ },
+ {
+  "domain": "heavenchatzone.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Все ссылки и кнопки на главной ведут на \"/\"; скрипты — Bootstrap, FontAwesome, tag.js без ссылок на операторов."
+ },
+ {
+  "domain": "hecklerandkochfirearms.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Видна только версия для google-mobile: меню ведёт на свой шлюз /tosite/, его не проходили; чужих ссылок и трекеров в HTML нет, прочие версии — Access denied."
+ },
+ {
+  "domain": "helpaman.org",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.6,
+  "comment": "Шлюз /go/ с RS-IP делает 301 на главную; hreflang указывает на mosstbeet.cz (там /go/ — гео-ротатор routezen с чужим брендом), но у самого helpaman /go/ чужого не показал."
+ },
+ {
+  "domain": "hosgoranaokulu.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Все ссылки на \"/\"; во внешнем tag.js только синхронизация рекламы Yango (spadsync, yastatic), ссылок на гэмблинг нет."
+ },
+ {
+  "domain": "hot-spin-ru.live",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Все кнопки и пункты меню — href=\"\"; внешний только canonical на holirun.net."
+ },
+ {
+  "domain": "https-mostbet.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Версия google-mobile: кнопка ведёт на свой шлюз /oyna/, его не проходили; hreflang на megagame.vegas и guncel.mostbet-tr-giris.it.com, чужих ссылок нет."
+ },
+ {
+  "domain": "in-mostbet.org",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Ссылки идут через свой /go/ и скрипт, который подставляет адрес с сервера по клику (location.href=url); получатель не установлен, чужих операторов в HTML нет."
+ },
+ {
+  "domain": "indirlivex.com.tr",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.75,
+  "comment": "Софт-портал с текстом про Mostbet; внешние ссылки — турецкие магазины БАДов (lokmanhekimavm.com и др.), гэмблинг-ссылок нет; tinyurl только в коде OneSignal."
+ },
+ {
+  "domain": "indodatacenter.org",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Кнопки data-sf-a → reg.mostbetbdapp.com/7ue78qT, этот трекер у mostbetbdapp.com дошёл до durtddmb.com pid=37776 — реклама Mostbet."
+ },
+ {
+  "domain": "inqui.ru",
+  "given": "mono_no_ads",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_no_ads",
+  "confidence": 0.3,
+  "comment": "Сохранённых страниц нет (html_files пуст, text_sample пуст): кнопки и ссылки проверить нечем."
+ },
+ {
+  "domain": "it-mostbet-online.com",
+  "given": "mono_no_ads",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.4,
+  "comment": "Кнопки data-split (banner_slot_gates, iconpoker…) уходят в /uploads/main.js, он не сохранён; ровно такой шаблон у греческой сети (greek-mostbet.com) вёл через czzczzczz.com на Glitchspin, но для этого сайта получатель неизвестен."
+ },
+ {
+  "domain": "it-mostbet.com",
+  "given": "mono_no_ads",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.4,
+  "comment": "Кнопки data-split через несохранённый /uploads/main.js; шаблон совпадает с греческой сетью, где трекер вёл на Glitchspin, получатель этого сайта неизвестен."
+ },
+ {
+  "domain": "italy-mostbet-online.com",
+  "given": "mono_no_ads",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.4,
+  "comment": "Кнопки data-split через несохранённый /uploads/main.js; шаблон греческой сети (там czzczzczz.com → Glitchspin), получатель этого сайта неизвестен."
+ },
+ {
+  "domain": "italy-mostbet.com",
+  "given": "mono_no_ads",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.4,
+  "comment": "Кнопки data-split через несохранённый /uploads/main.js; шаблон греческой сети (там czzczzczz.com → Glitchspin), получатель этого сайта неизвестен."
+ },
+ {
+  "domain": "italy-mostbetonline.com",
+  "given": "mono_no_ads",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.4,
+  "comment": "Кнопки data-split через несохранённый /uploads/main.js; шаблон греческой сети (там czzczzczz.com → Glitchspin), получатель этого сайта неизвестен."
+ },
+ {
+  "domain": "italymostbet-login.com",
+  "given": "mono_no_ads",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.4,
+  "comment": "Кнопки data-split через несохранённый /uploads/main.js; шаблон греческой сети (там czzczzczz.com → Glitchspin), получатель этого сайта неизвестен."
+ },
+ {
+  "domain": "italymostbetlogin.com",
+  "given": "mono_no_ads",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.4,
+  "comment": "Кнопки data-split через несохранённый /uploads/main.js; шаблон греческой сети (там czzczzczz.com → Glitchspin), получатель этого сайта неизвестен."
+ },
+ {
+  "domain": "ittvfestival.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.75,
+  "comment": "Единственная ссылка — свой /gogo/, он отдаёт 404; main.js без ссылок."
+ },
+ {
+  "domain": "james-albus.org",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.7,
+  "comment": "Кнопки ведут на свой /go/, который с RS-IP остаётся на сайте (200); внешних ссылок на операторов нет."
+ },
+ {
+  "domain": "janmartinik.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Обзор без исходящих ссылок на операторов: внешние только hazardniporadna.cz и gamblersanonymous.cz, кнопки — калькулятор и квиз."
+ },
+ {
+  "domain": "jkbproducts.in",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Кнопки Play с закодированным data-o (XOR 65) → regu.crickacademy.com/nHcVnsu; этот трекер у mostbet.mobi дошёл до zlaovvmb.com pid=37776 — реклама Mostbet."
+ },
+ {
+  "domain": "johannesbuggle.com",
+  "given": "mono_no_ads",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.4,
+  "comment": "Все кнопки через main.js ведут на трекер content-dropped.buzz/click?key=fc4b86…; ни у одного сайта он не открыт, чей — неизвестно. Roobet в тексте — только провайдер игры Crash."
+ },
+ {
+  "domain": "judyqueen.tw",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.75,
+  "comment": "Взломанный блог студии; посты про Mostbet ссылаются простыми ссылками на dasbratwursthaus.com, narlibahce.com.tr, balcoon.com.tr — это Mostbet-дорвеи (mono_no_ads), не операторы и не трекеры."
+ },
+ {
+  "domain": "julyeffect26.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.75,
+  "comment": "Лендинг набора в партнёрку Mostbet: «Ro‘yxatdan o‘tish» → solidbase24.com/register/referral/482511, страница с title «Mostbet Partners»; чужих брендов нет."
+ },
+ {
+  "domain": "karczma-antolka.pl",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Обзор без исходящих ссылок на операторов: внешний только hazardinfo.pl, кнопки — калькулятор и квиз."
+ },
+ {
+  "domain": "kartabanka.info",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Все ссылки и кнопки на главной ведут на \"/\"; скрипты без ссылок на операторов."
+ },
+ {
+  "domain": "karvinavsemideseti.cz",
+  "given": "mono_no_ads",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.4,
+  "comment": "Клон johannesbuggle.com: кнопки через main.js → content-dropped.buzz/click?key=fc4b86…, трекер нигде не открыт, получатель неизвестен."
+ },
+ {
+  "domain": "kasino-mostbet-skachat.ru",
+  "given": "mono_no_ads",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.4,
+  "comment": "Кнопки AMP.navigateTo → czzczzczz.com/click.php?key=p7p6n88…; на этом хосте ключ iudnt4z0 ведёт на Mostbet pid=5870, а ключ 8wvpqdd2 — на Glitchspin; этот ключ не открыт."
+ },
+ {
+  "domain": "kasinomostbet-skachat.ru",
+  "given": "mono_no_ads",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.4,
+  "comment": "Кнопки AMP.navigateTo → bnmtrack.com/click.php?key=tym114…; bnmtrack известен только как звено в цепочке на Glitchspin у греческой сети, этот ключ не открыт."
+ },
+ {
+  "domain": "kazino-mostbet.ru",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон сети berst59 (кнопки data-split buttonReg/buttonLog), main.js не сохранён; у соседа madouds1.ru тот же шаблон → gameshreder.com key=iudnt4z0 → Mostbet pid=5870."
+ },
+ {
+  "domain": "kether.com.tr",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Версия google-mobile: кнопка на свой шлюз /oyna/, его не проходили; в тексте mostbet.com как «Resmi site», чужих ссылок нет."
+ },
+ {
+  "domain": "kg-mostbet.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Все кнопки на go.php, с RS-IP он делает 302 на главную; внешние только gamblingtherapy.org, gamblersanonymous.org, t.me/mostbet."
+ },
+ {
+  "domain": "kiziaz.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Версия google-mobile: 15 кнопок на свой шлюз /tosite, его не проходили; чужих ссылок нет, прочие версии — Access denied."
+ },
+ {
+  "domain": "klubsms.cz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.6,
+  "comment": "Шлюз /go/ с RS-IP делает 301 на главную, /bonus/ — своя страница; внешние только регуляторы (mfcr.cz, zodpovednehrani.cz)."
+ },
+ {
+  "domain": "krasohled.org",
+  "given": "mono_no_ads",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.4,
+  "comment": "Клон johannesbuggle.com: кнопки через main.js → content-dropped.buzz/click?key=fc4b86…, трекер нигде не открыт, получатель неизвестен."
+ },
+ {
+  "domain": "kulturcafe.eu",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Обзор без исходящих ссылок на операторов: внешние только odpowiedzialnagra.pl, hazardinfo.pl, gamblersanonymous.org; кнопки — калькулятор и демо Aviator."
+ },
+ {
+  "domain": "kyrgyzstan1-mostbet.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Все кнопки на go.php, с RS-IP он делает 302 на главную; внешние только sezim.org и gamblingtherapy.org."
+ },
+ {
+  "domain": "le-barbier-blagnac.fr",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.75,
+  "comment": "Все кнопки на свой /mostbet/, который с RS-IP отдаёт пустую страницу 200; внешних ссылок нет."
+ },
+ {
+  "domain": "lecheesegeek.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.75,
+  "comment": "Все кнопки на свой /mostbet/, который с RS-IP отдаёт пустую страницу 200; внешних ссылок нет."
+ },
+ {
+  "domain": "lektomaszmierzwinski.pl",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Все кнопки (Logowanie, Rejestracja, Odbierz bonus Mostbet) через /uploads/main.js → sneaker-speaker.com/click?key=611d75…; тот же ключ у mostbet-czech.site и peakfitnessworkouts.com дошёл до 593nv.casino (другой бренд), рекламы Mostbet нет."
+ },
+ {
+  "domain": "login-bangladesh-mostbet.com",
+  "given": "mono_no_ads",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.4,
+  "comment": "Кнопки data-split (buttonReg, buttonLog, content) через /uploads/main.js, он не сохранён; получатель неизвестен, остальные версии — Cloudflare-блок."
+ },
+ {
+  "domain": "madouds1.ru",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Все кнопки через /uploads/main.js → gameshreder.com/click.php?key=iudnt4z0…, у сети berst59 этот ключ дошёл до yxlmktmb.com pid=5870 — реклама Mostbet."
+ },
+ {
+  "domain": "makromedikal.com.tr",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Версия google-mobile: 27 кнопок на свой шлюз /oynatr, его не проходили; чужих ссылок нет, прочие версии — Access denied."
+ },
+ {
+  "domain": "manjackalglogow.pl",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Обзор без исходящих ссылок на операторов: внешние только hazarduzaleznienie.pl и uzaleznienia.pl, кнопки — калькуляторы."
+ },
+ {
+  "domain": "megagame.vegas",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Версия google-mobile: кнопка на свой шлюз /oyna/, его не проходили; чужих ссылок нет."
+ },
+ {
+  "domain": "mevzuedebiyat.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.55,
+  "comment": "Кнопки «Siteye git» — href=\"#\"; в блоке div.container видимые простые ссылки с анкорами casibom, pinco, pin up на взломанные сайты-дорвеи (russiaeu.ru, upcointernational.com), не на операторов; style.css не сохранён, скрыт ли блок — не проверить."
+ },
+ {
+  "domain": "mhklicey5.ru",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.7,
+  "comment": "Title «Букмекерская контора MostBet», а внутри работающее казино на движке Vulkan (cdn-vlk.org, «Игровой зал», своя регистрация /registration?tracker=…, касса, «Партнерская программа» → inkeytarowetrust.ru → traftotraf.com); Mostbet такого движка не использует."
+ }
+]

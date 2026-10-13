@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "aviator-fortuna.top",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Мультибренд «Авиатор: игра на деньги - Краш слот онлайн с бонусами от луч», Mostbet упомянут 3 раз(а), отдельной страницы про Mostbet в deep/mbpages нет; рекламы чужих брендов не найдено."
+ },
+ {
+  "domain": "aviator-game-india-win.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Мультибренд «Aviator Game Official by Spribe - Play Demo and Real Money |», Mostbet упомянут 7 раз(а), отдельной страницы про Mostbet в deep/mbpages нет; реклама чужих (1win, via part-global.com) на общей главной, это допустимо."
+ },
+ {
+  "domain": "aviator-game.buzz",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Мультибренд «Aviator Game India 2026 – Play Online, Try Demo Mode & Downl», Mostbet упомянут 1 раз(а), отдельной страницы про Mostbet в deep/mbpages нет; реклама чужих (1win) на общей главной, это допустимо."
+ },
+ {
+  "domain": "aviator-gameplay.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Страницы /mostbet-aviator (6 языков) ведут только на Mostbet (/mostbet-aviator_go → fvoidjmb.com pid=67382) и демо Spribe; рекламы чужих на них нет."
+ },
+ {
+  "domain": "aviator-gpt.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Мультибренд «Aviator GPT - Real or Fake? > try this demo for sure», Mostbet упомянут 1 раз(а), отдельной страницы про Mostbet в deep/mbpages нет; рекламы чужих брендов не найдено."
+ },
+ {
+  "domain": "aviator-india-play.ink",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Мультибренд «Aviator Game: Rules, Risks & Safe Play Guide», Mostbet упомянут 1 раз(а), отдельной страницы про Mostbet в deep/mbpages нет; реклама чужих (1win) на общей главной, это допустимо."
+ },
+ {
+  "domain": "aviator-india.live",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Мультибренд «Aviator Official Game in India | Aviator Game Download», Mostbet упомянут 1 раз(а), отдельной страницы про Mostbet в deep/mbpages нет; рекламы чужих брендов не найдено."
+ },
+ {
+  "domain": "aviator-official-in-game.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Мультибренд «Aviator Game Official by Spribe - Play Demo and Real Money |», Mostbet упомянут 7 раз(а), отдельной страницы про Mostbet в deep/mbpages нет; реклама чужих (1win, via part-global.com) на общей главной, это допустимо."
+ },
+ {
+  "domain": "aviator-online.ru",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Мультибренд «Игра Авиатор на деньги| Крутые бонусы, стратегии и схемы выи», Mostbet упомянут 7 раз(а), отдельной страницы про Mostbet в deep/mbpages нет; реклама чужих (1wyde.com, via 1wyde.com) на общей главной, это допустимо."
+ },
+ {
+  "domain": "aviator-pak.ink",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Мультибренд «Aviator Pakistan 2026 – Calculate Odds & Play Smarter», Mostbet упомянут 1 раз(а), отдельной страницы про Mostbet в deep/mbpages нет; реклама чужих (1win) на общей главной, это допустимо."
+ },
+ {
+  "domain": "aviator-top.ink",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Мультибренд «Aviator Game Online Guide: Rules, Demo & Safety Tips», Mostbet упомянут 1 раз(а), отдельной страницы про Mostbet в deep/mbpages нет; реклама чужих (1win) на общей главной, это допустимо."
+ },
+ {
+  "domain": "aviator-uz.bet",
+  "given": "multibrand",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mb_page_other",
+  "confidence": 0.8,
+  "comment": "На https://aviator-uz.bet/mostbet/ кнопки «Hozir o'ynash»/«O'ynashni boshlash» ведут на /play/, а /play/ уводит на winlinkroute.com/jKxhzs6g → Spinbetter (btag=d_208163m…), по affiliate-scan. Ссылок на Mostbet на странице нет."
+ },
+ {
+  "domain": "aviator-uz.reviews",
+  "given": "multibrand",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mb_page_other",
+  "confidence": 0.8,
+  "comment": "На https://aviator-uz.reviews/mostbet/ кнопки «Hozir o'ynash»/«O'ynashni boshlash» ведут на /play/, а /play/ уводит на winlinkroute.com/jKxhzs6g → Spinbetter (btag=d_208163m…), по affiliate-scan. Ссылок на Mostbet на странице нет."
+ },
+ {
+  "domain": "aviator-uz.site",
+  "given": "multibrand",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mb_page_other",
+  "confidence": 0.8,
+  "comment": "На https://aviator-uz.site/mostbet/ кнопки «Hozir o'ynash»/«O'ynashni boshlash» ведут на /play/, а /play/ уводит на winlinkroute.com/jKxhzs6g → Spinbetter (btag=d_208163m…), по affiliate-scan. Ссылок на Mostbet на странице нет."
+ },
+ {
+  "domain": "aviator-uz.xyz",
+  "given": "multibrand",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mb_page_other",
+  "confidence": 0.8,
+  "comment": "На https://aviator-uz.xyz/mostbet/ кнопки «Hozir o'ynash»/«O'ynashni boshlash» ведут на /play/, а /play/ уводит на winlinkroute.com/jKxhzs6g → Spinbetter (btag=d_208163m…), по affiliate-scan. Ссылок на Mostbet на странице нет."
+ },
+ {
+  "domain": "aviator-uzbekistan.pro",
+  "given": "multibrand",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mb_page_other",
+  "confidence": 0.8,
+  "comment": "На https://aviator-uzbekistan.pro/mostbet/ кнопки «Hozir o'ynash»/«O'ynashni boshlash» ведут на /play/, а /play/ уводит на winlinkroute.com/jKxhzs6g → Spinbetter (btag=d_208163m…), по affiliate-scan. Ссылок на Mostbet на странице нет."
+ },
+ {
+  "domain": "aviator-verified-game.link",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Мультибренд «Aviator Game Official by Spribe - Play Demo and Real Money |», Mostbet упомянут 7 раз(а), отдельной страницы про Mostbet в deep/mbpages нет; реклама чужих (1win, via part-global.com) на общей главной, это допустимо."
+ },
+ {
+  "domain": "aviator2024.ru",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Мультибренд «ᐉ Игра Авиатор 1win 1xBet | Отзывы об Aviator game | Разобла», Mostbet упомянут 2 раз(а), отдельной страницы про Mostbet в deep/mbpages нет; реклама чужих (1xBet, Betwinner, Melbet) на общей главной, это допустимо."
+ },
+ {
+  "domain": "aviator34.ru",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Мультибренд «Игра Авиатор на деньги | Крутые бонусы, стратегии и схемы вы», Mostbet упомянут 7 раз(а), отдельной страницы про Mostbet в deep/mbpages нет; рекламы чужих брендов не найдено."
+ },
+ {
+  "domain": "aviator64.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Страницы /mostbet (6 языков) ведут только на /api/~/mostbet → nvjnacmb.com pid=210885; рекламы чужих на них нет."
+ },
+ {
+  "domain": "aviatorgame-lk.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Мультибренд «Aviator Game 🛩 Official Site | Play Aviator Online», Mostbet упомянут 6 раз(а), отдельной страницы про Mostbet в deep/mbpages нет; реклама чужих (1xBet) на общей главной, это допустимо."
+ },
+ {
+  "domain": "aviatorgame-uz.com",
+  "given": "multibrand",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mb_page_other",
+  "confidence": 0.8,
+  "comment": "На https://aviatorgame-uz.com/mostbet/ кнопки «Hozir o'ynash»/«O'ynashni boshlash» ведут на /play/, а /play/ уводит на winlinkroute.com/jKxhzs6g → Spinbetter (btag=d_208163m…), по affiliate-scan. Ссылок на Mostbet на странице нет."
+ },
+ {
+  "domain": "aviatorgame-uz.online",
+  "given": "multibrand",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mb_page_other",
+  "confidence": 0.8,
+  "comment": "На https://aviatorgame-uz.online/mostbet/ кнопки «Hozir o'ynash»/«O'ynashni boshlash» ведут на /play/, а /play/ уводит на winlinkroute.com/jKxhzs6g → Spinbetter (btag=d_208163m…), по affiliate-scan. Ссылок на Mostbet на странице нет."
+ },
+ {
+  "domain": "aviatorgame1.com",
+  "given": "multibrand",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mb_page_other",
+  "confidence": 0.85,
+  "comment": "На /mostbet-aviator (и языковых версиях) кнопка «Играть в Aviator MostBet» ведёт на /play1wintracker1 — трекер 1win; у сестринского aviatorgames.win то же самое подтверждено как mb_page_other. На главной ещё gotoplaynow.link → 1win и Weiss."
+ },
+ {
+  "domain": "aviatorgameonline.info",
+  "given": "multibrand",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.7,
+  "comment": "Клон казино на непали: весь текст продвигает «मोस्टबेट एभिएटर» (Mostbet Aviator), кнопка playGame('मोस्टबेट एभिएटर') и скачивание по js-клику уходят на c2.maxcloudlink.com → 17jl33.com ?affiliateCode=17jl01; рекламы Mostbet нет. Mostbet не в домене/title, поэтому не bait."
+ },
+ {
+  "domain": "aviatorgameuz.games",
+  "given": "multibrand",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mb_page_other",
+  "confidence": 0.8,
+  "comment": "На https://aviatorgameuz.games/mostbet/ кнопки «Hozir o'ynash»/«O'ynashni boshlash» ведут на /play/, а /play/ уводит на winlinkroute.com/jKxhzs6g → Spinbetter (btag=d_208163m…), по affiliate-scan. Ссылок на Mostbet на странице нет."
+ },
+ {
+  "domain": "aviatoronline-uz.com",
+  "given": "multibrand",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mb_page_other",
+  "confidence": 0.8,
+  "comment": "На https://aviatoronline-uz.com/mostbet/ кнопки «Hozir o'ynash»/«O'ynashni boshlash» ведут на /play/, а /play/ уводит на winlinkroute.com/jKxhzs6g → Spinbetter (btag=d_208163m…), по affiliate-scan. Ссылок на Mostbet на странице нет."
+ },
+ {
+  "domain": "aviatoroynaa.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Мультибренд «Aviator Oyna - Aviator Oyunu Oyna», Mostbet упомянут 8 раз(а), отдельной страницы про Mostbet в deep/mbpages нет; реклама чужих (via plum3three.com, via zap49redirectbn.com, via keylima004.com) на общей главной, это допустимо."
+ },
+ {
+  "domain": "aviatorpredictor.fun",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Сайт «предиктора» BYTRON; страницы /product/Mostbet — карточки товара без внешних ссылок, рекламы нет."
+ },
+ {
+  "domain": "aviatorpredictor.shop",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Мультибренд «Aviator Predictor — Aviator Signal | Aviator Hack | Crash Pr», Mostbet упомянут 8 раз(а), отдельной страницы про Mostbet в deep/mbpages нет; реклама чужих (1xBet, reffpa.com) на общей главной, это допустимо."
+ },
+ {
+  "domain": "aviatorsignals.in",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "На /mostbet.html кнопки только на трекер Mostbet klnumymb.com/edAU (→ pid=422893); остальные ссылки — обзорники и сайты сети без кода; главная — про 1win, это мультибренд."
+ },
+ {
+  "domain": "aviatorspribe-uz.com",
+  "given": "multibrand",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mb_page_other",
+  "confidence": 0.8,
+  "comment": "На https://aviatorspribe-uz.com/mostbet/ кнопки «Hozir o'ynash»/«O'ynashni boshlash» ведут на /play/, а /play/ уводит на winlinkroute.com/jKxhzs6g → Spinbetter (btag=d_208163m…), по affiliate-scan. Ссылок на Mostbet на странице нет."
+ },
+ {
+  "domain": "avis-babyfoot.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Мультибренд «Криптоказино 2026: Рейтинг лучших биткоин площадок и бонусы», Mostbet упомянут 5 раз(а), отдельной страницы про Mostbet в deep/mbpages нет; реклама чужих (2073.brightwhale.co, 1xBet, 2073.gameshere.xyz) на общей главной, это допустимо."
+ },
+ {
+  "domain": "avonmercantile.in",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Мультибренд «Aviator Game India | Official Site – [Verified] ⭐️», Mostbet упомянут 8 раз(а), отдельной страницы про Mostbet в deep/mbpages нет; реклама чужих (1win, via loyaltytowingwestminster.com, via partnersall-global.com) на общей главной, это допустимо."
+ },
+ {
+  "domain": "award-stake-ceylon4.top",
+  "given": "multibrand",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_mixed",
+  "confidence": 0.8,
+  "comment": "Title/h1 «Mostbet Welcome Bonus Sri Lanka», на главной и /bonuses/ кнопки CLAIM BONUS на 1win (w-one909485.life ?p=zew9) и 1xBet (reffpa.com tag=d_5333101m_97c_) рядом с трекером Mostbet n37ztcmb.com/LVDU; сестра giftrollceylon4.top уже mono_mixed."
+ },
+ {
+  "domain": "axisurfeskola.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Мультибренд «Crypto casino 2026 – ranking and best cryptocurrency casinos», Mostbet упомянут 1 раз(а), отдельной страницы про Mostbet в deep/mbpages нет; реклама чужих (ggbetbestoffer.com, getnvpartnerspromo.com, new-promos.com) на общей главной, это допустимо."
+ },
+ {
+  "domain": "aybatbet.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Рейтинг БК Кыргызстана; на /bukmekery/mostbet/ единственная рекламная ссылка xtsplkmost.com/EB9U → Mostbet pid=469441; refpa/Melbet — на главной и других обзорах."
+ },
+ {
+  "domain": "azerbaijansportsbetting.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "На /mostbet/ нет ни внешних ссылок, ни шлюзов; главная — мультибренд 1xBet/Mostbet/Pin Up без рекламных ссылок."
+ },
+ {
+  "domain": "azerbaycan-kazinolar.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Каталог казино; на /casinos/mostbet/ кнопка /go/593/ → trackingrevenuetds.com → kfsi2upmb.com (Mostbet), других /go/ на странице нет; Vave и др. — на главной."
+ },
+ {
+  "domain": "azmostappka.website",
+  "given": "multibrand",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.4,
+  "comment": "PWA под Google Play «Mostbet Azərbaycan» (разработчик SlotsTech Inc.), кнопка установки ведёт на трекер sapog.online/click?key=… с fbclid; куда он приводит — в файлах нет. Если не на Mostbet, это bait."
+ },
+ {
+  "domain": "b1tcoincasino.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Мультибренд «Best Bitcoin Casinos in Canada 2026 – Top-Rated Casino Sites», Mostbet упомянут 1 раз(а), отдельной страницы про Mostbet в deep/mbpages нет; реклама чужих (C$7 000 + 250 FS ON THE FIRST DEPOSIT!, form-bitcoin-ca.lso.nifeb.com) на общей главной, это допустимо."
+ },
+ {
+  "domain": "bac-alg.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Блог-обзорник; 6 статей про Mostbet содержат только простые ссылки на посторонние сайты (savdoenergo.uz, akzamedia.org и т. п.), рекламы чужих брендов нет."
+ },
+ {
+  "domain": "balloon.org.kz",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Мультибренд «Balloon игра на деньги | Ставки от 50 тенге, коэфф. до x5000», Mostbet упомянут 2 раз(а), отдельной страницы про Mostbet в deep/mbpages нет; рекламы чужих брендов не найдено."
+ },
+ {
+  "domain": "balloongameplay.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Мультибренд «Play Balloon game crash slot by SmartSoft at online casinos », Mostbet упомянут 1 раз(а), отдельной страницы про Mostbet в deep/mbpages нет; реклама чужих (1xBet) на общей главной, это допустимо."
+ },
+ {
+  "domain": "balrammahavidyalaya.org",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Мультибренд «Aviator Game (2026) – How to Play, Best Casinos, Bonuses, Pa», Mostbet упомянут 3 раз(а), отдельной страницы про Mostbet в deep/mbpages нет; рекламы чужих брендов не найдено."
+ },
+ {
+  "domain": "beautifulprints.com.ng",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.8,
+  "comment": "Взломанный сайт типографии: в meta description спам «mostbet… leovegas… 1win», в коде скрытые (left:-9999px) ссылки на mostbet-kasino.cz, iswoda.pl, eggsinc.se и др.; страницы про Mostbet с рекламой чужих нет."
+ },
+ {
+  "domain": "beepbeepkasyno.net",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Мультибренд «Beep Beep Casino opinia 2026 – przegląd gier, bonusów, płatn», Mostbet упомянут 1 раз(а), отдельной страницы про Mostbet в deep/mbpages нет; реклама чужих (Vavada) на общей главной, это допустимо."
+ },
+ {
+  "domain": "best-crypto-casino-online.pl",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Мультибренд «Top Kasyno Bitcoin 2026 – Najlepsze Kasyna Kryptowalut, No K», Mostbet упомянут 8 раз(а), отдельной страницы про Mostbet в deep/mbpages нет; реклама чужих (ggbetbestoffer.com, getnvpartnerspromo.com, new-promos.com) на общей главной, это допустимо."
+ },
+ {
+  "domain": "best-slots-india.top",
+  "given": "multibrand",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mb_page_other",
+  "confidence": 0.6,
+  "comment": "Главная — статья «Mostbet or 1xBet Sri Lanka» (Mostbet 91 упоминание), на ней рядом с трекером Mostbet n37ztcmb.com/LVDU кнопки на 1win (w-one909485.life ?p=zew9) и 1xBet (reffpa.com tag=d_5333101m_97c_). Страница сравнения, поэтому уверенность средняя."
+ },
+ {
+  "domain": "bestbetplay.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Мультибренд «Best Betting Sites India 2026 | MegaPari FOOTBALLKING», Mostbet упомянут 2 раз(а), отдельной страницы про Mostbet в deep/mbpages нет; реклама чужих (Megapari) на общей главной, это допустимо."
+ }
+]

@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbet3.im",
+  "given": "mono_xlink",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд «Mostbet3» (Мьянма): липкая кнопка «အခုစာရင်းသွင်းပါ» и /data.js (loginUrl/registerUrl) ведут на cv55i.com → www.cv55i.com — казино CV55, чужой оператор; рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetapk.de",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Все кнопки «Registrieren/Download» через свой шлюз /visit/ → uksyxemb.com pid=248988 (Mostbet); внешние ссылки только на сайты помощи (careplay.ch, begambleaware) — чужой рекламы и чужих дорвеев нет."
+ },
+ {
+  "domain": "mostbetapk.eu",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Кнопки «Place Bet/Download APK» через /visit/ → uksyxemb.com pid=248988 (Mostbet); внешние ссылки — только организации помощи игрокам (careplay.ch, gordonmoody, srij.pt), чужих брендов нет."
+ },
+ {
+  "domain": "mostbetapk.ltd",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Кнопки «Войти/Для Андроид» через /visit/ → uksyxemb.com pid=248988 (Mostbet); внешние — 1cupis.ru, cert.gcb.cw, gamblersanonymous — не реклама; чужих операторов нет."
+ },
+ {
+  "domain": "mostbetbd1.com",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Кнопки /mostbetsport → uksyxemb.com pid=232749 (Mostbet); видимые простые ссылки на страницы про Mostbet на обзорнике bdbet.net (→ oddsroute.net) без кода — mono_xlink."
+ },
+ {
+  "domain": "mostbetbr1.bet",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Переезжает на mostbetbrasil.lat: все кнопки «Bônus da Mostbet» /link2/ → 9bcea97omst.com/21lF → 6mt18xmb.com pid=35818 (Mostbet); внешние — соцсети, cert.gcb.cw, mostpartner.com; чужих брендов нет."
+ },
+ {
+  "domain": "mostbetbrasil.lat",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Все кнопки «Bônus da Mostbet» /link2/ → 9bcea97omst.com/21lF → 6mt18xmb.com pid=35818 (Mostbet); внешние — соцсети, лицензия cert.gcb.cw, mostpartner.com; чужих брендов и дорвеев нет."
+ },
+ {
+  "domain": "mostbetcasinocz.com",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Переезжает на mostbetceska.cz: кнопки «Registrace» /visit/ → uksyxemb.com pid=248988 (Mostbet); внешние ссылки — uefa.com, fifa.com, csas.cz, hazardni-hrani.cz — не реклама."
+ },
+ {
+  "domain": "mostbetceska.cz",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Кнопки «Registrace/Získejte bonus» /visit/ → uksyxemb.com pid=248988 (Mostbet); внешние ссылки — спортивные федерации, банки (csas.cz, csob.cz), помощь игрокам — чужой рекламы нет."
+ },
+ {
+  "domain": "mostbetpartners.net",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.7,
+  "comment": "Кнопки SIGNIN → mbp-aff.com/register/referral/491845 (партнёрка Mostbet) и 3dqeka7xzlun7d5mst.com (Mostbet); в меню простая ссылка на bdgwinapp.online — сателлит «BDG Win App», не оператор."
+ },
+ {
+  "domain": "mostbetpl.best",
+  "given": "mono_xlink",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Монобренд «Mostbetpl» (Мьянма), тот же шаблон с /data.js, что mostbet3.im: кнопки регистрации ведут на cv55i.com → www.cv55i.com (казино CV55, есть в destinations.csv); рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetpl.xyz",
+  "given": "mono_xlink",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Монобренд «Mostbetpl» (Мьянма), шаблон с /data.js: кнопки «အကောင့်ဖွင့်ရန်» ведут на cv55i.com → www.cv55i.com (казино CV55, destinations.csv); рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetplus.com",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.55,
+  "comment": "Филиппинский шаблонный сайт «Mostbet»: LOGIN/REGISTER — свои короткие пути /mja0mze, /n2eyotk (получатель не известен); в текстах статей простые ссылки на сателлиты той же сети okplay8.com, qq666plus.com, bc888apps.com (шаблонные title «Explore … Games»), без кода."
+ },
+ {
+  "domain": "mostbett.nl",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.7,
+  "comment": "Кнопки /go/spelen остаются на сайте (SPA), внешняя ссылка в тексте /online-casino/ на olybet.live/bonuses/ — дорвей, не сайт оператора OlyBet (olybet.com), без кода."
+ },
+ {
+  "domain": "mostbetuz2025.com",
+  "given": "mono_xlink",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_mixed",
+  "confidence": 0.8,
+  "comment": "Кнопки «RO‘YXATDAN OLISH» → kxfmqfgmb.com/uKGF (Mostbet), а в конце главной видимый блок ссылок, в т. ч. «Переходите на сайт казино Восток и получайте бонус до 100 000 рублей» → vostokcasino112.com (зеркало оператора Vostok) — прямая ссылка на чужого оператора."
+ },
+ {
+  "domain": "myacc-roll-kz2025.top",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Сеть промо-сайтов Troyaff: все кнопки «ПОЛУЧИТЬ БОНУС/CLAIM BONUS» ведут на n37ztcmb.com/LVDU (трекер Mostbet, у других сайтов → ijwdpnmb.com pid); внешние ссылки в футере — простые ссылки на сайты той же сети (bonusplayin1.top, offerslotind2.top) и сайты помощи игрокам, чужих операторов и скрытых блоков нет."
+ },
+ {
+  "domain": "offerchipsteppe.top",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Сеть промо-сайтов Troyaff: все кнопки «ПОЛУЧИТЬ БОНУС/CLAIM BONUS» ведут на n37ztcmb.com/LVDU (трекер Mostbet, у других сайтов → ijwdpnmb.com pid); внешние ссылки в футере — простые ссылки на сайты той же сети (sportjackpotbra3.top, checkluckind2.top) и сайты помощи игрокам, чужих операторов и скрытых блоков нет."
+ },
+ {
+  "domain": "offergainbra2.top",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Сеть промо-сайтов Troyaff: все кнопки «ПОЛУЧИТЬ БОНУС/CLAIM BONUS» ведут на n37ztcmb.com/LVDU (трекер Mostbet, у других сайтов → ijwdpnmb.com pid); внешние ссылки в футере — простые ссылки на сайты той же сети (footballrollbrazil1.top, bonus-win-kaz1.top) и сайты помощи игрокам, чужих операторов и скрытых блоков нет."
+ },
+ {
+  "domain": "offerjackpotru3.top",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Сеть промо-сайтов Troyaff: все кнопки «ПОЛУЧИТЬ БОНУС/CLAIM BONUS» ведут на n37ztcmb.com/LVDU (трекер Mostbet, у других сайтов → ijwdpnmb.com pid); внешние ссылки в футере — простые ссылки на сайты той же сети (dealstakein1.top, prizechiplk2026.top) и сайты помощи игрокам, чужих операторов и скрытых блоков нет."
+ },
+ {
+  "domain": "offerplaykaz1.top",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Сеть промо-сайтов Troyaff: все кнопки «ПОЛУЧИТЬ БОНУС/CLAIM BONUS» ведут на n37ztcmb.com/LVDU (трекер Mostbet, у других сайтов → ijwdpnmb.com pid); внешние ссылки в футере — простые ссылки на сайты той же сети (gameslotceylon4.top, gamepotkazakh2.top) и сайты помощи игрокам, чужих операторов и скрытых блоков нет."
+ },
+ {
+  "domain": "offerslotind2.top",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Сеть промо-сайтов Troyaff: все кнопки «ПОЛУЧИТЬ БОНУС/CLAIM BONUS» ведут на n37ztcmb.com/LVDU (трекер Mostbet, у других сайтов → ijwdpnmb.com pid); внешние ссылки в футере — простые ссылки на сайты той же сети (cricketplaynigeria.top, ranknoderf2026.top) и сайты помощи игрокам, чужих операторов и скрытых блоков нет."
+ },
+ {
+  "domain": "okulyk-edu.kz",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Кнопки /link → nwyt3ti7mb.com/lj3S (Mostbet); видимые простые ссылки на другие дорвеи Mostbet (kasyno-mostbet.pl, mgmteh.ru, indianhomestays.org/mostbet-aviator) без кода."
+ },
+ {
+  "domain": "pbc88.cyou",
+  "given": "mono_xlink",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Страница «Mostbet Black Friday 2026» (h1, 117 упоминаний Mostbet), а кнопки Login → pbc88.asia/af/8E1g6hdF/seo01, «Register Now» → pbc138.com, баннеры в тексте → pbc365.net/af/80366yr6/wp — партнёрские ссылки казино PBC88; рекламы Mostbet нет."
+ },
+ {
+  "domain": "profilebetbengal1.top",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Сеть промо-сайтов Troyaff: все кнопки «ПОЛУЧИТЬ БОНУС/CLAIM BONUS» ведут на n37ztcmb.com/LVDU (трекер Mostbet, у других сайтов → ijwdpnmb.com pid); внешние ссылки в футере — простые ссылки на сайты той же сети (prize-casino-braza2026.top, offergainbra2.top) и сайты помощи игрокам, чужих операторов и скрытых блоков нет."
+ },
+ {
+  "domain": "proryazan.com",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Переезжает на mostbetapk.ltd: кнопки /visit/ → uksyxemb.com pid=248988 (Mostbet); внешние — 1cupis.ru, cert.gcb.cw, gamblersanonymous.ru — не реклама."
+ },
+ {
+  "domain": "rssfeedreader.com",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.7,
+  "comment": "Кнопки «Get Bonus» — onclick gnb.go('mostbet', …), то есть на Mostbet; видимые простые ссылки на обзорники nodepositcasinobonus.org и sportsbookreviewsonline.com без кода."
+ },
+ {
+  "domain": "setodetools.ir",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.75,
+  "comment": "Взломанный иранский магазин инструментов с ссылочными постами; в постах про Mostbet (/recenzja-kasyna-mostbet-…, /przewodnik-po-aplikacji-mobilnej-mostbet…) только простые ссылки на дорвеи Mostbet (inamft.org, online-casinopl.com), рекламы чужих брендов на них нет."
+ },
+ {
+  "domain": "smart-pot-bra.top",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Сеть промо-сайтов Troyaff: все кнопки «ПОЛУЧИТЬ БОНУС/CLAIM BONUS» ведут на n37ztcmb.com/LVDU (трекер Mostbet, у других сайтов → ijwdpnmb.com pid); внешние ссылки в футере — простые ссылки на сайты той же сети (codemarketrf4.top, coupon-luck-ng3.top) и сайты помощи игрокам, чужих операторов и скрытых блоков нет."
+ },
+ {
+  "domain": "sport-mostbet.org",
+  "given": "mono_xlink",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_mixed",
+  "confidence": 0.6,
+  "comment": "Кнопки и QR «Download for Android» → pniurl.com/ZXaxt → n37ztcmb.com (Mostbet, pid=457929), но в футере QR «Mirrors in Telegram» data-url=t.me/zerkalo_odinwin_bot — бот зеркал 1win (так же оценён mostbet-ru-casino.org в r4)."
+ },
+ {
+  "domain": "voucher-wager-bang3.top",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Сеть промо-сайтов Troyaff: все кнопки «ПОЛУЧИТЬ БОНУС/CLAIM BONUS» ведут на n37ztcmb.com/LVDU (трекер Mostbet, у других сайтов → ijwdpnmb.com pid); внешние ссылки в футере — простые ссылки на сайты той же сети (football-gain-naija3.top, bonusplayin1.top) и сайты помощи игрокам, чужих операторов и скрытых блоков нет."
+ },
+ {
+  "domain": "wwwmostbetph.com",
+  "given": "mono_xlink",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_xlink",
+  "confidence": 0.4,
+  "comment": "Все кнопки Login/Register — свой короткий путь /nzywmdb (получатель не установлен), в head подгружается js.oneonstack.com/jump.js (base64); внизу marquee с ссылками на bingopluslink.com «BingoPlus» и pinasroyalebet.com — оператор это или сателлит, по файлам не определить."
+ },
+ {
+  "domain": "1-luckyjet.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Сайт игры Lucky Jet под 1win (кнопки lkpq.cc → 1win p=mclm), Mostbet упомянут 3 раза, отдельной страницы про Mostbet нет."
+ },
+ {
+  "domain": "1-slots.net",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Блог о гэмблинге; в постах про Mostbet (/mostbet-pakistan-review/, /how-to-win-at-mostbet-czech/) только ссылки на дорвеи Mostbet (mostbet-pakistan.pk, mostbet.cz); ссылка на 1win.pk стоит в отдельном посте про 1Win."
+ },
+ {
+  "domain": "17asc2025.in",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.7,
+  "comment": "Aviator-мультибренд (шаблон «Where to Play: 4RABET, 1Win, Pin-up, 888Starz, Mostbet»): кнопки /go/<бренд> на несколько операторов, отдельной страницы про Mostbet нет — обычный мультибренд."
+ },
+ {
+  "domain": "1aviator.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.7,
+  "comment": "Aviator-сайт: кнопки /go/1win/ → 1wyde.com p=3tke и /go/mostbet/ → mloz82mb.com (Mostbet); страницы про Mostbet нет, есть только раздел регистрации — обычный мультибренд."
+ },
+ {
+  "domain": "1win-jet.online",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.7,
+  "comment": "Сайт Aviator: все кнопки «Log in» → onlinepuonline.com/9Nvmpc1u (трекер чужого казино), Mostbet упомянут 5 раз в общем тексте, страницы про Mostbet нет."
+ },
+ {
+  "domain": "1win-jetx-game.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "other_gambling",
+  "confidence": 0.65,
+  "comment": "Клон 1win (title «1Win JetX», 43 упоминания 1win, кнопка /1win.php); Mostbet только в одном h1-остатке шаблона «Online casino Mostbet…», в домене и title бренда нет."
+ },
+ {
+  "domain": "1winappghana.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "other_gambling",
+  "confidence": 0.75,
+  "comment": "Монобренд 1win (кнопки /go/ → r1wttde.life p=phq7), Mostbet упомянут 1 раз, страницы про Mostbet нет."
+ },
+ {
+  "domain": "7kcasino-az.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "other_gambling",
+  "confidence": 0.7,
+  "comment": "Монобренд 7K Casino (кнопки /go/go.php → lgamigust.com), Mostbet упомянут 1 раз, страницы про Mostbet нет."
+ },
+ {
+  "domain": "888gold-slot.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.7,
+  "comment": "Обзор слота 888 Gold со списком казино: link.888gold-slot.com/mostbet → ijwdpnmb.com pid=329414, рядом /1win и /1xbet; отдельной страницы про Mostbet нет."
+ },
+ {
+  "domain": "888mbet.org",
+  "given": "multibrand",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Title «Official Mostbet APK», а все кнопки (/go, /sign-up, /app) → mostbet-casino-now.com/nPSk9C → betwinner.rs/en/registration?btag=d_11428m_… и APK bw21tds.com — внутри Betwinner."
+ },
+ {
+  "domain": "88contactnumber.in",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.7,
+  "comment": "Aviator-мультибренд (шаблон «Where to Play: 4RABET, 1Win, Pin-up, 888Starz, Mostbet»): кнопки /go/<бренд> на несколько операторов, отдельной страницы про Mostbet нет — обычный мультибренд."
+ },
+ {
+  "domain": "92gloryd.com",
+  "given": "multibrand",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "multibrand",
+  "confidence": 0.4,
+  "comment": "Фальшивый каталог APK br585: на странице про Mostbet /mostbet-slot-machine-prime.html кнопка «Baixar APP» ведёт на свой путь /mostbet-slot-machine-prime/download (не открыт), а на главной «Start Playing» → hl.dmffg2.com → hlt.zp7dth.com/reg (чужое казино) — куда уходит кнопка Mostbet-страницы, по файлам не видно."
+ },
+ {
+  "domain": "aabrothers.in",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.7,
+  "comment": "Переезжает на anmolcomputersalesandservice.in: Aviator-мультибренд (шаблон «Where to Play: 4RABET, 1Win, Pin-up, 888Starz, Mostbet»): кнопки /go/<бренд> на несколько операторов, отдельной страницы про Mostbet нет — обычный мультибренд."
+ },
+ {
+  "domain": "aapkiapniparty.org",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.6,
+  "comment": "Сохранённых страниц нет; по ad_links тот же Aviator-шаблон, что aabrothers.in: /go/1win → 1win-global-pro.com и /go/mostbet → fvoidjmb.com pid=304732, страницы про Mostbet не найдено."
+ },
+ {
+  "domain": "abhigyanonline.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.7,
+  "comment": "Aviator-мультибренд (шаблон «Where to Play: 4RABET, 1Win, Pin-up, 888Starz, Mostbet»): кнопки /go/<бренд> на несколько операторов, отдельной страницы про Mostbet нет — обычный мультибренд."
+ },
+ {
+  "domain": "aboplaner.de",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.7,
+  "comment": "Взломанный WordPress geldangst.de («Hacked by CoupDeGrace») со ссылочными постами; в посте про Mostbet (/mostbet-casino-bonuslar-…) только ссылка на дорвей mehrnamrastegari.com, чужие бренды — в отдельных постах (Roobet, Melbet)."
+ },
+ {
+  "domain": "acredite.co",
+  "given": "multibrand",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mb_page_other",
+  "confidence": 0.8,
+  "comment": "На странице про Mostbet acredite.co/mostbet/ кнопка шапки «Registro» и «Jogar Penalty» → pcb.penaltygame.com.br/?1win=67vq947 (→ 1win p=m91q), плюс блок бонусов 888starz/22bet/Melbet с кодами партнёра."
+ },
+ {
+  "domain": "aeroklub-jihlava.cz",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.55,
+  "comment": "Чешский список зарубежных казино (Spinbetter, 20Bet), Mostbet упомянут 1 раз; страниц не сохранено, страницы про Mostbet в deep-scan нет."
+ },
+ {
+  "domain": "aestheticplace.cl",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.7,
+  "comment": "Переезжает на casasohiggins.cl — чилийский каталог казино (/go/1xbet, /go/gg-bet и др.), Mostbet упомянут 1 раз; найденная страница про Mostbet лежит на другом домене (mejores-casino-online-chile.com), у самого сайта её нет."
+ }
+]

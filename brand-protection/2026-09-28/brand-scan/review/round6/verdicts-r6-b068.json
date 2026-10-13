@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "betting-mostbet.org",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Mostbet-реклама через vgfiiimb.com/n37ztcmb.com (pid=457929); в футере видимые простые ссылки на игровые дорвеи luckyjet-com.com, jetx-crashgame.com и т. п., QR на Telegram-бот зеркал — ссылок на чужих операторов нет."
+ },
+ {
+  "domain": "bkk-gaming.limo",
+  "given": "mono_xlink",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mb_page_other",
+  "confidence": 0.6,
+  "comment": "Тайский игровой блог, в шапке каждой страницы, в т. ч. постов про Mostbet (/mostbet-2026-thluksiz-..., /mostbet-bonus-tipy-...), кнопки «เข้าสู่ระบบ/สมัครสมาชิก» на www.what999.mobi/#/register (чужое казино); в посте /pinup-v-mostbet-az-... ссылка «pin-up oyunu» на nspa1.org (Pin-Up)."
+ },
+ {
+  "domain": "bonus-mostbet.org",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Кнопки через pniurl.com/M4IHXaC ведут на nvjnacmb.com pid=457929, APK — pniurl.com/ZXaxt на cdn-mb.com; luckyjet-com.com и прочие игровые дорвеи — простые видимые ссылки в футере."
+ },
+ {
+  "domain": "bonusjackpotindia3.top",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Кнопки на трекер Mostbet n37ztcmb.com/LVDU (промокод Troyaff); блок «related» — видимые ссылки на соседние .top-сайты той же сети, операторов нет."
+ },
+ {
+  "domain": "code-casino-br3.top",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Кнопки на n37ztcmb.com/LVDU → lfpvspmb.com pid=404249; блок «Mais Recursos» — видимые ссылки на соседние .top-сайты сети (rank-bet-bengal4.top и др.)."
+ },
+ {
+  "domain": "code-core-ross2025.top",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Кнопки на трекер Mostbet n37ztcmb.com/LVDU; видимые простые ссылки на соседние .top-сайты сети, чужих операторов нет."
+ },
+ {
+  "domain": "coupon-luck-ng3.top",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Кнопки на трекер Mostbet n37ztcmb.com/LVDU; простая ссылка на footballcasinosteppe2.top (сайт той же сети)."
+ },
+ {
+  "domain": "discount-gain-bangladesh.top",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Кнопки на трекер Mostbet n37ztcmb.com/LVDU; простая ссылка на gameslotceylon4.top (сайт той же сети)."
+ },
+ {
+  "domain": "discount-pot-ng.top",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Кнопки на трекер Mostbet n37ztcmb.com/LVDU; простая ссылка на playmarketrunet2.top (сайт той же сети)."
+ },
+ {
+  "domain": "dronesdecarreras.com",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.7,
+  "comment": "Кнопка /go/ → rlkpwpmb.com pid=9278 (Mostbet); видимый блок ссылок внизу с анкорами casibom/pinco/pin up на сторонние сайты (finut2020.com — каталог казино, russiaeu.ru и др.), прямых ссылок на операторов и кодов нет."
+ },
+ {
+  "domain": "entergainabuja2.top",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Кнопки на трекер Mostbet n37ztcmb.com/LVDU; простая ссылка на bonus-win-kaz1.top (сайт той же сети)."
+ },
+ {
+  "domain": "enterwagerceylon1.top",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Кнопки на трекер Mostbet n37ztcmb.com/LVDU; простые ссылки на соседние .top-сайты сети."
+ },
+ {
+  "domain": "guinebissaurepublic.com",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.7,
+  "comment": "Кнопки на iskocorvdj1npo9mst.com/ByFs (хост вида …mst.com — трекер Mostbet); видимый блок ссылок-анкоров casibom/pinco/pin up на сторонние сайты без кодов."
+ },
+ {
+  "domain": "howto-safe-ru3.top",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Кнопки на трекер Mostbet n37ztcmb.com/LVDU; простая ссылка на offer-bet-rf.top (сайт той же сети)."
+ },
+ {
+  "domain": "kirov-rfei.ru",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.7,
+  "comment": "Переезжает на mgmteh.ru: кнопки 55ifc7l6dfa8odwmst.com/oGbs → wciwsqmb.com pid=9278 (Mostbet); видимый блок анкоров casibom/pinco/pin up на сторонние сайты без кодов."
+ },
+ {
+  "domain": "kultegin.kz",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.75,
+  "comment": "Кнопки на nwyt3ti7mb.com/lj3S (трекер Mostbet); ссылки и hreflang на сайты той же Mostbet-сети (mgmteh.ru, kasyno-mostbet.pl, wcflcr2017.com)."
+ },
+ {
+  "domain": "live-pot-ceylon.top",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Кнопки на трекер Mostbet n37ztcmb.com/LVDU; простые ссылки на соседние .top-сайты сети."
+ },
+ {
+  "domain": "mastermicrofinance.com",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.75,
+  "comment": "Кнопки через eg.mostbet-egyptian.com/ycP7KX4 → uksyxemb.com pid=37776; ссылки на демо игр провайдеров (demo.spribe.io, demogamesfree.pragmaticplay.net) — не операторы."
+ },
+ {
+  "domain": "memberpotbrazil4.top",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Кнопки на трекер Mostbet n37ztcmb.com/LVDU; простая ссылка на bonusplayin1.top (сайт той же сети)."
+ },
+ {
+  "domain": "mgmteh.ru",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.7,
+  "comment": "Кнопки 55ifc7l6dfa8odwmst.com/oGbs → wciwsqmb.com pid=9278; видимый блок анкоров casibom/pinco/sultan casino на сторонние сайты (finut2020.com и др.) без кодов."
+ },
+ {
+  "domain": "mostbet-1pakistan.com",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Кнопки pk.mostbet-1pakistan.com/KLSwhaQ → msergomb.com pid=37776; «простая» ссылка — только gamblock.com (блокировщик), ссылок на чужие сайты ставок нет."
+ },
+ {
+  "domain": "mostbet-asia.net",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "/Promo → uksyxemb.com pid=232749; в тексте простые ссылки на обзорник bdbet.net/oddsroute.net (страница про Mostbet)."
+ },
+ {
+  "domain": "mostbet-aze-45.com",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.75,
+  "comment": "/go/mostbetaz.php → eefagemb.com pid=197333; кроме неё только web-arhive.ru — не гэмблинг-сайт."
+ },
+ {
+  "domain": "mostbet-bd.us.com",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Кнопки win.mostbet-bd.us.com/QnMPVKb → durtddmb.com pid=37776; простые ссылки на обзорники pokerlistings.com и livecasinocomparer.com."
+ },
+ {
+  "domain": "mostbet-bengali.com",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Кнопки klnumymb.com/gt2U → kmjwdimb.com pid=141153; простые ссылки на обзоры слота Sweet Bonanza (slotstemple.com, betwright.com/casino/..., gmblrs.com) без кодов."
+ },
+ {
+  "domain": "mostbet-brsl.com",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Кнопки klnumymb.com/gt2U → pid=141153; ссылки на mostbet.partners, другие mostbet-* сайты и госсайты, чужих операторов нет."
+ },
+ {
+  "domain": "mostbet-ca-club.com",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Кнопки klnumymb.com/gt2U → pid=141153; ссылки на университетские/госсайты и mostbetappca.com (Mostbet-дорвей)."
+ },
+ {
+  "domain": "mostbet-casino-com.kz",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.7,
+  "comment": "Переезжает на mgmteh.ru: кнопки 55ifc7l6dfa8odwmst.com/oGbs → pid=9278; видимый блок анкоров casibom/pinco на сторонние сайты без кодов."
+ },
+ {
+  "domain": "mostbet-casino-hu.com",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.65,
+  "comment": "/go/ → clickino.top → uksyxemb.com pid=147099; в тексте простая ссылка «cash win» на cashwin-hu.com — похоже на обзорник/дорвей Cashwin, не на сайт оператора, кода нет."
+ },
+ {
+  "domain": "mostbet-casinos.com.de",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.5,
+  "comment": "Все кнопки ведут на внутренний шлюз /new/, куда он уводит — в данных нет; внешние ссылки только на регуляторов (gluecksspiel-behoerde.de, bmf.gv.at)."
+ },
+ {
+  "domain": "mostbet-cl-mosbet.com",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.5,
+  "comment": "Кнопки «Registrarse/Iniciar sesión» ведут на внутренний шлюз /gogo/, получатель не установлен; внешние ссылки только guidebook.mostbet.com и scj.cl."
+ },
+ {
+  "domain": "mostbet-egyptian.com",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.75,
+  "comment": "Кнопки eg.mostbet-egyptian.com/ycP7KX4 → uksyxemb.com pid=37776; ссылки на демо игр провайдеров (spribe, pragmaticplay) — не операторы."
+ },
+ {
+  "domain": "mostbet-fun.pl",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.75,
+  "comment": "Кнопки «Graj teraz/Odbierz bonus» на cyprustennissociety.com/?I=… дошли до трекера Mostbet vs66cd75semb.com/CaaU; иначе только gamblock.com и hazardinfo.pl."
+ },
+ {
+  "domain": "mostbet-hu.jp.net",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "/go/go.php → sxmxffuzmb.com pid=2784; «простая» ссылка — только gamblock.com."
+ },
+ {
+  "domain": "mostbet-khelo.net",
+  "given": "mono_xlink",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Скрипт /data.js на всех страницах рисует липкую панель Login/Register на https://153.43.124.123:5002/?qd=o0og — это «HH98 Game Slot Machine Casino»; рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbet-mosbet-uz-kirish.com",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.75,
+  "comment": "/recommends/mostbet/ → qrncfumb.com pid=263382; простые ссылки на другие mostbet-mosbet-* сайты и печать onlinecasinoreports.com."
+ },
+ {
+  "domain": "mostbet-mosbet-uz1.com",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.75,
+  "comment": "/recommends/mostbet/ → qrncfumb.com pid=263382; простые ссылки на другие mostbet-mosbet-* сайты и onlinecasinoreports.com."
+ },
+ {
+  "domain": "mostbet-online-cz.cz",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "/go/registrace → fvoidjmb.com pid=303430; «простая» ссылка — только gamblock.com."
+ },
+ {
+  "domain": "mostbet-ru-casino.games",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.7,
+  "comment": "Кнопки pniurl.com/M4IHXaC → nvjnacmb.com pid=457929; в меню/футере простые ссылки на игровые дорвеи (luckyjet-com.com и др.); QR «Играть в Telegram» на t.me/zerkalo_odinwin_bot — имя бота про 1win, но кода и получателя нет."
+ },
+ {
+  "domain": "mostbet-ru-casino.org",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.7,
+  "comment": "Кнопки pniurl.com/M4IHXaC → pid=457929; игровые дорвеи в футере, QR на t.me/zerkalo_odinwin_bot без кода."
+ },
+ {
+  "domain": "mostbet-ru.net",
+  "given": "mono_xlink",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (littlelnk.com → ijwdpnmb.com pid=35794), но в тексте видимая прямая ссылка «делать ставки live» на оператора https://1xstavka.ru/live/ (1xСтавка)."
+ },
+ {
+  "domain": "mostbet-ru.org",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.7,
+  "comment": "Кнопки pniurl.com/M4IHXaC → pid=457929; в меню «Game list» простые ссылки на игровые дорвеи (eldarion.cloud, wekfest.net, luckyjet-com.com)."
+ },
+ {
+  "domain": "mostbet-rus-bonus.com",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.7,
+  "comment": "Кнопки pniurl.com/M4IHXaC → pid=457929; простые ссылки на игровые дорвеи, операторов нет."
+ },
+ {
+  "domain": "mostbet-tko.pl",
+  "given": "mono_xlink",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mb_page_other",
+  "confidence": 0.85,
+  "comment": "Домен переезжает на pl.topkasynoonline.com/review/mostbet/ — обзор Mostbet, где в таблице сравнения кнопки «Zagraj teraz» на /vavada-go/, /rokubet-go/, /betlabel-go/, /fieryplay-go/ (чужие казино)."
+ },
+ {
+  "domain": "mostbet-vip.net",
+  "given": "mono_xlink",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Скрипт /data.js рисует липкую панель Login/Register на https://153.43.124.123:5002/?qd=o0og («HH98 Game Slot Machine Casino»); рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbet-zone2417.top",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "links-go9.top/mostbet_cr → nvjnacmb.com pid=297832; кроме неё только 1cupis.ru (платёжный ЦУПИС), не реклама."
+ },
+ {
+  "domain": "mostbet.com.pt",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "/visit/mostbet/ → xdcgormb.com pid=398653; «простая» ссылка — только gamblock.com."
+ },
+ {
+  "domain": "mostbet.rodeo",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "/visit/mostbet/ → qrncfumb.com pid=280212; в тексте простая ссылка «slot games» на обзорник slots.rodeo."
+ },
+ {
+  "domain": "mostbet1-bd.com",
+  "given": "mono_xlink",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Переезжает на mostbet-bd.us.com: кнопки → durtddmb.com pid=37776; простые ссылки на pokerlistings.com, livecasinocomparer.com."
+ },
+ {
+  "domain": "mostbet3.click",
+  "given": "mono_xlink",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Скрипт /data.js рисует липкую панель вход/регистрация на https://cv55i.com (CV55 — мьянманское онлайн-казино, у других mostbet-доменов то же); рекламы Mostbet нет."
+ }
+]

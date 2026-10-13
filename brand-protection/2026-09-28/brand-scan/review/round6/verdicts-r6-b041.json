@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbet-p7ss.xyz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-pantagestheatre.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Кнопки «Вход»/«Регистрация» → /visit/ → 302 на pg5i0mmb.com/2Cgs?sub1=pc-kz2 (хост …mb.com, трекер Mostbet); чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-partner-affiliate.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.9,
+  "comment": "«Join now!» → /recommends/go/ → affiliate.mostpartner.com/en?referrer=263382 — партнёрка Mostbet; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-partner.org",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.9,
+  "comment": "Кнопки → /go → mbp-aff.com/en?referrer=457929 — партнёрка Mostbet; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-partners.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Ссылки только на mostbet-agent.com и телеграм поддержки banzaisupport; чужих операторов и трекеров нет."
+ },
+ {
+  "domain": "mostbet-pat7.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-pbk43.cfd",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-pbo42.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-pbs92.cfd",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-pbx89.cfd",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-pci48.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-pcp93.buzz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-pcr32.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-pcu.lol",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-pdp4.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-pe.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Меню и футер ссылаются на dhwqw.com (/lucky-jet/, /bonus-125/) — сестринский домен того же Mostbet-шаблона (ссылаются и mostbet-ap.ru, mostbet-23.ru), трекер 33echelon мёртв; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-pe.pe",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Копия сайта с canonical/hreflang на bolsainmobiliaria.pe; внешние ссылки — только на Mostbet-сайты (mostbets.com.pl, mostbet.in.net, mostbets.br.com); чужих операторов нет."
+ },
+ {
+  "domain": "mostbet-pe.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Копия mostbet-pe.online: ссылки на dhwqw.com (/qeydiyyat/, /deposit/) — сестринский домен того же Mostbet-шаблона, трекер 3.33echelon.com/GMqHi отдаёт 404; чужой рекламы нет."
+ },
+ {
+  "domain": "mostbet-peru-mosbet.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Переезд на mostbet-mosbet.com/es/mostbet-pe/, кнопки /recommends/mostbet-registration/ → weg96sbmb.com/vmhs (трекер Mostbet …mb.com); чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-pfj95.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-pga84.buzz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-pgi88ei.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "«Linebet» — только имя автора отзыва DimaLineBet, не ссылка; кнопки сети → reg.html → occlusometer-82.xyz, чужой рекламы нет."
+ },
+ {
+  "domain": "mostbet-phe81.buzz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-php13.sbs",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-piy77.cfd",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-pjs72.buzz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-pjt.xyz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-pjv72ut.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-pkd81.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-pkn93.cfd",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-pku32.sbs",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-play-casino.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-azn-casino.com; внешних ссылок на чужих операторов и трекеров в сохранённых страницах нет."
+ },
+ {
+  "domain": "mostbet-play.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки «Giriş»/«Qeydiyyat» ведут на свой /go/, получатель не открылся; внешних ссылок на чужих нет."
+ },
+ {
+  "domain": "mostbet-plk48.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-plw.store",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-pmj45.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-pnj97.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Сеть mostbet-xxxNN: кнопки на reg.html → occlusometer-82.xyz; единственная внешняя — битая ссылка chatgpt.com/…/reg.html (ошибка вёрстки), чужой рекламы нет."
+ },
+ {
+  "domain": "mostbet-pns72.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-pol.pl",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbetaplikacja.com.pl, кнопки → свой /go/ и mostbet.com; внешние ссылки — только LinkedIn автора и uzaleznieniabehawioralne.pl (помощь при зависимости)."
+ },
+ {
+  "domain": "mostbet-por39.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-portugal-pt.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Переезд на mostbet-mosbet.com/pt/mostbet-pt/, кнопки /recommends/mostbet-registration/ → weg96sbmb.com/vmhs (трекер Mostbet …mb.com); чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-ppi39.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-pqp43.buzz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-pr0gdrk.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-prb99.buzz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-prf.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-promocode.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Все ссылки внутренние (статьи и теги про Mostbet), внешних кнопок и трекеров нет — без рекламы чужих."
+ },
+ {
+  "domain": "mostbet-psf28gl.cfd",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-psp1.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Зеркальная сеть mostbet-xxxNN: внешних ссылок на чужих нет, кнопки ведут на свой reg.html → трекер occlusometer-82.xyz/ryQCCs (у всей сети получатель не открылся), плюс mostbet.partners; скрытых блоков и чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-pt.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Внешние ссылки — pt.mostbet.bet, mostbet.com, DMCA и ссылка автора комментария vorbelutrioperbir.com; «MelBet» — одно слово в тексте статьи, без ссылки."
+ }
+]

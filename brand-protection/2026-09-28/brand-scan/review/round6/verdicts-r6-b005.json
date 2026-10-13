@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "thenmbc.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Взломанный сайт церкви с лентой постов про Mostbet; в постах только ссылки с анкором Mostbet на bykatie.pl и adminkirov.ru, чужих брендов нет; snapchat — соцсеть церкви."
+ },
+ {
+  "domain": "tonutri.com.br",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Блог сайта общепита со статьями про Mostbet; в статьях ссылки с анкорами «mostbet az» на bfmaster.com, mostbet-giris-az.org, kpmfranklin.net — всё Mostbet-тематика, чужой рекламы нет."
+ },
+ {
+  "domain": "twinpinescc.org",
+  "given": "article",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.6,
+  "comment": "Взломанный сайт церкви: спам-посты про Slottica/Arkada/Mostbet и скрытый блок в футере (max-height:3px) со ссылками на panen4d, idn poker; монобрендом не является, посты с текстом Mostbet ссылаются только на bestmosbet-uz.com и mostbet-uz-bet.com."
+ },
+ {
+  "domain": "ty-le-keo.futbol",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.8,
+  "comment": "Лента статей; страницы про Mostbet ссылаются на parent2parentnj.org, danielastudio.cz, cisystaropolskie.pl с анкорами Mostbet; скрытая ссылка ведёт на link-factory.test (заглушка), чужих брендов на страницах Mostbet нет."
+ },
+ {
+  "domain": "uaemmaf.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Сайт федерации MMA со взломанными постами про Mostbet; в постах ссылки «mostbet casino» на brnostavi.cz/bonusy/ и «Mostbet online» на johannesbuggle.com, чужой рекламы нет."
+ },
+ {
+  "domain": "uracademic.com",
+  "given": "article",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mb_page_other",
+  "confidence": 0.6,
+  "comment": "Страница /bukmekerskaja-kontora-mostbet-.../ в сайдбаре (виджет block-3, без скрытия) ссылается на слот-операторов garudaresmi36.com «Link Gacor», hatori77resmi.com «Slot Garansi», merpatibiru36.com и heylink.me/garuda36 — прямые ссылки на чужие казино на странице про Mostbet."
+ },
+ {
+  "domain": "vanphongport.net",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Взломанный сайт порта с постами; пост про Mostbet ссылается только на brnostavi.cz/sportovni-sazky/ с анкором «mostbet sportovni sazky»; Pin Up и non-AAMS — отдельные посты, не страницы про Mostbet."
+ },
+ {
+  "domain": "vecteurenergie.fr",
+  "given": "article",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.75,
+  "comment": "Сайт установщика тепловых насосов; в h1 вставлены невидимые ссылки (color #ffffff00, 1pt) на mostbet-giris-azn.com, 1win-freespin.com, snai-italy.com — смешанная SEO-инъекция, страницы про Mostbet нет."
+ },
+ {
+  "domain": "viralp0st.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.8,
+  "comment": "Лента постов; пост про Mostbet ссылается только на mostbetbahisturkey.com; ссылка на pin-up-com.ru стоит в отдельном посте про Pin-Up, а не на странице Mostbet."
+ },
+ {
+  "domain": "virtualgoodsfair.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.7,
+  "comment": "Взломанный магазин PLR с индонезийским тогелем; на главной блок ссылок вперемешку на Mostbet-, 1win- и Pin-Up-дорвеи (az-most-bet.com, 1-win-oyunu.com, pinup-onlayn.com) — не монобренд и не страница про Mostbet."
+ },
+ {
+  "domain": "widetagsolutions.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Лента постов; страницы про Mostbet ссылаются только на Mostbet-сайты (most-betturkey.com, mostbetsportuz.com, mostbetuztop.com, mostbetz.in); 1xbet-пост ссылается на festivalconecta2.com."
+ },
+ {
+  "domain": "wigsreview.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Блог про парики с постами; пост про Mostbet ссылается на adminkirov.ru с анкором «мостбет зеркало»; utlandska-bettingsidor.com — в отдельном посте про шведские букмекеры."
+ },
+ {
+  "domain": "wirenews.co",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Новостной сайт, 28 постов про Mostbet; в них ссылки с анкорами Mostbet на adminkirov.ru, danielastudio.cz, eliktipark.kz, uwhen.org; 1xBet-ссылки только в отдельном посте про 1хБет."
+ },
+ {
+  "domain": "wsquared.co.za",
+  "given": "article",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.75,
+  "comment": "Сайт инженерной фирмы со вставленным блоком ссылок на казино (bdmbet-vip.com, funbet-casinoonline.nl, slottioofficial-gr.com); Mostbet упомянут 1 раз, страницы про Mostbet нет."
+ },
+ {
+  "domain": "zyratimes.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.8,
+  "comment": "Статейник; страница mostbet-azerbaycan содержит скрытую ссылку на gymsozluk.com (анкор «mostbet azerbaycan»), страница про mosbet.biz — ссылку на mosbet.biz (у других доменов ведёт на Mostbet pid=197333); melbet-az.com только на отдельной странице про Melbet."
+ },
+ {
+  "domain": "advaict.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet CZ; кнопки ведут на /go/, который отдаёт 301 на главную; внешние ссылки только на mostbeet.cz (его /go/ ведёт на Mostbet pid=147099) и на сайты ответственной игры."
+ },
+ {
+  "domain": "akmola-madeniet.kz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.75,
+  "comment": "Монобренд Mostbet; внешних ссылок нет, кнопки ведут на внутренний /most/, браузер получателя не нашёл."
+ },
+ {
+  "domain": "aktualnoe-zerkalo-mostbet.ru",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.75,
+  "comment": "Обычным клиентам 403, Google-mobile видит монобренд Mostbet; кнопки — <button data-goal> на JS-трекер, ссылки на most-bet.berst59.ru и municipal-sd.ru (Mostbet-сайты), чужих брендов нет."
+ },
+ {
+  "domain": "alex-hepburn.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.7,
+  "comment": "Монобренд Mostbet CZ; кнопки data-goal уходят на трекер content-dropped.buzz/click?key=fc4b86…, получатель не установлен; шаблон той же сети, что traff-link-sky/perfstream (ведут на Mostbet pid=5870); ссылки на mostbet-cz-cz.dietavkrabicce.cz."
+ },
+ {
+  "domain": "almostbeta.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "unrelated",
+  "confidence": 0.9,
+  "comment": "«almostbeta» — английское «almost beta», личный блог-заглушка WordPress «I need to stop procrastinating»; бренд Mostbet в домене случайное совпадение, ставок нет."
+ },
+ {
+  "domain": "alohadesign.eu",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet HU; кнопки — JS-калькуляторы (calcBonus, spinWheel), внешние ссылки только на gamcare, gamblersanonymous, gamblingtherapy."
+ },
+ {
+  "domain": "altonroomescape.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.7,
+  "comment": "Обычным клиентам 403; Google-mobile видит монобренд Mostbet UZ, внешняя ссылка только на mostbet.com, кнопка /play не разрешена."
+ },
+ {
+  "domain": "alwe7daclub.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet TR (180 упоминаний); внешних ссылок кроме creativethemes.com нет, кнопок с переходом нет."
+ },
+ {
+  "domain": "ampz9.top",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Google-mobile версия: кнопки через traff-link-sky.net/click?key=b41f7e…, тот же ключ у soh-amp.top и arsam.kz ведёт на Mostbet pid=5870; чужих брендов нет."
+ },
+ {
+  "domain": "apk-mostbet-kz.com",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.6,
+  "comment": "Домен с Mostbet, на главной листинг «Index of /» с файлами чужого слот-бренда: faveicon-garuda88.png, GARUDA88-logo.gif, Garuda88.png, garuda88liar.png и папка /amp/ — домен используется под Garuda88."
+ },
+ {
+  "domain": "apk-mostbet.kz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Обычным клиентам 403 /restricted-access/; Google-mobile версия — короткая страница Mostbet APK без внешних ссылок."
+ },
+ {
+  "domain": "arnica-janacek.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.7,
+  "comment": "Копия alex-hepburn.com: монобренд Mostbet CZ, кнопки data-goal уходят на трекер content-dropped.buzz/click?key=fc4b86…, получатель не установлен; ссылки на mostbet-cz-cz.dietavkrabicce.cz."
+ },
+ {
+  "domain": "art-t.kz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.75,
+  "comment": "Монобренд Mostbet KZ, шаблон akmola-madeniet.kz; внешних ссылок нет, кнопки на внутренний /most/."
+ },
+ {
+  "domain": "asrr.cz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet CZ; кнопки — JS-квиз и калькулятор, внешние ссылки только на сайты ответственной игры."
+ },
+ {
+  "domain": "asyacard.com.tr",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Переезжает на esrefatabey.com.tr (Mostbet TR, обычным клиентам Cloudflare-блок); кнопки onclick ведут на /go/BAIVcQ… на том же домене, получатель не установлен; чужих брендов нет."
+ },
+ {
+  "domain": "ataxicabcompanyllc.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.7,
+  "comment": "Монобренд Mostbet AZ из 1 400 знаков; внешних ссылок нет, единственная кнопка — внутренний /gogo/."
+ },
+ {
+  "domain": "autobodyshopnearby.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "article",
+  "confidence": 0.75,
+  "comment": "Взломанный каталог автосервисов с лентой постов (Mostbet APK, Vox Casino); бренда нет ни в домене, ни в title; vox-casino2026.pl стоит в отдельном посте про Vox, не на странице Mostbet."
+ },
+ {
+  "domain": "aviator-mostbet-tr.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.7,
+  "comment": "Обычным клиентам 403; Google-mobile видит монобренд Mostbet TR с кнопками data-goal на JS-трекер; ссылки на play-tr-031.online (его кнопки ведут на Mostbet pid=5870) и mwokajicakery.com."
+ },
+ {
+  "domain": "avtolineshop.ru",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.7,
+  "comment": "Обычным клиентам 403; Google-mobile видит монобренд Mostbet, кнопки data-goal на JS-трекер, ссылки на ecolinedecking.kz (трекер ведёт на Mostbet pid=5870) и retrolevel.top в amphtml."
+ },
+ {
+  "domain": "awtsport.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Монобренд Mostbet Egypt; кнопки data-sf-a ведут на reg.mostbet-egypt-2025.com/7ancUsT (трекер на Mostbet-домене, не открыт); чужих брендов нет."
+ },
+ {
+  "domain": "az-mostbet-casino-play.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.75,
+  "comment": "Обычным клиентам 403; Google-mobile — монобренд Mostbet AZ, ссылки на most-az-amper.com и mehrnamrastegari.com (их скрипт ведёт на mostbet-az-giris26.com)."
+ },
+ {
+  "domain": "azemostbet.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Обычным клиентам 403 /restricted-access/; Google-mobile — монобренд Mostbet AZ без внешних ссылок."
+ },
+ {
+  "domain": "azer-mostbet.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Обычным клиентам 403; Google-mobile — монобренд Mostbet AZ, внешних ссылок нет."
+ },
+ {
+  "domain": "azplaystore.club",
+  "given": "mono_no_ads",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.4,
+  "comment": "Клоачный PWA: http-версия «Mostbet AZ», браузер и Google-mobile видят белую страницу «SpinSphere»; кнопка «назад» (data-prevbutton) ведёт на Keitaro-трекер onebuy.pro/9b7BCJ?sub…, который отдаёт пустую страницу — чей оффер, не установить."
+ },
+ {
+  "domain": "bangladesh-mostbet-login.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.7,
+  "comment": "Обычным клиентам 403; Google-mobile — монобренд Mostbet BD, кнопки data-goal на JS-трекер, ссылка на theurbangardeninitiative.org; чужих брендов нет."
+ },
+ {
+  "domain": "baristx.com",
+  "given": "mono_no_ads",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.4,
+  "comment": "Обычным клиентам 403; Google-mobile — Mostbet UZ, но собран из шаблона 1win: в мобильном попапе видимая кнопка «Join Telegram» на t.me/onewinindiabet (канал 1win), в скрытой schema логотип 1win и 1winz.in; кнопка «Download App» на /site/ не разрешена."
+ },
+ {
+  "domain": "basaveshwaracollege.org.in",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet India на домене колледжа; кнопки без внешних переходов, ссылки только на begambleaware и gamcare."
+ },
+ {
+  "domain": "bd-mostbetonline.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.7,
+  "comment": "Копия bangladesh-mostbet-login.com: обычным 403, Google-mobile — Mostbet BD, ссылка на theurbangardeninitiative.org, чужих брендов нет."
+ },
+ {
+  "domain": "belladonna-kolin.cz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Браузер получил 521, Google-mobile — монобренд Mostbet CZ; кнопки data-sf-a на win.mostbet-cezko.com/VN7UmhA (трекер на Mostbet-домене, не открыт); ссылки на mostbetceska.com."
+ },
+ {
+  "domain": "biskot.com.tr",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Обычным клиентам 403 /restricted-access/; Google-mobile — короткая страница Mostbet TR без ссылок."
+ },
+ {
+  "domain": "bombaybazarmadison.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.7,
+  "comment": "Шаблон ataxicabcompanyllc.com: Mostbet AZ из 1 400 знаков, единственная кнопка — внутренний /gogo/."
+ },
+ {
+  "domain": "br-mostbet.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Обычным клиентам Cloudflare-блок; Google-mobile — короткая страница Mostbet BR без внешних ссылок."
+ },
+ {
+  "domain": "casadafrica.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.7,
+  "comment": "Шаблон ataxicabcompanyllc.com: Mostbet AZ, единственная кнопка — внутренний /gogo/, внешних ссылок нет."
+ },
+ {
+  "domain": "casinomostbet-pk.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Обычным клиентам 403; Google-mobile — монобренд Mostbet PK, кнопки на внутренние /sign-up, /download (не разрешены), внешних ссылок нет."
+ },
+ {
+  "domain": "casinomostbet.com.de",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet DE; кнопки на /go/, который остаётся на сайте (200), внешние ссылки только gpwa.org, dmca, trustpilot."
+ }
+]

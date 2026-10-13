@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbet-uz-kirish.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet UZ (WordPress): кнопки ведут на свои страницы, единственная внешняя ссылка в тексте — mostbetuz.app «Mostbet UZ app» (не открывается); чужих брендов, трекеров и скрытых чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-uz.eu.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Кнопка /goto/ из Google-mobile привела на k4z33pmb.com/2VaF?sub1=uz3-mob — хост вида …mb.com, рефка Mostbet; ciyowomensretreat.com — только canonical/hreflang, не реклама; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-uz90.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Кнопки /go/m90.php ведут на ibheo05.com/lJTS (не открывается ни у одного сайта, тот же трекер у mostbet-uz-site.com); внешняя ссылка только на mostbet-uz-site.com; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-uzb.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Кнопки — свой /goto/ (получатель не установлен), внешняя ссылка только на mostbet-uz-24.com (монобренд Mostbet); чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-uzb.net",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Кнопки /link/casino, /link/bookmaker, /link/app — свой шлюз, получатель не установлен; внешние ссылки только dmca.com и trustpilot; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-uzb.xyz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Кнопка data-href (base64) → mostbet-uzb.org/link — не открылась; прочие ссылки внутренние и кнопки «поделиться»; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-uzbeke.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Кнопки — свой /goto/ и /site/ (получатель не установлен), внешняя ссылка только на mostbet-uz-24.com; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-uzbekistan-casino.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Кнопка /go/cta ведёт на mloz82mb.com/mbjU — хост вида …mb.com, трекер Mostbet; внешних ссылок на чужих нет."
+ },
+ {
+  "domain": "mostbet-uzbekistan-ckachat.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Кнопка /go/cta ведёт на mloz82mb.com/mbjU — хост вида …mb.com, трекер Mostbet; внешних ссылок на чужих нет."
+ },
+ {
+  "domain": "mostbet-uzbekistan-online.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Кнопка /go/cta ведёт на mloz82mb.com/mbjU — хост вида …mb.com, трекер Mostbet; внешних ссылок на чужих нет."
+ },
+ {
+  "domain": "mostbet-uzbekiston.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Кнопки — свой /goto/ (получатель не установлен), внешняя ссылка только на mostbet-uz-24.com; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-uzbet.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Кнопка /go/cta ведёт на mloz82mb.com/mbjU — хост вида …mb.com, трекер Mostbet; внешних ссылок на чужих нет."
+ },
+ {
+  "domain": "mostbet-uzc42.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки reg.html (https://mostbet-her55.cfd/reg.html) ведут на occlusometer-82.xyz/ryQCCs?sub_id_2=5939 — пустая страница, получатель не установлен; внешнее — только mostbet.partners без кода; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-uzkirish.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки — свой /goto (about:blank), APK app-mostbet-release.apk со своего домена; внешних ссылок нет вовсе."
+ },
+ {
+  "domain": "mostbet-v3li.xyz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки reg.html (https://mostbet-tkz81.sbs/reg.html) ведут на occlusometer-82.xyz/ryQCCs?sub_id_2=8473 — пустая страница, получатель не установлен; внешнее — только mostbet.partners без кода; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-v605.xyz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки reg.html (https://mostbet-cyn64.sbs/reg.html) ведут на occlusometer-82.xyz/ryQCCs?sub_id_2=10733 — пустая страница, получатель не установлен; внешнее — только mostbet.partners без кода; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-vb.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Mostbet AZ: кнопки data-split → 3.33echelon.com/GMqHi (Shlink «Invalid Short URL»), ссылки на dhwqw.com не открываются у всей сети; скрытые ссылки ведут на свои разделы, чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-vb.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Mostbet AZ: кнопки data-split → 3.33echelon.com/GMqHi (Shlink «Invalid Short URL»), ссылки на dhwqw.com не открываются у всей сети; скрытые ссылки ведут на свои разделы, чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-vba.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки reg.html (https://mostbet-vba.top/reg.html) ведут на occlusometer-82.xyz/ryQCCs?sub_id_2=418 — пустая страница, получатель не установлен; внешнее — только mostbet.partners без кода; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-vbc79.cfd",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки reg.html (https://mostbet-dkl52.top/reg.html) ведут на occlusometer-82.xyz/ryQCCs?sub_id_2=7651 — пустая страница, получатель не установлен; внешнее — только mostbet.partners без кода; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-vbd81.buzz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки reg.html (https://mostbet-qls86.cam/reg.html) ведут на occlusometer-82.xyz/ryQCCs?sub_id_2=415 — пустая страница, получатель не установлен; внешнее — только mostbet.partners без кода; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-vbu41.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки reg.html (https://mostbet-tin68.cfd/reg.html) ведут на occlusometer-82.xyz/ryQCCs?sub_id_2=282 — пустая страница, получатель не установлен; внешнее — только mostbet.partners без кода; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-vcbt.xyz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки reg.html (https://mostbet-ksx13.buzz/reg.html) ведут на occlusometer-82.xyz/ryQCCs?sub_id_2=7921 — пустая страница, получатель не установлен; внешнее — только mostbet.partners без кода; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-vcs81.buzz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки reg.html (https://mostbet-evn78.cam/reg.html) ведут на occlusometer-82.xyz/ryQCCs?sub_id_2=7900 — пустая страница, получатель не установлен; внешнее — только mostbet.partners без кода; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-vel0.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки reg.html (https://mostbet-heh57.cam/reg.html) ведут на occlusometer-82.xyz/ryQCCs?sub_id_2=421 — пустая страница, получатель не установлен; внешнее — только mostbet.partners без кода; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-vg.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Mostbet AZ: кнопки data-split → 3.33echelon.com/GMqHi (Shlink «Invalid Short URL»), ссылки на dhwqw.com не открываются у всей сети; скрытые ссылки ведут на свои разделы, чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-vg.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "Mostbet AZ: кнопки data-split → 3.33echelon.com/GMqHi (Shlink «Invalid Short URL»), ссылки на dhwqw.com не открываются у всей сети; скрытые ссылки ведут на свои разделы, чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-vgo24.buzz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "HTML не сохранён; по скану mostbet-tter1.top кнопка https://mostbet-vgo24.buzz/reg.html ведёт на https://occlusometer-82.xyz/ryQCCs?sub_id_2=33111 (пусто), внешнее — mostbet.partners; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-vgz96.buzz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки reg.html (https://mostbet-vgz96.buzz/reg.html) ведут на occlusometer-82.xyz/ryQCCs?sub_id_2=7857 — пустая страница, получатель не установлен; внешнее — только mostbet.partners без кода; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-vhi67.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки reg.html (https://mostbet-vhi67.cam/reg.html) ведут на occlusometer-82.xyz/ryQCCs?sub_id_2=7922 — пустая страница, получатель не установлен; внешнее — только mostbet.partners без кода; чужих ссылок нет. Текст «www.moctbet.com» — анкор той же reg.html."
+ },
+ {
+  "domain": "mostbet-vhod.casino",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки /reg и /mirror — свой шлюз, получатель не установлен; внешние — только счётчик liveinternet; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-vhod.pro",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки reg.html (https://mostbet-vhod.pro/reg.html) ведут на occlusometer-82.xyz/ryQCCs?sub_id_2=10769 — пустая страница, получатель не установлен; внешнее — только mostbet.partners без кода; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-vjd67.sbs",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки reg.html (https://mostbet-vjd67.sbs/reg.html) ведут на occlusometer-82.xyz/ryQCCs?sub_id_2=8249 — пустая страница, получатель не установлен; внешнее — только mostbet.partners без кода; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-vji65.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки reg.html (https://mostbet-kty69.cam/reg.html) ведут на occlusometer-82.xyz/ryQCCs?sub_id_2=9824 — пустая страница, получатель не установлен; внешнее — только mostbet.partners без кода; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-vjw77.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки reg.html (https://mostbet-nwx37.cfd/reg.html) ведут на occlusometer-82.xyz/ryQCCs?sub_id_2=877 — пустая страница, получатель не установлен; внешнее — только mostbet.partners без кода; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-vkd56.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки reg.html (https://mostbet-vkd56.cam/reg.html) ведут на occlusometer-82.xyz/ryQCCs?sub_id_2=8445 — пустая страница, получатель не установлен; внешнее — только mostbet.partners без кода; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-vko29.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки reg.html (https://mostbet-vko29.top/reg.html) ведут на occlusometer-82.xyz/ryQCCs?sub_id_2=6123 — пустая страница, получатель не установлен; внешнее — только mostbet.partners без кода; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-vkp26.buzz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки reg.html (https://mostbet-vkp26.buzz/reg.html) ведут на occlusometer-82.xyz/ryQCCs?sub_id_2=5790 — пустая страница, получатель не установлен; внешнее — только mostbet.partners без кода; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-vla89.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки reg.html (https://mostbet-eid14.cam/reg.html) ведут на occlusometer-82.xyz/ryQCCs?sub_id_2=6121 — пустая страница, получатель не установлен; внешнее — только mostbet.partners без кода; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-vlr82.sbs",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки reg.html (https://mostbet-vlr82.sbs/reg.html) ведут на occlusometer-82.xyz/ryQCCs?sub_id_2=7991 — пустая страница, получатель не установлен; внешнее — только mostbet.partners без кода; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-vmr85.buzz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки reg.html (https://mostbet-trg93.cfd/reg.html) ведут на occlusometer-82.xyz/ryQCCs?sub_id_2=7678 — пустая страница, получатель не установлен; внешнее — только mostbet.partners без кода; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-vmu89.sbs",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки reg.html (https://mostbet-vmu89.sbs/reg.html) ведут на occlusometer-82.xyz/ryQCCs?sub_id_2=10827 — пустая страница, получатель не установлен; внешнее — только mostbet.partners без кода; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-vmw62.buzz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки reg.html (https://mostbet-cxo87.top/reg.html) ведут на occlusometer-82.xyz/ryQCCs?sub_id_2=10740 — пустая страница, получатель не установлен; внешнее — только mostbet.partners без кода; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-vmx33.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки reg.html (https://mostbet-vmx33.cam/reg.html) ведут на occlusometer-82.xyz/ryQCCs?sub_id_2=10518 — пустая страница, получатель не установлен; внешнее — только mostbet.partners без кода; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-vnu49.buzz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки reg.html (https://mostbet-ulc34.cam/reg.html) ведут на occlusometer-82.xyz/ryQCCs?sub_id_2=377 — пустая страница, получатель не установлен; внешнее — только mostbet.partners без кода; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-vnx48.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки reg.html (https://mostbet-vnx48.top/reg.html) ведут на occlusometer-82.xyz/ryQCCs?sub_id_2=320 — пустая страница, получатель не установлен; внешнее — только mostbet.partners без кода; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-voj56.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки reg.html (https://mostbet-voj56.top/reg.html) ведут на occlusometer-82.xyz/ryQCCs?sub_id_2=416 — пустая страница, получатель не установлен; внешнее — только mostbet.partners без кода; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-vor19.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки reg.html (https://mostbet-vor19.cam/reg.html) ведут на occlusometer-82.xyz/ryQCCs?sub_id_2=8213 — пустая страница, получатель не установлен; внешнее — только mostbet.partners без кода; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-vov2.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки reg.html (https://mostbet-ulc34.cam/reg.html) ведут на occlusometer-82.xyz/ryQCCs?sub_id_2=377 — пустая страница, получатель не установлен; внешнее — только mostbet.partners без кода; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-vpj41.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Кнопки reg.html (https://mostbet-vpj41.top/reg.html) ведут на occlusometer-82.xyz/ryQCCs?sub_id_2=10517 — пустая страница, получатель не установлен; внешнее — только mostbet.partners без кода; чужих ссылок нет."
+ }
+]

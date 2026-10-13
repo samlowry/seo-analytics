@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbetco.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ },
+ {
+  "domain": "mostbetco.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ },
+ {
+  "domain": "mostbetcodebd.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Единственная внешняя ссылка — mostbetappmostbet.com/promo-code/ (Mostbet-домен без кода, не открылся); чужих брендов и операторов нет."
+ },
+ {
+  "domain": "mostbetcom.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.7,
+  "comment": "Переезжает на mostbet-casino.in: кнопки /login, /app, /promo-code внутренние; в футере простые ссылки сетки (finut2020.com — обзорник казино, undp.kg, rsn-rb.ru — Mostbet-сайты, прочие негэмблинговые) без кода — не реклама."
+ },
+ {
+  "domain": "mostbetcv.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ },
+ {
+  "domain": "mostbetcv.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ },
+ {
+  "domain": "mostbetcw.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ },
+ {
+  "domain": "mostbetcw.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ },
+ {
+  "domain": "mostbetds.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ },
+ {
+  "domain": "mostbetds.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ },
+ {
+  "domain": "mostbetfan2.xyz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезжает на mostbet-kjy65.cfd; reg.html ведёт на occlusometer-82.xyz/ryQCCs?sub_id_2=6122 — пустая страница, как у всей сети mostbet-*.cfd/.buzz; ещё ссылка на mostbet.partners без кода."
+ },
+ {
+  "domain": "mostbetfans4.xyz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезжает на mostbet-kaw45.buzz; reg.html ведёт на occlusometer-82.xyz/ryQCCs?sub_id_2=10452 — пусто, как у всей сети; ещё ссылка на mostbet.partners без кода."
+ },
+ {
+  "domain": "mostbetff.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ },
+ {
+  "domain": "mostbetff.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ },
+ {
+  "domain": "mostbetfk.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ },
+ {
+  "domain": "mostbetfk.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ },
+ {
+  "domain": "mostbetfq.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ },
+ {
+  "domain": "mostbetfq.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ },
+ {
+  "domain": "mostbetfreespin.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.7,
+  "comment": "Внешние ссылки только на mostbet-az-302.com и mostbetonlineaz.com (Mostbet-домены, не открылись); чужих брендов нет."
+ },
+ {
+  "domain": "mostbetfx.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ },
+ {
+  "domain": "mostbetfx.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ },
+ {
+  "domain": "mostbetgi.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ },
+ {
+  "domain": "mostbetgi.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ },
+ {
+  "domain": "mostbetgiris-az.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Кнопки ведут на свой /go → ty9e3wr.com/GuEs?sub1=az2-mob (мёртв, как у mostbet-giris-az24.com и всей сети), получатель не установлен; кроме своего APK внешних ссылок нет."
+ },
+ {
+  "domain": "mostbetgiris-turkiye.net",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Обычным клиентам и Googlebot — 403 Cloudflare, google-mobile получает статью про MostBet (canonical miletushotel.com); кнопки login/reg → свой /go/, получатель не установлен, чужих ссылок нет."
+ },
+ {
+  "domain": "mostbetgirisaz.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Кнопка /go/cta ведёт на mloz82mb.com/mbjU — хост вида …mb.com, трекер Mostbet (так же решены casino-uz-mostbet.com и др.); прочие внешние — только unpkg.com."
+ },
+ {
+  "domain": "mostbetgirisc.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Кнопка /go/cta ведёт на mloz82mb.com/mbjU — хост вида …mb.com, трекер Mostbet; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbetgirisi.net",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (TR): сверху и в сайдбаре десятки баннеров shortslink3-7.com/top1…top10, headerbanner с картинками tabloproject3-4.com pusulabet, sahabet, yakabet, onwin, avrupabet, rekorbet и др.; баннеров Mostbet нет."
+ },
+ {
+  "domain": "mostbethi.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ },
+ {
+  "domain": "mostbethi.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ },
+ {
+  "domain": "mostbethj.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ },
+ {
+  "domain": "mostbethj.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ },
+ {
+  "domain": "mostbethucasino.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.7,
+  "comment": "Кнопки /go/login и /go/register ведут на useflowcore.top/S9wxFxcn — 404 у всей сети (konyvis.com, mostbet-hucasino.com), получатель не установлен; чужих брендов нет."
+ },
+ {
+  "domain": "mostbethuf.bet",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Монобренд Mostbet HU: кнопки /go → doublehtraff.com/cXStcq?sub_id_1=mostbet-slot.net — чужой трекер той же венгерской сетки (mostbetslot.net, mostbet-spin.com признаны mono_other в 5-м круге); ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbethungary.app",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Кнопки /go/login и /go/register ведут на t74k96q3mb.com/KoZF — хост вида …mb.com, трекер Mostbet (как у adorans.hu); чужих ссылок нет."
+ },
+ {
+  "domain": "mostbetib.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ },
+ {
+  "domain": "mostbetib.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ },
+ {
+  "domain": "mostbetie.eu",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Клон интерфейса Mostbet (картинки с cdn-mst-ru.com, ссылки на mostbet.com, mostpartner.com): 690 ссылок на свой шлюз /link2/, получатель не установлен; чужих брендов нет, cert.gcb.cw — лицензия."
+ },
+ {
+  "domain": "mostbetij.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ },
+ {
+  "domain": "mostbetij.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ },
+ {
+  "domain": "mostbetindirandroid.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Кнопка /go/cta ведёт на mloz82mb.com/mbjU — хост вида …mb.com, трекер Mostbet (как у mostbet-indirandroid.com); чужих ссылок нет."
+ },
+ {
+  "domain": "mostbetindiraz.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Кнопка /go/cta ведёт на mloz82mb.com/mbjU — хост вида …mb.com, трекер Mostbet; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbetinfo.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Кнопки /go/ ведут на pg5i0mmb.com/2Cgs?sub1=mob-kz1 — хост вида …mb.com, трекер Mostbet (как у uzstars.biz); ещё ссылка на mostbet.com, чужих нет."
+ },
+ {
+  "domain": "mostbetj.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ },
+ {
+  "domain": "mostbetj.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ },
+ {
+  "domain": "mostbetji.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ },
+ {
+  "domain": "mostbetji.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ },
+ {
+  "domain": "mostbetjj.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ },
+ {
+  "domain": "mostbetjj.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ },
+ {
+  "domain": "mostbetjw.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Шаблон Mostbet AZ: меню и кнопки ведут на dhwqw.com (/lucky-jet/, /bonus/, /deposit/) — сестринский домен того же шаблона, плюс скрипт p.33echelon.com; чужих брендов и ссылок на чужих операторов нет, получатель не установлен."
+ }
+]
