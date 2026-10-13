@@ -247,15 +247,35 @@ def fmt(n) -> str:
     return f"{n:,}".replace(",", " ")
 
 
+CONF = {}  # domain -> confidence.csv row (tools/brand-confidence.py)
+
+
+def conf_badge(dom) -> tuple:
+    c = CONF.get(dom)
+    if not c:
+        return "", ""
+    n = int(c["confidence"])
+    lvl = "hi" if n >= 80 else "mid" if n >= 60 else "lo"
+    badge = f'<span class="cf cf-{lvl}" title="уверенность в классе, 0–100">уверенность {n}</span>'
+    extra = []
+    if c["minus"]:
+        extra.append(f'<div class="kv"><span>снижает уверенность</span> {e(c["minus"])}</div>')
+    if c["checked"]:
+        extra.append(f'<div class="kv"><span>проверен вручную</span> '
+                     f'{"класс подтверждён" if c["checked"] == "agrees" else "класс не подтверждён"}</div>')
+    return badge, "".join(extra)
+
+
 def card(num, r, sample_text) -> str:
+    badge, cf_extra = conf_badge(r["domain"])
     tags = ", ".join(TAG_RU.get(t, t) for t in r["tags"].split() if t in TAG_RU and t != "brand_in_domain")
     facts = [("метки", tags), ("title", r["title"]),
              ("конечный адрес", r["final_url"] if r["final_url"] and r["domain"] not in r["final_url"] else "")]
     grid = "".join(f'<div class="kv"><span>{k}</span> {linkify(v) if k == "конечный адрес" else e(v)}</div>' for k, v in facts if v)
     st = f'<div class="sample">{e(sample_text)}</div>' if sample_text else ""
     return (f'<article class="card" id="n{num}"><header><span class="num">{num}</span>'
-            f'<a class="dom" href="https://{e(r["domain"])}/">{e(r["domain"])}</a></header>'
-            f'<div class="why"><span>причина</span> {linkify(why_ru(r))}</div>{ad_links(r)}{grid}{st}</article>')
+            f'<a class="dom" href="https://{e(r["domain"])}/">{e(r["domain"])}</a>{badge}</header>'
+            f'<div class="why"><span>причина</span> {linkify(why_ru(r))}</div>{ad_links(r)}{cf_extra}{grid}{st}</article>')
 
 
 def sample(rows, n=10):
@@ -274,6 +294,9 @@ def main(d: str):
     for r in rows:
         by[r["category"]].append(r)
     picks = {c: sample(by[c]) for g in GROUPS for c, _, _ in g[1]}
+    if (d / "confidence.csv").exists():
+        with open(d / "confidence.csv", newline="", encoding="utf-8") as f:
+            CONF.update({x["domain"]: x for x in csv.DictReader(f)})
     text = {}
     with gzip.open(d / "site-features.jsonl.gz", "rt", encoding="utf-8") as f:
         for line in f:
@@ -326,6 +349,9 @@ def main(d: str):
                     body += (f'<details class="more" data-k="{c}-{a}"><summary>№ {fmt(a)}–{fmt(b)}</summary>'
                              f'{"".join(shown_cards[i:i + 100])}</details>')
             head = f"{fmt(cnt[c])} · № {fmt(lo)}–{fmt(num)}" if cnt[c] else "0"
+            cfs = [int(CONF[r["domain"]]["confidence"]) for r in by[c] if r["domain"] in CONF]
+            if cfs:
+                head += f" · средняя уверенность {round(sum(cfs) / len(cfs))}, ниже 60 — {fmt(sum(1 for x in cfs if x < 60))}"
             gshare = cnt[c] / gsum[gname] if gsum[gname] else 0
             sections.append(f'''<section id="{c}" class="g-{key}"><h2>{e(ru)} <small>{head}</small></h2>
 {meter(key, gshare, f"<b>{pc(gshare * 100)} %</b> группы «{e(gname.split(':')[0])}» · {pc(cnt[c] * 100 / total)} % всех доменов")}
@@ -368,6 +394,8 @@ tr.grp td{{font-weight:700;background:var(--bg)}} tr.grp .meter-t{{font-weight:4
 .ak-other{{border-color:var(--g-viol)}} .ak-mb{{border-color:var(--g-mono)}}
 .rest-h{{color:var(--mut);margin:10px 0 2px}} details.more{{margin:2px 0}} details.more>summary{{cursor:pointer;color:var(--acc);font-weight:600;padding:6px 0;text-decoration:underline;text-underline-offset:2px}}
 .rng{{color:var(--mut);font-size:12px}}
+.cf{{margin-left:10px;font-size:12px;border-radius:5px;padding:1px 7px;border:1px solid var(--line);color:var(--fg);white-space:nowrap}}
+.cf-hi{{border-color:var(--g-other)}} .cf-mid{{border-color:var(--g-mono)}} .cf-lo{{border-color:var(--g-viol);border-width:2px;font-weight:600}}
 .kv{{font-size:12.5px;overflow-wrap:anywhere}} .kv span{{color:var(--mut)}} .kv b{{font-weight:500}}
 .sample{{color:var(--mut);font-size:12px;margin-top:4px;overflow-wrap:anywhere}} .cols{{columns:2;column-gap:28px}}
 @media (max-width:640px){{.cols{{columns:1}}}}

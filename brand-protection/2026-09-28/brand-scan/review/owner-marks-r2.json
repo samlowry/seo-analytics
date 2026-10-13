@@ -1,0 +1,189 @@
+{
+ "android-station.ru": {
+  "v": "ok",
+  "given": "article"
+ },
+ "inscae.ovh": {
+  "v": "ok",
+  "given": "article"
+ },
+ "mostbet-cz-login.cz": {
+  "v": "ok",
+  "given": "bait",
+  "note": "если редирект на что-то с чужими казино — это точно слив траффа с монобренд-сайта. даже если сайта нет — домен с брендом!"
+ },
+ "mostbet-uz.store": {
+  "v": "ok",
+  "given": "bait"
+ },
+ "mostbet4013.ru": {
+  "v": "ok",
+  "given": "bait",
+  "note": "мостбет в домене — на домене паль, отдельный класс — дискредетация бренда"
+ },
+ "mostbet-login-np.com": {
+  "v": "ok",
+  "given": "dead"
+ },
+ "freepressreleasedb.com": {
+  "v": "bad",
+  "given": "hacked",
+  "note": "странный статейник. туда явно постили для ссылки на https://mostbetapk.com/ — вот тот сайт льёт на https://cashfourfoursevenzone.com/m9CxxDc3?domain=mostbetapk.com&page=download&url=mostbetapk.com%2F — похоже, вирус"
+ },
+ "kmostb-top.com": {
+  "v": "bad",
+  "given": "hacked",
+  "note": "монобренд, прелендинг, льёт на мостбет (ставит его хром-аппом)"
+ },
+ "mostbet-az.wiki": {
+  "v": "bad",
+  "given": "mono_mixed",
+  "checker": "multibrand",
+  "note": "мультибренд"
+ },
+ "museumteensummit.org": {
+  "v": "bad",
+  "given": "mono_mostbet",
+  "checker": "mono_no_ads",
+  "note": "да, Монобренд без рекламы"
+ },
+ "mostbet-apk.top": {
+  "v": "bad",
+  "given": "mono_no_ads",
+  "checker": "mono_no_ads",
+  "note": "есть рефссылки на кнопках"
+ },
+ "bd-mostbet-agent.com": {
+  "v": "ok",
+  "given": "mono_other",
+  "checker": "mono_other"
+ },
+ "htfinstant.pics": {
+  "v": "ok",
+  "given": "mono_other",
+  "checker": "mono_unresolved",
+  "note": "да, ведёт на mediamafiaclub.com который не открывается"
+ },
+ "mostbet3.bet": {
+  "v": "ok",
+  "given": "mono_other",
+  "checker": "mono_other"
+ },
+ "wonam.pl": {
+  "v": "ok",
+  "given": "mono_other",
+  "checker": ""
+ },
+ "blackfridaysale.com.pl": {
+  "note": "нужно пройти по всем, по которым не прошли… в данном случае это https://hellspin222.com/?show=register&btag=678741_2578c356a43c4ad587ec778ca47c815f&subid=909848w16bzsy6cc",
+  "given": "mono_unresolved",
+  "v": "ok",
+  "checker": "mono_unresolved"
+ },
+ "kofkever.com": {
+  "note": "у меня вообще — Your connection is not private",
+  "given": "mono_unresolved",
+  "v": "bad",
+  "checker": "mono_xlink"
+ },
+ "mgmteh.ru": {
+  "v": "ok",
+  "given": "mono_unresolved",
+  "checker": "mono_xlink",
+  "note": "верно, недоделаный сайт, а простые ссылки ведут на другие доры… на всех 3х с анкором бренда — рекламируется 1хбет — https://rlifiles.com/ https://www.bemundus.eu/ https://www.jobset.cz/ — у нас есть они в базе?"
+ },
+ "mostbet-casino--pl.pl": {
+  "note": "ну точно https://best-igaming.ru/bH2CYxMv — это не наше, не попадает под паттерн",
+  "given": "mono_unresolved",
+  "v": "ok",
+  "checker": ""
+ },
+ "mostbet-casino-play9le.top": {
+  "v": "bad",
+  "given": "mono_unresolved",
+  "checker": "stub",
+  "note": "блядь, ну точно неподнятый сайт — это не монобренд"
+ },
+ "mostbet-vipapp.com": {
+  "v": "bad",
+  "given": "mono_unresolved",
+  "checker": "mono_xlink",
+  "note": "в хидере — здоровенная реклама low res ведущая на https://www.qqee.ai/?affiliateCode=seo817, явно слив"
+ },
+ "mostbett.pe": {
+  "v": "bad",
+  "given": "mono_unresolved",
+  "checker": "mono_xlink",
+  "note": "1win-mx.mx  — там точно рекламируется другое казино"
+ },
+ "ramblers.pl": {
+  "v": "bad",
+  "given": "mono_unresolved",
+  "checker": "mono_xlink",
+  "note": "пох, что прямые — это точно реклама кучи казино под соусом обзора мостбет на главной странице, монобренд же"
+ },
+ "www-mostbet.co": {
+  "v": "ok",
+  "given": "mono_unresolved",
+  "checker": ""
+ },
+ "mostbet.forum": {
+  "v": "bad",
+  "given": "multibrand",
+  "checker": "bait",
+  "note": "ставит pwa gtteam.team — хорошо бы детектить, какое pwa ставит… некоторые ставят через редирект реально мостбет. да, бренд в имени — нарушители!"
+ },
+ "mostbet.living": {
+  "v": "bad",
+  "given": "multibrand",
+  "checker": "bait",
+  "note": "бренд в имени"
+ },
+ "mostbet.rest": {
+  "v": "bad",
+  "given": "multibrand",
+  "checker": "bait",
+  "note": "бренд в имени"
+ },
+ "mostbetgame.store": {
+  "v": "bad",
+  "given": "multibrand",
+  "checker": "mono_unresolved",
+  "note": "бренд в имени… 1) в хиро написано Jackpot Buffalo Slots 2) ссылка прямо ведёт на https://play.google.com/store/apps/details?id=com.kamagames.buffaloslots"
+ },
+ "pawabetfixed.com": {
+  "v": "bad",
+  "given": "multibrand",
+  "checker": "article",
+  "note": "статейник, кстати — хорошо бы хотя бы одну статью чекать, они вообще мб рекламят? как тут: https://pawabetfixed.com/2025/12/16/mostbet-kasyno-szczegolowa-recenzja-bonus-1400-zl-250-spinow/ (просто сломана кнопка)"
+ },
+ "mostafathabet.com": {
+  "v": "ok",
+  "given": "other_gambling",
+  "checker": "unrelated",
+  "note": "такое — ошибка сборщика, составлять отдельный вайтлист, чтобы добавить в корсёч… тут даже бренда нет, я хз, как они из имени сложили бренд"
+ },
+ "mostbet-indir-az.org": {
+  "v": "ok",
+  "given": "unclear",
+  "checker": "not_shown"
+ },
+ "startmostbet.ws": {
+  "note": "у меня вообще не грузится",
+  "given": "unclear"
+ },
+ "mostbet-onlywin.xyz": {
+  "note": "mostbet-onlywin.xyz redirected you too many times.",
+  "given": "unrelated"
+ },
+ "mostbetaviator-az.click": {
+  "v": "ok",
+  "given": "unrelated",
+  "checker": "",
+  "note": "линк селлер, да"
+ },
+ "speedtwitch.com": {
+  "note": "speedtwitch.com refused to connect.",
+  "given": "unrelated"
+ }
+}
