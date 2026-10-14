@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbetjw.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон Mostbet AZ: кнопки data-split ведут на 3.33echelon.com/GMqHi (Shlink «Invalid Short URL» у всей сети), ссылки на dhwqw.com (/aviator/, /bonus/) мёртвые; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbetjx.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон Mostbet AZ: кнопки data-split ведут на 3.33echelon.com/GMqHi (Shlink «Invalid Short URL» у всей сети), ссылки на dhwqw.com (/aviator/, /bonus/) мёртвые; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbetjx.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон Mostbet AZ: кнопки data-split ведут на 3.33echelon.com/GMqHi (Shlink «Invalid Short URL» у всей сети), ссылки на dhwqw.com (/aviator/, /bonus/) мёртвые; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbetjz.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон Mostbet AZ: кнопки data-split ведут на 3.33echelon.com/GMqHi (Shlink «Invalid Short URL» у всей сети), ссылки на dhwqw.com (/aviator/, /bonus/) мёртвые; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbetjz.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон Mostbet AZ: кнопки data-split ведут на 3.33echelon.com/GMqHi (Shlink «Invalid Short URL» у всей сети), ссылки на dhwqw.com (/aviator/, /bonus/) мёртвые; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbetkazakhstan.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.75,
+  "comment": "Переезд на 1most.bet/kk/; pretty-link ведёт на o1h51n4sbgmst.com — хост вида …mst.com, трекер Mostbet; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbetkazinoplay.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Обычному клиенту Cloudflare-блок; в версии для Google ссылки только на mostbetonlineaz.com (мёртв) и mostbet-az-302.com без кода, чужих брендов нет."
+ },
+ {
+  "domain": "mostbetkazinoskachat.space",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Версия для Google-мобайл: кнопки /play и /go (22 и 9 шт.) без снятого получателя; внешние ссылки только на новостные rbc.ru, gazeta.ru, rns.ru, sigma.world — не реклама."
+ },
+ {
+  "domain": "mostbetkd.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон Mostbet AZ: кнопки data-split ведут на 3.33echelon.com/GMqHi (Shlink «Invalid Short URL» у всей сети), ссылки на dhwqw.com (/aviator/, /bonus/) мёртвые; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbetkd.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон Mostbet AZ: кнопки data-split ведут на 3.33echelon.com/GMqHi (Shlink «Invalid Short URL» у всей сети), ссылки на dhwqw.com (/aviator/, /bonus/) мёртвые; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbetkk.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон Mostbet AZ: кнопки data-split ведут на 3.33echelon.com/GMqHi (Shlink «Invalid Short URL» у всей сети), ссылки на dhwqw.com (/aviator/, /bonus/) мёртвые; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbetkk.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон Mostbet AZ: кнопки data-split ведут на 3.33echelon.com/GMqHi (Shlink «Invalid Short URL» у всей сети), ссылки на dhwqw.com (/aviator/, /bonus/) мёртвые; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbetkm.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон Mostbet AZ: кнопки data-split ведут на 3.33echelon.com/GMqHi (Shlink «Invalid Short URL» у всей сети), ссылки на dhwqw.com (/aviator/, /bonus/) мёртвые; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbetkm.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон Mostbet AZ: кнопки data-split ведут на 3.33echelon.com/GMqHi (Shlink «Invalid Short URL» у всей сети), ссылки на dhwqw.com (/aviator/, /bonus/) мёртвые; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbetku.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон Mostbet AZ: кнопки data-split ведут на 3.33echelon.com/GMqHi (Shlink «Invalid Short URL» у всей сети), ссылки на dhwqw.com (/aviator/, /bonus/) мёртвые; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbetku.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон Mostbet AZ: кнопки data-split ведут на 3.33echelon.com/GMqHi (Shlink «Invalid Short URL» у всей сети), ссылки на dhwqw.com (/aviator/, /bonus/) мёртвые; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbetkz-online.com",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Кнопка /go/register ведёт на kenovia6.com/?noscript=1; у той же сети (ar-, ci-, ind-, kgmostbet.com) /go/register через kenovia6 доходит до казино Winairlines с bta=36557 — реклама чужого. Ссылка на mostbet.com простая."
+ },
+ {
+  "domain": "mostbetkzvhod.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.75,
+  "comment": "Все кнопки /go/ ведут на pg5i0mmb.com/2Cgs?sub1=mob-kz1 — хост вида …mb.com, трекер Mostbet; плюс простая ссылка на mostbet.com; чужих брендов нет."
+ },
+ {
+  "domain": "mostbetlive-az.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Обычному клиенту Cloudflare-блок; в отрисованной версии 20 кнопок onclick location.href='/go/link/', получатель не снят; внешних ссылок на чужих нет."
+ },
+ {
+  "domain": "mostbetlogin.co",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.55,
+  "comment": "Сайт продажи ID через WhatsApp; в подвале видимые простые ссылки «Fairplay Online» (fairplay-online.in) и «Win Adda» (wwinadda.com) — сателлиты без кода, не сайты операторов; скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbetlogin.pro",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Переезд на mostbet-irf71.cam; кнопки reg.html ведут на трекер occlusometer-82.xyz/ryQCCs?sub_id_2=… (пустая страница у всей сети), плюс ссылка на mostbet.partners без кода — получатель неизвестен."
+ },
+ {
+  "domain": "mostbetloginnepal.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Пункты меню onclick=window.open на wadcpa.rdrtdmn.org/6G3TNH, из нашей точки трекер отдал google.com (клоака), у mostbet.stream то же; ссылка на mostbet-bonus.net без кода."
+ },
+ {
+  "domain": "mostbetma.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон Mostbet AZ: кнопки data-split ведут на 3.33echelon.com/GMqHi (Shlink «Invalid Short URL» у всей сети), ссылки на dhwqw.com (/aviator/, /bonus/) мёртвые; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbetma.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон Mostbet AZ: кнопки data-split ведут на 3.33echelon.com/GMqHi (Shlink «Invalid Short URL» у всей сети), ссылки на dhwqw.com (/aviator/, /bonus/) мёртвые; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbetma1.bet",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mirror",
+  "confidence": 0.7,
+  "comment": "Шаблон официального SEO-сайта Mostbet: скрипт берёт зеркало из uc3zxu6wdpmst.com/api/v1/seo-site/mirror (и slluig-seo.com), регистрация через API зеркала, ссылки на mostpartner.com; чужих брендов нет."
+ },
+ {
+  "domain": "mostbetmagyarcasino.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Кнопки /go/login и /go/register ведут на useflowcore.top/S9wxFxcn — не открылся ни у одного из 22 сайтов сети; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbetmagyarorszag.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Кнопки скриптом ведут на трекер point-play.org/click?key=04cedd8d… (403 у всех 23 сайтов, у mostbetz2.in тот же ключ за /goto/mostbet/); прочие ссылки простые: обзорник casino-online-hu.com, most-hungary.com, hckb.ru."
+ },
+ {
+  "domain": "mostbetmexico.com.mx",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mirror",
+  "confidence": 0.7,
+  "comment": "Шаблон официального SEO-сайта Mostbet: скрипт берёт зеркало из uc3zxu6wdpmst.com/api/v1/seo-site/mirror (и slluig-seo.com), регистрация через API зеркала, ссылки на mostpartner.com; чужих брендов нет."
+ },
+ {
+  "domain": "mostbetmexico.mx",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.55,
+  "comment": "Единственная кнопка «Haga un depósito» — прямая ссылка на трекер findmyass.pro/C4hpZPsq (не открылся); тот же трекер у mostbetaz.com и mostbet1.ci классифицирован как реклама чужих, не паттерн Mostbet."
+ },
+ {
+  "domain": "mostbetmw.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон Mostbet AZ: кнопки data-split ведут на 3.33echelon.com/GMqHi (Shlink «Invalid Short URL» у всей сети), ссылки на dhwqw.com (/aviator/, /bonus/) мёртвые; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbetmw.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон Mostbet AZ: кнопки data-split ведут на 3.33echelon.com/GMqHi (Shlink «Invalid Short URL» у всей сети), ссылки на dhwqw.com (/aviator/, /bonus/) мёртвые; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbetmx.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон Mostbet AZ: кнопки data-split ведут на 3.33echelon.com/GMqHi (Shlink «Invalid Short URL» у всей сети), ссылки на dhwqw.com (/aviator/, /bonus/) мёртвые; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbetmx.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон Mostbet AZ: кнопки data-split ведут на 3.33echelon.com/GMqHi (Shlink «Invalid Short URL» у всей сети), ссылки на dhwqw.com (/aviator/, /bonus/) мёртвые; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbetnew.site",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Переезд на mostbet-nfl83.top; кнопки reg.html ведут на трекер occlusometer-82.xyz/ryQCCs?sub_id_2=… (пустая страница у всей сети), плюс ссылка на mostbet.partners без кода — получатель неизвестен."
+ },
+ {
+  "domain": "mostbetnf.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон Mostbet AZ: кнопки data-split ведут на 3.33echelon.com/GMqHi (Shlink «Invalid Short URL» у всей сети), ссылки на dhwqw.com (/aviator/, /bonus/) мёртвые; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbetnf.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон Mostbet AZ: кнопки data-split ведут на 3.33echelon.com/GMqHi (Shlink «Invalid Short URL» у всей сети), ссылки на dhwqw.com (/aviator/, /bonus/) мёртвые; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbetnigeria.ng",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mirror",
+  "confidence": 0.7,
+  "comment": "Шаблон официального SEO-сайта Mostbet: скрипт берёт зеркало из uc3zxu6wdpmst.com/api/v1/seo-site/mirror (и slluig-seo.com), регистрация через API зеркала, ссылки на mostpartner.com; чужих брендов нет."
+ },
+ {
+  "domain": "mostbetnj.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон Mostbet AZ: кнопки data-split ведут на 3.33echelon.com/GMqHi (Shlink «Invalid Short URL» у всей сети), ссылки на dhwqw.com (/aviator/, /bonus/) мёртвые; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbetnj.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон Mostbet AZ: кнопки data-split ведут на 3.33echelon.com/GMqHi (Shlink «Invalid Short URL» у всей сети), ссылки на dhwqw.com (/aviator/, /bonus/) мёртвые; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbetns.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон Mostbet AZ: кнопки data-split ведут на 3.33echelon.com/GMqHi (Shlink «Invalid Short URL» у всей сети), ссылки на dhwqw.com (/aviator/, /bonus/) мёртвые; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbetns.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон Mostbet AZ: кнопки data-split ведут на 3.33echelon.com/GMqHi (Shlink «Invalid Short URL» у всей сети), ссылки на dhwqw.com (/aviator/, /bonus/) мёртвые; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbetofficial.net",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Кнопки data-sf-a ведут на свой поддомен goto.mostbetofficial.net/GwJydYu (мёртв); внешние — только DMCA и демо-игра api.inout.games; чужих брендов нет."
+ },
+ {
+  "domain": "mostbetofficialsite.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Переезд на mostbet-pyq39.sbs; кнопки reg.html ведут на трекер occlusometer-82.xyz/ryQCCs?sub_id_2=… (пустая страница у всей сети), плюс ссылка на mostbet.partners без кода — получатель неизвестен."
+ },
+ {
+  "domain": "mostbetoffline.com",
+  "given": "mono_unresolved",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.4,
+  "comment": "PWA-«установщик» MOSTBET CASINO; кнопка ведёт на трекер c6sqvjy6.playpwatop.com/c6sqvJY6?external_id=… (не открылся); у PWA-сети playpwatop получатели разные — бренд не установить."
+ },
+ {
+  "domain": "mostbetonline.hu",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Кнопки скриптом ведут на трекер point-play.org/click?key=04cedd8d… (403 у всех 23 сайтов, у mostbetz2.in тот же ключ за /goto/mostbet/); прочие ссылки простые: обзорник casino-online-hu.com, most-hungary.com, hckb.ru."
+ },
+ {
+  "domain": "mostbetonlineazerbaycan.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.75,
+  "comment": "Кнопки /go/cta ведут на mloz82mb.com/mbjU — хост вида …mb.com, рефка Mostbet; чужих ссылок и трекеров нет."
+ },
+ {
+  "domain": "mostbetoynamaq.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Кнопки «Bonus alın»/«Giriş» ведут на свой /goto/; внешние — простые ссылки на mostbetonlineaz.com и mostbet-az-302.com и демо-слоты провайдеров (Pragmatic, Evoplay), чужих операторов нет."
+ },
+ {
+  "domain": "mostbetp.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон Mostbet AZ: кнопки data-split ведут на 3.33echelon.com/GMqHi (Shlink «Invalid Short URL» у всей сети), ссылки на dhwqw.com (/aviator/, /bonus/) мёртвые; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbetp.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон Mostbet AZ: кнопки data-split ведут на 3.33echelon.com/GMqHi (Shlink «Invalid Short URL» у всей сети), ссылки на dhwqw.com (/aviator/, /bonus/) мёртвые; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbetpatnersbd.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.75,
+  "comment": "Кнопки /visit/ ведут на affiliate.mostpartner.com/en?referrer=248988 — партнёрская программа Mostbet; чужих ссылок нет."
+ }
+]

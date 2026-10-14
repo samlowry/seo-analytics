@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "casinomostbet.com.pt",
+  "given": "mono_no_ads",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.4,
+  "comment": "Бренд в домене, шаблон ChatBotData как у сети most-bet.at/mostbetscasino.com.pt (там трекер ведёт на Vulkan Vegas), но здесь ref = go.casinomostbet.com.pt/218271cf4875, и он нигде не открылся; получатель неизвестен."
+ },
+ {
+  "domain": "ceipalcalderafaelcedres.org",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Кнопки ведут на свой шлюз /gogo/, получатель не открыт; у сайтов того же шаблона (besyoclub.com, mostbet-bonus.ink) шлюзы ведут на Mostbet — чужой рекламы не видно."
+ },
+ {
+  "domain": "ceskymarias.cz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Внешних ссылок только на gambleaware/gamblersanonymous/helpline, кнопок на операторов и трекеров нет."
+ },
+ {
+  "domain": "chamundaengineering.in",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Кнопки никуда не ведут; testsite.com только в JSON-LD хлебных крошках, остальное — begambleaware/gamcare."
+ },
+ {
+  "domain": "chicxulubcrater.org",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.7,
+  "comment": "Клон dietavkrabicce.cz: Все кнопки (uploads/main.js) ведут на чужой трекер content-dropped.buzz/click?key=fc4b8622…&element=; ключ нигде не открылся, но тот же шаблон чешской сети (key=…&element=) у holy-duck.top и so-corny.cfd приводит к Dudespin — по правилу владельца чужой трекер = реклама чужих."
+ },
+ {
+  "domain": "chiko-pizza.ru",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "На страницах нет ни одной внешней ссылки или JS-перехода, кнопки пустые."
+ },
+ {
+  "domain": "chzurapp.icu",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Все кнопки на свой шлюз https://chzurapp.icu/to/, получатель не открыт; /to/ у чешской сети ведёт на Winshark, но шаблон страницы другой (турецкий макет приложения), прямой связи нет."
+ },
+ {
+  "domain": "cinemaalmariah.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Кнопки data-sf-a → reg.mostbet-egypt-2025.com/7ancUsT (не открылся); тот же шаблон win.mostbet-cezko.com/VN7UmhA у mostbet-cezko.com ведёт на Mostbet pid=37776. Чужой рекламы нет."
+ },
+ {
+  "domain": "clubofpassion.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.7,
+  "comment": "Кнопки ведут на свой шлюз /play (из скрипта), сайт отдаёт 403, получатель не открыт; близнец с тем же title mostbet-uz-kirish-2026.com по /play уходит на Mostbet."
+ },
+ {
+  "domain": "cmstech.kz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.6,
+  "comment": "Внешних ссылок нет, кнопки на свой путь /most/, браузер переходов к оператору не нашёл."
+ },
+ {
+  "domain": "contodotacos.com",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.7,
+  "comment": "Клон dietavkrabicce.cz: Все кнопки (uploads/main.js) ведут на чужой трекер content-dropped.buzz/click?key=fc4b8622…&element=; ключ нигде не открылся, но тот же шаблон чешской сети (key=…&element=) у holy-duck.top и so-corny.cfd приводит к Dudespin — по правилу владельца чужой трекер = реклама чужих."
+ },
+ {
+  "domain": "coyotemanband.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.7,
+  "comment": "Кнопки ведут на свой шлюз /play (из скрипта), сайт отдаёт 403, получатель не открыт; близнец с тем же title mostbet-uz-kirish-2026.com по /play уходит на Mostbet."
+ },
+ {
+  "domain": "crickacademy.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.7,
+  "comment": "Кнопки закодированы в data-o (base64^65) → regu.crickacademy.com/nHcVnsu и ?type=app; это тот же шаблон, что win.mostbet-cezko.com/VN7UmhA → Mostbet pid=37776. Демо-слоты в iframe — не реклама."
+ },
+ {
+  "domain": "cutandgrindburgers.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.75,
+  "comment": "Единственная кнопка /bet/ в браузере остаётся на сайте, внешних ссылок нет."
+ },
+ {
+  "domain": "cyclocrossfayettevillear.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Все кнопки на /mostbet/, в браузере и по шлюзам остаются на сайте."
+ },
+ {
+  "domain": "cz-mostbet.cz",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Бренд в домене; скрипт const ref = 'https://signup-page.com/NJytTx' (casino=mostbet) на кнопках регистрации/входа; этот же трекер с most-bet.at, mostbets.at, mostbet7.org уводит на v484.vegas?ref=vp_w265764… (Vulkan Vegas)."
+ },
+ {
+  "domain": "cz-mostbet.org",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Бренд в домене; const ref = 'https://signup-page.com/NJytTx' на кнопках; тот же трекер у most-bet.at/mostbetscasino.com.pt ведёт на v484.vegas (Vulkan Vegas)."
+ },
+ {
+  "domain": "daliceelizabeth.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Кнопки на свой шлюз /oyna/, получатель не открыт (сайт 403); megagame.vegas и guncel.mostbet-tr-giris.it.com только в canonical/hreflang, не кнопки."
+ },
+ {
+  "domain": "darkyrucnivyroby.cz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Кнопка data-suffix /10 в браузере остаётся на сайте, внешние ссылки — только сайты помощи игрокам."
+ },
+ {
+  "domain": "dasbratwursthaus.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Кнопки на свой шлюз /azgo/, получатель не открыт (сайт 403), у всего семейства с этим title шлюзы тоже не открыты; чужой рекламы не видно."
+ },
+ {
+  "domain": "dcci.cz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Внешних ссылок только на gamstop/gamcare/begambleaware, кнопок на операторов нет."
+ },
+ {
+  "domain": "dietavkrabicce.cz",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.7,
+  "comment": "Все кнопки (uploads/main.js) ведут на чужой трекер content-dropped.buzz/click?key=fc4b8622…&element=; ключ нигде не открылся, но тот же шаблон чешской сети (key=…&element=) у holy-duck.top и so-corny.cfd приводит к Dudespin — по правилу владельца чужой трекер = реклама чужих."
+ },
+ {
+  "domain": "divadloustolu.cz",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Кнопки (uploads/main.js) → think-link-point.com/click?key=6623e2f9a6f4497786e5e8beaf1409c6&element=…; тот же ключ на holy-duck.top у anabela.cz, guacamole.cz и др. уводит на dd21--dudespin.com (Dudespin)."
+ },
+ {
+  "domain": "doc-fishing.com",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.7,
+  "comment": "Клон dietavkrabicce.cz: Все кнопки (uploads/main.js) ведут на чужой трекер content-dropped.buzz/click?key=fc4b8622…&element=; ключ нигде не открылся, но тот же шаблон чешской сети (key=…&element=) у holy-duck.top и so-corny.cfd приводит к Dudespin — по правилу владельца чужой трекер = реклама чужих."
+ },
+ {
+  "domain": "dominikvrsansky.cz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Внешних ссылок только на сайты помощи игрокам, кнопок на операторов нет."
+ },
+ {
+  "domain": "dreamingfreedom.top",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Кнопки на свои шлюзы /kirish и /tosite/, сайт 403, получатель не открыт; в семействе того же title /kirish у mostbetkirishsayti.com ведёт на Mostbet pid=195355 (а /play у most-betuz.com — на Betwinner, но этого пути здесь нет)."
+ },
+ {
+  "domain": "dribling67.ro",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.75,
+  "comment": "Единственная внешняя ссылка mostbet-casino.hu уводит на статью pontmagazin.hu — не оператор и не код партнёра."
+ },
+ {
+  "domain": "droneyecz.cz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Внешних ссылок только на сайты помощи игрокам, кнопок на операторов нет."
+ },
+ {
+  "domain": "dylan95.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Внешняя ссылка только на тему WordPress effethemes.com, кнопок на операторов нет."
+ },
+ {
+  "domain": "eastpeak365.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Лендинг «MostBet Partners»: кнопки входа/регистрации на partnersaff-mb.com?utm_…=lisageo — сайт партнёрки Mostbet, чужих нет."
+ },
+ {
+  "domain": "ebru.cz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Кнопки data-sf-a → win.mostbet-cezko.com/VN7UmhA, этот трекер у mostbet-cezko.com/mostbetceska.com ведёт на uksyxemb.com pid=37776 (Mostbet)."
+ },
+ {
+  "domain": "ecodomatyrau.kz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.6,
+  "comment": "Внешних ссылок нет, кнопки на свой путь /most/, браузер переходов к оператору не нашёл."
+ },
+ {
+  "domain": "ekofarmarohoznice.cz",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.7,
+  "comment": "Клон dietavkrabicce.cz: Все кнопки (uploads/main.js) ведут на чужой трекер content-dropped.buzz/click?key=fc4b8622…&element=; ключ нигде не открылся, но тот же шаблон чешской сети (key=…&element=) у holy-duck.top и so-corny.cfd приводит к Dudespin — по правилу владельца чужой трекер = реклама чужих."
+ },
+ {
+  "domain": "elazador.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Кнопки ведут на свой шлюз /gogo/, получатель не открыт; у сайтов того же шаблона (besyoclub.com, mostbet-bonus.ink) шлюзы ведут на Mostbet — чужой рекламы не видно."
+ },
+ {
+  "domain": "eliminator-mtb.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Шлюз /go/ отдаёт 301 на главную, data-host-url тоже остаётся на сайте; mos-t-bet-org.com только в hreflang."
+ },
+ {
+  "domain": "emtainfotech.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.75,
+  "comment": "Все кнопки на /mostbet/, браузер остаётся на сайте."
+ },
+ {
+  "domain": "enfield-russia.ru",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.6,
+  "comment": "В видимом футере простые ссылки «Аркада Казино» → cmpkursk.ru и «Флагман Казино» → ds-ulibka.ru (без кода, на дорвеи, сканеру отдают не-гэмблинг); кнопки Mostbet пустые."
+ },
+ {
+  "domain": "ericdjacksonestatesales.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Внешняя ссылка только на тему superbthemes.com, кнопок на операторов нет."
+ },
+ {
+  "domain": "fajnekola.pl",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Кнопки (uploads/main.js) → sneaker-speaker.com/click?key=611d75efe1374e36aca10dbb369898ed&split=…; тот же ключ у sunarcana.com и mostbet-czech.site уводит на 593nv.casino/en/register?atp=287&plid=21379 (чужое казино)."
+ },
+ {
+  "domain": "fikrat.uz",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Кнопки «Qeydiyyat» в шапке и hero → statistics-yep.com/6gJcrm (случайный хост, короткий код); сейчас отдаёт главную со слотом PANDAPETIR88, на Mostbet нигде не вёл — по правилу владельца чужой трекер."
+ },
+ {
+  "domain": "fishfestival.cz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Шлюз /go/ уходит на свою страницу слота, most-bet-cz.net только в hreflang; демо-слот playin.com в iframe — не реклама."
+ },
+ {
+  "domain": "flatcoated.cz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Внешних ссылок только на mfcr.cz и чешские сайты помощи, кнопок на операторов нет."
+ },
+ {
+  "domain": "flattenthefear.com",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.7,
+  "comment": "Клон dietavkrabicce.cz: Все кнопки (uploads/main.js) ведут на чужой трекер content-dropped.buzz/click?key=fc4b8622…&element=; ключ нигде не открылся, но тот же шаблон чешской сети (key=…&element=) у holy-duck.top и so-corny.cfd приводит к Dudespin — по правилу владельца чужой трекер = реклама чужих."
+ },
+ {
+  "domain": "flusserbrasil.com",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.7,
+  "comment": "Клон dietavkrabicce.cz: Все кнопки (uploads/main.js) ведут на чужой трекер content-dropped.buzz/click?key=fc4b8622…&element=; ключ нигде не открылся, но тот же шаблон чешской сети (key=…&element=) у holy-duck.top и so-corny.cfd приводит к Dudespin — по правилу владельца чужой трекер = реклама чужих."
+ },
+ {
+  "domain": "galeriekomnata.cz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Внешних ссылок только на сайты помощи игрокам, кнопок на операторов нет."
+ },
+ {
+  "domain": "genderiada.cz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Кнопки data-sf-a → win.mostbet-cezko.com/VN7UmhA, у mostbet-cezko.com этот трекер ведёт на Mostbet pid=37776."
+ },
+ {
+  "domain": "gezmeksanat.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Ни одной внешней ссылки или JS-перехода, кнопки пустые."
+ },
+ {
+  "domain": "gfteamofficial.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Кнопки ведут на свой шлюз /gogo/, получатель не открыт; у сайтов того же шаблона (besyoclub.com, mostbet-bonus.ink) шлюзы ведут на Mostbet — чужой рекламы не видно."
+ },
+ {
+  "domain": "giris-mostbet.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Пункты меню — простые ссылки на nostrcal.com (canonical, дорвей Mostbet), amphtml — online-play-games365.ink (mono_mostbet); кода партнёра и чужих операторов нет."
+ },
+ {
+  "domain": "globalwave26.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Лендинг «MostBet Partners»: кнопки на partnersaff-mb.com?utm_…=uzgeo — сайт партнёрки Mostbet, чужих нет."
+ }
+]

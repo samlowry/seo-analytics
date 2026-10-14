@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "ekopartner.org.pl",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Монобренд Mostbet, все кнопки (Login, Rejestracja, Zdobądź bonus) ведут на свой шлюз /go/login и /go/signup → playground.inexusgateway.com/disabled.html: кампания отключена, получатель неизвестен; inexusgateway ни у одного сайта не дошёл до чужого бренда."
+ },
+ {
+  "domain": "elkarmugi.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet, кнопки «/go/mostbet» ведут через свой шлюз /go/ на трекер partners-official.com/W7RkZgH36; этот трекер у других сайтов доходит до Spinanga (spinanga-4369.com, mid=267534), рекламы Mostbet нет."
+ },
+ {
+  "domain": "familiacsaladkutatas.hu",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet, кнопки «Játssz most» ведут через свой шлюз /go/ на трекер partners-official.com/VfPrdZ1d; этот трекер у других сайтов доходит до Spinanga (spinanga-4369.com, mid=267534), рекламы Mostbet нет."
+ },
+ {
+  "domain": "farmvillelawncare.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet, кнопки «/go/mostbet» ведут через свой шлюз /go/ на трекер partners-official.com/W7RkZgH35; этот трекер у других сайтов доходит до Spinanga (spinanga-4369.com, mid=267534), рекламы Mostbet нет."
+ },
+ {
+  "domain": "flashske.pics",
+  "given": "mono_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.5,
+  "comment": "PWA-«установщик» с названием Mostbet; оффер из /analytic/… и prevButton — трекер www.bigwinlegend.com/ce4e2207-… с незаполненными макросами, не открылся. Получатель неизвестен: у PWA-лендингов сети примерно половина ведёт на Mostbet (pid=432659)."
+ },
+ {
+  "domain": "fortuneboy.pics",
+  "given": "mono_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.5,
+  "comment": "PWA-«установщик» с названием Mostbet; оффер из /analytic/… и prevButton — трекер l2b71vgq.playpwatop.com/L2B71VGQ с незаполненными макросами, не открылся. Получатель неизвестен: у PWA-лендингов сети примерно половина ведёт на Mostbet (pid=432659)."
+ },
+ {
+  "domain": "gops-lipnicawielka.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet, кнопки «Graj teraz» ведут через свой шлюз /go/ на трекер partners-official.com/zpFfMdFL; этот трекер у других сайтов доходит до Spinanga (spinanga-4369.com, mid=267534), рекламы Mostbet нет."
+ },
+ {
+  "domain": "gorkabravobarreiro.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet, кнопки «/go/mostbet» ведут через свой шлюз /go/ на трекер partners-official.com/W7RkZgH24; этот трекер у других сайтов доходит до Spinanga (spinanga-4369.com, mid=267534), рекламы Mostbet нет."
+ },
+ {
+  "domain": "htfinstant.pics",
+  "given": "mono_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.5,
+  "comment": "PWA-«установщик» с названием Mostbet; оффер из /analytic/… и prevButton — трекер mediamafiaclub.com/K3m29p (404) с незаполненными макросами, не открылся. Получатель неизвестен: у PWA-лендингов сети примерно половина ведёт на Mostbet (pid=432659)."
+ },
+ {
+  "domain": "incheonholdem.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet, кнопки «/go/mostbet» ведут через свой шлюз /go/ на трекер partners-official.com/W7RkZgH25; этот трекер у других сайтов доходит до Spinanga (spinanga-4369.com, mid=267534), рекламы Mostbet нет."
+ },
+ {
+  "domain": "interdetailing.pl",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Монобренд Mostbet, все кнопки (Login, Rejestracja, Zdobądź bonus) ведут на свой шлюз /go/login и /go/signup → playground.inexusgateway.com/disabled.html: кампания отключена, получатель неизвестен; inexusgateway ни у одного сайта не дошёл до чужого бренда."
+ },
+ {
+  "domain": "kaasja.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet, кнопки «Graj teraz» ведут через свой шлюз /go/ на трекер partners-official.com/zpFfMdFL; этот трекер у других сайтов доходит до Spinanga (spinanga-4369.com, mid=267534), рекламы Mostbet нет."
+ },
+ {
+  "domain": "kingdomdkc.top",
+  "given": "mono_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.5,
+  "comment": "PWA-«установщик» с названием Mostbet; оффер из /analytic/… и prevButton — трекер lyrvqgfm.playpwatop.com/LyRvqgfm с незаполненными макросами, не открылся. Получатель неизвестен: у PWA-лендингов сети примерно половина ведёт на Mostbet (pid=432659)."
+ },
+ {
+  "domain": "leszeksamborski.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet, кнопки «Graj teraz» ведут через свой шлюз /go/ на трекер partners-official.com/zpFfMdFL; этот трекер у других сайтов доходит до Spinanga (spinanga-4369.com, mid=267534), рекламы Mostbet нет."
+ },
+ {
+  "domain": "lucky-ray.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Монобренд Мостбет, кнопки «Начать играть» ведут на /play/ (307) → трекер aaamervix.top/qSQ3Xp (случайный хост, короткий код) — по правилу владельца чужой трекер; рекламы Mostbet нет. В подвале простая ссылка «interwetten schweiz» → jk-barber.ch → rosengarten-restaurant.ch."
+ },
+ {
+  "domain": "manimagi.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.75,
+  "comment": "Сайт китайского производителя нержавеющих труб, «Mostbet客服中心» вставлено в title и название компании — SEO-спам/взлом; ссылки на магазин 1688.com и китайские спам-домены без кода, рекламы чужого оператора нет."
+ },
+ {
+  "domain": "marisena.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet, кнопки «Graj teraz» ведут через свой шлюз /go/ на трекер partners-official.com/zpFfMdFL; этот трекер у других сайтов доходит до Spinanga (spinanga-4369.com, mid=267534), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mb-energies.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Главная переехала на societeclement.com — монобренд Мостбет «Рабочее зеркало»; кнопка «Бонусы» → ipc.html с meta refresh на getruvada.com/?promo=aad16364-…&target=register (партнёрская ссылка Vavada)."
+ },
+ {
+  "domain": "mcgrathstowing.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.75,
+  "comment": "Сайт китайской фирмы электросчётчиков, «Mostbet电竞平台» только в title — SEO-спам/взлом; ссылка wpa.qq.com — чат QQ, остальные внешние ссылки на китайские спам-домены без кода."
+ },
+ {
+  "domain": "mindfulness-nauczyciele.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet, кнопки «Graj teraz» ведут через свой шлюз /go/ на трекер partners-official.com/zpFfMdFL; этот трекер у других сайтов доходит до Spinanga (spinanga-4369.com, mid=267534), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mosbet-win.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.55,
+  "comment": "Монобренд «Mostbet зеркало», кнопка /play/ → 9partners-stat.com/click/6516cc8a…/1512/12262/subaccount (CPA-трекер, 404); получатель не подтверждён, засчитан как чужой трекер по правилу владельца."
+ },
+ {
+  "domain": "mosbet-win1.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.55,
+  "comment": "Копия mosbet-win.com: кнопка /play/ → 9partners-stat.com/click/6516cc8a…/1512/12262/subaccount (CPA-трекер, 404); получатель не подтверждён, засчитан как чужой трекер по правилу владельца."
+ },
+ {
+  "domain": "pogonimypis.pl",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Монобренд Mostbet, все кнопки (Login, Rejestracja, Zdobądź bonus) ведут на свой шлюз /go/login и /go/signup → playground.inexusgateway.com/disabled.html: кампания отключена, получатель неизвестен; inexusgateway ни у одного сайта не дошёл до чужого бренда."
+ },
+ {
+  "domain": "poznaj-kobiete.pl",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Монобренд Mostbet, все кнопки (Login, Rejestracja, Zdobądź bonus) ведут на свой шлюз /go/login и /go/signup → playground.inexusgateway.com/disabled.html: кампания отключена, получатель неизвестен; inexusgateway ни у одного сайта не дошёл до чужого бренда."
+ },
+ {
+  "domain": "psse-szamotuly.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet, кнопки «Graj teraz» ведут через свой шлюз /go/ на трекер partners-official.com/zpFfMdFL; этот трекер у других сайтов доходит до Spinanga (spinanga-4369.com, mid=267534), рекламы Mostbet нет."
+ },
+ {
+  "domain": "quickrbf.pics",
+  "given": "mono_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.5,
+  "comment": "PWA-«установщик» с названием Mostbet; оффер из /analytic/… и prevButton — трекер www.elitewagermax.com/49f49a29-… (404) с незаполненными макросами, не открылся. Получатель неизвестен: у PWA-лендингов сети примерно половина ведёт на Mostbet (pid=432659)."
+ },
+ {
+  "domain": "roboplast.com.pl",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Монобренд Mostbet, все кнопки (Login, Rejestracja, Zdobądź bonus) ведут на свой шлюз /go/login и /go/signup → playground.inexusgateway.com/disabled.html: кампания отключена, получатель неизвестен; inexusgateway ни у одного сайта не дошёл до чужого бренда."
+ },
+ {
+  "domain": "ronaldleedds.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet, кнопки «/go/mostbet» ведут через свой шлюз /go/ на трекер partners-official.com/W7RkZgH12; этот трекер у других сайтов доходит до Spinanga (spinanga-4369.com, mid=267534), рекламы Mostbet нет."
+ },
+ {
+  "domain": "royalgib.pics",
+  "given": "mono_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.5,
+  "comment": "PWA-«установщик» с названием Mostbet; оффер из /analytic/… и prevButton — трекер rd3kcy7q.playpwatop.com/rd3KcY7q с незаполненными макросами, не открылся. Получатель неизвестен: у PWA-лендингов сети примерно половина ведёт на Mostbet (pid=432659)."
+ },
+ {
+  "domain": "rzeszowopony.pl",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Монобренд Mostbet, все кнопки (Login, Rejestracja, Zdobądź bonus) ведут на свой шлюз /go/login и /go/signup → playground.inexusgateway.com/disabled.html: кампания отключена, получатель неизвестен; inexusgateway ни у одного сайта не дошёл до чужого бренда."
+ },
+ {
+  "domain": "seoprotect.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet, кнопки «Graj teraz» ведут через свой шлюз /go/ на трекер partners-official.com/zpFfMdFL; этот трекер у других сайтов доходит до Spinanga (spinanga-4369.com, mid=267534), рекламы Mostbet нет."
+ },
+ {
+  "domain": "shrockworks.com",
+  "given": "mono_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.5,
+  "comment": "Монобренд «Зеркало Мостбет», 6 кнопок /go/ → withbestwishes.xyz/next.php?sub_id_1=mostbet&sub_id_8=86, дальше страница блокировки сербского провайдера; получатель неизвестен, метка sub_id_1=mostbet скорее указывает на оффер Mostbet."
+ },
+ {
+  "domain": "skcchampion.pics",
+  "given": "mono_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.5,
+  "comment": "PWA-«установщик» с названием Mostbet; оффер из /analytic/… и prevButton — трекер www.elitewagermax.com/4b85c924-… (404) с незаполненными макросами, не открылся. Получатель неизвестен: у PWA-лендингов сети примерно половина ведёт на Mostbet (pid=432659)."
+ },
+ {
+  "domain": "societeclement.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Мостбет «Рабочее зеркало»; кнопка «Бонусы» → ipc.html с meta refresh на getruvada.com/?promo=aad16364-…&target=register (партнёрская ссылка Vavada)."
+ },
+ {
+  "domain": "sokolhas.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Монобренд Мостбет, 13 кнопок /play/ → трекер aaamervix.top/qSQ3Xp (случайный хост, короткий код) — по правилу владельца чужой трекер; рекламы Mostbet нет. В подвале простая ссылка «interwetten schweiz» → jk-barber.ch."
+ },
+ {
+  "domain": "svanekeis.dk",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "article",
+  "confidence": 0.7,
+  "comment": "WordPress «Hello World !» (клон bornholms-ismejeri.dk) с лентой польских постов про Mostbet; bornholms-ismejeri.dk/?p=517 — внутренние ссылки самого блога, не реклама. Прочие ссылки — простые на klig.pl, mowstrazacka.com, bdesh1xbet.com/app/ без кода."
+ },
+ {
+  "domain": "tmaudio.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet, кнопки «Graj teraz» ведут через свой шлюз /go/ на трекер partners-official.com/zpFfMdFL; этот трекер у других сайтов доходит до Spinanga (spinanga-4369.com, mid=267534), рекламы Mostbet нет."
+ },
+ {
+  "domain": "treeremovaljolietil.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet, кнопки «/go/mostbet» ведут через свой шлюз /go/ на трекер partners-official.com/W7RkZgH27; этот трекер у других сайтов доходит до Spinanga (spinanga-4369.com, mid=267534), рекламы Mostbet нет."
+ },
+ {
+  "domain": "uzstars.biz",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet UZ: 11 кнопок /reg → pg5i0mmb.com/8u4F (хост вида …mb.com, трекер Mostbet). promopult.ru/ref/… — реферальная ссылка SEO-сервиса, не гэмблинг."
+ },
+ {
+  "domain": "vitainfo.uz",
+  "given": "mono_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.5,
+  "comment": "Монобренд Mostbet Uz, кнопки /reg/mostbet → ibheo05.com/LpGF (connect_error). Код вида …F как у шортенеров Mostbet (…/yfuF, …/8UuF), сети mostbet-uz-site.com ведут туда же через /goto/mostbet.php — скорее трекер Mostbet, но не подтверждено."
+ },
+ {
+  "domain": "vulmedkolonoskopia.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet, кнопки «Graj teraz» ведут через свой шлюз /go/ на трекер partners-official.com/zpFfMdFL; этот трекер у других сайтов доходит до Spinanga (spinanga-4369.com, mid=267534), рекламы Mostbet нет."
+ },
+ {
+  "domain": "warsawdesignlab.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet, кнопки «Graj teraz» ведут через свой шлюз /go/ на трекер partners-official.com/zpFfMdFL; этот трекер у других сайтов доходит до Spinanga (spinanga-4369.com, mid=267534), рекламы Mostbet нет."
+ },
+ {
+  "domain": "wonam.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet, кнопки «Graj teraz» ведут через свой шлюз /go/ на трекер partners-official.com/zpFfMdFL; этот трекер у других сайтов доходит до Spinanga (spinanga-4369.com, mid=267534), рекламы Mostbet нет."
+ },
+ {
+  "domain": "xwfprime.top",
+  "given": "mono_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.5,
+  "comment": "PWA-«установщик» с названием Mostbet; оффер из /analytic/… и prevButton — трекер www.elitewagermax.com/b2f9a06b-… (404) с незаполненными макросами, не открылся. Получатель неизвестен: у PWA-лендингов сети примерно половина ведёт на Mostbet (pid=432659)."
+ },
+ {
+  "domain": "ydawnictwoc2.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet, кнопки «Graj teraz» ведут через свой шлюз /go/ на трекер partners-official.com/zpFfMdFL; этот трекер у других сайтов доходит до Spinanga (spinanga-4369.com, mid=267534), рекламы Mostbet нет."
+ },
+ {
+  "domain": "zoneathleticapparel.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet, кнопки «/go/mostbet» ведут через свой шлюз /go/ на трекер partners-official.com/W7RkZgH20; этот трекер у других сайтов доходит до Spinanga (spinanga-4369.com, mid=267534), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbet-casino-russia.ru",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.85,
+  "comment": "Заглушка хостера i7.ru «Сайт в процессе разработки»; ссылки my.i7.net (счётчик) и myvps.ru?utm_source=myssl.ru — реклама хостера, не гэмблинг."
+ },
+ {
+  "domain": "mostbet-ci7f7.top",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.85,
+  "comment": "Заглушка хостера i7.ru «Сайт в процессе разработки»; ссылки my.i7.net (счётчик) и myvps.ru?utm_source=myssl.ru — реклама хостера, не гэмблинг."
+ },
+ {
+  "domain": "mostbet-pion.ru",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.85,
+  "comment": "Заглушка хостера i7.ru «Сайт в процессе разработки»; ссылки my.i7.net (счётчик) и myvps.ru?utm_source=myssl.ru — реклама хостера, не гэмблинг."
+ },
+ {
+  "domain": "mostbet8.gg",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet на бенгали, кнопки «নিবন্ধন করুন» (регистрация, 3 шт.) ведут на www.bd89.love/?affiliateCode=seo003xin — партнёрская ссылка казино BD89."
+ }
+]

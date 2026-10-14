@@ -1,0 +1,322 @@
+[
+ {
+  "domain": "amkoprague.cz",
+  "given": "mono_no_ads",
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.9,
+  "comment": "Все CTA «Získat bonus / Otevřít Mostbet» с пустым href=\"\", внешних ссылок кроме nevyhrajte.cz нет; браузер кликал — никуда."
+ },
+ {
+  "domain": "babylonstudios.net",
+  "given": "mono_no_ads",
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.9,
+  "comment": "Кнопки «Ganhe Bônus», «Jackpot Aqui» ведут на #, скрипт autoptimize только прилепляет их к низу экрана."
+ },
+ {
+  "domain": "bombaybazarmadison.com",
+  "given": "mono_no_ads",
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.7,
+  "comment": "Все кнопки ведут на свой шлюз /gogo/, он отвечает 404 — кнопка никуда не ведёт. Шлюз может быть закрыт только для сканера."
+ },
+ {
+  "domain": "environmentalpolicyalliance.org",
+  "given": "mono_no_ads",
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.6,
+  "comment": "Все ссылки ведут на /mostbet/, он отдаёт 200 с пустым телом, браузер там же и остался; кнопки «Oyna» без ссылок. Чистый http — 403 от Cloudflare."
+ },
+ {
+  "domain": "marrakechtopsights.com",
+  "given": "mono_no_ads",
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "5 страниц про Mostbet на арабском, все «العب الآن» с href=\"#\", браузер после клика остался на главной; чужих брендов в тексте нет."
+ },
+ {
+  "domain": "mostbe.org",
+  "given": "mono_no_ads",
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.7,
+  "comment": "Все кнопки ведут на свой шлюз entry-mostbe.php, он отвечает 302, но куда — не записано и никто не прошёл."
+ },
+ {
+  "domain": "mostbet-10-24.top",
+  "given": "mono_no_ads",
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Главная переезжает на mostbet-10-25.top, там 16 ссылок на links-go9.top/mostbet*; у соседей этот трекер ведёт на Mostbet pid=297832. Ссылки отрисованной страницы в destinations не попали."
+ },
+ {
+  "domain": "mostbet-bonuses.online",
+  "given": "mono_no_ads",
+  "verdict": "wrong",
+  "should_be": "not_shown",
+  "confidence": 0.9,
+  "comment": "Во всех трёх снимках (http, google-mobile, googlebot) 403 «Sorry, you have been blocked» от Cloudflare; плотность 1.36 — это имя домена на странице блокировки."
+ },
+ {
+  "domain": "mostbet-casino-go356.top",
+  "given": "mono_no_ads",
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Переезжает на mostbet-casino-playni2.top; все кнопки с href=\"href\" (незаполненный шаблон ссылок), скриптов, которые их подставляют, нет."
+ },
+ {
+  "domain": "mostbet-kazino-igrat.ru",
+  "given": "mono_no_ads",
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "http и googlebot — блок Cloudflare, класс выведен из страницы блокировки. Живая монобрендовая страница есть только в google-mobile: кнопки работают через /uploads/main.js (не скачан), ссылки ведут на most-bet.berst59.ru — получатель неизвестен."
+ },
+ {
+  "domain": "mostbet-review.gb.net",
+  "given": "mono_no_ads",
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.6,
+  "comment": "Тот же шаблон, что environmentalpolicyalliance.org: все ссылки на /mostbet/, браузер остался на сайте; /mostbet/ для http — challenge Cloudflare."
+ },
+ {
+  "domain": "mostbet-sportwetten-de.com",
+  "given": "mono_no_ads",
+  "verdict": "wrong",
+  "should_be": "not_shown",
+  "confidence": 0.9,
+  "comment": "Во всех трёх снимках 403 «Sorry, you have been blocked» от Cloudflare; живой страницы нет."
+ },
+ {
+  "domain": "mostbet-turk.site",
+  "given": "mono_no_ads",
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Две кнопки «Giriş / Kayıt Ol» — <button> без обработчика, ссылок наружу нет."
+ },
+ {
+  "domain": "mostbet-zerkalo-ru.ru",
+  "given": "mono_no_ads",
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Переезжает на mostbet-probet19.top, там ссылки на links-go9.top/mostbet и /mostbet_cr; у соседей этот трекер ведёт на Mostbet pid=297832."
+ },
+ {
+  "domain": "mostbetbd3.org",
+  "given": "mono_no_ads",
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.7,
+  "comment": "Кнопки «রেজিস্টার / লগইন» на главной и всех внутренних страницах ведут на fg8017.com/register?affiliateCode=gg6663 (казино FG8). Ссылка в HTML есть, но в destinations для домена нет ни одной записи. Можно считать и bait: в тексте только «mostbetbd3», а не Mostbet."
+ },
+ {
+  "domain": "mostbetnp.bet",
+  "given": "mono_no_ads",
+  "verdict": "wrong",
+  "should_be": "mirror",
+  "confidence": 0.65,
+  "comment": "Шаблон официального SEO-сайта Mostbet: script.js берёт зеркало из uc3zxu6wdpmst.com/api/v1/seo-site/mirror, регистрация идёт через API Mostbet, support@mostbet.com, баннер mostbetshop.com."
+ },
+ {
+  "domain": "mostbeton24.ru",
+  "given": "mono_no_ads",
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Переезжает на mostbet-1e.ru, там ссылки на links-go9.top/mostbet; у соседей этот трекер ведёт на Mostbet pid=297832."
+ },
+ {
+  "domain": "playmania456.top",
+  "given": "mono_no_ads",
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "PWA-лендинг «Mostbet Slot»: предложение открывается после установки через /home/ и window.openLink, сканер до него не дошёл — получатель неизвестен, а не отсутствует."
+ },
+ {
+  "domain": "prantojyoti.in",
+  "given": "mono_no_ads",
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Ссылки только якорные #s1…#faq; mostbet.com только в og:url и schema, без кода."
+ },
+ {
+  "domain": "wolfpack-branding.com",
+  "given": "mono_no_ads",
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "WordPress-лендинг Mostbet Bangladesh, единственная ссылка — на свою главную. Отрисованного снимка нет, но кнопок в HTML нет."
+ },
+ {
+  "domain": "actal.in",
+  "given": "mono_unresolved",
+  "verdict": "wrong",
+  "should_be": "article",
+  "confidence": 0.75,
+  "comment": "Блог на WordPress с title «Actal», лента датированных постов (2 января 2026) про Mostbet; в постах анкорные ссылки на mostbet*.top и чужие статьи. По правилу владельца это article. Unresolved только из-за внутренних ссылок на посты, отдающих 404."
+ },
+ {
+  "domain": "casino-mostbet-slots.top",
+  "given": "mono_unresolved",
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезжает на mostbet-trm16.top; 40 ссылок на reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=7858 с пустой страницей — получатель неизвестен."
+ },
+ {
+  "domain": "mostbet-aiw81.buzz",
+  "given": "mono_unresolved",
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "reg.html ведёт на occlusometer-82.xyz/ryQCCs?sub_id_2=10445, пустая страница; ещё есть ссылка на mostbet.partners без кода."
+ },
+ {
+  "domain": "mostbet-bds12.sbs",
+  "given": "mono_unresolved",
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезжает на mostbet-nht96.cam, reg.html ведёт на occlusometer-82.xyz/ryQCCs?sub_id_2=6119 — пусто."
+ },
+ {
+  "domain": "mostbet-cnt84.cam",
+  "given": "mono_unresolved",
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезжает на mostbet-vsk15.buzz, reg.html ведёт на occlusometer-82.xyz/ryQCCs?sub_id_2=10742 — пусто."
+ },
+ {
+  "domain": "mostbet-fvp27.sbs",
+  "given": "mono_unresolved",
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "reg.html ведёт на occlusometer-82.xyz/ryQCCs?sub_id_2=11123 — пусто."
+ },
+ {
+  "domain": "mostbet-ide33gu.buzz",
+  "given": "mono_unresolved",
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезжает на mostbet-xto77.cam, reg.html ведёт на occlusometer-82.xyz/ryQCCs?sub_id_2=5837 — пусто."
+ },
+ {
+  "domain": "mostbet-iyk98.cam",
+  "given": "mono_unresolved",
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "reg.html ведёт на occlusometer-82.xyz/ryQCCs?sub_id_2=10369 — пусто."
+ },
+ {
+  "domain": "mostbet-laj65.sbs",
+  "given": "mono_unresolved",
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезжает на mostbet-dfy89.sbs, reg.html ведёт на occlusometer-82.xyz/ryQCCs?sub_id_2=11134 — пусто."
+ },
+ {
+  "domain": "mostbet-oli3.cam",
+  "given": "mono_unresolved",
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезжает на mostbet-sxz16.buzz, reg.html ведёт на occlusometer-82.xyz/ryQCCs?sub_id_2=4397 — пусто."
+ },
+ {
+  "domain": "mostbet-play.online",
+  "given": "mono_unresolved",
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.85,
+  "comment": "32 кнопки ведут на свой шлюз /go/, он закрыт challenge Cloudflare (403) — никто не прошёл."
+ },
+ {
+  "domain": "mostbet-rnk16.cfd",
+  "given": "mono_unresolved",
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезжает на mostbet-iik24.cfd, reg.html ведёт на occlusometer-82.xyz/ryQCCs?sub_id_2=10737 — пусто."
+ },
+ {
+  "domain": "mostbet-uzb.xyz",
+  "given": "mono_unresolved",
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Кнопки через data-uri (base64) ведут на mostbet-uzb.org/link, ClientOSError. Сайт закрыт по гео (restricted-access для не-UZ), шлюз мог быть закрыт так же."
+ },
+ {
+  "domain": "mostbet-vji65.cam",
+  "given": "mono_unresolved",
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезжает на mostbet-kty69.cam, reg.html ведёт на occlusometer-82.xyz/ryQCCs?sub_id_2=9824 — пусто."
+ },
+ {
+  "domain": "mostbet-whs2.top",
+  "given": "mono_unresolved",
+  "verdict": "wrong",
+  "should_be": "mono_no_ads",
+  "confidence": 0.7,
+  "comment": "Переезжает на mostbet-casino-play8r7.top; все кнопки с href=\"href\", скриптов, которые их подставляют, нет. Тот же шаблон, что go356 (там mono_no_ads); сюда класс увели placeholder_links и rotating_ads."
+ },
+ {
+  "domain": "mostbet-wzy3.top",
+  "given": "mono_unresolved",
+  "verdict": "wrong",
+  "should_be": "mono_no_ads",
+  "confidence": 0.7,
+  "comment": "Переезжает на mostbet-casino-playtm4.top, кнопки с href=\"href\" — пустой шаблон, как у go356 и whs2."
+ },
+ {
+  "domain": "mostbet-zx.ru",
+  "given": "mono_unresolved",
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Кнопки ведут на dhwqw.com/qeydiyyat/ и /aviator/ (таймаут) и на шлюз 3.33echelon.com/GMqHi (Shlink 404) — получатель неизвестен."
+ },
+ {
+  "domain": "mostbeta10.top",
+  "given": "mono_unresolved",
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезжает на mostbet-oht31.sbs, reg.html ведёт на occlusometer-82.xyz/ryQCCs?sub_id_2=7855 — пусто."
+ },
+ {
+  "domain": "mostbetkd.ru",
+  "given": "mono_unresolved",
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Тот же шаблон, что mostbet-zx.ru: dhwqw.com/qeydiyyat/ и /bonus/ — таймаут, 3.33echelon.com/GMqHi — 404."
+ },
+ {
+  "domain": "t-voice.net",
+  "given": "mono_unresolved",
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.7,
+  "comment": "Монобренд «Apostas Mostbet», кнопка «Ir para o site» ведёт на #. В блоке проданных ссылок анкоры pinco, pin up, casibom, «casino siteleri» ведут на чужие сайты, finut2020.com — каталог казино. Это простые ссылки на чужие сайты, не на операторов."
+ }
+]

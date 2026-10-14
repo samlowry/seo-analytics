@@ -1,0 +1,272 @@
+[
+ {
+  "domain": "app-mostbet-uz.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.8,
+  "comment": "Mostbet в домене, на главной индонезийский сайт тото/тогел «Hokiwin», про ставки Mostbet ни слова."
+ },
+ {
+  "domain": "aviatrixcasinos.com",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.7,
+  "comment": "Мультибрендовый обзорник Aviatrix; на странице /aviatrix-mostbet/ кнопка «Play now» (/visit/) ведёт на 1xbet.rs с tag=, не на Mostbet."
+ },
+ {
+  "domain": "az-mostbet-az.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.8,
+  "comment": "Mostbet в домене, страница — клон Google Play (PWA) с кнопкой на luckleon.com с партнёрскими sub-параметрами, чужое казино."
+ },
+ {
+  "domain": "bracexcursions.com",
+  "given": "mb_page_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.6,
+  "comment": "Сайт туров по Хорватии (Brač), взломан: спам-посты про Mostbet со смартлинком w3n7z2qt.top на 1xBet; к теме сайта это не относится."
+ },
+ {
+  "domain": "codenamewindows.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.55,
+  "comment": "Домен чужой, переезд на thehatchery.club: рейтинг четырёх операторов (Mostbet, Solverde, 888, Estoril Sol), кнопки ведут на трекер clickfrbt-2.com без известного получателя; монобренда нет."
+ },
+ {
+  "domain": "comediepaka.fr",
+  "given": "mb_page_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.5,
+  "comment": "Французский блог с набором Mostbet-дорвейных постов; главная мета-редиректом уходит на pier-trail.pages.dev; ссылки на mostbet-named домены (один через трекер ведёт на тайские слоты) — похоже на заспамленный/взломанный WP, не монобренд-сайт."
+ },
+ {
+  "domain": "completegamester.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (title/h1); есть кнопка login с pid=155157 и прямая ссылка на оператора 1win.global/Casino."
+ },
+ {
+  "domain": "dailysports.net",
+  "given": "mb_page_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.6,
+  "comment": "Спортивные новости и обзоры букмекеров; на странице /bookmakers/mostbet/ только внутренние ссылки и go.dailysports.net (первая — Mostbet pid=9088), чужие партнёрские ссылки стоят на других страницах."
+ },
+ {
+  "domain": "fairfarmsnoworg14.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (title/h1 азерб.), кнопка /play.php ведёт на 1xbet.rs с tag= смартлинка; Mostbet-рефки нет."
+ },
+ {
+  "domain": "fifthstrategy.com",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.55,
+  "comment": "Дефолтный WP-блог с лентой постов; в посте про Mostbet прямая ссылка «1win az» на 1win-giris-az.com (оператор), без кода."
+ },
+ {
+  "domain": "goldparty-argentina.com",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.7,
+  "comment": "Рейтинг казино; на странице /casinos/mostbet/ кнопки /go/mostbet и /go/play ведут на чужие трекеры (spinlendos.com, caposino1.com), не на Mostbet."
+ },
+ {
+  "domain": "iamkrewki.pl",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet PL; есть ссылка на Mostbet с pid=401053 и оффер-трекер getplay.plseocpa.com (sub4=Morospin) — чужая реклама."
+ },
+ {
+  "domain": "liminaltidesmag.com",
+  "given": "mb_page_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.6,
+  "comment": "Журнал про политеистов, взломан: загруженные посты про Mostbet со ссылкой «1 win az» на 1win-giris-az.com; сама тема сайта не про ставки."
+ },
+ {
+  "domain": "livecricketcup.com",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.6,
+  "comment": "Крикет-блог; на странице про Mostbet App India картинки-ссылки напрямую на операторов 4rabetbd.net и bet365india.net."
+ },
+ {
+  "domain": "mo-stb-et.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet PL; /go/ ведёт на Mostbet pid=147099, плюс трекер refpilot.top (чужой, redirect-verde.com)."
+ },
+ {
+  "domain": "mostbet-2rus.xyz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, главная переезжает на casinozlucky.com (казино «Лев») с партнёрским ref=fap_… и site=mostbet-2rus.xyz."
+ },
+ {
+  "domain": "mostbet-aaui.xyz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, главная переезжает на casinozlucky.com (казино «Лев») с партнёрским ref=fap_… и site=mostbet-aaui.xyz."
+ },
+ {
+  "domain": "mostbet-apk-online.mobi",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, главная переезжает на casinozlucky.com (казино «Лев») с партнёрским ref=fap_… и site=mostbet-apk-online.mobi."
+ },
+ {
+  "domain": "mostbet-cz1.xyz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, главная переезжает на casinozlucky.com (казино «Лев») с партнёрским ref=fap_… и site=mostbet-cz1.xyz."
+ },
+ {
+  "domain": "mostbet-betting-az.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet AZ (после переезда на macrorruedasproexport.com); ссылка на Mostbet pid=184831 и прямая ссылка на оператора 1win.global/Casino."
+ },
+ {
+  "domain": "mostbet-depositar.xyz",
+  "given": "redirect_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "redirect_other",
+  "confidence": 0.35,
+  "comment": "Обычному клиенту Cloudflare 403; для google-mobile скрипт через 1 с шлёт на t2m.co/most-bet, куда это ведёт — на диске нет."
+ },
+ {
+  "domain": "mostbet-in3.xyz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.8,
+  "comment": "Mostbet в домене, главная редиректит на lewis-kickback.top (казино «Лев»)."
+ },
+ {
+  "domain": "mostbet-kashan.top",
+  "given": "discredit",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "discredit",
+  "confidence": 0.55,
+  "comment": "Mostbet в домене, страница — пустой шаблон Google Play «App name» без игр и ставок, ничего про Mostbet."
+ },
+ {
+  "domain": "mostbet-pk.pro",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (домен/title/h1), кнопка /go-now ведёт на 1xbet.rs с tag= смартлинка."
+ },
+ {
+  "domain": "mostbet-registraciya-2025.top",
+  "given": "bait",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "dead",
+  "confidence": 0.7,
+  "comment": "Домен не резолвится (DNS_PROBE_FINISHED_NXDOMAIN), содержимого нет; «реклама» html5rocks.com — мусор из страницы ошибки."
+ },
+ {
+  "domain": "mostbet-sl-bet.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet; login ведёт на Mostbet pid=184831, плюс прямая ссылка на оператора 1win.global/Casino."
+ },
+ {
+  "domain": "mostbet-uz.fun",
+  "given": "bait",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "redirect_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, главная переезжает на 1wyikj.life — сайт казино 1win; это редирект на чужое, а не bait-страница."
+ },
+ {
+  "domain": "mostbet-zerkal.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (домен/title); кнопка updatezone.net/Bjyjf1TL ведёт на one-vv0352.com (1win), ещё трекер ketanatut.com."
+ },
+ {
+  "domain": "mostbet.kz",
+  "given": "discredit",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "discredit",
+  "confidence": 0.75,
+  "comment": "Mostbet в домене, содержимое — новости спорта Казахстана без ставок; в шапке «MOST BET»."
+ },
+ {
+  "domain": "mostbet.pics",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.8,
+  "comment": "Mostbet в домене, страница — PWA-клон Google Play игры «Royal Joker» (Playson), про Mostbet ничего."
+ }
+]

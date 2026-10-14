@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbetbd3.app",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbetbd3 (домен, title, h1); кнопка «নিবন্ধন করুন» ведёт на www.11kk.co/register?affiliateCode=gg0003 — партнёрка чужого оператора."
+ },
+ {
+  "domain": "mostbetbd3.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbetbd3; кнопка регистрации — www.11kk.co/register?affiliateCode=gg0003, чужой оператор с кодом партнёра."
+ },
+ {
+  "domain": "mostbetbr.click",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbetbr (домен, title, h1); кнопки регистрации ведут на www.fg8016.com/register?affiliateCode=gg6662 (FG8) — партнёрская ссылка чужого оператора."
+ },
+ {
+  "domain": "mostbetbr.ws",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbetbr; кнопки регистрации ведут на www.fg8016.com/register?affiliateCode=gg6662 (FG8) — партнёрская ссылка чужого оператора."
+ },
+ {
+  "domain": "mostbetbrl.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (PT-BR); кнопки «R$500 BÔNUS» ведут через 77774.cc и yh.bet9199p.com?ch=32474 на yht.*.com/register?ch=32474 — чужое казино с кодом канала."
+ },
+ {
+  "domain": "mostbetcasino-ar.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet Argentina; кнопка регистрации — refpa5124.com/L?tag=d_5928235m_97140c_ (партнёрка семейства 1xBet), уводит на betjam.com."
+ },
+ {
+  "domain": "mostbetcasino-argentina.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet Argentina; кнопка — refpa5124.com/L?tag=d_5928235m_97140c_ → betjam.com, чужая партнёрка."
+ },
+ {
+  "domain": "mostbetcasino-online-cz.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Монобренд Mostbet Casino CZ; «Hrát teď» ведёт на трекер thecasinoplayed.com/bGmtSytK?sub2=julcas&source=…, который с других сайтов уводит на joi.com, не на Mostbet — чужой трекер."
+ },
+ {
+  "domain": "mostbetcasino-onlinecz.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Монобренд Mostbet Casino CZ; все «Hrajte nyní» ведут на thecasinoplayed.com/bGmtSytK?sub2=julcas — чужой трекер (у других сайтов → joi.com)."
+ },
+ {
+  "domain": "mostbetcasino-portugal.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд MostBet Casino Portugal; кнопки через gotogame1.com/8R4vjg?sub_id_1=6784 ведут на ginjacasino-aff-0751.com/pt/regtel (qtag) — чужое казино."
+ },
+ {
+  "domain": "mostbetcasino.com.gr",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Монобренд Mostbet (домен, h1); все 155 кнопок ведут на свой /go/ → goplayredirect.online/2530a15f93d0?var1=mstbtcsncmgr; конечный бренд в файлах не найден, засчитан по правилу о чужом трекере."
+ },
+ {
+  "domain": "mostbetcasino.edu.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд MostBet Casino PL; кнопки — g-vektor.ru/xNfCxX → martinway66.com?ctag=… — чужое казино по партнёрскому тегу."
+ },
+ {
+  "domain": "mostbetcasino.pk",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Монобренд Mostbet Casino (134 упоминания); кнопка traf-link.com/mostbet-pk → a.gambburj.com/click?pid=154922 → refpugotds.com → лид-форма btwerz.p56219up84.com, не Mostbet."
+ },
+ {
+  "domain": "mostbetclub.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet Giriş; баннеры ведут на турецкие казино: t.ly/netbahisaff?btag=1524 → 467netbahis.com, roysshort.com → casinoroys422.com, grndbt.top → grandbahis1090.com и др."
+ },
+ {
+  "domain": "mostbetco.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене и h1, но title и текст про приложение Winlucky 001 Slot (35 упоминаний против 15), кнопка «Download Now» — winlucky001.com/invitation-apply?code=DSVlNER: внутри чужое казино-приложение."
+ },
+ {
+  "domain": "mostbetcom.ws",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet Com; кнопка регистрации — www.520bd09.vip/register?affiliateCode=ge8bd0k, чужой оператор с кодом партнёра."
+ },
+ {
+  "domain": "mostbetcz-app.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet Aplikace; кнопка через liberaldom.com/Qhm5svhY ведёт на koraly7.com (тот же лендинг у других сайтов через heroaff/betmenaffiliates) — чужая партнёрка; плюс PWA most.playmarket-play.click."
+ },
+ {
+  "domain": "mostbetcz-casino.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet Casino CZ; «Hrát na Mostbet» через liberaldom.com/qsNtTwCB ведёт на golisimo-1278.com/cs/registration?mid=… — чужое казино."
+ },
+ {
+  "domain": "mostbetdownload-pt.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Монобренд Mostbet APK; все кнопки (DOWNLOAD, free money) ведут на uidwmhs.com/3byF — короткий код в формате трекеров Mostbet, получатель не открылся, у другого сайта этот хост припаркован (ww38); чужого бренда не видно."
+ },
+ {
+  "domain": "mostbete.app",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbete; кнопки регистрации ведут на www.fg8016.com/register?affiliateCode=gg6662 (FG8) — партнёрская ссылка чужого оператора."
+ },
+ {
+  "domain": "mostbete.bet",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbete; кнопки регистрации ведут на www.fg8016.com/register?affiliateCode=gg6662 (FG8) — партнёрская ссылка чужого оператора."
+ },
+ {
+  "domain": "mostbete.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbete; кнопки регистрации ведут на www.fg8016.com/register?affiliateCode=gg6662 (FG8) — партнёрская ссылка чужого оператора."
+ },
+ {
+  "domain": "mostbetinbd.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Единственная кнопка /visit/mostbet/ ведёт на lfpvspmb.com/sport/football/bd/…?pid=398653 — рефка самого Mostbet; на главной и 4 внутренних страницах других внешних ссылок нет."
+ },
+ {
+  "domain": "mostbetkz.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Монобренд Мостбет KZ; кнопка «РЕГИСТРАЦИЯ» — ineifhgvjdmnvn.xyz/WSsPYB?sub2=cross&source=mostbetkz.org, трекер уводит на joi.com, не на Mostbet."
+ },
+ {
+  "domain": "mostbetlinks.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Title и h1 Mostbet, текст выдаёт себя за Mostbet; кнопка «PLAY NOW» — dx.7467pp42.com?ch=71403 → ff.7467k3l7.com, чужое казино с кодом канала."
+ },
+ {
+  "domain": "mostbetm-az.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet Az; внешние ссылки только en.psg.fr (в тексте о спонсорстве), mostbet-az.mobi и generatepress.com — без кода партнёра, не операторы; рекламы чужих нет и на 3 внутренних страницах."
+ },
+ {
+  "domain": "mostbetonlineco.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet Colombia; кнопки через свой /go → bridgemakvor.com/md042cv ведут на oroplay-161.com/es/registration?qtag=… — чужое казино."
+ },
+ {
+  "domain": "mostbetpkr.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (урду); кнопка регистрации — k9winpkr2.com/?aff=kny, чужой оператор K9win с кодом партнёра."
+ },
+ {
+  "domain": "mostbetpkr.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (урду); кнопка — k9winpkr2.com/?aff=kny, чужой оператор с кодом партнёра."
+ },
+ {
+  "domain": "mostbetpl.bet",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbetpl; кнопки регистрации ведут на www.fg8016.com/register?affiliateCode=gg6662 (FG8) — партнёрская ссылка чужого оператора."
+ },
+ {
+  "domain": "mostbetpl.biz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbetpl; кнопки регистрации ведут на www.fg8016.com/register?affiliateCode=gg6662 (FG8) — партнёрская ссылка чужого оператора."
+ },
+ {
+  "domain": "mostbetpl.ws",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbetpl; кнопки регистрации ведут на www.fg8016.com/register?affiliateCode=gg6662 (FG8) — партнёрская ссылка чужого оператора."
+ },
+ {
+  "domain": "mostbetplay.co",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet Colombia; «Jugar en Mostbet» через /go → bridgemakvor.com/md042cv → oroplay-161.com/es/registration?qtag=… — чужое казино."
+ },
+ {
+  "domain": "mostbetpolska.com.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet Kasyno; кнопка — xxxreff.xyz/3SbMqc?source=… → 593nv.casino/en/20-eur-nodep?atp=… — чужое казино."
+ },
+ {
+  "domain": "mostbetpromo.ru",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.85,
+  "comment": "Это заглушка регистратора i7: «Срок регистрации домена истёк 14.09.2026»; ссылки my.i7.ru/billmgr — продление домена, не реклама."
+ },
+ {
+  "domain": "mostbetpromo1.ru",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.85,
+  "comment": "Заглушка регистратора i7 об истёкшем домене; ссылки my.i7.ru/billmgr и my.i7.net/counter — сервис регистратора, не реклама."
+ },
+ {
+  "domain": "mostbets-deutschland.de",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet DE; кнопка «REGISTRIERUNG» — xxxreff.xyz/3SbMqc → 593nv.casino/en/20-eur-nodep — чужое казино."
+ },
+ {
+  "domain": "mostbets-poland.com.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet Casino PL; кнопка — xxxreff.xyz/3SbMqc → 593nv.casino — чужое казино."
+ },
+ {
+  "domain": "mostbets-polska.com.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet Polska; кнопка — xxxreff.xyz/3SbMqc → 593nv.casino — чужое казино."
+ },
+ {
+  "domain": "mostbets.im",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbets; кнопки регистрации ведут на www.fg8016.com/register?affiliateCode=gg6662 (FG8) — партнёрская ссылка чужого оператора."
+ },
+ {
+  "domain": "mostbets.pro",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbets; кнопки регистрации ведут на www.fg8016.com/register?affiliateCode=gg6662 (FG8) — партнёрская ссылка чужого оператора."
+ },
+ {
+  "domain": "mostbets.ws",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbets; кнопки регистрации ведут на www.fg8016.com/register?affiliateCode=gg6662 (FG8) — партнёрская ссылка чужого оператора."
+ },
+ {
+  "domain": "mostbetscasino.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд MostBet Casino; кнопки через gotogame1.com/8R4vjg?sub_id_1=6783 → ginjacasino-aff-0751.com/pt/regtel (qtag) — чужое казино."
+ },
+ {
+  "domain": "mostbett.com.pk",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet Pakistan; кнопка «APK ڈاؤن لوڈ» — Lucky-100.com/apk-pk.html → kkwin7.com/?ch=183 (KKCLUB) — чужое приложение-казино."
+ },
+ {
+  "domain": "mostbetuzbekistansayt.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Монобренд Mostbet UZ; все 7 кнопок — свой /go/mostbet.php → ibheo05.com/lJTS (короткий код в формате трекеров Mostbet), трекер не открывается ни с одного сайта; чужого бренда не видно."
+ },
+ {
+  "domain": "mostbetzerkalo.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд «Зеркало Мостбет»; ссылка aff1xstavka.top/L?tag=s_165427m_1341c_ — партнёрка 1xСтавки; плюс реферальная promopult.ru/ref/…"
+ },
+ {
+  "domain": "mxmostbet.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet México; кнопки — gy51p82.com/main/inicio?ch=5154 → казино chido55.mx, чужой оператор."
+ },
+ {
+  "domain": "npsoft.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Главная переезжает на mostbets-deutschland.de: монобренд Mostbet DE с кнопкой xxxreff.xyz/3SbMqc → 593nv.casino — чужое казино."
+ },
+ {
+  "domain": "official-mostbet.ae.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Мостбет; кнопки «Вход»/«Регистрация» — use-matchtrafficpulse.com/l/…?click_id=mostbet и dealbest-redirect.com/?s=154&ref=sl_w243680… (у других сайтов → ON-X Casino) — чужая партнёрка."
+ },
+ {
+  "domain": "opmostbet.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet México; кнопки — gy51p82.com/main/inicio?ch=5154 → chido55.mx, чужой оператор."
+ }
+]

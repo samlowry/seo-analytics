@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbet-93.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Кнопки data-split через /uploads/main.js ведут на 33echelon.com (Shlink, получатель не установлен), ссылки на dhwqw.com (/bonus/, /aviator/ и др.) мёртвые — таймаут у всех сайтов сети; чужих брендов и скрытых ссылок на чужих нет."
+ },
+ {
+  "domain": "mostbet-93.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Кнопки data-split через /uploads/main.js ведут на 33echelon.com (Shlink, получатель не установлен), ссылки на dhwqw.com (/bonus/, /aviator/ и др.) мёртвые — таймаут у всех сайтов сети; чужих брендов и скрытых ссылок на чужих нет."
+ },
+ {
+  "domain": "mostbet-94.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Кнопки data-split через /uploads/main.js ведут на 33echelon.com (Shlink, получатель не установлен), ссылки на dhwqw.com (/bonus/, /aviator/ и др.) мёртвые — таймаут у всех сайтов сети; чужих брендов и скрытых ссылок на чужих нет."
+ },
+ {
+  "domain": "mostbet-94.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Кнопки data-split через /uploads/main.js ведут на 33echelon.com (Shlink, получатель не установлен), ссылки на dhwqw.com (/bonus/, /aviator/ и др.) мёртвые — таймаут у всех сайтов сети; чужих брендов и скрытых ссылок на чужих нет."
+ },
+ {
+  "domain": "mostbet-9eii.xyz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-dlw81.sbs: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=5884 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-9fvhtic.buzz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-uoe95rg.cfd: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=5772 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-9lv6.xyz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-vor19.cam: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=8213 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-9mg7ar6.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-lqk14.cfd: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=5788 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-9o6c.xyz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-hbt56.buzz: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=8081 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-9qp.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-mce23.cfd: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=33104 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-9xtx.xyz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-ulf46.sbs: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=10752 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-aab97.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-djo59.sbs: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=5836 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-aad97.sbs",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=33096 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-abi89.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-lzu61.cfd: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=10828 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-abm61.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-nnr61.buzz: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=7812 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-abo68.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-cri27.cam: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=10505 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-abw63.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-bzv27.sbs: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=7612 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-ace9.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-pga84.buzz: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=4319 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-acf11.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=7761 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-acm87.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-vwz65.cam: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=13679 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-acm93.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-vnx48.top: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=320 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-acx81.buzz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-cmr86.sbs: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=8495 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-ads64.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=7988 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-adu28.sbs",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-vmx33.cam: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=10518 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-afj23.buzz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-kvh22.buzz: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=325 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-afq53.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-vpj41.top: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=10517 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-afx71.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-efw58zh.sbs: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=5949 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-afx99.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-dit93.cfd: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=358 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-ag5dk.xyz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-cxr54.sbs: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=33109 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-agl49.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-iik24.cfd: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=10737 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-agp12.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=7920 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-agr69.sbs",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-qbq85.sbs: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=5953 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-aha88.cfd",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=ID с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-aif66.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=434 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-aiw81.buzz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=10445 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-aiy62wv.cfd",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-alv68.cam: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=5842 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-akc68.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-aif66.top: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=434 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-ako25.buzz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-jnj89.sbs: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=13739 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-alv68.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=5842 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-aly11.sbs",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-wpf95.buzz: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=10374 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-am5.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-lbf59.buzz: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=33190 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-ama28.cfd",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=9876 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-amp10.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-fuf17.cfd: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=10376 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-amp2.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-sjf64.cfd: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=8000 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-amp3.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-kxw75.cfd: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=8065 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-amp4.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-0lez608.top: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=5940 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-amp5.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-axkvtc6.cam: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=5769 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-amp6.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-jxs19.sbs: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=8570 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-amp8.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-xcx21.top: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=8064 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbet-aog7.buzz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbet-kvh22.buzz: кнопки ведут на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs?sub_id_2=325 с пустой страницей (у 1700+ сайтов сети тоже пусто); прочая внешняя ссылка — mostbet.partners без кода, чужих брендов и скрытых ссылок нет."
+ }
+]

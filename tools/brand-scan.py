@@ -1,10 +1,10 @@
 """Brand scan: who does each site advertise — Mostbet, someone else, both or nobody.
 
 Run, HTTP pass first (fast, no browser):
-  nice -n 10 uv run --with aiohttp --with selectolax \\
+  nice -n 10 uv run --with aiohttp --with 'selectolax<1' \\
       python tools/brand-scan.py <queue.csv> <out_dir> --mode http [--concurrency 40]
 then the browser pass over what HTTP could not settle:
-  nice -n 10 uv run --with 'camoufox[geoip]' --with aiohttp --with selectolax \\
+  nice -n 10 uv run --with 'camoufox[geoip]' --with aiohttp --with 'selectolax<1' \\
       python tools/brand-scan.py <queue.csv> <out_dir> --mode browser --from-http [--concurrency 5]
 
 Input: a CSV with a `domain` column (camoufox-queue.csv or resolves-minus-ours-unique.csv).

@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbet-nepal.bet",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Лендинг WordPress из 234 символов, внешних ссылок и кнопок нет — только wp-login."
+ },
+ {
+  "domain": "mostbet-no.org",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.85,
+  "comment": "Заглушка «We'll be back soon» с логотипом Mostbet, ссылок нет."
+ },
+ {
+  "domain": "mostbet-nor.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Норвежская копия про Mostbet: ссылки только внутренние (/mostbet-casino/, /#), askresearchandmethods.org и mostbet-norwayonline.com — лишь canonical/hreflang в <head>, чужой рекламы нет."
+ },
+ {
+  "domain": "mostbet-norway-online.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Норвежская копия про Mostbet: ссылки только внутренние (/mostbet-casino/, /#), askresearchandmethods.org и mostbet-norwayonline.com — лишь canonical/hreflang в <head>, чужой рекламы нет."
+ },
+ {
+  "domain": "mostbet-norwayonline.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Норвежская копия про Mostbet: ссылки только внутренние (/mostbet-casino/, /#), askresearchandmethods.org и mostbet-norwayonline.com — лишь canonical/hreflang в <head>, чужой рекламы нет."
+ },
+ {
+  "domain": "mostbet-ofcl-amp.ru",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Кнопки (13 шт.) ведут на most-bet.berst59.ru, плюс ссылки на municipal-sd.ru/bonus-program-mostbet/ — оба сайта про Mostbet без кода партнёра; relay-cedar…run.app только amphtml в <head>. Чужой рекламы нет."
+ },
+ {
+  "domain": "mostbet-ofcl-mobru.ru",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Кнопки (13 шт.) ведут на most-bet.berst59.ru, плюс ссылки на municipal-sd.ru/bonus-program-mostbet/ — оба сайта про Mostbet без кода партнёра; relay-cedar…run.app только amphtml в <head>. Чужой рекламы нет."
+ },
+ {
+  "domain": "mostbet-ofitsialnikazino-mostbet.ru",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Кнопки (13 шт.) ведут на most-bet.berst59.ru, плюс ссылки на municipal-sd.ru/bonus-program-mostbet/ — оба сайта про Mostbet без кода партнёра; relay-cedar…run.app только amphtml в <head>. Чужой рекламы нет."
+ },
+ {
+  "domain": "mostbet-ofitsialniy-sayt-vkhod.ru",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Кнопки (13 шт.) ведут на most-bet.berst59.ru, плюс ссылки на municipal-sd.ru/bonus-program-mostbet/ — оба сайта про Mostbet без кода партнёра; relay-cedar…run.app только amphtml в <head>. Чужой рекламы нет."
+ },
+ {
+  "domain": "mostbet-ofitsialniy-sayt.ru",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Кнопки (13 шт.) ведут на most-bet.berst59.ru, плюс ссылки на municipal-sd.ru/bonus-program-mostbet/ — оба сайта про Mostbet без кода партнёра; relay-cedar…run.app только amphtml в <head>. Чужой рекламы нет."
+ },
+ {
+  "domain": "mostbet-onlayn.ru",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.8,
+  "comment": "Кнопки (13 шт.) ведут на most-bet.berst59.ru, плюс ссылки на municipal-sd.ru/bonus-program-mostbet/ — оба сайта про Mostbet без кода партнёра; relay-cedar…run.app только amphtml в <head>. Чужой рекламы нет."
+ },
+ {
+  "domain": "mostbet-online-app-bd.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Ссылки только внутренние (/, /#); theurbangardeninitiative.org — canonical/hreflang в <head>, не реклама."
+ },
+ {
+  "domain": "mostbet-online-casino-bd.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Ссылки только внутренние (/, /#); theurbangardeninitiative.org — canonical/hreflang в <head>, не реклама."
+ },
+ {
+  "domain": "mostbet-online-casino.cz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Все ссылки — якоря по странице (#xr-bonusy, #aviator); elvl.cz только в canonical и JSON-LD про Mostbet CZ."
+ },
+ {
+  "domain": "mostbet-pl.xyz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Единственная кнопка /tocasino/ отдаёт 301, куда — в данных нет; чужих ссылок на странице нет."
+ },
+ {
+  "domain": "mostbet-pl27.online",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.9,
+  "comment": "Шаблон GoDaddy «Launching Soon», ссылки только на godaddy.com."
+ },
+ {
+  "domain": "mostbet-portugal.casino",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.85,
+  "comment": "Пустой WordPress: текст «Top», страницы hello-world/sample-page, внешних ссылок нет; location.href=atob() — код темы без адресов."
+ },
+ {
+  "domain": "mostbet-registraci.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Страница «Probíhá velký rebranding», кнопки «#», внешние ссылки только на hazardni-hrani.cz, begambleaware, gamcare."
+ },
+ {
+  "domain": "mostbet-rf4.ru",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "15 кнопок «ПЕРЕЙТИ НА MOSTBET» ведут на /goto/, который отдаёт 404 — кнопки никуда не ведут; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-romania.ro",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "Заглушка регистратора «domain name is not available for registration», ссылка только на whoisprivacy.domains."
+ },
+ {
+  "domain": "mostbet-site1.kz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Для посетителя из Google 64 кнопки ведут на свой шлюз /see, куда он уводит — не измерено; чужих ссылок в HTML нет."
+ },
+ {
+  "domain": "mostbet-slot.ru",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "7 кнопок ведут на свой шлюз /go/, получатель в данных не найден; внешних ссылок на чужие бренды нет."
+ },
+ {
+  "domain": "mostbet-sport-kazakhstan.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "dead",
+  "confidence": 0.9,
+  "comment": "Страница cPanel по умолчанию «SORRY! … IP address has changed», содержимого нет."
+ },
+ {
+  "domain": "mostbet-ukraina.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Статья про Мостбет Украина: ссылки только якоря и комментарии, внешние — тема famethemes; iframe — шаблоны лайтбокса видео."
+ },
+ {
+  "domain": "mostbet-uzbekistan-bonus.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.7,
+  "comment": "Переезжает на dynamicefi.com с текстом про Mostbet UZ; ссылки внутренние (/aviator/, /bonus/), mostbetuzskachat.com — только в <head>."
+ },
+ {
+  "domain": "mostbet-vhod2025.kz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Копия «Мостбет в Казахстане»: 12 кнопок ведут на свой шлюз /see/, получатель не измерен (с RS — 403); чужих ссылок в HTML нет."
+ },
+ {
+  "domain": "mostbet-vhod24.kz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Копия «Мостбет в Казахстане»: 12 кнопок ведут на свой шлюз /see/, получатель не измерен (с RS — 403); чужих ссылок в HTML нет."
+ },
+ {
+  "domain": "mostbet-vhod25.kz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Копия «Мостбет в Казахстане»: 12 кнопок ведут на свой шлюз /see/, получатель не измерен (с RS — 403); чужих ссылок в HTML нет."
+ },
+ {
+  "domain": "mostbet-win.co",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Кнопки /go/ уводят 301 обратно на главную mostbet-win.co — рекламы нет."
+ },
+ {
+  "domain": "mostbet-yukle1.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.75,
+  "comment": "Ссылки только «/» и «/#»; mostbet-az-site.com, mostbet-azerbaijan-amp.com, sayeitwithstyle.com — в <head>, не кнопки."
+ },
+ {
+  "domain": "mostbet.bg",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "Заглушка регистратора «domain name is not available for registration», ссылка только на whoisprivacy.domains."
+ },
+ {
+  "domain": "mostbet.ch",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "20 кнопок ведут на свою /registrierung, внешние ссылки — safezone.ch и suchtschweiz.ch (помощь при зависимости)."
+ },
+ {
+  "domain": "mostbet.com.ec",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "Заглушка регистратора «domain name is not available for registration», ссылка только на whoisprivacy.domains."
+ },
+ {
+  "domain": "mostbet.com.ng",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "Заглушка регистратора «domain name is not available for registration», ссылка только на whoisprivacy.domains."
+ },
+ {
+  "domain": "mostbet.company",
+  "given": "mono_no_ads",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_no_ads",
+  "confidence": 0.4,
+  "comment": "Вход в веб-почту «mail.mostbetmanager.com - mail UI», о ставках ничего; похоже на служебную почту самого бренда, а не discredit — данных о владельце нет."
+ },
+ {
+  "domain": "mostbet.dk",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "Заглушка регистратора «domain name is not available for registration», ссылка только на whoisprivacy.domains."
+ },
+ {
+  "domain": "mostbet.si",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "Заглушка регистратора «domain name is not available for registration», ссылка только на whoisprivacy.domains."
+ },
+ {
+  "domain": "mostbet.today",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Кнопки Register/Login в шапке ведут на skylink.lat/bang1 → a33bmw.com/register?affiliateCode=seozy006 (казино 33BMW), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbet.watch",
+  "given": "mono_no_ads",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "discredit",
+  "confidence": 0.4,
+  "comment": "Политика приватности приложения «Mostbet … Glass · Heat · Rhythm» от Business Networks (help@it-business-networks.online), о ставках ни слова — либо прикрытие приложения, либо discredit."
+ },
+ {
+  "domain": "mostbet1.com.pk",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.85,
+  "comment": "Тестовая страница «test» с PHP-предупреждениями, ссылок нет."
+ },
+ {
+  "domain": "mostbet2024.casino",
+  "given": "mono_no_ads",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "article",
+  "confidence": 0.4,
+  "comment": "Mostbet в домене, внутри одна статья про наземные казино Великобритании («Casino Night in Great Britain»), брендов и ссылок наружу нет — ни bait, ни discredit однозначно."
+ },
+ {
+  "domain": "mostbet2025.top",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.75,
+  "comment": "7 кнопок ведут на /play, который отдаёт 302 на себя; внешних ссылок нет."
+ },
+ {
+  "domain": "mostbetaplikacja.net.pl",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "Парковка Aftermarket.pl; w3.mrgreenkasyno.pl и др. — список выставленных на продажу доменов парковки, не реклама."
+ },
+ {
+  "domain": "mostbetazerbaijanonline.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.7,
+  "comment": "Блок «Official partners» внизу — 3 видимые ссылки «mostbet» на главную lovebylynzie.com (чужой дорвей про Mostbet, сам рекламирует 1xBet через /go); не скрыт, на оператора не ведёт."
+ },
+ {
+  "domain": "mostbetazplay.online",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.9,
+  "comment": "Пустой листинг «Index of /» с папкой cgi-bin."
+ },
+ {
+  "domain": "mostbetbahissitesi1.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "13 кнопок ведут на свой шлюз /visi/, получатель не измерен (с RS — Access denied); чужих ссылок в HTML нет."
+ },
+ {
+  "domain": "mostbetcasino-italy.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Переезжает на mostbet-italia.it: кнопки #go и внутренние страницы, внешние — регуляторы (curacao-egaming, mga) и begambleaware."
+ },
+ {
+  "domain": "mostbetcasino.ci",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "Заглушка регистратора «domain name is not available for registration», ссылка только на whoisprivacy.domains."
+ },
+ {
+  "domain": "mostbetcasino.com.mx",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "Страница продажи/аренды домена broker.mx, ставок нет."
+ },
+ {
+  "domain": "mostbetcasino.win",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.75,
+  "comment": "7 кнопок ведут на свою /go/, которая остаётся на сайте (200); внешние — begambleaware, gamban."
+ }
+]

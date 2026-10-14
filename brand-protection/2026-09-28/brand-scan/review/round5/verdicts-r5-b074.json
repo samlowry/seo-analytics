@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbets-czech.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Casino ✅ Oficiální webová stránka kasina M»); кнопка https://mostbets-czech.cz/play/ ведёт на https://one-vv3429.com/sr-RS/?p=hztd&sub1=2vj6gb.582.7esk97&sub2=%7Bsub2%7D&sub3=%7Bsub3%7D — партнёрская ссылка чужого бренда (1win), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbets-hu.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Hungary 2026 - Mostbet Bejelentkezés és On»); кнопка https://mostbets-hu.org/go/ ведёт на https://kingmaker-8118.com/hu/registration?mid=133029_2249488&fluid=57668f09-3cb9-4358-aef5-7e466d6a2a7a&click — партнёрская ссылка чужого бренда (Kingmaker), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbets-magyar.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Hungary ⭐️ Bónusz 175% + 150FS Hivatalos O»); кнопка https://mostbets-magyar.com/go/ ведёт на https://kingmaker-8118.com/hu/registration?mid=133029_2249488&fluid=1be56e30-bfb0-49f8-ab66-68f1b0a1a1e0&click — партнёрская ссылка чужого бренда (Kingmaker), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbets-magyar.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Hungary Online ✔️ Bónusz 125%, Fogadások é»); кнопка https://mostbets-magyar.net/go/ ведёт на https://kingmaker-8118.com/hu/registration?mid=133029_2249488&fluid=d84544eb-8b2f-45a9-95d8-44f722a5aa75&click — партнёрская ссылка чужого бренда (Kingmaker), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbets-portugal.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Casino PT - Login, APP, Apostas Most Bet P»); кнопка https://mostbets-portugal.com/go ведёт на https://3-baxterbet46.com/sr?cxd=35291_439084_|afp1:1rvs58t1helk9|afp10:Seo&vcntr=1&afp1=1rvs58t1helk9&afp10=S — партнёрская ссылка чужого бренда (Baxterbet), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbets.agro.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet - Kasyno Online PL z Wpłatami i Błyskawicz»); кнопка https://mostbets.agro.pl/play ведёт на https://casea-8039.com/en/registration?mid=381638_2213288&fluid=73b5c082-df14-42f5-b61b-db4382aa6e9f&clickid=1 — партнёрская ссылка чужого бренда (Casea), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbets.online",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене, а title/h1 «1win Casino» — внутри чужое казино 1win, упоминаний Mostbet в тексте 0."
+ },
+ {
+  "domain": "mostbets.radio.fm",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Casino PL ⭐️ 5000PLN + 500FS | Kasyno Most»); кнопка https://mostbets.radio.fm/click/ ведёт на https://winshark13.com/en?stag=109401_6abbc5c2fbc450d0e5a8ac7a&rs=&source=rezerv&tracking_link=http:%2F%2Fwins — партнёрская ссылка чужого бренда (Winshark), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetscasino.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Casino CZ - Login, Slots a Promo Code»); кнопка https://1wfafs.life/casino/list?open=register&p=oa30&sub1=3k5hhgn689kd ведёт на https://one-vv5043.com/sr-RS/?p=oa30&sub1=3k5hhgn689kd — партнёрская ссылка чужого бренда (1win), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetsite.app",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «mostbet site | JazzCash Easypaisa tayyar ke sath O»); кнопка https://77mvp.top/?cid=3730651 ведёт на https://77mvp.top/home/register?cid=3730651 — партнёрская ссылка чужого бренда (77MVP), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetslotsnet.click",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet mərc və kazino xidmətləri üzrə icmal bələd»); кнопка https://mostbetslotsnet.click/play.php ведёт на https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689ff48b44eca10dc2&click — партнёрская ссылка чужого бренда (1xBet), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetslovenske.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet – aktuálne casino, bonusy a športové stávk»); кнопка https://mostbetslovenske.com/login-mostbet/ ведёт на https://22bet4u.com/registration?type=full_reg&bonus=2&btag=967213_e725e68089e64b6b9ced5657d9dba88f — партнёрская ссылка чужого бренда (22Bet), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetsportfogadas.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Casino – Online Kaszinó Játékok 2026»); кнопка https://mostbetsportfogadas.com/navigate-tunnel?source=nav-login ведёт на https://v484.vegas/en?ref=vp_w271574c399364l4425p167_&affdata%5Bsubdata%5D=&affdata%5Bclick_id%5D=1rvs58t.cf0. — партнёрская ссылка чужого бренда (Vulkan), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbett-cz.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet CZ 2026: pokladna v CZK, sloty, live a apl»); кнопка https://atkamb33.com/4jPr2t ведёт на https://one-vv5043.com/sr-RS/?p=z8zo&sub1=2kt1s2s.2c9.1mauje&sub2=RS_713_39808 — партнёрская ссылка чужого бренда (1win), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbett-cz.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Casino: Výhry a bonusy pro české fanoušky»); кнопка https://mostbett-cz.cz/go/ ведёт на https://8-baxterbet53.com/sr?cxd=35291_439084_|afp1:1rvs58t1helos|afp10:Seo&vcntr=1&afp1=1rvs58t1helos&afp10=S — партнёрская ссылка чужого бренда (Baxterbet), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbett.co.in",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.6,
+  "comment": "Все кнопки Registration/Download/Get Mostbet ID ведут на «#»; в видимом футере блок простых ссылок без кодов на индийские ID-дорвеи (mahadevbookz.com, fairplay-24.com, allpanelexxchs.com, indibett.ind.in), а не на сайты операторов."
+ },
+ {
+  "domain": "mostbett.com.in",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.6,
+  "comment": "Кнопки ведут на «#»; в видимом футере простые ссылки без кодов на ID-дорвеи (reddysports.com, lotus365b.com, fairplay24z.com, mahadevbook*), партнёрских кодов и трекеров нет."
+ },
+ {
+  "domain": "mostbettanzania.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Tanzania: Top Casino Games 2026»); кнопка https://mostbettanzania.com/go/login ведёт на https://42winairlines64.com/ro/lobby?cxd=36557_500352_|afp1:2kt1s2s.5.1goc|afp10:Seo&vcntr=1&afp1=2kt1s2s.5.1g — партнёрская ссылка чужого бренда (Bine ați venit în Lobby-ul Caz), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetting.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Casino Ekskluzywny Bonus ⭐ 4000€ + 300 FS »); кнопка https://gotogame1.com/tCzdMB?sub_id_1=4945&sub_id_10=Mostbet+Casino ведёт на https://63winairlines41.com/sr/lobby?cxd=36319_534461_|afp1:1rvs58t.7.8c90|afp10:Seo&vcntr=1&afp1=1rvs58t.7.8c — партнёрская ссылка чужого бренда (Dobrodošli u Online Casino Lob), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbettop.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Bejelentkezés | Mostbet Hungary Online Fog»); кнопка https://mostbettop.net/go/ ведёт на https://kingmaker-8118.com/hu/registration?mid=133029_2249488&fluid=e8dcd668-b217-418c-b760-548a9eb65881&click — партнёрская ссылка чужого бренда (Kingmaker), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbettr-slots.store",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Türkiye ⭐️ Yeni Giriş Linki ve Casino Dene»); кнопка https://mostbettr-slots.store/go ведёт на https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689ff48b44eca10dc2&click — партнёрская ссылка чужого бренда (1xBet), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbettrading.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (домен, title); кнопка ведёт на playkingofviolence.com/mostbet → 1wzpdo.life/?p=nlia (1win) и trinocasino4.io stag=… — реклама чужих."
+ },
+ {
+  "domain": "mostbettz.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Tanzania Casino: Real Money Games 2026»); кнопка https://mostbettz.com/go/login ведёт на https://63winairlines41.com/ro/lobby?cxd=36557_500352_|afp1:2kt1s2s.5.1goi|afp10:Seo&vcntr=1&afp1=2kt1s2s.5.1g — партнёрская ссылка чужого бренда (Bine ați venit în Lobby-ul Caz), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetuzbets.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet online casino – ro‘yxatdan o‘tish, login, »); кнопка https://mostbetuzbets.com/go/cta ведёт на https://1xcasino.com:443/en/block?tag=d_6153429m_77685c_ — партнёрская ссылка чужого бренда (1xCasino), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetwagering.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet; кнопка playkingofviolence.com/mostbet уводит на 1win (p=nlia) и Trino casino (stag=168572) — реклама чужих."
+ },
+ {
+  "domain": "mostbetwinpl.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Most Bet Casino - szeroka oferta gier, zakładów i »); кнопка https://gemix-demo.com/HTNGDWLj?creative_id=signup&lang=pl-PL&source=m ведёт на https://luckyttmj.life/sr-RS/?sub1=1rvs58t.10.g0fe — партнёрская ссылка чужого бренда (Lucky Star), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetz-czech.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «MostBet Casino CZ - Oficiální přihlášení a exkluzi»); кнопка https://mostbetz-czech.cz/play/ ведёт на https://one-vv3429.com/sr-RS/?p=hztd&sub1=2vj6gb.582.7esphc&sub2=%7Bsub2%7D&sub3=%7Bsub3%7D — партнёрская ссылка чужого бренда (1win), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetzerkalorab.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Мостбет зеркало — рабочий вход и безопасный доступ»); кнопка https://click.lp-link.ru/KZqOVpdD?sub_id3=mostbet&sub_id4=seo ведёт на https://ligastavok.ru/?utm_source=affiliates&ls=Alanbase=v1~01a0ef1c-f626-700d-8436-0c2f53e78ae3~9049~39~0~~~m — партнёрская ссылка чужого бренда (Liga Stavok), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostfunpillows.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Sayt Mostbet UZ giriş — o ynash v kasino, download»); кнопка https://mostfunpillows.com/go/ ведёт на https://likecasino.com/uz/register — партнёрская ссылка чужого бренда (Like), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostplays.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Official Site: Sports Betting & Casino»); кнопка https://jytryd.click/PVCwzYSF?source=official-mostbet.online ведёт на https://1xbet.rs:443/en/registration?tag=d_5135492m_97c_MultiGeoReg&pb=07ffeb9822ff4dd396cb410e87e5cdfd&click_ — партнёрская ссылка чужого бренда (1xBet), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostsbetcasino.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Casino Deposit Offer 🥇 125% + 425 FS up to»); кнопка https://1wfafs.life/casino/list?open=register&p=oa30&sub1=3rv99s06756i ведёт на https://one-vv1469.com/sr-RS/?p=oa30&sub1=3rv99s06756i — партнёрская ссылка чужого бренда (1win), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mpshikshaportal.in",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «MostBet Bangladesh Review: Comprehensive Guide to »); кнопка https://ddd7dj.org/MPNB4gYP?p=cros&z=SEO&a=DAFF ведёт на https://lanista-2064.com/sr/registration?mid=371788_2157776&fluid=a7258941-25aa-45e6-ad87-322cb2e7d683&clickid — партнёрская ссылка чужого бренда (Lanista), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mstbt-amp-forab.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Официальный сайт Mostbet: Мобильная версия и бонус»); кнопка https://mstbt-amp-forab.ru/go.php ведёт на https://4normcasino-fo.win/ru/registration?qtag=a84744_t61351802_c7675_sf2a358wcim7qn8ad&x_pm_click=882dda3722 — партнёрская ссылка чужого бренда (NormCasino), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mstbt-amp-sibir.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet — Официальный сайт Мостбет для игроков из »); кнопка https://mstbt-amp-sibir.ru/go.php ведёт на https://9normcasino-oa.win/ru/registration?qtag=a84744_t61351802_c7675_s8657c8wciiba2e64&x_pm_click=bbab9d66c7 — партнёрская ссылка чужого бренда (NormCasino), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mstbt-amp-vesta.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Мостбет Официальный сайт Mostbet — Твой путь к поб»); кнопка https://mstbt-amp-vesta.ru/go.php ведёт на https://9normcasino-oa.win/ru/registration?qtag=a84744_t61351802_c7675_s0d4a68wciiba3d72&x_pm_click=4287926edc — партнёрская ссылка чужого бренда (NormCasino), рекламы Mostbet нет."
+ },
+ {
+  "domain": "musiclightmagic.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «MostBet 2026 Polska – Zakłady, Kasyno Online i Bon»); кнопка https://ddd7dj.org/MPNB4gYP?p=cros&z=SEO&a=DAFF ведёт на https://lanista-2064.com/sr/registration?mid=371788_2157776&fluid=a7258941-25aa-45e6-ad87-322cb2e7d683&clickid — партнёрская ссылка чужого бренда (Lanista), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mx-mostbet.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet México: Casino y Apuestas Online 2026»); кнопка https://mx-mostbet.com/go/register ведёт на https://63winairlines41.com/sr/lobby?cxd=36557_500352_|afp1:2kt1s2s.5.1gpm|afp10:Seo&vcntr=1&afp1=2kt1s2s.5.1g — партнёрская ссылка чужого бренда (Dobrodošli u Online Casino Lob), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mxmostbetmexico.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «MXMOSTBETMEXICO - PLATAFORMA OFICIAL - 💰️ - MXMOST»); кнопка https://c1.maxcloudlink.com/?ch=2NGS6&wid=43182 ведёт на https://www.17jl33.com/?affiliateCode=17jl01 — партнёрская ссылка чужого бренда (17JL), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mycomfypad.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ rəsmi sayta giriş - onlayn kazino və id»); кнопка https://trafffers.com/?go=958b90214e356daa5e8fd49752fcc516c702abb0 ведёт на https://olymp-csn.com/?modal=reg&utm_source=13542&utm_medium=affiliate&utm_campaign=194&utm_content=15&utm_ter — партнёрская ссылка чужого бренда (Olymp Casino), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mymostbetapp.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Блок Partners на главной: /goto/partner2–6 ведут на stake.com/?c=…, 22bet4u.com?btag=…, bitcasino.io refAff, betwinner btag; /goto/home ведёт на mostbet.com без pid — не реклама Mostbet."
+ },
+ {
+  "domain": "nailsprof.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Рабочее зеркало Мостбет (Mostbet) - официальный са»); кнопка https://nailsprof.ru/play/ ведёт на https://8normcasino-xx.win/ru/registration?qtag=a84744_t61356828_c7675_s35186g5hqp2qq222&x_pm_click=4b50a00601 — партнёрская ссылка чужого бренда (NormCasino), рекламы Mostbet нет."
+ },
+ {
+  "domain": "napitkitop.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet - официальный сайт казино Мостбет | Зеркал»); кнопка https://napitkitop.ru/play/ ведёт на https://1normcasino-ox.win/ru/registration?qtag=a84744_t61356828_c7675_s6915cg5hq46b4661&x_pm_click=f8a3a6d129 — партнёрская ссылка чужого бренда (NormCasino), рекламы Mostbet нет."
+ },
+ {
+  "domain": "nature-prod.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Мостбет БК (Mostbet): зеркало и официальный сайт»); кнопка https://nature-prod.ru/play/ ведёт на https://3normcasino-oo.win/ru/registration?qtag=a84744_t61356828_c7675_s4e7e9g5hqike883b&x_pm_click=613eacfea8 — партнёрская ссылка чужого бренда (NormCasino), рекламы Mostbet нет."
+ },
+ {
+  "domain": "newlepnina.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Мостбет зеркало и Мостбет Casino — рабочее зеркало»); кнопка https://newlepnina.ru/go/ ведёт на https://4normcasino-fo.win/ru/registration?qtag=a84744_t61356828_c7675_s551778wciib4k6b5&x_pm_click=038eb9a74c — партнёрская ссылка чужого бренда (NormCasino), рекламы Mostbet нет."
+ },
+ {
+  "domain": "ng-mostbet.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Nigeria: Play & Win Real Money»); кнопка https://ng-mostbet.com/go/login ведёт на https://84winairlines13.com/sr/lobby?cxd=36557_500352_|afp1:2kt1s2s.5.1go8|afp10:Seo&vcntr=1&afp1=2kt1s2s.5.1g — партнёрская ссылка чужого бренда (Dobrodošli u Online Casino Lob), рекламы Mostbet нет."
+ },
+ {
+  "domain": "nicolasroy.pro",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet official website - legal casino va sportga»); кнопка https://nicolasroy.pro/go/ ведёт на https://likecasino.com/uz/register — партнёрская ссылка чужого бренда (Like), рекламы Mostbet нет."
+ },
+ {
+  "domain": "nika-kosmetika.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Мостбет зеркало и Мостбет Casino – рабочее зеркало»); кнопка https://nika-kosmetika.ru/go/ ведёт на https://9normcasino-xa.win/ru/registration?qtag=a84744_t61356828_c7675_s357538wciibxo388&x_pm_click=595d58cbc7 — партнёрская ссылка чужого бренда (NormCasino), рекламы Mostbet нет."
+ },
+ {
+  "domain": "nl-mostbet.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet in NL: Speel Casino en Plaats Weddenschapp»); кнопка https://nl-mostbet.com/go ведёт на https://5-baxterbet34.com/sr?cxd=35291_439084_|afp1:36oefgk1heoth|afp10:Seo&vcntr=1&afp1=36oefgk1heoth&afp10=S — партнёрская ссылка чужого бренда (Baxterbet), рекламы Mostbet нет."
+ },
+ {
+  "domain": "nord-kross.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Официальный сайт Мостбетᐈ игровые автоматы Mostbet»); кнопка https://nord-kross.ru/go/ ведёт на https://9normcasino-xa.win/ru/registration?qtag=a84744_t61356828_c7675_sd5e848wciibyd248&x_pm_click=43d1a6cf3b — партнёрская ссылка чужого бренда (NormCasino), рекламы Mostbet нет."
+ },
+ {
+  "domain": "np-mostbet.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Nepal Casino: Real Money Fun 2026»); кнопка https://np-mostbet.com/go/login ведёт на https://63winairlines41.com/sr/lobby?cxd=36557_500352_|afp1:2kt1s2s.5.1gp2|afp10:Seo&vcntr=1&afp1=2kt1s2s.5.1g — партнёрская ссылка чужого бренда (Dobrodošli u Online Casino Lob), рекламы Mostbet нет."
+ }
+]

@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "casino-mostbet-slots-2.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Шаблон сети зеркал (mostbet-rmi19.cam): 40+ кнопок на reg.html → трекер occlusometer-82.xyz/ryQCCs (пустая страница), плюс простая ссылка на mostbet.partners; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "casino-mostbet-slots-3.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Шаблон сети зеркал (mostbet-jmu74.buzz): 40+ кнопок на reg.html → трекер occlusometer-82.xyz/ryQCCs (пустая страница), плюс простая ссылка на mostbet.partners; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "casino-mostbet-slots.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Шаблон сети зеркал (mostbet-trm16.top): 40+ кнопок на reg.html → трекер occlusometer-82.xyz/ryQCCs (пустая страница), плюс простая ссылка на mostbet.partners; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "casino-mostbet.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Шаблон сети зеркал (mostbet-uiq72.sbs): 40+ кнопок на reg.html → трекер occlusometer-82.xyz/ryQCCs (пустая страница), плюс простая ссылка на mostbet.partners; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "casino-uz-mostbet.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Кнопка /go/cta ведёт на mloz82mb.com/mbjU — хост вида …mb.com, рефка Mostbet; чужих ссылок на странице нет."
+ },
+ {
+  "domain": "casinoarcade.org",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Mostbet AZ: кнопки data-split → 3.33echelon.com/GMqHi (Shlink «Invalid Short URL»), ссылки на dhwqw.com таймаутят; скрытых чужих ссылок нет — как у mostbet-zx.ru в 4-м круге."
+ },
+ {
+  "domain": "casinomostbet.co",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Кнопки /go/ ведут на трекер abvs.tech/univ — не открылся ни у одного из 6 сайтов сети (mostbet1.co, most-bets.mx и др.); чужой бренд нигде не подтверждён. Внешние ссылки только dmca и bestchange."
+ },
+ {
+  "domain": "casinomostbet.info",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Шаблон сети зеркал (casinomostbet.info): 40+ кнопок на reg.html → трекер occlusometer-82.xyz/ryQCCs (пустая страница), плюс простая ссылка на mostbet.partners; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "casinomostbet.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Шаблон сети зеркал (mostbet-gus57ya.buzz): 40+ кнопок на reg.html → трекер occlusometer-82.xyz/ryQCCs (пустая страница), плюс простая ссылка на mostbet.partners; чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "casinomostbet.org",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Все кнопки ведут на свой /mostbet → https://mostbet.com (onclick); других внешних ссылок нет."
+ },
+ {
+  "domain": "casinos-mostbet.com",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Бренд в домене; кнопки «Registrieren», «Bonus Jetzt Holen» и слоты → /go/register → track.heroaff.com/visit/?bta=44052 → korami8.com/?cxd=44052_… — чужая партнёрка (та же heroaff, что ведёт на koraly7.com), не Mostbet."
+ },
+ {
+  "domain": "cerstvasvaca.cz",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Монобренд Mostbet CZ; 22 кнопки прямо на трекер partners-official.com/b2tcnrmv (пустая страница). Хост partners-official в других кодах доводит до Spinanga (mid=267534); код b2tcnrmv на Mostbet не выводил ни разу — чужой трекер по правилу."
+ },
+ {
+  "domain": "chistka-star.ru",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.65,
+  "comment": "Монобренд «Mostbet Casino»; все кнопки /link/ → trackdomain.xyz/click?key=2043… (404). Этот трекер у других сайтов (mostbet-india7.com, most-bet-hungary.com) доводит до Zoccer, gg.bet и 1win, до Mostbet — ни разу."
+ },
+ {
+  "domain": "citronlimette.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Монобренд Mostbet, кнопки ведут на свои страницы/шлюз без выхода; в подвале блок проданных простых ссылок (finut2020.com, rsn-rb.ru, undp.kg и др.) без кода партнёра — не реклама операторов."
+ },
+ {
+  "domain": "connellyforsheriff.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Клоака для Google: страница Mostbet App BD, кнопки data-sf-a → bd.mostbet-app.net/Sn7wajv (не раскрыт); чужих брендов и трекеров нет."
+ },
+ {
+  "domain": "consultant-e.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.75,
+  "comment": "Электротехнический словарь; в тело вставлен блок про Mostbet со ссылками на nsmaster.ru (как у f-nail.ru) — инъекция ссылок, чужих операторов и трекеров нет."
+ },
+ {
+  "domain": "cordesign.cz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Обзор Mostbet CZ, кнопка «Navštívit Mostbet» без внешнего адреса; единственная внешняя ссылка www.hrac.cz (мёртвая), чужих трекеров нет."
+ },
+ {
+  "domain": "cortes-pelocorto.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Монобренд Mostbet CZ; внешние ссылки только на соцсети cz_mostbet (x.com, threads, pinterest); чужих брендов нет."
+ },
+ {
+  "domain": "coursecrown.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Монобренд Mostbet, кнопки ведут на свои страницы/шлюз без выхода; в подвале блок проданных простых ссылок (finut2020.com, rsn-rb.ru, undp.kg и др.) без кода партнёра — не реклама операторов."
+ },
+ {
+  "domain": "czmostbet.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.5,
+  "comment": "Кнопки /go/mostbet/?sub_id_2=… не раскрылись; баннер «Mostbet CZ — Get the official app» ведёт на PWA most.playmarket-play.click (бренд PWA не виден); чужих трекеров вроде liberaldom/heroaff, как у mostbetbonuses.com, здесь нет."
+ },
+ {
+  "domain": "dcwdarmstadt.de",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Обзор Mostbet Casino CZ (тема mostbet-cz-wp); кнопки data-link /cta и /bonus мёртвые, внешних ссылок на операторов нет."
+ },
+ {
+  "domain": "de-mostbet.casino",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.5,
+  "comment": "Бренд в домене; /go/signup → playground.inexusgateway.com/disabled.html (кампания отключена). Canonical и x-default указывают на attitudeautos.com (там /go/signup ведёт на astrofy3.com), но со страницы видимой рекламы чужих нет."
+ },
+ {
+  "domain": "dekoratifdogaltas.net",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Клоака, переезд на nshsa.org: Mostbet AZ, кнопки → regi.mostbet1az.com/WLPLGmU (не раскрыт), mostbetyukle.bet → mostbet1az.com; чужих брендов нет."
+ },
+ {
+  "domain": "dgmup.in",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Обзор «Mostbet Aviator», все кнопки («Play Now», «Claim Bonus», «Visit», «Register on Mostbet») ведут прямо на трекер part-global.com/2gSMdp (пустая страница). Хост part-global у других сайтов стоит за /go/4rabet (part-global.com/CBtmkQ) и до Mostbet не выводил ни разу — чужой трекер по правилу."
+ },
+ {
+  "domain": "dieetit.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Монобренд Mostbet, кнопки ведут на свои страницы/шлюз без выхода; в подвале блок проданных простых ссылок (finut2020.com, rsn-rb.ru, undp.kg и др.) без кода партнёра — не реклама операторов."
+ },
+ {
+  "domain": "djanata.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Кнопки /link/ не раскрыты (needs_browser); внешние — простые ссылки на Mostbet-дорвеи (2elearning.com, kasyno-mostbet.pl, mgmteh.ru) и тот же блок проданных ссылок с finut2020.com; чужих операторов нет."
+ },
+ {
+  "domain": "dobegolf-shop.cz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Обзор Mostbet CZ; 32 ссылки на mostbet.com без кода, плюс www.hr.cz (мёртвая); чужих операторов нет."
+ },
+ {
+  "domain": "donwongphoto.com",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Монобренд «Mostbet Bejelentkezés»; 28 кнопок прямо на трекер partners-official.com/VfPrdZ1d (пустая страница). Тот же код у familiacsaladkutatas.hu признан чужим (хост доводит до Spinanga, mid=267534); до Mostbet не выводил."
+ },
+ {
+  "domain": "door-closer.in",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Монобренд Mostbet India; кнопка из скрипта ведёт на mostbet-india.in (не отвечает); внешних чужих ссылок нет."
+ },
+ {
+  "domain": "download-casino-mostbet.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Кнопки «Вход», «Регистрация» /visit/ → pg5i0mmb.com/2Cgs?sub2=mb-kz2 — хост вида …mb.com, рефка Mostbet; чужих ссылок нет."
+ },
+ {
+  "domain": "downloadmostbetapp.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Mostbet App BD; ссылки на mostbetappmostbet.com (не отвечает) — переход по доменам со словом mostbet; чужих брендов нет."
+ },
+ {
+  "domain": "eduemirates.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Mostbet Египет; внешние ссылки — демо игр (spribe, pragmaticplay, evoplay) и mostbet-egyptian.com; кода партнёра чужих операторов нет."
+ },
+ {
+  "domain": "elecprous.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Mostbet UZ; кнопки /goto/ и /play/ остаются на сайте, внешняя ссылка на mostbet-uz-24.com (Cloudflare 403); чужих брендов нет."
+ },
+ {
+  "domain": "elitebot.pics",
+  "given": "mono_unresolved",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.4,
+  "comment": "PWA-«установщик» MostBet Casino, кнопки prevButton → mybptd85.playpwatop.com/MYbPTd85 (не открылся); у PWA-сети playpwatop получатели разные — бренд не установить."
+ },
+ {
+  "domain": "erzurumprefabrik.com.tr",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.45,
+  "comment": "Клоака: обзор Mostbet TR, кнопки → red2csn.online/HwNPCYn5 — трекер не раскрылся ни здесь, ни у соседей (aswanasuithotel.com, casino-malt.com); чужой бренд не подтверждён."
+ },
+ {
+  "domain": "filmocracy.in",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Обзор «Mostbet Aviator», все кнопки («Play Now», «Claim Bonus», «Visit», «Register on Mostbet») ведут прямо на трекер part-global.com/2gSMdp (пустая страница). Хост part-global у других сайтов стоит за /go/4rabet (part-global.com/CBtmkQ) и до Mostbet не выводил ни разу — чужой трекер по правилу."
+ },
+ {
+  "domain": "findara.co",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Переезд на nshsa.org (тот же шаблон, что dekoratifdogaltas.net): кнопки → regi.mostbet1az.com/WLPLGmU; чужих брендов нет."
+ },
+ {
+  "domain": "firstmeds.in",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Обзор «Mostbet Aviator», все кнопки («Play Now», «Claim Bonus», «Visit», «Register on Mostbet») ведут прямо на трекер part-global.com/2gSMdp (пустая страница). Хост part-global у других сайтов стоит за /go/4rabet (part-global.com/CBtmkQ) и до Mostbet не выводил ни разу — чужой трекер по правилу."
+ },
+ {
+  "domain": "flexcraze.in",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Обзор «Mostbet Aviator», все кнопки («Play Now», «Claim Bonus», «Visit», «Register on Mostbet») ведут прямо на трекер part-global.com/2gSMdp (пустая страница). Хост part-global у других сайтов стоит за /go/4rabet (part-global.com/CBtmkQ) и до Mostbet не выводил ни разу — чужой трекер по правилу."
+ },
+ {
+  "domain": "fonstyle.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.75,
+  "comment": "Сайт веб-студии; вставлен блок про Mostbet со ссылками на nsmaster.ru — инъекция ссылок, чужих операторов и трекеров нет."
+ },
+ {
+  "domain": "force3.in",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Обзор «Mostbet Aviator», все кнопки («Play Now», «Claim Bonus», «Visit», «Register on Mostbet») ведут прямо на трекер part-global.com/2gSMdp (пустая страница). Хост part-global у других сайтов стоит за /go/4rabet (part-global.com/CBtmkQ) и до Mostbet не выводил ни разу — чужой трекер по правилу."
+ },
+ {
+  "domain": "formation-formateur-grenoble.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Клоака, переезд на hausofcarslv.com: Mostbet App BD, 58 кнопок → win.mostbet-app-bd.net/r6Tj4hf (не раскрыт); остальное — демо игр (aleaplay, pragmaticplay), чужих партнёрских ссылок нет."
+ },
+ {
+  "domain": "fragilexohio.org",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Mostbet UZ; кнопки /goto/ и /play/ остаются на сайте, внешняя ссылка на mostbet-uz-24.com (Cloudflare 403); чужих брендов нет."
+ },
+ {
+  "domain": "freejobalertin.in",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Обзор «Mostbet Aviator», все кнопки («Play Now», «Claim Bonus», «Visit», «Register on Mostbet») ведут прямо на трекер part-global.com/2gSMdp (пустая страница). Хост part-global у других сайтов стоит за /go/4rabet (part-global.com/CBtmkQ) и до Mostbet не выводил ни разу — чужой трекер по правилу."
+ },
+ {
+  "domain": "freeskill.in",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Обзор «Mostbet Aviator», все кнопки («Play Now», «Claim Bonus», «Visit», «Register on Mostbet») ведут прямо на трекер part-global.com/2gSMdp (пустая страница). Хост part-global у других сайтов стоит за /go/4rabet (part-global.com/CBtmkQ) и до Mostbet не выводил ни разу — чужой трекер по правилу."
+ },
+ {
+  "domain": "freevashikaran.in",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Обзор «Mostbet Aviator», все кнопки («Play Now», «Claim Bonus», «Visit», «Register on Mostbet») ведут прямо на трекер part-global.com/2gSMdp (пустая страница). Хост part-global у других сайтов стоит за /go/4rabet (part-global.com/CBtmkQ) и до Mostbet не выводил ни разу — чужой трекер по правилу."
+ },
+ {
+  "domain": "freshscape.in",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Обзор «Mostbet Aviator», все кнопки («Play Now», «Claim Bonus», «Visit», «Register on Mostbet») ведут прямо на трекер part-global.com/2gSMdp (пустая страница). Хост part-global у других сайтов стоит за /go/4rabet (part-global.com/CBtmkQ) и до Mostbet не выводил ни разу — чужой трекер по правилу."
+ },
+ {
+  "domain": "frybrid.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Монобренд Mostbet, кнопки ведут на свои страницы/шлюз без выхода; в подвале блок проданных простых ссылок (finut2020.com, rsn-rb.ru, undp.kg и др.) без кода партнёра — не реклама операторов."
+ },
+ {
+  "domain": "funseasonal.in",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Обзор «Mostbet Aviator», все кнопки («Play Now», «Claim Bonus», «Visit», «Register on Mostbet») ведут прямо на трекер part-global.com/2gSMdp (пустая страница). Хост part-global у других сайтов стоит за /go/4rabet (part-global.com/CBtmkQ) и до Mostbet не выводил ни разу — чужой трекер по правилу."
+ },
+ {
+  "domain": "gacecommerce.in",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Обзор «Mostbet Aviator», все кнопки («Play Now», «Claim Bonus», «Visit», «Register on Mostbet») ведут прямо на трекер part-global.com/2gSMdp (пустая страница). Хост part-global у других сайтов стоит за /go/4rabet (part-global.com/CBtmkQ) и до Mostbet не выводил ни разу — чужой трекер по правилу."
+ }
+]

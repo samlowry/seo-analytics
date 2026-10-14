@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "pwclorg783.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş»), все 25 кнопок ведут на /go.php → aos9d9e9g0o.top → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "pwclorg880.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş»), все 25 кнопок ведут на /go.php → aos9d9e9g0o.top → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "pwclorg906.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş»), все 25 кнопок ведут на /go.php → aos9d9e9g0o.top → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "pwclorg915.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş»), все 25 кнопок ведут на /go.php → aos9d9e9g0o.top → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "pwclorg931.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş»), все 25 кнопок ведут на /go.php → aos9d9e9g0o.top → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "pwclorg946.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş»), все 25 кнопок ведут на /go.php → aos9d9e9g0o.top → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "rlifiles-5.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ Giriş»), все 19 кнопок «Daxil ol/Qeydiyyat» ведут на /play.php → трекер → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "rlifiles-8.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ Giriş»), все 19 кнопок «Daxil ol/Qeydiyyat» ведут на /play.php → трекер → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "rlifiles-9.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ Giriş»), все 19 кнопок «Daxil ol/Qeydiyyat» ведут на /play.php → трекер → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "rlifiles.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ Giriş»), все 19 кнопок «Daxil ol/Qeydiyyat» ведут на /play.php → трекер → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "rossanamitchell.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Переезд на easternhighschooldc.org — польский клон Mostbet; кнопки в js/aviator-main.js (активный код) ведут на traftraf.site/Wn1ZDh/, который ротирует Twindor Casino (refCode=ca_w238212…) и Mostbet pid=392426."
+ },
+ {
+  "domain": "somaliembassydcnet521.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş»), все 25 кнопок ведут на /go.php → aos9d9e9g0o.top → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "somaliembassydcnet561.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş»), все 25 кнопок ведут на /go.php → aos9d9e9g0o.top → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "somaliembassydcnet564.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş»), все 25 кнопок ведут на /go.php → aos9d9e9g0o.top → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "somaliembassydcnet669.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş»), все 25 кнопок ведут на /go.php → aos9d9e9g0o.top → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "somaliembassydcnet670.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş»), все 25 кнопок ведут на /go.php → aos9d9e9g0o.top → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "somaliembassydcnet673.xyz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş»), все 25 кнопок ведут на /go.php → aos9d9e9g0o.top → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "somaliembassydcnet674.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş»), все 25 кнопок ведут на /go.php → aos9d9e9g0o.top → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "somaliembassydcnet675.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş»), все 25 кнопок ведут на /go.php → aos9d9e9g0o.top → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "somaliembassydcnet676.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş»), все 25 кнопок ведут на /go.php → aos9d9e9g0o.top → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "somaliembassydcnet677.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş»), все 25 кнопок ведут на /go.php → aos9d9e9g0o.top → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "somaliembassydcnet679.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş»), все 25 кнопок ведут на /go.php → aos9d9e9g0o.top → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "somaliembassydcnet682.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş»), все 25 кнопок ведут на /go.php → aos9d9e9g0o.top → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "somaliembassydcnet683.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş»), все 25 кнопок ведут на /go.php → aos9d9e9g0o.top → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "somaliembassydcnet684.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş»), все 25 кнопок ведут на /go.php → aos9d9e9g0o.top → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "somaliembassydcnet686.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş»), все 25 кнопок ведут на /go.php → aos9d9e9g0o.top → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "somaliembassydcnet687.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş»), все 25 кнопок ведут на /go.php → aos9d9e9g0o.top → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "somaliembassydcnet689.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş»), все 25 кнопок ведут на /go.php → aos9d9e9g0o.top → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "somaliembassydcnet690.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş»), все 25 кнопок ведут на /go.php → aos9d9e9g0o.top → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "somaliembassydcnet691.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş»), все 25 кнопок ведут на /go.php → aos9d9e9g0o.top → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "somaliembassydcnet692.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş»), все 25 кнопок ведут на /go.php → aos9d9e9g0o.top → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "somaliembassydcnet693.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş»), все 25 кнопок ведут на /go.php → aos9d9e9g0o.top → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "somaliembassydcnet699.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş»), все 25 кнопок ведут на /go.php → aos9d9e9g0o.top → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "somaliembassydcnet942.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Азербайджанский клон Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş»), все 25 кнопок ведут на /go.php → aos9d9e9g0o.top → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink; рекламы Mostbet нет."
+ },
+ {
+  "domain": "towergrovecreamery.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Переезд на easternhighschooldc.org — польский клон Mostbet; кнопки в js/aviator-main.js (активный код) ведут на traftraf.site/Wn1ZDh/, который ротирует Twindor Casino (refCode=ca_w238212…) и Mostbet pid=392426."
+ },
+ {
+  "domain": "uzbet-mostbet.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Узбекский клон Mostbet с брендом в домене; кнопки входа/регистрации ведут на /play → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink."
+ },
+ {
+  "domain": "uzbet-mostbet.ink",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Узбекский клон Mostbet с брендом в домене; кнопки входа/регистрации ведут на /play → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink."
+ },
+ {
+  "domain": "yenimostbet.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Турецкий сайт про Mostbet; на страницах /mostbet-deneme-bonusu/, /mostbet-cozum-merkezi/ таблица «SİTEYE GİT» ведёт на t2m.co/okanparavan → herkulbet170.com?btag=okanparavan и t2po.com/hizli-giris → poliwin251.com?btag=abe777; рекламы Mostbet нет."
+ },
+ {
+  "domain": "bd-mostbetapp.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.75,
+  "comment": "Бенгальский «инфоцентр» про Mostbet без кнопок наружу; в футере простые ссылки на сайты той же сетки «স্বাধীন তথ্য কেন্দ্র» (jeetbuzz123-app.com, betwinner-best.com, crickex-bd.cc, pjok-apps.com…) — это дорвеи-инфоцентры без партнёрского кода, а не операторы."
+ },
+ {
+  "domain": "bd-mostbets.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.75,
+  "comment": "Бенгальский «инфоцентр» про Mostbet без кнопок наружу; в футере простые ссылки на сайты той же сетки (bd-krikya22.com, parimatch-apps.com — заголовки «স্বাধীন তথ্য কেন্দ্র»), это дорвеи без партнёрского кода, а не операторы."
+ },
+ {
+  "domain": "kasinomostbet.cz",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Чешский обзор «Kasino Mostbet»; кнопки postRedirect() ведут на TDS nmapa.org/cz → сейчас google.com (получатель неизвестен); в футере простые ссылки на admiralkasino.cz, tipsportkasino.cz, 69gameskasino.cz — дорвеи той же сетки (title «Admiral Kasino 2025 Bonusy a Free Spiny Zdarma»), не операторы."
+ },
+ {
+  "domain": "mostbet-gamble.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Клоака: обычным посетителям Cloudflare-блок, из Google-mobile — узбекский клон Mostbet; все 11 кнопок «Kirish» ведут на /play → 27k5c97v89.top → 1xbet.rs?tag=d_3755482m_22585c_smartlink."
+ },
+ {
+  "domain": "mostbet-hungary.tech",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Клоака: обычным 403, из Google-mobile — венгерский клон Mostbet; кнопки «Bejelentkezés» ведут на /go/ → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink."
+ },
+ {
+  "domain": "mostbet-pol.jp.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.7,
+  "comment": "Польский клон Mostbet с брендом в домене; 11 кнопок «Logowanie/Przejdź» ведут на /play/, по данным классификатора → serffigrcqufssefv.help/g1sS3B → 1win (p=hztd); тот же шлюз у сетевого брата mostbet-poland.jp.net/play/ подтверждён в destinations. В наших файлах собственный /play/ не раскрыт."
+ },
+ {
+  "domain": "mostbet-reviews.com",
+  "given": "mono_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.4,
+  "comment": "Клоака (обычным 403); из Google-mobile — русский клон Mostbet, все CTA «ПЕРЕЙТИ НА МОСТБЕТ» ведут на /link/, не раскрыт. Ссылка 1win-pro.pro → 1win-ogi23.sbs («Зеркало 1Win») отмечена как internal_page_link, но в сохранённой главной её нет — где она и видима ли, не проверить."
+ },
+ {
+  "domain": "mostbetcasino-de.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Немецкий сайт «Mostbet Casino»; кнопки «Registrieren & spielen», «Bonus sichern» ведут на /go/registration, /go/claim-bonus → leovegas.space → 24slots/258slots (btag=TF-86), Rizzio (bta=37979), Fieryplay (ref=vp_w129507…); плюс список ссылок на дорвеи чужих казино."
+ },
+ {
+  "domain": "mostbetkaszino.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.7,
+  "comment": "Клоака (обычным 403 «nem elérhető»), из Google-mobile — венгерский клон Mostbet; кнопки data-ref-el регистрации/входа ведут на const ref = 'https://trcker.vip/HTQqHJ' — трекер со случайным хостом, по классификатору → hitnspinpromo.com (Hitnspin); сам трекер в наших файлах не раскрыт."
+ },
+ {
+  "domain": "mostbetmagyar.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Клоака: обычным 403, из Google-mobile — венгерский клон Mostbet; кнопки ведут на /go/ → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink."
+ },
+ {
+  "domain": "1-support.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Клон Mostbet (title/h1 «Mostbet (Мостбет) — официальный сайт»), кнопки «Регистрация/Вход» ведут на /mostb/ → go-to-play…php → dashplay37.com → 9normcasino-oa.win/registration?qtag=a84744_t61351802 (NormCasino)."
+ },
+ {
+  "domain": "311streamsystem.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Клон Mostbet KZ (title/h1 «Мостбет … Казахстан»), кнопки ведут на /go → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink."
+ }
+]

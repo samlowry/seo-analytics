@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "packardevents.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Кнопка «Kayıt Ol» и 7 других ведут на refpa25604.com/L?tag=d_4923117m… → yohoho.bet (рефка 1xBet-партнёрки)."
+ },
+ {
+  "domain": "peswithyou.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Кнопки ведут на conela2020.com.br/go/?sub1=a46 → slotcity.ua/registration?refcode=aff_…."
+ },
+ {
+  "domain": "polacyizydzi.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "/login уводит на 593nv.casino/…?atp=polacyizydzi.pl, плюс трекер xxxreff.xyz/3SbMqc."
+ },
+ {
+  "domain": "reducaonaoesolucao.com.br",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Кнопки на conela2020.com.br/go/?sub1=a58 → slotcity.ua с refcode=aff_…."
+ },
+ {
+  "domain": "zerkalo-mostbet-one.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Кнопка «Вход» → use-matchtrafficpulse.com/l/… и dealbest-redirect.com ref=sl_w243680… — рефка On-X по другим сайтам."
+ },
+ {
+  "domain": "museumteensummit.org",
+  "given": "mono_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mb_page_other",
+  "confidence": 0.4,
+  "comment": "Не монобренд (блог на чужом домене). На архивной странице /currently-browsing-mostbet-azerbaijan/ пост про Pin-Up с простыми ссылками без кода на pinapbet.net, login-pinup.az, pinup-bet-az.com; оператор это или дорвеи — по файлам не установить, если операторские зеркала — mb_page_other."
+ },
+ {
+  "domain": "bet.mostbet-troopsocial.it.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "/login → 593nv.casino/…?atp=polacyizydzi.pl, трекер xxxreff.xyz/3SbMqc."
+ },
+ {
+  "domain": "bwin-casino-bonuscode.buzz",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.93,
+  "comment": "Title «МОСТБЕТ ОФИЦИАЛЬНЫЙ САЙТ», внутри лендинг RoyalSpin, /go-to → r1wemeq.life/…&p=kebv (1win)."
+ },
+ {
+  "domain": "bwin-casino-enligne.buzz",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.93,
+  "comment": "Title «МОСТБЕТ ОФИЦИАЛЬНЫЙ САЙТ», внутри RoyalSpin, /go-to → r1wemeq.life/casino?p=kebv."
+ },
+ {
+  "domain": "casinomostbet1.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Кнопки → traffic-ocean.g2afse.com/click?pid=5&offer_id=879 → jet4bet.live (stag=182410)."
+ },
+ {
+  "domain": "lincoln-casino-us.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.93,
+  "comment": "Title Mostbet, внутри чужое казино, /go-to → r1wemeq.life/casino?p=kebv."
+ },
+ {
+  "domain": "mostbet-apk.app",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Все кнопки ведут на uidwmhs.com/ZXTF (14 шт.) и npwfcqi.com/voTF (5 шт.): первый уходит на парковку, второй не открылся. Код вида /XXXF совпадает с трекерами Mostbet (vs66cd75semb.com/XXIF, weg96sbmb.com/CdQF), чужой бренд не виден."
+ },
+ {
+  "domain": "mostbet-brand.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Кнопки → slotoro77.bet/register?sub_id=… и csa.lynmonkel.com → casea-8039.com?mid=227068."
+ },
+ {
+  "domain": "mostbet-casino-com.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "/registration → 593nv.casino/…?atp=mostbet-casino-com.pl, трекер xxxreff.xyz."
+ },
+ {
+  "domain": "mostbet-casino-online.win",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "/go/ → 820verdecasino572.com/register?ref=vp_w161713c (Verde), strfc.com/3gw6fBYz."
+ },
+ {
+  "domain": "mostbet-cassino-br.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Кнопки → conela2020.com.br/go/?sub1=a61 → slotcity.ua refcode=aff_…."
+ },
+ {
+  "domain": "mostbet-cz.win",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "/go/ → 820verdecasino572.com …ref=vp_w161713c."
+ },
+ {
+  "domain": "mostbet-deutsch-casino.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "/play/ → 820verdecasino572.com …ref=vp_w161713c."
+ },
+ {
+  "domain": "mostbet-eu.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "/go/ → 820verdecasino572.com …ref=vp_w161713c."
+ },
+ {
+  "domain": "mostbet-hu.win",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "/go/ → 820verdecasino572.com …ref=vp_w161713c."
+ },
+ {
+  "domain": "mostbet-hungary-casino.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Кнопки ?kitgo=… → gg257.bet/casino?ref=gg_w167953… (GGbet)."
+ },
+ {
+  "domain": "mostbet-kasyno.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Кнопки → lnk-mstbtkas.xyz/5PtBC5wD → 593nv.casino и quantumlandingpageforge.com, не Mostbet."
+ },
+ {
+  "domain": "mostbet-login-br.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Кнопки → conela2020.com.br/go/?sub1=a62 → slotcity.ua refcode=aff_…."
+ },
+ {
+  "domain": "mostbet-logowanie.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "/registration → 593nv.casino/…?atp=mostbet-logowanie.pl."
+ },
+ {
+  "domain": "mostbet-mx.com.mx",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.7,
+  "comment": "other_ads — это демо-игры провайдеров во фреймах (playngonetwork, hacksawgaming, blueprintgaming partner=demo), не реклама. Все 57 кнопок ведут на свой шлюз /goto/, получатель не записан."
+ },
+ {
+  "domain": "mostbet-online-cz.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "/play/ → 820verdecasino572.com …ref=vp_w161713c."
+ },
+ {
+  "domain": "mostbet-pl-casino-com.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "/registration → 593nv.casino/…?atp=mostbet-pl-casino-com.pl."
+ },
+ {
+  "domain": "mostbet-pl.win",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "/go/ → 820verdecasino572.com …ref=vp_w161713c."
+ },
+ {
+  "domain": "mostbet-play.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "/go/ → 820verdecasino572.com …ref=vp_w161713c."
+ },
+ {
+  "domain": "mostbet-play.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "/go/ → 820verdecasino572.com …ref=vp_w161713c."
+ },
+ {
+  "domain": "mostbet-slots-pt.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "/go/ → 820verdecasino572.com …ref=vp_w161713c."
+ },
+ {
+  "domain": "mostbet1casino.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Кнопки → traffic-ocean.g2afse.com/click?pid=5&offer_id=879 → jet4bet.live."
+ },
+ {
+  "domain": "mostbet7.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Скачивание APK → k-x8.com/apk-cm.html → okgo1aa.com/register?affiliateCode=shanji001."
+ },
+ {
+  "domain": "mostbet77-hu.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Кнопки → mur.amazingtracking.online/click?pid=1&offer_id=3278 → gg257.bet ref=gg_w263277…."
+ },
+ {
+  "domain": "mostbet777-hu.eu",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Кнопка «Lobby» и др. → mur.amazingtracking.online → gg257.bet ref=gg_w263277…."
+ },
+ {
+  "domain": "mostbetdeutschland.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "/play/ → 820verdecasino572.com …ref=vp_w161713c."
+ },
+ {
+  "domain": "mostbetgame.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.7,
+  "comment": "Страница продажи домена на 4.cn («This domain name is for sale», CNY 1493), ссылки — на покупку домена и счётчик 51.la, гэмблинга нет."
+ },
+ {
+  "domain": "mostbetgirisitesi.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "«Güncel Giriş Yap» → eticaretbayimiz.com/links/?btag=2684706 → pashagaming1666.com."
+ },
+ {
+  "domain": "mostbetlive.app",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "«নিবন্ধন করুন» → fg8016.com/register?affiliateCode=gg6662 (FG8)."
+ },
+ {
+  "domain": "mostbetlivecasino.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.7,
+  "comment": "Регистрация через /go/register уходит на рефку Mostbet (ijwdpnmb.com, pid=4). Nine Casino — один из ~170 простых видимых ссылок без кода в подвале (ninecasinologin.com и т. п. — дорвеи и взломанные сайты), не реклама оператора."
+ },
+ {
+  "domain": "mostbetlivecrazytime.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.7,
+  "comment": "Регистрация /go/register → рефка Mostbet (ijwdpnmb.com, pid=4). «Nine Casino» — простая видимая ссылка без кода на дорвей ninecasinologin.com в блоке ~170 ссылок подвала, не реклама оператора."
+ },
+ {
+  "domain": "mostbets-pl-casino-com.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "/registration → 593nv.casino/…?atp=mostbets-pl-casino-com.pl."
+ },
+ {
+  "domain": "pirateparty.kz",
+  "given": "bait",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "article",
+  "confidence": 0.55,
+  "comment": "Mostbet только в title, содержимое — блог о спортивном туризме Казахстана; единственная внешняя ссылка — анкор «pin-up casino kz» на kartv.kz без кода (дорвей, не открылся). Чужого казино внутри нет."
+ },
+ {
+  "domain": "pl-mostbet.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "/registration → 593nv.casino/…?atp=pl-mostbet.pl."
+ },
+ {
+  "domain": "topmostbetgame.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "/registration/ → 820verdecasino572.com …ref=vp_w161713c."
+ },
+ {
+  "domain": "troopsocial.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Главная переезжает на bet.mostbet-troopsocial.it.com, там /login → 593nv.casino?atp=…"
+ },
+ {
+  "domain": "yukon-casino1-nz.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.93,
+  "comment": "Title «МОСТБЕТ ОФИЦИАЛЬНЫЙ САЙТ», внутри чужое казино, /go-to → 1wzpdo.life/?p=yih1 (1win)."
+ },
+ {
+  "domain": "gntopama.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "article",
+  "confidence": 0.8,
+  "comment": "Лента датированных постов, бренда нет в домене и title. Ссылка betanogame.org стоит на странице обзора Betano, а не Mostbet; страницы про Mostbet ссылаются на mostbetxbg.org и mostbetxcz.org."
+ },
+ {
+  "domain": "mostbet-kz.cc",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.65,
+  "comment": "Регистрация /reg и mostbet-pe.site ведут на рефку Mostbet pid=360514. Melbet — простая ссылка без кода melbet-kz.icu/#qqq в заголовке пустой страницы «Зеркало», дорвей той же сетки, не оператор."
+ },
+ {
+  "domain": "mostbet-play.it.com",
+  "given": "bait",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "bait",
+  "confidence": 0.3,
+  "comment": "Браузер получил 444, google-mobile — только head с title Mostbet.kz и canonical на aipet.kz, тела нет. Признаков чужого PWA или казино в файлах нет."
+ }
+]

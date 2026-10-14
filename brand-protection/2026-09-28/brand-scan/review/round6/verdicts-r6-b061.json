@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbetaz-giris2025.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Кнопки GIRIŞ/QEYDIYYAT ведут на свой /gogo (получатель не записан), остальные — href=\"#\" и APK со своего домена; та же сеть, что mostbetaz2025.com (/go → ty9e3wr.com, мёртв). Чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbetaz-sayt.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Кнопки GIRIŞ/QEYDIYYAT ведут на свой /gogo (получатель не записан), остальные — href=\"#\" и APK со своего домена; та же сеть, что mostbetaz2025.com (/go → ty9e3wr.com, мёртв). Чужих брендов и скрытых ссылок нет."
+ },
+ {
+  "domain": "mostbetaz.org",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.7,
+  "comment": "Кнопка «Sayta keçin» — href=\"#\"; перед футером видимый блок простых ссылок без кода (anchor «pinco», «pin up», «casibom», «casino siteleri» → upcointernational.com, finut2020.com, russiaeu.ru и др.) — ссылки на дорвеи, не на операторов, не скрыты."
+ },
+ {
+  "domain": "mostbetaz2025.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Кнопки QEYDIYYAT/DAXIL OL → свой /go → ty9e3wr.com/GuEs?sub1=az2-mob (мёртв у всех 7 записей сети), получатель не установлен; кроме APK со своего домена внешних ссылок нет."
+ },
+ {
+  "domain": "mostbetaz24.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Кнопки «Bonus alın» → свой /goto/ (получатель не записан); внешние только canonical на mostbetonlineaz.com и mostbet-az-302.com. «1win»/«Olymp» — имя картинки 1win-bonus-1.webp и слот Gates of Olympus, не реклама."
+ },
+ {
+  "domain": "mostbetaz888.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Клоака: Googlebot-mobile видит шаблон сети mostbetaz24.com — кнопки /goto/ (получатель не записан), canonical на mostbetonlineaz.com; «1win» только в имени картинки. Чужой рекламы нет."
+ },
+ {
+  "domain": "mostbetazcasinoonline.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Кнопки → свой /go/cta → mloz82mb.com/mbjU — хост вида …mb.com, трекер Mostbet (так решены mostbet-yuklabolish.com и др.); чужих ссылок нет."
+ },
+ {
+  "domain": "mostbetaze.website.yandexcloud.net",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Сохранена как mostbet.website.yandexcloud.net (переезд сюда): 37 ссылок на mostbet-azerbaycan.az (Mostbet-домен, не открылся), прочее — соцсети и App Store. Чужих брендов нет."
+ },
+ {
+  "domain": "mostbetaze45.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Кнопки → свой /go/cta → mloz82mb.com/mbjU — хост вида …mb.com, трекер Mostbet (так решены mostbet-yuklabolish.com и др.); чужих ссылок нет."
+ },
+ {
+  "domain": "mostbetazerbaijan.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_no_ads",
+  "confidence": 0.7,
+  "comment": "Статическая копия темы mostbet.br.com: все ссылки href=\"#\", кнопки Qeydiyyat — type=button без адреса; внешних ссылок нет, только sourceURL в CSS."
+ },
+ {
+  "domain": "mostbetazerbaijan2.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Клоака: Googlebot-mobile видит шаблон сети mostbetaz24.com — кнопки /goto/ (получатель не записан), canonical на mostbetonlineaz.com; «1win» только в имени картинки. Чужой рекламы нет."
+ },
+ {
+  "domain": "mostbetazerbaycan24.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Кнопки «Bonus alın» → свой /goto/ (получатель не записан); внешние только canonical на mostbetonlineaz.com и mostbet-az-302.com. «1win»/«Olymp» — имя картинки 1win-bonus-1.webp и слот Gates of Olympus, не реклама."
+ },
+ {
+  "domain": "mostbetazerbaycancasino.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Кнопки → свой /go/cta → mloz82mb.com/mbjU — хост вида …mb.com, трекер Mostbet (так решены mostbet-yuklabolish.com и др.); чужих ссылок нет."
+ },
+ {
+  "domain": "mostbetazerbaycanda24.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Кнопки «Bonus alın» → свой /goto/ (получатель не записан); внешние только canonical на mostbetonlineaz.com и mostbet-az-302.com. «1win»/«Olymp» — имя картинки 1win-bonus-1.webp и слот Gates of Olympus, не реклама."
+ },
+ {
+  "domain": "mostbetazerbaycanonline.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Кнопки → свой /go/cta → mloz82mb.com/mbjU — хост вида …mb.com, трекер Mostbet (так решены mostbet-yuklabolish.com и др.); чужих ссылок нет."
+ },
+ {
+  "domain": "mostbetazonline.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Кнопки → свой /go/cta → mloz82mb.com/mbjU — хост вида …mb.com, трекер Mostbet (так решены mostbet-yuklabolish.com и др.); чужих ссылок нет."
+ },
+ {
+  "domain": "mostbetazonlinecasino.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Кнопки → свой /go/cta → mloz82mb.com/mbjU — хост вида …mb.com, трекер Mostbet (так решены mostbet-yuklabolish.com и др.); чужих ссылок нет."
+ },
+ {
+  "domain": "mostbetazoyun.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Кнопки «Bonus alın» → свой /goto/ (получатель не записан); внешние только canonical на mostbetonlineaz.com и mostbet-az-302.com. «1win»/«Olymp» — имя картинки 1win-bonus-1.webp и слот Gates of Olympus, не реклама."
+ },
+ {
+  "domain": "mostbetaztop.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Кнопки «Bonus alın» → свой /goto/ (получатель не записан); внешние только canonical на mostbetonlineaz.com и mostbet-az-302.com. «1win»/«Olymp» — имя картинки 1win-bonus-1.webp и слот Gates of Olympus, не реклама."
+ },
+ {
+  "domain": "mostbetbd.games",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Кнопки /get-bonus и /login на своём домене (получатель не записан); внешние — переключатель языков на Mostbet-сайты (mostbetkzn.com, mostbetportugal.pt, mostbetslot.casino и др.) без кода. «1win» — alt картинки Mostbet-1.webp."
+ },
+ {
+  "domain": "mostbetblackfriday.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Кнопка /go/register → nnvytcmb.com/aDgF — хост вида …mb.com, трекер Mostbet (так решён mostbet-casinopolska.pl); чужих ссылок нет."
+ },
+ {
+  "domain": "mostbetbonusbezdepozytu.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Кнопка /go/register → nnvytcmb.com/aDgF — хост вида …mb.com, трекер Mostbet (так решён mostbet-casinopolska.pl); чужих ссылок нет."
+ },
+ {
+  "domain": "mostbetbs.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон AZ-сети: кнопки data-split через p.33echelon.com → 3.33echelon.com/GMqHi («Invalid Short URL» у 290 записей), ссылки на dhwqw.com не отвечают; получатель не установлен, чужих брендов нет."
+ },
+ {
+  "domain": "mostbetbs.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон AZ-сети: кнопки data-split через p.33echelon.com → 3.33echelon.com/GMqHi («Invalid Short URL» у 290 записей), ссылки на dhwqw.com не отвечают; получатель не установлен, чужих брендов нет."
+ },
+ {
+  "domain": "mostbetc.buzz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон сети зеркал: кнопки reg.html → occlusometer-82.xyz/ryQCCs?sub_id_2=… (пустая страница у всей сети), плюс простая ссылка на mostbet.partners; чужих брендов нет."
+ },
+ {
+  "domain": "mostbetcanada.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.7,
+  "comment": "Клон Mostbet: баннеры с CDN Mostbet (cdn-mb.com, cdn-mst-ru.com), ссылки на mostpartner.com, кнопки на свои /promo/; внешние — лицензия cert.gcb.cw и gambleaware. Чужих брендов нет."
+ },
+ {
+  "domain": "mostbetcasino-app.com",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Клоака: Googlebot-mobile видит страницу «Mostbet Mobile App», но пункт меню «1win APK» → /go/link/, текст «download the current APK from the official 1Win website» и попап с логотипом alt=\"1win\" ведут на тот же шлюз — реклама 1win; получатель /go/link/ не записан."
+ },
+ {
+  "domain": "mostbetcasino-mobail.fun",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон сети зеркал: кнопки reg.html → occlusometer-82.xyz/ryQCCs?sub_id_2=… (пустая страница у всей сети), плюс простая ссылка на mostbet.partners; чужих брендов нет."
+ },
+ {
+  "domain": "mostbetcasino-polska.pl",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Все 8 кнопок (Logowanie и др.) → свой /go/ → zylvasy6.com — трекер Baxterbet: у соседей сети (cz-mostbett.com, most-bet-casino.pt) тот же /go/ → zylvasy6.com/baxterbet53.com ?bta=35291. Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasino-registration.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Клоака: Googlebot-mobile видит «Mostbet Registration», все кнопки → свой /go/link/ (получатель не записан); «1win» только в alt логотипа попапа, текст про Mostbet."
+ },
+ {
+  "domain": "mostbetcasino.hanjeux.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Сохранена как hanjeux.com/pyatnishko.kz (переезд сюда): WordPress «МостБет казино», внешних ссылок и кнопок на оператора нет, только форма комментариев (так решён hanjeux.com в b017)."
+ },
+ {
+  "domain": "mostbetcasino.md",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.7,
+  "comment": "Клон Mostbet: баннеры с CDN Mostbet (cdn-mb.com, cdn-mst-ru.com), ссылки на mostpartner.com, кнопки на свои /promo/; внешние — лицензия cert.gcb.cw и gambleaware. Чужих брендов нет."
+ },
+ {
+  "domain": "mostbetcasino1.mx",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Кнопки BONUS/data-go → свой /go/ → abvs.tech/univ (получатель не установлен у всей сети); внешние — mostbetscasino.mx, dmca, bestchange, begambleaware. Чужих брендов нет."
+ },
+ {
+  "domain": "mostbetcasino1.ru",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Все кнопки data-link=\"27\" → /goto/27 → martin-route-four.com/c7601bc17 — TDS Martin Casino: у соседей сети mostbet-casino-qtr1..3.ru тот же /goto/ ведёт на casinomartin142.com?stag=178273; так решены mostbet-casino-wn1.ru и др. Ссылка на mostbet.signup.az — простая."
+ },
+ {
+  "domain": "mostbetcasino2.xyz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон сети зеркал: кнопки reg.html → occlusometer-82.xyz/ryQCCs?sub_id_2=… (пустая страница у всей сети), плюс простая ссылка на mostbet.partners; чужих брендов нет."
+ },
+ {
+  "domain": "mostbetcasinoapp-az.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Клоака: Googlebot-mobile видит Mostbet-обзор, все кнопки и логотип → свой /go/link/ (получатель не записан); «Martin»/«1Win» — martingale и провайдер Lucky Jet в таблице, не реклама."
+ },
+ {
+  "domain": "mostbetcasinobet-az.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Клоака: Googlebot-mobile видит Mostbet-обзор, все кнопки и логотип → свой /go/link/ (получатель не записан); «Martin»/«1Win» — martingale и провайдер Lucky Jet в таблице, не реклама."
+ },
+ {
+  "domain": "mostbetcasinogo-az.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Клоака: Googlebot-mobile видит Mostbet-обзор, все кнопки и логотип → свой /go/link/ (получатель не записан); «Martin»/«1Win» — martingale и провайдер Lucky Jet в таблице, не реклама."
+ },
+ {
+  "domain": "mostbetcasinohungary.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Кнопки /go/login и /go/register → useflowcore.top/S9wxFxcn — 404 у всех 22 ссылок сети, получатель не установлен; чужих брендов нет."
+ },
+ {
+  "domain": "mostbetcasinohungary.org",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Переезжает на mostbetcasinohungary.com: кнопки /go/login, /go/register → useflowcore.top/S9wxFxcn (404 у всей сети); чужих брендов нет."
+ },
+ {
+  "domain": "mostbetcasinokz.com.kz",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Клоака: посетителю из Google (google-mobile) кнопки Android/iOS и переключатель языков ведут на trafffers.com/?go=f04978d3… — тот же код у city-market.kz привёл на GETX (s43y4kh.life ?stag=78629); ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasinonepal.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.5,
+  "comment": "Кнопки data-go=\"1\" (Play, Registration) → wadcpa.rdrtdmn.org/6G3TNH, трекер отдаёт google.com у всей непальской сети; ссылка на mostbet-bonus.net без кода. «1win» — путь картинок /uploads/1winslots/, получатель не установлен."
+ },
+ {
+  "domain": "mostbetcasinoreview.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Кнопки /go/login и /go/register → t74k96q3mb.com/KoZF — хост вида …mb.com, трекер Mostbet (так решён mostbet-casino-hungary.com); чужих ссылок нет."
+ },
+ {
+  "domain": "mostbetcasinos-slots.xyz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон сети зеркал: кнопки reg.html → occlusometer-82.xyz/ryQCCs?sub_id_2=… (пустая страница у всей сети), плюс простая ссылка на mostbet.partners; чужих брендов нет."
+ },
+ {
+  "domain": "mostbetcasinos.co",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Кнопки BONUS/data-go → свой /go/ → abvs.tech/univ (получатель не установлен у всей сети); внешние — mostbetscasino.mx, dmca, bestchange, begambleaware. Чужих брендов нет."
+ },
+ {
+  "domain": "mostbetcazino.pro",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон сети зеркал: кнопки reg.html → occlusometer-82.xyz/ryQCCs?sub_id_2=… (пустая страница у всей сети), плюс простая ссылка на mostbet.partners; чужих брендов нет."
+ },
+ {
+  "domain": "mostbetcf.online",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон AZ-сети: кнопки data-split через p.33echelon.com → 3.33echelon.com/GMqHi («Invalid Short URL» у 290 записей), ссылки на dhwqw.com не отвечают; получатель не установлен, чужих брендов нет."
+ },
+ {
+  "domain": "mostbetcf.ru",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон AZ-сети: кнопки data-split через p.33echelon.com → 3.33echelon.com/GMqHi («Invalid Short URL» у 290 записей), ссылки на dhwqw.com не отвечают; получатель не установлен, чужих брендов нет."
+ },
+ {
+  "domain": "mostbetclb.club",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон сети зеркал: кнопки reg.html → occlusometer-82.xyz/ryQCCs?sub_id_2=… (пустая страница у всей сети), плюс простая ссылка на mostbet.partners; чужих брендов нет."
+ },
+ {
+  "domain": "mostbetclb.vip",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.65,
+  "comment": "Шаблон сети зеркал: кнопки reg.html → occlusometer-82.xyz/ryQCCs?sub_id_2=… (пустая страница у всей сети), плюс простая ссылка на mostbet.partners; чужих брендов нет."
+ }
+]

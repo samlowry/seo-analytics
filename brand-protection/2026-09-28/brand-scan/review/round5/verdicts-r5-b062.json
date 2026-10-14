@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "ci-mostbet.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене и title; кнопка /go/register ведёт на 76winairlines48.com с bta=36557 (чужое казино Winairlines), ссылок Mostbet с pid нет."
+ },
+ {
+  "domain": "city-market.kz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Title/h1 «Мостбет зеркало»; кнопки через трекеры trafffers.com/?go=… и lvlx.click/tddflo6fq уводят на GETX (22usjet.life, 11z25r2.life, stag=78629_…), рефок Mostbet нет."
+ },
+ {
+  "domain": "climbingtechnology.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet CZ; кнопки /go/ и cz.stat-umlead.com ведут на spinsy-9504.com с mid=225868_… (казино Spinsy), рекламы Mostbet нет."
+ },
+ {
+  "domain": "clinic-korobeinikova.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд «Мостбет зеркало» (title/h1 про Mostbet); все кнопки ведут на /go/, который уводит на 7normcasino-fa.win с qtag=a84744_… (NormCasino), второй трекер dashplay37.com; рефок Mostbet нет."
+ },
+ {
+  "domain": "clmostbet.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене и title; кнопки по JS через c4.maxcloudlink.com (ch=…) ведут на 17jl33.com/?affiliateCode=17jl01 (казино 17JL), рефок Mostbet нет."
+ },
+ {
+  "domain": "clmostbetchile.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене и title; кнопки по JS через c1.maxcloudlink.com (ch=…) ведут на 17jl33.com/?affiliateCode=17jl01 (казино 17JL), рефок Mostbet нет."
+ },
+ {
+  "domain": "cn136.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд «Мостбет зеркало» (title/h1 про Mostbet); все кнопки ведут на /play/, который уводит на 1normcasino-ox.win с qtag=a84744_… (NormCasino), второй трекер dashplay37.com; рефок Mostbet нет."
+ },
+ {
+  "domain": "code-promo-mostbet-maroc.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Mostbet в домене; видимые кнопки href=https://pingoosplash.fr/q7tQR3 (трекер) ведут на 1wzpdo.life/?p=9hmt — рефка 1win."
+ },
+ {
+  "domain": "colldense.eu",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet AZ (поддомен mostbet-casino.); /casino, /registration/, /play/ через mirror-bonus.com уводят на Olymp Casino (utm_source=49829) и GETX (stag=74548_…); ссылка на mostbet.antoshka.kz — дорвей без pid, не реклама Mostbet."
+ },
+ {
+  "domain": "columbustrisportclub.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet UZ; кнопки /go/ ведут на likecasino.com/uz/register?tracker=58327 (Like casino), рефок Mostbet нет."
+ },
+ {
+  "domain": "comostbet.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене и title; кнопки по JS через c4.maxcloudlink.com (ch=…) ведут на 17jl33.com/?affiliateCode=17jl01 (казино 17JL), рефок Mostbet нет."
+ },
+ {
+  "domain": "comostbet.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене и title; кнопки по JS через c3.maxcloudlink.com (ch=…) ведут на 17jl33.com/?affiliateCode=17jl01 (казино 17JL), рефок Mostbet нет."
+ },
+ {
+  "domain": "comostbetcasino.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене и title; кнопки по JS через c3.maxcloudlink.com (ch=…) ведут на 17jl33.com/?affiliateCode=17jl01 (казино 17JL), рефок Mostbet нет."
+ },
+ {
+  "domain": "compeq-chain.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд «Мостбет зеркало» (title/h1 про Mostbet); все кнопки ведут на /go/, который уводит на 7normcasino-fa.win с qtag=a84744_… (NormCasino), второй трекер dashplay37.com; рефок Mostbet нет."
+ },
+ {
+  "domain": "confeitariacuritibana.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Title/h1 MostBet Brasil; кнопка /go/ ведёт на slotcity.ua/registration?refcode=aff_… (Slot City), рекламы Mostbet нет."
+ },
+ {
+  "domain": "cx-8.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд «Мостбет зеркало» (title/h1 про Mostbet); все кнопки ведут на /play/, который уводит на 1normcasino-ox.win с qtag=a84744_… (NormCasino), второй трекер dashplay37.com; рефок Mostbet нет."
+ },
+ {
+  "domain": "cz-mostbett.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене; /go/ ведёт через track.rubyaffs.com (bta=35291) на 3-baxterbet46.com (Baxterbet), часть прогонов упиралась в мёртвый адрес, но трекер чужой."
+ },
+ {
+  "domain": "dagliajans.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet UZ; кнопки /go/ ведут на likecasino.com/uz/register?tracker=58327 (Like casino), рефок Mostbet нет."
+ },
+ {
+  "domain": "descargarmostbet.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене и title; кнопки по JS через c3.maxcloudlink.com (ch=…) ведут на 17jl33.com/?affiliateCode=17jl01 (казино 17JL), рефок Mostbet нет."
+ },
+ {
+  "domain": "dises.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд «Мостбет зеркало» (title/h1 про Mostbet); все кнопки ведут на /go/, который уводит на 7normcasino-fa.win с qtag=a84744_… (NormCasino), второй трекер dashplay37.com; рефок Mostbet нет."
+ },
+ {
+  "domain": "distantmal.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд «Мостбет зеркало» (title/h1 про Mostbet); все кнопки ведут на /go/, который уводит на 7normcasino-fa.win с qtag=a84744_… (NormCasino), второй трекер dashplay37.com; рефок Mostbet нет."
+ },
+ {
+  "domain": "dk-rabota.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд «Мостбет зеркало» (title/h1 про Mostbet); все кнопки ведут на /go/, который уводит на 4normcasino-fo.win с qtag=a84744_… (NormCasino), второй трекер dashplay37.com; рефок Mostbet нет."
+ },
+ {
+  "domain": "domweselnyurybaka.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Title «Mostbet Casino PL»; кнопки /go/ и track120.online/3HT3vy ведут на natiocasino2.com/?btag=673978_… (Natio Casino), рекламы Mostbet нет."
+ },
+ {
+  "domain": "dostoprimechatelnosti-belarusi.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд «Мостбет зеркало» (title/h1 про Mostbet); все кнопки ведут на /play/, который уводит на 1normcasino-ox.win с qtag=a84744_… (NormCasino), второй трекер dashplay37.com; рефок Mostbet нет."
+ },
+ {
+  "domain": "drafteea.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд «Мостбет зеркало» (title/h1 про Mostbet); все кнопки ведут на /go/, который уводит на 7normcasino-fa.win с qtag=a84744_… (NormCasino), второй трекер dashplay37.com; рефок Mostbet нет."
+ },
+ {
+  "domain": "dverivibor.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд «Мостбет зеркало» (title/h1 про Mostbet); все кнопки ведут на /go/, который уводит на 7normcasino-fa.win с qtag=a84744_… (NormCasino), второй трекер dashplay37.com; рефок Mostbet нет."
+ },
+ {
+  "domain": "e-break.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд «Мостбет зеркало» (title/h1 про Mostbet); все кнопки ведут на /go/, который уводит на 4normcasino-fo.win с qtag=a84744_… (NormCasino), второй трекер dashplay37.com; рефок Mostbet нет."
+ },
+ {
+  "domain": "ecmostbet.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене и title; кнопки по JS через c1.maxcloudlink.com (ch=…) ведут на 17jl33.com/?affiliateCode=17jl01 (казино 17JL), рефок Mostbet нет."
+ },
+ {
+  "domain": "ecolesainthilaire.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Переезжает на ompu-micro.org — монобренд Mostbet AZ; кнопка /play ведёт на casea-8039.com с mid=381638_… (Casea), второй трекер serffigyearfnuppug.help — на bigclash."
+ },
+ {
+  "domain": "effectivemuaythai.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Title «Mostbet Bangladesh»; скрипт по клику открывает трекер ddd7dj.org/MPNB4gYP?a=DAFF, ведущий на lanista-2064.com (Lanista, mid=371788_…); ссылок Mostbet с кодом нет."
+ },
+ {
+  "domain": "elit-zone.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд «Мостбет зеркало» (title/h1 про Mostbet); все кнопки ведут на /go/, который уводит на 7normcasino-fa.win с qtag=a84744_… (NormCasino), второй трекер dashplay37.com; рефок Mostbet нет."
+ },
+ {
+  "domain": "emanikur.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд «Мостбет зеркало» (title/h1 про Mostbet); все кнопки ведут на /go/, который уводит на 7normcasino-fa.win с qtag=a84744_… (NormCasino), второй трекер dashplay37.com; рефок Mostbet нет."
+ },
+ {
+  "domain": "erbilstyle.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Title «Mostbet AZ»; кнопки /qeydiyyat/, /casino/ через mirror-bonus.com ведут на GETX (l0f88gn.life, stag=74548_…) и olymp-csn.com (utm_source=49829), рекламы Mostbet нет."
+ },
+ {
+  "domain": "esotrudnik.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд «Мостбет зеркало» (title/h1 про Mostbet); все кнопки ведут на /go/, который уводит на 4normcasino-fo.win с qtag=a84744_… (NormCasino), второй трекер dashplay37.com; рефок Mostbet нет."
+ },
+ {
+  "domain": "estetiplan.es",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Title «MostBet Casino España»; /go/jasminslots и go.infinitystarspartners.com (bta=36342) ведут на bigwinpromos.com/jasminslots (Jasmin Slots), рекламы Mostbet нет."
+ },
+ {
+  "domain": "evadesignn.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд «Мостбет зеркало» (title/h1 про Mostbet); все кнопки ведут на /go/, который уводит на 4normcasino-fo.win с qtag=a84744_… (NormCasino), второй трекер dashplay37.com; рефок Mostbet нет."
+ },
+ {
+  "domain": "fake24.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд «Мостбет зеркало» (title/h1 про Mostbet); все кнопки ведут на /go/, который уводит на 4normcasino-fo.win с qtag=a84744_… (NormCasino), второй трекер dashplay37.com; рефок Mostbet нет."
+ },
+ {
+  "domain": "faw-auto-krasnodar.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд «Мостбет зеркало» (title/h1 про Mostbet); все кнопки ведут на /go/, который уводит на 4normcasino-fo.win с qtag=a84744_… (NormCasino), второй трекер dashplay37.com; рефок Mostbet нет."
+ },
+ {
+  "domain": "faw-kashirka.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд «Мостбет зеркало» (title/h1 про Mostbet); все кнопки ведут на /go/, который уводит на 7normcasino-fa.win с qtag=a84744_… (NormCasino), второй трекер dashplay37.com; рефок Mostbet нет."
+ },
+ {
+  "domain": "fbs23.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд «Мостбет зеркало» (title/h1 про Mostbet); все кнопки ведут на /go/, который уводит на 4normcasino-fo.win с qtag=a84744_… (NormCasino), второй трекер dashplay37.com; рефок Mostbet нет."
+ },
+ {
+  "domain": "fedorkotoff.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд «Мостбет зеркало» (title/h1 про Mostbet); все кнопки ведут на /go/, который уводит на 4normcasino-fo.win с qtag=a84744_… (NormCasino), второй трекер dashplay37.com; рефок Mostbet нет."
+ },
+ {
+  "domain": "fhromana.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд «Мостбет зеркало» (title/h1 про Mostbet); все кнопки ведут на /go/, который уводит на 7normcasino-fa.win с qtag=a84744_… (NormCasino), второй трекер dashplay37.com; рефок Mostbet нет."
+ },
+ {
+  "domain": "finkraska43.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд «Мостбет зеркало» (title/h1 про Mostbet); все кнопки ведут на /go/, который уводит на 7normcasino-fa.win с qtag=a84744_… (NormCasino), второй трекер dashplay37.com; рефок Mostbet нет."
+ },
+ {
+  "domain": "fireguard-centre.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд «Мостбет зеркало» (title/h1 про Mostbet); все кнопки ведут на /go/, который уводит на 7normcasino-fa.win с qtag=a84744_… (NormCasino), второй трекер dashplay37.com; рефок Mostbet нет."
+ },
+ {
+  "domain": "fito-lampa.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд «Мостбет зеркало» (title/h1 про Mostbet); все кнопки ведут на /go/, который уводит на 4normcasino-fo.win с qtag=a84744_… (NormCasino), второй трекер dashplay37.com; рефок Mostbet нет."
+ },
+ {
+  "domain": "flex-fields.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet UZ; кнопки /go/ ведут на likecasino.com/uz/register?tracker=58327 (Like casino), рефок Mostbet нет."
+ },
+ {
+  "domain": "flex-fm.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд «Мостбет зеркало» (title/h1 про Mostbet); все кнопки ведут на /go/, который уводит на 4normcasino-fo.win с qtag=a84744_… (NormCasino), второй трекер dashplay37.com; рефок Mostbet нет."
+ },
+ {
+  "domain": "foma-blog.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд «Мостбет зеркало» (title/h1 про Mostbet); все кнопки ведут на /go/, который уводит на 4normcasino-fo.win с qtag=a84744_… (NormCasino), второй трекер dashplay37.com; рефок Mostbet нет."
+ },
+ {
+  "domain": "foodsniffer.eu",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet Polska; base64-скрипт для пришедших из поиска открывает по клику трекер ddd7dj.org/MPNB4gYP?a=DAFF → lanista-2064.com (Lanista); рекламы Mostbet нет."
+ },
+ {
+  "domain": "foodtrack-repino.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд «Мостбет зеркало» (title/h1 про Mostbet); все кнопки ведут на /go/, который уводит на 7normcasino-fa.win с qtag=a84744_… (NormCasino), второй трекер dashplay37.com; рефок Mostbet нет."
+ }
+]

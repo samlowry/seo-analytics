@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "djifamagro.cl",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Переезжает на casasohiggins.cl — рейтинг казино Чили (1xBet, Jugabet, GGBet), гейты /go/<бренд>; страница mbpages — чужой сайт mejores-casino-online-chile.com, своей страницы про Mostbet нет."
+ },
+ {
+  "domain": "dlfone-midtown.co.in",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Chicken Road India: кнопки game.chicken-road1.net ведут на 4rabet/foratraffi, VOX, Batery и др.; Mostbet упомянут 1 раз, страницы про Mostbet нет (HTML не сохранён, суждение по полям записи)."
+ },
+ {
+  "domain": "donboscohsdiphu.in",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Сеть Aviator India: рейтинг 4rabet/1win/Pin-Up/888Starz/Mostbet, гейты /go/1win → 1win-global-pro.com и /go/mostbet → fvoidjmb.com pid=303430; отдельной страницы про Mostbet нет, только якорь #mostbet-casino на главной."
+ },
+ {
+  "domain": "donor38.ru",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.9,
+  "comment": "Рейтинг казино РФ: гейты /go-melbet, /go-cat, /go-dragon и др. на чужие рефки, /go-mostbet → gmyqpamb.com pid=457157; страницы про Mostbet нет, /go-mostbet — только гейт."
+ },
+ {
+  "domain": "dreams.band",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.8,
+  "comment": "Сайт группы DREAMS с подсаженными турецкими постами; пост про Mostbet ссылается только на caaad.org.tr и Spotify группы, чужой рекламы на нём нет; mariobetguncel.com на главной — простая ссылка."
+ },
+ {
+  "domain": "drhassanoncologist.pk",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Chicken Road Pakistan: /play/ → one-vv3429.com (1win, sub1), dashcore.top; Mostbet упомянут 1 раз, страницы про Mostbet нет."
+ },
+ {
+  "domain": "dronepower.pl",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Переезд на drrfinanse.pl: польский рейтинг казино (Bizzo, 888Starz), трекеры pl-globallink/partners-official; Mostbet 3 упоминания, HTML не сохранён."
+ },
+ {
+  "domain": "drrfinanse.pl",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Польский рейтинг казино (Bizzo, 888Starz), трекеры pl-globallink/partners-official; Mostbet 3 упоминания, HTML не сохранён."
+ },
+ {
+  "domain": "drsemmelweistheplay.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Сеть Aviator India: рейтинг 4rabet/1win/Pin-Up/888Starz/Mostbet, гейты /go/1win → 1win-global-pro.com и /go/mostbet → fvoidjmb.com pid=303430; отдельной страницы про Mostbet нет, только якорь #mostbet-casino на главной."
+ },
+ {
+  "domain": "drugrehabpoint.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Сеть Aviator India: рейтинг 4rabet/1win/Pin-Up/888Starz/Mostbet, гейты /go/1win → 1win-global-pro.com и /go/mostbet → fvoidjmb.com pid=303430; отдельной страницы про Mostbet нет, только якорь #mostbet-casino на главной."
+ },
+ {
+  "domain": "dzherelo.house",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Русский казино-портал FREESPINWIN с рефками casinoluck/royalpanda/luckydino; Mostbet 1 упоминание, страниц про Mostbet нет."
+ },
+ {
+  "domain": "e7adventures.in",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Сеть Aviator India: рейтинг 4rabet/1win/Pin-Up/888Starz/Mostbet, гейты /go/1win → 1win-global-pro.com и /go/mostbet → fvoidjmb.com pid=303430; отдельной страницы про Mostbet нет, только якорь #mostbet-casino на главной."
+ },
+ {
+  "domain": "ec-trend.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Переезд на pawtasticgrooming.com. Рейтинг криптоказино (Vavada, 1win, Pinco, Joycasino): refpa61797 (1xBet), 2073.brightwhale.co и др.; страниц про Mostbet во внутренних нет, Mostbet лишь в списке."
+ },
+ {
+  "domain": "ecaclub.in",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Сеть Aviator India: рейтинг 4rabet/1win/Pin-Up/888Starz/Mostbet, гейты /go/1win → 1win-global-pro.com и /go/mostbet → fvoidjmb.com pid=303430; отдельной страницы про Mostbet нет, только якорь #mostbet-casino на главной."
+ },
+ {
+  "domain": "ecoaral.org",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Переезд на lamesajuneteenth.org: польский рейтинг криптоказино (Stake, BC.Game, ggbetbestoffer, refpa58144); Mostbet 1 упоминание, HTML не сохранён."
+ },
+ {
+  "domain": "ecotourexpediciones.cl",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Рейтинг казино Чили (1xBet, Jugabet, GGBet), гейты /go/<бренд>; страница mbpages — чужой сайт mejores-casino-online-chile.com, своей страницы про Mostbet нет."
+ },
+ {
+  "domain": "eeasylid-europe.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Переезд на pawtasticgrooming.com. Рейтинг криптоказино (Vavada, 1win, Pinco, Joycasino): refpa61797 (1xBet), 2073.brightwhale.co и др.; страниц про Mostbet во внутренних нет, Mostbet лишь в списке."
+ },
+ {
+  "domain": "effiesboutiqueoh.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Сеть Aviator India: рейтинг 4rabet/1win/Pin-Up/888Starz/Mostbet, гейты /go/1win → 1win-global-pro.com и /go/mostbet → fvoidjmb.com pid=303430; отдельной страницы про Mostbet нет, только якорь #mostbet-casino на главной."
+ },
+ {
+  "domain": "egybx.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.7,
+  "comment": "Египетский рейтинг (Melbet, 1xBet, 888Starz); ссылка /mostbet и /go-1xbet ведут на один трекер eg-globallink.com/J2SJsHf6 — это гейт в списке, не страница про Mostbet."
+ },
+ {
+  "domain": "egyptgamblingtheraphy.org",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.7,
+  "comment": "Египетский рейтинг (Melbet, 1xBet, 888Starz); ссылка /mostbet и /go-1xbet ведут на один трекер eg-globallink.com/J2SJsHf6 — это гейт в списке, не страница про Mostbet."
+ },
+ {
+  "domain": "elit-plus.com.ua",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Украинский блог о ставках; статья /url-mostbet-strategiya-stavok/ без внешних ссылок и гейтов, рекламы нет."
+ },
+ {
+  "domain": "ellom.in",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Aviator India (Pin-Up, 1win, 1xBet…); страницы /mostbet-aviator/ и /apps-aviator/mostbet-app/ ведут только на rpw.aviators.game?mostbet=…, чужой рекламы на них нет."
+ },
+ {
+  "domain": "embassyedge.net.in",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Сеть Aviator India: рейтинг 4rabet/1win/Pin-Up/888Starz/Mostbet, гейты /go/1win → 1win-global-pro.com и /go/mostbet → fvoidjmb.com pid=303430; отдельной страницы про Mostbet нет, только якорь #mostbet-casino на главной."
+ },
+ {
+  "domain": "endorphina.rodeo",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Сайт слотов Endorphina; обзоры «… at Mostbet» ведут только на /play-endorphina-slots/ и kairos777.top/mostbet → qrncfumb.com pid=348368, чужой рекламы нет."
+ },
+ {
+  "domain": "enhi.in",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Сеть Aviator India: рейтинг 4rabet/1win/Pin-Up/888Starz/Mostbet, гейты /go/1win → 1win-global-pro.com и /go/mostbet → fvoidjmb.com pid=303430; отдельной страницы про Mostbet нет, только якорь #mostbet-casino на главной."
+ },
+ {
+  "domain": "entrenamientosfuncionales.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Турецкая статья про Gates of Olympus, Mostbet 1 упоминание, рекламных ссылок нет."
+ },
+ {
+  "domain": "environmentalsciencesummit.org",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Польский гид по биткоин-казино (ggbetbestoffer, refpa58144, 100xon); Mostbet 1 упоминание, HTML не сохранён."
+ },
+ {
+  "domain": "ephratamobile.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Монобренд «Mostbet Bangladesh»: все кнопки — href=\"#\" и якоря, внешних ссылок, трекеров и скриптов перехода нет."
+ },
+ {
+  "domain": "equilibriarte.net",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Малайзийский казино-блог (Dafabet); простые ссылки bruxo10bet.com, sbobet.com и mostbetyukle.net (APK Mostbet); страниц про Mostbet нет."
+ },
+ {
+  "domain": "escortatasehirx.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Переезд на mccoveys.com — сеть Aviator India (4rabet/1win/Pin-Up/888Starz/Mostbet), /go/mostbet; страницы про Mostbet нет."
+ },
+ {
+  "domain": "esportsbetting-ua.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Украинский рейтинг киберставок (Betwinner, BC.Game, Melbet…) через /goto/<slug>; страниц про Mostbet нет, Mostbet лишь в гайдах."
+ },
+ {
+  "domain": "esportsbettingranker.in",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Рейтинг киберставок Индии; страница /mostbet/ содержит только affiliate-slug=Mostbet и ссылки на сестринские сайты сети /mostbet/, чужой рекламы нет."
+ },
+ {
+  "domain": "european-roulette.org",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Рейтинг рулеток; страница /casino/mostbet-casino/ ведёт только на /casino-ahead-mostbet-casino/ и демо Play'n GO, чужих гейтов на ней нет."
+ },
+ {
+  "domain": "evelethyouthhockey.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Aviator India (1win, Pin-Up), Mostbet 3 упоминания, рекламных ссылок нет."
+ },
+ {
+  "domain": "eveningnews.in",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Сеть Aviator India: рейтинг 4rabet/1win/Pin-Up/888Starz/Mostbet, гейты /go/1win → 1win-global-pro.com и /go/mostbet → fvoidjmb.com pid=303430; отдельной страницы про Mostbet нет, только якорь #mostbet-casino на главной."
+ },
+ {
+  "domain": "eventualo.net",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "other_gambling",
+  "confidence": 0.7,
+  "comment": "Обзор BetAlice Casino PL без упоминаний Mostbet в тексте; /go/ → lziooamb.com pid=147099 (Mostbet), streamspace.top → redirect-verde; бренда Mostbet в домене и title нет."
+ },
+ {
+  "domain": "explat.cz",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Монобренд «Mostbet Casino CZ»: кнопки — href=\"#\" и onclick калькулятора/FAQ, внешних ссылок кроме GambleAware/GamCare нет."
+ },
+ {
+  "domain": "expo2025-toppan.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Переезд на jasikandiocese.org: рейтинг бездепозитных бонусов (Vavada, 1win, refpa61797 1xBet); Mostbet 1 упоминание."
+ },
+ {
+  "domain": "ezeservice.in",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Сеть Aviator India: рейтинг 4rabet/1win/Pin-Up/888Starz/Mostbet, гейты /go/1win → 1win-global-pro.com и /go/mostbet → fvoidjmb.com pid=303430; отдельной страницы про Mostbet нет, только якорь #mostbet-casino на главной."
+ },
+ {
+  "domain": "f-mines.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Сайт краш-игры F-Mines (Melbet, 1win); кнопка Play → r7ycnmimb.com (трекер Mostbet), бренда Mostbet в домене/title нет, страницы про Mostbet нет."
+ },
+ {
+  "domain": "faceessentials.in",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Сеть Aviator India: рейтинг 4rabet/1win/Pin-Up/888Starz/Mostbet, гейты /go/1win → 1win-global-pro.com и /go/mostbet → fvoidjmb.com pid=303430; отдельной страницы про Mostbet нет, только якорь #mostbet-casino на главной."
+ },
+ {
+  "domain": "fangostararas.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.7,
+  "comment": "Взломанный WP иранской фирмы со спам-постами; посты /mostbet/ и /mostbet-download/ ссылаются на drdroid.hu и gymsozluk.com, в сайдбаре простая ссылка marvel-casino.cz (обзорник, не оператор) — партнёрских ссылок нет."
+ },
+ {
+  "domain": "fantasyactionsportsleague.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Сеть Aviator India: рейтинг 4rabet/1win/Pin-Up/888Starz/Mostbet, гейты /go/1win → 1win-global-pro.com и /go/mostbet → fvoidjmb.com pid=303430; отдельной страницы про Mostbet нет, только якорь #mostbet-casino на главной."
+ },
+ {
+  "domain": "faseproject.eu",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Рейтинг казино Азербайджана с Mostbet в title; единственная кнопка → szvojmazmb.com → woeidymb.com pid=303430 (Mostbet), чужой рекламы нет."
+ },
+ {
+  "domain": "fashioninformatics.org",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "article",
+  "confidence": 0.75,
+  "comment": "Блог WordPress.com с лентой датированных постов; посты про Mostbet ссылаются только на mostbet.net.ph, mostbetcz-kasino.com, blossomwordgame2.com — простые ссылки, кода партнёра нет."
+ },
+ {
+  "domain": "fazendanova.eu",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Рейтинг EU-казино (Melbet, 20Bet, Rabona), рекламных ссылок нет, Mostbet 4 упоминания."
+ },
+ {
+  "domain": "fcmc-pa.org",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Рейтинг криптоказино (Vavada, 1win, Pinco, Joycasino): refpa61797 (1xBet), 2073.brightwhale.co и др.; страниц про Mostbet во внутренних нет, Mostbet лишь в списке."
+ },
+ {
+  "domain": "fedorova-takser.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Рейтинг криптоказино (Vavada, 1win, Pinco, Joycasino): refpa61797 (1xBet), 2073.brightwhale.co и др.; страниц про Mostbet во внутренних нет, Mostbet лишь в списке."
+ },
+ {
+  "domain": "festival408.com",
+  "given": "multibrand",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Монобренд Mostbet (title «Mostbet giriş 2025», текст только про Mostbet); единственная кнопка «Bonuslar» → partnerprofitboost.com/kI8pUeOn → dzdsbn.com — сеть, которая у других сайтов идёт через /go/pinco (onepppgo), на Mostbet не выходит."
+ },
+ {
+  "domain": "fighter-aircraft.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.7,
+  "comment": "Рейтинг Aviator-приложений; страницы /mostbet/ и /ru/mostbet-casino/ ведут на /casino-ahead-mostbet/ → ojnipemb.com pid=43017; общая кнопка шапки /go-default/ не раскрыта, чужих гейтов на страницах Mostbet нет."
+ }
+]

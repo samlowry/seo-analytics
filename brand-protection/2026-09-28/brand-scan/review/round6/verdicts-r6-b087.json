@@ -1,0 +1,128 @@
+[
+ {
+  "domain": "mostbet-guncelgiris.info",
+  "given": "unclear",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.8,
+  "comment": "Главная — TDS-заглушка с meta-refresh на qemow.com/go/3115960?subid1=…, далее hemihydro.com/r/…; по destinations.csv все ветки кончаются на shits.ai или google.com, гэмблинга и чужих брендов нет — монетизация брошенного домена."
+ },
+ {
+  "domain": "mostbet-s2.top",
+  "given": "unclear",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.8,
+  "comment": "«Redirecting… Loading» с антиадблоком на 5744422763.channelpl.com/?d=mostbet-s2.top и та же TDS qemow.com/go/3115960 → shits.ai / google.com (destinations.csv); чужих операторов на пути нет — парковка."
+ },
+ {
+  "domain": "mostbet-wkj8.xyz",
+  "given": "unclear",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.85,
+  "comment": "Шаблон Sedo Parking («mostbet-wkj8.xyz – Resources and Information», img.sedoparking.com), в браузере уводит на поисковую парковку findonlineresults.com; ссылок на операторов нет."
+ },
+ {
+  "domain": "mostbetapkonline.com",
+  "given": "unclear",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "not_shown",
+  "confidence": 0.55,
+  "comment": "Сканеру и Googlebot — 403 Cloudflare «you have been blocked»; google-mobile видит только логотип /logo.svg на синем фоне #02407f с title «Mostbet», без ссылок — как заставка Mostbet, чужой рекламы не видно."
+ },
+ {
+  "domain": "mostbetgiris-turkiye.com",
+  "given": "unclear",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "not_shown",
+  "confidence": 0.3,
+  "comment": "Прямой заход — 403 с «sid: 3850 … ip»; google-mobile и Googlebot получают JS-проверку на headless (ipp_sign) с refresh на /ciez2a, содержимое сайта ни в одном скане не открылось — судить не по чему."
+ },
+ {
+  "domain": "mostbetshops.com",
+  "given": "unclear",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mirror",
+  "confidence": 0.65,
+  "comment": "Next.js-приложение «Mostbet Cash» (в браузере — форма «Log in / Sign up» с reCAPTCHA), на него ссылается mbc-agent.com; внешних ссылок кроме счётчиков Яндекса и Cloudflare нет — кабинет агентов Mostbet, не реклама чужих."
+ },
+ {
+  "domain": "promokod-mostbet-pri-registratsii.online",
+  "given": "unclear",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.85,
+  "comment": "Шаблон Sedo Parking (img.sedoparking.com, «… Resources and Information»), в браузере — поисковая парковка onlineresultsfinder.com; ссылок на операторов нет."
+ },
+ {
+  "domain": "sakhalin32school.ru",
+  "given": "unclear",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.8,
+  "comment": "Сайт школы №32 Южно-Сахалинска со вставленным обзором «БК Mostbet»; анкоры «Mostbet»/«Мостбет» ведут на pr-tsj.ru (403 Cloudflare) без кода партнёра, других брендов и партнёрских ссылок на странице нет."
+ },
+ {
+  "domain": "skrkingdom.pics",
+  "given": "unclear",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "PWA «Coin Strike / MostBet Games»: кнопка data-prevbutton на mostbet.inmy.chat/CnZJzF66 → tracktor.tech → hymcnxmb.com/casino?…pid=124098 (5 переходов в destinations.csv), других получателей нет — реклама только Mostbet."
+ },
+ {
+  "domain": "snakebd.com",
+  "given": "unclear",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "WordPress-лендинг «Mostbet Bangladesh: App Download Guide»: на странице 3 ссылки, все на сам snakebd.com, внешних ссылок, кнопок и упоминаний других букмекеров нет."
+ },
+ {
+  "domain": "spin-samurai-kasino.com",
+  "given": "unclear",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "unrelated",
+  "confidence": 0.85,
+  "comment": "Это CRM арбитража («CRM Pro — Вход», дашборд сплит-тестов и финансов); Mostbet, 1xBet, Pinup — только пункты фильтра «Рекламодатель» и плейсхолдеры форм, ссылок на операторов нет, Mostbet в домене и title нет."
+ },
+ {
+  "domain": "thecandyfactoryla.com",
+  "given": "unclear",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Лендинг «Mostbet Bangladesh: Official App Download & Installation» на чужом домене: в отрисованной странице только ссылки на сам thecandyfactoryla.com, внешних ссылок и других брендов нет."
+ },
+ {
+  "domain": "topfitgroup.com.br",
+  "given": "unclear",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.8,
+  "comment": "Сайт фитнес-сети TOPFIT; «1win casino … pin up casino … Mostbet casino» — только спам в meta description/og/twitter, в теле страницы этих слов и ссылок на казино нет; внешние ссылки — на свои topfitstore/topfitacademy, linktr.ee, WhatsApp."
+ },
+ {
+  "domain": "vortexspas.ru",
+  "given": "unclear",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.8,
+  "comment": "Сайт спа-бассейнов со вставленным блоком «Лицензия Мостбет/Mostbet»; анкоры «Мостбет» и «Mostbet» ведут на realtymarket.ru без кода партнёра, ссылок на других операторов нет."
+ }
+]

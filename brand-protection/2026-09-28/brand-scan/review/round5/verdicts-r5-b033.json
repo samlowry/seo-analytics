@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "morzeprzygody.eu",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title/h1 «Mostbet Kasyno»), все кнопки Rejestr/Logowanie/Zdobądź premię ведут через /play на 1xbet.rs/registration?tag=d_3755482m_..., рекламы Mostbet нет."
+ },
+ {
+  "domain": "most-bet-on-line.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (title «MostBet Casino»), шлюз /go/auth уводит на casino-retro.online/en-cz?pid=ghg2&affid=622 (Retro Casino), рекламы Mostbet нет."
+ },
+ {
+  "domain": "most-betcasinoin.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet India, шлюз /go/?e=... ведёт на 1wsmoz.com/v3/landing-page/casino?sub1=...&sub2=Hybrid-Team (1win), рекламы Mostbet нет."
+ },
+ {
+  "domain": "most-betindia.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet India, кнопки через /go/?e=... ведут на 1wsmoz.com/v3/landing-page/casino?sub2=Hybrid-Team&sub3=SID001125 (1win), рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbet-apk-uz.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.88,
+  "comment": "Mostbet в домене, главная — индонезийский тоговый сайт Hokiwin (BANDAR TOGEL, SITUS TOTO) в шаблоне Envato, Mostbet в тексте нет."
+ },
+ {
+  "domain": "mostbet-apostas.com",
+  "given": "discredit",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "discredit",
+  "confidence": 0.88,
+  "comment": "Mostbet в домене, главная — японский статейник про выкуп старых книг (古本出張買取), не гэмблинг."
+ },
+ {
+  "domain": "mostbet-app.pro",
+  "given": "discredit",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "discredit",
+  "confidence": 0.72,
+  "comment": "Mostbet в домене, главная — автолента новостей «NYT > Sports» без ставок и без ссылок на операторов; содержимое не про гэмблинг."
+ },
+ {
+  "domain": "mostbet-canada.ca",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, а главная — лендинг чужого казино Amunra (чешский текст «Amunra bonus», кнопки Přihlášení/Registrace), Mostbet не упомянут."
+ },
+ {
+  "domain": "mostbet-canada.net",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, а главная — лендинг чужого казино Amunra (чешский текст «Amunra bonus», кнопки Přihlášení/Registrace), Mostbet не упомянут."
+ },
+ {
+  "domain": "mostbet-canada.org",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, а главная — лендинг чужого казино Amunra (чешский текст «Amunra bonus», кнопки Přihlášení/Registrace), Mostbet не упомянут."
+ },
+ {
+  "domain": "mostbet-casino-jw.site",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, главная — индонезийский MELATISLOT/MELATITOGEL (слоты, тото) на шаблоне Magento-магазина, Mostbet не упомянут."
+ },
+ {
+  "domain": "mostbet-casino-pt.site",
+  "given": "discredit",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "discredit",
+  "confidence": 0.75,
+  "comment": "Mostbet в домене, главная — копия страницы WPS Office («AI-Powered Office Suite»), не гэмблинг."
+ },
+ {
+  "domain": "mostbet-cm.org",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, а главная — лендинг чужого казино Amunra (чешский текст «Amunra bonus», кнопки Přihlášení/Registrace), Mostbet не упомянут."
+ },
+ {
+  "domain": "mostbet-gh.net",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, а главная — лендинг чужого казино Amunra (чешский текст «Amunra bonus», кнопки Přihlášení/Registrace), Mostbet не упомянут."
+ },
+ {
+  "domain": "mostbet-ireland.org",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, а главная — лендинг чужого казино Amunra (чешский текст «Amunra bonus», кнопки Přihlášení/Registrace), Mostbet не упомянут."
+ },
+ {
+  "domain": "mostbet-ke.ke",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, а главная — лендинг чужого казино Amunra (чешский текст «Amunra bonus», кнопки Přihlášení/Registrace), Mostbet не упомянут."
+ },
+ {
+  "domain": "mostbet-kenya.net",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, а главная — лендинг чужого казино Amunra (чешский текст «Amunra bonus», кнопки Přihlášení/Registrace), Mostbet не упомянут."
+ },
+ {
+  "domain": "mostbet-marc.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, главная — обзорник «Online Slots Morocco: Best Online Casinos for Slots» с рейтингом чужих казино, Mostbet не упомянут."
+ },
+ {
+  "domain": "mostbet-ng.org",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, а главная — лендинг чужого казино Amunra (чешский текст «Amunra bonus», кнопки Přihlášení/Registrace), Mostbet не упомянут."
+ },
+ {
+  "domain": "mostbet-nigeria.net",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, а главная — лендинг чужого казино Amunra (чешский текст «Amunra bonus», кнопки Přihlášení/Registrace), Mostbet не упомянут."
+ },
+ {
+  "domain": "mostbet-onlywin.xyz",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, главная — венгерский рейтинг казино (Tippmixpro, Gametwist, Boabet), Mostbet не упомянут."
+ },
+ {
+  "domain": "mostbet-philippines.org",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, а главная — лендинг чужого казино Amunra (чешский текст «Amunra bonus», кнопки Přihlášení/Registrace), Mostbet не упомянут."
+ },
+ {
+  "domain": "mostbet-polska-win.online",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.8,
+  "comment": "Mostbet в домене, главная — казино-подделка «Mostbest» (M★STBEST, €500 + 250 FS, ссылка /game/), имя Mostbet не используется."
+ },
+ {
+  "domain": "mostbet-sn.net",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, а главная — лендинг чужого казино Amunra (чешский текст «Amunra bonus», кнопки Přihlášení/Registrace), Mostbet не упомянут."
+ },
+ {
+  "domain": "mostbet-tanzania.net",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, а главная — лендинг чужого казино Amunra (чешский текст «Amunra bonus», кнопки Přihlášení/Registrace), Mostbet не упомянут."
+ },
+ {
+  "domain": "mostbet-turkey.vip",
+  "given": "discredit",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "discredit",
+  "confidence": 0.82,
+  "comment": "Mostbet в домене, главная — турецкая криптобиржа «TR Crypto» (пары LIT/USDT, Kayıt Ol), не гэмблинг."
+ },
+ {
+  "domain": "mostbet-zerkalo-a325.ru",
+  "given": "discredit",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "discredit",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене, а главная — наркошоп (мефедрон, героин, МДМА, выдача через Telegram), не гэмблинг."
+ },
+ {
+  "domain": "mostbet.forum",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.88,
+  "comment": "Mostbet в домене, а главная (?__hbus=1) — PWA-установщик слота Royal Joker (Playson) под видом Google Play, Mostbet не упомянут."
+ },
+ {
+  "domain": "mostbet.lifestyle",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.88,
+  "comment": "Mostbet в домене, а главная (?__hbus=1) — PWA-установщик слота Royal Joker (Playson) под видом Google Play, Mostbet не упомянут."
+ },
+ {
+  "domain": "mostbet.living",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.88,
+  "comment": "Mostbet в домене, а главная (?__hbus=1) — PWA-установщик слота Royal Joker (Playson) под видом Google Play, Mostbet не упомянут."
+ },
+ {
+  "domain": "mostbet.rest",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.88,
+  "comment": "Mostbet в домене, а главная (?__hbus=1) — PWA-установщик слота Royal Joker (Playson) под видом Google Play, Mostbet не упомянут."
+ },
+ {
+  "domain": "mostbet.study",
+  "given": "bait",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "discredit",
+  "confidence": 0.75,
+  "comment": "Mostbet в домене, но главная — страница казуальной головоломки Match Miracle: Triple 3D, кнопка ведёт на play.google.com com.tile.triplematch.matching; не гэмблинг, значит discredit, а не bait."
+ },
+ {
+  "domain": "mostbet.surf",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.88,
+  "comment": "Mostbet в домене, а главная (?__hbus=1) — PWA-установщик слота Royal Joker (Playson) под видом Google Play, Mostbet не упомянут."
+ },
+ {
+  "domain": "mostbet07.buzz",
+  "given": "discredit",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "discredit",
+  "confidence": 0.92,
+  "comment": "Mostbet в домене, а главная — лендинг выкупа авто «AUTO PRISE» с телефоном +7 (950) 800-53-14, не гэмблинг."
+ },
+ {
+  "domain": "mostbet1.digital",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.88,
+  "comment": "Mostbet в домене, а главная (?__hbus=1) — PWA-установщик слота Royal Joker (Playson) под видом Google Play, Mostbet не упомянут."
+ },
+ {
+  "domain": "mostbet1.world",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.88,
+  "comment": "Mostbet в домене, а главная (?__hbus=1) — PWA-установщик слота Royal Joker (Playson) под видом Google Play, Mostbet не упомянут."
+ },
+ {
+  "domain": "mostbet24.click",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.8,
+  "comment": "Mostbet в домене, главная — страница слот-приложения Bonanza Party - Slot Machines, Mostbet не упомянут."
+ },
+ {
+  "domain": "mostbet33006.ru",
+  "given": "discredit",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "discredit",
+  "confidence": 0.4,
+  "comment": "Mostbet в домене, title-заглушка «Mars in Cancer», тело — обфусцированный JS-редирект на трекер qyvir.com/go/2959341?subid2=mostbet33006.ru; у соседей этот трекер уводит на expireddomains.com, то есть похоже на парковку, а не на чужое казино."
+ },
+ {
+  "domain": "mostbet4003.ru",
+  "given": "discredit",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "discredit",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене, а главная — наркошоп (мефедрон, героин, МДМА, выдача через Telegram), не гэмблинг."
+ },
+ {
+  "domain": "mostbet4004.ru",
+  "given": "discredit",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "discredit",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене, а главная — наркошоп (мефедрон, героин, МДМА, выдача через Telegram), не гэмблинг."
+ },
+ {
+  "domain": "mostbet4013.ru",
+  "given": "discredit",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "discredit",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене, а главная — наркошоп (мефедрон, героин, МДМА, выдача через Telegram), не гэмблинг."
+ },
+ {
+  "domain": "mostbet69.buzz",
+  "given": "bait",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.6,
+  "comment": "Незаполненный шаблон казино-дорвея: бренд везде «Default» («Официальный сайт Default»), все 153 ссылки внутренние (/registracia, /zerkalo), чужих брендов и операторов нет; при другом заходе отдаёт FASTPANEL. Чужого казино нет, bait не подходит."
+ },
+ {
+  "domain": "mostbet77.lol",
+  "given": "discredit",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "discredit",
+  "confidence": 0.92,
+  "comment": "Mostbet в домене, а главная — лендинг выкупа авто «AUTO PRISE» с телефоном +7 (950) 800-53-14, не гэмблинг."
+ },
+ {
+  "domain": "mostbet777.buzz",
+  "given": "discredit",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "discredit",
+  "confidence": 0.92,
+  "comment": "Mostbet в домене, а главная — лендинг выкупа авто «AUTO PRISE» с телефоном +7 (950) 800-53-14, не гэмблинг."
+ },
+ {
+  "domain": "mostbeta.site",
+  "given": "discredit",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "discredit",
+  "confidence": 0.7,
+  "comment": "Домен mostbeta.site содержит mostbet, главная — сгенерированная бессмыслица «North Journal» («a niggard afternoon without step-fathers»), не гэмблинг."
+ },
+ {
+  "domain": "mostbetaze.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.88,
+  "comment": "Mostbet в домене, главная — индонезийское казино HASEAGAMING (slot, sabung, togel, кнопки Unduh APK/Daftar, WhatsApp +62), Mostbet не упомянут."
+ },
+ {
+  "domain": "mostbetfrlogin.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, главная — индонезийский VIPERTOTO (Situs Toto 4D) на шаблоне Magento-магазина, Mostbet не упомянут."
+ },
+ {
+  "domain": "mostbetgroup.club",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, а главная — PWA-колесо «350% bonus + 250 FS» со слотом Magic Apple и кнопкой GET BONUS чужого казино, Mostbet не упомянут."
+ },
+ {
+  "domain": "mostbetgroup.guru",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, а главная — PWA-колесо «350% bonus + 250 FS» со слотом Sun of Egypt и кнопкой GET BONUS чужого казино, Mostbet не упомянут."
+ },
+ {
+  "domain": "mostbetgroup.life",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, а главная — PWA-колесо «350% bonus + 250 FS» со слотом Gates of Olympus и кнопкой GET BONUS чужого казино, Mostbet не упомянут."
+ }
+]

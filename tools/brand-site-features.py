@@ -1,6 +1,6 @@
 """Features of every saved home page, for classifying sites by type (axis A) and by ads (axis B).
 
-Run: uv run --with selectolax --with aiohttp python tools/brand-site-features.py brand-protection/2026-09-28/brand-scan
+Run: uv run --with 'selectolax<1' --with aiohttp python tools/brand-site-features.py brand-protection/2026-09-28/brand-scan
 Reads <dir>/html/<domain>.{http,browser}.html.gz (the rendered page wins for text, both are scanned for
 links), writes <dir>/site-features.jsonl.gz, one record per domain. No network.
 
@@ -60,8 +60,8 @@ GAMBLING = re.compile(lb.GAMBLING.pattern.replace("|bet\\b|", "|\\bbet\\b|").rep
 META_KEYS = ("og:title", "og:description", "description", "application-name", "twitter:title")
 HIDDEN_STYLE = re.compile(
     r"display\s*:\s*none|visibility\s*:\s*hidden|(left|top|text-indent)\s*:\s*-\d{3,}|font-size\s*:\s*[01](\.\d+)?(px|pt)?\s*(;|$)|"
-    r"opacity\s*:\s*0(\.0+)?\s*(;|$)|(height|width)\s*:\s*[01]px[^\"]*overflow\s*:\s*hidden|"
-    r"overflow\s*:\s*hidden[^\"]*(height|width)\s*:\s*[01]px|clip\s*:\s*rect\(\s*0", re.I)
+    r"opacity\s*:\s*0(\.0+)?\s*(;|$)|(height|width)\s*:\s*[0-3]px[^\"]*overflow\s*:\s*hidden|"
+    r"overflow\s*:\s*hidden[^\"]*(height|width)\s*:\s*[0-3]px|clip\s*:\s*rect\(\s*0", re.I)
 AFF_Q = re.compile(lb.AFF_PARAMS.pattern + "|" + lb.TRACK_PARAMS.pattern + r"|(^|&)(sub\d|subid\d?|affiliatecode|affiliate_code|buyer)=", re.I)
 GATE_PATH = re.compile(r"^/(go|goto|out|visit|click|redirect|redir|recommends|refer|link|reg|register|play|bonus|promo|"
                        r"mostbet|mostb|step-un|get|join|signup)(/[^/]{0,24})?/?$", re.I)

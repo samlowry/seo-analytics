@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbet48.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Главная mostbet48.com переезжает на mostbettop.net (title «Mostbet Hungary»); кнопки Bejelentkezés/Regisztráció → mostbettop.net/go/ → kingmaker-8118.com (mid=133029_2249488), рефок Mostbet нет."
+ },
+ {
+  "domain": "mostbet5.bond",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «Mostbet Casino»; кнопки /registration/?id=<слот> ведут на чужие казино: Boomerang (mid=288722_1999423), MrPacho, Billybets, Glitch Spin (stag=39951_), рефок Mostbet нет."
+ },
+ {
+  "domain": "mostbet55614.shop",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «Mostbet Hungary: sportfogadás, kaszinó és bónusz»; кнопка https://lkmb.cc/4b86f836 ведёт на 1win (one-vv0352.com) — реклама чужого оператора, ссылок на Mostbet с кодом нет. Трекер lkmb.cc/4b86f836 у всех сайтов ведёт на 1win (p=h7aw)."
+ },
+ {
+  "domain": "mostbet62749.shop",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «Mostbet Hungary - kaszinó, bónuszok és mobil app»; кнопка https://lkmb.cc/4b86f836 ведёт на 1win (one-vv0352.com) — реклама чужого оператора, ссылок на Mostbet с кодом нет. Трекер lkmb.cc/4b86f836 у всех сайтов ведёт на 1win (p=h7aw)."
+ },
+ {
+  "domain": "mostbet62933.shop",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «Mostbet Hungary: sportfogadás, kaszinó és bónusz»; кнопка https://lkmb.cc/4b86f836 ведёт на 1win (one-vv0352.com) — реклама чужого оператора, ссылок на Mostbet с кодом нет. Трекер lkmb.cc/4b86f836 у всех сайтов ведёт на 1win (p=h7aw)."
+ },
+ {
+  "domain": "mostbet67.casino",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «Mostbet Official Site ᐉ Mostbet Login»; кнопка https://mostbet67.casino/visit/ ведёт на Winshark (winshark13.com) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbet67.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «Mostbet Official Site ᐉ Mostbet Login»; кнопка https://mostbet67.com/go/ ведёт на Winshark (winshark13.com) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbet67.lol",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «Mostbet CZ Oficiální online casino | Bonus 75 000 Kč + 500 FS»; кнопка https://mostbet67.lol/jump/ ведёт на Winshark (winshark13.com) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbet67.meme",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «Mostbet Official Site ᐉ Mostbet Login»; кнопка https://mostbet67.meme/jump/ ведёт на Winshark (winshark13.com) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbet71749.shop",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «Mostbet Hungary: sportfogadás, kaszinó és bónusz»; кнопка https://lkmb.cc/4b86f836 ведёт на 1win (one-vv0352.com) — реклама чужого оператора, ссылок на Mostbet с кодом нет. Трекер lkmb.cc/4b86f836 у всех сайтов ведёт на 1win (p=h7aw)."
+ },
+ {
+  "domain": "mostbet81.online",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене, внутри чужое казино Arkada (title «Аркада Казино: официальный сайт»); кнопка /reg ведёт на on-x175.casino и jtwinhubx.com (click_id), vopztru.com/3NFDmYjy — трекер JetTon."
+ },
+ {
+  "domain": "mostbet85271.shop",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «Mostbet Hungary - kaszinó, bónuszok és mobil app»; кнопка https://lkmb.cc/4b86f836 ведёт на 1win (one-vv0352.com) — реклама чужого оператора, ссылок на Mostbet с кодом нет. Трекер lkmb.cc/4b86f836 у всех сайтов ведёт на 1win (p=h7aw)."
+ },
+ {
+  "domain": "mostbetapk-az.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «Mostbet mərc və kazino qaydaları və istifadəçi bələdçisi»; кнопка https://mostbetapk-az.net/click ведёт на 1xBet (1xbet.rs) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetapk.best",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «mostbet apk | JazzCash Easypaisa tayyar ke sath Online Casino & Slot G»; кнопка https://77mvp.win/?cid=4291909 ведёт на 77MVP (77mvp.win) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetapk.vip",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «mostbet apk Pakistan players: Real Money Casino & Slots»; кнопка https://77mvp.top/?cid=3730651 ведёт на 77MVP (77mvp.top) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetapkdownload.info",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «MOSTBETAPKDOWNLOAD - PLATAFORMA OFICIAL - 💲 - MOSTBETAPKDOWNLOAD.COM»; кнопка https://c2.maxcloudlink.com/?ch=C260V&wid=32668 ведёт на 17JL (www.17jl33.com) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetapkdownload.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «MOSTBETAPKDOWNLOAD - PLATAFORMA OFICIAL - 💝 - MOSTBETAPKDOWNLOAD.COM»; кнопка https://c1.maxcloudlink.com/?ch=2NGS6&wid=32505 ведёт на 17JL (www.17jl33.com) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetapp-az.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «Mostbet mərc platforması icmalı və istifadəçi rəyləri»; кнопка https://mostbetapp-az.net/enter-now ведёт на 1xBet (1xbet.rs) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetapp-bd.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «Mostbet App - Download APK, iOS Install and Login 2026»; кнопка https://mostbetapp-bd.com/visit/JWQZKR ведёт на Glory (moreeeglory.com) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetapp-hu.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «Mostbet Hungary - kaszinó, bónuszok és mobil app»; кнопка https://lkmb.cc/4b86f836 ведёт на 1win (one-vv0352.com) — реклама чужого оператора, ссылок на Mostbet с кодом нет. Трекер lkmb.cc/4b86f836 у всех сайтов ведёт на 1win (p=h7aw)."
+ },
+ {
+  "domain": "mostbetapp.best",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «mostbet app - Pakistan Online ke liye Online Casino & Slot Games»; кнопка https://77mvp.win/?cid=4291909 ведёт на 77MVP (77mvp.win) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetapp.info",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «mostbet-Mostbet México - Casino Online y Aplicación Oficial»; кнопка https://c4.maxcloudlink.com/?ch=4CVQH&wid=11738 ведёт на 17JL (www.17jl33.com) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetapp.vip",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «mostbet app | JazzCash Easypaisa ke sath Online Casino Pakistan 2026 m»; кнопка https://77mvp.top/?cid=3730651 ведёт на 77MVP (77mvp.top) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetappdownload.info",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «MOSTBETAPPDOWNLOAD - PLATAFORMA OFICIAL - 💲 - MOSTBETAPPDOWNLOAD.COM»; кнопка https://c1.maxcloudlink.com/?ch=2NGS6&wid=32531 ведёт на 17JL (www.17jl33.com) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetappdownload.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «MOSTBETAPPDOWNLOAD - PLATAFORMA OFICIAL - ❤️ - MOSTBETAPPDOWNLOAD.COM»; кнопка https://c1.maxcloudlink.com/?ch=2NGS6&wid=23129 ведёт на 17JL (www.17jl33.com) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetappdownloadapk.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «MOSTBETAPPDOWNLOADAPK - PLATAFORMA OFICIAL - 🤑 - MOSTBETAPPDOWNLOADAPK»; кнопка https://c1.maxcloudlink.com/?ch=2NGS6&wid=32506 ведёт на 17JL (www.17jl33.com) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetappdownloadapk.info",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «MOSTBETAPPDOWNLOADAPK - PLATAFORMA OFICIAL - 🤑 - MOSTBETAPPDOWNLOADAPK»; кнопка https://c1.maxcloudlink.com/?ch=2NGS6&wid=43072 ведёт на 17JL (www.17jl33.com) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetappdownloadapk.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «MOSTBETAPPDOWNLOADAPK - PLATAFORMA OFICIAL - 🎁 - MOSTBETAPPDOWNLOADAPK»; кнопка https://c2.maxcloudlink.com/?ch=C260V&wid=32669 ведёт на 17JL (www.17jl33.com) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetaviator-in.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «MostBet Aviator in India | Play online game | Login, Bonuses»; кнопка https://mostbetaviator-in.com/click-to-fcaf307f3ea03c257556 ведёт на Lex (lex-casino231.com) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetaviator.app",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «mostbet aviator | JazzCash Easypaisa ke sath Slot & Live Casino Pakist»; кнопка https://77mvp.top/?cid=3730651 ведёт на 77MVP (77mvp.top) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetaviatorgame.info",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «MOSTBETAVIATORGAME - PLATAFORMA OFICIAL - 🎰 - MOSTBETAVIATORGAME.COM»; кнопка https://c2.maxcloudlink.com/?ch=C260V&wid=33105 ведёт на 17JL (www.17jl33.com) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetaviatorgame.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «MOSTBETAVIATORGAME - PLATAFORMA OFICIAL - 🎰 - MOSTBETAVIATORGAME.COM»; кнопка https://c2.maxcloudlink.com/?ch=C260V&wid=32604 ведёт на 17JL (www.17jl33.com) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetaviatorlogin.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «MOSTBETAVIATORLOGIN - PLATAFORMA OFICIAL - 🎁 - MOSTBETAVIATORLOGIN.COM»; кнопка https://c2.maxcloudlink.com/?ch=C260V&wid=33104 ведёт на 17JL (www.17jl33.com) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetaz1com.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «Mostbet Casino AZ – Rasmi sayt, qeydiyyat və APK icmalı Mostbet»; кнопка https://mostbetaz1com.cfd/play.php ведёт на 1xBet (1xbet.rs) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetazcasino.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «Mostbet mərc və kazino xidmətlərinin icmalı və qaydaları»; кнопка https://mostbetazcasino.org/go-now ведёт на 1xBet (1xbet.rs) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetazerbaijanbetnet.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «Mostbet AZ - Resmi Giris ve Qeydiyyat | Bonuslar ve Kazino»; кнопка https://mostbetazerbaijanbetnet.cfd/play.php ведёт на 1xBet (1xbet.rs) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetazerbaijanbetnet427.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «Mostbet AZ - Resmi Giris ve Qeydiyyat | Bonuslar ve Kazino»; кнопка https://mostbetazerbaijanbetnet427.cfd/play.php ведёт на 1xBet (1xbet.rs) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetazerbaijanbetnet591.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «Mostbet AZ - Resmi Giris ve Qeydiyyat | Bonuslar ve Kazino»; кнопка https://mostbetazerbaijanbetnet591.cfd/play.php ведёт на 1xBet (1xbet.rs) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetazerbaijanpro.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «Mostbet ilə Qazanmaq Şansı ✅ İndi Daddan Qaçırmayın»; кнопка https://mostbetazerbaijanpro.com/enter-now ведёт на 1xBet (1xbet.rs) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetazpwclorg274.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «Mostbet AZ | Rəsmi internet saytında giriş və qeydiyyat | Mostbet-az90»; кнопка https://mostbetazpwclorg274.top/go.php ведёт на 1xBet (1xbet.rs) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetazpwclorg300.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «Mostbet AZ | Rəsmi internet saytında giriş və qeydiyyat | Mostbet-az90»; кнопка https://mostbetazpwclorg300.top/go.php ведёт на 1xBet (1xbet.rs) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetazpwclorg337.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «Mostbet AZ | Rəsmi internet saytında giriş və qeydiyyat | Mostbet-az90»; кнопка https://mostbetazpwclorg337.top/go.php ведёт на 1xBet (1xbet.rs) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetazpwclorg430.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «Mostbet AZ | Rəsmi internet saytında giriş və qeydiyyat | Mostbet-az90»; кнопка https://mostbetazpwclorg430.top/go.php ведёт на 1xBet (1xbet.rs) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetazpwclorg445.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «Mostbet AZ | Rəsmi internet saytında giriş və qeydiyyat | Mostbet-az90»; кнопка https://mostbetazpwclorg445.top/go.php ведёт на 1xBet (1xbet.rs) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetazpwclorg477.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «Mostbet AZ | Rəsmi internet saytında giriş və qeydiyyat | Mostbet-az90»; кнопка https://mostbetazpwclorg477.top/go.php ведёт на 1xBet (1xbet.rs) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetazpwclorg584.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «Mostbet AZ | Rəsmi internet saytında giriş və qeydiyyat | Mostbet-az90»; кнопка https://mostbetazpwclorg584.top/go.php ведёт на 1xBet (1xbet.rs) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetazpwclorg614.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «Mostbet AZ | Rəsmi internet saytında giriş və qeydiyyat | Mostbet-az90»; кнопка https://mostbetazpwclorg614.top/go.php ведёт на 1xBet (1xbet.rs) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetazpwclorg692.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «Mostbet AZ | Rəsmi internet saytında giriş və qeydiyyat | Mostbet-az90»; кнопка https://mostbetazpwclorg692.top/go.php ведёт на 1xBet (1xbet.rs) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetazpwclorg693.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «Mostbet AZ | Rəsmi internet saytında giriş və qeydiyyat | Mostbet-az90»; кнопка https://mostbetazpwclorg693.top/go.php ведёт на 1xBet (1xbet.rs) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "mostbetazpwclorg706.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Mostbet в домене, title «Mostbet AZ | Rəsmi internet saytında giriş və qeydiyyat | Mostbet-az90»; кнопка https://mostbetazpwclorg706.top/go.php ведёт на 1xBet (1xbet.rs) — реклама чужого оператора, ссылок на Mostbet с кодом нет."
+ }
+]

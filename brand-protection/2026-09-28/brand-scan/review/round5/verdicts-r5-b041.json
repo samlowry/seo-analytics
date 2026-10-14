@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "brnostavi.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet CZ 2026 🔥 Oficiální kasino a sázky | Bonus»); кнопки через https://so-corny.cfd/click?key=4de6f4813da841cebd18b287a6366862&element=reg ведут на Dudespin: dd21--dudespin.com с mid=33585_2254468; кнопки регистрации/входа собраны скриптом, адрес взят из клика в браузере. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "browspa.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Casino PL ⭐️ 5000PLN + 500FS | Kasyno Most»); кнопки через https://browspa.pl/click/ ведут на Winshark: winshark13.com с stag=109401_6abb98bdc7b961e5050ceb9c; кнопки регистрации/входа собраны скриптом, адрес взят из клика в браузере. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "brsport.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet (Мостбет) 🎮 Ставки на Киберспорт: Dota 2 и»); кнопки через https://brsport.ru/mostb/ ведут на NormCasino: 9normcasino-oa.win с qtag=a84744_t61351802_c7675_sea8698wci158w0cd; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "brunorocha.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Casino PT ▷ Login no Casino Most Bet Portu»); кнопки через https://brunorocha.org/play ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "budget-printing.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Onlayn Kazino: Ümumi İcmal»); кнопки через https://www.budget-printing.com/play ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "bureaupizzaco.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Onlayn Kazino: Ümumi İcmal»); кнопки через https://bureaupizzaco.com/play ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "burroughsms.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ Giriş ᐉ Mostbet Azerbaycan Rəsmi Casino»); кнопки через https://burroughsms.org/play ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "casino-mostbet-en.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.95,
+  "comment": "Домен с mostbet переезжает на 1xbettuzbekistan.top — сайт 1xBet с партнёрской ссылкой refpa3267686.top/L?tag=s_3151815m_1234c_ и кнопками /reg; про Mostbet там ничего."
+ },
+ {
+  "domain": "cassecrepebreton.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Casino PT – Login no Casino Most Bet Portu»); кнопки через https://jdixwyedm.top/NyjXNcrG ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; кнопки регистрации/входа собраны скриптом, адрес взят из клика в браузере. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "cassubia-dictionary.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «MostBet Casino PL ⭐️ 3000 PLN i 250 FS ➡️ Login Mo»); кнопки через https://www.cassubia-dictionary.com/go ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "castleapk.com.co",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Pakistan: Official Sports Betting & Casino»); кнопки через https://castleapk.com.co/go/ ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "cazino-mostbet-game.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Мостбет официальный сайт | Mostbet казино зеркало »); кнопки через https://updatezone.net/Bjyjf1TL ведут на 1win: one-vv0352.com с p=0nyp; data-url кнопок в HTML, трекер updatezone.net во всех замерах ведёт на 1win. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "ccptraffickyc.pk",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Login Pakistan - sports betting casino | B»); кнопки через https://ccptraffickyc.pk/play ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "ccr2p.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ ✔️ Rəsmi internet saytında giriş və qey»); кнопки через https://ccr2p.org/go/ ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; кнопки регистрации/входа собраны скриптом, адрес взят из клика в браузере. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "ccr2porg-1.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ ✔️ Rəsmi internet saytında giriş və qey»); кнопки через https://ccr2porg-1.cfd/go.php ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "ccr2porg-10.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ ✔️ Rəsmi internet saytında giriş və qey»); кнопки через https://ccr2porg-10.cfd/go.php ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "ccr2porg-2.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ ✔️ Rəsmi internet saytında giriş və qey»); кнопки через https://ccr2porg-2.cfd/go.php ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "ccr2porg-3.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ ✔️ Rəsmi internet saytında giriş və qey»); кнопки через https://ccr2porg-3.cfd/go.php ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "ccr2porg-4.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ ✔️ Rəsmi internet saytında giriş və qey»); кнопки через https://ccr2porg-4.cfd/go.php ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "ccr2porg-5.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ ✔️ Rəsmi internet saytında giriş və qey»); кнопки через https://ccr2porg-5.cfd/go.php ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "ccr2porg-6.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ ✔️ Rəsmi internet saytında giriş və qey»); кнопки через https://ccr2porg-6.cfd/go.php ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "ccr2porg-7.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ ✔️ Rəsmi internet saytında giriş və qey»); кнопки через https://ccr2porg-7.cfd/go.php ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "ccr2porg-8.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ ✔️ Rəsmi internet saytında giriş və qey»); кнопки через https://ccr2porg-8.cfd/go.php ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "ccr2porg-9.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ ✔️ Rəsmi internet saytında giriş və qey»); кнопки через https://ccr2porg-9.cfd/go.php ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "ccr2porg10.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ ✔️ Rəsmi internet saytında giriş və qey»); кнопки через https://ccr2porg10.cfd/go.php ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "ccr2porg11.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ ✔️ Rəsmi internet saytında giriş və qey»); кнопки через https://ccr2porg11.cfd/go.php ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "ccr2porg12.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ ✔️ Rəsmi internet saytında giriş və qey»); кнопки через https://ccr2porg12.cfd/go.php ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "ccr2porg14.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ ✔️ Rəsmi internet saytında giriş və qey»); кнопки через https://ccr2porg14.cfd/go.php ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "ccr2porg15.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ ✔️ Rəsmi internet saytında giriş və qey»); кнопки через https://ccr2porg15.cfd/go.php ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "ccr2porg16.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ ✔️ Rəsmi internet saytında giriş və qey»); кнопки через https://ccr2porg16.cfd/go.php ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "ccr2porg17.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ ✔️ Rəsmi internet saytında giriş və qey»); кнопки через https://ccr2porg17.cfd/go.php ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "ccr2porg18.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ ✔️ Rəsmi internet saytında giriş və qey»); кнопки через https://ccr2porg18.cfd/go.php ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "centrefrancais.ca",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet ᐉ Mostbet AZ giriş, yükləmə və bonuslar»); кнопки через https://centrefrancais.ca/play ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "centrefrancais3.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet ᐉ Mostbet AZ giriş, yükləmə və bonuslar»); кнопки через https://centrefrancais3.cfd/play.php ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "centrefrancais4.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet ᐉ Mostbet AZ giriş, yükləmə və bonuslar»); кнопки через https://centrefrancais4.cfd/play.php ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "centrefrancais5.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet ᐉ Mostbet AZ giriş, yükləmə və bonuslar»); кнопки через https://centrefrancais5.cfd/play.php ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "centrefrancais5.xyz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet ᐉ Mostbet AZ giriş, yükləmə və bonuslar»); кнопки через https://centrefrancais5.xyz/play.php ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "centrefrancais6.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet ᐉ Mostbet AZ giriş, yükləmə və bonuslar»); кнопки через https://centrefrancais6.cfd/play.php ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "centrefrancais6.xyz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet ᐉ Mostbet AZ giriş, yükləmə və bonuslar»); кнопки через https://centrefrancais6.xyz/play.php ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "centronous.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ ᐉ Rəsmi Giriş, Qeydiyyat & Bonuslar 202»); кнопки через https://www.centronous.com/play ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "centrumzdraviaregenerace.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Casino CZ – oficiální stránka, bonusy a hr»); кнопки через https://centrumzdraviaregenerace.cz/out/ ведут на Winshark: winshark13.com с stag=109401_6abb99f19137f0ac38e1153c; кнопки регистрации/входа собраны скриптом, адрес взят из клика в браузере. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "change-tv.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Мостбет Зеркало - Актуальный вход на сайт Mostbet»); кнопки через https://change-tv.ru/mostb/ ведут на NormCasino: 8normcasino-xx.win с qtag=a84744_t61351802_c7675_se34a7g546gxxofe0; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "chcidomrazaku.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet CZ Oficiální online casino | Bonus 75 000 »); кнопки через https://chcidomrazaku.cz/jump/ ведут на Winshark: winshark13.com с stag=109401_6abb9a05895eec26af0e7fcb; кнопки регистрации/входа собраны скриптом, адрес взят из клика в браузере. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "chipicao.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Casino ( Mostbet Polska ) 🍒 Sloty i Kasyno»); кнопки через https://chipicao.pl/step-un/ ведут на Hellspin: hellspin222.com с btag=678741_36f14067960d49c7a9cefb2fc45dae3c; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "chorvatsko-ubytovani-apartman.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet oficiální stránka ᐉ Mostbet přihlášení»); кнопки через https://chorvatsko-ubytovani-apartman.cz/get/ ведут на Winshark: winshark13.com с stag=109401_6abb9a081da4d26dfa49156f; кнопки регистрации/входа собраны скриптом, адрес взят из клика в браузере. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "chutnej-sejr.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Official Site ᐉ Mostbet Login»); кнопки через https://chutnej-sejr.cz/out/ ведут на Winshark: winshark13.com с stag=109401_6abb9a0d895eec26af0e8147; кнопки регистрации/входа собраны скриптом, адрес взят из клика в браузере. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "clasf.pk",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Login Pakistan - sports betting casino | B»); кнопки через https://www.clasf.pk/play ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "cmrdymek.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «MostBet Kasyno PL 🎰 Logowanie, Apk & Bonus Code – »); кнопки через https://cmrdymek.pl/play/ ведут на 1win: one-vv3429.com с p=hztd; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "cns28.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Мостбет Официальный сайт Mostbet — Твой путь к поб»); кнопки через https://cns28.ru/mostb/ ведут на NormCasino: 3normcasino-oo.win с qtag=a84744_t61351802_c7675_secc71g51muoe2404; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "codejoyeducation.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet ᐉ বাংলাদেশে Most Bet ক্যাসিনো ও স্পোর্টস ব»); кнопки через https://codejoyeducation.com/go/ ведут на 1xBet: 1xbet.rs:443 с tag=d_3755482m_22585c_smartlink; ссылка есть в HTML страницы. Ссылок на Mostbet с кодом нет."
+ }
+]

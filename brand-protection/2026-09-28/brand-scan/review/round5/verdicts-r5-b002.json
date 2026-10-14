@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbet-morocco.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.9,
+  "comment": "1win.global стоит только в закомментированных строках скрипта (// var Imagepath = \"https://www.1win.global/Casino/\"), это не ссылка; все кнопки /go и Login ведут на рефку Mostbet uksyxemb.com pid=184831."
+ },
+ {
+  "domain": "mostbet-mx-app.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.88,
+  "comment": "Переезжает на mostbet.mex.com: 1win.global только в закомментированной строке скрипта (// var Imagepath), картинка ORG_1win-banner — имя файла, не ссылка; /login/ и /go/ ведут на Mostbet pid=184831."
+ },
+ {
+  "domain": "mostbet.mex.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.88,
+  "comment": "1win.global только в закомментированной строке скрипта (// var Imagepath), ORG_1win-banner — имя картинки; /login/ и /go/ ведут на рефку Mostbet uksyxemb.com pid=184831."
+ },
+ {
+  "domain": "mostbets-de.de",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.88,
+  "comment": "1win.global только в закомментированных строках скрипта (// var Imagepath), ORG_1win-banner/ORG_1win Poker — имена картинок; все /go/ ведут на kmjwdimb.com pid=141153 (Mostbet)."
+ },
+ {
+  "domain": "q1.quotes.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.75,
+  "comment": "Переезд на uzbekistan-mostbet.net.ph, который отдаёт парковку ww547.uzbekistan-mostbet.net.ph/?tkn=… с фидовой рекламой (payedsurveys.com clickid) — паркованный домен, не сайт про ставки."
+ },
+ {
+  "domain": "gamestronglivestronger.org",
+  "given": "mono_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.4,
+  "comment": "Монобренд Mostbet PL, все кнопки /go/play → partners-official.com/zpFfMdFL, получатель не открылся; этот трекер у других сайтов ведёт и на Mostbet (W7RkZgH8 → nnvytcmb.com), и на Spinanga — бренд получателя не установить."
+ },
+ {
+  "domain": "kingplay.world",
+  "given": "mono_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "bait",
+  "confidence": 0.4,
+  "comment": "Фейковая страница Play Market «Mostbet™» (разработчик mostbet.partners), кнопка установки PWA → sinnerscpa.com → kenoni5.com (too_many_redirects); какое казино внутри PWA — неизвестно, владелец отмечал, что часть PWA реально ведёт на Mostbet."
+ },
+ {
+  "domain": "project-sunrise.eu",
+  "given": "mono_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.4,
+  "comment": "Монобренд Mostbet PL, кнопки /go/play → partners-official.com/zpFfMdFL (пустая страница); трекер общий: у других сайтов ведёт и на Mostbet, и на Spinanga — получатель не установлен."
+ },
+ {
+  "domain": "tgktoday.top",
+  "given": "mono_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "bait",
+  "confidence": 0.4,
+  "comment": "Фейковая страница установки приложения «MostBet PL», кнопка → tvzycttt.playpwatop.com (connect_error); какое казино в PWA — не видно, получатель неизвестен."
+ },
+ {
+  "domain": "videribeauty.com",
+  "given": "mono_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.4,
+  "comment": "Монобренд Mostbet AZ, 7 ссылок на partners-official.com/cc5Nhb → partnerslink-global.com/wBjVLZkV (пустая страница); этот же трекер у других сайтов ведёт и на Mostbet, и на Spinanga."
+ },
+ {
+  "domain": "cagrimerkezikirala.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.6,
+  "comment": "Турецкий монобренд Mostbet на чужом домене: на десктопе кнопки (data-go в <body>) ведут на ame1a56mb.com → Mostbet pid=462721, а мобильному посетителю и посетителю из Google подменяется на трекер plusfind.info/go/…?subid=mostbet_tr_rovbet (subid указывает на Rovbet); получатель трекера не открылся."
+ },
+ {
+  "domain": "edclinique.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.6,
+  "comment": "Турецкий монобренд Mostbet на чужом домене: на десктопе кнопки (data-go в <body>) ведут на ame1a56mb.com → Mostbet pid=462721, а мобильному посетителю и посетителю из Google подменяется на трекер plusfind.info/go/…?subid=mostbet_tr_rovbet (subid указывает на Rovbet); получатель трекера не открылся."
+ },
+ {
+  "domain": "hknguvenlik.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.6,
+  "comment": "Турецкий монобренд Mostbet на чужом домене: на десктопе кнопки (data-go в <body>) ведут на ame1a56mb.com → Mostbet pid=462721, а мобильному посетителю и посетителю из Google подменяется на трекер plusfind.info/go/…?subid=mostbet_tr_rovbet (subid указывает на Rovbet); получатель трекера не открылся."
+ },
+ {
+  "domain": "klinikhijau.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.6,
+  "comment": "Турецкий монобренд Mostbet на чужом домене: на десктопе кнопки (data-go в <body>) ведут на ame1a56mb.com → Mostbet pid=462721, а мобильному посетителю и посетителю из Google подменяется на трекер plusfind.info/go/…?subid=mostbet_tr_rovbet (subid указывает на Rovbet); получатель трекера не открылся."
+ },
+ {
+  "domain": "klinikkitamura.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.6,
+  "comment": "Турецкий монобренд Mostbet на чужом домене: на десктопе кнопки (data-go в <body>) ведут на ame1a56mb.com → Mostbet pid=462721, а мобильному посетителю и посетителю из Google подменяется на трекер plusfind.info/go/…?subid=mostbet_tr_rovbet (subid указывает на Rovbet); получатель трекера не открылся."
+ },
+ {
+  "domain": "klinikutama.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.6,
+  "comment": "Турецкий монобренд Mostbet на чужом домене: на десктопе кнопки (data-go в <body>) ведут на ame1a56mb.com → Mostbet pid=462721, а мобильному посетителю и посетителю из Google подменяется на трекер plusfind.info/go/…?subid=mostbet_tr_rovbet (subid указывает на Rovbet); получатель трекера не открылся."
+ },
+ {
+  "domain": "moostbet.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.75,
+  "comment": "go-moostbet.php → betplace.org/NfBG9q → 3dqeka7xzlun7d5mst.com → Mostbet pid=415475; редкий уход на 32nk.com/crushliinker (дейтинг) — сброс нецелевого трафика тем же трекером Mostbet, других ссылок на странице нет."
+ },
+ {
+  "domain": "mostbet-win.cz",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.7,
+  "comment": "Все /go/ → urlboost.top/y3rYhs5Z → simkmumb.com → lziooamb.com pid=147099 (Mostbet) в 4 прогонах; один уход на bigclash-9829.com/lv — гео-сброс того же трекера, отдельной ссылки на чужой бренд на странице нет."
+ },
+ {
+  "domain": "nftinvestorjournal.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.6,
+  "comment": "Турецкий монобренд Mostbet на чужом домене: на десктопе кнопки (data-go в <body>) ведут на ame1a56mb.com → Mostbet pid=462721, а мобильному посетителю и посетителю из Google подменяется на трекер plusfind.info/go/…?subid=mostbet_tr_rovbet (subid указывает на Rovbet); получатель трекера не открылся."
+ },
+ {
+  "domain": "click-v4.junclikrmedi.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.75,
+  "comment": "Переезд на mostbets-az.pro, который отдаёт парковку ww547.mostbets-az.pro/?tkn=… и фидовый клик torroclk.com/feed/click; мобильным — редирект на 890092.studiowaterarts.com; это парковка, не сайт."
+ },
+ {
+  "domain": "mostbets-az.pro",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.75,
+  "comment": "Главная — парковка ww547.mostbets-az.pro/?tkn=… с фидовой рекламой torroclk.com/feed/click (subid=mostbets-az.pro), мобильным — редирект на studiowaterarts.com; контента нет."
+ },
+ {
+  "domain": "artofchange.global",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Переезд на thehatchery.club — обзор «Melhores Casinos Online Portugal» с четырьмя брендами (Mostbet, Solverde, 888, Estoril Sol), Mostbet не в домене и не в title; все кнопки одна ссылка onlinecasinoportugal.vip/play → clickfrbt-2.com/BJpk477W (пустая) — мультибрендовый обзор, не монобренд."
+ },
+ {
+  "domain": "audisailingseries.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Переезд на thehatchery.club — обзор «Melhores Casinos Online Portugal» с четырьмя брендами (Mostbet, Solverde, 888, Estoril Sol), Mostbet не в домене и не в title; все кнопки одна ссылка onlinecasinoportugal.vip/play → clickfrbt-2.com/BJpk477W (пустая) — мультибрендовый обзор, не монобренд."
+ },
+ {
+  "domain": "azibo.pt",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Переезд на thehatchery.club — обзор «Melhores Casinos Online Portugal» с четырьмя брендами (Mostbet, Solverde, 888, Estoril Sol), Mostbet не в домене и не в title; все кнопки одна ссылка onlinecasinoportugal.vip/play → clickfrbt-2.com/BJpk477W (пустая) — мультибрендовый обзор, не монобренд."
+ },
+ {
+  "domain": "bagatelasdepapel.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Переезд на thehatchery.club — обзор «Melhores Casinos Online Portugal» с четырьмя брендами (Mostbet, Solverde, 888, Estoril Sol), Mostbet не в домене и не в title; все кнопки одна ссылка onlinecasinoportugal.vip/play → clickfrbt-2.com/BJpk477W (пустая) — мультибрендовый обзор, не монобренд."
+ },
+ {
+  "domain": "bd-mostbet-bd.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (бренд в домене, title «mostbet…»), кнопки регистрации через обфусцированный скрипт ведут на www.19tbajee.com/m/register?affiliateCode=seo555 — чужой оператор (Baji/WinBD) с кодом партнёра."
+ },
+ {
+  "domain": "bet-mostbet-casino.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (бренд в домене, title «mostbet…»), кнопки регистрации через обфусцированный скрипт ведут на www.19tbajee.com/m/register?affiliateCode=seo555 — чужой оператор (Baji/WinBD) с кодом партнёра."
+ },
+ {
+  "domain": "bet-mostbetonline.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (бренд в домене, title «mostbet…»), кнопки регистрации через обфусцированный скрипт ведут на www.winbd17.com/m/register?affiliateCode=seo555 — чужой оператор (Baji/WinBD) с кодом партнёра."
+ },
+ {
+  "domain": "blockchaintechcorp.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Переезд на thehatchery.club — обзор «Melhores Casinos Online Portugal» с четырьмя брендами (Mostbet, Solverde, 888, Estoril Sol), Mostbet не в домене и не в title; все кнопки одна ссылка onlinecasinoportugal.vip/play → clickfrbt-2.com/BJpk477W (пустая) — мультибрендовый обзор, не монобренд."
+ },
+ {
+  "domain": "brownderbyhollywood.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Переезд на thehatchery.club — обзор «Melhores Casinos Online Portugal» с четырьмя брендами (Mostbet, Solverde, 888, Estoril Sol), Mostbet не в домене и не в title; все кнопки одна ссылка onlinecasinoportugal.vip/play → clickfrbt-2.com/BJpk477W (пустая) — мультибрендовый обзор, не монобренд."
+ },
+ {
+  "domain": "casino-mostbet-bd.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (бренд в домене, title «mostbet…»), кнопки регистрации через обфусцированный скрипт ведут на www.19tbajee.com/m/register?affiliateCode=seo555 — чужой оператор (Baji/WinBD) с кодом партнёра."
+ },
+ {
+  "domain": "connect-4.io",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Переезд на thehatchery.club — обзор «Melhores Casinos Online Portugal» с четырьмя брендами (Mostbet, Solverde, 888, Estoril Sol), Mostbet не в домене и не в title; все кнопки одна ссылка onlinecasinoportugal.vip/play → clickfrbt-2.com/BJpk477W (пустая) — мультибрендовый обзор, не монобренд."
+ },
+ {
+  "domain": "corridapelicas.pt",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Переезд на thehatchery.club — обзор «Melhores Casinos Online Portugal» с четырьмя брендами (Mostbet, Solverde, 888, Estoril Sol), Mostbet не в домене и не в title; все кнопки одна ссылка onlinecasinoportugal.vip/play → clickfrbt-2.com/BJpk477W (пустая) — мультибрендовый обзор, не монобренд."
+ },
+ {
+  "domain": "corruptour.mx",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Переезд на thehatchery.club — обзор «Melhores Casinos Online Portugal» с четырьмя брендами (Mostbet, Solverde, 888, Estoril Sol), Mostbet не в домене и не в title; все кнопки одна ссылка onlinecasinoportugal.vip/play → clickfrbt-2.com/BJpk477W (пустая) — мультибрендовый обзор, не монобренд."
+ },
+ {
+  "domain": "cryptocurrencyinsurance.io",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Переезд на thehatchery.club — обзор «Melhores Casinos Online Portugal» с четырьмя брендами (Mostbet, Solverde, 888, Estoril Sol), Mostbet не в домене и не в title; все кнопки одна ссылка onlinecasinoportugal.vip/play → clickfrbt-2.com/BJpk477W (пустая) — мультибрендовый обзор, не монобренд."
+ },
+ {
+  "domain": "dinosaurplanet.net",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Переезд на thehatchery.club — обзор «Melhores Casinos Online Portugal» с четырьмя брендами (Mostbet, Solverde, 888, Estoril Sol), Mostbet не в домене и не в title; все кнопки одна ссылка onlinecasinoportugal.vip/play → clickfrbt-2.com/BJpk477W (пустая) — мультибрендовый обзор, не монобренд."
+ },
+ {
+  "domain": "donanuvem.pt",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Переезд на thehatchery.club — обзор «Melhores Casinos Online Portugal» с четырьмя брендами (Mostbet, Solverde, 888, Estoril Sol), Mostbet не в домене и не в title; все кнопки одна ссылка onlinecasinoportugal.vip/play → clickfrbt-2.com/BJpk477W (пустая) — мультибрендовый обзор, не монобренд."
+ },
+ {
+  "domain": "drasofiacarvalho.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Переезд на thehatchery.club — обзор «Melhores Casinos Online Portugal» с четырьмя брендами (Mostbet, Solverde, 888, Estoril Sol), Mostbet не в домене и не в title; все кнопки одна ссылка onlinecasinoportugal.vip/play → clickfrbt-2.com/BJpk477W (пустая) — мультибрендовый обзор, не монобренд."
+ },
+ {
+  "domain": "drunkplayer.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Переезд на thehatchery.club — обзор «Melhores Casinos Online Portugal» с четырьмя брендами (Mostbet, Solverde, 888, Estoril Sol), Mostbet не в домене и не в title; все кнопки одна ссылка onlinecasinoportugal.vip/play → clickfrbt-2.com/BJpk477W (пустая) — мультибрендовый обзор, не монобренд."
+ },
+ {
+  "domain": "embracetheepic.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Переезд на thehatchery.club — обзор «Melhores Casinos Online Portugal» с четырьмя брендами (Mostbet, Solverde, 888, Estoril Sol), Mostbet не в домене и не в title; все кнопки одна ссылка onlinecasinoportugal.vip/play → clickfrbt-2.com/BJpk477W (пустая) — мультибрендовый обзор, не монобренд."
+ },
+ {
+  "domain": "externatoocaracol.pt",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Переезд на thehatchery.club — обзор «Melhores Casinos Online Portugal» с четырьмя брендами (Mostbet, Solverde, 888, Estoril Sol), Mostbet не в домене и не в title; все кнопки одна ссылка onlinecasinoportugal.vip/play → clickfrbt-2.com/BJpk477W (пустая) — мультибрендовый обзор, не монобренд."
+ },
+ {
+  "domain": "facemasksclub.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Переезд на thehatchery.club — обзор «Melhores Casinos Online Portugal» с четырьмя брендами (Mostbet, Solverde, 888, Estoril Sol), Mostbet не в домене и не в title; все кнопки одна ссылка onlinecasinoportugal.vip/play → clickfrbt-2.com/BJpk477W (пустая) — мультибрендовый обзор, не монобренд."
+ },
+ {
+  "domain": "felicitygeorge.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.8,
+  "comment": "Взломанный WordPress-блог «Grounding Guide» с лентой спам-постов; пост «Mostbet Az» ссылается только на jardimalchymist.com (дорвей Mostbet AZ без рекламы), прочие ссылки — на новости (elmostrador.cl, yahoo, outlookindia); партнёрских ссылок нет."
+ },
+ {
+  "domain": "gogaba.co",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Переезд на thehatchery.club — обзор «Melhores Casinos Online Portugal» с четырьмя брендами (Mostbet, Solverde, 888, Estoril Sol), Mostbet не в домене и не в title; все кнопки одна ссылка onlinecasinoportugal.vip/play → clickfrbt-2.com/BJpk477W (пустая) — мультибрендовый обзор, не монобренд."
+ },
+ {
+  "domain": "goodstep.pt",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Переезд на thehatchery.club — обзор «Melhores Casinos Online Portugal» с четырьмя брендами (Mostbet, Solverde, 888, Estoril Sol), Mostbet не в домене и не в title; все кнопки одна ссылка onlinecasinoportugal.vip/play → clickfrbt-2.com/BJpk477W (пустая) — мультибрендовый обзор, не монобренд."
+ },
+ {
+  "domain": "gutefreunde.ch",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Переезд на thehatchery.club — обзор «Melhores Casinos Online Portugal» с четырьмя брендами (Mostbet, Solverde, 888, Estoril Sol), Mostbet не в домене и не в title; все кнопки одна ссылка onlinecasinoportugal.vip/play → clickfrbt-2.com/BJpk477W (пустая) — мультибрендовый обзор, не монобренд."
+ },
+ {
+  "domain": "hazeldonk-interiors.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Переезд на thehatchery.club — обзор «Melhores Casinos Online Portugal» с четырьмя брендами (Mostbet, Solverde, 888, Estoril Sol), Mostbet не в домене и не в title; все кнопки одна ссылка onlinecasinoportugal.vip/play → clickfrbt-2.com/BJpk477W (пустая) — мультибрендовый обзор, не монобренд."
+ },
+ {
+  "domain": "healthyswimming.org",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Переезд на thehatchery.club — обзор «Melhores Casinos Online Portugal» с четырьмя брендами (Mostbet, Solverde, 888, Estoril Sol), Mostbet не в домене и не в title; все кнопки одна ссылка onlinecasinoportugal.vip/play → clickfrbt-2.com/BJpk477W (пустая) — мультибрендовый обзор, не монобренд."
+ },
+ {
+  "domain": "ibikeconsole.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Переезд на thehatchery.club — обзор «Melhores Casinos Online Portugal» с четырьмя брендами (Mostbet, Solverde, 888, Estoril Sol), Mostbet не в домене и не в title; все кнопки одна ссылка onlinecasinoportugal.vip/play → clickfrbt-2.com/BJpk477W (пустая) — мультибрендовый обзор, не монобренд."
+ },
+ {
+  "domain": "jamaalmay.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Переезд на thehatchery.club — обзор «Melhores Casinos Online Portugal» с четырьмя брендами (Mostbet, Solverde, 888, Estoril Sol), Mostbet не в домене и не в title; все кнопки одна ссылка onlinecasinoportugal.vip/play → clickfrbt-2.com/BJpk477W (пустая) — мультибрендовый обзор, не монобренд."
+ }
+]

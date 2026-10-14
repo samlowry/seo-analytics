@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbetn.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, все кнопки «رجسٹر کریں», «Mostbet لاگ اِن» на главной и 4 внутренних ведут на luckypk777d.com/?code=G1EMU4W2UCC — чужое казино с реф-кодом."
+ },
+ {
+  "domain": "mostbetnl.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, кнопки через goto.mostbetnl.com/?mon=RjmvdMm уводят через trackingbetspino.com на betspino.com/?stag=11104_…; кода Mostbet нет."
+ },
+ {
+  "domain": "nina-podolog.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Переезд на bazaslowian.pl: страница «Mostbet Polska», кнопки «Rejestracja/Odbierz bonus» → /play/ → трекер serffigrcqufssefv.help → 1win (p=hztd)."
+ },
+ {
+  "domain": "onlinefikirler.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Переезд на turkiyepromotiongroup.com, title «Mostbet Giriş»; кнопка /go.php уводит на 1xbet.rs?tag=d_3755482m_22585c_smartlink."
+ },
+ {
+  "domain": "polistastrips.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Title «Mostbet — bonus bilan ro'yxatdan o'tish», кнопка /play уводит на betwinner.rs?btag=d_94057m_517587c."
+ },
+ {
+  "domain": "ps3iso.net",
+  "given": "mono_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_other",
+  "confidence": 0.4,
+  "comment": "Клон mostbet-reviews.com виден только Google (посетителю 403); главная кнопка /link/ не раскрыта, а 1win-pro.pro → 1win-ogi23.sbs («Зеркало 1Win», без кода) найден на внутренней странице — оператор это или дорвей, по файлам не понять."
+ },
+ {
+  "domain": "sc2001.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Переезд на turkiyepromotiongroup.com, title «Mostbet Giriş»; /go.php → 1xbet.rs?tag=d_3755482m_22585c_smartlink."
+ },
+ {
+  "domain": "thecopperacorn.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Title «Mostbet ᐉ Kaszinó» (версия для Google), кнопка /go/ → 1xbet.rs?tag=d_3755482m_22585c_smartlink."
+ },
+ {
+  "domain": "1-aviator.com",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.85,
+  "comment": "На странице про бонус Mostbet кнопки «Registration and Login», «Bonus 500% | 1WIN» ведут на трекер lkpq.cc/08ce31 → 1win (p=mclm), плюс 1win.run/?p=GKOd."
+ },
+ {
+  "domain": "24mostbet.click",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, внутри слот «Bonanza Party - Slot Machines», Mostbet на странице не упоминается."
+ },
+ {
+  "domain": "aaagca.com",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.85,
+  "comment": "Взломанный сайт фирмы с постами про Mostbet (/2026/06/10/mostbet-w-polsce-…): зелёная кнопка «GRAĆ/OYNA» → трекер w3n7z2qt.top/v1GxGYrB → 1xbet.rs с tag=d_3755482m."
+ },
+ {
+  "domain": "academypoker.ru",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.85,
+  "comment": "На странице /poker-rumy/mostbet-poker.html кнопки «Играть» → /go/stake/ (stake3090.com), /go/pokerok/ (qtag), /go/pokerdom/, /go/1win/."
+ },
+ {
+  "domain": "achajogobarato.com.br",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Title «Mostbet», кнопка «Ir para o site» → /go/ → 1xbet.rs?tag=d_3755482m_22585c_smartlink."
+ },
+ {
+  "domain": "alrouletteonline.com",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.85,
+  "comment": "На обзоре /reviews/mostbet-casino/ кнопки «العب الان» → /go/1xbet, /go/Melbet, /go/22bet (22bet4u.com?btag=958084)."
+ },
+ {
+  "domain": "amp-best-play573.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Title «Mostbet AZ Giriş», кнопка /play.php → 1xbet.rs?tag=d_3755482m_22585c_smartlink."
+ },
+ {
+  "domain": "amp-game-super937.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Title «Mostbet AZ Giriş», кнопка /play.php → 1xbet.rs?tag=d_3755482m_22585c_smartlink."
+ },
+ {
+  "domain": "amp-game-top915.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Title «Mostbet AZ Giriş», кнопка /play.php → 1xbet.rs?tag=d_3755482m_22585c_smartlink."
+ },
+ {
+  "domain": "amp-site-best-77.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Title «Mostbet AZ Giriş», кнопка /play.php → 1xbet.rs?tag=d_3755482m_22585c_smartlink."
+ },
+ {
+  "domain": "amp-super-top815.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Title «Mostbet AZ Giriş», кнопка /play.php → 1xbet.rs?tag=d_3755482m_22585c_smartlink."
+ },
+ {
+  "domain": "angolaembassyindia.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Title «Mostbet India Official Site», кнопка /go.php → 1xbet.rs?tag=d_3755482m_22585c_smartlink."
+ },
+ {
+  "domain": "apk-ios-bonus.com",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.85,
+  "comment": "На странице /en/mostbet/apk/ десятки ссылок «iOS App» на партнёрки чужих: refpa27918.com (Melbet), lb-aff.com (Linebet), bvwdcuyr2ogy.top (Betwinner), one-vv757.com?p=as60 (1win)."
+ },
+ {
+  "domain": "appifly.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Title «MostBet», кнопка «Go to the site» → /go/ → 1xbet.rs?tag=d_3755482m_22585c_smartlink."
+ },
+ {
+  "domain": "arabic-casino.best",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.85,
+  "comment": "На обзоре /review/mostbet/ кнопки «انضم الآن» → /go/1xbet (tag=d_4431084m), /go/Melbet (tag=d_4799696m), /go/1win."
+ },
+ {
+  "domain": "askgamblers.com",
+  "given": "mb_page_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.6,
+  "comment": "Большой мультибренд-обзорник; страница про партнёрку Mostbet Partners ведёт только на /visit/affiliate-program/mostbet-partners, а EmberBet/Vavada — в общем выпадающем блоке поиска «hottest casinos» шаблона, не в содержимом страницы."
+ },
+ {
+  "domain": "atozseeds.com",
+  "given": "mb_page_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.6,
+  "comment": "Взломанный сайт семян с постами про Mostbet; ссылки из постов ведут на дорвеи mostbet-azerbaijan2.com, pin-up-az-24.com без кода, а реф-ссылка в сайдбаре — Binance (биржа, не букмекер)."
+ },
+ {
+  "domain": "aviator-eg.com",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.85,
+  "comment": "На странице /platform/mostbet/ кнопки «العب الان» → /go/Melbet (melbet.org?tag=d_4799696m) и /go/1win."
+ },
+ {
+  "domain": "aviatorgamecrash.com",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.8,
+  "comment": "На странице /aviator-mostbet/ кнопка «Play now ↗» → /visit/ → 1xbet.rs?tag=e_5736640m_96329c."
+ },
+ {
+  "domain": "aviatorgames.win",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.85,
+  "comment": "На /mostbet-aviator кнопка «Play Aviator at MostBet» ведёт на /play1wintracker1 (трекер 1win), там же ссылки на 1win-дорвеи."
+ },
+ {
+  "domain": "aviatorpk.com",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.85,
+  "comment": "На /mostbet-aviator кнопка «Download now» → royalx666.com/?refer_id=101210078830 — чужое казино с реф-кодом."
+ },
+ {
+  "domain": "azerbaijancasinos.com",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.85,
+  "comment": "На обзоре /mostbet-casino/ блоки «İndi oyna» → /go/vavada-casino (gate707 promo), /go/evobet-casino (utm_source=36258), /go/ggbet-casino."
+ },
+ {
+  "domain": "bbbuae.com",
+  "given": "mb_page_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.7,
+  "comment": "Взломанный бизнес-сайт: посты про Mostbet ссылаются на сторонние сайты, ниже сквозной блок хаклинков (hacklink.market, jojobet-дорвеи, azino888.vercel.app) — простые ссылки без кода, не на операторов."
+ },
+ {
+  "domain": "bengalistories.in",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Title «MostBet Official site in India», кнопка /link/ → 1xbet.rs?tag=d_3755482m_22585c_smartlink."
+ },
+ {
+  "domain": "bento-aesthetics.nl",
+  "given": "mb_page_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mb_page_other",
+  "confidence": 0.4,
+  "comment": "Взломанный сайт клиники с постами про Mostbet; в постах простые ссылки на mostbetz.in, unazerbaijan.org и 1xbetaz2.com («1xbet azerbaycan») — куда ведёт 1xbetaz2.com, не проверялось, кода в ссылке нет."
+ },
+ {
+  "domain": "best-game-top539.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Title «Mostbet AZ Giriş», кнопка /play.php → 1xbet.rs?tag=d_3755482m_22585c_smartlink."
+ },
+ {
+  "domain": "bestaviatorapp.com",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.75,
+  "comment": "На /mostbet-casino/ кнопка Mostbet ведёт на рефку Mostbet (pid=43017), но сквозная кнопка в шапке «Play Aviator Game» → /go-default/ → 1xbet.rs?tag=d_5126370m."
+ },
+ {
+  "domain": "bet-lucky-top895.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Title «Mostbet AZ Giriş», кнопка /play.php → 1xbet.rs?tag=d_3755482m_22585c_smartlink."
+ },
+ {
+  "domain": "betacular.blog",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Title «Mostbet AZ ᐉ 550 AZN promokod», кнопка /go.php → 1xbet.rs?tag=d_3755482m_22585c_smartlink."
+ },
+ {
+  "domain": "betandskill.com",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.8,
+  "comment": "На обзоре /casino/mostbet/ блоки «Claim Offer» → /links/casino/william-hill.html, unibet, pokerstars, netbet, mystake (William Hill с btag)."
+ },
+ {
+  "domain": "betlehemfigurak.hu",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Title «MostBet regisztráció», кнопки «Bejelentkezés/Regisztráció» → /play/ → 1win (one-vv3429.com?p=hztd)."
+ },
+ {
+  "domain": "betlogins.com",
+  "given": "mb_page_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.7,
+  "comment": "Мультибренд-каталог логинов; на /mostbet/ ссылки на mostbet.com и сквозной футер своей сетки (1xbetapp.com, signupbet.com, hollywoodbetlogin.com) — простые ссылки на дорвеи без кода."
+ },
+ {
+  "domain": "betting-mostbet.pl",
+  "given": "discredit",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "discredit",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, а содержимое — блог о позиционировании сайтов («Pozycjonowanie w 2025»), не про ставки."
+ },
+ {
+  "domain": "bettingegypt.com",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.85,
+  "comment": "На /mostbet-promo-code кнопки «احصل على مكافأة» для Melbet, 1xBet, 1win, WinWin через /visit/ (ww-bet.com?tag=d_4468490m, refpa39407)."
+ },
+ {
+  "domain": "biesiadasmaku-bistro.pl",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.85,
+  "comment": "Переезд на dormetmeble.pl: на обзоре /reviews/mostbet-casino-login/ кнопки «Odbierz bonus» → /play/vulkanvegas (v484.vegas ref=vp_w169785…), /play/ice50fs, /play/spinanga."
+ },
+ {
+  "domain": "bookmaker-ratings.ru",
+  "given": "mb_page_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "multibrand",
+  "confidence": 0.7,
+  "comment": "Рейтинговый портал; на страницах про Mostbet (обзор, партнёрка) кнопок /go/ на чужих нет, Melbet — только пункты меню на свои обзоры и referral_uri в JSON-данных шаблона."
+ },
+ {
+  "domain": "bookmakerslife.ru",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.9,
+  "comment": "На обзоре Mostbet кнопка «Посетить сайт» → /mostbet → 302 на aff1xstavka.top/L?tag=s_21728m_1341c_ — партнёрка 1xСтавки под видом Mostbet."
+ },
+ {
+  "domain": "borovsk-tract.ru",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.85,
+  "comment": "Переезд на wsesam.ru: на /mostbet.html кнопки «Перейти» → gate707.net promo (Vavada), refpa58816 (1xbet), lkzq.cc (1win), pnprefwebsss.com (Pin Up)."
+ },
+ {
+  "domain": "botkymanie.cz",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.85,
+  "comment": "На обзоре /reviews/mostbet-casino/ кнопка «Získejte bonus» и ссылка с текстом «https://mostbet.com» ведут на /play/iwild → чужое казино."
+ },
+ {
+  "domain": "bsdxtremepark.com",
+  "given": "mb_page_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mb_page_other",
+  "confidence": 0.8,
+  "comment": "Переезд на asian-bookies.net: на /review/mostbet/ всплывающий блок «Play now!» → /go/1xbet/ → 1xbet.rs?tag=d_2406831m."
+ },
+ {
+  "domain": "c-a-s-u-l-o.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Title «Mostbet Casino», кнопки «Conecte-se/Cadastre-se» → /go/ → 1xbet.rs?tag=d_3755482m_22585c_smartlink."
+ },
+ {
+  "domain": "casino-mostbet-play.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене, внутри «Wings138 Situs Resmi - Login Slot & Casino Online» — чужое слот-казино."
+ }
+]

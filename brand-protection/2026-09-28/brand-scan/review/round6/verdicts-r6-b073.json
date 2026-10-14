@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "burning-wins-bigwin.ru",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Слот-сайт сети Burning Wins: статья про слот, Mostbet упомянут в тексте как одно из казино, кнопки «Играть» через onepppgo.com ведут на dzdsbn.com; не бренд-сайт Mostbet и не страница про Mostbet."
+ },
+ {
+  "domain": "burning-wins-casino.ru",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Слот-сайт сети Burning Wins: статья про слот, Mostbet упомянут в тексте как одно из казино, кнопки «Играть» через onepppgo.com ведут на dzdsbn.com; не бренд-сайт Mostbet и не страница про Mostbet."
+ },
+ {
+  "domain": "burning-wins-games.ru",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Слот-сайт сети Burning Wins: статья про слот, Mostbet упомянут в тексте как одно из казино, кнопки «Играть» через onepppgo.com ведут на dzdsbn.com; не бренд-сайт Mostbet и не страница про Mostbet."
+ },
+ {
+  "domain": "burning-wins-official.ru",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Слот-сайт сети Burning Wins: статья про слот, Mostbet упомянут в тексте как одно из казино, кнопки «Играть» через onepppgo.com ведут на dzdsbn.com; не бренд-сайт Mostbet и не страница про Mostbet."
+ },
+ {
+  "domain": "burning-wins-officiale.ru",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Слот-сайт сети Burning Wins: статья про слот, Mostbet упомянут в тексте как одно из казино, кнопки «Играть» через onepppgo.com ведут на dzdsbn.com; не бренд-сайт Mostbet и не страница про Mostbet."
+ },
+ {
+  "domain": "burning-wins-play.ru",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Слот-сайт сети Burning Wins: статья про слот, Mostbet упомянут в тексте как одно из казино, кнопки «Играть» через onepppgo.com ведут на dzdsbn.com; не бренд-сайт Mostbet и не страница про Mostbet."
+ },
+ {
+  "domain": "burning-wins-slot.ru",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Слот-сайт сети Burning Wins: статья про слот, Mostbet упомянут в тексте как одно из казино, кнопки «Играть» через onepppgo.com ведут на dzdsbn.com; не бренд-сайт Mostbet и не страница про Mostbet."
+ },
+ {
+  "domain": "burning-wins-slots.ru",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Слот-сайт сети Burning Wins: статья про слот, Mostbet упомянут в тексте как одно из казино, кнопки «Играть» через onepppgo.com ведут на dzdsbn.com; не бренд-сайт Mostbet и не страница про Mostbet."
+ },
+ {
+  "domain": "burning-wins-spin.ru",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Слот-сайт сети Burning Wins: статья про слот, Mostbet упомянут в тексте как одно из казино, кнопки «Играть» через onepppgo.com ведут на dzdsbn.com; не бренд-сайт Mostbet и не страница про Mostbet."
+ },
+ {
+  "domain": "burning-wins-top.ru",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Слот-сайт сети Burning Wins: статья про слот, Mostbet упомянут в тексте как одно из казино, кнопки «Играть» через onepppgo.com ведут на dzdsbn.com; не бренд-сайт Mostbet и не страница про Mostbet."
+ },
+ {
+  "domain": "burningwin.ru",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Слот-сайт сети Burning Wins: статья про слот, Mostbet упомянут в тексте как одно из казино, кнопки «Играть» через onepppgo.com ведут на dzdsbn.com; не бренд-сайт Mostbet и не страница про Mostbet."
+ },
+ {
+  "domain": "bytron.site",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Магазин «предикторов» для краш-игр 1win/1xBet/Mostbet; страница /products/mostbet-aviator-predictor — карточка товара без партнёрских ссылок."
+ },
+ {
+  "domain": "cabinetcottagellc.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Обзорник «USA Online Casinos», Mostbet упомянут 2 раза; страниц про Mostbet нет (внутренние страницы 404), рекламных ссылок не найдено."
+ },
+ {
+  "domain": "cafe-wango.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Монобренд «Mostbet Bangladesh» (title, h1), но ни одной внешней ссылки: все кнопки ведут на /, /en-bd/ или #; рекламы нет ни Mostbet, ни чужих."
+ },
+ {
+  "domain": "caladium109.in",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Мультибренд про Aviator (1win, 1xBet, 4rabet через rpw.aviators.game); страницы /mostbet-aviator/ и /apps-aviator/mostbet-app/ ведут только на rpw.aviators.game?mostbet=… и соседние Aviator-сайты, чужой рекламы на них нет."
+ },
+ {
+  "domain": "calendulaezuccherofilato.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.7,
+  "comment": "Взломанный сайт итальянского центра для беременных: в подвал вшиты SEO-абзацы про Mostbet/Азино/Glory и простые ссылки на glory-casino-turkce.com, bahıs.com; отдельной страницы про Mostbet и партнёрских ссылок нет."
+ },
+ {
+  "domain": "cambio-deaceitemedellin.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.7,
+  "comment": "Сайт автосервиса (замена масла, Медельин) с вшитыми турецкими/азербайджанскими абзацами про Mostbet в подвале; рекламных ссылок не найдено, страницы про Mostbet нет."
+ },
+ {
+  "domain": "candyworld-shop.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Статейник про крипто-казино, реклама 1xBet через refpa61797.com/redirectaff.com; Mostbet упомянут 6 раз, страницы про Mostbet нет."
+ },
+ {
+  "domain": "carrie-movie.net",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Обзорник букмекеров; страница про Mostbet /azerbaycanda-idman-va-kazino/ ссылается только на mostbetaz-online.com (→ mostbet-onlineaz.com, сайт Mostbet), чужой рекламы на ней нет."
+ },
+ {
+  "domain": "carsonsbnbandsalon.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Перехваченный домен со статьёй про криптовалюту в казино, реклама 1xBet через refpa61797.com; Mostbet упомянут 1 раз."
+ },
+ {
+  "domain": "casadelafamilia.cl",
+  "given": "multibrand",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mb_page_other",
+  "confidence": 0.55,
+  "comment": "Переезд на casasohiggins.cl — зеркало mejores-casino-online-chile.com; его страница /mostbet/ кроме кнопки /go/mostbet несёт в меню шлюзы /go/1xbet, /go/gg-bet, /go/1redbet, /go/sapphirebet и др. (ведут через cl-globallink.com на партнёрки)."
+ },
+ {
+  "domain": "casasohiggins.cl",
+  "given": "multibrand",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mb_page_other",
+  "confidence": 0.55,
+  "comment": "Зеркало mejores-casino-online-chile.com: страница /mostbet/ кроме /go/mostbet несёт в меню шлюзы /go/1xbet, /go/gg-bet, /go/1redbet, /go/sapphirebet, /go/coinsgame (через cl-globallink.com/partners-official.com)."
+ },
+ {
+  "domain": "casino-bests.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Обзорник; страница /review/mostbet/ ссылается только на внутренние обзоры Bet365, 4rabet, Melbet, Pin-Up («Read Review»), рекламных ссылок на ней нет."
+ },
+ {
+  "domain": "casino-by.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.7,
+  "comment": "Обзорник казино Беларуси; на странице /mostbet/ единственная рекламная кнопка «800 BYN на первый депозит» /37/32n0 — бонус Mostbet, чужих ссылок нет."
+ },
+ {
+  "domain": "casino-gang.cl",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Чилийский обзорник; страница /casinos/mostbet/ содержит только внутренние ссылки и ссылки на gamcare/ecogra, чужой рекламы нет."
+ },
+ {
+  "domain": "casino-uz.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Обзорник; страницы /mostbet/ и /uz/mostbet-uz/ ведут кнопкой /onlinecasino/b6st на most01batlt.xyz (трекер Mostbet), чужой рекламы на них нет."
+ },
+ {
+  "domain": "casinoappindia.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.7,
+  "comment": "Обзор казино-приложений Индии (Pin-Up 23 упоминания, Mostbet 11), рекламных ссылок не найдено, страницы про Mostbet нет."
+ },
+ {
+  "domain": "casinodreams.net",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Обзорник; страницы /casino/mostbet/ (en, tr, ru) ведут на hn2ka5mb.com/SNVF и cc6vw5cm14mst.com/KNVF — трекеры Mostbet; чужой рекламы на них нет."
+ },
+ {
+  "domain": "casinoonlinedeperu.pe",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Перуанский обзорник; страница про Mostbet ведёт только на /go/mostbet-casino.html и на сайты-обзорники сети, шлюзов на чужих операторов на ней нет."
+ },
+ {
+  "domain": "casinopromo.shop",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Рейтинг казино BETPARTNER с рекламой Gizbo/1win через трекеры; Mostbet упомянут 1 раз, страницы про Mostbet нет."
+ },
+ {
+  "domain": "casinosdeargentina.com",
+  "given": "multibrand",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mb_page_other",
+  "confidence": 0.75,
+  "comment": "Страница /casino/mostbet/ кроме /go/mostbet содержит таблицу казино с кнопками «Visitar Casino» на шлюзы /go/1win, /go/megaparicasino, /go/vavada, /go/winbet, /go/jugabet и др."
+ },
+ {
+  "domain": "casinossemlicenca.org",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Португальский обзорник, Mostbet упомянут 1 раз на главной; страницы про Mostbet и рекламных ссылок не найдено."
+ },
+ {
+  "domain": "casinovexa.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Каталог брендов; страницы /brands/mostbet/ (en, ru, pl, fr) содержат только внутренние ссылки на карточки других брендов, без партнёрских ссылок."
+ },
+ {
+  "domain": "castellsantferran.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Обзорник «Online Casino Europe», Mostbet упомянут 5 раз среди прочих, рекламных ссылок и страницы про Mostbet не найдено."
+ },
+ {
+  "domain": "cbarquitectes.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.65,
+  "comment": "Сайт архитектурного бюро с вшитым спам-блоком «пинко казино / 1win / Mostbet» и ссылками на vavadacasino1.com, jetcasino-kz.com, agn20.ru; это спам на главной, отдельной страницы про Mostbet нет."
+ },
+ {
+  "domain": "cdl-bureau.fr",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Обзор слота Sweet Bonanza с ротацией рекламы Likesbet; Mostbet упомянут 1 раз."
+ },
+ {
+  "domain": "cdrdxf.com",
+  "given": "multibrand",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "hacked",
+  "confidence": 0.4,
+  "comment": "Взломанный блог: на главной (mobile) полные посты «Rehber: MostBet…» и «…MostBet Ile» со ссылками на mostbettr.it.com и kiziaz.com, но там же скрытый блок scale(0) со ссылкой на malinafrance.casino, а десктоп редиректит на трекер pier-trail.pages.dev/qxdevndaro; сохранённой страницы самого поста нет."
+ },
+ {
+  "domain": "cecinitiative.org",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Обзор слота Pompeii Megareels, Mostbet упомянут 2 раза; страницы про Mostbet нет."
+ },
+ {
+  "domain": "centralavetv.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Копия BettingSites.us про американские букмекеры, Mostbet в тексте не упомянут; страницы про Mostbet нет."
+ },
+ {
+  "domain": "cernohorskytuning.cz",
+  "given": "multibrand",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Mostbet CZ – Oficiální stránky» (копия дизайна Mostbet), скрипт меняет все 264 ссылки href=\"#\" на /go/, который ведёт на 1xbet.rs/en/registration?tag=d_3755482m_22585c — реклама только 1xBet."
+ },
+ {
+  "domain": "certifiedtranslationegy.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.65,
+  "comment": "Египетский рейтинг казино; /mostbet — не страница, а шлюз 307 на eg-globallink.com/J2SJsHf6 (тот же адрес, что и /go-1xbet), куда ведёт дальше — неизвестно."
+ },
+ {
+  "domain": "ceske-kasina.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.65,
+  "comment": "Чешский обзорник (SPA на base44); страницы /recenze/mostbet и /clanky/mostbet-recenze-2026 в сохранённом виде без партнёрских ссылок на чужих операторов."
+ },
+ {
+  "domain": "ceske-onlinekasino.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.7,
+  "comment": "Чешский рейтинг казино (22Bet 14, Mostbet 12 упоминаний), рекламных ссылок не найдено, страницы про Mostbet нет."
+ },
+ {
+  "domain": "ceskystandard.cz",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Монобренд «Mostbet Casino CZ 2026» без единой внешней ссылки: кнопки — квиз и калькулятор бонуса (onclick), рекламы нет."
+ },
+ {
+  "domain": "chewocouture.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Обзор слота Boook of the Fallen, реклама Vulkan; Mostbet упомянут 2 раза, страницы про Mostbet нет."
+ },
+ {
+  "domain": "chicken-road-crossing.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Сайт игры Chicken Road с рекламой 1win; Mostbet упомянут 1 раз."
+ },
+ {
+  "domain": "chicken-road-pakistan.pk",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Сайт игры Chicken Road с ротацией рекламы 1xBet, 22Bet, Melbet и др.; Mostbet упомянут 1 раз, страницы про Mostbet нет."
+ },
+ {
+  "domain": "chicken-road-spielen.com.de",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.7,
+  "comment": "Сайт игры Chicken Road; Mostbet — один из казино в сравнении /top-casinos, отдельной страницы про Mostbet нет."
+ },
+ {
+  "domain": "chickengame.de",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.7,
+  "comment": "Копия chicken-road-spielen.com.de: сравнение казино для Chicken Road, Mostbet среди прочих, отдельной страницы про Mostbet нет."
+ },
+ {
+  "domain": "chickenroadin.asia",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.7,
+  "comment": "Хинди-сайт игры Chicken Road (1win 14, Mostbet 8 упоминаний), реклама elon888bet.com; страницы про Mostbet нет."
+ }
+]

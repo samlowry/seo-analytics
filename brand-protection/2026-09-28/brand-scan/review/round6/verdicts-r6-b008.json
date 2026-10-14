@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "milosbouldercity.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "Все 7 кнопок ведут на /gogo/, а он отдаёт 404 (deep-res). Внешних ссылок на операторов и скрытых блоков нет."
+ },
+ {
+  "domain": "mos-t-bet-org.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "29 кнопок /go/ по gates-scan 301 возвращают на главную. Из внешних ссылок только canonical/hreflang на eliminator-mtb.com, trustpilot и totalizator.pl (ответственная игра)."
+ },
+ {
+  "domain": "mosbet-1kj.top",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Своих html нет, страница сохранена как переезд mostbet-kazino-rf.ru: 19 кнопок ведут на links-go9.top/mostbet, а этот трекер у других сайтов приводит на ijwdpnmb.com/nvjnacmb.com с pid=297832. Это реклама Mostbet."
+ },
+ {
+  "domain": "mosbet.partners",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.7,
+  "comment": "Через 5 с meta refresh уводит на mbp-aff.com/register/referral/134119, регистрацию в партнёрке Mostbet по рефке. Это не чужой бренд."
+ },
+ {
+  "domain": "mosst-bet.cz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.8,
+  "comment": "57 ссылок /go/ по gates-scan 301 возвращают на главную. Внешние ссылки только на чешские сайты помощи (mfcr.cz, zodpovednehrani.cz)."
+ },
+ {
+  "domain": "most-bet-casino.net",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Страница отдаётся только Google-mobile; 59 кнопок js-ref-link открывают https://topoffer.vip/HcKX7p?casino=mostbet_casino… (window.open). Трекер не открылся, но параметр casino=mostbet_casino указывает на Mostbet. Других операторов нет."
+ },
+ {
+  "domain": "most-bet-casino.org",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Страница отдаётся только Google-mobile; 59 кнопок js-ref-link открывают https://ioffer.vip/tRCShm?casino=mostbet_casino… (window.open). Получатель неизвестен, параметр указывает на Mostbet. Чужих операторов нет."
+ },
+ {
+  "domain": "most-bet-casino.top",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.75,
+  "comment": "Ссылки кнопок — javascript:void(0) и якоря. Внешние только gambleaware/gamblingtherapy/GA. Скрипт bookmakers-list есть, а самого списка букмекеров на странице нет."
+ },
+ {
+  "domain": "most-bet-kazino-giris.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Страница отдаётся только Google-mobile; все кнопки AMP on=tap ведут на perfstream.net/click?key=a3c84e97…&split=…. Этот трекер у yakimawinerun.com и xotly.com доходит до …mb.com с pid=5870, значит это реклама Mostbet. mwokajicakery.com/tr01/ стоит только в canonical."
+ },
+ {
+  "domain": "most-bet-russia.ru",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Страница отдаётся только Google-mobile; 2 кнопки без href, обработчик лежит во внешнем /uploads/main.js, его копии нет. Внешние адреса nskenergo.ru и nsk-amp.top только в canonical/hreflang/amphtml."
+ },
+ {
+  "domain": "most-bet.app",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Страница отдаётся только Google-mobile; внешние ссылки только dmca.com и gambleaware.org, остальные внутренние (/ag-eg/). Чужих операторов и скрытых блоков нет."
+ },
+ {
+  "domain": "most-bet.com.ru",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.75,
+  "comment": "7 внутренних ссылок /go/, других внешних ссылок нет. Чужих брендов в тексте нет."
+ },
+ {
+  "domain": "most-betcasino.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.6,
+  "comment": "Страница отдаётся только Google-mobile; 58 кнопок js-ref-link открывают https://topoffer.vip/1mBV8Y?casino=mostbet_casino…. Получатель неизвестен. «1win Games» встречается только как подпись провайдера игры Rocket X и не ссылка."
+ },
+ {
+  "domain": "most-bets.de",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Страница отдаётся только Google-mobile; внешних ссылок нет вовсе (только most-bets.de/files/). Чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-2024.net",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Страница отдаётся только Google-mobile; внешних ссылок нет, скрипты только свои (/load/download/). Чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-2024.ru",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Страница отдаётся только Google-mobile; переезд на clashofclans-wiki.ru, там дорвей Mostbet: 4 кнопки через внешний /uploads/main.js. bakhmina.ru и ru-kasinomostbet-skachat.ru стоят только в canonical/hreflang/amphtml."
+ },
+ {
+  "domain": "mostbet-2025-turkiye.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Страница отдаётся только Google-mobile; 17 пунктов меню — простые ссылки на nostrcal.com (хост-канон дорвея), online-play-games365.ink только в amphtml. Кнопки через внешний main.js, чужих операторов нет."
+ },
+ {
+  "domain": "mostbet-5.ru",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.85,
+  "comment": "Заглушка регистратора «Домен mostbet-5.ru»: ссылки на webnames.ru и форма /payment. Ставок и чужого содержимого нет."
+ },
+ {
+  "domain": "mostbet-alltop.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Страница отдаётся только Google-mobile; внешних ссылок нет вовсе. Чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-amp-az.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Страница отдаётся только Google-mobile; 3 кнопки без href. giris-mostbet-az.org только в canonical/hreflang."
+ },
+ {
+  "domain": "mostbet-apk-cz.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Страница отдаётся только Google-mobile; внешних ссылок и скриптов нет. Чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-apk-download.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Страница отдаётся только Google-mobile; кнопки через внешний /uploads/main.js. theurbangardeninitiative.org/en-bd/ только в canonical/hreflang."
+ },
+ {
+  "domain": "mostbet-apk-install.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Страница отдаётся только Google-mobile; копия mostbet-apk-download.com: кнопки через /uploads/main.js, theurbangardeninitiative.org только в canonical/hreflang."
+ },
+ {
+  "domain": "mostbet-apk-tr.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Страница отдаётся только Google-mobile; копия mostbet-2025-turkiye.com: меню ссылается на nostrcal.com, online-play-games365.ink только в amphtml. Чужих операторов нет."
+ },
+ {
+  "domain": "mostbet-apk-uz.club",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Страница отдаётся только Google-mobile; apk.mostbet-yuklab-olish.it.com и sweetnessfollows.net только в canonical/hreflang. Видимых ссылок на операторов нет."
+ },
+ {
+  "domain": "mostbet-apk-uz.org",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.6,
+  "comment": "Страница отдаётся только Google-mobile; кнопки data-split (btn-logo, btn-live) обрабатывает внешний /apk/files/main.js, его копии нет. Внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-apk.site",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.6,
+  "comment": "Страница отдаётся только Google-mobile; кнопки data-split обрабатывает внешний /kazak/files/main.js, его копии нет. Внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-app-cesko.cz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Страница отдаётся только Google-mobile; переезд на craft-her.com, там дорвей Mostbet: 9 кнопок через /uploads/main.js. elvl.cz только в canonical/hreflang."
+ },
+ {
+  "domain": "mostbet-app-egypt.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.6,
+  "comment": "Страница отдаётся только Google-mobile; 11 кнопок wp-block-button с href=\"#\", внешних ссылок нет. Внутренняя /online-casinos/ не сохранена."
+ },
+ {
+  "domain": "mostbet-app-hu.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Страница отдаётся только Google-mobile; внешнее только картинка с mostbet-kyrgyzstan.com. Ссылок на операторов нет."
+ },
+ {
+  "domain": "mostbet-app-online-bd.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Страница отдаётся только Google-mobile; кнопки через /uploads/main.js, theurbangardeninitiative.org только в canonical/hreflang."
+ },
+ {
+  "domain": "mostbet-app-register.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Страница отдаётся только Google-mobile; кнопки через /uploads/main.js, theurbangardeninitiative.org только в canonical/hreflang."
+ },
+ {
+  "domain": "mostbet-app-tr.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.7,
+  "comment": "Страница отдаётся только Google-mobile; внешние адреса — демо-игры в data-embed с partner=mostbet-prod/operator=mostbet и соцсети Mostbet Türkiye. Чужих операторов нет."
+ },
+ {
+  "domain": "mostbet-app.hu.net",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Страница отдаётся только Google-mobile; внешние ссылки только gamcare и gamblingtherapy. Чужих операторов нет."
+ },
+ {
+  "domain": "mostbet-app.world",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.6,
+  "comment": "Страница отдаётся только Google-mobile; внешних ссылок нет. Плагин affiliate-links подключён, но ссылок через него на странице нет."
+ },
+ {
+  "domain": "mostbet-appru.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Страница отдаётся только Google-mobile; меню — простые ссылки на дорвей most-bet.berst59.ru, в тексте ссылки на municipal-sd.ru/…mostbet…. Ссылок на чужих операторов и трекеров нет."
+ },
+ {
+  "domain": "mostbet-arm-app.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.6,
+  "comment": "Страница отдаётся только Google-mobile; кнопки data-split обрабатывает внешний /arm/files/main.js, его копии нет. Внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-aviator.com.ng",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.7,
+  "comment": "Страница отдаётся только Google-mobile; единственный внешний адрес — демо Aviator с aviator-demo.spribegaming.com в iframe. Ссылок на операторов нет."
+ },
+ {
+  "domain": "mostbet-aviatorx.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.85,
+  "comment": "Кнопки /go/reg6ce и /go/nowwuf ведут на example.com, то есть пустые. Соцсети — x.com/mostbet_arg."
+ },
+ {
+  "domain": "mostbet-az-2026.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Страница отдаётся только Google-mobile; все кнопки AMP on=tap ведут на space-mind-io.com/click?key=dda0d238…. Тот же ключ у trmilkandhoneyatl.com доходит до pskxnlmb.com/fdzjqxmb.com с pid=5870, это реклама Mostbet."
+ },
+ {
+  "domain": "mostbet-az-309.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mirror",
+  "confidence": 0.75,
+  "comment": "Промо-лендинг Mostbet («Spin the Wheel», бонус USD 300 + 250 FS, форма регистрации) со скриптом rstat.rockmostbet.com — копия официального сайта."
+ },
+ {
+  "domain": "mostbet-az-game.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Страница отдаётся только Google-mobile; кнопки через /uploads/main.js. mostbet-az-site.com, sayeitwithstyle.com и mostbet-azerbaijan-amp.com только в canonical/hreflang/amphtml."
+ },
+ {
+  "domain": "mostbet-az-games.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Страница отдаётся только Google-mobile; копия mostbet-az-game.com, внешние адреса только в canonical/hreflang/amphtml."
+ },
+ {
+  "domain": "mostbet-az-giris.org",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.6,
+  "comment": "Пустая установка WordPress (title = домен, ?p=1). Внешняя ссылка только wordpress.org."
+ },
+ {
+  "domain": "mostbet-az-giris2024.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.6,
+  "comment": "Страница отдаётся только Google-mobile; 75 ссылок ведут на свой шлюз /azgo, куда он уводит — нет данных. Внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-az-giris26.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Страница отдаётся только Google-mobile; все кнопки AMP on=tap ведут на space-mind-io.com/click?key=dda0d238…, тот же трекер и ключ, что у trmilkandhoneyatl.com → pid=5870 Mostbet."
+ },
+ {
+  "domain": "mostbet-az-indir.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Страница отдаётся только Google-mobile; ссылки eafl-link и su-button ведут на свою главную. Внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-az-indir.xyz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.65,
+  "comment": "Страница отдаётся только Google-mobile; ссылки только внутренние (/qeydiyyat, /bonuslari). Внешних нет."
+ },
+ {
+  "domain": "mostbet-az-mobi.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.6,
+  "comment": "Страница отдаётся только Google-mobile; 2 кнопки на свой шлюз /gosite/, получатель неизвестен. Внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-az-mobi.it.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.6,
+  "comment": "Страница отдаётся только Google-mobile; копия mostbet-az-mobi.com: кнопки на /gosite/, внешних ссылок нет."
+ }
+]

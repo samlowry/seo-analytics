@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "npevolution.de",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.85,
+  "comment": "Спам-лента WordPress, копирующая чужой блог panikattacke-therapie…/wordpress2/: посты-ссылки и ссылки на взломанные ru-сайты (bot-sale.ru «Selector Casino» и др.). Страницы про Mostbet с рекламой чужих нет, рубрики «mostbet uz/az» ведут на тот же чужой блог."
+ },
+ {
+  "domain": "npramsanehighat.in",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Сетка «Aviator Game India»: на главной шлюзы /go/4rabet, /go/1win, /go/mostbet (→ fvoidjmb.com pid=303430) и др.; отдельной страницы про Mostbet нет, сайт мультибрендовый."
+ },
+ {
+  "domain": "ocbscores.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Крупный обзорник OCBsports; на обзоре /betting-sites/mostbet/ видимая кнопка одна — go.affiliationcloud.com/0002QA (data-operator=\"Mostbet\"); Roobet/1xBet/Minibet есть только в JSON скрипта Next.js, в отрисованной странице их нет."
+ },
+ {
+  "domain": "ocbsports.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Тот же сайт, что ocbscores.com (переезд): обзор /betting-sites/mostbet/ ведёт только на affiliationcloud 0002QA с data-operator=\"Mostbet\", видимой рекламы чужих на нём нет."
+ },
+ {
+  "domain": "oddspedia.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Обзорник; страницы /bookmakers/mostbet, /bonus, /bonus/india и mostbet-apk-download-india содержат только ссылки на gambleaware/gamstop и discord, рекламы чужих брендов на них нет."
+ },
+ {
+  "domain": "oddssurest.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Французский сайт прогнозов с кнопками «S'inscrire» на рефки 1xBet-семейства (refpa58144.com, refpa3665.com tag=…) и трекер Mostbet dkqf9ehbln8jmst.com/EFNs; страницы про Mostbet нет."
+ },
+ {
+  "domain": "odrowaz24.pl",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Обзор «podobne do Total Casino» со шлюзами /mostbet-source/ (→ lziooamb.com pid=303818), /22bet-source/, /winwinbet-source/; отдельной страницы про Mostbet нет."
+ },
+ {
+  "domain": "ofertasdecasinos.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Обзор /mostbet/ ведёт только на mostbetlink.com (дорвей Mostbet, кнопка «Obter Bónus»); Bettilt/Betlinkers/Casibom — на главной и в списке /casinos-licenciados/, не на странице Mostbet."
+ },
+ {
+  "domain": "oicf.top",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.85,
+  "comment": "Title «hacked by trenggalek6etar», посты-ссылки на чужие дорвеи (spinimax-casino.xyz, eyvahdolandirildim.com «mosbet giriş», bookourshifting.in «4rabet app») без кодов; рекламы на странице про Mostbet нет."
+ },
+ {
+  "domain": "old-nios-ac.in",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Мультибренд Aviator; на /mostbet-aviator/ и /apps-aviator/mostbet-app/ единственная кнопка data-sf-a=rpw.aviators.game?mostbet=j3Xf73y (Mostbet), кнопки 1win/1xBet — только на главной и /1win-app/."
+ },
+ {
+  "domain": "oldgaelicrugby.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.8,
+  "comment": "Регбийный блог на WordPress.com с подсаженными постами про Mostbet; в постах простые ссылки на дорвеи Mostbet (bpantera.ru, mostbett-kz.com, mostbetuzkirish25.com), чужих брендов в них нет."
+ },
+ {
+  "domain": "oldvictoriannew.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Обзор «Cricket Betting Sites in India»: Mostbet упомянут 1 раз, внешних рекламных ссылок в сохранённом HTML нет."
+ },
+ {
+  "domain": "omadbet.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Рейтинг букмекеров UZ со шлюзами /go/mostbet, /go/1xbet, /go/1win; на 7 страницах про Mostbet (/bukmekerlar/mostbet/, /mirror/mostbet/ и др.) ссылки только на /go/mostbet/ и gambleaware."
+ },
+ {
+  "domain": "onethirdoftheholocaust.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "other_gambling",
+  "confidence": 0.8,
+  "comment": "Турецкий сайт Sweet Bonanza, кнопка /go/main → 1wfwlx.life ?p=4sny (1win); Mostbet упомянут 1 раз, страницы про Mostbet нет."
+ },
+ {
+  "domain": "online.casino",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Обзорник; на /reviews/mostbet/ ссылки только /go/mostbet, чужие /go/lussurio-casino, /go/ybets-casino — на главной."
+ },
+ {
+  "domain": "onlinecasinomoldova.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Рейтинг казино Молдовы: шлюзы /go/mostbet (→ kmjwdimb.com pid=438965), /go/vavada, /go/pinup, /go/1win; отдельной страницы про Mostbet нет."
+ },
+ {
+  "domain": "onlineeuropeancasino.eu",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Инфо-сайт про казино ЕС, ссылки только на языковые сестры (zahranicnicasinaonline.cz и др.) без кодов; рекламы нет, страницы про Mostbet нет."
+ },
+ {
+  "domain": "onlinerating2026.top",
+  "given": "multibrand",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "multibrand",
+  "confidence": 0.4,
+  "comment": "Дорвей: страницы «Mostbet az», «Mostbet 90» и др. с кнопками «ПЕРЕЙТИ НА САЙТ/РЕГИСТРАЦИЯ» на phrrm-store.com — та же ссылка стоит и на «Betway casino paypal»; с нашего IP она открывает нейтральную «ЛАБА» (клоака), реальный получатель неизвестен."
+ },
+ {
+  "domain": "onlinesportsbooksguide.com",
+  "given": "multibrand",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mb_page_other",
+  "confidence": 0.85,
+  "comment": "На обзоре /bk/mostbet/ кнопки «Claim Bonus» на /go/1xbet/, /go/1win/, /go/wowbet/ (→ betsxwin.pro → wowbet.win tag=d_5787745m) и баннер «AD» reffpa.com tag=d_5571499m_1573c_ (1xBet) — реклама чужих на странице про Mostbet."
+ },
+ {
+  "domain": "onlineukbetting.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Спам-блог; страница про Mostbet ведёт на дорвей mostbethungary.org, сквозные ссылки non-gamstop-casino-uk-gb.com — простые ссылки на обзорники без кода."
+ },
+ {
+  "domain": "onurunurlu.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Переезд на polskie-kasyno-online-blik.pl: рейтинг BLIK-казино с рекламой через dir-sky-seo.com (→ 1win, 593nv.casino); Mostbet упомянут 1 раз, страницы про Mostbet нет."
+ },
+ {
+  "domain": "opprcnola.org",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.7,
+  "comment": "Aviator AZ: кнопка «Giriş» /go.php → 1xbet.rs tag=d_3755482m (1xBet), в подвале ссылки на дорвеи; заголовок про Aviator, отдельной страницы про Mostbet нет."
+ },
+ {
+  "domain": "optiheart.top",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.7,
+  "comment": "Спам-сайт статей; обзор «Mostbet Casino Review 2026» ведёт только на дорвей mostbet-kasyno.org.pl, Wazamba (wazamba-casinos.pl) — в другой статье."
+ },
+ {
+  "domain": "ostavkakh.com",
+  "given": "multibrand",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mb_page_other",
+  "confidence": 0.85,
+  "comment": "На обзоре /bukmekerskaya-kontora-mostbet/ кнопки «Сделать ставку» ведут на /mostbet, а он 302 → aff1xstavka.top/L?tag=s_21728m_1341c_ (1xСтавка) — реклама чужого под видом Mostbet."
+ },
+ {
+  "domain": "otaru-net.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Рейтинг казино Азино; на /casino/mostbet/ и /mostbet-otzyvy/ внешняя ссылка только oikimjmb.com/FrOU (Mostbet) плюс внутренние ссылки на обзор Play Fortuna, рекламы чужих нет."
+ },
+ {
+  "domain": "otteraquatics.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Aviator India: шлюзы /go/1win/, /go/4rabet/, /go/batery/ и трекер aviatorgamein.top; Mostbet упомянут 2 раза, страницы про Mostbet нет."
+ },
+ {
+  "domain": "outboxxsales.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.8,
+  "comment": "Взломанный сайт продаж с постами-ссылками; пост про Mostbet ведёт на дорвей buffalosoldiersmovie.com, чужая реклама (1wcasino.com/haaaaaaaak → Casea) стоит на главной, не в посте про Mostbet."
+ },
+ {
+  "domain": "padelhuechuraba.cl",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Переезд на casasohiggins.cl — рейтинг казино Чили со шлюзами /go/1xbet, /go/gg-bet и др.; Mostbet 1 раз. Найденная страница про Mostbet лежит на другом домене (mejores-casino-online-chile.com/mostbet/), не на этом."
+ },
+ {
+  "domain": "palmemirates.in",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Сетка «Aviator Game India»: на главной шлюзы /go/4rabet, /go/1win, /go/mostbet (→ fvoidjmb.com pid=303430) и др.; отдельной страницы про Mostbet нет, сайт мультибрендовый."
+ },
+ {
+  "domain": "panamacricket.org",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.8,
+  "comment": "Сайт крикетного турнира с подсаженными простыми ссылками (bet-365.in, mostbet1.in, ricky-casino777.com) без кодов; страницы про Mostbet нет."
+ },
+ {
+  "domain": "paravizionz.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Сетка «Aviator Game India»: на главной шлюзы /go/4rabet, /go/1win, /go/mostbet (→ fvoidjmb.com pid=303430) и др.; отдельной страницы про Mostbet нет, сайт мультибрендовый."
+ },
+ {
+  "domain": "parksmed.co.zw",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.85,
+  "comment": "Сайт мед.фонда с блоком из 57 подсаженных ссылок на дорвеи (mostbet-az.bet, casino-pinup.ng, rabonacasino.cz…) без кодов; страницы про Mostbet нет."
+ },
+ {
+  "domain": "passivesentencechecker.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Сетка «Aviator Game India»: на главной шлюзы /go/4rabet, /go/1win, /go/mostbet (→ fvoidjmb.com pid=303430) и др.; отдельной страницы про Mostbet нет, сайт мультибрендовый."
+ },
+ {
+  "domain": "passivscience.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.75,
+  "comment": "Спам-блог; статья «Mostbet az giriş» без внешних ссылок, Pin-Up (casino-pin-up-official-site.com) — в других статьях."
+ },
+ {
+  "domain": "pauljonescoaching.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.8,
+  "comment": "Блог коуча на WordPress.com с подсаженными постами про Mostbet; в постах простые ссылки на дорвеи Mostbet (kurtogluticaret.com.tr, mostbet-apk-uz.club, mostbetaz-giris.org), чужих брендов нет."
+ },
+ {
+  "domain": "pawtasticgrooming.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Рейтинг криптоказино с рефками 1xBet (refpa61797.com), brightwhale, redirectaff и трекером Mostbet hpnjesmb.com; страницы про Mostbet нет."
+ },
+ {
+  "domain": "pcbeachscotfestival.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Рейтинг казино AZ: /play → 1xBet, /neon/play → nclaz2.pro, /olymp/play; Mostbet упомянут вскользь, страницы про Mostbet нет."
+ },
+ {
+  "domain": "perilmondo.org",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.6,
+  "comment": "HTML не сохранён; переезд на lamesajuneteenth.org — рейтинг криптоказино с рефками GGBet, 1xBet, 100xon; Mostbet упомянут 1 раз."
+ },
+ {
+  "domain": "pharmedicpharmacy.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.85,
+  "comment": "Сайт аптеки в Калгари с подсаженными простыми ссылками (leenkovabeauty.ru «mostbet giriş», aquaspins-casino.ca, pinupbangladesh.com) без кодов; страницы про Mostbet нет."
+ },
+ {
+  "domain": "phsuaritmadergisi.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Монобренд «Mostbet AZ İcmalı»: единственная кнопка «Qeydiyyat» → kfsi2upmb.com/8UuF → rasfjtmb.com pid=303430 (Mostbet); 1xBet/Melbet только в тексте сравнения, без ссылок."
+ },
+ {
+  "domain": "pick-gain-bengal3.top",
+  "given": "multibrand",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mb_page_other",
+  "confidence": 0.55,
+  "comment": "Главная — сравнение «Mostbet or 1xBet Bangladesh» с Mostbet в начале заголовка: рядом с трекером Mostbet n37ztcmb.com/LVDU кнопки на 1win (w-one909485.life ?p=zew9) и 1xBet (reffpa.com tag=d_5333101m_97c_). Как у сестры best-slots-india.top (mb_page_other); страница сравнения, поэтому уверенность средняя."
+ },
+ {
+  "domain": "pick-slots-ind3.top",
+  "given": "multibrand",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mb_page_other",
+  "confidence": 0.55,
+  "comment": "Главная — сравнение «Mostbet vs 1xBet India 2026» с Mostbet в начале заголовка: рядом с трекером Mostbet n37ztcmb.com/LVDU кнопки на 1win (w-one909485.life ?p=zew9) и 1xBet (reffpa.com tag=d_5333101m_97c_). Как у сестры best-slots-india.top (mb_page_other); страница сравнения, поэтому уверенность средняя."
+ },
+ {
+  "domain": "pick-slots-rus2025.top",
+  "given": "multibrand",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mb_page_other",
+  "confidence": 0.5,
+  "comment": "Главная — сравнение «Top 3 онлайн слоты: Mostbet vs 1win vs 1xBet» с Mostbet в начале заголовка: рядом с трекером Mostbet n37ztcmb.com/LVDU кнопки на 1win (w-one909485.life ?p=zew9) и 1xBet (reffpa.com tag=d_5333101m_97c_). Как у сестры best-slots-india.top (mb_page_other); страница сравнения, поэтому уверенность средняя."
+ },
+ {
+  "domain": "pickstakebraza2.top",
+  "given": "multibrand",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mb_page_other",
+  "confidence": 0.55,
+  "comment": "Главная — сравнение «Mostbet vs 1win Brasil» с Mostbet в начале заголовка: рядом с трекером Mostbet n37ztcmb.com/LVDU кнопки на 1win (w-one909485.life ?p=zew9) и 1xBet (reffpa.com tag=d_5333101m_97c_). Как у сестры best-slots-india.top (mb_page_other); страница сравнения, поэтому уверенность средняя."
+ },
+ {
+  "domain": "plaaonline.org",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.7,
+  "comment": "Спам-блог; статья «Ən yaxşı mostbet kazinosu» содержит только сквозные простые ссылки на дорвеи (buqelemun.com «1win indir», dreamhomeworks.co «Pinup») без кодов — это не реклама оператора."
+ },
+ {
+  "domain": "playradarapp.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "PWA прогнозов со шлюзами /go?b=1xbet, melbet, 1win, linebet и /go?b=mostbet (→ weg96sbmb.com); страницы про Mostbet нет."
+ },
+ {
+  "domain": "playwisecanada.com",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Обзорник Канады; на /casino/mostbet-casino-canada/ только «Play at Mostbet» → /recommends/mostbet/, чужие /recommends/vavada/, /stake/ — на главной и /bonuses/."
+ },
+ {
+  "domain": "plinkogame-pakistan.net",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Plinko PK: claimbonus.net/52PrVpb4 → 1xBet, /play-1win, /play-mostbet (404 → hostovita.pl); страницы про Mostbet нет."
+ },
+ {
+  "domain": "ploter.io",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.85,
+  "comment": "Сетка «Aviator Game India»: на главной шлюзы /go/4rabet, /go/1win, /go/mostbet (→ fvoidjmb.com pid=303430) и др.; отдельной страницы про Mostbet нет, сайт мультибрендовый."
+ },
+ {
+  "domain": "podobne-kasyna-online.gb.net",
+  "given": "multibrand",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "multibrand",
+  "confidence": 0.8,
+  "comment": "Клон odrowaz24.pl: шлюзы /mostbet-source/ (→ lziooamb.com pid=303818), /totalcasino-source/, /betlabel-source/, /22bet-source/; страницы про Mostbet нет."
+ }
+]

@@ -1,0 +1,1599 @@
+[
+ {
+  "domain": "mostbet.vip",
+  "category": "bait",
+  "tags": "brand_in_domain",
+  "why": "mostbet_in_domain content=gambling:0 mostbet=1",
+  "mostbet_ads": "False",
+  "other_ads": "",
+  "plain_gambling_links": "win-en-crowncoinscasino.com win-en-ignitioncasino.com",
+  "ad_links": "[[\"plain\", \"win-en-ignitioncasino.com\", \"https://win-en-ignitioncasino.com/\", \"\"], [\"plain\", \"win-en-crowncoinscasino.com\", \"https://win-en-crowncoinscasino.com/\", \"\"]]",
+  "mb_text": "1",
+  "mb_per_1k": "0.13",
+  "mb_anchor": "309",
+  "mb_hidden_links": "130",
+  "text_len": "7825",
+  "gambling_per_1k": "0.38",
+  "other_brands_text": "",
+  "feed_links": "163",
+  "title": "Mostbet VIP Blog - Online Sports Betting & Casino | Best Odds & Bonuses",
+  "h1": "Mostbet VIP Blog",
+  "lang": "en-US",
+  "final_url": "https://mostbet.vip/",
+  "scan_group": "2_no_ads",
+  "source": "brand-scan",
+  "text_sample": "Cancel Report Ad Violent Disturbing Offensive Vulgar Ad was closed Spider-Man 3: Watch now Cancel Report Ad Violent Disturbing Offensive Vulgar Ad was closed Kate sent you something private 💬 Cancel Report Ad Violent Disturbing Offensive Vulgar Ad was closed Spider-Man 3: Stream now Cancel Report Ad Violent Disturbing Offensive Vulgar Ad was closed Thrilling collectible card game Skip to content M",
+  "aff_links": [
+   {
+    "url": "https://zoologyfibre.com/dntg4wte?jbidhg=46&refer=https%3A%2F%2Fmostbet.vip%2F&kw=%5B%22mostbet%22%2C%22vip%22%2C%22blog%22%2C%22-%22%2C%22online%22%2C%22sports%22%2C%22betting%22%2C%22casino%22%2C%22best%22%2C%22odds%22%2C%22bonuses%22%5D&key=32e5ea2148df203608c4638ed5dc98b1&scrWidth=1485&scrHeight",
+    "text": "",
+    "host": "zoologyfibre.com",
+    "brand": "",
+    "ref_kind": "",
+    "hidden": false
+   }
+  ],
+  "gates": [],
+  "trackers": [
+   "https://www.revenuecpmgate.com/m3493cygnx?key=b3ebdbc28ec94896c4ad78a64cd16af9"
+  ],
+  "html_files": [
+   "brand-protection/2026-09-28/brand-scan/html/mostbet.vip.browser.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet.vip.deep-res.json.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet.vip.http-google-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet.vip.http-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet.vip.http.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet.vip.mbpages-res.json.gz"
+  ]
+ },
+ {
+  "domain": "mostbet10646.company",
+  "category": "mono_hidden",
+  "tags": "apk brand_in_domain moved",
+  "why": "name_in_domain density=2.84 | hidden links to 1winkg.kg",
+  "mostbet_ads": "True",
+  "other_ads": "",
+  "plain_gambling_links": "win1.kg",
+  "ad_links": "[[\"mb\", \"Mostbet\", \"https://xmnylu0l12nymst.com/cNRF\", \"https://nvjnacmb.com/?registration=1&bonus=casino&cid=8296690891&pid=130609&sip=0\"], [\"plain\", \"win1.kg\", \"https://1winkg.kg\", \"https://win1.kg/\"]]",
+  "mb_text": "71",
+  "mb_per_1k": "2.84",
+  "mb_anchor": "25",
+  "mb_hidden_links": "0",
+  "text_len": "25023",
+  "gambling_per_1k": "4.04",
+  "other_brands_text": "",
+  "feed_links": "0",
+  "title": "Mostbet — официальный сайт, вход и регистрация, скачать Мостбет",
+  "h1": "Mostbet Кыргызстан: официальный сайт, вход, зеркало на сегодня, бонусы",
+  "lang": "ru-RU",
+  "final_url": "https://mostbet-kg.kg/",
+  "scan_group": "needs_browser",
+  "source": "brand-scan",
+  "text_sample": "Перейти к содержанию Search for: РЕГИСТРАЦИЯ ВХОД MBBONUS25 Промокод Скачать приложение Ставки на спорт Казино Aviator Mostbet Кыргызстан: официальный сайт, вход, зеркало на сегодня, бонусы История возникновения Mostbet в Кыргызстане началась с открытия дверей этой букмекерской конторы в СНГ. Созданный в 2009 году, бренд быстро стал популярным среди ставок на спорт и азартных игр. MOSTBET СКАЧАТЬ ",
+  "aff_links": [
+   {
+    "url": "https://xmnylu0l12nymst.com/cNRF",
+    "text": "",
+    "host": "xmnylu0l12nymst.com",
+    "brand": "",
+    "ref_kind": "ref",
+    "hidden": false
+   }
+  ],
+  "gates": [
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "РЕГИСТРАЦИЯ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВХОД"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "РЕГИСТРАЦИЯ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "РЕГИСТРАЦИЯ"
+   }
+  ],
+  "trackers": [],
+  "html_files": [
+   "brand-protection/2026-09-28/brand-scan/html/mostbet10646.company.deep-res.json.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet10646.company.http-google-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet10646.company.http-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet10646.company.http.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet10646.company.mbpages-res.json.gz"
+  ]
+ },
+ {
+  "domain": "mostbet12048.ru",
+  "category": "mono_hidden",
+  "tags": "apk brand_in_domain moved",
+  "why": "name_in_domain density=2.84 | hidden links to 1winkg.kg",
+  "mostbet_ads": "True",
+  "other_ads": "",
+  "plain_gambling_links": "win1.kg",
+  "ad_links": "[[\"mb\", \"Mostbet\", \"https://xmnylu0l12nymst.com/cNRF\", \"https://nvjnacmb.com/?registration=1&bonus=casino&cid=8296690891&pid=130609&sip=0\"], [\"plain\", \"win1.kg\", \"https://1winkg.kg\", \"https://win1.kg/\"]]",
+  "mb_text": "71",
+  "mb_per_1k": "2.84",
+  "mb_anchor": "25",
+  "mb_hidden_links": "0",
+  "text_len": "25023",
+  "gambling_per_1k": "4.04",
+  "other_brands_text": "",
+  "feed_links": "0",
+  "title": "Mostbet — официальный сайт, вход и регистрация, скачать Мостбет",
+  "h1": "Mostbet Кыргызстан: официальный сайт, вход, зеркало на сегодня, бонусы",
+  "lang": "ru-RU",
+  "final_url": "https://mostbet-kg.kg/",
+  "scan_group": "needs_browser",
+  "source": "brand-scan",
+  "text_sample": "Перейти к содержанию Search for: РЕГИСТРАЦИЯ ВХОД MBBONUS25 Промокод Скачать приложение Ставки на спорт Казино Aviator Mostbet Кыргызстан: официальный сайт, вход, зеркало на сегодня, бонусы История возникновения Mostbet в Кыргызстане началась с открытия дверей этой букмекерской конторы в СНГ. Созданный в 2009 году, бренд быстро стал популярным среди ставок на спорт и азартных игр. MOSTBET СКАЧАТЬ ",
+  "aff_links": [
+   {
+    "url": "https://xmnylu0l12nymst.com/cNRF",
+    "text": "",
+    "host": "xmnylu0l12nymst.com",
+    "brand": "",
+    "ref_kind": "ref",
+    "hidden": false
+   }
+  ],
+  "gates": [
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "РЕГИСТРАЦИЯ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВХОД"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "РЕГИСТРАЦИЯ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "РЕГИСТРАЦИЯ"
+   }
+  ],
+  "trackers": [],
+  "html_files": [
+   "brand-protection/2026-09-28/brand-scan/html/mostbet12048.ru.deep-res.json.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet12048.ru.http-google-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet12048.ru.http-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet12048.ru.http.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet12048.ru.mbpages-res.json.gz"
+  ]
+ },
+ {
+  "domain": "mostbet2034.help",
+  "category": "mono_hidden",
+  "tags": "apk brand_in_domain moved",
+  "why": "name_in_domain density=2.84 | hidden links to 1winkg.kg",
+  "mostbet_ads": "True",
+  "other_ads": "",
+  "plain_gambling_links": "win1.kg",
+  "ad_links": "[[\"mb\", \"Mostbet\", \"https://xmnylu0l12nymst.com/cNRF\", \"https://nvjnacmb.com/?registration=1&bonus=casino&cid=8296690891&pid=130609&sip=0\"], [\"plain\", \"win1.kg\", \"https://1winkg.kg\", \"https://win1.kg/\"]]",
+  "mb_text": "71",
+  "mb_per_1k": "2.84",
+  "mb_anchor": "25",
+  "mb_hidden_links": "0",
+  "text_len": "25023",
+  "gambling_per_1k": "4.04",
+  "other_brands_text": "",
+  "feed_links": "0",
+  "title": "Mostbet — официальный сайт, вход и регистрация, скачать Мостбет",
+  "h1": "Mostbet Кыргызстан: официальный сайт, вход, зеркало на сегодня, бонусы",
+  "lang": "ru-RU",
+  "final_url": "https://mostbet-kg.kg/",
+  "scan_group": "needs_browser",
+  "source": "brand-scan",
+  "text_sample": "Перейти к содержанию Search for: РЕГИСТРАЦИЯ ВХОД MBBONUS25 Промокод Скачать приложение Ставки на спорт Казино Aviator Mostbet Кыргызстан: официальный сайт, вход, зеркало на сегодня, бонусы История возникновения Mostbet в Кыргызстане началась с открытия дверей этой букмекерской конторы в СНГ. Созданный в 2009 году, бренд быстро стал популярным среди ставок на спорт и азартных игр. MOSTBET СКАЧАТЬ ",
+  "aff_links": [
+   {
+    "url": "https://xmnylu0l12nymst.com/cNRF",
+    "text": "",
+    "host": "xmnylu0l12nymst.com",
+    "brand": "",
+    "ref_kind": "ref",
+    "hidden": false
+   }
+  ],
+  "gates": [
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "РЕГИСТРАЦИЯ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВХОД"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "РЕГИСТРАЦИЯ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "РЕГИСТРАЦИЯ"
+   }
+  ],
+  "trackers": [],
+  "html_files": [
+   "brand-protection/2026-09-28/brand-scan/html/mostbet2034.help.deep-res.json.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet2034.help.http-google-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet2034.help.http-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet2034.help.http.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet2034.help.mbpages-res.json.gz"
+  ]
+ },
+ {
+  "domain": "mostbet21480.help",
+  "category": "mono_hidden",
+  "tags": "apk brand_in_domain moved",
+  "why": "name_in_domain density=2.84 | hidden links to 1winkg.kg",
+  "mostbet_ads": "True",
+  "other_ads": "",
+  "plain_gambling_links": "win1.kg",
+  "ad_links": "[[\"mb\", \"Mostbet\", \"https://xmnylu0l12nymst.com/cNRF\", \"https://nvjnacmb.com/?registration=1&bonus=casino&cid=8296690891&pid=130609&sip=0\"], [\"plain\", \"win1.kg\", \"https://1winkg.kg\", \"https://win1.kg/\"]]",
+  "mb_text": "71",
+  "mb_per_1k": "2.84",
+  "mb_anchor": "25",
+  "mb_hidden_links": "0",
+  "text_len": "25023",
+  "gambling_per_1k": "4.04",
+  "other_brands_text": "",
+  "feed_links": "0",
+  "title": "Mostbet — официальный сайт, вход и регистрация, скачать Мостбет",
+  "h1": "Mostbet Кыргызстан: официальный сайт, вход, зеркало на сегодня, бонусы",
+  "lang": "ru-RU",
+  "final_url": "https://mostbet-kg.kg/",
+  "scan_group": "needs_browser",
+  "source": "brand-scan",
+  "text_sample": "Перейти к содержанию Search for: РЕГИСТРАЦИЯ ВХОД MBBONUS25 Промокод Скачать приложение Ставки на спорт Казино Aviator Mostbet Кыргызстан: официальный сайт, вход, зеркало на сегодня, бонусы История возникновения Mostbet в Кыргызстане началась с открытия дверей этой букмекерской конторы в СНГ. Созданный в 2009 году, бренд быстро стал популярным среди ставок на спорт и азартных игр. MOSTBET СКАЧАТЬ ",
+  "aff_links": [
+   {
+    "url": "https://xmnylu0l12nymst.com/cNRF",
+    "text": "",
+    "host": "xmnylu0l12nymst.com",
+    "brand": "",
+    "ref_kind": "ref",
+    "hidden": false
+   }
+  ],
+  "gates": [
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "РЕГИСТРАЦИЯ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВХОД"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "РЕГИСТРАЦИЯ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "РЕГИСТРАЦИЯ"
+   }
+  ],
+  "trackers": [],
+  "html_files": [
+   "brand-protection/2026-09-28/brand-scan/html/mostbet21480.help.deep-res.json.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet21480.help.http-google-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet21480.help.http-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet21480.help.http.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet21480.help.mbpages-res.json.gz"
+  ]
+ },
+ {
+  "domain": "mostbet37461.help",
+  "category": "mono_hidden",
+  "tags": "apk brand_in_domain moved",
+  "why": "name_in_domain density=2.84 | hidden links to 1winkg.kg",
+  "mostbet_ads": "True",
+  "other_ads": "",
+  "plain_gambling_links": "win1.kg",
+  "ad_links": "[[\"mb\", \"Mostbet\", \"https://xmnylu0l12nymst.com/cNRF\", \"https://nvjnacmb.com/?registration=1&bonus=casino&cid=8296690891&pid=130609&sip=0\"], [\"plain\", \"win1.kg\", \"https://1winkg.kg\", \"https://win1.kg/\"]]",
+  "mb_text": "71",
+  "mb_per_1k": "2.84",
+  "mb_anchor": "25",
+  "mb_hidden_links": "0",
+  "text_len": "25023",
+  "gambling_per_1k": "4.04",
+  "other_brands_text": "",
+  "feed_links": "0",
+  "title": "Mostbet — официальный сайт, вход и регистрация, скачать Мостбет",
+  "h1": "Mostbet Кыргызстан: официальный сайт, вход, зеркало на сегодня, бонусы",
+  "lang": "ru-RU",
+  "final_url": "https://mostbet-kg.kg/",
+  "scan_group": "needs_browser",
+  "source": "brand-scan",
+  "text_sample": "Перейти к содержанию Search for: РЕГИСТРАЦИЯ ВХОД MBBONUS25 Промокод Скачать приложение Ставки на спорт Казино Aviator Mostbet Кыргызстан: официальный сайт, вход, зеркало на сегодня, бонусы История возникновения Mostbet в Кыргызстане началась с открытия дверей этой букмекерской конторы в СНГ. Созданный в 2009 году, бренд быстро стал популярным среди ставок на спорт и азартных игр. MOSTBET СКАЧАТЬ ",
+  "aff_links": [
+   {
+    "url": "https://xmnylu0l12nymst.com/cNRF",
+    "text": "",
+    "host": "xmnylu0l12nymst.com",
+    "brand": "",
+    "ref_kind": "ref",
+    "hidden": false
+   }
+  ],
+  "gates": [
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "РЕГИСТРАЦИЯ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВХОД"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "РЕГИСТРАЦИЯ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "РЕГИСТРАЦИЯ"
+   }
+  ],
+  "trackers": [],
+  "html_files": [
+   "brand-protection/2026-09-28/brand-scan/html/mostbet37461.help.deep-res.json.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet37461.help.http-google-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet37461.help.http-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet37461.help.http.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet37461.help.mbpages-res.json.gz"
+  ]
+ },
+ {
+  "domain": "mostbet4478.shop",
+  "category": "mono_hidden",
+  "tags": "apk brand_in_domain moved",
+  "why": "name_in_domain density=2.84 | hidden links to 1winkg.kg",
+  "mostbet_ads": "True",
+  "other_ads": "",
+  "plain_gambling_links": "win1.kg",
+  "ad_links": "[[\"mb\", \"Mostbet\", \"https://xmnylu0l12nymst.com/cNRF\", \"https://nvjnacmb.com/?registration=1&bonus=casino&cid=8296690891&pid=130609&sip=0\"], [\"plain\", \"win1.kg\", \"https://1winkg.kg\", \"https://win1.kg/\"]]",
+  "mb_text": "71",
+  "mb_per_1k": "2.84",
+  "mb_anchor": "25",
+  "mb_hidden_links": "0",
+  "text_len": "25023",
+  "gambling_per_1k": "4.04",
+  "other_brands_text": "",
+  "feed_links": "0",
+  "title": "Mostbet — официальный сайт, вход и регистрация, скачать Мостбет",
+  "h1": "Mostbet Кыргызстан: официальный сайт, вход, зеркало на сегодня, бонусы",
+  "lang": "ru-RU",
+  "final_url": "https://mostbet-kg.kg/",
+  "scan_group": "needs_browser",
+  "source": "brand-scan",
+  "text_sample": "Перейти к содержанию Search for: РЕГИСТРАЦИЯ ВХОД MBBONUS25 Промокод Скачать приложение Ставки на спорт Казино Aviator Mostbet Кыргызстан: официальный сайт, вход, зеркало на сегодня, бонусы История возникновения Mostbet в Кыргызстане началась с открытия дверей этой букмекерской конторы в СНГ. Созданный в 2009 году, бренд быстро стал популярным среди ставок на спорт и азартных игр. MOSTBET СКАЧАТЬ ",
+  "aff_links": [
+   {
+    "url": "https://xmnylu0l12nymst.com/cNRF",
+    "text": "",
+    "host": "xmnylu0l12nymst.com",
+    "brand": "",
+    "ref_kind": "ref",
+    "hidden": false
+   }
+  ],
+  "gates": [
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "РЕГИСТРАЦИЯ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВХОД"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "РЕГИСТРАЦИЯ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "РЕГИСТРАЦИЯ"
+   }
+  ],
+  "trackers": [],
+  "html_files": [
+   "brand-protection/2026-09-28/brand-scan/html/mostbet4478.shop.deep-res.json.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet4478.shop.http-google-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet4478.shop.http-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet4478.shop.http.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet4478.shop.mbpages-res.json.gz"
+  ]
+ },
+ {
+  "domain": "mostbet538.lol",
+  "category": "discredit",
+  "tags": "brand_in_domain ads_unverified",
+  "why": "mostbet_in_domain non_gambling content text=13976",
+  "mostbet_ads": "False",
+  "other_ads": "",
+  "plain_gambling_links": "",
+  "ad_links": "",
+  "mb_text": "0",
+  "mb_per_1k": "0.0",
+  "mb_anchor": "20",
+  "mb_hidden_links": "0",
+  "text_len": "13976",
+  "gambling_per_1k": "0.29",
+  "other_brands_text": "",
+  "feed_links": "0",
+  "title": "Фабрика дверей «Калина» | Купить межкомнатные двери, порталы и плинтуса от производителя в Екатеринбурге",
+  "h1": "ЦАРГОВЫЕ И МЕЖКОМНАТНЫЕ ДВЕРИ",
+  "lang": "ru",
+  "final_url": "https://mostbet538.lol/",
+  "scan_group": "8_no_mention",
+  "source": "brand-scan",
+  "text_sample": "Фабрика дверей Калина Производство • Екатеринбург Каталог фабрики Межкомнатные двери 65 Скрытые двери (Invisible) 2 Акция и распродажа 6 Порталы 7 Плинтуса 15 Погонажные изделия 17 Сервисы и страницы Акция и распродажа СКИДКИ Калькулятор сметы Для строителей и опта ОПТ О фабрике дверей Контакты и склад Скачать прайс-лист 48 КБ Заводские стандарты качества ГОСТ 475-2016. Влагостойкая скрытая кромка",
+  "aff_links": [],
+  "gates": [],
+  "trackers": [],
+  "html_files": [
+   "brand-protection/2026-09-28/brand-scan/html/mostbet538.lol.http-google-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet538.lol.http-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet538.lol.http.html.gz"
+  ]
+ },
+ {
+  "domain": "mostbet56890.icu",
+  "category": "mono_hidden",
+  "tags": "apk brand_in_domain moved",
+  "why": "name_in_domain density=2.84 | hidden links to 1winkg.kg",
+  "mostbet_ads": "True",
+  "other_ads": "",
+  "plain_gambling_links": "win1.kg",
+  "ad_links": "[[\"mb\", \"Mostbet\", \"https://xmnylu0l12nymst.com/cNRF\", \"https://nvjnacmb.com/?registration=1&bonus=casino&cid=8296690891&pid=130609&sip=0\"], [\"plain\", \"win1.kg\", \"https://1winkg.kg\", \"https://win1.kg/\"]]",
+  "mb_text": "71",
+  "mb_per_1k": "2.84",
+  "mb_anchor": "25",
+  "mb_hidden_links": "0",
+  "text_len": "25023",
+  "gambling_per_1k": "4.04",
+  "other_brands_text": "",
+  "feed_links": "0",
+  "title": "Mostbet — официальный сайт, вход и регистрация, скачать Мостбет",
+  "h1": "Mostbet Кыргызстан: официальный сайт, вход, зеркало на сегодня, бонусы",
+  "lang": "ru-RU",
+  "final_url": "https://mostbet-kg.kg/",
+  "scan_group": "needs_browser",
+  "source": "brand-scan",
+  "text_sample": "Перейти к содержанию Search for: РЕГИСТРАЦИЯ ВХОД MBBONUS25 Промокод Скачать приложение Ставки на спорт Казино Aviator Mostbet Кыргызстан: официальный сайт, вход, зеркало на сегодня, бонусы История возникновения Mostbet в Кыргызстане началась с открытия дверей этой букмекерской конторы в СНГ. Созданный в 2009 году, бренд быстро стал популярным среди ставок на спорт и азартных игр. MOSTBET СКАЧАТЬ ",
+  "aff_links": [
+   {
+    "url": "https://xmnylu0l12nymst.com/cNRF",
+    "text": "",
+    "host": "xmnylu0l12nymst.com",
+    "brand": "",
+    "ref_kind": "ref",
+    "hidden": false
+   }
+  ],
+  "gates": [
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "РЕГИСТРАЦИЯ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВХОД"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "РЕГИСТРАЦИЯ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "РЕГИСТРАЦИЯ"
+   }
+  ],
+  "trackers": [],
+  "html_files": [
+   "brand-protection/2026-09-28/brand-scan/html/mostbet56890.icu.deep-res.json.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet56890.icu.http-google-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet56890.icu.http-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet56890.icu.http.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet56890.icu.mbpages-res.json.gz"
+  ]
+ },
+ {
+  "domain": "mostbet69754.shop",
+  "category": "mono_hidden",
+  "tags": "apk brand_in_domain moved",
+  "why": "name_in_domain density=2.84 | hidden links to 1winkg.kg",
+  "mostbet_ads": "True",
+  "other_ads": "",
+  "plain_gambling_links": "win1.kg",
+  "ad_links": "[[\"mb\", \"Mostbet\", \"https://xmnylu0l12nymst.com/cNRF\", \"https://nvjnacmb.com/?registration=1&bonus=casino&cid=8296690891&pid=130609&sip=0\"], [\"plain\", \"win1.kg\", \"https://1winkg.kg\", \"https://win1.kg/\"]]",
+  "mb_text": "71",
+  "mb_per_1k": "2.84",
+  "mb_anchor": "25",
+  "mb_hidden_links": "0",
+  "text_len": "25023",
+  "gambling_per_1k": "4.04",
+  "other_brands_text": "",
+  "feed_links": "0",
+  "title": "Mostbet — официальный сайт, вход и регистрация, скачать Мостбет",
+  "h1": "Mostbet Кыргызстан: официальный сайт, вход, зеркало на сегодня, бонусы",
+  "lang": "ru-RU",
+  "final_url": "https://mostbet-kg.kg/",
+  "scan_group": "needs_browser",
+  "source": "brand-scan",
+  "text_sample": "Перейти к содержанию Search for: РЕГИСТРАЦИЯ ВХОД MBBONUS25 Промокод Скачать приложение Ставки на спорт Казино Aviator Mostbet Кыргызстан: официальный сайт, вход, зеркало на сегодня, бонусы История возникновения Mostbet в Кыргызстане началась с открытия дверей этой букмекерской конторы в СНГ. Созданный в 2009 году, бренд быстро стал популярным среди ставок на спорт и азартных игр. MOSTBET СКАЧАТЬ ",
+  "aff_links": [
+   {
+    "url": "https://xmnylu0l12nymst.com/cNRF",
+    "text": "",
+    "host": "xmnylu0l12nymst.com",
+    "brand": "",
+    "ref_kind": "ref",
+    "hidden": false
+   }
+  ],
+  "gates": [
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "РЕГИСТРАЦИЯ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВХОД"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "РЕГИСТРАЦИЯ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "РЕГИСТРАЦИЯ"
+   }
+  ],
+  "trackers": [],
+  "html_files": [
+   "brand-protection/2026-09-28/brand-scan/html/mostbet69754.shop.deep-res.json.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet69754.shop.http-google-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet69754.shop.http-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet69754.shop.http.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet69754.shop.mbpages-res.json.gz"
+  ]
+ },
+ {
+  "domain": "mostbet80295.help",
+  "category": "mono_hidden",
+  "tags": "apk brand_in_domain moved",
+  "why": "name_in_domain density=2.84 | hidden links to 1winkg.kg",
+  "mostbet_ads": "True",
+  "other_ads": "",
+  "plain_gambling_links": "win1.kg",
+  "ad_links": "[[\"mb\", \"Mostbet\", \"https://xmnylu0l12nymst.com/cNRF\", \"https://nvjnacmb.com/?registration=1&bonus=casino&cid=8296690891&pid=130609&sip=0\"], [\"plain\", \"win1.kg\", \"https://1winkg.kg\", \"https://win1.kg/\"]]",
+  "mb_text": "71",
+  "mb_per_1k": "2.84",
+  "mb_anchor": "25",
+  "mb_hidden_links": "0",
+  "text_len": "25023",
+  "gambling_per_1k": "4.04",
+  "other_brands_text": "",
+  "feed_links": "0",
+  "title": "Mostbet — официальный сайт, вход и регистрация, скачать Мостбет",
+  "h1": "Mostbet Кыргызстан: официальный сайт, вход, зеркало на сегодня, бонусы",
+  "lang": "ru-RU",
+  "final_url": "https://mostbet-kg.kg/",
+  "scan_group": "needs_browser",
+  "source": "brand-scan",
+  "text_sample": "Перейти к содержанию Search for: РЕГИСТРАЦИЯ ВХОД MBBONUS25 Промокод Скачать приложение Ставки на спорт Казино Aviator Mostbet Кыргызстан: официальный сайт, вход, зеркало на сегодня, бонусы История возникновения Mostbet в Кыргызстане началась с открытия дверей этой букмекерской конторы в СНГ. Созданный в 2009 году, бренд быстро стал популярным среди ставок на спорт и азартных игр. MOSTBET СКАЧАТЬ ",
+  "aff_links": [
+   {
+    "url": "https://xmnylu0l12nymst.com/cNRF",
+    "text": "",
+    "host": "xmnylu0l12nymst.com",
+    "brand": "",
+    "ref_kind": "ref",
+    "hidden": false
+   }
+  ],
+  "gates": [
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "РЕГИСТРАЦИЯ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВХОД"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "РЕГИСТРАЦИЯ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "РЕГИСТРАЦИЯ"
+   }
+  ],
+  "trackers": [],
+  "html_files": [
+   "brand-protection/2026-09-28/brand-scan/html/mostbet80295.help.deep-res.json.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet80295.help.http-google-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet80295.help.http-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet80295.help.http.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet80295.help.mbpages-res.json.gz"
+  ]
+ },
+ {
+  "domain": "mostbet96810.help",
+  "category": "mono_hidden",
+  "tags": "apk brand_in_domain moved",
+  "why": "name_in_domain density=2.84 | hidden links to 1winkg.kg",
+  "mostbet_ads": "True",
+  "other_ads": "",
+  "plain_gambling_links": "win1.kg",
+  "ad_links": "[[\"mb\", \"Mostbet\", \"https://xmnylu0l12nymst.com/cNRF\", \"https://nvjnacmb.com/?registration=1&bonus=casino&cid=8296690891&pid=130609&sip=0\"], [\"plain\", \"win1.kg\", \"https://1winkg.kg\", \"https://win1.kg/\"]]",
+  "mb_text": "71",
+  "mb_per_1k": "2.84",
+  "mb_anchor": "25",
+  "mb_hidden_links": "0",
+  "text_len": "25023",
+  "gambling_per_1k": "4.04",
+  "other_brands_text": "",
+  "feed_links": "0",
+  "title": "Mostbet — официальный сайт, вход и регистрация, скачать Мостбет",
+  "h1": "Mostbet Кыргызстан: официальный сайт, вход, зеркало на сегодня, бонусы",
+  "lang": "ru-RU",
+  "final_url": "https://mostbet-kg.kg/",
+  "scan_group": "needs_browser",
+  "source": "brand-scan",
+  "text_sample": "Перейти к содержанию Search for: РЕГИСТРАЦИЯ ВХОД MBBONUS25 Промокод Скачать приложение Ставки на спорт Казино Aviator Mostbet Кыргызстан: официальный сайт, вход, зеркало на сегодня, бонусы История возникновения Mostbet в Кыргызстане началась с открытия дверей этой букмекерской конторы в СНГ. Созданный в 2009 году, бренд быстро стал популярным среди ставок на спорт и азартных игр. MOSTBET СКАЧАТЬ ",
+  "aff_links": [
+   {
+    "url": "https://xmnylu0l12nymst.com/cNRF",
+    "text": "",
+    "host": "xmnylu0l12nymst.com",
+    "brand": "",
+    "ref_kind": "ref",
+    "hidden": false
+   }
+  ],
+  "gates": [
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "РЕГИСТРАЦИЯ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВХОД"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "РЕГИСТРАЦИЯ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "ВОЙТИ В МОСТБЕТ"
+   },
+   {
+    "url": "https://mostbet-kg.kg/reg",
+    "text": "РЕГИСТРАЦИЯ"
+   }
+  ],
+  "trackers": [],
+  "html_files": [
+   "brand-protection/2026-09-28/brand-scan/html/mostbet96810.help.deep-res.json.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet96810.help.http-google-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet96810.help.http-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet96810.help.http.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet96810.help.mbpages-res.json.gz"
+  ]
+ },
+ {
+  "domain": "mostbet995.casino",
+  "category": "redirect_other",
+  "tags": "brand_in_domain moved",
+  "why": "home redirects to promo-slot-link.com (7K)",
+  "mostbet_ads": "False",
+  "other_ads": "7K | match-king-direct.com | promo-slot-link.com",
+  "plain_gambling_links": "",
+  "ad_links": "[[\"other\", \"7K\", \"https://match-king-direct.com/?s=137&ref=sk_w238255c309321l24609p2169_Dmostbet997&from=aHR0cHM6Ly9tb3N0YmV0OTk1LmNhc2luby8%3D&encoded_url=P3N1Yl9pZD1EbW9zdGJldDk5NyNwb3B1cC1yZWc%3D\", \"\"], [\"other\", \"match-king-direct.com\", \"https://match-king-direct.com/?s=137&ref=sk_w238255c309321l24609p2169_Dmostbet997&from=aHR0cHM6Ly9tb3N0YmV0OTk1LmNhc2luby8%3D&encoded_url=P3N1Yl9pZD1EbW9zdGJldDk5NyNwb3B1cC1yZWc%3D\", \"\"], [\"other\", \"promo-slot-link.com\", \"https://promo-slot-link.com/l/68b73efe067b2a60140b79b1?sub_id=Dmostbet997\", \"\"]]",
+  "mb_text": "0",
+  "mb_per_1k": "0.0",
+  "mb_anchor": "0",
+  "mb_hidden_links": "0",
+  "text_len": "150",
+  "gambling_per_1k": "6.67",
+  "other_brands_text": "",
+  "feed_links": "0",
+  "title": "Mostbet",
+  "h1": "",
+  "lang": "en",
+  "final_url": "https://promo-slot-link.com/7kmost/?refCode=sk_w238255c309321l24609p2169_Dmostbet997&sub_id=Dmostbet997",
+  "scan_group": "3_other_only",
+  "source": "brand-scan",
+  "text_sample": "забирай бонус на сайте 7к 300.000 P + 500 ФС Email Password Регистрируясь, вы соглашаетесь с Правилами сайта Зарегистрироваться Уже есть аккаунт? Вход",
+  "aff_links": [
+   {
+    "url": "https://match-king-direct.com/?s=137&ref=sk_w238255c309321l24609p2169_Dmostbet997&from=aHR0cHM6Ly9tb3N0YmV0OTk1LmNhc2luby8%3D&encoded_url=P3N1Yl9pZD1EbW9zdGJldDk5NyNwb3B1cC1yZWc%3D",
+    "text": "",
+    "host": "match-king-direct.com",
+    "brand": "",
+    "ref_kind": "",
+    "hidden": false
+   }
+  ],
+  "gates": [],
+  "trackers": [],
+  "html_files": [
+   "brand-protection/2026-09-28/brand-scan/html/mostbet995.casino.browser.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet995.casino.http-google-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet995.casino.http-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbet995.casino.http.html.gz"
+  ]
+ },
+ {
+  "domain": "mostbetapps.icu",
+  "category": "redirect_other",
+  "tags": "rotating_ads brand_in_domain moved",
+  "why": "home redirects to joker-lewus.top (Игорный дом Лев - официальный сайт игров)",
+  "mostbet_ads": "False",
+  "other_ads": "",
+  "plain_gambling_links": "vu0llckans.com",
+  "ad_links": "[[\"plain\", \"vu0llckans.com\", \"https://vu0llckans.com#register\", \"\"]]",
+  "mb_text": "0",
+  "mb_per_1k": "0.0",
+  "mb_anchor": "0",
+  "mb_hidden_links": "0",
+  "text_len": "16081",
+  "gambling_per_1k": "4.91",
+  "other_brands_text": "Lev:1",
+  "feed_links": "8",
+  "title": "Игорный дом Лев - официальный сайт игрового клуба",
+  "h1": "Приветствуем вас на официальном сайте легендарного клуба \"Лев\"!",
+  "lang": "ru",
+  "final_url": "https://joker-lewus.top/?ref=fap_w24128p111_runodep&site=mostbetapps.icu&U2T_UU_ID=SW_failed_VHlwZUVycm9yOiBTZXJ2aWNlV29ya2VyIHNjcmlwdCBhdCBodHRwczovL2dvMmNoaXJpbmtvdGFuLmNvbS9hc3NldHMvYnVpbGQvc3RhdGljL3UydC1zdy5qcyBmb3Igc2NvcGUgaHR0cHM6Ly9nbzJjaGlyaW5rb3Rhbi5jb20vYXNzZXRzL2J1aWxkL3N0YXRpYy8gZW5jb3VudGVyZWQgYW4gZXJyb3IgZHVyaW5nIGluc3RhbGxhdGlvbi4%3D_error",
+  "scan_group": "8_no_mention",
+  "source": "brand-scan",
+  "text_sample": "Игры Акции Бонусы Бонус 100%+ 50FS до 20 000 рублей Регистрация Войти Бонусный пакет Приветственный пакет Игровой зал Акции Турниры Лотереи Клубничка Рейтинги Приложение Поддержка 24/7 welcome pack подарок от клуба 100 000 + 250FS Забрать Депайте криптой Забирайте +10% к реалу Забрать Годовая серия 3 Oaks Gaming 2 500 000€ Участвовать Годовая серия Drops & Wins 25 000 000€ Участвовать Серия розыгр",
+  "aff_links": [],
+  "gates": [],
+  "trackers": [],
+  "html_files": [
+   "brand-protection/2026-09-28/brand-scan/html/mostbetapps.icu.browser.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbetapps.icu.http-google-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbetapps.icu.http-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbetapps.icu.http.html.gz"
+  ]
+ },
+ {
+  "domain": "mostbetazpwclorg324.top",
+  "category": "mono_other",
+  "tags": "brand_in_domain",
+  "why": "name_in_domain density=3.07",
+  "mostbet_ads": "False",
+  "other_ads": "1xBet",
+  "plain_gambling_links": "",
+  "ad_links": "[[\"other\", \"1xBet\", \"https://mostbetazpwclorg324.top/go.php\", \"https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689ff48b44eca10dc2&click_id=3k5hhgn.637.a22aa4&r=registration\"]]",
+  "mb_text": "57",
+  "mb_per_1k": "3.07",
+  "mb_anchor": "22",
+  "mb_hidden_links": "0",
+  "text_len": "18554",
+  "gambling_per_1k": "5.17",
+  "other_brands_text": "",
+  "feed_links": "0",
+  "title": "Mostbet AZ | Rəsmi internet saytında giriş və qeydiyyat | Mostbet-az90",
+  "h1": "Mostbet AZ (Azərbaycan) – Rəsmi Casino və Mərc Platforması",
+  "lang": "az",
+  "final_url": "https://mostbetazpwclorg324.top/",
+  "scan_group": "3_other_only",
+  "source": "brand-scan",
+  "text_sample": "175.000-ə qədər qazanın Pulsuz önbellek! Yükləyin: IOS Yükləyin: Android Giriş Qeydiyyat İndir Aviator 24/7 Müştəri Dəstəyi Texniki dəstək support@emma-toolkit.org Təhlükəsizlik Xidməti security@emma-toolkit.org Depozit qoyun və bonusunuzu indi tələb edin drop & wins $3000 iştirak et Ətraflı təfərrüatlar MAC VƏ KAZİNO ÜÇÜN Mostbet PROMO KODU Mostbet promo kodundan istifadə edin və ilk depozitinizd",
+  "aff_links": [],
+  "gates": [],
+  "trackers": [],
+  "html_files": [
+   "brand-protection/2026-09-28/brand-scan/html/mostbetazpwclorg324.top.http-google-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbetazpwclorg324.top.http-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbetazpwclorg324.top.http.html.gz"
+  ]
+ },
+ {
+  "domain": "mostbetbk.pro",
+  "category": "discredit",
+  "tags": "brand_in_domain ads_unverified",
+  "why": "mostbet_in_domain non_gambling content text=2393",
+  "mostbet_ads": "False",
+  "other_ads": "",
+  "plain_gambling_links": "",
+  "ad_links": "",
+  "mb_text": "0",
+  "mb_per_1k": "0.0",
+  "mb_anchor": "0",
+  "mb_hidden_links": "0",
+  "text_len": "2393",
+  "gambling_per_1k": "0.0",
+  "other_brands_text": "",
+  "feed_links": "0",
+  "title": "Apache HTTP Server Test Page powered by CentOS",
+  "h1": "Apache 2 Test Pagepowered by CentOS",
+  "lang": "",
+  "final_url": "http://mostbetbk.pro/",
+  "scan_group": "8_no_mention",
+  "source": "brand-scan",
+  "text_sample": "Apache 2 Test Page powered by CentOS This page is used to test the proper operation of the Apache HTTP server after it has been installed. If you can read this page it means that the Apache HTTP server installed at this site is working properly. If you are a member of the general public: The fact that you are seeing this page indicates that the website you just visited is either experiencing probl",
+  "aff_links": [],
+  "gates": [],
+  "trackers": [],
+  "html_files": [
+   "brand-protection/2026-09-28/brand-scan/html/mostbetbk.pro.http-google-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbetbk.pro.http-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbetbk.pro.http.html.gz"
+  ]
+ },
+ {
+  "domain": "mostbeto.com",
+  "category": "discredit",
+  "tags": "brand_in_domain ads_unverified",
+  "why": "mostbet_in_domain non_gambling content text=4550",
+  "mostbet_ads": "False",
+  "other_ads": "",
+  "plain_gambling_links": "",
+  "ad_links": "",
+  "mb_text": "0",
+  "mb_per_1k": "0.0",
+  "mb_anchor": "157",
+  "mb_hidden_links": "1",
+  "text_len": "4550",
+  "gambling_per_1k": "0.0",
+  "other_brands_text": "",
+  "feed_links": "0",
+  "title": "AV无码免费播放 - 爱情电影专属站_热门高分爱情片全集高清免费观看",
+  "h1": "",
+  "lang": "",
+  "final_url": "https://www.mostbeto.com/",
+  "scan_group": "7_unresolved",
+  "source": "brand-scan",
+  "text_sample": "AV无码免费播放 首页 视频一区 视频二区 视频三区 标签大全 最新地址 更多 视频一区 无码专区 麻豆传媒 制服诱惑 三级伦理 AI换脸 中文字幕 卡通动漫 欧美系列 美女主播 国产自拍 芭芭拉和琴团 家族传统5一10全文阅读,重生之超凡人生,日本综合视频,奥特曼2012大电影,9900lu众里寻她千百,冷王圈宠下堂妃 沈 韵犹存 - P 毒龙69 轮战 着 女子神探,挺起奶头主动喂男人吃奶水的好处,国产最新360水滴主题酒店,男人拔出来后女人都会流水吗,宠妃天成 小说,lol阿狸h 排球队的 的 汗 与蟹爪夹击，让我被她嘲 了一整 玛丹娜 咲南朋 山さゆりJUR-325 蜜柚影院在线观看免费高清中文,十八禁色图,鸭脖门女主角,秋叶私人家庭影院,母子挺动,人妖互操 尖 的 - 镇餐厅野 完整版 朱迅真空上阵疑凸点,总裁受被惩罚戴玉势女攻,内射人妻深入内射,强狙人,人妻挨脔日常h古代,金瓶",
+  "aff_links": [],
+  "gates": [],
+  "trackers": [],
+  "html_files": [
+   "brand-protection/2026-09-28/brand-scan/html/mostbeto.com.browser.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbeto.com.http-google-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbeto.com.http-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbeto.com.http.html.gz"
+  ]
+ },
+ {
+  "domain": "mostbetskz.com",
+  "category": "bait",
+  "tags": "brand_in_domain moved ads_unverified",
+  "why": "brand domain moves to olimpbetcasino.com with other gambling",
+  "mostbet_ads": "False",
+  "other_ads": "via thecasinoplayed.com",
+  "plain_gambling_links": "",
+  "ad_links": "[[\"other\", \"via thecasinoplayed.com\", \"https://thecasinoplayed.com/bGmtSytK?source=olimpbetcasino.com\", \"\"]]",
+  "mb_text": "0",
+  "mb_per_1k": "0.0",
+  "mb_anchor": "0",
+  "mb_hidden_links": "0",
+  "text_len": "7701",
+  "gambling_per_1k": "8.83",
+  "other_brands_text": "Olimpbet:10",
+  "feed_links": "0",
+  "title": "Олимп Казино: регистрация, игровой каталог и вывод средств для игроков из КЗ",
+  "h1": "Олимп Казино — обзор для игроков из Казахстана",
+  "lang": "ru-KZ",
+  "final_url": "https://olimpbetcasino.com/",
+  "scan_group": "8_no_mention",
+  "source": "brand-scan",
+  "text_sample": "Регистрация Olimp Casino Войти Войти Олимпбет — щедрые бонусы, акции и турниры Играть сейчас Получить бонус Olimpbet Casino Получить бонус Olimpbet Casino Получить бонус Olimpbet Casino Получить бонус Olimpbet Casino Получить бонус Olimpbet Casino Получить бонус Olimpbet Casino Олимп Казино — обзор для игроков из Казахстана Олимп Казино — игровая платформа, ориентированная на аудиторию Казахстана ",
+  "aff_links": [],
+  "gates": [
+   {
+    "url": "https://olimpbetcasino.com/play",
+    "text": "Играть сейчас"
+   },
+   {
+    "url": "https://olimpbetcasino.com/bonus",
+    "text": "Получить бонус Olimpbet Casino"
+   },
+   {
+    "url": "https://olimpbetcasino.com/bonus",
+    "text": "Получить бонус Olimpbet Casino"
+   },
+   {
+    "url": "https://olimpbetcasino.com/bonus",
+    "text": "Получить бонус Olimpbet Casino"
+   },
+   {
+    "url": "https://olimpbetcasino.com/bonus",
+    "text": "Получить бонус Olimpbet Casino"
+   },
+   {
+    "url": "https://olimpbetcasino.com/bonus",
+    "text": "Получить бонус Olimpbet Casino"
+   },
+   {
+    "url": "https://olimpbetcasino.com/bonus",
+    "text": "Получить бонус Olimpbet Casino"
+   },
+   {
+    "url": "https://olimpbetcasino.com/play",
+    "text": "Играть сейчас"
+   },
+   {
+    "url": "https://olimpbetcasino.com/play",
+    "text": "Играть сейчас"
+   },
+   {
+    "url": "https://olimpbetcasino.com/play",
+    "text": "Играть сейчас"
+   }
+  ],
+  "trackers": [],
+  "html_files": [
+   "brand-protection/2026-09-28/brand-scan/html/mostbetskz.com.http.html.gz"
+  ]
+ },
+ {
+  "domain": "mostbettech.com",
+  "category": "bait",
+  "tags": "brand_in_domain",
+  "why": "mostbet_in_domain, page never names Mostbet",
+  "mostbet_ads": "False",
+  "other_ads": "",
+  "plain_gambling_links": "",
+  "ad_links": "",
+  "mb_text": "0",
+  "mb_per_1k": "0.0",
+  "mb_anchor": "25",
+  "mb_hidden_links": "0",
+  "text_len": "1649",
+  "gambling_per_1k": "0.0",
+  "other_brands_text": "",
+  "feed_links": "0",
+  "title": "U638 - U638 کے تاش اور علاقائی میز کھیلوں کا تعارف پڑھیں تاکہ ہر نئے کھیل کی رفتار اور طریقہ واضح ہو",
+  "h1": "U638 - U638 کے تاش اور علاقائی میز کھیلوں کا تعارف پڑھیں تاکہ ہر نئے کھیل کی رفتار اور طریقہ واضح ہو",
+  "lang": "ur-PK",
+  "final_url": "https://mostbettech.com/",
+  "scan_group": "2_no_ads",
+  "source": "brand-scan",
+  "text_sample": "اندر باہر رمی کلر گیم رولیٹ مائنز سک بو باکارا اسکریچ کارڈ جیک پاٹ لاٹری کریش گیمز ڈریگن ٹائیگر کیسینو وار کینو ٹاور لکی وہیل بنگو بلیک جیک ہائی لو پوکر لاگ اِن رجسٹر کریں U638 - U638 کے تاش اور علاقائی میز کھیلوں کا تعارف پڑھیں تاکہ ہر نئے کھیل کی رفتار اور طریقہ واضح ہو رجسٹر کریں U638 U638 کے مختلف کیسینو موضوعات کو پڑھتے ہوئے یہ بات سامنے آتی ہے کہ سک بو کے ساتھ ڈریگن ٹائیگر کا تقابل کرنے پر ر",
+  "aff_links": [],
+  "gates": [],
+  "trackers": [],
+  "html_files": [
+   "brand-protection/2026-09-28/brand-scan/html/mostbettech.com.http-google-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbettech.com.http-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbettech.com.http.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbettech.com.mbpages-res.json.gz"
+  ]
+ },
+ {
+  "domain": "mostbetts.site",
+  "category": "discredit",
+  "tags": "brand_in_domain ads_unverified",
+  "why": "mostbet_in_domain non_gambling content text=21685",
+  "mostbet_ads": "False",
+  "other_ads": "",
+  "plain_gambling_links": "",
+  "ad_links": "",
+  "mb_text": "0",
+  "mb_per_1k": "0.0",
+  "mb_anchor": "179",
+  "mb_hidden_links": "0",
+  "text_len": "21685",
+  "gambling_per_1k": "0.0",
+  "other_brands_text": "",
+  "feed_links": "74",
+  "title": "Gum without also being | Home Edition | North Journal",
+  "h1": "However, a bengal can hardly be considered a foreseen gum without also being a...",
+  "lang": "en",
+  "final_url": "http://mostbetts.site/",
+  "scan_group": "7_unresolved",
+  "source": "brand-scan",
+  "text_sample": "Current edition However, a bengal can hardly be considered a foreseen gum without also being a... However, a bengal can hardly be considered a foreseen gum without also being a tree. Homepage ↗ Archive ↗ All pages ↗ Category desks Features Opinion Culture Ideas Trends Essays Meta title logic Tytuł zakładki nadal jest losowany osobno dla każdej podstrony, więc poszczególne URL-e nie dzielą jednego ",
+  "aff_links": [],
+  "gates": [],
+  "trackers": [],
+  "html_files": [
+   "brand-protection/2026-09-28/brand-scan/html/mostbetts.site.http-google-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbetts.site.http-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbetts.site.http.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostbetts.site.mbpages-res.json.gz"
+  ]
+ },
+ {
+  "domain": "mostsbet.com",
+  "category": "mono_other",
+  "tags": "ads_mobile_only ads_search_only ads_unverified",
+  "why": "name_in_title density=2.6",
+  "mostbet_ads": "False",
+  "other_ads": "Herkülbet | m.poliwin251.com | poliwin251.com",
+  "plain_gambling_links": "betreward.ink markajbets.com wwesmackdownresults.com",
+  "ad_links": "[[\"other\", \"poliwin251.com\", \"https://t2po.com/hizli-giris\", \"https://www.poliwin251.com/?auth=1&btag=abe777\"], [\"other\", \"Herkülbet\", \"https://t2m.co/okanparavan\", \"https://herkulbet170.com/?btag=okanparavan\"], [\"other\", \"m.poliwin251.com\", \"https://t2po.com/hizli-giris\", \"https://m.poliwin251.com/?auth=1&btag=abe777\"], [\"plain\", \"markajbets.com\", \"https://markajbets.com/\", \"\"], [\"plain\", \"betreward.ink\", \"https://betreward.ink/\", \"\"], [\"plain\", \"wwesmackdownresults.com\", \"https://wwesmackdownresults.com/\", \"\"]]",
+  "mb_text": "53",
+  "mb_per_1k": "2.6",
+  "mb_anchor": "8",
+  "mb_hidden_links": "0",
+  "text_len": "20349",
+  "gambling_per_1k": "6.19",
+  "other_brands_text": "",
+  "feed_links": "3",
+  "title": "Mostbet - Mostsbet Giriş - Mostsbet Güncel Giriş",
+  "h1": "Mostbet",
+  "lang": "tr",
+  "final_url": "https://mostsbet.com/",
+  "scan_group": "3_other_only",
+  "source": "brand-scan",
+  "text_sample": "Mostbet Mostbet Mostbet Mostbet Mostbet Mostbet , çevrim içi bahis ve casino kategorilerini aynı platform üzerinden takip etmek isteyen kullanıcıların karşılaşabileceği markalardan biridir. Bir bahis sitesini değerlendirirken yalnızca oyun çeşitliliğine veya sunulan oranlara bakmak yeterli değildir. Mobil uyumluluk, hesap açma süreci, para yatırma ve çekme seçenekleri, bonus koşulları, canlı casin",
+  "aff_links": [],
+  "gates": [],
+  "trackers": [],
+  "html_files": [
+   "brand-protection/2026-09-28/brand-scan/html/mostsbet.com.browser.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostsbet.com.deep-res.json.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostsbet.com.http-google-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostsbet.com.http-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/mostsbet.com.http.html.gz"
+  ]
+ },
+ {
+  "domain": "partnerupak.ru",
+  "category": "mono_other",
+  "tags": "rotating_ads",
+  "why": "name_in_title density=1.65",
+  "mostbet_ads": "False",
+  "other_ads": "NormCasino",
+  "plain_gambling_links": "",
+  "ad_links": "[[\"other\", \"NormCasino\", \"https://partnerupak.ru/mostb/\", \"https://7normcasino-af.win/ru/registration?qtag=a84744_t61351802_c7675_s93d2e8wqdir1z901&x_pm_click=6983e5c459275655261cbabc13ffb7dd&redirect_creative_id=7675\"]]",
+  "mb_text": "4",
+  "mb_per_1k": "1.65",
+  "mb_anchor": "0",
+  "mb_hidden_links": "0",
+  "text_len": "2422",
+  "gambling_per_1k": "1.65",
+  "other_brands_text": "",
+  "feed_links": "0",
+  "title": "Мостбет (Mostbet) — Прямые трансляции матчей онлайн",
+  "h1": "Mostbet (Мостбет) — официальный сайт для ставок на спорт и линии с прямыми трансляциями матчей онлайн",
+  "lang": "ru",
+  "final_url": "https://partnerupak.ru/",
+  "scan_group": "3_other_only",
+  "source": "brand-scan",
+  "text_sample": "Регистрация Вход Популярные Последние Новые Избранное Слоты Рулетка Карты Лотереи Джекпоты Fast games Вирт. спорт ТОП-ИГРЫ Все Все Играть бесплатно Playson Играть бесплатно 3 Oaks Играть бесплатно Truelab Играть бесплатно PragmaticPlay Mostbet (Мостбет) — официальный сайт для ставок на спорт и линии с прямыми трансляциями матчей онлайн Mostbet предлагает удобный доступ к ставкам и просмотру спорти",
+  "aff_links": [],
+  "gates": [
+   {
+    "url": "https://partnerupak.ru/mostb/",
+    "text": ""
+   },
+   {
+    "url": "https://partnerupak.ru/mostb/",
+    "text": "Регистрация"
+   },
+   {
+    "url": "https://partnerupak.ru/mostb/",
+    "text": "Вход"
+   },
+   {
+    "url": "https://partnerupak.ru/mostb/",
+    "text": ""
+   },
+   {
+    "url": "https://partnerupak.ru/mostb/",
+    "text": ""
+   },
+   {
+    "url": "https://partnerupak.ru/mostb/",
+    "text": ""
+   },
+   {
+    "url": "https://partnerupak.ru/mostb/",
+    "text": ""
+   },
+   {
+    "url": "https://partnerupak.ru/mostb/",
+    "text": ""
+   },
+   {
+    "url": "https://partnerupak.ru/mostb/",
+    "text": ""
+   },
+   {
+    "url": "https://partnerupak.ru/mostb/",
+    "text": "Популярные"
+   }
+  ],
+  "trackers": [],
+  "html_files": [
+   "brand-protection/2026-09-28/brand-scan/html/partnerupak.ru.browser.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/partnerupak.ru.deep-res.json.gz",
+   "brand-protection/2026-09-28/brand-scan/html/partnerupak.ru.http-google-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/partnerupak.ru.http-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/partnerupak.ru.http.html.gz"
+  ]
+ },
+ {
+  "domain": "promotoyotadepok.net",
+  "category": "mono_mixed",
+  "tags": "ads_unverified",
+  "why": "name_in_title density=3.32",
+  "mostbet_ads": "True",
+  "other_ads": "slotuna-0296.com",
+  "plain_gambling_links": "",
+  "ad_links": "[[\"other\", \"slotuna-0296.com\", \"https://sltna.pclira.com/?mid=371788_2157771&clickid=rmmqcc.7b.ap51h&pubid=NoWeb&subid=cros\", \"https://slotuna-0296.com/registration?mid=371788_2157771&fluid=09bfc8a0-bf8b-4ef0-b8f9-bad9fb290ad2&clickid=rmmqcc.7b.ap51h&pubid=NoWeb&subid=cros\"], [\"mb\", \"Mostbet\", \"https://promotoyotadepok.net/go/registration\", \"https://txjqhxj4mb.com/?registration=1&cid=8296708493&pid=304732&sip=0&pr=TOPBONS\"]]",
+  "mb_text": "106",
+  "mb_per_1k": "3.32",
+  "mb_anchor": "3",
+  "mb_hidden_links": "0",
+  "text_len": "31930",
+  "gambling_per_1k": "4.1",
+  "other_brands_text": "",
+  "feed_links": "0",
+  "title": "Register and Play With A 25,000 BDT Reward",
+  "h1": "Mostbet Bangladesh",
+  "lang": "en",
+  "final_url": "https://promotoyotadepok.net/",
+  "scan_group": "1_mostbet_only",
+  "source": "brand-scan",
+  "text_sample": "Login Registration Contents Legal and Safe Sign Up Bonus and Promotions Payment methods Sports Betting Casino Mobile App App Overview for Android for iOS Mobile Version Login in App Benefits App Problems App Conclusion App Customer Support Advantages Affiliate Program Responsible Gambling FAQ Login Registration Login Registration Mostbet Bangladesh If you are from Bangladesh and looking for a secu",
+  "aff_links": [],
+  "gates": [
+   {
+    "url": "https://promotoyotadepok.net/go/registration",
+    "text": "Login"
+   },
+   {
+    "url": "https://promotoyotadepok.net/go/registration",
+    "text": "Registration"
+   },
+   {
+    "url": "https://promotoyotadepok.net/go/registration",
+    "text": "Login"
+   },
+   {
+    "url": "https://promotoyotadepok.net/go/registration",
+    "text": "Registration"
+   },
+   {
+    "url": "https://promotoyotadepok.net/go/registration",
+    "text": "Login"
+   },
+   {
+    "url": "https://promotoyotadepok.net/go/registration",
+    "text": "Registration"
+   },
+   {
+    "url": "https://promotoyotadepok.net/go/registration",
+    "text": "Get a bonus!"
+   },
+   {
+    "url": "https://promotoyotadepok.net/go/registration",
+    "text": "Download for Android 📱"
+   },
+   {
+    "url": "https://promotoyotadepok.net/go/registration",
+    "text": "Download for iOS 📱"
+   },
+   {
+    "url": "https://promotoyotadepok.net/go/registration",
+    "text": "Get a bonus!"
+   }
+  ],
+  "trackers": [],
+  "html_files": [
+   "brand-protection/2026-09-28/brand-scan/html/promotoyotadepok.net.deep-res.json.gz",
+   "brand-protection/2026-09-28/brand-scan/html/promotoyotadepok.net.http-google-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/promotoyotadepok.net.http-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/promotoyotadepok.net.http.html.gz"
+  ]
+ },
+ {
+  "domain": "quandlesrusses.com",
+  "category": "mb_page_other",
+  "tags": "search_referrer_js ads_unverified",
+  "why": "feed before density: date=0 slug=26 | Mostbet page advertises others: https://quandlesrusses.com/sport/mostbet-azerbaijan-h-r-sey-onlayn-kazino-s-n-tkarliq-dunyasinda/ (1xBet)",
+  "mostbet_ads": "False",
+  "other_ads": "1xBet | Cresus Casino France | Nine Casino",
+  "plain_gambling_links": "bcgame.pt casinopie.com fr-ca.sloto.top slot-online.com",
+  "ad_links": "[[\"other\", \"Nine Casino\", \"https://ninecasino.br.com/\", \"\"], [\"other\", \"1xBet\", \"https://app-1xbet.ng/\", \"\"], [\"other\", \"Cresus Casino France\", \"https://cresuscasino-fr.app\", \"https://savannahrosecoaching.com/fr3/\"], [\"plain\", \"slot-online.com\", \"https://slot-online.com/\", \"\"], [\"plain\", \"fr-ca.sloto.top\", \"https://fr-ca.sloto.top/bonuses\", \"\"], [\"plain\", \"bcgame.pt\", \"https://bc-game.casino/\", \"https://bcgame.pt/\"]]",
+  "mb_text": "3",
+  "mb_per_1k": "0.61",
+  "mb_anchor": "3",
+  "mb_hidden_links": "0",
+  "text_len": "4930",
+  "gambling_per_1k": "7.51",
+  "other_brands_text": "1xBet:8 Melbet:2 Nine Casino:1",
+  "feed_links": "26",
+  "title": "A spicy Boy",
+  "h1": "A spicy Boy",
+  "lang": "en-US",
+  "final_url": "https://quandlesrusses.com/",
+  "scan_group": "3_other_only",
+  "source": "brand-scan",
+  "text_sample": "A spicy Boy A spicy Boy Home Taman Have [metaslider id=\"22356\"] Qu’est-ce qu’un appareil photo du marché gris ? Résumé de l’article : Les appareils photo du marché gris Un appareil photo du marché gris est un appareil qui est tombé entre les… Comment connecter le NVR Lorex au WiFi ? Résumé de l’article Voici un résumé des points principaux de l’article : Pour connecter le NVR à Internet, branchez ",
+  "aff_links": [],
+  "gates": [],
+  "trackers": [],
+  "html_files": [
+   "brand-protection/2026-09-28/brand-scan/html/quandlesrusses.com.browser.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/quandlesrusses.com.deep-res.json.gz",
+   "brand-protection/2026-09-28/brand-scan/html/quandlesrusses.com.http-google-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/quandlesrusses.com.http-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/quandlesrusses.com.http.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/quandlesrusses.com.mbpages-res.json.gz"
+  ]
+ },
+ {
+  "domain": "simpatiasdobrasil.com.br",
+  "category": "mb_page_other",
+  "tags": "rotating_ads ads_unverified",
+  "why": "mostbet_in_posts int=6 in_posts=6 articles=10 | Mostbet page advertises others: https://simpatiasdobrasil.com.br/czy-liczba-osob-grajacych-w-mostbet-rosnie-2/ (804fieryplay73.com, Fieryplay, Sportbet.one)",
+  "mostbet_ads": "False",
+  "other_ads": "804fieryplay73.com | Fieryplay | Sportbet.one",
+  "plain_gambling_links": "orskgb5.ru",
+  "ad_links": "[[\"other\", \"Sportbet.one\", \"https://eventbet.best/PPbsTL\", \"https://sportbet.one/?stag=2358_6abc350bc7b961e50521e237\"], [\"other\", \"Fieryplay\", \"https://eventbet.best/PPbsTL\", \"https://804fieryplay73.com/en/register?sub_id=4&ref=vp_w20149c264891l20996p2530_4&affdata%5Bsubdata%5D=cdc59974d59253bf8280d9ab1c79f4a9&affdata%5Bclick_id%5D=6abb02d4f48c8d0001ded284&affdata%5Brotator%5D=264891&affdata%5Blanding%5D=20996&affdata%5Bsub_id%5D=4\"], [\"other\", \"804fieryplay73.com\", \"https://eventbet.best/PPbsTL\", \"https://804fieryplay73.com/en/register?sub_id=4&ref=vp_w20149c264891l20996p2530_4&affdata%5Bsubdata%5D=cdc59974d59253bf8280d9ab1c79f4a9&affdata%5Bclick_id%5D=6abb02d4f48c8d0001ded284&affdata%5Brotator%5D=264891&affdata%5Blanding%5D=20996&affdata%5Bsub_id%5D=4\"], [\"plain\", \"orskgb5.ru\", \"https://orskgb5.ru/\", \"\"]]",
+  "mb_text": "20",
+  "mb_per_1k": "5.0",
+  "mb_anchor": "6",
+  "mb_hidden_links": "0",
+  "text_len": "4002",
+  "gambling_per_1k": "4.75",
+  "other_brands_text": "1xBet:3",
+  "feed_links": "10",
+  "title": "Simpatias do Brasil",
+  "h1": "",
+  "lang": "en-US",
+  "final_url": "https://simpatiasdobrasil.com.br/",
+  "scan_group": "3_other_only",
+  "source": "brand-scan",
+  "text_sample": "Skip to content No results Página de exemplo Simpatias do Brasil Página de exemplo Search Simpatias do Brasil Menu Sem categoria Czy liczba osób grających w Mostbet rośnie? Czy liczba osób grających w Mostbet rośnie? W ostatnich latach można zauważyć znaczący wzrost liczby osób korzystających z platformy Mostbet. Wzrost ten związany jest z coraz większym zainteresowaniem zakładami bukmacherskimi o",
+  "aff_links": [],
+  "gates": [],
+  "trackers": [],
+  "html_files": [
+   "brand-protection/2026-09-28/brand-scan/html/simpatiasdobrasil.com.br.browser.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/simpatiasdobrasil.com.br.deep-res.json.gz",
+   "brand-protection/2026-09-28/brand-scan/html/simpatiasdobrasil.com.br.http-google-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/simpatiasdobrasil.com.br.http-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/simpatiasdobrasil.com.br.http.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/simpatiasdobrasil.com.br.mbpages-res.json.gz"
+  ]
+ },
+ {
+  "domain": "sulunur.kz",
+  "category": "mono_mixed",
+  "tags": "rotating_ads",
+  "why": "name_in_title density=2.83",
+  "mostbet_ads": "True",
+  "other_ads": "Pokerdom | pd-play-l9v5n.com",
+  "plain_gambling_links": "",
+  "ad_links": "[[\"other\", \"pd-play-l9v5n.com\", \"https://sulunur.kz/mostbet.php\", \"https://pd-play-l9v5n.com/auth/registration/by-email?source=16651&apclick=db228640-affb-ef4f-fff7-01a0ef307bcd&apsource=16651&click_id=db228640-affb-ef4f-fff7-01a0ef307bcd&webmaster=22245&offer_id=8&country=rs&city=&subid2=Katya&utm_source=partners&utm_medium=cpa&utm_campaign=22245&subid1=fcdcag5dudvuoba9&pp=pd\"], [\"other\", \"Pokerdom\", \"https://sulunur.kz/mostbet.php\", \"https://vqs7pokerdom.com/auth/registration?source=16651&apclick=85bb043a-8afb-ef4f-fff7-01a0e9e52fcc&apsource=16651&click_id=85bb043a-8afb-ef4f-fff7-01a0e9e52fcc&webmaster=22245&offer_id=8&country=rs&city=&subid2=Katya&utm_source=partners&utm_medium=cpa&utm_campaign=22245&subid1=dacd1g5uqa24p0b5&pp=pd\"], [\"mb\", \"Mostbet\", \"https://sulunur.kz/mostbet.php\", \"https://kgpgbmmb.com/casino?registration=1&cid=8297318493&pid=459127&sip=0\"]]",
+  "mb_text": "13",
+  "mb_per_1k": "2.83",
+  "mb_anchor": "43",
+  "mb_hidden_links": "0",
+  "text_len": "4595",
+  "gambling_per_1k": "12.19",
+  "other_brands_text": "",
+  "feed_links": "0",
+  "title": "Мостбет Казино Казахстан: Mostbet Casino официальный сайт",
+  "h1": "Мост бет Казино 2026 – выбор тысячи игроков из Казахстана",
+  "lang": "ru-kz",
+  "final_url": "https://sulunur.kz/",
+  "scan_group": "3_other_only",
+  "source": "brand-scan",
+  "text_sample": "СКАЧАТЬ: Официальный сайт 00:02:04 Приз Регистрация Регистрация Вход Регистрация Бонус Казино Live JETx Депозит Mostbet apk Aviatrix СКАЧАТЬ: Главная Ставки на спорт Крикет Кабадди Футбол Баскетбол Теннис Волейбол Настольный теннис Бадминтон Боевые искусства Мост бет Казино 2026 – выбор тысячи игроков из Казахстана Mostbet Casino объединяет игровые разделы со слотами, live-дилерами, crash-играми и",
+  "aff_links": [],
+  "gates": [],
+  "trackers": [],
+  "html_files": [
+   "brand-protection/2026-09-28/brand-scan/html/sulunur.kz.browser.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/sulunur.kz.deep-res.json.gz",
+   "brand-protection/2026-09-28/brand-scan/html/sulunur.kz.http-google-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/sulunur.kz.http-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/sulunur.kz.http.html.gz"
+  ]
+ },
+ {
+  "domain": "talahaljoodbh.com",
+  "category": "mb_page_other",
+  "tags": "ads_unverified",
+  "why": "feed before density: date=0 slug=40 | Mostbet page advertises others: https://talahaljoodbh.com/mostbet-platformasinin-mobil-yonumlu-icmali-mostbet-qeydiyyati-mobil-cihazda-surtli-addimlar/ (1win)",
+  "mostbet_ads": "False",
+  "other_ads": "1win",
+  "plain_gambling_links": "casinolevant.pro casinolevantbonus.com casinolevantt.com casinosansguncelgiris.com sanscasinogiris.com sanscasinokayit.com vidobet.info vidobetadres.com vidobetgiris.com vidobetguncel.com",
+  "ad_links": "[[\"other\", \"1win\", \"https://1win-giris-az.com/\", \"\"], [\"plain\", \"casinosansguncelgiris.com\", \"https://casinosansguncelgiris.com/\", \"\"], [\"plain\", \"vidobetsikayet.com\", \"https://vidobetsikayet.com/\", \"\"], [\"plain\", \"vidobet.info\", \"https://vidobet.info/\", \"\"], [\"plain\", \"vidobetguncel.com\", \"https://vidobetguncel.com/\", \"\"], [\"plain\", \"vidobetgiris.com\", \"https://vidobetgiris.com/\", \"\"]]",
+  "mb_text": "31",
+  "mb_per_1k": "5.8",
+  "mb_anchor": "26",
+  "mb_hidden_links": "0",
+  "text_len": "5348",
+  "gambling_per_1k": "6.54",
+  "other_brands_text": "Betandreas:31",
+  "feed_links": "40",
+  "title": "talahaljoodbh",
+  "h1": "Posts navigation",
+  "lang": "en-US",
+  "final_url": "https://talahaljoodbh.com/",
+  "scan_group": "3_other_only",
+  "source": "brand-scan",
+  "text_sample": "şans casino vidobet vidobet vidobet güncel giriş vidobet giriş casinolevant casinolevant casinolevant vidobet giriş şans casino casinolevant giriş casino şans şans casino giriş casino levant casino şans casino şans boostaro casinolevant giriş şans casino giriş casinolevant giriş şanscasino vidobet vidobet giriş levant casino vidobet giriş nigeria betting sports betting goka nigeria betting goka go",
+  "aff_links": [],
+  "gates": [],
+  "trackers": [],
+  "html_files": [
+   "brand-protection/2026-09-28/brand-scan/html/talahaljoodbh.com.browser.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/talahaljoodbh.com.deep-res.json.gz",
+   "brand-protection/2026-09-28/brand-scan/html/talahaljoodbh.com.http-google-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/talahaljoodbh.com.http-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/talahaljoodbh.com.http.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/talahaljoodbh.com.mbpages-res.json.gz"
+  ]
+ },
+ {
+  "domain": "top-casino-uzbekistan.com",
+  "category": "mb_page_other",
+  "tags": "ads_mobile_only ads_search_only",
+  "why": "top_other=Pinco:9 mostbet=12 density=1.03 | Mostbet page advertises others: https://top-casino-uzbekistan.com/obzor-mostbet/ (lilbet)",
+  "mostbet_ads": "False",
+  "other_ads": "lil.bet | lilbet | refpa27053.com",
+  "plain_gambling_links": "",
+  "ad_links": "[[\"other\", \"lilbet\", \"https://refpa27053.com/L?tag=d_6134977m_103301c_sbzr&site=6134977&ad=103301\", \"https://lil.bet:443/en/registration?type=fast&bonus=SPORT&tag=d_6134977m_103301c_sbzr\"], [\"other\", \"refpa27053.com\", \"https://refpa27053.com/L?tag=d_6134977m_103301c_sbzr&site=6134977&ad=103301\", \"\"], [\"other\", \"lil.bet\", \"https://lil.bet:443/registration?type=fast&bonus=SPORT&tag=d_6134977m_103301c_sbzr\", \"https://lil.bet:443/en/registration?type=fast&bonus=SPORT&tag=d_6134977m_103301c_sbzr\"]]",
+  "mb_text": "12",
+  "mb_per_1k": "1.03",
+  "mb_anchor": "6",
+  "mb_hidden_links": "0",
+  "text_len": "11614",
+  "gambling_per_1k": "5.6",
+  "other_brands_text": "Pinco:9 GGBet:8 Starda:6",
+  "feed_links": "3",
+  "title": "Top kazino O'zbekiston 2026 — dosye va to'lov baholari",
+  "h1": "Top kazino O'zbekiston 2026: real pulda tekshirilgan beshta dosye",
+  "lang": "uz",
+  "final_url": "https://top-casino-uzbekistan.com/",
+  "scan_group": "3_other_only",
+  "source": "brand-scan",
+  "text_sample": "Kontentga o'tish Top Casino UZ Reyting Duellar Savollar Metodika lilbet dosyesi UZ | RU Dosye · onlayn-kazino · O'zbekiston Top kazino O'zbekiston 2026: real pulda tekshirilgan beshta dosye Top Casino Uzbekistan — sharh nashri. Reytingdagi har bir kazinoni redaksiya bir xil tsikl bo'yicha tekshiradi: ro'yxatdan o'tish, mahalliy usul bilan depozit, o'yin, verifikatsiya, pul chiqarish — operatorlard",
+  "aff_links": [],
+  "gates": [],
+  "trackers": [],
+  "html_files": [
+   "brand-protection/2026-09-28/brand-scan/html/top-casino-uzbekistan.com.deep-res.json.gz",
+   "brand-protection/2026-09-28/brand-scan/html/top-casino-uzbekistan.com.http-google-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/top-casino-uzbekistan.com.http-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/top-casino-uzbekistan.com.http.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/top-casino-uzbekistan.com.mbpages-res.json.gz"
+  ]
+ },
+ {
+  "domain": "uzbekistan-mostbet.net.ph",
+  "category": "mono_other",
+  "tags": "cloaked:google-mobile brand_in_domain ads_unverified",
+  "why": "name_in_domain, no other brand density=0.0",
+  "mostbet_ads": "False",
+  "other_ads": "ww19.payedsurveys.com",
+  "plain_gambling_links": "",
+  "ad_links": "[[\"other\", \"ww19.payedsurveys.com\", \"https://payedsurveys.com?clickid=b186d393-bb5a-11f1-bd44-12ffc10a2161\", \"http://ww19.payedsurveys.com\"]]",
+  "mb_text": "1",
+  "mb_per_1k": "0.0",
+  "mb_anchor": "0",
+  "mb_hidden_links": "0",
+  "text_len": "0",
+  "gambling_per_1k": "0.0",
+  "other_brands_text": "",
+  "feed_links": "0",
+  "title": "Loading...",
+  "h1": "",
+  "lang": "",
+  "final_url": "https://uzbekistan-mostbet.net.ph/",
+  "scan_group": "needs_browser",
+  "source": "brand-scan",
+  "text_sample": "Directory Index No results found for your search. Privacy Policy Terms of Service",
+  "aff_links": [],
+  "gates": [],
+  "trackers": [],
+  "html_files": [
+   "brand-protection/2026-09-28/brand-scan/html/uzbekistan-mostbet.net.ph.http-google-mobile.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/uzbekistan-mostbet.net.ph.http-googlebot.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/uzbekistan-mostbet.net.ph.http.html.gz"
+  ]
+ },
+ {
+  "domain": "wowuzmostbet.click",
+  "category": "bait",
+  "tags": "pwa brand_in_domain",
+  "why": "mostbet_in_domain content=other:0 mostbet=0",
+  "mostbet_ads": "False",
+  "other_ads": "",
+  "plain_gambling_links": "play.google.com",
+  "ad_links": "[[\"plain\", \"play.google.com\", \"https://play.google.com/store/apps/details?id=com.playlinks.vegascraze\", \"\"]]",
+  "mb_text": "0",
+  "mb_per_1k": "0.0",
+  "mb_anchor": "3",
+  "mb_hidden_links": "0",
+  "text_len": "2647",
+  "gambling_per_1k": "9.82",
+  "other_brands_text": "",
+  "feed_links": "0",
+  "title": "Vegas Craze Casino",
+  "h1": "Vegas Craze Casino / 926,501 / 5+",
+  "lang": "en",
+  "final_url": "https://wowuzmostbet.click/",
+  "scan_group": "8_no_mention",
+  "source": "brand-scan",
+  "text_sample": "Vegas Craze Casino Home menu Vegas Craze Casino Hit the jackpot and aim big at Vegas Craze Casino! - Vegas at your fingertips! Download Find us on Vegas Craze Casino: Experience the Ultimate Vegas Slots Thrill! Step into the world of Vegas Craze Casino, where the action and excitement of Las Vegas are right at your fingertips! Spin your way to massive wins with over 200+ authentic Vegas slot machi",
+  "aff_links": [],
+  "gates": [],
+  "trackers": [],
+  "html_files": [
+   "brand-protection/2026-09-28/brand-scan/html/wowuzmostbet.click.browser-res.json.gz",
+   "brand-protection/2026-09-28/brand-scan/html/wowuzmostbet.click.browser.html.gz",
+   "brand-protection/2026-09-28/brand-scan/html/wowuzmostbet.click.http.html.gz"
+  ]
+ }
+]

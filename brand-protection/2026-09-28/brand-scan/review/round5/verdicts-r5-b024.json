@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbet-t445.xyz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене; главная уводит на eldo-autoplay.top?ref=fap_w24128p112_hbrdeldrd — рефка казино «Эльдорадо»."
+ },
+ {
+  "domain": "mostbet-ua4.xyz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене; JS-заглушка уводит на w1ckanz.com?ref=fap_w24128p111_runodep, title «Игорный дом Лев» — чужое казино."
+ },
+ {
+  "domain": "mostbet-uz2.xyz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене; главная уводит на lewa-bet.xyz?ref=fap_w24128p111_hbrdlev — рефка «Игорный дом Лев»."
+ },
+ {
+  "domain": "mostbetapkfree.com",
+  "given": "bait",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "stub",
+  "confidence": 0.4,
+  "comment": "Страница — только логотип logo.svg и title «Download app Mostbet», ни одной ссылки и скрипта; в meta description «Download app 1xBet» — шаблон 1xBet, но рекламы на странице нет."
+ },
+ {
+  "domain": "mostbetapkii.mobi",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене; главная уводит на gold-vigorish.top?ref=fap_w24128p126_hbrdgld — рефка Gold Casino."
+ },
+ {
+  "domain": "mostbetapkkz.com",
+  "given": "bait",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.6,
+  "comment": "Заглушка: только логотип logo.svg и title «Download app Mostbet», ни ссылок, ни скриптов, кроме Cloudflare beacon; чужого содержимого и рекламы нет."
+ },
+ {
+  "domain": "mostbetazerbaycan.com",
+  "given": "redirect_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "redirect_ref",
+  "confidence": 0.7,
+  "comment": "window.location.href → cantouchmytalala.com/vGbnTLtN — тот же трекер у mosbetuz.com и mostbat.cz ведёт на рефку Mostbet pid=8708; ссылка на cheating-cougar1.com стоит в закомментированном HTML."
+ },
+ {
+  "domain": "mostbetgra.com",
+  "given": "bait",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.6,
+  "comment": "Заглушка: только логотип logo.svg и title «Download app Mostbet», ни ссылок, ни скриптов, кроме Cloudflare beacon; чужого содержимого и рекламы нет."
+ },
+ {
+  "domain": "mostbetguncel.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet в домене и title; на внутренних страницах (/casinoslot-uyelik-ve-kayit/, /mostbet-big-bass-bonanza/) блок «BONUS AL» на stake455.com, 1xbet855.com, pusulabet252.com и трекеры tinyurl.com/…guncel."
+ },
+ {
+  "domain": "1-mostbet.com",
+  "given": "bait",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.8,
+  "comment": "Парковка Dynadot «Website coming soon»; yfdpco*.com/sk-park.php — парковочный скрипт регистратора, не реклама казино."
+ },
+ {
+  "domain": "3-mostbet.com",
+  "given": "bait",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.8,
+  "comment": "Парковка Dynadot «Website coming soon»; yfdpco*.com/sk-park.php — парковочный скрипт регистратора, не реклама казино."
+ },
+ {
+  "domain": "4-mostbet.com",
+  "given": "bait",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.8,
+  "comment": "Парковка Dynadot «Website coming soon»; yfdpco*.com/sk-park.php — парковочный скрипт регистратора, не реклама казино."
+ },
+ {
+  "domain": "5-mostbet.com",
+  "given": "bait",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.8,
+  "comment": "Парковка Dynadot «Website coming soon»; yfdpco*.com/sk-park.php — парковочный скрипт регистратора, не реклама казино."
+ },
+ {
+  "domain": "abcnmembers.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.7,
+  "comment": "Взломанный сайт ABCN: блок «Mostbet Polska» и десятки ссылок на 1xbet-online-kirish.com, tk999official.com, casino-real.pt спрятаны (left:-9456px, height:1px) — SEO-спам на дорвеи, кода партнёра нет."
+ },
+ {
+  "domain": "aicloud.com.tr",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "article",
+  "confidence": 0.6,
+  "comment": "Блог «My Blog» с лентой постов от 20.07.2025 про Mostbet и 1xBet; в текстах простые ссылки на мёртвые дорвеи 1xbet-*.cfd, ajaxbet.click, без кода партнёра."
+ },
+ {
+  "domain": "amp-mostbet-site1.xyz",
+  "given": "bait",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.8,
+  "comment": "Парковка Dynadot «Website coming soon»; yfdpco7.com/sk-park.php — парковочный скрипт, не реклама казино."
+ },
+ {
+  "domain": "amp-mostbet-site2.xyz",
+  "given": "bait",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.8,
+  "comment": "Парковка Dynadot «Website coming soon»; yfdpco5.com/sk-park.php — парковочный скрипт, не реклама казино."
+ },
+ {
+  "domain": "amp-mostbet-site3.xyz",
+  "given": "bait",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.8,
+  "comment": "Парковка Dynadot «Website coming soon»; yfdpco6.com/sk-park.php — парковочный скрипт, не реклама казино."
+ },
+ {
+  "domain": "appsgag.net",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.55,
+  "comment": "Монобренд Mostbet Maroc, кнопка «التنزيل» → x6wsuwnavtmst.com/ldZs (трекер Mostbet); чужое — одна видимая ссылка в тексте на 888starzar.com без кода, похоже на дорвей 888Starz, не оператора."
+ },
+ {
+  "domain": "brasil-mostbet.com.ph",
+  "given": "bait",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.7,
+  "comment": "Парковка .com.ph: «Loading...» с JWT-редиректом ?ch=1&js=…, мобильным — опросные офферы etherealoffers/surveoo через bigcattracks; ни казино, ни Mostbet."
+ },
+ {
+  "domain": "casino-en-mostbet.site",
+  "given": "bait",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "discredit",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, а содержимое — японская статья про сайты знакомств с партнёрскими ссылками pcmax.jp, track.bannerbridge.net, px.a8.net; к ставкам отношения нет."
+ },
+ {
+  "domain": "casino-mostbet-uz.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене; содержимое — индонезийский тото «Hokiwin», ссылка на app-1win-kr.com."
+ },
+ {
+  "domain": "casino-play-mostbet.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.7,
+  "comment": "Mostbet в домене; блог с постами про онлайн-гейминг и реклама BIOLABET, про Mostbet ничего."
+ },
+ {
+  "domain": "entermostbet.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене; содержимое — индонезийский тото «TOTO4D Official»."
+ },
+ {
+  "domain": "gryfriv.net",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.6,
+  "comment": "Монобренд Mostbet PL, кнопки /go.php не раскрыты; чужое — видимый список простых ссылок в конце текста (vavada-pln.pl, finut2020.com, imaile.eu) на дорвеи, без кода партнёра."
+ },
+ {
+  "domain": "mmmostbet.online",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.8,
+  "comment": "Mostbet в домене; страница — лендинг чужого казино-приложения «Vegas Craze Casino» со ссылкой на Google Play com.playlinks.vegascraze."
+ },
+ {
+  "domain": "mostbet-0.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене; содержимое — бразильское казино «win7game», кнопки через трекеры hl.dmffg2.com / hlt.zp7dth.com."
+ },
+ {
+  "domain": "mostbet-0866.top",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Mostbet в title и домене; на странице витрина «7 офферов» чужих казино (IRIS, Flagman) через трекеры irisroute64.com, beefway612.com и др."
+ },
+ {
+  "domain": "mostbet-124.click",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Mostbet в title и домене; на странице витрина «7 офферов» чужих казино (IRIS, Flagman) через трекеры irisroute64.com, beefway612.com и др."
+ },
+ {
+  "domain": "mostbet-1534.team",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Mostbet в title и домене; на странице витрина «7 офферов» чужих казино (IRIS, Flagman) через трекеры irisroute64.com, beefway612.com и др."
+ },
+ {
+  "domain": "mostbet-2024-tr.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене; содержимое — посты про индонезийский тогель (togel hongkong, toto macau), реклама AIRTOGEL."
+ },
+ {
+  "domain": "mostbet-22.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене; содержимое — бразильское казино «lllm9», кнопки через трекеры hl.dmffg2.com / hlt.zp7dth.com."
+ },
+ {
+  "domain": "mostbet-aviator-2025.top",
+  "given": "bait",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "dead",
+  "confidence": 0.75,
+  "comment": "Снимок — страница ошибки браузера DNS_PROBE_FINISHED_NXDOMAIN; html5rocks.com — мусор из неё, содержимого нет."
+ },
+ {
+  "domain": "mostbet-aviator.ink",
+  "given": "bait",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.7,
+  "comment": "Обзор слота Gates of Olympus; все 14 кнопок (props base64) ведут на /go/main → рефка Mostbet pid=444325; Pin-Up — только картинка в карточке без ссылки."
+ },
+ {
+  "domain": "mostbet-aze45.org",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене; содержимое — тайские посты про слоты с рекламой HENGJING168."
+ },
+ {
+  "domain": "mostbet-bd.org",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.6,
+  "comment": "Монобренд Mostbet BD, кнопка Registration → mostbetnow.com/H6NF → рефка Mostbet pid=335342; чужое — одна видимая ссылка в тексте на 1xbetinbd.net, это дорвей 1xBet, не оператор, кода нет."
+ },
+ {
+  "domain": "mostbet-bd1.org",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.6,
+  "comment": "Копия mostbet-bd.org: Registration → mostbetnow.com/H6NF → рефка Mostbet pid=335342; чужое — видимая простая ссылка на дорвей 1xbetinbd.net без кода."
+ },
+ {
+  "domain": "mostbet-bd2.bet",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене; страница — бенгальское казино «mp3juice», реклама www.fg8010.com."
+ },
+ {
+  "domain": "mostbet-bet-casino.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.75,
+  "comment": "Mostbet в домене; содержимое — немецкие статьи про онлайн-казино (beste online casinos ohne oasis), про Mostbet ничего."
+ },
+ {
+  "domain": "mostbet-bet.de",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене; содержимое — немецкий обзор «unbekannte Online-Casinos», реклама Lanista и slotuna-0296.com."
+ },
+ {
+  "domain": "mostbet-bk2.xyz",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене; содержимое — вьетнамский «Kèo nhà cái» со ссылками на операторов net88, ricbet, bin88, vaobet."
+ },
+ {
+  "domain": "mostbet-casino-2025.top",
+  "given": "bait",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "dead",
+  "confidence": 0.75,
+  "comment": "Снимок — страница ошибки браузера DNS_PROBE_FINISHED_NXDOMAIN; html5rocks.com — мусор из неё, содержимого нет."
+ },
+ {
+  "domain": "mostbet-casino-ar.site",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене; содержимое — индонезийский слот-портал «OTBOLA», ссылка на senyaman.otbola88.shop."
+ },
+ {
+  "domain": "mostbet-casino-az.site",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене; содержимое — индонезийский слот-портал «TIGER388 x TIGERBET388»."
+ },
+ {
+  "domain": "mostbet-casino-en.site",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене; содержимое — индонезийский слот/тогель-портал «MELATISLOT x MELATI88»."
+ },
+ {
+  "domain": "mostbet-casino-es.site",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене; содержимое — индонезийский портал «MELATIPOKER x MELATITOGEL»."
+ },
+ {
+  "domain": "mostbet-casino-id.site",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене; содержимое — индонезийский портал «NIRMALABET x NIRMALASLOT»."
+ },
+ {
+  "domain": "mostbet-casino-in.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене; содержимое — «Situs Toto», ссылки на 22Bet, Pin-Up, kinisatu.com."
+ },
+ {
+  "domain": "mostbet-casino-it.site",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене; содержимое — индонезийский слот-портал «MELATISLOT x MELATI88»."
+ },
+ {
+  "domain": "mostbet-casino-no.site",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене; содержимое — индонезийский слот-портал «MELATISLOT x MELATIWIN88»."
+ }
+]

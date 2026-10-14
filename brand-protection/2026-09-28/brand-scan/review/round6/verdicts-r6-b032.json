@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbet-in.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Все кнопки SIGN UP/Get Bonus (data-sf-a) ведут на трекер game.mostbet.ind.in/FK3kFK2, он мёртв у всех сканов; других внешних ссылок, кроме mostbet.ind.in, нет, скрытые блоки — только служебные WP/GTM."
+ },
+ {
+  "domain": "mostbet-in.net",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.7,
+  "comment": "Переезд на mostbet-casino.in: в блоке .container внизу контента видимые простые ссылки без кода на чужие дорвеи (анкоры «pinco», «pin up», «casibom», «sultan casino» → upcointernational.com, radiofeyalegrianoticias.net, russiaeu.ru, imaile.eu; «mostbet» → bemundus.eu, jobset.cz), не на операторов; своих кнопок с трекером нет."
+ },
+ {
+  "domain": "mostbet-indirandroid.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.75,
+  "comment": "Кнопка CTA /go/cta уводит на mloz82mb.com/mbjU — трекер Mostbet (хост …mb.com, тот же /go/cta у az-mostbet-aviator.com и др.); внешних ссылок на чужих нет, Vulkan — только название слота в тексте."
+ },
+ {
+  "domain": "mostbet-ine11.buzz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-oht31.sbs: шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-inrf.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-rkn74.cam: шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-inz6.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-nwx37.cfd: шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-ios71.cfd",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-ipa85.sbs",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-nus32.buzz: шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-ipm78.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-llx36.buzz: шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-iql76.buzz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-bss86.sbs: шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-iqr86.sbs",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-irf71.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-irg58.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-zhf99.sbs: шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-irh51.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-gjh95.buzz: шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-irv28.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-lgq53.buzz: шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-isk14jf.sbs",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-jqf86.buzz: шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-isqbo4j.buzz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-iqr86.sbs: шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-isz68.buzz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-kxz61.sbs: шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-ita98.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-bnb98.cam: шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-itk54.cfd",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-ifb44.sbs: шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-itn45.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.7,
+  "comment": "HTML не сохранён; по browser-scan кнопки reg.html → occlusometer-82.xyz/ryQCCs?sub_id_2=33181 (пусто), внешнее — mostbet.partners; чужих ссылок в скане нет."
+ },
+ {
+  "domain": "mostbet-iue93.cfd",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-ium66.buzz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-jnc62.sbs: шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-ivc73.cfd",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.75,
+  "comment": "Только http-копии (клоака для google-mobile): кнопки ../../reg.html сети зеркал, внешнее — mostbet.partners; чужих ссылок и скрытых блоков с внешними адресами нет."
+ },
+ {
+  "domain": "mostbet-ivorycoast.com",
+  "given": "mono_unresolved",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Главная кнопка «Obtenez Votre Bonus 2026» → /go/register → 1mclick.com/JB5VQMYJ → track.blackflagaffiliates.com/visit/?bta=36557 → kenovia6.com/lobby?cxd=36557_497988 — чужое казино (у ci-mostbet.com та же цепочка до Winairlines); рекламы Mostbet нет, www.mostbet.com — простая ссылка без pid."
+ },
+ {
+  "domain": "mostbet-iwe25.sbs",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-dsf58.sbs: шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-iwo49.cfd",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-iwx39.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Сеть зеркал: 1xBet упомянут только в тексте без ссылки; кнопки reg.html → трекер occlusometer-82.xyz/ryQCCs с пустой страницей, внешнее — mostbet.partners без кода."
+ },
+ {
+  "domain": "mostbet-ixm83.buzz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-qwl13.buzz: шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-ixs22.buzz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-qmq86.buzz: шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-iyk98.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-izb78.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-bmy76.cfd: шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-izc79.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-mgx11.top: шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-izp38.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.7,
+  "comment": "HTML не сохранён; по browser-scan кнопки reg.html → occlusometer-82.xyz/ryQCCs?sub_id_2=33124 (пусто), внешнее — mostbet.partners; чужих ссылок в скане нет."
+ },
+ {
+  "domain": "mostbet-izp91.cfd",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-jxf84.sbs: шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-j0e4.xyz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-vrr63.cam: шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-j7n1.xyz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Сеть зеркал: Melbet только в заголовке h2 «Игровые автоматы и слоты Melbet», ссылок на него нет; кнопки reg.html → трекер occlusometer-82.xyz/ryQCCs с пустой страницей, внешнее — mostbet.partners."
+ },
+ {
+  "domain": "mostbet-ja.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-fbf79.buzz: шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-jai31.sbs",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-jaon.xyz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-efw58zh.sbs: шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-jaw86.cfd",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-jbs21.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-je1n.xyz",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-xjf32.cfd: шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-jeckpot.com",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.7,
+  "comment": "Переезд на mostbet-reward.com: клик по слотам .w_u делает window.open(\"https://gen.mostbet-reward.com\"), не открыт; у сайтов того же шаблона gen.<домен> ведёт на рефку Mostbet pid=165801; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-jeh3.top",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-pcp93.buzz: шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-jek15.cfd",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-crx94.cam: шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-jfr15.cam",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Сеть зеркал: текст «https://www.moctbet.com» — лишь анкор ссылки на свой reg.html, кнопки reg.html → трекер occlusometer-82.xyz/ryQCCs (пустая страница у 1700+ сайтов сети); прочее внешнее — mostbet.partners без кода."
+ },
+ {
+  "domain": "mostbet-jfv53.cfd",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-jgv94.cfd",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ },
+ {
+  "domain": "mostbet-jhd99.cfd",
+  "given": "mono_unresolved",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_unresolved",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet-oiw71.sbs: шаблон сети зеркал — все кнопки на свой reg.html, оттуда трекер occlusometer-82.xyz/ryQCCs с пустой страницей (у 1700+ сайтов сети то же); прочее внешнее — mostbet.partners без кода, чужих брендов и скрытых внешних ссылок нет."
+ }
+]

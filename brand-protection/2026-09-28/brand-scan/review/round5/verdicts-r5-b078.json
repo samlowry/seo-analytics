@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "xn--80aaah0dhi.xn--p1ai",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (параван.рф): title/h1 «Мостбет (Mostbet) — официальный сайт и з…», все кнопки меню и «Регистрация» ведут на свой шлюз /go/ → NormCasino (9/4normcasino…win, qtag=a84744) через трекер dashplay37.com; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "xn--80aabbgg8aaod1ahg0k3e.xn--p1ai",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (банябочкавикинг.рф): title/h1 «Мостбет — Зеркало Мостбет рабочее сегодн…», все кнопки меню и «Регистрация» ведут на свой шлюз /go/ → NormCasino (9/4normcasino…win, qtag=a84744) через трекер dashplay37.com; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "xn--80abcf9dqr.xn--p1ai",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (вбуграх.рф): title/h1 «Мостбет БК официальный сайт ᐉ Mostbet ра…», все кнопки меню и «Регистрация» ведут на свой шлюз /go/ → NormCasino (9/4normcasino…win, qtag=a84744) через трекер dashplay37.com; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "xn--80ahbnxidcjb.xn--p1ai",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (природадом.рф): title/h1 «Мостбет официальный сайт ᐉ Mostbet Casin…», все кнопки меню и «Регистрация» ведут на свой шлюз /go/ → NormCasino (9/4normcasino…win, qtag=a84744) через трекер dashplay37.com; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "xn--80ahklijc.xn--p1ai",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (домакзн.рф): title/h1 «Мостбет казино — официальный сайт Mostbe…», все кнопки меню и «Регистрация» ведут на свой шлюз /go/ → NormCasino (9/4normcasino…win, qtag=a84744) через трекер dashplay37.com; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "xn--90ahpcrbldgh1j.xn--p1ai",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (электросбор.рф): title/h1 «Мостбет — Мостбет зеркало 🔵 Рабочее зерк…», все кнопки меню и «Регистрация» ведут на свой шлюз /go/ → NormCasino (9/4normcasino…win, qtag=a84744) через трекер dashplay37.com; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "yanevestachita.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (yanevestachita.ru): title/h1 «Mostbet Casino (Мостбет Казино) – Рабочи…», все кнопки меню и «Регистрация» ведут на свой шлюз /go/ → NormCasino (9/4normcasino…win, qtag=a84744) через трекер dashplay37.com; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "yi-fighting.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (yi-fighting.ru): title/h1 «Мостбет Казино (Mostbet) - быстрая регис…», все кнопки меню и «Регистрация» ведут на свой шлюз /go/ → NormCasino (9/4normcasino…win, qtag=a84744) через трекер dashplay37.com; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "yoheim-eda.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (yoheim-eda.ru): title/h1 «Mostbet Casino | Вход на официальный сай…», все кнопки меню и «Регистрация» ведут на свой шлюз /go/ → NormCasino (9/4normcasino…win, qtag=a84744) через трекер dashplay37.com; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "yuliafotoskazka.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (yuliafotoskazka.ru): title/h1 «Мостбет — Зеркало Мостбет рабочее сегодн…», все кнопки меню и «Регистрация» ведут на свой шлюз /go/ → NormCasino (9/4normcasino…win, qtag=a84744) через трекер dashplay37.com; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "zagorodnii-mir.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (zagorodnii-mir.ru): title/h1 «Мостбет БК зеркало | Официальный сайт Mo…», все кнопки меню и «Регистрация» ведут на свой шлюз /go/ → NormCasino (9/4normcasino…win, qtag=a84744) через трекер dashplay37.com; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "znanie100.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (znanie100.ru): title/h1 «Мостбет зеркало — Mostbet Casino | Мостб…», все кнопки меню и «Регистрация» ведут на свой шлюз /go/ → NormCasino (9/4normcasino…win, qtag=a84744) через трекер dashplay37.com; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "aviatormostbet.ru",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.93,
+  "comment": "Бренд в домене, главная aviatormostbet.ru уводит на казино «Лев» (casinozlucky.com, ref=fap_w24128p111) — чужая партнёрская рефка, на странице про Mostbet ничего нет."
+ },
+ {
+  "domain": "mostbet-2021.xyz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.93,
+  "comment": "Бренд в домене, главная mostbet-2021.xyz уводит на казино «Лев» (casinozlucky.com, ref=fap_w24128p111) — чужая партнёрская рефка, на странице про Mostbet ничего нет."
+ },
+ {
+  "domain": "mostbet-335.xyz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.93,
+  "comment": "Бренд в домене, главная mostbet-335.xyz уводит на казино «Лев» (casinozlucky.com, ref=fap_w24128p111) — чужая партнёрская рефка, на странице про Mostbet ничего нет."
+ },
+ {
+  "domain": "mostbet-3h8l.xyz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.93,
+  "comment": "Бренд в домене, главная mostbet-3h8l.xyz уводит на казино «Лев» (casinozlucky.com, ref=fap_w24128p111) — чужая партнёрская рефка, на странице про Mostbet ничего нет."
+ },
+ {
+  "domain": "mostbet-4poh.xyz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.93,
+  "comment": "Бренд в домене, главная mostbet-4poh.xyz уводит на казино «Лев» (casinozlucky.com, ref=fap_w24128p111) — чужая партнёрская рефка, на странице про Mostbet ничего нет."
+ },
+ {
+  "domain": "mostbet-app.co",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.75,
+  "comment": "Бренд в домене, главная через парковочный фильтр filter.explorads.com уводит на roobet.com/?ref=caravel — чужое казино по рефке; похоже на монетизацию парковки, но по правилу бренда в домене это redirect_other."
+ },
+ {
+  "domain": "mostbet-app.mobi",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.93,
+  "comment": "Бренд в домене, главная mostbet-app.mobi уводит на казино «Лев» (voyllckans.com, ref=fap_w24128p111) — чужая партнёрская рефка, на странице про Mostbet ничего нет."
+ },
+ {
+  "domain": "mostbet-c.xyz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.93,
+  "comment": "Бренд в домене, главная mostbet-c.xyz уводит на казино «Лев» (casinozlucky.com, ref=fap_w24128p111) — чужая партнёрская рефка, на странице про Mostbet ничего нет."
+ },
+ {
+  "domain": "mostbet-cz.co",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.93,
+  "comment": "Бренд в домене, главная уводит на 20bet-24x.com/cz/registration?btag=670202_… — регистрация чужого оператора 20Bet по партнёрскому btag."
+ },
+ {
+  "domain": "mostbet-f80.xyz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.93,
+  "comment": "Бренд в домене, главная mostbet-f80.xyz уводит на казино «Лев» (casinozlucky.com, ref=fap_w24128p111) — чужая партнёрская рефка, на странице про Mostbet ничего нет."
+ },
+ {
+  "domain": "mostbet-hmcp.xyz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.93,
+  "comment": "Бренд в домене, главная mostbet-hmcp.xyz уводит на казино «Лев» (casinozlucky.com, ref=fap_w24128p111) — чужая партнёрская рефка, на странице про Mostbet ничего нет."
+ },
+ {
+  "domain": "mostbet-in27.com",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.8,
+  "comment": "Бренд в домене, после JS-проверки главная уводит на superbet.rs/lp/Slot?utm_source=roigen&utm_medium=programmatic — чужое казино Superbet через рекламную сеть (destinations.csv)."
+ },
+ {
+  "domain": "mostbet-kz3.xyz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.93,
+  "comment": "Бренд в домене, главная уводит на e1dii.com/?ref=fap_w24128p112_hbrdeldrd — чужое казино «Эльдорадо» по рефке."
+ },
+ {
+  "domain": "mostbet-n.xyz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.93,
+  "comment": "Бренд в домене, главная mostbet-n.xyz уводит на казино «Лев» (casinozlucky.com, ref=fap_w24128p111) — чужая партнёрская рефка, на странице про Mostbet ничего нет."
+ },
+ {
+  "domain": "mostbet-portugal.info",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.93,
+  "comment": "Бренд в домене, главная mostbet-portugal.info уводит на казино «Лев» (casinozlucky.com, ref=fap_w24128p111) — чужая партнёрская рефка, на странице про Mostbet ничего нет."
+ },
+ {
+  "domain": "mostbet-roi6.xyz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.93,
+  "comment": "Бренд в домене, главная mostbet-roi6.xyz уводит на казино «Лев» (casinozlucky.com, ref=fap_w24128p111) — чужая партнёрская рефка, на странице про Mostbet ничего нет."
+ },
+ {
+  "domain": "mostbet-wxh3.buzz",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Бренд в домене, страница «Перенаправление…» уводит через трекер 0appsta.com/LhHFkG на r1wjfml.life/v3/aggressive-casino?sub1=… → WinWheel Online Casino (spinnyspinwheel.org)."
+ },
+ {
+  "domain": "mostbet365.ru",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.92,
+  "comment": "Бренд в домене, главная «Определяется доступное зеркало» уводит через flowtrafficpipeline.org?ref=fap_w39614p126 на goldvulkan.com — чужое казино Vulkan по рефке."
+ },
+ {
+  "domain": "mostbet994.casino",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.93,
+  "comment": "Бренд в домене, главная уводит на promo-slot-link.com/7kmost/?refCode=sk_w238255…_Dmostbe — лендинг регистрации чужого казино 7K по партнёрскому коду."
+ },
+ {
+  "domain": "mostbet997.casino",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.93,
+  "comment": "Бренд в домене, главная уводит на promo-slot-link.com/7kmost/?refCode=sk_w238255…_Dmostbet997 — лендинг регистрации чужого казино 7K по партнёрскому коду."
+ },
+ {
+  "domain": "mostbetmb.mobi",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.93,
+  "comment": "Бренд в домене, главная mostbetmb.mobi уводит на казино «Лев» (wylcanz.com, ref=fap_w24128p111) — чужая партнёрская рефка, на странице про Mostbet ничего нет."
+ },
+ {
+  "domain": "mostbetmb2.site",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.93,
+  "comment": "Бренд в домене, главная mostbetmb2.site уводит на казино «Лев» (wylcanz.com, ref=fap_w24128p111) — чужая партнёрская рефка, на странице про Mostbet ничего нет."
+ },
+ {
+  "domain": "mostbetmirror.site",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.93,
+  "comment": "Бренд в домене, главная mostbetmirror.site уводит на казино «Лев» (wylcanz.com, ref=fap_w24128p111) — чужая партнёрская рефка, на странице про Mostbet ничего нет."
+ },
+ {
+  "domain": "mostbetpromo.mobi",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.93,
+  "comment": "Бренд в домене, главная mostbetpromo.mobi уводит на казино «Лев» (joker-lewus.top, ref=fap_w24128p111) — чужая партнёрская рефка, на странице про Mostbet ничего нет."
+ },
+ {
+  "domain": "mostbetru.ru",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.93,
+  "comment": "Бренд в домене, главная через трекер v.trackthis.click уводит на melbet.org/…?tag=d_5361678m_45415c_ — чужой оператор Melbet по партнёрскому tag."
+ },
+ {
+  "domain": "mostbetwin.top",
+  "given": "redirect_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.93,
+  "comment": "Бренд в домене, главная уводит на beefcasino162.com/?stag=196386_… — чужое казино Beef по партнёрскому stag."
+ },
+ {
+  "domain": "mmostbetcasinos-uz.net",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet UZ: кнопки ведут и на Mostbet (gdetraffic.pro → zlaovvmb.com pid=8708), и на Olymp Casino (trafffers.com, glptds.com → olymp-csn.com utm_medium=affiliate)."
+ },
+ {
+  "domain": "mostbet-casino-kz.ru",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet KZ: шлюз /mostbet.php ротирует Mostbet (kgpgbmmb.com pid=459127) и Pokerdom (vqs7pokerdom.com, pd-play-l9v5n.com source=16651) — реклама обоих."
+ },
+ {
+  "domain": "mostbetcasino-uz.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet UZ: кнопки ведут и на Mostbet (gdetraffic.pro → zlaovvmb.com pid=8708), и на Olymp Casino (trafffers.com, glptds.com → olymp-csn.com utm_medium=affiliate)."
+ },
+ {
+  "domain": "1mostbet-casino.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet CZ: все 152 ссылки ведут на welcome-bonus.link → Casea (mid=371151_…) и Dudespin (mid=27441_…); ссылок на Mostbet нет."
+ },
+ {
+  "domain": "adkintun.cl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Главная переехала на mostbetcl.com (монобренд Mostbet Chile): шлюз go.php → ivibettnow.com btag=655134_…, трекер yourlinknow.xyz → sapphirebet.com tag=d_5860277m; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "apk-mostbett.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд-гайд по приложению Mostbet: шлюз /go/ ведёт на winline.ru/altreg/registration?utm_medium=w0u0l, trafficfon.ru/caswin → winner.g2afse.com (pid=2)."
+ },
+ {
+  "domain": "apkmostbet.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet APK: SIGN UP/шлюз /go/ ведёт на betwinner.rs/en/registration?btag=d_11428m_685255c, плюс трекер bwredir.com; на Mostbet ссылок нет."
+ },
+ {
+  "domain": "app-mostbetapk.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд-гайд по приложению Mostbet: шлюз /go/ ведёт на winline.ru/altreg/registration?utm_medium=w0u0l, trafficfon.ru/caswin → winner.g2afse.com (pid=2)."
+ },
+ {
+  "domain": "arg-mostbet.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet Argentina: шлюз /go ротирует Lucky Star (luckykpet.life sub1=…) и dalewin1011.com (qtag=a87973), трекер keitaro-zalupa.com → redbet.playlink.me; Mostbet нет."
+ },
+ {
+  "domain": "aze-mostbetgiris.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet AZ: кнопка /play ведёт на one-vv1469.com/?p=4wsa (1win), трекер delta.play2win.one → spinempire1.com stag=182464_; Mostbet нет."
+ },
+ {
+  "domain": "azinfo.tv",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Главная переехала на mostbet-az-bet.com (монобренд Mostbet AZ): /play → one-vv1469.com/?p=4wsa (1win), delta.play2win.one → spinempire1.com stag=182464_; Mostbet нет."
+ },
+ {
+  "domain": "betmostbet.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet: шлюз /go/ ведёт на betwinner.rs/en/line?btag=d_11428m_685255c, плюс трекер bwredir.com; на Mostbet ссылок нет."
+ }
+]

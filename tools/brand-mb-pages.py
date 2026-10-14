@@ -1,7 +1,7 @@
 """Find the pages about Mostbet on each live site: sitemaps (robots.txt, sitemap.xml, sitemap_index.xml,
 wp-sitemap.xml, nested up to 3 levels) and the saved home page's own links whose address or text names Mostbet.
 
-Run: uv run --with aiohttp --with selectolax python tools/brand-mb-pages.py brand-protection/2026-09-28/brand-scan
+Run: uv run --with aiohttp --with 'selectolax<1' python tools/brand-mb-pages.py brand-protection/2026-09-28/brand-scan
 Writes mbpages-queue.csv (domain, site, pages — up to 8, home excluded) for brand-scan.py --mode mbpages.
 Only the site's own files are requested; no outbound link is followed here.
 """

@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "descuentodepagares24h.net",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Единственная страница /mostbet_colombia ссылается на дорвей mostbet-betting-colombia.com; чужой рекламы нет."
+ },
+ {
+  "domain": "dimers.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Медиа о ставках; на главной и 4 внутренних страницах упоминаний Mostbet нет, ссылок на Mostbet-страницы нет."
+ },
+ {
+  "domain": "directfarming.co.il",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.8,
+  "comment": "Посты про Mostbet ссылаются только на Mostbet-дорвеи (mosbet-az.com, mostbetazeturk.com, hostelcycleon.com) без кода; betive/avantgarde — на других постах."
+ },
+ {
+  "domain": "dmagri.in",
+  "given": "article",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mb_page_other",
+  "confidence": 0.8,
+  "comment": "Домен переезжает на avgroupindore.com (Aviator-мультибренд); на странице /mostbet-aviator/ и /apps-aviator/mostbet-app/ в шапке кнопка «Play Now» data-sf-a=rpw.aviators.game/?general=HjJ4nGg → 1win (one-vv1469.com, p=3hlb)."
+ },
+ {
+  "domain": "dompomiedzy.pl",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Посты /mostbet/, /mostbet-online/ — по одной простой ссылке (gymsozluk.com, miavalasz.hu) без кода; чужой рекламы нет."
+ },
+ {
+  "domain": "dreamattire.in",
+  "given": "article",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mb_page_other",
+  "confidence": 0.8,
+  "comment": "Переезд на avgroupindore.com: на странице /mostbet-aviator/ сквозная кнопка «Play Now» data-sf-a=rpw.aviators.game/?general=HjJ4nGg ведёт на рефку 1win (p=3hlb)."
+ },
+ {
+  "domain": "dreamaura.in",
+  "given": "article",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mb_page_other",
+  "confidence": 0.8,
+  "comment": "Переезд на avgroupindore.com: на странице /apps-aviator/mostbet-app/ сквозная кнопка «Play Now» data-sf-a=rpw.aviators.game/?general=HjJ4nGg → 1win (one-vv1469.com, p=3hlb)."
+ },
+ {
+  "domain": "drluisvizcarra.com",
+  "given": "article",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mb_page_other",
+  "confidence": 0.6,
+  "comment": "Взломанный сайт педиатра; на посте /mostbet-trkiye-casino9408/ под h1 огромная кнопка «▶️ OYNAMAK» на трекер ckuvjtwp2.top/KZVzxk?sub2=progon (не открылся, тот же трекер стоит на посте про Leonbet) — чужой трекер."
+ },
+ {
+  "domain": "drzozo.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.75,
+  "comment": "Посты про Mostbet ссылаются на Mostbet-дорвеи (mostbet-kazakhstan-kz.com, mostbetsport.kz); pin up/Pinco на главной — простые ссылки на чужие сайты без кода, не на Mostbet-страницах."
+ },
+ {
+  "domain": "e-pocasi.cz",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Сайт погоды; статья про Mostbet ссылается на mostbet.co.cz, остальные ссылки — партнёры погодного сайта."
+ },
+ {
+  "domain": "eduquer-ensemble.com",
+  "given": "article",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mb_page_other",
+  "confidence": 0.55,
+  "comment": "На посте /mostbet-kasyno/ спрятанный блок (position:absolute, left:-4326px) со ссылкой на оператора tower.bet/de/zcash, рядом leonkazino.gr; остальные ссылки — простые на дорвеи."
+ },
+ {
+  "domain": "elalouani.ae",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Пост про Mostbet ссылается только на mosbet-az.com; чужой рекламы нет."
+ },
+ {
+  "domain": "eleman-design.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.8,
+  "comment": "Пост про Mostbet ведёт на mostbet-sweet-bonanza.ru/mirror; iris-casino-ссылки — на постах про Iris, простые."
+ },
+ {
+  "domain": "elpalpitar.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.8,
+  "comment": "Новостной сайт; посты про Mostbet ссылаются на дорвеи (terem-ok.kz, regents-earthscience.com) без кода, ссылка «pinco giriş» на isnardgrasse.com — простая."
+ },
+ {
+  "domain": "engschooluzmor.ru",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Школьный сайт на uCoz; login.uid.me — форма входа uCoz, не реклама."
+ },
+ {
+  "domain": "epitransport.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.7,
+  "comment": "Взломанный транспортный сайт: на главной спрятанные ссылки (top:-9999px, height:1px) на leovegasfi.com и др.; страниц про Mostbet нет, главная не про Mostbet."
+ },
+ {
+  "domain": "ethersoundservice.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Посты про Mostbet ссылаются на around-the-world.com и theadirondackreview.com с анкором Mostbet; чужой рекламы нет."
+ },
+ {
+  "domain": "exposuro.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.8,
+  "comment": "На главной упоминание Mostbet в тексте поста про Aviator, ссылка на we.riseup.net; рекламы нет."
+ },
+ {
+  "domain": "fibertrainings.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Посты про Mostbet ссылаются на iswoda.pl и itp-forum.ru с анкором Mostbet; чужой рекламы нет."
+ },
+ {
+  "domain": "fightmatrix.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.65,
+  "comment": "Посты про Mostbet ведут на Mostbet-дорвеи (mostbetonline.in, mostbets.in); сквозные ссылки в сайдбаре на 91clubb.app, okwingame.io — гайды-дорвеи без кода; 1xbet aze.1xbet.com/tr только на главной, не про Mostbet."
+ },
+ {
+  "domain": "forgechampionships.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Посты про Mostbet ссылаются на contodotacos.com, brnostavi.cz и др. с анкором Mostbet; кода и чужой рекламы нет."
+ },
+ {
+  "domain": "formacioneshl.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Пост про Mostbet ведёт на mosbet-az.com; остальные ссылки — Herbalife/MLM-контент."
+ },
+ {
+  "domain": "fortleeortho.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Посты про Mostbet ссылаются на pulk12.pl; themeforest.net?ref=jegtheme — ссылка темы JNews, не гэмблинг; shartbazi.net — простая ссылка."
+ },
+ {
+  "domain": "frankaltman.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.8,
+  "comment": "Mostbet только в анкоре хаклинк-списка на главной; страниц про Mostbet нет, ссылки простые без кода."
+ },
+ {
+  "domain": "gambling-tutorial.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.7,
+  "comment": "Гэмблинг-статейник; на страницах с Mostbet ссылки на дорвеи (mostbet.de.com, 1win-bet.com.co → 1winbetcolombia.com) без кода."
+ },
+ {
+  "domain": "gestiondeclientes.biz",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Посты про Mostbet ссылаются на arnica-janacek.com, kobietymedycyny.org с анкором Mostbet; чужой рекламы нет."
+ },
+ {
+  "domain": "gestoring.es",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.8,
+  "comment": "Mostbet только в description главной; ссылки jokabet0.com, spin-mama-es.com — простые, страниц про Mostbet нет."
+ },
+ {
+  "domain": "gigliolaterapias.cl",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Посты про Mostbet ведут на mostbet-gamestr.com и mostbet-turky.com; чужой рекламы нет."
+ },
+ {
+  "domain": "glamorousgrowth.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Вставка текста про MostBet со ссылкой на yildizteknikservis.com.tr; чужой рекламы нет."
+ },
+ {
+  "domain": "globalgradesupplies.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Посты про Mostbet без внешних ссылок, кроме темы Elegant Themes."
+ },
+ {
+  "domain": "glowtechno.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Пост про Mostbet на главной без внешних рекламных ссылок."
+ },
+ {
+  "domain": "gotbalance.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Сайт о здоровье с баннером Mostbet: mostbetnow.com/uxEF → рефка Mostbet pid=424109; чужой рекламы нет."
+ },
+ {
+  "domain": "gpdifluca.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.75,
+  "comment": "Посты про Mostbet ведут на mostbetxcz.org, mostbetpt.pro; betanogame.org стоит только на посте Betano Casino Review, не на Mostbet-страницах."
+ },
+ {
+  "domain": "guiadaka.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.7,
+  "comment": "Пост про промокоды Mostbet ведёт на luckystar.com.pl/kod-promocyjny/ (его /go/ даёт рефку Mostbet pid=303818); трекер ckuvjtwp2.top — только на посте про бельгийские казино."
+ },
+ {
+  "domain": "guruvanee.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Посты про Mostbet ссылаются на iswoda.pl с анкором Mostbet login; чужой рекламы нет."
+ },
+ {
+  "domain": "hairtransplantmedical.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.8,
+  "comment": "Пост про Mostbet ведёт на mostbetaz2.com; dafabet/pin up-анкоры ведут на простые сайты (fitmag.in) без кода."
+ },
+ {
+  "domain": "hareketlicepheplatformu.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Посты про Mostbet ссылаются на cisystaropolskie.pl с анкором Mostbet bonus; чужой рекламы нет."
+ },
+ {
+  "domain": "hautpilz-nagelpilz.de",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Пост про Mostbet ведёт на mostbetcasino-hu.org; mrocasino.it — простая ссылка на другой странице."
+ },
+ {
+  "domain": "heirsearchusa.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Посты про Mostbet ссылаются на terem-ok.kz, pydocstyle.org; чужой рекламы нет."
+ },
+ {
+  "domain": "hodlerhero.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.8,
+  "comment": "Посты про Mostbet ссылаются на kegworthvillage.com, eliktipark.kz; lecaspole.com «casino utan svensk licens» — простая ссылка на дорвей."
+ },
+ {
+  "domain": "holofractal.net",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.75,
+  "comment": "Пост /mostbet-casino/ ссылается на bitcoinplinko.us (анкор Plinko) — обзорник без кода, не оператор."
+ },
+ {
+  "domain": "hong88m4.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.8,
+  "comment": "Пост про Mostbet ведёт на zdrowie.naklo.pl; playmidasfortune.com и др. — простые ссылки на других страницах."
+ },
+ {
+  "domain": "hotredbet.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.75,
+  "comment": "Блог о ставках; пост про Mostbet ведёт на mostbet-bdt.com/download-app; eth-gamblers.com — простая ссылка."
+ },
+ {
+  "domain": "hypeandstuff.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.8,
+  "comment": "Посты про Mostbet ссылаются на eliktipark.kz, itp-forum.ru; ncvoter.net «pin-up casino giriş» — простая ссылка на дорвей."
+ },
+ {
+  "domain": "ibcsurvivors.org",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.8,
+  "comment": "Пост про Mostbet ведёт на growingyoungthebook.com; lecaspole.com — простая ссылка на дорвей."
+ },
+ {
+  "domain": "ihuopin.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.6,
+  "comment": "Взломанный китайский сайт со спамом; пост про Mostbet Brasil ссылается на дорвей mostbet-brasil-win.com, который сам переадресует на ambking1234 — переезд на стороне домена, не реклама страницы."
+ },
+ {
+  "domain": "ilebasi.ir",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.8,
+  "comment": "Посты про Mostbet ведут на greenandgorgeous.net; icnase16.com «betandreas» и nv-casino-oficjalny.pl — простые ссылки на дорвеи без кода."
+ },
+ {
+  "domain": "infoglobalid.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Посты про Mostbet ведут на mostbet-app-az.com, mostbet-az90-giris.com и др.; чужой рекламы нет."
+ },
+ {
+  "domain": "inscae.ovh",
+  "given": "article",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.65,
+  "comment": "Взломанный сайт юриста: на главной спрятанный блок (left:-4133px) со ссылками на дорвеи bwincasinoplay.com, 9kbet.br.com без кода; посты про Mostbet ведут на mostbet-giris-azerbaycan.net."
+ },
+ {
+  "domain": "iproductsolutions.com",
+  "given": "article",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "article",
+  "confidence": 0.85,
+  "comment": "Пост про Mostbet ведёт на mostbet-tr.org; citroen-tula.ru «азино777» — простая ссылка."
+ }
+]

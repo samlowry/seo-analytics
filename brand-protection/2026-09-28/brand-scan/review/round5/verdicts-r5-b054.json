@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "royse.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet Official Site ᐉ Mostbet Login»); кнопки входа/регистрации ведут на https://royse.pl/go/ → https://winshark13.com/en?stag=109401_6abbcb789137f0ac38e7a5ad&rs=&source=rezerv&tracking_ (Winshark). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "rtassociates.co",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet — Ən Etibarlı Onlayn Kazino və Bukmeker Azərbaycanda»); кнопки входа/регистрации ведут на https://www.rtassociates.co/play → https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689f (1xBet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "ruralchallengepolicy.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet Casino Polska 2026 ⭐️ oficjalna strona Most Bet Kasy»); кнопки входа/регистрации ведут на https://ruralchallengepolicy.org/go → https://linebet.com/en/registration?tag=d_2725857m_22611c_ (Linebet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "ryat.info",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Клон Mostbet Aviator PL; кнопки в js/main.js (активный код) ведут на traftraf.site/Wn1ZDh/ — ротатор, который у других сайтов отдаёт Mostbet pid=392426, здесь Twindor Casino (refCode=ca_w238212…); кнопки .btn_type — на mostbet-casino.net.pl. Реклама и Mostbet, и чужого."
+ },
+ {
+  "domain": "sar-edu.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet казино и букмекер ᐉ Регистрация и бонусы на официльн»); кнопки входа/регистрации ведут на https://sar-edu.ru/go.php → https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689f (1xBet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "sarvadharma.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet Casino Polska ⭐️ oficjalna strona Most Bet Kasyno»); кнопки входа/регистрации ведут на https://sarvadharma.org/go → https://linebet.com/en/registration?tag=d_2725857m_22611c_ (Linebet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "satelites-medicina.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд «Mostbet Hungary»; кнопки «Bejelentkezés/Regisztráció» ведут на /go/ → kingmaker-8118.com/hu/registration?mid=133029_… (Kingmaker). hreflang на qualitycare.hu — не реклама; ротации на Mostbet в замерах не видно."
+ },
+ {
+  "domain": "scandinavian-museum.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ - Rəsmi sayt | Onlayn kazino Most Bet oynayın»); кнопки входа/регистрации ведут на https://www.scandinavian-museum.org/go/ → https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689f (1xBet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "scandinavianmuseumorg.click",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet»); кнопки входа/регистрации ведут на https://scandinavianmuseumorg.click/go.php → https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689f (1xBet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "scdrr.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet Casino PL ⭐️ oficjalna strona Most Bet Kasyno w Pols»); кнопки входа/регистрации ведут на https://scdrr.org/go → https://linebet.com/en/registration?tag=d_2725857m_22611c_ (Linebet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "schneider-group.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet CZ; кнопки ведут через трекер holy-duck.top/click?key=… на dd21--dudespin.com/registration?mid=33585_… (Dudespin). Ссылки на mostbet-cs-cz.jvsholding.cz — простые, без кода."
+ },
+ {
+  "domain": "scholagraphidis.hu",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet HU; кнопки ведут через трекер redirecting-to-play.com/6Jsh8k на 1wfvzh.life (1win), плюс прямые ссылки на операторов chancer.hu и casinoenergy.hu.net."
+ },
+ {
+  "domain": "school34ufa.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet казино и букмекер ᐉ Регистрация и бонусы на официльн»); кнопки входа/регистрации ведут на https://school34ufa.ru/go.php → https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689f (1xBet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "school4orsk.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet казино и букмекер ᐉ Регистрация и бонусы на официльн»); кнопки входа/регистрации ведут на https://school4orsk.ru/go.php → https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689f (1xBet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "sds-tarnobrzeg.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet Official Site ᐉ Mostbet Login»); кнопки входа/регистрации ведут на https://sds-tarnobrzeg.pl/go/ → https://winshark13.com/en?stag=109401_6abbcbec9137f0ac38e7b41b&rs=&source=rezerv&tracking_ (Winshark). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "seagrassli.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet»); кнопки входа/регистрации ведут на https://seagrassli.org/play → https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689f (1xBet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "seev4-city.eu",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet Online ✔️ Regisztráció, bónuszok és alkalmazás Magya»); кнопки входа/регистрации ведут на https://seev4-city.eu/go → https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689f (1xBet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "semaro.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet Official Site ᐉ Mostbet Login»); кнопки входа/регистрации ведут на https://semaro.pl/get/ → https://winshark13.com/en?stag=109401_6abbcc181da4d26dfa4fb677&rs=&source=rezerv&tracking_ (Winshark). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "serverworldmagazine.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Переезд на librerialasombra.com — монобренд «MostBet Portugal»; кнопки Login/Registro ведут на /play → 1xbet.rs/registration?tag=d_3755482m_22585c (1xBet)."
+ },
+ {
+  "domain": "sftcbsa.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet PL ⭐️ Casino Mostbet Logowanie ᐉ 1400 PLN i 250 FS»); кнопки входа/регистрации ведут на https://sftcbsa.org/play → https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689f (1xBet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "sheiko-program.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet - Играй в казино и делай ставки на спорт онлайн»); кнопки входа/регистрации ведут на https://sheiko-program.ru/play → https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689f (1xBet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "shopbloomtastic.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Прямой заход отдаёт сохранённую страницу ошибки Chrome, посетителю из Google — монобренд «Mostbet Casino» PL; 7 кнопок ведут на трекер pinutes.com/click → ggbetbestoffer.com с sub_id/click_id (GGBet). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "sibirskachaga.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet Casino CZ – oficiální stránka, bonusy a hry 2026»); кнопки входа/регистрации ведут на https://sibirskachaga.cz/out/ → https://winshark13.com/en?stag=109401_6abbcc22c7b961e50513c1b3&rs=&source=rezerv&tracking_ (Winshark). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "siraj.co",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet Login Pakistan - sports betting casino | Bonus and d»); кнопки входа/регистрации ведут на https://www.siraj.co/play → https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689f (1xBet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "sklep-carmen.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet PL; активный скрипт /0lsn52upo/9oz8q.js шлёт кнопки на трекер track-mono.com/allmono?kg=mostbet, который ведёт на bets.io (у других сайтов — на wolf.io). На Mostbet не ведёт нигде."
+ },
+ {
+  "domain": "slmebel.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Клон Mostbet RU; логотип и все кнопки ведут на /mostb/ → 3normcasino-oo.win/registration?qtag=a84744_t61351802 (NormCasino). Ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "socialclothingshop.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet Official Site ᐉ Mostbet Login»); кнопки входа/регистрации ведут на https://socialclothingshop.com/go/ → https://winshark13.com/en?stag=109401_6abbcc56895eec26af152798&rs=&source=rezerv&tracking_ (Winshark). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "somaliembassydcnet183.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş və qeydiyyat | Mo»); кнопки входа/регистрации ведут на https://somaliembassydcnet183.top/go.php → https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689f (1xBet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "somaliembassydcnet259.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş və qeydiyyat | Mo»); кнопки входа/регистрации ведут на https://somaliembassydcnet259.top/go.php → https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689f (1xBet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "somaliembassydcnet321.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş və qeydiyyat | Mo»); кнопки входа/регистрации ведут на https://somaliembassydcnet321.top/go.php → https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689f (1xBet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "somaliembassydcnet372.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş və qeydiyyat | Mo»); кнопки входа/регистрации ведут на https://somaliembassydcnet372.top/go.php → https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689f (1xBet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "somaliembassydcnet520.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş və qeydiyyat | Mo»); кнопки входа/регистрации ведут на https://somaliembassydcnet520.top/go.php → https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689f (1xBet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "somaliembassydcnet668.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş və qeydiyyat | Mo»); кнопки входа/регистрации ведут на https://somaliembassydcnet668.top/go.php → https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689f (1xBet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "somaliembassydcnet671.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş və qeydiyyat | Mo»); кнопки входа/регистрации ведут на https://somaliembassydcnet671.top/go.php → https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689f (1xBet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "somaliembassydcnet672.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş və qeydiyyat | Mo»); кнопки входа/регистрации ведут на https://somaliembassydcnet672.top/go.php → https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689f (1xBet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "somaliembassydcnet673.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş və qeydiyyat | Mo»); кнопки входа/регистрации ведут на https://somaliembassydcnet673.top/go.php → https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689f (1xBet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "somaliembassydcnet675.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş və qeydiyyat | Mo»); кнопки входа/регистрации ведут на https://somaliembassydcnet675.cfd/go.php → https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689f (1xBet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "somaliembassydcnet678.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş və qeydiyyat | Mo»); кнопки входа/регистрации ведут на https://somaliembassydcnet678.cfd/go.php → https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689f (1xBet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "somaliembassydcnet680.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş və qeydiyyat | Mo»); кнопки входа/регистрации ведут на https://somaliembassydcnet680.cfd/go.php → https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689f (1xBet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "somaliembassydcnet681.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş və qeydiyyat | Mo»); кнопки входа/регистрации ведут на https://somaliembassydcnet681.cfd/go.php → https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689f (1xBet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "somaliembassydcnet685.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş və qeydiyyat | Mo»); кнопки входа/регистрации ведут на https://somaliembassydcnet685.cfd/go.php → https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689f (1xBet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "somaliembassydcnet688.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş və qeydiyyat | Mo»); кнопки входа/регистрации ведут на https://somaliembassydcnet688.cfd/go.php → https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689f (1xBet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "somaliembassydcnet694.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş və qeydiyyat | Mo»); кнопки входа/регистрации ведут на https://somaliembassydcnet694.cfd/go.php → https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689f (1xBet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "somaliembassydcnet695.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş və qeydiyyat | Mo»); кнопки входа/регистрации ведут на https://somaliembassydcnet695.cfd/go.php → https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689f (1xBet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "somaliembassydcnet808.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş və qeydiyyat | Mo»); кнопки входа/регистрации ведут на https://somaliembassydcnet808.top/go.php → https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689f (1xBet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "somaliembassydcnet810.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş və qeydiyyat | Mo»); кнопки входа/регистрации ведут на https://somaliembassydcnet810.top/go.php → https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689f (1xBet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "sosnovkabiz.xyz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Мостбет казино — официальный сайт Mostbet KZ»); кнопки входа/регистрации ведут на https://sosnovkabiz.xyz/play.php → https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689f (1xBet). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "spohnexcavatinginc.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «Mostbet Official Site ᐉ Mostbet Login»); кнопки входа/регистрации ведут на https://spohnexcavatinginc.net/go/ → https://winshark13.com/en?stag=109401_6abbcc6ac7b961e50513ca78&rs=&source=rezerv&tracking_ (Winshark). Ссылок на Mostbet с кодом партнёра нет."
+ },
+ {
+  "domain": "sprzetbudowlany-wynajem.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Переезд на curiosa.pl — монобренд «MostBet Polska»; кнопки Logowanie/Rejestracja ведут на /play/ → one-vv3429.com/?p=hztd&sub1=… (1win). Ссылка на mostbet-pol.jp.net — простая."
+ },
+ {
+  "domain": "srpskacycling.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд Mostbet (title «MostBet Portugal — Casino Online e Apostas com Bónus»); кнопки входа/регистрации ведут на https://srpskacycling.com/play → https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c401b14a689f (1xBet). Ссылок на Mostbet с кодом партнёра нет."
+ }
+]

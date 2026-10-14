@@ -1,7 +1,7 @@
 """Скан главных страниц: аффилиат Mostbet / не аффилиат / не открылся.
 
 Запуск:
-  nice -n 10 uv run --with aiohttp --with selectolax python tools/affiliate-scan.py \
+  nice -n 10 uv run --with aiohttp --with 'selectolax<1' python tools/affiliate-scan.py \
       <domains.csv> <out_dir> [--limit N] [--concurrency 40]
 
 Только HTTP, без браузера и прокси. Пишет <out_dir>/scan.jsonl.gz — одна запись на сайт

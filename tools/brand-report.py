@@ -1,6 +1,6 @@
 """Full report on the brand scan: classes, numbers and every site with its reason and the links that decided.
 
-Run: uv run --with selectolax python tools/brand-report.py brand-protection/2026-09-28/brand-scan
+Run: uv run --with 'selectolax<1' python tools/brand-report.py brand-protection/2026-09-28/brand-scan
 Reads classified.csv, site-features.jsonl.gz, corsearch-false-positives.csv. Writes report/brand-report.html, self-contained:
 the donut of groups and the share meters are inline SVG/CSS, no external resources. One numbering runs through the whole
 report. Per class the first ten shown are a sample: the domains sorted by name and cut into ten equal parts, one random
@@ -27,13 +27,16 @@ GROUPS = [
          "Сайт про Mostbet рекламирует и Mostbet, и другие бренды; часто одна ссылка ротирует между ними."),
         ("mb_page_other", "Статья про Mostbet → реклама чужих",
          "Сайт не монобренд (статейник, мультибренд), но его страница про Mostbet рекламирует другие бренды. "
-         "Адрес страницы — в поле «почему»."),
+         "Адрес страницы — в поле «причина»."),
         ("bait", "Приманка",
          "Mostbet в домене или заголовке, а внутри чужое казино, чужое PWA-приложение или слоты."),
         ("redirect_other", "Редирект на чужую рефку",
          "Главная сразу уводит посетителя на партнёрскую ссылку другого бренда."),
         ("discredit", "Дискредитация бренда",
          "Mostbet в домене, а на сайте содержимое не про ставки вообще (магазин, наркошоп и т. п.)."),
+        ("mono_hidden", "Монобренд → скрытые ссылки на чужие монобренды",
+         "Чужой рекламы нет, но в коде спрятаны от посетителя ссылки на аффилиат-сайты других брендов "
+         "(блок высотой в пару пикселей, display:none): ссылочный вес монобренда Mostbet уходит чужим."),
     ]),
     ("Монобренд Mostbet без чужой рекламы", [
         ("mono_mostbet", "Монобренд → только Mostbet", "Реклама только Mostbet (партнёрские ссылки с pid)."),
@@ -42,7 +45,7 @@ GROUPS = [
         ("mono_xlink", "Монобренд, простые ссылки на чужих", "Чужой рекламы нет, но есть простые ссылки на дорвеи "
          "и обзорники других брендов."),
         ("mono_unresolved", "Монобренд, получатель неизвестен", "Кнопки ведут на трекер или шлюз, до получателя "
-         "не дошли ни HTTP, ни браузер (мёртвый трекер, кнопка без адреса)."),
+         "не дошли ни HTTP, ни браузер (мёртвый трекер); кнопка без адреса — не реклама."),
         ("mono_no_ads", "Монобренд без рекламы", "Партнёрских ссылок нет: браузер прокликал кнопки — никуда."),
         ("mirror", "Зеркало Mostbet", "Официальный сайт Mostbet (старый шаблон) на стороннем домене."),
     ]),
@@ -70,7 +73,7 @@ TAG_RU = {
     "rotating_ads": "реклама меняется между снимками", "search_referrer_js": "скрипт реагирует на заход из поиска",
     "pwa": "PWA-лендинг", "apk": "раздаёт APK", "brand_in_domain": "Mostbet в домене", "moved": "главная переезжает",
     "ads_unverified": "не все ссылки пройдены", "platform": "на платформе (blogspot и т. п.)", "no_html": "HTML нет",
-    "our_ref": "наша рефка",
+    "our_ref": "наша рефка", "not_in_corsearch": "нет в базе Corsearch — сюда переезжают домены базы",
 }
 
 
@@ -132,7 +135,8 @@ def why_ru(r) -> str:
         tail = {"mono_other": "реклама только чужих брендов", "mono_mixed": "реклама Mostbet и чужих брендов",
                 "mono_mostbet": "реклама только Mostbet", "mono_xlink": "чужой рекламы нет, простые ссылки на чужие сайты",
                 "mono_unresolved": "кнопки ведут на трекер или шлюз, получатель не установлен",
-                "mono_no_ads": "партнёрских ссылок нет"}.get(c, "")
+                "mono_no_ads": "партнёрских ссылок нет",
+                "mono_hidden": "скрытые ссылки на " + (w.split("hidden links to ", 1)[-1] if "hidden links to" in w else "чужие сайты")}.get(c, "")
         return f"{where}; {density(r)}; {tail}"
     if c == "mirror":
         return "шаблон официального сайта Mostbet (его скрипты и разметка)"
@@ -247,15 +251,100 @@ def fmt(n) -> str:
     return f"{n:,}".replace(",", " ")
 
 
+CSS = """:root{--bg:#f1f5f9;--card:#fff;--fg:#0f172a;--mut:#64748b;--line:#e2e8f0;--acc:#2563eb;
+ --g-viol:#eb6834;--g-mono:#2a78d6;--g-other:#1baf7a;--g-dead:#4a3aa7}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1120;--card:#111827;--fg:#e5e7eb;--mut:#94a3b8;
+ --line:#1f2937;--acc:#60a5fa;--g-viol:#d95926;--g-mono:#256abf;--g-other:#199e70;--g-dead:#9085e9}}
+:root[data-theme="dark"]{--bg:#0b1120;--card:#111827;--fg:#e5e7eb;--mut:#94a3b8;--line:#1f2937;--acc:#60a5fa;
+ --g-viol:#d95926;--g-mono:#256abf;--g-other:#199e70;--g-dead:#9085e9}
+body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:1040px;margin:0 auto;padding:16px} h1{font-size:24px;margin:8px 0 4px} .sub{color:var(--mut)}
+h2{font-size:18px;margin:28px 0 4px;border-left:5px solid var(--acc);padding-left:10px} h2 small{color:var(--mut);font-weight:400;font-size:13px}
+section.g-viol h2{border-color:var(--g-viol)} section.g-mono h2{border-color:var(--g-mono)}
+section.g-other h2{border-color:var(--g-other)} section.g-dead h2{border-color:var(--g-dead)}
+.chart{display:flex;gap:24px;align-items:center;flex-wrap:wrap} .legend{list-style:none;padding:0;margin:0;flex:1;min-width:240px}
+.legend li{display:flex;gap:8px;align-items:center;padding:5px 0;border-bottom:1px solid var(--line)} .legend a{flex:1;color:var(--fg)}
+.legend b{font-variant-numeric:tabular-nums} .pct{color:var(--mut);width:52px;text-align:right;font-variant-numeric:tabular-nums}
+.sw{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px;flex:none}
+.dn-n{font-size:20px;font-weight:700;fill:var(--fg)} .dn-l{font-size:11px;fill:var(--mut)}
+.meter{margin:6px 0 10px} .meter-t{font-size:12.5px;color:var(--mut);line-height:1.35;margin-bottom:4px}
+.bar{position:relative;height:10px;width:100%} .bar-track{position:absolute;inset:0;border-radius:4px;opacity:.16}
+.bar-fill{position:absolute;left:0;top:0;bottom:0;border-radius:4px}
+.meter-t b{color:var(--fg);font-size:15px} .ghead{margin-top:36px;padding-top:8px;border-top:2px solid var(--line)} .ghead h1{margin:0 0 4px}
+.desc{color:var(--mut);margin:2px 0 10px} .lead{background:var(--card);border-radius:10px;padding:12px 16px;margin:12px 0;break-inside:avoid}
+.lead li{margin:3px 0} table{width:100%;border-collapse:collapse;background:var(--card);border-radius:10px;overflow:hidden;font-size:13px}
+td{padding:5px 10px;border-bottom:1px solid var(--line);vertical-align:top} td.n{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+tr.grp td{font-weight:700;background:var(--bg)} tr.grp .meter-t{font-weight:400} td .meter{margin:6px 0 2px} a{color:var(--acc);text-decoration:underline;text-underline-offset:2px}
+.card{background:var(--card);border-radius:10px;padding:9px 14px;margin-bottom:8px;break-inside:avoid}
+.dom{font-weight:700;font-size:15px;color:var(--fg)} .num{color:var(--mut);font-variant-numeric:tabular-nums;margin-right:8px;font-size:13px}
+.why{font-size:13px;margin:3px 0;overflow-wrap:anywhere} .why span{color:var(--mut)}
+.links{font-size:12.5px;margin:3px 0;padding-left:18px;overflow-wrap:anywhere} .to{color:var(--mut)}
+.ak{font-size:11.5px;border-radius:4px;padding:0 5px;white-space:nowrap;border:1px solid var(--line)}
+.ak-other{border-color:var(--g-viol)} .ak-mb{border-color:var(--g-mono)}
+.rest-h{color:var(--mut);margin:10px 0 2px} details.more{margin:2px 0} details.more>summary{cursor:pointer;color:var(--acc);font-weight:600;padding:6px 0;text-decoration:underline;text-underline-offset:2px}
+.rng{color:var(--mut);font-size:12px}
+header{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px} .cf{font-size:12px;border-radius:5px;padding:1px 7px;border:1px solid var(--line);color:var(--fg);white-space:nowrap}
+.cf-hi{border-color:var(--g-other)} .cf-mid{border-color:var(--g-mono)} .cf-lo{border-color:var(--g-viol);border-width:2px;font-weight:600}
+.kv{font-size:12.5px;overflow-wrap:anywhere;margin:1px 0} .kv span,.why span,.sample span{color:var(--mut);font-weight:400}
+.kv b,.why b{font-weight:600;color:var(--fg)} .sample span{font-style:normal}
+.sample{color:var(--mut);font-size:12px;margin-top:4px;overflow-wrap:anywhere} .cols{columns:2;column-gap:28px}
+@media (max-width:640px){.cols{columns:1}}
+@media print{body{background:#fff} .card,.lead,table{border:1px solid #e2e8f0} h2{break-after:avoid}}
+"""
+
+
+CONF = {}  # domain -> confidence.csv row (tools/brand-confidence.py)
+
+
+def conf_badge(dom) -> tuple:
+    c = CONF.get(dom)
+    if not c:
+        return "", ""
+    n = int(c["confidence"])
+    lvl = "hi" if n >= 80 else "mid" if n >= 60 else "lo"
+    badge = f'<span class="cf cf-{lvl}" title="вероятность, что тип сайта (класс) определён верно">уверенность в типе сайта: {n} %</span>'
+    if c.get("violation"):
+        v = int(c["violation"])
+        vl = "lo" if v >= 90 else "mid" if v >= 50 else "hi"
+        badge += f'<span class="cf cf-{vl}" title="вероятность, что сайт нарушитель, какой бы ни был тип">уверенность в нарушении: {v} %</span>'
+    extra = []
+    if c["minus"]:
+        extra.append(f'<div class="kv"><span>снижает уверенность:</span> <b>{e(c["minus"])}</b></div>')
+    if c["checked"]:
+        extra.append(f'<div class="kv"><span>проверен вручную:</span> <b>'
+                     f'{"тип подтверждён" if c["checked"] == "agrees" else "тип не подтверждён"}</b></div>')
+    return badge, "".join(extra)
+
+
+def check_badge(r) -> tuple:
+    """The round-5 checker's verdict, when there is one."""
+    if not r.get("check"):
+        return "", ""
+    v = r.get("check_violator")
+    word = {"True": "нарушитель", "False": "не нарушитель"}.get(v, "не решено")
+    lvl = "lo" if v == "True" else "hi" if v == "False" else "mid"
+    conf = f", уверенность проверяющего {round(float(r['check_confidence']) * 100)} %" if r.get("check_confidence") else ""
+    badge = f'<span class="cf cf-{lvl}" title="проверка агентом по сохранённым страницам">проверка: {word}{conf}</span>'
+    note = f'<div class="kv"><span>проверяющий:</span> <b>{e(r.get("check_note"))}</b></div>' if r.get("check_note") else ""
+    if r.get("check") == "fixed":
+        note += f'<div class="kv"><span>класс по правилам был:</span> <b>{e(r.get("rule_category"))}</b></div>'
+    return badge, note
+
+
 def card(num, r, sample_text) -> str:
+    badge, cf_extra = conf_badge(r["domain"])
+    cb, cn = check_badge(r)
+    if cb:  # a checker's verdict replaces the model's estimate
+        badge, cf_extra = cb, cn
     tags = ", ".join(TAG_RU.get(t, t) for t in r["tags"].split() if t in TAG_RU and t != "brand_in_domain")
     facts = [("метки", tags), ("title", r["title"]),
              ("конечный адрес", r["final_url"] if r["final_url"] and r["domain"] not in r["final_url"] else "")]
-    grid = "".join(f'<div class="kv"><span>{k}</span> {linkify(v) if k == "конечный адрес" else e(v)}</div>' for k, v in facts if v)
-    st = f'<div class="sample">{e(sample_text)}</div>' if sample_text else ""
+    grid = "".join(f'<div class="kv"><span>{k}:</span> <b>{linkify(v) if k == "конечный адрес" else e(v)}</b></div>'
+                   for k, v in facts if v)
+    st = f'<div class="sample"><span>текст главной:</span> «{e(sample_text)}…»</div>' if sample_text else ""
     return (f'<article class="card" id="n{num}"><header><span class="num">{num}</span>'
-            f'<a class="dom" href="https://{e(r["domain"])}/">{e(r["domain"])}</a></header>'
-            f'<div class="why"><span>причина</span> {linkify(why_ru(r))}</div>{ad_links(r)}{grid}{st}</article>')
+            f'<a class="dom" href="https://{e(r["domain"])}/">{e(r["domain"])}</a>{badge}</header>'
+            f'<div class="why"><span>причина:</span> <b>{linkify(why_ru(r))}</b></div>{ad_links(r)}{cf_extra}{grid}{st}</article>')
 
 
 def sample(rows, n=10):
@@ -274,6 +363,9 @@ def main(d: str):
     for r in rows:
         by[r["category"]].append(r)
     picks = {c: sample(by[c]) for g in GROUPS for c, _, _ in g[1]}
+    if (d / "confidence.csv").exists():
+        with open(d / "confidence.csv", newline="", encoding="utf-8") as f:
+            CONF.update({x["domain"]: x for x in csv.DictReader(f)})
     text = {}
     with gzip.open(d / "site-features.jsonl.gz", "rt", encoding="utf-8") as f:
         for line in f:
@@ -285,6 +377,9 @@ def main(d: str):
         false_pos = sum(1 for _ in csv.DictReader(f))
 
     total = len(rows)
+    added = sum(1 for r in rows if "not_in_corsearch" in r["tags"].split())
+    viol_cls = {c for c, _, _ in GROUPS[0][1]}
+    v90 = sum(1 for r in rows if r["category"] in viol_cls and int(CONF.get(r["domain"], {}).get("violation") or 0) >= 90)
     cnt = collections.Counter(r["category"] for r in rows)
     strikes = [r for r in rows if r["category"] in ("mono_other", "mono_mixed", "mb_page_other")]
     brands = collections.Counter(brand_name(b) for r in strikes for b in set(r["other_ads"].split(" | ")) if b)
@@ -326,6 +421,12 @@ def main(d: str):
                     body += (f'<details class="more" data-k="{c}-{a}"><summary>№ {fmt(a)}–{fmt(b)}</summary>'
                              f'{"".join(shown_cards[i:i + 100])}</details>')
             head = f"{fmt(cnt[c])} · № {fmt(lo)}–{fmt(num)}" if cnt[c] else "0"
+            cfs = [int(CONF[r["domain"]]["confidence"]) for r in by[c] if r["domain"] in CONF]
+            if cfs:
+                head += f" · средняя уверенность в типе сайта {round(sum(cfs) / len(cfs))}, ниже 60 — {fmt(sum(1 for x in cfs if x < 60))}"
+            vs = [int(CONF[r["domain"]]["violation"]) for r in by[c] if CONF.get(r["domain"], {}).get("violation")]
+            if vs and gi == 0:
+                head += f" · уверенность в нарушении от 90 % — {fmt(sum(1 for x in vs if x >= 90))}"
             gshare = cnt[c] / gsum[gname] if gsum[gname] else 0
             sections.append(f'''<section id="{c}" class="g-{key}"><h2>{e(ru)} <small>{head}</small></h2>
 {meter(key, gshare, f"<b>{pc(gshare * 100)} %</b> группы «{e(gname.split(':')[0])}» · {pc(cnt[c] * 100 / total)} % всех доменов")}
@@ -336,45 +437,10 @@ def main(d: str):
     brand_rows = "".join(f"<li><b>{e(b)}</b> — {fmt(n)}</li>" for b, n in top)
     page = f'''<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Использование бренда Mostbet</title><base target="_blank"><style>
-:root{{--bg:#f1f5f9;--card:#fff;--fg:#0f172a;--mut:#64748b;--line:#e2e8f0;--acc:#2563eb;
- --g-viol:#eb6834;--g-mono:#2a78d6;--g-other:#1baf7a;--g-dead:#4a3aa7}}
-@media (prefers-color-scheme:dark){{:root:not([data-theme="light"]){{--bg:#0b1120;--card:#111827;--fg:#e5e7eb;--mut:#94a3b8;
- --line:#1f2937;--acc:#60a5fa;--g-viol:#d95926;--g-mono:#256abf;--g-other:#199e70;--g-dead:#9085e9}}}}
-:root[data-theme="dark"]{{--bg:#0b1120;--card:#111827;--fg:#e5e7eb;--mut:#94a3b8;--line:#1f2937;--acc:#60a5fa;
- --g-viol:#d95926;--g-mono:#256abf;--g-other:#199e70;--g-dead:#9085e9}}
-body{{margin:0;background:var(--bg);color:var(--fg);font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}}
-main{{max-width:1040px;margin:0 auto;padding:16px}} h1{{font-size:24px;margin:8px 0 4px}} .sub{{color:var(--mut)}}
-h2{{font-size:18px;margin:28px 0 4px;border-left:5px solid var(--acc);padding-left:10px}} h2 small{{color:var(--mut);font-weight:400;font-size:13px}}
-section.g-viol h2{{border-color:var(--g-viol)}} section.g-mono h2{{border-color:var(--g-mono)}}
-section.g-other h2{{border-color:var(--g-other)}} section.g-dead h2{{border-color:var(--g-dead)}}
-.chart{{display:flex;gap:24px;align-items:center;flex-wrap:wrap}} .legend{{list-style:none;padding:0;margin:0;flex:1;min-width:240px}}
-.legend li{{display:flex;gap:8px;align-items:center;padding:5px 0;border-bottom:1px solid var(--line)}} .legend a{{flex:1;color:var(--fg)}}
-.legend b{{font-variant-numeric:tabular-nums}} .pct{{color:var(--mut);width:52px;text-align:right;font-variant-numeric:tabular-nums}}
-.sw{{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px;flex:none}}
-.dn-n{{font-size:20px;font-weight:700;fill:var(--fg)}} .dn-l{{font-size:11px;fill:var(--mut)}}
-.meter{{margin:6px 0 10px}} .meter-t{{font-size:12.5px;color:var(--mut);line-height:1.35;margin-bottom:4px}}
-.bar{{position:relative;height:10px;width:100%}} .bar-track{{position:absolute;inset:0;border-radius:4px;opacity:.16}}
-.bar-fill{{position:absolute;left:0;top:0;bottom:0;border-radius:4px}}
-.meter-t b{{color:var(--fg);font-size:15px}} .ghead{{margin-top:36px;padding-top:8px;border-top:2px solid var(--line)}} .ghead h1{{margin:0 0 4px}}
-.desc{{color:var(--mut);margin:2px 0 10px}} .lead{{background:var(--card);border-radius:10px;padding:12px 16px;margin:12px 0;break-inside:avoid}}
-.lead li{{margin:3px 0}} table{{width:100%;border-collapse:collapse;background:var(--card);border-radius:10px;overflow:hidden;font-size:13px}}
-td{{padding:5px 10px;border-bottom:1px solid var(--line);vertical-align:top}} td.n{{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}}
-tr.grp td{{font-weight:700;background:var(--bg)}} tr.grp .meter-t{{font-weight:400}} td .meter{{margin:6px 0 2px}} a{{color:var(--acc);text-decoration:underline;text-underline-offset:2px}}
-.card{{background:var(--card);border-radius:10px;padding:9px 14px;margin-bottom:8px;break-inside:avoid}}
-.dom{{font-weight:700;font-size:15px;color:var(--fg)}} .num{{color:var(--mut);font-variant-numeric:tabular-nums;margin-right:8px;font-size:13px}}
-.why{{font-size:13px;margin:3px 0;overflow-wrap:anywhere}} .why span{{color:var(--mut)}}
-.links{{font-size:12.5px;margin:3px 0;padding-left:18px;overflow-wrap:anywhere}} .to{{color:var(--mut)}}
-.ak{{font-size:11.5px;border-radius:4px;padding:0 5px;white-space:nowrap;border:1px solid var(--line)}}
-.ak-other{{border-color:var(--g-viol)}} .ak-mb{{border-color:var(--g-mono)}}
-.rest-h{{color:var(--mut);margin:10px 0 2px}} details.more{{margin:2px 0}} details.more>summary{{cursor:pointer;color:var(--acc);font-weight:600;padding:6px 0;text-decoration:underline;text-underline-offset:2px}}
-.rng{{color:var(--mut);font-size:12px}}
-.kv{{font-size:12.5px;overflow-wrap:anywhere}} .kv span{{color:var(--mut)}} .kv b{{font-weight:500}}
-.sample{{color:var(--mut);font-size:12px;margin-top:4px;overflow-wrap:anywhere}} .cols{{columns:2;column-gap:28px}}
-@media (max-width:640px){{.cols{{columns:1}}}}
-@media print{{body{{background:#fff}} .card,.lead,table{{border:1px solid #e2e8f0}} h2{{break-after:avoid}}}}
-</style></head><body><main>
+{CSS}</style></head><body><main>
 <h1>Использование бренда Mostbet: кто и как</h1>
-<div class="sub">Срез 01.10.2026 · база Corsearch от 28.09.2026 без наших доменов · {fmt(total)} доменов</div>
+<div class="sub">Срез 13.10.2026 · база Corsearch от 28.09.2026 без наших доменов · {fmt(total)} доменов, из них
+{fmt(added)} добавлены: их нет в базе, но на них переезжают главные доменов базы</div>
 
 <div class="lead chart"><div>{donut([(GROUP_KEYS[i], g[0], gsum[g[0]]) for i, g in enumerate(GROUPS)], total)}</div>
 <ul class="legend">{"".join(f'<li><span class="sw" style="background:var(--g-{GROUP_KEYS[i]})"></span><a href="#g-{GROUP_KEYS[i]}" target="_self">{e(g[0])}</a>'
@@ -403,9 +469,22 @@ f'<b>{fmt(gsum[g[0]])}</b><span class="pct">{pc(gsum[g[0]] * 100 / total)} %</sp
 <li>Каждый сайт дополнительно открыт как мобильный посетитель, как посетитель из Google и как Googlebot —
 так видна реклама, которую показывают не всем.</li>
 <li>Наши партнёрские ссылки из реестра не открывались ни разу.</li>
-<li>Классы проверены вручную и агентами: по 10 случайных сайтов на класс, три круга; с проверяющим совпадает
-77–82 %, класс «монобренд → реклама только чужих» — 10 из 10 во всех кругах; страницы-доказательства статей про
-Mostbet — 15 из 20 подтверждены (ошибки исправлены).</li>
+<li>Классы проверены вручную и агентами по сохранённому HTML: четыре круга, 910 сайтов с вердиктом
+(в четвёртом — по 20 непроверенных сайтов на класс, разброс по всей шкале уверенности).</li>
+<li><b>Уверенность 0–100 у каждого сайта</b> — доля сайтов с таким баллом, чей класс проверяющий подтвердил.
+Балл считается по силе улики класса (какое правило сработало, какие ссылки решили) за вычетом недостающих данных
+и близости к соседнему классу; шкала подогнана по 910 проверенным сайтам. На проверенных сайтах, каждый оценён без
+себя: заявлено 91 % — подтверждено 89 %, заявлено 73 % — подтверждено 75 %. Под карточкой — что снизило уверенность.
+Ошибки правил, найденные в четвёртом круге, исправлены; совпадение классов с проверяющими — 84 % (было 76 %).
+Эти же сайты служили и для правки правил, поэтому на новых сайтах совпадение может быть ниже.</li>
+<li><b>Каждый нарушитель проверен агентом</b> (пятый круг, 13.10): 4 077 сайтов по сохранённым страницам и
+цепочкам ссылок. Вердикт проверяющего заменяет класс по правилам и стоит плашкой в карточке. В списке на удаление
+<code>report/takedown-send.csv</code> — нарушители, подтверждённые с уверенностью проверяющего от 80 %;
+остальные — в <code>report/takedown-check.csv</code>.</li>
+<li><b>Нарушение 0–100</b> — вторая шкала: вероятность, что сайт нарушитель, какой бы ни был класс (путаница
+внутри нарушителей тут не ошибка). Подогнана на тех же проверках: заявлено 90 % — нарушителей 91 %.
+Из нарушителей нарушение от 90 у {fmt(v90)} сайтов, на проверке подтвердились 156 из 163 —
+их можно отправлять без ручной проверки; ниже 90 — проверять.</li>
 <li>Не видно: реклама, которую показывают только в других странах; {fmt(cnt["mono_unresolved"])} монобрендов,
 чьи трекеры не открылись.</li></ul></div>
 
@@ -424,7 +503,184 @@ const h=location.hash.match(/^#n(\\d+)$/);if(h){{const el=document.getElementByI
     out = d / "report"
     out.mkdir(exist_ok=True)
     (out / "brand-report.html").write_text(page, encoding="utf-8")
+    # Takedown lists. Checked violators: send when the checker confirmed with confidence >= 0.8; the rest of the
+    # violators (confirmed with less, undecided, never checked) go to the manual check list.
+    cols = ["domain", "category", "check", "checker_confidence", "checker_note", "violation", "class_confidence",
+            "reason", "final_url", "not_in_corsearch"]
+
+    def sure(r):
+        if r.get("check_violator") == "True":
+            return float(r.get("check_confidence") or 0) >= 0.8
+        if r.get("check"):
+            return False
+        return int(CONF.get(r["domain"], {}).get("violation") or 0) >= 90
+
+    for name, keep in (("takedown-send.csv", True), ("takedown-check.csv", False)):
+        sel = [r for r in rows if r["category"] in viol_cls and sure(r) == keep]
+        sel.sort(key=lambda r: (-float(r.get("check_confidence") or 0), r["domain"]))
+        with open(out / name, "w", newline="", encoding="utf-8") as f:
+            w = csv.writer(f)
+            w.writerow(cols)
+            for r in sel:
+                c = CONF.get(r["domain"], {})
+                w.writerow([r["domain"], r["category"], r.get("check_violator", ""), r.get("check_confidence", ""),
+                            r.get("check_note", ""), c.get("violation", ""), c.get("confidence", ""), why_ru(r),
+                            r["final_url"], "not_in_corsearch" in r["tags"].split()])
+    group_reports(d, rows, text)
     print(out / "brand-report.html")
+
+
+def md_esc(x) -> str:
+    """Plain text for Markdown: line breaks folded, markup characters escaped (an underscore inside a word stays)."""
+    t = re.sub(r"([\\`*\[\]<>])", r"\\\1", " ".join(str(x or "").split()))
+    return re.sub(r"(?<!\w)_|_(?!\w)", r"\_", t)
+
+
+def md_link(url: str, n=100) -> str:
+    return f"[{md_esc(url[:n])}]({url.replace(' ', '%20').replace(')', '%29')})"
+
+
+def md_text(text: str) -> str:
+    """Escape, then turn every URL into a link, as linkify() does for HTML."""
+    parts = re.split(r"(https?://[^\s,()]+)", " ".join(str(text or "").split()))
+    return "".join(md_link(p, 200) if i % 2 else md_esc(f".{p}.")[1:-1] for i, p in enumerate(parts))
+
+
+def md_card(num, r, sample_text) -> str:
+    """The same fields as card(), as a heading and a flat list: Google Docs keeps headings, bold, lists and links."""
+    c = CONF.get(r["domain"], {})
+    lines = [f"### {num}. {md_esc(r['domain'])}", ""]
+    kv = []
+    if r.get("check"):  # a checker's verdict replaces the model's estimate
+        word = {"True": "нарушитель", "False": "не нарушитель"}.get(r.get("check_violator"), "не решено")
+        conf = f", уверенность проверяющего {round(float(r['check_confidence']) * 100)} %" if r.get("check_confidence") else ""
+        kv.append(("проверка", md_esc(word + conf)))
+        if r.get("check_note"):
+            kv.append(("проверяющий", md_text(r["check_note"])))
+        if r.get("check") == "fixed":
+            kv.append(("класс по правилам был", md_esc(r.get("rule_category"))))
+    elif c:
+        kv.append(("уверенность в типе сайта", f"{c['confidence']} %"))
+        if c.get("violation"):
+            kv.append(("уверенность в нарушении", f"{c['violation']} %"))
+        if c.get("minus"):
+            kv.append(("снижает уверенность", md_esc(c["minus"])))
+        if c.get("checked"):
+            kv.append(("проверен вручную", "тип подтверждён" if c["checked"] == "agrees" else "тип не подтверждён"))
+    kv.insert(0, ("сайт", md_link(f"https://{r['domain']}/")))
+    kv.append(("причина", md_text(why_ru(r))))
+    lines += [f"- **{k}:** {v}" for k, v in kv]
+    try:
+        links = json.loads(r.get("ad_links") or "[]")
+    except ValueError:
+        links = []
+    if links:
+        lines.append("- **ссылки, решившие класс:**")
+        for kind, name, url, final in links:
+            nm = brand_name(name) if kind == "other" else name
+            lines.append(f"    - {AD_KIND[kind]} **{md_esc(nm)}**: {md_link(url)}" + (f" → {md_esc(final[:90])}" if final else ""))
+    tags = ", ".join(TAG_RU.get(t, t) for t in r["tags"].split() if t in TAG_RU and t != "brand_in_domain")
+    if tags:
+        lines.append(f"- **метки:** {md_esc(tags)}")
+    if r["title"]:
+        lines.append(f"- **title:** {md_esc(r['title'])}")
+    if r["final_url"] and r["domain"] not in r["final_url"]:
+        lines.append(f"- **конечный адрес:** {md_link(r['final_url'], 200)}")
+    if sample_text:
+        lines.append(f"- **текст главной:** «{md_esc(sample_text)}…»")
+    return "\n".join(lines) + "\n"
+
+
+MD_PART = 900_000
+GROUP_MIN = 90  # per-class reports keep only violators this sure: the checker's confidence, else the violation scale
+
+
+def group_reports(d: Path, rows, text):
+    """report/groups/: per violator class an HTML page, the same page in Markdown (for Google Docs) and a CSV with the same fields as the full report, no
+    collapsing, plus README.md as the index. Only sites with violation confidence >= GROUP_MIN."""
+    out = d / "report" / "groups"
+    out.mkdir(parents=True, exist_ok=True)
+
+    def sure(r):
+        if r.get("check"):
+            return r.get("check_violator") == "True" and float(r.get("check_confidence") or 0) * 100 >= GROUP_MIN
+        return int(CONF.get(r["domain"], {}).get("violation") or 0) >= GROUP_MIN
+
+    def links_txt(r):
+        try:
+            links = json.loads(r.get("ad_links") or "[]")
+        except ValueError:
+            return ""
+        return "\n".join(f'{AD_KIND[k]} {brand_name(n) if k == "other" else n}: {u}' + (f" → {f}" if f else "")
+                         for k, n, u, f in links)
+
+    cols = ["№", "домен", "уверенность в нарушении, %", "уверенность в типе сайта, %", "проверка",
+            "уверенность проверяющего, %", "проверяющий", "класс по правилам был", "причина", "ссылки, решившие класс",
+            "снижает уверенность", "метки", "title", "конечный адрес", "текст главной", "нет в базе Corsearch"]
+    index = []
+    for i, (c, ru, desc) in enumerate(GROUPS[0][1], 1):
+        sel = sorted((r for r in rows if r["category"] == c and sure(r)), key=lambda r: r["domain"])
+        name = f"{i:02d}-{c}"
+        with open(out / f"{name}.csv", "w", newline="", encoding="utf-8") as f:
+            w = csv.writer(f)
+            w.writerow(cols)
+            for n, r in enumerate(sel, 1):
+                cf = CONF.get(r["domain"], {})
+                cv = r.get("check_violator")
+                w.writerow([n, r["domain"], cf.get("violation", ""), cf.get("confidence", ""),
+                            {"True": "нарушитель", "False": "не нарушитель"}.get(cv, "не решено" if r.get("check") else ""),
+                            round(float(r["check_confidence"]) * 100) if r.get("check_confidence") else "",
+                            r.get("check_note", ""), r.get("rule_category", "") if r.get("check") == "fixed" else "",
+                            why_ru(r), links_txt(r), cf.get("minus", ""),
+                            ", ".join(TAG_RU.get(t, t) for t in r["tags"].split() if t in TAG_RU and t != "brand_in_domain"),
+                            r["title"], r["final_url"] if r["final_url"] and r["domain"] not in r["final_url"] else "",
+                            text.get(r["domain"], ""), "да" if "not_in_corsearch" in r["tags"].split() else ""])
+        cards = "".join(card(n, r, text.get(r["domain"])) for n, r in enumerate(sel, 1))
+        page = f"""<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{e(ru)}</title><base target="_blank"><style>
+{CSS}</style></head><body><main>
+<h1>{e(ru)}</h1>
+<div class="sub">Нарушители Mostbet · срез 13.10.2026 · {fmt(len(sel))} доменов с уверенностью в нарушении от {GROUP_MIN} % ·
+по алфавиту · таблица: <a href="{name}.csv">{name}.csv</a></div>
+<p class="desc">{e(desc)}</p>
+<section class="g-viol">{cards}</section>
+</main></body></html>"""
+        (out / f"{name}.html").write_text(page, encoding="utf-8")
+        # A Google Doc holds about 1.02M characters, so a long class is cut into parts of MD_PART characters.
+        cards_md = [md_card(n, r, text.get(r["domain"])) for n, r in enumerate(sel, 1)]
+        parts, cur = [], []
+        for cm in cards_md:
+            if cur and sum(map(len, cur)) + len(cm) > MD_PART:
+                parts.append(cur)
+                cur = []
+            cur.append(cm)
+        parts.append(cur)
+        for old_md in out.glob(f"{name}*.md"):
+            old_md.unlink()
+        mds, first = [], 1
+        for pi, part in enumerate(parts, 1):
+            fn = f"{name}.md" if len(parts) == 1 else f"{name}-part{pi}.md"
+            last = first + len(part) - 1
+            rng = f" Часть {pi} из {len(parts)}: № {fmt(first)}–{fmt(last)}." if len(parts) > 1 else ""
+            md = [f"# {md_esc(ru)}" + (f", часть {pi}" if len(parts) > 1 else ""), "",
+                  f"Нарушители Mostbet, срез 13.10.2026. {fmt(len(sel))} доменов с уверенностью в нарушении от "
+                  f"{GROUP_MIN} %, по алфавиту.{rng} Таблица с теми же полями: {name}.csv.", "", md_esc(desc), ""]
+            (out / fn).write_text("\n".join(md + part), encoding="utf-8")
+            mds.append(fn)
+            first = last + 1
+        index.append((name, ru, desc, len(sel), mds))
+    md = [f"# Нарушители Mostbet по классам, уверенность от {GROUP_MIN} %", "",
+          f"Срез 13.10.2026. В каждом классе — страница с карточками сайтов (HTML), она же в PDF "
+          f"(`tools/brand-group-pdf.py`), она же в Markdown для импорта в Google Docs и таблица с теми же полями (CSV). "
+          f"Взяты нарушители с уверенностью от {GROUP_MIN} %: у сайтов, проверенных агентом, — вердикт «нарушитель» с "
+          f"уверенностью проверяющего от {GROUP_MIN} %, у непроверенных — шкала «уверенность в нарушении» от {GROUP_MIN}. "
+          f"Всего {fmt(sum(x[3] for x in index))} доменов. Markdown длиннее {fmt(MD_PART)} символов разрезан на части: "
+          f"в один Google Doc влезает около 1 млн.", "", "| класс | доменов | что это | файлы |", "|---|---:|---|---|"]
+    md += [f"| {ru} | {fmt(n)} | {desc} | [{name}.html]({name}.html), [{name}.pdf]({name}.pdf), "
+           + ", ".join(f"[{m}]({m})" for m in mds) + f", [{name}.csv]({name}.csv) |"
+           for name, ru, desc, n, mds in index]
+    (out / "README.md").write_text("\n".join(md) + "\n", encoding="utf-8")
+    return index
 
 
 if __name__ == "__main__":

@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbet-pakistan.tech",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-pakistan.tech/play ведёт на 1xbet.rs/en/registration (1xBet, tag=d_…m), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-philippine.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-philippine.com/go/login ведёт на 84winairlines13.com/sr/lobby (Winairlines, партнёрский cxd/bta=36557), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-pk-casino.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-pk-casino.org/join ведёт на 1xbet.rs/en/registration (1xBet, tag=d_…m), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-pk.click",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-pk.click/click ведёт на 1xbet.rs/en/registration (1xBet, tag=d_…m), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-pk.info",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-pk.info/join ведёт на 1xbet.rs/en/registration (1xBet, tag=d_…m), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-pl-online.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-pl-online.com/go/login ведёт на 63winairlines41.com/ro/lobby (Winairlines, партнёрский cxd/bta=36557), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-pl-online.fun",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-pl-online.fun/go ведёт на 1xbet.rs/en/registration (1xBet, tag=d_…m), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-play-online.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-play-online.com/play-now ведёт на 1xbet.rs/en/registration (1xBet, tag=d_…m), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-play.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-play.org/go/ ведёт на kingmaker-8118.com/hu/registration (Kingmaker), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-playrf.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet; /goto/5460 → 8normcasino-ae.win с qtag=a88202 (NormCasino), /goto/ → Play Fortuna; ссылка на mostbetcasinorf.ru простая."
+ },
+ {
+  "domain": "mostbet-pol.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-pol.com/go/ALL-LINK ведёт на 174spingranny.com/sr (Spingranny, bta=42511), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-poland.jp.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-poland.jp.net/play/ ведёт на one-vv3429.com/sr-RS/ (1win), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-polonia.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-polonia.com/go/login ведёт на 76winairlines48.com/sr/lobby (Winairlines, партнёрский cxd/bta=36557), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-portugal.games",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-portugal.games/play ведёт на 1xbet.rs/en/registration (1xBet, tag=d_…m), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-portugal.pt",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet; /go → 3-baxterbet22.com с bta=35291 (Baxterbet), второй /go/ через track.rubyaffs.com."
+ },
+ {
+  "domain": "mostbet-portuguesa.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-portuguesa.com/go/register ведёт на 84winairlines13.com/sr/lobby (Winairlines, партнёрский cxd/bta=36557), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-promo-code.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, шаблон с незаполненным title (\"KZ will fill\"), бонусное меню; /go/ALL-LINK → lanista-2064.com/registration?mid=371788 (Lanista)."
+ },
+ {
+  "domain": "mostbet-promo.kz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-promo.kz/play ведёт на 1xbet.rs/en/registration (1xBet, tag=d_…m), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-rabochee-zerkalo-na-segodnya.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet-зеркало; кнопки ведут на трекер click.lp-link.ru/KZqOVpdD?sub_id3=mostbet → ligastavok.ru с utm_source=affiliates (Лига Ставок); ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-registrace.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-registrace.cz/go ведёт на 1xbet.rs/en/registration (1xBet, tag=d_…m), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-review-pt.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Обзор Mostbet в домене; кнопки через трекер play55games.com/click_api ведут на qzino.com?stag=83672 (Qzino)."
+ },
+ {
+  "domain": "mostbet-rg23.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Мостбет; /goto/ и traffic-conversionforge.com ведут на matchmarketpulseuse.com?ref=sl_w254065 (ON-X)."
+ },
+ {
+  "domain": "mostbet-ro.com.ro",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet; кнопки ведут на трекер vip.w1ncasino.org/click?brand=Mostbet, который отдаёт casea-8039.com/registration?mid=363346 (Casea)."
+ },
+ {
+  "domain": "mostbet-roulette.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-roulette.com/go ведёт на 1xbet.rs/en/registration (1xBet, tag=d_…m), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-russian.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet-зеркало; кнопки ведут на трекер click.lp-link.ru/KZqOVpdD?sub_id3=mostbet → ligastavok.ru с utm_source=affiliates (Лига Ставок); ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet-site-tr.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-site-tr.top/play.php ведёт на 1xbet.rs/en/registration (1xBet, tag=d_…m), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-slot-amp3.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-slot-amp3.top/play.php ведёт на 1xbet.rs/en/registration (1xBet, tag=d_…m), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-spin.kz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-spin.kz/visit ведёт на 1xbet.rs/en/registration (1xBet, tag=d_…m), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-srilank.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-srilank.com/go/login ведёт на 75winairlines57.com/ro/lobby (Winairlines, партнёрский cxd/bta=36557), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-t.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-t.com/go/login ведёт на 76winairlines48.com/sr/lobby (Winairlines, партнёрский cxd/bta=36557), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-tajik.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-tajik.com/go/register ведёт на 35winairlines52.com/sr/lobby (Winairlines, партнёрский cxd/bta=36557), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-top.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet Hungary; /go/ → kingmaker-8118.com/registration?mid=133029 (Kingmaker); mostbet.iowasustainableag.com — только script_url, не кнопка."
+ },
+ {
+  "domain": "mostbet-toppk.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка www.mostbet-toppk.com/play ведёт на 1xbet.rs/en/registration (1xBet, tag=d_…m), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-tr-online.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-tr-online.com/go/login ведёт на 35winairlines52.com/sr/lobby (Winairlines, партнёрский cxd/bta=36557), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-u.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-u.com/go/login ведёт на 63winairlines41.com/sr/lobby (Winairlines, партнёрский cxd/bta=36557), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-uz-amp1.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-uz-amp1.top/go.php ведёт на 1xbet.rs/en/registration (1xBet, tag=d_…m), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-uz-amp2.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-uz-amp2.top/go.php ведёт на 1xbet.rs/en/registration (1xBet, tag=d_…m), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-uz-amp3.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-uz-amp3.top/go.php ведёт на 1xbet.rs/en/registration (1xBet, tag=d_…m), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-uz-com.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Монобренд Mostbet; все 15 кнопок «Kirish/Ro‘yxatdan o‘tish» ведут на /recommends/mostbet/ → поп-сеть cehbr3fqqfmst.com / klaund.top (CAMPAIGN_ID, FORMAT=pops), на других сайтах этот трекер отдаёт volcanobet и iqoption; пида Mostbet нет. Чужой трекер — реклама чужих по правилу."
+ },
+ {
+  "domain": "mostbet-uz-uzb.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet; кнопка /mostbet/ и /apk/ ведут на db-bet-09317.pro с tag=d_3662051m (DBbet), kind=mostbet у /apk/ ошибочен — это dbbet.apk."
+ },
+ {
+  "domain": "mostbet-uzbeki.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-uzbeki.com/go/login ведёт на 25winairlines80.com/sr/lobby (Winairlines, партнёрский cxd/bta=36557), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-vip.cc",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet; в живом скрипте data-ppengine ротация refpa-07755.com (1xCasino, tag=d_5888363m), jettredsarel.com (JetTon), autumn-ice.com (NormCasino); ссылки на mostb.lol и mostbet.signup.az — простые, без кода."
+ },
+ {
+  "domain": "mostbet-vip.kz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-vip.kz/join ведёт на 1xbet.rs/en/registration (1xBet, tag=d_…m), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-win.com.pk",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-win.com.pk/go/ ведёт на 1xbet.rs/en/registration (1xBet, tag=d_…m), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-win.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-win.org/go ведёт на 1xbet.rs/en/registration (1xBet, tag=d_…m), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-win.pk",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-win.pk/go/ ведёт на 1xbet.rs/en/registration (1xBet, tag=d_…m), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-yuklemek.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-yuklemek.net/play-now ведёт на 1xbet.rs/en/registration (1xBet, tag=d_…m), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-zerkalo-amp.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Mostbet в домене и title, текст про Mostbet; кнопка mostbet-zerkalo-amp.top/go.php ведёт на 1xbet.rs/en/registration (1xBet, tag=d_…m), реклама только чужого бренда."
+ },
+ {
+  "domain": "mostbet-zerkalo-na-segodnya-sejchas.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Монобренд Mostbet-зеркало; кнопки ведут на трекер click.lp-link.ru/KZqOVpdD?sub_id3=mostbet → ligastavok.ru с utm_source=affiliates (Лига Ставок); ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbet.agro.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в имени поддомена agro.pl, обзор Mostbet; /play → casea-8039.com/registration?mid=381638 (Casea)."
+ }
+]

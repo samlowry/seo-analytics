@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "otulinablog.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (title/h1 про Mostbet); кнопки ведут через трекер sltna.pclira.com (mid=371788_…, pubid=DAFF) на регистрацию slotuna-0296.com, а ddd7dj.org — на Lanista: реклама чужих казино, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "ozgurlukcudemokrasi.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet; свои шлюзы /go/register|/go/login ведут на astrofy3.com — чужое казино (у соседних сайтов той же сети цепочка с партнёрским кодом bta=35202), /go/signup — на трекер inexusgateway; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "papershootportugal.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (title/h1 про Mostbet); кнопки ведут через трекер sltna.pclira.com (mid=371788_…, pubid=DAFF) на регистрацию slotuna-0296.com, а ddd7dj.org — на Lanista: реклама чужих казино, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "partnerdesign.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet; слайдер ведёт через track-mono.com/allmono?kg=mostbet на www.bets.io/?sign-up=modal — реклама чужого казино Bets.io."
+ },
+ {
+  "domain": "partymania-krd.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title/h1 «Мостбет … официальный сайт»); кнопки ведут через свой шлюз go-to-play-cczpl0k.php на bestonxprojump.com/?s=154&ref=ox_… — партнёрская ссылка казино On-X."
+ },
+ {
+  "domain": "peakfitnessworkouts.com",
+  "given": "mono_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_other",
+  "confidence": 0.4,
+  "comment": "Монобренд Mostbet CZ; все кнопки скриптом ведут на sneaker-speaker.com/click?key=611d…, финал — 593nv.casino/en/register?…&ref=mb_…, бренд не опознан; тот же трекер с другим ключом у других сайтов ведёт на Mostbet pid=5870 (jzyn7ac6mb.com), а ref=mb_ может значить сам Mostbet."
+ },
+ {
+  "domain": "pediatrtver.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet (title «Мостбет (Mostbet)™ Официальный сайт»); кнопка «Вход» в шапке — use-matchtrafficpulse.com/l/…?click_id=mostbet, тот же трекер у других сайтов ведёт на dealbest-redirect.com/?s=154&ref=sl_… — партнёрка On-X, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "pelne-zdrowia.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet; слайдер ведёт через track-mono.com/allmono?kg=mostbet на wolf.io — реклама чужого казино Wolf.io."
+ },
+ {
+  "domain": "planet-w1.ru",
+  "given": "mono_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_unresolved",
+  "confidence": 0.4,
+  "comment": "Монобренд Mostbet; все ссылки страницы (меню, «Регистрация Mostbet», «Зеркало Мостбет») ведут на один трекер g4etwkxducmp.com/JPsF, он мёртв; тот же трекер стоит и у Mostbet-сайта mostbet-uae1.com (/app/), и у 8xbetbonus.com — получатель неизвестен."
+ },
+ {
+  "domain": "polschint.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet (title «Мостбет (Mostbet)™ Официальный сайт»); кнопка «Вход» в шапке — use-matchtrafficpulse.com/l/…?click_id=mostbet, тот же трекер у других сайтов ведёт на dealbest-redirect.com/?s=154&ref=sl_… — партнёрка On-X, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "porohobot.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet (title «Mostbet … Україна»); кнопки /agent/go/utm_term:mostbet/ ведут через трекер workaroundxyz.com/1bYSbzSH на go.stawkibet4.io и stawkibet4.io/uk — чужой бренд StawkiBet."
+ },
+ {
+  "domain": "publizist.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet (title «Мостбет (Mostbet)™ Официальный сайт»); кнопка «Вход» в шапке — use-matchtrafficpulse.com/l/…?click_id=mostbet, тот же трекер у других сайтов ведёт на dealbest-redirect.com/?s=154&ref=sl_… — партнёрка On-X, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "rainhadapaz.pt",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (title/h1 про Mostbet); кнопки ведут через трекер sltna.pclira.com (mid=371788_…, pubid=DAFF) на регистрацию slotuna-0296.com, а ddd7dj.org — на Lanista: реклама чужих казино, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "razmnojenie.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title/h1 «Мостбет … официальный сайт»); кнопки ведут через свой шлюз go-to-play-cczpl0k.php на bestonxprojump.com/?s=154&ref=ox_… — партнёрская ссылка казино On-X."
+ },
+ {
+  "domain": "rostovdosug.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet (title «Мостбет (Mostbet)™ Официальный сайт»); кнопка «Вход» в шапке — use-matchtrafficpulse.com/l/…?click_id=mostbet, тот же трекер у других сайтов ведёт на dealbest-redirect.com/?s=154&ref=sl_… — партнёрка On-X, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "salonkrasok.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title/h1 «Мостбет … официальный сайт»); кнопки ведут через свой шлюз go-to-play-cczpl0k.php на bestonxprojump.com/?s=154&ref=ox_… — партнёрская ссылка казино On-X."
+ },
+ {
+  "domain": "salonlaodika.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title/h1 «Мостбет … официальный сайт»); кнопки ведут через свой шлюз go-to-play-cczpl0k.php на bestonxprojump.com/?s=154&ref=ox_… — партнёрская ссылка казино On-X."
+ },
+ {
+  "domain": "sam-ek.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet (title «Мостбет (Mostbet)™ Официальный сайт»); кнопка «Вход» в шапке — use-matchtrafficpulse.com/l/…?click_id=mostbet, тот же трекер у других сайтов ведёт на dealbest-redirect.com/?s=154&ref=sl_… — партнёрка On-X, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "sch05ukhta.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet (title «Мостбет (Mostbet)™ Официальный сайт»); кнопка «Вход» в шапке — use-matchtrafficpulse.com/l/…?click_id=mostbet, тот же трекер у других сайтов ведёт на dealbest-redirect.com/?s=154&ref=sl_… — партнёрка On-X, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "school18ufa.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet (title «Мостбет (Mostbet)™ Официальный сайт»); кнопка «Вход» в шапке — use-matchtrafficpulse.com/l/…?click_id=mostbet, тот же трекер у других сайтов ведёт на dealbest-redirect.com/?s=154&ref=sl_… — партнёрка On-X, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "serpuhov-ovo.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title/h1 «Мостбет … официальный сайт»); кнопки ведут через свой шлюз go-to-play-cczpl0k.php на bestonxprojump.com/?s=154&ref=ox_… — партнёрская ссылка казино On-X."
+ },
+ {
+  "domain": "shtabeler-pro.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title/h1 «Мостбет … официальный сайт»); кнопки ведут через свой шлюз go-to-play-cczpl0k.php на bestonxprojump.com/?s=154&ref=ox_… — партнёрская ссылка казино On-X."
+ },
+ {
+  "domain": "skatersfactory.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title/h1 «Мостбет … официальный сайт»); кнопки ведут через свой шлюз go-to-play-cczpl0k.php на bestonxprojump.com/?s=154&ref=ox_… — партнёрская ссылка казино On-X."
+ },
+ {
+  "domain": "smcwroclaw.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.7,
+  "comment": "Монобренд Mostbet; кнопки (/reg, /play, /bonus, jatka/) ведут на трекер thecasinoplayed.com/bGmtSytK?sub2=… — чужой трекер с кодом (у других сайтов отдаёт olimpbetcasino или joi.com), ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "snt-kasimovo-1.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title/h1 «Мостбет … официальный сайт»); кнопки ведут через свой шлюз go-to-play-cczpl0k.php на bestonxprojump.com/?s=154&ref=ox_… — партнёрская ссылка казино On-X."
+ },
+ {
+  "domain": "solnajeskynekv.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.7,
+  "comment": "Монобренд Mostbet; кнопки (/reg, /play, /bonus, jatka/) ведут на трекер thecasinoplayed.com/bGmtSytK?sub2=… — чужой трекер с кодом (у других сайтов отдаёт olimpbetcasino или joi.com), ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "spahotel-pansionat.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title/h1 «Мостбет … официальный сайт»); кнопки ведут через свой шлюз go-to-play-cczpl0k.php на bestonxprojump.com/?s=154&ref=ox_… — партнёрская ссылка казино On-X."
+ },
+ {
+  "domain": "spbdelarte.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title/h1 «Мостбет … официальный сайт»); кнопки ведут через свой шлюз go-to-play-cczpl0k.php на bestonxprojump.com/?s=154&ref=ox_… — партнёрская ссылка казино On-X."
+ },
+ {
+  "domain": "spo-lab.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet (title «Мостбет (Mostbet)™ Официальный сайт»); кнопка «Вход» в шапке — use-matchtrafficpulse.com/l/…?click_id=mostbet, тот же трекер у других сайтов ведёт на dealbest-redirect.com/?s=154&ref=sl_… — партнёрка On-X, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "stilnaya-svadba.com.ua",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet (title «Mostbet … Україна»); кнопки /agent/go/utm_term:mostbet/ ведут через трекер workaroundxyz.com/1bYSbzSH на go.stawkibet4.io и stawkibet4.io/uk — чужой бренд StawkiBet."
+ },
+ {
+  "domain": "stomat-service.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title/h1 «Мостбет … официальный сайт»); кнопки ведут через свой шлюз go-to-play-cczpl0k.php на bestonxprojump.com/?s=154&ref=ox_… — партнёрская ссылка казино On-X."
+ },
+ {
+  "domain": "stroycomgarant.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title/h1 «Мостбет … официальный сайт»); кнопки ведут через свой шлюз go-to-play-cczpl0k.php на bestonxprojump.com/?s=154&ref=ox_… — партнёрская ссылка казино On-X."
+ },
+ {
+  "domain": "studujreality.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.7,
+  "comment": "Монобренд Mostbet; кнопки (/reg, /play, /bonus, jatka/) ведут на трекер thecasinoplayed.com/bGmtSytK?sub2=… — чужой трекер с кодом (у других сайтов отдаёт olimpbetcasino или joi.com), ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "sunarcana.com",
+  "given": "mono_other",
+  "violator": null,
+  "verdict": "unsure",
+  "should_be": "mono_other",
+  "confidence": 0.4,
+  "comment": "Монобренд Mostbet CZ; все кнопки скриптом ведут на sneaker-speaker.com/click?key=611d…, финал — 593nv.casino/en/register?…&ref=mb_…, бренд не опознан; тот же трекер с другим ключом у других сайтов ведёт на Mostbet pid=5870 (jzyn7ac6mb.com), а ref=mb_ может значить сам Mostbet."
+ },
+ {
+  "domain": "technikadiamentowa.net.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet; свои шлюзы /go/register|/go/login ведут на astrofy3.com — чужое казино (у соседних сайтов той же сети цепочка с партнёрским кодом bta=35202), /go/signup — на трекер inexusgateway; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "thebalmofficial.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet (title «Мостбет (Mostbet)™ Официальный сайт»); кнопка «Вход» в шапке — use-matchtrafficpulse.com/l/…?click_id=mostbet, тот же трекер у других сайтов ведёт на dealbest-redirect.com/?s=154&ref=sl_… — партнёрка On-X, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "themostbet.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Mostbet в домене и title; кнопка /go/ ведёт на трекер mieux-redder.space/J1NP6BXf?sub_id_2=themostbet.org (случайный хост, короткий код), он не открылся — по правилу владельца чужой трекер считается рекламой чужих."
+ },
+ {
+  "domain": "tinel-brand.de",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet DE; все кнопки go.php ведут через toptraffgo.top на slotornado.com/registration?refcode=s74498s — реклама чужого казино Slotornado."
+ },
+ {
+  "domain": "ufprazinscorvite.pt",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (title/h1 про Mostbet); кнопки ведут через трекер sltna.pclira.com (mid=371788_…, pubid=DAFF) на регистрацию slotuna-0296.com, а ddd7dj.org — на Lanista: реклама чужих казино, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "uk-gazservice1.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title/h1 «Мостбет … официальный сайт»); кнопки ведут через свой шлюз go-to-play-cczpl0k.php на bestonxprojump.com/?s=154&ref=ox_… — партнёрская ссылка казино On-X."
+ },
+ {
+  "domain": "usfsjuliao.pt",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet (title/h1 про Mostbet); кнопки ведут через трекер sltna.pclira.com (mid=371788_…, pubid=DAFF) на регистрацию slotuna-0296.com, а ddd7dj.org — на Lanista: реклама чужих казино, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "uvinal-shop.ru",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.8,
+  "comment": "Взломанный магазин трикотажа: в главную вставлен текст «Бонусная программа Mostbet» с простыми ссылками «Mostbet» на robotomag.ru; «реклама» login.vk.ru — это ссылка подписки на mail.ru, рекламы чужих брендов нет."
+ },
+ {
+  "domain": "vasextra.fi",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.7,
+  "comment": "Монобренд Mostbet; кнопки (/reg, /play, /bonus, jatka/) ведут на трекер thecasinoplayed.com/bGmtSytK?sub2=… — чужой трекер с кодом (у других сайтов отдаёт olimpbetcasino или joi.com), ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "watermark.hu",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Монобренд Mostbet HU; все кнопки /agent/go/utm_term:hu-mostbet/ ведут на трекер lolwaytyu.com/ccv9cSJT → xe-961200-tr.xyz/regmail и royalsea1.com/en/regmail — не Mostbet; та же сеть у других сайтов ведёт на hotslots/StawkiBet."
+ },
+ {
+  "domain": "webowiec.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet; свои шлюзы /go/register|/go/login ведут на astrofy3.com — чужое казино (у соседних сайтов той же сети цепочка с партнёрским кодом bta=35202), /go/signup — на трекер inexusgateway; ссылок на Mostbet нет."
+ },
+ {
+  "domain": "webtelegram.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet (title «Mostbet … Україна»); кнопки /agent/go/utm_term:mostbet/ ведут через трекер workaroundxyz.com/1bYSbzSH на go.stawkibet4.io и stawkibet4.io/uk — чужой бренд StawkiBet."
+ },
+ {
+  "domain": "xn-----8kcgdcem6bm0aadbbbqhx4a1p.xn--p1ai",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet (title «Мостбет (Mostbet)™ Официальный сайт»); кнопка «Вход» в шапке — use-matchtrafficpulse.com/l/…?click_id=mostbet, тот же трекер у других сайтов ведёт на dealbest-redirect.com/?s=154&ref=sl_… — партнёрка On-X, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "xn----8sbanfg6afcfqb9prb.xn--p1ai",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet (title «Мостбет (Mostbet)™ Официальный сайт»); кнопка «Вход» в шапке — use-matchtrafficpulse.com/l/…?click_id=mostbet, тот же трекер у других сайтов ведёт на dealbest-redirect.com/?s=154&ref=sl_… — партнёрка On-X, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "xn---131-43db3ei0a0cl4c.xn--p1ai",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet (title «Мостбет (Mostbet)™ Официальный сайт»); кнопка «Вход» в шапке — use-matchtrafficpulse.com/l/…?click_id=mostbet, тот же трекер у других сайтов ведёт на dealbest-redirect.com/?s=154&ref=sl_… — партнёрка On-X, ссылок на Mostbet с кодом нет."
+ },
+ {
+  "domain": "xn--80aael0aesd4a9b0d.xn--p1ai",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Монобренд Mostbet (title «Мостбет (Mostbet)™ Официальный сайт»); кнопка «Вход» в шапке — use-matchtrafficpulse.com/l/…?click_id=mostbet, тот же трекер у других сайтов ведёт на dealbest-redirect.com/?s=154&ref=sl_… — партнёрка On-X, ссылок на Mostbet с кодом нет."
+ }
+]

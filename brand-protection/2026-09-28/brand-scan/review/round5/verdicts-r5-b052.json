@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "odchazimonline.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (title «Mostbet oficiální stránka ᐉ Mostbet přihlášení»); кнопки ведут на свой шлюз /visit/ → winshark13.com?stag=109401_… (Winshark). Ссылок с кодом Mostbet нет. Ссылки на mostbet21.pl / mostbet-поддомены — простые, без кода, это не реклама Mostbet."
+ },
+ {
+  "domain": "oil.zgora.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Casino ( Mostbet Polska )»); кнопки ведут на свой шлюз /step-un/ → hellspin222.com?btag=678741_… (Hellspin). Ссылок с кодом Mostbet нет."
+ },
+ {
+  "domain": "ojciecpio.com.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet PL; кнопки href=\"#\" переписываются скриптом main.js на /play → 1xbet.rs?tag=d_3755482m_22585c (по скану внутреннего шлюза). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "one-pravo.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet (Мостбет) ⚽️ Ставки на спорт онлайн и Live»); кнопки ведут на свой шлюз /mostb/ → Nnormcasino-*.win?qtag=a84744_… (NormCasino). Ссылок с кодом Mostbet нет. Логотип и кнопки «Регистрация/Вход» — на этот шлюз."
+ },
+ {
+  "domain": "online-amp-best129.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ ✔️ Rəsmi internet saytında giriş və qey»); кнопки ведут на свой шлюз /go.php → 1xbet.rs?tag=d_3755482m_22585c (1xBet). Ссылок с кодом Mostbet нет."
+ },
+ {
+  "domain": "online-game-best529.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş və qeyd»); кнопки ведут на свой шлюз /go.php → 1xbet.rs?tag=d_3755482m_22585c (1xBet). Ссылок с кодом Mostbet нет."
+ },
+ {
+  "domain": "online-game-top826.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş və qeyd»); кнопки ведут на свой шлюз /go.php → 1xbet.rs?tag=d_3755482m_22585c (1xBet). Ссылок с кодом Mostbet нет."
+ },
+ {
+  "domain": "online-super-amp503.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ ✔️ Rəsmi internet saytında giriş və qey»); кнопки ведут на свой шлюз /go.php → 1xbet.rs?tag=d_3755482m_22585c (1xBet). Ссылок с кодом Mostbet нет."
+ },
+ {
+  "domain": "onocosi.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (title «Mostbet Official Site ᐉ Mostbet Login»); кнопки ведут на свой шлюз /out/ → winshark13.com?stag=109401_… (Winshark). Ссылок с кодом Mostbet нет. Ссылки на mostbet21.pl / mostbet-поддомены — простые, без кода, это не реклама Mostbet."
+ },
+ {
+  "domain": "optimistic-theatre.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet UZ — rasmiy sayt va online casino imkoniya»); кнопки ведут на свой шлюз /play → 1xbet.rs?tag=d_3755482m_22585c (1xBet). Ссылок с кодом Mostbet нет."
+ },
+ {
+  "domain": "optyklawrynowicz.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (title «Mostbet Official Site ᐉ Mostbet Login»); кнопки ведут на свой шлюз /go/ → winshark13.com?stag=109401_… (Winshark). Ссылок с кодом Mostbet нет. Ссылки на mostbet21.pl / mostbet-поддомены — простые, без кода, это не реклама Mostbet."
+ },
+ {
+  "domain": "ordinace-hladikova.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet ᐉ Sportovní sázení a kasino v Česku 2026»); кнопки ведут на свой шлюз /play/ → one-vv3429.com?p=hztd (1win). Ссылок с кодом Mostbet нет."
+ },
+ {
+  "domain": "orgavalue.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд «MostBet Casino Portugal»; скрипт переписывает все href=\"#\" и демо-слоты на /go → трекер jdixwyedm.top → 1xbet.rs?tag=d_3755482m_22585c."
+ },
+ {
+  "domain": "ortho-architekci.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (title «Mostbet Official Site ᐉ Mostbet Login»); кнопки ведут на свой шлюз /go/ → winshark13.com?stag=109401_… (Winshark). Ссылок с кодом Mostbet нет. Ссылки на mostbet21.pl / mostbet-поддомены — простые, без кода, это не реклама Mostbet."
+ },
+ {
+  "domain": "ortodoncja-bronowice.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «MostBet Kasyno PL 🎰 Logowanie, Apk & Bonus Code – ») (главная переехала на cmrdymek.pl, суждение по ней); кнопки ведут на свой шлюз /play/ → one-vv3429.com?p=hztd (1win). Ссылок с кодом Mostbet нет."
+ },
+ {
+  "domain": "ousterhout.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Мостбет: зеркало казино Mostbet KZ - быстрый вход»); кнопки ведут на свой шлюз /play → 1xbet.rs?tag=d_3755482m_22585c (1xBet). Ссылок с кодом Mostbet нет."
+ },
+ {
+  "domain": "oxyd.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (title «Mostbet Official Site ᐉ Mostbet Login»); кнопки ведут на свой шлюз /get/ → winshark13.com?stag=109401_… (Winshark). Ссылок с кодом Mostbet нет. Ссылки на mostbet21.pl / mostbet-поддомены — простые, без кода, это не реклама Mostbet."
+ },
+ {
+  "domain": "ozogpytlak.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Casino PL ⭐ Oficjalna Strona ⭐ Bonus do 20»); кнопки ведут на свой шлюз /go → 1xbet.rs?tag=d_3755482m_22585c (1xBet). Ссылок с кодом Mostbet нет."
+ },
+ {
+  "domain": "pandalajka.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Casino — Zagraj w nowoczesnym kasynie onli»); кнопки ведут на свой шлюз /link/ → hellspin222.com?btag=678741_… (Hellspin). Ссылок с кодом Mostbet нет."
+ },
+ {
+  "domain": "parts-portal.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet (Мостбет) 🎮 Ставки на Киберспорт: Dota 2 и»); кнопки ведут на свой шлюз /mostb/ → Nnormcasino-*.win?qtag=a84744_… (NormCasino). Ссылок с кодом Mostbet нет. Логотип и кнопки «Регистрация/Вход» — на этот шлюз."
+ },
+ {
+  "domain": "paterfamilia.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet — O'zbekistondagi Onlayn Kazino | paterfam»); кнопки ведут на свой шлюз /play → 1xbet.rs?tag=d_3755482m_22585c (1xBet). Ссылок с кодом Mostbet нет."
+ },
+ {
+  "domain": "paywatches.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ – Onlayn Casino və Mərc | Giriş və Sərf») (главная переехала на foothillstorm.org, суждение по ней); кнопки ведут на свой шлюз /play → 1xbet.rs?tag=d_3755482m_22585c (1xBet). Ссылок с кодом Mostbet нет."
+ },
+ {
+  "domain": "paywatchesnet.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ – Onlayn Casino və Mərc | Giriş və Sərf»); кнопки ведут на свой шлюз /play.php → 1xbet.rs?tag=d_3755482m_22585c (1xBet). Ссылок с кодом Mostbet нет."
+ },
+ {
+  "domain": "pcpr-kluczbork.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (title «Mostbet Official Site ᐉ Mostbet Login»); кнопки ведут на свой шлюз /go/ → winshark13.com?stag=109401_… (Winshark). Ссылок с кодом Mostbet нет. Ссылки на mostbet21.pl / mostbet-поддомены — простые, без кода, это не реклама Mostbet."
+ },
+ {
+  "domain": "pdemopoulos.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Плитки игр в сайдбаре — window.open на play-link.org/wzmqNL9S?…pid=241, этот код по всем сканам ведёт на casea-8039.com (Casea). Ссылка getplay.plseocpa.com — испорченная копия с \\u0026, её не считаю; Mostbet.apk с mobile-apps.online без кода партнёра — не реклама Mostbet."
+ },
+ {
+  "domain": "peixe-eletrico.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «MostBet Portugal — Casino Online e Apostas com Bón»); кнопки ведут на свой шлюз /play → 1xbet.rs?tag=d_3755482m_22585c (1xBet). Ссылок с кодом Mostbet нет."
+ },
+ {
+  "domain": "perpendox.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ ✔️ Rəsmi internet saytında giriş və qey») (главная переехала на ccr2p.org, суждение по ней); кнопки ведут на свой шлюз /go/ → 1xbet.rs?tag=d_3755482m_22585c (1xBet). Ссылок с кодом Mostbet нет."
+ },
+ {
+  "domain": "pescarulhoinar.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Логотип и кнопки «Zaloguj/Zarejestruj» ведут на трекер pinutes.com/click?key=…, посетителей из Google скрипт сразу уводит туда же; по скану цепочка идёт на ggbetbestoffer.com → GGBet (\\u0026 только в итоговом адресе ggbetconnect). Рекламы Mostbet нет."
+ },
+ {
+  "domain": "pgon.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet Casino Kasyno Online PL ⚡️ Wpłaty BLIK i S»); кнопки ведут на свой шлюз /step-un/ → hellspin222.com?btag=678741_… (Hellspin). Ссылок с кодом Mostbet нет."
+ },
+ {
+  "domain": "pinky-planet.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (title «Mostbet Official Site ᐉ Mostbet Login»); кнопки ведут на свой шлюз /go/ → winshark13.com?stag=109401_… (Winshark). Ссылок с кодом Mostbet нет. Ссылки на mostbet21.pl / mostbet-поддомены — простые, без кода, это не реклама Mostbet."
+ },
+ {
+  "domain": "piosad.com.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Кнопка «Zarejestruj się» (браузерный клик) уходит на track-mono.com/allmono?kg=mostbet → btsiwvn.me → bets.io со stag=250179; этот трекер по другим сайтам ведёт на wolf.io/bets.io, не на Mostbet."
+ },
+ {
+  "domain": "pivnicenamarjance.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (title «Mostbet Official Site ᐉ Mostbet Login»); кнопки ведут на свой шлюз /out/ → winshark13.com?stag=109401_… (Winshark). Ссылок с кодом Mostbet нет. Ссылки на mostbet21.pl / mostbet-поддомены — простые, без кода, это не реклама Mostbet."
+ },
+ {
+  "domain": "pizzagallonero.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «MostBet Casino - Prémiové online kasino s nejlepší») (главная переехала на www.zatravnovacishop.cz, суждение по ней); кнопки ведут на свой шлюз /play/ → one-vv3429.com?p=hztd (1win). Ссылок с кодом Mostbet нет."
+ },
+ {
+  "domain": "pk-mycieokien.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Najlepsze Kasyno Online PL 2026 – Mostbet Casino»); кнопки ведут на свой шлюз /step-un/ → hellspin222.com?btag=678741_… (Hellspin). Ссылок с кодом Mostbet нет."
+ },
+ {
+  "domain": "play-game-best194.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş və qeyd»); кнопки ведут на свой шлюз /go.php → 1xbet.rs?tag=d_3755482m_22585c (1xBet). Ссылок с кодом Mostbet нет."
+ },
+ {
+  "domain": "play-mostbet.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Mostbet в домене и title; btnAction() собирает из atob адрес trecklink.xyz/Mostbet → vvegas-promo.com → v484.vegas (Vulkan, ref=vp_w73746…). Реклама только чужого — mono_other (при любом раскладе нарушитель по домену)."
+ },
+ {
+  "domain": "play-top-best237.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet ᐉ Mostbet AZ giriş, yükləmə və bonuslar»); кнопки ведут на свой шлюз /play.php → 1xbet.rs?tag=d_3755482m_22585c (1xBet). Ссылок с кодом Mostbet нет."
+ },
+ {
+  "domain": "play-top-super572.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ | Rəsmi internet saytında giriş və qeyd»); кнопки ведут на свой шлюз /go.php → 1xbet.rs?tag=d_3755482m_22585c (1xBet). Ссылок с кодом Mostbet нет."
+ },
+ {
+  "domain": "pmfr.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet (Мостбет) 🎁 Бонус за первый депозит и Фриб»); кнопки ведут на свой шлюз /mostb/ → Nnormcasino-*.win?qtag=a84744_… (NormCasino). Ссылок с кодом Mostbet нет. Логотип и кнопки «Регистрация/Вход» — на этот шлюз."
+ },
+ {
+  "domain": "podmitrov.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet ᐉ Mosbet Casino & Online Bahis Rehberi – K»); кнопки ведут на свой шлюз /play → 1xbet.rs?tag=d_3755482m_22585c (1xBet). Ссылок с кодом Mostbet нет."
+ },
+ {
+  "domain": "podmitrovcz.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet ᐉ Mosbet Casino & Online Bahis Rehberi – K»); кнопки ведут на свой шлюз /play.php → 1xbet.rs?tag=d_3755482m_22585c (1xBet). Ссылок с кодом Mostbet нет."
+ },
+ {
+  "domain": "podmitrovcz1.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet ᐉ Mosbet Casino & Online Bahis Rehberi – K»); кнопки ведут на свой шлюз /play.php → 1xbet.rs?tag=d_3755482m_22585c (1xBet). Ссылок с кодом Mostbet нет."
+ },
+ {
+  "domain": "podokregzabrze.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд «Mostbet Polska»; кнопки ведут на свой /go.php → 1xbet.rs с tag=d_3755482m. Плюс прямые ссылки на vavada-pln.pl и finut2020.com в подвале."
+ },
+ {
+  "domain": "podtrzemarozami.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (title «Mostbet Official Site ᐉ Mostbet Login»); кнопки ведут на свой шлюз /go/ → winshark13.com?stag=109401_… (Winshark). Ссылок с кодом Mostbet нет. Ссылки на mostbet21.pl / mostbet-поддомены — простые, без кода, это не реклама Mostbet."
+ },
+ {
+  "domain": "politekonomia.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet (Мостбет) ⚽️ Широкая линия и лучшие выплат»); кнопки ведут на свой шлюз /mostb/ → Nnormcasino-*.win?qtag=a84744_… (NormCasino). Ссылок с кодом Mostbet нет. Логотип и кнопки «Регистрация/Вход» — на этот шлюз."
+ },
+ {
+  "domain": "polskiprocescywilny.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Mostbet Polska»; кнопки «Bonus» и главная кнопка — casino/main → 22bet4u.com/slots?btag=47969_… (22Bet). Ссылка wwwash.pl — простая."
+ },
+ {
+  "domain": "porodniasistentkaolomouc.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.88,
+  "comment": "Монобренд Mostbet (title «Mostbet Casino CZ – oficiální stránka, bonusy a hr»); кнопки ведут на свой шлюз /out/ → winshark13.com?stag=109401_… (Winshark). Ссылок с кодом Mostbet нет. Ссылки на mostbet21.pl / mostbet-поддомены — простые, без кода, это не реклама Mostbet."
+ },
+ {
+  "domain": "primacinemacom225.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ Giriş ᐉ Mostbet Azerbaycan Rəsmi Casino»); кнопки ведут на свой шлюз /play.php → 1xbet.rs?tag=d_3755482m_22585c (1xBet). Ссылок с кодом Mostbet нет."
+ },
+ {
+  "domain": "primacinemacom354.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ Giriş ᐉ Mostbet Azerbaycan Rəsmi Casino»); кнопки ведут на свой шлюз /play.php → 1xbet.rs?tag=d_3755482m_22585c (1xBet). Ссылок с кодом Mostbet нет."
+ },
+ {
+  "domain": "primacinemacom387.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (title «Mostbet AZ Giriş ᐉ Mostbet Azerbaycan Rəsmi Casino»); кнопки ведут на свой шлюз /play.php → 1xbet.rs?tag=d_3755482m_22585c (1xBet). Ссылок с кодом Mostbet нет."
+ }
+]

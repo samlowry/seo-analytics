@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "argentina-mostbet-casino.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet Argentina: кнопки /link ведут через keitaro-zalupa.com/JRK3yP на регистрацию dalewin1011.com с qtag (чужое казино), рядом трекер Mostbet 438idla.com/qvWU."
+ },
+ {
+  "domain": "casino-mostbet-arg.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet Argentina: кнопки /link ведут через keitaro-zalupa.com/JRK3yP на регистрацию dalewin1011.com с qtag (чужое казино), рядом трекер Mostbet 438idla.com/qvWU."
+ },
+ {
+  "domain": "casino-mostbet-online11.top",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "«Чужая» реклама — трекер 1dwb9qa4.top, который привёл на ndnymamb.com/casino/registration?pid=317230 — это рефка Mostbet (хост …mb.com, тот же pid 317230, что у /go/ → hgzcnhmb.com). Чужих брендов нет."
+ },
+ {
+  "domain": "casino-mostbet-online12.top",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "«Чужая» реклама — трекер 1dwb9qa4.top, который привёл на ndnymamb.com/casino/registration?pid=317230 — это рефка Mostbet (хост …mb.com, тот же pid 317230, что у /go/ → hgzcnhmb.com). Чужих брендов нет."
+ },
+ {
+  "domain": "casino-mostbet-online7.top",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "«Чужая» реклама — трекер 1dwb9qa4.top, который привёл на ndnymamb.com/casino/registration?pid=317230 — это рефка Mostbet (хост …mb.com, тот же pid 317230, что у /go/ → hgzcnhmb.com). Чужих брендов нет."
+ },
+ {
+  "domain": "casino-mostbet-online8.top",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "«Чужая» реклама — трекер 1dwb9qa4.top, который привёл на ndnymamb.com/casino/registration?pid=317230 — это рефка Mostbet (хост …mb.com, тот же pid 317230, что у /go/ → hgzcnhmb.com). Чужих брендов нет."
+ },
+ {
+  "domain": "deal-play-kaz3.top",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.8,
+  "comment": "Title/h1 «Mostbet Welcome Bonus», на странице карточки бонусов с кнопками CLAIM BONUS на 1win (w-one909485.life ?p=zew9) и 1xBet (reffpa.com tag=d_5333101m_97c_) рядом с трекером Mostbet n37ztcmb.com/LVDU."
+ },
+ {
+  "domain": "deal-roll-ind1.top",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.8,
+  "comment": "Title/h1 «Mostbet Welcome Bonus», на странице карточки бонусов с кнопками CLAIM BONUS на 1win (w-one909485.life ?p=zew9) и 1xBet (reffpa.com tag=d_5333101m_97c_) рядом с трекером Mostbet n37ztcmb.com/LVDU."
+ },
+ {
+  "domain": "dealluckbangladesh2025.top",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.8,
+  "comment": "Title/h1 «Mostbet Welcome Bonus», на странице карточки бонусов с кнопками CLAIM BONUS на 1win (w-one909485.life ?p=zew9) и 1xBet (reffpa.com tag=d_5333101m_97c_) рядом с трекером Mostbet n37ztcmb.com/LVDU."
+ },
+ {
+  "domain": "giftrollceylon4.top",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.8,
+  "comment": "Title/h1 «Mostbet Welcome Bonus», на странице карточки бонусов с кнопками CLAIM BONUS на 1win (w-one909485.life ?p=zew9) и 1xBet (reffpa.com tag=d_5333101m_97c_) рядом с трекером Mostbet n37ztcmb.com/LVDU."
+ },
+ {
+  "domain": "guidehighnomad2026.top",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.8,
+  "comment": "Title/h1 «Mostbet Welcome Bonus», на странице карточки бонусов с кнопками CLAIM BONUS на 1win (w-one909485.life ?p=zew9) и 1xBet (reffpa.com tag=d_5333101m_97c_) рядом с трекером Mostbet n37ztcmb.com/LVDU."
+ },
+ {
+  "domain": "kz-mostbet.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Посетителю 403 Access Denied, контент только для Googlebot; все кнопки «БОНУС» — TDS ineifhgvjdmnvn.xyz/WSsPYB, который у mostbetkz.org/mostbet0.net уводил на joi.com (AI-чат, не гэмблинг). Чужого бренда-оператора не видно, получатель неизвестен."
+ },
+ {
+  "domain": "kzmostbet.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Посетителю 403 Access Denied, контент только для Googlebot; все кнопки «БОНУС» — TDS ineifhgvjdmnvn.xyz/WSsPYB, который у mostbetkz.org/mostbet0.net уводил на joi.com (AI-чат, не гэмблинг). Чужого бренда-оператора не видно, получатель неизвестен."
+ },
+ {
+  "domain": "mmostbet.ink",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet PL: шлюз /go/main ротирует между рефкой Mostbet (kaqimwmb.com pid=444325) и регистрацией slotoro77.bet ?ref=vp_w260700… (чужое казино)."
+ },
+ {
+  "domain": "mostbet--casin.click",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet PL: шлюз /go/main ротирует между рефкой Mostbet (kaqimwmb.com pid=444325) и регистрацией slotoro77.bet ?ref=vp_w260700… (чужое казино)."
+ },
+ {
+  "domain": "mostbet-1.kz",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Единственная внешняя кнопка во всех страницах — adminclick.org/<код> (ведёт через goclickflow/tsdpupgo на dzdsbn.com или btwerz.p56219up84.com, лид-форма /Ped/ и затем 404). Бренд получателя не установлен; «чужая» и «Mostbet»-ссылка — одна и та же кнопка."
+ },
+ {
+  "domain": "mostbet-app.kg",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Единственная внешняя кнопка во всех страницах — adminclick.org/<код> (ведёт через goclickflow/tsdpupgo на dzdsbn.com или btwerz.p56219up84.com, лид-форма /Ped/ и затем 404). Бренд получателя не установлен; «чужая» и «Mostbet»-ссылка — одна и та же кнопка."
+ },
+ {
+  "domain": "mostbet-az.ws",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet Azərbaycan (контент для Google-mobile), кнопки /mostbet/ ведут 301 на 1win: 1wksxo.life → one-vv3591.com/v3/reg-form-mostbet?p=gdr6."
+ },
+ {
+  "domain": "mostbet-az314.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Единственная внешняя кнопка во всех страницах — adminclick.org/<код> (ведёт через goclickflow/tsdpupgo на dzdsbn.com или btwerz.p56219up84.com, лид-форма /Ped/ и затем 404). Бренд получателя не установлен; «чужая» и «Mostbet»-ссылка — одна и та же кнопка."
+ },
+ {
+  "domain": "mostbet-casino-ghw1.ru",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Монобренд Мостбет: шлюз /goto/ отдаёт то рефку Mostbet (lfpvspmb.com pid=261386), то trynvex.org ?stag=69533_… → kometacasino709.com (Kometa, чужое казино)."
+ },
+ {
+  "domain": "mostbet-casino00.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.6,
+  "comment": "Посетителю Cloudflare 520, из Google-mobile — монобренд «Мостбет», все пункты меню и логотип ведут на TDS myadsdeal.com/l/68864cb3…?sub_id=… (формат /l/<id> как у new-promos/catensualined, уводящих на Verde/VOX); рефок Mostbet нет."
+ },
+ {
+  "domain": "mostbet-online-az.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Единственная внешняя кнопка во всех страницах — adminclick.org/<код> (ведёт через goclickflow/tsdpupgo на dzdsbn.com или btwerz.p56219up84.com, лид-форма /Ped/ и затем 404). Бренд получателя не установлен; «чужая» и «Mostbet»-ссылка — одна и та же кнопка."
+ },
+ {
+  "domain": "mostbet-online-uz.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Единственная внешняя кнопка во всех страницах — adminclick.org/<код> (ведёт через goclickflow/tsdpupgo на dzdsbn.com или btwerz.p56219up84.com, лид-форма /Ped/ и затем 404). Бренд получателя не установлен; «чужая» и «Mostbet»-ссылка — одна и та же кнопка."
+ },
+ {
+  "domain": "mostbet-online.kg",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Единственная внешняя кнопка во всех страницах — adminclick.org/<код> (ведёт через goclickflow/tsdpupgo на dzdsbn.com или btwerz.p56219up84.com, лид-форма /Ped/ и затем 404). Бренд получателя не установлен; «чужая» и «Mostbet»-ссылка — одна и та же кнопка."
+ },
+ {
+  "domain": "mostbet-online.kz",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_unresolved",
+  "confidence": 0.55,
+  "comment": "Единственная внешняя кнопка во всех страницах — adminclick.org/<код> (ведёт через goclickflow/tsdpupgo на dzdsbn.com или btwerz.p56219up84.com, лид-форма /Ped/ и затем 404). Бренд получателя не установлен; «чужая» и «Mostbet»-ссылка — одна и та же кнопка."
+ },
+ {
+  "domain": "mostbet-pl.click",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbetkasyno.org.pl — монобренд Mostbet Kasyno, кнопки регистрации ведут на 1win: 1wfafs.life/casino/list?open=register&p=oa30."
+ },
+ {
+  "domain": "mostbet-rating-casino7.top",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "Трекер a8qbwd9m19.top привёл на ndnymamb.com/casino/registration?pid=317230 — рефка Mostbet, тот же pid, что у /go/ → hgzcnhmb.com. Чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-ukraine.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Монобренд Mostbet Україна: шлюз /go/ через webshield.top обычно на рефку Mostbet (lziooamb.com pid=147099), но при скане увёл на bigclash-9829.com/lv/registration?mid=388580_… (чужое казино) — ротация."
+ },
+ {
+  "domain": "mostbet.help",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.7,
+  "comment": "Монобренд Mostbet (APK, промокод): трекер Mostbet weg96sbmb.com/k6pF и шлюз регистрации через new-promos.com/l/66ba… → redirect-verde.com (Verde casino, чужое)."
+ },
+ {
+  "domain": "mostbet2.click",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet PL: шлюз /go/main ротирует между рефкой Mostbet (kaqimwmb.com pid=444325) и регистрацией slotoro77.bet ?ref=vp_w260700… (чужое казино)."
+ },
+ {
+  "domain": "mostbet2.ink",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet PL: шлюз /go/main ротирует между рефкой Mostbet (kaqimwmb.com pid=444325) и регистрацией slotoro77.bet ?ref=vp_w260700… (чужое казино)."
+ },
+ {
+  "domain": "mostbet2.life",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet PL: шлюз /go/main ротирует между рефкой Mostbet (kaqimwmb.com pid=444325) и регистрацией slotoro77.bet ?ref=vp_w260700… (чужое казино)."
+ },
+ {
+  "domain": "mostbet3.ink",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet PL: шлюз /go/main ротирует между рефкой Mostbet (kaqimwmb.com pid=444325) и регистрацией slotoro77.bet ?ref=vp_w260700… (чужое казино)."
+ },
+ {
+  "domain": "mostbet5.ink",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet PL: шлюз /go/main ротирует между рефкой Mostbet (kaqimwmb.com pid=444325) и регистрацией slotoro77.bet ?ref=vp_w260700… (чужое казино)."
+ },
+ {
+  "domain": "mostbet7.pl",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.85,
+  "comment": "«Чужая реклама» asccw.playngonetwork.com/ContainerLauncher?practice=1 — демо-слот Book of Dead в iframe (data-iframe-url), не реклама; все 29 CTA (data-href base64) ведут на klnumymb.com/qvfU → рефка Mostbet pid=424185."
+ },
+ {
+  "domain": "mostbetaussie.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Монобренд Mostbet Australia: кнопка /go → parrot-gang.top/click?key=62c9… → jtct.live ?stag=228947_… (чужое казино, регистрация); рефок Mostbet на странице нет."
+ },
+ {
+  "domain": "mostbetcasino7.pl",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "redirect_other",
+  "confidence": 0.7,
+  "comment": "Главная — страница «Przekierowanie… Mostbet Casino» с meta refresh 3 с на gamewins.net/go/d62d17f7…; при скане этот TDS увёл через catensualined.xyz на thespeedredirect.com ?ref=ca_w178343… (чужое казино), хотя у других сайтов gamewins ведёт на Mostbet — ротация."
+ },
+ {
+  "domain": "mostbetcasinodaet.ru",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Монобренд Мостбет: шлюз /goto/ отдаёт то рефку Mostbet (lfpvspmb.com pid=261386), то trynvex.org ?stag=69533_… → kometacasino709.com (Kometa, чужое казино)."
+ },
+ {
+  "domain": "mostbetcasinogo.ru",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Монобренд Мостбет: шлюз /goto/ отдаёт то рефку Mostbet (lfpvspmb.com pid=261386), то trynvex.org ?stag=69533_… → kometacasino709.com (Kometa, чужое казино)."
+ },
+ {
+  "domain": "mostbetdownload.com",
+  "given": "mono_mixed",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.7,
+  "comment": "«Чужой» npwfcqi.com/rFyF (кнопки DOWNLOAD, free money, Aviator) — мёртвый трекер в формате коротких кодов Mostbet (как xf38lo22j1y0ihymst.com/Z2yF на Sign Up на той же странице); признаков чужого бренда нет."
+ },
+ {
+  "domain": "mostbetgo.ru",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Монобренд Мостбет: шлюз /goto/ отдаёт то рефку Mostbet (lfpvspmb.com pid=261386), то trynvex.org ?stag=69533_… → kometacasino709.com (Kometa, чужое казино)."
+ },
+ {
+  "domain": "mostbets.net.gr",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Монобренд MostBet Ελλάδα: /go/ → pathwave.online ротирует между рефкой Mostbet (lziooamb.com pid=147099) и redirect-verde.com (Verde casino, чужое)."
+ },
+ {
+  "domain": "mostbets.net.pl",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Монобренд Mostbet Login PL: /go/ → refpilot.top ротирует между рефкой Mostbet (lziooamb.com pid=147099) и bigclash-9829.com/registration?mid=388580_… (чужое казино)."
+ },
+ {
+  "domain": "mostbets1.ink",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet PL: шлюз /go/main ротирует между рефкой Mostbet (kaqimwmb.com pid=444325) и регистрацией slotoro77.bet ?ref=vp_w260700… (чужое казино)."
+ },
+ {
+  "domain": "mostbetspin.ru",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Монобренд Мостбет: шлюз /goto/ отдаёт то рефку Mostbet (lfpvspmb.com pid=261386), то trynvex.org ?stag=69533_… → kometacasino709.com (Kometa, чужое казино)."
+ },
+ {
+  "domain": "mostbett-zerkalo.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.6,
+  "comment": "Посетителю 403, из Google-mobile все кнопки «Вход/Регистрация» — sneaker-speaker.com/click?key=611d…; этот трекер у zu5ekgh.net ведёт на рефку Mostbet (jzyn7ac6mb.com pid=5870), чужого получателя не замечено."
+ },
+ {
+  "domain": "mostbett.com.pl",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.75,
+  "comment": "Монобренд Mostbet Polska: /go/ → refpilot.top ротирует между рефкой Mostbet (lziooamb.com pid=147099) и redirect-verde.com (Verde casino, чужое); тот же шаблон, что mo-stb-et.com."
+ },
+ {
+  "domain": "offer-pot-braza3.top",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.8,
+  "comment": "Title/h1 «Mostbet Welcome Bonus», на странице карточки бонусов с кнопками CLAIM BONUS на 1win (w-one909485.life ?p=zew9) и 1xBet (reffpa.com tag=d_5333101m_97c_) рядом с трекером Mostbet n37ztcmb.com/LVDU."
+ },
+ {
+  "domain": "offerplayrf2026.top",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.8,
+  "comment": "Title/h1 «Mostbet Welcome Bonus», на странице карточки бонусов с кнопками CLAIM BONUS на 1win (w-one909485.life ?p=zew9) и 1xBet (reffpa.com tag=d_5333101m_97c_) рядом с трекером Mostbet n37ztcmb.com/LVDU."
+ },
+ {
+  "domain": "prize-roll-bang2025.top",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.8,
+  "comment": "Title/h1 «Mostbet Welcome Bonus», на странице карточки бонусов с кнопками CLAIM BONUS на 1win (w-one909485.life ?p=zew9) и 1xBet (reffpa.com tag=d_5333101m_97c_) рядом с трекером Mostbet n37ztcmb.com/LVDU."
+ }
+]

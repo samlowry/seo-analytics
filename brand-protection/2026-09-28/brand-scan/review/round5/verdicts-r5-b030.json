@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "sportrg.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Мостбет зеркало»; кнопки /play ведут на 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink (рефка 1xBet), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "st-martory.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.9,
+  "comment": "Переезд на penniesfortheplanet.org. Монобренд MostBet Polska: /go → linebet.com/registration?tag=d_2725857m_22611c_ (Linebet), а mostbets-polska.com/go/registration → fvoidjmb.com pid=303430 (Mostbet)."
+ },
+ {
+  "domain": "storetbj.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet Casino PL; ротатор traftraf.site/Wn1ZDh/ отдаёт то twindorcasino.com?refCode=ca_w238212… (Twindor), то lziooamb.com pid=392426 (Mostbet)."
+ },
+ {
+  "domain": "studiocarnley.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet AZ (HTML не сохранён, по destinations); /play → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink."
+ },
+ {
+  "domain": "tamosspace.kz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Мостбет KZ; кнопки /play ведут на 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink (рефка 1xBet), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "tarmpu.kz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Мостбет зеркало»; кнопки /play ведут на 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink (рефка 1xBet), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "tasptrio.org",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Title «Mostbet Casino Official Site in Bangladesh», а h1 и текст про MelBet (Melbet 128 упоминаний, Mostbet 0) — приманка на чужой бренд."
+ },
+ {
+  "domain": "tehreg.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet AZ; кнопки /play ведут на 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink (рефка 1xBet), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "thegarage-cville.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.85,
+  "comment": "HTML не сохранён, по destinations: Монобренд MostBet Polska: /go → linebet.com/registration?tag=d_2725857m_22611c_ (Linebet), а mostbets-polska.com/go/registration → fvoidjmb.com pid=303430 (Mostbet)."
+ },
+ {
+  "domain": "trashvoyage.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.9,
+  "comment": "Переезд на myparuchia.com. Монобренд MostBet Polska: /go → linebet.com/registration?tag=d_2725857m_22611c_ (Linebet), а mostbets-polska.com/go/registration → fvoidjmb.com pid=303430 (Mostbet)."
+ },
+ {
+  "domain": "tripensation.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet Portugal (HTML не сохранён, по destinations); /go → one-vv5043.com/?p=17f8&sub1=… (1win), прямые ссылки one-vv*.com/casino?open=register&p=17f8."
+ },
+ {
+  "domain": "triplettx.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Мостбет зеркало»; кнопки /play ведут на 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink (рефка 1xBet), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "una-unso.info",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.9,
+  "comment": "Переезд на penniesfortheplanet.org. Монобренд MostBet Polska: /go → linebet.com/registration?tag=d_2725857m_22611c_ (Linebet), а mostbets-polska.com/go/registration → fvoidjmb.com pid=303430 (Mostbet)."
+ },
+ {
+  "domain": "unbridledspeculation.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.9,
+  "comment": "Переезд на thegarage-cville.com. Монобренд MostBet Polska: /go → linebet.com/registration?tag=d_2725857m_22611c_ (Linebet), а mostbets-polska.com/go/registration → fvoidjmb.com pid=303430 (Mostbet)."
+ },
+ {
+  "domain": "unionstreetplayers.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet Azərbaycan; кнопки /play ведут на 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink (рефка 1xBet), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "veganationmtl.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet Türkiye; кнопки /play ведут на 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink (рефка 1xBet), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "viaexpert.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet Casino PL; кнопки /play ведут на 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink (рефка 1xBet), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "viapublication.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд MostBet AZ; кнопки /play ведут на 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink (рефка 1xBet), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "wildhorsewebworks.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet Portugal; кнопки /play ведут на 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink (рефка 1xBet), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "xn----7sbqgez1bcecc.xn--p1ai",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд «Мостбет зеркало»; кнопки /play ведут на 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink (рефка 1xBet), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "yeahstub.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet HU; кнопки /play ведут на 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink (рефка 1xBet), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "yoxvalleypartnership.org",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.9,
+  "comment": "Переезд на sleater-kinney.org. Монобренд MostBet Polska: /go → linebet.com/registration?tag=d_2725857m_22611c_ (Linebet), а mostbets-polska.com/go/registration → fvoidjmb.com pid=303430 (Mostbet)."
+ },
+ {
+  "domain": "zvonyprosumavu.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet CZ; все кнопки /go/ → трекер ddd7dj.org/MPNB4gYP → lanista-2064.com/registration?mid=371788_… (Lanista), в ротации sltna.pclira.com → slotuna-0296.com."
+ },
+ {
+  "domain": "bydgoszczstolarz.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Переезд на cmrdymek.pl (монобренд MostBet PL, клоака под Google mobile); /play/ → трекер serffigrcqufssefv.help/g1sS3B → one-vv3429.com?p=hztd (1win)."
+ },
+ {
+  "domain": "cult-and-art.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Переезд на davidstuckenberg.com (монобренд Mostbet AZ, клоака под Googlebot); /play → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink."
+ },
+ {
+  "domain": "davidstuckenberg.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд Mostbet AZ, клоака под Googlebot; /play → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink."
+ },
+ {
+  "domain": "diablicospanama.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Обычному браузеру 403, Googlebot видит монобренд Mostbet Magyarország; /go/ → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink."
+ },
+ {
+  "domain": "filyosvadisi.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Переезд на turkiyepromotiongroup.com (монобренд Mostbet Giriş, клоака под Googlebot); go.php → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink."
+ },
+ {
+  "domain": "heystack.is",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Монобренд MostBet India, клоака под Google mobile; кнопки /play ведут на 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink (рефка 1xBet), ссылок на Mostbet нет."
+ },
+ {
+  "domain": "iconjane.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Переезд на turkiyepromotiongroup.com (монобренд Mostbet TR, клоака под Googlebot); go.php → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink."
+ },
+ {
+  "domain": "mmostbet.online",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Mostbet в домене (Mmostbet, BD); блок «partner links» с карточками KCWIN/KRWIN/TAKABET ведёт на операторов svip99.12krwin.com, svip99.takabet11.com, svip88.21viptaka.com и сотни дорвеев (1xbet-kr.online, bajilive02.site)."
+ },
+ {
+  "domain": "most-betuz.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Браузеру 403, посетителю из Google — монобренд Mostbet UZ; /play → betwinner.rs/registration?btag=d_94057m_517587c_… (Betwinner), есть /betwinner-download."
+ },
+ {
+  "domain": "mostbet--pl.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене; кнопки /go → трекер best-igaming.ru/bH2CYxMv (владелец: не наше, засчитан как чужой), плюс ссылки на дорвей lemoncasino--pl.pl, 20bet--de.de, betano-slots.de."
+ },
+ {
+  "domain": "mostbet-casino--pl.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене; кнопки /go → трекер best-igaming.ru/bH2CYxMv (владелец: не наше, засчитан как чужой), плюс ссылки на дорвей vulkan-vegas--pl.pl, nv-casino--pl.pl."
+ },
+ {
+  "domain": "mostbet-casino-game.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене; кнопки /go → трекер best-igaming.ru/bH2CYxMv (владелец: не наше, засчитан как чужой), плюс ссылки на дорвей vulkan-vegas--pl.pl, ice-casino--pl.pl."
+ },
+ {
+  "domain": "mostbet-casino-go1nr.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_hidden",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене и title; кнопок на Mostbet нет, видимой чужой рекламы нет; в блоке position:absolute;left:-5000px спрятаны ссылки на чужие монобренд-дорвеи (переезд на playzhp; vavada-norway.com, 1win-israel.com, 1win-aviator-crash-br.com), плюс белым по белому ссылка Neon54 → registration-casinore.com → casinorating-hungary.com."
+ },
+ {
+  "domain": "mostbet-casino-goqji.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_hidden",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене и title; кнопок на Mostbet нет, видимой чужой рекламы нет; в блоке position:absolute;left:-5000px спрятаны ссылки на чужие монобренд-дорвеи (1win-bulgaria.com, 1win-greece.com, 1x-slots-argentina.com), плюс белым по белому ссылка Neon54 → registration-casinore.com → casinorating-hungary.com."
+ },
+ {
+  "domain": "mostbet-casino-gouo7.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_hidden",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене и title; кнопок на Mostbet нет, видимой чужой рекламы нет; в блоке position:absolute;left:-5000px спрятаны ссылки на чужие монобренд-дорвеи (переезд на playrz4; 1win-dominican.com, neon54-finland.com), плюс белым по белому ссылка Neon54 → registration-casinore.com → casinorating-hungary.com."
+ },
+ {
+  "domain": "mostbet-casino-playe9p.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_hidden",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене и title; кнопок на Mostbet нет, видимой чужой рекламы нет; в блоке position:absolute;left:-5000px спрятаны ссылки на чужие монобренд-дорвеи (1win-bet-singapore.com, 1win-israel.com, bcgame-br.com), плюс белым по белому ссылка Neon54 → registration-casinore.com → casinorating-hungary.com."
+ },
+ {
+  "domain": "mostbet-casino-playlrg.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_hidden",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене и title; кнопок на Mostbet нет, видимой чужой рекламы нет; в блоке position:absolute;left:-5000px спрятаны ссылки на чужие монобренд-дорвеи (vavada-greece.com, neon54-germany.com, bc-game-argentina.com), плюс белым по белому ссылка Neon54 → registration-casinore.com → casinorating-hungary.com."
+ },
+ {
+  "domain": "mostbet-casino-playnyg.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_hidden",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене и title; кнопок на Mostbet нет, видимой чужой рекламы нет; в блоке position:absolute;left:-5000px спрятаны ссылки на чужие монобренд-дорвеи (vavada-norway.com, 1win-israel.com, 1x-slots-brasil.com), плюс белым по белому ссылка Neon54 → registration-casinore.com → casinorating-hungary.com."
+ },
+ {
+  "domain": "mostbet-casino-playrah.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_hidden",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене и title; кнопок на Mostbet нет, видимой чужой рекламы нет; в блоке position:absolute;left:-5000px спрятаны ссылки на чужие монобренд-дорвеи (1win-israel.com, 1winsbangladesh.com, 1win-nigeria-ng.com), плюс белым по белому ссылка Neon54 → registration-casinore.com → casinorating-hungary.com."
+ },
+ {
+  "domain": "mostbet-casino-playrz4.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_hidden",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене и title; кнопок на Mostbet нет, видимой чужой рекламы нет; в блоке position:absolute;left:-5000px спрятаны ссылки на чужие монобренд-дорвеи (1win-dominican.com, neon54-finland.com, 1win-costarica.net), плюс белым по белому ссылка Neon54 → registration-casinore.com → casinorating-hungary.com."
+ },
+ {
+  "domain": "mostbet-casino-playxhs.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_hidden",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене и title; кнопок на Mostbet нет, видимой чужой рекламы нет; в блоке position:absolute;left:-5000px спрятаны ссылки на чужие монобренд-дорвеи (1win-greece.com, vavada-lithuania.com, neon54casino-greece.com), плюс белым по белому ссылка Neon54 → registration-casinore.com → casinorating-hungary.com."
+ },
+ {
+  "domain": "mostbet-casino-playzhp.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_hidden",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене и title; кнопок на Mostbet нет, видимой чужой рекламы нет; в блоке position:absolute;left:-5000px спрятаны ссылки на чужие монобренд-дорвеи (vavada-norway.com, 1win-israel.com, 1x-slots-brasil.com), плюс белым по белому ссылка Neon54 → registration-casinore.com → casinorating-hungary.com."
+ },
+ {
+  "domain": "mostbet-casino-win.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене; кнопки /go → трекер best-igaming.ru/bH2CYxMv (владелец: не наше, засчитан как чужой), плюс ссылки на дорвей vulkan-vegas-win.pl, ice-casino-win.pl."
+ },
+ {
+  "domain": "mostbet-uz.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене, клоака под Google mobile; go.php → 1xbet.rs/registration?tag=d_3755482m_22585c_smartlink (1xBet)."
+ },
+ {
+  "domain": "mostbet-uzbksn.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене; браузеру 404, посетителю из Google — монобренд Mostbet UZ, /reg → flagmanway41.com/c598a2578?ctag=… (Flagman)."
+ },
+ {
+  "domain": "mostbet-vipapp.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.6,
+  "comment": "Mostbet в домене, «информационный центр» без рекламных кнопок; в футере «дружественные ссылки» — простые видимые ссылки без кода на дорвеи-инфоцентры bd-crickex-apps.com, bdbetvisa-app.com, bd-betwinner-apps.com, не на операторов."
+ },
+ {
+  "domain": "mostbetf.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Mostbet в домене и title; кнопка «Регистрация» в шапке → luckypk777d.com/?code=G1EMU4W2UCC (чужое казино с реф-кодом)."
+ }
+]

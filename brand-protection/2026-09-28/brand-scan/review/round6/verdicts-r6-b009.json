@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbet-az-mobile.xyz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.6,
+  "comment": "Видна только версия для Google-mobile: кнопки su-button с href=\"#\", ссылки только внутренние (/yukle, /qeydiyyat); трекеров и чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-az-resmi.online",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet1az.com: кнопки data-href/data-url regi.mostbet1az.com/WLPLGmU — у mostbet-az.gold этот же трекер дошёл до rasfjtmb.com pid=37776 (Mostbet); чужой рекламы нет."
+ },
+ {
+  "domain": "mostbet-az-site.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.6,
+  "comment": "Шаблон с кнопками data-split=\"reg\" через /uploads/main.js, адрес трекера в странице не виден; внешние ссылки только sayeitwithstyle.com и Mostbet-дорвеи (mostbet-az-site.com, mostbet-azerbaijan-amp.com); чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-az.mex.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet1az.com: кнопки data-href/data-url regi.mostbet1az.com/WLPLGmU — у mostbet-az.gold этот же трекер дошёл до rasfjtmb.com pid=37776 (Mostbet); чужой рекламы нет."
+ },
+ {
+  "domain": "mostbet-az.mobi",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.6,
+  "comment": "Кнопки ведут на собственный шлюз /gosite/, получатель не установлен; внешних ссылок и трекеров на странице нет."
+ },
+ {
+  "domain": "mostbet-az.plus",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet1az.com: кнопки data-href/data-url regi.mostbet1az.com/WLPLGmU — у mostbet-az.gold этот же трекер дошёл до rasfjtmb.com pid=37776 (Mostbet); чужой рекламы нет."
+ },
+ {
+  "domain": "mostbet-az.world",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.8,
+  "comment": "Переезд на mostbet1az.com: кнопки data-href/data-url regi.mostbet1az.com/WLPLGmU — у mostbet-az.gold этот же трекер дошёл до rasfjtmb.com pid=37776 (Mostbet); чужой рекламы нет."
+ },
+ {
+  "domain": "mostbet-azerbaijan-indir.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.6,
+  "comment": "Шаблон с кнопками data-split=\"reg\" через /uploads/main.js, адрес трекера в странице не виден; внешние ссылки только sayeitwithstyle.com и Mostbet-дорвеи (mostbet-az-site.com, mostbet-azerbaijan-amp.com); чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-azerbaijan-pro.org",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.65,
+  "comment": "Видимый блок «Recommended platforms»: простые ссылки без кода на toothtalk.org, gainforum.org, meeplerealty.com, centronous.com (последний — дорвей с 1xBet), это mono_xlink; кнопки Giriş/Qeydiyyat ведут на свой /run, получатель не установлен."
+ },
+ {
+  "domain": "mostbet-azerbaijan-win.org",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.65,
+  "comment": "Видимый блок «Recommended platforms»: простые ссылки без кода на toothtalk.org, gainforum.org, meeplerealty.com, centronous.com (последний — дорвей с 1xBet), это mono_xlink; кнопки Giriş/Qeydiyyat ведут на свой /run, получатель не установлен."
+ },
+ {
+  "domain": "mostbet-azerbaijan-yukle.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.6,
+  "comment": "Шаблон с кнопками data-split=\"reg\" через /uploads/main.js, адрес трекера в странице не виден; внешние ссылки только sayeitwithstyle.com и Mostbet-дорвеи (mostbet-az-site.com, mostbet-azerbaijan-amp.com); чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-bahis-giris.org",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.75,
+  "comment": "Клоака для Google-mobile, шаблон сети nostrcal.com (72 сайта): кнопки data-split (bonus, iconapp, app) у соседей идут через perfstream.net на jzyn7ac6mb.com pid=5870 — Mostbet; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-bahis-giris.vip",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.75,
+  "comment": "Клоака для Google-mobile, шаблон сети nostrcal.com (72 сайта): кнопки data-split (bonus, iconapp, app) у соседей идут через perfstream.net на jzyn7ac6mb.com pid=5870 — Mostbet; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-bahis-tr.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.75,
+  "comment": "Шаблон сети mwokajicakery.com: кнопки data-split btn-reg/btn-app у соседей (play-tr-031.online и др.) идут через perfstream.net на jzyn7ac6mb.com pid=5870 — Mostbet; чужой рекламы нет."
+ },
+ {
+  "domain": "mostbet-bahis-turk.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.75,
+  "comment": "Клоака для Google-mobile, шаблон сети nostrcal.com (72 сайта): кнопки data-split (bonus, iconapp, app) у соседей идут через perfstream.net на jzyn7ac6mb.com pid=5870 — Mostbet; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-bahis-turkiye.org",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.75,
+  "comment": "Клоака для Google-mobile, шаблон сети nostrcal.com (72 сайта): кнопки data-split (bonus, iconapp, app) у соседей идут через perfstream.net на jzyn7ac6mb.com pid=5870 — Mostbet; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-bangladesh-app.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.7,
+  "comment": "Клоака для Google-mobile, шаблон theurbangardeninitiative.org (43 сайта): кнопки data-split buttonReg/buttonLog у соседей идут через bnmtrck.com на …mb.com pid=5870 — Mostbet; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-bangladesh-entry.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.7,
+  "comment": "Клоака для Google-mobile, шаблон theurbangardeninitiative.org (43 сайта): кнопки data-split buttonReg/buttonLog у соседей идут через bnmtrck.com на …mb.com pid=5870 — Mostbet; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-bangladesh-online.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.7,
+  "comment": "Клоака для Google-mobile, шаблон theurbangardeninitiative.org (43 сайта): кнопки data-split buttonReg/buttonLog у соседей идут через bnmtrck.com на …mb.com pid=5870 — Mostbet; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-bangladesh-play.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.7,
+  "comment": "Клоака для Google-mobile, шаблон theurbangardeninitiative.org (43 сайта): кнопки data-split buttonReg/buttonLog у соседей идут через bnmtrck.com на …mb.com pid=5870 — Mostbet; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-bd-casino-app.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.7,
+  "comment": "Клоака для Google-mobile, шаблон theurbangardeninitiative.org (43 сайта): кнопки data-split buttonReg/buttonLog у соседей идут через bnmtrck.com на …mb.com pid=5870 — Mostbet; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-bd-casino-online.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.7,
+  "comment": "Клоака для Google-mobile, шаблон theurbangardeninitiative.org (43 сайта): кнопки data-split buttonReg/buttonLog у соседей идут через bnmtrck.com на …mb.com pid=5870 — Mostbet; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-bd-casino.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.7,
+  "comment": "Клоака для Google-mobile, шаблон theurbangardeninitiative.org (43 сайта): кнопки data-split buttonReg/buttonLog у соседей идут через bnmtrck.com на …mb.com pid=5870 — Mostbet; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-bd-login-online.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.7,
+  "comment": "Клоака для Google-mobile, шаблон theurbangardeninitiative.org (43 сайта): кнопки data-split buttonReg/buttonLog у соседей идут через bnmtrck.com на …mb.com pid=5870 — Mostbet; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-bd-online-app.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.7,
+  "comment": "Клоака для Google-mobile, шаблон theurbangardeninitiative.org (43 сайта): кнопки data-split buttonReg/buttonLog у соседей идут через bnmtrck.com на …mb.com pid=5870 — Mostbet; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-bd-online-casino.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.7,
+  "comment": "Клоака для Google-mobile, шаблон theurbangardeninitiative.org (43 сайта): кнопки data-split buttonReg/buttonLog у соседей идут через bnmtrck.com на …mb.com pid=5870 — Mostbet; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-bd.biz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.85,
+  "comment": "Заглушка «We'll be back soon» с логотипом Mostbet, ссылок и кнопок нет."
+ },
+ {
+  "domain": "mostbet-bd.it.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.7,
+  "comment": "Клоака для Google-mobile, шаблон theurbangardeninitiative.org (43 сайта): кнопки data-split buttonReg/buttonLog у соседей идут через bnmtrck.com на …mb.com pid=5870 — Mostbet; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-bd.shop",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "discredit",
+  "confidence": 0.75,
+  "comment": "Googlebot видит клон сайта больницы (Square Hospital: doctors, Centre of Excellence, Room Rent, Online appointment), где название заменено на «Mostbet»; бренд в домене, содержимое не про ставки."
+ },
+ {
+  "domain": "mostbet-be.com",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Все кнопки data-ref-el открывают window.open(signup-page.com/NJytTx?casino=mostbet…); у most-bet.at, mostbet-no.eu.com, mostbet7.org этот трекер ведёт на v484.vegas ref=vp_w265764… (Vulkan Vegas)."
+ },
+ {
+  "domain": "mostbet-betting.online",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.55,
+  "comment": "Для Google-mobile отдаётся WP-страница про Mostbet: кнопки href=\"#\", внешних ссылок и трекеров нет; обычному посетителю 403."
+ },
+ {
+  "domain": "mostbet-bg.bet",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.8,
+  "comment": "Домен переезжает на аукцион nicsell.com/en/domain/mostbet-bg.bet — страница продажи домена, рекламы букмекеров нет."
+ },
+ {
+  "domain": "mostbet-bonus-cesko.cz",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Переезд на craft-her.com (Mostbet CZ, шаблон elvl.cz): кнопки data-element=\"reg\" ведут через holy-duck.top/click?key=6623e2f9… на dd21--dudespin.com mid=33585_2254468 — Dudespin."
+ },
+ {
+  "domain": "mostbet-bonus-online.cz",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.75,
+  "comment": "Тот же шаблон, что craft-her.com и mostbet-online-login.cz (схема elvl.cz, zk-btn data-element=\"reg\", /uploads/main.js); у них кнопки идут через holy-duck.top на dd21--dudespin.com — Dudespin."
+ },
+ {
+  "domain": "mostbet-bukmaker.ru",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.7,
+  "comment": "Шаблон arsam.kz/partner-group.kz: кнопки data-split apkmain/bonus/reg у них идут через traff-link-sky.net на yxlmktmb.com pid=5870 — Mostbet; внешние ссылки только на Mostbet-дорвеи arsam.kz, soh-amp.top."
+ },
+ {
+  "domain": "mostbet-casi-azerbaycan.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.7,
+  "comment": "Шаблон mehrnamrastegari.com/most-az-amper.com: кнопки data-split у них идут через space-mind-io.com на pskxnlmb.com pid=5870 — Mostbet; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-casino-2026.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.7,
+  "comment": "Шаблон mehrnamrastegari.com/most-az-amper.com: кнопки data-split у них идут через space-mind-io.com на pskxnlmb.com pid=5870 — Mostbet; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-casino-apk.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.6,
+  "comment": "Страница Nicepage с одной кнопкой u-btn href=\"#\", внешних ссылок, трекеров и скриптов переходов нет."
+ },
+ {
+  "domain": "mostbet-casino-apk26.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.7,
+  "comment": "Шаблон mehrnamrastegari.com/most-az-amper.com: кнопки data-split у них идут через space-mind-io.com на pskxnlmb.com pid=5870 — Mostbet; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-casino-app-bd.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.7,
+  "comment": "Клоака для Google-mobile, шаблон theurbangardeninitiative.org (43 сайта): кнопки data-split buttonReg/buttonLog у соседей идут через bnmtrck.com на …mb.com pid=5870 — Mostbet; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-casino-app.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.6,
+  "comment": "Страница Nicepage с одной кнопкой u-btn href=\"#\", внешних ссылок, трекеров и скриптов переходов нет."
+ },
+ {
+  "domain": "mostbet-casino-app.cz",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Переезд на craft-her.com (Mostbet CZ, шаблон elvl.cz): кнопки data-element=\"reg\" ведут через holy-duck.top/click?key=6623e2f9… на dd21--dudespin.com mid=33585_2254468 — Dudespin."
+ },
+ {
+  "domain": "mostbet-casino-bahis.vip",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.75,
+  "comment": "Клоака для Google-mobile, шаблон сети nostrcal.com (72 сайта): кнопки data-split (bonus, iconapp, app) у соседей идут через perfstream.net на jzyn7ac6mb.com pid=5870 — Mostbet; чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-casino-bg.com",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.7,
+  "comment": "183 ссылки tb-on:click=\"window.open(atob(…))\" декодируются в чужой трекер nlsmart.top/ev7Go98B?sub_id_5=…; та же сеть шаблонов (mostbet-offiziell.de: rollix.top → Lizaro, n1bet-bet.com, vegasherocasino-bet.com) крутит чужие казино."
+ },
+ {
+  "domain": "mostbet-casino-bonus.cz",
+  "given": "mono_no_ads",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.85,
+  "comment": "Переезд на craft-her.com (Mostbet CZ, шаблон elvl.cz): кнопки data-element=\"reg\" ведут через holy-duck.top/click?key=6623e2f9… на dd21--dudespin.com mid=33585_2254468 — Dudespin."
+ },
+ {
+  "domain": "mostbet-casino-cz.site",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.55,
+  "comment": "Кнопки data-split reg/log/content через /uploads/main.js, адрес трекера не виден, у соседей шаблона (savinggracegrouphomes.com, thexrock.com) получатель тоже не установлен; чужих ссылок нет."
+ },
+ {
+  "domain": "mostbet-casino-czech.cz",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.55,
+  "comment": "53 кнопки ведут на собственный шлюз /hrát, получатель не установлен; внешних ссылок и трекеров на странице нет."
+ },
+ {
+  "domain": "mostbet-casino-gold.ru",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_mostbet",
+  "confidence": 0.7,
+  "comment": "Копия most-bet.berst59.ru: кнопки data-split buttonReg/buttonLog/buttonBanner у berst59.ru идут через gameshreder.com на yxlmktmb.com pid=5870 — Mostbet; ссылки municipal-sd.ru — Mostbet-обзорник."
+ },
+ {
+  "domain": "mostbet-casino-indir.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.6,
+  "comment": "Шаблон с кнопками data-split=\"reg\" через /uploads/main.js, адрес трекера в странице не виден; внешние ссылки только sayeitwithstyle.com и Mostbet-дорвеи (mostbet-az-site.com, mostbet-azerbaijan-amp.com); чужих брендов нет."
+ },
+ {
+  "domain": "mostbet-casino-morocco.com",
+  "given": "mono_no_ads",
+  "violator": false,
+  "verdict": "correct",
+  "should_be": "mono_no_ads",
+  "confidence": 0.6,
+  "comment": "Страница Nicepage с одной кнопкой u-btn href=\"#\", внешних ссылок, трекеров и скриптов переходов нет."
+ }
+]

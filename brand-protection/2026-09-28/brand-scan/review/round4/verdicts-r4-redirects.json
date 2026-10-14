@@ -1,0 +1,482 @@
+[
+ {
+  "domain": "app-mostbet-uz.com",
+  "given": "discredit",
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Индонезийский гэмблинг-дорвей «Hokiwin — BANDAR TOGEL ONLINE / SITUS TOTO» на шаблоне Envato, ссылки bit.ly; это чужое казино/тото, не негэмблинг."
+ },
+ {
+  "domain": "mostbet-apk-fr.com",
+  "given": "discredit",
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Страница «Mpo338 — Solusi Andal Membantu Pemain Meraih Kemenangan» — индонезийский слот-бренд MPO, гэмблинг про чужой бренд."
+ },
+ {
+  "domain": "mostbet-apk-uz.com",
+  "given": "discredit",
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Тот же шаблон, что app-mostbet-uz.com: «Hokiwin … SITUS TOTO TOGEL», индонезийское тото — чужой гэмблинг-бренд."
+ },
+ {
+  "domain": "mostbet-casino-brasil-br.com",
+  "given": "discredit",
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "S8TOTO — результаты тото SGP/SDY, кнопки daftar/login на daftarwap.gelapsekali.com; чужое тото, не негэмблинг."
+ },
+ {
+  "domain": "mostbet-kashan.top",
+  "given": "discredit",
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.6,
+  "comment": "Незаполненный шаблон фейкового Google Play: «App name», «A detailed app description will appear here after content is added», ссылок наружу нет; apple-mobile-web-app-title = Mostbet."
+ },
+ {
+  "domain": "mostbet-zerkalo-a325.ru",
+  "given": "discredit",
+  "verdict": "correct",
+  "should_be": "discredit",
+  "confidence": 0.95,
+  "comment": "Наркошоп: «Купить мдма, Кокс, лирика… через телеграм»; про ставки ничего."
+ },
+ {
+  "domain": "mostbet.kz",
+  "given": "discredit",
+  "verdict": "correct",
+  "should_be": "discredit",
+  "confidence": 0.7,
+  "comment": "Информационный сайт о спорте в Казахстане («MOST BET», футбол/хоккей/киберспорт), ни одной ссылки на БК; ставок нет. Возможно, «белый» сайт самого бренда — проверить владельца."
+ },
+ {
+  "domain": "mostbet.lifestyle",
+  "given": "discredit",
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.75,
+  "comment": "PWA-лендинг под Google Play «Royal Joker – 125% Bonus …», слот Playson с бонусом и пикселем Facebook — установка чужого казино."
+ },
+ {
+  "domain": "mostbet.pics",
+  "given": "discredit",
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.75,
+  "comment": "PWA «Royal Joker – 200% + 125 FS» (суахили), фейковая карточка Google Play — чужое казино-приложение."
+ },
+ {
+  "domain": "mostbet1.world",
+  "given": "discredit",
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.75,
+  "comment": "Та же PWA «Royal Joker – 200% + 125 FS», что mostbet.pics — чужое казино-приложение."
+ },
+ {
+  "domain": "mostbet33006.ru",
+  "given": "discredit",
+  "verdict": "wrong",
+  "should_be": "redirect_other",
+  "confidence": 0.55,
+  "comment": "Главная — пустой div и обфусцированный JS-редирект на трекер qyvir.com/go/2959341?subid2=mostbet33006.ru; из RS трекер отдал статью о таро (angeltarotreading.com), получатель гео-зависим."
+ },
+ {
+  "domain": "mostbet538.lol",
+  "given": "discredit",
+  "verdict": "correct",
+  "should_be": "discredit",
+  "confidence": 0.9,
+  "comment": "Копия сайта фабрики дверей «Калина» (Екатеринбург), ссылка на kalinadoors.ru, Mostbet и гэмблинга нет."
+ },
+ {
+  "domain": "mostbeta.site",
+  "given": "discredit",
+  "verdict": "correct",
+  "should_be": "discredit",
+  "confidence": 0.8,
+  "comment": "Сгенерированный бессвязный «North Journal» на английском, все 184 ссылки внутренние; гэмблинга нет."
+ },
+ {
+  "domain": "mostbetbk.pro",
+  "given": "discredit",
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.9,
+  "comment": "Отдаёт «Apache 2 Test Page powered by CentOS» — заглушка сервера, содержимого нет."
+ },
+ {
+  "domain": "mostbetcasinos.casino",
+  "given": "discredit",
+  "verdict": "correct",
+  "should_be": "discredit",
+  "confidence": 0.8,
+  "comment": "Блог-обложка «Что за интернет» про сети и TLS 1.3, без внешних ссылок; про ставки ничего."
+ },
+ {
+  "domain": "mostbeto.com",
+  "given": "discredit",
+  "verdict": "correct",
+  "should_be": "discredit",
+  "confidence": 0.85,
+  "comment": "Китайский порно-кинотеатр на maccms («AV无码免费播放»), сырой HTTP — 403, браузер видит сайт целиком."
+ },
+ {
+  "domain": "mostbetq.icu",
+  "given": "discredit",
+  "verdict": "correct",
+  "should_be": "discredit",
+  "confidence": 0.7,
+  "comment": "Лендинг игры «Candy Sweet Dog Puzzle Match 3» со ссылкой на Google Play; гэмблинга нет (похоже на белую страницу клоаки, но по факту — не ставки)."
+ },
+ {
+  "domain": "mostbettech.com",
+  "given": "discredit",
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "U638 — урдуязычное казино: андар-бахар, рулетка, дракон-тигр, кнопки «логин/регистрация»; гэмблинг чужого бренда."
+ },
+ {
+  "domain": "mostbetts.site",
+  "given": "discredit",
+  "verdict": "correct",
+  "should_be": "discredit",
+  "confidence": 0.8,
+  "comment": "Тот же генератор «North Journal», бессвязные тексты, ссылки внутренние и на ehotelsreviews.com; гэмблинга нет."
+ },
+ {
+  "domain": "playmarket-mostbet.website",
+  "given": "discredit",
+  "verdict": "correct",
+  "should_be": "discredit",
+  "confidence": 0.7,
+  "comment": "Лендинг приложения «MOST business» (инструменты продвижения) в стиле Google Play, гэмблинга нет."
+ },
+ {
+  "domain": "kishaprotestante.net",
+  "given": "redirect_other",
+  "verdict": "wrong",
+  "should_be": "other_gambling",
+  "confidence": 0.6,
+  "comment": "Бренда нет ни в домене, ни на странице (0 упоминаний); главная — дорвей сетки fap_w24128 на lewa-bet.xyz. Чужой дорвей без Mostbet — other_gambling, не нарушитель бренда."
+ },
+ {
+  "domain": "mostbet-2rus.xyz",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "JS-шлюз главной (MD5-челлендж → /go.php) ведёт на casinozlucky.com / fly-lewus.xyz с ref=fap_w24128p111; казино «Лев», не Mostbet."
+ },
+ {
+  "domain": "mostbet-46ey.xyz",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "JS-шлюз главной (MD5-челлендж → /go.php) ведёт на lewa-bet.xyz с ref=fap_w24128p111; казино «Лев», не Mostbet."
+ },
+ {
+  "domain": "mostbet-aaui.xyz",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "JS-шлюз главной (MD5-челлендж → /go.php) ведёт на casinozlucky.com / lewa-bet.xyz с ref=fap_w24128p111; казино «Лев», не Mostbet."
+ },
+ {
+  "domain": "mostbet-apk-online.mobi",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "JS-шлюз главной (MD5-челлендж → /go.php) ведёт на casinozlucky.com / levalewzzlevos.top с ref=fap_w24128p111; казино «Лев», не Mostbet."
+ },
+ {
+  "domain": "mostbet-apks.mobi",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Главная уводит на digitalsduct.top?ref=fap_w24128p129_hbrdblwd → blywdnolimit.top, казино «Болливуд»."
+ },
+ {
+  "domain": "mostbet-br4.xyz",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "JS-шлюз главной (MD5-челлендж → /go.php) ведёт на lewis-kickback.top с ref=fap_w24128p111; казино «Лев», не Mostbet."
+ },
+ {
+  "domain": "mostbet-cz1.xyz",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Главная сразу на go2chirinkotan.com?ref=fap_w24128p111_hbrdlev&site=mostbet-cz1.xyz → казино «Лев» (casinozlucky.com, fly-lewus.xyz)."
+ },
+ {
+  "domain": "mostbet-hmcp.xyz",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "JS-шлюз главной (MD5-челлендж → /go.php) ведёт на casinozlucky.com / lewis-kickback.top с ref=fap_w24128p111; казино «Лев», не Mostbet."
+ },
+ {
+  "domain": "mostbet-in3.xyz",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "JS-шлюз главной (MD5-челлендж → /go.php) ведёт на lewis-kickback.top с ref=fap_w24128p111; казино «Лев», не Mostbet."
+ },
+ {
+  "domain": "mostbet-kick.ru",
+  "given": "redirect_other",
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "Главная уводит на vh344.timeweb.ru/parking — «Домен припаркован в Timeweb»; admitad-ссылка на timeweb.com — реклама хостера, не гэмблинг."
+ },
+ {
+  "domain": "mostbet-n.xyz",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "JS-шлюз главной (MD5-челлендж → /go.php) ведёт на casinozlucky.com / lewis-kickback.top с ref=fap_w24128p111; казино «Лев», не Mostbet."
+ },
+ {
+  "domain": "mostbet-t445.xyz",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Главная уводит на infopour.top?ref=fap_w24128p112_hbrdeldrd → eldo-autoplay.top, казино «Эльдорадо»."
+ },
+ {
+  "domain": "mostbet-ua4.xyz",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "JS-шлюз главной (MD5-челлендж → /go.php) ведёт на w1ckanz.com с ref=fap_w24128p111; казино «Лев», не Mostbet."
+ },
+ {
+  "domain": "mostbet-wgq2.buzz",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.85,
+  "comment": "location.replace на gamesredq.ru/mostbet.php → 0appsta.com/LhHFkG → spinnyspinwheel.org «колесо фортуны» → r1wjfml.life?p=ep3j (чужое казино)."
+ },
+ {
+  "domain": "mostbet-wxh3.buzz",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.85,
+  "comment": "Та же цепочка, что у mostbet-wgq2.buzz: gamesredq.ru/mostbet.php → 0appsta.com → WinWheel → r1wjfml.life?p=ep3j."
+ },
+ {
+  "domain": "mostbet995.casino",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "meta refresh и window.location на promo-slot-link.com/l/…?sub_id=Dmostbet997 → лендинг 7K с refCode=sk_w238255…; Mostbet только в title."
+ },
+ {
+  "domain": "mostbetapps.icu",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "JS-шлюз главной (MD5-челлендж → /go.php) ведёт на joker-lewus.top / wolcanz.com с ref=fap_w24128p111; казино «Лев», не Mostbet."
+ },
+ {
+  "domain": "mostbetmb2.site",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.9,
+  "comment": "Главная сразу на go2chirinkotan.com?ref=fap_w24128p111_hbrdlev → wylcanz.com / lewa-bet.xyz, казино «Лев»."
+ },
+ {
+  "domain": "mostlbet.ru",
+  "given": "redirect_other",
+  "verdict": "correct",
+  "should_be": "redirect_other",
+  "confidence": 0.8,
+  "comment": "Опечатка бренда в домене; главная уводит на flowtrafficpipeline.org?ref=fap_w39614p126_123 → goldscasinogoldupgolden.top (Gold Casino)."
+ },
+ {
+  "domain": "mostbet-21nt.xyz",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.9,
+  "comment": "Из Google (google-mobile) главная отдаёт 302 на gvmuaimb.com/vKrs?sub1=… → ienpbbmb.com с pid=229671; прямым заходом и Googlebot — 403 nginx (клоакинг)."
+ },
+ {
+  "domain": "mostbet-4a6vl.info",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.9,
+  "comment": "Из Google (google-mobile) главная отдаёт 302 на gvmuaimb.com/vKrs?sub1=… → ienpbbmb.com с pid=229671; прямым заходом и Googlebot — 403 nginx (клоакинг)."
+ },
+ {
+  "domain": "mostbet-7w9x.xyz",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.9,
+  "comment": "Из Google (google-mobile) главная отдаёт 302 на gvmuaimb.com/vKrs?sub1=… → ienpbbmb.com с pid=229671; прямым заходом и Googlebot — 403 nginx (клоакинг)."
+ },
+ {
+  "domain": "mostbet-as1.xyz",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.9,
+  "comment": "Из Google (google-mobile) главная отдаёт 302 на gvmuaimb.com/vKrs?sub1=… → ienpbbmb.com с pid=229671; прямым заходом и Googlebot — 403 nginx (клоакинг)."
+ },
+ {
+  "domain": "mostbet-e4lcl.pro",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.9,
+  "comment": "Из Google (google-mobile) главная отдаёт 302 на gvmuaimb.com/vKrs?sub1=… → ienpbbmb.com с pid=229671; прямым заходом и Googlebot — 403 nginx (клоакинг)."
+ },
+ {
+  "domain": "mostbet-fv38x.top",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.9,
+  "comment": "Из Google (google-mobile) главная отдаёт 302 на gvmuaimb.com/vKrs?sub1=… → ienpbbmb.com с pid=229671; прямым заходом и Googlebot — 403 nginx (клоакинг)."
+ },
+ {
+  "domain": "mostbet-hickb.xyz",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.9,
+  "comment": "Из Google (google-mobile) главная отдаёт 302 на gvmuaimb.com/vKrs?sub1=… → ienpbbmb.com с pid=229671; прямым заходом и Googlebot — 403 nginx (клоакинг)."
+ },
+ {
+  "domain": "mostbet-mhun.xyz",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.9,
+  "comment": "Из Google (google-mobile) главная отдаёт 302 на gvmuaimb.com/vKrs?sub1=… → ienpbbmb.com с pid=229671; прямым заходом и Googlebot — 403 nginx (клоакинг)."
+ },
+ {
+  "domain": "mostbet-ply.xyz",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.9,
+  "comment": "Из Google (google-mobile) главная отдаёт 302 на gvmuaimb.com/vKrs?sub1=… → ienpbbmb.com с pid=229671; прямым заходом и Googlebot — 403 nginx (клоакинг)."
+ },
+ {
+  "domain": "mostbet-qkehj.life",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.9,
+  "comment": "Из Google (google-mobile) главная отдаёт 302 на gvmuaimb.com/vKrs?sub1=… → ienpbbmb.com с pid=229671; прямым заходом и Googlebot — 403 nginx (клоакинг)."
+ },
+ {
+  "domain": "mostbet-vhyz.xyz",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.9,
+  "comment": "Из Google (google-mobile) главная отдаёт 302 на gvmuaimb.com/vKrs?sub1=… → ienpbbmb.com с pid=229671; прямым заходом и Googlebot — 403 nginx (клоакинг)."
+ },
+ {
+  "domain": "mostbet-wbi8.top",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.9,
+  "comment": "Из Google (google-mobile) главная отдаёт 302 на gvmuaimb.com/vKrs?sub1=… → ienpbbmb.com с pid=229671; прямым заходом и Googlebot — 403 nginx (клоакинг)."
+ },
+ {
+  "domain": "mostbet-wfa9.top",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.9,
+  "comment": "Из Google (google-mobile) главная отдаёт 302 на gvmuaimb.com/vKrs?sub1=… → ienpbbmb.com с pid=229671; прямым заходом и Googlebot — 403 nginx (клоакинг)."
+ },
+ {
+  "domain": "mostbet-wixo.xyz",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.9,
+  "comment": "Из Google (google-mobile) главная отдаёт 302 на gvmuaimb.com/vKrs?sub1=… → ienpbbmb.com с pid=229671; прямым заходом и Googlebot — 403 nginx (клоакинг)."
+ },
+ {
+  "domain": "mostbet-wmn4.xyz",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.9,
+  "comment": "Из Google (google-mobile) главная отдаёт 302 на gvmuaimb.com/vKrs?sub1=… → ienpbbmb.com с pid=229671; прямым заходом и Googlebot — 403 nginx (клоакинг)."
+ },
+ {
+  "domain": "mostbet-wo7.xyz",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.9,
+  "comment": "Из Google (google-mobile) главная отдаёт 302 на gvmuaimb.com/vKrs?sub1=… → ienpbbmb.com с pid=229671; прямым заходом и Googlebot — 403 nginx (клоакинг)."
+ },
+ {
+  "domain": "mostbet-wts9.top",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.9,
+  "comment": "Из Google (google-mobile) главная отдаёт 302 на gvmuaimb.com/vKrs?sub1=… → ienpbbmb.com с pid=229671; прямым заходом и Googlebot — 403 nginx (клоакинг)."
+ },
+ {
+  "domain": "mostbet-wxb9.xyz",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.9,
+  "comment": "Из Google (google-mobile) главная отдаёт 302 на gvmuaimb.com/vKrs?sub1=… → ienpbbmb.com с pid=229671; прямым заходом и Googlebot — 403 nginx (клоакинг)."
+ },
+ {
+  "domain": "mostbet-x3gc.xyz",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.9,
+  "comment": "Из Google (google-mobile) главная отдаёт 302 на gvmuaimb.com/vKrs?sub1=… → ienpbbmb.com с pid=229671; прямым заходом и Googlebot — 403 nginx (клоакинг)."
+ },
+ {
+  "domain": "mostbet-ytchy.blog",
+  "given": "redirect_ref",
+  "verdict": "correct",
+  "should_be": "redirect_ref",
+  "confidence": 0.9,
+  "comment": "Из Google (google-mobile) главная отдаёт 302 на gvmuaimb.com/vKrs?sub1=… → ienpbbmb.com с pid=229671; прямым заходом и Googlebot — 403 nginx (клоакинг)."
+ }
+]

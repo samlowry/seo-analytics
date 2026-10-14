@@ -1,0 +1,642 @@
+[
+ {
+  "domain": "59ms0b3t.com",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.8,
+  "comment": "timeout во всех сканах, HTML нет, других строк в groups-*.csv нет."
+ },
+ {
+  "domain": "bet-most.org",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.8,
+  "comment": "timeout во всех сканах, HTML нет, других строк в groups-*.csv нет."
+ },
+ {
+  "domain": "meddoktor.pl",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.8,
+  "comment": "timeout во всех сканах, HTML нет, других строк в groups-*.csv нет."
+ },
+ {
+  "domain": "mostbet-app.org",
+  "given": "dead",
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.85,
+  "comment": "why dns_fail, но в html/…http.html.gz статус 200 и страница Namecheap «Domain registration has expired… Renew this domain» — это парковка регистратора."
+ },
+ {
+  "domain": "mostbet-casino.io",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.8,
+  "comment": "timeout во всех сканах, HTML нет, других строк в groups-*.csv нет."
+ },
+ {
+  "domain": "mostbet-jet.fun",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.8,
+  "comment": "timeout во всех сканах, HTML нет, других строк в groups-*.csv нет."
+ },
+ {
+  "domain": "mostbet-login.run",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.85,
+  "comment": "connection_refused, HTML нет, других строк нет."
+ },
+ {
+  "domain": "mostbet-official.asia",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.8,
+  "comment": "timeout во всех сканах, HTML нет, других строк в groups-*.csv нет."
+ },
+ {
+  "domain": "mostbet-pl.ru",
+  "given": "dead",
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.8,
+  "comment": "Отвечает 200, тело 98 байт — только текст «Mostbet PL» без ссылок: пустая заглушка, а не мёртвый сайт."
+ },
+ {
+  "domain": "mostbet-qsq.buzz",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.6,
+  "comment": "too_many_redirects: страницы нет ни в одном скане; формально отвечает петлёй редиректов, ближе к not_shown, но на итог не влияет."
+ },
+ {
+  "domain": "mostbet-ta27.com",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.8,
+  "comment": "timeout во всех сканах, HTML нет, других строк в groups-*.csv нет."
+ },
+ {
+  "domain": "mostbet-wiy4.cfd",
+  "given": "dead",
+  "verdict": "wrong",
+  "should_be": "stub",
+  "confidence": 0.8,
+  "comment": "why «home dump: connect_error», но groups.csv: status 200, title «Coming Soon» — та же заглушка, что у соседних mostbet-w*.cfd с классом stub."
+ },
+ {
+  "domain": "mostbet-wsl9.casino",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.8,
+  "comment": "timeout во всех сканах, HTML нет, других строк в groups-*.csv нет."
+ },
+ {
+  "domain": "mostbet-wuf4.cfd",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.7,
+  "comment": "Сейчас dns_fail; title «Coming Soon» остался от раннего скана, т.е. и тогда была заглушка — живой страницы нет."
+ },
+ {
+  "domain": "mostbetaz-giris.cc",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.8,
+  "comment": "timeout во всех сканах, HTML нет, других строк в groups-*.csv нет."
+ },
+ {
+  "domain": "mostbetcasinos-zerkalo.xyz",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.8,
+  "comment": "timeout во всех сканах, HTML нет, других строк в groups-*.csv нет."
+ },
+ {
+  "domain": "mostbetcazic1.site",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.7,
+  "comment": "Сейчас dns_fail; title «Parking Page» от раннего скана — живого содержимого не было ни разу."
+ },
+ {
+  "domain": "mostbetsplay.com",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.8,
+  "comment": "timeout во всех сканах, HTML нет, других строк в groups-*.csv нет."
+ },
+ {
+  "domain": "obzor-mostbet.ru",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.8,
+  "comment": "timeout во всех сканах, HTML нет, других строк в groups-*.csv нет."
+ },
+ {
+  "domain": "progeografiu.ru",
+  "given": "dead",
+  "verdict": "correct",
+  "should_be": "dead",
+  "confidence": 0.8,
+  "comment": "timeout (needs_browser > 5_dead), HTML нет, других вариантов скана нет."
+ },
+ {
+  "domain": "bathauraluxe.store",
+  "given": "not_shown",
+  "verdict": "wrong",
+  "should_be": "parked",
+  "confidence": 0.75,
+  "comment": "Основной скан — 403 JS-проверка браузера, но http-google-mobile и http-googlebot дают 200 «Your domain is expired… Log in to your Hostinger account to renew» — домен истёк, страница регистратора."
+ },
+ {
+  "domain": "mchs-lnr.su",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.75,
+  "comment": "410 Gone во всех трёх вариантах (браузер, google-mobile, googlebot), содержимого нет."
+ },
+ {
+  "domain": "mostbet-az-giris.eu.com",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.85,
+  "comment": "Cloudflare 522 Connection timed out во всех трёх сканах."
+ },
+ {
+  "domain": "mostbet-bwlh54.best",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.8,
+  "comment": "503 Service Temporarily Unavailable (nginx) во всех вариантах скана, включая googlebot и google-mobile; живой страницы нет."
+ },
+ {
+  "domain": "mostbet-casinokk.mex.com",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.8,
+  "comment": "404 Not Found во всех четырёх файлах (browser, http, google-mobile, googlebot)."
+ },
+ {
+  "domain": "mostbet-fhu.top",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.85,
+  "comment": "403 Forbidden nginx во всех трёх вариантах."
+ },
+ {
+  "domain": "mostbet-hhhw77.best",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.8,
+  "comment": "503 Service Temporarily Unavailable (nginx) во всех вариантах скана, включая googlebot и google-mobile; живой страницы нет."
+ },
+ {
+  "domain": "mostbet-jqwsqx.top",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.85,
+  "comment": "444 в основном и google-mobile, 403 nginx у googlebot — страница закрыта."
+ },
+ {
+  "domain": "mostbet-qahuse.top",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.8,
+  "comment": "503 Service Temporarily Unavailable (nginx) во всех вариантах скана, включая googlebot и google-mobile; живой страницы нет."
+ },
+ {
+  "domain": "mostbet-ro3q.top",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.85,
+  "comment": "403 Forbidden nginx во всех трёх вариантах."
+ },
+ {
+  "domain": "mostbet-rtva12.best",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.8,
+  "comment": "503 Service Temporarily Unavailable (nginx) во всех вариантах скана, включая googlebot и google-mobile; живой страницы нет."
+ },
+ {
+  "domain": "mostbet-wfc7.top",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.8,
+  "comment": "503 Service Temporarily Unavailable (nginx) во всех вариантах скана, включая googlebot и google-mobile; живой страницы нет."
+ },
+ {
+  "domain": "mostbet-win.cc",
+  "given": "not_shown",
+  "verdict": "wrong",
+  "should_be": "mono_other",
+  "confidence": 0.8,
+  "comment": "Сейчас timeout, но сохранённый http-HTML (200) — монобренд: title «Mostbet — весь игровой вечер…», h1 «Казино mostbet win Россия», 64 упоминания; реклама только чужих: 1xCasino (refpa-71803.com tag=…Mira-mostbet-win.cc), NormCasino и 7lacasino через autumn-ice.com/copper-ray.com."
+ },
+ {
+  "domain": "mostbet-wjr4.xyz",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.8,
+  "comment": "503 Service Temporarily Unavailable (nginx) во всех вариантах скана, включая googlebot и google-mobile; живой страницы нет."
+ },
+ {
+  "domain": "mostbet-wtt6.top",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.8,
+  "comment": "503 Service Temporarily Unavailable (nginx) во всех вариантах скана, включая googlebot и google-mobile; живой страницы нет."
+ },
+ {
+  "domain": "mostbet-wzg2.top",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.8,
+  "comment": "503 Service Temporarily Unavailable (nginx) во всех вариантах скана, включая googlebot и google-mobile; живой страницы нет."
+ },
+ {
+  "domain": "mostbetbkash.sbs",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.85,
+  "comment": "Cloudflare 525 SSL handshake failed во всех трёх вариантах."
+ },
+ {
+  "domain": "mostbetkz.soccer",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.85,
+  "comment": "Cloudflare 521 Web server is down во всех трёх вариантах."
+ },
+ {
+  "domain": "sephora.co.th",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.85,
+  "comment": "Akamai 403 Access Denied (http и google-mobile), googlebot — timeout; страницы нет (к тому же сайт посторонний)."
+ },
+ {
+  "domain": "villaggio-navene.de",
+  "given": "not_shown",
+  "verdict": "correct",
+  "should_be": "not_shown",
+  "confidence": 0.8,
+  "comment": "Apache 404 Not Found во всех трёх вариантах."
+ },
+ {
+  "domain": "6sz8x8lmb.com",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.65,
+  "comment": "Страница «Redirecting... Loading . . .» — тот же парковочный JS-редирект (антиадблок + click на /.<код>), что у NameSilo-парковок; ведёт на рекламу playdeltaforce.com, Mostbet нет."
+ },
+ {
+  "domain": "cocshpjjmb.com",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "«porkbun.com | domain for sale… It has expired and is currently for sale at auction»."
+ },
+ {
+  "domain": "khpvojixmb.com",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "«porkbun.com | domain for sale… It has expired and is currently for sale at auction»."
+ },
+ {
+  "domain": "mostbet-bn27.com",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "Редирект на ww38.mostbet-bn27.com, «Buy this domain» — парковка."
+ },
+ {
+  "domain": "mostbet-casino24.fun",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "title «Parking Page», текст «Registered at… Get it online with Shared Hosting» — парковка регистратора."
+ },
+ {
+  "domain": "mostbet-giris.xyz",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "«has been recently registered with namecheap.com… Discover domains on auction» — парковка Namecheap."
+ },
+ {
+  "domain": "mostbet-rus4.top",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "«This domain is parked with NameSilo» с рубриками рекламы — парковка."
+ },
+ {
+  "domain": "mostbet-senegal.net",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "«Regery Parking Page. This domain is registered and managed at regery.com»."
+ },
+ {
+  "domain": "mostbet-vmd9.top",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "«This domain is parked with NameSilo» с рубриками рекламы — парковка."
+ },
+ {
+  "domain": "mostbet-wdt5.top",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "«This domain is parked with NameSilo» с рубриками рекламы — парковка."
+ },
+ {
+  "domain": "mostbet-wji8.top",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "«This domain is parked with NameSilo» с рубриками рекламы — парковка."
+ },
+ {
+  "domain": "mostbet-wmp7.top",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "«This domain is parked with NameSilo» с рубриками рекламы — парковка."
+ },
+ {
+  "domain": "mostbet-wph4.top",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "«This domain is parked with NameSilo» с рубриками рекламы — парковка."
+ },
+ {
+  "domain": "mostbet-wvu3.top",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "«This domain is parked with NameSilo» с рубриками рекламы — парковка."
+ },
+ {
+  "domain": "mostbet.cx",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "«has been recently registered with namecheap.com… Discover domains on auction» — парковка Namecheap."
+ },
+ {
+  "domain": "mostbet12023.ru",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.85,
+  "comment": "«This domain has expired – please visit your provider’s website… to renew» + рубрики рекламы — парковка."
+ },
+ {
+  "domain": "mostbeting-maroc.com",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "«Parking Page… Your domain has expired. Please log in to your Spaceship account to renew it»."
+ },
+ {
+  "domain": "mostbetptcasino.com",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "Namecheap «The domain has expired. Is this your domain? Renew now» + рекламные рубрики."
+ },
+ {
+  "domain": "mostbetyukle-az.com",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "Namecheap «Domain registration has expired. Renewal instructions»."
+ },
+ {
+  "domain": "tasapart.com",
+  "given": "parked",
+  "verdict": "correct",
+  "should_be": "parked",
+  "confidence": 0.9,
+  "comment": "Редирект на hugedomains.com «TasApart.com is for sale»."
+ },
+ {
+  "domain": "forum-spain.ru",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.9,
+  "comment": "Заглушка FASTPANEL «Your domain is pointed to the server, but there is no site with that domain name»."
+ },
+ {
+  "domain": "hobi1.live",
+  "given": "stub",
+  "verdict": "wrong",
+  "should_be": "other_gambling",
+  "confidence": 0.6,
+  "comment": "Не пустая заглушка, а SPA чужой БК Hobi: meta description «Hobi offers endless possibilities for all kinds of sports betting», уводит на /login; Mostbet не упоминается."
+ },
+ {
+  "domain": "mostbet-azerbai.com",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.9,
+  "comment": "Ispmanager «Website mostbet-azerbai.com is ready. The content is to be added» (http и browser)."
+ },
+ {
+  "domain": "mostbet-depositar.xyz",
+  "given": "stub",
+  "verdict": "wrong",
+  "should_be": "unclear",
+  "confidence": 0.55,
+  "comment": "Не заглушка: посетителю из Google (http-google-mobile, 200) отдаётся JS-редирект через 1 с на https://t2m.co/most-bet, остальным — Cloudflare-блок 403. t2m.co — турецкий сокращатель, на других mostbet-доменах он ведёт на Rekorbet/Herkülbet; куда ведёт /most-bet, не проверено — получатель неизвестен."
+ },
+ {
+  "domain": "mostbet-top-bonus-v113.top",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.9,
+  "comment": "«Website is ready. The content is to be added», 719 байт."
+ },
+ {
+  "domain": "mostbet-vvd2.cfd",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.9,
+  "comment": "Одинаковая заглушка 1102 байта «Coming Soon. We're working on something amazing»."
+ },
+ {
+  "domain": "mostbet-wbw4.cfd",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.9,
+  "comment": "Одинаковая заглушка 1102 байта «Coming Soon. We're working on something amazing»."
+ },
+ {
+  "domain": "mostbet-wcs4.cfd",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.9,
+  "comment": "Одинаковая заглушка 1102 байта «Coming Soon. We're working on something amazing»."
+ },
+ {
+  "domain": "mostbet-wfu9.cfd",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.9,
+  "comment": "Одинаковая заглушка 1102 байта «Coming Soon. We're working on something amazing»."
+ },
+ {
+  "domain": "mostbet-whg5.cfd",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.9,
+  "comment": "Одинаковая заглушка 1102 байта «Coming Soon. We're working on something amazing»."
+ },
+ {
+  "domain": "mostbet-wkm2.cfd",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.9,
+  "comment": "Одинаковая заглушка 1102 байта «Coming Soon. We're working on something amazing»."
+ },
+ {
+  "domain": "mostbet-wmr8.cfd",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.9,
+  "comment": "Одинаковая заглушка 1102 байта «Coming Soon. We're working on something amazing»."
+ },
+ {
+  "domain": "mostbet-wnz4.cfd",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.9,
+  "comment": "Одинаковая заглушка 1102 байта «Coming Soon. We're working on something amazing»."
+ },
+ {
+  "domain": "mostbet-wqy4.cfd",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.9,
+  "comment": "Одинаковая заглушка 1102 байта «Coming Soon. We're working on something amazing»."
+ },
+ {
+  "domain": "mostbet-wtg6.cfd",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.9,
+  "comment": "Одинаковая заглушка 1102 байта «Coming Soon. We're working on something amazing»."
+ },
+ {
+  "domain": "mostbet-wuz1.cfd",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.9,
+  "comment": "Одинаковая заглушка 1102 байта «Coming Soon. We're working on something amazing»."
+ },
+ {
+  "domain": "mostbet-wwe6.cfd",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.9,
+  "comment": "Одинаковая заглушка 1102 байта «Coming Soon. We're working on something amazing»."
+ },
+ {
+  "domain": "mostbet-wyx5.cfd",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.9,
+  "comment": "Одинаковая заглушка 1102 байта «Coming Soon. We're working on something amazing»."
+ },
+ {
+  "domain": "mostbetalyngyz.kz",
+  "given": "stub",
+  "verdict": "correct",
+  "should_be": "stub",
+  "confidence": 0.85,
+  "comment": "503 с заглушкой хостинга «Website mostbetalyngyz.kz is ready. The content is to be added» — пустой сайт."
+ },
+ {
+  "domain": "mostbetms.buzz",
+  "given": "stub",
+  "verdict": "wrong",
+  "should_be": "not_shown",
+  "confidence": 0.8,
+  "comment": "Это не заглушка, а ошибка: 502 Bad Gateway во всех трёх вариантах (google-mobile/googlebot помечены ddos_guard)."
+ }
+]

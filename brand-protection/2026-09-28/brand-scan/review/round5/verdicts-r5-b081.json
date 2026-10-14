@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbetcasino-deutsch.de",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.95,
+  "comment": "Гейты /go/picks → redirect-fieryplay.com ref=vp_w129507…, /go/24slots-casino → 24slots; видимые ссылки на сетку ggbetcasino-deutsch.de и др. Реклама Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasino-es.click",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Bienvenido a mostbet casino: tu experiencia de juego en Espa»), реклама только чужих: https://legzo-casino-es.top → https://legzo-casino-es.top (Legzo); https://mostbetcasino-es.click/go/registration → https://gemslots1.com/?show=register&btag=654958_c07c2b7b3b6c49bab8082a2ee5d7d9e8&subid=2k (Play the Top Online Casino Games). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasino-es.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Bienvenido a Mostbet Casino — tu sala de juego en España»), реклама только чужих: https://marathonbetcasino-es.click → https://marathonbetcasino-es.click (Marathonbet); https://mostbetcasino-es.top/go/registration → https://gemslots1.com/?show=register&btag=654958_b39eef096b7a4e97a1754213df8efe4f&subid=2k (Play the Top Online Casino Games). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasino-es.website",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet Casino: tu sala de juego en España, 2026»), реклама только чужих: https://ggbetcasino-es.click → https://ggbetcasino-es.click (GGBet); https://slotticacasino-es.website → https://slotticacasino-es.website (Slottica). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasino-kz.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet Казино - 100% Қош келдіңіз Бонустары және Тегін Айна»), реклама только чужих: https://mostbetcasino-kz.com/play? → https://7-baxterbet21.com/sr?cxd=35568_440029_|afp1:freakypenguin15treuvep7ac|afp10:Seo|af (Baxterbet); https://wliny.com/ → https://promo-push.com/cdn/landingpages/6a33bae1656abe3f2d0c2df2/?trackCode=bb_w267346c382 (promo-push.com). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasino-pl.net.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet Casino - Twoje kasyno online w Polsce 2026»), реклама только чужих: https://mostbetcasino-pl.net.pl/go/registration → https://20bet-24x.com/casino?btag=664952_9bf6c4af4d334776b12f646765c6be5c&subid=22ckq76ri2 (20Bet); https://mostbetcasino-pl.net.pl/go/promocode → https://hitnspin206.com/en?ref=vp_w129507c268489l17172p2089_&affdata%5Bsubdata%5D=994964c3 (Hitnspin). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasino-pl.org.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet Casino - Twoje miejsce na grę w Polsce 2026»), реклама только чужих: https://mostbetcasino-pl.org.pl/visit/registration → https://parimatch.now/en/registration?qtag=a89405_t61366633_c7846_s22ckq76ri22p_%7Breplace (Parimatch); https://mostbetcasino-pl.org.pl/visit/promocode → https://20bet-24x.com/casino?btag=664952_33ba6f818c594657aa01f2ee5103debe&subid=2kt1s2sri2 (20Bet). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasino-poland.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet Casino – Twój Klasyczny Portal Gier w Polsce»), реклама только чужих: https://mostbetcasino-poland.pl/go/ALL-LINK → https://lanista-2064.com/registration?mid=371788_2157776&fluid=1d2aaa10-bb9e-4a3a-9776-14f (Lanista); https://vulkan-spiele-polska.pl/ → https://vulkanspieles.com.pl/ (Vulkan). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasino.uk",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet Casino UK - Exciting Games & Bonuses Await»), реклама только чужих: https://mostbetcasino.uk/play? → https://7-baxterbet21.com/sr?cxd=35568_440029_|afp1:freakypenguin3ptfiupep76m|afp10:Seo|af (Baxterbet); https://wliny.com/ → https://starwindirect.com/?s=136&ref=vp_w64882c335291l24908p3129_7031&encoded_url=cmVnaXN0 (starwindirect.com). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasino811.team",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «МостБет Казино (MostBet Casino) — проверенный вход на сайт…»), реклама только чужих: https://mostbetcasino811.team/go/7k → https://space-best-redirect.com/?s=137&ref=sk_w244000c296470l17772p2169_mostbetcasino811&e (7K); https://mostbetcasino811.team/go/spinto → https://142spinto.casino/ru/register (142spinto.casino). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasino821.buzz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «МостБет Казино (MostBet Casino) — главная страница…»), реклама только чужих: https://mostbetcasino821.buzz/go/7k → https://space-best-redirect.com/?s=137&ref=sk_w244000c296470l17772p2169_mostbetcasino821&e (7K); https://mostbetcasino821.buzz/go/spinto → https://142spinto.casino/ru/register (142spinto.casino). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasinoapps.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet App Download 2026 - Android APK & iOS Mobile Guide»), реклама только чужих: https://playkingofviolence.com/mostbet → https://1wzpdo.life/?open=register&p=nlia&sub1=muopqsaz61irb8df (1win); https://playkingofviolence.com/mostbet → https://trinocasino4.io/registration-page?stag=168572_6aba93d79137f0ac38c37d51&tr_src=seo& (trinocasino4.io). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasinobonus.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet Casino Opinie: Warunki Bonusu 1400 PLN, Kod Promocyj»), реклама только чужих: https://mostbetcasinobonus.pl/ref → https://sportbet.one/?stag=2358_6abc32099137f0ac38f58537 (Sportbet.one); https://mostbetcasinobonus.pl/ref → https://redirect-fieryplay.com/?s=147&ref=vp_w20149c264891l20996p2530_4&encoded_url=cmVnaX (Fieryplay). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasinobonus.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet Casino Bonus - Ihr Willkommensangebot wartet»), реклама только чужих: https://mostbetcasinobonus.top/go/24slots-casino → https://258slots.com/online-casino (258slots.com); https://mostbetcasinobonus.top/go/casinos → https://spininio.com/?btag=cx_35159_420316_2kt1s2sri254 (spininio.com). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasinocz.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet Casino CZ | Až 250% Bonus na První Vklad»), реклама только чужих: https://mostbetcasinocz.net/play? → https://8-baxterbet53.com/sr?cxd=35568_440029_|afp1:freakypenguin3ptfiupep75s|afp10:Seo|af (Baxterbet); https://wliny.com/ → https://starwindirect.com/?s=136&ref=vp_w64882c335291l24908p3129_7031&encoded_url=cmVnaXN0 (starwindirect.com). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasinoguidecz.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet recenze pro Česko: hry, platby, bonusy a licence»), реклама только чужих: https://top-monitoring.com/cz-live?sub_id_1=stream4gambling& → https://kinbet-6652.com/cs/registration?mid=360239_2245849&fluid=e7a44de1-333b-4247-bcb1-a (Kinbet Online Casino and Sport Betting); https://top-monitoring.com/cz-live?sub_id_1=stream4gambling& → https://atefia8.com/cs/registration (Atefia). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasinoit.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet Recensione Completa & Verdetto»), реклама только чужих: https://top-monitoring.com/it-live?sub_id_1=stream4gambling& → https://crown.playlink.me/it?stag=254104_6abb2061895eec26af020d8d&sign-up=modal (Online Casino for you); https://top-monitoring.com/it-live?sub_id_1=stream4gambling& → https://zota.playtraff.com/?stag=32138_6abb206cc7b961e50500ad0e&sign-up=modal&tracking_lin (ZotaBet Online Casino ✔️ Best Casino Site 2026). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasinomirror.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet Mirror Site 2026 - Official Alternative Links, Block»), реклама только чужих: https://playkingofviolence.com/mostbet → https://1wzpdo.life/?open=register&p=nlia&sub1=muopqsaz61irb8df (1win); https://playkingofviolence.com/mostbet → https://trinocasino4.io/registration-page?stag=168572_6aba93da9137f0ac38c37dac&tr_src=seo& (trinocasino4.io). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasinonorway.shop",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Anmeldelse av Mostbet Casino 2026 | 7000 kr i bonus + 370 fr»), реклама только чужих: https://smalltds.shop/norway/ → https://wintino-1311.com/no/registration?mid=376340_2246586&fluid=aa2255b4-a156-4c58-98a5- (Wintino Casino); http://mostbetcasinonorway.shop/play/ → https://aff.q3offers.network/click?pid=984&offer_id=5276&l=1788966678 (aff.q3offers.network). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasinoo.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet Casino New Player ✦ Quick Registration, Games, Live»), реклама только чужих: https://1wfafs.life/casino/list?open=register&p=oa30&sub1=3r → https://one-vv1469.com/casino/list?open=register&sub1=3rv99s06752g (1win); https://new-promos.com/l/67ef8c794c31bda68205c53f?click_id=2 → https://redirect-verde.com/url.replace( (redirect-verde.com). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasinopl.online",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet Polska — kasyno i zakłady sportowe online»), реклама только чужих: https://mostbetcasinopl.online/ref/ → https://633piperspin.com/sr?cxd=36371_565490_|afp1:2kt1s2si2g9b|afp10:Inapp&vcntr=1&afp1=2 (Piperspin Casino Zvanična Stranica ᐉ Piperspin Prijava); https://jytryd.click/BZZxYK1V?source=mostbetcasinopl.online → https://1xbet.rs:443/en/registration?tag=d_5135492m_97c_MultiGeoReg&pb=07ffeb9822ff4dd396c (1xBet). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasinoportugal.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet Casino Portugal - Bónus e Jogos Incríveis»), реклама только чужих: https://mostbetcasinoportugal.com/play → https://8-baxterbet53.com/sq?cxd=35568_440029_|afp1:freakypenguin3rh7dgueosss|afp10:Seo|af (Baxterbet); https://wliny.com/ → https://promo-push.com/cdn/landingpages/6a33bae1656abe3f2d0c2df2/?trackCode=bb_w267346c382 (promo-push.com). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasinos-pl.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet Polska ⭐ Kasyno Online + Bonus 2500 PLN | 2026»), реклама только чужих: https://linkijunction.net/spinfest → https://zs26--cazeus.com/pl/registration?mid=372922_2156040&fluid=9f1d2047-35da-4fa6-9443- (Cazeus); https://czs.lynmonkel.com/?mid=372922_2156040&clickid=2t20l9 → https://zs26--cazeus.com/pl/registration?mid=372922_2156040&fluid=fef63cd0-1877-4b50-985c- (zs26--cazeus.com). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetcl.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "go.php → yourlinknow.xyz/6N7tfN → gopartner.link → ivibettnow.com btag=655134_… (Ivibet); этот код у yourlinknow у других сайтов в Mostbet не ведёт — цепочка в destinations целиком до Ivibet."
+ },
+ {
+  "domain": "mostbetcolombia.co",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.93,
+  "comment": "Обзор Mostbet в оформлении казино-лобби, все кнопки /go/ ведут на luckyaacx.life p=da2a (Lucky Star, партнёрка 1win-семейства)."
+ },
+ {
+  "domain": "mostbetcrazytime.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet Crazy Time: Complete Guide to the #1 Live Game Show »), реклама только чужих: https://playkingofviolence.com/mostbet → https://1wzpdo.life/?open=register&p=nlia&sub1=muopqsaz61irb8df (1win); https://playkingofviolence.com/mostbet → https://trinocasino4.io/registration-page?stag=168572_6aba93e79137f0ac38c37f2c&tr_src=seo& (trinocasino4.io). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetdeposit.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet Deposit Methods 2026 - Complete Guide to Deposits & »), реклама только чужих: https://playkingofviolence.com/mostbet → https://1wzpdo.life/?open=register&p=nlia&sub1=muopqsaz61irb8df (1win); https://playkingofviolence.com/mostbet → https://trinocasino4.io/registration-page?stag=168572_6aba93ecc7b961e505ef85e6&tr_src=seo& (trinocasino4.io). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetdeutschland.de",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Кнопки ANMELDEN/регистрации через log.mostbett.de/?registration=germany ведут на 841spinania.com cxd=36759_663398 (Spinania); тот же трекер у mostbett.de тоже даёт Spinania, ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetfrance.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet France : Casino, Paris Sportifs et Bonus — Guide 202»), реклама только чужих: https://mostbetfrance.com/go?er=empty&ep=%2F → https://one-vv5043.com/sr-RS/?p=6hsd&sub1=okrl72.28.2un0m (1win); https://transferqoblin.com/0dfhe?sub_id_1=smbzahpqjc → https://r1wjfml.life/casino/list?open=register&p=6hsd&sub1=2t20l9f.28.2sj30 (r1wjfml.life). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetgiris-az.it.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet AZ Casino Giriş – Kazino və Onlayn Idman Mərcləri»), реклама только чужих: https://trafffers.com/?go=f368f5bab29bd5e45fc241a31578b89e2f → https://olymp-csn.com/?modal=reg&utm_source=13542&utm_medium=affiliate&utm_campaign=194&ut (Olymp Casino); https://glptds.com/tds/92f2f69150104539a627d3bdc8c0863b?visi → https://olymp-csn.com/?modal=reg&utm_source=13542&utm_medium=affiliate&utm_campaign=194&ut (olymp-csn.com). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbethungary.online",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet Casino | Online Kaszinó és Sportfogadás Magyarország»), реклама только чужих: https://mostbethungary.online/go/ → https://mell0529.life/?p=slic&sub1=tb79oj.a.1kreq (Mellstroy); https://bitroute.click/brandmostbet → https://btrwflm.life/?open=register&p=slic&sub1=2t20l9f.a.1kore (btrwflm.life). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbeticefishing.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet Ice Fishing Guide — Find the Game, Bonus Terms, RTP »), реклама только чужих: https://playkingofviolence.com/mostbet → https://1wzpdo.life/?open=register&p=nlia&sub1=muopqsaz61irb8df (1win); https://playkingofviolence.com/mostbet → https://nsqnetwork.g2afse.com/click?pid=1146&offer_id=4209&l=1774025865&sub1=mulgg3wqzapo8 (nsqnetwork.g2afse.com). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetkasyno.org.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet Casino - Wpłać i podwój swój pierwszy bonus»), реклама только чужих: https://1wfafs.life/casino/list?open=register&p=oa30&sub1=3r → https://one-vv3429.com/casino/list?open=register&sub1=3rv99s067506 (1win); https://new-promos.com/l/67ef8c794c31bda68205c53f?click_id=2 → https://redirect-verde.com/url.replace( (redirect-verde.com). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetkaszino.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet Sportsbook: 3000+ Játékok»), реклама только чужих: https://mostbetkaszino.net/go → https://safecasino1.com/prematch?top=1 (Online Betting); https://one-vv5724.com/casino/list?open=register&p=yerx → https://one-vv1217.com/casino/list?open=register&p=yerx (1win). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetkirish.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet Kazino - 125% bonus va 100 free spin oling»), реклама только чужих: https://uz-mostbetkirish.com/play → https://one-vv1469.com/sr-RS/?p=4wsa&sub1=2kt1s2s.5.3b825h (1win); https://delta.play2win.one/GPP2vTDd → https://spinempire1.com/?stag=182464_6aba942ffbc450d0e5856160&cmp=499326&prm=562937&tracki (spinempire1.com). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetluckyjetpredictor.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet Lucky Jet Predictor 2026 — Strategy, Data & Analysis»), реклама только чужих: https://playkingofviolence.com/mostbet → https://1wzpdo.life/?open=register&p=nlia&sub1=muopqsaz61irb8df (1win); https://playkingofviolence.com/mostbet → https://trinocasino4.io/registration-page?stag=168572_6aba943f9137f0ac38c38968&tr_src=seo& (trinocasino4.io). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetminespredictor.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet Mines Predictor 2026 — Probability Guide & Strategy»), реклама только чужих: https://playkingofviolence.com/mostbet → https://1wzpdo.life/?open=register&p=nlia&sub1=muopqsaz61irb8df (1win); https://playkingofviolence.com/mostbet → https://nsqnetwork.g2afse.com/click?pid=1146&offer_id=4209&l=1774025865&sub1=mulgh7h7dj9vq (nsqnetwork.g2afse.com). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetonline.ro",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet Casino Online România-Joc, Oferte și Aplicație: Joac»), реклама только чужих: https://vip.cas1n0.one/click?key=9e72cd458bc5a66eb926&page=i → https://1xbet.rs:443/en/registration?tag=d_5723492m_97c__4240_d185908_l279666_other&pb=b17 (1xBet); https://vip.v1pcasino.one/click?key=0fba2b10dd89400880984b38 → https://zs26--cazeus.com/en/registration?mid=310282_1828626&fluid=8b086f46-cb46-4e29-bc1a- (Cazeus). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetpk.club",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.85,
+  "comment": "Сайт выдаёт «mostbetpk» за саму площадку («We built this platform»), кнопки Register ведут на 77mvp.top/?cid=3730651 → регистрация 77MVP: чужое казино под брендом в домене."
+ },
+ {
+  "domain": "mostbetplaytr.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet Türkiye Resmi | Güncel Giriş, Bahis ve Casino»), реклама только чужих: https://mostbetplaytr.com/go?er=empty&ep=%2F → https://www.paribahis1362.com/tr/casino/?partner=p5373p22025pddeb&subid=okrl72.4c.2un32#re (Paribahis); https://veyrelanthos.com/7TBkdK → https://www.paribahis1358.com/tr/casino/?partner=p5373p22025pddeb&subid=2t20l9f.4c.2sj5l (paribahis1358.com). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetplinko.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet Plinko Guide 2026 | Risk Levels, Multipliers & Tips»), реклама только чужих: https://playkingofviolence.com/mostbet → https://1wzpdo.life/?open=register&p=nlia&sub1=muopqsaz61irb8df (1win); https://playkingofviolence.com/mostbet → https://nsqnetwork.g2afse.com/click?pid=1146&offer_id=4209&l=1774025865&sub1=mulgi9ni850ue (nsqnetwork.g2afse.com). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetpolskacasino.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet Casino — Oficjalna strona w Polsce | Kasyno Online»), реклама только чужих: https://mostbetpolskacasino.com/go → https://coldbet1f.com/sr/registration?type=phone&bonus=CASINO&click_id=02f113f76abc32e983d (Coldbet); https://betlnk.cc/go/02f113f7cb2f426b161de4242aaa9b3e365b64d → https://coldbet1f.com/en/registration?type=phone&bonus=CASINO&click_id=02f113f76aba9478773 (coldbet1f.com). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetportuguese.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet Portugal: Casino e Apostas 2026»), реклама только чужих: https://mostbetportuguese.com/go/ → https://winshark61.com/pt-br?stag=177856_6abc32f99137f0ac38f5a1da&tracking_link=http:%2F%2 (Winshark); https://winshark.link/dzwfyeid9 → https://winshark61.com/pt-br?stag=177856_6aba947afbc450d0e5856983&tracking_link=http%3A%2F (winshark61.com). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetrtp.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet RTP Database 2026 — Find the Highest Paying Slots»), реклама только чужих: https://playkingofviolence.com/mostbet → https://1wzpdo.life/?open=register&p=nlia&sub1=muopqsaz61irb8df (1win); https://playkingofviolence.com/mostbet → https://trinocasino4.io/registration-page?stag=168572_6aba949cc7b961e505ef998f&tr_src=seo& (trinocasino4.io). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbetru.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Мостбет - Официальный Сайт Казино и Ставок на Спорт»), реклама только чужих: https://mostbetru.org/go/ → https://mell1819.life/?p=slic&sub1=2kt1s2s.a.1krev (Mellstroy); https://bitroute.click/brandmostbet → https://btrwflm.life/?open=register&p=slic&sub1=2t20l9f.a.1korh (btrwflm.life). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbets-az.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet Promo kodlar - Azərbaycanda bonus qazanmağın yolu»), реклама только чужих: https://aze-mostbetgiris.com/play → https://one-vv1469.com/sr-RS/?p=4wsa&sub1=2kt1s2s.5.3b876t (1win); https://delta.play2win.one/GPP2vTDd → https://spinempire1.com/?stag=182464_6aba94a0895eec26aff0fbbb&cmp=499326&prm=562937&tracki (spinempire1.com). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbets-casino.ro",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet Casino Online România: oferte de bonusuri, sloturi, »), реклама только чужих: https://vip.cas1n0.one/click?key=9e72cd458bc5a66eb926&page=i → https://1xbet.rs:443/en/registration?tag=d_5723492m_97c__4240_d185908_l279666_other&pb=b17 (1xBet); https://vip.v1pcasino.one/click?key=0fba2b10dd89400880984b38 → https://zs26--cazeus.com/en/registration?mid=310282_1828626&fluid=8b086f46-cb46-4e29-bc1a- (Cazeus). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbets-cz.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet CZ – kasino, přihlášení a oficiální stránky»), реклама только чужих: https://mostbets-cz.net/go/ → https://spinsy-9504.com/cs/?mid=225868_2251219&fluid=b1e8e8d5-8259-4bc8-8575-45b0b428c367& (Spinsy online casino and sports betting); https://cz.stat-umlead.com/ → https://spinsy-9504.com/cs/?mid=225868_2251219&fluid=465a2b7f-2424-43e7-bca4-f45b64b75208& (spinsy-9504.com). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbets-czech.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet CZ: jak se zaregistrovat a přihlásit 2026»), реклама только чужих: https://mostbets-czech.org/go/ → https://spinsy-9504.com/cs/?mid=225868_2251219&fluid=c6d80376-e13c-4df3-839b-1399e745e179& (Spinsy online casino and sports betting); https://cz.stat-umlead.com/ → https://spinsy-9504.com/cs/?mid=225868_2251219&fluid=6b1cc0d7-492f-4b29-9b43-249dc2754bd2& (spinsy-9504.com). Ссылок на Mostbet нет."
+ },
+ {
+  "domain": "mostbets-online.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд (title «Mostbet CZ 2026 – oficiální stránky a přihlášení»), реклама только чужих: https://mostbets-online.cz/go/ → https://spinsy-9504.com/cs/?mid=225868_2251219&fluid=a9f852a7-9d81-44fc-9987-58191539167c& (Spinsy online casino and sports betting); https://cz.stat-umlead.com/ → https://spinsy-9504.com/cs/?mid=225868_2251219&fluid=6701dbcf-68f0-4dbd-a950-ea01c1f26175& (spinsy-9504.com). Ссылок на Mostbet нет."
+ }
+]

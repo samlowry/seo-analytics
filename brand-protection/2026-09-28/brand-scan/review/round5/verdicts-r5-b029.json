@@ -1,0 +1,452 @@
+[
+ {
+  "domain": "mostbet-promo.it",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в домене: «Benvenuti su Mostbet Italy la vostra guida per scommesse spo»), кнопка https://mostbet-promo.it/play ведёт на 1win (https://one-vv1469.com/sr-RS/?p=4wsa&sub1=2kt1s2s.5.3b868b); рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbet-promo.nl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в домене: «Ontdek alles over Mostbet spelen en wedden in Nederland met »), кнопка https://mostbet-promo.nl/play ведёт на 1win (https://one-vv1469.com/sr-RS/?p=4wsa&sub1=2kt1s2s.5.3b868l); рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbet918.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "wrong",
+  "should_be": "bait",
+  "confidence": 0.9,
+  "comment": "Mostbet только в домене; title, h1 и весь текст — про покер-рум RPTBET, 12 кнопок ведут на трекер click.rptbet.org/dDbIPol4 (btag=ag73022). Чужое казино под доменом с брендом — bait."
+ },
+ {
+  "domain": "mostbetazerbaijangamescom.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в домене: «Mostbet ilə idman mərc oyunlarının qazanclarını artırın»), кнопка https://mostbetazerbaijangamescom.cfd/join.php ведёт на 1xBet (https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c4); рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetazerbaijangamescom243.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в домене: «Mostbet ilə idman mərc oyunlarının qazanclarını artırın»), кнопка https://mostbetazerbaijangamescom243.cfd/join.php ведёт на 1xBet (https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c4); рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetazpro.net",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в домене: «Mostbet ilə Qazanmağın Sadə və Effektiv Yollarını Kəşf Edin»), кнопка https://mostbetazpro.net/visit ведёт на 1xBet (https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c4); рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasino.bid",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в домене: «mostbet casino Casino Online aur Sportsbook Pakistan ke liye»), кнопка https://77mvp.top/?cid=3730651 ведёт на 77MVP (https://77mvp.top/home/register?cid=3730651); рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasinos.app",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в домене: «Mostbet Casino UK»), кнопка https://go.afftrackio.com/visit/?bta=36344&nci=5376 ведёт на Online Casino, Live Casino & Sports Betting (https://smash777.casino/?cxd=36344_1372279&signup=true); рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetcasinouk.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в домене: «Mostbet Casino – The UK Player’s Guide to Big Game Variety i»), кнопка https://bonuses777b.com/fvVxhb ведёт на Званични сајт казина SpingrannySpingrannySpingranny (https://851spingranny.com/sr?cxd=42511_3313309_|afp1:a53517f76abbd0847e6e6039028); рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetjoga-pt.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в домене: «Most Bet Casino: Milhares de Jogos, Pagamentos em EUR e Casi»), кнопка https://gemix-demo.com/HTNGDWLj?creative_id=signup&lang=pt-PT&source=m ведёт на Lucky Star (https://luckyttmj.life/sr-RS/?sub1=1rvs58t.10.g0fe); рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetviva-it.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в домене: «Most Bet Casino: bonus, giochi e pagamenti rapidi»), кнопка https://gemix-demo.com/HTNGDWLj?creative_id=signup&lang=it-IT&source=m ведёт на Lucky Star (https://luckyttmj.life/sr-RS/?sub1=1rvs58t.10.g0fe); рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetwin-cz.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в домене: «Mostbet Casino - široká nabídka her, live kasino a sporty»), кнопка https://gemix-demo.com/HTNGDWLj?creative_id=signup&lang=cs-CZ&source=m ведёт на Lucky Star (https://luckyttmj.life/sr-RS/?sub1=1rvs58t.10.g0fe); рекламы Mostbet нет."
+ },
+ {
+  "domain": "mostbetwin-mx.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в домене: «Most Bet México: variedad, SPEI, Aviator y casino en vivo»), кнопка https://gemix-demo.com/HTNGDWLj?creative_id=signup&lang=es-MX&source=m ведёт на Lucky Star (https://luckyttmj.life/sr-RS/?sub1=1rvs58t.10.g0fe); рекламы Mostbet нет."
+ },
+ {
+  "domain": "mosttbet.online",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1: «Мостбет Казино действующее зеркало сайта на данный момент!»), кнопка https://refpa-07755.com/L?tag=d_5888363m_100272c_GENA2+mosttbet.online ведёт на 1xCasino (https://1xcasino.com:443/en/block?tag=d_5888363m_100272c_GENA2+mosttbet.online); рекламы Mostbet нет."
+ },
+ {
+  "domain": "mpestate.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1: «Mostbet CZ: Herní Zážitky 2026»), кнопка https://ddd7dj.org/MPNB4gYP?p=cros&z=SEO&a=DAFF ведёт на Lanista (https://lanista-2064.com/sr/registration?mid=371788_2157776&fluid=a7258941-25aa-); рекламы Mostbet нет."
+ },
+ {
+  "domain": "museumantiquities.tj",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1: «Mostbet Тоҷикистон: дастури мукаммал барои Mostbet Casino ва»), кнопка https://museumantiquities.tj/play ведёт на 1xBet (https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c4); рекламы Mostbet нет. Ссылка показывается посетителю из поиска/мобильному."
+ },
+ {
+  "domain": "mycell-bd.com",
+  "given": "bait",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "bait",
+  "confidence": 0.75,
+  "comment": "Title и description — «Mostbet Casino Official website in Bangladesh», а текст страницы — обзор MelBet (Melbet 218 упоминаний, Mostbet в тексте 0). Ссылок на Melbet нет, но подмена бренда в title — bait."
+ },
+ {
+  "domain": "myparuchia.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1): кнопки /go ведут через greatgame12.com на Linebet (lb-aff.com, tag=d_2725857m), а data-url кнопок регистрации — на mostbets-polska.com → Mostbet pid=303430."
+ },
+ {
+  "domain": "nationalpastorsconvention.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1): кнопки /go ведут через greatgame12.com на Linebet (lb-aff.com, tag=d_2725857m), а data-url кнопок регистрации — на mostbets-polska.com → Mostbet pid=303430."
+ },
+ {
+  "domain": "nodosele.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1: «Mostbet Azərbaycan – Rəsmi sayt, casino və online bahis»), кнопка https://nodosele.com/play ведёт на 1xBet (https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c4); рекламы Mostbet нет. Ссылка показывается посетителю из поиска/мобильному."
+ },
+ {
+  "domain": "ofbirdandcagegame.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1: «Mostbet: Azərbaycanda İdman Mərcləri və Kazino»), кнопка https://ofbirdandcagegame.com/play ведёт на 1xBet (https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c4); рекламы Mostbet нет. Ссылка показывается посетителю из поиска/мобильному."
+ },
+ {
+  "domain": "ohlook.in",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1: «MostBet – Your Ultimate Online Casino Destination»), кнопка https://www.ohlook.in/play ведёт на 1xBet (https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c4); рекламы Mostbet нет. Ссылка показывается посетителю из поиска/мобильному."
+ },
+ {
+  "domain": "ojura.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1: «Mostbet Portugal: Análise Completa (Review), Login e Seguran»), кнопка https://ojura.org/play ведёт на 1xBet (https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c4); рекламы Mostbet нет. Ссылка показывается посетителю из поиска/мобильному."
+ },
+ {
+  "domain": "olln.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1: «Mostbet BD – Ultimate Online Casino Experience in Bangladesh»), кнопка https://olln.org/play ведёт на 1xBet (https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c4); рекламы Mostbet нет. Ссылка показывается посетителю из поиска/мобильному."
+ },
+ {
+  "domain": "onlinemostbet.ink",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в домене: «Mostbet – profesjonalne kasyno online dla graczy»), кнопка https://onlinemostbet.ink/play ведёт на 1xBet (https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c4); рекламы Mostbet нет. Ссылка показывается посетителю из поиска/мобильному."
+ },
+ {
+  "domain": "outdoormoviehq.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1: «Mostbet AZ – Rəsmi Sayta Giriş, Qeydiyyat»), кнопка https://outdoormoviehq.com/play ведёт на 1xBet (https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c4); рекламы Mostbet нет. Ссылка показывается посетителю из поиска/мобильному."
+ },
+ {
+  "domain": "penniesfortheplanet.org",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1): кнопки /go ведут через greatgame12.com на Linebet (lb-aff.com, tag=d_2725857m), а data-url кнопок регистрации — на mostbets-polska.com → Mostbet pid=303430."
+ },
+ {
+  "domain": "pisa.com.pk",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1: «Step Into Mostbet – Download the App, Log In, and Begin Your»), кнопка https://pisa.com.pk/play ведёт на 1xBet (https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c4); рекламы Mostbet нет. Ссылка показывается посетителю из поиска/мобильному."
+ },
+ {
+  "domain": "pl-20-kotlas.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1: «Мостбет — честный обзор букмекерской конторы и казино 2026»), кнопка https://pl-20-kotlas.ru/play ведёт на 1xBet (https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c4); рекламы Mostbet нет. Ссылка показывается посетителю из поиска/мобильному."
+ },
+ {
+  "domain": "poesiasub25.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1: «Mostbet - Türk Oyuncular i̇çin Çevrim İçi Casino İncelemesi»), кнопка https://poesiasub25.com/play ведёт на 1xBet (https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c4); рекламы Mostbet нет. Ссылка показывается посетителю из поиска/мобильному."
+ },
+ {
+  "domain": "posturion.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1: «MostBet – zamonaviy onlayn kazino va tikish platformasi»), кнопка https://posturion.com/play ведёт на 1xBet (https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c4); рекламы Mostbet нет. Ссылка показывается посетителю из поиска/мобильному."
+ },
+ {
+  "domain": "previdencianapratica.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "hacked",
+  "confidence": 0.6,
+  "comment": "Взломанный WP-блог о пенсиях, спам-посты про Mostbet ссылаются на mostbetcasino686.com (Mostbet) и mostbet-brasil-win.com; последний сам переадресует через n66d.com на ambking1234 — рекламу ставит владелец того домена, а не этот сайт, на постах прямых ссылок на чужих операторов нет."
+ },
+ {
+  "domain": "prideofpoland.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1: «Mostbet Polska: kasyno online i zakłady sportowe»), кнопка https://prideofpoland.com/play ведёт на 1xBet (https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c4); рекламы Mostbet нет. Ссылка показывается посетителю из поиска/мобильному."
+ },
+ {
+  "domain": "primacinemacom459.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1: «Mostbet - Azərbaycan üçün Ən Yaxşı Real Pul Kazinosu Haqqınd»), кнопка https://primacinemacom459.top/play.php ведёт на 1xBet (https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c4); рекламы Mostbet нет. Ссылка показывается посетителю из поиска/мобильному."
+ },
+ {
+  "domain": "primacinemacom662.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1: «Mostbet - Azərbaycan üçün Ən Yaxşı Real Pul Kazinosu Haqqınd»), кнопка https://primacinemacom662.top/play.php ведёт на 1xBet (https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c4); рекламы Mostbet нет. Ссылка показывается посетителю из поиска/мобильному."
+ },
+ {
+  "domain": "primacinemacom709.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1: «Mostbet - Azərbaycan üçün Ən Yaxşı Real Pul Kazinosu Haqqınd»), кнопка https://primacinemacom709.top/play.php ведёт на 1xBet (https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c4); рекламы Mostbet нет. Ссылка показывается посетителю из поиска/мобильному."
+ },
+ {
+  "domain": "primacinemacom737.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1: «Mostbet - Azərbaycan üçün Ən Yaxşı Real Pul Kazinosu Haqqınd»), кнопка https://primacinemacom737.top/play.php ведёт на 1xBet (https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c4); рекламы Mostbet нет. Ссылка показывается посетителю из поиска/мобильному."
+ },
+ {
+  "domain": "primacinemacom900.top",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1: «Mostbet - Azərbaycan üçün Ən Yaxşı Real Pul Kazinosu Haqqınd»), кнопка https://primacinemacom900.top/play.php ведёт на 1xBet (https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c4); рекламы Mostbet нет. Ссылка показывается посетителю из поиска/мобильному."
+ },
+ {
+  "domain": "progressiveislam.info",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1): кнопки /go ведут через greatgame12.com на Linebet (lb-aff.com, tag=d_2725857m), а data-url кнопок регистрации — на mostbets-polska.com → Mostbet pid=303430."
+ },
+ {
+  "domain": "pykka.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1: «Mostbet BD – Play Online Casino & Betting in Bangladesh»), кнопка https://pykka.org/play ведёт на 1xBet (https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c4); рекламы Mostbet нет. Ссылка показывается посетителю из поиска/мобильному."
+ },
+ {
+  "domain": "radient-pharma.com",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1): кнопки /go ведут через greatgame12.com на Linebet (lb-aff.com, tag=d_2725857m), а data-url кнопок регистрации — на mostbets-polska.com → Mostbet pid=303430."
+ },
+ {
+  "domain": "reflexmedia.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1: «Herní platforma Mostbet pro české hráče»), кнопка https://ddd7dj.org/MPNB4gYP?p=cros&z=SEO&a=DAFF ведёт на Lanista (https://lanista-2064.com/sr/registration?mid=371788_2157776&fluid=a7258941-25aa-); рекламы Mostbet нет."
+ },
+ {
+  "domain": "rlifiles-3.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1: «Mostbet - Azərbaycan üçün Ən Yaxşı Real Pul Kazinosu Haqqınd»), кнопка https://rlifiles-3.cfd/play.php ведёт на 1xBet (https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c4); рекламы Mostbet нет. Ссылка показывается посетителю из поиска/мобильному."
+ },
+ {
+  "domain": "rlifiles-4.cfd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1: «Mostbet - Azərbaycan üçün Ən Yaxşı Real Pul Kazinosu Haqqınd»), кнопка https://rlifiles-4.cfd/play.php ведёт на 1xBet (https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c4); рекламы Mostbet нет. Ссылка показывается посетителю из поиска/мобильному."
+ },
+ {
+  "domain": "rsn-rb.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1: «Мостбет — честный обзор букмекерской конторы и казино 2026»), кнопка https://rsn-rb.ru/play ведёт на 1xBet (https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c4); рекламы Mostbet нет. Ссылка показывается посетителю из поиска/мобильному."
+ },
+ {
+  "domain": "s5dworzysko-aleksandrowo.pl",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1: «Mostbet oficjalna strona: Twoje centrum rozrywki i wielkich »), кнопка https://www.s5dworzysko-aleksandrowo.pl/play ведёт на 1xBet (https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c4); рекламы Mostbet нет. Ссылка показывается посетителю из поиска/мобильному."
+ },
+ {
+  "domain": "sietarrussia.ru",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1: «Mostbet Uzbekistan — ro'yxatdan o'tish, kazino o'yinlari va »), кнопка https://sietarrussia.ru/play ведёт на 1xBet (https://1xbet.rs:443/en/registration?tag=d_3755482m_22585c_smartlink&pb=45b3a2c4); рекламы Mostbet нет. Ссылка показывается посетителю из поиска/мобильному."
+ },
+ {
+  "domain": "skoupa-notar.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1: «Herní platforma Mostbet pro české hráče»), кнопка https://ddd7dj.org/MPNB4gYP?p=cros&z=SEO&a=DAFF ведёт на Lanista (https://lanista-2064.com/sr/registration?mid=371788_2157776&fluid=a7258941-25aa-); рекламы Mostbet нет."
+ },
+ {
+  "domain": "sleater-kinney.org",
+  "given": "mono_mixed",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_mixed",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1): кнопки /go ведут через greatgame12.com на Linebet (lb-aff.com, tag=d_2725857m), а data-url кнопок регистрации — на mostbets-polska.com → Mostbet pid=303430."
+ },
+ {
+  "domain": "soudkydubove.cz",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.9,
+  "comment": "Монобренд Mostbet (в title/h1: «Herní platforma Mostbet pro české hráče»), кнопка https://ddd7dj.org/MPNB4gYP?p=cros&z=SEO&a=DAFF ведёт на Lanista (https://lanista-2064.com/sr/registration?mid=371788_2157776&fluid=a7258941-25aa-); рекламы Mostbet нет."
+ }
+]

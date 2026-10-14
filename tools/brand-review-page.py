@@ -13,7 +13,7 @@ from pathlib import Path
 
 CATEGORY_RU = {
     "mono_other": "Монобренд → только чужие", "mono_mixed": "Монобренд → Mostbet и чужие",
-    "mono_xlink": "Монобренд, простые ссылки на чужих", "mono_mostbet": "Монобренд → только Mostbet",
+    "mono_xlink": "Монобренд, простые ссылки на чужих", "mono_hidden": "Монобренд → скрытые ссылки на чужие монобренды", "mono_mostbet": "Монобренд → только Mostbet",
     "mono_unresolved": "Монобренд, получатель рекламы неизвестен", "mono_no_ads": "Монобренд без рекламы",
     "mirror": "Зеркало Mostbet", "bait": "Приманка: Mostbet в имени, внутри чужой",
     "multibrand": "Гэмблинг-аффилиат не про Mostbet", "article": "Статейник", "hacked": "Взломанный",

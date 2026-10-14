@@ -1,0 +1,245 @@
+[
+ {
+  "domain": "mostbets-online.org",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Кнопки «Přihlásit se/Registrace» ведут на свой шлюз /go/ → spinsy-9504.com с mid=225868_2251219; второй путь через cz.stat-umlead.com туда же. Монобренд Mostbet, реклама чужого Spinsy."
+ },
+ {
+  "domain": "mostbets.at",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Кнопка «Einloggen» (header-login) через скрипт ref='https://signup-page.com/NJytTx' уводит на v484.vegas (Vulkan, ref=vp_w265764…), второй трекер click-game.com → starwindirect.com. Монобренд Mostbet, реклама чужих."
+ },
+ {
+  "domain": "mostbets.eu.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Монобренд «Mostbet Casino UK», ссылки 1wfafs.life/casino/list?p=oa30&sub1=… ведут на 1win (one-vv3429.com), плюс трекер new-promos.com. Реклама чужого 1win."
+ },
+ {
+  "domain": "mostbets.poker",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Кнопки шапки на /go/bonus/direct → redirect-fieryplay.com (ref=vp_w245602…), трекер traffick-jumps.com → dudespin. Монобренд Mostbet, реклама чужих."
+ },
+ {
+  "domain": "mostbets.ro",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Ссылка навигации «Aplicație» через vip.cas1n0.one/click?brand=Mostbet уводит на 1xbet.rs?tag=d_5723492m…, блок «Cazinouri alternative» через v1pcasino.one → Cazeus/Tikitaka. Монобренд Mostbet, реклама чужих."
+ },
+ {
+  "domain": "mostbets.tech",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Переезд на mostbet-site.org/az/; кнопки на трекер bgn-game.com/cyzH23Bv (7 ссылок) → kaas.go2play.link?stag=247897_… (чужое казино). Монобренд Mostbet, реклама чужого."
+ },
+ {
+  "domain": "mostbetscasino.com.pt",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Та же сетка, что mostbets.at: скрипт ref='https://signup-page.com/NJytTx' → v484.vegas (Vulkan, ref=vp_w265764…), click-game.com → starwindirect.com. Монобренд Mostbet, реклама чужих."
+ },
+ {
+  "domain": "mostbetscasino.ro",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Кнопка «Înregistrare» через vip.cas1n0.one/click?brand=Mostbet уводит на 1xbet.rs?tag=d_5723492m…, плюс v1pcasino.one → Cazeus/Tikitaka. Монобренд Mostbet, реклама чужих."
+ },
+ {
+  "domain": "mostbetsites.com",
+  "given": "mono_other",
+  "violator": false,
+  "verdict": "wrong",
+  "should_be": "mono_xlink",
+  "confidence": 0.7,
+  "comment": "Главные кнопки (196 шт.) ведут на трекер tekkabuzz.com/af/NV0RcqxB/mostbet, получатель не установлен; 20bets.live и 1xbetjourney.com — видимые простые ссылки в тексте внутренних страниц (/registration, /app) на клоны-дорвеи той же сетки, без кода партнёра, не сайты операторов. Это mono_xlink, не реклама чужих."
+ },
+ {
+  "domain": "mostbetslots.com.de",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Кнопки на свой /go.php → slotornado.com/registration?refcode=s74498s, плюс трекер toptraffgo.top туда же. Монобренд Mostbet, реклама чужого Slotornado."
+ },
+ {
+  "domain": "mostbett.de",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Переезд на mostbetdeutschland.de; кнопки «ANMELDEN»/регистрация (18 ссылок) на log.mostbett.de/?registration=germany → 841spinania.com (bta=36759). Монобренд Mostbet, реклама чужого Spinania."
+ },
+ {
+  "domain": "mostbett.ro",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Кнопка «Autentificare» через vip.cas1n0.one/click?brand=Mostbet → 1xbet.rs?tag=d_5723492m…, плюс v1pcasino.one → Cazeus/Tikitaka. Монобренд Mostbet, реклама чужих."
+ },
+ {
+  "domain": "mostbetting.casino",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Кнопки Login/Sign Up на /go/bonus → redirect-fieryplay.com (ref=vp_w245602…), трекер traffick-jumps.com → dudespin. Монобренд Mostbet (UZ), реклама чужих."
+ },
+ {
+  "domain": "mostbetting.games",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Кнопки на /go/bonus/direct → redirect-fieryplay.com (ref=vp_w245602…), трекер traffick-jumps.com → dudespin. Монобренд Mostbet, реклама чужих."
+ },
+ {
+  "domain": "mostbetting.ltd",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Кнопки Login/Sign Up в шапке на /go/bonus → redirect-fieryplay.com (ref=vp_w245602…), traffick-jumps.com → dudespin. Монобренд Mostbet, реклама чужих."
+ },
+ {
+  "domain": "mostbettor.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Кнопки на /go/bonus/direct → redirect-fieryplay.com (ref=vp_w245602…), traffick-jumps.com → dudespin. Монобренд Mostbet, реклама чужих."
+ },
+ {
+  "domain": "mostbettor.games",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Кнопки на /go/bonus/direct → redirect-fieryplay.com (ref=vp_w245602…), traffick-jumps.com → dudespin. Монобренд Mostbet, реклама чужих."
+ },
+ {
+  "domain": "mostbettowerrush.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Кнопки «Get Mostbet Bonus» на /go (6 ссылок), meta refresh → playkingofviolence.com/mostbet → 1win (1wzpdo.life?p=nlia) и nsqnetwork.g2afse.com. Монобренд Mostbet, реклама чужих."
+ },
+ {
+  "domain": "mostbetuzuzb.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Кнопки на свой /mostbet/ → db-bet-09317.pro?tag=d_3662051m_11213c_mostbetuzuzb-com (DBbet), через refpa96317.com. Монобренд Mostbet, реклама чужого DBbet."
+ },
+ {
+  "domain": "mostbetviptr.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Кнопки «Mostbet'de oyna» на /go?er=empty → paribahis1362.com?partner=p5373p22025pddeb, трекер puxendorala.com туда же. Монобренд Mostbet, реклама чужого Paribahis."
+ },
+ {
+  "domain": "mostbetwinturkey.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Кнопки на /go?er=empty → paribahis1362.com?partner=p5373p22025pddeb, трекер forwyxelith.com → paribahis1358.com. Монобренд Mostbet, реклама чужого Paribahis."
+ },
+ {
+  "domain": "mostbetwithdrawal.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Кнопки «Withdraw Now» на /go → playkingofviolence.com/mostbet → 1win (1wzpdo.life?p=nlia) и nsqnetwork.g2afse.com. Монобренд Mostbet, реклама чужих."
+ },
+ {
+  "domain": "news-mostbet-tr.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Кнопки (12 ссылок) на bonusmulti.com/newsmostbettrcom → 8normcasino-xx.win?qtag=a90242…, трекер copper-ray.com. Монобренд Mostbet, реклама чужого NormCasino."
+ },
+ {
+  "domain": "onlinemostbet.online",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Кнопки (65 ссылок) на свой /ref/ → 892piperspin.com (bta=36371), трекер jytryd.click → 1xbet.rs?tag=d_5135492m…. Монобренд Mostbet, реклама чужих."
+ },
+ {
+  "domain": "playmostbetbd.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Переезд на getmostbetbd.com; кнопки /go/register → sportbet.one?stag=2358_…, /go/login → redirect-fieryplay.com. Монобренд Mostbet, реклама чужих."
+ },
+ {
+  "domain": "uz-mostbet.bet",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Кнопки «Ro‘yxatdan o‘tish» на /go/ (7 ссылок) → likecasino.com/uz/register?tracker=58327. Монобренд Mostbet, реклама чужого Like casino."
+ },
+ {
+  "domain": "uz-mostbets.com",
+  "given": "mono_other",
+  "violator": true,
+  "verdict": "correct",
+  "should_be": "mono_other",
+  "confidence": 0.92,
+  "comment": "Кнопки на /go/ → likecasino.com/uz/register?tracker=58327&offer=101. Монобренд Mostbet, реклама чужого Like casino."
+ }
+]
