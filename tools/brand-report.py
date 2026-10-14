@@ -530,11 +530,73 @@ const h=location.hash.match(/^#n(\\d+)$/);if(h){{const el=document.getElementByI
     print(out / "brand-report.html")
 
 
+def md_esc(x) -> str:
+    """Plain text for Markdown: line breaks folded, markup characters escaped (an underscore inside a word stays)."""
+    t = re.sub(r"([\\`*\[\]<>])", r"\\\1", " ".join(str(x or "").split()))
+    return re.sub(r"(?<!\w)_|_(?!\w)", r"\_", t)
+
+
+def md_link(url: str, n=100) -> str:
+    return f"[{md_esc(url[:n])}]({url.replace(' ', '%20').replace(')', '%29')})"
+
+
+def md_text(text: str) -> str:
+    """Escape, then turn every URL into a link, as linkify() does for HTML."""
+    parts = re.split(r"(https?://[^\s,()]+)", " ".join(str(text or "").split()))
+    return "".join(md_link(p, 200) if i % 2 else md_esc(f".{p}.")[1:-1] for i, p in enumerate(parts))
+
+
+def md_card(num, r, sample_text) -> str:
+    """The same fields as card(), as a heading and a flat list: Google Docs keeps headings, bold, lists and links."""
+    c = CONF.get(r["domain"], {})
+    lines = [f"### {num}. {md_esc(r['domain'])}", ""]
+    kv = []
+    if r.get("check"):  # a checker's verdict replaces the model's estimate
+        word = {"True": "нарушитель", "False": "не нарушитель"}.get(r.get("check_violator"), "не решено")
+        conf = f", уверенность проверяющего {round(float(r['check_confidence']) * 100)} %" if r.get("check_confidence") else ""
+        kv.append(("проверка", md_esc(word + conf)))
+        if r.get("check_note"):
+            kv.append(("проверяющий", md_text(r["check_note"])))
+        if r.get("check") == "fixed":
+            kv.append(("класс по правилам был", md_esc(r.get("rule_category"))))
+    elif c:
+        kv.append(("уверенность в типе сайта", f"{c['confidence']} %"))
+        if c.get("violation"):
+            kv.append(("уверенность в нарушении", f"{c['violation']} %"))
+        if c.get("minus"):
+            kv.append(("снижает уверенность", md_esc(c["minus"])))
+        if c.get("checked"):
+            kv.append(("проверен вручную", "тип подтверждён" if c["checked"] == "agrees" else "тип не подтверждён"))
+    kv.insert(0, ("сайт", md_link(f"https://{r['domain']}/")))
+    kv.append(("причина", md_text(why_ru(r))))
+    lines += [f"- **{k}:** {v}" for k, v in kv]
+    try:
+        links = json.loads(r.get("ad_links") or "[]")
+    except ValueError:
+        links = []
+    if links:
+        lines.append("- **ссылки, решившие класс:**")
+        for kind, name, url, final in links:
+            nm = brand_name(name) if kind == "other" else name
+            lines.append(f"    - {AD_KIND[kind]} **{md_esc(nm)}**: {md_link(url)}" + (f" → {md_esc(final[:90])}" if final else ""))
+    tags = ", ".join(TAG_RU.get(t, t) for t in r["tags"].split() if t in TAG_RU and t != "brand_in_domain")
+    if tags:
+        lines.append(f"- **метки:** {md_esc(tags)}")
+    if r["title"]:
+        lines.append(f"- **title:** {md_esc(r['title'])}")
+    if r["final_url"] and r["domain"] not in r["final_url"]:
+        lines.append(f"- **конечный адрес:** {md_link(r['final_url'], 200)}")
+    if sample_text:
+        lines.append(f"- **текст главной:** «{md_esc(sample_text)}…»")
+    return "\n".join(lines) + "\n"
+
+
+MD_PART = 900_000
 GROUP_MIN = 90  # per-class reports keep only violators this sure: the checker's confidence, else the violation scale
 
 
 def group_reports(d: Path, rows, text):
-    """report/groups/: per violator class an HTML page and a CSV with the same fields as the full report, no
+    """report/groups/: per violator class an HTML page, the same page in Markdown (for Google Docs) and a CSV with the same fields as the full report, no
     collapsing, plus README.md as the index. Only sites with violation confidence >= GROUP_MIN."""
     out = d / "report" / "groups"
     out.mkdir(parents=True, exist_ok=True)
@@ -584,14 +646,39 @@ def group_reports(d: Path, rows, text):
 <section class="g-viol">{cards}</section>
 </main></body></html>"""
         (out / f"{name}.html").write_text(page, encoding="utf-8")
-        index.append((name, ru, desc, len(sel)))
+        # A Google Doc holds about 1.02M characters, so a long class is cut into parts of MD_PART characters.
+        cards_md = [md_card(n, r, text.get(r["domain"])) for n, r in enumerate(sel, 1)]
+        parts, cur = [], []
+        for cm in cards_md:
+            if cur and sum(map(len, cur)) + len(cm) > MD_PART:
+                parts.append(cur)
+                cur = []
+            cur.append(cm)
+        parts.append(cur)
+        for old_md in out.glob(f"{name}*.md"):
+            old_md.unlink()
+        mds, first = [], 1
+        for pi, part in enumerate(parts, 1):
+            fn = f"{name}.md" if len(parts) == 1 else f"{name}-part{pi}.md"
+            last = first + len(part) - 1
+            rng = f" Часть {pi} из {len(parts)}: № {fmt(first)}–{fmt(last)}." if len(parts) > 1 else ""
+            md = [f"# {md_esc(ru)}" + (f", часть {pi}" if len(parts) > 1 else ""), "",
+                  f"Нарушители Mostbet, срез 13.10.2026. {fmt(len(sel))} доменов с уверенностью в нарушении от "
+                  f"{GROUP_MIN} %, по алфавиту.{rng} Таблица с теми же полями: {name}.csv.", "", md_esc(desc), ""]
+            (out / fn).write_text("\n".join(md + part), encoding="utf-8")
+            mds.append(fn)
+            first = last + 1
+        index.append((name, ru, desc, len(sel), mds))
     md = [f"# Нарушители Mostbet по классам, уверенность от {GROUP_MIN} %", "",
-          f"Срез 13.10.2026. В каждом классе — пара файлов: страница с карточками сайтов и таблица с теми же полями. "
+          f"Срез 13.10.2026. В каждом классе — три файла: страница с карточками сайтов (HTML), она же в Markdown для "
+          f"импорта в Google Docs и таблица с теми же полями (CSV). "
           f"Взяты нарушители с уверенностью от {GROUP_MIN} %: у сайтов, проверенных агентом, — вердикт «нарушитель» с "
           f"уверенностью проверяющего от {GROUP_MIN} %, у непроверенных — шкала «уверенность в нарушении» от {GROUP_MIN}. "
-          f"Всего {fmt(sum(x[3] for x in index))} доменов.", "", "| класс | доменов | что это | файлы |", "|---|---:|---|---|"]
-    md += [f"| {ru} | {fmt(n)} | {desc} | [{name}.html]({name}.html), [{name}.csv]({name}.csv) |"
-           for name, ru, desc, n in index]
+          f"Всего {fmt(sum(x[3] for x in index))} доменов. Markdown длиннее {fmt(MD_PART)} символов разрезан на части: "
+          f"в один Google Doc влезает около 1 млн.", "", "| класс | доменов | что это | файлы |", "|---|---:|---|---|"]
+    md += [f"| {ru} | {fmt(n)} | {desc} | [{name}.html]({name}.html), "
+           + ", ".join(f"[{m}]({m})" for m in mds) + f", [{name}.csv]({name}.csv) |"
+           for name, ru, desc, n, mds in index]
     (out / "README.md").write_text("\n".join(md) + "\n", encoding="utf-8")
     return index
 
