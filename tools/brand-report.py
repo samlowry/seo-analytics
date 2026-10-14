@@ -670,13 +670,13 @@ def group_reports(d: Path, rows, text):
             first = last + 1
         index.append((name, ru, desc, len(sel), mds))
     md = [f"# Нарушители Mostbet по классам, уверенность от {GROUP_MIN} %", "",
-          f"Срез 13.10.2026. В каждом классе — три файла: страница с карточками сайтов (HTML), она же в Markdown для "
-          f"импорта в Google Docs и таблица с теми же полями (CSV). "
+          f"Срез 13.10.2026. В каждом классе — страница с карточками сайтов (HTML), она же в PDF "
+          f"(`tools/brand-group-pdf.py`), она же в Markdown для импорта в Google Docs и таблица с теми же полями (CSV). "
           f"Взяты нарушители с уверенностью от {GROUP_MIN} %: у сайтов, проверенных агентом, — вердикт «нарушитель» с "
           f"уверенностью проверяющего от {GROUP_MIN} %, у непроверенных — шкала «уверенность в нарушении» от {GROUP_MIN}. "
           f"Всего {fmt(sum(x[3] for x in index))} доменов. Markdown длиннее {fmt(MD_PART)} символов разрезан на части: "
           f"в один Google Doc влезает около 1 млн.", "", "| класс | доменов | что это | файлы |", "|---|---:|---|---|"]
-    md += [f"| {ru} | {fmt(n)} | {desc} | [{name}.html]({name}.html), "
+    md += [f"| {ru} | {fmt(n)} | {desc} | [{name}.html]({name}.html), [{name}.pdf]({name}.pdf), "
            + ", ".join(f"[{m}]({m})" for m in mds) + f", [{name}.csv]({name}.csv) |"
            for name, ru, desc, n, mds in index]
     (out / "README.md").write_text("\n".join(md) + "\n", encoding="utf-8")
