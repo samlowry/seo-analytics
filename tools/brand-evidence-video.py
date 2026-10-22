@@ -688,7 +688,7 @@ async def record(browser, p, att, tmp: Path, start: str):
         if not (tmp / "last.png").exists() and shots:  # stopped early: the last frame is the final picture
             shutil.copy(shots[-1], tmp / "last.jpg")
         try:
-            await ctx.close()
+            await bs.bounded(ctx.close(), 15)  # on a crashed browser close() never returns
         except Exception:  # noqa: BLE001
             pass
         err = await encode(frames, frames_dir, tmp / "video.mp4")
@@ -699,6 +699,11 @@ async def record(browser, p, att, tmp: Path, start: str):
 
 
 PROXY = None  # (host, port) of the SOCKS proxy, set in main()
+PROGRESS = Path("/tmp/evidence-progress.txt")  # readable without root: sites done, accepted, rejected, requeued
+
+
+class BrowserGone(RuntimeError):
+    pass
 
 
 async def proxy_alive() -> bool:
@@ -742,10 +747,14 @@ async def run_site(browser, p, out: Path) -> dict:
         att = queue[i]
         shutil.rmtree(tmp, ignore_errors=True)
         tmp.mkdir(parents=True)
+        if not browser.is_connected():
+            raise BrowserGone(p["domain"])
         try:
-            res = await asyncio.wait_for(record(browser, p, att, tmp, start), 200)
-        except asyncio.TimeoutError:
+            res = await bs.bounded(record(browser, p, att, tmp, start), 200)
+        except TimeoutError:
             res = {"domain": p["domain"], "attempt": f"{att[0]}{att[1]}", "status": "timeout", "note": "", "log": []}
+        if res["status"] in ("timeout", "error") and not browser.is_connected():
+            raise BrowserGone(p["domain"])  # the browser died under this site: relaunch and record it again
         if res["status"] in ("open_failed", "timeout", "error") and not await proxy_alive():
             await wait_proxy()  # the failure is our tunnel, not the site: repeat the attempt
             continue
@@ -807,17 +816,44 @@ async def main():
     from camoufox.async_api import AsyncCamoufox
     lock = asyncio.Lock()
 
+    stats = {"done": len(done), "ok": 0, "rej": 0, "requeued": 0}
+
+    def note_progress():
+        try:
+            PROGRESS.write_text(f"{stats['done']} {stats['ok']} {stats['rej']} {stats['requeued']} {len(want)}\n")
+            PROGRESS.chmod(0o644)
+        except OSError:
+            pass
+
     async def worker(wid):
+        """One browser, relaunched every 20 sites and after a crash; a site whose browser died is recorded again."""
         while not q.empty():
             cm = AsyncCamoufox(headless=True, geoip=True, humanize=False, i_know_what_im_doing=True,
                                exclude_addons=[DefaultAddons.UBO], **({"proxy": proxy} if proxy else {}))
-            browser = await cm.__aenter__()
             try:
-                for _ in range(20):  # fresh browser every 20 sites
-                    if q.empty():
+                browser = await bs.bounded(cm.__aenter__(), bs.LAUNCH_TIMEOUT)
+            except Exception as e:  # noqa: BLE001
+                print(f"[{wid}] browser launch failed: {type(e).__name__}; retry in 30 s", flush=True)
+                bs.kill_driver(cm)
+                await asyncio.sleep(30)
+                continue
+            try:
+                for _ in range(20):
+                    if q.empty() or not browser.is_connected():
                         break
                     p = q.get_nowait()
-                    r = await run_site(browser, p, out)
+                    try:
+                        r = await bs.bounded(run_site(browser, p, out), 1200)
+                    except (BrowserGone, TimeoutError) as e:
+                        p["_requeued"] = p.get("_requeued", 0) + 1
+                        stats["requeued"] += 1
+                        if p["_requeued"] <= 2:
+                            q.put_nowait(p)
+                            print(f"[{wid}] browser lost on {p['domain']} ({type(e).__name__}); requeued", flush=True)
+                            break
+                        r = {"domain": p["domain"], "category": p["category"], "kind": p["kind"], "accepted": False,
+                             "reason": "browser crashed three times on this site", "status": "crash",
+                             "final_url": "", "landing": {}, "files": {}, "attempts": []}
                     async with lock:
                         with open(out / "results.jsonl", "a", encoding="utf-8") as f:
                             f.write(json.dumps(r, ensure_ascii=False) + "\n")
@@ -826,13 +862,17 @@ async def main():
                             for t in r["attempts"]:
                                 f.write(f"  -- attempt {t['attempt']}: {t['status']}\n")
                                 f.writelines(f"     {x}\n" for x in t.get("log") or [])
+                        stats["done"] += 1
+                        stats["ok" if r["accepted"] else "rej"] += 1
+                        note_progress()
                     print(f"[{wid}] {'OK ' if r['accepted'] else 'REJ'} {len(r['attempts'])}x {p['category']:<15} "
                           f"{p['domain']:<30} {r['reason'][:70]}", flush=True)
             finally:
                 try:
-                    await cm.__aexit__(None, None, None)
+                    await bs.bounded(cm.__aexit__(None, None, None), 30)
                 except Exception:  # noqa: BLE001
-                    bs.kill_driver(cm)
+                    pass
+                bs.kill_driver(cm)
 
     await asyncio.gather(*(worker(i) for i in range(a.concurrency)))
 
