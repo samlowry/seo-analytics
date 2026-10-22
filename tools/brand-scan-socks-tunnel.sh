@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# Mac side: local SOCKS that exits via this machine's default route (Yettel),
+# Mac side: local SOCKS that exits via the home line (Yettel) — pinned to BRAND_SCAN_IFACE (en0), so routes
+# a corporate VPN takes (GlobalProtect) do not change the exit —
 # reverse-forwarded to genhost as 127.0.0.1:1080. Does NOT join the server to
 # Tailscale and does NOT change the server's default route.
 #
@@ -18,21 +19,17 @@ cleanup() {
 }
 trap cleanup EXIT INT TERM
 
-if ! command -v uvx >/dev/null; then
-  echo "uvx not found — install uv (https://docs.astral.sh/uv/)" >&2
-  exit 1
-fi
-
-echo "local SOCKS on 127.0.0.1:${LOCAL_PORT} (exit = this Mac)"
-uvx pproxy -l "socks5://127.0.0.1:${LOCAL_PORT}" &
+IFACE="${BRAND_SCAN_IFACE:-en0}"
+echo "local SOCKS on 127.0.0.1:${LOCAL_PORT} (exit = this Mac via ${IFACE})"
+python3 "$(dirname "$0")/socks5-local.py" --port "$LOCAL_PORT" --iface "$IFACE" &
 PPROXY_PID=$!
 sleep 1
 if ! kill -0 "$PPROXY_PID" 2>/dev/null; then
-  echo "pproxy failed to start" >&2
+  echo "local SOCKS failed to start" >&2
   exit 1
 fi
 
-ME=$(curl -sS -m 10 https://ipinfo.io/json)
+ME=$(curl -sS -m 10 -x "socks5h://127.0.0.1:${LOCAL_PORT}" https://ipinfo.io/json)
 echo "Mac public IP: $(echo "$ME" | python3 -c 'import sys,json; j=json.load(sys.stdin); print(j.get("ip"), j.get("org"), j.get("country"))')"
 
 echo "SSH reverse tunnel → ${REMOTE}:127.0.0.1:${REMOTE_PORT}"

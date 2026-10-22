@@ -2,6 +2,8 @@
 """Minimal local SOCKS5 (no auth) that exits via this host's default route.
 
 Used as the Mac side of an ssh -R tunnel for genhost Camoufox. Only CONNECT.
+--iface en0 pins every outgoing connection to that interface (macOS IP_BOUND_IF), so traffic exits through the
+home line even when a corporate VPN (GlobalProtect) has taken routes to public networks.
 """
 from __future__ import annotations
 
@@ -26,6 +28,33 @@ async def pipe(a: asyncio.StreamReader, b: asyncio.StreamWriter):
             b.close()
         except Exception:
             pass
+
+
+IFACE = None  # interface index for IP_BOUND_IF, set by --iface
+IP_BOUND_IF, IPV6_BOUND_IF = 25, 125  # macOS <netinet/in.h>
+
+
+async def connect(addr: str, port: int):
+    if IFACE is None:
+        return await asyncio.open_connection(addr, port)
+    loop = asyncio.get_running_loop()
+    infos = await loop.getaddrinfo(addr, port, type=socket.SOCK_STREAM)
+    infos.sort(key=lambda i: i[0] != socket.AF_INET)  # IPv4 first
+    err = None
+    for fam, typ, proto, _, sa in infos:
+        sock = socket.socket(fam, typ, proto)
+        try:
+            if fam == socket.AF_INET:
+                sock.setsockopt(socket.IPPROTO_IP, IP_BOUND_IF, IFACE)
+            else:
+                sock.setsockopt(socket.IPPROTO_IPV6, IPV6_BOUND_IF, IFACE)
+            sock.setblocking(False)
+            await asyncio.wait_for(loop.sock_connect(sock, sa), 20)
+            return await asyncio.open_connection(sock=sock)
+        except (OSError, asyncio.TimeoutError) as e:
+            sock.close()
+            err = e
+    raise OSError(f"connect {addr}:{port}: {err}")
 
 
 async def handle(reader: asyncio.StreamReader, writer: asyncio.StreamWriter):
@@ -57,7 +86,7 @@ async def handle(reader: asyncio.StreamReader, writer: asyncio.StreamWriter):
         port = struct.unpack("!H", await reader.readexactly(2))[0]
 
         try:
-            remote_r, remote_w = await asyncio.open_connection(addr, port)
+            remote_r, remote_w = await connect(addr, port)
         except OSError:
             writer.write(b"\x05\x05\x00\x01\x00\x00\x00\x00\x00\x00")
             await writer.drain()
@@ -89,5 +118,8 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--host", default="127.0.0.1")
     ap.add_argument("--port", type=int, default=1080)
+    ap.add_argument("--iface", help="pin outgoing connections to this interface, e.g. en0")
     a = ap.parse_args()
+    if a.iface:
+        IFACE = socket.if_nametoindex(a.iface)
     asyncio.run(main(a.host, a.port))
