@@ -757,8 +757,10 @@ async def run_site(browser, p, out: Path) -> dict:
             res = await bs.bounded(record(browser, p, att, tmp, start), 200)
         except TimeoutError:
             res = {"domain": p["domain"], "attempt": f"{att[0]}{att[1]}", "status": "timeout", "note": "", "log": []}
-        if res["status"] in ("timeout", "error") and not browser.is_connected():
-            raise BrowserGone(p["domain"])  # the browser died under this site: relaunch and record it again
+        if res["status"] == "timeout" or (res["status"] == "error" and not browser.is_connected()):
+            # a hung or dead browser, not the site: relaunch and record the site again. Counting it as a rejection
+            # once turned a frozen driver into 46 false rejections and kept the stall watchdog from firing.
+            raise BrowserGone(p["domain"])
         if res["status"] in ("open_failed", "timeout", "error") and not await proxy_alive():
             await wait_proxy()  # the failure is our tunnel, not the site: repeat the attempt
             continue
@@ -769,7 +771,7 @@ async def run_site(browser, p, out: Path) -> dict:
         if res["status"] in ("open_failed", "error_page") and start.startswith("https://") and not http_tried:
             start, http_tried = "http://" + start[len("https://"):], True  # self-signed or broken TLS: try plain HTTP
             continue
-        if res["status"] in ("open_failed", "error_page", "bot_check", "hidden_not_found", "timeout"):
+        if res["status"] in ("open_failed", "error_page", "bot_check", "hidden_not_found"):
             break
         if res["status"] == "link_not_found" and att[0] == "link":  # this link is gone: skip its repeats
             while i + 1 < len(queue) and queue[i + 1] == att:
