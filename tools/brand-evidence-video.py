@@ -27,8 +27,11 @@ import csv
 import importlib.util
 import json
 import re
+import os
 import shutil
+import subprocess
 import sys
+import threading
 import time
 from pathlib import Path
 from urllib.parse import urlsplit
@@ -699,6 +702,7 @@ async def record(browser, p, att, tmp: Path, start: str):
 
 
 PROXY = None  # (host, port) of the SOCKS proxy, set in main()
+STALL_S = 900
 PROGRESS = Path("/tmp/evidence-progress.txt")  # readable without root: sites done, accepted, rejected, requeued
 
 
@@ -816,11 +820,36 @@ async def main():
     from camoufox.async_api import AsyncCamoufox
     lock = asyncio.Lock()
 
-    stats = {"done": len(done), "ok": 0, "rej": 0, "requeued": 0}
+    stats = {"done": len(done), "ok": 0, "rej": 0, "requeued": 0, "last_error": ""}
+    # geoip=True asks an IP service on every browser launch; hundreds of relaunches got refused and every launch
+    # failed (the full run stopped twice). The exit IP is looked up once here and handed to Camoufox as is.
+    geo = True
+    if a.proxy:
+        ip = subprocess.run(["curl", "-s", "-m", "15", "-x", a.proxy.replace("socks5://", "socks5h://"),
+                             "https://api.ipify.org"], capture_output=True, text=True).stdout.strip()
+        if re.fullmatch(r"[0-9.]+", ip):
+            geo = ip
+        print(f"exit IP for geoip: {geo}", flush=True)
+
+    last = [time.monotonic()]
+
+    def watchdog():
+        """A Playwright driver crash (TypeError … '_getChildFrames' in the driver) left the run waiting forever,
+        twice. No new site for STALL_S seconds: exit, and the wrapper loop on the server starts the run again
+        (finished sites are skipped)."""
+        while True:
+            time.sleep(60)
+            if time.monotonic() - last[0] > STALL_S:
+                print(f"{time.strftime('%H:%M:%S')} no site finished for {STALL_S} s: exiting for a restart", flush=True)
+                os._exit(75)
+
+    threading.Thread(target=watchdog, daemon=True).start()
 
     def note_progress():
+        last[0] = time.monotonic()
         try:
-            PROGRESS.write_text(f"{stats['done']} {stats['ok']} {stats['rej']} {stats['requeued']} {len(want)}\n")
+            PROGRESS.write_text(f"{stats['done']} {stats['ok']} {stats['rej']} {stats['requeued']} {len(want)}\n"
+                                f"{stats['last_error']}\n")
             PROGRESS.chmod(0o644)
         except OSError:
             pass
@@ -828,12 +857,14 @@ async def main():
     async def worker(wid):
         """One browser, relaunched every 20 sites and after a crash; a site whose browser died is recorded again."""
         while not q.empty():
-            cm = AsyncCamoufox(headless=True, geoip=True, humanize=False, i_know_what_im_doing=True,
+            cm = AsyncCamoufox(headless=True, geoip=geo, humanize=False, i_know_what_im_doing=True,
                                exclude_addons=[DefaultAddons.UBO], **({"proxy": proxy} if proxy else {}))
             try:
                 browser = await bs.bounded(cm.__aenter__(), bs.LAUNCH_TIMEOUT)
             except Exception as e:  # noqa: BLE001
-                print(f"[{wid}] browser launch failed: {type(e).__name__}; retry in 30 s", flush=True)
+                print(f"[{wid}] browser launch failed: {type(e).__name__}: {str(e)[:200]}; retry in 30 s", flush=True)
+                stats["last_error"] = f"{time.strftime('%H:%M:%S')} launch: {type(e).__name__}: {str(e)[:150]}"
+                note_progress()
                 bs.kill_driver(cm)
                 await asyncio.sleep(30)
                 continue
