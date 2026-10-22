@@ -1,0 +1,385 @@
+== mostbet-best.org [mono_other] → ACCEPTED
+  -- attempt link0: landed
+       6.3s open https://mostbet-best.org/ (referer Google) → HTTP 200, https://mahlechampions.com/
+       9.8s link https://mahlechampions.com/play (scan: 1xBet) found: 'Login'
+      16.2s click at 1089,37
+      22.5s left the site → https://1xbet.rs/sp/registration?click_id=1u3roov.637.aarho8&pb=45b3a2c401b14a689ff48b44eca10dc2&r=registration&tag=d_37
+      22.6s landing: other_gambling 1xBet (fields:1xBet)
+== somaliembassydcnet808.top [mono_other] → ACCEPTED
+  -- attempt link0: landed
+       2.3s open https://somaliembassydcnet808.top/ → HTTP 200, https://somaliembassydcnet808.top/
+       7.1s link https://somaliembassydcnet808.top/go.php (scan: 1xBet) found: '175.000-ə qədər qazanın\nPulsuz önbellek!'
+      15.0s click at 454,38
+      25.8s left the site → https://1xbet.rs/sp/registration?click_id=1u3roov.637.aarhnr&pb=45b3a2c401b14a689ff48b44eca10dc2&r=registration&tag=d_37
+      26.2s landing: other_gambling 1xBet (fields:1xBet)
+== mostbet-go.ru [mono_other] → REJECTED: link_not_found: no call to action #3
+  -- attempt link0: link_not_found
+       2.5s open https://mostbet-go.ru/ → HTTP 200, https://mostbet-go.ru/
+       7.6s link https://updatezone.net/Bjyjf1TL (scan: 1win) not on the page now; page now: non_gambling FASTPANEL, title 'FASTPANEL'
+  -- attempt cta0: link_not_found
+       1.2s open https://mostbet-go.ru/ → HTTP 200, https://mostbet-go.ru/
+       5.4s no call to action #1 on the page; page now: non_gambling FASTPANEL, title 'FASTPANEL'
+  -- attempt cta1: link_not_found
+       1.0s open https://mostbet-go.ru/ → HTTP 200, https://mostbet-go.ru/
+       5.3s no call to action #2 on the page; page now: non_gambling FASTPANEL, title 'FASTPANEL'
+  -- attempt cta2: link_not_found
+       1.3s open https://mostbet-go.ru/ → HTTP 200, https://mostbet-go.ru/
+       6.5s no call to action #3 on the page; page now: non_gambling FASTPANEL, title 'FASTPANEL'
+== mostbet-casino1.com [mono_other] → ACCEPTED
+  -- attempt link0: landed
+       4.3s open https://mostbet-casino1.com/ (referer Google) phone → HTTP 200, https://mostbet-casino1.com/
+       7.1s link https://play-link.org/zr1ncncT?source=0979&pid=241 (scan: 1xBet) found: 'РЕГИСТРАЦИЯ'
+      12.9s click at 326,35
+      27.7s left the site → https://casea-8039.com/en/registration?mid=231666_2116740&fluid=6e5d0ba5-6400-492b-9c10-8e077e8de45e&clickid=6ada1efb8ed
+      28.2s landing: other_gambling Casea (gambling_words_unrecognized)
+== ozogpytlak.pl [mono_other] → ACCEPTED
+  -- attempt link0: link_not_found
+       4.1s open https://ozogpytlak.pl/ → HTTP 200, https://ozogpytlak.pl/
+       7.2s link https://ozogpytlak.pl/go (scan: 1xBet) not on the page now; page now: mostbet Mostbet, title 'Mostbet Casino PL ⭐ Oficjalna Strona ⭐ Bonus do 2000 PLN ⭐ L'
+  -- attempt cta0: landed
+       2.1s open https://ozogpytlak.pl/ → HTTP 200, https://ozogpytlak.pl/
+       4.7s call to action #1: 'Register'
+      10.1s click at 1185,40
+      20.4s left the site → https://1xbet.rs/sp/registration?click_id=1u3roov.637.aarho1&pb=45b3a2c401b14a689ff48b44eca10dc2&r=registration&tag=d_37
+      20.6s landing: other_gambling 1xBet (fields:1xBet)
+== mostbet-amp.kz [mono_mixed] → REJECTED: link_not_found: no element with https://mostbet-amp.kz/go-play-cczpl0k.php?key=a9mw0j66raur69rtvk7f&ClickID=cnv_id
+  -- attempt link0: link_not_found
+       1.9s open https://mostbet-amp.kz/ → HTTP 200, https://mostbet-amp.kz/
+       5.7s link https://mostbet-amp.kz/go-play-cczpl0k.php?key=a9mw0j66raur69rtvk7f&ClickID=cnv_id (scan: Pokerdom) not on the page now; page now: mostbet Mostbet, title 'Мостбет КЗ | Mostbet KZ регистрация и вход'
+== casino-mostbet-pl.com [bait] → ACCEPTED
+  -- attempt page0: shown
+       2.2s open https://casino-mostbet-pl.com/ → HTTP 200, https://casino-mostbet-pl.com/
+       5.3s page brand by content: mostbet Mostbet
+       5.4s Mostbet only in title/meta, logo says 'Mpo338': another brand
+       8.0s cursor to brand mark <IMG> 'Mpo338'
+      14.6s scrolled down two screens and back
+== highlyratedprofessional.com [mb_page_other] → ACCEPTED
+  -- attempt link0: landed
+       1.7s open https://highlyratedprofessional.com/mostbet-az-bukmeker-ve-kazino-mostbet-giris-r-smi-sayt/ → HTTP 200, https://highlyratedprofessional.com/mostbet-az-bukmeker-ve-kazino-mostbet-giris-r-smi-sayt/
+       4.7s link https://w3n7z2qt.top/v1GxGYrB (scan: 1xBet) found: '▶️ OYNA'
+       9.0s click at 640,416
+      18.6s left the site → https://1xbet.rs/sp/registration?click_id=3s2iijn.d37.aarhps&pb=45b3a2c401b14a689ff48b44eca10dc2&r=registration&tag=d_37
+      20.7s landing: other_gambling 1xBet (fields:1xBet)
+== ktstekindo.com [mb_page_other] → ACCEPTED
+  -- attempt link0: landed
+       5.1s open https://ktstekindo.com/kasyno-internetowe-mostbet-w-polsce/ → HTTP 200, https://ktstekindo.com/kasyno-internetowe-mostbet-w-polsce/
+       9.2s link https://w3n7z2qt.top/v1GxGYrB (scan: 1xBet) found: '▶️ GRAĆ'
+      14.0s click at 416,362
+      25.0s left the site → https://1xbet.rs/sp/registration?click_id=3s2iijn.d37.aarhq0&pb=45b3a2c401b14a689ff48b44eca10dc2&r=registration&tag=d_37
+      26.6s landing: other_gambling 1xBet (fields:1xBet)
+== mostbet-bangladesh.com [bait] → ACCEPTED
+  -- attempt link0: link_not_found
+       2.0s open https://mostbet-bangladesh.com/ → HTTP 200, https://www.hard-rock-casinos.com/
+       4.8s link https://chicken-road-app.net/xSgTW7?sub_id_1=hardrock (scan: hadesbet.live) not on the page now; page now: other_gambling Hard Rock Online Casino, title 'Hard Rock Online Casino – Officiële site voor spelers in Ned'
+  -- attempt cta0: landed
+       1.5s open https://mostbet-bangladesh.com/ → HTTP 200, https://www.hard-rock-casinos.com/
+       4.3s call to action #1: 'GRATIS REGISTREREN'
+      11.4s click at 508,324
+      18.2s left the site → https://rainbet.com/?clickid=6ada1f1ede7bab000125d584&http_referrer=https%3A%2F%2Fwww.hard-rock-casinos.com%2F&modal=aut
+      19.6s landing: other_gambling Rainbet (gambling_words_unrecognized)
+== mostbet-cz.co [redirect_other] → ACCEPTED
+  -- attempt redirect0: landed
+       3.6s open https://mostbet-cz.co/ → HTTP 200, https://20bet-24x.com/cz/registration?btag=670202_33f67d2c520b4fa28e124824e741f5bd&subid=3s2iijn.7b.
+      11.5s left the site by itself → https://20bet-24x.com/cz/registration?btag=670202_33f67d2c520b4fa28e124824e741f5bd&subid=3s2iijn.7b.2vod5
+      11.9s landing: other_gambling 20Bet (fields:20Bet)
+== 8-mektep.kz [mono_mixed] → REJECTED: landed on mostbet Mostbet
+  -- attempt link0: landed
+       3.5s open https://8-mektep.kz/ → HTTP 200, https://8-mektep.kz/
+       6.6s link https://8-mektep.kz/mostbet.php (scan: pd-play-l9v5n.com) found: ''
+      11.5s click at 122,30
+      20.4s left the site → https://jwvnhkmb.com/casino?registration=1&cid=8363309911&pid=459127&sip=0
+      20.8s landing: mostbet Mostbet (mostbet_assets)
+  -- attempt link0: landed
+       2.8s open https://8-mektep.kz/ → HTTP 200, https://8-mektep.kz/
+       5.7s link https://8-mektep.kz/mostbet.php (scan: pd-play-l9v5n.com) found: ''
+      10.6s click at 122,30
+      19.9s left the site → https://jwvnhkmb.com/casino?registration=1&cid=8363311203&pid=459127&sip=0
+      20.4s landing: mostbet Mostbet (mostbet_assets)
+== mostbet-at2.xyz [redirect_other] → REJECTED: open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+  -- attempt redirect0: open_failed
+      20.6s open https://mostbet-at2.xyz/ → failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+  -- attempt redirect0: open_failed
+       1.5s open http://mostbet-at2.xyz/ → failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+== mostbet-hu-online.com [mono_other] → REJECTED: landed on mostbet Mostbet
+  -- attempt link0: link_not_found
+       4.2s open https://mostbet-hu-online.com/ → HTTP 200, https://mostbet-hu-online.com/
+       7.6s link https://mostbet-hu-online.com/go/register (scan: Dobrodošli u Online Casino Lobby u Winairlines ✅) not on the page now; page now: mostbet Mostbet, title 'Mostbet Magyarország: Online Kaszinó Élménye'
+  -- attempt cta0: landed
+       3.0s open https://mostbet-hu-online.com/ → HTTP 200, https://mostbet-hu-online.com/
+       6.1s call to action #1: 'Regisztrálj Most!'
+      11.0s click at 937,324
+      22.8s left the site → https://xhrwyy.com/casino?registration=1&cid=8363308649&pid=476807&sip=0
+      24.0s landing: mostbet Mostbet (mostbet_assets)
+  -- attempt cta1: landed
+       1.4s open https://mostbet-hu-online.com/ → HTTP 200, https://mostbet-hu-online.com/
+       4.2s call to action #2: 'Regisztráció'
+       9.0s click at 1167,41
+      18.7s left the site → https://xhrwyy.com/casino?registration=1&cid=8363310049&pid=476807&sip=0
+      19.1s landing: mostbet Mostbet (mostbet_assets)
+  -- attempt cta2: landed
+       2.0s open https://mostbet-hu-online.com/ → HTTP 200, https://mostbet-hu-online.com/
+       4.9s call to action #3: 'Regisztrálj Most és Játssz!'
+      11.8s click at 640,464
+      21.4s left the site → https://gcnejr.com/casino?registration=1&cid=8363311481&pid=476807&sip=0
+      21.8s landing: mostbet Mostbet (mostbet_assets)
+== mostbettr.icu [discredit] → REJECTED: link_not_found: no call to action #3
+  -- attempt link0: link_not_found
+       2.1s open https://mostbettr.icu/ → HTTP 200, https://mostbettr.icu/
+       4.8s link https://reviews.rater8.com/webwidget/api/ratingsummary (scan: via reviews.rater8.com) not on the page now; page now: non_gambling Capital Cardiology Associates, title 'Viagra in the USA – Trusted Information, Real Results & Safe'
+  -- attempt cta0: link_not_found
+       1.8s open https://mostbettr.icu/ → HTTP 200, https://mostbettr.icu/
+       4.5s no call to action #1 on the page; page now: non_gambling Capital Cardiology Associates, title 'Viagra in the USA – Trusted Information, Real Results & Safe'
+  -- attempt cta1: link_not_found
+       1.8s open https://mostbettr.icu/ → HTTP 200, https://mostbettr.icu/
+       5.1s no call to action #2 on the page; page now: non_gambling Capital Cardiology Associates, title 'Viagra in the USA – Trusted Information, Real Results & Safe'
+  -- attempt cta2: link_not_found
+       2.4s open https://mostbettr.icu/ → HTTP 200, https://mostbettr.icu/
+       5.1s no call to action #3 on the page; page now: non_gambling Capital Cardiology Associates, title 'Viagra in the USA – Trusted Information, Real Results & Safe'
+== mostbet68566.icu [mono_hidden] → ACCEPTED
+  -- attempt hidden0: landed
+       2.3s open https://mostbet68566.icu/ → HTTP 200, https://mostbet-kg.kg/
+       5.2s hidden block revealed (высота 2 px, лишнее обрезано), hosts: 1winkg.kg
+      23.9s click at 140,324
+      29.9s left the site → https://win1.kg/
+      30.0s landing: other_gambling 1win (fields:1Win)
+== mostbet83468.icu [mono_hidden] → ACCEPTED
+  -- attempt hidden0: landed
+       3.3s open https://mostbet83468.icu/ → HTTP 200, https://mostbet-kg.kg/
+       6.8s hidden block revealed (высота 2 px, лишнее обрезано), hosts: 1winkg.kg
+      22.3s click at 140,324
+      28.5s left the site → https://win1.kg/
+      28.6s landing: other_gambling 1win (fields:1Win)
+== mostbet64830.help [mono_hidden] → ACCEPTED
+  -- attempt hidden0: landed
+       3.0s open https://mostbet64830.help/ → HTTP 200, https://mostbet-kg.kg/
+       6.0s hidden block revealed (высота 2 px, лишнее обрезано), hosts: 1winkg.kg
+      20.5s click at 140,324
+      26.7s left the site → https://win1.kg/
+      26.7s landing: other_gambling 1win (fields:1Win)
+== mostb3t.pl [mono_other] → ACCEPTED
+  -- attempt link0: landed
+       4.9s open https://mostb3t.pl/ → HTTP 200, https://mostbetcas1no.pl/pl2/
+       8.4s link https://mostbetcas1no.pl/go/sosihui/direct (scan: Fieryplay) found: ''
+      15.0s click at 115,28
+      21.0s left the site → https://mostbetcas1no.pl/pl2/
+      21.3s landing: mostbet Mostbet (name_only_weak)
+  -- attempt link0: landed
+       4.4s open https://mostb3t.pl/ → HTTP 200, https://mostbetcas1no.pl/pl2/
+       7.8s link https://mostbetcas1no.pl/go/sosihui/direct (scan: Fieryplay) found: ''
+      13.0s click at 115,28
+      19.1s left the site → https://georejected.com/Vdx9hF?sub_id_1=RS&sub_id_2=11397&sub_id_3=5250
+      19.1s landing: non_gambling  (no_gambling_words)
+  -- attempt link1: link_not_found
+       3.2s open https://mostb3t.pl/ → HTTP 200, https://mostbetcas1no.pl/pl2/
+       6.5s link https://traffick-jumps.com/H4nFjQkg?casino=Mostbet&url=https%3A%2F%2Fmostbetcas1no.pl&domain=mostbet (scan: starwindirect.com) not on the page now; page now: mostbet Mostbet, title 'Mostbet - Kasyna online dla graczy z Polski'
+  -- attempt cta0: landed
+       3.8s open https://mostb3t.pl/ → HTTP 200, https://mostbetcas1no.pl/pl2/
+       7.8s call to action #1: 'ZAREJESTRUJ SIĘ'
+      13.1s click at 1176,28
+      19.4s left the site → https://georejected.com/Vdx9hF?sub_id_1=RS&sub_id_2=11397&sub_id_3=5250
+      19.4s landing: non_gambling  (no_gambling_words)
+  -- attempt cta1: landed
+       3.6s open https://mostb3t.pl/ → HTTP 200, https://mostbetcas1no.pl/pl2/
+       6.7s call to action #2: 'COINUP\nPRAGMATIC PLAY'
+      11.3s click at 146,382
+      17.4s left the site → https://georejected.com/Vdx9hF?sub_id_1=RS&sub_id_2=11397&sub_id_3=5250
+      17.5s landing: non_gambling  (no_gambling_words)
+  -- attempt cta2: landed
+       2.1s open https://mostb3t.pl/ → HTTP 200, https://mostbetcas1no.pl/pl2/
+       5.1s call to action #3: 'COIN STRIKE 2\nPLAYSON'
+      10.6s click at 146,325
+      16.9s left the site → https://26fieryplay145.com/en/register?sub_id=Mostbet&ref=vp_w245602c327430l20996p2541_Mostbet&affdata%5Bsubdata%5D=7884
+      17.3s landing: other_gambling Fieryplay (fields:fieryplay)
+== game-online-top854.cfd [mono_other] → ACCEPTED
+  -- attempt link0: landed
+       1.2s open https://game-online-top854.cfd/ → HTTP 200, https://game-online-top854.cfd/
+       5.4s link https://game-online-top854.cfd/play.php (scan: 1xBet) found: 'Mostbet'
+      11.8s click at 974,37
+      21.7s left the site → https://1xbet.rs/sp/registration?click_id=1u3roov.637.aarhtf&pb=45b3a2c401b14a689ff48b44eca10dc2&r=registration&tag=d_37
+      22.4s landing: other_gambling 1xBet (fields:1xBet)
+== plumberinbelmont247.com [mono_other] → ACCEPTED
+  -- attempt link0: landed
+       2.2s open https://plumberinbelmont247.com/ → HTTP 200, https://plumberinbelmont247.com/
+       5.2s link https://plumberinbelmont247.com/go/ (scan: Like) found: ''
+      11.5s click at 153,30
+      45.7s left the site → https://likecasino.com/uz/register
+      46.1s landing: other_gambling Like (gambling_words_unrecognized)
+== mostbet-bonus-play.com [mono_other] → ACCEPTED
+  -- attempt link0: landed
+       3.3s open https://mostbet-bonus-play.com/ (referer Google) → HTTP 200, https://www.deluxecycling.cz/
+       6.6s link https://www.deluxecycling.cz/play (scan: 1xBet) found: 'PŘIHLÁŠENÍ'
+      11.9s click at 1060,52
+      18.5s left the site → https://1xbet.rs/sp/registration?click_id=1u3roov.637.aarhv1&pb=45b3a2c401b14a689ff48b44eca10dc2&r=registration&tag=d_37
+      18.8s landing: other_gambling 1xBet (fields:1xBet)
+== mostbet-azerbaijan-sport.org [mono_other] → ACCEPTED
+  -- attempt link0: landed
+       3.5s open https://mostbet-azerbaijan-sport.org/ → HTTP 200, https://mostbet-azerbaijan-sport.org/
+       6.8s link https://mostbet-azerbaijan-sport.org/play-now (scan: 1xBet) found: 'Giriş'
+      13.2s click at 1034,80
+      23.3s left the site → https://1xbet.rs/sp/registration?click_id=1u3roov.ea9.aarhuk&pb=45b3a2c401b14a689ff48b44eca10dc2&r=registration&tag=d_37
+      24.3s landing: other_gambling 1xBet (fields:1xBet)
+== aulavirtualupc.solutions [mono_mixed] → REJECTED: link_not_found: no element with https://traftraf.site/Wn1ZDh/
+  -- attempt link0: link_not_found
+       2.5s open https://aulavirtualupc.solutions/ → HTTP 200, https://aulavirtualupc.solutions/
+       5.5s link https://traftraf.site/Wn1ZDh/ (scan: Twindor Casino) not on the page now; page now: mostbet Mostbet, title 'Mostbet Casino ⭐️ Oficjalny Serwis – Bonusy, Sloty i Zakłady'
+== pwclorg556.top [mono_other] → REJECTED: link_not_found: no call to action #3
+  -- attempt link0: link_not_found
+       1.9s open https://pwclorg556.top/ phone → HTTP 200, https://pwclorg556.top/
+       5.3s link https://pwclorg556.top/go.php (scan: 1xBet) not on the page now; page now: non_gambling , title ''
+  -- attempt cta0: link_not_found
+       1.5s open https://pwclorg556.top/ phone → HTTP 200, https://pwclorg556.top/
+       5.1s no call to action #1 on the page; page now: non_gambling , title ''
+  -- attempt cta1: link_not_found
+       1.8s open https://pwclorg556.top/ phone → HTTP 200, https://pwclorg556.top/
+       5.5s no call to action #2 on the page; page now: non_gambling , title ''
+  -- attempt cta2: link_not_found
+       1.3s open https://pwclorg556.top/ phone → HTTP 200, https://pwclorg556.top/
+       4.7s no call to action #3 on the page; page now: non_gambling , title ''
+== casinosmostbet.net [mono_other] → REJECTED: clicked_stayed
+  -- attempt link0: link_not_found
+       4.0s open https://casinosmostbet.net/ (referer Google) phone → HTTP 200, https://casinosmostbet.net/
+       8.4s link https://gotogame1.com/G93Zfv?sub_id_1=4208&sub_id_10=Mostbet+Casino (scan: Luckygem) not on the page now; page now: mostbet Mostbet, title 'Mostbet Casino: Bonus 4000€ + 300 FS, Connexion à Most Bet F'
+  -- attempt link1: link_not_found
+       2.7s open https://casinosmostbet.net/ (referer Google) phone → HTTP 200, https://casinosmostbet.net/
+       6.8s link https://gotogame1.com/G93Zfv?sub_id_1=4208&amp;sub_id_10=Mostbet+Casino (scan: luckygem7.com) not on the page now; page now: mostbet Mostbet, title 'Mostbet Casino: Bonus 4000€ + 300 FS, Connexion à Most Bet F'
+  -- attempt cta0: landed
+       2.1s open https://casinosmostbet.net/ (referer Google) phone → HTTP 200, https://casinosmostbet.net/
+       6.3s call to action #1: 'JOUER MAINTENANT →'
+      13.8s click at 171,336
+      53.7s left the site → https://17pq.etherealoffers.com/t/65dbaf812d2c/c01e745c-ce25-11f1-a853-97233d6fc41e/c028e2ca-ce25-11f1-a307-0597777482c8
+      53.7s landing: non_gambling ✨ (no_gambling_words)
+  -- attempt cta1: clicked_stayed
+       2.4s open https://casinosmostbet.net/ (referer Google) phone → HTTP 200, https://casinosmostbet.net/
+       5.7s call to action #2: 'CASINO'
+      11.0s click at -130,106
+      37.5s stayed on the site: https://casinosmostbet.net/
+  -- attempt cta2: clicked_stayed
+       2.0s open https://casinosmostbet.net/ (referer Google) phone → HTTP 200, https://casinosmostbet.net/
+       5.2s call to action #3: 'APP'
+      10.3s click at -130,161
+      36.7s stayed on the site: https://casinosmostbet.net/
+== penniesfortheplanet.org [mono_mixed] → ACCEPTED
+  -- attempt link0: landed
+       1.9s open https://penniesfortheplanet.org/ → HTTP 200, https://penniesfortheplanet.org/
+       4.8s link https://penniesfortheplanet.org/go (scan: Linebet) found: 'Aplikacja'
+       9.7s click at 338,35
+      20.1s left the site → https://linebet.com/sr/registration?tag=d_2725857m_22611c_&type=phone&bonus=SPORT&currency=RSD
+      20.5s landing: other_gambling Linebet (fields:Linebet)
+== cheapcoverage.info [mb_page_other] → REJECTED: link_not_found: no element with https://wazambacasino-es.com/
+  -- attempt link0: link_not_found
+       3.6s open https://cheapcoverage.info/casino-mostbet-az-rbaycan/ → HTTP 200, https://cheapcoverage.info/casino-mostbet-az-rbaycan/
+       6.5s link https://pinco.supersightsurgery.com/ (scan: Pinco) not on the page now; page now: mostbet Mostbet, title 'Casino Mostbet Azərbaycan – Affordable Car Insurance'
+  -- attempt link1: link_not_found
+       2.5s open https://cheapcoverage.info/casino-mostbet-az-rbaycan/ → HTTP 200, https://cheapcoverage.info/casino-mostbet-az-rbaycan/
+       5.8s link https://pinup.newenglandnace.net (scan: Pin-Up) not on the page now; page now: mostbet Mostbet, title 'Casino Mostbet Azərbaycan – Affordable Car Insurance'
+  -- attempt link2: link_not_found
+       2.9s open https://cheapcoverage.info/casino-mostbet-az-rbaycan/ → HTTP 200, https://cheapcoverage.info/casino-mostbet-az-rbaycan/
+       6.2s link https://pinnacleconstructionsanddesign.com.au/ (scan: Pinnacle) not on the page now; page now: mostbet Mostbet, title 'Casino Mostbet Azərbaycan – Affordable Car Insurance'
+  -- attempt link3: link_not_found
+       3.5s open https://cheapcoverage.info/casino-mostbet-az-rbaycan/ → HTTP 200, https://cheapcoverage.info/casino-mostbet-az-rbaycan/
+       6.5s link https://wazambacasino-es.com/ (scan: Wazamba) not on the page now; page now: mostbet Mostbet, title 'Casino Mostbet Azərbaycan – Affordable Car Insurance'
+== mostbets.online [bait] → ACCEPTED
+  -- attempt page0: shown
+       1.9s open https://mostbets.online/ → HTTP 200, https://mostbets.online/
+       5.1s page brand by content: other_gambling 1win
+       6.9s cursor to brand mark <IMG> '1win Casino'
+      13.1s scrolled down two screens and back
+== mostbet0926.cc [mono_other] → REJECTED: open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+  -- attempt link0: open_failed
+      44.2s open https://mostbet0926.cc/ → failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+  -- attempt link0: open_failed
+      20.8s open http://mostbet0926.cc/ → failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+== karta-walk.pl [mono_other] → REJECTED: link_not_found: no call to action #3
+  -- attempt link0: link_not_found
+      20.7s open https://karta-walk.pl/ → HTTP 522, https://karta-walk.pl/
+      23.8s link https://bazaslowian.pl/play/ (scan: 1win) not on the page now; page now: non_gambling karta-walk.pl, title 'karta-walk.pl | 522: Connection timed out'
+  -- attempt cta0: link_not_found
+      21.5s open https://karta-walk.pl/ → HTTP 522, https://karta-walk.pl/
+      24.4s no call to action #1 on the page; page now: non_gambling karta-walk.pl, title 'karta-walk.pl | 522: Connection timed out'
+  -- attempt cta1: link_not_found
+      21.2s open https://karta-walk.pl/ → HTTP 522, https://karta-walk.pl/
+      24.1s no call to action #2 on the page; page now: non_gambling karta-walk.pl, title 'karta-walk.pl | 522: Connection timed out'
+  -- attempt cta2: link_not_found
+      21.0s open https://karta-walk.pl/ → HTTP 522, https://karta-walk.pl/
+      23.8s no call to action #3 on the page; page now: non_gambling karta-walk.pl, title 'karta-walk.pl | 522: Connection timed out'
+== mostbet-brasil-cassino.com [bait] → ACCEPTED
+  -- attempt page0: shown
+       2.0s open https://mostbet-brasil-cassino.com/ → HTTP 403, https://ambking1234.dev/?action=register&marketingRef=68d01249dacc48632bffd5bc
+      10.5s page brand by content: other_gambling ambking1234
+      13.8s cursor to brand mark <IMG> 'ambking1234'
+      20.7s scrolled down two screens and back
+== mostbet-cz3.xyz [redirect_other] → REJECTED: open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+  -- attempt redirect0: open_failed
+      14.3s open https://mostbet-cz3.xyz/ → failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+  -- attempt redirect0: open_failed
+       0.8s open http://mostbet-cz3.xyz/ → failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+== korrupsiya.org [mono_other] → REJECTED: landed on mostbet Mostbet
+  -- attempt link0: landed
+       2.5s open https://korrupsiya.org/ → HTTP 200, https://aze-mostbetgiris.com/
+       5.3s link https://aze-mostbetgiris.com/play (scan: 1win) found: 'Chicken Royal'
+      12.1s click at 401,323
+      18.7s left the site → https://aze-mostbetgiris.com/out/az-AZ/
+      19.0s landing: mostbet Mostbet (name_only_weak)
+  -- attempt link0: landed
+       3.8s open https://korrupsiya.org/ → HTTP 200, https://aze-mostbetgiris.com/
+       6.6s link https://aze-mostbetgiris.com/play (scan: 1win) found: 'Fruit Party'
+      15.4s click at 401,323
+      21.6s left the site → https://aze-mostbetgiris.com/out/az-AZ/
+      21.8s landing: mostbet Mostbet (name_only_weak)
+  -- attempt link1: link_not_found
+       2.6s open https://korrupsiya.org/ → HTTP 200, https://aze-mostbetgiris.com/
+       5.4s link https://delta.play2win.one/GPP2vTDd (scan: spinempire1.com) not on the page now; page now: mostbet Mostbet, title 'Mostbet Kazino - 550 AZN-dək 125% bonus və 250 fırlanma əldə'
+  -- attempt cta0: landed
+       2.1s open https://korrupsiya.org/ → HTTP 200, https://aze-mostbetgiris.com/
+       4.8s call to action #1: 'BONUSLA OYNA'
+       9.8s click at -640,151
+      15.9s left the site → https://aze-mostbetgiris.com/
+      15.9s landing: mostbet Mostbet (name_only_weak)
+  -- attempt cta1: landed
+       2.5s open https://korrupsiya.org/ → HTTP 200, https://aze-mostbetgiris.com/
+       5.3s call to action #2: 'DOWNLOAD'
+      10.2s click at 1356,236
+      16.2s left the site → https://aze-mostbetgiris.com/
+      16.3s landing: mostbet Mostbet (name_only_weak)
+  -- attempt cta2: landed
+       2.8s open https://korrupsiya.org/ → HTTP 200, https://aze-mostbetgiris.com/
+       5.5s call to action #3: '✦\nBonuslar'
+      11.8s click at -640,300
+      18.1s left the site → https://aze-mostbetgiris.com/
+      18.2s landing: mostbet Mostbet (name_only_weak)
+== mostbet77.lol [discredit] → ACCEPTED
+  -- attempt page0: shown
+       3.7s open https://mostbet77.lol/ → HTTP 200, https://mostbet77.lol/
+       7.5s page brand by content: non_gambling AUTOPRISE
+      19.2s cursor to brand mark <IMG> 'AUTO PRISE'
+      25.8s scrolled down two screens and back
+== fallacepeda.es [mb_page_other] → REJECTED: open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+  -- attempt link0: open_failed
+      41.1s open https://fallacepeda.es/mostbet-onlayn-kazino-o-zbekistonda-ro-yxatdan-o-tish-va-kirish/ → failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+  -- attempt link0: open_failed
+      20.9s open http://fallacepeda.es/mostbet-onlayn-kazino-o-zbekistonda-ro-yxatdan-o-tish-va-kirish/ → failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+== mostbet52813.online [mono_hidden] → ACCEPTED
+  -- attempt hidden0: landed
+       3.5s open https://mostbet52813.online/ → HTTP 200, https://mostbet-kg.kg/
+       6.6s hidden block revealed (высота 2 px, лишнее обрезано), hosts: 1winkg.kg
+      20.3s click at 140,324
+      26.3s left the site → https://win1.kg/
+      26.4s landing: other_gambling 1win (fields:1Win)
+== mostbet2069.help [mono_hidden] → ACCEPTED
+  -- attempt hidden0: landed
+       2.9s open https://mostbet2069.help/ → HTTP 200, https://mostbet-kg.kg/
+       5.7s hidden block revealed (высота 2 px, лишнее обрезано), hosts: 1winkg.kg
+      19.0s click at 140,324
+      25.1s left the site → https://win1.kg/
+      25.1s landing: other_gambling 1win (fields:1Win)
+== nationalpastorsconvention.com [mono_mixed] → REJECTED: link_not_found: no element with https://myparuchia.com/go
+  -- attempt link0: open_failed
+      20.9s open https://nationalpastorsconvention.com/ → failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+  -- attempt link0: link_not_found
+      42.9s open http://nationalpastorsconvention.com/ → HTTP 200, http://www.nationalpastorsconvention.com/
+      60.5s link https://myparuchia.com/go (scan: Linebet) not on the page now; page now: non_gambling nationalpastorsconvention.com is registered at Namecheap, title 'nationalpastorsconvention.com is registered at Namecheap'
+== mostbet444.casino [discredit] → REJECTED: open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+  -- attempt page0: open_failed
+      23.3s open https://mostbet444.casino/ → failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+  -- attempt page0: open_failed
+      41.0s open http://mostbet444.casino/ → failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
