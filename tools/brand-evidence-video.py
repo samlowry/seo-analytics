@@ -24,6 +24,7 @@ package: <out-dir>/rejected/<class>/. <out-dir>/results.jsonl — one line per d
 import argparse
 import asyncio
 import csv
+import fcntl
 import importlib.util
 import json
 import re
@@ -702,7 +703,7 @@ async def record(browser, p, att, tmp: Path, start: str):
 
 
 PROXY = None  # (host, port) of the SOCKS proxy, set in main()
-STALL_S = 900
+STALL_S = 600
 PROGRESS = Path("/tmp/evidence-progress.txt")  # readable without root: sites done, accepted, rejected, requeued
 
 
@@ -800,14 +801,16 @@ async def main():
     ap.add_argument("out")
     ap.add_argument("--proxy")
     ap.add_argument("--concurrency", type=int, default=4)
+    ap.add_argument("--shard", default="0/1", help="k/n: this process takes the domains whose index %% n == k")
     a = ap.parse_args()
+    shard_k, shard_n = (int(x) for x in a.shard.split("/"))
     d, out = Path(a.scan_dir), Path(a.out)
     want = [x.strip() for x in Path(a.domains).read_text().split() if x.strip()]
     rows = {r["domain"]: r for r in csv.DictReader(open(d / "classified.csv", newline="", encoding="utf-8"))}
     done = set()
     if (out / "results.jsonl").exists():
         done = {json.loads(x)["domain"] for x in open(out / "results.jsonl")}
-    todo = [plan(rows[x]) for x in want if x in rows and x not in done]
+    todo = [plan(rows[x]) for i, x in enumerate(want) if i % shard_n == shard_k and x in rows and x not in done]
     (out / "_tmp").mkdir(parents=True, exist_ok=True)
     proxy = bs.parse_proxy(a.proxy)
     global PROXY
@@ -835,24 +838,59 @@ async def main():
 
     last = [time.monotonic()]
 
+    drivers = {}  # worker -> pid of its Playwright driver
+
+    def dead(pid: int) -> bool:
+        try:
+            return Path(f"/proc/{pid}/stat").read_text().split(") ", 1)[1][0] in "ZX"
+        except (OSError, IndexError):
+            return True
+
     def watchdog():
-        """A Playwright driver crash (TypeError … '_getChildFrames' in the driver) left the run waiting forever,
-        twice. No new site for STALL_S seconds: exit, and the wrapper loop on the server starts the run again
-        (finished sites are skipped)."""
+        """A Playwright driver crash (TypeError … '_getChildFrames' in the driver, every 10–20 min) leaves every
+        worker waiting forever. A dead driver: exit at once; no new site for STALL_S seconds: exit too. The wrapper
+        loop on the server starts the run again; finished sites are skipped, sites in flight are recorded again."""
         while True:
-            time.sleep(60)
+            time.sleep(10)
+            gone = [w for w, pid in list(drivers.items()) if dead(pid)]
+            if gone and Path("/proc").exists():
+                print(f"{time.strftime('%H:%M:%S')} [shard {a.shard}] driver of worker {gone[0]} died: restart", flush=True)
+                kill_tree_and_exit()
             if time.monotonic() - last[0] > STALL_S:
-                print(f"{time.strftime('%H:%M:%S')} no site finished for {STALL_S} s: exiting for a restart", flush=True)
-                os._exit(75)
+                print(f"{time.strftime('%H:%M:%S')} [shard {a.shard}] no site finished for {STALL_S} s: restart", flush=True)
+                kill_tree_and_exit()
+
+    def kill_tree_and_exit():
+        """SIGKILL every descendant (drivers, browsers) so a restart leaves no orphans, then exit 75."""
+        pids, todo_p = [], [os.getpid()]
+        while todo_p:
+            pid = todo_p.pop()
+            out_p = subprocess.run(["pgrep", "-P", str(pid)], capture_output=True, text=True).stdout
+            kids = [int(x) for x in out_p.split()]
+            pids += kids
+            todo_p += kids
+        for pid in reversed(pids):
+            try:
+                os.kill(pid, 9)
+            except ProcessLookupError:
+                pass
+        os._exit(75)
 
     threading.Thread(target=watchdog, daemon=True).start()
 
     def note_progress():
+        """Counts over results.jsonl (every shard writes there), readable without root."""
         last[0] = time.monotonic()
         try:
-            PROGRESS.write_text(f"{stats['done']} {stats['ok']} {stats['rej']} {stats['requeued']} {len(want)}\n"
-                                f"{stats['last_error']}\n")
-            PROGRESS.chmod(0o644)
+            n = ok = 0
+            with open(out / "results.jsonl", encoding="utf-8") as f:
+                for line in f:
+                    n += 1
+                    ok += '"accepted": true' in line
+            tmp = PROGRESS.with_suffix(f".{os.getpid()}")
+            tmp.write_text(f"{n} {ok} {n - ok} {stats['requeued']} {len(want)}\n{stats['last_error']}\n")
+            tmp.chmod(0o644)
+            tmp.replace(PROGRESS)
         except OSError:
             pass
 
@@ -863,6 +901,9 @@ async def main():
                                exclude_addons=[DefaultAddons.UBO], **({"proxy": proxy} if proxy else {}))
             try:
                 browser = await bs.bounded(cm.__aenter__(), bs.LAUNCH_TIMEOUT)
+                proc = getattr(getattr(getattr(cm, "_connection", None), "_transport", None), "_proc", None)
+                if proc is not None:
+                    drivers[wid] = proc.pid
             except Exception as e:  # noqa: BLE001
                 print(f"[{wid}] browser launch failed: {type(e).__name__}: {str(e)[:200]}; retry in 30 s", flush=True)
                 stats["last_error"] = f"{time.strftime('%H:%M:%S')} launch: {type(e).__name__}: {str(e)[:150]}"
@@ -889,8 +930,10 @@ async def main():
                              "final_url": "", "landing": {}, "files": {}, "attempts": []}
                     async with lock:
                         with open(out / "results.jsonl", "a", encoding="utf-8") as f:
+                            fcntl.flock(f, fcntl.LOCK_EX)  # other shards append to the same file
                             f.write(json.dumps(r, ensure_ascii=False) + "\n")
                         with open(out / "actions.log", "a", encoding="utf-8") as f:
+                            fcntl.flock(f, fcntl.LOCK_EX)
                             f.write(f"== {p['domain']} [{p['category']}] → {'ACCEPTED' if r['accepted'] else 'REJECTED: ' + r['reason']}\n")
                             for t in r["attempts"]:
                                 f.write(f"  -- attempt {t['attempt']}: {t['status']}\n")
@@ -901,6 +944,7 @@ async def main():
                     print(f"[{wid}] {'OK ' if r['accepted'] else 'REJ'} {len(r['attempts'])}x {p['category']:<15} "
                           f"{p['domain']:<30} {r['reason'][:70]}", flush=True)
             finally:
+                drivers.pop(wid, None)  # closing on purpose is not a crash
                 try:
                     await bs.bounded(cm.__aexit__(None, None, None), 30)
                 except Exception:  # noqa: BLE001
