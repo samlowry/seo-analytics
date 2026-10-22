@@ -1,0 +1,59 @@
+== mostbettr.icu [discredit] → ACCEPTED
+  -- attempt page0: shown
+       5.6s open https://mostbettr.icu/ → HTTP 200, https://mostbettr.icu/
+       8.2s page brand by content: non_gambling Capital Cardiology Associates
+      12.0s scrolled down two screens and back
+== mostbet-cz.co [redirect_other] → ACCEPTED
+  -- attempt redirect0: landed
+       7.4s open https://mostbet-cz.co/ → HTTP 200, https://20bet-24x.com/cz/registration?btag=670202_f35a77b66c85471db75c1b19504d6cde&subid=e5fmsh.7b.2
+      15.3s left the site by itself → https://20bet-24x.com/cz/registration?btag=670202_f35a77b66c85471db75c1b19504d6cde&subid=e5fmsh.7b.2vomc
+      16.5s landing: other_gambling 20Bet (fields:20Bet)
+== mostbet-brasil-cassino.com [bait] → ACCEPTED
+  -- attempt page0: shown
+       5.4s open https://mostbet-brasil-cassino.com/ → HTTP 403, https://ambking1234.dev/?action=register&marketingRef=68d01249dacc48632bffd5bc
+      10.6s page brand by content: other_gambling ambking1234
+      17.7s cursor to brand mark <IMG> 'ambking1234'
+      20.2s no call to action to click
+== mostbet77.lol [discredit] → ACCEPTED
+  -- attempt page0: shown
+       6.9s open https://mostbet77.lol/ → HTTP 200, https://mostbet77.lol/
+      10.0s page brand by content: non_gambling AUTOPRISE
+      18.7s cursor to brand mark <IMG> 'AUTO PRISE'
+      25.2s scrolled down two screens and back
+== casino-mostbet-pl.com [bait] → ACCEPTED
+  -- attempt page0: shown
+       5.8s open https://casino-mostbet-pl.com/ → HTTP 200, https://casino-mostbet-pl.com/
+       9.1s page brand by content: mostbet Mostbet
+       9.2s Mostbet only in title/meta, logo says 'Mpo338': another brand
+      15.5s cursor to brand mark <IMG> 'Mpo338'
+      22.5s call to action 'DAFTAR': click at 954,122
+      37.4s left the site → https://mpo338alin.website/; landing: other_gambling Mpo 338 Pusat Login Gaming Digital Yang Lengkap dan Murah
+== mostbets.online [bait] → ACCEPTED
+  -- attempt page0: shown
+       5.0s open https://mostbets.online/ → HTTP 200, https://mostbets.online/
+       8.4s page brand by content: other_gambling 1win
+      13.7s cursor to brand mark <IMG> '1win Casino'
+      22.8s call to action 'Бонусные программы': click at 1071,323
+      35.6s left the site → https://one-vv4852.com/casino?p=9k9j&sub1=mostbets.online; landing: other_gambling 1win
+== mostbet-bangladesh.com [bait] → ACCEPTED
+  -- attempt link0: link_not_found
+       5.6s open https://mostbet-bangladesh.com/ → HTTP 200, https://www.hard-rock-casinos.com/
+       8.9s link https://chicken-road-app.net/xSgTW7?sub_id_1=hardrock (scan: hadesbet.live) not on the page now; page now: other_gambling Hard Rock Online Casino, title 'Hard Rock Online Casino – Officiële site voor spelers in Ned'
+  -- attempt cta0: landed
+       4.8s open https://mostbet-bangladesh.com/ → HTTP 200, https://www.hard-rock-casinos.com/
+       7.8s call to action #1: 'GRATIS REGISTREREN'
+      18.6s click at 509,324
+      32.3s left the site → https://www.hadesbet.com/welcome-page?sign-up=modal
+      32.4s landing: other_gambling Hadesbet Casino (gambling_words_unrecognized)
+== ktstekindo.com [mb_page_other] → ACCEPTED
+  -- attempt link0: landed
+       6.1s open https://ktstekindo.com/kasyno-internetowe-mostbet-w-polsce/ → HTTP 200, https://ktstekindo.com/kasyno-internetowe-mostbet-w-polsce/
+      10.2s link https://w3n7z2qt.top/v1GxGYrB (scan: 1xBet) found: '▶️ GRAĆ'
+      21.9s click at 416,362
+      31.2s left the site → https://1xbet.rs/sp/registration?click_id=e5fmsh.d37.aarrgr&pb=45b3a2c401b14a689ff48b44eca10dc2&r=registration&tag=d_375
+      31.2s landing: other_gambling 1xBet (fields:1xBet)
+== mostbet444.casino [discredit] → REJECTED: open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+  -- attempt page0: open_failed
+      30.8s open https://mostbet444.casino/ → failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+  -- attempt page0: open_failed
+      23.1s open http://mostbet444.casino/ → failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED

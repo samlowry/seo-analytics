@@ -361,6 +361,53 @@ async def error_page(page) -> str:
     return ""
 
 
+CLASS_RU = {
+    "mono_other": "монобренд Mostbet рекламирует только чужие бренды",
+    "mono_mixed": "монобренд Mostbet рекламирует и Mostbet, и чужие бренды",
+    "mb_page_other": "страница про Mostbet рекламирует чужие бренды",
+    "bait": "приманка: имя Mostbet, внутри чужое казино",
+    "redirect_other": "главная уводит на рефссылку чужого бренда",
+    "discredit": "дискредитация: имя Mostbet, содержимое не про ставки",
+    "mono_hidden": "монобренд Mostbet со скрытыми ссылками на чужой бренд",
+}
+PLAN_RU = {
+    "click": "Откроем сайт, подведём курсор к рекламной ссылке и кликнем.",
+    "hidden": "Откроем сайт, раскроем скрытый от посетителя блок и кликнем ссылку из него.",
+    "redirect": "Откроем главную: сайт сам уведёт посетителя на чужой бренд.",
+    "bait": "Откроем сайт под именем Mostbet: покажем чужой бренд и кликнем регистрацию.",
+    "discredit": "Откроем сайт под именем Mostbet и покажем его содержимое.",
+}
+
+CARD = """<html><body style="margin:0;height:100vh;display:flex;align-items:center;justify-content:center;
+background:#0f172a;color:#fff;font:22px/1.5 -apple-system,Segoe UI,Arial,sans-serif"><div style="max-width:80%">
+<div style="font-size:15px;color:#94a3b8;margin-bottom:8px">Запись доказательства · {ts} UTC</div>
+<div style="font-size:30px;font-weight:700;margin-bottom:10px">{domain}</div>
+<div style="color:#fca5a5;margin-bottom:14px">{cls}</div><div>{plan}</div></div></body></html>"""
+
+OUTRO = r"""
+(text) => { const d = document.createElement('div'); d.id = '__ev_outro'; d.textContent = text;
+  d.style.cssText = 'all:initial;position:fixed;left:0;right:0;top:0;z-index:2147483647;pointer-events:none;' +
+    'background:rgba(225,29,72,.95);color:#fff;font:bold 18px/1.35 -apple-system,Segoe UI,Arial,sans-serif;padding:12px 16px';
+  (document.documentElement || document.body).appendChild(d) }
+"""
+
+
+def scenario(p) -> str:
+    return "bait" if p["category"] == "bait" and p["kind"] == "page" else \
+        "discredit" if p["kind"] == "page" else p["kind"]
+
+
+def outro_text(res: dict, p: dict) -> str:
+    a = host(res.get("start") or "")
+    b = host(res.get("final_url") or "")
+    L = res.get("landing") or res.get("page_brand") or {}
+    who = L.get("brand") or ""
+    if p["category"] == "discredit":
+        return f"Итог: {a} — имя Mostbet, содержимое не про ставки ({who})." if who else f"Итог: {a} — содержимое не про ставки."
+    path = f"{a} → {b}" if b and b != a else a
+    return f"Итог: {path} — чужой бренд {who}." if who else f"Итог: {path}."
+
+
 GENERIC_LOGO = {"logo", "site logo", "logotype", "home", "main", "image"}
 
 
@@ -420,6 +467,9 @@ def verdict(res: dict) -> str:
             return ""
         return f"landed on {L.get('kind') or 'unknown'} {L.get('brand') or ''}".strip()
     if st == "shown":
+        L = res.get("landing") or {}
+        if L.get("kind") == "other_gambling" and L.get("brand") != "Mostbet":
+            return ""
         B = res.get("page_brand") or {}
         if B.get("kind") == "other_gambling" and B.get("brand") not in ("Mostbet", "", "?"):
             return ""
@@ -473,6 +523,9 @@ async def record(browser, p, att, tmp: Path, start: str):
     site = p["domain"].lower().removeprefix("www.")
     sites = [site]
     try:
+        await page.set_content(CARD.format(ts=time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime()), domain=p["domain"],
+                                           cls=CLASS_RU.get(p["category"], p["category"]), plan=PLAN_RU[scenario(p)]))
+        await page.wait_for_timeout(2500)
         try:
             resp = await page.goto(start, wait_until="domcontentloaded", timeout=45_000, referer=p["referer"])
             log(f"open {start}" + (" (referer Google)" if p["referer"] else "") + (" phone" if p["phone"] else "")
@@ -522,12 +575,41 @@ async def record(browser, p, att, tmp: Path, start: str):
                     await glide(page, st, box["x"] + box["width"] / 2, box["y"] + box["height"] / 2)
                 log(f"cursor to brand mark <{mark['tag']}> {mark['text']!r}")
                 await page.wait_for_timeout(2500)
-            for dy in (vp["height"] * 0.7,) * 2 + (-vp["height"] * 1.4,):
-                await page.mouse.wheel(0, dy)
-                await page.wait_for_timeout(1200)
-            log("scrolled down two screens and back")
-            await page.wait_for_timeout(1500)
             res["status"] = "shown"
+            if p["category"] == "bait":
+                cta = await page.evaluate(CTA, 0)
+                if cta:
+                    el = page.locator("[data-ev-pick]").first
+                    await el.evaluate("e => { e.removeAttribute('target'); e.style.outline = '3px solid #e11d48';"
+                                      " e.style.outlineOffset = '2px' }")
+                    await wheel_to(page, el, vp)
+                    box = await el.bounding_box()
+                    if box and box["width"] > 0:
+                        x, y = box["x"] + box["width"] / 2, box["y"] + box["height"] / 2
+                        await glide(page, st, x, y)
+                        await page.wait_for_timeout(700)
+                        await page.mouse.click(x, y)
+                        log(f"call to action {cta['text']!r}: click at {x:.0f},{y:.0f}")
+                        moved = await left_site(page, sites, 8_000)
+                        await settle(page, 5000)
+                        res["error_page"] = await error_page(page)
+                        if moved:
+                            res["landing"] = await landing(page, sites)
+                            L = res["landing"]
+                            log(f"left the site → {page.url[:100]}; landing: {L['kind']} {L['brand']}")
+                            if L["kind"] == "mostbet":
+                                res["status"] = "landed"  # verdict() rejects a Mostbet landing
+                        else:
+                            log(f"stayed on the site: {page.url[:100]}")
+                else:
+                    log("no call to action to click")
+                    await page.wait_for_timeout(2000)
+            else:
+                for dy in (vp["height"] * 0.7,) * 2 + (-vp["height"] * 1.4,):
+                    await page.mouse.wheel(0, dy)
+                    await page.wait_for_timeout(1200)
+                log("scrolled down two screens and back")
+                await page.wait_for_timeout(1500)
         else:
             if how == "hidden":
                 info = await page.evaluate(HIDDEN, site)  # the page's own host is excluded inside
@@ -587,6 +669,9 @@ async def record(browser, p, att, tmp: Path, start: str):
             res["landing"] = await landing(page, sites)
             L = res["landing"]
             log(f"landing: {L['kind']} {L['brand']} ({L.get('evidence', '')})")
+        if not verdict(res):
+            await page.evaluate(OUTRO, outro_text(res, p))
+            await page.wait_for_timeout(3000)
         await page.screenshot(path=str(tmp / "last.png"))
         return res
     except Exception as e:  # noqa: BLE001
@@ -613,6 +698,38 @@ async def record(browser, p, att, tmp: Path, start: str):
         res["log"] = log.lines
 
 
+PROXY = None  # (host, port) of the SOCKS proxy, set in main()
+
+
+async def proxy_alive() -> bool:
+    """SOCKS5 CONNECT to example.com:443 through the tunnel answers 'succeeded'."""
+    if not PROXY:
+        return True
+    try:
+        r, w = await asyncio.wait_for(asyncio.open_connection(*PROXY), 5)
+        w.write(b"\x05\x01\x00")
+        await w.drain()
+        await asyncio.wait_for(r.readexactly(2), 5)
+        name = b"example.com"
+        w.write(b"\x05\x01\x00\x03" + bytes([len(name)]) + name + (443).to_bytes(2, "big"))
+        await w.drain()
+        rep = await asyncio.wait_for(r.readexactly(4), 15)
+        w.close()
+        return rep[1] == 0
+    except Exception:  # noqa: BLE001
+        return False
+
+
+async def wait_proxy():
+    """The Mac tunnel is down: hold the site (do not reject it) until the tunnel is back."""
+    n = 0
+    while not await proxy_alive():
+        if n % 10 == 0:
+            print(f"{time.strftime('%H:%M:%S')} proxy down, waiting", flush=True)
+        n += 1
+        await asyncio.sleep(30)
+
+
 async def run_site(browser, p, out: Path) -> dict:
     """Attempts in order until one passes verdict(); the passing video goes to <class>/, the last failing one
     to rejected/<class>/."""
@@ -629,6 +746,9 @@ async def run_site(browser, p, out: Path) -> dict:
             res = await asyncio.wait_for(record(browser, p, att, tmp, start), 200)
         except asyncio.TimeoutError:
             res = {"domain": p["domain"], "attempt": f"{att[0]}{att[1]}", "status": "timeout", "note": "", "log": []}
+        if res["status"] in ("open_failed", "timeout", "error") and not await proxy_alive():
+            await wait_proxy()  # the failure is our tunnel, not the site: repeat the attempt
+            continue
         res["verdict"] = verdict(res)
         tries.append(res)
         if not res["verdict"]:
@@ -675,6 +795,10 @@ async def main():
     todo = [plan(rows[x]) for x in want if x in rows and x not in done]
     (out / "_tmp").mkdir(parents=True, exist_ok=True)
     proxy = bs.parse_proxy(a.proxy)
+    global PROXY
+    if a.proxy:
+        u = urlsplit(a.proxy)
+        PROXY = (u.hostname, u.port or 1080)
     q = asyncio.Queue()
     for p in todo:
         q.put_nowait(p)
