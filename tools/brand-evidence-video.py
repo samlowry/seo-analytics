@@ -406,6 +406,8 @@ def outro_text(res: dict, p: dict) -> str:
     b = host(res.get("final_url") or "")
     L = res.get("landing") or res.get("page_brand") or {}
     who = L.get("brand") or ""
+    if who in ("?", "") and b and b != a:
+        who = b  # a casino the dictionary does not know: name it by its domain
     if p["category"] == "discredit":
         return f"Итог: {a} — имя Mostbet, содержимое не про ставки ({who})." if who else f"Итог: {a} — содержимое не про ставки."
     path = f"{a} → {b}" if b and b != a else a
