@@ -1,0 +1,215 @@
+213 to record, 829 done before
+exit IP for geoip: 109.245.134.28
+[0] OK  1x mono_other      mostbet-casino-azerbaijan.net  
+[0] OK  1x mono_other      mostbet-casino-es.top          
+[0] OK  1x mono_other      mostbet-casino-mirror-3.cfd    
+[0] OK  4x mono_other      mostbet-casino-online-cz.eu.com 
+[0] REJ 4x mono_other      mostbet-casino-pt.pt           link_not_found: no call to action #3
+[0] OK  2x mono_other      mostbet-casino-ux4.ru          
+[0] OK  2x mono_other      mostbet-casino.click           
+[0] OK  1x mono_other      mostbet-casino1.com.pl         
+[0] OK  3x mono_other      mostbet-casinohu.org           
+[0] REJ 4x mono_other      mostbet-casinoo.info           clicked_stayed
+[0] REJ 2x mono_other      mostbet-cazic.top              open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+[0] OK  2x mono_other      mostbet-cz-casino.win          
+[0] REJ 6x mono_other      mostbet-eu.org                 landed on non_gambling
+[0] OK  1x mono_other      mostbet-gaming-play.com        
+[0] REJ 4x mono_other      mostbet-go777.ru               landed on mostbet Mostbet
+[0] REJ 4x mono_other      mostbet-hu-online.com          landed on mostbet Mostbet
+[0] OK  1x mono_other      mostbet-hungary.app            
+[0] REJ 5x mono_other      mostbet-india7.com             clicked_stayed
+[0] REJ 4x mono_other      mostbet-k.com                  landed on mostbet Mostbet
+[0] REJ 2x mono_other      mostbet-kasyno.org.pl          open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+[0] OK  1x mono_other      mostbet-live-bet.com           
+[0] OK  1x mono_other      mostbet-mobile59-amp.ru        
+[0] REJ 4x mono_other      mostbet-naandroid.ru           landed on mostbet Mostbet
+[0] OK  4x mono_other      mostbet-official-pl.com.pl     
+[0] OK  2x mono_other      mostbet-online-aplikace.cz     
+[0] OK  1x mono_other      mostbet-online.app             
+[0] REJ 4x mono_other      mostbet-philippine.com         clicked_stayed
+[0] OK  1x mono_other      mostbet-pl.win                 
+[0] OK  3x mono_other      mostbet-pol.com                
+[0] OK  1x mono_other      mostbet-portu.pt               
+[0] REJ 2x mono_other      mostbet-promo.it               open_failed: TimeoutError: Page.goto: Timeout 45000ms exceeded.
+[0] REJ 4x mono_other      mostbet-registraciya.ru        link_not_found: no call to action #3
+[0] REJ 6x mono_other      mostbet-russia.net             link_not_found: no call to action #3
+[0] OK  1x mono_other      mostbet-slots-pt.com           
+[0] OK  1x mono_other      mostbet-top.net                
+[0] REJ 6x mono_other      mostbet-ua.net                 link_not_found: no call to action #3
+[0] REJ 4x mono_other      mostbet-uzbeki.com             clicked_stayed
+[0] OK  1x mono_other      mostbet-win.org                
+[0] OK  1x mono_other      mostbet-zerkalo-na-segodnya-sejchas.ru 
+[0] OK  2x mono_other      mostbet.com.lv                 
+[0] OK  1x mono_other      mostbet.fyi                    
+[0] OK  1x mono_other      mostbet.ne.ke                  
+[0] OK  2x mono_other      mostbet.pw                     
+[0] REJ 2x mono_other      mostbet01.cc                   open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+[0] REJ 2x mono_other      mostbet1.site                  open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+[0] REJ 4x mono_other      mostbet2.vip                   clicked_stayed
+[0] OK  2x mono_other      mostbet32.net                  
+[0] OK  1x mono_other      mostbet48.com                  
+[0] REJ 4x mono_other      mostbet67.meme                 clicked_stayed
+[0] OK  1x mono_other      mostbetapk-az.net              
+[0] OK  1x mono_other      mostbetapp-uz.com              
+[0] REJ 4x mono_other      mostbetappdownloadapk.com      clicked_stayed
+[0] REJ 4x mono_other      mostbetaviatorlogin.com        clicked_stayed
+[0] OK  1x mono_other      mostbetazerbaijangamescom.cfd  
+[0] OK  1x mono_other      mostbetazpwclorg430.top        
+[0] OK  1x mono_other      mostbetazpwclorg708.top        
+[0] REJ 4x mono_other      mostbetbd2.app                 clicked_stayed
+[0] OK  2x mono_other      mostbetbett.com                
+[0] OK  3x mono_other      mostbetcasin.lol               
+[0] OK  3x mono_other      mostbetcasino-ca.com           
+[0] OK  1x mono_other      mostbetcasino-es.website       
+[0] OK  2x mono_other      mostbetcasino-ng.com           
+[0] OK  1x mono_other      mostbetcasino-portu.com        
+[0] OK  2x mono_other      mostbetcasino-win.com          
+[0] OK  1x mono_other      mostbetcasino.it               
+[0] OK  3x mono_other      mostbetcasino.uk               
+[0] REJ 4x mono_other      mostbetcasino365.com           link_not_found: no call to action #3
+[0] REJ 4x mono_other      mostbetcasinoapp.net           clicked_stayed
+[0] REJ 4x mono_other      mostbetcasinobonus.net         clicked_stayed
+[0] OK  2x mono_other      mostbetcasinocz1.cz            
+[0] REJ 5x mono_other      mostbetcasinoit.com            clicked_stayed
+[0] OK  2x mono_other      mostbetcasinonorway.shop       
+[0] OK  3x mono_other      mostbetcasinopl.net            
+[0] OK  1x mono_other      mostbetcasinopwclorg884.top    
+[0] OK  3x mono_other      mostbetcasinotr.com            
+[0] REJ 4x mono_other      mostbetcassino.com             link_not_found: no call to action #3
+[0] OK  1x mono_other      mostbetcom-turkiye.com         
+[0] OK  1x mono_other      mostbetdeutschland.com         
+[0] OK  4x mono_other      mostbetgiris-az.it.com         
+[0] OK  1x mono_other      mostbetkaszino-hungary.com     
+[0] OK  2x mono_other      mostbetluckyjetpredictor.com   
+[0] OK  3x mono_other      mostbetonline-kz.com           
+[0] REJ 4x mono_other      mostbetpl.ws                   link_not_found: no call to action #3
+[0] OK  1x mono_other      mostbetqo.com                  
+[0] OK  1x mono_other      mostbets-cz.net                
+[0] OK  1x mono_other      mostbets-online.cz             
+[0] OK  1x mono_other      mostbets.auto.pl               
+[0] OK  3x mono_other      mostbets.ro                    
+[0] OK  2x mono_other      mostbetsite.app                
+[0] OK  3x mono_other      mostbett.ro                    
+[0] OK  1x mono_other      mostbettor.com                 
+[0] OK  1x mono_other      mostbetviptr.com               
+[0] OK  1x mono_other      mostbetz.pt                    
+[0] REJ 5x mono_other      mpestate.cz                    link_not_found: no call to action #3
+[0] OK  1x mono_other      murphsgaslight.com             
+[0] OK  1x mono_other      mypdapp.com                    
+[0] OK  1x mono_other      netdaycompass.org              
+[0] OK  1x mono_other      nicolasroy.pro                 
+[0] OK  1x mono_other      nodosele.cfd                   
+[0] REJ 4x mono_other      npmostbetapk.com               clicked_stayed
+[0] REJ 4x mono_other      oazaprezentow.pl               clicked_stayed
+[0] OK  1x mono_other      olln.org                       
+[0] OK  1x mono_other      online-super-game926.cfd       
+[0] OK  1x mono_other      optimistic-theatre.ru          
+[0] OK  3x mono_other      owpd.eu                        
+[0] OK  2x mono_other      partymania-krd.ru              
+[0] REJ 4x mono_other      pemostbet.com                  link_not_found: no call to action #3
+[0] OK  1x mono_other      photorism.ru                   
+[0] OK  1x mono_other      pl-mostbet.pl                  
+[0] OK  1x mono_other      plumberinbelmont247.com        
+[0] OK  1x mono_other      podmitrovcz.cfd                
+[0] OK  1x mono_other      polskiprocescywilny.pl         
+[0] OK  1x mono_other      primacinemacom154.top          
+[0] OK  1x mono_other      primacinemacom429.top          
+[0] OK  1x mono_other      primacinemacom668.top          
+[0] OK  1x mono_other      primacinemacom713.top          
+[0] OK  1x mono_other      primacinemacom894.top          
+[0] OK  1x mono_other      profmedblog.ru                 
+[0] OK  1x mono_other      pwclorg186.top                 
+[0] REJ 5x mono_other      pwclorg371.top                 link_not_found: no call to action #3
+[0] REJ 4x mono_other      pwclorg624.top                 link_not_found: no call to action #3
+[0] OK  1x mono_other      pwclorg915.top                 
+[0] OK  2x mono_other      razmnojenie.ru                 
+[0] OK  1x mono_other      remotedesktopwindows10.com     
+[0] OK  1x mono_other      rlifiles-1.cfd                 
+[0] OK  1x mono_other      rlifiles-3.cfd                 
+[0] OK  1x mono_other      rlifiles.cfd                   
+[0] OK  1x mono_other      rsn-rb.ru                      
+[0] OK  2x mono_other      salonkrasok.ru                 
+[0] OK  1x mono_other      scandinavianmuseumorg.click    
+[0] OK  1x mono_other      scientology-forum.ru           
+[0] OK  1x mono_other      servis-uslug24.ru              
+[0] OK  1x mono_other      shellwood-gk.ru                
+[0] OK  1x mono_other      sietarrussia.ru                
+[0] OK  1x mono_other      skydisc.ru                     
+[0] OK  1x mono_other      somaliembassydcnet183.top      
+[0] OK  1x mono_other      somaliembassydcnet668.top      
+[0] OK  1x mono_other      somaliembassydcnet675.cfd      
+[0] OK  1x mono_other      somaliembassydcnet682.cfd      
+[0] OK  1x mono_other      somaliembassydcnet690.cfd      
+[0] OK  1x mono_other      somaliembassydcnet810.top      
+[0] OK  2x mono_other      spahotel-pansionat.ru          
+[0] REJ 2x mono_other      sprzetbudowlany-wynajem.pl     open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+[0] OK  1x mono_other      stefaniaklinika.hu             
+[0] OK  1x mono_other      study-grier-school.ru          
+[0] OK  1x mono_other      super-play-online173.cfd       
+[0] OK  1x mono_other      tajmigrant.com                 
+[0] OK  4x mono_other      telse.org                      
+[0] REJ 7x mono_other      therealstoriesofkarabakh.com   link_not_found: no call to action #3
+[0] OK  1x mono_other      top-amp-best924.cfd            
+[0] OK  1x mono_other      top-site-game101.cfd           
+[0] OK  4x mono_other      tour2023signup.eu              
+[0] OK  1x mono_other      tribunaledisalerno.net         
+[0] OK  3x mono_other      tydenaterosklerozy.cz          
+[0] OK  1x mono_other      up-image.com                   
+[0] OK  2x mono_other      uz-mostbet-skachat.com         
+[0] OK  2x mono_other      uzmostbetskachat.com           
+[0] OK  1x mono_other      viaexpert.pl                   
+[0] OK  1x mono_other      vivasan-rus.ru                 
+[0] OK  1x mono_other      voronezh-haval.ru              
+[0] OK  4x mono_other      warriorsteam.pl                
+[0] REJ 4x mono_other      winmostbets.com                link_not_found: no call to action #3
+[0] OK  1x mono_other      wwwtehregru.cfd                
+[0] OK  1x mono_other      xn----7sbqgez1bcecc.xn--p1ai   
+[0] OK  1x mono_other      xn--80ahklijc.xn--p1ai         
+[0] OK  1x mono_other      yi-fighting.ru                 
+[0] REJ 4x mono_other      zatravnovacishop.cz            link_not_found: no call to action #3
+[0] OK  1x mono_other      zsstruznice.cz                 
+[0] REJ 1x mono_mixed      egustos.net                    link_not_found: no element with https://traftraf.site/Wn1ZDh/
+[0] OK  1x mono_mixed      mostbet-27.net                 
+[0] REJ 1x mono_mixed      mostbetonlinekz.ru             link_not_found: no element with https://mostbetonlinekz.ru/go-play-ccz
+[0] REJ 2x mono_mixed      radient-pharma.com             link_not_found: no element with https://thegarage-cville.com/go
+[0] REJ 2x mono_mixed      xn--80agenarp8ab5a.kz          landed on mostbet Mostbet
+[0] REJ 2x mb_page_other   fallacepeda.es                 open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+[0] OK  1x bait            24mostbet.click                
+[0] OK  1x bait            casino-mostbet-pl.com          
+[0] REJ 6x bait            mostbet-2025.cc                link_not_found: no call to action #3
+[0] REJ 2x bait            mostbet-at4.xyz                open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+[0] OK  1x bait            mostbet-canada.net             
+[0] OK  1x bait            mostbet-casino.cz              
+[0] REJ 4x bait            mostbet-fonbet-1xbet.ru        clicked_stayed
+[0] OK  1x bait            mostbet-luxury.com             
+[0] OK  1x bait            mostbet-sn.net                 
+[0] OK  1x bait            mostbet-uz.su                  
+[0] REJ 2x bait            mostbet40.buzz                 open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+[0] REJ 4x bait            mostbetbd2login.net            clicked_stayed
+[0] REJ 2x bait            mostbetf4.com                  open_failed: TimeoutError: Page.goto: Timeout 45000ms exceeded.
+[0] OK  1x bait            mostbets.world                 
+[0] OK  1x bait            mostbettur.top                 
+[0] REJ 2x redirect_other  mostbet-2021.xyz               open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+[0] REJ 2x redirect_other  mostbet-apk-online.mobi        open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+[0] REJ 2x redirect_other  mostbet-c.xyz                  open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+[0] REJ 2x redirect_other  mostbet-hmcp.xyz               open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+[0] REJ 2x redirect_other  mostbet-t445.xyz               open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+[0] REJ 2x redirect_other  mostbetapps.icu                open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+[0] OK  1x discredit       mostbet-kashan.top             
+[0] REJ 2x discredit       mostbet444.casino              open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+[0] OK  1x discredit       mostbeto.com                   
+[0] OK  1x mono_hidden     mostbet12045.ru                
+[0] OK  1x mono_hidden     mostbet15743.help              
+[0] OK  1x mono_hidden     mostbet2029.help               
+[0] OK  1x mono_hidden     mostbet2062.help               
+[0] OK  1x mono_hidden     mostbet2070.help               
+[0] OK  1x mono_hidden     mostbet31422.icu               
+[0] OK  1x mono_hidden     mostbet38201.online            
+[0] OK  1x mono_hidden     mostbet42718.help              
+[0] OK  1x mono_hidden     mostbet49271.help              
+[0] OK  1x mono_hidden     mostbet52613.shop              
+[0] OK  1x mono_hidden     mostbet57408.online            
+[0] OK  1x mono_hidden     mostbet68667.icu               
+[0] OK  1x mono_hidden     mostbet76914.help              
+[0] OK  1x mono_hidden     mostbet83468.icu               
+[0] OK  1x mono_hidden     mostbet93580.help              

@@ -6,8 +6,8 @@ brand-protection/*/brand-scan*/html/
 brand-protection/2026-09-28/brand-scan/review/round5/batches/
 brand-protection/2026-09-28/brand-scan/review/round6/batches/
 .DS_Store
-brand-protection/**/evidence*/**/*.mp4
-brand-protection/**/evidence*/**/*.png
-brand-protection/**/evidence*/**/*.webm
-brand-protection/**/evidence*/_tmp/
-brand-protection/**/evidence*/**/*.jpg
+brand-protection/**/evidence-pilot*/**/*.mp4
+brand-protection/**/evidence-pilot*/**/*.png
+brand-protection/**/evidence-pilot*/**/*.webm
+brand-protection/**/evidence-pilot*/_tmp/
+brand-protection/**/evidence-pilot*/**/*.jpg

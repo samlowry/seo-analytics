@@ -1,0 +1,289 @@
+214 to record, 829 done before
+exit IP for geoip: 109.245.134.28
+[0] REJ 4x mono_other      mostbet-ca.net                 clicked_stayed
+[0] OK  2x mono_other      mostbet-casino-bonus.com.de    
+[0] OK  1x mono_other      mostbet-casino-gr.com          
+[0] REJ 4x mono_other      mostbet-casino-norway.com      clicked_stayed
+[0] OK  1x mono_other      mostbet-casino-online.pt       
+[0] OK  2x mono_other      mostbet-casino-qtr3.ru         
+[0] OK  1x mono_other      mostbet-casino-uz.org          
+[0] OK  1x mono_other      mostbet-casino.info.pl         
+[0] OK  2x mono_other      mostbet-casino247.ru           
+[0] REJ 4x mono_other      mostbet-casinoo.app            clicked_stayed
+[0] REJ 2x mono_other      mostbet-casinos.com            open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+[0] REJ 4x mono_other      mostbet-co.com                 landed on mostbet Mostbet
+[0] REJ 4x mono_other      mostbet-czesko.com             landed on mostbet Mostbet
+[0] REJ 6x mono_other      mostbet-france.org             clicked_stayed
+/root/.cache/uv/archive-v0/AAd9J8poCP3lFg_fqPbqv/lib/python3.12/site-packages/playwright/driver/package/lib/coreBundle.js:22797
+        for (const child of frame._getChildFrames())
+                                  ^
+
+TypeError: Cannot read properties of undefined (reading '_getChildFrames')
+    at FrameManager.removeChildFramesRecursively (/root/.cache/uv/archive-v0/AAd9J8poCP3lFg_fqPbqv/lib/python3.12/site-packages/playwright/driver/package/lib/coreBundle.js:22797:35)
+    at FrameManager.frameCommittedNewDocumentNavigation (/root/.cache/uv/archive-v0/AAd9J8poCP3lFg_fqPbqv/lib/python3.12/site-packages/playwright/driver/package/lib/coreBundle.js:22684:14)
+    at FFPage._onNavigationCommitted (/root/.cache/uv/archive-v0/AAd9J8poCP3lFg_fqPbqv/lib/python3.12/site-packages/playwright/driver/package/lib/coreBundle.js:44922:33)
+    at FFSession.emit (node:events:509:28)
+    at /root/.cache/uv/archive-v0/AAd9J8poCP3lFg_fqPbqv/lib/python3.12/site-packages/playwright/driver/package/lib/coreBundle.js:44202:45
+
+Node.js v24.18.1
+Traceback (most recent call last):
+  File "/root/seo-analytics-brand-scan/tools/brand-evidence-video.py", line 958, in <module>
+    asyncio.run(main())
+  File "/root/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/root/seo-analytics-brand-scan/tools/brand-evidence-video.py", line 954, in main
+    await asyncio.gather(*(worker(i) for i in range(a.concurrency)))
+  File "/root/seo-analytics-brand-scan/tools/brand-evidence-video.py", line 920, in worker
+    r = await bs.bounded(run_site(browser, p, out), 1200)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/seo-analytics-brand-scan/tools/brand-scan.py", line 1192, in bounded
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/root/seo-analytics-brand-scan/tools/brand-evidence-video.py", line 758, in run_site
+    res = await bs.bounded(record(browser, p, att, tmp, start), 200)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/seo-analytics-brand-scan/tools/brand-scan.py", line 1192, in bounded
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/root/seo-analytics-brand-scan/tools/brand-evidence-video.py", line 507, in record
+    ctx = await browser.new_context(**opts)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.cache/uv/archive-v0/AAd9J8poCP3lFg_fqPbqv/lib/python3.12/site-packages/playwright/async_api/_generated.py", line 16162, in new_context
+    await self._impl_obj.new_context(
+  File "/root/.cache/uv/archive-v0/AAd9J8poCP3lFg_fqPbqv/lib/python3.12/site-packages/playwright/_impl/_browser.py", line 174, in new_context
+    channel = await self._channel.send("newContext", None, params)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.cache/uv/archive-v0/AAd9J8poCP3lFg_fqPbqv/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.cache/uv/archive-v0/AAd9J8poCP3lFg_fqPbqv/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Browser.new_context: Connection closed while reading from the driver
+19:36:36 shard 6 exited 1, restarting
+200 to record, 937 done before
+exit IP for geoip: 109.245.134.28
+[0] REJ 6x mono_other      mostbet-germany.org            clicked_stayed
+[0] REJ 4x mono_other      mostbet-h.com                  landed on mostbet Mostbet
+[0] OK  2x mono_other      mostbet-hu3.com                
+[0] REJ 4x mono_other      mostbet-ie.org                 clicked_stayed
+[0] OK  1x mono_other      mostbet-ios.com                
+[0] OK  1x mono_other      mostbet-kasyno-gracze.pl       
+[0] OK  1x mono_other      mostbet-kazino-uz.top          
+[0] REJ 4x mono_other      mostbet-mex.com                clicked_stayed
+[0] OK  1x mono_other      mostbet-mobile62-amp.ru        
+[0] OK  1x mono_other      mostbet-nl.nl                  
+[0] REJ 4x mono_other      mostbet-officla1.ru            landed on mostbet Mostbet
+[0] OK  1x mono_other      mostbet-online-game.net        
+[0] REJ 4x mono_other      mostbet-onlineru.ru            link_not_found: no call to action #3
+[0] OK  1x mono_other      mostbet-pk.info                
+[0] REJ 4x mono_other      mostbet-play.club              clicked_stayed
+[0] OK  6x mono_other      mostbet-poland.live            
+[0] REJ 4x mono_other      mostbet-portugal.games         link_not_found: no call to action #3
+[0] REJ 4x mono_other      mostbet-promocodes.ru          link_not_found: no call to action #3
+[0] OK  1x mono_other      mostbet-rg23.com               
+[0] OK  1x mono_other      mostbet-site-tr.top            
+[0] REJ 4x mono_other      mostbet-srilank.com            clicked_stayed
+[0] OK  1x mono_other      mostbet-toppk.com              
+[0] REJ 2x mono_other      mostbet-uz-amp1.top            open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+[0] REJ 2x mono_other      mostbet-vip-01.online          open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+[0] OK  2x mono_other      mostbet-wwwonline.ru           
+[0] OK  1x mono_other      mostbet.ar.it                  
+[0] OK  1x mono_other      mostbet.cr                     
+[0] OK  1x mono_other      mostbet.info                   
+[0] OK  2x mono_other      mostbet.net.nz                 
+[0] OK  1x mono_other      mostbet.tel                    
+[0] OK  1x mono_other      mostbet1-kz.com                
+[0] OK  1x mono_other      mostbet13313.shop              
+[0] REJ 2x mono_other      mostbet250.pl                  open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+[0] OK  1x mono_other      mostbet36442.shop              
+[0] OK  1x mono_other      mostbet62749.shop              
+[0] OK  1x mono_other      mostbet71749.shop              
+[0] REJ 4x mono_other      mostbetapkdownload.info        clicked_stayed
+[0] OK  2x mono_other      mostbetapp.vin                 
+[0] OK  4x mono_other      mostbetaustralia.com           
+[0] OK  1x mono_other      mostbetaz1com.cfd              
+[0] OK  1x mono_other      mostbetazpro.net               
+[0] OK  1x mono_other      mostbetazpwclorg584.top        
+[0] OK  1x mono_other      mostbetazpwclorg884.top        
+[0] REJ 4x mono_other      mostbetbd3.net                 link_not_found: no call to action #3
+[0] REJ 4x mono_other      mostbetbrazil.net              link_not_found: no call to action #3
+[0] OK  2x mono_other      mostbetcasino-az.com           
+[0] OK  2x mono_other      mostbetcasino-de.top           
+[0] OK  1x mono_other      mostbetcasino-hungary.net      
+[0] OK  2x mono_other      mostbetcasino-no.eu.com        
+[0] REJ 4x mono_other      mostbetcasino-portugal.net     link_not_found: no call to action #3
+[0] OK  2x mono_other      mostbetcasino.ca               
+[0] REJ 2x mono_other      mostbetcasino.net.pl           open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+[0] OK  1x mono_other      mostbetcasino00.pl             
+[0] OK  1x mono_other      mostbetcasino406.buzz          
+[0] OK  1x mono_other      mostbetcasinoazpwclorg271.top  
+[0] OK  3x mono_other      mostbetcasinobr.com            
+[0] OK  2x mono_other      mostbetcasinoespana.com        
+[0] OK  2x mono_other      mostbetcasinomirror.com        
+[0] REJ 4x mono_other      mostbetcasinoofficial.ru       link_not_found: no call to action #3
+[0] OK  2x mono_other      mostbetcasinoportugal.net      
+[0] OK  1x mono_other      mostbetcasinos-pl.com          
+[0] REJ 4x mono_other      mostbetcasinouk.com            clicked_stayed
+[0] OK  2x mono_other      mostbetcazino.ru               
+[0] OK  2x mono_other      mostbetcrazytime.com           
+[0] REJ 4x mono_other      mostbete.bet                   link_not_found: no call to action #3
+[0] REJ 6x mono_other      mostbethungary.online          link_not_found: no call to action #3
+[0] REJ 5x mono_other      mostbetkazin.top               link_not_found: no element with https://copper-ray.com/?serial=6136702
+[0] REJ 6x mono_other      mostbetmostbet.com             clicked_stayed
+[0] REJ 4x mono_other      mostbetpartners.ru             link_not_found: no call to action #3
+[0] OK  2x mono_other      mostbetplinko.com              
+/root/.cache/uv/archive-v0/AAd9J8poCP3lFg_fqPbqv/lib/python3.12/site-packages/playwright/driver/package/lib/coreBundle.js:22797
+        for (const child of frame._getChildFrames())
+                                  ^
+
+TypeError: Cannot read properties of undefined (reading '_getChildFrames')
+    at FrameManager.removeChildFramesRecursively (/root/.cache/uv/archive-v0/AAd9J8poCP3lFg_fqPbqv/lib/python3.12/site-packages/playwright/driver/package/lib/coreBundle.js:22797:35)
+    at FrameManager.frameCommittedNewDocumentNavigation (/root/.cache/uv/archive-v0/AAd9J8poCP3lFg_fqPbqv/lib/python3.12/site-packages/playwright/driver/package/lib/coreBundle.js:22684:14)
+    at FFPage._onNavigationCommitted (/root/.cache/uv/archive-v0/AAd9J8poCP3lFg_fqPbqv/lib/python3.12/site-packages/playwright/driver/package/lib/coreBundle.js:44922:33)
+    at FFSession.emit (node:events:509:28)
+    at /root/.cache/uv/archive-v0/AAd9J8poCP3lFg_fqPbqv/lib/python3.12/site-packages/playwright/driver/package/lib/coreBundle.js:44202:45
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at process.processImmediate (node:internal/timers:472:9)
+
+Node.js v24.18.1
+20:53:39 [shard 6/8] driver of worker 0 died: restart
+20:53:39 shard 6 exited 75, restarting
+130 to record, 1435 done before
+exit IP for geoip: 109.245.134.28
+[0] REJ 6x mono_other      mostbets-az.net                clicked_stayed
+[0] OK  1x mono_other      mostbets-deutschland.de        
+[0] OK  1x mono_other      mostbets-poland.com.pl         
+[0] OK  1x mono_other      mostbets.games                 
+[0] OK  3x mono_other      mostbets1.com                  
+[0] OK  1x mono_other      mostbetslovenske.com           
+[0] OK  2x mono_other      mostbetting.casino             
+[0] OK  2x mono_other      mostbettr-slots.store          
+[0] OK  1x mono_other      mostbetwin-mx.com              
+[0] OK  2x mono_other      mostplays.net                  
+[0] REJ 5x mono_other      mshs.cz                        clicked_stayed
+[0] REJ 5x mono_other      musiclightmagic.com            clicked_stayed
+[0] OK  1x mono_other      nailsprof.ru                   
+[0] OK  1x mono_other      newlepnina.ru                  
+[0] OK  1x mono_other      nika-kosmetika.ru              
+[0] OK  1x mono_other      nord-kross.ru                  
+[0] REJ 4x mono_other      npmostbetnepal.com             clicked_stayed
+[0] OK  1x mono_other      ofbirdandcagegame.com          
+[0] OK  1x mono_other      online-amp-best129.cfd         
+[0] OK  1x mono_other      online-top-super860.cfd        
+[0] OK  1x mono_other      orient-watches.ru              
+[0] REJ 1x mono_other      pakistantribe.com              no other brand recognised on the page (mostbet Mostbet)
+[0] OK  1x mono_other      patriar.ru                     
+[0] OK  2x mono_other      peswithyou.com                 
+[0] REJ 2x mono_other      pizzagallonero.cz              open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+[0] OK  1x mono_other      play-top-best237.cfd           
+[0] OK  1x mono_other      plumberinsananselmo247.com     
+[0] OK  1x mono_other      poesiasub25.com                
+[0] OK  1x mono_other      prestigesauna.ru               
+[0] OK  1x mono_other      primacinemacom228.top          
+[0] OK  1x mono_other      primacinemacom620.top          
+[0] OK  1x mono_other      primacinemacom708.top          
+[0] OK  1x mono_other      primacinemacom737.top          
+[0] OK  1x mono_other      primacinemacom914.top          
+[0] OK  1x mono_other      pt-mostbetcasino.app           
+[0] OK  1x mono_other      pwclorg255.top                 
+[0] OK  1x mono_other      pwclorg442.top                 
+[0] REJ 4x mono_other      pwclorg723.top                 link_not_found: no call to action #3
+[0] OK  1x mono_other      pykka.org                      
+[0] REJ 5x mono_other      reflexmedia.cz                 link_not_found: no call to action #3
+[0] REJ 4x mono_other      reva-fitness.cz                clicked_stayed
+[0] OK  1x mono_other      rlifiles-11.cfd                
+[0] OK  1x mono_other      rlifiles-5.cfd                 
+[0] REJ 4x mono_other      rmostbetcasino.com             clicked_stayed
+[0] OK  1x mono_other      ruralchallengepolicy.org       
+[0] OK  1x mono_other      samadgroup.kz                  
+[0] REJ 4x mono_other      schneider-group.cz             landed on unknown
+[0] OK  1x mono_other      seev4-city.eu                  
+[0] OK  1x mono_other      shamail-kazan.ru               
+[0] OK  1x mono_other      shop-bears.ru                  
+[0] OK  1x mono_other      skandaltv.ru                   
+[0] OK  2x mono_other      snt-kasimovo-1.ru              
+[0] OK  1x mono_other      somaliembassydcnet372.top      
+[0] OK  1x mono_other      somaliembassydcnet671.top      
+[0] OK  1x mono_other      somaliembassydcnet677.cfd      
+[0] OK  1x mono_other      somaliembassydcnet685.cfd      
+[0] OK  1x mono_other      somaliembassydcnet693.cfd      
+[0] OK  1x mono_other      soniaramostransfersetours.com  
+[0] OK  1x mono_other      spectekhnika-ntagil.ru         
+[0] OK  1x mono_other      stankopil24.ru                 
+[0] OK  1x mono_other      stop-zapoi.ru                  
+[0] REJ 2x mono_other      suknie-wieczorowe.com.pl       open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+[0] OK  1x mono_other      swadbamechty.ru                
+[0] OK  1x mono_other      tamosspacekz.cfd               
+[0] OK  1x mono_other      thecarmelinn.com               
+[0] OK  1x mono_other      timetolive64.ru                
+[0] OK  1x mono_other      top-game-online153.click       
+[0] OK  1x mono_other      top-super-best654.cfd          
+[0] OK  1x mono_other      transnacionalesdelafecom.xyz   
+[0] OK  1x mono_other      troopsocial.com                
+[0] OK  1x mono_other      unaescuelasustentable.com      
+[0] OK  1x mono_other      urbanofficearchitecture.com    
+[0] OK  1x mono_other      uz-mostbets.com                
+[0] OK  1x mono_other      veganationmtl.com              
+[0] REJ 4x mono_other      vidareal-rp-portugal.pt        link_not_found: no call to action #3
+[0] OK  1x mono_other      vm-energy.ru                   
+[0] OK  1x mono_other      vsetkani.cfd                   
+[0] OK  1x mono_other      wcflcr2017.com                 
+[0] REJ 4x mono_other      woodcraftersresource.com       clicked_stayed
+[0] OK  1x mono_other      wwwtelepartypro.xyz            
+[0] OK  1x mono_other      xn----dtbfea6a0akik4e6a9a.xn--p1ai 
+[0] OK  3x mono_other      xn--90aitipgc.su               
+[0] OK  1x mono_other      zagorodnii-mir.ru              
+[0] OK  1x mono_other      zgm.mn                         
+[0] REJ 2x mono_mixed      argentino-mostbet.com          clicked_stayed
+[0] REJ 2x mono_mixed      kiggroup.kz                    landed on mostbet Mostbet
+[0] REJ 1x mono_mixed      mostbetamp.kz                  link_not_found: no element with https://mostbetamp.kz/go-play-cczpl0k.
+[0] REJ 2x mono_mixed      nationalpastorsconvention.com  link_not_found: no element with https://myparuchia.com/go
+[0] REJ 2x mono_mixed      sulunur.kz                     landed on mostbet Mostbet
+[0] OK  1x mb_page_other   cheapcoverage.info             
+[0] OK  1x mb_page_other   husbandinfo.com                
+[0] OK  1x bait            bestmostbet.com                
+[0] REJ 6x bait            mostbet-0.com                  link_not_found: no call to action #3
+[0] OK  1x bait            mostbet-apk-fr.com             
+[0] REJ 2x bait            mostbet-br.br.com              open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+[0] OK  1x bait            mostbet-casino-cz.cz           
+[0] REJ 4x bait            mostbet-casino24x7p.top        landed on non_gambling HTTP 403
+[0] OK  1x bait            mostbet-ireland.org            
+[0] OK  1x bait            mostbet-np.net                 
+[0] REJ 5x bait            mostbet-telegram.com           clicked_stayed
+[0] REJ 2x bait            mostbet-zerkalo.ru.com         open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+[0] REJ 2x bait            mostbet81.online               open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+[0] REJ 4x bait            mostbetcasino.info             clicked_stayed
+[0] REJ 6x bait            mostbetp0.com                  clicked_stayed
+[0] REJ 6x bait            mostbetslots.top               clicked_stayed
+[0] REJ 4x bait            trmostbetapp.com               clicked_stayed
+[0] REJ 2x redirect_other  mostbet-3h8l.xyz               open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+[0] REJ 2x redirect_other  mostbet-at2.xyz                open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+[0] REJ 2x redirect_other  mostbet-cz1.xyz                open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+[0] REJ 2x redirect_other  mostbet-n.xyz                  open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+[0] OK  1x redirect_other  mostbet365.ru                  
+[0] REJ 2x redirect_other  mostbetmirror.site             open_failed: Error: Page.goto: NS_ERROR_CONNECTION_REFUSED
+[0] OK  1x discredit       mostbet.kz                     
+[0] OK  1x discredit       mostbet777.buzz                
+[0] OK  1x discredit       mostbettr.icu                  
+[0] OK  1x mono_hidden     mostbet12048.ru                
+[0] OK  1x mono_hidden     mostbet18715.company           
+[0] OK  1x mono_hidden     mostbet2032.help               
+[0] OK  1x mono_hidden     mostbet2065.help               
+[0] OK  1x mono_hidden     mostbet22685.online            
+[0] OK  1x mono_hidden     mostbet3347.help               
+[0] OK  1x mono_hidden     mostbet40483.help              
+[0] OK  1x mono_hidden     mostbet45177.help              
+[0] OK  1x mono_hidden     mostbet49882.help              
+[0] OK  1x mono_hidden     mostbet54319.help              
+[0] OK  1x mono_hidden     mostbet65792.help              
+[0] OK  1x mono_hidden     mostbet69754.shop              
+[0] OK  1x mono_hidden     mostbet78071.company           
+[0] OK  1x mono_hidden     mostbet87235.help              
+[0] OK  1x mono_hidden     mostbet96810.help              
