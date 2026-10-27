@@ -8,7 +8,7 @@ Trademark Infringement: везде нарушение — бренд Mostbet в 
 | файл | класс | сайтов | тег |
 |---|---|---:|---|
 | `00-pilot-5.xlsx` | по одному из классов 01–05 | 5 | тег своего класса |
-| `01-mono_other` | монобренд → только чужие | 1 583 | `strike-01-mono-other` |
+| `01-mono_other` | монобренд → только чужие | 1 583 | `strike-01-mono-other` + часть `…-p1`…`-p4` |
 | `02-mono_mixed` | монобренд → Mostbet и чужие | 18 | `strike-02-mono-mixed` |
 | `03-mb_page_other` | страница про Mostbet → чужие | 9 | `strike-03-mb-page-other` |
 | `04-bait` | приманка | 61 | `strike-04-bait` |
@@ -24,3 +24,6 @@ Trademark Infringement: везде нарушение — бренд Mostbet в 
 
 Перед Batch Update: 6 сайтов в Corsearch сейчас с Label Official Store (5 в `04-bait`, 1 в `01`),
 25 уже сняты (`taken_down=True`).
+
+`01-mono_other` для загрузки разбит на `01-mono_other-p1…p4.xlsx` по 500 (последняя — 83): у каждой
+части второй тег `strike-01-mono-other-pN`, фильтр по нему даёт ровно пачку для Batch Update.
