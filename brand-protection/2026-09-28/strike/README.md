@@ -27,3 +27,6 @@ Trademark Infringement: везде нарушение — бренд Mostbet в 
 
 `01-mono_other` для загрузки разбит на `01-mono_other-p1…p8.xlsx` по 200 (последняя — 183): у каждой
 части второй тег `strike-01-mono-other-pN`, фильтр по нему даёт ровно пачку для Batch Update.
+
+`mostbetfrance.com` выкинут из `01-mono_other-p6.xlsx` (199 сайтов): загрузка отвечает «account already
+exists» — в Corsearch у него, видимо, есть вторая запись, которой нет в выгрузке 28.09. Label ставить руками.
