@@ -16,7 +16,7 @@ Trademark Infringement: везде нарушение — бренд Mostbet в 
 | `06-discredit` | дискредитация | 19 | `strike-06-discredit` |
 | `07-mono_hidden` | скрытые ссылки на чужие | 120 | `strike-07-mono-hidden` |
 
-`.xlsx` — колонки `URL`, `Tags`, `Label`, для Uploads → Accounts & Websites. `.csv` — то же плюс `website_id`,
+`.xlsx` — по шаблону Corsearch `accounts_manual_upload_sample`: 13 колонок, заполнены `url`, `label`, `tags`, `geo`, `name` (обязательны `url` и `name`), для Uploads → Accounts & Websites. `.csv` — то же плюс `website_id`,
 бренд на выходе, конечный URL, путь к видео, текущий Label и `taken_down`. `strike-list.csv` — все классы.
 
 Пилот: загрузить `00-pilot-5.xlsx` → в Websites фильтр по тегу → тег и Label встали на старую запись, а не на
