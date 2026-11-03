@@ -16,12 +16,13 @@
 
 | файл | что | тег |
 |---|---|---|
-| `upload-sites.csv` / `.xlsx` | 10 сайтов | `tp-2611-sites` |
+| `upload-sites.csv` / `.xlsx` | 7 сайтов — без трёх, уже загруженных раньше | `tp-2611-sites` |
 | `upload-trustpilot.csv` / `.xlsx` | их 10 страниц на Trustpilot | `tp-2611-trustpilot` |
 
 Формат — шаблон Corsearch `accounts_manual_upload_sample`, как в `strike/` ветки
 `brand-scan-2026-09-28`: Label — Trademark Infringement, geo — GLOBAL.
 
-В выгрузке Corsearch 28.09.2026 есть 9 сайтов из 10, кроме `mostbet-zaklady.pl`. Три уже стоят
-в страйк-листе: `mostbet-site.org`, `mostbetslots.com.de` (`strike-01-mono-other`),
-`mostbet-cz.co` (`strike-01` и `strike-05`); у них новый тег станет вторым.
+В выгрузке Corsearch 28.09.2026 есть 9 сайтов из 10, кроме `mostbet-zaklady.pl`. Три уже
+загружены страйк-листом и в `upload-sites` не входят: `mostbet-site.org`, `mostbetslots.com.de`
+(`strike-01-mono-other`), `mostbet-cz.co` (`strike-01` и `strike-05`). Их страницы на Trustpilot
+в `upload-trustpilot` остались — там все 10.
