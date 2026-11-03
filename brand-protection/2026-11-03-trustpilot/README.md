@@ -21,7 +21,8 @@
 
 Сайты — по шаблону Corsearch `accounts_manual_upload_sample`, как в `strike/` ветки
 `brand-scan-2026-09-28`: Label — Trademark Infringement, geo — GLOBAL. Страницы Trustpilot — посты,
-по шаблону `post_upload_sample`: только `url`, `label`, `tags`.
+по шаблону `post_upload_sample` (`url`, `label`, `tags`) плюс `title` и `images` — без них импорт
+отвечает «Field required». `title` — имя компании на Trustpilot, `images` — её `og:image` (карточка с рейтингом, PNG).
 
 В выгрузке Corsearch 28.09.2026 есть 9 сайтов из 10, кроме `mostbet-zaklady.pl`. Три уже
 загружены страйк-листом и в `upload-sites` не входят: `mostbet-site.org`, `mostbetslots.com.de`
