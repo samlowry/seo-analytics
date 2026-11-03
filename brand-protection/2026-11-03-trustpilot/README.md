@@ -19,8 +19,9 @@
 | `upload-sites.csv` / `.xlsx` | 7 сайтов — без трёх, уже загруженных раньше | `tp-2611-sites` |
 | `upload-trustpilot.csv` / `.xlsx` | их 10 страниц на Trustpilot | `tp-2611-trustpilot` |
 
-Формат — шаблон Corsearch `accounts_manual_upload_sample`, как в `strike/` ветки
-`brand-scan-2026-09-28`: Label — Trademark Infringement, geo — GLOBAL.
+Сайты — по шаблону Corsearch `accounts_manual_upload_sample`, как в `strike/` ветки
+`brand-scan-2026-09-28`: Label — Trademark Infringement, geo — GLOBAL. Страницы Trustpilot — посты,
+по шаблону `post_upload_sample`: только `url`, `label`, `tags`.
 
 В выгрузке Corsearch 28.09.2026 есть 9 сайтов из 10, кроме `mostbet-zaklady.pl`. Три уже
 загружены страйк-листом и в `upload-sites` не входят: `mostbet-site.org`, `mostbetslots.com.de`
