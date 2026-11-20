@@ -520,6 +520,31 @@ async def record(browser, p, att, tmp: Path, start: str):
     await ctx.add_init_script(OVERLAY)
     page = await ctx.new_page()
     page.on("dialog", lambda d: asyncio.ensure_future(d.dismiss()))
+
+    # Camoufox runs OVERLAY in an isolated world, so a site's own window.open(url, '_blank') still opens a tab
+    # the camera does not see (dobirkazdarma.cz, 20.11.2026: buttons are <a data-v-…> with no href). Take the
+    # tab's address into the recorded page and close the tab.
+    async def popup(pg):
+        if pg is page:
+            return
+        url = ""
+        try:
+            await pg.wait_for_load_state("commit", timeout=10_000)
+            url = pg.url
+        except Exception:  # noqa: BLE001
+            url = pg.url
+        try:
+            await pg.close()
+        except Exception:  # noqa: BLE001
+            pass
+        if url and url != "about:blank":
+            log(f"new tab {url[:120]} → opened in the recorded page")
+            try:
+                await page.goto(url, wait_until="domcontentloaded", timeout=45_000)
+            except Exception:  # noqa: BLE001
+                pass
+
+    ctx.on("page", lambda pg: asyncio.ensure_future(popup(pg)))
     frames_dir = tmp / "frames"
     shutil.rmtree(frames_dir, ignore_errors=True)
     frames_dir.mkdir(parents=True)
