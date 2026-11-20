@@ -32,11 +32,11 @@ CLASSES = {
 # Сохранённые главные: какой вариант брать, если нарушение не находится ни в одном.
 PAGE_KINDS = ["browser", "http", "http-mobile", "http-google-mobile", "http-googlebot"]
 PAGE_LABEL = {
-    "browser": "браузер",
-    "http": "HTTP",
-    "http-mobile": "HTTP, мобильный",
-    "http-google-mobile": "HTTP, Googlebot мобильный",
-    "http-googlebot": "HTTP, Googlebot",
+    "browser": "Человек, браузер",
+    "http": "Исходник, компьютер",
+    "http-mobile": "Исходник, телефон",
+    "http-google-mobile": "Google, телефон",
+    "http-googlebot": "Google, компьютер",
 }
 
 URL_RE = re.compile(r"https?://([A-Za-z0-9.\-]+)")

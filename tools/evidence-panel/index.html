@@ -40,6 +40,9 @@ a{color:var(--acc)}
 .more{margin:8px 0;text-align:center}
 button{padding:7px 14px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
 .warnbox{background:var(--warnbg);color:var(--warn);padding:8px 10px;border-radius:8px;font-size:13px}
+.tabs{display:flex;gap:4px;flex-wrap:wrap;margin-bottom:8px;border-bottom:1px solid var(--line)}
+.tab{border:1px solid transparent;border-bottom:none;border-radius:8px 8px 0 0;background:none;color:var(--mute);padding:6px 10px;margin-bottom:-1px;font-size:13px}
+.tab:hover{color:var(--ink)}.tab.on{border-color:var(--line);background:var(--card);color:var(--ink);font-weight:600}
 ul.links{margin:0;padding-left:18px;font-size:13px;columns:2}
 </style>
 </head>
@@ -72,7 +75,12 @@ const REJECT = [
   ["landed on non_gambling","клик ведёт не на казино"],
   ["no other brand","на странице нет чужого бренда"],
 ];
-const rejText = r => { const m = REJECT.find(([k]) => r.startsWith(k)); return m ? m[1] : "прочее"; };
+const PAGE_NAME = {"browser":"Человек, браузер","http":"Исходник, компьютер","http-mobile":"Исходник, телефон","http-google-mobile":"Google, телефон","http-googlebot":"Google, компьютер"};
+const H_BROWSER = "страница после выполнения скриптов, как её видит посетитель",
+      H_SOURCE = "HTML без выполнения скриптов, как его отдал сервер",
+      H_GOOGLE = "HTML, который сайт отдал по User-Agent Googlebot";
+const PAGE_HINT = {"browser":H_BROWSER,"http":H_SOURCE,"http-mobile":H_SOURCE,"http-google-mobile":H_GOOGLE,"http-googlebot":H_GOOGLE};
+const rejText =r => { const m = REJECT.find(([k]) => r.startsWith(k)); return m ? m[1] : "прочее"; };
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const ev = p => "ev/" + p.split("/").map(encodeURIComponent).join("/");
 let rows = [], byDom = {}, shown = [], limit = 100, cur = null;
@@ -143,11 +151,11 @@ function open(dom){
       <ul class="links" style="margin-top:8px">${r.through.map(d => `<li><a href="#${esc(d)}" data-open="${esc(d)}">${esc(d)}</a></li>`).join("")}</ul></div>`);
   }
   if (r.page) {
-    const u = `page/${encodeURIComponent(r.domain)}/${r.page.kind}`;
-    parts.push(`<div class="sec"><h3>Сохранённая главная (${esc(r.page.label)})</h3>
-      ${r.page.has ? `<div class="muted" style="margin-bottom:6px">В коде страницы есть <b>${esc(r.page.has)}</b> — искать поиском по исходнику.</div>` : ""}
-      <div class="btns" style="margin:0 0 8px"><a class="b" href="${u}" target="_blank" rel="noopener noreferrer">Открыть в новой вкладке</a><a class="b" href="${u}?dl=1">Скачать HTML</a>
-      ${r.page.all.filter(k => k !== r.page.kind).map(k => `<a class="b" href="page/${encodeURIComponent(r.domain)}/${k}?dl=1">${esc(k)}</a>`).join("")}</div>
+    const base = `page/${encodeURIComponent(r.domain)}/`, u = base + r.page.kind;
+    const tabs = r.page.all.map(k => `<button class="tab${k === r.page.kind ? " on" : ""}" data-kind="${k}" title="${esc(PAGE_HINT[k])}">${esc(PAGE_NAME[k] || k)}${r.page.has && k === r.page.kind ? ` <span class="c ok">улика: ${esc(r.page.has)}</span>` : ""}</button>`).join("");
+    parts.push(`<div class="sec" id="pagebox" data-base="${base}"><h3>Сохранённая главная</h3>
+      <div class="tabs">${tabs}</div>
+      <div class="btns" style="margin:0 0 8px"><a class="b" id="page-open" href="${u}" target="_blank" rel="noopener noreferrer">Открыть в новой вкладке</a><a class="b" id="page-dl" href="${u}?dl=1">Скачать HTML</a></div>
       <iframe sandbox loading="lazy" referrerpolicy="no-referrer" src="${u}"></iframe>
       <div class="muted" style="font-size:12px;margin-top:4px">Показ без скриптов; скачивается исходник как есть.</div></div>`);
   }
@@ -159,7 +167,15 @@ function open(dom){
 }
 
 document.getElementById("list").addEventListener("click", e => { const r = e.target.closest(".row"); if (r) open(r.dataset.d); });
-document.getElementById("detail").addEventListener("click", e => { const a = e.target.closest("[data-open]"); if (a) { e.preventDefault(); open(a.dataset.open); } });
+document.getElementById("detail").addEventListener("click", e => {
+  const a = e.target.closest("[data-open]"); if (a) { e.preventDefault(); open(a.dataset.open); return; }
+  const t = e.target.closest(".tab"); if (!t) return;
+  const box = document.getElementById("pagebox"), u = box.dataset.base + t.dataset.kind;
+  box.querySelectorAll(".tab").forEach(x => x.classList.toggle("on", x === t));
+  box.querySelector("iframe").src = u;
+  document.getElementById("page-open").href = u;
+  document.getElementById("page-dl").href = u + "?dl=1";
+});
 document.getElementById("more").onclick = () => { limit += 100; render(); };
 let t; document.getElementById("q").addEventListener("input", () => { clearTimeout(t); t = setTimeout(filter, 120); });
 document.getElementById("cls").onchange = filter; document.getElementById("vid").onchange = filter;
