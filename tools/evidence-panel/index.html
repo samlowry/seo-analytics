@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Доказательства нарушений</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#16181d;--mute:#626a77;--line:#e3e6eb;--acc:#2456d6;--ok:#137a3a;--okbg:#e5f4ea;--warn:#9a5b00;--warnbg:#fdf1dd;--bad:#b42318;--badbg:#fde8e6;--chip:#eef0f4}
+@media (prefers-color-scheme:dark){:root{--bg:#111317;--card:#1a1d23;--ink:#e8eaee;--mute:#9aa2ae;--line:#2b3038;--acc:#7aa2ff;--ok:#5fd08a;--okbg:#16301f;--warn:#f0b35a;--warnbg:#33260f;--bad:#ff8a80;--badbg:#3a1714;--chip:#252a32}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding:12px 16px}
+h1{font-size:16px;margin:0 0 8px}
+.bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+input[type=search]{flex:1 1 280px;min-width:0;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font-size:15px}
+select{padding:7px 8px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink)}
+label.t{display:flex;gap:6px;align-items:center;color:var(--mute);white-space:nowrap}
+.stat{color:var(--mute);font-size:13px;margin-top:6px}
+main{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:12px;padding:12px 16px}
+@media (max-width:900px){main{grid-template-columns:1fr}#detail{position:static!important;max-height:none!important}}
+#list{display:flex;flex-direction:column;gap:6px}
+.row{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:9px 11px;cursor:pointer}
+.row:hover{border-color:var(--acc)}.row.sel{border-color:var(--acc);box-shadow:0 0 0 1px var(--acc) inset}
+.dom{font-weight:600;word-break:break-all}
+.note{color:var(--mute);font-size:13px;margin-top:3px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.chips{display:flex;gap:5px;flex-wrap:wrap;margin-top:5px}
+.c{font-size:12px;padding:1px 7px;border-radius:999px;background:var(--chip);color:var(--mute);white-space:nowrap}
+.c.ok{background:var(--okbg);color:var(--ok)}.c.warn{background:var(--warnbg);color:var(--warn)}.c.bad{background:var(--badbg);color:var(--bad)}
+#detail{position:sticky;top:110px;max-height:calc(100vh - 124px);overflow:auto;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px}
+#detail h2{font-size:17px;margin:0 0 4px;word-break:break-all}
+.sec{margin-top:14px}.sec h3{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--mute);margin:0 0 6px}
+video,img.poster{width:100%;border-radius:8px;background:#000;display:block}
+.btns{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+a.b{display:inline-block;padding:6px 11px;border-radius:8px;border:1px solid var(--line);color:var(--acc);text-decoration:none;font-size:13px;background:var(--card)}
+a.b:hover{border-color:var(--acc)}
+iframe{width:100%;height:520px;border:1px solid var(--line);border-radius:8px;background:#fff}
+.kv{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:4px 12px;font-size:13px}.kv dt{color:var(--mute)}.kv dd{margin:0;word-break:break-all}
+.muted{color:var(--mute)}
+a{color:var(--acc)}
+.more{margin:8px 0;text-align:center}
+button{padding:7px 14px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+.warnbox{background:var(--warnbg);color:var(--warn);padding:8px 10px;border-radius:8px;font-size:13px}
+ul.links{margin:0;padding-left:18px;font-size:13px;columns:2}
+</style>
+</head>
+<body>
+<header>
+  <h1>Доказательства нарушений Mostbet</h1>
+  <div class="bar">
+    <input id="q" type="search" placeholder="Домен: найдёт и сайт, и ролики, где цепочка проходит через него" autofocus>
+    <select id="cls"><option value="">Все классы</option></select>
+    <select id="vid">
+      <option value="">Все</option>
+      <option value="acc" selected>С роликом в пакете</option>
+      <option value="rej">Ролик в отказе</option>
+      <option value="none">Без ролика</option>
+    </select>
+  </div>
+  <div class="stat" id="stat">Загрузка…</div>
+</header>
+<main>
+  <div><div id="list"></div><div class="more"><button id="more" hidden>Показать ещё</button></div></div>
+  <aside id="detail"><p class="muted">Выберите домен слева.</p></aside>
+</main>
+<script>
+const REJECT = [
+  ["clicked_stayed","клик по ссылке или кнопке не уводит с сайта"],
+  ["link_not_found","ссылок на чужих больше нет"],
+  ["open_failed","сайт не открывается"],
+  ["landed on mostbet","клик ведёт на Mostbet (ротация или реклама сменилась)"],
+  ["bot_check","проверка на бота"],
+  ["landed on non_gambling","клик ведёт не на казино"],
+  ["no other brand","на странице нет чужого бренда"],
+];
+const rejText = r => { const m = REJECT.find(([k]) => r.startsWith(k)); return m ? m[1] : "прочее"; };
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const ev = p => "ev/" + p.split("/").map(encodeURIComponent).join("/");
+let rows = [], byDom = {}, shown = [], limit = 100, cur = null;
+
+function vstate(r){ return !r.video || !r.video.mp4 ? "none" : r.video.accepted ? "acc" : "rej"; }
+
+function chips(r, q){
+  const out = [`<span class="c">${esc(r.cls_name)}</span>`];
+  const v = vstate(r);
+  if (v === "acc") out.push(`<span class="c ok">ролик → ${esc(r.video.landing || "чужой бренд")}</span>`);
+  else if (v === "rej") out.push(`<span class="c warn">ролик в отказе</span>`);
+  if (r.through.length) out.push(`<span class="c ok">через него: ${r.through.length} роликов</span>`);
+  if (r.page) out.push(`<span class="c">страница</span>`);
+  if (r.strike) out.push(`<span class="c">в страйке</span>`);
+  if (r.corsearch) out.push(`<span class="c ${r.corsearch.taken_down ? "bad" : ""}">Corsearch: ${esc(r.corsearch.label || "без метки")}${r.corsearch.taken_down ? ", снят" : ""}</span>`);
+  if (q && r.domain.indexOf(q) < 0) { const h = r.via.find(h => h.indexOf(q) >= 0); if (h) out.push(`<span class="c warn">через ${esc(h)}</span>`); }
+  return out.join("");
+}
+
+function filter(){
+  const q = document.getElementById("q").value.trim().toLowerCase().replace(/^https?:\/\//, "").replace(/^www\./, "").replace(/\/.*$/, "");
+  const cls = document.getElementById("cls").value, vid = document.getElementById("vid").value;
+  shown = rows.filter(r => {
+    if (cls && r.cls !== cls) return false;
+    if (q) {
+      const own = r.domain.includes(q), chain = r.via.some(h => h.includes(q));
+      if (!own && !chain) return false;
+      if (own) return true;              // сам домен показываем всегда, даже без ролика
+    }
+    return !vid || vstate(r) === vid;
+  });
+  if (q) shown.sort((a, b) => (b.domain === q) - (a.domain === q) || (b.domain.includes(q)) - (a.domain.includes(q)));
+  limit = 100; render(q);
+  document.getElementById("stat").textContent = `Найдено ${shown.length} из ${rows.length}`;
+  if (q && byDom[q]) open(q); else if (shown.length && (!cur || !shown.includes(byDom[cur]))) open(shown[0].domain);
+}
+
+function render(q){
+  q = q ?? document.getElementById("q").value.trim().toLowerCase();
+  document.getElementById("list").innerHTML = shown.slice(0, limit).map(r =>
+    `<div class="row${r.domain === cur ? " sel" : ""}" data-d="${esc(r.domain)}"><div class="dom">${esc(r.domain)}</div><div class="note">${esc(r.note)}</div><div class="chips">${chips(r, q)}</div></div>`).join("");
+  document.getElementById("more").hidden = shown.length <= limit;
+}
+
+function open(dom){
+  const r = byDom[dom]; if (!r) return;
+  cur = dom; location.hash = dom;
+  document.querySelectorAll(".row").forEach(e => e.classList.toggle("sel", e.dataset.d === dom));
+  const v = vstate(r), parts = [];
+  parts.push(`<h2>${esc(r.domain)}</h2><div class="chips">${chips(r)}</div>`);
+  parts.push(`<div class="sec"><h3>Нарушение</h3><div>${esc(r.note)}</div><div class="muted" style="margin-top:4px">${esc(r.reason)}</div></div>`);
+  if (v === "acc") {
+    parts.push(`<div class="sec"><h3>Видео: ${esc(r.domain)} → ${esc(r.video.landing || "чужой бренд")}</h3>
+      <video controls preload="none" poster="${r.video.png ? ev(r.video.png) : ""}" src="${ev(r.video.mp4)}"></video>
+      <div class="btns"><a class="b" href="${ev(r.video.mp4)}?dl=1">Скачать видео</a>${r.video.png ? `<a class="b" href="${ev(r.video.png)}?dl=1">Скачать последний кадр</a>` : ""}</div></div>`);
+  } else if (v === "rej") {
+    parts.push(`<div class="sec"><h3>Видео в отказе</h3><div class="warnbox">Не доказательство: ${esc(rejText(r.video.reason))}. Нарушение не воспроизвелось при записи 22–23.10.2026 с IP Сербии.</div>
+      <details style="margin-top:8px"><summary class="muted">Посмотреть запись попытки</summary><video controls preload="none" src="${ev(r.video.mp4)}" style="margin-top:6px"></video>
+      <div class="btns"><a class="b" href="${ev(r.video.mp4)}?dl=1">Скачать</a></div><div class="muted" style="font-size:12px;margin-top:4px">${esc(r.video.reason)}</div></details></div>`);
+  } else {
+    parts.push(`<div class="sec"><h3>Видео</h3><div class="muted">Своего ролика нет${r.through.length ? " — но нарушение на этом сайте снято в роликах доменов, которые на него переезжают (ниже)" : ""}.</div></div>`);
+  }
+  if (r.through.length) {
+    const first = byDom[r.through[0]];
+    parts.push(`<div class="sec"><h3>Ролики, где цепочка проходит через ${esc(r.domain)}: ${r.through.length}</h3>
+      ${first && first.video ? `<video controls preload="none" poster="${first.video.png ? ev(first.video.png) : ""}" src="${ev(first.video.mp4)}"></video>
+      <div class="btns"><a class="b" href="${ev(first.video.mp4)}?dl=1">Скачать видео (${esc(first.domain)})</a></div>` : ""}
+      <ul class="links" style="margin-top:8px">${r.through.map(d => `<li><a href="#${esc(d)}" data-open="${esc(d)}">${esc(d)}</a></li>`).join("")}</ul></div>`);
+  }
+  if (r.page) {
+    const u = `page/${encodeURIComponent(r.domain)}/${r.page.kind}`;
+    parts.push(`<div class="sec"><h3>Сохранённая главная (${esc(r.page.label)})</h3>
+      ${r.page.has ? `<div class="muted" style="margin-bottom:6px">В коде страницы есть <b>${esc(r.page.has)}</b> — искать поиском по исходнику.</div>` : ""}
+      <div class="btns" style="margin:0 0 8px"><a class="b" href="${u}" target="_blank" rel="noopener noreferrer">Открыть в новой вкладке</a><a class="b" href="${u}?dl=1">Скачать HTML</a>
+      ${r.page.all.filter(k => k !== r.page.kind).map(k => `<a class="b" href="page/${encodeURIComponent(r.domain)}/${k}?dl=1">${esc(k)}</a>`).join("")}</div>
+      <iframe sandbox loading="lazy" referrerpolicy="no-referrer" src="${u}"></iframe>
+      <div class="muted" style="font-size:12px;margin-top:4px">Показ без скриптов; скачивается исходник как есть.</div></div>`);
+  }
+  const dl = [["Конечный адрес", r.final_url], ["Цепочка", r.via.join(" → ")], ["Уверенность проверки", r.conf]];
+  if (r.strike) dl.push(["Страйк", `${r.strike.tag} · ${r.strike.label}`]);
+  if (r.corsearch) dl.push(["Corsearch", `${r.corsearch.label || "без метки"}${r.corsearch.moderated ? ", модерация " + r.corsearch.moderated : ""}${r.corsearch.taken_down ? ", снят" : ""}`]);
+  parts.push(`<div class="sec"><h3>Данные</h3><dl class="kv">${dl.filter(x => x[1]).map(([k, x]) => `<dt>${esc(k)}</dt><dd>${esc(x)}</dd>`).join("")}</dl></div>`);
+  const d = document.getElementById("detail"); d.innerHTML = parts.join(""); d.scrollTop = 0;
+}
+
+document.getElementById("list").addEventListener("click", e => { const r = e.target.closest(".row"); if (r) open(r.dataset.d); });
+document.getElementById("detail").addEventListener("click", e => { const a = e.target.closest("[data-open]"); if (a) { e.preventDefault(); open(a.dataset.open); } });
+document.getElementById("more").onclick = () => { limit += 100; render(); };
+let t; document.getElementById("q").addEventListener("input", () => { clearTimeout(t); t = setTimeout(filter, 120); });
+document.getElementById("cls").onchange = filter; document.getElementById("vid").onchange = filter;
+
+fetch("data.json").then(r => r.json()).then(d => {
+  rows = d.rows; rows.forEach(r => byDom[r.domain] = r);
+  const s = document.getElementById("cls");
+  Object.entries(d.classes).forEach(([k, v]) => s.insertAdjacentHTML("beforeend", `<option value="${k}">${esc(v)}</option>`));
+  const h = decodeURIComponent(location.hash.slice(1));
+  if (h && byDom[h]) { document.getElementById("q").value = h; }
+  filter();
+});
+</script>
+</body>
+</html>
