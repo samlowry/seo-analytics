@@ -82,7 +82,8 @@ const H_BROWSER = "страница после выполнения скрипт
 const PAGE_HINT = {"browser":H_BROWSER,"http":H_SOURCE,"http-mobile":H_SOURCE,"http-google-mobile":H_GOOGLE,"http-googlebot":H_GOOGLE};
 const rejText =r => { const m = REJECT.find(([k]) => r.startsWith(k)); return m ? m[1] : "прочее"; };
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const ev = p => "ev/" + p.split("/").map(encodeURIComponent).join("/");
+const ev = (r, p) => "ev/" + encodeURIComponent(r.src) + "/" + p.split("/").map(encodeURIComponent).join("/");
+const ruDate = s => s.replace(/^(\d{4})-(\d{2})-(\d{2}).*/, "$3.$2.$1");
 let rows = [], byDom = {}, shown = [], limit = 100, cur = null;
 
 function vstate(r){ return !r.video || !r.video.mp4 ? "none" : r.video.accepted ? "acc" : "rej"; }
@@ -95,7 +96,9 @@ function chips(r, q){
   if (r.through.length) out.push(`<span class="c ok">через него: ${r.through.length} роликов</span>`);
   if (r.page) out.push(`<span class="c">страница</span>`);
   if (r.strike) out.push(`<span class="c">в страйке</span>`);
+  if (r.added) out.push(`<span class="c warn">добавлен ${esc(ruDate(r.added))}, не в страйке</span>`);
   if (r.corsearch) out.push(`<span class="c ${r.corsearch.taken_down ? "bad" : ""}">Corsearch: ${esc(r.corsearch.label || "без метки")}${r.corsearch.taken_down ? ", снят" : ""}</span>`);
+  else out.push(`<span class="c">нет в Corsearch</span>`);
   if (q && r.domain.indexOf(q) < 0) { const h = r.via.find(h => h.indexOf(q) >= 0); if (h) out.push(`<span class="c warn">через ${esc(h)}</span>`); }
   return out.join("");
 }
@@ -134,24 +137,24 @@ function open(dom){
   parts.push(`<div class="sec"><h3>Нарушение</h3><div>${esc(r.note)}</div><div class="muted" style="margin-top:4px">${esc(r.reason)}</div></div>`);
   if (v === "acc") {
     parts.push(`<div class="sec"><h3>Видео: ${esc(r.domain)} → ${esc(r.video.landing || "чужой бренд")}</h3>
-      <video controls preload="none" poster="${r.video.png ? ev(r.video.png) : ""}" src="${ev(r.video.mp4)}"></video>
-      <div class="btns"><a class="b" href="${ev(r.video.mp4)}?dl=1">Скачать видео</a>${r.video.png ? `<a class="b" href="${ev(r.video.png)}?dl=1">Скачать последний кадр</a>` : ""}</div></div>`);
+      <video controls preload="none" poster="${r.video.png ? ev(r, r.video.png) : ""}" src="${ev(r, r.video.mp4)}"></video>
+      <div class="btns"><a class="b" href="${ev(r, r.video.mp4)}?dl=1">Скачать видео</a>${r.video.png ? `<a class="b" href="${ev(r, r.video.png)}?dl=1">Скачать последний кадр</a>` : ""}</div></div>`);
   } else if (v === "rej") {
     parts.push(`<div class="sec"><h3>Видео в отказе</h3><div class="warnbox">Не доказательство: ${esc(rejText(r.video.reason))}. Нарушение не воспроизвелось при записи 22–23.10.2026 с IP Сербии.</div>
-      <details style="margin-top:8px"><summary class="muted">Посмотреть запись попытки</summary><video controls preload="none" src="${ev(r.video.mp4)}" style="margin-top:6px"></video>
-      <div class="btns"><a class="b" href="${ev(r.video.mp4)}?dl=1">Скачать</a></div><div class="muted" style="font-size:12px;margin-top:4px">${esc(r.video.reason)}</div></details></div>`);
+      <details style="margin-top:8px"><summary class="muted">Посмотреть запись попытки</summary><video controls preload="none" src="${ev(r, r.video.mp4)}" style="margin-top:6px"></video>
+      <div class="btns"><a class="b" href="${ev(r, r.video.mp4)}?dl=1">Скачать</a></div><div class="muted" style="font-size:12px;margin-top:4px">${esc(r.video.reason)}</div></details></div>`);
   } else {
     parts.push(`<div class="sec"><h3>Видео</h3><div class="muted">Своего ролика нет${r.through.length ? " — но нарушение на этом сайте снято в роликах доменов, которые на него переезжают (ниже)" : ""}.</div></div>`);
   }
   if (r.through.length) {
     const first = byDom[r.through[0]];
     parts.push(`<div class="sec"><h3>Ролики, где цепочка проходит через ${esc(r.domain)}: ${r.through.length}</h3>
-      ${first && first.video ? `<video controls preload="none" poster="${first.video.png ? ev(first.video.png) : ""}" src="${ev(first.video.mp4)}"></video>
-      <div class="btns"><a class="b" href="${ev(first.video.mp4)}?dl=1">Скачать видео (${esc(first.domain)})</a></div>` : ""}
+      ${first && first.video ? `<video controls preload="none" poster="${first.video.png ? ev(first, first.video.png) : ""}" src="${ev(first, first.video.mp4)}"></video>
+      <div class="btns"><a class="b" href="${ev(first, first.video.mp4)}?dl=1">Скачать видео (${esc(first.domain)})</a></div>` : ""}
       <ul class="links" style="margin-top:8px">${r.through.map(d => `<li><a href="#${esc(d)}" data-open="${esc(d)}">${esc(d)}</a></li>`).join("")}</ul></div>`);
   }
   if (r.page) {
-    const base = `page/${encodeURIComponent(r.domain)}/`, u = base + r.page.kind;
+    const base = `page/${encodeURIComponent(r.src)}/${encodeURIComponent(r.domain)}/`, u = base + r.page.kind;
     const tabs = r.page.all.map(k => `<button class="tab${k === r.page.kind ? " on" : ""}" data-kind="${k}" title="${esc(PAGE_HINT[k])}">${esc(PAGE_NAME[k] || k)}${r.page.has && k === r.page.kind ? ` <span class="c ok">улика: ${esc(r.page.has)}</span>` : ""}</button>`).join("");
     parts.push(`<div class="sec" id="pagebox" data-base="${base}"><h3>Сохранённая главная</h3>
       <div class="tabs">${tabs}</div>

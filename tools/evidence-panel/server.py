@@ -3,7 +3,8 @@
 Отдаёт index.html и data.json, ролики с перемоткой (Range), сохранённые главные:
 просмотр — без скриптов и без meta refresh, в песочнице; скачивание — как есть.
 
-Запуск: python3 server.py <каталог 2026-09-28> [--port 8765] [--data data/data.json]
+Запуск: python3 server.py <срез> [<срез> …] [--port 8765] [--data data/data.json]
+Адреса файлов: /ev/<имя среза>/<путь>, /page/<имя среза>/<домен>/<вариант>.
 """
 
 import argparse
@@ -30,7 +31,7 @@ PAGE_CSP = (
 
 
 class Handler(BaseHTTPRequestHandler):
-    root: Path
+    roots: dict[str, Path]
     data: Path
 
     def log_message(self, fmt, *args):  # тише: только ошибки
@@ -50,7 +51,9 @@ class Handler(BaseHTTPRequestHandler):
         if path == "/data.json":
             return self.send_file(self.data, "application/json; charset=utf-8")
         if path.startswith("/ev/"):
-            f = self.safe(self.root / "evidence", path[4:])
+            src, _, rel = path[4:].partition("/")
+            root = self.roots.get(src)
+            f = self.safe(root / "evidence", rel) if root else None
             if not f:
                 return self.send_error(HTTPStatus.NOT_FOUND)
             return self.send_file(f, mimetypes.guess_type(f.name)[0] or "application/octet-stream", dl)
@@ -65,10 +68,12 @@ class Handler(BaseHTTPRequestHandler):
         return f
 
     def send_page(self, rest: str, dl: bool):
+        src, _, rest = rest.partition("/")
         dom, _, kind = rest.partition("/")
-        if not DOMAIN_RE.match(dom) or kind not in PAGE_KINDS:
+        root = self.roots.get(src)
+        if not root or not DOMAIN_RE.match(dom) or kind not in PAGE_KINDS:
             return self.send_error(HTTPStatus.NOT_FOUND)
-        f = self.root / "brand-scan" / "html" / f"{dom}.{kind}.html.gz"
+        f = root / "brand-scan" / "html" / f"{dom}.{kind}.html.gz"
         if not f.is_file():
             return self.send_error(HTTPStatus.NOT_FOUND)
         raw = gzip.open(f).read()
@@ -136,12 +141,12 @@ class Handler(BaseHTTPRequestHandler):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("root", help="каталог brand-protection/2026-09-28")
+    ap.add_argument("roots", nargs="+", help="срезы brand-protection/<дата>; имя папки — имя среза в адресах")
     ap.add_argument("--port", type=int, default=8765)
     ap.add_argument("--host", default="127.0.0.1")
     ap.add_argument("--data", default=str(HERE / "data" / "data.json"))
     a = ap.parse_args()
-    Handler.root = Path(a.root).resolve()
+    Handler.roots = {Path(r).resolve().name: Path(r).resolve() for r in a.roots}
     Handler.data = Path(a.data).resolve()
     srv = ThreadingHTTPServer((a.host, a.port), Handler)
     print(f"http://{a.host}:{a.port}/")

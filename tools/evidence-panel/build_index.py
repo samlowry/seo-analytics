@@ -8,7 +8,12 @@ strike/strike-list.csv, метка Corsearch из all.csv, сохранённа�
 ролика не имеет, но в 120 роликах редиректоры переезжают на него. Поэтому в `via`
 лежат все хосты из журналов роликов и конечный адрес.
 
-Запуск: python3 build_index.py <каталог 2026-09-28> <выходной data.json>
+Срезов может быть несколько: первый — основной (2026-09-28), следующие — добавленные позже
+(например, 2026-11-20 — ручная проверка двух доменов). Список на снос в срезе — либо
+brand-scan/report/takedown-send.csv, либо takedown-send.csv в корне; strike/ и all.csv необязательны,
+метка Corsearch ищется во всех срезах. Строка помнит свой срез (`src`), по нему сервер ищет файлы.
+
+Запуск: python3 build_index.py <срез> [<срез> …] <выходной data.json>
 """
 
 import csv
@@ -92,26 +97,21 @@ def pick_page(html_dir: Path, domain: str, needles: list[str]) -> dict | None:
     return {"kind": chosen, "label": PAGE_LABEL[chosen], "has": hit, "all": found}
 
 
-def main() -> None:
-    root, out = Path(sys.argv[1]), Path(sys.argv[2])
+def load_root(root: Path, cors: dict, added: bool) -> list[dict]:
     ev = root / "evidence"
     html_dir = root / "brand-scan" / "html"
-
     results = {}
-    for line in open(ev / "results.jsonl", encoding="utf-8"):
-        d = json.loads(line)
-        results[d["domain"]] = d
-    strike = {r["domain"]: r for r in csv.DictReader(open(root / "strike" / "strike-list.csv", encoding="utf-8"))}
-    cors = {}
-    for r in csv.DictReader(open(root / "all.csv", encoding="utf-8")):
-        cors[r["domain_name"]] = {
-            "label": r["infringement_type"],
-            "taken_down": r["taken_down"] == "True",
-            "moderated": r["moderation_date"][:10],
-        }
+    if (ev / "results.jsonl").exists():
+        for line in open(ev / "results.jsonl", encoding="utf-8"):
+            d = json.loads(line)
+            results[d["domain"]] = d
+    strike = {r["domain"]: r for r in load_csv(root / "strike" / "strike-list.csv")}
+    send = root / "brand-scan" / "report" / "takedown-send.csv"
+    if not send.exists():
+        send = root / "takedown-send.csv"
 
     rows = []
-    for r in csv.DictReader(open(root / "brand-scan" / "report" / "takedown-send.csv", encoding="utf-8")):
+    for r in load_csv(send):
         dom = r["domain"]
         rec = results.get(dom)
         via, clues = chain_hosts(rec) if rec else ([], [])
@@ -153,8 +153,32 @@ def main() -> None:
             "video": video,
             "strike": {"tag": s["tag"], "label": s["label"]} if s else None,
             "corsearch": cors.get(dom),
+            "src": root.name,
+            "added": root.name if added else "",
             "page": pick_page(html_dir, dom, clues + NOTE_HOST_RE.findall(r["checker_note"].lower()) + via),
         })
+    return rows
+
+
+def load_csv(p: Path) -> list[dict]:
+    return list(csv.DictReader(open(p, encoding="utf-8"))) if p.exists() else []
+
+
+def main() -> None:
+    roots, out = [Path(x) for x in sys.argv[1:-1]], Path(sys.argv[-1])
+    cors = {}
+    for root in roots:
+        for r in load_csv(root / "all.csv"):
+            cors[r["domain_name"]] = {
+                "label": r["infringement_type"],
+                "taken_down": r["taken_down"] == "True",
+                "moderated": r["moderation_date"][:10],
+            }
+    by_dom = {}
+    for n, root in enumerate(roots):
+        for row in load_root(root, cors, added=n > 0):
+            by_dom[row["domain"]] = row  # более поздний срез заменяет строку раннего
+    rows = list(by_dom.values())
 
     # Обратная связь: «через этот домен снято N роликов в пакете».
     through = {}
