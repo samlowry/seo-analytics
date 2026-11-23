@@ -96,9 +96,10 @@ function chips(r, q){
   if (r.through.length) out.push(`<span class="c ok">через него: ${r.through.length} роликов</span>`);
   if (r.page) out.push(`<span class="c">страница</span>`);
   if (r.strike) out.push(`<span class="c">в страйке</span>`);
-  if (r.added) out.push(`<span class="c warn">добавлен ${esc(ruDate(r.added))}, не в страйке</span>`);
+  if (r.sent) out.push(`<span class="c ok">отправлен в Corsearch на снос ${esc(ruDate(r.sent))}</span>`);
+  else if (r.added) out.push(`<span class="c warn">добавлен ${esc(ruDate(r.added))}, не в страйке</span>`);
   if (r.corsearch) out.push(`<span class="c ${r.corsearch.taken_down ? "bad" : ""}">Corsearch: ${esc(r.corsearch.label || "без метки")}${r.corsearch.taken_down ? ", снят" : ""}</span>`);
-  else out.push(`<span class="c">нет в Corsearch</span>`);
+  else if (!r.sent) out.push(`<span class="c">нет в Corsearch</span>`);
   if (q && r.domain.indexOf(q) < 0) { const h = r.via.find(h => h.indexOf(q) >= 0); if (h) out.push(`<span class="c warn">через ${esc(h)}</span>`); }
   return out.join("");
 }
@@ -164,6 +165,8 @@ function open(dom){
   }
   const dl = [["Конечный адрес", r.final_url], ["Цепочка", r.via.join(" → ")], ["Уверенность проверки", r.conf]];
   if (r.strike) dl.push(["Страйк", `${r.strike.tag} · ${r.strike.label}`]);
+  if (r.added) dl.push(["Добавлен", ruDate(r.added)]);
+  if (r.sent) dl.push(["Отправлен в Corsearch", ruDate(r.sent) + ", на снос"]);
   if (r.corsearch) dl.push(["Corsearch", `${r.corsearch.label || "без метки"}${r.corsearch.moderated ? ", модерация " + r.corsearch.moderated : ""}${r.corsearch.taken_down ? ", снят" : ""}`]);
   parts.push(`<div class="sec"><h3>Данные</h3><dl class="kv">${dl.filter(x => x[1]).map(([k, x]) => `<dt>${esc(k)}</dt><dd>${esc(x)}</dd>`).join("")}</dl></div>`);
   const d = document.getElementById("detail"); d.innerHTML = parts.join(""); d.scrollTop = 0;

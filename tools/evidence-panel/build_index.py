@@ -155,6 +155,7 @@ def load_root(root: Path, cors: dict, added: bool) -> list[dict]:
             "corsearch": cors.get(dom),
             "src": root.name,
             "added": root.name if added else "",
+            "sent": r.get("sent_to_corsearch") or "",  # дата отправки в Corsearch на снос, если отмечена
             "page": pick_page(html_dir, dom, clues + NOTE_HOST_RE.findall(r["checker_note"].lower()) + via),
         })
     return rows
