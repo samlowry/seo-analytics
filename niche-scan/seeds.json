@@ -1,0 +1,957 @@
+{
+ "_comment": "Ниши для niche-scan. group: giant | a | b — какой выгрузкой Ahrefs идёт ниша. bet: близость к аудитории беттинга (high/medium/low), только для столбца, не фильтр. seeds по языкам: ru, uz (латиница), az, tr. Правка 23.11 после проверки состава: pdf — из книг в инструменты; голый test убран из экзаменов; canlı izle — из футбола онлайн в ТВ.",
+ "niches": [
+  {
+   "id": "weather",
+   "name": "Погода",
+   "group": "giant",
+   "bet": "low",
+   "ru": [
+    "погода"
+   ],
+   "uz": [
+    "ob havo",
+    "ob-havo"
+   ],
+   "az": [
+    "hava proqnozu",
+    "hava haqqında",
+    "hava haqqinda"
+   ],
+   "tr": [
+    "hava durumu"
+   ]
+  },
+  {
+   "id": "currency",
+   "name": "Курсы валют",
+   "group": "giant",
+   "bet": "low",
+   "ru": [
+    "курс доллара",
+    "курс валют",
+    "курс евро",
+    "курс рубля"
+   ],
+   "uz": [
+    "dollar kursi",
+    "valyuta kursi",
+    "kurs dollar"
+   ],
+   "az": [
+    "dollar məzənnəsi",
+    "valyuta məzənnəsi",
+    "dollar mezenne",
+    "manat"
+   ],
+   "tr": [
+    "dolar kuru",
+    "euro kuru",
+    "döviz kurları"
+   ]
+  },
+  {
+   "id": "gold",
+   "name": "Цена золота",
+   "group": "giant",
+   "bet": "low",
+   "ru": [
+    "цена золота",
+    "курс золота"
+   ],
+   "uz": [
+    "oltin narxi"
+   ],
+   "az": [
+    "qızıl qiyməti"
+   ],
+   "tr": [
+    "altın fiyatları",
+    "gram altın",
+    "çeyrek altın"
+   ]
+  },
+  {
+   "id": "prayer",
+   "name": "Время намаза",
+   "group": "giant",
+   "bet": "low",
+   "ru": [
+    "время намаза",
+    "намаз"
+   ],
+   "uz": [
+    "namoz vaqti",
+    "namoz vaqtlari",
+    "taqvim"
+   ],
+   "az": [
+    "namaz vaxtı",
+    "namaz vaxti",
+    "imsakiyyə"
+   ],
+   "tr": [
+    "namaz vakitleri",
+    "ezan vakti",
+    "iftar vakti",
+    "imsakiye"
+   ]
+  },
+  {
+   "id": "movies",
+   "name": "Кино онлайн",
+   "group": "giant",
+   "bet": "low",
+   "ru": [
+    "фильм",
+    "фильмы",
+    "кино онлайн"
+   ],
+   "uz": [
+    "kino",
+    "tarjima kino",
+    "film"
+   ],
+   "az": [
+    "film",
+    "filmlər",
+    "kino"
+   ],
+   "tr": [
+    "film izle",
+    "filmi izle",
+    "full hd film"
+   ]
+  },
+  {
+   "id": "series",
+   "name": "Сериалы",
+   "group": "giant",
+   "bet": "low",
+   "ru": [
+    "сериал",
+    "сериалы"
+   ],
+   "uz": [
+    "serial",
+    "seriali",
+    "seriallar"
+   ],
+   "az": [
+    "serial",
+    "serialı"
+   ],
+   "tr": [
+    "dizi",
+    "dizi izle",
+    "bölüm izle"
+   ]
+  },
+  {
+   "id": "music",
+   "name": "Музыка и песни",
+   "group": "giant",
+   "bet": "low",
+   "ru": [
+    "музыка",
+    "песня",
+    "песни",
+    "mp3"
+   ],
+   "uz": [
+    "qo'shiq",
+    "qoshiq",
+    "qoshiqlar",
+    "musiqa",
+    "mp3"
+   ],
+   "az": [
+    "mahnı",
+    "mahni",
+    "mahnılar",
+    "musiqi",
+    "mp3"
+   ],
+   "tr": [
+    "şarkı",
+    "müzik indir",
+    "mp3",
+    "şarkı sözleri"
+   ]
+  },
+  {
+   "id": "football_live",
+   "name": "Футбол онлайн, трансляции",
+   "group": "giant",
+   "bet": "high",
+   "ru": [
+    "футбол онлайн",
+    "смотреть футбол",
+    "прямая трансляция"
+   ],
+   "uz": [
+    "futbol online",
+    "futbol jonli",
+    "jonli efir"
+   ],
+   "az": [
+    "canlı futbol",
+    "futbol canlı",
+    "canlı yayım"
+   ],
+   "tr": [
+    "maç izle",
+    "canlı maç",
+    "maç özeti"
+   ]
+  },
+  {
+   "id": "football_data",
+   "name": "Футбол: результаты, таблицы, клубы",
+   "group": "a",
+   "bet": "high",
+   "ru": [
+    "турнирная таблица",
+    "результаты матчей",
+    "лига чемпионов",
+    "премьер лига",
+    "расписание матчей",
+    "реал мадрид",
+    "барселона"
+   ],
+   "uz": [
+    "chempionlar ligasi",
+    "superliga",
+    "real madrid",
+    "barselona",
+    "futbol natijalari"
+   ],
+   "az": [
+    "premyer liqa",
+    "çempionlar liqası",
+    "turnir cədvəli",
+    "qarabağ"
+   ],
+   "tr": [
+    "süper lig",
+    "puan durumu",
+    "fikstür",
+    "şampiyonlar ligi",
+    "galatasaray",
+    "fenerbahçe",
+    "beşiktaş"
+   ]
+  },
+  {
+   "id": "sport_news",
+   "name": "Новости спорта, трансферы",
+   "group": "a",
+   "bet": "high",
+   "ru": [
+    "новости спорта",
+    "спорт новости",
+    "трансфер"
+   ],
+   "uz": [
+    "sport yangiliklari",
+    "transfer"
+   ],
+   "az": [
+    "idman xəbərləri",
+    "transfer"
+   ],
+   "tr": [
+    "spor haberleri",
+    "transfer haberleri"
+   ]
+  },
+  {
+   "id": "esports",
+   "name": "Киберспорт",
+   "group": "a",
+   "bet": "high",
+   "ru": [
+    "киберспорт",
+    "cs2",
+    "кс 2",
+    "дота 2"
+   ],
+   "uz": [
+    "cs2",
+    "dota 2"
+   ],
+   "az": [
+    "cs2",
+    "dota 2"
+   ],
+   "tr": [
+    "cs2",
+    "valorant",
+    "dota 2"
+   ]
+  },
+  {
+   "id": "fights",
+   "name": "UFC и бокс",
+   "group": "a",
+   "bet": "high",
+   "ru": [
+    "ufc",
+    "юфс",
+    "бокс"
+   ],
+   "uz": [
+    "ufc",
+    "boks"
+   ],
+   "az": [
+    "ufc",
+    "boks"
+   ],
+   "tr": [
+    "ufc",
+    "boks maçı"
+   ]
+  },
+  {
+   "id": "lottery",
+   "name": "Лотереи",
+   "group": "a",
+   "bet": "high",
+   "ru": [
+    "лотерея",
+    "тираж"
+   ],
+   "uz": [
+    "lotereya"
+   ],
+   "az": [
+    "lotereya",
+    "azerlotereya",
+    "lotto"
+   ],
+   "tr": [
+    "milli piyango",
+    "şans topu",
+    "sayısal loto",
+    "on numara"
+   ]
+  },
+  {
+   "id": "apk",
+   "name": "APK и моды",
+   "group": "a",
+   "bet": "medium",
+   "ru": [
+    "apk",
+    "мод",
+    "взлом",
+    "скачать на андроид"
+   ],
+   "uz": [
+    "apk",
+    "yuklab olish",
+    "mod"
+   ],
+   "az": [
+    "apk",
+    "yüklə",
+    "mod"
+   ],
+   "tr": [
+    "apk",
+    "mod apk",
+    "hile"
+   ]
+  },
+  {
+   "id": "mobile_games",
+   "name": "Мобильные игры: коды, донат",
+   "group": "a",
+   "bet": "medium",
+   "ru": [
+    "промокод",
+    "донат",
+    "free fire",
+    "pubg",
+    "standoff 2",
+    "brawl stars"
+   ],
+   "uz": [
+    "free fire",
+    "pubg",
+    "standoff",
+    "brawl stars"
+   ],
+   "az": [
+    "free fire",
+    "pubg",
+    "brawl stars"
+   ],
+   "tr": [
+    "free fire",
+    "pubg",
+    "brawl stars",
+    "elmas hilesi"
+   ]
+  },
+  {
+   "id": "pc_games",
+   "name": "Игры на ПК",
+   "group": "a",
+   "bet": "medium",
+   "ru": [
+    "игры скачать",
+    "торрент",
+    "игры на пк"
+   ],
+   "uz": [
+    "o'yinlar",
+    "o'yin yuklab"
+   ],
+   "az": [
+    "oyunlar",
+    "oyun yüklə"
+   ],
+   "tr": [
+    "oyun indir",
+    "pc oyun",
+    "torrent"
+   ]
+  },
+  {
+   "id": "crypto",
+   "name": "Криптовалюта",
+   "group": "a",
+   "bet": "medium",
+   "ru": [
+    "криптовалюта",
+    "биткоин"
+   ],
+   "uz": [
+    "kripto",
+    "bitcoin"
+   ],
+   "az": [
+    "kripto",
+    "bitcoin"
+   ],
+   "tr": [
+    "kripto",
+    "bitcoin",
+    "coin"
+   ]
+  },
+  {
+   "id": "tv",
+   "name": "ТВ онлайн и телепрограмма",
+   "group": "a",
+   "bet": "medium",
+   "ru": [
+    "телепрограмма",
+    "тв онлайн",
+    "прямой эфир"
+   ],
+   "uz": [
+    "tv online",
+    "jonli efir tv",
+    "telekanal"
+   ],
+   "az": [
+    "canlı tv",
+    "tv canlı",
+    "efir"
+   ],
+   "tr": [
+    "canlı tv",
+    "yayın akışı",
+    "canlı izle"
+   ]
+  },
+  {
+   "id": "anime",
+   "name": "Аниме",
+   "group": "a",
+   "bet": "low",
+   "ru": [
+    "аниме",
+    "манга"
+   ],
+   "uz": [
+    "anime"
+   ],
+   "az": [
+    "anime"
+   ],
+   "tr": [
+    "anime izle",
+    "manga oku"
+   ]
+  },
+  {
+   "id": "horoscope",
+   "name": "Гороскоп",
+   "group": "b",
+   "bet": "low",
+   "ru": [
+    "гороскоп",
+    "совместимость"
+   ],
+   "uz": [
+    "munajjimlar bashorati",
+    "goroskop",
+    "burj"
+   ],
+   "az": [
+    "bürc",
+    "burc",
+    "ulduz falı"
+   ],
+   "tr": [
+    "burç",
+    "burcu",
+    "burç yorumları"
+   ]
+  },
+  {
+   "id": "dreams",
+   "name": "Сонник",
+   "group": "b",
+   "bet": "low",
+   "ru": [
+    "сонник",
+    "к чему снится"
+   ],
+   "uz": [
+    "tush tabiri",
+    "tushda"
+   ],
+   "az": [
+    "yuxu yozması",
+    "yuxuda"
+   ],
+   "tr": [
+    "rüya tabiri",
+    "rüyada"
+   ]
+  },
+  {
+   "id": "recipes",
+   "name": "Рецепты",
+   "group": "b",
+   "bet": "low",
+   "ru": [
+    "рецепт",
+    "рецепты"
+   ],
+   "uz": [
+    "retsept",
+    "tayyorlash"
+   ],
+   "az": [
+    "resept",
+    "resepti",
+    "hazırlanması"
+   ],
+   "tr": [
+    "tarifi",
+    "tarif"
+   ]
+  },
+  {
+   "id": "names",
+   "name": "Имена и их значение",
+   "group": "b",
+   "bet": "low",
+   "ru": [
+    "значение имени",
+    "имена для"
+   ],
+   "uz": [
+    "ismlar",
+    "ism ma'nosi",
+    "ism manosi"
+   ],
+   "az": [
+    "adlar",
+    "adı mənası",
+    "oğlan adları",
+    "qız adları"
+   ],
+   "tr": [
+    "isim anlamı",
+    "isimleri"
+   ]
+  },
+  {
+   "id": "greetings",
+   "name": "Поздравления и статусы",
+   "group": "b",
+   "bet": "low",
+   "ru": [
+    "поздравления",
+    "поздравление",
+    "статусы",
+    "открытки"
+   ],
+   "uz": [
+    "tabrik",
+    "tabriklar",
+    "statuslar"
+   ],
+   "az": [
+    "təbrik",
+    "təbriki",
+    "statuslar"
+   ],
+   "tr": [
+    "doğum günü mesajları",
+    "mesajları",
+    "anlamlı sözler"
+   ]
+  },
+  {
+   "id": "exams",
+   "name": "Экзамены, тесты, ГДЗ",
+   "group": "b",
+   "bet": "low",
+   "ru": [
+    "ент",
+    "гдз",
+    "решебник",
+    "ответы"
+   ],
+   "uz": [
+    "dtm",
+    "testlar",
+    "javoblari",
+    "bsb",
+    "chsb",
+    "abituriyent",
+    "test javoblari"
+   ],
+   "az": [
+    "dim",
+    "buraxılış",
+    "qəbul",
+    "test toplusu",
+    "buraxılış imtahanı"
+   ],
+   "tr": [
+    "yks",
+    "kpss",
+    "lgs",
+    "sonuçları"
+   ]
+  },
+  {
+   "id": "books",
+   "name": "Книги, сочинения, рефераты",
+   "group": "b",
+   "bet": "low",
+   "ru": [
+    "сочинение",
+    "реферат",
+    "книга",
+    "читать онлайн"
+   ],
+   "uz": [
+    "insho",
+    "referat",
+    "kitob"
+   ],
+   "az": [
+    "inşa",
+    "referat",
+    "kitab"
+   ],
+   "tr": [
+    "kitap özeti",
+    "kitap oku"
+   ]
+  },
+  {
+   "id": "gov",
+   "name": "Госуслуги, налоги, пенсии",
+   "group": "b",
+   "bet": "low",
+   "ru": [
+    "егов",
+    "egov",
+    "госуслуги",
+    "пособие",
+    "налог",
+    "пенсия"
+   ],
+   "uz": [
+    "my.gov",
+    "davlat xizmatlari",
+    "soliq",
+    "pensiya"
+   ],
+   "az": [
+    "asan",
+    "e-gov",
+    "pensiya",
+    "vergi"
+   ],
+   "tr": [
+    "e-devlet",
+    "sgk",
+    "emekli maaşı"
+   ]
+  },
+  {
+   "id": "migration",
+   "name": "Миграция и работа в РФ",
+   "group": "b",
+   "bet": "low",
+   "ru": [
+    "патент",
+    "миграционный",
+    "работа в москве",
+    "вакансии в россии"
+   ],
+   "uz": [
+    "patent",
+    "rossiyada ish",
+    "migratsiya"
+   ],
+   "az": [
+    "rusiyada iş"
+   ],
+   "tr": [
+    "rusya'da iş"
+   ]
+  },
+  {
+   "id": "jobs",
+   "name": "Работа и вакансии",
+   "group": "b",
+   "bet": "low",
+   "ru": [
+    "работа",
+    "вакансии"
+   ],
+   "uz": [
+    "ish",
+    "vakansiya",
+    "ish bor"
+   ],
+   "az": [
+    "iş elanları",
+    "vakansiya"
+   ],
+   "tr": [
+    "iş ilanları",
+    "eleman"
+   ]
+  },
+  {
+   "id": "cars",
+   "name": "Авто",
+   "group": "b",
+   "bet": "low",
+   "ru": [
+    "авто",
+    "машины",
+    "цена машины"
+   ],
+   "uz": [
+    "mashina narxi",
+    "avtomobil",
+    "cobalt",
+    "gentra",
+    "nexia"
+   ],
+   "az": [
+    "maşın",
+    "avtomobil",
+    "maşın elanları"
+   ],
+   "tr": [
+    "araba",
+    "sahibinden araba",
+    "ikinci el araba"
+   ]
+  },
+  {
+   "id": "realty",
+   "name": "Недвижимость и аренда",
+   "group": "b",
+   "bet": "low",
+   "ru": [
+    "квартира",
+    "аренда",
+    "снять квартиру"
+   ],
+   "uz": [
+    "kvartira",
+    "ijaraga",
+    "uy sotiladi"
+   ],
+   "az": [
+    "kirayə",
+    "ev elanları",
+    "mənzil"
+   ],
+   "tr": [
+    "kiralık daire",
+    "satılık daire"
+   ]
+  },
+  {
+   "id": "phones",
+   "name": "Телефоны и цены",
+   "group": "b",
+   "bet": "low",
+   "ru": [
+    "iphone",
+    "samsung",
+    "xiaomi",
+    "цена телефона"
+   ],
+   "uz": [
+    "telefon narxi",
+    "iphone narxi",
+    "samsung narxi"
+   ],
+   "az": [
+    "telefon qiymətləri",
+    "iphone qiyməti"
+   ],
+   "tr": [
+    "telefon fiyatları",
+    "iphone fiyatı"
+   ]
+  },
+  {
+   "id": "loans",
+   "name": "Кредиты и займы",
+   "group": "b",
+   "bet": "low",
+   "ru": [
+    "кредит",
+    "займ",
+    "микрозайм"
+   ],
+   "uz": [
+    "kredit",
+    "mikroqarz"
+   ],
+   "az": [
+    "kredit",
+    "nağd kredit"
+   ],
+   "tr": [
+    "kredi",
+    "ihtiyaç kredisi",
+    "kredi hesaplama"
+   ]
+  },
+  {
+   "id": "tools",
+   "name": "Онлайн-инструменты: VPN, скачивание видео, PDF",
+   "group": "b",
+   "bet": "low",
+   "ru": [
+    "vpn",
+    "скачать видео",
+    "тик ток скачать",
+    "pdf"
+   ],
+   "uz": [
+    "vpn",
+    "video yuklab olish",
+    "tiktok yuklash",
+    "pdf"
+   ],
+   "az": [
+    "vpn",
+    "video yüklə",
+    "pdf"
+   ],
+   "tr": [
+    "vpn",
+    "video indir",
+    "tiktok indir",
+    "pdf"
+   ]
+  },
+  {
+   "id": "health",
+   "name": "Здоровье и лекарства",
+   "group": "b",
+   "bet": "low",
+   "ru": [
+    "симптомы",
+    "лечение",
+    "инструкция по применению"
+   ],
+   "uz": [
+    "belgilari",
+    "davolash"
+   ],
+   "az": [
+    "simptomları",
+    "müalicəsi"
+   ],
+   "tr": [
+    "belirtileri",
+    "tedavisi",
+    "ilaç"
+   ]
+  },
+  {
+   "id": "holidays",
+   "name": "Праздники и календарь",
+   "group": "b",
+   "bet": "low",
+   "ru": [
+    "праздник",
+    "календарь",
+    "рамадан",
+    "курбан байрам"
+   ],
+   "uz": [
+    "bayram",
+    "ramazon",
+    "ro'za",
+    "kalendar"
+   ],
+   "az": [
+    "bayram",
+    "ramazan",
+    "təqvim"
+   ],
+   "tr": [
+    "bayram",
+    "ramazan",
+    "resmi tatil"
+   ]
+  },
+  {
+   "id": "translate",
+   "name": "Переводчик и словари",
+   "group": "b",
+   "bet": "low",
+   "ru": [
+    "переводчик",
+    "перевод"
+   ],
+   "uz": [
+    "tarjimon",
+    "tarjima",
+    "lug'at"
+   ],
+   "az": [
+    "tərcümə",
+    "lüğət"
+   ],
+   "tr": [
+    "çeviri",
+    "ingilizce"
+   ]
+  }
+ ]
+}
