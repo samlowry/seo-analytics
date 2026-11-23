@@ -11,6 +11,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 N = json.load(open(f'{ROOT}/niche-scan/seeds.json'))['niches']
 LANGS = {'UZ': ['ru', 'uz'], 'KZ': ['ru'], 'AZ': ['az', 'ru'], 'TR': ['tr'], 'KG': ['ru']}
 SAMPLE, PAGE2 = 15, 3
+# Адалт-запросы выбрасываются из всех ниш: это отдельный рынок, в нишу «кино» или «аниме» он не входит.
+ADULT = re.compile(r'(porn|порн|секс|sex|xxx|ххх|hentai|хентай|эрот|erot|18\+|голые|seks|jinsiy|onlyfans|sikiş|minet|минет|голая|голый)', re.I)
 def norm(s): return s.lower().replace('ı', 'i').replace('’', "'").replace('ʻ', "'").replace('‘', "'")
 def word_hit(sw, words):
     """Слово исходника встречается в ключе: короткое (до 3 букв) — целым словом, длинное — как начало слова;
@@ -39,6 +41,7 @@ for f in sorted(glob.glob(f'{ROOT}/niche-scan/data/kw-*.json')):
         key = (d['cc'], k['keyword'])
         if key in rows: continue
         lang = lang_of(k['keyword'], d['cc'])
+        if ADULT.search(k['keyword']): continue
         nid = niche_of(k['keyword'], lang) or niche_of(k['keyword'], d['lang'])
         if nid: rows[key] = dict(cc=d['cc'], lang=lang, niche=nid, keyword=k['keyword'], volume=k['volume'], cps=k.get('cps'), parent=k.get('parent_topic') or k['keyword'])
 with open(f'{ROOT}/niche-scan/data/keywords.jsonl', 'w') as fh:

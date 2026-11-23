@@ -12,12 +12,16 @@
 Целевая позиция ключа — лучшая позиция слабого результата в топ-10. Визиты = частотность × min(cps, 1) × доля кликов позиции.
 cps (clicks per search, Ahrefs) учитывает поиски без клика; если его нет — cps ниши в стране, взвешенный по частотности, иначе тот же по всем странам, иначе 0,8.
 Закрытый ключ: в топ-20 не больше CLOSED_N результатов (для ключей со снятой второй страницей) и слабых в топ-10 нет.
-Закрытая ниша: закрыты 2 и больше из 3 головных ключей.
+Закрытая ниша («как в беттинге»): у 2 и больше из 3 самых частотных ключей выборки в топ-10 нет слабых результатов
+И слабые результаты есть меньше чем у трети ключей выборки (ниша закрыта целиком, а не только в головах).
+Контроль — общие беттинг-запросы шага 0: правило закрывает беттинг в UZ, KZ, AZ, KG и не закрывает в TR (форумы, паразиты).
+Обрезанность выдачи (closed_head) — отдельный признак, в отбраковку не входит: на контроле шага 0 (общие беттинг-запросы)
+она закрывала 1–2 запроса из 6 в стране, а «нет слабых» — большинство.
 Оценка ниши = визиты выборки × (частотность ниши / частотность выборки) — экстраполяция на неснятые ключи."""
 import json, re, os, csv, statistics, collections, itertools, urllib.parse
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 D = f'{ROOT}/niche-scan/data'
-LOW_DR, HIGH_DR, CLOSED_N = 30, 70, 12
+LOW_DR, HIGH_DR, CLOSED_N = int(os.environ.get("NICHE_LOW_DR", 30)), 70, 12
 SHARE = [0.39, 0.18, 0.11, 0.08, 0.06, 0.05, 0.04, 0.035, 0.03, 0.025]
 # Соцсети (instagram, facebook, x, tiktok, t.me, vk, ok) сюда не входят: в головных запросах там официальные аккаунты сущности.
 UGC = re.compile(r'(^|\.)(reddit\.com|quora\.com|pinterest\.[a-z.]+|'
@@ -78,7 +82,8 @@ for s in SAMPLE:
                      closed=bool(n20 is not None and n20 <= CLOSED_N and not weak), weak_n=len(weak),
                      why=collections.Counter(w for x in weak for w in x['weak']), owner_n=sum(x['owner'] for x in pos),
                      dr_median=statistics.median(drs) if drs else None, dr_known=len(drs), top=[f"{x['p']}:{x['host']}:{x['dr']}:{'+'.join(x['weak'])}" for x in pos]))
-with open(f'{D}/keys-scored.jsonl', 'w') as fh:
+SUF = os.environ.get('NICHE_SUFFIX', '')
+with open(f'{D}/keys-scored{SUF}.jsonl', 'w') as fh:
     for k in keys: fh.write(json.dumps(k, ensure_ascii=False, default=dict) + '\n')
 vol = collections.defaultdict(int)
 for r in KW: vol[(r['cc'], r['niche'], r['lang'])] += r['volume']
@@ -89,16 +94,18 @@ for (cc, nid), g in itertools.groupby(sorted(keys, key=lambda k: (k['cc'], k['ni
     lang = g[0]['lang']; nv = vol[(cc, nid, lang)]; sv = sum(k['volume'] for k in g); sv_vis = sum(k['visits'] for k in g)
     head = [k for k in g if k['n_top20'] is not None]
     closed_head = sum(k['closed'] for k in head)
+    heads = sorted(g, key=lambda k: -k['volume'])[:3]
+    noweak_head = sum(1 for k in heads if not k['best_pos'])
     drs = [k['dr_median'] for k in g if k['dr_median'] is not None]
     pos_total = sum(k['n_top10'] for k in g)
     why = sum((k['why'] for k in g), collections.Counter())
     out.append(dict(cc=cc, niche=nid, name=seeds[nid]['name'], bet=seeds[nid]['bet'], lang=lang, niche_volume=nv, sample_keys=len(g), sample_volume=sv,
                     sample_visits=sv_vis, est_visits=round(sv_vis * nv / sv) if sv else 0, weak_keys=sum(1 for k in g if k['best_pos']),
                     best_pos_median=statistics.median([k['best_pos'] for k in g if k['best_pos']]) if any(k['best_pos'] for k in g) else None,
-                    closed_head=f'{closed_head}/{len(head)}', culled=closed_head >= 2, dr_median=statistics.median(drs) if drs else None,
+                    closed_head=f'{closed_head}/{len(head)}', noweak_head=f'{noweak_head}/{len(heads)}', culled=noweak_head >= 2 and sum(1 for k in g if k['best_pos']) < len(g) / 3, dr_median=statistics.median(drs) if drs else None,
                     owner_share=round(sum(k['owner_n'] for k in g) / pos_total, 2) if pos_total else None,
                     weak_ugc=why['ugc'], weak_low_dr=why['low_dr'], weak_lang=why['lang'],
                     top20_head=statistics.mean([k['n_top20'] for k in head]) if head else None))
-with open(f'{D}/niches.csv', 'w') as fh:
+with open(f'{D}/niches{SUF}.csv', 'w') as fh:
     w = csv.DictWriter(fh, fieldnames=list(out[0].keys())); w.writeheader(); w.writerows(out)
 print(f'keys scored: {sum(k["status"]=="ok" for k in keys)}, errors: {sum(k["status"]=="error" for k in keys)}; niches: {len(out)}')

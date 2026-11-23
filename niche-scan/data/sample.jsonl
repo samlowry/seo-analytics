@@ -39,17 +39,17 @@
 {"cc": "UZ", "lang": "uz", "niche": "movies", "keyword": "dacha uzbek kino", "volume": 25000, "cps": null, "parent": "dacha", "pages": 2}
 {"cc": "UZ", "lang": "uz", "niche": "movies", "keyword": "tarjima kinolar 2026", "volume": 22000, "cps": null, "parent": "tarjima kinolar 2026", "pages": 2}
 {"cc": "UZ", "lang": "uz", "niche": "movies", "keyword": "tarjima kinolar", "volume": 20000, "cps": null, "parent": "bek tv tarjima kinolar", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "movies", "keyword": "seks kino", "volume": 19000, "cps": null, "parent": "seks kino", "pages": 1}
 {"cc": "UZ", "lang": "uz", "niche": "movies", "keyword": "hind kino 2026", "volume": 13000, "cps": null, "parent": "hind kino 2026", "pages": 1}
 {"cc": "UZ", "lang": "uz", "niche": "movies", "keyword": "xudo asrasin kino", "volume": 13000, "cps": null, "parent": "hudo asrasin kino", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "movies", "keyword": "sekis kino", "volume": 12000, "cps": null, "parent": "seks kino", "pages": 1}
 {"cc": "UZ", "lang": "uz", "niche": "movies", "keyword": "dastur qozoq kino", "volume": 8400, "cps": null, "parent": "dastur kino", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "movies", "keyword": "sex kino", "volume": 7500, "cps": null, "parent": "sex kino", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "movies", "keyword": "porno kino", "volume": 7500, "cps": null, "parent": "порнофильмы", "pages": 1}
 {"cc": "UZ", "lang": "uz", "niche": "movies", "keyword": "hudo asrasin kino", "volume": 7300, "cps": null, "parent": "xudo asrasin kino", "pages": 1}
 {"cc": "UZ", "lang": "uz", "niche": "movies", "keyword": "dastur kino", "volume": 6800, "cps": null, "parent": "dastur qozoq kino", "pages": 1}
 {"cc": "UZ", "lang": "uz", "niche": "movies", "keyword": "kino tarjima", "volume": 6700, "cps": null, "parent": "kinolar", "pages": 1}
 {"cc": "UZ", "lang": "uz", "niche": "movies", "keyword": "spartak kino", "volume": 5900, "cps": null, "parent": "spartak kino", "pages": 1}
 {"cc": "UZ", "lang": "uz", "niche": "movies", "keyword": "tarjima kino", "volume": 5700, "cps": null, "parent": "kino", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "movies", "keyword": "tarjima kinolar 2025", "volume": 5600, "cps": null, "parent": "tarjima kinolar 2025", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "movies", "keyword": "tarjima kinolar 2024 uzbek tilida", "volume": 5200, "cps": null, "parent": "tarjima kinolar 2024 uzbek tilida", "pages": 1}
 {"cc": "UZ", "lang": "uz", "niche": "series", "keyword": "yer osti serial", "volume": 10000, "cps": null, "parent": "yeralti", "pages": 2}
 {"cc": "UZ", "lang": "uz", "niche": "series", "keyword": "yer osti turk seriali", "volume": 5900, "cps": null, "parent": "yer osti turk seriali", "pages": 2}
 {"cc": "UZ", "lang": "uz", "niche": "series", "keyword": "sevganim sensan turk seriali", "volume": 4100, "cps": null, "parent": "sevganim sensan turk seriali", "pages": 2}
@@ -211,20 +211,20 @@
 {"cc": "UZ", "lang": "uz", "niche": "tv", "keyword": "jonli efir zo'r tv", "volume": 700, "cps": null, "parent": "jonli efir zo'r tv", "pages": 1}
 {"cc": "UZ", "lang": "uz", "niche": "tv", "keyword": "zo'r tv jonli efir futbol", "volume": 600, "cps": null, "parent": "zo'r tv jonli efir futbol", "pages": 1}
 {"cc": "UZ", "lang": "uz", "niche": "anime", "keyword": "anime", "volume": 25000, "cps": null, "parent": "anime uzbek tilida", "pages": 2}
-{"cc": "UZ", "lang": "uz", "niche": "anime", "keyword": "anime xxx", "volume": 16000, "cps": null, "parent": "anime xxx", "pages": 2}
-{"cc": "UZ", "lang": "uz", "niche": "anime", "keyword": "anime sex", "volume": 15000, "cps": null, "parent": "anime sex", "pages": 2}
-{"cc": "UZ", "lang": "uz", "niche": "anime", "keyword": "anime seks", "volume": 9600, "cps": null, "parent": "anime seks", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "anime", "keyword": "anime porno", "volume": 7400, "cps": null, "parent": "hentai", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "anime", "keyword": "anime girl", "volume": 5200, "cps": null, "parent": "anime girl", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "anime", "keyword": "porno anime", "volume": 4500, "cps": null, "parent": "anime porno", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "anime", "keyword": "anime porn", "volume": 4400, "cps": null, "parent": "anime porn", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "anime", "keyword": "anime rasmlar", "volume": 3000, "cps": null, "parent": "anime qizlar", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "anime", "keyword": "anime girl", "volume": 5200, "cps": null, "parent": "anime girl", "pages": 2}
+{"cc": "UZ", "lang": "uz", "niche": "anime", "keyword": "anime rasmlar", "volume": 3000, "cps": null, "parent": "anime qizlar", "pages": 2}
+{"cc": "UZ", "lang": "uz", "niche": "anime", "keyword": "anime sekis", "volume": 2200, "cps": null, "parent": "anime seks", "pages": 1}
 {"cc": "UZ", "lang": "uz", "niche": "anime", "keyword": "anime uzbek", "volume": 1400, "cps": null, "parent": "anime uzbek", "pages": 1}
 {"cc": "UZ", "lang": "uz", "niche": "anime", "keyword": "anime photo", "volume": 1400, "cps": null, "parent": "anime foto", "pages": 1}
 {"cc": "UZ", "lang": "uz", "niche": "anime", "keyword": "top anime series of all time", "volume": 1300, "cps": null, "parent": "top anime series of all time", "pages": 1}
 {"cc": "UZ", "lang": "uz", "niche": "anime", "keyword": "anime wallpaper", "volume": 1100, "cps": null, "parent": "anime wallpaper 4k", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "anime", "keyword": "hentay anime", "volume": 1000, "cps": null, "parent": "hentai", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "anime", "keyword": "sekis anime", "volume": 900, "cps": null, "parent": "anime porno", "pages": 1}
 {"cc": "UZ", "lang": "uz", "niche": "anime", "keyword": "rasm chizish anime", "volume": 700, "cps": null, "parent": "rasm chizish anime", "pages": 1}
 {"cc": "UZ", "lang": "uz", "niche": "anime", "keyword": "anime sikis", "volume": 600, "cps": null, "parent": "anime sikis", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "anime", "keyword": "arra odam anime", "volume": 600, "cps": null, "parent": "arra odam anime", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "anime", "keyword": "anime girls", "volume": 600, "cps": null, "parent": "anime girls", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "anime", "keyword": "anime js", "volume": 500, "cps": null, "parent": "anime js", "pages": 1}
 {"cc": "UZ", "lang": "ru", "niche": "horoscope", "keyword": "гороскоп", "volume": 4000, "cps": null, "parent": "гороскоп на завтра", "pages": 2}
 {"cc": "UZ", "lang": "ru", "niche": "horoscope", "keyword": "гороскоп на сегодня", "volume": 1400, "cps": null, "parent": "гороскоп", "pages": 2}
 {"cc": "UZ", "lang": "ru", "niche": "horoscope", "keyword": "совместимость по дате рождения", "volume": 900, "cps": null, "parent": "совместимость по дате рождения", "pages": 2}
@@ -251,36 +251,32 @@
 {"cc": "UZ", "lang": "ru", "niche": "greetings", "keyword": "открытки с новым годом 2026", "volume": 700, "cps": null, "parent": "открытки с новым годом 2026", "pages": 1}
 {"cc": "UZ", "lang": "ru", "niche": "greetings", "keyword": "поздравления с новым годом", "volume": 700, "cps": null, "parent": "с новым годом", "pages": 1}
 {"cc": "UZ", "lang": "ru", "niche": "greetings", "keyword": "поздравления с днём рождения", "volume": 600, "cps": null, "parent": "поздравляю с днём рождения", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "exams", "keyword": "speed test", "volume": 23000, "cps": null, "parent": "speed test", "pages": 2}
-{"cc": "UZ", "lang": "uz", "niche": "exams", "keyword": "internet speed test", "volume": 18000, "cps": null, "parent": "fastcom", "pages": 2}
-{"cc": "UZ", "lang": "uz", "niche": "exams", "keyword": "test", "volume": 8400, "cps": null, "parent": "testlar", "pages": 2}
-{"cc": "UZ", "lang": "uz", "niche": "exams", "keyword": "8 sinf chsb javoblari", "volume": 8400, "cps": null, "parent": "8 sinf chsb javoblari", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "exams", "keyword": "dtm kirish ballari 2026", "volume": 7900, "cps": null, "parent": "dtm kirish ballari 2026", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "exams", "keyword": "bsb javoblari", "volume": 7800, "cps": null, "parent": "bsb", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "exams", "keyword": "8 sinf chsb javoblari", "volume": 8400, "cps": null, "parent": "8 sinf chsb javoblari", "pages": 2}
+{"cc": "UZ", "lang": "uz", "niche": "exams", "keyword": "dtm kirish ballari 2026", "volume": 7900, "cps": null, "parent": "dtm kirish ballari 2026", "pages": 2}
+{"cc": "UZ", "lang": "uz", "niche": "exams", "keyword": "bsb javoblari", "volume": 7800, "cps": null, "parent": "bsb", "pages": 2}
 {"cc": "UZ", "lang": "uz", "niche": "exams", "keyword": "bsb", "volume": 7800, "cps": null, "parent": "bsb javoblari", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "exams", "keyword": "typing test", "volume": 7300, "cps": null, "parent": "typing test", "pages": 1}
 {"cc": "UZ", "lang": "uz", "niche": "exams", "keyword": "8-sinf chsb javoblari", "volume": 7100, "cps": null, "parent": "8-sinf chsb javoblari", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "exams", "keyword": "ielts online test", "volume": 5300, "cps": null, "parent": "ielts online tests", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "exams", "keyword": "p test", "volume": 4800, "cps": null, "parent": "p test", "pages": 1}
 {"cc": "UZ", "lang": "uz", "niche": "exams", "keyword": "5-sinf chsb javoblari", "volume": 4100, "cps": null, "parent": "5-sinf chsb javoblari", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "exams", "keyword": "iq test", "volume": 4100, "cps": null, "parent": "iq test", "pages": 1}
 {"cc": "UZ", "lang": "uz", "niche": "exams", "keyword": "chsb javoblari 10 sinf", "volume": 4000, "cps": null, "parent": "10-sinf chsb javoblari", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "exams", "keyword": "test english", "volume": 3900, "cps": null, "parent": "test english", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "books", "keyword": "pdf to word", "volume": 81000, "cps": null, "parent": "pdf to word", "pages": 2}
-{"cc": "UZ", "lang": "uz", "niche": "books", "keyword": "i love pdf", "volume": 35000, "cps": null, "parent": "jpg to pdf", "pages": 2}
-{"cc": "UZ", "lang": "uz", "niche": "books", "keyword": "word to pdf", "volume": 34000, "cps": null, "parent": "word to pdf", "pages": 2}
-{"cc": "UZ", "lang": "uz", "niche": "books", "keyword": "pdf to jpg", "volume": 21000, "cps": null, "parent": "pdf to jpg", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "books", "keyword": "multilevel master reading answers pdf", "volume": 9300, "cps": null, "parent": "multilevel master reading answers pdf", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "books", "keyword": "multilevel master listening answers pdf", "volume": 9200, "cps": null, "parent": "multilevel master listening answers pdf", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "books", "keyword": "pdf to pdf", "volume": 8000, "cps": null, "parent": "merge pdf", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "books", "keyword": "pdf siqish", "volume": 7800, "cps": null, "parent": "pdf siqish", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "books", "keyword": "compress pdf", "volume": 5900, "cps": null, "parent": "compress pdf", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "books", "keyword": "pdf", "volume": 5800, "cps": null, "parent": "pdf", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "books", "keyword": "kitob", "volume": 5300, "cps": null, "parent": "kitob", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "books", "keyword": "pdf editor", "volume": 4800, "cps": null, "parent": "edit pdf", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "books", "keyword": "pdf birlashtirish", "volume": 4700, "cps": null, "parent": "pdf birlashtirish", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "books", "keyword": "binafsha shulasi kitobi pdf", "volume": 4500, "cps": null, "parent": "binafsha shulasi kitobi pdf", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "books", "keyword": "binafsha shulasi pdf", "volume": 4500, "cps": null, "parent": "binafsha shulasi pdf", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "exams", "keyword": "round up 2 javoblari", "volume": 3600, "cps": null, "parent": "round up 2 javoblari", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "exams", "keyword": "5 sinf chsb javoblari", "volume": 3400, "cps": null, "parent": "5 sinf chsb javoblari", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "exams", "keyword": "chsb javoblari 8-sinf", "volume": 3300, "cps": null, "parent": "chsb javoblari 8-sinf", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "exams", "keyword": "dtm", "volume": 3100, "cps": null, "parent": "dtm", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "exams", "keyword": "dtm 2026", "volume": 3000, "cps": null, "parent": "dtm 2026", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "exams", "keyword": "abituriyent", "volume": 2800, "cps": null, "parent": "abituriyent", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "exams", "keyword": "test master javoblari", "volume": 2400, "cps": null, "parent": "test master javoblari", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "exams", "keyword": "dtm kirish ballari 2026 2027", "volume": 2200, "cps": null, "parent": "dtm kirish ballari 2026 2027", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "books", "keyword": "kitob", "volume": 5300, "cps": null, "parent": "kitob", "pages": 2}
+{"cc": "UZ", "lang": "uz", "niche": "books", "keyword": "binafsha shulasi kitobi pdf", "volume": 4500, "cps": null, "parent": "binafsha shulasi kitobi pdf", "pages": 2}
+{"cc": "UZ", "lang": "uz", "niche": "books", "keyword": "binafsha shulasi kitob", "volume": 2400, "cps": null, "parent": "binafsha shulasi", "pages": 2}
+{"cc": "UZ", "lang": "uz", "niche": "books", "keyword": "sen bir men ozga olam elektron kitob", "volume": 1600, "cps": null, "parent": "sen bir men ozga olam elektron kitob", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "books", "keyword": "kitob rasmi", "volume": 1600, "cps": null, "parent": "kitob rasmlari", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "books", "keyword": "yashamoq kitob", "volume": 1500, "cps": null, "parent": "yashamoq kitobi", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "books", "keyword": "men kitobi pdf", "volume": 1400, "cps": null, "parent": "men kitobi pdf", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "books", "keyword": "referat namuna", "volume": 1200, "cps": null, "parent": "referat", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "books", "keyword": "matematika master kitobi pdf", "volume": 1200, "cps": null, "parent": "master matematika pdf", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "books", "keyword": "5-sinf tarix kitobi pdf", "volume": 1100, "cps": null, "parent": "5-sinf tarix kitobi pdf", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "books", "keyword": "kitob haqida sherlar", "volume": 1100, "cps": null, "parent": "kitob haqida sherlar", "pages": 1}
 {"cc": "UZ", "lang": "uz", "niche": "gov", "keyword": "soliq uz", "volume": 12000, "cps": null, "parent": "my3.soliq.uz", "pages": 2}
 {"cc": "UZ", "lang": "uz", "niche": "gov", "keyword": "my3 soliq uz", "volume": 6500, "cps": null, "parent": "my3 soliq uz", "pages": 2}
 {"cc": "UZ", "lang": "uz", "niche": "gov", "keyword": "ijara soliq uz", "volume": 6400, "cps": null, "parent": "ijara soliq uz", "pages": 2}
@@ -363,21 +359,21 @@
 {"cc": "UZ", "lang": "uz", "niche": "loans", "keyword": "oilaviy kredit", "volume": 1700, "cps": null, "parent": "oila", "pages": 1}
 {"cc": "UZ", "lang": "uz", "niche": "loans", "keyword": "ipoteka kredit kalkulyator", "volume": 1500, "cps": null, "parent": "ипотека кредит", "pages": 1}
 {"cc": "UZ", "lang": "uz", "niche": "loans", "keyword": "33 mln garovsiz kredit olish", "volume": 1500, "cps": null, "parent": "33 mln garovsiz kredit olish", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "tools", "keyword": "turbo vpn", "volume": 7300, "cps": null, "parent": "turbo vpn", "pages": 2}
-{"cc": "UZ", "lang": "uz", "niche": "tools", "keyword": "vpn", "volume": 4700, "cps": null, "parent": "vpn", "pages": 2}
-{"cc": "UZ", "lang": "uz", "niche": "tools", "keyword": "what is a vpn provider", "volume": 3800, "cps": null, "parent": "what is a vpn provider", "pages": 2}
-{"cc": "UZ", "lang": "uz", "niche": "tools", "keyword": "what is vpn passthrough", "volume": 3800, "cps": null, "parent": "what is vpn passthrough", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "tools", "keyword": "what is vpn encryption", "volume": 3800, "cps": null, "parent": "what is vpn encryption", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "tools", "keyword": "what is a vpn concentrator", "volume": 3700, "cps": null, "parent": "what is a vpn concentrator", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "tools", "keyword": "vpn technologies", "volume": 3700, "cps": null, "parent": "vpn technologies", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "tools", "keyword": "what is a vpn vs proxy", "volume": 3700, "cps": null, "parent": "what is a vpn vs proxy", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "tools", "keyword": "what is a proxy vs vpn", "volume": 3700, "cps": null, "parent": "what is a proxy vs vpn", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "tools", "keyword": "what is a vpn split tunneling", "volume": 3700, "cps": null, "parent": "what is a vpn split tunneling", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "tools", "keyword": "what is a vpn tunnel", "volume": 3700, "cps": null, "parent": "what is a vpn tunnel", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "tools", "keyword": "best free vpn alternatives", "volume": 3700, "cps": null, "parent": "best free vpn alternatives", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "tools", "keyword": "what is a vpn kill switch", "volume": 3700, "cps": null, "parent": "what is a vpn kill switch", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "tools", "keyword": "what is an ipsec vpn", "volume": 3600, "cps": null, "parent": "what is an ipsec vpn", "pages": 1}
-{"cc": "UZ", "lang": "uz", "niche": "tools", "keyword": "vpn subscription", "volume": 3500, "cps": null, "parent": "vpn subscription", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "tools", "keyword": "pdf to word", "volume": 81000, "cps": null, "parent": "pdf to word", "pages": 2}
+{"cc": "UZ", "lang": "uz", "niche": "tools", "keyword": "i love pdf", "volume": 35000, "cps": null, "parent": "jpg to pdf", "pages": 2}
+{"cc": "UZ", "lang": "uz", "niche": "tools", "keyword": "word to pdf", "volume": 34000, "cps": null, "parent": "word to pdf", "pages": 2}
+{"cc": "UZ", "lang": "uz", "niche": "tools", "keyword": "pdf to jpg", "volume": 21000, "cps": null, "parent": "pdf to jpg", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "tools", "keyword": "multilevel master reading answers pdf", "volume": 9300, "cps": null, "parent": "multilevel master reading answers pdf", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "tools", "keyword": "multilevel master listening answers pdf", "volume": 9200, "cps": null, "parent": "multilevel master listening answers pdf", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "tools", "keyword": "pdf to pdf", "volume": 8000, "cps": null, "parent": "merge pdf", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "tools", "keyword": "pdf siqish", "volume": 7800, "cps": null, "parent": "pdf siqish", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "tools", "keyword": "turbo vpn", "volume": 7300, "cps": null, "parent": "turbo vpn", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "tools", "keyword": "compress pdf", "volume": 5900, "cps": null, "parent": "compress pdf", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "tools", "keyword": "pdf", "volume": 5800, "cps": null, "parent": "pdf", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "tools", "keyword": "pdf editor", "volume": 4800, "cps": null, "parent": "edit pdf", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "tools", "keyword": "vpn", "volume": 4700, "cps": null, "parent": "vpn", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "tools", "keyword": "pdf birlashtirish", "volume": 4700, "cps": null, "parent": "pdf birlashtirish", "pages": 1}
+{"cc": "UZ", "lang": "uz", "niche": "tools", "keyword": "binafsha shulasi pdf", "volume": 4500, "cps": null, "parent": "binafsha shulasi pdf", "pages": 1}
 {"cc": "UZ", "lang": "uz", "niche": "health", "keyword": "1 haftalik homila belgilari", "volume": 1600, "cps": null, "parent": "1 haftalik homila belgilari", "pages": 2}
 {"cc": "UZ", "lang": "uz", "niche": "health", "keyword": "yo'l belgilari", "volume": 1600, "cps": null, "parent": "yo'l belgilari", "pages": 2}
 {"cc": "UZ", "lang": "uz", "niche": "health", "keyword": "davolash ishi kirish ballari 2026", "volume": 1300, "cps": null, "parent": "davolash ishi kirish ballari 2026", "pages": 2}
@@ -462,20 +458,20 @@
 {"cc": "KZ", "lang": "ru", "niche": "prayer", "keyword": "намаз уакыты атырау", "volume": 2600, "cps": 1.09, "parent": "намаз уакыты атырау", "pages": 1}
 {"cc": "KZ", "lang": "ru", "niche": "prayer", "keyword": "намаз уақыты", "volume": 2500, "cps": 0.94, "parent": "намаз уақыты жезқазған", "pages": 1}
 {"cc": "KZ", "lang": "ru", "niche": "movies", "keyword": "фильмы", "volume": 66000, "cps": 0.98, "parent": "киного", "pages": 2}
-{"cc": "KZ", "lang": "ru", "niche": "movies", "keyword": "порно фильмы", "volume": 45000, "cps": 1.81, "parent": "порно фильмы", "pages": 2}
 {"cc": "KZ", "lang": "ru", "niche": "movies", "keyword": "фильмы 2025", "volume": 41000, "cps": null, "parent": "фильмы 2025", "pages": 2}
-{"cc": "KZ", "lang": "ru", "niche": "movies", "keyword": "фильмы на вечер", "volume": 27000, "cps": 1.34, "parent": "фильмы на вечер", "pages": 1}
+{"cc": "KZ", "lang": "ru", "niche": "movies", "keyword": "фильмы на вечер", "volume": 27000, "cps": 1.34, "parent": "фильмы на вечер", "pages": 2}
 {"cc": "KZ", "lang": "ru", "niche": "movies", "keyword": "фильм", "volume": 19000, "cps": 0.62, "parent": "фильмы", "pages": 1}
 {"cc": "KZ", "lang": "ru", "niche": "movies", "keyword": "ауру фильм", "volume": 16000, "cps": null, "parent": "ауру фильм", "pages": 1}
 {"cc": "KZ", "lang": "ru", "niche": "movies", "keyword": "фильмы 2026", "volume": 15000, "cps": null, "parent": "фильмы 2026", "pages": 1}
 {"cc": "KZ", "lang": "ru", "niche": "movies", "keyword": "горничная фильм", "volume": 13000, "cps": 0.83, "parent": "горничная", "pages": 1}
 {"cc": "KZ", "lang": "ru", "niche": "movies", "keyword": "черный двор фильм", "volume": 12000, "cps": null, "parent": "черный двор", "pages": 1}
-{"cc": "KZ", "lang": "ru", "niche": "movies", "keyword": "эротические фильмы", "volume": 11000, "cps": 1.93, "parent": "эротические фильмы", "pages": 1}
 {"cc": "KZ", "lang": "ru", "niche": "movies", "keyword": "скачать фильм", "volume": 11000, "cps": 1.03, "parent": "скачать кино", "pages": 1}
 {"cc": "KZ", "lang": "ru", "niche": "movies", "keyword": "скачать фильмы", "volume": 8700, "cps": 1.14, "parent": "скачать фильмы", "pages": 1}
 {"cc": "KZ", "lang": "ru", "niche": "movies", "keyword": "майкл джексон фильм", "volume": 8600, "cps": null, "parent": "фильм майкл", "pages": 1}
 {"cc": "KZ", "lang": "ru", "niche": "movies", "keyword": "фнаф 2 фильм", "volume": 7600, "cps": null, "parent": "фнаф 2", "pages": 1}
 {"cc": "KZ", "lang": "ru", "niche": "movies", "keyword": "лучшие новые фильмы", "volume": 7200, "cps": 0.82, "parent": "лучшие новые фильмы", "pages": 1}
+{"cc": "KZ", "lang": "ru", "niche": "movies", "keyword": "горничная фильм 2025 смотреть", "volume": 6900, "cps": null, "parent": "горничная смотреть онлайн", "pages": 1}
+{"cc": "KZ", "lang": "ru", "niche": "movies", "keyword": "фильмы на реальных событиях", "volume": 6600, "cps": 1.2, "parent": "фильмы на реальных событиях", "pages": 1}
 {"cc": "KZ", "lang": "ru", "niche": "series", "keyword": "холод сериал", "volume": 27000, "cps": null, "parent": "холод сериал", "pages": 2}
 {"cc": "KZ", "lang": "ru", "niche": "series", "keyword": "под землей турецкий сериал", "volume": 21000, "cps": null, "parent": "под землей", "pages": 2}
 {"cc": "KZ", "lang": "ru", "niche": "series", "keyword": "холод сериал смотреть онлайн", "volume": 18000, "cps": null, "parent": "холод сериал смотреть онлайн", "pages": 2}
@@ -574,8 +570,8 @@
 {"cc": "KZ", "lang": "ru", "niche": "mobile_games", "keyword": "промокод фк мобайл", "volume": 5600, "cps": null, "parent": "фифа промокод", "pages": 1}
 {"cc": "KZ", "lang": "ru", "niche": "mobile_games", "keyword": "промокод", "volume": 5400, "cps": 0.38, "parent": "промокод", "pages": 1}
 {"cc": "KZ", "lang": "ru", "niche": "mobile_games", "keyword": "промокод вольт", "volume": 5100, "cps": null, "parent": "промокод вольт", "pages": 1}
-{"cc": "KZ", "lang": "ru", "niche": "mobile_games", "keyword": "brawl stars xxx", "volume": 4500, "cps": null, "parent": "brawl stars xxx", "pages": 1}
 {"cc": "KZ", "lang": "ru", "niche": "mobile_games", "keyword": "standoff 2", "volume": 4500, "cps": 0.57, "parent": "стандофф 2", "pages": 1}
+{"cc": "KZ", "lang": "ru", "niche": "mobile_games", "keyword": "brawl stars r34", "volume": 3100, "cps": null, "parent": "brawl stars xxx", "pages": 1}
 {"cc": "KZ", "lang": "ru", "niche": "mobile_games", "keyword": "null's brawl stars", "volume": 3100, "cps": null, "parent": "null's brawl", "pages": 1}
 {"cc": "KZ", "lang": "ru", "niche": "mobile_games", "keyword": "фф донат", "volume": 2900, "cps": null, "parent": "гарена шоп", "pages": 1}
 {"cc": "KZ", "lang": "ru", "niche": "mobile_games", "keyword": "скачать null's brawl stars", "volume": 2400, "cps": null, "parent": "нулс бравл", "pages": 1}
@@ -597,20 +593,15 @@
 {"cc": "KZ", "lang": "ru", "niche": "tv", "keyword": "7 канал прямой эфир", "volume": 6700, "cps": 1.53, "parent": "7 канал прямой эфир", "pages": 1}
 {"cc": "KZ", "lang": "ru", "niche": "tv", "keyword": "астана тв сериалы прямой эфир", "volume": 4500, "cps": null, "parent": "astana tv тікелей эфир", "pages": 1}
 {"cc": "KZ", "lang": "ru", "niche": "tv", "keyword": "ктк прямой эфир", "volume": 3900, "cps": 1.42, "parent": "ктк прямой эфир", "pages": 1}
-{"cc": "KZ", "lang": "ru", "niche": "tv", "keyword": "порно прямой эфир", "volume": 3900, "cps": null, "parent": "порно эфир", "pages": 1}
 {"cc": "KZ", "lang": "ru", "niche": "tv", "keyword": "31 канал прямой эфир", "volume": 3300, "cps": 1.73, "parent": "31 канал", "pages": 1}
 {"cc": "KZ", "lang": "ru", "niche": "tv", "keyword": "нтв прямой эфир", "volume": 3100, "cps": 1.15, "parent": "нтв прямой эфир", "pages": 1}
 {"cc": "KZ", "lang": "ru", "niche": "tv", "keyword": "нтк прямой эфир", "volume": 2100, "cps": 1.47, "parent": "нтк прямой эфир", "pages": 1}
 {"cc": "KZ", "lang": "ru", "niche": "tv", "keyword": "казахстан тв прямой эфир", "volume": 1800, "cps": 1.5, "parent": "тикелей эфир казахстан", "pages": 1}
-{"cc": "KZ", "lang": "ru", "niche": "tv", "keyword": "прямой эфир секс", "volume": 1800, "cps": null, "parent": "эро чат", "pages": 1}
+{"cc": "KZ", "lang": "ru", "niche": "tv", "keyword": "осман астана тв прямой эфир смотреть онлайн", "volume": 1700, "cps": null, "parent": "астана арнасы прямой эфир", "pages": 1}
+{"cc": "KZ", "lang": "ru", "niche": "tv", "keyword": "ufc прямой эфир", "volume": 1700, "cps": 2.54, "parent": "прямой эфир ufc", "pages": 1}
 {"cc": "KZ", "lang": "ru", "niche": "anime", "keyword": "аниме", "volume": 75000, "cps": 0.78, "parent": "аниме", "pages": 2}
 {"cc": "KZ", "lang": "ru", "niche": "anime", "keyword": "манга", "volume": 56000, "cps": 1.0, "parent": "манга", "pages": 2}
-{"cc": "KZ", "lang": "ru", "niche": "anime", "keyword": "хентай манга", "volume": 35000, "cps": 1.68, "parent": "хентай манга", "pages": 2}
-{"cc": "KZ", "lang": "ru", "niche": "anime", "keyword": "секс аниме", "volume": 28000, "cps": 1.18, "parent": "аниме хентай", "pages": 1}
-{"cc": "KZ", "lang": "ru", "niche": "anime", "keyword": "порно аниме", "volume": 22000, "cps": 1.37, "parent": "порно аниме", "pages": 1}
-{"cc": "KZ", "lang": "ru", "niche": "anime", "keyword": "аниме порно", "volume": 18000, "cps": 1.58, "parent": "аниме секс", "pages": 1}
-{"cc": "KZ", "lang": "ru", "niche": "anime", "keyword": "база аниме", "volume": 5500, "cps": 1.05, "parent": "база аниме", "pages": 1}
-{"cc": "KZ", "lang": "ru", "niche": "anime", "keyword": "ххх аниме", "volume": 3800, "cps": null, "parent": "ххх аниме", "pages": 1}
+{"cc": "KZ", "lang": "ru", "niche": "anime", "keyword": "база аниме", "volume": 5500, "cps": 1.05, "parent": "база аниме", "pages": 2}
 {"cc": "KZ", "lang": "ru", "niche": "anime", "keyword": "волейбол аниме", "volume": 3800, "cps": 0.89, "parent": "волейбол аниме", "pages": 1}
 {"cc": "KZ", "lang": "ru", "niche": "anime", "keyword": "аниме 2026", "volume": 3400, "cps": null, "parent": "аниме 2026", "pages": 1}
 {"cc": "KZ", "lang": "ru", "niche": "anime", "keyword": "аниме рисунки", "volume": 3200, "cps": 0.29, "parent": "как нарисовать аниме", "pages": 1}
@@ -618,6 +609,11 @@
 {"cc": "KZ", "lang": "ru", "niche": "anime", "keyword": "манга баф", "volume": 2700, "cps": null, "parent": "мангабафф", "pages": 1}
 {"cc": "KZ", "lang": "ru", "niche": "anime", "keyword": "аниме фото", "volume": 2500, "cps": 0.27, "parent": "аниме картинки", "pages": 1}
 {"cc": "KZ", "lang": "ru", "niche": "anime", "keyword": "фото аниме", "volume": 2500, "cps": 0.21, "parent": "аниме фото", "pages": 1}
+{"cc": "KZ", "lang": "ru", "niche": "anime", "keyword": "ре манга", "volume": 2500, "cps": null, "parent": "манхва", "pages": 1}
+{"cc": "KZ", "lang": "ru", "niche": "anime", "keyword": "аниме 2025", "volume": 2400, "cps": null, "parent": "аниме 2025", "pages": 1}
+{"cc": "KZ", "lang": "ru", "niche": "anime", "keyword": "аниме картинки", "volume": 2200, "cps": 0.44, "parent": "аниме обои", "pages": 1}
+{"cc": "KZ", "lang": "ru", "niche": "anime", "keyword": "хоть я и бездарная злодейка аниме", "volume": 2200, "cps": null, "parent": "хоть я и бездарная злодейка аниме", "pages": 1}
+{"cc": "KZ", "lang": "ru", "niche": "anime", "keyword": "расхититель гробниц аниме", "volume": 2100, "cps": null, "parent": "расхититель гробниц аниме", "pages": 1}
 {"cc": "KZ", "lang": "ru", "niche": "horoscope", "keyword": "гороскоп", "volume": 19000, "cps": 1.14, "parent": "гороскоп", "pages": 2}
 {"cc": "KZ", "lang": "ru", "niche": "horoscope", "keyword": "совместимость по дате рождения", "volume": 6100, "cps": 2.02, "parent": "совместимость по дате рождения", "pages": 2}
 {"cc": "KZ", "lang": "ru", "niche": "horoscope", "keyword": "гороскоп рыбы", "volume": 3500, "cps": 1.43, "parent": "гороскоп рыбы", "pages": 2}
@@ -856,20 +852,20 @@
 {"cc": "AZ", "lang": "az", "niche": "prayer", "keyword": "namaz vaxtı 2025", "volume": 700, "cps": null, "parent": "namaz vaxtı 2025", "pages": 1}
 {"cc": "AZ", "lang": "az", "niche": "prayer", "keyword": "sabirabad namaz vaxti", "volume": 700, "cps": null, "parent": "sabirabad azan vaxti", "pages": 1}
 {"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "film izle", "volume": 39000, "cps": 1.34, "parent": "fullhdfilm", "pages": 2}
-{"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "erotik film", "volume": 8000, "cps": 1.74, "parent": "erotik filmler", "pages": 2}
 {"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "hd film izle", "volume": 7400, "cps": 1.37, "parent": "hdfilmcehennemi", "pages": 2}
-{"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "porno film", "volume": 6700, "cps": 1.92, "parent": "порнофильмы", "pages": 1}
-{"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "full hd film", "volume": 3700, "cps": 1.12, "parent": "full hd film", "pages": 1}
+{"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "full hd film", "volume": 3700, "cps": 1.12, "parent": "full hd film", "pages": 2}
 {"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "hd film", "volume": 3400, "cps": 1.01, "parent": "filmizlesene.com film izle", "pages": 1}
 {"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "film makinesi", "volume": 2900, "cps": 1.05, "parent": "film makinesi", "pages": 1}
 {"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "kino", "volume": 2400, "cps": 0.83, "parent": "video az", "pages": 1}
-{"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "seks kino", "volume": 2300, "cps": 1.87, "parent": "seks kinolar", "pages": 1}
 {"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "film önerileri", "volume": 2000, "cps": 1.07, "parent": "film önerileri", "pages": 1}
 {"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "full film izle", "volume": 1900, "cps": 1.22, "parent": "film izle", "pages": 1}
-{"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "seks film", "volume": 1800, "cps": 1.43, "parent": "seks filmi", "pages": 1}
-{"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "erotik film izle", "volume": 1800, "cps": 2.16, "parent": "filmler türkçe", "pages": 1}
 {"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "yeni ən yaxşı filmlər", "volume": 1700, "cps": null, "parent": "yeni ən yaxşı filmlər", "pages": 1}
-{"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "erotic film", "volume": 1600, "cps": 1.39, "parent": "erotic film", "pages": 1}
+{"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "çizgi film karakterleri", "volume": 1500, "cps": 0.23, "parent": "çizgi film karakterleri", "pages": 1}
+{"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "film izle türk", "volume": 1400, "cps": null, "parent": "turk komedi filmleri", "pages": 1}
+{"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "jasmine film", "volume": 1100, "cps": null, "parent": "jasmine film", "pages": 1}
+{"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "hatıran yeter film", "volume": 1100, "cps": null, "parent": "hatıran yeter film", "pages": 1}
+{"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "film izlə", "volume": 1000, "cps": 1.07, "parent": "filim izle", "pages": 1}
+{"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "kino go", "volume": 900, "cps": 1.08, "parent": "kino go", "pages": 1}
 {"cc": "AZ", "lang": "az", "niche": "series", "keyword": "klon serialı", "volume": 500, "cps": null, "parent": "klon serialı", "pages": 2}
 {"cc": "AZ", "lang": "az", "niche": "series", "keyword": "qurd yağı serialı", "volume": 350, "cps": null, "parent": "qurd yağı serialı", "pages": 2}
 {"cc": "AZ", "lang": "az", "niche": "music", "keyword": "youtube mp3", "volume": 21000, "cps": 1.22, "parent": "youtube mp3", "pages": 2}
@@ -1035,13 +1031,8 @@
 {"cc": "AZ", "lang": "az", "niche": "tv", "keyword": "golvar tv canlı", "volume": 3200, "cps": null, "parent": "golvartv", "pages": 1}
 {"cc": "AZ", "lang": "az", "niche": "tv", "keyword": "i̇dman tv canlı", "volume": 3000, "cps": null, "parent": "idman tv canlı", "pages": 1}
 {"cc": "AZ", "lang": "az", "niche": "anime", "keyword": "anime", "volume": 7000, "cps": 0.36, "parent": "anime", "pages": 2}
-{"cc": "AZ", "lang": "az", "niche": "anime", "keyword": "anime sex", "volume": 5300, "cps": 1.21, "parent": "anime seks", "pages": 2}
 {"cc": "AZ", "lang": "az", "niche": "anime", "keyword": "anime izle", "volume": 4300, "cps": 1.44, "parent": "anime izleme", "pages": 2}
-{"cc": "AZ", "lang": "az", "niche": "anime", "keyword": "anime porn", "volume": 3500, "cps": 0.97, "parent": "anime porn", "pages": 1}
-{"cc": "AZ", "lang": "az", "niche": "anime", "keyword": "anime porno", "volume": 2700, "cps": 1.58, "parent": "anime porno", "pages": 1}
-{"cc": "AZ", "lang": "az", "niche": "anime", "keyword": "hentai anime", "volume": 1700, "cps": 1.15, "parent": "anime hentai", "pages": 1}
-{"cc": "AZ", "lang": "az", "niche": "anime", "keyword": "anime girl", "volume": 800, "cps": 0.18, "parent": "anime girl", "pages": 1}
-{"cc": "AZ", "lang": "az", "niche": "anime", "keyword": "anime xxx", "volume": 400, "cps": null, "parent": "xxx anime", "pages": 1}
+{"cc": "AZ", "lang": "az", "niche": "anime", "keyword": "anime girl", "volume": 800, "cps": 0.18, "parent": "anime girl", "pages": 2}
 {"cc": "AZ", "lang": "az", "niche": "anime", "keyword": "tr anime", "volume": 350, "cps": null, "parent": "tr anime izle", "pages": 1}
 {"cc": "AZ", "lang": "az", "niche": "anime", "keyword": "monster anime", "volume": 350, "cps": null, "parent": "monster anime", "pages": 1}
 {"cc": "AZ", "lang": "az", "niche": "anime", "keyword": "anime wallpaper", "volume": 250, "cps": 0.35, "parent": "anime wallpaper", "pages": 1}
@@ -1073,36 +1064,24 @@
 {"cc": "AZ", "lang": "az", "niche": "greetings", "keyword": "ramazan bayramı təbrikləri", "volume": 1200, "cps": 0.93, "parent": "ramazan bayramı təbrikləri", "pages": 2}
 {"cc": "AZ", "lang": "az", "niche": "greetings", "keyword": "8 mart təbriki", "volume": 1000, "cps": 0.91, "parent": "8 mart tebriki", "pages": 2}
 {"cc": "AZ", "lang": "az", "niche": "greetings", "keyword": "müəllimlər günü təbriki", "volume": 900, "cps": null, "parent": "müəllimlər gününə aid təbriklər", "pages": 2}
-{"cc": "AZ", "lang": "az", "niche": "exams", "keyword": "speed test", "volume": 39000, "cps": 1.14, "parent": "speedtest", "pages": 2}
 {"cc": "AZ", "lang": "az", "niche": "exams", "keyword": "dim", "volume": 27000, "cps": 1.31, "parent": "dim", "pages": 2}
 {"cc": "AZ", "lang": "az", "niche": "exams", "keyword": "dim gov az", "volume": 26000, "cps": 1.27, "parent": "dim gov az", "pages": 2}
-{"cc": "AZ", "lang": "az", "niche": "exams", "keyword": "internet speed test", "volume": 10000, "cps": 1.26, "parent": "test speed", "pages": 1}
-{"cc": "AZ", "lang": "az", "niche": "exams", "keyword": "test", "volume": 4400, "cps": 0.56, "parent": "sınaqlar", "pages": 1}
-{"cc": "AZ", "lang": "az", "niche": "exams", "keyword": "test english", "volume": 3700, "cps": 1.12, "parent": "test english", "pages": 1}
-{"cc": "AZ", "lang": "az", "niche": "exams", "keyword": "9 cu sinif buraxılış imtahanı 2026", "volume": 3300, "cps": null, "parent": "9 cu sinif buraxılış imtahanı 2026", "pages": 1}
+{"cc": "AZ", "lang": "az", "niche": "exams", "keyword": "9 cu sinif buraxılış imtahanı 2026", "volume": 3300, "cps": null, "parent": "9 cu sinif buraxılış imtahanı 2026", "pages": 2}
 {"cc": "AZ", "lang": "az", "niche": "exams", "keyword": "riyaziyyat test toplusu 1 ci hisse pdf", "volume": 3000, "cps": 1.14, "parent": "riyaziyyat test toplusu 2025", "pages": 1}
-{"cc": "AZ", "lang": "az", "niche": "exams", "keyword": "duolingo english test", "volume": 2900, "cps": null, "parent": "duolingo english test", "pages": 1}
 {"cc": "AZ", "lang": "az", "niche": "exams", "keyword": "ingilis dili test toplusu 1 ci hisse pdf", "volume": 2900, "cps": null, "parent": "ingilis dili test toplusu 1 ci hisse pdf", "pages": 1}
 {"cc": "AZ", "lang": "az", "niche": "exams", "keyword": "azərbaycan dili test toplusu 2025 pdf", "volume": 2600, "cps": null, "parent": "az dili toplu 2025 pdf", "pages": 1}
 {"cc": "AZ", "lang": "az", "niche": "exams", "keyword": "fizika test toplusu 1 ci hisse pdf 2025", "volume": 2300, "cps": null, "parent": "fizika test toplusu 1 ci hisse pdf 2025", "pages": 1}
 {"cc": "AZ", "lang": "az", "niche": "exams", "keyword": "riyaziyyat test toplusu 2025", "volume": 2200, "cps": null, "parent": "riyaziyyat test toplusu 2 ci hisse pdf 2025", "pages": 1}
 {"cc": "AZ", "lang": "az", "niche": "exams", "keyword": "azərbaycan dili test toplusu 2 ci hissə pdf 2025", "volume": 2000, "cps": null, "parent": "azərbaycan dili test toplusu 2 ci hissə pdf 2025", "pages": 1}
 {"cc": "AZ", "lang": "az", "niche": "exams", "keyword": "riyaziyyat test toplusu", "volume": 2000, "cps": 0.75, "parent": "riyaziyyat test toplusu 1 ci hisse pdf", "pages": 1}
-{"cc": "AZ", "lang": "az", "niche": "books", "keyword": "pdf to word", "volume": 48000, "cps": 1.52, "parent": "pdf to word", "pages": 2}
-{"cc": "AZ", "lang": "az", "niche": "books", "keyword": "jpg to pdf", "volume": 32000, "cps": 1.34, "parent": "jpg to pdf", "pages": 2}
-{"cc": "AZ", "lang": "az", "niche": "books", "keyword": "word to pdf", "volume": 24000, "cps": 1.35, "parent": "word to pdf", "pages": 2}
-{"cc": "AZ", "lang": "az", "niche": "books", "keyword": "pdf to jpg", "volume": 17000, "cps": 1.29, "parent": "pdf to jpg", "pages": 1}
-{"cc": "AZ", "lang": "az", "niche": "books", "keyword": "i love pdf", "volume": 7400, "cps": 1.09, "parent": "i love pdf", "pages": 1}
-{"cc": "AZ", "lang": "az", "niche": "books", "keyword": "pdf birleştirme", "volume": 6400, "cps": 1.32, "parent": "pdf birleştirme", "pages": 1}
-{"cc": "AZ", "lang": "az", "niche": "books", "keyword": "merge pdf", "volume": 6400, "cps": 1.3, "parent": "pdf merge", "pages": 1}
-{"cc": "AZ", "lang": "az", "niche": "books", "keyword": "pdf to excel", "volume": 5700, "cps": 1.55, "parent": "pdf to excel", "pages": 1}
-{"cc": "AZ", "lang": "az", "niche": "books", "keyword": "adoc to pdf", "volume": 5100, "cps": 1.81, "parent": "adoc to pdf", "pages": 1}
-{"cc": "AZ", "lang": "az", "niche": "books", "keyword": "excel to pdf", "volume": 3800, "cps": 1.26, "parent": "excel to pdf", "pages": 1}
-{"cc": "AZ", "lang": "az", "niche": "books", "keyword": "compress pdf", "volume": 3700, "cps": 1.43, "parent": "pdf compressor", "pages": 1}
-{"cc": "AZ", "lang": "az", "niche": "books", "keyword": "split pdf", "volume": 3500, "cps": 1.34, "parent": "split pdf", "pages": 1}
-{"cc": "AZ", "lang": "az", "niche": "books", "keyword": "nərgiz nəcəf ingilis dili pdf", "volume": 3500, "cps": null, "parent": "nərgiz nəcəf ingilis dili pdf", "pages": 1}
-{"cc": "AZ", "lang": "az", "niche": "books", "keyword": "pdf editor", "volume": 3000, "cps": 1.29, "parent": "pdf editor", "pages": 1}
-{"cc": "AZ", "lang": "az", "niche": "books", "keyword": "anar isayev az tarixi pdf", "volume": 3000, "cps": null, "parent": "anar isayev az tarixi pdf", "pages": 1}
+{"cc": "AZ", "lang": "az", "niche": "exams", "keyword": "azərbaycan dili test toplusu 1 ci hissə pdf 2025", "volume": 1700, "cps": null, "parent": "azərbaycan dili test toplusu 1 ci hissə pdf 2025", "pages": 1}
+{"cc": "AZ", "lang": "az", "niche": "exams", "keyword": "qəbul", "volume": 1600, "cps": 0.46, "parent": "qəbul", "pages": 1}
+{"cc": "AZ", "lang": "az", "niche": "exams", "keyword": "işə qəbul", "volume": 1400, "cps": 0.91, "parent": "iş elanları", "pages": 1}
+{"cc": "AZ", "lang": "az", "niche": "exams", "keyword": "ingilis dili test toplusu 2025 pdf", "volume": 1300, "cps": null, "parent": "ingilis dili test toplusu 2025 pdf", "pages": 1}
+{"cc": "AZ", "lang": "az", "niche": "exams", "keyword": "fizika test toplusu 2 ci hisse pdf 2025", "volume": 1300, "cps": null, "parent": "fizika test toplusu 2 ci hisse pdf 2025", "pages": 1}
+{"cc": "AZ", "lang": "az", "niche": "books", "keyword": "kitab", "volume": 2300, "cps": 0.43, "parent": "libraff", "pages": 2}
+{"cc": "AZ", "lang": "az", "niche": "books", "keyword": "azərbaycan dili qayda kitabı pdf", "volume": 1400, "cps": null, "parent": "hədəf pdf", "pages": 2}
+{"cc": "AZ", "lang": "az", "niche": "books", "keyword": "ingilis dili qayda kitabi pdf", "volume": 1100, "cps": null, "parent": "ingilis dili qayda kitabi pdf", "pages": 2}
 {"cc": "AZ", "lang": "az", "niche": "gov", "keyword": "asan xidmet", "volume": 5300, "cps": 0.87, "parent": "asan xidmet", "pages": 2}
 {"cc": "AZ", "lang": "az", "niche": "gov", "keyword": "internet vergi dairesi", "volume": 3000, "cps": 1.06, "parent": "taxes gov az", "pages": 2}
 {"cc": "AZ", "lang": "az", "niche": "gov", "keyword": "asan xidmət iş saatı", "volume": 3000, "cps": null, "parent": "asan xidmət iş saatı", "pages": 2}
@@ -1192,13 +1171,21 @@
 {"cc": "AZ", "lang": "az", "niche": "loans", "keyword": "onlayn kredit", "volume": 7400, "cps": null, "parent": "onlayn kredit", "pages": 1}
 {"cc": "AZ", "lang": "az", "niche": "loans", "keyword": "bokt kredit", "volume": 7300, "cps": null, "parent": "bank olmayan kredit təşkilatı", "pages": 1}
 {"cc": "AZ", "lang": "az", "niche": "loans", "keyword": "kapital bank kredit", "volume": 6900, "cps": 1.07, "parent": "kapital bank kredit", "pages": 1}
-{"cc": "AZ", "lang": "ru", "niche": "tools", "keyword": "скачать видео с тик ток", "volume": 9400, "cps": null, "parent": "скачать видео с тик ток", "pages": 2}
-{"cc": "AZ", "lang": "ru", "niche": "tools", "keyword": "скачать видео с ютуба", "volume": 4300, "cps": 1.28, "parent": "скачать с ютуба", "pages": 2}
-{"cc": "AZ", "lang": "ru", "niche": "tools", "keyword": "скачать видео с инстаграм", "volume": 3600, "cps": 1.22, "parent": "скачать видео с инстаграм", "pages": 2}
-{"cc": "AZ", "lang": "ru", "niche": "tools", "keyword": "скачать видео", "volume": 1900, "cps": 1.0, "parent": "скачать видео с ютуба", "pages": 1}
-{"cc": "AZ", "lang": "ru", "niche": "tools", "keyword": "скачать видео с пинтерест", "volume": 1900, "cps": null, "parent": "скачать видео с пинтерест", "pages": 1}
-{"cc": "AZ", "lang": "ru", "niche": "tools", "keyword": "скачать видео с тик тока", "volume": 1700, "cps": null, "parent": "скачать видео из тик тока", "pages": 1}
-{"cc": "AZ", "lang": "ru", "niche": "tools", "keyword": "скачать видео с фейсбука", "volume": 600, "cps": 1.41, "parent": "скачать с фейсбука", "pages": 1}
+{"cc": "AZ", "lang": "az", "niche": "tools", "keyword": "pdf to word", "volume": 48000, "cps": 1.52, "parent": "pdf to word", "pages": 2}
+{"cc": "AZ", "lang": "az", "niche": "tools", "keyword": "jpg to pdf", "volume": 32000, "cps": 1.34, "parent": "jpg to pdf", "pages": 2}
+{"cc": "AZ", "lang": "az", "niche": "tools", "keyword": "word to pdf", "volume": 24000, "cps": 1.35, "parent": "word to pdf", "pages": 2}
+{"cc": "AZ", "lang": "az", "niche": "tools", "keyword": "pdf to jpg", "volume": 17000, "cps": 1.29, "parent": "pdf to jpg", "pages": 1}
+{"cc": "AZ", "lang": "az", "niche": "tools", "keyword": "i love pdf", "volume": 7400, "cps": 1.09, "parent": "i love pdf", "pages": 1}
+{"cc": "AZ", "lang": "az", "niche": "tools", "keyword": "vpn", "volume": 7000, "cps": 0.68, "parent": "vpn", "pages": 1}
+{"cc": "AZ", "lang": "az", "niche": "tools", "keyword": "pdf birleştirme", "volume": 6400, "cps": 1.32, "parent": "pdf birleştirme", "pages": 1}
+{"cc": "AZ", "lang": "az", "niche": "tools", "keyword": "merge pdf", "volume": 6400, "cps": 1.3, "parent": "pdf merge", "pages": 1}
+{"cc": "AZ", "lang": "az", "niche": "tools", "keyword": "pdf to excel", "volume": 5700, "cps": 1.55, "parent": "pdf to excel", "pages": 1}
+{"cc": "AZ", "lang": "az", "niche": "tools", "keyword": "adoc to pdf", "volume": 5100, "cps": 1.81, "parent": "adoc to pdf", "pages": 1}
+{"cc": "AZ", "lang": "az", "niche": "tools", "keyword": "excel to pdf", "volume": 3800, "cps": 1.26, "parent": "excel to pdf", "pages": 1}
+{"cc": "AZ", "lang": "az", "niche": "tools", "keyword": "compress pdf", "volume": 3700, "cps": 1.43, "parent": "pdf compressor", "pages": 1}
+{"cc": "AZ", "lang": "az", "niche": "tools", "keyword": "split pdf", "volume": 3500, "cps": 1.34, "parent": "split pdf", "pages": 1}
+{"cc": "AZ", "lang": "az", "niche": "tools", "keyword": "nərgiz nəcəf ingilis dili pdf", "volume": 3500, "cps": null, "parent": "nərgiz nəcəf ingilis dili pdf", "pages": 1}
+{"cc": "AZ", "lang": "az", "niche": "tools", "keyword": "pdf editor", "volume": 3000, "cps": 1.29, "parent": "pdf editor", "pages": 1}
 {"cc": "AZ", "lang": "az", "niche": "holidays", "keyword": "ramazan bayramı 2026", "volume": 16000, "cps": null, "parent": "kurban bayramı 2026", "pages": 2}
 {"cc": "AZ", "lang": "az", "niche": "holidays", "keyword": "ramazan 2026", "volume": 8100, "cps": null, "parent": "ramazan 2026", "pages": 2}
 {"cc": "AZ", "lang": "az", "niche": "holidays", "keyword": "ramazan təqvimi 2026", "volume": 4900, "cps": null, "parent": "ramazan təqvimi 2026", "pages": 2}
@@ -1273,10 +1260,8 @@
 {"cc": "TR", "lang": "tr", "niche": "prayer", "keyword": "van ezan vakti", "volume": 113000, "cps": 0.73, "parent": "van namaz vakitleri", "pages": 1}
 {"cc": "TR", "lang": "tr", "niche": "prayer", "keyword": "istanbul iftar vakti", "volume": 105000, "cps": 0.99, "parent": "istanbul iftar vakti", "pages": 1}
 {"cc": "TR", "lang": "tr", "niche": "movies", "keyword": "film izle", "volume": 1700000, "cps": 1.44, "parent": "film izle", "pages": 2}
-{"cc": "TR", "lang": "tr", "niche": "movies", "keyword": "erotik film izle", "volume": 332000, "cps": 2.54, "parent": "erotik film izle", "pages": 2}
-{"cc": "TR", "lang": "tr", "niche": "movies", "keyword": "porno film izle", "volume": 101000, "cps": 3.14, "parent": "porno film", "pages": 2}
-{"cc": "TR", "lang": "tr", "niche": "movies", "keyword": "yan yana film izle", "volume": 44000, "cps": null, "parent": "yan yana", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "movies", "keyword": "backrooms film izle", "volume": 36000, "cps": null, "parent": "backrooms movie izle", "pages": 1}
+{"cc": "TR", "lang": "tr", "niche": "movies", "keyword": "yan yana film izle", "volume": 44000, "cps": null, "parent": "yan yana", "pages": 2}
+{"cc": "TR", "lang": "tr", "niche": "movies", "keyword": "backrooms film izle", "volume": 36000, "cps": null, "parent": "backrooms movie izle", "pages": 2}
 {"cc": "TR", "lang": "tr", "niche": "movies", "keyword": "çatlı filmi izle", "volume": 31000, "cps": null, "parent": "çatlı filmi izle", "pages": 1}
 {"cc": "TR", "lang": "tr", "niche": "series", "keyword": "eşref rüya son bölüm izle", "volume": 610000, "cps": null, "parent": "eşref rüya final", "pages": 2}
 {"cc": "TR", "lang": "tr", "niche": "series", "keyword": "uzak şehir son bölüm izle", "volume": 517000, "cps": null, "parent": "uzak şehir", "pages": 2}
@@ -1300,21 +1285,9 @@
 {"cc": "TR", "lang": "tr", "niche": "music", "keyword": "mp3", "volume": 46000, "cps": 1.29, "parent": "mp3 indirme", "pages": 1}
 {"cc": "TR", "lang": "tr", "niche": "music", "keyword": "youtube to mp3", "volume": 38000, "cps": 1.32, "parent": "youtube to mp3", "pages": 1}
 {"cc": "TR", "lang": "tr", "niche": "music", "keyword": "mp4 to mp3", "volume": 34000, "cps": 1.38, "parent": "mp4 to mp3", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "football_live", "keyword": "canlı maç izle", "volume": 877000, "cps": 2.07, "parent": "selçuk sports", "pages": 2}
-{"cc": "TR", "lang": "tr", "niche": "football_live", "keyword": "trt 1 canlı izle", "volume": 518000, "cps": 1.3, "parent": "trt 1 canlı", "pages": 2}
-{"cc": "TR", "lang": "tr", "niche": "football_live", "keyword": "canlı tv izle", "volume": 367000, "cps": 1.05, "parent": "canlı tv izle", "pages": 2}
-{"cc": "TR", "lang": "tr", "niche": "football_live", "keyword": "atv canlı izle", "volume": 292000, "cps": 1.12, "parent": "atv canlı", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "football_live", "keyword": "taraftarium24 canlı maç izle", "volume": 212000, "cps": 1.6, "parent": "taraftarıum24", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "football_live", "keyword": "selçuk sports canlı maç izle", "volume": 201000, "cps": null, "parent": "selçuksports", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "football_live", "keyword": "tv8 canlı izle", "volume": 176000, "cps": 1.08, "parent": "tv8 canlı", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "football_live", "keyword": "kanal d canlı izle", "volume": 146000, "cps": 1.15, "parent": "kanal d canlı", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "football_live", "keyword": "maç izle", "volume": 137000, "cps": 1.91, "parent": "canlı maç izle", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "football_live", "keyword": "canlı maç sonuçları", "volume": 117000, "cps": 1.25, "parent": "maçkolik", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "football_live", "keyword": "now canlı izle", "volume": 89000, "cps": null, "parent": "now tv", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "football_live", "keyword": "trt spor canlı izle", "volume": 66000, "cps": 1.09, "parent": "trt spor canlı", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "football_live", "keyword": "justin tv canlı maç izle", "volume": 62000, "cps": 1.92, "parent": "justin tv", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "football_live", "keyword": "uzak şehir canlı izle", "volume": 58000, "cps": null, "parent": "uzak şehir", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "football_live", "keyword": "show tv canlı izle", "volume": 46000, "cps": 1.12, "parent": "show tv canlı", "pages": 1}
+{"cc": "TR", "lang": "tr", "niche": "football_live", "keyword": "maç izle", "volume": 137000, "cps": 1.91, "parent": "canlı maç izle", "pages": 2}
+{"cc": "TR", "lang": "tr", "niche": "football_live", "keyword": "canlı maç sonuçları", "volume": 117000, "cps": 1.25, "parent": "maçkolik", "pages": 2}
+{"cc": "TR", "lang": "tr", "niche": "football_live", "keyword": "canlı maç", "volume": 67000, "cps": 0.8, "parent": "selçuk sports", "pages": 2}
 {"cc": "TR", "lang": "tr", "niche": "football_data", "keyword": "fenerbahçe", "volume": 21030000, "cps": 0.62, "parent": "fenerbahçe", "pages": 2}
 {"cc": "TR", "lang": "tr", "niche": "football_data", "keyword": "galatasaray", "volume": 17720000, "cps": 0.58, "parent": "galatasaray", "pages": 2}
 {"cc": "TR", "lang": "tr", "niche": "football_data", "keyword": "süper lig", "volume": 6170000, "cps": 0.37, "parent": "süper lig puan durumları", "pages": 2}
@@ -1379,21 +1352,21 @@
 {"cc": "TR", "lang": "tr", "niche": "crypto", "keyword": "pepe coin yorum", "volume": 27000, "cps": null, "parent": "pepe coin yorum", "pages": 1}
 {"cc": "TR", "lang": "tr", "niche": "crypto", "keyword": "1 bitcoin kaç tl", "volume": 24000, "cps": 0.77, "parent": "1 bitcoin kaç tl", "pages": 1}
 {"cc": "TR", "lang": "tr", "niche": "crypto", "keyword": "floki coin", "volume": 22000, "cps": null, "parent": "floki coin", "pages": 1}
+{"cc": "TR", "lang": "tr", "niche": "tv", "keyword": "canlı maç izle", "volume": 877000, "cps": 2.07, "parent": "selçuk sports", "pages": 2}
 {"cc": "TR", "lang": "tr", "niche": "tv", "keyword": "canlı tv", "volume": 607000, "cps": 1.03, "parent": "canlı tv", "pages": 2}
-{"cc": "TR", "lang": "tr", "niche": "tv", "keyword": "show tv canlı", "volume": 283000, "cps": 1.09, "parent": "show tv canlı", "pages": 2}
-{"cc": "TR", "lang": "tr", "niche": "tv", "keyword": "halk tv canlı", "volume": 280000, "cps": 1.08, "parent": "halk tv canlı", "pages": 2}
+{"cc": "TR", "lang": "tr", "niche": "tv", "keyword": "trt 1 canlı izle", "volume": 518000, "cps": 1.3, "parent": "trt 1 canlı", "pages": 2}
+{"cc": "TR", "lang": "tr", "niche": "tv", "keyword": "canlı tv izle", "volume": 367000, "cps": 1.05, "parent": "canlı tv izle", "pages": 1}
+{"cc": "TR", "lang": "tr", "niche": "tv", "keyword": "atv canlı izle", "volume": 292000, "cps": 1.12, "parent": "atv canlı", "pages": 1}
+{"cc": "TR", "lang": "tr", "niche": "tv", "keyword": "show tv canlı", "volume": 283000, "cps": 1.09, "parent": "show tv canlı", "pages": 1}
+{"cc": "TR", "lang": "tr", "niche": "tv", "keyword": "halk tv canlı", "volume": 280000, "cps": 1.08, "parent": "halk tv canlı", "pages": 1}
+{"cc": "TR", "lang": "tr", "niche": "tv", "keyword": "taraftarium24 canlı maç izle", "volume": 212000, "cps": 1.6, "parent": "taraftarıum24", "pages": 1}
 {"cc": "TR", "lang": "tr", "niche": "tv", "keyword": "kanal d yayın akışı", "volume": 211000, "cps": 1.01, "parent": "kanal d yayın akışı", "pages": 1}
+{"cc": "TR", "lang": "tr", "niche": "tv", "keyword": "selçuk sports canlı maç izle", "volume": 201000, "cps": null, "parent": "selçuksports", "pages": 1}
 {"cc": "TR", "lang": "tr", "niche": "tv", "keyword": "trt 1 yayın akışı", "volume": 200000, "cps": 1.11, "parent": "trt1 canlı", "pages": 1}
 {"cc": "TR", "lang": "tr", "niche": "tv", "keyword": "atv yayın akışı", "volume": 188000, "cps": 1.04, "parent": "atv yayın akışı", "pages": 1}
+{"cc": "TR", "lang": "tr", "niche": "tv", "keyword": "tv8 canlı izle", "volume": 176000, "cps": 1.08, "parent": "tv8 canlı", "pages": 1}
 {"cc": "TR", "lang": "tr", "niche": "tv", "keyword": "now yayın akışı", "volume": 152000, "cps": null, "parent": "now yayın akışı", "pages": 1}
 {"cc": "TR", "lang": "tr", "niche": "tv", "keyword": "sözcü tv canlı", "volume": 149000, "cps": 1.53, "parent": "sözcü", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "tv", "keyword": "star tv canlı", "volume": 134000, "cps": 1.08, "parent": "star tv canlı", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "tv", "keyword": "now tv canlı", "volume": 131000, "cps": null, "parent": "now canlı", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "tv", "keyword": "beyaz tv canlı", "volume": 128000, "cps": 1.06, "parent": "beyaz tv canlı", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "tv", "keyword": "show tv yayın akışı", "volume": 119000, "cps": 1.01, "parent": "show tv yayın akışı", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "tv", "keyword": "tv yayın akışı", "volume": 83000, "cps": 1.12, "parent": "tv yayın akışı", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "tv", "keyword": "trt spor yayın akışı", "volume": 68000, "cps": 1.11, "parent": "trt spor yayın akışı", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "tv", "keyword": "beyaz tv yayın akışı", "volume": 67000, "cps": 1.09, "parent": "beyaz tv yayın akışı", "pages": 1}
 {"cc": "TR", "lang": "tr", "niche": "anime", "keyword": "manga oku", "volume": 220000, "cps": 1.73, "parent": "mangaoku tr", "pages": 2}
 {"cc": "TR", "lang": "tr", "niche": "anime", "keyword": "anime izle", "volume": 138000, "cps": 1.35, "parent": "anime izle", "pages": 2}
 {"cc": "TR", "lang": "tr", "niche": "horoscope", "keyword": "yükselen burç hesaplama", "volume": 140000, "cps": 1.38, "parent": "yükselen hesaplama", "pages": 2}
@@ -1467,21 +1440,7 @@
 {"cc": "TR", "lang": "tr", "niche": "exams", "keyword": "yks ne zaman", "volume": 109000, "cps": 0.84, "parent": "yks kaç gün kaldı", "pages": 1}
 {"cc": "TR", "lang": "tr", "niche": "exams", "keyword": "kpss", "volume": 102000, "cps": 0.85, "parent": "kpss sonuçları ne zaman açıklanacak 2026", "pages": 1}
 {"cc": "TR", "lang": "tr", "niche": "exams", "keyword": "lgs ne zaman", "volume": 93000, "cps": 0.89, "parent": "2027 lgs ne zaman", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "books", "keyword": "pdf birleştirme", "volume": 710000, "cps": 1.33, "parent": "pdf birleştirme", "pages": 2}
-{"cc": "TR", "lang": "tr", "niche": "books", "keyword": "pdf to word", "volume": 527000, "cps": 1.42, "parent": "pdf to word", "pages": 2}
-{"cc": "TR", "lang": "tr", "niche": "books", "keyword": "word to pdf", "volume": 336000, "cps": 1.35, "parent": "word to pdf", "pages": 2}
-{"cc": "TR", "lang": "tr", "niche": "books", "keyword": "jpg to pdf", "volume": 296000, "cps": 1.24, "parent": "jpg to pdf", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "books", "keyword": "pdf dönüştürücü", "volume": 266000, "cps": 1.5, "parent": "jpeg to pdf", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "books", "keyword": "pdf küçültme", "volume": 126000, "cps": 1.51, "parent": "pdf küçültme", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "books", "keyword": "pdf to jpg", "volume": 123000, "cps": 1.2, "parent": "pdf to jpg", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "books", "keyword": "pdf düzenleme", "volume": 101000, "cps": 1.56, "parent": "pdf düzenleme", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "books", "keyword": "pdf to excel", "volume": 96000, "cps": 1.64, "parent": "pdf to excel", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "books", "keyword": "pdf ayırma", "volume": 67000, "cps": 1.35, "parent": "pdf ayırma", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "books", "keyword": "excel to pdf", "volume": 62000, "cps": 1.42, "parent": "excel to pdf", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "books", "keyword": "png to pdf", "volume": 49000, "cps": 1.15, "parent": "png to pdf", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "books", "keyword": "epstein files pdf", "volume": 41000, "cps": null, "parent": "jeffrey epstein files pdf", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "books", "keyword": "pptx to pdf", "volume": 41000, "cps": 1.19, "parent": "ppt to pdf", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "books", "keyword": "html to pdf", "volume": 36000, "cps": 1.76, "parent": "html to pdf", "pages": 1}
+{"cc": "TR", "lang": "tr", "niche": "books", "keyword": "kitap oku", "volume": 28000, "cps": 1.09, "parent": "vaveyla", "pages": 2}
 {"cc": "TR", "lang": "tr", "niche": "gov", "keyword": "e-devlet", "volume": 370000, "cps": 1.05, "parent": "e devlet numarası", "pages": 2}
 {"cc": "TR", "lang": "tr", "niche": "gov", "keyword": "sgk", "volume": 168000, "cps": 1.06, "parent": "sgk", "pages": 2}
 {"cc": "TR", "lang": "tr", "niche": "gov", "keyword": "e-devlet girişi", "volume": 125000, "cps": 1.04, "parent": "e devlet", "pages": 2}
@@ -1538,15 +1497,20 @@
 {"cc": "TR", "lang": "tr", "niche": "loans", "keyword": "enpara faizsiz kredi", "volume": 28000, "cps": null, "parent": "enpara faizsiz kredi", "pages": 1}
 {"cc": "TR", "lang": "tr", "niche": "loans", "keyword": "kredi başvurusu", "volume": 27000, "cps": 1.2, "parent": "kredi başvurusu", "pages": 1}
 {"cc": "TR", "lang": "tr", "niche": "tools", "keyword": "instagram video indir", "volume": 941000, "cps": 1.16, "parent": "instagram video indir", "pages": 2}
+{"cc": "TR", "lang": "tr", "niche": "tools", "keyword": "pdf birleştirme", "volume": 710000, "cps": 1.33, "parent": "pdf birleştirme", "pages": 2}
 {"cc": "TR", "lang": "tr", "niche": "tools", "keyword": "tiktok video indir", "volume": 602000, "cps": 1.49, "parent": "ssstiktok", "pages": 2}
-{"cc": "TR", "lang": "tr", "niche": "tools", "keyword": "youtube video indir", "volume": 351000, "cps": 1.33, "parent": "video indir", "pages": 2}
+{"cc": "TR", "lang": "tr", "niche": "tools", "keyword": "pdf to word", "volume": 527000, "cps": 1.42, "parent": "pdf to word", "pages": 1}
+{"cc": "TR", "lang": "tr", "niche": "tools", "keyword": "youtube video indir", "volume": 351000, "cps": 1.33, "parent": "video indir", "pages": 1}
+{"cc": "TR", "lang": "tr", "niche": "tools", "keyword": "word to pdf", "volume": 336000, "cps": 1.35, "parent": "word to pdf", "pages": 1}
+{"cc": "TR", "lang": "tr", "niche": "tools", "keyword": "jpg to pdf", "volume": 296000, "cps": 1.24, "parent": "jpg to pdf", "pages": 1}
 {"cc": "TR", "lang": "tr", "niche": "tools", "keyword": "vpn", "volume": 274000, "cps": 0.64, "parent": "vpn", "pages": 1}
+{"cc": "TR", "lang": "tr", "niche": "tools", "keyword": "pdf dönüştürücü", "volume": 266000, "cps": 1.5, "parent": "jpeg to pdf", "pages": 1}
 {"cc": "TR", "lang": "tr", "niche": "tools", "keyword": "tiktok indir", "volume": 236000, "cps": 0.87, "parent": "tiktok", "pages": 1}
 {"cc": "TR", "lang": "tr", "niche": "tools", "keyword": "twitter video indir", "volume": 235000, "cps": 1.19, "parent": "twitter video indir", "pages": 1}
 {"cc": "TR", "lang": "tr", "niche": "tools", "keyword": "pinterest video indir", "volume": 179000, "cps": 1.15, "parent": "pinterest video indir", "pages": 1}
+{"cc": "TR", "lang": "tr", "niche": "tools", "keyword": "pdf küçültme", "volume": 126000, "cps": 1.51, "parent": "pdf küçültme", "pages": 1}
+{"cc": "TR", "lang": "tr", "niche": "tools", "keyword": "pdf to jpg", "volume": 123000, "cps": 1.2, "parent": "pdf to jpg", "pages": 1}
 {"cc": "TR", "lang": "tr", "niche": "tools", "keyword": "facebook video indir", "volume": 113000, "cps": 1.4, "parent": "facebook video indir", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "tools", "keyword": "vpn indir", "volume": 92000, "cps": 1.22, "parent": "vpn indir", "pages": 1}
-{"cc": "TR", "lang": "tr", "niche": "tools", "keyword": "kaspersky vpn", "volume": 27000, "cps": 0.99, "parent": "kaspersky vpn", "pages": 1}
 {"cc": "TR", "lang": "tr", "niche": "health", "keyword": "hamilelik belirtileri", "volume": 90000, "cps": 1.14, "parent": "hamilelik belirtileri", "pages": 2}
 {"cc": "TR", "lang": "tr", "niche": "health", "keyword": "kalp krizi belirtileri", "volume": 76000, "cps": 1.14, "parent": "kalp krizi belirtileri", "pages": 2}
 {"cc": "TR", "lang": "tr", "niche": "health", "keyword": "uyuz belirtileri", "volume": 62000, "cps": 1.02, "parent": "uyuz belirtileri", "pages": 2}
@@ -1631,18 +1595,16 @@
 {"cc": "KG", "lang": "ru", "niche": "prayer", "keyword": "айт намаз 2026", "volume": 1600, "cps": null, "parent": "айт намаз 2026", "pages": 1}
 {"cc": "KG", "lang": "ru", "niche": "prayer", "keyword": "намаз убактысы бишкек кыргызча", "volume": 1600, "cps": null, "parent": "время намаза бишкек", "pages": 1}
 {"cc": "KG", "lang": "ru", "niche": "movies", "keyword": "фильмы", "volume": 13000, "cps": 0.91, "parent": "фильмы", "pages": 2}
-{"cc": "KG", "lang": "ru", "niche": "movies", "keyword": "порно фильмы", "volume": 9700, "cps": 1.57, "parent": "порно фильмы", "pages": 2}
 {"cc": "KG", "lang": "ru", "niche": "movies", "keyword": "фильмы 2026", "volume": 6600, "cps": null, "parent": "фильмы 2026", "pages": 2}
-{"cc": "KG", "lang": "ru", "niche": "movies", "keyword": "фильмы на вечер", "volume": 5000, "cps": null, "parent": "фильмы на вечер", "pages": 1}
+{"cc": "KG", "lang": "ru", "niche": "movies", "keyword": "фильмы на вечер", "volume": 5000, "cps": null, "parent": "фильмы на вечер", "pages": 2}
 {"cc": "KG", "lang": "ru", "niche": "movies", "keyword": "фильмы 2025", "volume": 4400, "cps": null, "parent": "фильмы 2025", "pages": 1}
-{"cc": "KG", "lang": "ru", "niche": "movies", "keyword": "эротические фильмы", "volume": 4200, "cps": 2.05, "parent": "фильмы для взрослых", "pages": 1}
 {"cc": "KG", "lang": "ru", "niche": "movies", "keyword": "лучшие новые фильмы", "volume": 4200, "cps": null, "parent": "лучшие новые фильмы", "pages": 1}
 {"cc": "KG", "lang": "ru", "niche": "movies", "keyword": "фильм горничная 2025", "volume": 2400, "cps": null, "parent": "фильм горничная 2025", "pages": 1}
 {"cc": "KG", "lang": "ru", "niche": "movies", "keyword": "горничная фильм 2025 смотреть", "volume": 2100, "cps": null, "parent": "горничная фильм 2025 смотреть", "pages": 1}
 {"cc": "KG", "lang": "ru", "niche": "movies", "keyword": "смотреть фильмы онлайн", "volume": 2000, "cps": 1.08, "parent": "киного", "pages": 1}
 {"cc": "KG", "lang": "ru", "niche": "movies", "keyword": "новые фильмы 2026", "volume": 2000, "cps": null, "parent": "новые фильмы 2026", "pages": 1}
+{"cc": "KG", "lang": "ru", "niche": "movies", "keyword": "фильмы для взрослых", "volume": 1800, "cps": 1.54, "parent": "порно фильмы", "pages": 1}
 {"cc": "KG", "lang": "ru", "niche": "movies", "keyword": "фильмы 2026 смотреть онлайн", "volume": 1600, "cps": null, "parent": "фильмы 2026 смотреть онлайн", "pages": 1}
-{"cc": "KG", "lang": "ru", "niche": "movies", "keyword": "фильмы 18+", "volume": 1600, "cps": 1.55, "parent": "эротические фильмы", "pages": 1}
 {"cc": "KG", "lang": "ru", "niche": "series", "keyword": "под землей турецкий сериал", "volume": 14000, "cps": null, "parent": "под землей турецкий сериал", "pages": 2}
 {"cc": "KG", "lang": "ru", "niche": "series", "keyword": "ты тот кого я люблю турецкий сериал", "volume": 6200, "cps": null, "parent": "ты тот кого я люблю турецкий сериал", "pages": 2}
 {"cc": "KG", "lang": "ru", "niche": "series", "keyword": "лейла турецкий сериал", "volume": 4500, "cps": null, "parent": "лейла", "pages": 2}
@@ -1719,35 +1681,32 @@
 {"cc": "KG", "lang": "ru", "niche": "mobile_games", "keyword": "промокод яндекс еда", "volume": 1100, "cps": null, "parent": "промокод яндекс еда", "pages": 1}
 {"cc": "KG", "lang": "ru", "niche": "mobile_games", "keyword": "pubg", "volume": 900, "cps": 0.49, "parent": "pubg", "pages": 1}
 {"cc": "KG", "lang": "ru", "niche": "mobile_games", "keyword": "фк промокод", "volume": 800, "cps": null, "parent": "фк промокод", "pages": 1}
-{"cc": "KG", "lang": "ru", "niche": "pc_games", "keyword": "порно игры скачать", "volume": 700, "cps": null, "parent": "порно игры", "pages": 2}
 {"cc": "KG", "lang": "ru", "niche": "crypto", "keyword": "биткоин", "volume": 1600, "cps": 0.84, "parent": "купить биткоин", "pages": 2}
 {"cc": "KG", "lang": "ru", "niche": "crypto", "keyword": "биткоин доллар", "volume": 1500, "cps": null, "parent": "курс биткоина к доллару", "pages": 2}
 {"cc": "KG", "lang": "ru", "niche": "crypto", "keyword": "криптовалюта", "volume": 1200, "cps": 1.01, "parent": "криптовалюта", "pages": 2}
-{"cc": "KG", "lang": "ru", "niche": "tv", "keyword": "порно прямой эфир", "volume": 1400, "cps": null, "parent": "порно прямой эфир", "pages": 2}
 {"cc": "KG", "lang": "ru", "niche": "tv", "keyword": "элтр прямой эфир", "volume": 1100, "cps": null, "parent": "элтр прямой эфир", "pages": 2}
-{"cc": "KG", "lang": "ru", "niche": "tv", "keyword": "секс прямой эфир", "volume": 1000, "cps": null, "parent": "порно эфир", "pages": 2}
-{"cc": "KG", "lang": "ru", "niche": "tv", "keyword": "элтр прямой эфир осман", "volume": 1000, "cps": null, "parent": "элтр прямой эфир осман", "pages": 1}
-{"cc": "KG", "lang": "ru", "niche": "tv", "keyword": "испания аргентина прямой эфир", "volume": 900, "cps": null, "parent": "испания аргентина прямой эфир", "pages": 1}
+{"cc": "KG", "lang": "ru", "niche": "tv", "keyword": "элтр прямой эфир осман", "volume": 1000, "cps": null, "parent": "элтр прямой эфир осман", "pages": 2}
+{"cc": "KG", "lang": "ru", "niche": "tv", "keyword": "испания аргентина прямой эфир", "volume": 900, "cps": null, "parent": "испания аргентина прямой эфир", "pages": 2}
 {"cc": "KG", "lang": "ru", "niche": "tv", "keyword": "aca прямой эфир", "volume": 900, "cps": null, "parent": "ufc прямой эфир", "pages": 1}
 {"cc": "KG", "lang": "ru", "niche": "tv", "keyword": "прямой эфир", "volume": 900, "cps": 0.72, "parent": "элтр программа", "pages": 1}
 {"cc": "KG", "lang": "ru", "niche": "tv", "keyword": "аса прямой эфир", "volume": 800, "cps": null, "parent": "аса прямой эфир", "pages": 1}
 {"cc": "KG", "lang": "ru", "niche": "tv", "keyword": "прямой эфир ufc", "volume": 800, "cps": null, "parent": "матч тв ufc", "pages": 1}
 {"cc": "KG", "lang": "ru", "niche": "tv", "keyword": "элтр прямой эфир осман курулуш", "volume": 800, "cps": null, "parent": "элтр прямой эфир осман курулуш", "pages": 1}
 {"cc": "KG", "lang": "ru", "niche": "anime", "keyword": "аниме", "volume": 35000, "cps": 0.7, "parent": "аниме", "pages": 2}
-{"cc": "KG", "lang": "ru", "niche": "anime", "keyword": "хентай манга", "volume": 29000, "cps": 1.29, "parent": "хентай манга", "pages": 2}
 {"cc": "KG", "lang": "ru", "niche": "anime", "keyword": "манга", "volume": 22000, "cps": 0.84, "parent": "манга", "pages": 2}
-{"cc": "KG", "lang": "ru", "niche": "anime", "keyword": "порно аниме", "volume": 12000, "cps": 1.31, "parent": "хентай", "pages": 1}
-{"cc": "KG", "lang": "ru", "niche": "anime", "keyword": "секс аниме", "volume": 5700, "cps": 1.06, "parent": "аниме секс", "pages": 1}
-{"cc": "KG", "lang": "ru", "niche": "anime", "keyword": "аниме секс", "volume": 5700, "cps": 1.06, "parent": "секс аниме", "pages": 1}
-{"cc": "KG", "lang": "ru", "niche": "anime", "keyword": "манга поиск", "volume": 2800, "cps": null, "parent": "манга поиск", "pages": 1}
+{"cc": "KG", "lang": "ru", "niche": "anime", "keyword": "манга поиск", "volume": 2800, "cps": null, "parent": "манга поиск", "pages": 2}
 {"cc": "KG", "lang": "ru", "niche": "anime", "keyword": "аниме 2025", "volume": 2600, "cps": null, "parent": "аниме 2025", "pages": 1}
-{"cc": "KG", "lang": "ru", "niche": "anime", "keyword": "ххх аниме", "volume": 2000, "cps": null, "parent": "ххх аниме", "pages": 1}
-{"cc": "KG", "lang": "ru", "niche": "anime", "keyword": "манга 18+", "volume": 1700, "cps": null, "parent": "манга 18+", "pages": 1}
 {"cc": "KG", "lang": "ru", "niche": "anime", "keyword": "аниме фото", "volume": 1600, "cps": null, "parent": "аниме фото", "pages": 1}
 {"cc": "KG", "lang": "ru", "niche": "anime", "keyword": "аниме рисунки", "volume": 1500, "cps": 0.44, "parent": "рисунки аниме", "pages": 1}
 {"cc": "KG", "lang": "ru", "niche": "anime", "keyword": "аниме китайское", "volume": 1500, "cps": null, "parent": "китайское аниме", "pages": 1}
 {"cc": "KG", "lang": "ru", "niche": "anime", "keyword": "аниме база", "volume": 1500, "cps": null, "parent": "аниме база", "pages": 1}
 {"cc": "KG", "lang": "ru", "niche": "anime", "keyword": "аниме 2026", "volume": 1400, "cps": null, "parent": "аниме 2026", "pages": 1}
+{"cc": "KG", "lang": "ru", "niche": "anime", "keyword": "волейбол аниме", "volume": 1400, "cps": 0.88, "parent": "волейбол аниме", "pages": 1}
+{"cc": "KG", "lang": "ru", "niche": "anime", "keyword": "аниме гачиакута", "volume": 1300, "cps": null, "parent": "гачиакута", "pages": 1}
+{"cc": "KG", "lang": "ru", "niche": "anime", "keyword": "аниме магическая битва", "volume": 1200, "cps": null, "parent": "магическая битва", "pages": 1}
+{"cc": "KG", "lang": "ru", "niche": "anime", "keyword": "китайское аниме", "volume": 1200, "cps": null, "parent": "аниме китайское", "pages": 1}
+{"cc": "KG", "lang": "ru", "niche": "anime", "keyword": "манга буфф", "volume": 1100, "cps": null, "parent": "манга буфф", "pages": 1}
+{"cc": "KG", "lang": "ru", "niche": "anime", "keyword": "аниме романтика", "volume": 1000, "cps": 0.88, "parent": "аниме в жанре романтика", "pages": 1}
 {"cc": "KG", "lang": "ru", "niche": "horoscope", "keyword": "гороскоп", "volume": 3400, "cps": 1.13, "parent": "гороскоп", "pages": 2}
 {"cc": "KG", "lang": "ru", "niche": "horoscope", "keyword": "гороскоп на сегодня", "volume": 1600, "cps": 1.15, "parent": "гороскоп на сегодня", "pages": 2}
 {"cc": "KG", "lang": "ru", "niche": "horoscope", "keyword": "совместимость по дате рождения", "volume": 800, "cps": 1.36, "parent": "совместимость по дате рождения", "pages": 2}
