@@ -6,7 +6,7 @@
 | шаг | mostbet-czechia.cz | dobirkazdarma.cz |
 |---|---|---|
 | наш ли | нет: нет в `our-domains.txt`, реестре рефок, jamstack-sites, fair-pages-kit, cf-panel | нет, там же |
-| Corsearch | в базе, website_id 18144933, без метки | нет в базе |
+| Corsearch | в базе, website_id 18144933, без метки; отправлен на снос (23.11) | не было в базе; отправлен на снос (23.11) |
 | `brand-scan.py` http + browser | `3_other_only`, Kingmaker (чешский IP) | `3_other_only`, WinShark (прямой выход, LV) |
 | `brand-classify.py` | `mono_other`, brand_in_domain | `mono_other`, rotating_ads |
 | `brand-confidence.py` | не запускался: калибровка по раундам проверки, на двух доменах не имеет смысла; класс проверен вручную по скану, цепочкам и ролику |
@@ -14,8 +14,9 @@
 
 - `queue.csv` — вход сканера; `brand-scan/` — логи, отчёт, классификация, HTML главных.
 - `takedown-send.csv` — оба домена на снос, те же колонки, что в срезе 2026-09-28.
-- `evidence/` — ролики и `results.jsonl`, как у среза 2026-09-28. В страйк (`../2026-09-28/strike/`) не добавлены:
-  в Corsearch их отправляет владелец.
+- `evidence/` — ролики и `results.jsonl`, как у среза 2026-09-28.
+- **Оба домена отправлены владельцем в Corsearch на снос** (отмечено 23.11.2026; колонка `sent_to_corsearch`
+  в `takedown-send.csv`). В страйк-лист среза 2026-09-28 (`../2026-09-28/strike/`) не входят: отправлены отдельно.
 - `chains.md` — цепочки переходов с чешского и сербского IP.
 
 Как запускали (из корня репо; чешский выход — Протон через mihomo, `proton-sv geo cz`, порт 7892):
