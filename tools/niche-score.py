@@ -9,6 +9,7 @@
   lang    страница не на языке запроса: локальный запрос (uz/az с местными буквами) — заголовок кириллицей;
           русский запрос — заголовок без кириллицы; не считается у доменов с DR >= HIGH_DR (Google Translate, Википедия).
 Тонкие и старые страницы не мерились.
+Брендовые запросы МФО, банков и лотерей (BRAND) выброшены из ниш: по бренду выдачу держит владелец.
 Целевая позиция ключа — лучшая позиция слабого результата в топ-10. Визиты = частотность × min(cps, 1) × доля кликов позиции.
 cps (clicks per search, Ahrefs) учитывает поиски без клика; если его нет — cps ниши в стране, взвешенный по частотности, иначе тот же по всем странам, иначе 0,8.
 Закрытый ключ: в топ-20 не больше CLOSED_N результатов (для ключей со снятой второй страницей) и слабых в топ-10 нет.
@@ -27,11 +28,11 @@ SHARE = [0.39, 0.18, 0.11, 0.08, 0.06, 0.05, 0.04, 0.035, 0.03, 0.025]
 UGC = re.compile(r'(^|\.)(reddit\.com|quora\.com|pinterest\.[a-z.]+|'
                  r'otvet\.mail\.ru|answers\.mail\.ru|blogspot\.com|wordpress\.com|livejournal\.com|pikabu\.ru|dzen\.ru|sites\.google\.com|medium\.com|tgstat\.[a-z]+|'
                  r'znanija\.com|brainly\.[a-z.]+|eksisozluk\.com|uludagsozluk\.com|onedio\.com|teletype\.in|vc\.ru|habr\.com|tumblr\.com|fandom\.com|ask\.fm|'
-                 r'threads\.net|linkedin\.com|wattpad\.com|ficbook\.net|scribd\.com|studfile\.net|studopedia\.[a-z]+|myshared\.ru|infourok\.ru|nsportal\.ru|multiurok\.ru)$')
+                 r'threads\.net|linkedin\.com|wattpad\.com|ficbook\.net|scribd\.com|studfile\.net|studopedia\.[a-z]+|myshared\.ru|infourok\.ru|nsportal\.ru|multiurok\.ru|my1\.ru|ucoz\.[a-z]+|narod\.ru)$')  # my1.ru, ucoz, narod — бесплатный хостинг uCoz
 FORUM = re.compile(r'(^forum\.|\.forum\.|/forum|/threads?/|/topic|/questions?/|/viewtopic)')
 OWNER = re.compile(r'(\.gov\.[a-z]{2}$|^gov\.[a-z]{2}$|\.gov$|egov\.kz$|e-gov\.az$|turkiye\.gov\.tr$|play\.google\.com$|apps\.apple\.com$|\.edu\.[a-z]{2}$|\.k12\.tr$|\.bel\.tr$|\.mil\.)')
 SUF2 = {'com.tr', 'gov.tr', 'org.tr', 'net.tr', 'edu.tr', 'k12.tr', 'gen.tr', 'bel.tr', 'av.tr', 'gov.uz', 'co.uz', 'com.uz', 'org.uz', 'edu.uz', 'gov.kz', 'com.kz', 'edu.kz', 'org.kz',
-        'gov.az', 'com.az', 'edu.az', 'org.az', 'net.az', 'gov.kg', 'com.kg', 'org.kg', 'edu.kg', 'co.uk', 'com.ua', 'org.ua', 'com.ru', 'msk.ru', 'spb.ru', 'com.br', 'co.in', 'com.au', 'org.ru'}
+        'gov.az', 'com.az', 'edu.az', 'org.az', 'net.az', 'gov.kg', 'com.kg', 'org.kg', 'edu.kg', 'co.uk', 'com.ua', 'org.ua', 'com.ru', 'msk.ru', 'spb.ru', 'com.br', 'co.in', 'com.au', 'org.ru', 'com.ng', 'gov.in'}
 def host(u): return urllib.parse.urlsplit(u).netloc.lower().split(':')[0].removeprefix('www.')
 def regdom(h):
     p = h.split('.')
@@ -45,10 +46,18 @@ def mismatch(q, qlang, title):
     if qlang == 'ru': return cyr(q) > 0 and cyr(title) == 0 and lat(title) > 5
     if qlang in ('uz', 'az') and LOCAL[qlang].search(q.lower()) and cyr(q) == 0: return cyr(title) > lat(title)
     return False
+# Навигационные запросы брендов (МФО, банки, лотереи): выдача по бренду закрывается его владельцем, как у `mostbet`.
+# Такие ключи выброшены из ниши целиком — и из выборки, и из частотности ниши.
+BRAND = re.compile(r'(кредит ?плюс|кредит ?365|365 ?(кредит|займ)|займ ?365|кредит ?бар|^а кредит|уан ?кредит|оне ?кредит|'
+                   r'селфи ?кредит|бз ?займ|би ?кредит|квику|сат ?кредит|solva|сольва|kaspi|каспи|halyk|халык|хоум ?кредит|home ?credit|'
+                   r'кредит ?азия|ishonch|uzum|tbc|tbs kredit|mahalla bank|abb|kapital ?bank|nova ?kredit|azpay|yap[ıi] ?kredi|hangikredi|'
+                   r'bizon|azerlotereya|birbank|milli ?piyango|millipiyango)')
+def brand(r): return r['niche'] in ('loans', 'lottery') and bool(BRAND.search(r['keyword'].lower()))
 seeds = {n['id']: n for n in json.load(open(f'{ROOT}/niche-scan/seeds.json'))['niches']}
 DR = json.load(open(f'{D}/dr.json')) if os.path.exists(f'{D}/dr.json') else {}
-KW = [json.loads(l) for l in open(f'{D}/keywords.jsonl')]
-SAMPLE = [json.loads(l) for l in open(f'{D}/sample.jsonl')]
+KW_ALL = [json.loads(l) for l in open(f'{D}/keywords.jsonl')]
+KW = [r for r in KW_ALL if not brand(r)]
+SAMPLE = [s for s in (json.loads(l) for l in open(f'{D}/sample.jsonl')) if not brand(s)]
 SERP = collections.defaultdict(dict)
 for l in open(f'{D}/serp.jsonl'):
     r = json.loads(l); SERP[(r['cc'], r['keyword'])][r['page']] = r
@@ -85,8 +94,10 @@ for s in SAMPLE:
 SUF = os.environ.get('NICHE_SUFFIX', '')
 with open(f'{D}/keys-scored{SUF}.jsonl', 'w') as fh:
     for k in keys: fh.write(json.dumps(k, ensure_ascii=False, default=dict) + '\n')
-vol = collections.defaultdict(int)
+vol = collections.defaultdict(int); bvol = collections.defaultdict(int)
 for r in KW: vol[(r['cc'], r['niche'], r['lang'])] += r['volume']
+for r in KW_ALL:
+    if brand(r): bvol[(r['cc'], r['niche'], r['lang'])] += r['volume']
 out = []
 for (cc, nid), g in itertools.groupby(sorted(keys, key=lambda k: (k['cc'], k['niche'])), key=lambda k: (k['cc'], k['niche'])):
     g = [k for k in g if k['status'] == 'ok']
@@ -99,7 +110,7 @@ for (cc, nid), g in itertools.groupby(sorted(keys, key=lambda k: (k['cc'], k['ni
     drs = [k['dr_median'] for k in g if k['dr_median'] is not None]
     pos_total = sum(k['n_top10'] for k in g)
     why = sum((k['why'] for k in g), collections.Counter())
-    out.append(dict(cc=cc, niche=nid, name=seeds[nid]['name'], bet=seeds[nid]['bet'], lang=lang, niche_volume=nv, sample_keys=len(g), sample_volume=sv,
+    out.append(dict(cc=cc, niche=nid, name=seeds[nid]['name'], bet=seeds[nid]['bet'], lang=lang, niche_volume=nv, brand_volume=bvol[(cc, nid, lang)], sample_keys=len(g), sample_volume=sv,
                     sample_visits=sv_vis, est_visits=round(sv_vis * nv / sv) if sv else 0, weak_keys=sum(1 for k in g if k['best_pos']),
                     best_pos_median=statistics.median([k['best_pos'] for k in g if k['best_pos']]) if any(k['best_pos'] for k in g) else None,
                     closed_head=f'{closed_head}/{len(head)}', noweak_head=f'{noweak_head}/{len(heads)}', culled=noweak_head >= 2 and sum(1 for k in g if k['best_pos']) < len(g) / 3, dr_median=statistics.median(drs) if drs else None,
