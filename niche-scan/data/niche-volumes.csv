@@ -73,6 +73,8 @@ UZ,holidays,ru,59000,0
 UZ,holidays,uz,151700,1
 UZ,translate,ru,2127800,1
 UZ,translate,uz,772200,0
+UZ,adult,ru,34900,0
+UZ,adult,uz,129250,1
 KZ,weather,ru,8897900,1
 KZ,currency,ru,1923800,1
 KZ,gold,ru,19700,1
@@ -110,6 +112,7 @@ KZ,tools,ru,418100,1
 KZ,health,ru,41800,1
 KZ,holidays,ru,344300,1
 KZ,translate,ru,7937600,1
+KZ,adult,ru,259800,1
 AZ,weather,az,473300,0
 AZ,weather,ru,650900,1
 AZ,currency,az,494700,1
@@ -184,6 +187,8 @@ AZ,holidays,az,61600,1
 AZ,holidays,ru,4500,0
 AZ,translate,az,417700,1
 AZ,translate,ru,366400,0
+AZ,adult,az,63800,1
+AZ,adult,ru,9100,0
 TR,weather,tr,103149000,1
 TR,currency,tr,1156000,1
 TR,gold,tr,30883000,1
@@ -217,10 +222,11 @@ TR,cars,tr,1155000,1
 TR,realty,tr,239000,1
 TR,phones,tr,41000,1
 TR,loans,tr,3901000,1
-TR,tools,tr,6976000,1
+TR,tools,tr,7015000,1
 TR,health,tr,824000,1
 TR,holidays,tr,4906000,1
 TR,translate,tr,30939000,1
+TR,adult,tr,472000,1
 KG,weather,ru,4164800,1
 KG,currency,ru,406400,1
 KG,gold,ru,2900,1
@@ -258,3 +264,4 @@ KG,tools,ru,83600,1
 KG,health,ru,10500,1
 KG,holidays,ru,68800,1
 KG,translate,ru,1771900,1
+KG,adult,ru,104400,1

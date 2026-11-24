@@ -17,7 +17,7 @@ for cc in ['UZ', 'KZ', 'AZ', 'TR', 'KG']:
     rr = [r for r in rows if r['cc'] == cc]; total = sum(r['niche_volume'] for r in rr); thr = SHARE * total
     ok = sorted([r for r in rr if r['culled'] == 'False' and r['niche_volume'] >= thr], key=lambda r: -r['est_visits'])
     culled = [r for r in rr if r['culled'] == 'True']; small = [r for r in rr if r['culled'] == 'False' and r['niche_volume'] < thr]
-    out.append(f'\n## {cc}\n\nСуммарная частотность 37 ниш: {f(total)} в месяц. Порог ниши: {f(round(thr))} ({SHARE:.1%}).\n')
+    out.append(f'\n## {cc}\n\nСуммарная частотность {len(rr)} ниш: {f(total)} в месяц. Порог ниши: {f(round(thr))} ({SHARE:.1%}).\n')
     out.append(f"Строгая оценка всех ниш выше порога: **{f(sum(r['est_visits'] for r in ok))}** визитов/мес; потолок: {f(sum(ceil[(cc, r['niche'])] for r in ok))}.\n")
     out.append('| # | ниша | язык | частотность ниши | визитов/мес, строго (DR<20) | потолок (DR<30) | из них по выборке | слабых ключей | медианная целевая позиция | медианный DR топа | близость к беттингу |')
     out.append('|---|---|---|---|---|---|---|---|---|---|---|')
