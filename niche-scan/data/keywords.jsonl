@@ -23,6 +23,7 @@
 {"cc": "AZ", "lang": "az", "niche": "mobile_games", "keyword": "pubg", "volume": 5800, "cps": 0.64, "parent": "pubg"}
 {"cc": "AZ", "lang": "az", "niche": "pc_games", "keyword": "oyunlar oyna", "volume": 5500, "cps": 1.16, "parent": "oyun"}
 {"cc": "AZ", "lang": "az", "niche": "tv", "keyword": "justin tv canlı maç izle", "volume": 5500, "cps": null, "parent": "justin tv izle"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "anime sex", "volume": 5300, "cps": 1.21, "parent": "anime seks"}
 {"cc": "AZ", "lang": "az", "niche": "pc_games", "keyword": "1001 oyunlar", "volume": 4800, "cps": null, "parent": "1001"}
 {"cc": "AZ", "lang": "az", "niche": "tv", "keyword": "tv 8 canlı", "volume": 4600, "cps": 1.19, "parent": "tv8 yayın akışı"}
 {"cc": "AZ", "lang": "az", "niche": "tv", "keyword": "space tv canlı", "volume": 4600, "cps": 1.28, "parent": "space tv canlı"}
@@ -39,6 +40,7 @@
 {"cc": "AZ", "lang": "az", "niche": "pc_games", "keyword": "online oyunlar", "volume": 3600, "cps": 1.21, "parent": "online oyunlar"}
 {"cc": "AZ", "lang": "az", "niche": "apk", "keyword": "capcut pro apk", "volume": 3500, "cps": null, "parent": "capcut pro apk"}
 {"cc": "AZ", "lang": "az", "niche": "tv", "keyword": "qol var tv canlı", "volume": 3500, "cps": null, "parent": "qol var tv canlı"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "anime porn", "volume": 3500, "cps": 0.97, "parent": "anime porn"}
 {"cc": "AZ", "lang": "az", "niche": "apk", "keyword": "car parking apk", "volume": 3400, "cps": null, "parent": "car parking apk"}
 {"cc": "AZ", "lang": "az", "niche": "tv", "keyword": "star tv canlı", "volume": 3400, "cps": 1.08, "parent": "star tv canlı"}
 {"cc": "AZ", "lang": "az", "niche": "pc_games", "keyword": "oyunlar 1", "volume": 3400, "cps": 1.14, "parent": "oyun"}
@@ -51,10 +53,12 @@
 {"cc": "AZ", "lang": "az", "niche": "tv", "keyword": "arb tv canlı", "volume": 3000, "cps": 0.84, "parent": "arb canli"}
 {"cc": "AZ", "lang": "az", "niche": "apk", "keyword": "yüklə", "volume": 2900, "cps": 0.8, "parent": "mp3"}
 {"cc": "AZ", "lang": "az", "niche": "apk", "keyword": "minecraft 1.21 apk indir", "volume": 2800, "cps": null, "parent": "minecraft 1.21 apk indir"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "anime porno", "volume": 2700, "cps": 1.58, "parent": "anime porno"}
 {"cc": "AZ", "lang": "az", "niche": "sport_news", "keyword": "we transfer", "volume": 2700, "cps": 1.1, "parent": "wetransfer"}
 {"cc": "AZ", "lang": "az", "niche": "pc_games", "keyword": "2 kişilik oyunlar", "volume": 2700, "cps": 1.14, "parent": "2 kişilik oyunlar"}
 {"cc": "AZ", "lang": "az", "niche": "crypto", "keyword": "bitcoin price", "volume": 2600, "cps": 0.87, "parent": "bitcoin price usd"}
 {"cc": "AZ", "lang": "az", "niche": "mobile_games", "keyword": "pubg hesab satisi", "volume": 2600, "cps": null, "parent": "pubg hesab satisi"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "porno anime", "volume": 2500, "cps": 1.21, "parent": "anime porno"}
 {"cc": "AZ", "lang": "az", "niche": "football_data", "keyword": "qarabağ oyunu", "volume": 2400, "cps": null, "parent": "карабах фк"}
 {"cc": "AZ", "lang": "az", "niche": "apk", "keyword": "misli az yüklə", "volume": 2400, "cps": null, "parent": "misli indir"}
 {"cc": "AZ", "lang": "az", "niche": "sport_news", "keyword": "transfer", "volume": 2400, "cps": 0.55, "parent": "wetransfer"}
@@ -73,12 +77,14 @@
 {"cc": "AZ", "lang": "az", "niche": "lottery", "keyword": "azerlotereya super keno yoxlamaq", "volume": 1700, "cps": null, "parent": "super keno yoxla"}
 {"cc": "AZ", "lang": "az", "niche": "football_data", "keyword": "qarabağ napoli", "volume": 1700, "cps": null, "parent": "qarabağ napoli"}
 {"cc": "AZ", "lang": "az", "niche": "pc_games", "keyword": "iki kişilik oyunlar", "volume": 1700, "cps": 1.12, "parent": "2 kişilik oyunlar"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "hentai anime", "volume": 1700, "cps": 1.15, "parent": "anime hentai"}
 {"cc": "AZ", "lang": "az", "niche": "music", "keyword": "mahnı yüklə", "volume": 1700, "cps": 1.52, "parent": "mp3 indir"}
 {"cc": "AZ", "lang": "az", "niche": "apk", "keyword": "apk", "volume": 1700, "cps": 0.68, "parent": "apkpure"}
 {"cc": "AZ", "lang": "az", "niche": "apk", "keyword": "nulls brawl apk", "volume": 1600, "cps": null, "parent": "nulls brawl"}
 {"cc": "AZ", "lang": "az", "niche": "tv", "keyword": "beyaz tv canlı", "volume": 1600, "cps": 1.03, "parent": "beyaz tv"}
 {"cc": "AZ", "lang": "az", "niche": "apk", "keyword": "snaptube apk indir uptodown", "volume": 1600, "cps": null, "parent": "snaptube apk indir uptodown"}
 {"cc": "AZ", "lang": "az", "niche": "lottery", "keyword": "azerlotereya 5 36 bileti yoxla", "volume": 1600, "cps": 1.04, "parent": "lotereya yoxlamaq"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "anime hentai", "volume": 1600, "cps": 1.04, "parent": "anime hentai"}
 {"cc": "AZ", "lang": "az", "niche": "tv", "keyword": "xəzər tv canlı izlə", "volume": 1600, "cps": 0.94, "parent": "xəzər tv canlı"}
 {"cc": "AZ", "lang": "az", "niche": "apk", "keyword": "nulls brawl apk indir", "volume": 1600, "cps": null, "parent": "nulls brawl indir"}
 {"cc": "AZ", "lang": "az", "niche": "apk", "keyword": "spotify premium apk", "volume": 1600, "cps": 1.13, "parent": "spotify premium apk"}
@@ -105,6 +111,7 @@
 {"cc": "AZ", "lang": "az", "niche": "tv", "keyword": "ictimai tv canlı youtube", "volume": 1200, "cps": null, "parent": "ictimai tv canlı youtube"}
 {"cc": "AZ", "lang": "az", "niche": "lottery", "keyword": "4+4 lotereya yoxlamaq", "volume": 1200, "cps": null, "parent": "azerlotereya"}
 {"cc": "AZ", "lang": "az", "niche": "fights", "keyword": "ufc rankings", "volume": 1200, "cps": null, "parent": "ufc rankings"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "seks yüklə", "volume": 1200, "cps": 1.32, "parent": "azeri sex"}
 {"cc": "AZ", "lang": "az", "niche": "mobile_games", "keyword": "brawl stars store", "volume": 1100, "cps": null, "parent": "brawl stars store"}
 {"cc": "AZ", "lang": "az", "niche": "apk", "keyword": "toca boca apk", "volume": 1100, "cps": null, "parent": "toca boca world"}
 {"cc": "AZ", "lang": "az", "niche": "apk", "keyword": "apk guide", "volume": 1100, "cps": null, "parent": "apk guide"}
@@ -135,6 +142,7 @@
 {"cc": "AZ", "lang": "az", "niche": "exams", "keyword": "azərbaycan dili test toplusu 2 ci hissə pdf yüklə", "volume": 800, "cps": null, "parent": "azərbaycan dili test toplusu 2 ci hissə pdf 2025"}
 {"cc": "AZ", "lang": "az", "niche": "tv", "keyword": "inat tv canlı izle", "volume": 800, "cps": null, "parent": "inat tv"}
 {"cc": "AZ", "lang": "az", "niche": "sport_news", "keyword": "galatasaray transfer", "volume": 800, "cps": 1.05, "parent": "galatasaray transfer haberleri"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "porn anime", "volume": 800, "cps": null, "parent": "anime porn"}
 {"cc": "AZ", "lang": "az", "niche": "fights", "keyword": "ufc canlı izle", "volume": 800, "cps": null, "parent": "ufc canlı izle"}
 {"cc": "AZ", "lang": "az", "niche": "lottery", "keyword": "azerlotereya 4 4 yoxla", "volume": 800, "cps": null, "parent": "azerlotereya 4 4 yoxla"}
 {"cc": "AZ", "lang": "az", "niche": "mobile_games", "keyword": "pubg redeem code", "volume": 800, "cps": null, "parent": "pubg mobile redeem code"}
@@ -143,6 +151,7 @@
 {"cc": "AZ", "lang": "az", "niche": "fights", "keyword": "ufc 333", "volume": 800, "cps": null, "parent": "ufc 333"}
 {"cc": "AZ", "lang": "az", "niche": "apk", "keyword": "astute beta server apk", "volume": 800, "cps": null, "parent": "astute beta server apk"}
 {"cc": "AZ", "lang": "az", "niche": "anime", "keyword": "anime girl", "volume": 800, "cps": 0.18, "parent": "anime girl"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "anime seks", "volume": 800, "cps": null, "parent": "anime seks"}
 {"cc": "AZ", "lang": "az", "niche": "sport_news", "keyword": "idman xəbərləri", "volume": 800, "cps": 1.55, "parent": "qol az"}
 {"cc": "AZ", "lang": "az", "niche": "mobile_games", "keyword": "free fire advance server", "volume": 800, "cps": null, "parent": "advance server"}
 {"cc": "AZ", "lang": "az", "niche": "apk", "keyword": "apk pure", "volume": 800, "cps": 1.02, "parent": "apkpure"}
@@ -318,6 +327,7 @@
 {"cc": "AZ", "lang": "az", "niche": "apk", "keyword": "minecraft apk son sürüm", "volume": 400, "cps": null, "parent": "minecraft indir"}
 {"cc": "AZ", "lang": "az", "niche": "tv", "keyword": "arb tv canlı izle", "volume": 400, "cps": 1.28, "parent": "arb canli"}
 {"cc": "AZ", "lang": "az", "niche": "apk", "keyword": "zefoy apk", "volume": 400, "cps": null, "parent": "zefoy apk"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "anime xxx", "volume": 400, "cps": null, "parent": "xxx anime"}
 {"cc": "AZ", "lang": "az", "niche": "mobile_games", "keyword": "brawl stars download pc", "volume": 400, "cps": null, "parent": "brawl stars download"}
 {"cc": "AZ", "lang": "az", "niche": "pc_games", "keyword": "1001 oyunlar oyna", "volume": 400, "cps": null, "parent": "oyunlar"}
 {"cc": "AZ", "lang": "az", "niche": "apk", "keyword": "süni intellekt proqramı yüklə", "volume": 400, "cps": null, "parent": "süni intellekt proqramı yüklə"}
@@ -763,6 +773,7 @@
 {"cc": "AZ", "lang": "az", "niche": "jobs", "keyword": "qarabağda iş elanları 2026", "volume": 1500, "cps": null, "parent": "qarabağda iş elanları 2026"}
 {"cc": "AZ", "lang": "az", "niche": "dreams", "keyword": "yuxuda toy gormek", "volume": 1500, "cps": 1.15, "parent": "yuxuda toy gormek"}
 {"cc": "AZ", "lang": "az", "niche": "jobs", "keyword": "tap az vakansiya", "volume": 1500, "cps": null, "parent": "iş elanları 2026"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "tek sexsiyet vesiqesiyle kredit", "volume": 1500, "cps": null, "parent": "tək şəxsiyyət vəsiqəsi ilə kredit"}
 {"cc": "AZ", "lang": "az", "niche": "jobs", "keyword": "sumqayıt vakansiya", "volume": 1500, "cps": null, "parent": "sumqayıt iş elanları"}
 {"cc": "AZ", "lang": "az", "niche": "tools", "keyword": "pptx to pdf", "volume": 1500, "cps": 1.19, "parent": "ppt to pdf"}
 {"cc": "AZ", "lang": "az", "niche": "loans", "keyword": "kontakt home kredit odenisi", "volume": 1500, "cps": null, "parent": "kontakt home kredit odenisi"}
@@ -985,12 +996,14 @@
 {"cc": "AZ", "lang": "az", "niche": "music", "keyword": "mp3 indir", "volume": 9900, "cps": 1.13, "parent": "mp3 indir"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "dolar manat", "volume": 9700, "cps": 0.69, "parent": "dollar manat"}
 {"cc": "AZ", "lang": "az", "niche": "weather", "keyword": "hava haqqında məlumat", "volume": 8300, "cps": 1.28, "parent": "hava proqnozu"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "erotik film", "volume": 8000, "cps": 1.74, "parent": "erotik filmler"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "valyuta məzənnəsi", "volume": 7900, "cps": 1.22, "parent": "banklarda valyuta məzənnəsi"}
 {"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "hd film izle", "volume": 7400, "cps": 1.37, "parent": "hdfilmcehennemi"}
 {"cc": "AZ", "lang": "az", "niche": "music", "keyword": "mp3", "volume": 6900, "cps": 0.99, "parent": "mp3 indir"}
 {"cc": "AZ", "lang": "az", "niche": "music", "keyword": "youtube to mp3", "volume": 6800, "cps": 1.22, "parent": "youtube to mp3"}
 {"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "hd film cehennemi", "volume": 6700, "cps": 1.07, "parent": "hdfilmcehennemi"}
 {"cc": "AZ", "lang": "az", "niche": "music", "keyword": "mp3 dönüştürücü", "volume": 6700, "cps": 1.52, "parent": "yt video indirme"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "porno film", "volume": 6700, "cps": 1.92, "parent": "порнофильмы"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "1000 tl kaç manat", "volume": 5800, "cps": null, "parent": "tl manat"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "manat dollar", "volume": 5500, "cps": 0.86, "parent": "manat dolar"}
 {"cc": "AZ", "lang": "az", "niche": "weather", "keyword": "bakı hava proqnozu", "volume": 5300, "cps": 1.41, "parent": "hava"}
@@ -1000,6 +1013,7 @@
 {"cc": "AZ", "lang": "az", "niche": "prayer", "keyword": "namaz vaxti baki", "volume": 4900, "cps": 1.14, "parent": "namaz vaxti"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "lari manat", "volume": 4800, "cps": 0.82, "parent": "lari azn"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "1 tl kaç manat", "volume": 4800, "cps": 0.52, "parent": "1 manat kaç tl"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "porno kino", "volume": 4600, "cps": 1.77, "parent": "порнофильмы"}
 {"cc": "AZ", "lang": "az", "niche": "music", "keyword": "yt mp3", "volume": 4400, "cps": 1.34, "parent": "ytmp3"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "avro manat", "volume": 4200, "cps": 0.76, "parent": "euro manat"}
 {"cc": "AZ", "lang": "az", "niche": "music", "keyword": "youtube mp3 converter", "volume": 4100, "cps": 1.35, "parent": "ytmp3"}
@@ -1043,6 +1057,7 @@
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "euro to manat", "volume": 2400, "cps": 0.48, "parent": "euro to azn"}
 {"cc": "AZ", "lang": "az", "niche": "prayer", "keyword": "namaz vaxtı bakı 2026", "volume": 2300, "cps": null, "parent": "namaz vaxtı bakı 2026"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "1 manat", "volume": 2300, "cps": 0.43, "parent": "1 manat kaç tl"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "seks kino", "volume": 2300, "cps": 1.87, "parent": "seks kinolar"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "1 dolar kaç manat", "volume": 2300, "cps": 0.6, "parent": "dollar manat"}
 {"cc": "AZ", "lang": "az", "niche": "music", "keyword": "mp3 download", "volume": 2200, "cps": 1.07, "parent": "mp3 download"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "100 manat kaç tl", "volume": 2200, "cps": 0.59, "parent": "100 manat kaç tl"}
@@ -1060,6 +1075,8 @@
 {"cc": "AZ", "lang": "az", "niche": "prayer", "keyword": "namaz vaxti gence", "volume": 1900, "cps": 1.04, "parent": "gence namaz vaxti"}
 {"cc": "AZ", "lang": "az", "niche": "music", "keyword": "youtube mp3 indirme", "volume": 1900, "cps": 1.81, "parent": "mp3 dönüştürücü"}
 {"cc": "AZ", "lang": "az", "niche": "weather", "keyword": "hava haqqinda melumat", "volume": 1900, "cps": 1.32, "parent": "hava"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "seks film", "volume": 1800, "cps": 1.43, "parent": "seks filmi"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "erotik film izle", "volume": 1800, "cps": 2.16, "parent": "filmler türkçe"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "tl manat çeviri", "volume": 1800, "cps": null, "parent": "tl manat"}
 {"cc": "AZ", "lang": "az", "niche": "music", "keyword": "youtube mp3 downloader", "volume": 1700, "cps": 1.29, "parent": "youtube mp3 dönüştürücü"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "manat to pkr", "volume": 1700, "cps": null, "parent": "manat to pkr"}
@@ -1070,6 +1087,8 @@
 {"cc": "AZ", "lang": "az", "niche": "prayer", "keyword": "namaz vaxti ehlibeyt", "volume": 1600, "cps": 1.19, "parent": "namaz vaxti ehlibeyt"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "rub manat", "volume": 1600, "cps": 0.63, "parent": "rubl manat"}
 {"cc": "AZ", "lang": "az", "niche": "weather", "keyword": "quba hava proqnozu", "volume": 1600, "cps": 1.16, "parent": "qubada hava"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "erotic film", "volume": 1600, "cps": 1.39, "parent": "erotic film"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "sex film", "volume": 1600, "cps": 1.33, "parent": "sex film"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "usd manat", "volume": 1600, "cps": 0.98, "parent": "dollar manat"}
 {"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "film izlesene", "volume": 1600, "cps": 1.1, "parent": "fullhdfilm"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "100 dolar kaç manat", "volume": 1600, "cps": 0.71, "parent": "100 dolar kaç manat"}
@@ -1077,6 +1096,7 @@
 {"cc": "AZ", "lang": "az", "niche": "music", "keyword": "youtube converter mp3", "volume": 1500, "cps": 1.52, "parent": "youtube mp3 dönüştürücü"}
 {"cc": "AZ", "lang": "az", "niche": "weather", "keyword": "neft daşları hava proqnozu", "volume": 1500, "cps": null, "parent": "neft daşları hava proqnozu"}
 {"cc": "AZ", "lang": "az", "niche": "prayer", "keyword": "namaz vaxtı bakı 2025", "volume": 1500, "cps": null, "parent": "namaz vaxtı bakı 2025"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "porn film", "volume": 1500, "cps": 1.45, "parent": "porn film"}
 {"cc": "AZ", "lang": "az", "niche": "music", "keyword": "yt to mp3", "volume": 1500, "cps": null, "parent": "youtube mp3"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "600 tl kaç manat", "volume": 1500, "cps": null, "parent": "600 tl kaç manat"}
 {"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "çizgi film karakterleri", "volume": 1500, "cps": 0.23, "parent": "çizgi film karakterleri"}
@@ -1087,13 +1107,16 @@
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "rus pulu manat", "volume": 1400, "cps": null, "parent": "rus rublu"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "1000 ruble kaç manat", "volume": 1400, "cps": null, "parent": "1000 rubl nece manatdir"}
 {"cc": "AZ", "lang": "az", "niche": "weather", "keyword": "celilabad 30 günlük hava proqnozu", "volume": 1400, "cps": null, "parent": "celilabad 30 günlük hava proqnozu"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "seksi kino", "volume": 1400, "cps": 1.44, "parent": "seks kino"}
 {"cc": "AZ", "lang": "az", "niche": "prayer", "keyword": "namaz vaxti bakı", "volume": 1400, "cps": null, "parent": "namaz vaxti"}
 {"cc": "AZ", "lang": "az", "niche": "weather", "keyword": "həftəlik hava proqnozu", "volume": 1400, "cps": 1.45, "parent": "hava"}
 {"cc": "AZ", "lang": "az", "niche": "football_live", "keyword": "canlı skor mobil futbol", "volume": 1400, "cps": null, "parent": "m.canliskor"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "seksi film", "volume": 1300, "cps": 1.35, "parent": "18+film"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "manat dolar", "volume": 1300, "cps": 0.88, "parent": "manat dolar"}
 {"cc": "AZ", "lang": "az", "niche": "weather", "keyword": "sumqayıt hava proqnozu", "volume": 1300, "cps": null, "parent": "sumqayıt hava proqnozu"}
 {"cc": "AZ", "lang": "az", "niche": "apk", "keyword": "youtube mp3 yükleme", "volume": 1300, "cps": null, "parent": "mp3 yukle"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "manat euro", "volume": 1300, "cps": 0.79, "parent": "manat euro"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "erotik kino", "volume": 1300, "cps": 2.3, "parent": "kino erotika"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "valyuta məzənnəsi bugün", "volume": 1300, "cps": null, "parent": "mezenne"}
 {"cc": "AZ", "lang": "az", "niche": "prayer", "keyword": "sumqayıt namaz vaxtı", "volume": 1300, "cps": null, "parent": "sumqayıt namaz vaxtı"}
 {"cc": "AZ", "lang": "az", "niche": "gold", "keyword": "bugünkü qızıl qiyməti", "volume": 1300, "cps": null, "parent": "bugünkü qızıl qiyməti"}
@@ -1116,6 +1139,7 @@
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "türk lirası manat", "volume": 1100, "cps": 0.81, "parent": "1 tl kaç manat"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "rubl manat mezenne", "volume": 1100, "cps": 1.02, "parent": "rubl manat"}
 {"cc": "AZ", "lang": "az", "niche": "football_live", "keyword": "canlı futbol", "volume": 1100, "cps": 1.2, "parent": "canlı skor"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "kino seks", "volume": 1100, "cps": 1.71, "parent": "seks kino"}
 {"cc": "AZ", "lang": "az", "niche": "prayer", "keyword": "namaz vaxti 2026", "volume": 1100, "cps": null, "parent": "namaz vaxti 2026"}
 {"cc": "AZ", "lang": "az", "niche": "weather", "keyword": "hava haqqında bakı 7 günlük", "volume": 1100, "cps": null, "parent": "hava haqqında bakı 7 günlük"}
 {"cc": "AZ", "lang": "az", "niche": "football_live", "keyword": "canlı skor futbol", "volume": 1100, "cps": null, "parent": "canlı skor"}
@@ -1125,6 +1149,7 @@
 {"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "full hd film izle", "volume": 1000, "cps": 1.24, "parent": "fullhdfilm"}
 {"cc": "AZ", "lang": "az", "niche": "music", "keyword": "ssstiktok mp3", "volume": 1000, "cps": null, "parent": "tiktok mp3"}
 {"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "film izlə", "volume": 1000, "cps": 1.07, "parent": "filim izle"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "18+ film", "volume": 1000, "cps": 1.38, "parent": "erotik film"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "dollar manat çeviri", "volume": 1000, "cps": null, "parent": "dolar manat"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "50000 tl kaç manat", "volume": 1000, "cps": null, "parent": "tl manat"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "100 euro kaç manat", "volume": 1000, "cps": null, "parent": "100 euro kaç manat"}
@@ -1178,6 +1203,7 @@
 {"cc": "AZ", "lang": "az", "niche": "loans", "keyword": "500 manat kredit götürmek", "volume": 800, "cps": null, "parent": "500 manat kredit götürmek"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "200 manat kaç tl", "volume": 700, "cps": null, "parent": "200 manat kaç tl"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "80 manat təqaüd", "volume": 700, "cps": null, "parent": "80 manat təqaüd"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "erotik filmlər", "volume": 700, "cps": 1.56, "parent": "erotik filimler"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "100 dollar to manat", "volume": 700, "cps": null, "parent": "100 dollar to azn"}
 {"cc": "AZ", "lang": "az", "niche": "prayer", "keyword": "namaz vaxti islam az", "volume": 700, "cps": null, "parent": "namaz vaxti"}
 {"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "culpa nuestra film", "volume": 700, "cps": null, "parent": "culpa nuestra film"}
@@ -1244,6 +1270,7 @@
 {"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "jasmine full film", "volume": 600, "cps": null, "parent": "jasmine full film"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "al manat", "volume": 600, "cps": null, "parent": "al manat"}
 {"cc": "AZ", "lang": "az", "niche": "prayer", "keyword": "namaz vaxtı lənkəran", "volume": 600, "cps": null, "parent": "namaz vaxti lenkeran"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "sexs film", "volume": 600, "cps": 1.66, "parent": "sexs film"}
 {"cc": "AZ", "lang": "az", "niche": "weather", "keyword": "astara 10 günlük hava proqnozu", "volume": 600, "cps": null, "parent": "astara 10 günlük hava proqnozu"}
 {"cc": "AZ", "lang": "az", "niche": "prayer", "keyword": "şəki namaz vaxtı", "volume": 600, "cps": null, "parent": "şəki namaz vaxtı"}
 {"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "hd film izle cehennem", "volume": 600, "cps": null, "parent": "hdfilmcehennemi"}
@@ -1275,6 +1302,7 @@
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "1700 tl kaç manat", "volume": 500, "cps": null, "parent": "1700 tl kaç manat"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "tez manat", "volume": 500, "cps": null, "parent": "tez manat"}
 {"cc": "AZ", "lang": "az", "niche": "loans", "keyword": "az manat kredit", "volume": 500, "cps": null, "parent": "az manat kredit"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "erotic film izle", "volume": 500, "cps": 1.67, "parent": "erotik film izle"}
 {"cc": "AZ", "lang": "az", "niche": "prayer", "keyword": "namaz vaxti 2024", "volume": 500, "cps": null, "parent": "namaz vaxti"}
 {"cc": "AZ", "lang": "az", "niche": "music", "keyword": "tt video download mp3", "volume": 500, "cps": null, "parent": "tt video download mp3"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "15 manat kaç tl", "volume": 500, "cps": null, "parent": "15 manat kaç tl"}
@@ -1288,6 +1316,7 @@
 {"cc": "AZ", "lang": "az", "niche": "loans", "keyword": "online kredit 500 manat bokt", "volume": 500, "cps": null, "parent": "500 manat kredit goturmek"}
 {"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "film siteleri", "volume": 500, "cps": 1.87, "parent": "hdfilmcehennemi"}
 {"cc": "AZ", "lang": "az", "niche": "prayer", "keyword": "namaz vaxtı şəki", "volume": 500, "cps": null, "parent": "namaz vaxtı şəki"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "seksi filmlər", "volume": 500, "cps": null, "parent": "erotik kinolar"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "2500 tl kaç manat", "volume": 500, "cps": null, "parent": "tl manat"}
 {"cc": "AZ", "lang": "az", "niche": "weather", "keyword": "şəki hava proqnozu", "volume": 500, "cps": null, "parent": "şəki hava proqnozu"}
 {"cc": "AZ", "lang": "az", "niche": "weather", "keyword": "ağdam hava proqnozu", "volume": 500, "cps": null, "parent": "ağdam hava proqnozu"}
@@ -1353,8 +1382,10 @@
 {"cc": "AZ", "lang": "az", "niche": "loans", "keyword": "50 manat kredit", "volume": 450, "cps": null, "parent": "50 azn kredit"}
 {"cc": "AZ", "lang": "az", "niche": "weather", "keyword": "hava haqqinda lerik 10 gunluk", "volume": 450, "cps": null, "parent": "hava haqqinda lerik 10 gunluk"}
 {"cc": "AZ", "lang": "az", "niche": "weather", "keyword": "masallı hava proqnozu", "volume": 450, "cps": null, "parent": "masallı hava durumu"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "film porno", "volume": 450, "cps": 2.08, "parent": "porno film"}
 {"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "yaz evi film", "volume": 450, "cps": null, "parent": "yaz evi film"}
 {"cc": "AZ", "lang": "az", "niche": "prayer", "keyword": "şirvan namaz vaxti", "volume": 450, "cps": null, "parent": "şirvan namaz vaxti"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "kino porno", "volume": 450, "cps": 1.71, "parent": "порнофильмы"}
 {"cc": "AZ", "lang": "az", "niche": "prayer", "keyword": "cəlilabad namaz vaxtı", "volume": 450, "cps": null, "parent": "cəlilabad namaz vaxtı"}
 {"cc": "AZ", "lang": "az", "niche": "weather", "keyword": "balakən hava proqnozu", "volume": 450, "cps": null, "parent": "balakən hava proqnozu"}
 {"cc": "AZ", "lang": "az", "niche": "weather", "keyword": "heftelik hava proqnozu", "volume": 450, "cps": 1.35, "parent": "heftelik hava proqnozu"}
@@ -1384,6 +1415,7 @@
 {"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "roza film", "volume": 400, "cps": null, "parent": "roza film"}
 {"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "sultana film", "volume": 400, "cps": null, "parent": "sultana film"}
 {"cc": "AZ", "lang": "az", "niche": "weather", "keyword": "bərdə hava proqnozu", "volume": 400, "cps": null, "parent": "bərdə hava proqnozu"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "sexy film", "volume": 400, "cps": 1.24, "parent": "sexy film"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "100.000 tl to manat", "volume": 400, "cps": null, "parent": "100.000 tl to manat"}
 {"cc": "AZ", "lang": "az", "niche": "weather", "keyword": "lerik ucun 25 günlük hava proqnozu", "volume": 400, "cps": null, "parent": "lerik ucun 25 günlük hava proqnozu"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "5 bin tl kaç manat", "volume": 400, "cps": null, "parent": "5 bin tl kaç manat"}
@@ -1402,6 +1434,7 @@
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "1800 tl kaç manat", "volume": 400, "cps": null, "parent": "tl manat"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "500 dolar kaç manat", "volume": 400, "cps": null, "parent": "500 dolar kaç tl"}
 {"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "365 days film 2", "volume": 400, "cps": null, "parent": "365 days film 2"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "sex kino", "volume": 400, "cps": 2.0, "parent": "sex kino"}
 {"cc": "AZ", "lang": "az", "niche": "prayer", "keyword": "bu günün namaz vaxtı", "volume": 400, "cps": null, "parent": "namaz vaxtı"}
 {"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "jasmin film", "volume": 400, "cps": null, "parent": "jasmin film"}
 {"cc": "AZ", "lang": "az", "niche": "music", "keyword": "convert to mp3", "volume": 400, "cps": 1.25, "parent": "youtube mp3 converter"}
@@ -1412,6 +1445,7 @@
 {"cc": "AZ", "lang": "az", "niche": "movies", "keyword": "hatıran yeter film izle", "volume": 400, "cps": null, "parent": "hatıran yeter film izle"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "350 tl kaç manat", "volume": 400, "cps": null, "parent": "tl manat"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "azercell kontur gondermek 10 manat", "volume": 400, "cps": null, "parent": "azercell kontur gondermek 10 manat"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "porno film izle", "volume": 400, "cps": 1.72, "parent": "porno filmi"}
 {"cc": "AZ", "lang": "az", "niche": "loans", "keyword": "kapital bank 2000 manat kredit", "volume": 400, "cps": null, "parent": "kapital bank 2000 manat kredit"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "60 manat kaç tl", "volume": 400, "cps": null, "parent": "60 manat kaç tl"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "40 manat kaç tl", "volume": 400, "cps": null, "parent": "40 manat kaç tl"}
@@ -1419,9 +1453,11 @@
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "valyuta məzənnəsi banklar", "volume": 400, "cps": null, "parent": "mezenne"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "30 bin tl kaç manat", "volume": 400, "cps": null, "parent": "30 bin tl kaç manat"}
 {"cc": "AZ", "lang": "az", "niche": "weather", "keyword": "sabaha hava proqnozu", "volume": 400, "cps": 1.24, "parent": "hava proqnozu"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "18+film 2024", "volume": 400, "cps": null, "parent": "18+film 2024"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "5 dolar kaç manat", "volume": 400, "cps": null, "parent": "5 dolar kaç manat"}
 {"cc": "AZ", "lang": "az", "niche": "loans", "keyword": "tecili 100 manat kredit", "volume": 400, "cps": null, "parent": "tecili 100 manat kredit"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "20 dolar kaç manat", "volume": 400, "cps": null, "parent": "20 dollar nece manatdir"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "18+film", "volume": 400, "cps": 1.3, "parent": "18+ film"}
 {"cc": "AZ", "lang": "az", "niche": "weather", "keyword": "hava proqnozu berde", "volume": 400, "cps": null, "parent": "hava proqnozu berde"}
 {"cc": "AZ", "lang": "az", "niche": "weather", "keyword": "quba hava haqqında", "volume": 350, "cps": null, "parent": "quba hava haqqında"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "2 milyon tl kaç manat", "volume": 350, "cps": null, "parent": "2000 tl to azn"}
@@ -1495,6 +1531,7 @@
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "tl cevir manat", "volume": 350, "cps": null, "parent": "tl manat"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "60000 tl kaç manat", "volume": 350, "cps": null, "parent": "60000 tl kaç manat"}
 {"cc": "AZ", "lang": "az", "niche": "prayer", "keyword": "yevlax namaz vaxti", "volume": 350, "cps": null, "parent": "yevlax azan vaxti"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "erotika film", "volume": 300, "cps": 2.18, "parent": "sekis filim"}
 {"cc": "AZ", "lang": "az", "niche": "prayer", "keyword": "namaz vaxtı gence", "volume": 300, "cps": null, "parent": "gence namaz vaxti"}
 {"cc": "AZ", "lang": "az", "niche": "prayer", "keyword": "astara namaz vaxtı", "volume": 300, "cps": null, "parent": "astara namaz vaxtı"}
 {"cc": "AZ", "lang": "az", "niche": "football_live", "keyword": "futbol canlı izle", "volume": 300, "cps": null, "parent": "cbc sport canli"}
@@ -1513,6 +1550,7 @@
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "5 milyon tl kaç manat", "volume": 300, "cps": null, "parent": "tl manat"}
 {"cc": "AZ", "lang": "az", "niche": "music", "keyword": "yt mp3 download", "volume": 300, "cps": null, "parent": "yutub mp3"}
 {"cc": "AZ", "lang": "az", "niche": "loans", "keyword": "azpulmat 1500 manat kredit", "volume": 300, "cps": null, "parent": "azpulmat 1500 manat kredit"}
+{"cc": "AZ", "lang": "az", "niche": "adult", "keyword": "18+ film izle", "volume": 300, "cps": 1.76, "parent": "erotik film izle"}
 {"cc": "AZ", "lang": "az", "niche": "prayer", "keyword": "namaz vaxti şəki", "volume": 300, "cps": null, "parent": "şəki namaz vaxtı"}
 {"cc": "AZ", "lang": "az", "niche": "weather", "keyword": "10 günlük hava proqnozu", "volume": 300, "cps": null, "parent": "hava"}
 {"cc": "AZ", "lang": "az", "niche": "currency", "keyword": "pound manat", "volume": 300, "cps": null, "parent": "gbp to azn"}
@@ -1624,8 +1662,10 @@
 {"cc": "AZ", "lang": "ru", "niche": "football_data", "keyword": "ювентус турнирная таблица", "volume": 700, "cps": null, "parent": "ювентус турнирная таблица"}
 {"cc": "AZ", "lang": "ru", "niche": "fights", "keyword": "юфс", "volume": 700, "cps": null, "parent": "ufc"}
 {"cc": "AZ", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид – алавес", "volume": 700, "cps": null, "parent": "реал мадрид – алавес"}
+{"cc": "AZ", "lang": "ru", "niche": "adult", "keyword": "хентай манга", "volume": 700, "cps": 1.21, "parent": "хентай манга"}
 {"cc": "AZ", "lang": "ru", "niche": "football_data", "keyword": "интер майами турнирная таблица", "volume": 700, "cps": null, "parent": "интер майами – нэшвилл"}
 {"cc": "AZ", "lang": "ru", "niche": "football_data", "keyword": "тоттенхэм турнирная таблица", "volume": 700, "cps": null, "parent": "тоттенхэм турнирная таблица"}
+{"cc": "AZ", "lang": "ru", "niche": "adult", "keyword": "порно аниме", "volume": 700, "cps": 1.31, "parent": "anime porno"}
 {"cc": "AZ", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид – фиорентина", "volume": 600, "cps": null, "parent": "реал мадрид – фиорентина"}
 {"cc": "AZ", "lang": "ru", "niche": "tv", "keyword": "ictimai tv прямой эфир", "volume": 600, "cps": null, "parent": "ictimai tv прямой эфир"}
 {"cc": "AZ", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид – сельта", "volume": 600, "cps": null, "parent": "реал мадрид – сельта"}
@@ -1643,6 +1683,7 @@
 {"cc": "AZ", "lang": "ru", "niche": "football_data", "keyword": "барселона – атлетико мадрид статистика", "volume": 600, "cps": null, "parent": "барселона – атлетико мадрид статистика"}
 {"cc": "AZ", "lang": "az", "niche": "mobile_games", "keyword": "standoff 2", "volume": 600, "cps": 0.39, "parent": "standoff 2"}
 {"cc": "AZ", "lang": "ru", "niche": "football_data", "keyword": "аль-наср турнирная таблица", "volume": 600, "cps": null, "parent": "чемпионат саудовской аравии"}
+{"cc": "AZ", "lang": "ru", "niche": "adult", "keyword": "аниме порно", "volume": 600, "cps": 0.97, "parent": "anime porno"}
 {"cc": "AZ", "lang": "ru", "niche": "football_data", "keyword": "карабах – араз-нахчыван турнирная таблица", "volume": 600, "cps": null, "parent": "карабах – араз-нахчыван турнирная таблица"}
 {"cc": "AZ", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид – манчестер сити составы", "volume": 600, "cps": null, "parent": "реал мадрид – манчестер сити составы"}
 {"cc": "AZ", "lang": "ru", "niche": "football_data", "keyword": "mls турнирная таблица", "volume": 600, "cps": null, "parent": "млс"}
@@ -2017,6 +2058,7 @@
 {"cc": "AZ", "lang": "ru", "niche": "weather", "keyword": "погода в баку на завтра", "volume": 5100, "cps": 0.7, "parent": "погода завтра"}
 {"cc": "AZ", "lang": "ru", "niche": "weather", "keyword": "погода хырдалан", "volume": 4000, "cps": null, "parent": "погода хырдалан"}
 {"cc": "AZ", "lang": "ru", "niche": "weather", "keyword": "погода сумгаит", "volume": 4000, "cps": null, "parent": "погода сумгаит"}
+{"cc": "AZ", "lang": "ru", "niche": "adult", "keyword": "порно фильмы", "volume": 4000, "cps": 1.72, "parent": "порнофильмы"}
 {"cc": "AZ", "lang": "ru", "niche": "prayer", "keyword": "время намаза в баку", "volume": 4000, "cps": 1.2, "parent": "время намаза в баку"}
 {"cc": "AZ", "lang": "ru", "niche": "football_live", "keyword": "футбол онлайн", "volume": 3600, "cps": 1.28, "parent": "футбол онлайн"}
 {"cc": "AZ", "lang": "ru", "niche": "weather", "keyword": "погода гянджа", "volume": 3500, "cps": 0.65, "parent": "погода в гяндже"}
@@ -2043,6 +2085,7 @@
 {"cc": "AZ", "lang": "ru", "niche": "weather", "keyword": "погода завтра баку", "volume": 1600, "cps": null, "parent": "погода завтра"}
 {"cc": "AZ", "lang": "ru", "niche": "weather", "keyword": "погода в баку на 3 дня", "volume": 1600, "cps": 0.71, "parent": "погода в баку на 3 дня"}
 {"cc": "AZ", "lang": "ru", "niche": "weather", "keyword": "погода в кусарах", "volume": 1500, "cps": 1.27, "parent": "погода в кусарах"}
+{"cc": "AZ", "lang": "ru", "niche": "adult", "keyword": "порно фильм", "volume": 1400, "cps": 1.53, "parent": "порнофильмы"}
 {"cc": "AZ", "lang": "ru", "niche": "movies", "keyword": "смотреть фильмы онлайн", "volume": 1300, "cps": 1.1, "parent": "фильмы"}
 {"cc": "AZ", "lang": "ru", "niche": "weather", "keyword": "погода в баку сегодня", "volume": 1200, "cps": 0.52, "parent": "погода в баку"}
 {"cc": "AZ", "lang": "ru", "niche": "weather", "keyword": "погода сегодня", "volume": 1200, "cps": null, "parent": "gismeteo baku"}
@@ -2084,12 +2127,14 @@
 {"cc": "AZ", "lang": "ru", "niche": "weather", "keyword": "погода болади", "volume": 700, "cps": null, "parent": "погода болади"}
 {"cc": "AZ", "lang": "ru", "niche": "weather", "keyword": "погода гёйчайский район", "volume": 700, "cps": null, "parent": "погода гёйчайский район"}
 {"cc": "AZ", "lang": "ru", "niche": "prayer", "keyword": "намаз вахты баку", "volume": 700, "cps": null, "parent": "время намаза в баку"}
+{"cc": "AZ", "lang": "ru", "niche": "adult", "keyword": "эротические фильмы", "volume": 700, "cps": 2.1, "parent": "эротические фильмы"}
 {"cc": "AZ", "lang": "ru", "niche": "currency", "keyword": "курс рубля в азербайджане", "volume": 600, "cps": 1.3, "parent": "рубли в манаты"}
 {"cc": "AZ", "lang": "ru", "niche": "weather", "keyword": "погода нидж", "volume": 600, "cps": null, "parent": "погода габала нидж"}
 {"cc": "AZ", "lang": "ru", "niche": "weather", "keyword": "погода завтра в баку", "volume": 600, "cps": null, "parent": "погода завтра"}
 {"cc": "AZ", "lang": "ru", "niche": "movies", "keyword": "индийские фильмы 2026", "volume": 600, "cps": null, "parent": "индийские фильмы 2026"}
 {"cc": "AZ", "lang": "ru", "niche": "weather", "keyword": "погода ясаб", "volume": 600, "cps": null, "parent": "погода ясаб"}
 {"cc": "AZ", "lang": "ru", "niche": "weather", "keyword": "погода кухуроба", "volume": 600, "cps": null, "parent": "прогноз погоды кухуроба"}
+{"cc": "AZ", "lang": "ru", "niche": "adult", "keyword": "секс фильм", "volume": 600, "cps": 1.72, "parent": "порнофильмы"}
 {"cc": "AZ", "lang": "ru", "niche": "weather", "keyword": "погода гёйтепе", "volume": 600, "cps": null, "parent": "погода гёйтепе"}
 {"cc": "AZ", "lang": "ru", "niche": "weather", "keyword": "погода евлах", "volume": 600, "cps": null, "parent": "погода евлах"}
 {"cc": "AZ", "lang": "ru", "niche": "currency", "keyword": "курс рубля график", "volume": 600, "cps": null, "parent": "доллар рубль"}
@@ -2134,6 +2179,7 @@
 {"cc": "AZ", "lang": "ru", "niche": "weather", "keyword": "погода алят", "volume": 400, "cps": null, "parent": "погода алят"}
 {"cc": "AZ", "lang": "az", "niche": "weather", "keyword": "погода atyali", "volume": 400, "cps": null, "parent": "погода atyali"}
 {"cc": "AZ", "lang": "ru", "niche": "weather", "keyword": "погода нардаран", "volume": 400, "cps": null, "parent": "погода нардаран"}
+{"cc": "AZ", "lang": "ru", "niche": "adult", "keyword": "секс фильмы", "volume": 400, "cps": 1.5, "parent": "порнофильмы"}
 {"cc": "AZ", "lang": "ru", "niche": "movies", "keyword": "смотреть фильм", "volume": 400, "cps": 0.73, "parent": "фильмы"}
 {"cc": "AZ", "lang": "ru", "niche": "prayer", "keyword": "время намаза баку 5 намаз", "volume": 400, "cps": null, "parent": "время намаза баку 5 намаз"}
 {"cc": "AZ", "lang": "ru", "niche": "weather", "keyword": "погода в шахдаге", "volume": 400, "cps": null, "parent": "погода в шахдаге"}
@@ -2246,6 +2292,7 @@
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "лига чемпионов уефа", "volume": 34000, "cps": 0.3, "parent": "лч"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "лига чемпионов уефа игры", "volume": 32000, "cps": null, "parent": "лига чемпионов уефа игры"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "ла лига турнирная таблица", "volume": 31000, "cps": null, "parent": "ла лига"}
+{"cc": "KG", "lang": "ru", "niche": "adult", "keyword": "хентай манга", "volume": 29000, "cps": 1.29, "parent": "хентай манга"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид турнирная таблица", "volume": 24000, "cps": null, "parent": "реал мадрид таблица"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид игры", "volume": 24000, "cps": null, "parent": "реал мадрид игры"}
 {"cc": "KG", "lang": "ru", "niche": "anime", "keyword": "манга", "volume": 22000, "cps": 0.84, "parent": "манга"}
@@ -2255,6 +2302,7 @@
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "аль-наср турнирная таблица", "volume": 15000, "cps": null, "parent": "аль-наср турнирная таблица"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "барселона игры", "volume": 15000, "cps": null, "parent": "барселона игры"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид игроки", "volume": 14000, "cps": null, "parent": "состав реал мадрид"}
+{"cc": "KG", "lang": "ru", "niche": "adult", "keyword": "порно аниме", "volume": 12000, "cps": 1.31, "parent": "хентай"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "атлетико мадрид – барселона", "volume": 11000, "cps": null, "parent": "барселона – атлетико мадрид"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "серия а турнирная таблица", "volume": 11000, "cps": null, "parent": "серия а турнирная таблица"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид – райо вальекано", "volume": 9800, "cps": null, "parent": "реал мадрид – райо вальекано"}
@@ -2265,6 +2313,7 @@
 {"cc": "KG", "lang": "ru", "niche": "mobile_games", "keyword": "free fire", "volume": 8400, "cps": 0.61, "parent": "free fire"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид – атлетико мадрид", "volume": 8000, "cps": null, "parent": "реал мадрид – атлетико мадрид статистика"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "барселона – атлетико мадрид", "volume": 8000, "cps": null, "parent": "барселона – атлетико мадрид"}
+{"cc": "KG", "lang": "ru", "niche": "adult", "keyword": "аниме порно", "volume": 7800, "cps": 1.27, "parent": "хентай"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид – реал сосьедад", "volume": 7600, "cps": null, "parent": "реал сосьедад – реал мадрид"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "лига чемпионов уефа статистика", "volume": 7300, "cps": null, "parent": "лига чемпионов уефа статистика"}
 {"cc": "KG", "lang": "ru", "niche": "apk", "keyword": "pinduoduo скачать на андроид", "volume": 7300, "cps": null, "parent": "пиндуодуо"}
@@ -2279,7 +2328,9 @@
 {"cc": "KG", "lang": "ru", "niche": "mobile_games", "keyword": "brawl stars", "volume": 6100, "cps": 0.75, "parent": "brawl stars"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "ливерпуль – реал мадрид составы", "volume": 5900, "cps": null, "parent": "реал мадрид – ливерпуль составы"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид – бавария", "volume": 5800, "cps": null, "parent": "бавария игры"}
+{"cc": "KG", "lang": "ru", "niche": "adult", "keyword": "секс аниме", "volume": 5700, "cps": 1.06, "parent": "аниме секс"}
 {"cc": "KG", "lang": "ru", "niche": "apk", "keyword": "тока бока взлом скачать", "volume": 5700, "cps": null, "parent": "toca boca взлом"}
+{"cc": "KG", "lang": "ru", "niche": "adult", "keyword": "аниме секс", "volume": 5700, "cps": 1.06, "parent": "секс аниме"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "манчестер сити – реал мадрид составы", "volume": 5500, "cps": null, "parent": "манчестер сити – реал мадрид составы"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "шальке 04 – реал мадрид", "volume": 5500, "cps": null, "parent": "шальке 04 – реал мадрид"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "реал бетис – реал мадрид", "volume": 5400, "cps": null, "parent": "реал бетис – реал мадрид"}
@@ -2330,6 +2381,7 @@
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид – фиорентина", "volume": 3500, "cps": null, "parent": "реал мадрид – фиорентина"}
 {"cc": "KG", "lang": "ru", "niche": "sport_news", "keyword": "новости спорта", "volume": 3500, "cps": 1.09, "parent": "новости спорта"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "суперлига узбекистана турнирная таблица", "volume": 3400, "cps": null, "parent": "суперлига узбекистана турнирная таблица"}
+{"cc": "KG", "lang": "ru", "niche": "adult", "keyword": "порно манга", "volume": 3400, "cps": null, "parent": "хентай манга"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "атлетико мадрид – реал сосьедад", "volume": 3400, "cps": null, "parent": "атлетико мадрид – реал сосьедад"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "лига 1 турнирная таблица", "volume": 3400, "cps": null, "parent": "лига 1"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "барселона – фейеноорд", "volume": 3200, "cps": null, "parent": "барселона – фейеноорд"}
@@ -2386,10 +2438,13 @@
 {"cc": "KG", "lang": "ru", "niche": "mobile_games", "keyword": "промокод фифа", "volume": 2100, "cps": null, "parent": "промокод фифа"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "валенсия (футбольный клуб) – барселона составы", "volume": 2100, "cps": null, "parent": "валенсия (футбольный клуб) – барселона составы"}
 {"cc": "KG", "lang": "ru", "niche": "mobile_games", "keyword": "null's brawl stars", "volume": 2100, "cps": null, "parent": "null's brawl"}
+{"cc": "KG", "lang": "ru", "niche": "adult", "keyword": "ххх аниме", "volume": 2000, "cps": null, "parent": "ххх аниме"}
 {"cc": "KG", "lang": "ru", "niche": "apk", "keyword": "бравл старс взлом", "volume": 2000, "cps": null, "parent": "бравл старс"}
+{"cc": "KG", "lang": "ru", "niche": "adult", "keyword": "аниме ххх", "volume": 2000, "cps": null, "parent": "ххх аниме"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "хетафе – барселона", "volume": 2000, "cps": null, "parent": "барса хетафе"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "лига чемпионов уефа турнирная сетка", "volume": 2000, "cps": null, "parent": "лига чемпионов уефа турнирная сетка"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "барселона – реал мадрид турнирная таблица", "volume": 2000, "cps": null, "parent": "реал мадрид – барселона"}
+{"cc": "KG", "lang": "ru", "niche": "adult", "keyword": "аниме хентай", "volume": 2000, "cps": 1.33, "parent": "хентай"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "атлетико мадрид турнирная таблица", "volume": 2000, "cps": null, "parent": "атлетико мадрид турнирная таблица"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "эльче – барселона составы", "volume": 1900, "cps": null, "parent": "эльче – барселона составы"}
 {"cc": "KG", "lang": "ru", "niche": "apk", "keyword": "скачать тока бока взлом", "volume": 1900, "cps": null, "parent": "тока бока взлом"}
@@ -2408,6 +2463,7 @@
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "расписание матчей чм 2026", "volume": 1700, "cps": null, "parent": "расписание матчей чм 2026"}
 {"cc": "KG", "lang": "ru", "niche": "mobile_games", "keyword": "standoff 2", "volume": 1700, "cps": null, "parent": "standoff 2"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид – хетафе составы", "volume": 1700, "cps": null, "parent": "хетафе – реал мадрид составы"}
+{"cc": "KG", "lang": "ru", "niche": "adult", "keyword": "манга 18+", "volume": 1700, "cps": null, "parent": "манга 18+"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "фк барселона", "volume": 1700, "cps": 1.04, "parent": "фк барселона"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "барселона – реал мадрид матчи", "volume": 1700, "cps": null, "parent": "реал мадрид – барселона"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "мальорка – реал мадрид составы", "volume": 1700, "cps": null, "parent": "мальорка – реал мадрид составы"}
@@ -2450,6 +2506,8 @@
 {"cc": "KG", "lang": "ru", "niche": "apk", "keyword": "скачать toca boca взлом", "volume": 1400, "cps": null, "parent": "toca boca взлом"}
 {"cc": "KG", "lang": "ru", "niche": "apk", "keyword": "пиндодо скачать на андроид", "volume": 1400, "cps": null, "parent": "пиндодо скачать на андроид"}
 {"cc": "KG", "lang": "ru", "niche": "anime", "keyword": "аниме 2026", "volume": 1400, "cps": null, "parent": "аниме 2026"}
+{"cc": "KG", "lang": "ru", "niche": "adult", "keyword": "порно прямой эфир", "volume": 1400, "cps": null, "parent": "порно прямой эфир"}
+{"cc": "KG", "lang": "ru", "niche": "adult", "keyword": "аниме 18+", "volume": 1400, "cps": null, "parent": "аниме 18+"}
 {"cc": "KG", "lang": "ru", "niche": "anime", "keyword": "волейбол аниме", "volume": 1400, "cps": 0.88, "parent": "волейбол аниме"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "сборная аргентины по футболу турнирная таблица", "volume": 1400, "cps": null, "parent": "чемпионат аргентины по футболу турнирная таблица"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "барселона – леванте составы", "volume": 1300, "cps": null, "parent": "барселона – леванте составы"}
@@ -2497,9 +2555,11 @@
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "чм 2026 турнирная таблица", "volume": 1100, "cps": null, "parent": "чм 2026 турнирная таблица"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид бенфика", "volume": 1100, "cps": null, "parent": "реал мадрид бенфика"}
 {"cc": "KG", "lang": "ru", "niche": "anime", "keyword": "фото аниме", "volume": 1000, "cps": null, "parent": "аниме фото"}
+{"cc": "KG", "lang": "ru", "niche": "adult", "keyword": "секс прямой эфир", "volume": 1000, "cps": null, "parent": "порно эфир"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "турнирная таблица апл", "volume": 1000, "cps": 0.48, "parent": "английская премьер-лига турнирная таблица"}
 {"cc": "KG", "lang": "ru", "niche": "anime", "keyword": "аниме волейбол", "volume": 1000, "cps": 0.44, "parent": "волейбол аниме"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "первая лига россии по футболу турнирная таблица", "volume": 1000, "cps": null, "parent": "первая лига россии по футболу турнирная таблица"}
+{"cc": "KG", "lang": "ru", "niche": "adult", "keyword": "манга хентай", "volume": 1000, "cps": null, "parent": "хентай манга"}
 {"cc": "KG", "lang": "ru", "niche": "tv", "keyword": "элтр прямой эфир осман", "volume": 1000, "cps": null, "parent": "элтр прямой эфир осман"}
 {"cc": "KG", "lang": "ru", "niche": "apk", "keyword": "фф взлом", "volume": 1000, "cps": null, "parent": "фф взлом"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "эльче – реал мадрид турнирная таблица", "volume": 1000, "cps": null, "parent": "эльче – реал мадрид турнирная таблица"}
@@ -2559,6 +2619,7 @@
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "эспаньол – барселона", "volume": 800, "cps": null, "parent": "барселона – эспаньол"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "ференцварош – реал мадрид статистика", "volume": 800, "cps": null, "parent": "ференцварош – реал мадрид статистика"}
 {"cc": "KG", "lang": "ru", "niche": "fights", "keyword": "юфс сегодня", "volume": 800, "cps": null, "parent": "новости юфс"}
+{"cc": "KG", "lang": "ru", "niche": "adult", "keyword": "хентай аниме", "volume": 800, "cps": 1.7, "parent": "хентай"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид – райо вальекано хронология", "volume": 800, "cps": null, "parent": "реал мадрид – райо вальекано хронология"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид – вильярреал турнирная таблица", "volume": 800, "cps": null, "parent": "вильярреал – реал мадрид"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид – атлетико мадрид статистика", "volume": 800, "cps": null, "parent": "реал мадрид – атлетик"}
@@ -2588,6 +2649,7 @@
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "атлетико мадрид – реал бетис", "volume": 700, "cps": null, "parent": "реал бетис – атлетико мадрид составы"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "астон вилла – манчестер сити турнирная таблица", "volume": 700, "cps": null, "parent": "астон вилла – манчестер сити турнирная таблица"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид – атлетик бильбао составы", "volume": 700, "cps": null, "parent": "реал мадрид – атлетик бильбао составы"}
+{"cc": "KG", "lang": "ru", "niche": "adult", "keyword": "гей порно аниме", "volume": 700, "cps": null, "parent": "гей порно аниме"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "ньюкасл юнайтед – барселона статистика", "volume": 700, "cps": null, "parent": "ньюкасл юнайтед – барселона статистика"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "аль-халидж – аль-наср турнирная таблица", "volume": 700, "cps": null, "parent": "аль-халидж – аль-наср турнирная таблица"}
 {"cc": "KG", "lang": "ru", "niche": "anime", "keyword": "аниме о моём перерождении в слизь", "volume": 700, "cps": null, "parent": "аниме о моём перерождении в слизь"}
@@ -2599,16 +2661,19 @@
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "нхл турнирная таблица", "volume": 700, "cps": null, "parent": "нхл турнирная таблица"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "барселона – реал бетис составы", "volume": 700, "cps": null, "parent": "бетис барселона"}
 {"cc": "KG", "lang": "ru", "niche": "esports", "keyword": "прицелы кс 2", "volume": 700, "cps": null, "parent": "прицелы кс 2"}
+{"cc": "KG", "lang": "ru", "niche": "adult", "keyword": "аниме гей порно", "volume": 700, "cps": null, "parent": "гей порно аниме"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "фк челси – барселона статистика", "volume": 700, "cps": null, "parent": "фк челси – барселона статистика"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "лига чемпионов афк", "volume": 700, "cps": null, "parent": "лига чемпионов афк"}
 {"cc": "KG", "lang": "ru", "niche": "apk", "keyword": "роблокс взлом", "volume": 700, "cps": null, "parent": "роблокс взлом"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "казахстанская премьер-лига турнирная таблица", "volume": 700, "cps": null, "parent": "казахстанская премьер-лига турнирная таблица"}
 {"cc": "KG", "lang": "ru", "niche": "apk", "keyword": "хепи мод", "volume": 700, "cps": null, "parent": "happymod скачать"}
+{"cc": "KG", "lang": "ru", "niche": "adult", "keyword": "порна аниме", "volume": 700, "cps": null, "parent": "аниме секс"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "галатасарай – барселона", "volume": 700, "cps": null, "parent": "галатасарай – барселона"}
 {"cc": "KG", "lang": "ru", "niche": "anime", "keyword": "яой аниме", "volume": 700, "cps": null, "parent": "яой аниме"}
 {"cc": "KG", "lang": "ru", "niche": "mobile_games", "keyword": "free fire скачать", "volume": 700, "cps": 0.81, "parent": "фф"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "чемпионат бразилии турнирная таблица", "volume": 700, "cps": null, "parent": "бразилия футбол"}
 {"cc": "KG", "lang": "ru", "niche": "football_data", "keyword": "барселона – фейеноорд составы", "volume": 700, "cps": null, "parent": "барселона – фейеноорд составы"}
+{"cc": "KG", "lang": "ru", "niche": "adult", "keyword": "порно игры скачать", "volume": 700, "cps": null, "parent": "порно игры"}
 {"cc": "KG", "lang": "ru", "niche": "translate", "keyword": "переводчик", "volume": 933000, "cps": 0.2, "parent": "переводчик"}
 {"cc": "KG", "lang": "ru", "niche": "translate", "keyword": "переводчик с кыргызского на русский", "volume": 94000, "cps": 1.12, "parent": "переводчик с русского на кыргызский"}
 {"cc": "KG", "lang": "ru", "niche": "translate", "keyword": "переводчик с английского на русский", "volume": 89000, "cps": 0.25, "parent": "переводчик"}
@@ -2886,6 +2951,7 @@
 {"cc": "KG", "lang": "ru", "niche": "translate", "keyword": "английский кыргызский перевод", "volume": 800, "cps": null, "parent": "английский кыргызский переводчик"}
 {"cc": "KG", "lang": "ru", "niche": "recipes", "keyword": "винегрет рецепт", "volume": 800, "cps": 0.84, "parent": "винегрет"}
 {"cc": "KG", "lang": "ru", "niche": "translate", "keyword": "перевод русский кыргызский", "volume": 800, "cps": null, "parent": "переводчик с кыргызского на русский"}
+{"cc": "KG", "lang": "ru", "niche": "adult", "keyword": "порно перевод", "volume": 800, "cps": null, "parent": "порно фильмы"}
 {"cc": "KG", "lang": "ru", "niche": "phones", "keyword": "renault samsung sm6", "volume": 800, "cps": null, "parent": "renault samsung sm6"}
 {"cc": "KG", "lang": "ru", "niche": "horoscope", "keyword": "совместимость по дате рождения", "volume": 800, "cps": 1.36, "parent": "совместимость по дате рождения"}
 {"cc": "KG", "lang": "ru", "niche": "greetings", "keyword": "открытки с днем рождения", "volume": 800, "cps": 0.38, "parent": "открытка с днём рождения"}
@@ -3057,6 +3123,7 @@
 {"cc": "KG", "lang": "ru", "niche": "weather", "keyword": "погода кадамжай", "volume": 9800, "cps": 0.36, "parent": "погода кадамжай"}
 {"cc": "KG", "lang": "ru", "niche": "weather", "keyword": "погода токмок", "volume": 9800, "cps": null, "parent": "погода кошой"}
 {"cc": "KG", "lang": "ru", "niche": "weather", "keyword": "погода на сегодня бишкек", "volume": 9800, "cps": 0.46, "parent": "внимание: ветер"}
+{"cc": "KG", "lang": "ru", "niche": "adult", "keyword": "порно фильмы", "volume": 9700, "cps": 1.57, "parent": "порно фильмы"}
 {"cc": "KG", "lang": "ru", "niche": "weather", "keyword": "погода нарай", "volume": 9600, "cps": null, "parent": "погода нарай"}
 {"cc": "KG", "lang": "ru", "niche": "weather", "keyword": "погода кочкор ата", "volume": 9500, "cps": null, "parent": "погода кочкор-ата"}
 {"cc": "KG", "lang": "ru", "niche": "weather", "keyword": "погода город ош", "volume": 9100, "cps": 0.79, "parent": "погода ош"}
@@ -3126,6 +3193,7 @@
 {"cc": "KG", "lang": "ru", "niche": "weather", "keyword": "какая завтра погода", "volume": 4400, "cps": null, "parent": "пагода бишкек завтра"}
 {"cc": "KG", "lang": "ru", "niche": "currency", "keyword": "курс доллара к сому на сегодня бишкек", "volume": 4300, "cps": null, "parent": "курс доллара к сому"}
 {"cc": "KG", "lang": "ru", "niche": "weather", "keyword": "погода бишкек яндекс", "volume": 4300, "cps": 1.23, "parent": "яндекс погода бишкек"}
+{"cc": "KG", "lang": "ru", "niche": "adult", "keyword": "эротические фильмы", "volume": 4200, "cps": 2.05, "parent": "фильмы для взрослых"}
 {"cc": "KG", "lang": "ru", "niche": "weather", "keyword": "погода бостери", "volume": 4200, "cps": 0.9, "parent": "погода в бостери на август"}
 {"cc": "KG", "lang": "ru", "niche": "movies", "keyword": "лучшие новые фильмы", "volume": 4200, "cps": null, "parent": "лучшие новые фильмы"}
 {"cc": "KG", "lang": "ru", "niche": "weather", "keyword": "погода узген 30 дней точный", "volume": 4200, "cps": null, "parent": "погода узген 30 дней точный"}
@@ -3165,6 +3233,7 @@
 {"cc": "KG", "lang": "ru", "niche": "weather", "keyword": "погода ооган талаа", "volume": 3500, "cps": null, "parent": "погода ооган талаа"}
 {"cc": "KG", "lang": "ru", "niche": "weather", "keyword": "погода ош 14 дней", "volume": 3500, "cps": null, "parent": "погода ош 15 дней"}
 {"cc": "KG", "lang": "ru", "niche": "currency", "keyword": "курс доллара к вону", "volume": 3500, "cps": null, "parent": "курс доллара к вону"}
+{"cc": "KG", "lang": "ru", "niche": "adult", "keyword": "порно фильм", "volume": 3500, "cps": 1.55, "parent": "порно фильмы"}
 {"cc": "KG", "lang": "ru", "niche": "weather", "keyword": "погода орозбеково", "volume": 3500, "cps": null, "parent": "погода орозбеково"}
 {"cc": "KG", "lang": "ru", "niche": "weather", "keyword": "погода кант", "volume": 3500, "cps": 0.58, "parent": "погода кант"}
 {"cc": "KG", "lang": "ru", "niche": "currency", "keyword": "курс валют бишкек моссовет", "volume": 3400, "cps": null, "parent": "курс рубля"}
@@ -3189,6 +3258,7 @@
 {"cc": "KG", "lang": "ru", "niche": "weather", "keyword": "погода большевик", "volume": 3100, "cps": null, "parent": "погода большевик"}
 {"cc": "KG", "lang": "ru", "niche": "weather", "keyword": "погода сейчас", "volume": 3100, "cps": null, "parent": "гисметео бишкек"}
 {"cc": "KG", "lang": "ru", "niche": "weather", "keyword": "погода ала-тоо", "volume": 3100, "cps": null, "parent": "погода ала-тоо"}
+{"cc": "KG", "lang": "ru", "niche": "adult", "keyword": "секс фильм", "volume": 3100, "cps": 1.38, "parent": "порно фильмы"}
 {"cc": "KG", "lang": "ru", "niche": "prayer", "keyword": "время намаза", "volume": 3000, "cps": 0.63, "parent": "намаз"}
 {"cc": "KG", "lang": "ru", "niche": "weather", "keyword": "погода sherali", "volume": 3000, "cps": null, "parent": "погода sherali"}
 {"cc": "KG", "lang": "ru", "niche": "weather", "keyword": "погода кошой", "volume": 3000, "cps": null, "parent": "погода токмак"}
@@ -3346,6 +3416,7 @@
 {"cc": "KG", "lang": "ru", "niche": "weather", "keyword": "погода кемин", "volume": 1800, "cps": null, "parent": "погода чон кемин"}
 {"cc": "KG", "lang": "ru", "niche": "movies", "keyword": "фильмы для взрослых", "volume": 1800, "cps": 1.54, "parent": "порно фильмы"}
 {"cc": "KG", "lang": "ru", "niche": "weather", "keyword": "погода в бишкеке на 14 дней синоптик", "volume": 1800, "cps": null, "parent": "погода в бишкеке на 14 дней"}
+{"cc": "KG", "lang": "ru", "niche": "adult", "keyword": "секс фильмы", "volume": 1800, "cps": 1.36, "parent": "порно фильмы"}
 {"cc": "KG", "lang": "ru", "niche": "weather", "keyword": "погода талас 10 дней", "volume": 1800, "cps": null, "parent": "погода талас"}
 {"cc": "KG", "lang": "ru", "niche": "weather", "keyword": "погода кожо арык", "volume": 1800, "cps": null, "parent": "погода кожо арык"}
 {"cc": "KG", "lang": "ru", "niche": "weather", "keyword": "погода в токмаке", "volume": 1800, "cps": 0.41, "parent": "погода кошой"}
@@ -3394,6 +3465,7 @@
 {"cc": "KG", "lang": "ru", "niche": "weather", "keyword": "погода сузак точный", "volume": 1600, "cps": null, "parent": "погода сузак точный"}
 {"cc": "KG", "lang": "ru", "niche": "weather", "keyword": "погода базар коргон 10 дней", "volume": 1600, "cps": null, "parent": "погода базар-коргон 10 дней"}
 {"cc": "KG", "lang": "ru", "niche": "weather", "keyword": "погода кичи жаргылчак", "volume": 1600, "cps": null, "parent": "погода кичи жаргылчак"}
+{"cc": "KG", "lang": "ru", "niche": "adult", "keyword": "фильмы 18+", "volume": 1600, "cps": 1.55, "parent": "эротические фильмы"}
 {"cc": "KG", "lang": "ru", "niche": "weather", "keyword": "погода сосновка", "volume": 1600, "cps": null, "parent": "погода сосновка"}
 {"cc": "KG", "lang": "ru", "niche": "weather", "keyword": "погода ылай талаа", "volume": 1600, "cps": null, "parent": "погода ылай талаа"}
 {"cc": "KG", "lang": "ru", "niche": "weather", "keyword": "погода в ош", "volume": 1600, "cps": 0.7, "parent": "погода ош"}
@@ -3421,16 +3493,19 @@
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид – манчестер сити", "volume": 40000, "cps": null, "parent": "манчестер сити – реал мадрид"}
 {"cc": "KZ", "lang": "ru", "niche": "fights", "keyword": "юфс", "volume": 39000, "cps": 1.58, "parent": "юфс"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "атлетико мадрид – барселона", "volume": 37000, "cps": null, "parent": "барса атлетико"}
+{"cc": "KZ", "lang": "ru", "niche": "adult", "keyword": "хентай манга", "volume": 35000, "cps": 1.68, "parent": "хентай манга"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "расписание матчей чм 2026", "volume": 35000, "cps": null, "parent": "чм 2026 расписание"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "барселона – реал мадрид составы", "volume": 32000, "cps": null, "parent": "барселона – реал мадрид составы"}
 {"cc": "KZ", "lang": "ru", "niche": "fights", "keyword": "бокс", "volume": 32000, "cps": 0.89, "parent": "бокс"}
 {"cc": "KZ", "lang": "ru", "niche": "mobile_games", "keyword": "brawl stars", "volume": 31000, "cps": 0.61, "parent": "brawl stars"}
 {"cc": "KZ", "lang": "ru", "niche": "apk", "keyword": "тока бока взлом", "volume": 31000, "cps": null, "parent": "toca boca взлом"}
+{"cc": "KZ", "lang": "ru", "niche": "adult", "keyword": "секс аниме", "volume": 28000, "cps": 1.18, "parent": "аниме хентай"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "барселона игры", "volume": 28000, "cps": null, "parent": "барселона игры"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "барселона – атлетико мадрид", "volume": 24000, "cps": null, "parent": "барса атлетико"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид – барселона", "volume": 23000, "cps": 1.0, "parent": "реал барса"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "манчестер сити – реал мадрид", "volume": 23000, "cps": null, "parent": "ман сити реал"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "чемпионат саудовской аравии турнирная таблица", "volume": 22000, "cps": null, "parent": "чемпионат саудовской аравии турнирная таблица"}
+{"cc": "KZ", "lang": "ru", "niche": "adult", "keyword": "порно аниме", "volume": 22000, "cps": 1.37, "parent": "порно аниме"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид – атлетико мадрид", "volume": 21000, "cps": null, "parent": "реал мадрид – атлетико мадрид"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "казахстанская премьер-лига турнирная таблица", "volume": 21000, "cps": null, "parent": "казахстанская премьер-лига турнирная таблица"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "атлетико мадрид – реал мадрид", "volume": 21000, "cps": null, "parent": "реал атлетико"}
@@ -3442,6 +3517,7 @@
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "райо вальекано – реал мадрид", "volume": 19000, "cps": null, "parent": "реал мадрид – райо вальекано"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "лига чемпионов уефа статистика", "volume": 19000, "cps": null, "parent": "лига чемпионов уефа статистика"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "арсенал турнирная таблица", "volume": 19000, "cps": null, "parent": "арсенал турнирная таблица"}
+{"cc": "KZ", "lang": "ru", "niche": "adult", "keyword": "аниме порно", "volume": 18000, "cps": 1.58, "parent": "аниме секс"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "барселона игроки", "volume": 18000, "cps": null, "parent": "барселона игроки"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид – реал сосьедад", "volume": 18000, "cps": null, "parent": "реал мадрид – реал сосьедад"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "лига 1 турнирная таблица", "volume": 18000, "cps": null, "parent": "лига 1"}
@@ -3451,6 +3527,7 @@
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "сборная казахстана по футболу турнирная таблица", "volume": 17000, "cps": null, "parent": "сборная казахстана по футболу турнирная таблица"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "ливерпуль – реал мадрид", "volume": 17000, "cps": null, "parent": "реал ливерпуль"}
 {"cc": "KZ", "lang": "ru", "niche": "tv", "keyword": "казспорт прямой эфир", "volume": 16000, "cps": 1.63, "parent": "казспорт"}
+{"cc": "KZ", "lang": "ru", "niche": "adult", "keyword": "аниме секс", "volume": 16000, "cps": 1.23, "parent": "аниме секс"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "бавария – реал мадрид", "volume": 16000, "cps": null, "parent": "бавария – реал мадрид"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "атлетико мадрид – барселона составы", "volume": 15000, "cps": null, "parent": "барселона – атлетико мадрид составы"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "кайрат турнирная таблица", "volume": 15000, "cps": null, "parent": "фк астана – кайрат турнирная таблица"}
@@ -3523,6 +3600,7 @@
 {"cc": "KZ", "lang": "ru", "niche": "mobile_games", "keyword": "free fire advance server", "volume": 7200, "cps": null, "parent": "free fire advance"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид – монако", "volume": 7100, "cps": null, "parent": "реал мадрид – монако"}
 {"cc": "KZ", "lang": "ru", "niche": "crypto", "keyword": "биткоин доллар", "volume": 7000, "cps": 0.62, "parent": "биткоин к доллару"}
+{"cc": "KZ", "lang": "ru", "niche": "adult", "keyword": "аниме хентай", "volume": 7000, "cps": 1.48, "parent": "аниме хентай"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "атлетик – реал мадрид", "volume": 7000, "cps": null, "parent": "реал атлетико"}
 {"cc": "KZ", "lang": "ru", "niche": "tv", "keyword": "казахстан прямой эфир", "volume": 7000, "cps": 1.43, "parent": "казахстан тв прямой эфир"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "барселона – осасуна", "volume": 6900, "cps": null, "parent": "барселона осасуна"}
@@ -3589,6 +3667,7 @@
 {"cc": "KZ", "lang": "ru", "niche": "cars", "keyword": "скачать взлом кар паркинг где 999999999 денег и все машины", "volume": 4600, "cps": null, "parent": "скачать взлом кар паркинг где 999999999 денег"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "бенфика – реал мадрид составы", "volume": 4500, "cps": null, "parent": "бенфика – реал мадрид составы"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "севилья – барселона", "volume": 4500, "cps": null, "parent": "барса севилья"}
+{"cc": "KZ", "lang": "ru", "niche": "adult", "keyword": "brawl stars xxx", "volume": 4500, "cps": null, "parent": "brawl stars xxx"}
 {"cc": "KZ", "lang": "ru", "niche": "mobile_games", "keyword": "standoff 2", "volume": 4500, "cps": 0.57, "parent": "стандофф 2"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "первая лига казахстана турнирная таблица", "volume": 4500, "cps": null, "parent": "кпл 2026 таблица"}
 {"cc": "KZ", "lang": "ru", "niche": "crypto", "keyword": "биткоин в тенге", "volume": 4500, "cps": 0.7, "parent": "курс биткоина к тенге"}
@@ -3608,10 +3687,13 @@
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид – интернационале составы", "volume": 4000, "cps": null, "parent": "реал мадрид – интернационале составы"}
 {"cc": "KZ", "lang": "ru", "niche": "tv", "keyword": "ктк прямой эфир", "volume": 3900, "cps": 1.42, "parent": "ктк прямой эфир"}
 {"cc": "KZ", "lang": "ru", "niche": "esports", "keyword": "киберспорт", "volume": 3900, "cps": 0.68, "parent": "cybersport"}
+{"cc": "KZ", "lang": "ru", "niche": "adult", "keyword": "порно прямой эфир", "volume": 3900, "cps": null, "parent": "порно эфир"}
 {"cc": "KZ", "lang": "ru", "niche": "fights", "keyword": "юфс сегодня", "volume": 3900, "cps": null, "parent": "юфс сегодня"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "барселона – леванте", "volume": 3900, "cps": null, "parent": "леванте – барселона"}
+{"cc": "KZ", "lang": "ru", "niche": "adult", "keyword": "порно манга", "volume": 3800, "cps": 1.43, "parent": "хентай манга"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "барселона – ньюкасл юнайтед составы", "volume": 3800, "cps": null, "parent": "барселона – ньюкасл юнайтед составы"}
 {"cc": "KZ", "lang": "ru", "niche": "apk", "keyword": "спотифай взлом", "volume": 3800, "cps": null, "parent": "spotify взлом"}
+{"cc": "KZ", "lang": "ru", "niche": "adult", "keyword": "ххх аниме", "volume": 3800, "cps": null, "parent": "ххх аниме"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "барса реал мадрид", "volume": 3800, "cps": null, "parent": "реал барса"}
 {"cc": "KZ", "lang": "ru", "niche": "anime", "keyword": "волейбол аниме", "volume": 3800, "cps": 0.89, "parent": "волейбол аниме"}
 {"cc": "KZ", "lang": "ru", "niche": "fights", "keyword": "юфс 333", "volume": 3800, "cps": null, "parent": "юфс 333"}
@@ -3670,6 +3752,7 @@
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид – леванте составы", "volume": 3100, "cps": null, "parent": "реал мадрид – леванте составы"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "реал сосьедад – барселона", "volume": 3100, "cps": null, "parent": "барселона реал сосьедад"}
 {"cc": "KZ", "lang": "ru", "niche": "pc_games", "keyword": "игры на пк", "volume": 3000, "cps": 0.91, "parent": "онлайн игры на пк"}
+{"cc": "KZ", "lang": "ru", "niche": "adult", "keyword": "аниме ххх", "volume": 3000, "cps": null, "parent": "ххх аниме"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "осасуна – барселона", "volume": 3000, "cps": null, "parent": "барселона осасуна"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "барселона – атлетико мадрид составы", "volume": 3000, "cps": null, "parent": "барселона – атлетико мадрид составы"}
 {"cc": "KZ", "lang": "ru", "niche": "fights", "keyword": "юфс кард", "volume": 3000, "cps": null, "parent": "юфс кард"}
@@ -3698,6 +3781,7 @@
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "барселона ньюкасл", "volume": 2700, "cps": null, "parent": "ньюкасл юнайтед – барселона"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "кайрат – фк актобе турнирная таблица", "volume": 2700, "cps": null, "parent": "фк астана – кайрат турнирная таблица"}
 {"cc": "KZ", "lang": "ru", "niche": "anime", "keyword": "манга баф", "volume": 2700, "cps": null, "parent": "мангабафф"}
+{"cc": "KZ", "lang": "ru", "niche": "adult", "keyword": "манга хентай", "volume": 2700, "cps": 1.49, "parent": "хентай манга"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "состав реал мадрид", "volume": 2700, "cps": 0.31, "parent": "реал мадрид игроки"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "кайрат – ордабасы турнирная таблица", "volume": 2700, "cps": null, "parent": "фк астана – кайрат турнирная таблица"}
 {"cc": "KZ", "lang": "ru", "niche": "fights", "keyword": "ufc рейтинг", "volume": 2700, "cps": 1.24, "parent": "рейтинг ufc"}
@@ -3737,14 +3821,17 @@
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "барселона – фейеноорд турнирная таблица", "volume": 2300, "cps": null, "parent": "барселона – фейеноорд турнирная таблица"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "барселона – ньюкасл юнайтед статистика", "volume": 2300, "cps": null, "parent": "барселона – ньюкасл юнайтед статистика"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "атлетико мадрид – барселона матчи", "volume": 2300, "cps": null, "parent": "атлетико мадрид – барселона матчи"}
+{"cc": "KZ", "lang": "ru", "niche": "adult", "keyword": "секс прямой эфир", "volume": 2300, "cps": null, "parent": "порно эфир"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "фк астана – кайрат турнирная таблица", "volume": 2200, "cps": null, "parent": "кайрат турнирная таблица"}
 {"cc": "KZ", "lang": "ru", "niche": "apk", "keyword": "плей мод", "volume": 2200, "cps": null, "parent": "playmods"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "атлетико мадрид – реал бетис", "volume": 2200, "cps": null, "parent": "атлетико мадрид бетис"}
 {"cc": "KZ", "lang": "ru", "niche": "anime", "keyword": "аниме картинки", "volume": 2200, "cps": 0.44, "parent": "аниме обои"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "псж турнирная таблица", "volume": 2200, "cps": null, "parent": "псж турнирная таблица"}
+{"cc": "KZ", "lang": "ru", "niche": "adult", "keyword": "хентай аниме", "volume": 2200, "cps": 1.58, "parent": "аниме хентай"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "фк актобе турнирная таблица", "volume": 2200, "cps": null, "parent": "фк актобе турнирная таблица"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид бавария", "volume": 2200, "cps": 0.52, "parent": "реал мадрид бавария"}
 {"cc": "KZ", "lang": "ru", "niche": "esports", "keyword": "дота 2", "volume": 2200, "cps": 0.78, "parent": "dota 2"}
+{"cc": "KZ", "lang": "ru", "niche": "adult", "keyword": "гей порно аниме", "volume": 2200, "cps": null, "parent": "гей порно аниме"}
 {"cc": "KZ", "lang": "ru", "niche": "apk", "keyword": "тока бока взлом 1.69 скачать", "volume": 2200, "cps": null, "parent": "тока бока взлом 1.69 скачать"}
 {"cc": "KZ", "lang": "ru", "niche": "anime", "keyword": "хоть я и бездарная злодейка аниме", "volume": 2200, "cps": null, "parent": "хоть я и бездарная злодейка аниме"}
 {"cc": "KZ", "lang": "ru", "niche": "anime", "keyword": "манга бафф", "volume": 2200, "cps": null, "parent": "мангабафф"}
@@ -3814,6 +3901,7 @@
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "барселона – копенгаген копенгаген составы", "volume": 1800, "cps": null, "parent": "барселона – копенгаген копенгаген составы"}
 {"cc": "KZ", "lang": "ru", "niche": "apk", "keyword": "shadow fight 2 взлом", "volume": 1800, "cps": 1.18, "parent": "шадоу файт взлом"}
 {"cc": "KZ", "lang": "ru", "niche": "anime", "keyword": "магическая битва манга", "volume": 1800, "cps": null, "parent": "магическая битва манга"}
+{"cc": "KZ", "lang": "ru", "niche": "adult", "keyword": "прямой эфир секс", "volume": 1800, "cps": null, "parent": "эро чат"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "лига чемпионов псж арсенал", "volume": 1800, "cps": null, "parent": "лига чемпионов псж арсенал"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "боруссия турнирная таблица", "volume": 1800, "cps": null, "parent": "боруссия турнирная таблица"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "кайрат – окжетпес турнирная таблица", "volume": 1800, "cps": null, "parent": "кайрат – окжетпес турнирная таблица"}
@@ -3848,12 +3936,14 @@
 {"cc": "KZ", "lang": "ru", "niche": "fights", "keyword": "ufc 331", "volume": 1600, "cps": null, "parent": "ufc 331"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "сборная англии по футболу турнирная таблица", "volume": 1600, "cps": null, "parent": "английская премьер-лига турнирная таблица"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "псж – барселона хронология", "volume": 1600, "cps": null, "parent": "псж – барселона хронология"}
+{"cc": "KZ", "lang": "ru", "niche": "adult", "keyword": "прямой эфир порно", "volume": 1600, "cps": null, "parent": "порно прямой эфир"}
 {"cc": "KZ", "lang": "ru", "niche": "anime", "keyword": "поднятие уровня в одиночку манга", "volume": 1600, "cps": null, "parent": "поднятие уровня в одиночку манга"}
 {"cc": "KZ", "lang": "ru", "niche": "apk", "keyword": "stick war legacy взлом скачать", "volume": 1600, "cps": null, "parent": "stick war legacy взлом"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид барса", "volume": 1600, "cps": null, "parent": "реал барса"}
 {"cc": "KZ", "lang": "ru", "niche": "music", "keyword": "яндекс музыка взлом", "volume": 1600, "cps": 1.29, "parent": "яндекс музыка взлом"}
 {"cc": "KZ", "lang": "ru", "niche": "anime", "keyword": "аниме база", "volume": 1600, "cps": null, "parent": "animevost"}
 {"cc": "KZ", "lang": "ru", "niche": "apk", "keyword": "кап кут взлом", "volume": 1600, "cps": null, "parent": "capcut pro скачать"}
+{"cc": "KZ", "lang": "ru", "niche": "adult", "keyword": "аниме 18+", "volume": 1600, "cps": 1.19, "parent": "аниме эротика"}
 {"cc": "KZ", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид – манчестер сити хронология", "volume": 1600, "cps": null, "parent": "манчестер сити – реал мадрид"}
 {"cc": "KZ", "lang": "ru", "niche": "fights", "keyword": "юфс 326", "volume": 1600, "cps": null, "parent": "макс холлоуэй чарльз оливейра"}
 {"cc": "KZ", "lang": "ru", "niche": "tv", "keyword": "еркебулан токтар бой сегодня прямой эфир", "volume": 1600, "cps": null, "parent": "еркебулан токтар бой сегодня"}
@@ -4179,6 +4269,7 @@
 {"cc": "KZ", "lang": "ru", "niche": "translate", "keyword": "переводчик русский казахский", "volume": 3300, "cps": 0.54, "parent": "переводчик с русского на казахский"}
 {"cc": "KZ", "lang": "ru", "niche": "holidays", "keyword": "праздник", "volume": 3300, "cps": 0.34, "parent": "праздник"}
 {"cc": "KZ", "lang": "ru", "niche": "gov", "keyword": "egov/kz", "volume": 3300, "cps": 1.07, "parent": "егов"}
+{"cc": "KZ", "lang": "ru", "niche": "adult", "keyword": "порно перевод", "volume": 3300, "cps": null, "parent": "порно с русской озвучкой"}
 {"cc": "KZ", "lang": "ru", "niche": "cars", "keyword": "астер авто", "volume": 3300, "cps": 1.18, "parent": "астер авто"}
 {"cc": "KZ", "lang": "ru", "niche": "jobs", "keyword": "работа петропавловск", "volume": 3300, "cps": 1.59, "parent": "работа петропавловск"}
 {"cc": "KZ", "lang": "ru", "niche": "exams", "keyword": "гдз по русскому", "volume": 3300, "cps": 0.46, "parent": "гдз по русскому"}
@@ -4391,6 +4482,7 @@
 {"cc": "KZ", "lang": "ru", "niche": "weather", "keyword": "алматы погода", "volume": 49000, "cps": 0.44, "parent": "погода в алматы"}
 {"cc": "KZ", "lang": "ru", "niche": "weather", "keyword": "погода костанай", "volume": 48000, "cps": 0.66, "parent": "погода костанай на месяц"}
 {"cc": "KZ", "lang": "ru", "niche": "weather", "keyword": "погода актобе", "volume": 47000, "cps": 0.51, "parent": "погода актобе на месяц"}
+{"cc": "KZ", "lang": "ru", "niche": "adult", "keyword": "порно фильмы", "volume": 45000, "cps": 1.81, "parent": "порно фильмы"}
 {"cc": "KZ", "lang": "ru", "niche": "weather", "keyword": "погода семей", "volume": 42000, "cps": 0.7, "parent": "погода семей"}
 {"cc": "KZ", "lang": "ru", "niche": "movies", "keyword": "фильмы 2025", "volume": 41000, "cps": null, "parent": "фильмы 2025"}
 {"cc": "KZ", "lang": "ru", "niche": "weather", "keyword": "погода в астане", "volume": 39000, "cps": 0.56, "parent": "погода астана"}
@@ -4407,6 +4499,7 @@
 {"cc": "KZ", "lang": "ru", "niche": "movies", "keyword": "фильмы на вечер", "volume": 27000, "cps": 1.34, "parent": "фильмы на вечер"}
 {"cc": "KZ", "lang": "ru", "niche": "weather", "keyword": "погода усть-каменогорск", "volume": 26000, "cps": 0.88, "parent": "погода усть-каменогорск"}
 {"cc": "KZ", "lang": "ru", "niche": "weather", "keyword": "погода атырау", "volume": 25000, "cps": 0.67, "parent": "погода атырау"}
+{"cc": "KZ", "lang": "ru", "niche": "adult", "keyword": "порно фильм", "volume": 24000, "cps": 1.64, "parent": "порно фильмы"}
 {"cc": "KZ", "lang": "ru", "niche": "weather", "keyword": "погода рудный", "volume": 23000, "cps": 0.77, "parent": "погода рудный"}
 {"cc": "KZ", "lang": "ru", "niche": "currency", "keyword": "курс доллара к тенге на сегодня", "volume": 23000, "cps": 0.89, "parent": "курс доллара к тенге"}
 {"cc": "KZ", "lang": "ru", "niche": "weather", "keyword": "погода сегодня", "volume": 21000, "cps": 0.35, "parent": "гисметео алматы"}
@@ -4449,6 +4542,7 @@
 {"cc": "KZ", "lang": "ru", "niche": "weather", "keyword": "погода в павлодаре", "volume": 12000, "cps": 0.6, "parent": "погода павлодар"}
 {"cc": "KZ", "lang": "ru", "niche": "currency", "keyword": "курс рубля на сегодня", "volume": 11000, "cps": 0.88, "parent": "курс рубля к тенге"}
 {"cc": "KZ", "lang": "ru", "niche": "currency", "keyword": "курс доллара астана", "volume": 11000, "cps": 1.01, "parent": "курс рубля к тенге"}
+{"cc": "KZ", "lang": "ru", "niche": "adult", "keyword": "эротические фильмы", "volume": 11000, "cps": 1.93, "parent": "эротические фильмы"}
 {"cc": "KZ", "lang": "ru", "niche": "weather", "keyword": "погода на завтра алматы", "volume": 11000, "cps": 0.55, "parent": "погода алматы завтра"}
 {"cc": "KZ", "lang": "ru", "niche": "movies", "keyword": "скачать фильм", "volume": 11000, "cps": 1.03, "parent": "скачать кино"}
 {"cc": "KZ", "lang": "ru", "niche": "weather", "keyword": "шымкент погода", "volume": 11000, "cps": 0.43, "parent": "погода шымкент"}
@@ -4518,6 +4612,7 @@
 {"cc": "KZ", "lang": "ru", "niche": "currency", "keyword": "курс доллара тенге", "volume": 6700, "cps": 0.73, "parent": "курс доллара к тенге"}
 {"cc": "KZ", "lang": "ru", "niche": "currency", "keyword": "курс валют алматы", "volume": 6700, "cps": 1.19, "parent": "курс доллара"}
 {"cc": "KZ", "lang": "ru", "niche": "gold", "keyword": "курс золота", "volume": 6700, "cps": 0.99, "parent": "цена на золото"}
+{"cc": "KZ", "lang": "ru", "niche": "adult", "keyword": "секс фильм", "volume": 6600, "cps": 1.26, "parent": "порно фильмы"}
 {"cc": "KZ", "lang": "ru", "niche": "currency", "keyword": "курс доллара в шымкенте тауке хан", "volume": 6600, "cps": null, "parent": "курс доллара к тенге"}
 {"cc": "KZ", "lang": "ru", "niche": "movies", "keyword": "фильмы на реальных событиях", "volume": 6600, "cps": 1.2, "parent": "фильмы на реальных событиях"}
 {"cc": "KZ", "lang": "ru", "niche": "series", "keyword": "мошенники сериал 2 сезон", "volume": 6600, "cps": null, "parent": "мошенники 2 сезон"}
@@ -4596,6 +4691,7 @@
 {"cc": "KZ", "lang": "ru", "niche": "currency", "keyword": "курс доллара в шымкенте сегодня сейчас", "volume": 4400, "cps": null, "parent": "курс доллара к тенге"}
 {"cc": "KZ", "lang": "ru", "niche": "movies", "keyword": "новогодние фильмы", "volume": 4300, "cps": 1.15, "parent": "новогодние фильмы"}
 {"cc": "KZ", "lang": "ru", "niche": "weather", "keyword": "самый точный погода шымкент на месяц", "volume": 4200, "cps": null, "parent": "погода шымкент"}
+{"cc": "KZ", "lang": "ru", "niche": "adult", "keyword": "секс фильмы", "volume": 4100, "cps": 1.33, "parent": "порно фильмы"}
 {"cc": "KZ", "lang": "ru", "niche": "weather", "keyword": "погода уральск на месяц", "volume": 4100, "cps": 0.95, "parent": "погода уральск"}
 {"cc": "KZ", "lang": "ru", "niche": "weather", "keyword": "погода на месяц астана", "volume": 4100, "cps": 1.24, "parent": "погода астана"}
 {"cc": "KZ", "lang": "ru", "niche": "weather", "keyword": "погода есик", "volume": 4100, "cps": 0.72, "parent": "погода есик"}
@@ -4634,6 +4730,7 @@
 {"cc": "KZ", "lang": "ru", "niche": "weather", "keyword": "погода степногорск", "volume": 3500, "cps": 0.44, "parent": "погода степногорск"}
 {"cc": "KZ", "lang": "ru", "niche": "movies", "keyword": "магическая битва фильм", "volume": 3500, "cps": null, "parent": "магическая битва фильм"}
 {"cc": "KZ", "lang": "ru", "niche": "series", "keyword": "приговор турецкий сериал", "volume": 3500, "cps": null, "parent": "правосудие турецкий сериал"}
+{"cc": "KZ", "lang": "ru", "niche": "adult", "keyword": "эротический фильм", "volume": 3500, "cps": 1.54, "parent": "эротика"}
 {"cc": "KZ", "lang": "ru", "niche": "currency", "keyword": "курс российского рубля", "volume": 3500, "cps": 0.61, "parent": "курс рубля в петропавловске"}
 {"cc": "KZ", "lang": "ru", "niche": "series", "keyword": "еще 17 турецкий сериал", "volume": 3400, "cps": null, "parent": "еще 17 турецкий сериал"}
 {"cc": "KZ", "lang": "ru", "niche": "series", "keyword": "под землей турецкий сериал смотреть", "volume": 3400, "cps": null, "parent": "под землей"}
@@ -4686,6 +4783,7 @@
 {"cc": "KZ", "lang": "ru", "niche": "weather", "keyword": "актау погода", "volume": 3000, "cps": 0.61, "parent": "погода актау"}
 {"cc": "KZ", "lang": "ru", "niche": "movies", "keyword": "август фильм 2025", "volume": 3000, "cps": null, "parent": "август фильм"}
 {"cc": "KZ", "lang": "ru", "niche": "weather", "keyword": "погода на неделю астана", "volume": 2900, "cps": 0.82, "parent": "погода астана на неделю"}
+{"cc": "KZ", "lang": "ru", "niche": "adult", "keyword": "эротика фильм", "volume": 2900, "cps": 1.91, "parent": "erotika"}
 {"cc": "KZ", "lang": "ru", "niche": "currency", "keyword": "курс доллара караганда", "volume": 2900, "cps": 1.25, "parent": "курс доллара в караганде"}
 {"cc": "KZ", "lang": "ru", "niche": "movies", "keyword": "ауру фильм 2025", "volume": 2900, "cps": null, "parent": "ауру фильм"}
 {"cc": "KZ", "lang": "ru", "niche": "movies", "keyword": "новые фильмы 2026", "volume": 2900, "cps": null, "parent": "фильмы 2026"}
@@ -5735,6 +5833,7 @@
 {"cc": "TR", "lang": "tr", "niche": "recipes", "keyword": "kremalı makarna tarifi", "volume": 39000, "cps": 1.18, "parent": "kremalı makarna tarifi"}
 {"cc": "TR", "lang": "tr", "niche": "health", "keyword": "mide kanseri belirtileri", "volume": 39000, "cps": 0.97, "parent": "mide kanseri belirtileri"}
 {"cc": "TR", "lang": "tr", "niche": "exams", "keyword": "kpss önlisans", "volume": 39000, "cps": 0.75, "parent": "ortaöğretim kpss"}
+{"cc": "TR", "lang": "tr", "niche": "tools", "keyword": "pdf sıkıştırma", "volume": 39000, "cps": 1.48, "parent": "pdf küçültme"}
 {"cc": "TR", "lang": "tr", "niche": "loans", "keyword": "sıfır faizli kredi", "volume": 39000, "cps": 1.3, "parent": "faizsiz kredi"}
 {"cc": "TR", "lang": "tr", "niche": "holidays", "keyword": "ramazan bayramı 2027", "volume": 39000, "cps": null, "parent": "ramazan bayramı ne zaman"}
 {"cc": "TR", "lang": "tr", "niche": "translate", "keyword": "türkçe rusça çeviri", "volume": 38000, "cps": 0.29, "parent": "çeviri"}
@@ -6000,6 +6099,7 @@
 {"cc": "TR", "lang": "tr", "niche": "weather", "keyword": "van hava durumu", "volume": 362000, "cps": 0.47, "parent": "van hava durumu"}
 {"cc": "TR", "lang": "tr", "niche": "weather", "keyword": "mardin hava durumu", "volume": 356000, "cps": 0.63, "parent": "mardin hava durumu"}
 {"cc": "TR", "lang": "tr", "niche": "weather", "keyword": "hava durumu izmir", "volume": 352000, "cps": 0.55, "parent": "izmir hava durumu"}
+{"cc": "TR", "lang": "tr", "niche": "adult", "keyword": "erotik film izle", "volume": 332000, "cps": 2.54, "parent": "erotik film izle"}
 {"cc": "TR", "lang": "tr", "niche": "weather", "keyword": "manisa hava durumu", "volume": 331000, "cps": 0.55, "parent": "manisa hava durumu"}
 {"cc": "TR", "lang": "tr", "niche": "tv", "keyword": "trt1 canlı izle", "volume": 330000, "cps": 1.24, "parent": "trt 1 canlı"}
 {"cc": "TR", "lang": "tr", "niche": "weather", "keyword": "tarsus hava durumu", "volume": 322000, "cps": 0.46, "parent": "tarsus hava durumu"}
@@ -6160,6 +6260,7 @@
 {"cc": "TR", "lang": "tr", "niche": "prayer", "keyword": "samsun namaz vakitleri", "volume": 102000, "cps": 0.85, "parent": "samsun namaz vakitleri"}
 {"cc": "TR", "lang": "tr", "niche": "weather", "keyword": "yüksekova hava durumu", "volume": 102000, "cps": 0.5, "parent": "yüksekova hava durumu"}
 {"cc": "TR", "lang": "tr", "niche": "prayer", "keyword": "ezan vakti gaziantep", "volume": 101000, "cps": 0.85, "parent": "gaziantep namaz vakitleri"}
+{"cc": "TR", "lang": "tr", "niche": "adult", "keyword": "porno film izle", "volume": 101000, "cps": 3.14, "parent": "porno film"}
 {"cc": "TR", "lang": "tr", "niche": "prayer", "keyword": "ezan vakti ankara", "volume": 100000, "cps": 0.59, "parent": "ankara ezan"}
 {"cc": "TR", "lang": "tr", "niche": "prayer", "keyword": "izmir ezan vakti", "volume": 100000, "cps": 0.69, "parent": "izmir namaz vakitleri"}
 {"cc": "TR", "lang": "tr", "niche": "weather", "keyword": "ceyhan hava durumu", "volume": 99000, "cps": 0.44, "parent": "ceyhan hava durumu"}
@@ -6429,6 +6530,7 @@
 {"cc": "TR", "lang": "tr", "niche": "tv", "keyword": "s sport canlı izle", "volume": 39000, "cps": 1.72, "parent": "s sport canlı izle"}
 {"cc": "TR", "lang": "tr", "niche": "weather", "keyword": "şile hava durumu", "volume": 39000, "cps": 0.35, "parent": "şile hava durumu"}
 {"cc": "TR", "lang": "tr", "niche": "weather", "keyword": "hava durumu batman", "volume": 39000, "cps": 0.43, "parent": "batman hava durumu"}
+{"cc": "TR", "lang": "tr", "niche": "adult", "keyword": "seks filmi izle", "volume": 39000, "cps": 3.12, "parent": "porno film"}
 {"cc": "TR", "lang": "tr", "niche": "prayer", "keyword": "kayseri iftar vakti", "volume": 39000, "cps": 0.92, "parent": "sahur ne zaman"}
 {"cc": "TR", "lang": "tr", "niche": "gold", "keyword": "50 gram altın ne kadar", "volume": 39000, "cps": 1.0, "parent": "50 gram altın ne kadar"}
 {"cc": "TR", "lang": "tr", "niche": "gold", "keyword": "bugünkü altın fiyatları", "volume": 39000, "cps": 1.32, "parent": "altın fiyatları"}
@@ -6613,6 +6715,7 @@
 {"cc": "UZ", "lang": "ru", "niche": "football_data", "keyword": "эспаньол – реал мадрид", "volume": 7000, "cps": null, "parent": "эспаньол – реал мадрид"}
 {"cc": "UZ", "lang": "ru", "niche": "football_data", "keyword": "райо вальекано – реал мадрид", "volume": 7000, "cps": null, "parent": "реал мадрид – райо вальекано хронология"}
 {"cc": "UZ", "lang": "uz", "niche": "apk", "keyword": "pinduoduo apk", "volume": 6900, "cps": null, "parent": "pinduoduo"}
+{"cc": "UZ", "lang": "ru", "niche": "adult", "keyword": "хентай манга", "volume": 6900, "cps": null, "parent": "хентай манга"}
 {"cc": "UZ", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид – реал бетис", "volume": 6700, "cps": null, "parent": "реал бетис – реал мадрид составы"}
 {"cc": "UZ", "lang": "ru", "niche": "apk", "keyword": "pinduoduo скачать на андроид", "volume": 6500, "cps": null, "parent": "pinduoduo skachat qilish telefonga"}
 {"cc": "UZ", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид – леванте", "volume": 6500, "cps": null, "parent": "реал мадрид – леванте"}
@@ -6788,6 +6891,7 @@
 {"cc": "UZ", "lang": "uz", "niche": "fights", "keyword": "ufc 324", "volume": 1800, "cps": null, "parent": "ufc 324"}
 {"cc": "UZ", "lang": "uz", "niche": "fights", "keyword": "ufc 333", "volume": 1800, "cps": null, "parent": "ufc 333"}
 {"cc": "UZ", "lang": "ru", "niche": "football_data", "keyword": "манчестер сити – псж турнирная таблица", "volume": 1800, "cps": null, "parent": "манчестер сити – псж турнирная таблица"}
+{"cc": "UZ", "lang": "ru", "niche": "adult", "keyword": "аниме секс", "volume": 1800, "cps": null, "parent": "anime porno"}
 {"cc": "UZ", "lang": "ru", "niche": "football_data", "keyword": "премьер лига англия", "volume": 1700, "cps": null, "parent": "английская премьер-лига"}
 {"cc": "UZ", "lang": "uz", "niche": "apk", "keyword": "ayugram apk download", "volume": 1700, "cps": null, "parent": "ayugram apk download"}
 {"cc": "UZ", "lang": "ru", "niche": "football_data", "keyword": "fc porto – манчестер сити турнирная таблица", "volume": 1700, "cps": null, "parent": "fc porto – манчестер сити турнирная таблица"}
@@ -6917,6 +7021,7 @@
 {"cc": "UZ", "lang": "ru", "niche": "football_data", "keyword": "чемпионат швейцарии по футболу турнирная таблица", "volume": 1000, "cps": null, "parent": "чемпионат швейцарии"}
 {"cc": "UZ", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид – фиорентина статистика", "volume": 1000, "cps": null, "parent": "реал мадрид – фиорентина статистика"}
 {"cc": "UZ", "lang": "uz", "niche": "apk", "keyword": "apk qo‘riqchi", "volume": 1000, "cps": null, "parent": "apk qo‘riqchi"}
+{"cc": "UZ", "lang": "ru", "niche": "adult", "keyword": "аниме хентай", "volume": 1000, "cps": null, "parent": "хентай аниме"}
 {"cc": "UZ", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид – атлетик бильбао составы", "volume": 1000, "cps": null, "parent": "атлетик – реал мадрид"}
 {"cc": "UZ", "lang": "ru", "niche": "football_data", "keyword": "барселона – реал бетис статистика", "volume": 1000, "cps": null, "parent": "барселона – реал бетис статистика"}
 {"cc": "UZ", "lang": "uz", "niche": "mobile_games", "keyword": "pubg mobile download", "volume": 1000, "cps": null, "parent": "pubg"}
@@ -6937,6 +7042,7 @@
 {"cc": "UZ", "lang": "ru", "niche": "football_data", "keyword": "барселона – эспаньол составы", "volume": 1000, "cps": null, "parent": "барселона – эспаньол составы"}
 {"cc": "UZ", "lang": "uz", "niche": "apk", "keyword": "janatube apk", "volume": 1000, "cps": null, "parent": "janatube apk"}
 {"cc": "UZ", "lang": "ru", "niche": "football_data", "keyword": "реал мадрид – манчестер сити турнирная таблица", "volume": 1000, "cps": null, "parent": "реал мадрид – манчестер сити турнирная таблица"}
+{"cc": "UZ", "lang": "ru", "niche": "adult", "keyword": "порно прямой эфир", "volume": 1000, "cps": null, "parent": "порно эфир"}
 {"cc": "UZ", "lang": "ru", "niche": "football_data", "keyword": "барселона когда играет", "volume": 1000, "cps": null, "parent": "барселона игры"}
 {"cc": "UZ", "lang": "ru", "niche": "football_data", "keyword": "манчестер сити – аек афины турнирная таблица", "volume": 1000, "cps": null, "parent": "манчестер сити – аек афины турнирная таблица"}
 {"cc": "UZ", "lang": "uz", "niche": "mobile_games", "keyword": "free fire mod", "volume": 1000, "cps": null, "parent": "free fire mod"}
@@ -7253,6 +7359,7 @@
 {"cc": "UZ", "lang": "uz", "niche": "phones", "keyword": "samsung s21", "volume": 1400, "cps": null, "parent": "s21"}
 {"cc": "UZ", "lang": "ru", "niche": "holidays", "keyword": "когда начинается рамадан 2026", "volume": 1400, "cps": null, "parent": "когда начинается рамадан 2026"}
 {"cc": "UZ", "lang": "ru", "niche": "holidays", "keyword": "рамадан", "volume": 1300, "cps": null, "parent": "когда начинается рамадан"}
+{"cc": "UZ", "lang": "ru", "niche": "adult", "keyword": "порно перевод", "volume": 1300, "cps": null, "parent": "порно перевод"}
 {"cc": "UZ", "lang": "uz", "niche": "phones", "keyword": "battery health check iphone", "volume": 1300, "cps": null, "parent": "battery health check iphone"}
 {"cc": "UZ", "lang": "uz", "niche": "phones", "keyword": "samsung telefon narxlari", "volume": 1300, "cps": null, "parent": "samsung telefon narxlari"}
 {"cc": "UZ", "lang": "ru", "niche": "translate", "keyword": "перевод с английского на узбекский", "volume": 1300, "cps": null, "parent": "перевод с русского на узбекский"}
@@ -7574,6 +7681,7 @@
 {"cc": "UZ", "lang": "ru", "niche": "weather", "keyword": "погода на завтра", "volume": 6200, "cps": null, "parent": "погода завтра навои"}
 {"cc": "UZ", "lang": "ru", "niche": "currency", "keyword": "курс доллара в банках узбекистана", "volume": 6200, "cps": null, "parent": "валютный курс"}
 {"cc": "UZ", "lang": "ru", "niche": "weather", "keyword": "погода тахиаташ", "volume": 5900, "cps": null, "parent": "погода тахиаташ"}
+{"cc": "UZ", "lang": "ru", "niche": "adult", "keyword": "порно фильмы", "volume": 5700, "cps": null, "parent": "порнофильмы"}
 {"cc": "UZ", "lang": "ru", "niche": "weather", "keyword": "погода в бухаре", "volume": 5600, "cps": null, "parent": "пагода бухара"}
 {"cc": "UZ", "lang": "ru", "niche": "currency", "keyword": "курс рубля к узбекскому суму", "volume": 5600, "cps": null, "parent": "курс рубля к суму"}
 {"cc": "UZ", "lang": "ru", "niche": "currency", "keyword": "курс доллара узбекистан", "volume": 5400, "cps": null, "parent": "доллар курс"}
@@ -7638,12 +7746,16 @@
 {"cc": "UZ", "lang": "ru", "niche": "weather", "keyword": "какая завтра погода", "volume": 3000, "cps": null, "parent": "погода завтра"}
 {"cc": "UZ", "lang": "ru", "niche": "weather", "keyword": "погода махалля янги-юль", "volume": 3000, "cps": null, "parent": "погода махалля янги-юль"}
 {"cc": "UZ", "lang": "ru", "niche": "currency", "keyword": "курс доллара на рубль", "volume": 3000, "cps": null, "parent": "курс доллара к рублю"}
+{"cc": "UZ", "lang": "ru", "niche": "adult", "keyword": "эротические фильмы", "volume": 2900, "cps": null, "parent": "сексуальные фильмы"}
 {"cc": "UZ", "lang": "ru", "niche": "weather", "keyword": "погода сукок", "volume": 2900, "cps": null, "parent": "погода сукок"}
 {"cc": "UZ", "lang": "ru", "niche": "prayer", "keyword": "намаз вахта", "volume": 2900, "cps": null, "parent": "намоз вакти ташкент"}
+{"cc": "UZ", "lang": "ru", "niche": "adult", "keyword": "порно фильм", "volume": 2900, "cps": null, "parent": "порнофильмы"}
 {"cc": "UZ", "lang": "ru", "niche": "weather", "keyword": "самарканд погода сегодня", "volume": 2800, "cps": null, "parent": "самарканд погода сегодня"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "погода varzik", "volume": 2800, "cps": null, "parent": "погода varzik"}
+{"cc": "UZ", "lang": "ru", "niche": "adult", "keyword": "эротический фильм", "volume": 2800, "cps": null, "parent": "эро фильм"}
 {"cc": "UZ", "lang": "ru", "niche": "weather", "keyword": "погода заркент", "volume": 2800, "cps": null, "parent": "погода заркент"}
 {"cc": "UZ", "lang": "ru", "niche": "weather", "keyword": "погода кафтархана", "volume": 2800, "cps": null, "parent": "погода кафтархана"}
+{"cc": "UZ", "lang": "ru", "niche": "adult", "keyword": "секс фильм", "volume": 2800, "cps": null, "parent": "порнофильмы"}
 {"cc": "UZ", "lang": "uz", "niche": "music", "keyword": "mp4 to mp3", "volume": 2800, "cps": null, "parent": "video to audio"}
 {"cc": "UZ", "lang": "ru", "niche": "weather", "keyword": "погода гус", "volume": 2700, "cps": null, "parent": "gus: ob-havo"}
 {"cc": "UZ", "lang": "ru", "niche": "weather", "keyword": "погода нукус 30 дней точный", "volume": 2700, "cps": null, "parent": "погода нукус 30 дней точный"}
@@ -7652,6 +7764,7 @@
 {"cc": "UZ", "lang": "ru", "niche": "movies", "keyword": "смотреть фильмы онлайн", "volume": 2600, "cps": null, "parent": "кино"}
 {"cc": "UZ", "lang": "ru", "niche": "movies", "keyword": "горничная фильм 2025 смотреть", "volume": 2600, "cps": null, "parent": "горничная смотреть онлайн"}
 {"cc": "UZ", "lang": "ru", "niche": "weather", "keyword": "погода ахангаран", "volume": 2600, "cps": null, "parent": "ohangaron: ob-havo"}
+{"cc": "UZ", "lang": "ru", "niche": "adult", "keyword": "эротика фильм", "volume": 2600, "cps": null, "parent": "эротика кино"}
 {"cc": "UZ", "lang": "ru", "niche": "weather", "keyword": "погода в нукусе", "volume": 2600, "cps": null, "parent": "погода нукус"}
 {"cc": "UZ", "lang": "ru", "niche": "weather", "keyword": "погода ташкент сегодня", "volume": 2600, "cps": null, "parent": "погода сегодня"}
 {"cc": "UZ", "lang": "ru", "niche": "weather", "keyword": "погода янгикуч", "volume": 2600, "cps": null, "parent": "погода янгикуч"}
@@ -7912,6 +8025,7 @@
 {"cc": "UZ", "lang": "ru", "niche": "movies", "keyword": "дастур фильм", "volume": 1200, "cps": null, "parent": "дастур фильм"}
 {"cc": "UZ", "lang": "ru", "niche": "weather", "keyword": "погода уртасарай", "volume": 1200, "cps": null, "parent": "погода уртасарай"}
 {"cc": "UZ", "lang": "ru", "niche": "weather", "keyword": "какая сегодня погода", "volume": 1200, "cps": null, "parent": "погода сегодня"}
+{"cc": "UZ", "lang": "ru", "niche": "adult", "keyword": "фильм секс", "volume": 1200, "cps": null, "parent": "порнофильмы"}
 {"cc": "UZ", "lang": "ru", "niche": "weather", "keyword": "погода чинабад", "volume": 1200, "cps": null, "parent": "погода чинабад"}
 {"cc": "UZ", "lang": "ru", "niche": "weather", "keyword": "погода джалаир", "volume": 1200, "cps": null, "parent": "погода джалаир"}
 {"cc": "UZ", "lang": "ru", "niche": "currency", "keyword": "хамкор банк курс валют", "volume": 1200, "cps": null, "parent": "dollar kursi"}
@@ -7953,6 +8067,7 @@
 {"cc": "UZ", "lang": "ru", "niche": "currency", "keyword": "курс доллара халк банк", "volume": 1000, "cps": null, "parent": "100 dollar kursi bugun xalq banki"}
 {"cc": "UZ", "lang": "ru", "niche": "series", "keyword": "сериал рыцарь семи королевств", "volume": 1000, "cps": null, "parent": "сериал рыцарь семи королевств"}
 {"cc": "UZ", "lang": "ru", "niche": "weather", "keyword": "погода ташкент завтра", "volume": 1000, "cps": null, "parent": "погода завтра"}
+{"cc": "UZ", "lang": "ru", "niche": "adult", "keyword": "сексуальный фильм", "volume": 1000, "cps": null, "parent": "сексуальные фильмы"}
 {"cc": "UZ", "lang": "ru", "niche": "weather", "keyword": "погода в маргилане", "volume": 1000, "cps": null, "parent": "погода маргилан"}
 {"cc": "UZ", "lang": "ru", "niche": "weather", "keyword": "погода алимбаба", "volume": 1000, "cps": null, "parent": "погода алимбаба"}
 {"cc": "UZ", "lang": "ru", "niche": "weather", "keyword": "погода пайарык", "volume": 1000, "cps": null, "parent": "погода пайарык"}
@@ -7983,6 +8098,7 @@
 {"cc": "UZ", "lang": "ru", "niche": "weather", "keyword": "погода сурум", "volume": 1000, "cps": null, "parent": "погода сурум"}
 {"cc": "UZ", "lang": "ru", "niche": "weather", "keyword": "погода в газалкенте", "volume": 1000, "cps": null, "parent": "погода газалкент 30 дней"}
 {"cc": "UZ", "lang": "ru", "niche": "weather", "keyword": "погода нукус завтра", "volume": 1000, "cps": null, "parent": "погода завтра нукус"}
+{"cc": "UZ", "lang": "ru", "niche": "adult", "keyword": "сексуальные фильмы", "volume": 1000, "cps": null, "parent": "сексуальные фильмы"}
 {"cc": "UZ", "lang": "ru", "niche": "weather", "keyword": "андижан погода", "volume": 900, "cps": null, "parent": "погода андижан"}
 {"cc": "UZ", "lang": "ru", "niche": "weather", "keyword": "погода в джизаке", "volume": 900, "cps": null, "parent": "погода джизак"}
 {"cc": "UZ", "lang": "ru", "niche": "weather", "keyword": "булунгур погода 10 дней", "volume": 900, "cps": null, "parent": "булунгур погода 10 дней"}
@@ -8116,11 +8232,15 @@
 {"cc": "UZ", "lang": "uz", "niche": "apk", "keyword": "play market yuklab olish", "volume": 31000, "cps": null, "parent": "play market"}
 {"cc": "UZ", "lang": "uz", "niche": "anime", "keyword": "anime", "volume": 25000, "cps": null, "parent": "anime uzbek tilida"}
 {"cc": "UZ", "lang": "uz", "niche": "pc_games", "keyword": "o'yinlar o'ynash", "volume": 19000, "cps": null, "parent": "õyinlar õynash"}
+{"cc": "UZ", "lang": "uz", "niche": "adult", "keyword": "anime xxx", "volume": 16000, "cps": null, "parent": "anime xxx"}
+{"cc": "UZ", "lang": "uz", "niche": "adult", "keyword": "anime sex", "volume": 15000, "cps": null, "parent": "anime sex"}
 {"cc": "UZ", "lang": "uz", "niche": "pc_games", "keyword": "bepul o'yinlar", "volume": 14000, "cps": null, "parent": "o'yinlar o'ynash"}
 {"cc": "UZ", "lang": "uz", "niche": "football_data", "keyword": "real madrid vs barcelona", "volume": 13000, "cps": null, "parent": "barcelona vs real madrid"}
 {"cc": "UZ", "lang": "uz", "niche": "apk", "keyword": "car parking mod", "volume": 9800, "cps": null, "parent": "car parking multiplayer"}
+{"cc": "UZ", "lang": "uz", "niche": "adult", "keyword": "anime seks", "volume": 9600, "cps": null, "parent": "anime seks"}
 {"cc": "UZ", "lang": "uz", "niche": "football_data", "keyword": "superliga", "volume": 8200, "cps": null, "parent": "суперлига узбекистана турнирная таблица"}
 {"cc": "UZ", "lang": "uz", "niche": "football_data", "keyword": "real madrid cf", "volume": 8100, "cps": null, "parent": "real madrid"}
+{"cc": "UZ", "lang": "uz", "niche": "adult", "keyword": "anime porno", "volume": 7400, "cps": null, "parent": "hentai"}
 {"cc": "UZ", "lang": "uz", "niche": "anime", "keyword": "anime uzbek tilida", "volume": 6400, "cps": null, "parent": "anime uzbek tilida"}
 {"cc": "UZ", "lang": "uz", "niche": "pc_games", "keyword": "onlayn o'yinlar", "volume": 6000, "cps": null, "parent": "yandex games"}
 {"cc": "UZ", "lang": "uz", "niche": "apk", "keyword": "happy mod скачать на android", "volume": 5700, "cps": null, "parent": "hepimod"}
@@ -8130,9 +8250,11 @@
 {"cc": "UZ", "lang": "uz", "niche": "football_data", "keyword": "real madrid vs bayern", "volume": 5100, "cps": null, "parent": "real madrid vs bayern"}
 {"cc": "UZ", "lang": "uz", "niche": "football_data", "keyword": "real madrid games", "volume": 4800, "cps": null, "parent": "real madrid"}
 {"cc": "UZ", "lang": "uz", "niche": "football_data", "keyword": "real madrid vs man city", "volume": 4600, "cps": null, "parent": "real madrid manchester city"}
+{"cc": "UZ", "lang": "uz", "niche": "adult", "keyword": "porno anime", "volume": 4500, "cps": null, "parent": "anime porno"}
 {"cc": "UZ", "lang": "uz", "niche": "sport_news", "keyword": "transfer edu uz", "volume": 4500, "cps": null, "parent": "transfer edu uz"}
 {"cc": "UZ", "lang": "uz", "niche": "pc_games", "keyword": "bepul o'yinlar yuklash", "volume": 4500, "cps": null, "parent": "õyin"}
 {"cc": "UZ", "lang": "uz", "niche": "football_data", "keyword": "real madrid logo", "volume": 4400, "cps": null, "parent": "real madrid"}
+{"cc": "UZ", "lang": "uz", "niche": "adult", "keyword": "anime porn", "volume": 4400, "cps": null, "parent": "anime porn"}
 {"cc": "UZ", "lang": "uz", "niche": "football_data", "keyword": "real madrid o yinlari taqvimi", "volume": 4400, "cps": null, "parent": "real madrid o yinlari taqvimi"}
 {"cc": "UZ", "lang": "uz", "niche": "apk", "keyword": "roblox mod", "volume": 4300, "cps": null, "parent": "roblox mod menu"}
 {"cc": "UZ", "lang": "uz", "niche": "crypto", "keyword": "bitcoin", "volume": 4300, "cps": null, "parent": "bitcoin"}
@@ -8150,12 +8272,14 @@
 {"cc": "UZ", "lang": "uz", "niche": "football_data", "keyword": "real madrid vs borussia dortmund", "volume": 3100, "cps": null, "parent": "real madrid vs borussia dortmund"}
 {"cc": "UZ", "lang": "uz", "niche": "anime", "keyword": "anime rasmlar", "volume": 3000, "cps": null, "parent": "anime qizlar"}
 {"cc": "UZ", "lang": "uz", "niche": "apk", "keyword": "1xbet yuklab olish", "volume": 3000, "cps": null, "parent": "1xbet apk"}
+{"cc": "UZ", "lang": "uz", "niche": "adult", "keyword": "seks anime", "volume": 3000, "cps": null, "parent": "anime seks"}
 {"cc": "UZ", "lang": "uz", "niche": "crypto", "keyword": "bitcoin accelerator bittools", "volume": 3000, "cps": null, "parent": "bitcoin accelerator bittools"}
 {"cc": "UZ", "lang": "uz", "niche": "crypto", "keyword": "bitcoin price", "volume": 3000, "cps": null, "parent": "bitcoin price"}
 {"cc": "UZ", "lang": "uz", "niche": "crypto", "keyword": "what is bitcoin", "volume": 2900, "cps": null, "parent": "what is bitcoin"}
 {"cc": "UZ", "lang": "uz", "niche": "football_data", "keyword": "fc barcelona – real madrid cf", "volume": 2900, "cps": null, "parent": "fc barcelona – real madrid cf"}
 {"cc": "UZ", "lang": "uz", "niche": "apk", "keyword": "o'yinlar yuklab olish", "volume": 2800, "cps": null, "parent": "o'yinlar"}
 {"cc": "UZ", "lang": "uz", "niche": "pc_games", "keyword": "o'yinlar oynash", "volume": 2800, "cps": null, "parent": "oyin oynash"}
+{"cc": "UZ", "lang": "uz", "niche": "adult", "keyword": "sex anime", "volume": 2700, "cps": null, "parent": "anime sex"}
 {"cc": "UZ", "lang": "uz", "niche": "football_data", "keyword": "real madrid rasmi", "volume": 2600, "cps": null, "parent": "real madrid rasmi"}
 {"cc": "UZ", "lang": "uz", "niche": "pc_games", "keyword": "o'yinlar o ynash", "volume": 2600, "cps": null, "parent": "o'yinlar o ynash"}
 {"cc": "UZ", "lang": "uz", "niche": "crypto", "keyword": "how to buy bitcoin safely", "volume": 2600, "cps": null, "parent": "how to buy bitcoin safely"}
@@ -8193,6 +8317,7 @@
 {"cc": "UZ", "lang": "uz", "niche": "apk", "keyword": "stick war mod", "volume": 1700, "cps": null, "parent": "stick war legacy"}
 {"cc": "UZ", "lang": "uz", "niche": "football_data", "keyword": "real madrid cf – atletiko madrid", "volume": 1700, "cps": null, "parent": "real madrid cf – atletiko madrid"}
 {"cc": "UZ", "lang": "uz", "niche": "football_data", "keyword": "real madrid cf – deportivo alavés", "volume": 1700, "cps": null, "parent": "real madrid cf – deportivo alavés"}
+{"cc": "UZ", "lang": "uz", "niche": "adult", "keyword": "porn anime", "volume": 1600, "cps": null, "parent": "anime porn"}
 {"cc": "UZ", "lang": "uz", "niche": "pc_games", "keyword": "qizlar uchun o'yinlar", "volume": 1600, "cps": null, "parent": "bepul o'yinlar"}
 {"cc": "UZ", "lang": "uz", "niche": "apk", "keyword": "play market o'rnatish yuklab olish", "volume": 1600, "cps": null, "parent": "play market"}
 {"cc": "UZ", "lang": "uz", "niche": "apk", "keyword": "dls mod", "volume": 1600, "cps": null, "parent": "dls 2026"}
@@ -8387,6 +8512,7 @@
 {"cc": "UZ", "lang": "uz", "niche": "apk", "keyword": "bepul elektron kitoblar yuklab olish", "volume": 600, "cps": null, "parent": "elektron kitoblar"}
 {"cc": "UZ", "lang": "uz", "niche": "apk", "keyword": "play marketni yuklab olish", "volume": 600, "cps": null, "parent": "play market skachat qilish telefonga"}
 {"cc": "UZ", "lang": "uz", "niche": "apk", "keyword": "dls 26 oʻrnatish apk", "volume": 600, "cps": null, "parent": "dls 26 oʻrnatish apk"}
+{"cc": "UZ", "lang": "uz", "niche": "adult", "keyword": "anime hentai", "volume": 600, "cps": null, "parent": "anime hentai"}
 {"cc": "UZ", "lang": "uz", "niche": "apk", "keyword": "ayugram apk", "volume": 600, "cps": null, "parent": "ayugram"}
 {"cc": "UZ", "lang": "uz", "niche": "apk", "keyword": "instagram download apk", "volume": 600, "cps": null, "parent": "instagram"}
 {"cc": "UZ", "lang": "uz", "niche": "anime", "keyword": "arra odam anime", "volume": 600, "cps": null, "parent": "arra odam anime"}
@@ -8465,6 +8591,7 @@
 {"cc": "UZ", "lang": "uz", "niche": "football_data", "keyword": "osiyo chempionlar ligasi", "volume": 500, "cps": null, "parent": "osiyo chempionlar ligasi"}
 {"cc": "UZ", "lang": "uz", "niche": "football_data", "keyword": "atlético madrid vs real madrid", "volume": 500, "cps": null, "parent": "real madrid vs atletico madrid"}
 {"cc": "UZ", "lang": "uz", "niche": "apk", "keyword": "roblox скачать apk", "volume": 500, "cps": null, "parent": "roblox скачать apk"}
+{"cc": "UZ", "lang": "uz", "niche": "adult", "keyword": "xxx anime", "volume": 500, "cps": null, "parent": "anime xxx"}
 {"cc": "UZ", "lang": "uz", "niche": "apk", "keyword": "traffic rider mod apk", "volume": 500, "cps": null, "parent": "traffic rider mod apk"}
 {"cc": "UZ", "lang": "uz", "niche": "anime", "keyword": "taxt muhri anime", "volume": 500, "cps": null, "parent": "taxt muhri anime"}
 {"cc": "UZ", "lang": "uz", "niche": "football_data", "keyword": "real madrid vs getafe", "volume": 500, "cps": null, "parent": "real madrid vs getafe"}
@@ -8515,6 +8642,7 @@
 {"cc": "UZ", "lang": "uz", "niche": "esports", "keyword": "major cs2", "volume": 450, "cps": null, "parent": "major cs2"}
 {"cc": "UZ", "lang": "uz", "niche": "anime", "keyword": "anime rasmlari", "volume": 450, "cps": null, "parent": "anime rasmlar"}
 {"cc": "UZ", "lang": "uz", "niche": "mobile_games", "keyword": "pubg uc shop", "volume": 450, "cps": null, "parent": "uc"}
+{"cc": "UZ", "lang": "uz", "niche": "adult", "keyword": "anime 18+", "volume": 450, "cps": null, "parent": "anime 18+"}
 {"cc": "UZ", "lang": "uz", "niche": "translate", "keyword": "tarjimon", "volume": 196000, "cps": null, "parent": "tarjimon"}
 {"cc": "UZ", "lang": "uz", "niche": "translate", "keyword": "ingliz uzbek tarjima", "volume": 102000, "cps": null, "parent": "tarjimon"}
 {"cc": "UZ", "lang": "uz", "niche": "tools", "keyword": "pdf to word", "volume": 81000, "cps": null, "parent": "pdf to word"}
@@ -8965,6 +9093,7 @@
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "uychi: ob-havo", "volume": 20000, "cps": null, "parent": "uychi: ob-havo"}
 {"cc": "UZ", "lang": "uz", "niche": "prayer", "keyword": "taqvim 2026", "volume": 20000, "cps": null, "parent": "kalendar 2026"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": ": ob-havo", "volume": 19000, "cps": null, "parent": "ob-havo"}
+{"cc": "UZ", "lang": "uz", "niche": "adult", "keyword": "seks kino", "volume": 19000, "cps": null, "parent": "seks kino"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "ob havo namangan", "volume": 18000, "cps": null, "parent": "ertangi ob-havo"}
 {"cc": "UZ", "lang": "uz", "niche": "currency", "keyword": "xalq banki dollar kursi", "volume": 18000, "cps": null, "parent": "100 dollar kursi bugun xalq banki"}
 {"cc": "UZ", "lang": "uz", "niche": "currency", "keyword": "100 dollar kursi bugün", "volume": 18000, "cps": null, "parent": "dollar kursi"}
@@ -9033,6 +9162,8 @@
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "g‘uzor: ob-havo", "volume": 7600, "cps": null, "parent": "g‘uzor: ob-havo"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "koson ob havo", "volume": 7600, "cps": null, "parent": "ob havo koson 10 kunlik"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "ob havo jiźzax 10 kunlik", "volume": 7500, "cps": null, "parent": "ob havo jizzax"}
+{"cc": "UZ", "lang": "uz", "niche": "adult", "keyword": "sex kino", "volume": 7500, "cps": null, "parent": "sex kino"}
+{"cc": "UZ", "lang": "uz", "niche": "adult", "keyword": "porno kino", "volume": 7500, "cps": null, "parent": "порнофильмы"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "bulung‘ur: ob-havo", "volume": 7400, "cps": null, "parent": "bulung‘ur: ob-havo"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "usmat: ob-havo", "volume": 7400, "cps": null, "parent": "usmat: ob-havo"}
 {"cc": "UZ", "lang": "uz", "niche": "movies", "keyword": "hudo asrasin kino", "volume": 7300, "cps": null, "parent": "xudo asrasin kino"}
@@ -9070,6 +9201,7 @@
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "ob havo xorazm", "volume": 5800, "cps": null, "parent": "ertangi ob-havo"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "kakyr: ob-havo", "volume": 5800, "cps": null, "parent": "погода kakyr"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "10 kunlik ob havo navoiy", "volume": 5800, "cps": null, "parent": "oxyh: ob-havo"}
+{"cc": "UZ", "lang": "uz", "niche": "adult", "keyword": "porno film", "volume": 5700, "cps": null, "parent": "порнофильмы"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "ob havo denov", "volume": 5700, "cps": null, "parent": "ob havo denov soatlik"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "sart'yuzy: ob-havo", "volume": 5700, "cps": null, "parent": "sart'yuzy: ob-havo"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "xonqa: ob-havo", "volume": 5700, "cps": null, "parent": "xonqa: ob-havo"}
@@ -9098,6 +9230,7 @@
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "yangibozor: ob-havo", "volume": 5200, "cps": null, "parent": "yangibozor ob havo"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "dzhamashuy: ob-havo", "volume": 5100, "cps": null, "parent": "dzhamashuy: ob-havo"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "boyovut: ob-havo", "volume": 5100, "cps": null, "parent": "boyovut: ob-havo"}
+{"cc": "UZ", "lang": "uz", "niche": "adult", "keyword": "erotik film", "volume": 5100, "cps": null, "parent": "erotika film"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "fargʻona ob havo", "volume": 5100, "cps": null, "parent": "farg'ona: ob-havo"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "urganch: ob-havo", "volume": 5000, "cps": null, "parent": "ertangi ob-havo"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "olot ob havo soatlik", "volume": 5000, "cps": null, "parent": "olot ob havo soatlik"}
@@ -9135,6 +9268,7 @@
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "ob havo olmaliq", "volume": 4400, "cps": null, "parent": "ob havo olmaliq 10 kunlik"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "ob havo andijon 10 kunlik", "volume": 4400, "cps": null, "parent": "ertangi ob-havo"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "ob havo farg ona 10 kunlik", "volume": 4300, "cps": null, "parent": "ob havo farg ona 10 kunlik"}
+{"cc": "UZ", "lang": "uz", "niche": "adult", "keyword": "sex film", "volume": 4300, "cps": null, "parent": "sex film"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "10 kunlik ob havo samarqand juma", "volume": 4300, "cps": null, "parent": "10 kunlik ob havo samarqand juma"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "ob-havo buxoro", "volume": 4300, "cps": null, "parent": "buxoro ob havo"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "ob havo jondor", "volume": 4200, "cps": null, "parent": "ob havo jondor"}
@@ -9142,6 +9276,7 @@
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "qo‘rg‘ontepa: ob-havo", "volume": 4200, "cps": null, "parent": "qo‘rg‘ontepa: ob-havo"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "oxyh: ob-havo", "volume": 4200, "cps": null, "parent": "ob-havo"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "ob havo qo'qon", "volume": 4200, "cps": null, "parent": "ob havo qo'qon"}
+{"cc": "UZ", "lang": "uz", "niche": "adult", "keyword": "erotik kino", "volume": 4200, "cps": null, "parent": "irotika"}
 {"cc": "UZ", "lang": "uz", "niche": "series", "keyword": "sevganim sensan turk seriali", "volume": 4100, "cps": null, "parent": "sevganim sensan turk seriali"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "denov ob havo", "volume": 4100, "cps": null, "parent": "ob havo denov"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "pishag'ar: ob-havo", "volume": 4100, "cps": null, "parent": "pishag'ar: ob-havo"}
@@ -9163,6 +9298,7 @@
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "pitnak: ob-havo", "volume": 3900, "cps": null, "parent": "pitnak: ob-havo"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "10 kunlik ob havo termiz", "volume": 3900, "cps": null, "parent": "10 kunlik ob havo termiz"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "ob havo 1 oylik тошкент", "volume": 3800, "cps": null, "parent": "ob havo 1 oylik тошкент"}
+{"cc": "UZ", "lang": "uz", "niche": "adult", "keyword": "erotika kino", "volume": 3800, "cps": null, "parent": "erotik film"}
 {"cc": "UZ", "lang": "uz", "niche": "series", "keyword": "uzoq shahar turk seriali uzbek tilida 1 qism", "volume": 3800, "cps": null, "parent": "uzoq shahar turk seriali uzbek tilida 1 qism"}
 {"cc": "UZ", "lang": "uz", "niche": "prayer", "keyword": "roza taqvim 2026", "volume": 3800, "cps": null, "parent": "roza taqvim 2026"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "ob havo bulung'ur", "volume": 3800, "cps": null, "parent": "ob havo bulung'ur 10 kunlik"}
@@ -9314,6 +9450,7 @@
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "ob-havo qarshi", "volume": 2600, "cps": null, "parent": "25 kunlik ob havo qarshi"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "ob havo jarqoʻrgʻon", "volume": 2600, "cps": null, "parent": "ob havo jarqoʻrgʻon"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "ob havo karmana", "volume": 2600, "cps": null, "parent": "oxyh: ob-havo"}
+{"cc": "UZ", "lang": "uz", "niche": "adult", "keyword": "seksi seksi lyrics 2025 kino", "volume": 2600, "cps": null, "parent": "seksi seksi lyrics 2025 kino"}
 {"cc": "UZ", "lang": "uz", "niche": "movies", "keyword": "qozoq kino komediya 2026", "volume": 2600, "cps": null, "parent": "qozoq kino komediya 2026"}
 {"cc": "UZ", "lang": "uz", "niche": "movies", "keyword": "sheriklar qozoq kino", "volume": 2500, "cps": null, "parent": "sheriklar qozoq kino"}
 {"cc": "UZ", "lang": "uz", "niche": "movies", "keyword": "farz uzbek kino", "volume": 2500, "cps": null, "parent": "farz uzbek kino"}
@@ -9451,6 +9588,7 @@
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "ob havo g allaorol 1 oylik", "volume": 1900, "cps": null, "parent": "ob havo g allaorol 1 oylik"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "toshkent ob-havo", "volume": 1900, "cps": null, "parent": "ob-havo"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "denov ob havo 10 kunlik", "volume": 1900, "cps": null, "parent": "ob havo denov"}
+{"cc": "UZ", "lang": "uz", "niche": "adult", "keyword": "18+kino", "volume": 1900, "cps": null, "parent": "18+ kino"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "ob havo oltiariq", "volume": 1900, "cps": null, "parent": "oltiariq: ob-havo"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "dzhuma-bazar: ob-havo", "volume": 1900, "cps": null, "parent": "dzhuma-bazar: ob-havo"}
 {"cc": "UZ", "lang": "uz", "niche": "currency", "keyword": "dollar kursi agrobank", "volume": 1900, "cps": null, "parent": "dollar"}
@@ -9461,6 +9599,7 @@
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "ob havo zomin 30 kunlik", "volume": 1900, "cps": null, "parent": "ob havo zomin 30 kunlik"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "karabalyk: ob-havo", "volume": 1900, "cps": null, "parent": "karabalyk: ob-havo"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "ob havo kattaqo rg on 10 kunlik", "volume": 1900, "cps": null, "parent": "ob havo kattaqo rg on 10 kunlik"}
+{"cc": "UZ", "lang": "uz", "niche": "adult", "keyword": "kino sex", "volume": 1900, "cps": null, "parent": "seks kino"}
 {"cc": "UZ", "lang": "uz", "niche": "weather", "keyword": "ob havo jiźzax haftalik", "volume": 1900, "cps": null, "parent": "ob havo jizzax"}
 {"cc": "UZ", "lang": "uz", "niche": "movies", "keyword": "askar hind kino", "volume": 1900, "cps": null, "parent": "askar hind kino"}
 {"cc": "UZ", "lang": "uz", "niche": "movies", "keyword": "56 kun kino", "volume": 1900, "cps": null, "parent": "56 kun kino"}
