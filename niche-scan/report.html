@@ -139,13 +139,13 @@ ol.steps{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:12px}
 
 <section>
   <div class="col" style="display:flex;flex-direction:column;gap:8px">
-    <h2>Открытые ниши по странам</h2>
+    <h2>Открытые ниши по странам, визитов в месяц</h2>
     <p class="muted">Наведите на строку, чтобы увидеть частотность ниши и сколько запросов из проверенных имеют слабый сайт в топ-10. Масштаб у каждой страны свой; ниша-лидер, которая в разы больше остальных, нарисована с разрывом, чтобы остальные были различимы.</p>
   </div>
   <div class="tabs" role="tablist" id="tabs"></div>
   <div class="card">
     <div class="legend">
-      <span><i class="sw" style="background:var(--s1)"></i>строго</span><span><i class="sw" style="background:var(--s1soft)"></i>до потолка</span>
+      <span style="color:var(--ink);font-weight:600">Визитов в месяц:</span><span><i class="sw" style="background:var(--s1)"></i>строго</span><span><i class="sw" style="background:var(--s1soft)"></i>до потолка</span>
       <span><i class="sw" style="background:linear-gradient(110deg,var(--s1) 0 40%,var(--panel) 40% 60%,var(--s1) 60%)"></i>с разрывом — длиннее шкалы</span>
       <span><span class="chip one">один запрос</span> оценка держится на одном запросе</span>
       <span><span class="chip risk">юр. риск</span> в слабых местах — пиратство или взлом</span>
@@ -159,7 +159,7 @@ ol.steps{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:12px}
 <section>
   <div class="col" style="display:flex;flex-direction:column;gap:8px">
     <h2>Все темы во всех странах</h2>
-    <p class="muted">Одна и та же тема в соседних странах ведёт себя по-разному: погода открыта в Узбекистане и Кыргызстане и закрыта в Казахстане, курсы валют — наоборот. Число в ячейке — строгая оценка, визитов в месяц.</p>
+    <p class="muted">Одна и та же тема в соседних странах ведёт себя по-разному: погода открыта в Узбекистане и Кыргызстане и закрыта в Казахстане, курсы валют — наоборот. Число в ячейке — строгая оценка, визитов в месяц; у ниш ниже порога — частотность, запросов в месяц.</p>
   </div>
   <div class="legend" id="mlegend"></div>
   <div class="mwrap"><table class="m" id="matrix"></table></div>
@@ -237,7 +237,7 @@ const tot={};CC.forEach(([cc])=>{const o=rows(cc).filter(r=>r.st==="open");tot[c
 const maxC=Math.max(...CC.map(([cc])=>tot[cc].c));
 document.getElementById("kpis").innerHTML=CC.map(([cc,nm])=>{const t=tot[cc];return `<div class="kpi" data-tip="<b>${nm}</b><br>строго: ${fmt(t.v)} визитов/мес<br>потолок: ${fmt(t.c)}<br>открытых ниш: ${t.n}">
 <div class="cc">${cc} <span class="small" style="font-family:var(--f-body);font-weight:400">${nm}</span></div>
-<div class="big">${k(t.v)}</div><div class="sub">потолок ${k(t.c)} · ${t.n} ${t.n===1?"ниша":t.n<5?"ниши":"ниш"}</div>
+<div class="big">${k(t.v)}</div><div class="sub">визитов в месяц</div><div class="sub">потолок ${k(t.c)} · ${t.n} ${t.n===1?"ниша":t.n<5?"ниши":"ниш"}</div>
 <div class="range"><i style="width:${t.c/maxC*100}%;background:var(--s1soft)"></i><i style="width:${t.v/maxC*100}%;background:var(--s1)"></i></div></div>`}).join("");
 
 /* country bars */
