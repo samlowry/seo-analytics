@@ -1,0 +1,290 @@
+<title>Ниши с лёгким SEO-трафиком</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=Unbounded:wght@500;700&display=swap">
+<style>
+/* Layout: one reading column (~760px) that widens to 1040px for the charts; summary first, detail after. */
+:root{
+  --bg:#f7f8fa; --panel:#ffffff; --ink:#14171c; --ink2:#4a5260; --ink3:#7a8290; --line:#e2e5ea;
+  --s1:#2a78d6; --s1soft:#b7d3f6; --closed:#b4bac4; --risk:#c2501f; --riskbg:#fdeee6; --note:#8a6200; --notebg:#fdf4dc;
+  --q1:#cde2fb; --q2:#9ec5f4; --q3:#5598e7; --q4:#256abf; --q5:#104281;
+  --qt1:#14171c; --qt2:#14171c; --qt3:#fff; --qt4:#fff; --qt5:#fff;
+  --f-display:"Unbounded","Golos Text",system-ui,sans-serif; --f-body:"Golos Text",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#111318; --panel:#191c22; --ink:#eef0f3; --ink2:#b3bac6; --ink3:#848c99; --line:#2b3038;
+  --s1:#3987e5; --s1soft:#1f3f66; --closed:#4a505a; --risk:#f08a5d; --riskbg:#3a2218; --note:#e6b94c; --notebg:#33290f;
+  --q1:#1d3a5e; --q2:#1c5cab; --q3:#2a78d6; --q4:#6da7ec; --q5:#b7d3f6;
+  --qt1:#eef0f3; --qt2:#fff; --qt3:#fff; --qt4:#111318; --qt5:#111318; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#111318; --panel:#191c22; --ink:#eef0f3; --ink2:#b3bac6; --ink3:#848c99; --line:#2b3038;
+  --s1:#3987e5; --s1soft:#1f3f66; --closed:#4a505a; --risk:#f08a5d; --riskbg:#3a2218; --note:#e6b94c; --notebg:#33290f;
+  --q1:#1d3a5e; --q2:#1c5cab; --q3:#2a78d6; --q4:#6da7ec; --q5:#b7d3f6;
+  --qt1:#eef0f3; --qt2:#fff; --qt3:#fff; --qt4:#111318; --qt5:#111318; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.55;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:40px 64px}
+.wrap{max-width:1040px;margin:0 auto;display:flex;flex-direction:column;gap:56px}
+.col{max-width:760px}
+h1,h2{font-family:var(--f-display);font-weight:700;text-wrap:balance;margin:0;letter-spacing:-.01em}
+h1{font-size:clamp(28px,5vw,44px);line-height:1.1}
+h2{font-size:clamp(20px,3vw,26px);line-height:1.2}
+h3{font-size:17px;font-weight:600;margin:0}
+p{margin:0}
+section{display:flex;flex-direction:column;gap:20px}
+.eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink3);font-weight:600}
+.lead{font-size:18px;color:var(--ink2)}
+.muted{color:var(--ink2)}
+.small{font-size:14px;color:var(--ink3)}
+.num{font-variant-numeric:tabular-nums}
+code{font-size:.9em;background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:0 4px}
+.notice{border:1px solid var(--note);background:var(--notebg);border-radius:10px;padding:16px 20px;display:flex;flex-direction:column;gap:8px}
+.notice b{color:var(--note)}
+/* KPI */
+.kpis{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+.kpi{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.kpi .cc{font-family:var(--f-display);font-size:15px;font-weight:700}
+.kpi .big{font-size:28px;font-weight:600;line-height:1;font-variant-numeric:tabular-nums}
+.kpi .sub{font-size:13px;color:var(--ink2)}
+.range{height:6px;border-radius:3px;background:var(--line);position:relative;overflow:hidden}
+.range i{position:absolute;left:0;top:0;bottom:0;border-radius:3px}
+@media (max-width:820px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* legend */
+.legend{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:13px;color:var(--ink2);align-items:center}
+.sw{display:inline-block;width:14px;height:10px;border-radius:2px;vertical-align:-1px;margin-right:6px}
+/* country bars */
+.tabs{display:flex;gap:6px;flex-wrap:wrap}
+.tab{font:600 14px var(--f-body);padding:7px 14px;border-radius:999px;border:1px solid var(--line);background:var(--panel);color:var(--ink2);cursor:pointer}
+.tab[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.tab:focus-visible,.cell:focus-visible{outline:2px solid var(--s1);outline-offset:2px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px;display:flex;flex-direction:column;gap:16px;min-width:0}
+.bars{display:flex;flex-direction:column;gap:10px}
+.brow{display:grid;grid-template-columns:minmax(0,260px) minmax(0,1fr);gap:4px 16px;align-items:center;cursor:default}
+.bname{font-size:14px;line-height:1.3;display:flex;flex-wrap:wrap;gap:4px 6px;align-items:center}
+.btrack{display:flex;align-items:center;gap:8px;min-width:0}
+.bbar{display:flex;gap:2px;height:18px;flex:0 0 auto}
+.bbar i{display:block;height:100%}
+.bbar i:first-child{background:var(--s1);border-radius:2px 0 0 2px}
+.bbar i:last-child{border-radius:0 4px 4px 0}
+.bbar i.ext{background:var(--s1soft)}
+.bbar.only i:first-child{border-radius:2px 4px 4px 2px}
+.bval{font-size:13px;color:var(--ink2);white-space:nowrap;font-variant-numeric:tabular-nums}
+.bval b{color:var(--ink);font-weight:600}
+.chip{font-size:11px;font-weight:600;padding:1px 7px;border-radius:999px;white-space:nowrap;border:1px solid}
+.chip.risk{color:var(--risk);background:var(--riskbg);border-color:transparent}
+.chip.one{color:var(--note);background:var(--notebg);border-color:transparent}
+.chip.bet{color:var(--ink2);border-color:var(--line)}
+@media (max-width:620px){.brow{grid-template-columns:minmax(0,1fr)}}
+.closedlist{font-size:14px;color:var(--ink2)}
+/* matrix */
+.mwrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
+table.m{border-collapse:separate;border-spacing:2px;width:100%;min-width:620px;font-size:13px}
+table.m th{font-weight:600;text-align:left;padding:8px 10px;color:var(--ink2);white-space:nowrap}
+table.m thead th{font-family:var(--f-display);font-size:13px;text-align:center;color:var(--ink)}
+table.m td.n{padding:6px 10px;white-space:nowrap;font-size:13px}
+.cell{height:30px;text-align:center;border-radius:3px;font-variant-numeric:tabular-nums;font-weight:500;min-width:84px;cursor:default}
+.cell.closed{background:repeating-linear-gradient(135deg,var(--closed) 0 2px,transparent 2px 7px);color:var(--ink2);font-size:12px}
+.cell.low{color:var(--ink3);font-size:12px;background:var(--bg)}
+.cell.none{color:var(--ink3);background:transparent}
+tr.grp td{padding:14px 10px 4px;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink3);font-weight:600}
+/* concentration */
+.conc{display:flex;flex-direction:column;gap:14px}
+.crow{display:flex;flex-direction:column;gap:6px}
+.crow .t{font-size:14px}
+.cbar{display:flex;gap:2px;height:16px}
+.cbar i{display:block;height:100%}
+.cbar i:first-child{border-radius:2px 0 0 2px}
+.cbar i:last-child{border-radius:0 4px 4px 0;background:var(--s1soft)}
+ul.plain{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:10px}
+ol.steps{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:12px}
+.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+@media (max-width:760px){.two{grid-template-columns:minmax(0,1fr)}}
+#tip{position:fixed;z-index:20;pointer-events:none;background:var(--ink);color:var(--bg);font-size:13px;line-height:1.45;padding:8px 10px;border-radius:6px;max-width:280px;box-shadow:0 4px 16px rgba(0,0,0,.18)}
+#tip b{font-weight:600}
+@media (prefers-reduced-motion:no-preference){.bbar i{transition:width .3s ease}}
+</style>
+
+<div class="wrap">
+
+<header class="col" style="display:flex;flex-direction:column;gap:16px">
+  <div class="eyebrow">Узбекистан · Казахстан · Азербайджан · Турция · Кыргызстан · замер 23.11.2026</div>
+  <h1>Ниши с лёгким SEO-трафиком</h1>
+  <p class="lead">Где в пяти странах можно быстро получить поисковый трафик на сайты вне беттинга: темы с большим спросом, у которых в топ-10 Google есть слабые сайты. Ниши, где выдачу закрыли так же, как беттинговые запросы, отброшены.</p>
+  <div class="notice">
+    <p><b>Предварительная версия.</b> Цифры ниже — по текущему списку из 38 тем. Доанализ начнётся после обновления лимитов Ahrefs 26.11 и может изменить верх рейтинга. В него войдут:</p>
+    <ul class="plain small" style="color:var(--ink2)">
+      <li><b style="color:var(--ink)">поиск тем, которых нет в списке</b> — список собран вручную, его проверим по запросам, которые приносят трафик YouTube, Википедии и крупным местным порталам;</li>
+      <li><b style="color:var(--ink)">длинные хвосты</b> рецептов, сонника, поздравлений, гороскопа, музыки и сериалов, а также всех турецких ниш — сейчас эти темы занижены;</li>
+      <li><b style="color:var(--ink)">авторитет оставшихся 21 % сайтов</b> в выдаче — пока они не считаются слабыми, и оценка по ним занижена.</li>
+    </ul>
+  </div>
+</header>
+
+<section>
+  <div class="col" style="display:flex;flex-direction:column;gap:8px">
+    <h2>Сколько трафика можно забрать</h2>
+    <p class="muted">Визиты в месяц, если встать на место первого слабого сайта в топ-10 по каждому запросу. Строгая оценка считает слабым сайт с DR ниже 20, потолок — ниже 30. Учтены только ниши выше порога объёма страны.</p>
+  </div>
+  <div class="kpis" id="kpis"></div>
+  <div class="legend"><span><i class="sw" style="background:var(--s1)"></i>строгая оценка (DR&nbsp;&lt;&nbsp;20)</span><span><i class="sw" style="background:var(--s1soft)"></i>до потолка (DR&nbsp;&lt;&nbsp;30)</span></div>
+  <p class="small col">В Узбекистане потолок вдвое выше строгой оценки: на первых местах по погоде и кино стоят сайты с DR 27–29. В Турции открыта одна крупная ниша из 14, и та держится на пиратских трансляциях.</p>
+</section>
+
+<section>
+  <div class="col" style="display:flex;flex-direction:column;gap:8px">
+    <h2>Открытые ниши по странам</h2>
+    <p class="muted">Наведите на строку, чтобы увидеть частотность ниши и сколько запросов из проверенных имеют слабый сайт в топ-10. Масштаб у каждой страны свой.</p>
+  </div>
+  <div class="tabs" role="tablist" id="tabs"></div>
+  <div class="card">
+    <div class="legend">
+      <span><i class="sw" style="background:var(--s1)"></i>строго</span><span><i class="sw" style="background:var(--s1soft)"></i>до потолка</span>
+      <span><span class="chip one">один запрос</span> оценка держится на одном запросе</span>
+      <span><span class="chip risk">юр. риск</span> в слабых местах — пиратство или взлом</span>
+      <span><span class="chip bet">близко к беттингу</span></span>
+    </div>
+    <div class="bars" id="bars" role="tabpanel"></div>
+    <p class="closedlist" id="closed"></p>
+  </div>
+</section>
+
+<section>
+  <div class="col" style="display:flex;flex-direction:column;gap:8px">
+    <h2>Все темы во всех странах</h2>
+    <p class="muted">Одна и та же тема в соседних странах ведёт себя по-разному: погода открыта в Узбекистане и Кыргызстане и закрыта в Казахстане, курсы валют — наоборот. Число в ячейке — строгая оценка, визитов в месяц.</p>
+  </div>
+  <div class="legend" id="mlegend"></div>
+  <div class="mwrap"><table class="m" id="matrix"></table></div>
+</section>
+
+<section>
+  <div class="col" style="display:flex;flex-direction:column;gap:8px">
+    <h2>Куда не лезть</h2>
+    <p class="muted">Три причины: топ занят наглухо; ниша открыта, но вся оценка держится на одном запросе и одном конкуренте; ниша открыта, но слабые места в выдаче занимают пираты.</p>
+  </div>
+
+  <div class="two">
+    <div class="card">
+      <h3>Топ занят наглухо</h3>
+      <ul class="plain small" style="color:var(--ink2)">
+        <li><b style="color:var(--ink)">Футбол: результаты, таблицы, клубы</b> — главная ниша аудитории беттинга, закрыта везде, кроме русских запросов в Азербайджане. Топ держат sports.ru, championat.com, soccer365.ru, uefa.com, Википедия; в Турции — beinsports.com.tr, mackolik.com, sporx.com.</li>
+        <li><b style="color:var(--ink)">Курсы валют и кредиты в Узбекистане</b> — сами банки: bank.uz, nbu.uz, tbcbank.uz. По валюте слабых сайтов нет ни в одном из 9 проверенных запросов.</li>
+        <li><b style="color:var(--ink)">Погода в Казахстане</b> (8,9 млн запросов) — gismeteo.kz держит 21 из 45 мест в топ-3.</li>
+        <li><b style="color:var(--ink)">Кино в Казахстане и Кыргызстане</b> — kinopoisk.ru, ivi.ru, film.ru.</li>
+        <li><b style="color:var(--ink)">Игры, онлайн-инструменты, госуслуги</b> — poki.com, crazygames.com, ilovepdf.com, smallpdf.com, Google Play, госпорталы.</li>
+        <li><b style="color:var(--ink)">Турция, 13 крупных ниш из 14</b> — госсервисы и крупные медиа: намаз — diyanet.gov.tr, погода — mgm.gov.tr, экзамены — osym.gov.tr, рецепты — nefisyemektarifleri.com.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Оценка держится на одном запросе</h3>
+      <p class="small">Тёмная часть полосы — визиты одного запроса, светлая — вся остальная ниша. Если лидера по этому запросу не сдвинуть, ниша почти пуста.</p>
+      <div class="conc" id="conc"></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Юридический риск</h3>
+    <div class="conc" id="risk"></div>
+    <ul class="plain small" style="color:var(--ink2)">
+      <li><b style="color:var(--ink)">ТВ онлайн в Турции</b> — 367 тыс. из 500 тыс. визитов приходят с пиратских трансляций: <code>atv canlı izle</code>, <code>taraftarium24 canlı maç izle</code>, <code>selçuk sports canlı maç izle</code>, в том числе футбола. Легальная часть ниши — программа передач (<code>trt 1 yayın akışı</code>).</li>
+      <li><b style="color:var(--ink)">Кино, сериалы и аниме в Узбекистане, Казахстане и Кыргызстане</b> — слабые места в топе заняты пиратскими сайтами (uzmovi.net, kinogo.is, animeua.club). Без собственного контента туда встать можно только так же.</li>
+      <li><b style="color:var(--ink)">APK в Казахстане и Кыргызстане</b> — крупнейший запрос <code>тока бока взлом</code>: взломанные приложения, детская аудитория.</li>
+      <li><b style="color:var(--ink)">Экзамены в Узбекистане</b> — ответы на школьные контрольные (<code>chsb javoblari</code>, <code>bsb javoblari</code>).</li>
+    </ul>
+  </div>
+
+  <p class="small col">Брендовые запросы микрофинансовых компаний, банков и лотерей (<code>кредит 365</code>, <code>кредит бар</code>, <code>azerlotereya</code>) из оценки убраны: выдачу по бренду держит его владелец, как по запросу <code>mostbet</code>. Без них кредиты в Казахстане — 27 тыс. визитов вместо 194 тыс.</p>
+</section>
+
+<section class="col">
+  <h2>Как считали</h2>
+  <ol class="steps muted">
+    <li><b style="color:var(--ink)">Темы.</b> 37 тем, собранных вручную по исходным словам на русском, узбекском, азербайджанском и турецком, плюс адалт. Всего 11 200 запросов из Ahrefs, 9 649 из них отнесены к темам.</li>
+    <li><b style="color:var(--ink)">Язык.</b> В каждой стране и нише берётся только язык с наибольшим спросом: в Казахстане и Кыргызстане — русский, в Турции — турецкий; в Узбекистане и Азербайджане язык выбран для каждой ниши отдельно.</li>
+    <li><b style="color:var(--ink)">Порог объёма</b> — 0,5 % суммарного спроса всех тем страны: Узбекистан 77 тыс. запросов в месяц, Казахстан 138 тыс., Азербайджан 27 тыс., Турция 1,8 млн, Кыргызстан 43 тыс.</li>
+    <li><b style="color:var(--ink)">Выдача.</b> По каждой нише и стране — до 15 главных запросов, всего 1 903 снимка топ-10 Google. Слабым считается сайт с DR ниже 20 (потолок — ниже 30), форум или блог-платформа, или страница не на языке запроса.</li>
+    <li><b style="color:var(--ink)">Визиты</b> = частотность × доля поисков с кликом × доля кликов места первого слабого сайта (от 39 % на первом месте до 2,5 % на десятом). Затем результат по проверенным запросам растягивается на всю частотность ниши.</li>
+    <li><b style="color:var(--ink)">Закрытая ниша</b> — у двух из трёх главных запросов в топ-10 нет ни одного слабого сайта, и слабые есть меньше чем у трети запросов. Правило проверено на беттинговых запросах: оно закрывает беттинг в Узбекистане, Казахстане, Азербайджане и Кыргызстане, как и есть на деле.</li>
+  </ol>
+  <p class="small">Оценка исходит из того, что сайт с низким DR можно сместить. Часто это узкий сайт с точным доменом (namazvaxti.az — DR 4,6, allbanks.kz — DR 11), который держится поведением пользователей, а не ссылками. Частотность Ahrefs в Узбекистане и Азербайджане неточная; выдача снята для десктопа. Ниша «Адалт» неполная: она собрана из запросов, попавших в выгрузки кино и аниме, отдельно её не выгружали.</p>
+</section>
+
+</div>
+<div id="tip" hidden></div>
+
+<script>
+const D={"AZ":[["adult","Адалт (из выгрузок кино и аниме)","az",63800,3795,6555,"open","9/15","low","61.5"],["anime","Аниме","az",13550,178,952,"low","5/8","low","91.5"],["apk","APK и моды","az",122350,910,3696,"closed","4/15","medium","81.0"],["books","Книги, сочинения, рефераты","az",6100,607,607,"low","3/3","low","95.0"],["cars","Авто","az",76800,290,1605,"closed","1/15","low","49.25"],["crypto","Криптовалюта","az",20250,137,137,"closed","2/12","medium","89.0"],["currency","Курсы валют","az",494700,33721,33721,"open","11/15","low","72.5"],["dreams","Сонник","az",46100,7500,8397,"open","14/15","low","36.0"],["esports","Киберспорт","az",350,15,15,"low","1/1","high","86.5"],["exams","Экзамены, тесты, ГДЗ","az",101100,8765,8765,"open","12/15","low","91.0"],["fights","UFC и бокс","az",16700,184,184,"closed","2/15","high","83.0"],["football_data","Футбол: результаты, таблицы, клубы","ru",320550,16700,16700,"open","5/15","high","65.0"],["football_live","Футбол онлайн, трансляции","az",19100,1310,1559,"low","11/14","high","63.75"],["gold","Цена золота","az",4900,312,312,"low","2/3","low","29.0"],["gov","Госуслуги, налоги, пенсии","az",41800,1377,1377,"closed","3/15","low","99.0"],["greetings","Поздравления и статусы","az",3100,716,716,"low","2/3","low","78.75"],["holidays","Праздники и календарь","az",61600,3098,3604,"open","10/14","low","51.75"],["horoscope","Гороскоп","az",36700,0,2100,"closed","0/3","low","52.0"],["jobs","Работа и вакансии","az",396400,38958,39197,"open","13/15","low","35.0"],["loans","Кредиты и займы","az",398250,21854,21854,"open","8/13","low","42.5"],["lottery","Лотереи","az",15200,0,0,"closed","0/3","high","92.0"],["mobile_games","Мобильные игры: коды, донат","az",52550,487,1103,"open","5/15","medium","85.0"],["movies","Кино онлайн","az",110100,5419,5571,"open","9/15","low","56.0"],["music","Музыка и песни","az",127250,8649,9090,"open","7/15","low","77.75"],["names","Имена и их значение","az",12350,1646,1698,"low","4/4","low","37.0"],["pc_games","Игры на ПК","az",314150,436,867,"closed","4/15","medium","81.5"],["phones","Телефоны и цены","az",779900,26950,27582,"open","11/15","low","47.0"],["prayer","Время намаза","az",254150,96112,96825,"open","15/15","low","17.0"],["realty","Недвижимость и аренда","az",39800,3385,8331,"open","14/14","low","39.5"],["recipes","Рецепты","az",1000,0,0,"low","0/1","low","97.0"],["series","Сериалы","az",850,0,0,"closed","0/2","low","96.75"],["sport_news","Новости спорта, трансферы","az",16750,642,642,"low","5/15","high","84.0"],["tools","Онлайн-инструменты: VPN, скачивание видео, PDF","az",266850,5193,7612,"closed","3/15","low","92.0"],["translate","Переводчик и словари","az",417700,281,281,"closed","2/8","low","96.75"],["tv","ТВ онлайн и телепрограмма","az",158950,14731,14731,"open","8/15","medium","61.0"],["weather","Погода","ru",650900,6002,6064,"open","6/15","low","73.0"]],"KG":[["adult","Адалт (из выгрузок кино и аниме)","ru",104400,20043,21670,"open","12/14","low","64.0"],["anime","Аниме","ru",88900,12993,14422,"open","15/15","low","66.0"],["apk","APK и моды","ru",71200,3705,4480,"open","7/15","medium","62.0"],["books","Книги, сочинения, рефераты","ru",9400,35,780,"closed","2/8","low","83.5"],["cars","Авто","ru",18000,457,478,"low","5/8","low","64.0"],["crypto","Криптовалюта","ru",5500,276,276,"low","1/3","medium","80.5"],["currency","Курсы валют","ru",406400,7960,54986,"open","6/13","low","48.0"],["dreams","Сонник","ru",4100,738,738,"low","2/2","low","31.0"],["esports","Киберспорт","ru",1600,175,175,"low","1/2","high","73.5"],["exams","Экзамены, тесты, ГДЗ","ru",27200,2688,3103,"low","10/13","low","54.0"],["fights","UFC и бокс","ru",26600,445,743,"closed","4/13","high","76.0"],["football_data","Футбол: результаты, таблицы, клубы","ru",1388300,10450,44324,"closed","4/15","high","73.0"],["football_live","Футбол онлайн, трансляции","ru",2700,0,0,"low","0/1","high","69.0"],["gold","Цена золота","ru",2900,0,0,"low","0/1","low","52.0"],["gov","Госуслуги, налоги, пенсии","ru",9400,0,0,"closed","0/3","low","100.0"],["greetings","Поздравления и статусы","ru",14700,1878,2103,"low","10/11","low","79.0"],["health","Здоровье и лекарства","ru",10500,753,753,"low","9/12","low","49.5"],["holidays","Праздники и календарь","ru",68800,6990,7060,"open","10/15","low","83.5"],["horoscope","Гороскоп","ru",7100,205,254,"low","2/5","low","77.0"],["jobs","Работа и вакансии","ru",29100,1565,1565,"low","5/11","low","52.0"],["loans","Кредиты и займы","ru",30200,2845,2845,"low","14/15","low","36.5"],["mobile_games","Мобильные игры: коды, донат","ru",40100,357,553,"closed","4/15","medium","81.0"],["movies","Кино онлайн","ru",48900,0,2607,"closed","0/11","low","82.0"],["music","Музыка и песни","ru",11000,0,0,"low","0/1","low","96.5"],["names","Имена и их значение","ru",2200,407,407,"low","3/3","low","70.0"],["phones","Телефоны и цены","ru",50900,3614,3614,"open","10/15","low","56.5"],["prayer","Время намаза","ru",63800,9300,16793,"open","6/9","low","31.0"],["realty","Недвижимость и аренда","ru",8900,359,359,"low","4/6","low","57.5"],["recipes","Рецепты","ru",7300,531,579,"closed","2/9","low","68.0"],["series","Сериалы","ru",51600,3670,5612,"open","9/13","low","77.0"],["sport_news","Новости спорта, трансферы","ru",3500,0,0,"low","0/1","high","74.5"],["tools","Онлайн-инструменты: VPN, скачивание видео, PDF","ru",83600,3369,4850,"open","6/15","low","80.0"],["translate","Переводчик и словари","ru",1771900,34038,34038,"open","11/15","low","90.0"],["tv","ТВ онлайн и телепрограмма","ru",7200,552,552,"low","3/8","medium","92.0"],["weather","Погода","ru",4164800,120532,120532,"open","6/15","low","80.0"]],"KZ":[["adult","Адалт (из выгрузок кино и аниме)","ru",259800,54214,54214,"open","15/15","low","54.0"],["anime","Аниме","ru",183300,21916,25014,"open","13/15","low","76.0"],["apk","APK и моды","ru",155800,24954,25708,"open","11/15","medium","67.75"],["books","Книги, сочинения, рефераты","ru",29300,1394,5555,"low","2/6","low","60.5"],["cars","Авто","ru",52300,738,738,"closed","1/9","low","71.0"],["crypto","Криптовалюта","ru",44700,672,2094,"low","3/6","medium","79.5"],["currency","Курсы валют","ru",1923800,265377,265750,"open","9/15","low","47.5"],["dreams","Сонник","ru",13100,1561,1561,"low","3/3","low","55.0"],["esports","Киберспорт","ru",27800,2784,2910,"low","3/8","high","82.75"],["exams","Экзамены, тесты, ГДЗ","ru",431000,54001,111697,"open","14/15","low","27.0"],["fights","UFC и бокс","ru",213700,4263,11884,"open","6/15","high","79.0"],["football_data","Футбол: результаты, таблицы, клубы","ru",3533500,10164,43290,"closed","3/15","high","71.0"],["football_live","Футбол онлайн, трансляции","ru",10800,2184,2268,"low","1/3","high","70.5"],["gold","Цена золота","ru",19700,0,0,"closed","0/3","low","74.0"],["gov","Госуслуги, налоги, пенсии","ru",872800,4462,4462,"open","5/15","low","70.0"],["greetings","Поздравления и статусы","ru",92100,10377,13103,"low","13/13","low","74.5"],["health","Здоровье и лекарства","ru",41800,3451,3701,"low","6/11","low","55.5"],["holidays","Праздники и календарь","ru",344300,15336,15407,"open","9/15","low","79.0"],["horoscope","Гороскоп","ru",38600,5220,5278,"low","5/5","low","85.0"],["jobs","Работа и вакансии","ru",131800,5962,10238,"low","7/15","low","60.0"],["loans","Кредиты и займы","ru",421100,27323,60658,"open","6/6","low","34.5"],["lottery","Лотереи","ru",3400,300,300,"low","1/1","high","83.0"],["mobile_games","Мобильные игры: коды, донат","ru",118600,2052,2799,"low","8/15","medium","86.5"],["movies","Кино онлайн","ru",520300,6218,56839,"closed","3/15","low","79.5"],["music","Музыка и песни","ru",128000,6540,25144,"low","7/15","low","92.0"],["names","Имена и их значение","ru",3400,1326,1326,"low","1/1","low","72.5"],["pc_games","Игры на ПК","ru",7100,436,436,"low","2/3","medium","85.0"],["phones","Телефоны и цены","ru",211300,5528,6059,"open","7/15","low","60.0"],["prayer","Время намаза","ru",189900,32358,35242,"open","12/15","low","31.0"],["realty","Недвижимость и аренда","ru",40400,320,320,"closed","2/7","low","62.0"],["recipes","Рецепты","ru",50700,4864,5129,"low","8/14","low","65.5"],["series","Сериалы","ru",360600,24883,80782,"open","7/15","low","76.0"],["sport_news","Новости спорта, трансферы","ru",8500,0,0,"low","0/1","high","73.0"],["tools","Онлайн-инструменты: VPN, скачивание видео, PDF","ru",418100,25711,37610,"open","9/15","low","83.0"],["translate","Переводчик и словари","ru",7937600,103722,103722,"open","8/15","low","87.5"],["tv","ТВ онлайн и телепрограмма","ru",126900,14074,15476,"low","9/15","medium","57.0"],["weather","Погода","ru",8897900,4942,6372,"closed","3/15","low","69.75"]],"TR":[["adult","Адалт (из выгрузок кино и аниме)","tr",472000,145546,153253,"low","2/2","low","13.775"],["anime","Аниме","tr",409000,61487,61487,"low","1/2","low","54.125"],["apk","APK и моды","tr",473000,1850,23868,"closed","1/10","medium","81.0"],["books","Книги, сочинения, рефераты","tr",28000,1680,1680,"low","1/1","low","100.0"],["cars","Авто","tr",1155000,17882,17882,"closed","3/14","low","86.0"],["crypto","Криптовалюта","tr",1608000,106499,106499,"low","4/15","medium","90.0"],["currency","Курсы валют","tr",1156000,1133,1133,"closed","1/5","low","70.5"],["dreams","Сонник","tr",950000,44697,91052,"low","10/15","low","57.0"],["esports","Киберспорт","tr",686000,3941,3941,"closed","1/6","high","90.0"],["exams","Экзамены, тесты, ГДЗ","tr",5373000,30491,30491,"closed","1/15","low","82.0"],["fights","UFC и бокс","tr",63000,0,0,"low","0/1","high","83.0"],["football_data","Футбол: результаты, таблицы, клубы","tr",113849000,0,11231,"closed","0/15","high","77.0"],["football_live","Футбол онлайн, трансляции","tr",411000,26765,26765,"low","1/3","high","67.5"],["gold","Цена золота","tr",30883000,336155,336155,"closed","4/15","low","68.5"],["gov","Госуслуги, налоги, пенсии","tr",1208000,2577,2577,"closed","1/13","low","90.5"],["greetings","Поздравления и статусы","tr",712000,166735,166735,"low","8/8","low","86.0"],["health","Здоровье и лекарства","tr",824000,0,0,"closed","0/15","low","74.0"],["holidays","Праздники и календарь","tr",4906000,48639,181628,"closed","4/15","low","84.0"],["horoscope","Гороскоп","tr",1425000,36002,36002,"low","8/14","low","69.0"],["jobs","Работа и вакансии","tr",519000,6514,6514,"closed","1/10","low","83.75"],["loans","Кредиты и займы","tr",2462000,1237,1237,"closed","1/9","low","75.0"],["lottery","Лотереи","tr",1967000,0,0,"closed","0/5","high","72.0"],["mobile_games","Мобильные игры: коды, донат","tr",518000,1315,1315,"low","1/3","medium","98.0"],["movies","Кино онлайн","tr",2139000,60237,60237,"closed","1/4","low","95.0"],["music","Музыка и песни","tr",787000,50041,50041,"low","4/7","low","77.0"],["names","Имена и их значение","tr",229000,6780,6780,"low","1/3","low","97.0"],["pc_games","Игры на ПК","tr",146000,9366,26016,"low","2/3","medium","83.0"],["phones","Телефоны и цены","tr",41000,0,0,"low","0/1","low","82.5"],["prayer","Время намаза","tr",20649000,247895,424512,"closed","3/15","low","54.0"],["realty","Недвижимость и аренда","tr",239000,0,0,"closed","0/4","low","86.0"],["recipes","Рецепты","tr",6993000,23567,23567,"closed","2/15","low","83.0"],["series","Сериалы","tr",4645000,250302,799512,"closed","4/15","low","84.0"],["sport_news","Новости спорта, трансферы","tr",384000,0,0,"closed","0/5","high","69.0"],["tools","Онлайн-инструменты: VPN, скачивание видео, PDF","tr",7015000,102288,115962,"closed","2/15","low","97.0"],["translate","Переводчик и словари","tr",30939000,31539,51416,"closed","4/15","low","86.5"],["tv","ТВ онлайн и телепрограмма","tr",8048000,499982,499982,"open","5/15","medium","66.5"],["weather","Погода","tr",103149000,69660,941754,"closed","4/15","low","86.0"]],"UZ":[["adult","Адалт (из выгрузок кино и аниме)","uz",129250,17560,24753,"open","10/15","low","63.5"],["anime","Аниме","uz",55100,6779,6972,"low","14/15","low","71.5"],["apk","APK и моды","uz",296000,13159,13159,"open","6/15","medium","86.0"],["books","Книги, сочинения, рефераты","uz",22900,5213,5213,"low","10/11","low","64.0"],["cars","Авто","uz",79800,6968,7461,"open","12/15","low","41.0"],["crypto","Криптовалюта","uz",32200,1086,1136,"low","7/14","medium","87.5"],["currency","Курсы валют","uz",1229800,0,31879,"closed","0/9","low","51.0"],["dreams","Сонник","uz",3100,104,104,"low","1/2","low","65.75"],["esports","Киберспорт","uz",27750,3384,3436,"low","7/15","high","78.0"],["exams","Экзамены, тесты, ГДЗ","uz",106300,10542,11653,"open","12/15","low","48.5"],["fights","UFC и бокс","uz",34750,984,2501,"closed","4/14","high","85.0"],["football_data","Футбол: результаты, таблицы, клубы","ru",2561600,21953,45723,"closed","2/15","high","71.0"],["football_live","Футбол онлайн, трансляции","uz",10600,1390,3336,"low","4/4","high","26.0"],["gold","Цена золота","ru",13100,799,799,"low","2/3","low","51.0"],["gov","Госуслуги, налоги, пенсии","uz",62700,2734,3452,"closed","4/15","low","81.0"],["greetings","Поздравления и статусы","ru",26800,2065,2181,"low","14/15","low","72.5"],["health","Здоровье и лекарства","uz",7800,2019,2019,"low","5/5","low","45.5"],["holidays","Праздники и календарь","uz",151700,14918,14918,"open","12/15","low","76.0"],["horoscope","Гороскоп","ru",7100,877,877,"low","3/4","low","66.75"],["jobs","Работа и вакансии","uz",73100,5226,5947,"low","8/15","low","58.0"],["loans","Кредиты и займы","uz",93500,0,1238,"closed","0/12","low","49.0"],["migration","Миграция и работа в РФ","ru",700,0,0,"low","0/1","low","90.0"],["mobile_games","Мобильные игры: коды, донат","uz",122250,1066,1066,"closed","4/15","medium","83.0"],["movies","Кино онлайн","uz",390900,21694,82562,"open","8/15","low","76.0"],["music","Музыка и песни","uz",19600,1589,1661,"low","6/14","low","79.0"],["names","Имена и их значение","ru",600,0,0,"low","0/1","low","45.5"],["pc_games","Игры на ПК","uz",122500,198,198,"closed","2/15","medium","83.0"],["phones","Телефоны и цены","uz",616000,46463,73015,"open","11/15","low","63.0"],["prayer","Время намаза","uz",143600,34468,34468,"open","10/10","low","22.5"],["realty","Недвижимость и аренда","ru",9200,447,758,"low","3/6","low","54.0"],["recipes","Рецепты","uz",9300,2069,2069,"low","4/4","low","92.75"],["series","Сериалы","uz",51600,10296,12786,"low","14/15","low","55.0"],["sport_news","Новости спорта, трансферы","uz",20900,1707,2285,"low","4/9","high","52.5"],["tools","Онлайн-инструменты: VPN, скачивание видео, PDF","uz",504900,26807,27100,"open","7/15","low","83.75"],["translate","Переводчик и словари","ru",2127800,2650,2851,"open","6/15","low","90.0"],["tv","ТВ онлайн и телепрограмма","uz",26150,2925,7983,"low","13/15","medium","26.0"],["weather","Погода","uz",6316300,167868,513046,"open","5/15","low","70.0"]]};
+const CC=[["UZ","Узбекистан"],["KZ","Казахстан"],["AZ","Азербайджан"],["TR","Турция"],["KG","Кыргызстан"]];
+const LANG={uz:"узб.",ru:"рус.",az:"азерб.",tr:"тур."};
+const ONE={"KZ:currency":1,"AZ:prayer":1,"UZ:weather":1,"AZ:football_data":1};
+const RISK={"TR:tv":1,"UZ:movies":1,"KZ:series":1,"KG:series":1,"KZ:anime":1,"KG:anime":1,"KZ:apk":1,"KG:apk":1,"UZ:exams":1};
+const SHORT={"Адалт (из выгрузок кино и аниме)":"Адалт","Онлайн-инструменты: VPN, скачивание видео, PDF":"Онлайн-инструменты: PDF, VPN, видео","Футбол: результаты, таблицы, клубы":"Футбол: результаты и таблицы"};
+const rows=cc=>D[cc].map(r=>({id:r[0],name:SHORT[r[1]]||r[1],lang:r[2],vol:r[3],v:r[4],c:r[5],st:r[6],wk:r[7],bet:r[8],dr:r[9]}));
+const fmt=n=>n.toLocaleString("ru-RU");
+const k=n=>n>=1e6?(n/1e6).toLocaleString("ru-RU",{maximumFractionDigits:1})+" млн":n>=1e3?Math.round(n/1e3)+" тыс.":String(n);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+/* KPI */
+const tot={};CC.forEach(([cc])=>{const o=rows(cc).filter(r=>r.st==="open");tot[cc]={v:o.reduce((a,r)=>a+r.v,0),c:o.reduce((a,r)=>a+r.c,0),n:o.length}});
+const maxC=Math.max(...CC.map(([cc])=>tot[cc].c));
+document.getElementById("kpis").innerHTML=CC.map(([cc,nm])=>{const t=tot[cc];return `<div class="kpi" data-tip="<b>${nm}</b><br>строго: ${fmt(t.v)} визитов/мес<br>потолок: ${fmt(t.c)}<br>открытых ниш: ${t.n}">
+<div class="cc">${cc} <span class="small" style="font-family:var(--f-body);font-weight:400">${nm}</span></div>
+<div class="big">${k(t.v)}</div><div class="sub">потолок ${k(t.c)} · ${t.n} ${t.n===1?"ниша":t.n<5?"ниши":"ниш"}</div>
+<div class="range"><i style="width:${t.c/maxC*100}%;background:var(--s1soft)"></i><i style="width:${t.v/maxC*100}%;background:var(--s1)"></i></div></div>`}).join("");
+
+/* country bars */
+let cur="UZ";
+function bars(){
+  const rs=rows(cur).filter(r=>r.st==="open").sort((a,b)=>b.v-a.v);
+  const mx=Math.max(...rs.map(r=>r.c));
+  document.getElementById("bars").innerHTML=rs.map(r=>{
+    const key=cur+":"+r.id, w1=r.v/mx*100, w2=(r.c-r.v)/mx*100;
+    const chips=(ONE[key]?'<span class="chip one">один запрос</span>':"")+(RISK[key]?'<span class="chip risk">юр. риск</span>':"")+(r.bet!=="low"?'<span class="chip bet">близко к беттингу</span>':"");
+    const tip=`<b>${esc(r.name)}</b> · ${LANG[r.lang]||r.lang}<br>частотность ниши: ${fmt(r.vol)}/мес<br>строго: ${fmt(r.v)} визитов · потолок: ${fmt(r.c)}<br>слабый сайт в топе: ${r.wk} проверенных запросов${r.dr?`<br>медианный DR топа: ${r.dr}`:""}`;
+    return `<div class="brow" data-tip="${esc(tip)}"><div class="bname">${esc(r.name)} <span class="small">${LANG[r.lang]||""}</span>${chips}</div>
+<div class="btrack"><div class="bbar${w2<0.3?" only":""}" style="width:max(4px,calc(${w1+(w2<0.3?0:w2)}% - 90px))">${`<i style="flex:${Math.max(w1,0.3)}"></i>`}${w2>=0.3?`<i class="ext" style="flex:${w2}"></i>`:""}</div>
+<span class="bval"><b>${k(r.v)}</b>${r.c-r.v>500?` → ${k(r.c)}`:""}</span></div></div>`}).join("");
+  const cl=rows(cur).filter(r=>r.st==="closed").map(r=>r.name);
+  document.getElementById("closed").innerHTML=`<b style="color:var(--ink)">Закрыты:</b> ${cl.map(esc).join(", ")}.`;
+  document.querySelectorAll(".tab").forEach(t=>t.setAttribute("aria-selected",t.dataset.cc===cur));
+}
+document.getElementById("tabs").innerHTML=CC.map(([cc,nm])=>`<button class="tab" role="tab" data-cc="${cc}">${nm} · ${k(tot[cc].v)}</button>`).join("");
+document.getElementById("tabs").addEventListener("click",e=>{const b=e.target.closest(".tab");if(b){cur=b.dataset.cc;bars();try{localStorage.setItem("cc",cur)}catch(_){}}});
+try{const s=localStorage.getItem("cc");if(s&&D[s])cur=s}catch(_){}
+bars();
+
+/* matrix */
+const BINS=[5e3,15e3,40e3,1e5];
+const bin=v=>BINS.filter(b=>v>=b).length+1;
+document.getElementById("mlegend").innerHTML=["до 5 тыс.","5–15 тыс.","15–40 тыс.","40–100 тыс.","от 100 тыс."].map((l,i)=>`<span><i class="sw" style="background:var(--q${i+1})"></i>${l}</span>`).join("")+
+ `<span><i class="sw" style="background:repeating-linear-gradient(135deg,var(--closed) 0 2px,transparent 2px 5px);border:1px solid var(--line)"></i>закрыта</span><span><i class="sw" style="background:var(--bg);border:1px solid var(--line)"></i>ниже порога объёма</span>`;
+const by={};CC.forEach(([cc])=>rows(cc).forEach(r=>{(by[r.id]=by[r.id]||{name:r.name,c:{}}).c[cc]=r}));
+const ids=Object.keys(by);
+const score=id=>CC.reduce((a,[cc])=>a+(by[id].c[cc]&&by[id].c[cc].st==="open"?by[id].c[cc].v:0),0);
+const open=ids.filter(id=>score(id)>0).sort((a,b)=>score(b)-score(a));
+const rest=ids.filter(id=>score(id)===0).sort((a,b)=>CC.filter(([cc])=>by[b].c[cc]&&by[b].c[cc].st==="closed").length-CC.filter(([cc])=>by[a].c[cc]&&by[a].c[cc].st==="closed").length);
+const cell=(id,cc)=>{const r=by[id].c[cc];if(!r)return `<td class="cell none" data-tip="Запросов по теме в выгрузке нет">—</td>`;
+  const tip=`<b>${esc(r.name)}, ${cc}</b><br>частотность: ${fmt(r.vol)}/мес`;
+  if(r.st==="closed")return `<td class="cell closed" tabindex="0" data-tip="${esc(tip+`<br>закрыта: слабый сайт в топе у ${r.wk} запросов`)}">закрыта</td>`;
+  if(r.st==="low")return `<td class="cell low" data-tip="${esc(tip+"<br>ниже порога объёма страны")}">${k(r.vol)}</td>`;
+  const b=bin(r.v);return `<td class="cell" tabindex="0" style="background:var(--q${b});color:var(--qt${b})" data-tip="${esc(tip+`<br>строго: ${fmt(r.v)} · потолок: ${fmt(r.c)}`)}">${k(r.v)}</td>`};
+document.getElementById("matrix").innerHTML=`<thead><tr><th></th>${CC.map(([cc])=>`<th>${cc}</th>`).join("")}</tr></thead><tbody>
+<tr class="grp"><td colspan="6">Открыта хотя бы в одной стране</td></tr>
+${open.map(id=>`<tr><td class="n">${esc(by[id].name)}</td>${CC.map(([cc])=>cell(id,cc)).join("")}</tr>`).join("")}
+<tr class="grp"><td colspan="6">Нигде не открыта или мала</td></tr>
+${rest.map(id=>`<tr><td class="n">${esc(by[id].name)}</td>${CC.map(([cc])=>cell(id,cc)).join("")}</tr>`).join("")}</tbody>`;
+
+/* concentration */
+const cbar=(el,items,color)=>{document.getElementById(el).innerHTML=items.map(([t,q,part,all])=>`<div class="crow" data-tip="${esc(`<b>${t}</b><br>${q}: ${fmt(part)} из ${fmt(all)} визитов/мес`)}"><div class="t">${t} — <b class="num">${Math.round(part/all*100)} %</b> <span class="small">${q}</span></div>
+<div class="cbar"><i style="flex:${part};background:${color}"></i><i style="flex:${all-part}"></i></div><div class="small num">${k(part)} из ${k(all)} визитов в месяц</div></div>`).join("")};
+cbar("conc",[["Курсы валют, Казахстан","«курс доллара», первое место у allbanks.kz (DR 11)",213000,265377],["Время намаза, Азербайджан","«namaz vaxti», первое место у namazvaxti.az (DR 4,6)",86000,96112],["Погода, Узбекистан","«ob-havo», единственное слабое место — 4-е",131000,167868]],"var(--note)");
+cbar("risk",[["ТВ онлайн, Турция","пиратские трансляции",367000,499982]],"var(--risk)");
+
+/* tooltip */
+const tip=document.getElementById("tip");
+function show(e){const t=e.target.closest("[data-tip]");if(!t){tip.hidden=true;return}tip.innerHTML=t.dataset.tip;tip.hidden=false;
+  const x=e.clientX??t.getBoundingClientRect().left,y=e.clientY??t.getBoundingClientRect().bottom;const w=tip.offsetWidth,h=tip.offsetHeight;
+  tip.style.left=Math.min(x+14,innerWidth-w-8)+"px";tip.style.top=(y+h+20>innerHeight?y-h-12:y+14)+"px"}
+document.addEventListener("mousemove",show);document.addEventListener("focusin",show);
+document.addEventListener("mouseleave",()=>tip.hidden=true);document.addEventListener("scroll",()=>tip.hidden=true,{passive:true});
+</script>
