@@ -1,5 +1,9 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Ниши с лёгким SEO-трафиком</title>
-<meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=Unbounded:wght@500;700&display=swap">
 <style>
@@ -62,7 +66,8 @@ code{font-size:.9em;background:var(--panel);border:1px solid var(--line);border-
 .brow{display:grid;grid-template-columns:minmax(0,260px) minmax(0,1fr);gap:4px 16px;align-items:center;cursor:default}
 .bname{font-size:14px;line-height:1.3;display:flex;flex-wrap:wrap;gap:4px 6px;align-items:center}
 .btrack{display:flex;align-items:center;gap:8px;min-width:0}
-.bbar{display:flex;gap:2px;height:18px;flex:0 0 auto}
+.bbar{display:flex;gap:2px;height:18px;flex:0 0 auto;position:relative}
+.brk{position:absolute;right:18px;top:-3px;bottom:-3px;width:5px;background:var(--panel);transform:skewX(-20deg)}
 .bbar i{display:block;height:100%}
 .bbar i:first-child{background:var(--s1);border-radius:2px 0 0 2px}
 .bbar i:last-child{border-radius:0 4px 4px 0}
@@ -103,6 +108,8 @@ ol.steps{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:12px}
 #tip b{font-weight:600}
 @media (prefers-reduced-motion:no-preference){.bbar i{transition:width .3s ease}}
 </style>
+</head>
+<body>
 
 <div class="wrap">
 
@@ -133,12 +140,13 @@ ol.steps{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:12px}
 <section>
   <div class="col" style="display:flex;flex-direction:column;gap:8px">
     <h2>Открытые ниши по странам</h2>
-    <p class="muted">Наведите на строку, чтобы увидеть частотность ниши и сколько запросов из проверенных имеют слабый сайт в топ-10. Масштаб у каждой страны свой.</p>
+    <p class="muted">Наведите на строку, чтобы увидеть частотность ниши и сколько запросов из проверенных имеют слабый сайт в топ-10. Масштаб у каждой страны свой; ниша-лидер, которая в разы больше остальных, нарисована с разрывом, чтобы остальные были различимы.</p>
   </div>
   <div class="tabs" role="tablist" id="tabs"></div>
   <div class="card">
     <div class="legend">
       <span><i class="sw" style="background:var(--s1)"></i>строго</span><span><i class="sw" style="background:var(--s1soft)"></i>до потолка</span>
+      <span><i class="sw" style="background:linear-gradient(110deg,var(--s1) 0 40%,var(--panel) 40% 60%,var(--s1) 60%)"></i>с разрывом — длиннее шкалы</span>
       <span><span class="chip one">один запрос</span> оценка держится на одном запросе</span>
       <span><span class="chip risk">юр. риск</span> в слабых местах — пиратство или взлом</span>
       <span><span class="chip bet">близко к беттингу</span></span>
@@ -236,13 +244,14 @@ document.getElementById("kpis").innerHTML=CC.map(([cc,nm])=>{const t=tot[cc];ret
 let cur="UZ";
 function bars(){
   const rs=rows(cur).filter(r=>r.st==="open").sort((a,b)=>b.v-a.v);
-  const mx=Math.max(...rs.map(r=>r.c));
+  const cs=rs.map(r=>r.c).sort((a,b)=>b-a);
+  let mx=cs[0]; if(cs.length>1&&cs[0]>cs[1]*1.6) mx=cs[1]*1.15;
   document.getElementById("bars").innerHTML=rs.map(r=>{
-    const key=cur+":"+r.id, w1=r.v/mx*100, w2=(r.c-r.v)/mx*100;
+    const key=cur+":"+r.id, w1=Math.min(r.v/mx*100,100), w2=Math.min(r.c/mx*100,100)-w1, cut=r.c>mx;
     const chips=(ONE[key]?'<span class="chip one">один запрос</span>':"")+(RISK[key]?'<span class="chip risk">юр. риск</span>':"")+(r.bet!=="low"?'<span class="chip bet">близко к беттингу</span>':"");
     const tip=`<b>${esc(r.name)}</b> · ${LANG[r.lang]||r.lang}<br>частотность ниши: ${fmt(r.vol)}/мес<br>строго: ${fmt(r.v)} визитов · потолок: ${fmt(r.c)}<br>слабый сайт в топе: ${r.wk} проверенных запросов${r.dr?`<br>медианный DR топа: ${r.dr}`:""}`;
     return `<div class="brow" data-tip="${esc(tip)}"><div class="bname">${esc(r.name)} <span class="small">${LANG[r.lang]||""}</span>${chips}</div>
-<div class="btrack"><div class="bbar${w2<0.3?" only":""}" style="width:max(4px,calc(${w1+(w2<0.3?0:w2)}% - 90px))">${`<i style="flex:${Math.max(w1,0.3)}"></i>`}${w2>=0.3?`<i class="ext" style="flex:${w2}"></i>`:""}</div>
+<div class="btrack"><div class="bbar${w2<1.5?" only":""}" style="width:max(4px,calc((100% - 150px) * ${(w1+(w2<1.5?0:w2))/100}))">${`<i style="flex:${Math.max(w1,0.3)}"></i>`}${w2>=1.5?`<i class="ext" style="flex:${w2}"></i>`:""}${cut?'<span class="brk"></span>':""}</div>
 <span class="bval"><b>${k(r.v)}</b>${r.c-r.v>500?` → ${k(r.c)}`:""}</span></div></div>`}).join("");
   const cl=rows(cur).filter(r=>r.st==="closed").map(r=>r.name);
   document.getElementById("closed").innerHTML=`<b style="color:var(--ink)">Закрыты:</b> ${cl.map(esc).join(", ")}.`;
@@ -288,3 +297,5 @@ function show(e){const t=e.target.closest("[data-tip]");if(!t){tip.hidden=true;r
 document.addEventListener("mousemove",show);document.addEventListener("focusin",show);
 document.addEventListener("mouseleave",()=>tip.hidden=true);document.addEventListener("scroll",()=>tip.hidden=true,{passive:true});
 </script>
+</body>
+</html>
