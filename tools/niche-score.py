@@ -29,7 +29,8 @@ UGC = re.compile(r'(^|\.)(reddit\.com|quora\.com|pinterest\.[a-z.]+|'
                  r'otvet\.mail\.ru|answers\.mail\.ru|blogspot\.com|wordpress\.com|livejournal\.com|pikabu\.ru|dzen\.ru|sites\.google\.com|medium\.com|tgstat\.[a-z]+|'
                  r'znanija\.com|brainly\.[a-z.]+|eksisozluk\.com|uludagsozluk\.com|onedio\.com|teletype\.in|vc\.ru|habr\.com|tumblr\.com|fandom\.com|ask\.fm|'
                  r'threads\.net|linkedin\.com|wattpad\.com|ficbook\.net|scribd\.com|studfile\.net|studopedia\.[a-z]+|myshared\.ru|infourok\.ru|nsportal\.ru|multiurok\.ru|my1\.ru|ucoz\.[a-z]+|narod\.ru)$')  # my1.ru, ucoz, narod — бесплатный хостинг uCoz
-FORUM = re.compile(r'(^forum\.|\.forum\.|/forum|/threads?/|/topic|/questions?/|/viewtopic)')
+# /topic без номера — рубрики СМИ (gulfnews.com/topic/psl), не форум; форумная тема — /topic/123, showtopic, viewtopic
+FORUM = re.compile(r'(^forum\.|\.forum\.|/forum|/threads?/|/topic[/-]\d|showtopic|/questions?/|/viewtopic)')
 OWNER = re.compile(r'(\.gov\.[a-z]{2}$|^gov\.[a-z]{2}$|\.gov$|egov\.kz$|e-gov\.az$|turkiye\.gov\.tr$|play\.google\.com$|apps\.apple\.com$|\.edu\.[a-z]{2}$|\.k12\.tr$|\.bel\.tr$|\.mil\.)')
 SUF2 = {'com.tr', 'gov.tr', 'org.tr', 'net.tr', 'edu.tr', 'k12.tr', 'gen.tr', 'bel.tr', 'av.tr', 'gov.uz', 'co.uz', 'com.uz', 'org.uz', 'edu.uz', 'gov.kz', 'com.kz', 'edu.kz', 'org.kz',
         'gov.az', 'com.az', 'edu.az', 'org.az', 'net.az', 'gov.kg', 'com.kg', 'org.kg', 'edu.kg', 'co.uk', 'com.ua', 'org.ua', 'com.ru', 'msk.ru', 'spb.ru', 'com.br', 'co.in', 'com.au', 'org.ru', 'com.ng', 'gov.in', 'com.pk', 'gov.pk', 'edu.pk', 'org.pk', 'net.pk', 'web.pk', 'gov.md', 'org.md', 'com.md'}
