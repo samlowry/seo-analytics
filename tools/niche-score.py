@@ -58,6 +58,13 @@ SAMPLE = [s for s in (json.loads(l) for l in open(f'{D}/sample.jsonl')) if not b
 SERP = collections.defaultdict(dict)
 for l in open(f'{D}/serp.jsonl'):
     r = json.loads(l); SERP[(r['cc'], r['keyword'])][r['page']] = r
+# Второй снимок первой страницы (MD, PK — выдача там заметно меняется между съёмками): из двух берётся тот, где первый слабый
+# результат ниже (меньше визитов) — осторожная оценка. Нет второго снимка — как раньше.
+SERP2 = {}
+if os.path.exists(f'{D}/serp-2.jsonl'):
+    for l in open(f'{D}/serp-2.jsonl'):
+        r = json.loads(l)
+        if 'docs' in r: SERP2[(r['cc'], r['keyword'])] = r['docs']
 def wcps(rs):
     v = [(r['cps'], r['volume']) for r in rs if r['cps'] is not None]
     return sum(c * w for c, w in v) / sum(w for _, w in v) if v else None
@@ -69,22 +76,29 @@ keys = []
 for s in SAMPLE:
     pp = SERP.get((s['cc'], s['keyword']), {}); p1 = pp.get(1, {})
     if 'docs' not in p1 and not p1.get('empty'): keys.append(dict(s, status='error')); continue
+    def score_docs(docs):
+        pos = []
+        for i, d in enumerate(docs):
+            h = host(d['url']); rd = regdom(h); dr = DR.get(rd, DR.get(h))
+            why = []
+            if UGC.search(h) or FORUM.search(h + urllib.parse.urlsplit(d['url']).path.lower()): why.append('ugc')
+            if dr is not None and dr < LOW_DR: why.append('low_dr')
+            if mismatch(s['keyword'], s['lang'], d['title']) and (dr is None or dr < HIGH_DR): why.append('lang')
+            pos.append(dict(p=i + 1, host=h, dom=rd, dr=dr, owner=bool(OWNER.search(h)), weak=why))
+        return pos
     docs = p1.get('docs', [])[:10]
     n20 = len(docs) + len(pp.get(2, {}).get('docs', [])) if s['pages'] == 2 else None
-    pos = []
-    for i, d in enumerate(docs):
-        h = host(d['url']); rd = regdom(h); dr = DR.get(rd, DR.get(h))
-        why = []
-        if UGC.search(h) or FORUM.search(h + urllib.parse.urlsplit(d['url']).path.lower()): why.append('ugc')
-        if dr is not None and dr < LOW_DR: why.append('low_dr')
-        if mismatch(s['keyword'], s['lang'], d['title']) and (dr is None or dr < HIGH_DR): why.append('lang')
-        pos.append(dict(p=i + 1, host=h, dom=rd, dr=dr, owner=bool(OWNER.search(h)), weak=why))
+    pos = score_docs(docs); snap = 1
+    if (s['cc'], s['keyword']) in SERP2:
+        pos2 = score_docs(SERP2[(s['cc'], s['keyword'])][:10])
+        b1 = next((x['p'] for x in pos if x['weak']), 99); b2 = next((x['p'] for x in pos2 if x['weak']), 99)
+        if b2 > b1: pos, snap = pos2, 2
     weak = [x for x in pos if x['weak']]
     best = weak[0]['p'] if weak else None
     cps = s['cps'] if s['cps'] is not None else cps_med[(s['cc'], s['niche'])]
     visits = s['volume'] * min(cps, 1.0) * SHARE[best - 1] if best else 0
     drs = [x['dr'] for x in pos if x['dr'] is not None]
-    keys.append(dict(s, status='ok', n_top10=len(docs), n_top20=n20, best_pos=best, visits=round(visits), cps_used=cps,
+    keys.append(dict(s, status='ok', snap=snap, n_top10=len(pos), n_top20=n20, best_pos=best, visits=round(visits), cps_used=cps,
                      closed=bool(n20 is not None and n20 <= CLOSED_N and not weak), weak_n=len(weak),
                      why=collections.Counter(w for x in weak for w in x['weak']), owner_n=sum(x['owner'] for x in pos),
                      dr_median=statistics.median(drs) if drs else None, dr_known=len(drs), top=[f"{x['p']}:{x['host']}:{x['dr']}:{'+'.join(x['weak'])}" for x in pos]))
