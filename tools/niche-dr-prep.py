@@ -10,12 +10,14 @@ ns = {'__file__': f'{ROOT}/tools/niche-score.py'}; exec(src, ns)
 MAX = int(sys.argv[1]) if len(sys.argv) > 1 else 2000
 done = set(json.load(open(f'{ROOT}/niche-scan/data/dr.json'))) if os.path.exists(f'{ROOT}/niche-scan/data/dr.json') else set()
 c = collections.Counter(); total = 0
-for l in open(f'{ROOT}/niche-scan/data/serp.jsonl'):
+import glob, re as _re
+for l in (x for f in sorted(glob.glob(f'{ROOT}/niche-scan/data/serp*.jsonl')) for x in open(f)):  # serp.jsonl и повторный serp-2.jsonl
     r = json.loads(l)
     if r['page'] != 1 or r['cc'] == 'TR': continue  # TR снята 25.11.2026
     for d in r.get('docs', [])[:10]:
         h = ns['host'](d['url']); total += 1
         if ns['UGC'].search(h) or ns['OWNER'].search(h): continue
+        if _re.fullmatch(r'[\d.]+', h): continue  # IP-адреса и обрывки вида 4.50 — Ahrefs отклоняет батч целиком
         c[ns['regdom'](h)] += 1
 todo = [d for d, _ in c.most_common() if d not in done][:MAX]
 cov = sum(c[d] for d in todo) + sum(c[d] for d in done if d in c)

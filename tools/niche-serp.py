@@ -8,7 +8,10 @@ import os, re, json, time, hashlib, argparse, urllib.request, urllib.parse, glob
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-RAW = f'{ROOT}/results/niche-serp'
+# Повторный снимок (проверка устойчивости выдачи): NICHE_SERP_RUN=-2 NICHE_SERP_CC=PK,MD — только первая страница,
+# сырьё в results/niche-serp-2, выход data/serp-2.jsonl; niche-score берёт из двух снимков более осторожную оценку.
+RUN = os.environ.get('NICHE_SERP_RUN', ''); ONLY = set(filter(None, os.environ.get('NICHE_SERP_CC', '').split(',')))
+RAW = f'{ROOT}/results/niche-serp{RUN}'
 GEO = {'UZ': 2860, 'KZ': 2398, 'AZ': 2031, 'TR': 2792, 'KG': 2417, 'MD': 2498, 'PK': 2586}
 E = {}
 for l in open(f'{ROOT}/.env'):
@@ -38,6 +41,8 @@ def parse(raw):
 if __name__ == '__main__':
     ap = argparse.ArgumentParser(); ap.add_argument('--threads', type=int, default=6); ap.add_argument('--retry-empty', action='store_true'); ap.add_argument('--parse-only', action='store_true'); a = ap.parse_args()
     S = [json.loads(l) for l in open(f'{ROOT}/niche-scan/data/sample.jsonl')]
+    if ONLY: S = [r for r in S if r['cc'] in ONLY]
+    if RUN: S = [dict(r, pages=1) for r in S]
     jobs = [(r['cc'], r['keyword'], r['lang'], pg) for r in S for pg in range(1, r['pages'] + 1)]
     def need(j):
         f = path(j[0], j[1], j[3])
@@ -53,7 +58,7 @@ if __name__ == '__main__':
         raw = fetch(*j); open(path(j[0], j[1], j[3]), 'w').write(raw); done[0] += 1
         if done[0] % 100 == 0: print(f'  {done[0]}/{len(todo)} {time.time()-t0:.0f}s', flush=True)
     with ThreadPoolExecutor(a.threads) as ex: list(ex.map(work, todo))
-    with open(f'{ROOT}/niche-scan/data/serp.jsonl', 'w') as out:
+    with open(f'{ROOT}/niche-scan/data/serp{RUN}.jsonl', 'w') as out:
         for r in S:
             for pg in range(1, r['pages'] + 1):
                 f = path(r['cc'], r['keyword'], pg)
