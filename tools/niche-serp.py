@@ -25,7 +25,7 @@ def fetch(cc, q, lang, pg, tries=4):
             with urllib.request.urlopen(url, timeout=90) as f: raw = f.read().decode('utf-8', 'replace')
         except Exception as ex: last = str(ex); time.sleep(10 * (i + 1)); continue
         m = re.search(r'<error code="(\d+)"', raw)
-        if m and m.group(1) in ('110', '115', '201', '500'): last = raw[:200]; time.sleep(30); continue
+        if m and m.group(1) in ('110', '111', '115', '201', '500'): last = raw[:200]; time.sleep(30); continue
         return raw
     return f'<r><response><error code="999">{last}</error></response></r>'
 def parse(raw):
@@ -42,7 +42,8 @@ if __name__ == '__main__':
     def need(j):
         f = path(j[0], j[1], j[3])
         if not os.path.exists(f) or os.path.getsize(f) == 0: return True  # 0 байт — запрос прерван
-        if 'error code="999"' in open(f, errors='replace').read(): return True  # повторы исчерпаны — переснять
+        body = open(f, errors='replace').read()
+        if 'error code="999"' in body or 'error code="111"' in body: return True  # повторы исчерпаны или нет каналов — переснять
         if a.retry_empty and 'error code="15"' in open(f).read() and not os.path.exists(f + '.first'): os.rename(f, f + '.first'); return True
         return False
     todo = [] if a.parse_only else [j for j in jobs if need(j)]
