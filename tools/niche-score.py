@@ -58,8 +58,9 @@ SAMPLE = [s for s in (json.loads(l) for l in open(f'{D}/sample.jsonl')) if not b
 SERP = collections.defaultdict(dict)
 for l in open(f'{D}/serp.jsonl'):
     r = json.loads(l); SERP[(r['cc'], r['keyword'])][r['page']] = r
-# Второй снимок первой страницы (MD, PK — выдача там заметно меняется между съёмками): из двух берётся тот, где первый слабый
-# результат ниже (меньше визитов) — осторожная оценка. Нет второго снимка — как раньше.
+# Второй снимок первой страницы (27.11, все страны: топ-10 двух снимков совпадает лишь на 36–41 % доменов): из двух берётся тот,
+# где первый слабый результат ниже (меньше визитов) — осторожная оценка. Второй снимок короче первого (меньше min(8, длина первого)
+# результатов) не учитывается: недогруженная выдача иначе читалась бы как «слабых нет».
 SERP2 = {}
 if os.path.exists(f'{D}/serp-2.jsonl'):
     for l in open(f'{D}/serp-2.jsonl'):
@@ -92,7 +93,7 @@ for s in SAMPLE:
     if (s['cc'], s['keyword']) in SERP2:
         pos2 = score_docs(SERP2[(s['cc'], s['keyword'])][:10])
         b1 = next((x['p'] for x in pos if x['weak']), 99); b2 = next((x['p'] for x in pos2 if x['weak']), 99)
-        if b2 > b1: pos, snap = pos2, 2
+        if b2 > b1 and len(pos2) >= min(8, len(pos)): pos, snap = pos2, 2
     weak = [x for x in pos if x['weak']]
     best = weak[0]['p'] if weak else None
     cps = s['cps'] if s['cps'] is not None else cps_med[(s['cc'], s['niche'])]

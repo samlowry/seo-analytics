@@ -16,7 +16,7 @@ CC = [['UZ', 'Узбекистан'], ['KZ', 'Казахстан'], ['AZ', 'Аз
 CC_GEN = {'UZ': 'Узбекистане', 'KZ': 'Казахстане', 'AZ': 'Азербайджане', 'KG': 'Кыргызстане', 'MD': 'Молдове', 'PK': 'Пакистане'}
 WORD = {4: 'четырёх', 5: 'пяти', 6: 'шести'}
 # Слабые места в топе держат пираты, взлом или ответы на контрольные — см. раздел «Юридический риск» в niche-report-text.html.
-RISK = {'UZ:movies', 'KZ:series', 'KG:series', 'KZ:anime', 'KG:anime', 'KZ:apk', 'KG:apk', 'UZ:exams', 'PK:movies', 'PK:apk', 'PK:anime', 'PK:pc_games', 'AZ:movies'}
+RISK = {'UZ:movies', 'KZ:series', 'KG:series', 'KZ:anime', 'KG:anime', 'KZ:apk', 'KG:apk', 'UZ:exams', 'PK:movies', 'PK:apk', 'PK:anime', 'PK:pc_games', 'AZ:movies', 'PK:tools'}
 SEEDS = {n['id']: n for n in json.load(open(f'{ROOT}/niche-scan/seeds.json'))['niches']}
 
 def fnum(n): return f'{round(n):,}'.replace(',', ' ')
