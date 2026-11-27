@@ -12,7 +12,7 @@ done = set(json.load(open(f'{ROOT}/niche-scan/data/dr.json'))) if os.path.exists
 c = collections.Counter(); total = 0
 for l in open(f'{ROOT}/niche-scan/data/serp.jsonl'):
     r = json.loads(l)
-    if r['page'] != 1: continue
+    if r['page'] != 1 or r['cc'] == 'TR': continue  # TR снята 25.11.2026
     for d in r.get('docs', [])[:10]:
         h = ns['host'](d['url']); total += 1
         if ns['UGC'].search(h) or ns['OWNER'].search(h): continue

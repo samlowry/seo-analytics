@@ -29,10 +29,11 @@ UGC = re.compile(r'(^|\.)(reddit\.com|quora\.com|pinterest\.[a-z.]+|'
                  r'otvet\.mail\.ru|answers\.mail\.ru|blogspot\.com|wordpress\.com|livejournal\.com|pikabu\.ru|dzen\.ru|sites\.google\.com|medium\.com|tgstat\.[a-z]+|'
                  r'znanija\.com|brainly\.[a-z.]+|eksisozluk\.com|uludagsozluk\.com|onedio\.com|teletype\.in|vc\.ru|habr\.com|tumblr\.com|fandom\.com|ask\.fm|'
                  r'threads\.net|linkedin\.com|wattpad\.com|ficbook\.net|scribd\.com|studfile\.net|studopedia\.[a-z]+|myshared\.ru|infourok\.ru|nsportal\.ru|multiurok\.ru|my1\.ru|ucoz\.[a-z]+|narod\.ru)$')  # my1.ru, ucoz, narod — бесплатный хостинг uCoz
-FORUM = re.compile(r'(^forum\.|\.forum\.|/forum|/threads?/|/topic|/questions?/|/viewtopic)')
+# /topic без номера — рубрики СМИ (gulfnews.com/topic/psl), не форум; форумная тема — /topic/123, showtopic, viewtopic
+FORUM = re.compile(r'(^forum\.|\.forum\.|/forum|/threads?/|/topic[/-]\d|showtopic|/questions?/|/viewtopic)')
 OWNER = re.compile(r'(\.gov\.[a-z]{2}$|^gov\.[a-z]{2}$|\.gov$|egov\.kz$|e-gov\.az$|turkiye\.gov\.tr$|play\.google\.com$|apps\.apple\.com$|\.edu\.[a-z]{2}$|\.k12\.tr$|\.bel\.tr$|\.mil\.)')
 SUF2 = {'com.tr', 'gov.tr', 'org.tr', 'net.tr', 'edu.tr', 'k12.tr', 'gen.tr', 'bel.tr', 'av.tr', 'gov.uz', 'co.uz', 'com.uz', 'org.uz', 'edu.uz', 'gov.kz', 'com.kz', 'edu.kz', 'org.kz',
-        'gov.az', 'com.az', 'edu.az', 'org.az', 'net.az', 'gov.kg', 'com.kg', 'org.kg', 'edu.kg', 'co.uk', 'com.ua', 'org.ua', 'com.ru', 'msk.ru', 'spb.ru', 'com.br', 'co.in', 'com.au', 'org.ru', 'com.ng', 'gov.in'}
+        'gov.az', 'com.az', 'edu.az', 'org.az', 'net.az', 'gov.kg', 'com.kg', 'org.kg', 'edu.kg', 'co.uk', 'com.ua', 'org.ua', 'com.ru', 'msk.ru', 'spb.ru', 'com.br', 'co.in', 'com.au', 'org.ru', 'com.ng', 'gov.in', 'com.pk', 'gov.pk', 'edu.pk', 'org.pk', 'net.pk', 'web.pk', 'gov.md', 'org.md', 'com.md'}
 def host(u): return urllib.parse.urlsplit(u).netloc.lower().split(':')[0].removeprefix('www.')
 def regdom(h):
     p = h.split('.')
@@ -45,14 +46,10 @@ def mismatch(q, qlang, title):
     if not title or title.startswith('http') or '/' in title.split()[0]: return False  # вместо заголовка URL — язык не определить
     if qlang == 'ru': return cyr(q) > 0 and cyr(title) == 0 and lat(title) > 5
     if qlang in ('uz', 'az') and LOCAL[qlang].search(q.lower()) and cyr(q) == 0: return cyr(title) > lat(title)
+    if qlang == 'ro': return cyr(q) == 0 and cyr(title) > lat(title)  # румынский запрос — заголовок кириллицей
+    # en (PK): не проверяется — страница на урду для пакистанского англоязычного запроса не считается чужой
     return False
-# Навигационные запросы брендов (МФО, банки, лотереи): выдача по бренду закрывается его владельцем, как у `mostbet`.
-# Такие ключи выброшены из ниши целиком — и из выборки, и из частотности ниши.
-BRAND = re.compile(r'(кредит ?плюс|кредит ?365|365 ?(кредит|займ)|займ ?365|кредит ?бар|^а кредит|уан ?кредит|оне ?кредит|'
-                   r'селфи ?кредит|бз ?займ|би ?кредит|квику|сат ?кредит|solva|сольва|kaspi|каспи|halyk|халык|хоум ?кредит|home ?credit|'
-                   r'кредит ?азия|ishonch|uzum|tbc|tbs kredit|mahalla bank|abb|kapital ?bank|nova ?kredit|azpay|yap[ıi] ?kredi|hangikredi|'
-                   r'bizon|azerlotereya|birbank|milli ?piyango|millipiyango)')
-def brand(r): return r['niche'] in ('loans', 'lottery') and bool(BRAND.search(r['keyword'].lower()))
+from niche_brand import BRAND, NAV, brand  # noqa: E402
 seeds = {n['id']: n for n in json.load(open(f'{ROOT}/niche-scan/seeds.json'))['niches']}
 DR = json.load(open(f'{D}/dr.json')) if os.path.exists(f'{D}/dr.json') else {}
 KW_ALL = [json.loads(l) for l in open(f'{D}/keywords.jsonl')]

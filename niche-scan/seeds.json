@@ -1,5 +1,5 @@
 {
- "_comment": "Ниши для niche-scan. group: giant | a | b — какой выгрузкой Ahrefs идёт ниша. bet: близость к аудитории беттинга (high/medium/low), только для столбца, не фильтр. seeds по языкам: ru, uz (латиница), az, tr. Правка 23.11 после проверки состава: pdf — из книг в инструменты; голый test убран из экзаменов; canlı izle — из футбола онлайн в ТВ.",
+ "_comment": "Ниши для niche-scan. group: giant | a | b — какой выгрузкой Ahrefs идёт ниша. bet: близость к аудитории беттинга (high/medium/low), только для столбца, не фильтр. seeds по языкам: ru, uz (латиница), az, tr. Правка 23.11 после проверки состава: pdf — из книг в инструменты; голый test убран из экзаменов; canlı izle — из футбола онлайн в ТВ. Правка 27.11: добавлены ro (MD) и en (PK) для всех ниш; новые ниши group c — найдены по запросам, ведущим на YouTube (data/discover-*.json); ext — исходные слова, добавленные к старым нишам 27.11 (выгружаются вместе с group c).",
  "niches": [
   {
    "id": "weather",
@@ -20,6 +20,16 @@
    ],
    "tr": [
     "hava durumu"
+   ],
+   "en": [
+    "weather",
+    "weather today",
+    "temperature"
+   ],
+   "ro": [
+    "vremea",
+    "meteo",
+    "prognoza meteo"
    ]
   },
   {
@@ -48,6 +58,20 @@
     "dolar kuru",
     "euro kuru",
     "döviz kurları"
+   ],
+   "en": [
+    "dollar rate",
+    "usd to pkr",
+    "open market rate",
+    "exchange rate",
+    "riyal rate"
+   ],
+   "ro": [
+    "curs valutar",
+    "curs euro",
+    "curs dolar",
+    "cursul valutar",
+    "curs bnm"
    ]
   },
   {
@@ -69,6 +93,16 @@
     "altın fiyatları",
     "gram altın",
     "çeyrek altın"
+   ],
+   "en": [
+    "gold price",
+    "gold rate",
+    "silver price",
+    "silver rate"
+   ],
+   "ro": [
+    "pret aur",
+    "pretul aurului"
    ]
   },
   {
@@ -95,7 +129,20 @@
     "ezan vakti",
     "iftar vakti",
     "imsakiye"
-   ]
+   ],
+   "en": [
+    "prayer time",
+    "namaz time",
+    "namaz timing",
+    "fajr time",
+    "maghrib time",
+    "isha time",
+    "zuhr time",
+    "asr time",
+    "sehri time",
+    "iftar time"
+   ],
+   "ro": []
   },
   {
    "id": "movies",
@@ -105,23 +152,58 @@
    "ru": [
     "фильм",
     "фильмы",
-    "кино онлайн"
+    "кино онлайн",
+    "мультфильм",
+    "мультфильмы",
+    "мультики"
    ],
    "uz": [
     "kino",
     "tarjima kino",
-    "film"
+    "film",
+    "multfilm",
+    "kinolar"
    ],
    "az": [
     "film",
     "filmlər",
-    "kino"
+    "kino",
+    "cizgi film"
    ],
    "tr": [
     "film izle",
     "filmi izle",
     "full hd film"
-   ]
+   ],
+   "en": [
+    "movies",
+    "movie download",
+    "watch online movies",
+    "hindi movie",
+    "cartoon",
+    "cartoons"
+   ],
+   "ro": [
+    "filme online",
+    "filme",
+    "film online",
+    "desene animate",
+    "film"
+   ],
+   "ext": {
+    "ru": [
+     "мультфильм",
+     "мультфильмы",
+     "мультики"
+    ],
+    "uz": [
+     "multfilm",
+     "kinolar"
+    ],
+    "az": [
+     "cizgi film"
+    ]
+   }
   },
   {
    "id": "series",
@@ -130,7 +212,9 @@
    "bet": "low",
    "ru": [
     "сериал",
-    "сериалы"
+    "сериалы",
+    "дорама",
+    "дорамы"
    ],
    "uz": [
     "serial",
@@ -145,7 +229,25 @@
     "dizi",
     "dizi izle",
     "bölüm izle"
-   ]
+   ],
+   "en": [
+    "drama",
+    "episode",
+    "web series",
+    "dramas"
+   ],
+   "ro": [
+    "seriale",
+    "serial",
+    "seriale turcesti",
+    "episodul"
+   ],
+   "ext": {
+    "ru": [
+     "дорама",
+     "дорамы"
+    ]
+   }
   },
   {
    "id": "music",
@@ -177,6 +279,21 @@
     "müzik indir",
     "mp3",
     "şarkı sözleri"
+   ],
+   "en": [
+    "song",
+    "songs",
+    "mp3",
+    "naat",
+    "lyrics",
+    "music"
+   ],
+   "ro": [
+    "muzica",
+    "melodii",
+    "cantece",
+    "mp3",
+    "versuri"
    ]
   },
   {
@@ -203,6 +320,15 @@
     "maç izle",
     "canlı maç",
     "maç özeti"
+   ],
+   "en": [
+    "football live",
+    "live football"
+   ],
+   "ro": [
+    "fotbal live",
+    "meci live",
+    "transmisiune live"
    ]
   },
   {
@@ -240,6 +366,22 @@
     "galatasaray",
     "fenerbahçe",
     "beşiktaş"
+   ],
+   "en": [
+    "premier league",
+    "champions league",
+    "real madrid",
+    "barcelona",
+    "football score",
+    "la liga"
+   ],
+   "ro": [
+    "liga campionilor",
+    "clasament",
+    "rezultate fotbal",
+    "real madrid",
+    "barcelona",
+    "super liga"
    ]
   },
   {
@@ -263,6 +405,15 @@
    "tr": [
     "spor haberleri",
     "transfer haberleri"
+   ],
+   "en": [
+    "sports news",
+    "transfer news"
+   ],
+   "ro": [
+    "stiri sport",
+    "stiri sportive",
+    "transferuri"
    ]
   },
   {
@@ -288,6 +439,17 @@
     "cs2",
     "valorant",
     "dota 2"
+   ],
+   "en": [
+    "cs2",
+    "dota 2",
+    "valorant",
+    "esports"
+   ],
+   "ro": [
+    "cs2",
+    "dota 2",
+    "valorant"
    ]
   },
   {
@@ -311,6 +473,15 @@
    "tr": [
     "ufc",
     "boks maçı"
+   ],
+   "en": [
+    "ufc",
+    "boxing",
+    "wwe"
+   ],
+   "ro": [
+    "ufc",
+    "box"
    ]
   },
   {
@@ -335,6 +506,17 @@
     "şans topu",
     "sayısal loto",
     "on numara"
+   ],
+   "en": [
+    "lottery",
+    "prize bond",
+    "bond list",
+    "draw result"
+   ],
+   "ro": [
+    "loto",
+    "loteria",
+    "5 din 36"
    ]
   },
   {
@@ -362,6 +544,15 @@
     "apk",
     "mod apk",
     "hile"
+   ],
+   "en": [
+    "apk",
+    "mod apk",
+    "download for android"
+   ],
+   "ro": [
+    "apk",
+    "mod apk"
    ]
   },
   {
@@ -393,6 +584,20 @@
     "pubg",
     "brawl stars",
     "elmas hilesi"
+   ],
+   "en": [
+    "free fire",
+    "pubg",
+    "brawl stars",
+    "roblox",
+    "redeem code",
+    "top up"
+   ],
+   "ro": [
+    "brawl stars",
+    "roblox",
+    "free fire",
+    "pubg"
    ]
   },
   {
@@ -417,6 +622,18 @@
     "oyun indir",
     "pc oyun",
     "torrent"
+   ],
+   "en": [
+    "games",
+    "online games",
+    "pc games",
+    "poki games",
+    "crazy games"
+   ],
+   "ro": [
+    "jocuri",
+    "joc",
+    "jocuri online"
    ]
   },
   {
@@ -440,6 +657,16 @@
     "kripto",
     "bitcoin",
     "coin"
+   ],
+   "en": [
+    "bitcoin",
+    "crypto",
+    "cryptocurrency",
+    "usdt"
+   ],
+   "ro": [
+    "bitcoin",
+    "criptomonede"
    ]
   },
   {
@@ -466,6 +693,20 @@
     "canlı tv",
     "yayın akışı",
     "canlı izle"
+   ],
+   "en": [
+    "live tv",
+    "tv live",
+    "ptv sports",
+    "geo news live",
+    "ary news live",
+    "tv channel"
+   ],
+   "ro": [
+    "tv live",
+    "online tv",
+    "program tv",
+    "moldova 1"
    ]
   },
   {
@@ -486,6 +727,14 @@
    "tr": [
     "anime izle",
     "manga oku"
+   ],
+   "en": [
+    "anime",
+    "manga"
+   ],
+   "ro": [
+    "anime",
+    "manga"
    ]
   },
   {
@@ -511,6 +760,16 @@
     "burç",
     "burcu",
     "burç yorumları"
+   ],
+   "en": [
+    "horoscope",
+    "zodiac",
+    "compatibility"
+   ],
+   "ro": [
+    "horoscop",
+    "zodia",
+    "zodii"
    ]
   },
   {
@@ -533,6 +792,16 @@
    "tr": [
     "rüya tabiri",
     "rüyada"
+   ],
+   "en": [
+    "dream meaning",
+    "khwab ki tabeer",
+    "dream interpretation"
+   ],
+   "ro": [
+    "vise",
+    "dictionar de vise",
+    "visul"
    ]
   },
   {
@@ -556,6 +825,17 @@
    "tr": [
     "tarifi",
     "tarif"
+   ],
+   "en": [
+    "recipe",
+    "recipes",
+    "how to make"
+   ],
+   "ro": [
+    "reteta",
+    "retete",
+    "rețetă",
+    "rețete"
    ]
   },
   {
@@ -581,6 +861,19 @@
    "tr": [
     "isim anlamı",
     "isimleri"
+   ],
+   "en": [
+    "name meaning",
+    "baby names",
+    "boy names",
+    "girl names",
+    "islamic names"
+   ],
+   "ro": [
+    "nume de fete",
+    "nume de baieti",
+    "semnificatia numelui",
+    "numele"
    ]
   },
   {
@@ -592,23 +885,62 @@
     "поздравления",
     "поздравление",
     "статусы",
-    "открытки"
+    "открытки",
+    "с днем рождения",
+    "с днём рождения",
+    "тілек",
+    "тілектер",
+    "туған күн"
    ],
    "uz": [
     "tabrik",
     "tabriklar",
-    "statuslar"
+    "statuslar",
+    "tug'ilgan kun"
    ],
    "az": [
     "təbrik",
     "təbriki",
-    "statuslar"
+    "statuslar",
+    "təbrikləri",
+    "tebrikleri",
+    "ad günü"
    ],
    "tr": [
     "doğum günü mesajları",
     "mesajları",
     "anlamlı sözler"
-   ]
+   ],
+   "en": [
+    "happy birthday",
+    "wishes",
+    "eid mubarak",
+    "good morning",
+    "status"
+   ],
+   "ro": [
+    "la multi ani",
+    "felicitari",
+    "urari",
+    "mesaje"
+   ],
+   "ext": {
+    "ru": [
+     "с днем рождения",
+     "с днём рождения",
+     "тілек",
+     "тілектер",
+     "туған күн"
+    ],
+    "uz": [
+     "tug'ilgan kun"
+    ],
+    "az": [
+     "təbrikləri",
+     "tebrikleri",
+     "ad günü"
+    ]
+   }
   },
   {
    "id": "exams",
@@ -642,6 +974,23 @@
     "kpss",
     "lgs",
     "sonuçları"
+   ],
+   "en": [
+    "result",
+    "bise",
+    "past papers",
+    "mcqs",
+    "date sheet",
+    "matric result",
+    "inter result",
+    "notes class"
+   ],
+   "ro": [
+    "bac",
+    "teste",
+    "examen",
+    "evaluare nationala",
+    "rezolvari"
    ]
   },
   {
@@ -653,7 +1002,9 @@
     "сочинение",
     "реферат",
     "книга",
-    "читать онлайн"
+    "читать онлайн",
+    "сказки",
+    "сказка"
    ],
    "uz": [
     "insho",
@@ -668,7 +1019,28 @@
    "tr": [
     "kitap özeti",
     "kitap oku"
-   ]
+   ],
+   "en": [
+    "pdf book",
+    "novel",
+    "essay",
+    "urdu novel",
+    "kitab"
+   ],
+   "ro": [
+    "rezumat",
+    "comentariu",
+    "eseu",
+    "referat",
+    "carte pdf",
+    "carti"
+   ],
+   "ext": {
+    "ru": [
+     "сказки",
+     "сказка"
+    ]
+   }
   },
   {
    "id": "gov",
@@ -699,6 +1071,24 @@
     "e-devlet",
     "sgk",
     "emekli maaşı"
+   ],
+   "en": [
+    "nadra",
+    "bisp",
+    "8171",
+    "fbr",
+    "pension",
+    "cnic",
+    "ehsaas",
+    "tax"
+   ],
+   "ro": [
+    "pensie",
+    "impozit",
+    "cnas",
+    "servicii publice",
+    "alocatie",
+    "sfs"
    ]
   },
   {
@@ -722,6 +1112,20 @@
    ],
    "tr": [
     "rusya'da iş"
+   ],
+   "en": [
+    "work visa",
+    "visa",
+    "jobs in saudi",
+    "jobs in dubai",
+    "gamca",
+    "protector"
+   ],
+   "ro": [
+    "munca in",
+    "viza",
+    "lucru in germania",
+    "lucru in uk"
    ]
   },
   {
@@ -745,6 +1149,18 @@
    "tr": [
     "iş ilanları",
     "eleman"
+   ],
+   "en": [
+    "jobs",
+    "job",
+    "vacancies",
+    "jobs in pakistan"
+   ],
+   "ro": [
+    "locuri de munca",
+    "angajare",
+    "job",
+    "lucru"
    ]
   },
   {
@@ -773,6 +1189,20 @@
     "araba",
     "sahibinden araba",
     "ikinci el araba"
+   ],
+   "en": [
+    "car price",
+    "bike price",
+    "suzuki alto",
+    "honda civic",
+    "honda 125",
+    "toyota corolla"
+   ],
+   "ro": [
+    "masini",
+    "auto",
+    "pret masina",
+    "masini de vanzare"
    ]
   },
   {
@@ -798,6 +1228,19 @@
    "tr": [
     "kiralık daire",
     "satılık daire"
+   ],
+   "en": [
+    "house for rent",
+    "house for sale",
+    "plot for sale",
+    "flat for rent",
+    "property"
+   ],
+   "ro": [
+    "apartament",
+    "chirie",
+    "case de vanzare",
+    "apartamente"
    ]
   },
   {
@@ -823,6 +1266,23 @@
    "tr": [
     "telefon fiyatları",
     "iphone fiyatı"
+   ],
+   "en": [
+    "iphone",
+    "samsung",
+    "infinix",
+    "tecno",
+    "vivo",
+    "oppo",
+    "redmi",
+    "mobile price"
+   ],
+   "ro": [
+    "iphone",
+    "samsung",
+    "xiaomi",
+    "pret telefon",
+    "telefoane"
    ]
   },
   {
@@ -847,6 +1307,17 @@
     "kredi",
     "ihtiyaç kredisi",
     "kredi hesaplama"
+   ],
+   "en": [
+    "loan",
+    "loan app",
+    "personal loan"
+   ],
+   "ro": [
+    "credit",
+    "credite",
+    "imprumut",
+    "microcredit"
    ]
   },
   {
@@ -876,6 +1347,21 @@
     "video indir",
     "tiktok indir",
     "pdf"
+   ],
+   "en": [
+    "vpn",
+    "video download",
+    "video downloader",
+    "pdf",
+    "tiktok download",
+    "instagram download",
+    "background remover"
+   ],
+   "ro": [
+    "vpn",
+    "pdf",
+    "descarca video",
+    "convertor"
    ]
   },
   {
@@ -900,6 +1386,20 @@
     "belirtileri",
     "tedavisi",
     "ilaç"
+   ],
+   "en": [
+    "symptoms",
+    "treatment",
+    "uses in urdu",
+    "tablet uses",
+    "side effects",
+    "syrup uses"
+   ],
+   "ro": [
+    "simptome",
+    "tratament",
+    "prospect",
+    "pastile"
    ]
   },
   {
@@ -928,6 +1428,23 @@
     "bayram",
     "ramazan",
     "resmi tatil"
+   ],
+   "en": [
+    "holidays",
+    "calendar",
+    "ramadan",
+    "eid",
+    "islamic date",
+    "rabi ul awal",
+    "public holiday",
+    "muharram"
+   ],
+   "ro": [
+    "sarbatori",
+    "calendar",
+    "craciun",
+    "paste",
+    "zile libere"
    ]
   },
   {
@@ -951,6 +1468,20 @@
    "tr": [
     "çeviri",
     "ingilizce"
+   ],
+   "en": [
+    "translate",
+    "translation",
+    "english to urdu",
+    "urdu to english",
+    "dictionary",
+    "meaning in urdu"
+   ],
+   "ro": [
+    "traducere",
+    "translate",
+    "dictionar",
+    "traducator"
    ]
   },
   {
@@ -961,7 +1492,483 @@
    "ru": [],
    "uz": [],
    "az": [],
-   "tr": []
+   "tr": [],
+   "en": [],
+   "ro": []
+  },
+  {
+   "id": "quran",
+   "name": "Коран, молитвы, дуа",
+   "group": "c",
+   "bet": "low",
+   "ru": [
+    "сура",
+    "сураси",
+    "суросу",
+    "сүресі",
+    "аят аль курси",
+    "аятуль курси",
+    "оятал курси",
+    "дуа",
+    "дуба",
+    "дұғасы",
+    "коран",
+    "куран",
+    "құран",
+    "фатиха",
+    "молитва"
+   ],
+   "uz": [
+    "surasi",
+    "duosi",
+    "oyatal kursi",
+    "qur'on",
+    "duo"
+   ],
+   "az": [
+    "suresi",
+    "surəsi",
+    "duası",
+    "ayətəl kürsi",
+    "ayatul kursi",
+    "quran"
+   ],
+   "tr": [],
+   "ro": [
+    "rugaciune",
+    "rugăciune",
+    "biblia",
+    "psalmul",
+    "tatal nostru"
+   ],
+   "en": [
+    "surah",
+    "dua",
+    "ayatul kursi",
+    "quran",
+    "darood",
+    "4 qul",
+    "kalma",
+    "durood"
+   ]
+  },
+  {
+   "id": "drawings",
+   "name": "Рисунки, картинки, мехенди",
+   "group": "c",
+   "bet": "low",
+   "ru": [
+    "рисунки",
+    "рисунок",
+    "картинки",
+    "раскраски",
+    "раскраска",
+    "белый фон",
+    "обои на телефон",
+    "срисовки"
+   ],
+   "uz": [
+    "rasmlar",
+    "rasm chizish",
+    "rasmi",
+    "chiroyli rasmlar"
+   ],
+   "az": [
+    "şəkilləri",
+    "sekilleri",
+    "şəkillər",
+    "rəsm",
+    "rəsmlər"
+   ],
+   "tr": [],
+   "ro": [
+    "desene",
+    "desen",
+    "imagini",
+    "de colorat",
+    "planse de colorat"
+   ],
+   "en": [
+    "mehndi design",
+    "mehndi designs",
+    "drawing",
+    "wallpaper",
+    "coloring pages",
+    "dp",
+    "pics"
+   ]
+  },
+  {
+   "id": "school_ref",
+   "name": "Школьные справочники и английская грамматика",
+   "group": "c",
+   "bet": "low",
+   "ru": [
+    "таблица менделеева",
+    "таблица умножения",
+    "алфавит",
+    "present simple",
+    "present continuous",
+    "present perfect",
+    "past simple",
+    "passive voice",
+    "падежи",
+    "неправильные глаголы",
+    "теорема",
+    "формулы",
+    "менделеев кестесі"
+   ],
+   "uz": [
+    "mendeleyev jadvali",
+    "davriy jadval",
+    "alifbo",
+    "irregular verbs",
+    "present simple"
+   ],
+   "az": [
+    "vurma cedveli",
+    "vurma cədvəli",
+    "əlifba",
+    "mendeleyev cədvəli",
+    "present simple"
+   ],
+   "tr": [],
+   "ro": [
+    "tabla inmultirii",
+    "alfabetul",
+    "present simple",
+    "verbe neregulate"
+   ],
+   "en": [
+    "periodic table",
+    "multiplication table",
+    "present simple",
+    "present continuous",
+    "past tense",
+    "tenses",
+    "irregular verbs",
+    "passive voice"
+   ]
+  },
+  {
+   "id": "poems",
+   "name": "Стихи, пословицы, загадки",
+   "group": "c",
+   "bet": "low",
+   "ru": [
+    "стихи",
+    "стих",
+    "пословицы",
+    "поговорки",
+    "загадки",
+    "тақпақ",
+    "тақпақтар",
+    "өлеңдері",
+    "өлең",
+    "анекдоты",
+    "макал лакаптар"
+   ],
+   "uz": [
+    "sherlar",
+    "sher",
+    "maqollar",
+    "topishmoqlar",
+    "tez aytishlar",
+    "she'rlar"
+   ],
+   "az": [
+    "şeirlər",
+    "şeiri",
+    "seirler",
+    "seiri",
+    "atalar sözləri",
+    "tapmacalar"
+   ],
+   "tr": [],
+   "ro": [
+    "poezii",
+    "poezie",
+    "ghicitori",
+    "proverbe",
+    "zicatori"
+   ],
+   "en": [
+    "poetry",
+    "shayari",
+    "poem",
+    "poems",
+    "quotes",
+    "urdu poetry"
+   ]
+  },
+  {
+   "id": "driving",
+   "name": "ПДД и экзамен на права",
+   "group": "c",
+   "bet": "low",
+   "ru": [
+    "пдд",
+    "билеты пдд",
+    "экзамен пдд",
+    "дорожные знаки",
+    "водительские права",
+    "водительское удостоверение",
+    "автошкола"
+   ],
+   "uz": [
+    "avtotest",
+    "yo'l harakati qoidalari",
+    "yhq",
+    "haydovchilik guvohnomasi",
+    "prava"
+   ],
+   "az": [
+    "yol nişanları",
+    "yol hərəkəti qaydaları",
+    "sürücülük vəsiqəsi",
+    "imtahan biletləri"
+   ],
+   "tr": [],
+   "ro": [
+    "bilete auto",
+    "examen auto",
+    "permis de conducere",
+    "regulamentul circulatiei",
+    "indicatoare rutiere",
+    "teste auto",
+    "test auto",
+    "auto test"
+   ],
+   "en": [
+    "driving license",
+    "license test",
+    "traffic signs",
+    "e challan",
+    "learner permit"
+   ]
+  },
+  {
+   "id": "garden",
+   "name": "Сад, огород, цветы",
+   "group": "c",
+   "bet": "low",
+   "ru": [
+    "рассада",
+    "огород",
+    "комнатные растения",
+    "гортензия",
+    "пионы",
+    "орхидея",
+    "обрезка",
+    "удобрение",
+    "посадка рассады",
+    "садовые цветы"
+   ],
+   "uz": [
+    "ko'chat",
+    "ekish",
+    "pomidor ekish",
+    "gul ekish"
+   ],
+   "az": [
+    "bitki",
+    "bitkilər",
+    "əkin",
+    "toxum"
+   ],
+   "tr": [],
+   "ro": [
+    "gradina",
+    "plantare",
+    "rasaduri",
+    "pomi fructiferi",
+    "flori"
+   ],
+   "en": [
+    "plants",
+    "gardening",
+    "how to grow",
+    "flowers"
+   ]
+  },
+  {
+   "id": "fuel",
+   "name": "Цены на бензин",
+   "group": "c",
+   "bet": "low",
+   "ru": [
+    "цена бензина",
+    "цены на бензин",
+    "бензин",
+    "дизель",
+    "аи 92"
+   ],
+   "uz": [
+    "benzin narxi",
+    "benzin",
+    "metan narxi",
+    "propan narxi"
+   ],
+   "az": [
+    "benzin qiyməti",
+    "benzin",
+    "dizel"
+   ],
+   "tr": [],
+   "ro": [
+    "pret benzina",
+    "motorina",
+    "carburant",
+    "pret carburant"
+   ],
+   "en": [
+    "petrol price",
+    "fuel price",
+    "diesel price",
+    "petrol rate"
+   ]
+  },
+  {
+   "id": "bills",
+   "name": "Счета за свет и коммуналку",
+   "group": "c",
+   "bet": "low",
+   "ru": [
+    "квитанция",
+    "коммунальные услуги",
+    "счет за свет",
+    "оплата за свет",
+    "тариф на электроэнергию"
+   ],
+   "uz": [
+    "kommunal to'lov",
+    "elektr energiya",
+    "svet uchun to'lov",
+    "gaz uchun to'lov"
+   ],
+   "az": [
+    "işıq pulu",
+    "kommunal",
+    "qaz pulu"
+   ],
+   "tr": [],
+   "ro": [
+    "factura",
+    "tarif energie",
+    "energie electrica"
+   ],
+   "en": [
+    "electricity bill",
+    "bill check",
+    "online bill",
+    "duplicate bill",
+    "gas bill",
+    "mepco bill",
+    "lesco bill",
+    "pesco bill",
+    "iesco bill",
+    "gepco bill",
+    "fesco bill",
+    "hesco bill",
+    "sngpl bill",
+    "ssgc bill",
+    "k electric bill"
+   ]
+  },
+  {
+   "id": "cricket",
+   "name": "Крикет",
+   "group": "c",
+   "bet": "high",
+   "ru": [
+    "крикет"
+   ],
+   "uz": [],
+   "az": [],
+   "tr": [],
+   "ro": [],
+   "en": [
+    "cricket",
+    "live score",
+    "psl",
+    "pak vs",
+    "ind vs",
+    "aus vs",
+    "eng vs",
+    "sa vs",
+    "nz vs",
+    "sl vs",
+    "ban vs",
+    "afg vs",
+    "wi vs",
+    "zim vs",
+    "match today",
+    "live match",
+    "t20",
+    "odi",
+    "scorecard"
+   ]
+  },
+  {
+   "id": "quiz",
+   "name": "Ответы на викторины",
+   "group": "c",
+   "bet": "low",
+   "ru": [],
+   "uz": [],
+   "az": [],
+   "tr": [],
+   "ro": [],
+   "en": [
+    "telenor answer",
+    "quiz answer",
+    "quiz answers",
+    "today answer",
+    "jazz answer",
+    "zong answer"
+   ]
+  },
+  {
+   "id": "beauty",
+   "name": "Стрижки, маникюр, макияж",
+   "group": "c",
+   "bet": "low",
+   "ru": [
+    "маникюр",
+    "стрижка",
+    "стрижки",
+    "прически",
+    "причёски",
+    "прическа",
+    "макияж"
+   ],
+   "uz": [
+    "soch turmagi",
+    "manikyur",
+    "soch turmaklari"
+   ],
+   "az": [
+    "manikür",
+    "saç düzümü",
+    "dırnaq dizaynı",
+    "makiyaj"
+   ],
+   "tr": [],
+   "ro": [
+    "manichiura",
+    "tunsori",
+    "coafuri",
+    "machiaj",
+    "unghii"
+   ],
+   "en": [
+    "haircut",
+    "hairstyle",
+    "nail art",
+    "wolf cut",
+    "makeup",
+    "hair cut"
+   ]
   }
  ]
 }

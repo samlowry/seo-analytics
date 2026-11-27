@@ -10,10 +10,10 @@ ceil = {(r['cc'], r['niche']): int(float(r['est_visits'])) for r in csv.DictRead
 for r in rows:
     for k in ('niche_volume', 'est_visits', 'sample_visits', 'sample_keys', 'weak_keys'): r[k] = int(float(r[k]))
 BET = {'high': 'высокая', 'medium': 'средняя', 'low': 'низкая'}
-LANG = {'ru': 'рус', 'uz': 'узб', 'az': 'азерб', 'tr': 'тур'}
+LANG = {'ru': 'рус', 'uz': 'узб', 'az': 'азерб', 'tr': 'тур', 'ro': 'рум', 'en': 'англ'}
 def f(n): return f'{n:,}'.replace(',', ' ')
 out = []
-for cc in ['UZ', 'KZ', 'AZ', 'TR', 'KG']:
+for cc in ['UZ', 'KZ', 'AZ', 'KG', 'MD', 'PK']:  # TR снята 25.11.2026 — не рабочее гео
     rr = [r for r in rows if r['cc'] == cc]; total = sum(r['niche_volume'] for r in rr); thr = SHARE * total
     ok = sorted([r for r in rr if r['culled'] == 'False' and r['niche_volume'] >= thr], key=lambda r: -r['est_visits'])
     culled = [r for r in rr if r['culled'] == 'True']; small = [r for r in rr if r['culled'] == 'False' and r['niche_volume'] < thr]
