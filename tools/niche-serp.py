@@ -9,7 +9,7 @@ import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = f'{ROOT}/results/niche-serp'
-GEO = {'UZ': 2860, 'KZ': 2398, 'AZ': 2031, 'TR': 2792, 'KG': 2417}
+GEO = {'UZ': 2860, 'KZ': 2398, 'AZ': 2031, 'TR': 2792, 'KG': 2417, 'MD': 2498, 'PK': 2586}
 E = {}
 for l in open(f'{ROOT}/.env'):
     l = l.split('#')[0].strip()

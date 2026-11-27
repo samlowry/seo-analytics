@@ -6,10 +6,13 @@ niche-scan/data/niche-volumes.csv (объём ниши по языкам и вы
 Ключ относится к нише, если в нём есть все слова одного из её исходных слов (см. word_hit); при нескольких нишах — к той,
 чьё совпавшее исходное слово длиннее. Выборка: на нишу × страну до 15 ключей доминирующего языка — самый частотный ключ
 каждого parent_topic Ahrefs, по убыванию частотности; первые 3 снимаются с двумя страницами."""
-import json, glob, os, re, collections, csv
+import json, glob, os, re, collections, csv, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from niche_brand import brand
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 N = json.load(open(f'{ROOT}/niche-scan/seeds.json'))['niches']
-LANGS = {'UZ': ['ru', 'uz'], 'KZ': ['ru'], 'AZ': ['az', 'ru'], 'TR': ['tr'], 'KG': ['ru']}
+# TR снята 25.11.2026: не рабочее гео. MD и PK добавлены 27.11.2026.
+LANGS = {'UZ': ['ru', 'uz'], 'KZ': ['ru'], 'AZ': ['az', 'ru'], 'KG': ['ru'], 'MD': ['ro', 'ru'], 'PK': ['en']}
 SAMPLE, PAGE2 = 15, 3
 # Адалт-запросы — отдельная ниша `adult`, а не часть «кино» или «аниме». Ищутся в выгрузках других ниш (своей выгрузки
 # по адалт-словам нет), поэтому ниша неполная. Без re.I: под ним турецкое «ı» совпадает с «i» (`sıkıştırma` ловилось как `sikiş`).
@@ -33,11 +36,14 @@ def lang_of(kw, cc):
     Кириллица → ru (узбекская кириллица и казахский/кыргызский здесь тоже считаются ru-слоем), латиница → местный язык."""
     if cc in ('KZ', 'KG'): return 'ru'
     if cc == 'TR': return 'tr'
+    if cc == 'PK': return 'en'  # запросы в PK — английский латиницей (keyword_language=en у Ahrefs), урду арабицей почти нет
+    if cc == 'MD': return 'ru' if len(re.findall('[а-яё]', kw.lower())) > len(re.findall('[a-zăâîșțşţ]', kw.lower())) else 'ro'
     cyr = len(re.findall('[а-яёўқғҳ]', kw.lower())); lat = len(re.findall('[a-zəğıöüşç]', kw.lower()))
     return 'ru' if cyr > lat else LANGS[cc][1] if cc == 'UZ' else 'az'
 rows = {}
 for f in sorted(glob.glob(f'{ROOT}/niche-scan/data/kw-*.json')):
     d = json.load(open(f))
+    if d['cc'] not in LANGS: continue
     for k in d['keywords']:
         key = (d['cc'], k['keyword'])
         if key in rows: continue
@@ -60,6 +66,7 @@ for (cc, nid), lang in dom.items():
     kws = sorted([r for r in rows.values() if r['cc'] == cc and r['niche'] == nid and r['lang'] == lang], key=lambda r: -r['volume'])
     seen = set(); picked = []
     for r in kws:
+        if brand(r): continue  # брендовые и навигационные — не в выборку (score их тоже выбрасывает)
         if r['parent'] in seen: continue
         seen.add(r['parent']); picked.append(r)
         if len(picked) == SAMPLE: break
